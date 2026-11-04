@@ -1461,6 +1461,354 @@ namespace OverflowHelper.core
 
             correctionAdd("mineing", "mining");
 
+            // Note: "choose" and "chose" are in an alternative word set
+            correctionAdd("choosen", "chosen");
+            correctionAdd("chozen", "chosen");
+
+            correctionAdd("choses", "chooses");
+
+            correctionAdd("choising", "choosing");
+            correctionAdd("chosing", "choosing");
+
+            correctionAdd("un-chosen", "unchosen");
+
+            correctionAdd("cohoice", "choice");
+            correctionAdd("choise", "choice");
+            correctionAdd("Choise", "choice");
+            correctionAdd("chioce", "choice"); // A true typo
+            correctionAdd("choce", "choice");
+
+            // The noun
+            correctionAdd("choises", "choices");
+
+            correctionAdd("misschoice", "mischoice");
+
+            correctionAdd("of choose", "of choice");
+
+            correctionAdd("Multiple choice", "multiple-choice");
+
+            correctionAdd("MCQ", "multiple-choice question");
+
+            correctionAdd("gpa", "GPA");
+
+            correctionAdd("mark-sheet", "marksheet");
+
+            correctionAdd("gymnaisum", "gymnasium");
+
+            correctionAdd("University", "university");
+            correctionAdd("univercity", "university");
+            correctionAdd("uneversity", "university");
+            correctionAdd("univeristy", "university");
+            correctionAdd("universty", "university");
+            correctionAdd("univ", "university");
+            correctionAdd("uni", "university");
+            correctionAdd("Uni", "university");
+
+            correctionAdd("Universities", "universities");
+            correctionAdd("unis", "universities");
+            correctionAdd("Unis", "universities");
+
+            correctionAdd("Lecture", "lecture");
+
+            correctionAdd("eton", "Eton");
+
+            // A portmanteau of Oxford and Cambridge (United Kingdom)
+            correctionAdd("oxbridge", "Oxbridge");
+
+            correctionAdd("The Oxford Union Society", "Oxford Union");
+
+            correctionAdd("Cambridge analytic", "Cambridge Analytica");
+
+            correctionAdd("achademia", "academia");
+            correctionAdd("achedemia", "academia");
+            correctionAdd("Academia", "academia");
+
+            correctionAdd("academians", "academicians");
+
+            correctionAdd("accademic", "academic");
+            correctionAdd("acamedic", "academic");
+            correctionAdd("acedemic", "academic");
+
+            correctionAdd("Associate Lecturer", "associate lecturer");
+
+            correctionAdd("teachung", "teaching");
+
+            correctionAdd("teached", "taught");
+            correctionAdd("taugth", "taught");
+
+            correctionAdd("self taught", "self-taught");
+
+            correctionAdd("Teachers", "teachers");
+
+            // But note it is now ambiguous due to the machine learning
+            // dataset of the same name (see e.g.
+            // <https://huggingface.co/datasets/eli5>)
+            correctionAdd("explain to me like I am 10 years old", "explain like I'm five");
+            correctionAdd("teach me like I'm five", "explain like I'm five");
+            correctionAdd("like I am 10 years old", "explain like I'm five");
+            correctionAdd("like I'm five", "explain like I'm five");
+            correctionAdd("ELI-5", "explain like I'm five");
+            correctionAdd("ELIF", "explain like I'm five");
+            correctionAdd("ELI5", "explain like I'm five");
+
+            correctionAdd("scholorship", "scholarship");
+
+            correctionAdd("ta", "TA");
+
+            correctionAdd("tuter", "tutor");
+
+            correctionAdd("Tutoring", "tutoring");
+
+            correctionAdd("Tuition", "tuition");
+
+            correctionAdd("studyingh", "studying");
+            correctionAdd("studyig", "studying");
+            correctionAdd("studing", "studying");
+
+            // The noun. But the verb is spelled the same
+            correctionAdd("self study", "self-study");
+
+            correctionAdd("self studying", "self-studying");
+
+            correctionAdd("learen", "learn");
+            correctionAdd("lern", "learn");
+            correctionAdd("lean", "learn");
+
+            correctionAdd("learniong", "learning");
+            correctionAdd("learninc", "learning");
+            correctionAdd("leaning", "learning");
+            correctionAdd("learing", "learning");
+
+            correctionAdd("lernt", "learnt");
+
+            correctionAdd("leaned", "learned");
+
+            correctionAdd("learn-able", "learnable");
+
+            correctionAdd("re-learn", "relearn");
+
+            correctionAdd("re-learning", "relearning");
+
+            correctionAdd("selef-learning", "self-learning");
+
+            correctionAdd("learned the hardway", "learned the hard way");
+            correctionAdd("hard way", "learned the hard way");
+            correctionAdd("hardway", "learned the hard way");
+
+            // We need a better reference. It doesn't really
+            // cover ***pretending*** being helpless (too
+            // much on the psychology side):
+            //
+            // A way of behaving to ***avoid work*** (in contrast
+            // to external factors).
+            //
+            correctionAdd("Learned helplessness", "learned helplessness");
+
+            correctionAdd("Helplessness", "helplessness");
+
+            correctionAdd("under-way", "under way");
+
+            correctionAdd("underneeth", "underneath");
+
+            // Note: "explain" is in an alternative word set
+            correctionAdd("explaines", "explains");
+
+            correctionAdd("explainign", "explaining");
+            correctionAdd("explainig", "explaining");
+            correctionAdd("explaning", "explaining");
+            correctionAdd("explainin", "explaining");
+            correctionAdd("splaining", "explaining");
+            correctionAdd("splainin", "explaining");
+
+            correctionAdd("explainined", "explained");
+            correctionAdd("explaiend", "explained");
+
+            // A defence of "overexplaining" (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgwepJk-cekxOkfZt4J4AaABAg>):
+            //
+            //   "...pushing people to write as if they
+            //    never made it past the 8th grade."
+            //
+            // And (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgxBDvRBy5FcNDl40kp4AaABAg.AJ7ihDFjW95AJUPg1zLW-F&pp=0gcJCSMANpG00pGi>):
+            //
+            //   "...seeing an em-dash or semicolon used incorrectly is still
+            //   the surest tell of a lazy human writer — like, I can think
+            //   of four excellent reasons which I will now list; they
+            //   punctuate like they speak, they can't be bothered to
+            //   proof-read their own sentences to figure out what
+            //   point they wanted to make, and they think certain
+            //   punctuation marks just look cooler than others so
+            //   might as well use 'em."
+            //
+            // And (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgyblEh2ej87Usldu4p4AaABAg.AJGfA_wnUXiAJMFRs29gxW&pp=0gcJCSMANpG00pGi>):
+            //
+            //   "At its core, language is about communication, however,
+            //    I think we're doing ourselves a disservice by setting
+            //    our standards to the bare minimum."
+            //
+            // And punctuation matters (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgzYK9m_5_Nj7oS_ayV4AaABAg&pp=0gcJCSMANpG00pGi>):
+            //
+            //    A panda bear eats shoots and leaves.
+            //    A panda bear eats shoots, and leaves.
+            //    A panda bear eats, shoots, and leaves.
+            //
+            correctionAdd("over explaining", "overexplaining");
+
+            correctionAdd("explenations", "explanation"); // Not 100% correct - plural.
+            correctionAdd("Explaination", "explanation");
+            correctionAdd("explaination", "explanation");
+            correctionAdd("Explannation", "explanation");
+            correctionAdd("explannation", "explanation");
+            correctionAdd("Expalanation", "explanation");
+            correctionAdd("expalanation", "explanation");
+            correctionAdd("explenation", "explanation");
+            correctionAdd("explination", "explanation");
+            correctionAdd("Explination", "explanation");
+            correctionAdd("explanition", "explanation");
+            correctionAdd("Explainaton", "explanation");
+            correctionAdd("explainaton", "explanation");
+            correctionAdd("expaination", "explanation");
+            correctionAdd("Explanation", "explanation");
+            correctionAdd("explonation", "explanation");
+            correctionAdd("expanation", "explanation");
+            correctionAdd("Expanation", "explanation");
+            correctionAdd("explnation", "explanation");
+            correctionAdd("explantion", "explanation");
+            correctionAdd("Explantion", "explanation");
+            correctionAdd("explanatin", "explanation");
+            correctionAdd("explanaton", "explanation");
+            correctionAdd("explain", "explanation"); // For example, "the explain"
+
+            correctionAdd("explainations", "explanations");
+
+            // Alternative URL:
+            //
+            //   <https://dictionary.cambridge.org/dictionary/english/self-explaining>
+            //     A synonym
+            //
+            correctionAdd("self explanatory", "self-explanatory");
+            correctionAdd("Self explanatory", "self-explanatory");
+            correctionAdd("self explaining", "self-explanatory");
+            correctionAdd("self-explaining", "self-explanatory");
+
+            correctionAdd("dislexia", "dyslexia");
+            correctionAdd("dyxlexia", "dyslexia");
+
+            // Related to learning disabilities
+            correctionAdd("Aphantasia", "aphantasia");
+
+            // Related to learning disabilities
+            correctionAdd("Dyscalculia", "dyscalculia");
+
+            // Related to learning disabilities
+            correctionAdd("Hyperlexia", "hyperlexia");
+
+            // Related to learning disabilities
+            correctionAdd("kinaesthesia", "proprioception");
+            correctionAdd("Kinesthetic", "proprioception");
+            correctionAdd("kinesthesia", "proprioception");
+            correctionAdd("kinesthetic", "proprioception");
+
+            correctionAdd("LMS", "learning management system");
+
+            correctionAdd("Project Based Learning", "project-based learning");
+
+            correctionAdd("SoloLearn", "Sololearn");
+            correctionAdd("sololearn", "Sololearn");
+
+            correctionAdd("Blackboard Learning System", "Blackboard Learn");
+            correctionAdd("Blackboard", "Blackboard Learn");
+            correctionAdd("BlackBoard", "Blackboard Learn");
+            correctionAdd("blackboard", "Blackboard Learn");
+
+            correctionAdd("Student", "student");
+
+            correctionAdd("Undergraduate", "undergraduate");
+            correctionAdd("undergrad", "undergraduate");
+
+            correctionAdd("graduade", "graduate");
+            correctionAdd("Graduate", "graduate");
+            correctionAdd("grad", "graduate");
+
+            correctionAdd("Freshman", "freshman");
+
+            correctionAdd("Diploma", "diploma");
+
+            correctionAdd("Thesis", "thesis");
+
+            correctionAdd("bachelor's", "bachelor's degree");
+            correctionAdd("bachelors", "bachelor's degree");
+
+            correctionAdd("Bachelor of Science", "B.Sc"); // The official expanded name
+            correctionAdd("Bscit", "B.Sc");
+            correctionAdd("Bsci", "B.Sc");
+            correctionAdd("BSc", "B.Sc");
+            correctionAdd("BSC", "B.Sc");
+            correctionAdd("B.S", "B.Sc");
+            correctionAdd("BS", "B.Sc");
+
+            correctionAdd("Master's degree", "master's degree");
+            correctionAdd("Masters degree", "master's degree");
+            correctionAdd("masters degree", "master's degree");
+            correctionAdd("master degree", "master's degree");
+            correctionAdd("Master's", "master's degree");
+            correctionAdd("master's", "master's degree");
+            correctionAdd("Master’s", "master's degree");
+            correctionAdd("masters", "master's degree");
+            correctionAdd("Masters", "master's degree");
+            correctionAdd("master", "master's degree");
+
+            // Actually "M.Sc.", but we currently don't allow it...
+            correctionAdd("Master of Science", "M.Sc"); // The official expanded name
+            correctionAdd("MSc", "M.Sc");
+            correctionAdd("msc", "M.Sc");
+            correctionAdd("Msc", "M.Sc");
+            correctionAdd("M.S", "M.Sc");
+            correctionAdd("MS", "M.Sc");
+
+            correctionAdd("honors degree", "honours degree");
+            correctionAdd("Hons", "honours degree");
+            correctionAdd("hons", "honours degree");
+
+            correctionAdd("postgrad", "postgraduate degree");
+
+            correctionAdd("Ph.D", "Ph.D.");
+            correctionAdd("phd", "Ph.D.");
+            correctionAdd("PHD", "Ph.D.");
+            correctionAdd("Phd", "Ph.D.");
+            correctionAdd("PhD", "Ph.D.");
+
+            correctionAdd("post doc", "postdoc");
+            correctionAdd("Post-Doc", "postdoc");
+            correctionAdd("post-doc", "postdoc");
+            correctionAdd("Post-doc", "postdoc");
+            correctionAdd("PostDoc", "postdoc");
+            correctionAdd("Postdoc", "postdoc");
+
+            correctionAdd("Tenure-Track", "tenure-track");
+
+            correctionAdd("PI", "principal investigator");
+
+            correctionAdd("proffessor", "professor");
+            correctionAdd("Professor", "professor");
+            correctionAdd("proffesor", "professor");
+            correctionAdd("perfessor", "professor");
+            correctionAdd("prefessor", "professor");
+            correctionAdd("prof", "professor");
+            correctionAdd("Prof", "professor");
+
+            correctionAdd("adjunc professor", "adjunct professor");
+
+            // Academic publication
+            correctionAdd("arkivx", "arXiv");
+            correctionAdd("arxiv", "arXiv");
+            correctionAdd("ArXiv", "arXiv");
+            correctionAdd("Arxiv", "arXiv");
+            correctionAdd("axiv", "arXiv");
+
+            // Academic publication. List of predatory journals.
+            correctionAdd("Beall's list", "Beall's List");
+            correctionAdd("Bealls list", "Beall's List");
+
             correctionAdd("reliefed", "relieved");
             correctionAdd("releaved", "relieved");
 
@@ -1667,10 +2015,10 @@ namespace OverflowHelper.core
 
             correctionAdd("reallly", "really");
             correctionAdd("realle", "really");
-            correctionAdd("leally", "really");
             correctionAdd("reallt", "really"); // A true typo
             correctionAdd("REALLT", "really");
             correctionAdd("teally", "really");
+            correctionAdd("leally", "really");
             correctionAdd("realy", "really");
             correctionAdd("relly", "really");
             correctionAdd("rally", "really");
@@ -2156,11 +2504,6 @@ namespace OverflowHelper.core
             correctionAdd("sub-project", "subproject");
 
             correctionAdd("sub projects", "subprojects");
-
-            correctionAdd("Project Based Learning", "project-based learning");
-
-            correctionAdd("SoloLearn", "Sololearn");
-            correctionAdd("sololearn", "Sololearn");
 
             correctionAdd("Chief Executive Officer", "CEO");
             correctionAdd("chief executive officer", "CEO");
@@ -9922,6 +10265,7 @@ namespace OverflowHelper.core
             correctionAdd("double-negative", "double negative");
 
             correctionAdd("possition", "position");
+            correctionAdd("posistion", "position");
             correctionAdd("poisiton", "position");
             correctionAdd("posotion", "position"); // A true typo
             correctionAdd("postion", "position");
@@ -11411,14 +11755,6 @@ namespace OverflowHelper.core
 
             correctionAdd("throw-away", "throwaway");
             correctionAdd("throw away", "throwaway");
-
-            correctionAdd("learned the hardway", "learned the hard way");
-            correctionAdd("hard way", "learned the hard way");
-            correctionAdd("hardway", "learned the hard way");
-
-            correctionAdd("under-way", "under way");
-
-            correctionAdd("underneeth", "underneath");
 
             // Note: "one", "two", "five", "seven" are in an
             //       alternative word set (currently the third)
@@ -17598,339 +17934,6 @@ namespace OverflowHelper.core
             correctionAdd("Pound sign", "pound sign");
 
             correctionAdd("first-mover", "first mover");
-
-            correctionAdd("choosen", "chosen");
-            correctionAdd("chozen", "chosen");
-
-            correctionAdd("choses", "chooses");
-
-            correctionAdd("choising", "choosing");
-            correctionAdd("chosing", "choosing");
-
-            correctionAdd("un-chosen", "unchosen");
-
-            correctionAdd("cohoice", "choice");
-            correctionAdd("choise", "choice");
-            correctionAdd("Choise", "choice");
-            correctionAdd("chioce", "choice"); // A true typo
-            correctionAdd("choce", "choice");
-
-            // The noun
-            correctionAdd("choises", "choices");
-
-            correctionAdd("misschoice", "mischoice");
-
-            correctionAdd("of choose", "of choice");
-
-            correctionAdd("Multiple choice", "multiple-choice");
-
-            correctionAdd("MCQ", "multiple-choice question");
-
-            correctionAdd("gpa", "GPA");
-
-            correctionAdd("mark-sheet", "marksheet");
-
-            correctionAdd("gymnaisum", "gymnasium");
-
-            correctionAdd("University", "university");
-            correctionAdd("univercity", "university");
-            correctionAdd("uneversity", "university");
-            correctionAdd("univeristy", "university");
-            correctionAdd("universty", "university");
-            correctionAdd("univ", "university");
-            correctionAdd("uni", "university");
-            correctionAdd("Uni", "university");
-
-            correctionAdd("Universities", "universities");
-            correctionAdd("unis", "universities");
-            correctionAdd("Unis", "universities");
-
-            correctionAdd("Lecture", "lecture");
-
-            correctionAdd("eton", "Eton");
-
-            // A portmanteau of Oxford and Cambridge (United Kingdom)
-            correctionAdd("oxbridge", "Oxbridge");
-
-            correctionAdd("The Oxford Union Society", "Oxford Union");
-
-            correctionAdd("Cambridge analytic", "Cambridge Analytica");
-
-            correctionAdd("achademia", "academia");
-            correctionAdd("achedemia", "academia");
-            correctionAdd("Academia", "academia");
-
-            correctionAdd("academians", "academicians");
-
-            correctionAdd("accademic", "academic");
-            correctionAdd("acamedic", "academic");
-            correctionAdd("acedemic", "academic");
-
-            correctionAdd("Associate Lecturer", "associate lecturer");
-
-            correctionAdd("teachung", "teaching");
-
-            correctionAdd("teached", "taught");
-            correctionAdd("taugth", "taught");
-
-            correctionAdd("self taught", "self-taught");
-
-            correctionAdd("Teachers", "teachers");
-
-            // But note it is now ambiguous due to the machine learning
-            // dataset of the same name (see e.g.
-            // <https://huggingface.co/datasets/eli5>)
-            correctionAdd("explain to me like I am 10 years old", "explain like I'm five");
-            correctionAdd("teach me like I'm five", "explain like I'm five");
-            correctionAdd("like I am 10 years old", "explain like I'm five");
-            correctionAdd("like I'm five", "explain like I'm five");
-            correctionAdd("ELI-5", "explain like I'm five");
-            correctionAdd("ELIF", "explain like I'm five");
-            correctionAdd("ELI5", "explain like I'm five");
-
-            correctionAdd("scholorship", "scholarship");
-
-            correctionAdd("ta", "TA");
-
-            correctionAdd("tuter", "tutor");
-
-            correctionAdd("Tutoring", "tutoring");
-
-            correctionAdd("Tuition", "tuition");
-
-            correctionAdd("studyingh", "studying");
-            correctionAdd("studyig", "studying");
-            correctionAdd("studing", "studying");
-
-            // The noun. But the verb is spelled the same
-            correctionAdd("self study", "self-study");
-
-            correctionAdd("self studying", "self-studying");
-
-            correctionAdd("learen", "learn");
-            correctionAdd("lern", "learn");
-
-            correctionAdd("learniong", "learning");
-            correctionAdd("learninc", "learning");
-            correctionAdd("leaning", "learning");
-            correctionAdd("learing", "learning");
-
-            correctionAdd("lernt", "learnt");
-
-            correctionAdd("leaned", "learned");
-
-            correctionAdd("learn-able", "learnable");
-
-            correctionAdd("re-learn", "relearn");
-
-            correctionAdd("re-learning", "relearning");
-
-            correctionAdd("selef-learning", "self-learning");
-
-            // Note: "explain" is in an alternative word set
-            correctionAdd("explaines", "explains");
-
-            correctionAdd("explainign", "explaining");
-            correctionAdd("explainig", "explaining");
-            correctionAdd("explaning", "explaining");
-            correctionAdd("explainin", "explaining");
-            correctionAdd("splaining", "explaining");
-            correctionAdd("splainin", "explaining");
-
-            correctionAdd("explainined", "explained");
-            correctionAdd("explaiend", "explained");
-
-            // A defence of "overexplaining" (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgwepJk-cekxOkfZt4J4AaABAg>):
-            //
-            //   "...pushing people to write as if they
-            //    never made it past the 8th grade."
-            //
-            // And (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgxBDvRBy5FcNDl40kp4AaABAg.AJ7ihDFjW95AJUPg1zLW-F&pp=0gcJCSMANpG00pGi>):
-            //
-            //   "...seeing an em-dash or semicolon used incorrectly is still
-            //   the surest tell of a lazy human writer — like, I can think
-            //   of four excellent reasons which I will now list; they
-            //   punctuate like they speak, they can't be bothered to
-            //   proof-read their own sentences to figure out what
-            //   point they wanted to make, and they think certain
-            //   punctuation marks just look cooler than others so
-            //   might as well use 'em."
-            //
-            // And (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgyblEh2ej87Usldu4p4AaABAg.AJGfA_wnUXiAJMFRs29gxW&pp=0gcJCSMANpG00pGi>):
-            //
-            //   "At its core, language is about communication, however,
-            //    I think we're doing ourselves a disservice by setting
-            //    our standards to the bare minimum."
-            //
-            // And punctuation matters (<https://www.youtube.com/watch?v=9Ch4a6ffPZY&lc=UgzYK9m_5_Nj7oS_ayV4AaABAg&pp=0gcJCSMANpG00pGi>):
-            //
-            //    A panda bear eats shoots and leaves.
-            //    A panda bear eats shoots, and leaves.
-            //    A panda bear eats, shoots, and leaves.
-            //
-            correctionAdd("over explaining", "overexplaining");
-
-            correctionAdd("explenations", "explanation"); // Not 100% correct - plural.
-            correctionAdd("Explaination", "explanation");
-            correctionAdd("explaination", "explanation");
-            correctionAdd("Explannation", "explanation");
-            correctionAdd("explannation", "explanation");
-            correctionAdd("Expalanation", "explanation");
-            correctionAdd("expalanation", "explanation");
-            correctionAdd("explenation", "explanation");
-            correctionAdd("explination", "explanation");
-            correctionAdd("Explination", "explanation");
-            correctionAdd("explanition", "explanation");
-            correctionAdd("Explainaton", "explanation");
-            correctionAdd("explainaton", "explanation");
-            correctionAdd("expaination", "explanation");
-            correctionAdd("Explanation", "explanation");
-            correctionAdd("explonation", "explanation");
-            correctionAdd("expanation", "explanation");
-            correctionAdd("Expanation", "explanation");
-            correctionAdd("explnation", "explanation");
-            correctionAdd("explantion", "explanation");
-            correctionAdd("Explantion", "explanation");
-            correctionAdd("explanatin", "explanation");
-            correctionAdd("explanaton", "explanation");
-            correctionAdd("explain", "explanation"); // For example, "the explain"
-
-            correctionAdd("explainations", "explanations");
-
-            // Alternative URL:
-            //
-            //   <https://dictionary.cambridge.org/dictionary/english/self-explaining>
-            //     A synonym
-            //
-            correctionAdd("self explanatory", "self-explanatory");
-            correctionAdd("Self explanatory", "self-explanatory");
-            correctionAdd("self explaining", "self-explanatory");
-            correctionAdd("self-explaining", "self-explanatory");
-
-            correctionAdd("dislexia", "dyslexia");
-            correctionAdd("dyxlexia", "dyslexia");
-
-            // Related to learning disabilities
-            correctionAdd("Aphantasia", "aphantasia");
-
-            // Related to learning disabilities
-            correctionAdd("Dyscalculia", "dyscalculia");
-
-            // Related to learning disabilities
-            correctionAdd("Hyperlexia", "hyperlexia");
-
-            // Related to learning disabilities
-            correctionAdd("kinaesthesia", "proprioception");
-            correctionAdd("Kinesthetic", "proprioception");
-            correctionAdd("kinesthesia", "proprioception");
-            correctionAdd("kinesthetic", "proprioception");
-
-            correctionAdd("LMS", "learning management system");
-
-            correctionAdd("Helplessness", "helplessness");
-
-            // We need a better reference. It doesn't really
-            // cover ***pretending*** being helpless (too
-            // much on the psychology side):
-            //
-            // A way of behaving to ***avoid work*** (in contrast
-            // to external factors).
-            //
-            correctionAdd("Learned helplessness", "learned helplessness");
-
-            correctionAdd("Blackboard Learning System", "Blackboard Learn");
-            correctionAdd("Blackboard", "Blackboard Learn");
-            correctionAdd("BlackBoard", "Blackboard Learn");
-            correctionAdd("blackboard", "Blackboard Learn");
-
-            correctionAdd("Student", "student");
-
-            correctionAdd("Undergraduate", "undergraduate");
-            correctionAdd("undergrad", "undergraduate");
-
-            correctionAdd("graduade", "graduate");
-            correctionAdd("Graduate", "graduate");
-            correctionAdd("grad", "graduate");
-
-            correctionAdd("Freshman", "freshman");
-
-            correctionAdd("Diploma", "diploma");
-
-            correctionAdd("Thesis", "thesis");
-
-            correctionAdd("bachelor's", "bachelor's degree");
-            correctionAdd("bachelors", "bachelor's degree");
-
-            correctionAdd("Bachelor of Science", "B.Sc"); // The official expanded name
-            correctionAdd("Bscit", "B.Sc");
-            correctionAdd("Bsci", "B.Sc");
-            correctionAdd("BSc", "B.Sc");
-            correctionAdd("BSC", "B.Sc");
-            correctionAdd("B.S", "B.Sc");
-            correctionAdd("BS", "B.Sc");
-
-            correctionAdd("Master's degree", "master's degree");
-            correctionAdd("Masters degree", "master's degree");
-            correctionAdd("masters degree", "master's degree");
-            correctionAdd("master degree", "master's degree");
-            correctionAdd("Master's", "master's degree");
-            correctionAdd("master's", "master's degree");
-            correctionAdd("Master’s", "master's degree");
-            correctionAdd("masters", "master's degree");
-            correctionAdd("Masters", "master's degree");
-            correctionAdd("master", "master's degree");
-
-            // Actually "M.Sc.", but we currently don't allow it...
-            correctionAdd("Master of Science", "M.Sc"); // The official expanded name
-            correctionAdd("MSc", "M.Sc");
-            correctionAdd("msc", "M.Sc");
-            correctionAdd("Msc", "M.Sc");
-            correctionAdd("M.S", "M.Sc");
-            correctionAdd("MS", "M.Sc");
-
-            correctionAdd("honors degree", "honours degree");
-            correctionAdd("Hons", "honours degree");
-            correctionAdd("hons", "honours degree");
-
-            correctionAdd("postgrad", "postgraduate degree");
-
-            correctionAdd("Ph.D", "Ph.D.");
-            correctionAdd("phd", "Ph.D.");
-            correctionAdd("PHD", "Ph.D.");
-            correctionAdd("Phd", "Ph.D.");
-            correctionAdd("PhD", "Ph.D.");
-
-            correctionAdd("post doc", "postdoc");
-            correctionAdd("Post-Doc", "postdoc");
-            correctionAdd("post-doc", "postdoc");
-            correctionAdd("Post-doc", "postdoc");
-            correctionAdd("PostDoc", "postdoc");
-            correctionAdd("Postdoc", "postdoc");
-
-            correctionAdd("Tenure-Track", "tenure-track");
-
-            correctionAdd("PI", "principal investigator");
-
-            correctionAdd("proffessor", "professor");
-            correctionAdd("Professor", "professor");
-            correctionAdd("proffesor", "professor");
-            correctionAdd("perfessor", "professor");
-            correctionAdd("prefessor", "professor");
-            correctionAdd("prof", "professor");
-            correctionAdd("Prof", "professor");
-
-            correctionAdd("adjunc professor", "adjunct professor");
-
-            // Academic publication
-            correctionAdd("arkivx", "arXiv");
-            correctionAdd("arxiv", "arXiv");
-            correctionAdd("ArXiv", "arXiv");
-            correctionAdd("Arxiv", "arXiv");
-            correctionAdd("axiv", "arXiv");
-
-            // Academic publication. List of predatory journals.
-            correctionAdd("Beall's list", "Beall's List");
-            correctionAdd("Bealls list", "Beall's List");
 
             correctionAdd("Silver light", "Silverlight");
             correctionAdd("silver light", "Silverlight");
@@ -24619,6 +24622,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Bose condensate", "Bose-Einstein condensate");
             correctionAdd("bose condensate", "Bose-Einstein condensate");
+            correctionAdd("BEC", "Bose-Einstein condensate");
 
             correctionAdd("Special Relativity", "special relativity");
 
@@ -24653,6 +24657,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Meißner–Ochsenfeld effect", "Meissner effect");
 
+            correctionAdd("Superconductivity", "superconductivity");
             correctionAdd("SC", "superconductivity");
 
             correctionAdd("superconductiong", "superconducting");
@@ -24702,6 +24707,8 @@ namespace OverflowHelper.core
             correctionAdd("QM", "quantum mechanics");
 
             correctionAdd("quantum-mechanical", "quantum mechanical");
+
+            correctionAdd("quantized", "quantised");
 
             correctionAdd("Schroedinger's equation", "Schrödinger equation");
             correctionAdd("Schrodinger's equation", "Schrödinger equation");
@@ -24789,6 +24796,20 @@ namespace OverflowHelper.core
 
             correctionAdd("Principal Quantum Number", "principal quantum number");
 
+            correctionAdd("Quantum Gravity", "quantum gravity");
+            correctionAdd("Quantum Gravi", "quantum gravity");
+
+            correctionAdd("wave-function", "wave function");
+            correctionAdd("wavefunction", "wave function");
+
+            correctionAdd("wave-like", "wavelike");
+
+            correctionAdd("super-positions", "superpositions");
+
+            correctionAdd("Born", "Max Born");
+
+            correctionAdd("Born Rule", "Born rule");
+
             // Quantum mechanics / general relativity
             correctionAdd("Wheeler-DeWitt metric", "Wheeler–DeWitt metric");
             correctionAdd("de-Witt metric", "Wheeler–DeWitt metric");
@@ -24839,20 +24860,6 @@ namespace OverflowHelper.core
             //   <https://fhi-aims.org/>
             //
             correctionAdd("FHI", "FHI-aims");
-
-            correctionAdd("Quantum Gravity", "quantum gravity");
-            correctionAdd("Quantum Gravi", "quantum gravity");
-
-            correctionAdd("wave-function", "wave function");
-            correctionAdd("wavefunction", "wave function");
-
-            correctionAdd("wave-like", "wavelike");
-
-            correctionAdd("super-positions", "superpositions");
-
-            correctionAdd("Born", "Max Born");
-
-            correctionAdd("Born Rule", "Born rule");
 
             correctionAdd("Many worlds interpretation", "Everett interpretation (many-worlds)");
             correctionAdd("Many-worlds interpretation", "Everett interpretation (many-worlds)");
@@ -58622,6 +58629,7 @@ namespace OverflowHelper.core
 
             correctionAdd("mostely", "mostly");
             correctionAdd("mostli", "mostly");
+            correctionAdd("Mostly", "mostly");
             correctionAdd("mosty", "mostly");
             correctionAdd("mstly", "mostly");
 
@@ -105397,9 +105405,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Outages", "outages");
 
-            correctionAdd("Lean", "lean");
-            correctionAdd("LEAN", "lean");
-
             correctionAdd("hdc", "HDC");
 
             correctionAdd("inexplicibaly", "inexplicably");
@@ -113745,8 +113750,6 @@ namespace OverflowHelper.core
 
             URL_Add("outages", "https://en.wiktionary.org/wiki/outage#Noun");
 
-            URL_Add("lean", "https://en.wikipedia.org/wiki/Lean_thinking");
-
             URL_Add("Kalman filter", "https://en.wikipedia.org/wiki/Kalman_filter");
 
             URL_Add("coffee break", "https://en.wiktionary.org/wiki/coffee_break#Noun");
@@ -115419,8 +115422,6 @@ namespace OverflowHelper.core
 
             URL_Add("after", "https://en.wiktionary.org/wiki/after#Adverb");
 
-            URL_Add("chosen", "https://en.wiktionary.org/wiki/choose#Verb");
-
             URL_Add("inferiority", "https://en.wiktionary.org/wiki/inferiority#Noun");
 
             URL_Add("serotonin", "https://en.wikipedia.org/wiki/Serotonin");
@@ -116118,8 +116119,6 @@ namespace OverflowHelper.core
             URL_Add("varieties", "https://en.wiktionary.org/wiki/variety#Noun");
 
             URL_Add("a blessing and a curse", "https://en.wiktionary.org/wiki/a_blessing_and_a_curse#Noun");
-
-            URL_Add("chooses", "https://en.wiktionary.org/wiki/choose#Verb");
 
             URL_Add("instalment", "https://en.wiktionary.org/wiki/instalment#Noun");
 
@@ -117831,29 +117830,31 @@ namespace OverflowHelper.core
 
             URL_Add("internationalisation and localisation", "https://en.wikipedia.org/wiki/Internationalization_and_localization");
 
-            URL_Add("locale", "https://en.wiktionary.org/wiki/locale#Noun");
-
-            URL_Add("delocalise", "https://en.wiktionary.org/wiki/delocalise#Verb");
-
-            URL_Add("nonlocal", "https://en.wiktionary.org/wiki/nonlocal#Adjective");
-
-            URL_Add("locally", "https://en.wiktionary.org/wiki/locally#Adverb");
-
-            URL_Add("nonlocality", "https://en.wikipedia.org/wiki/Quantum_nonlocality");
-
-            URL_Add("localisation", "https://en.wikipedia.org/wiki/Internationalization_and_localization");
-
             URL_Add("language localisation", "https://en.wikipedia.org/wiki/Language_localisation");
 
             URL_Add("localhost", "https://en.wikipedia.org/wiki/Localhost");
 
             URL_Add("LocalStack", "https://github.com/localstack/localstack/blob/main/docs/localstack-concepts/README.md");
 
+            URL_Add("locale", "https://en.wiktionary.org/wiki/locale#Noun");
+
+            URL_Add("delocalise", "https://en.wiktionary.org/wiki/delocalise#Verb");
+
+            URL_Add("locally", "https://en.wiktionary.org/wiki/locally#Adverb");
+
+            URL_Add("localisation", "https://en.wikipedia.org/wiki/Internationalization_and_localization");
+
+            URL_Add("nonlocal", "https://en.wiktionary.org/wiki/nonlocal#Adjective");
+
+            URL_Add("nonlocality", "https://en.wikipedia.org/wiki/Quantum_nonlocality");
+
             URL_Add("quantum", "https://en.wiktionary.org/wiki/quantum#Noun");
 
             URL_Add("quantum mechanics", "https://en.wikipedia.org/wiki/Quantum_mechanics");
 
             URL_Add("quantum mechanical", "https://en.wiktionary.org/wiki/quantum_mechanical#Adjective");
+
+            URL_Add("quantised", "https://en.wiktionary.org/wiki/quantise#Verb");
 
             URL_Add("quantum electrodynamics", "https://en.wikipedia.org/wiki/Quantum_electrodynamics");
 
@@ -120125,7 +120126,11 @@ namespace OverflowHelper.core
 
             URL_Add("tapwater", "https://en.wiktionary.org/wiki/tap_water#Noun");
 
+            URL_Add("chooses", "https://en.wiktionary.org/wiki/choose#Verb");
+
             URL_Add("choosing", "https://en.wiktionary.org/wiki/choose#Verb");
+
+            URL_Add("chosen", "https://en.wiktionary.org/wiki/choose#Verb");
 
             URL_Add("popped out", "https://en.wiktionary.org/wiki/pop_out#Verb");
 
@@ -151125,7 +151130,7 @@ namespace OverflowHelper.core
 
             URL_Add("Redox", "https://github.com/mattdibi/redox-keyboard");
 
-            URL_Add("Redux", "https://en.wikipedia.org/wiki/Redux_(JavaScript_library)");
+            URL_Add("Redux", "https://en.wikipedia.org/wiki/Redux_(software)"); // Old: <https://en.wikipedia.org/wiki/Redux_(JavaScript_library)>
 
             URL_Add("Redux Toolkit", "https://redux-toolkit.js.org/");
 
@@ -151674,6 +151679,126 @@ namespace OverflowHelper.core
             correctionAdd("miss-click_", "misclick_");
 
             correctionAdd("TIL_", "today I learned_");
+
+            correctionAdd("Lean_", "lean_");
+            correctionAdd("LEAN_", "lean_");
+
+            // Simulated intelligence. A company
+            correctionAdd("anthropic_", "Anthropic_");
+            correctionAdd("antropic_", "Anthropic_");
+            correctionAdd("tropic_", "Anthropic_");
+
+            // Simulated intelligence
+            //
+            // Probably an Anthropic term
+            //
+            correctionAdd("skill_", "agent skill_");
+
+            // Simulated intelligence
+            //
+            // Not to be confused with "LoRa" (the radio/RF thing)
+            //
+            correctionAdd("Low-Rank Adaptation_", "LoRA_");
+            correctionAdd("LoRa_", "LoRA_"); // Mostly for the cross-reference
+            correctionAdd("LORA_", "LoRA_");
+
+            // Simulated intelligence
+            correctionAdd("Artificial Superintelligence_", "artificial superintelligence_");
+            correctionAdd("ASI_", "artificial superintelligence_");
+
+            // Simulated intelligence. ChatGPT
+            correctionAdd("simulated intelligence halluciation_", "simulated intelligence hallucination_");
+            correctionAdd("AI hallucination_", "simulated intelligence hallucination_");
+            correctionAdd("AI halluciation_", "simulated intelligence hallucination_");
+            correctionAdd("hallucination_", "simulated intelligence hallucination_");
+            correctionAdd("hallucinated_", "simulated intelligence hallucination_");
+            correctionAdd("hallucinate_", "simulated intelligence hallucination_");
+            correctionAdd("simulated intelligence_", "simulated intelligence hallucination_"); // For the cross-reference
+            correctionAdd("hallu_", "simulated intelligence hallucination_");
+
+            correctionAdd("Decision Tree_", "decision tree learning_");
+            correctionAdd("decision tree_", "decision tree learning_");
+
+            correctionAdd("supervised machine learning_", "supervised learning_");
+            correctionAdd("SL_", "supervised learning_");
+
+            // Related to simulated intelligence (so-called AI) /
+            // artificial neural network
+            correctionAdd("Deep Learning_", "deep learning_");
+            correctionAdd("Deep learning_", "deep learning_");
+            correctionAdd("deeplearning_", "deep learning_");
+
+            // Machine learning / artificial intelligence (accelerator)
+            correctionAdd("tpu_", "TPU_");
+
+            // A training data set for machine learning
+            correctionAdd("`iris` data set_", "Iris data set_");
+            correctionAdd("iris data set_", "Iris data set_");
+            correctionAdd("IRIS_", "Iris data set_");
+            correctionAdd("iris_", "Iris data set_");
+            correctionAdd("Iris_", "Iris data set_");
+
+            correctionAdd("Vector_", "vector_");
+            correctionAdd("vertor_", "vector_");
+            correctionAdd("vect_", "vector_");
+
+            // Machine learning
+            correctionAdd("SVM_", "support vector machine_");
+
+            // Machine learning
+            correctionAdd("Support Vector Machines_", "support vector machines_");
+            correctionAdd("Support Vector Machine_", "support vector machines_");
+            correctionAdd("SVMs_", "support vector machines_");
+
+            correctionAdd("Computer Vision_", "computer vision_");
+            correctionAdd("CV_", "computer vision_");
+            correctionAdd("cv_", "computer vision_");
+
+            // Simulated intelligence
+            //
+            // Alternative URL: <https://theamericangenius.com/tech-news/large-language-models/>
+            //
+            correctionAdd("Large Language Model_", "large language model_");
+            correctionAdd("LLM_", "large language model_");
+            correctionAdd("llm_", "large language model_");
+
+            correctionAdd("Large Language Models_", "large language models_");
+            correctionAdd("llm,s_", "large language models_");
+            correctionAdd("llm's_", "large language models_");
+            correctionAdd("LLMs_", "large language models_");
+            correctionAdd("llms_", "large language models_");
+
+            // Simulated intelligence
+            correctionAdd("Large Language Model Meta AI_", "LLaMA_");
+            correctionAdd("Llama_", "LLaMA_");
+            correctionAdd("LLama_", "LLaMA_");
+
+            // Simulated intelligence
+            correctionAdd("gpt_", "GPT_");
+
+            // Simulated intelligence
+            correctionAdd("Hugging Face_", "Hugging&nbsp;Face_"); // Sort of identity mapping
+            correctionAdd("hugging face_", "Hugging&nbsp;Face_");
+            correctionAdd("hugging-face_", "Hugging&nbsp;Face_");
+            correctionAdd("huggingface_", "Hugging&nbsp;Face_");
+            correctionAdd("HuggingFace_", "Hugging&nbsp;Face_");
+            correctionAdd("Huggingface_", "Hugging&nbsp;Face_");
+            correctionAdd("HF_", "Hugging&nbsp;Face_");
+
+            // For the reverse mapping
+            //
+            // Simulated intelligence
+            correctionAdd("Model Context Protocol_", "MCP_");
+
+            // An simulated intelligence software development platform
+            //
+            // Alternative URLs:
+            //
+            //   <https://antigravity.google/>
+            //
+            correctionAdd("anti-gravity_", "Google Antigravity_");
+            correctionAdd("Antigravity_", "Google Antigravity_");
+            correctionAdd("antigravity_", "Google Antigravity_");
 
             correctionAdd("mutli_", "multi_");
 
@@ -155714,123 +155839,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Storage Area Network_", "storage area network_");
             correctionAdd("SAN_", "storage area network_");
-
-            // Simulated intelligence. A company
-            correctionAdd("anthropic_", "Anthropic_");
-            correctionAdd("antropic_", "Anthropic_");
-            correctionAdd("tropic_", "Anthropic_");
-
-            // Simulated intelligence
-            //
-            // Probably an Anthropic term
-            //
-            correctionAdd("skill_", "agent skill_");
-
-            // Simulated intelligence
-            //
-            // Not to be confused with "LoRa" (the radio/RF thing)
-            //
-            correctionAdd("Low-Rank Adaptation_", "LoRA_");
-            correctionAdd("LoRa_", "LoRA_"); // Mostly for the cross-reference
-            correctionAdd("LORA_", "LoRA_");
-
-            // Simulated intelligence
-            correctionAdd("Artificial Superintelligence_", "artificial superintelligence_");
-            correctionAdd("ASI_", "artificial superintelligence_");
-
-            // Simulated intelligence. ChatGPT
-            correctionAdd("simulated intelligence halluciation_", "simulated intelligence hallucination_");
-            correctionAdd("AI hallucination_", "simulated intelligence hallucination_");
-            correctionAdd("AI halluciation_", "simulated intelligence hallucination_");
-            correctionAdd("hallucination_", "simulated intelligence hallucination_");
-            correctionAdd("hallucinated_", "simulated intelligence hallucination_");
-            correctionAdd("hallucinate_", "simulated intelligence hallucination_");
-            correctionAdd("simulated intelligence_", "simulated intelligence hallucination_"); // For the cross-reference
-            correctionAdd("hallu_", "simulated intelligence hallucination_");
-
-            correctionAdd("Decision Tree_", "decision tree learning_");
-            correctionAdd("decision tree_", "decision tree learning_");
-
-            correctionAdd("supervised machine learning_", "supervised learning_");
-            correctionAdd("SL_", "supervised learning_");
-
-            // Related to simulated intelligence (so-called AI) /
-            // artificial neural network
-            correctionAdd("Deep Learning_", "deep learning_");
-            correctionAdd("Deep learning_", "deep learning_");
-            correctionAdd("deeplearning_", "deep learning_");
-
-            // Machine learning / artificial intelligence (accelerator)
-            correctionAdd("tpu_", "TPU_");
-
-            // A training data set for machine learning
-            correctionAdd("`iris` data set_", "Iris data set_");
-            correctionAdd("iris data set_", "Iris data set_");
-            correctionAdd("IRIS_", "Iris data set_");
-            correctionAdd("iris_", "Iris data set_");
-            correctionAdd("Iris_", "Iris data set_");
-
-            correctionAdd("Vector_", "vector_");
-            correctionAdd("vertor_", "vector_");
-            correctionAdd("vect_", "vector_");
-
-            // Machine learning
-            correctionAdd("SVM_", "support vector machine_");
-
-            // Machine learning
-            correctionAdd("Support Vector Machines_", "support vector machines_");
-            correctionAdd("Support Vector Machine_", "support vector machines_");
-            correctionAdd("SVMs_", "support vector machines_");
-
-            correctionAdd("Computer Vision_", "computer vision_");
-            correctionAdd("CV_", "computer vision_");
-            correctionAdd("cv_", "computer vision_");
-
-            // Simulated intelligence
-            //
-            // Alternative URL: <https://theamericangenius.com/tech-news/large-language-models/>
-            //
-            correctionAdd("Large Language Model_", "large language model_");
-            correctionAdd("LLM_", "large language model_");
-            correctionAdd("llm_", "large language model_");
-
-            correctionAdd("Large Language Models_", "large language models_");
-            correctionAdd("llm,s_", "large language models_");
-            correctionAdd("llm's_", "large language models_");
-            correctionAdd("LLMs_", "large language models_");
-            correctionAdd("llms_", "large language models_");
-
-            // Simulated intelligence
-            correctionAdd("Large Language Model Meta AI_", "LLaMA_");
-            correctionAdd("Llama_", "LLaMA_");
-            correctionAdd("LLama_", "LLaMA_");
-
-            // Simulated intelligence
-            correctionAdd("gpt_", "GPT_");
-
-            // Simulated intelligence
-            correctionAdd("Hugging Face_", "Hugging&nbsp;Face_"); // Sort of identity mapping
-            correctionAdd("hugging face_", "Hugging&nbsp;Face_");
-            correctionAdd("hugging-face_", "Hugging&nbsp;Face_");
-            correctionAdd("huggingface_", "Hugging&nbsp;Face_");
-            correctionAdd("HuggingFace_", "Hugging&nbsp;Face_");
-            correctionAdd("Huggingface_", "Hugging&nbsp;Face_");
-            correctionAdd("HF_", "Hugging&nbsp;Face_");
-
-            // For the reverse mapping
-            //
-            // Simulated intelligence
-            correctionAdd("Model Context Protocol_", "MCP_");
-
-            // An simulated intelligence software development platform
-            //
-            // Alternative URLs:
-            //
-            //   <https://antigravity.google/>
-            //
-            correctionAdd("anti-gravity_", "Google Antigravity_");
-            correctionAdd("Antigravity_", "Google Antigravity_");
-            correctionAdd("antigravity_", "Google Antigravity_");
 
             correctionAdd("mixed signal oscilloscope_", "mixed-signal oscilloscope_");
             correctionAdd("MSO_", "mixed-signal oscilloscope_");
@@ -168710,8 +168718,6 @@ namespace OverflowHelper.core
 
             URL_Add("roll_", "https://en.wiktionary.org/wiki/roll#Noun");
 
-            URL_Add("today I learned_", "https://en.wiktionary.org/wiki/TIL#Phrase");
-
             URL_Add("forum_", "https://en.wiktionary.org/wiki/forum#Noun");
 
             URL_Add("ABC_", "https://en.wiktionary.org/wiki/ABC#Noun");
@@ -168791,8 +168797,6 @@ namespace OverflowHelper.core
             URL_Add("wpm_", "https://en.wiktionary.org/wiki/wpm#Noun");
 
             URL_Add("Blood_", "https://en.wikipedia.org/wiki/Blood_(video_game)");
-
-            URL_Add("choose_", "https://en.wiktionary.org/wiki/choose#Verb");
 
             URL_Add("CYA_", "https://en.wiktionary.org/wiki/cover_one%27s_ass#Verb");
 
@@ -169052,10 +169056,6 @@ namespace OverflowHelper.core
 
             URL_Add("Grafana k6_", "https://k6.io/docs/");
 
-            URL_Add("power-up_", "https://en.wiktionary.org/wiki/power-up#Noun");
-
-            URL_Add("power-down_", "https://www.oxfordlearnersdictionaries.com/definition/english/power-down_2");
-
             URL_Add("probably_", "https://en.wiktionary.org/wiki/probably#Adverb");
 
             URL_Add("cosine_", "https://en.wiktionary.org/wiki/cosine#Noun");
@@ -169095,6 +169095,8 @@ namespace OverflowHelper.core
             URL_Add("ellipse_", "https://en.wiktionary.org/wiki/ellipse#Noun");
 
             URL_Add("Solid_", "https://www.solidjs.com/tutorial/introduction_basics");
+
+            URL_Add("choose_", "https://en.wiktionary.org/wiki/choose#Verb");
 
             URL_Add("chose_", "https://en.wiktionary.org/wiki/choose#Verb");
 
@@ -170174,8 +170176,6 @@ namespace OverflowHelper.core
 
             URL_Add("distribution_", "https://en.wiktionary.org/wiki/distribution#Noun");
 
-            URL_Add("String.TrimEnd()_", "https://learn.microsoft.com/en-us/dotnet/api/system.string.trimend");
-
             URL_Add("execution_", "https://en.wiktionary.org/wiki/execution#Noun");
 
             URL_Add("JSON Web Token_", "https://en.wikipedia.org/wiki/JSON_Web_Token");
@@ -170303,10 +170303,6 @@ namespace OverflowHelper.core
             URL_Add("pieces_", "https://en.wiktionary.org/wiki/piece#Noun");
 
             URL_Add("StarCraft_", "https://en.wikipedia.org/wiki/StarCraft");
-
-            URL_Add("managed_", "https://en.wiktionary.org/wiki/manage#Verb");
-
-            URL_Add("managed identities_", "https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview");
 
             URL_Add("activated_", "https://en.wiktionary.org/wiki/activate#Verb");
 
@@ -170564,10 +170560,6 @@ namespace OverflowHelper.core
 
             URL_Add("engine_", "https://en.wiktionary.org/wiki/engine#Noun");
 
-            URL_Add("SRE_", "https://en.wikipedia.org/wiki/Site_reliability_engineering");
-
-            URL_Add("availability group_", "https://learn.microsoft.com/en-us/sql/database-engine/availability-groups/windows/getting-started-with-always-on-availability-groups-sql-server");
-
             URL_Add("fast-forward_", "https://stackoverflow.com/questions/29673869/what-is-git-fast-forwarding");
 
             URL_Add("cheese_", "https://en.wiktionary.org/wiki/cheese#Noun");
@@ -170629,8 +170621,6 @@ namespace OverflowHelper.core
             URL_Add("Hall effect_", "https://en.wikipedia.org/wiki/Hall_effect");
 
             URL_Add("cross-reference_", "https://en.wiktionary.org/wiki/cross-reference#Noun");
-
-            URL_Add("type library file_", "https://learn.microsoft.com/en-us/windows/win32/midl/com-dcom-and-type-libraries");
 
             URL_Add("mhchem (MathJax)_", "https://docs.mathjax.org/en/latest/input/tex/extensions/mhchem.html");
 
@@ -170777,16 +170767,6 @@ namespace OverflowHelper.core
             URL_Add("EN DASH (U+2013)_", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8192&number=128");
 
             URL_Add("EM DASH (U+2014)_", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=8206&number=128");
-
-            URL_Add("table of contents_", "https://en.wikipedia.org/wiki/Table_of_contents");
-
-            URL_Add("page attribute table_", "https://en.wikipedia.org/wiki/Page_attribute_table");
-
-            URL_Add("Little Bobby Tables_", "https://www.explainxkcd.com/wiki/index.php/327:_Exploits_of_a_Mom");
-
-            URL_Add("Delta Live Tables_", "https://learn.microsoft.com/en-us/azure/databricks/delta-live-tables/");
-
-            URL_Add("Portable Executable (PE)_", "https://en.wikipedia.org/wiki/Portable_Executable");
 
             URL_Add("brute force_", "https://en.wiktionary.org/wiki/brute_force#Noun");
 
@@ -171049,8 +171029,6 @@ namespace OverflowHelper.core
             URL_Add("thought_", "https://en.wiktionary.org/wiki/thought#Verb"); // Old: https://en.wiktionary.org/wiki/thought
 
             URL_Add("explode_", "https://en.wiktionary.org/wiki/explode#Verb");
-
-            URL_Add("Kusto.Explorer_", "https://learn.microsoft.com/en-us/azure/data-explorer/kusto/tools/kusto-explorer");
 
             URL_Add("biographies_", "https://en.wiktionary.org/wiki/biography#Noun");
 
@@ -171534,8 +171512,6 @@ namespace OverflowHelper.core
 
             URL_Add("OOP_", "https://en.wikipedia.org/wiki/Object-oriented_programming");
 
-            URL_Add("Erik Meijer (a functional programming guy who has a bunch of presentations where he trashes Agile while using this weird coloured shirt)_", "https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f");
-
             URL_Add("dynamic programming_", "https://en.wikipedia.org/wiki/Dynamic_programming");
 
             URL_Add("template metaprogramming_", "https://en.wikipedia.org/wiki/Template_metaprogramming");
@@ -171801,24 +171777,6 @@ namespace OverflowHelper.core
             URL_Add("Bottleneck_", "https://github.com/kwgoodman/bottleneck");
 
             URL_Add("WSL_", "https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux");
-
-            URL_Add("PowerShell_", "https://en.wikipedia.org/wiki/PowerShell"); // Old: https://en.wikipedia.org/wiki/Windows_PowerShell
-
-            URL_Add("Get-History_", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Core/Get-History");
-
-            URL_Add("Clear-ItemProperty_", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/clear-itemproperty");
-
-            URL_Add("Group-Object_", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Group-Object"); // Old: http://technet.microsoft.com/en-us/library/hh849907.aspx
-
-            URL_Add("Invoke-Item_", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/Invoke-Item");
-
-            URL_Add("Measure-Object_", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object"); // Old: <http://technet.microsoft.com/en-us/library/hh849965.aspx>
-
-            URL_Add("Sort-Object_", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Sort-Object"); // Old: http://technet.microsoft.com/en-us/library/hh849912.aspx
-
-            URL_Add("Remove-Item_", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item"); // Old: http://technet.microsoft.com/en-us/library/hh849765.aspx
-
-            URL_Add("PowerShell ISE_", "https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/ise/introducing-the-windows-powershell-ise"); // Old: https://technet.microsoft.com/en-us/library/dd315244.aspx
 
             URL_Add("start_", "https://ss64.com/nt/start.html");
 
@@ -172110,18 +172068,6 @@ namespace OverflowHelper.core
 
             URL_Add("RHEL_", "https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux");
 
-            URL_Add("USB_", "https://en.wikipedia.org/wiki/USB");
-
-            URL_Add("USB side version_", "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers");
-
-            URL_Add("USB HID_", "https://en.wikipedia.org/wiki/USB_human_interface_device_class");
-
-            URL_Add("USB MSC_", "https://en.wikipedia.org/wiki/USB_mass_storage_device_class");
-
-            URL_Add("USB power delivery_", "https://en.wikipedia.org/wiki/USB_hardware#USB_Power_Delivery");
-
-            URL_Add("SOF_", "https://en.wikipedia.org/wiki/USB_communications#SOF:_Start-of-frame");
-
             URL_Add("a lot_", "https://www.wikihow.com/Tell-the-Difference-Between-Alot,-Allot-and-A-Lot");
 
             URL_Add("fellow_", "https://en.wiktionary.org/wiki/fellow#Noun");
@@ -172135,36 +172081,6 @@ namespace OverflowHelper.core
             URL_Add("far_", "https://en.wiktionary.org/wiki/far#Adverb");
 
             URL_Add("fell_", "https://en.wiktionary.org/wiki/fall#Noun");
-
-            URL_Add("artificial superintelligence_", "https://en.wikipedia.org/wiki/Superintelligence#Feasibility_of_artificial_superintelligence");
-
-            URL_Add("simulated intelligence watermarking_", "https://en.wikipedia.org/wiki/Text_watermarking#History");
-
-            URL_Add("decision tree learning_", "https://en.wikipedia.org/wiki/Decision_tree_learning");
-
-            URL_Add("supervised learning_", "https://en.wikipedia.org/wiki/Supervised_learning");
-
-            URL_Add("deep learning_", "https://en.wikipedia.org/wiki/Deep_learning");
-
-            URL_Add("large language model_", "https://en.wikipedia.org/wiki/Large_language_model");
-
-            URL_Add("large language models_", "https://en.wikipedia.org/wiki/Large_language_model");
-
-            URL_Add("agent skill_", "https://www.reddit.com/r/qmk/comments/1v09ul7/comment/oz2ib4v/");
-
-            URL_Add("GPT_", "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer");
-
-            URL_Add("Copilot (copyright laundering machine)_", "https://odysee.com/@TheLinuxExperiment:e/microsoft-isn't-the-enemy-of-linux-and:3");
-
-            URL_Add("Hugging&nbsp;Face_", "https://en.wikipedia.org/wiki/Hugging_Face");
-
-            URL_Add("Anthropic_", "https://en.wikipedia.org/wiki/Anthropic");
-
-            URL_Add("test data set_", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
-
-            URL_Add("Iris data set_", "https://en.wikipedia.org/wiki/Iris_flower_data_set");
-
-            URL_Add("computer vision_", "https://en.wikipedia.org/wiki/Computer_vision");
 
             URL_Add("suits_", "https://en.wiktionary.org/wiki/suit#Verb");
 
@@ -172505,8 +172421,6 @@ namespace OverflowHelper.core
             URL_Add("LSG_", "https://docs.qmk.fm/feature_advanced_keycodes#modifier-keys");
 
             URL_Add("ZMK Studio_", "https://zmk.dev/docs/features/studio");
-
-            URL_Add("quantum Fourier transform_", "https://en.wikipedia.org/wiki/Quantum_Fourier_transform");
 
             URL_Add("macros_", "https://en.wiktionary.org/wiki/macro#Noun_2");
 
@@ -172934,7 +172848,104 @@ namespace OverflowHelper.core
 
             URL_Add("laugh_", "https://en.wiktionary.org/wiki/laugh#Noun");
 
+            URL_Add("lean_", "https://en.wikipedia.org/wiki/Lean_thinking");
+
+            URL_Add("today I learned_", "https://en.wiktionary.org/wiki/TIL#Phrase");
+
+            URL_Add("decision tree learning_", "https://en.wikipedia.org/wiki/Decision_tree_learning");
+
+            URL_Add("supervised learning_", "https://en.wikipedia.org/wiki/Supervised_learning");
+
+            URL_Add("deep learning_", "https://en.wikipedia.org/wiki/Deep_learning");
+
+            URL_Add("artificial superintelligence_", "https://en.wikipedia.org/wiki/Superintelligence#Feasibility_of_artificial_superintelligence");
+
+            URL_Add("simulated intelligence watermarking_", "https://en.wikipedia.org/wiki/Text_watermarking#History");
+
+            URL_Add("large language model_", "https://en.wikipedia.org/wiki/Large_language_model");
+
+            URL_Add("large language models_", "https://en.wikipedia.org/wiki/Large_language_model");
+
+            URL_Add("agent skill_", "https://www.reddit.com/r/qmk/comments/1v09ul7/comment/oz2ib4v/");
+
+            URL_Add("GPT_", "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer");
+
+            URL_Add("Copilot (copyright laundering machine)_", "https://odysee.com/@TheLinuxExperiment:e/microsoft-isn't-the-enemy-of-linux-and:3");
+
+            URL_Add("Hugging&nbsp;Face_", "https://en.wikipedia.org/wiki/Hugging_Face");
+
+            URL_Add("Anthropic_", "https://en.wikipedia.org/wiki/Anthropic");
+
+            URL_Add("test data set_", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
+
+            URL_Add("Iris data set_", "https://en.wikipedia.org/wiki/Iris_flower_data_set");
+
+            URL_Add("computer vision_", "https://en.wikipedia.org/wiki/Computer_vision");
+
+            URL_Add("PowerShell_", "https://en.wikipedia.org/wiki/PowerShell"); // Old: https://en.wikipedia.org/wiki/Windows_PowerShell
+
+            URL_Add("Get-History_", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Core/Get-History");
+
+            URL_Add("Group-Object_", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Group-Object"); // Old: http://technet.microsoft.com/en-us/library/hh849907.aspx
+
+            URL_Add("Invoke-Item_", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Management/Invoke-Item");
+
+            URL_Add("Sort-Object_", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Sort-Object"); // Old: http://technet.microsoft.com/en-us/library/hh849912.aspx
+
+            URL_Add("Clear-ItemProperty_", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/clear-itemproperty");
+
+            URL_Add("Measure-Object_", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object"); // Old: <http://technet.microsoft.com/en-us/library/hh849965.aspx>
+
+            URL_Add("Remove-Item_", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item"); // Old: http://technet.microsoft.com/en-us/library/hh849765.aspx
+
+            URL_Add("PowerShell ISE_", "https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/ise/introducing-the-windows-powershell-ise"); // Old: https://technet.microsoft.com/en-us/library/dd315244.aspx
+
+            URL_Add("power-down_", "https://www.oxfordlearnersdictionaries.com/definition/english/power-down_2");
+
+            URL_Add("power-up_", "https://en.wiktionary.org/wiki/power-up#Noun");
+
+            URL_Add("SRE_", "https://en.wikipedia.org/wiki/Site_reliability_engineering");
+
+            URL_Add("managed_", "https://en.wiktionary.org/wiki/manage#Verb");
+
+            URL_Add("table of contents_", "https://en.wikipedia.org/wiki/Table_of_contents");
+
+            URL_Add("page attribute table_", "https://en.wikipedia.org/wiki/Page_attribute_table");
+
+            URL_Add("Little Bobby Tables_", "https://www.explainxkcd.com/wiki/index.php/327:_Exploits_of_a_Mom");
+
+            URL_Add("Portable Executable (PE)_", "https://en.wikipedia.org/wiki/Portable_Executable");
+
+            URL_Add("type library file_", "https://learn.microsoft.com/en-us/windows/win32/midl/com-dcom-and-type-libraries");
+
+            URL_Add("Delta Live Tables_", "https://learn.microsoft.com/en-us/azure/databricks/delta-live-tables/");
+
+            URL_Add("Kusto.Explorer_", "https://learn.microsoft.com/en-us/azure/data-explorer/kusto/tools/kusto-explorer");
+
+            URL_Add("String.TrimEnd()_", "https://learn.microsoft.com/en-us/dotnet/api/system.string.trimend");
+
+            URL_Add("managed identities_", "https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview");
+
+            URL_Add("availability group_", "https://learn.microsoft.com/en-us/sql/database-engine/availability-groups/windows/getting-started-with-always-on-availability-groups-sql-server");
+
+            URL_Add("Erik Meijer (a functional programming guy who has a bunch of presentations where he trashes Agile while using this weird coloured shirt)_", "https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f");
+
+            URL_Add("USB_", "https://en.wikipedia.org/wiki/USB");
+
+            URL_Add("USB side version_", "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers");
+
+            URL_Add("USB HID_", "https://en.wikipedia.org/wiki/USB_human_interface_device_class");
+
+            URL_Add("USB MSC_", "https://en.wikipedia.org/wiki/USB_mass_storage_device_class");
+
+            URL_Add("USB power delivery_", "https://en.wikipedia.org/wiki/USB_hardware#USB_Power_Delivery");
+
+            URL_Add("SOF_", "https://en.wikipedia.org/wiki/USB_communications#SOF:_Start-of-frame");
+
+            URL_Add("quantum Fourier transform_", "https://en.wikipedia.org/wiki/Quantum_Fourier_transform");
+
         } //addLookupData_alternativeWordSet()
+
 
 
         /****************************************************************************
@@ -185676,8 +185687,9 @@ namespace OverflowHelper.core
             correctionAdd("int_____", "it_____");
             correctionAdd("iit_____", "it_____");
             correctionAdd("itt_____", "it_____");
-            correctionAdd("i,t_____", "it_____");
             correctionAdd("its_____", "it_____");
+            correctionAdd("i,t_____", "it_____");
+            correctionAdd("i t_____", "it_____");
             correctionAdd("ut_____", "it_____");
             correctionAdd("jt_____", "it_____");
             correctionAdd("ti_____", "it_____");
