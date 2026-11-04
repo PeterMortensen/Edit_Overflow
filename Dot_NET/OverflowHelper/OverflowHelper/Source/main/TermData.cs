@@ -7492,6 +7492,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 9.10", "Ubuntu 9.10 (Karmic Koala)");
             correctionAdd("karmic", "Ubuntu 9.10 (Karmic Koala)");
             correctionAdd("Karmic", "Ubuntu 9.10 (Karmic Koala)");
+            correctionAdd("Koala", "Ubuntu 9.10 (Karmic Koala)");
             correctionAdd("9.10", "Ubuntu 9.10 (Karmic Koala)");
 
             correctionAdd("Ubuntu 10.04 LTS (Lucid Lynx)", "Ubuntu 10.04 (Lucid Lynx)");
@@ -7505,6 +7506,7 @@ namespace OverflowHelper.core
             correctionAdd("lucid", "Ubuntu 10.04 (Lucid Lynx)");
             correctionAdd("Lucid", "Ubuntu 10.04 (Lucid Lynx)");
             correctionAdd("10.04", "Ubuntu 10.04 (Lucid Lynx)");
+            correctionAdd("Lynx", "Ubuntu 10.04 (Lucid Lynx)");
 
             // Close in name (Mac): "Mac OS X v10.9 (Mavericks) (2013 vintage)"
             //
@@ -7514,6 +7516,8 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 10.10", "Ubuntu 10.10 (Maverick Meerkat)");
             correctionAdd("ubuntu 10.10", "Ubuntu 10.10 (Maverick Meerkat)");
             correctionAdd("ubuntu 1.10", "Ubuntu 10.10 (Maverick Meerkat)");
+            correctionAdd("Maverick", "Ubuntu 10.10 (Maverick Meerkat)");
+            correctionAdd("Meerkat", "Ubuntu 10.10 (Maverick Meerkat)");
             correctionAdd("10.10", "Ubuntu 10.10 (Maverick Meerkat)");
             correctionAdd("1.10", "Ubuntu 10.10 (Maverick Meerkat)");
 
@@ -7530,11 +7534,13 @@ namespace OverflowHelper.core
 
             correctionAdd("uBuntu Oneiric", "Ubuntu 11.10 (Oneiric Ocelot)");
             correctionAdd("Ubuntu Oneiric", "Ubuntu 11.10 (Oneiric Ocelot)");
+            correctionAdd("Oneiric Ocelot", "Ubuntu 11.10 (Oneiric Ocelot)");
             correctionAdd("ubuntu 11.10", "Ubuntu 11.10 (Oneiric Ocelot)");
             correctionAdd("Ubuntu 11.10", "Ubuntu 11.10 (Oneiric Ocelot)");
             correctionAdd("Ubuntu 11", "Ubuntu 11.10 (Oneiric Ocelot)"); // 11 being 11.04 depends on context...
             correctionAdd("Oneiric", "Ubuntu 11.10 (Oneiric Ocelot)");
             correctionAdd("oneiric", "Ubuntu 11.10 (Oneiric Ocelot)");
+            correctionAdd("Ocelot", "Ubuntu 11.10 (Oneiric Ocelot)");
             correctionAdd("11.10", "Ubuntu 11.10 (Oneiric Ocelot)");
 
             correctionAdd("Ubuntu 12.04 LTS (Precise Pangolin)", "Ubuntu 12.04 (Precise Pangolin)");
@@ -7553,22 +7559,29 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 12.4", "Ubuntu 12.04 (Precise Pangolin)");
             correctionAdd("Ubuntu 12", "Ubuntu 12.04 (Precise Pangolin)");
             correctionAdd("ubuntu 12", "Ubuntu 12.04 (Precise Pangolin)");
+            correctionAdd("Pangolin", "Ubuntu 12.04 (Precise Pangolin)");
             correctionAdd("precise", "Ubuntu 12.04 (Precise Pangolin)");
             correctionAdd("Precise", "Ubuntu 12.04 (Precise Pangolin)");
             correctionAdd("12.0.4", "Ubuntu 12.04 (Precise Pangolin)");
             correctionAdd("12.04", "Ubuntu 12.04 (Precise Pangolin)");
 
+            correctionAdd("Quantal Quetzal", "Ubuntu 12.10 (Quantal Quetzal)");
             correctionAdd("Ubuntu 12.10", "Ubuntu 12.10 (Quantal Quetzal)");
             correctionAdd("ubunut 12.10", "Ubuntu 12.10 (Quantal Quetzal)");
             correctionAdd("ubuntu 12.10", "Ubuntu 12.10 (Quantal Quetzal)");
             correctionAdd("ubunut12.10", "Ubuntu 12.10 (Quantal Quetzal)");
             correctionAdd("quantal", "Ubuntu 12.10 (Quantal Quetzal)");
+            correctionAdd("Quantal", "Ubuntu 12.10 (Quantal Quetzal)");
+            correctionAdd("Quetzal", "Ubuntu 12.10 (Quantal Quetzal)");
             correctionAdd("12.10", "Ubuntu 12.10 (Quantal Quetzal)");
 
+            correctionAdd("Raring Ringtail", "Ubuntu 13.04 (Raring Ringtail)");
             correctionAdd("Ubuntu 13.04", "Ubuntu 13.04 (Raring Ringtail)");
             correctionAdd("ubuntu 13.04", "Ubuntu 13.04 (Raring Ringtail)");
             correctionAdd("Ubuntu 13", "Ubuntu 13.04 (Raring Ringtail)");
+            correctionAdd("Ringtail", "Ubuntu 13.04 (Raring Ringtail)");
             correctionAdd("raring", "Ubuntu 13.04 (Raring Ringtail)");
+            correctionAdd("Raring", "Ubuntu 13.04 (Raring Ringtail)");
             correctionAdd("13.04", "Ubuntu 13.04 (Raring Ringtail)");
 
             correctionAdd("Ubuntu 13.10", "Ubuntu 13.10 (Saucy Salamander)");
@@ -7598,21 +7611,31 @@ namespace OverflowHelper.core
             correctionAdd("trusty", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
             correctionAdd("14.04", "Ubuntu 14.04 (Trusty Tahr)"); // Really "Ubuntu 14.04 LTS (Trusty Tahr)"?
             correctionAdd("14-04", "Ubuntu 14.04 (Trusty Tahr)");
+            correctionAdd("Tahr", "Ubuntu 14.04 (Trusty Tahr)");
 
             correctionAdd("Ubuntu Server 14.10", "Ubuntu 14.10 (Utopic Unicorn)");
+            correctionAdd("Utopic Unicorn", "Ubuntu 14.10 (Utopic Unicorn)");
             correctionAdd("Ubuntu 14.10", "Ubuntu 14.10 (Utopic Unicorn)");
             correctionAdd("ubuntu 14.10", "Ubuntu 14.10 (Utopic Unicorn)");
+            correctionAdd("Unicorn", "Ubuntu 14.10 (Utopic Unicorn)");
+            correctionAdd("Utopic", "Ubuntu 14.10 (Utopic Unicorn)");
             correctionAdd("14.10", "Ubuntu 14.10 (Utopic Unicorn)");
 
             correctionAdd("Ubuntu 15.04", "Ubuntu 15.04 (Vivid Vervet)");
             correctionAdd("ubuntu 15.04", "Ubuntu 15.04 (Vivid Vervet)");
+            correctionAdd("Vivid Vervet", "Ubuntu 15.04 (Vivid Vervet)");
             correctionAdd("Ubuntu 15", "Ubuntu 15.04 (Vivid Vervet)");
             correctionAdd("Ubuntu15", "Ubuntu 15.04 (Vivid Vervet)");
+            correctionAdd("Vervet", "Ubuntu 15.04 (Vivid Vervet)");
+            correctionAdd("Vivid", "Ubuntu 15.04 (Vivid Vervet)");
             correctionAdd("15.04", "Ubuntu 15.04 (Vivid Vervet)");
 
+            correctionAdd("Wily Werewolf", "Ubuntu 15.10 (Wily Werewolf)");
             correctionAdd("Ubuntu 15.10", "Ubuntu 15.10 (Wily Werewolf)");
             correctionAdd("ubuntu 15.10", "Ubuntu 15.10 (Wily Werewolf)");
+            correctionAdd("Werewolf", "Ubuntu 15.10 (Wily Werewolf)");
             correctionAdd("15.10", "Ubuntu 15.10 (Wily Werewolf)");
+            correctionAdd("Wily", "Ubuntu 15.10 (Wily Werewolf)");
 
             correctionAdd("Ubuntu Xenial", "Ubuntu 16.04 (Xenial Xerus)");
             correctionAdd("ubuntu xenial", "Ubuntu 16.04 (Xenial Xerus)");
@@ -7621,6 +7644,7 @@ namespace OverflowHelper.core
             correctionAdd("UBUNTU 16.04", "Ubuntu 16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu 16.06", "Ubuntu 16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu-16.04", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("Xenial Xerus", "Ubuntu 16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu16.04", "Ubuntu 16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu 16.4", "Ubuntu 16.04 (Xenial Xerus)");
             correctionAdd("Ubuntu 16", "Ubuntu 16.04 (Xenial Xerus)");
@@ -7629,26 +7653,34 @@ namespace OverflowHelper.core
             correctionAdd("Xenial", "Ubuntu 16.04 (Xenial Xerus)");
             correctionAdd("xenial", "Ubuntu 16.04 (Xenial Xerus)");
             correctionAdd("16.04", "Ubuntu 16.04 (Xenial Xerus)");
+            correctionAdd("Xerus", "Ubuntu 16.04 (Xenial Xerus)");
             correctionAdd("16.4", "Ubuntu 16.04 (Xenial Xerus)"); // Yes, highly context dependent...
             correctionAdd("16", "Ubuntu 16.04 (Xenial Xerus)"); // Yes, even more highly context dependent...
 
             correctionAdd("Ubuntu 16.10", "Ubuntu 16.10 (Yakkety Yak)");
             correctionAdd("Yakkety Yak", "Ubuntu 16.10 (Yakkety Yak)");
+            correctionAdd("Yakkety", "Ubuntu 16.10 (Yakkety Yak)");
             correctionAdd("16.10", "Ubuntu 16.10 (Yakkety Yak)");
+            correctionAdd("Yak", "Ubuntu 16.10 (Yakkety Yak)");
 
             correctionAdd("ubuntu 17.04", "Ubuntu 17.04 (Zesty Zapus)");
             correctionAdd("Ubuntu 17.04", "Ubuntu 17.04 (Zesty Zapus)");
             correctionAdd("Zesty Zapus", "Ubuntu 17.04 (Zesty Zapus)");
             correctionAdd("zesty", "Ubuntu 17.04 (Zesty Zapus)");
             correctionAdd("17.04", "Ubuntu 17.04 (Zesty Zapus)");
+            correctionAdd("Zapus", "Ubuntu 17.04 (Zesty Zapus)");
+            correctionAdd("Zesty", "Ubuntu 17.04 (Zesty Zapus)");
 
+            correctionAdd("Artful Aardvark", "Ubuntu 17.10 (Artful Aardvark)");
             correctionAdd("Ubuntu 17.10", "Ubuntu 17.10 (Artful Aardvark)");
             correctionAdd("ubuntu 17.10", "Ubuntu 17.10 (Artful Aardvark)");
             correctionAdd("ubuntu17.10", "Ubuntu 17.10 (Artful Aardvark)");
             correctionAdd("Ubuntu 17.1", "Ubuntu 17.10 (Artful Aardvark)");
             correctionAdd("Ubuntu 17", "Ubuntu 17.10 (Artful Aardvark)");
             correctionAdd("ubuntu 17", "Ubuntu 17.10 (Artful Aardvark)");
+            correctionAdd("Aardvark", "Ubuntu 17.10 (Artful Aardvark)");
             correctionAdd("artful", "Ubuntu 17.10 (Artful Aardvark)");
+            correctionAdd("Artful", "Ubuntu 17.10 (Artful Aardvark)");
             correctionAdd("17.10", "Ubuntu 17.10 (Artful Aardvark)");
 
             correctionAdd("Ubuntu Bionic Beaver", "Ubuntu 18.04 (Bionic Beaver)");
@@ -7679,6 +7711,7 @@ namespace OverflowHelper.core
             correctionAdd("bionic", "Ubuntu 18.04 (Bionic Beaver)");
             correctionAdd("V18.04", "Ubuntu 18.04 (Bionic Beaver)"); // Yes, highly context dependent...
             correctionAdd("v18.04", "Ubuntu 18.04 (Bionic Beaver)"); // Yes, highly context dependent...
+            correctionAdd("Beaver", "Ubuntu 18.04 (Bionic Beaver)");
             correctionAdd("18.04", "Ubuntu 18.04 (Bionic Beaver)");
             correctionAdd("V18", "Ubuntu 18.04 (Bionic Beaver)");
             correctionAdd("18", "Ubuntu 18.04 (Bionic Beaver)"); // Yes, even more highly context dependent...
@@ -7688,6 +7721,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 18.10", "Ubuntu 18.10 (Cosmic Cuttlefish)");
             correctionAdd("UBUNTU 18.10", "Ubuntu 18.10 (Cosmic Cuttlefish)");
             correctionAdd("ubuntu 18.10", "Ubuntu 18.10 (Cosmic Cuttlefish)");
+            correctionAdd("Cuttlefish", "Ubuntu 18.10 (Cosmic Cuttlefish)");
             correctionAdd("Cosmic", "Ubuntu 18.10 (Cosmic Cuttlefish)");
             correctionAdd("cosmic", "Ubuntu 18.10 (Cosmic Cuttlefish)");
             correctionAdd("18.10", "Ubuntu 18.10 (Cosmic Cuttlefish)");
@@ -7700,6 +7734,7 @@ namespace OverflowHelper.core
             correctionAdd("19.04", "Ubuntu 19.04 (Disco Dingo)");
             correctionAdd("disco", "Ubuntu 19.04 (Disco Dingo)");
             correctionAdd("Disco", "Ubuntu 19.04 (Disco Dingo)");
+            correctionAdd("Dingo", "Ubuntu 19.04 (Disco Dingo)");
 
             // It broke the clipboard!!!! -
             //
@@ -7713,7 +7748,9 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 19.10", "Ubuntu 19.10 (Eoan Ermine)");
             correctionAdd("UBUNTU 19.10", "Ubuntu 19.10 (Eoan Ermine)");
             correctionAdd("Ubunto 19.10", "Ubuntu 19.10 (Eoan Ermine)");
+            correctionAdd("Eoan Ermine", "Ubuntu 19.10 (Eoan Ermine)");
             correctionAdd("19.10", "Ubuntu 19.10 (Eoan Ermine)");
+            correctionAdd("Ermine", "Ubuntu 19.10 (Eoan Ermine)");
             correctionAdd("eoan", "Ubuntu 19.10 (Eoan Ermine)");
             correctionAdd("Eoan", "Ubuntu 19.10 (Eoan Ermine)");
 
@@ -7732,6 +7769,7 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu20.04", "Ubuntu 20.04 (Focal Fossa)");
             correctionAdd("ubuntu20.04", "Ubuntu 20.04 (Focal Fossa)");
             correctionAdd("focal fossa", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Focal Fossa", "Ubuntu 20.04 (Focal Fossa)");
             correctionAdd("Ubuntu 20.4", "Ubuntu 20.04 (Focal Fossa)");
             correctionAdd("ubuntu 20.4", "Ubuntu 20.04 (Focal Fossa)");
             correctionAdd("Ubuntu 20", "Ubuntu 20.04 (Focal Fossa)");
@@ -7743,6 +7781,7 @@ namespace OverflowHelper.core
             correctionAdd("focal", "Ubuntu 20.04 (Focal Fossa)");
             correctionAdd("Focal", "Ubuntu 20.04 (Focal Fossa)");
             correctionAdd("20.04", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Fossa", "Ubuntu 20.04 (Focal Fossa)");
             correctionAdd("20", "Ubuntu 20.04 (Focal Fossa)"); // Yes, highly context dependent...
 
             correctionAdd("Ubuntu 20.04 MATE", "Ubuntu MATE 20.04 (Focal Fossa)");
@@ -7756,8 +7795,11 @@ namespace OverflowHelper.core
             correctionAdd("20.04 MATE", "Ubuntu MATE 20.04 (Focal Fossa)");
             correctionAdd("mate 20.04", "Ubuntu MATE 20.04 (Focal Fossa)");
 
+            correctionAdd("Groovy Gorilla", "Ubuntu 20.10 (Groovy Gorilla)");
             correctionAdd("Ubuntu 20.10", "Ubuntu 20.10 (Groovy Gorilla)");
             correctionAdd("ubuntu 20.10", "Ubuntu 20.10 (Groovy Gorilla)");
+            correctionAdd("Gorilla", "Ubuntu 20.10 (Groovy Gorilla)");
+            correctionAdd("Groovy", "Ubuntu 20.10 (Groovy Gorilla)");
             correctionAdd("20.10", "Ubuntu 20.10 (Groovy Gorilla)");
 
             correctionAdd("ubuntu hirsute", "Ubuntu 21.04 (Hirsute Hippo)");
@@ -7765,14 +7807,18 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("ubuntu 21.04", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("hirsute", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("Hirsute", "Ubuntu 21.04 (Hirsute Hippo)");
             correctionAdd("21.04", "Ubuntu 21.04 (Hirsute Hippo)");
+            correctionAdd("Hippo", "Ubuntu 21.04 (Hirsute Hippo)");
 
             correctionAdd("ubuntu 21.10 impish", "Ubuntu 21.10 (Impish Indri)");
             correctionAdd("Ubuntu 21.10", "Ubuntu 21.10 (Impish Indri)");
             correctionAdd("ubuntu 21.10", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("Impish Indri", "Ubuntu 21.10 (Impish Indri)");
             correctionAdd("impish", "Ubuntu 21.10 (Impish Indri)");
             correctionAdd("Impish", "Ubuntu 21.10 (Impish Indri)");
             correctionAdd("21.10", "Ubuntu 21.10 (Impish Indri)");
+            correctionAdd("Indri", "Ubuntu 21.10 (Impish Indri)");
 
             correctionAdd("Ubuntu Linux 22.xx", "Ubuntu 22.04 (Jammy Jellyfish)");
             correctionAdd("Jammy Jellyfish", "Ubuntu 22.04 (Jammy Jellyfish)");
@@ -7804,13 +7850,22 @@ namespace OverflowHelper.core
             correctionAdd("22.xx", "Ubuntu 22.04 (Jammy Jellyfish)");
             correctionAdd("22", "Ubuntu 22.04 (Jammy Jellyfish)");
 
+            correctionAdd("Kinetic Kudu", "Ubuntu 22.10 (Kinetic Kudu)");
+            correctionAdd("Kinetic", "Ubuntu 22.10 (Kinetic Kudu)");
             correctionAdd("22.10", "Ubuntu 22.10 (Kinetic Kudu)");
+            correctionAdd("Kudu", "Ubuntu 22.10 (Kinetic Kudu)");
 
+            correctionAdd("Lunar Lobster", "Ubuntu 23.04 (Lunar Lobster)");
             correctionAdd("Ubuntu 23.04", "Ubuntu 23.04 (Lunar Lobster)");
+            correctionAdd("Lobster", "Ubuntu 23.04 (Lunar Lobster)");
             correctionAdd("23.04", "Ubuntu 23.04 (Lunar Lobster)");
+            correctionAdd("Lunar", "Ubuntu 23.04 (Lunar Lobster)");
 
+            correctionAdd("Mantic Minotaur", "Ubuntu 23.10 (Mantic Minotaur)");
             correctionAdd("Ubuntu 23.10", "Ubuntu 23.10 (Mantic Minotaur)");
+            correctionAdd("Minotaur", "Ubuntu 23.10 (Mantic Minotaur)");
             correctionAdd("bovine", "Ubuntu 23.10 (Mantic Minotaur)");
+            correctionAdd("Mantic", "Ubuntu 23.10 (Mantic Minotaur)");
             correctionAdd("23.10", "Ubuntu 23.10 (Mantic Minotaur)");
 
             correctionAdd("Ubuntu noble 24.04", "Ubuntu 24.04 (Noble Numbat)");
@@ -7825,15 +7880,19 @@ namespace OverflowHelper.core
             correctionAdd("Ubuntu noble", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("ubuntu 24", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("Ubuntu 24", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("Numbat", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("Noble", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("24.04", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("noble", "Ubuntu 24.04 (Noble Numbat)");
 
+            correctionAdd("Resolute Raccoon", "Ubuntu 26.04 (Resolute Raccoon)");
             correctionAdd("Ubuntu 26.04", "Ubuntu 26.04 (Resolute Raccoon)");
             correctionAdd("ubuntu 26.04", "Ubuntu 26.04 (Resolute Raccoon)");
             correctionAdd("ubuntu 2604", "Ubuntu 26.04 (Resolute Raccoon)");
             correctionAdd("ubuntu26.04", "Ubuntu 26.04 (Resolute Raccoon)");
             correctionAdd("ubuntu2604", "Ubuntu 26.04 (Resolute Raccoon)");
+            correctionAdd("Resolute", "Ubuntu 26.04 (Resolute Raccoon)");
+            correctionAdd("Raccoon", "Ubuntu 26.04 (Resolute Raccoon)");
             correctionAdd("26.04", "Ubuntu 26.04 (Resolute Raccoon)");
             correctionAdd("2604", "Ubuntu 26.04 (Resolute Raccoon)");
 
@@ -7872,14 +7931,11 @@ namespace OverflowHelper.core
             correctionAdd("kubutnu", "Kubuntu");
             correctionAdd("KUBUNTU", "Kubuntu");
 
-            correctionAdd("Kubuntu 16.04 (Xenial Xerus)", "Kubuntu&nbsp;16.04 (Xenial Xerus)"); // Sort of identity mapping
-            correctionAdd("Kubuntu 16.04", "Kubuntu&nbsp;16.04 (Xenial Xerus)");
+            correctionAdd("Kubuntu 16.04", "Kubuntu 16.04 (Xenial Xerus)");
 
-            correctionAdd("Kubuntu 20.04 (Focal Fossa)", "Kubuntu&nbsp;20.04 (Focal Fossa)");
-            correctionAdd("Kubuntu 20.04", "Kubuntu&nbsp;20.04 (Focal Fossa)");
+            correctionAdd("Kubuntu 20.04", "Kubuntu 20.04 (Focal Fossa)");
 
-            correctionAdd("Kubuntu 24.04 (Noble Numbat)", "Kubuntu&nbsp;24.04 (Noble Numbat)"); // Sort of identity mapping
-            correctionAdd("kubuntu24.04", "Kubuntu&nbsp;24.04 (Noble Numbat)");
+            correctionAdd("kubuntu24.04", "Kubuntu 24.04 (Noble Numbat)");
 
             correctionAdd("xubunbtu", "Xubuntu");
             correctionAdd("Xubunbtu", "Xubuntu");
@@ -13116,49 +13172,6 @@ namespace OverflowHelper.core
             correctionAdd("OSX 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
             correctionAdd("v10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
             correctionAdd("10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
-
-            // 2013 vintage
-            //
-            // Note: the identity is not working. Is it because of the
-            // trailing ")"??
-            //
-            // Close in name (Ubuntu): "Ubuntu 10.10 (Maverick Meerkat)"
-            //     (2013 vintage)
-            correctionAdd("Mac OS X v10.9 (Mavericks)", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac OS X mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS X Mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS (Mavericks)", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("macOS (Mavericks)", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS X Mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS X v10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OSX mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OSX Mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS X 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("osx mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("MAC Mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac Mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac os x 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Max OS X 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("MAC Maverick", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac Maverick", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac OSx 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac osx 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Max OSX 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac OS 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mac ox 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("MacOSX 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS X v10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OS X 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("mavericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("makericks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("OSX 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("maverick", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Maveriks", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Maverick", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Mac 10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("Maverics", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
-            correctionAdd("10.9", "Mac OS X v10.9 (Mavericks) (2013 vintage)");
 
             // 2015 vintage. Note: 10.10 (Yosemite) from 2014 is in
             //                     an alternative word set
@@ -23980,8 +23993,6 @@ namespace OverflowHelper.core
             correctionAdd("earth rays", "earth radiation");
             correctionAdd("Earth rays", "earth radiation");
             correctionAdd("Earth ray", "earth radiation");
-
-            correctionAdd("Lunar", "lunar");
 
             correctionAdd("ocultation", "occultation");
             correctionAdd("occulation", "occultation");
@@ -36010,11 +36021,6 @@ namespace OverflowHelper.core
             correctionAdd("SAFARI", "Safari");
             correctionAdd("safari", "Safari");
             correctionAdd("Saf", "Safari");
-
-            // A web browser
-            // A text-only / console web browser
-            correctionAdd("lynx", "Lynx");
-            correctionAdd("LYNX", "Lynx");
 
             // A web browser
             // An offline web browser
@@ -88893,9 +88899,8 @@ namespace OverflowHelper.core
             //   0x34B7 is for HPMICRO Semiconductor,
             //   a RISC-V microcontroller vendor.
             //
-            correctionAdd("Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Keychron J8 HE 8K", "Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("J8 HE 8K", "Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron J8 HE 8K", "Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("J8 HE 8K", "Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)");
 
             // A 83-key (80%. Not true TKL) crippled low-profile
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -88940,11 +88945,10 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/james-donkey/qmk_firmware/tree/wireless_playground/keyboards/jamesdonkey/j2>
             //
-            correctionAdd("Jamesdonkey J2", "Keychron&nbsp;J2");
-            correctionAdd("JamesDonkey J2", "Keychron&nbsp;J2"); // JamesDonkey is the correct spelling
-            correctionAdd("Keychron J2", "Keychron&nbsp;J2"); // Sort of identity mapping
-            correctionAdd("j2", "Keychron&nbsp;J2");
-            correctionAdd("J2", "Keychron&nbsp;J2");
+            correctionAdd("Jamesdonkey J2", "Keychron J2");
+            correctionAdd("JamesDonkey J2", "Keychron J2"); // JamesDonkey is the correct spelling
+            correctionAdd("j2", "Keychron J2");
+            correctionAdd("J2", "Keychron J2");
 
             // A 83-key (80%. Not true TKL) crippled wired-only
             // closed source (but with Via support)
@@ -88977,15 +88981,12 @@ namespace OverflowHelper.core
             //   0x34B7 is for HPMICRO Semiconductor,
             //   a RISC-V microcontroller vendor.
             //
-            correctionAdd("Keychron&nbsp;J2&nbsp;HE&nbsp;8K (proprietary keyboard firmware, not open source)", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Keychron&nbsp;J2&nbsp;HE&nbsp;8K", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Keychron&nbsp;J2&nbsp;HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Keychron J2 HE 8K", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Keychron J2 HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("J2&nbsp;HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("J2 HE 8K", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("J2 HE", "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron J2 HE 8K (proprietary keyboard firmware, not open source)", "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron J2 HE 8K", "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("Keychron J2 HE", "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("J2&nbsp;HE", "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("J2 HE 8K", "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("J2 HE", "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)");
 
             // A 84-key (80%. True TKL) crippled wired-only
             // mechanical keyboard from IBM without a knob.
@@ -89510,9 +89511,8 @@ namespace OverflowHelper.core
             //
             //   <https://www.reddit.com/r/Keychron/comments/1xeumyj/j9_stopped_typing_miduse_wont_type_even_wired/>
             //
-            correctionAdd("Keychron J9 (80%)", "Keychron&nbsp;J9 (80%)"); // Sort of identity mapping
-            correctionAdd("Keychron J9", "Keychron&nbsp;J9 (80%)");
-            correctionAdd("J9", "Keychron&nbsp;J9 (80%)");
+            correctionAdd("Keychron J9", "Keychron J9 (80%)");
+            correctionAdd("J9", "Keychron J9 (80%)");
 
             // A 85-key (80%. Not true TKL) crippled low-profile wired-only
             // QMK/Via-capable mechanical keyboard from
@@ -95875,13 +95875,11 @@ namespace OverflowHelper.core
             //
             //         0x362D/0x1506
             //
-            correctionAdd("Keychron J5 (105%)", "Keychron&nbsp;J5 (105%)"); // Sort of identity mapping
-            correctionAdd("Keychron&nbsp;J5", "Keychron&nbsp;J5 (105%)");
-            correctionAdd("Keychron J5", "Keychron&nbsp;J5 (105%)"); // Sort of identity mapping
-            correctionAdd("Keychron j5", "Keychron&nbsp;J5 (105%)");
-            correctionAdd("keychron j5", "Keychron&nbsp;J5 (105%)");
-            correctionAdd("KJ5", "Keychron&nbsp;J5 (105%)");
-            correctionAdd("J5", "Keychron&nbsp;J5 (105%)");
+            correctionAdd("Keychron J5", "Keychron J5 (105%)");
+            correctionAdd("Keychron j5", "Keychron J5 (105%)");
+            correctionAdd("keychron j5", "Keychron J5 (105%)");
+            correctionAdd("KJ5", "Keychron J5 (105%)");
+            correctionAdd("J5", "Keychron J5 (105%)");
 
             // A 109-key (105%. Not true TKL) full-size
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -101606,8 +101604,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sifr", "sIFR");
             correctionAdd("Sifr", "sIFR");
-
-            correctionAdd("groovy", "Groovy");
 
             correctionAdd("net-beans", "NetBeans");
             correctionAdd("neatbeans", "NetBeans"); // Misspelling.
@@ -109394,8 +109390,6 @@ namespace OverflowHelper.core
 
             URL_Add("synchronise", "https://en.wikipedia.org/wiki/Synchronization");
 
-            URL_Add("Groovy", "https://en.wikipedia.org/wiki/Apache_Groovy"); // Old: https://en.wikipedia.org/wiki/Groovy_%28programming_language%29
-
             URL_Add("NetBeans", "https://en.wikipedia.org/wiki/NetBeans");
 
             URL_Add("Solr", "https://en.wikipedia.org/wiki/Apache_Solr");
@@ -109849,8 +109843,6 @@ namespace OverflowHelper.core
             URL_Add("antivirus software", "https://en.wikipedia.org/wiki/Antivirus_software");
 
             URL_Add("X-ray", "https://en.wikipedia.org/wiki/X-ray");
-
-            URL_Add("Lynx", "https://en.wikipedia.org/wiki/Lynx_%28web_browser%29");
 
             URL_Add("DD-WRT", "https://en.wikipedia.org/wiki/DD-WRT");
 
@@ -132068,8 +132060,6 @@ namespace OverflowHelper.core
 
             URL_Add("earth radiation", "https://en.wikipedia.org/wiki/Geopathology");
 
-            URL_Add("lunar", "https://en.wiktionary.org/wiki/lunar#Adjective");
-
             URL_Add("occultation", "https://en.wiktionary.org/wiki/occultation#Noun");
 
             URL_Add("occultations", "https://en.wiktionary.org/wiki/occultation#Noun");
@@ -141618,7 +141608,7 @@ namespace OverflowHelper.core
 
             URL_Add("Ubuntu 16.04 (Xenial Xerus)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.04_LTS_.28Xenial_Xerus.29");
 
-            URL_Add("Kubuntu&nbsp;16.04 (Xenial Xerus)", "https://en.wikipedia.org/wiki/Kubuntu#Releases");
+            URL_Add("Kubuntu 16.04 (Xenial Xerus)", "https://en.wikipedia.org/wiki/Kubuntu#Releases");
 
             URL_Add("Ubuntu 16.10 (Yakkety Yak)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.10_.28Yakkety_Yak.29");
 
@@ -141636,7 +141626,7 @@ namespace OverflowHelper.core
 
             URL_Add("Ubuntu MATE 20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Ubuntu_MATE#Releases");
 
-            URL_Add("Kubuntu&nbsp;20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Kubuntu#History");
+            URL_Add("Kubuntu 20.04 (Focal Fossa)", "https://en.wikipedia.org/wiki/Kubuntu#History");
 
             URL_Add("Ubuntu 20.10 (Groovy Gorilla)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.10_(Groovy_Gorilla)");
 
@@ -141654,7 +141644,7 @@ namespace OverflowHelper.core
 
             URL_Add("Ubuntu 24.04 (Noble Numbat)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_24.04_LTS_(Noble_Numbat)");
 
-            URL_Add("Kubuntu&nbsp;24.04 (Noble Numbat)", "https://en.wikipedia.org/wiki/Kubuntu#Releases");
+            URL_Add("Kubuntu 24.04 (Noble Numbat)", "https://en.wikipedia.org/wiki/Kubuntu#Releases");
 
             URL_Add("Ubuntu 26.04 (Resolute Raccoon)", "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_26.04_LTS_(Resolute_Raccoon)");
 
@@ -142373,8 +142363,6 @@ namespace OverflowHelper.core
             URL_Add("Mac OS X v10.6 (Snow Leopard) (2009 vintage)", "https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard");
 
             URL_Add("Mac OS X v10.8 (Mountain Lion) (2012 vintage)", "https://en.wikipedia.org/wiki/OS_X_Mountain_Lion");
-
-            URL_Add("Mac OS X v10.9 (Mavericks) (2013 vintage)", "https://en.wikipedia.org/wiki/OS_X_Mavericks");
 
             URL_Add("Mac OS X v10.11 (El Capitan) (2015 vintage)", "https://en.wikipedia.org/wiki/OS_X_El_Capitan");
 
@@ -143906,17 +143894,17 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron J1", "https://www.keychron.com/products/keychron-j1-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;J2", "https://www.keychron.com/products/keychron-j2-qmk-wireless-mechanical-keyboard");
+            URL_Add("Keychron J2", "https://www.keychron.com/products/keychron-j2-qmk-wireless-mechanical-keyboard");
 
             URL_Add("Keychron J4", "https://www.keychron.com/products/keychron-j4-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;J5 (105%)", "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard");
+            URL_Add("Keychron J5 (105%)", "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;J9 (80%)", "https://www.keychron.id/products/keychron-j9-qmk-ultra-slim-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron J9 (80%)", "https://www.keychron.id/products/keychron-j9-qmk-ultra-slim-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-j2-he-8k-magnetic-switch-keyboard");
+            URL_Add("Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-j2-he-8k-magnetic-switch-keyboard");
 
-            URL_Add("Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard");
+            URL_Add("Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard");
 
             URL_Add("Keychron S1", "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard");
 
@@ -152099,6 +152087,11 @@ namespace OverflowHelper.core
             correctionAdd("epic privacy browser_", "Epic_");
             correctionAdd("epic_", "Epic_");
 
+            // A web browser
+            // A text-only / console web browser
+            correctionAdd("lynx_", "Lynx_");
+            correctionAdd("LYNX_", "Lynx_");
+
             // A web browser extension
             correctionAdd("stylus_", "Stylus_");
 
@@ -152976,6 +152969,8 @@ namespace OverflowHelper.core
             correctionAdd("the keyboard application_", "Keychron Launcher_");
             correctionAdd("Keychron's clone of Via_", "Keychron Launcher_");
             correctionAdd("launcher.keychrome.com_", "Keychron Launcher_");
+            correctionAdd("launcher Web interface_", "Keychron Launcher_");
+            correctionAdd("launcher web interface_", "Keychron Launcher_");
             correctionAdd("Keychron clone of Via_", "Keychron Launcher_");
             correctionAdd("Keychron Configurator_", "Keychron Launcher_");
             correctionAdd("launcher.keychron.com_", "Keychron Launcher_");
@@ -153237,6 +153232,7 @@ namespace OverflowHelper.core
             correctionAdd("5 ms_", "The QMK default key debounce time is 5 ms_");
 
             correctionAdd("masking a mechanical problem_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
+            correctionAdd("to hide quality problems_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
             correctionAdd("treating some symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
             correctionAdd("treating the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
             correctionAdd("treated the symptoms_", "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_");
@@ -154348,7 +154344,7 @@ namespace OverflowHelper.core
             // Reference: The Dygma video (<https://www.youtube.com/watch?v=xLT2VcrQHrQ>?)
             //
             //  sculpted: 02 min 19 secs
-            // 
+            //
             // Alternative URLs:
             //
             //   <https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=2m45s>
@@ -157772,10 +157768,46 @@ namespace OverflowHelper.core
             // The verb
             correctionAdd("red shift_", "redshift_");
 
+            correctionAdd("Lunar_", "lunar_");
+
             // The asteroid
             correctionAdd("juno_", "Juno_");
 
-            correctionAdd("ganymede_", "Ganymede_"); // Astronomy. The moon.
+            // Jupiter.
+            //
+            // The fourth of the Galilean moons
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Galilean_moons>
+            //
+            correctionAdd("callisto_", "Callisto_");
+
+            // Jupiter
+            // Astronomy. Pertaining to the Solar System planet
+            //            Jupiter's moon Europa
+            //
+            correctionAdd("European_", "Europan_"); // For the cross-reference. Is correct for earth's continent Europe...
+            correctionAdd("europan_", "Europan_");
+
+            // Jupiter.
+            //
+            // The second of the Galilean moons
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Galilean_moons>
+            //
+            correctionAdd("Europa_", "Europa (moon)_");
+            correctionAdd("europa_", "Europa (moon)_");
+            correctionAdd("Europe_", "Europa (moon)_"); // For the cross-reference. Is correct for earth's continent Europe...
+
+            // Astronomy. Jupiter. The moon.
+            //
+            // The third of the Galilean moons (and the
+            // largest in the entire Solar System
+            //
+            correctionAdd("ganymede_", "Ganymede_");
 
             correctionAdd("element_", "chemical element_");
             correctionAdd("Element_", "chemical element_");
@@ -162306,16 +162338,6 @@ namespace OverflowHelper.core
             correctionAdd("ASYNC_", "asynchronously_");
             correctionAdd("aysnc_", "asynchronously_");
             correctionAdd("asyc_", "asynchronously_");
-
-            // Jupiter
-            correctionAdd("Europa_", "Europa (moon)_");
-            correctionAdd("europa_", "Europa (moon)_");
-            correctionAdd("Europe_", "Europa (moon)_"); // For the cross-reference. Is correct for earth's continent Europe...
-
-            // Astronomy. Pertaining to the Solar System planet
-            //            Jupiter's moon Europa
-            correctionAdd("European_", "Europan_"); // For the cross-reference. Is correct for earth's continent Europe...
-            correctionAdd("europan_", "Europan_");
 
             // Music
             correctionAdd("Piano_", "piano_");
@@ -168242,7 +168264,17 @@ namespace OverflowHelper.core
 
             URL_Add("NB_", "https://en.wiktionary.org/wiki/NB#Phrase");
 
+            URL_Add("lunar_", "https://en.wiktionary.org/wiki/lunar#Adjective");
+
             URL_Add("Juno_", "https://en.wikipedia.org/wiki/3_Juno");
+
+            URL_Add("Callisto_", "https://en.wikipedia.org/wiki/Callisto_(moon)");
+
+            URL_Add("Europan_", "https://en.wiktionary.org/wiki/Europan#Adjective");
+
+            URL_Add("Europa (moon)_", "https://en.wikipedia.org/wiki/Europa_(moon)");
+
+            URL_Add("Ganymede_", "https://en.wikipedia.org/wiki/Ganymede_(moon)");
 
             URL_Add("pigeon_", "https://en.wiktionary.org/wiki/pigeon#Noun");
 
@@ -168265,8 +168297,6 @@ namespace OverflowHelper.core
             URL_Add("elm_", "https://en.wikipedia.org/wiki/Elm#Dutch_elm_disease");
 
             URL_Add("tee_", "https://en.wikipedia.org/wiki/Tee_(command)");
-
-            URL_Add("Ganymede_", "https://en.wikipedia.org/wiki/Ganymede_(moon)");
 
             URL_Add("unused_", "https://en.wiktionary.org/wiki/unused#Adjective");
 
@@ -168331,8 +168361,6 @@ namespace OverflowHelper.core
             URL_Add("loop_", "https://en.wiktionary.org/wiki/loop#Noun");
 
             URL_Add("Interstellar_", "https://en.wikipedia.org/wiki/Interstellar_(film)");
-
-            URL_Add("RPG_", "https://en.wikipedia.org/wiki/IBM_RPG");
 
             URL_Add("Adobe Illustrator_", "https://en.wikipedia.org/wiki/Adobe_Illustrator");
 
@@ -169766,8 +169794,6 @@ namespace OverflowHelper.core
 
             URL_Add("tapping_", "https://en.wiktionary.org/wiki/tap#Verb_2"); // Old: https://en.wiktionary.org/wiki/tap#Verb
 
-            URL_Add("Stylus_", "https://en.wikipedia.org/wiki/Stylus_(browser_extension)");
-
             URL_Add("uglifies_", "https://en.wiktionary.org/wiki/uglify#Verb");
 
             URL_Add("code golf_", "https://en.wiktionary.org/wiki/code_golf#Noun");
@@ -171118,15 +171144,11 @@ namespace OverflowHelper.core
 
             URL_Add("Pacific Daylight Time_", "https://en.wikipedia.org/wiki/Pacific_Time_Zone");
 
-            URL_Add("Europan_", "https://en.wiktionary.org/wiki/Europan#Adjective");
-
             URL_Add("summer time in Europe_", "https://en.wikipedia.org/wiki/Summer_time_in_Europe");
 
             URL_Add("British Summer Time_", "https://en.wikipedia.org/wiki/British_Summer_Time");
 
             URL_Add("Moscow time zone_", "https://en.wikipedia.org/wiki/Moscow_Time");
-
-            URL_Add("Europa (moon)_", "https://en.wikipedia.org/wiki/Europa_(moon)");
 
             URL_Add("English_", "https://en.wiktionary.org/wiki/English#Proper_noun");
 
@@ -171428,18 +171450,6 @@ namespace OverflowHelper.core
 
             URL_Add("dump_", "https://en.wiktionary.org/wiki/dump#Verb");
 
-            URL_Add("dynamic programming_", "https://en.wikipedia.org/wiki/Dynamic_programming");
-
-            URL_Add("template metaprogramming_", "https://en.wikipedia.org/wiki/Template_metaprogramming");
-
-            URL_Add("extreme programming_", "https://en.wikipedia.org/wiki/Extreme_programming");
-
-            URL_Add("competitive programming_", "https://en.wikipedia.org/wiki/Competitive_programming");
-
-            URL_Add("The C Programming Language_", "https://en.wikipedia.org/wiki/The_C_Programming_Language");
-
-            URL_Add("GNAT Programming Studio_", "https://directory.fsf.org/wiki/GNAT_Programming_Studio");
-
             URL_Add("else_", "https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)");
 
             URL_Add("Server Programming Interface_", "https://www.postgresql.org/docs/7.0/spi.htm");
@@ -171514,15 +171524,31 @@ namespace OverflowHelper.core
 
             URL_Add("Erik Meijer (a functional programming guy who has a bunch of presentations where he trashes Agile while using this weird coloured shirt)_", "https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f");
 
-            URL_Add("ML_", "https://en.wikipedia.org/wiki/ML_(programming_language)");
+            URL_Add("dynamic programming_", "https://en.wikipedia.org/wiki/Dynamic_programming");
 
-            URL_Add("Miranda_", "https://en.wikipedia.org/wiki/Miranda_(programming_language)");
+            URL_Add("template metaprogramming_", "https://en.wikipedia.org/wiki/Template_metaprogramming");
+
+            URL_Add("extreme programming_", "https://en.wikipedia.org/wiki/Extreme_programming");
+
+            URL_Add("competitive programming_", "https://en.wikipedia.org/wiki/Competitive_programming");
+
+            URL_Add("GNAT Programming Studio_", "https://directory.fsf.org/wiki/GNAT_Programming_Studio");
+
+            URL_Add("The C Programming Language_", "https://en.wikipedia.org/wiki/The_C_Programming_Language");
 
             URL_Add("Carbon_", "https://en.wikipedia.org/wiki/Carbon_(programming_language)"); // From chemical element 6
 
+            URL_Add("RPG_", "https://en.wikipedia.org/wiki/IBM_RPG");
+
             URL_Add("Crystal_", "https://en.wikipedia.org/wiki/Crystal_(programming_language)");
 
+            URL_Add("Miranda_", "https://en.wikipedia.org/wiki/Miranda_(programming_language)");
+
+            URL_Add("ML_", "https://en.wikipedia.org/wiki/ML_(programming_language)");
+
             URL_Add("Magik_", "https://en.wikipedia.org/wiki/Magik_(programming_language)");
+
+            URL_Add("Reason_", "https://en.wikipedia.org/wiki/Reason_(programming_language)");
 
             URL_Add("bc_", "https://en.wikipedia.org/wiki/Bc_(programming_language)#Overview");
 
@@ -171962,6 +171988,12 @@ namespace OverflowHelper.core
 
             URL_Add("Thorium_", "https://news.slashdot.org/story/24/03/31/2250209/thorium-the-fastest-open-source-chromium-based-browser"); // From chemical element 90
 
+            URL_Add("Epic_", "https://en.wikipedia.org/wiki/Epic_(web_browser)");
+
+            URL_Add("Lynx_", "https://en.wikipedia.org/wiki/Lynx_%28web_browser%29");
+
+            URL_Add("Stylus_", "https://en.wikipedia.org/wiki/Stylus_(browser_extension)");
+
             URL_Add("ångström_", "https://en.wikipedia.org/wiki/Angstrom");
 
             URL_Add("COSMIC_", "https://en.wikipedia.org/wiki/COSMIC_desktop"); // Old: <https://en.wikipedia.org/wiki/Pop!_OS#Features>, <https://en.wikipedia.org/wiki/COSMIC_(desktop_environment)>
@@ -172057,8 +172089,6 @@ namespace OverflowHelper.core
             URL_Add("AWS Web Application Firewall_", "https://aws.amazon.com/waf/");
 
             URL_Add("Richard Stallman_", "https://en.wikipedia.org/wiki/Richard_Stallman");
-
-            URL_Add("Epic_", "https://en.wikipedia.org/wiki/Epic_(web_browser)");
 
             URL_Add("love you_", "https://www.allacronyms.com/LY/Love_You");
 
@@ -172781,8 +172811,6 @@ namespace OverflowHelper.core
             URL_Add("resistance_", "https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance#Introduction");
 
             URL_Add("Realtek Semiconductor_", "https://en.wikipedia.org/wiki/Realtek#Products");
-
-            URL_Add("Reason_", "https://en.wikipedia.org/wiki/Reason_(programming_language)");
 
             URL_Add("ReactiveX_", "https://en.wikipedia.org/wiki/ReactiveX");
 
@@ -176020,6 +176048,49 @@ namespace OverflowHelper.core
             correctionAdd("LION__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
             correctionAdd("7.4__", "Mac OS X v10.7 (Lion) (2011 vintage)__");
 
+            // 2013 vintage
+            //
+            // Note: the identity is not working. Is it because of the
+            // trailing ")"??
+            //
+            // Close in name (Ubuntu): "Ubuntu 10.10 (Maverick Meerkat)"
+            //     (2013 vintage)
+            correctionAdd("Mac OS X v10.9 (Mavericks)__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("mac OS X mavericks__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Mac OS X Mavericks__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Mac OS (Mavericks)__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("macOS (Mavericks)__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("OS X Mavericks__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Mac OS X v10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("OSX mavericks__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("OSX Mavericks__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Mac OS X 10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("osx mavericks__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("MAC Mavericks__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Mac Mavericks__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("mac os x 10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Max OS X 10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("MAC Maverick__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Mac Maverick__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("mac OSx 10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("mac osx 10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Max OSX 10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Mac OS 10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("mac ox 10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("MacOSX 10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("OS X v10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Mavericks__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("OS X 10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("mavericks__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("makericks__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("OSX 10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("maverick__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Maveriks__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Maverick__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Mac 10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("Maverics__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+            correctionAdd("10.9__", "Mac OS X v10.9 (Mavericks) (2013 vintage)__");
+
             // 2014 vintage
             correctionAdd("Mac OS X v10.10 (Yosemite)__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
             correctionAdd("Mac OS X Yosemite__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
@@ -178037,6 +178108,9 @@ namespace OverflowHelper.core
             // A programming language
             correctionAdd("IO__", "Io__");
 
+            // A programming language. Related to Java
+            correctionAdd("groovy__", "Groovy__");
+
             URL_Add("Gigabyte Technology__", "https://en.wikipedia.org/wiki/Gigabyte_Technology");
 
             URL_Add("top__", "https://en.wiktionary.org/wiki/top#Adjective");
@@ -178052,8 +178126,6 @@ namespace OverflowHelper.core
             URL_Add("our__", "https://en.wiktionary.org/wiki/our#Determiner");
 
             URL_Add("both__", "https://en.wiktionary.org/wiki/both#Determiner");
-
-            URL_Add("Io__", "https://en.wikipedia.org/wiki/Io_(programming_language)");
 
             URL_Add("can__", "https://en.wiktionary.org/wiki/can#Verb");
 
@@ -178334,10 +178406,6 @@ namespace OverflowHelper.core
             URL_Add("unsigned 0 to 4,294,967,295__", "https://en.wikipedia.org/wiki/32-bit_computing");
 
             URL_Add("operations research__", "https://en.wikipedia.org/wiki/Operations_research");
-
-            URL_Add("Brian Kernighan__", "https://en.wikipedia.org/wiki/Brian_Kernighan");
-
-            URL_Add("Elm__", "https://en.wikipedia.org/wiki/Elm_(programming_language)");
 
             URL_Add("treat__", "https://en.wiktionary.org/wiki/treat#Verb");
 
@@ -179023,6 +179091,8 @@ namespace OverflowHelper.core
 
             URL_Add("Mac OS X v10.7 (Lion) (2011 vintage)__", "https://en.wikipedia.org/wiki/OS_X_Lion"); // Old: https://en.wikipedia.org/wiki/Mac_OS_X_Lion
 
+            URL_Add("Mac OS X v10.9 (Mavericks) (2013 vintage)__", "https://en.wikipedia.org/wiki/OS_X_Mavericks");
+
             URL_Add("Mac OS X v10.10 (Yosemite) (2014 vintage)__", "https://en.wikipedia.org/wiki/OS_X_Yosemite");
 
             URL_Add("macOS v11 (Big Sur) (2020 vintage)__", "https://en.wikipedia.org/wiki/MacOS_Big_Sur");
@@ -179269,8 +179339,6 @@ namespace OverflowHelper.core
 
             URL_Add("\"Explanation is vital for a good answer.\"__", "https://meta.stackexchange.com/questions/258474/deal-with-famous-profiles-and-the-possibility-of-fakes/258475#258475");
 
-            URL_Add("Pawn__", "https://github.com/compuphase/pawn");
-
             URL_Add("Firefox ESR__", "https://en.wikipedia.org/wiki/Firefox#Channels_and_release_schedule"); // Old: https://en.wikipedia.org/wiki/Firefox#Experimental_builds_and_ESR
 
             URL_Add("Web development tools__", "https://en.wikipedia.org/wiki/Web_development_tools");
@@ -179318,6 +179386,16 @@ namespace OverflowHelper.core
             URL_Add("reseat__", "https://en.wiktionary.org/wiki/reseat#Verb");
 
             URL_Add("reseating__", "https://en.wiktionary.org/wiki/reseat#Verb");
+
+            URL_Add("Brian Kernighan__", "https://en.wikipedia.org/wiki/Brian_Kernighan");
+
+            URL_Add("Pawn__", "https://github.com/compuphase/pawn");
+
+            URL_Add("Elm__", "https://en.wikipedia.org/wiki/Elm_(programming_language)");
+
+            URL_Add("Io__", "https://en.wikipedia.org/wiki/Io_(programming_language)");
+
+            URL_Add("Groovy__", "https://en.wikipedia.org/wiki/Apache_Groovy"); // Old: https://en.wikipedia.org/wiki/Groovy_%28programming_language%29
 
         } //addLookupData_alternativeWordSet2()
 
@@ -179811,9 +179889,9 @@ namespace OverflowHelper.core
             correctionAdd("&nbsp;centigrade___", "&nbsp;°C___");
             correctionAdd("&nbsp;Fahrenheit___", "&nbsp;°C___"); // For the cross-reference
             correctionAdd("centigrade___", "&nbsp;°C___");
+            correctionAdd("°celsius___", "&nbsp;°C___");
             correctionAdd("*Celsius___", "&nbsp;°C___");
             correctionAdd("*celsius___", "&nbsp;°C___");
-            correctionAdd("°celsius___", "&nbsp;°C___");
             correctionAdd("Celsius___", "&nbsp;°C___");
             correctionAdd("Celcius___", "&nbsp;°C___");
             correctionAdd("celcius___", "&nbsp;°C___");
@@ -180597,7 +180675,15 @@ namespace OverflowHelper.core
             correctionAdd("ANSI-C___", "ANSI C___");
             correctionAdd("ANSI___", "ANSI C___");
 
-            correctionAdd("IO___", "Io___"); // Astronomy. The moon
+            // Astronomy. Jupiter. The moon.
+            //
+            // The first of the Galilean moons
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Galilean_moons>
+            //
+            correctionAdd("IO___", "Io___");
 
             // The HTML 'verb' / the HTML method
             correctionAdd("head___", "HEAD___");
