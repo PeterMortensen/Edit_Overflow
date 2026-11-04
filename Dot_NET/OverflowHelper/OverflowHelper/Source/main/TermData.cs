@@ -975,6 +975,8 @@ namespace OverflowHelper.core
             //          to maintenance downtime or capacity problems.
             //          Please try again later."
             //
+            //       The same on 2026-11-04.
+            //
             correctionAdd("Microsoft 10", "Windows&nbsp;10");
             correctionAdd("Windows ten", "Windows&nbsp;10");
             correctionAdd("windows(10)", "Windows&nbsp;10");
@@ -18088,14 +18090,80 @@ namespace OverflowHelper.core
             correctionAdd("KPI", "key performance indicator");
             correctionAdd("kpi", "key performance indicator");
 
+            correctionAdd("comcpact", "compact");
+
+            correctionAdd("compact-able", "compatible");
+            correctionAdd("comptabilble", "compatible");
+            correctionAdd("compatitable", "compatible");
+            correctionAdd("compatibile", "compatible");
+            correctionAdd("compaitible", "compatible");
+            correctionAdd("compactible", "compatible");
+            correctionAdd("compatiable", "compatible");
+            correctionAdd("compatabile", "compatible");
+            correctionAdd("compatibale", "compatible");
+            correctionAdd("compatable", "compatible");
+            correctionAdd("compatiple", "compatible");
+            correctionAdd("Compatible", "compatible");
+            correctionAdd("compaitble", "compatible");
+            correctionAdd("compadible", "compatible");
+            correctionAdd("campatable", "compatible");
+            correctionAdd("comatiable", "compatible");
+            correctionAdd("comatibale", "compatible"); // Multiple typos
+            correctionAdd("compaible", "compatible");
+            correctionAdd("compatibl", "compatible");
+            correctionAdd("comatible", "compatible");
+            correctionAdd("capatiple", "compatible");
+            correctionAdd("compatble", "compatible");
+
+            correctionAdd("compatibiltity", "compatibility");
+            correctionAdd("comaptibility", "compatibility");
+            correctionAdd("compatability", "compatibility"); // Common misspelling...
+            correctionAdd("Compatability", "compatibility"); // Common misspelling...
+            correctionAdd("competability", "compatibility");
+            correctionAdd("Compatibility", "compatibility");
+            correctionAdd("comatibility", "compatibility");
+            correctionAdd("compatablity", "compatibility");
+            correctionAdd("compatibilty", "compatibility");
+            correctionAdd("compatiblity", "compatibility");
+            correctionAdd("Compatabilty", "compatibility");
+            correctionAdd("compatabilty", "compatibility");
+            correctionAdd("Compatiblity", "compatibility");
+            correctionAdd("comptability", "compatibility");
+            correctionAdd("compabalilty", "compatibility");
+            correctionAdd("capatibility", "compatibility");
+            correctionAdd("Compatabily", "compatibility");
+            correctionAdd("compatabily", "compatibility");
+            correctionAdd("compatility", "compatibility");
+            correctionAdd("compability", "compatibility");
+            correctionAdd("compatbile", "compatibility"); // Not 100% correct
+            correctionAdd("compatibly", "compatibility");
+            correctionAdd("Compatibly", "compatibility");
+            correctionAdd("capatility", "compatibility");
+            correctionAdd("compat", "compatibility");
+
+            correctionAdd("incompatability", "incompatibility");
+            correctionAdd("incompatibilty", "incompatibility");
+            correctionAdd("incompability", "incompatibility");
+
+            correctionAdd("non-compatible", "incompatible");
+            correctionAdd("incompartable", "incompatible");
+            correctionAdd("incompartible", "incompatible");
+            correctionAdd("in-compatible", "incompatible");
+            correctionAdd("noncompatible", "incompatible");
+            correctionAdd("imcompatible", "incompatible");
+            correctionAdd("incompatable", "incompatible");
+            correctionAdd("incompatiple", "incompatible");
+            correctionAdd("incomptible", "incompatible");
+            correctionAdd("incomatible", "incompatible");
+
             correctionAdd("glade", "glad");
 
             correctionAdd("glandly", "gladly");
 
             correctionAdd("found of", "fond of");
 
-            correctionAdd("Funds", "finds");
             correctionAdd("funds", "finds");
+            correctionAdd("Funds", "finds");
 
             correctionAdd("founded", "found");
             correctionAdd("finded", "found");
@@ -28835,6 +28903,7 @@ namespace OverflowHelper.core
             correctionAdd("RegExp", "regular expression");
             correctionAdd("RegEXP", "regular expression");
             correctionAdd("regext", "regular expression");
+            correctionAdd("reg_ex", "regular expression");
             correctionAdd("regex", "regular expression");
             correctionAdd("Regex", "regular expression");
             correctionAdd("REGEX", "regular expression");
@@ -28966,6 +29035,7 @@ namespace OverflowHelper.core
             correctionAdd("Strawberry perl", "Strawberry Perl");
             correctionAdd("StrawberryPerl", "Strawberry Perl");
             correctionAdd("Strawberry", "Strawberry Perl");
+            correctionAdd("strawberry", "Strawberry Perl");
 
             // A Perl implementation / distribution
             correctionAdd("Activestate Perl", "ActivePerl");
@@ -35340,71 +35410,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dis-service", "disservice");
 
-            correctionAdd("comcpact", "compact");
-
-            correctionAdd("compact-able", "compatible");
-            correctionAdd("comptabilble", "compatible");
-            correctionAdd("compatitable", "compatible");
-            correctionAdd("compatibile", "compatible");
-            correctionAdd("compaitible", "compatible");
-            correctionAdd("compactible", "compatible");
-            correctionAdd("compatiable", "compatible");
-            correctionAdd("compatabile", "compatible");
-            correctionAdd("compatibale", "compatible");
-            correctionAdd("compatable", "compatible");
-            correctionAdd("compatiple", "compatible");
-            correctionAdd("Compatible", "compatible");
-            correctionAdd("compaitble", "compatible");
-            correctionAdd("compadible", "compatible");
-            correctionAdd("campatable", "compatible");
-            correctionAdd("comatiable", "compatible");
-            correctionAdd("comatibale", "compatible"); // Multiple typos
-            correctionAdd("compaible", "compatible");
-            correctionAdd("compatibl", "compatible");
-            correctionAdd("comatible", "compatible");
-            correctionAdd("capatiple", "compatible");
-            correctionAdd("compatble", "compatible");
-
-            correctionAdd("compatibiltity", "compatibility");
-            correctionAdd("comaptibility", "compatibility");
-            correctionAdd("compatability", "compatibility"); // Common misspelling...
-            correctionAdd("Compatability", "compatibility"); // Common misspelling...
-            correctionAdd("competability", "compatibility");
-            correctionAdd("comatibility", "compatibility");
-            correctionAdd("compatablity", "compatibility");
-            correctionAdd("compatibilty", "compatibility");
-            correctionAdd("compatiblity", "compatibility");
-            correctionAdd("Compatabilty", "compatibility");
-            correctionAdd("compatabilty", "compatibility");
-            correctionAdd("Compatiblity", "compatibility");
-            correctionAdd("comptability", "compatibility");
-            correctionAdd("compabalilty", "compatibility");
-            correctionAdd("capatibility", "compatibility");
-            correctionAdd("Compatabily", "compatibility");
-            correctionAdd("compatabily", "compatibility");
-            correctionAdd("compatility", "compatibility");
-            correctionAdd("compability", "compatibility");
-            correctionAdd("compatbile", "compatibility"); // Not 100% correct
-            correctionAdd("compatibly", "compatibility");
-            correctionAdd("Compatibly", "compatibility");
-            correctionAdd("capatility", "compatibility");
-            correctionAdd("compat", "compatibility");
-
-            correctionAdd("incompatability", "incompatibility");
-            correctionAdd("incompatibilty", "incompatibility");
-            correctionAdd("incompability", "incompatibility");
-
-            correctionAdd("non-compatible", "incompatible");
-            correctionAdd("incompartable", "incompatible");
-            correctionAdd("incompartible", "incompatible");
-            correctionAdd("in-compatible", "incompatible");
-            correctionAdd("noncompatible", "incompatible");
-            correctionAdd("imcompatible", "incompatible");
-            correctionAdd("incompatable", "incompatible");
-            correctionAdd("incompatiple", "incompatible");
-            correctionAdd("incomptible", "incompatible");
-            correctionAdd("incomatible", "incompatible");
-
             correctionAdd("Croissant", "croissant");
 
             correctionAdd("bacak", "back");
@@ -35464,32 +35469,32 @@ namespace OverflowHelper.core
             correctionAdd("fiunction", "function");
             correctionAdd("functiion", "function");
             correctionAdd("funcation", "function");
-            correctionAdd("Functinon", "function");
             correctionAdd("functinon", "function");
             correctionAdd("funcition", "function");
             correctionAdd("funktions", "function");
             correctionAdd("funcktion", "function");
+            correctionAdd("Functinon", "function");
             correctionAdd("funciton", "function"); // A true typo
             correctionAdd("fonction", "function");
             correctionAdd("fucntion", "function");
             correctionAdd("finction", "function");
             correctionAdd("functonn", "function");
+            correctionAdd("funktion", "function");
+            correctionAdd("fucktion", "function");
             correctionAdd("Function", "function");
             correctionAdd("Funktion", "function");
-            correctionAdd("funktion", "function");
             correctionAdd("Funciton", "function");
-            correctionAdd("fucktion", "function");
             correctionAdd("funtion", "function");
             correctionAdd("fuction", "function"); // 2017-11-16: 2921 results
             correctionAdd("functon", "function");
             correctionAdd("funcion", "function");
-            correctionAdd("Funcion", "function");
             correctionAdd("functio", "function");
-            correctionAdd("Funtion", "function");
             correctionAdd("función", "function");
-            correctionAdd("unction", "function");
             correctionAdd("fnction", "function");
+            correctionAdd("unction", "function");
             correctionAdd("Función", "function");
+            correctionAdd("Funcion", "function");
+            correctionAdd("Funtion", "function");
             correctionAdd("fucn", "function");
             correctionAdd("funk", "function");
             correctionAdd("func", "function");
@@ -35534,12 +35539,12 @@ namespace OverflowHelper.core
             correctionAdd("functianality", "functionality");
             correctionAdd("fuctionality", "functionality");
             correctionAdd("functinality", "functionality");
-            correctionAdd("Funcionality", "functionality");
             correctionAdd("funcionality", "functionality");
+            correctionAdd("Funcionality", "functionality");
 
             correctionAdd("Functionally", "functionally");
-            correctionAdd("Functionaly", "functionally");
             correctionAdd("functionaly", "functionally");
+            correctionAdd("Functionaly", "functionally");
 
             correctionAdd("functionnalities", "functionalities");
             correctionAdd("fonctionalities", "functionalities");
@@ -59517,6 +59522,7 @@ namespace OverflowHelper.core
             // Regular expresion to find it: "\x{00A0}", "\x{A0}", "\u00A0" or  "\uA0"
             correctionAdd("non-breaking space", "NO-BREAK SPACE");
             correctionAdd("NO BREAK SPACE", "NO-BREAK SPACE");
+            correctionAdd("\\u00A0", "NO-BREAK SPACE");
             correctionAdd("U+00A0", "NO-BREAK SPACE");
             correctionAdd("nbsp", "NO-BREAK SPACE");
             correctionAdd("00A0", "NO-BREAK SPACE");
@@ -60141,18 +60147,18 @@ namespace OverflowHelper.core
             correctionAdd("OOP", "object-oriented programming");
 
             correctionAdd("functionnal programming", "functional programming");
+            correctionAdd("functional-programming", "functional programming");
             correctionAdd("Functional programming", "functional programming");
             correctionAdd("Functional Programming", "functional programming");
-            correctionAdd("functional-programming", "functional programming");
             correctionAdd("funcional programming", "functional programming");
             correctionAdd("funcional-programming", "functional programming");
-            correctionAdd("Function Programming", "functional programming");
             correctionAdd("function programming", "functional programming");
+            correctionAdd("Function Programming", "functional programming");
             correctionAdd("functional prog", "functional programming");
             correctionAdd("functional", "functional programming");
             correctionAdd("Functional", "functional programming");
-            correctionAdd("Functionl", "functional programming");
             correctionAdd("functionl", "functional programming");
+            correctionAdd("Functionl", "functional programming");
             correctionAdd("fp", "functional programming");
             correctionAdd("FP", "functional programming");
 
@@ -69395,15 +69401,15 @@ namespace OverflowHelper.core
             // requires JavaScript to show anything)
             //
             correctionAdd("function key row-less", "FRL");
-            correctionAdd("Function key Row-Less", "FRL");
             correctionAdd("function key row less", "FRL");
-            correctionAdd("Function-Key-Row-Less", "FRL");
             correctionAdd("function-key-row-less", "FRL");
+            correctionAdd("Function key Row-Less", "FRL");
+            correctionAdd("Function-Key-Row-Less", "FRL");
             correctionAdd("function row-less", "FRL");
-            correctionAdd("Function Row-Less", "FRL");
             correctionAdd("function row less", "FRL");
-            correctionAdd("Function-Row-Less", "FRL");
             correctionAdd("function-row-less", "FRL");
+            correctionAdd("Function Row-Less", "FRL");
+            correctionAdd("Function-Row-Less", "FRL");
             correctionAdd("F Key Row Less", "FRL");
             correctionAdd("F key row less", "FRL");
             correctionAdd("F Row-Less", "FRL");
@@ -72232,14 +72238,6 @@ namespace OverflowHelper.core
             correctionAdd("uparrow", "up arrow key");
             correctionAdd("arrowup", "up arrow key");
             correctionAdd("ArrowUp", "up arrow key");
-
-            // A key on a keyboard (F1 - F12)
-            correctionAdd("functional key", "function key");
-            correctionAdd("Function keys", "function key");
-            correctionAdd("function keys", "function key");
-            correctionAdd("Function key", "function key");
-            correctionAdd("F Key", "function key");
-            correctionAdd("F key", "function key");
 
             // A key on a keyboard
             correctionAdd("f5", "F5");
@@ -82828,6 +82826,7 @@ namespace OverflowHelper.core
             correctionAdd("presicesly", "precisely");
             correctionAdd("precicely", "precisely");
             correctionAdd("precisly", "precisely");
+            correctionAdd("pricely", "precisely");
 
             correctionAdd("most precisest", "precisest");
             correctionAdd("most precise", "precisest");
@@ -103443,6 +103442,7 @@ namespace OverflowHelper.core
             correctionAdd("hillarious", "hilarious");
             correctionAdd("hirarious", "hilarious");
             correctionAdd("hillarous", "hilarious");
+            correctionAdd("Hilarious", "hilarious");
             correctionAdd("hilarius", "hilarious");
             correctionAdd("hilarous", "hilarious");
 
@@ -108520,6 +108520,8 @@ namespace OverflowHelper.core
             correctionAdd("laughbale", "laughable");
             correctionAdd("laugable", "laughable");
 
+            correctionAdd("lauther", "laughter");
+
             correctionAdd("LMFAO", "laughing my fucking ass off"); // The official abbr.
             correctionAdd("lmfao", "laughing my fucking ass off");
 
@@ -109981,10 +109983,6 @@ namespace OverflowHelper.core
             URL_Add("Disk Cleanup", "https://en.wikipedia.org/wiki/Disk_Cleanup");
 
             URL_Add("FFmpeg", "https://en.wikipedia.org/wiki/FFmpeg");
-
-            URL_Add("CPAN", "https://en.wikipedia.org/wiki/CPAN");
-
-            URL_Add("Strawberry Perl", "https://en.wikipedia.org/wiki/Strawberry_Perl");
 
             URL_Add("WiMAX", "https://en.wikipedia.org/wiki/WiMAX");
 
@@ -114404,8 +114402,6 @@ namespace OverflowHelper.core
 
             URL_Add("technical", "https://en.wiktionary.org/wiki/technical#Adjective");
 
-            URL_Add("the straw that broke the camel's back", "https://en.wiktionary.org/wiki/the_straw_that_broke_the_camel%27s_back#Noun");
-
             URL_Add("Code page 437", "https://en.wikipedia.org/wiki/Code_page_437");
 
             URL_Add("bigger", "https://en.wiktionary.org/wiki/bigger#Adjective");
@@ -114840,8 +114836,6 @@ namespace OverflowHelper.core
 
             URL_Add("causes", "https://en.wiktionary.org/wiki/cause#Verb");
 
-            URL_Add("slaughter", "https://en.wiktionary.org/wiki/slaughter#Verb");
-
             URL_Add("unasked", "https://en.wiktionary.org/wiki/unasked#Adjective");
 
             URL_Add("Savielly Tartakower", "https://en.wikipedia.org/wiki/Savielly_Tartakowergg");
@@ -115173,8 +115167,6 @@ namespace OverflowHelper.core
             URL_Add("integral", "https://en.wiktionary.org/wiki/integral#Adjective");
 
             URL_Add("keystroke", "https://en.wiktionary.org/wiki/keystroke#Noun");
-
-            URL_Add("laughing", "https://en.wiktionary.org/wiki/laugh#Verb");
 
             URL_Add("means", "https://en.wiktionary.org/wiki/mean#Verb");
 
@@ -115979,8 +115971,6 @@ namespace OverflowHelper.core
             URL_Add("collectively", "https://en.wiktionary.org/wiki/collectively#Adverb");
 
             URL_Add("illusion", "https://en.wiktionary.org/wiki/illusion#Noun");
-
-            URL_Add("laughable", "https://en.wiktionary.org/wiki/laughable#Adjective");
 
             URL_Add("turn off", "https://en.wiktionary.org/wiki/turn_off#Verb");
 
@@ -117107,12 +117097,6 @@ namespace OverflowHelper.core
             URL_Add("incentive", "https://en.wiktionary.org/wiki/incentive#Noun");
 
             URL_Add("mindlessly", "https://en.wiktionary.org/wiki/mindlessly#Adverb");
-
-            URL_Add("straw man", "https://en.wikipedia.org/wiki/Straw_man");
-
-            URL_Add("summing", "https://en.wiktionary.org/wiki/sum#Verb");
-
-            URL_Add("survivorship bias", "https://en.wikipedia.org/wiki/Survivorship_bias");
 
             URL_Add("valiant", "https://en.wiktionary.org/wiki/valiant#Adjective");
 
@@ -120376,9 +120360,21 @@ namespace OverflowHelper.core
 
             URL_Add("weird capitalisation", "https://www.youtube.com/watch?v=Ln1qbgZz_TQ&t=15m48s");
 
+            URL_Add("summing", "https://en.wiktionary.org/wiki/sum#Verb");
+
             URL_Add("titled", "https://en.wiktionary.org/wiki/titled#Adjective");
 
+            URL_Add("the straw that broke the camel's back", "https://en.wiktionary.org/wiki/the_straw_that_broke_the_camel%27s_back#Noun");
+
+            URL_Add("straw man", "https://en.wikipedia.org/wiki/Straw_man");
+
             URL_Add("straw men", "https://en.wiktionary.org/wiki/straw_man#Noun");
+
+            URL_Add("Strawberry Perl", "https://en.wikipedia.org/wiki/Strawberry_Perl");
+
+            URL_Add("CPAN", "https://en.wikipedia.org/wiki/CPAN");
+
+            URL_Add("survivorship bias", "https://en.wikipedia.org/wiki/Survivorship_bias");
 
             URL_Add("FASM", "https://en.wikipedia.org/wiki/FASM");
 
@@ -130261,8 +130257,6 @@ namespace OverflowHelper.core
             URL_Add("millions", "https://en.wiktionary.org/wiki/million#Noun");
 
             URL_Add("billions", "https://en.wiktionary.org/wiki/billion#Noun");
-
-            URL_Add("billion laughs attack", "https://en.wikipedia.org/wiki/Billion_laughs_attack");
 
             URL_Add("trillion", "https://en.wiktionary.org/wiki/trillion#Numeral");
 
@@ -146864,8 +146858,6 @@ namespace OverflowHelper.core
 
             URL_Add("Backspace key", "https://en.wikipedia.org/wiki/Backspace");
 
-            URL_Add("function key", "https://en.wikipedia.org/wiki/IBM_PC_keyboard#Invented_for_computers_with_video_displays"); // Old: https://en.wikipedia.org/wiki/Function_key#MS-DOS/Windows
-
             URL_Add("Esc key", "https://en.wikipedia.org/wiki/Esc_key");
 
             URL_Add("Ins key", "https://en.wikipedia.org/wiki/Insert_key");
@@ -151484,11 +151476,21 @@ namespace OverflowHelper.core
 
             URL_Add("don't give a fuck", "https://en.wiktionary.org/wiki/DGAF#Phrase");
 
+            URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
+
             URL_Add("laughing my ass off", "https://en.wiktionary.org/wiki/LMAO#Phrase");
 
             URL_Add("laughing my fucking ass off", "https://en.wiktionary.org/wiki/LMFAO#Interjection");
 
-            URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
+            URL_Add("laughing", "https://en.wiktionary.org/wiki/laugh#Verb");
+
+            URL_Add("laughable", "https://en.wiktionary.org/wiki/laughable#Adjective");
+
+            URL_Add("laughter", "https://en.wiktionary.org/wiki/laughter#Noun");
+
+            URL_Add("billion laughs attack", "https://en.wikipedia.org/wiki/Billion_laughs_attack");
+
+            URL_Add("slaughter", "https://en.wiktionary.org/wiki/slaughter#Verb");
 
             URL_Add("immediate mode", "https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics)#Immediate_mode_GUI");
 
@@ -154767,8 +154769,8 @@ namespace OverflowHelper.core
             correctionAdd("WK_", "Windows key_");
 
             // A key on a keyboard
-            correctionAdd("Function key_", "Fn key_"); // Not to be confused with function keys, F1-F12
             correctionAdd("function key_", "Fn key_"); // Not to be confused with function keys, F1-F12
+            correctionAdd("Function key_", "Fn key_"); // Not to be confused with function keys, F1-F12
             correctionAdd("Globe key_", "Fn key_"); // Mac
             correctionAdd("globe key_", "Fn key_"); // Mac
             correctionAdd("FN Key_", "Fn key_");
@@ -154794,11 +154796,7 @@ namespace OverflowHelper.core
             correctionAdd("f keys_", "function keys_");
             correctionAdd("F-keys_", "function keys_");
             correctionAdd("F-Keys_", "function keys_");
-            correctionAdd("F key_", "function keys_");
-            correctionAdd("F-key_", "function keys_");
             correctionAdd("Fkeys_", "function keys_");
-            correctionAdd("Fun_", "function keys_");
-            correctionAdd("fun_", "function keys_");
 
             correctionAdd("Compose Key_", "compose key_");
             correctionAdd("compose_", "compose key_");
@@ -155603,8 +155601,8 @@ namespace OverflowHelper.core
             correctionAdd("sub-routines_", "subroutines_");
             correctionAdd("function_", "subroutines_");
 
-            correctionAdd("Functional Dependencies_", "functional dependency_");
             correctionAdd("functional dependencies_", "functional dependency_");
+            correctionAdd("Functional Dependencies_", "functional dependency_");
             correctionAdd("Functional Dependency_", "functional dependency_");
             correctionAdd("FD_", "functional dependency_");
 
@@ -168826,8 +168824,6 @@ namespace OverflowHelper.core
 
             URL_Add("front-end_", "https://en.wiktionary.org/wiki/front-end#Adjective");
 
-            URL_Add("laugh_", "https://en.wiktionary.org/wiki/laugh#Noun");
-
             URL_Add("Ext&nbsp;JS_", "https://en.wikipedia.org/wiki/Ext_JS");
 
             URL_Add("clone_", "https://en.wiktionary.org/wiki/clone#Verb");
@@ -172918,6 +172914,8 @@ namespace OverflowHelper.core
 
             URL_Add("orthographic_", "https://en.wiktionary.org/wiki/orthographic#Adjective");
 
+            URL_Add("laugh_", "https://en.wiktionary.org/wiki/laugh#Noun");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -174175,16 +174173,14 @@ namespace OverflowHelper.core
             correctionAdd("caps__", "Caps Lock key__");
             correctionAdd("CL__", "Caps Lock key__");
 
-            correctionAdd("function keys row__", "function keys row (F1 - F12)__");
-            correctionAdd("function key row__", "function keys row (F1 - F12)__");
-            correctionAdd("function keys__", "function keys row (F1 - F12)__"); // For the cross-reference
-            correctionAdd("function key__", "function keys row (F1 - F12)__"); // For the cross-reference
-            correctionAdd("F Key Row__", "function keys row (F1 - F12)__");
-            correctionAdd("F key row__", "function keys row (F1 - F12)__");
-            correctionAdd("F Row__", "function keys row (F1 - F12)__");
-            correctionAdd("F row__", "function keys row (F1 - F12)__");
-            correctionAdd("FRow__", "function keys row (F1 - F12)__");
-            correctionAdd("Frow__", "function keys row (F1 - F12)__");
+            // A key on a keyboard (F1 - F12)
+            correctionAdd("functional key__", "function key__");
+            correctionAdd("Function key__", "function key__");
+            correctionAdd("F Key__", "function key__");
+            correctionAdd("F key__", "function key__");
+            correctionAdd("F-key__", "function key__");
+            correctionAdd("Fun__", "function key__");
+            correctionAdd("fun__", "function key__");
 
             // A keyboard layout. German.
             correctionAdd("German keyboard layout__", "QWERTZ keyboard layout__");
@@ -178072,6 +178068,9 @@ namespace OverflowHelper.core
             // For the reverse
             correctionAdd("OK__", "okay__");
 
+            correctionAdd("strawbery__", "strawberry__");
+            correctionAdd("Strawbery__", "strawberry__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -178231,11 +178230,11 @@ namespace OverflowHelper.core
 
             URL_Add("Caps Lock key__", "https://en.wikipedia.org/wiki/Caps_Lock");
 
+            URL_Add("function key__", "https://en.wikipedia.org/wiki/IBM_PC_keyboard#Invented_for_computers_with_video_displays"); // Old: https://en.wikipedia.org/wiki/Function_key#MS-DOS/Windows
+
             URL_Add("Ctrl key__", "https://en.wikipedia.org/wiki/Control_key");
 
             URL_Add("Delete key__", "https://en.wikipedia.org/wiki/Delete_key");
-
-            URL_Add("function keys row (F1 - F12)__", "https://en.wikipedia.org/wiki/Fn_key");
 
             URL_Add("keyboard modifier key__", "https://en.wikipedia.org/wiki/Modifier_key");
 
@@ -179397,6 +179396,8 @@ namespace OverflowHelper.core
 
             URL_Add("Groovy__", "https://en.wikipedia.org/wiki/Apache_Groovy"); // Old: https://en.wikipedia.org/wiki/Groovy_%28programming_language%29
 
+            URL_Add("strawberry__", "https://en.wiktionary.org/wiki/strawberry#Noun");
+
         } //addLookupData_alternativeWordSet2()
 
 
@@ -179440,6 +179441,17 @@ namespace OverflowHelper.core
             correctionAdd("Intent___", "intent___");
 
             correctionAdd("MA___", "Master of Arts___");
+
+            correctionAdd("function keys row___", "function keys row (F1 - F12)___");
+            correctionAdd("function key row___", "function keys row (F1 - F12)___");
+            correctionAdd("function keys___", "function keys row (F1 - F12)___"); // For the cross-reference
+            correctionAdd("function key___", "function keys row (F1 - F12)___"); // For the cross-reference
+            correctionAdd("F Key Row___", "function keys row (F1 - F12)___");
+            correctionAdd("F key row___", "function keys row (F1 - F12)___");
+            correctionAdd("F Row___", "function keys row (F1 - F12)___");
+            correctionAdd("F row___", "function keys row (F1 - F12)___");
+            correctionAdd("FRow___", "function keys row (F1 - F12)___");
+            correctionAdd("Frow___", "function keys row (F1 - F12)___");
 
             correctionAdd("alternative keyboard layouts___", "using alternative keyboard layouts___"); // For the cross-reference
             correctionAdd("alting___", "using alternative keyboard layouts___");
@@ -179726,6 +179738,13 @@ namespace OverflowHelper.core
 
             correctionAdd("5___", "five___");
 
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=A3fHWl6hiFE>
+            //     Simulated intelligence: "seveen"...
+            //
+            correctionAdd("Seveen___", "seven___");
+            correctionAdd("seveen___", "seven___");
             correctionAdd("7___", "seven___");
 
             correctionAdd("13___", "thirteen___");
@@ -182272,6 +182291,8 @@ namespace OverflowHelper.core
             URL_Add("used___", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
 
             URL_Add("usual suspects___", "https://www.youtube.com/watch?v=HXuBnz6vtuI&t=47s");
+
+            URL_Add("function keys row (F1 - F12)___", "https://en.wikipedia.org/wiki/Fn_key");
 
             URL_Add("using alternative keyboard layouts___", "https://getreuer.info/posts/keyboards/alt-layouts/index.html");
 
