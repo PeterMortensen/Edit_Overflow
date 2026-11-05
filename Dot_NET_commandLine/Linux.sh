@@ -308,15 +308,13 @@ echo
 #    Changes for newer Pylint/Linux versions were
 #    required, and they are probably OK to apply
 #    to older versions.
-#
 
 
 # Selectively disable some tests (e.g., if an external
 # service we depend on is not available)
 #
 # Normally, ***ALL*** should be outcommented
-#export DISABLE_HTMLVALIDATION=1
-
+export DISABLE_HTMLVALIDATION=1
 
 
 # Perhaps move to the client side to remove redundancy (as
@@ -501,7 +499,6 @@ export JAVASCRIPT_FILE=$WORKFOLDER/EditOverflow_$EFFECTIVE_DATE.js
 #Too complicated - use use startWatchFile() / endWatchFile() instead.
 export BEFORE_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_before_${REMOTE_WEB_ERRORLOG_FILENAME}"
 export AFTER_LOGFILE="${WEB_ERRORLOG_SUBFOLDER}/_after_${REMOTE_WEB_ERRORLOG_FILENAME}"
-
 
 
 # Avoid "unary operator expected" error. We want to make it work
@@ -2785,6 +2782,18 @@ webServer_test  "http://localhost/world/Text.php?OverflowStyle=Native&someText=d
 webServer_test  "http://localhost/world/Link_Builder.php?OverflowStyle=Native&LinkText=the%20powers%20that%20be&URL=https%3A%2F%2Fpmortensen.eu%2Fworld%2FFixedStrings.html"  "localWebserver_LinkBuilder_1"                                 28
 
 
+# Temp!!!!!!! 2026-10-30. To aid in testing (single-step test)
+#
+# We can exit here if the word list was not changed.
+#
+# Also, importing the SQL file prevents a
+# one-step process as it always requires
+# entering the password...
+#
+#exit
+
+
+
 # ###########################################################################
 #
 # NUnit tests can actually run
@@ -2921,11 +2930,11 @@ checkCommandLineLookup 30 $supposedNativeApplicationPath  "MD_"        "Markdown
 # leading and trailing space as input
 checkCommandLineLookup 30 $supposedNativeApplicationPath  " OS "   " operating system"
 
-# Check that the lookup works with trailing space, both 
+# Check that the lookup works with trailing space, both
 # in the main word set and in alternative word sets.
 #
-# Note: For now, we assume the trailing 
-#       space is not preserved 
+# Note: For now, we assume the trailing
+#       space is not preserved
 #
 checkCommandLineLookup 30 $supposedNativeApplicationPath  "JS "    "JavaScript"
 checkCommandLineLookup 30 $supposedNativeApplicationPath  "usb "   "USB_"
@@ -3022,6 +3031,11 @@ echo "COMMIT;"           >> ${SQL_FILE_QUICKIMPORT}
 #pwd
 #echo
 #ls -ls $SQL_FILE
+
+
+# For local testing of the word list, etc.
+sudo ls > /dev/null
+#date ; sudo mysql -u root -p pmortensen_eu_db < $HOME/temp2/2026-06-04/_DotNET_tryout/EditOverflow4/EditOverflow_2026-06-04_quickImport.sql ; date
 #exit
 
 
@@ -3328,6 +3342,11 @@ eval ${LFTP_COMMAND}  ; evaluateBuildResult 38 $? "copying the HTML word list to
 #                     especially if running the script more
 #                     once per day...
 #
+#  2026-11-04T234710  Failure for step 39 (and all other HTML validation).
+#                     The same on:
+#
+#                       2026-11-05T145448
+#
 if [ ${DISABLE_HTMLVALIDATION} != 1 ]; then
     HTML_validation      EditOverflow.php                   "Edit Overflow lookup"    39
     HTML_validation      Text.php                           "Text stuff"              40
@@ -3613,8 +3632,4 @@ startOfBuildStep "48" "End of build. All build steps succeeded!!"
 timeStamp "End time  "
 
 notify-send "The Edit Overflow build script has finished"
-
-
-
-
 

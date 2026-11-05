@@ -13,7 +13,7 @@ let correct2URL = {};
 
 
 
-// The list... 75999 incorrect words and 24762 correct words.
+// The list... 76654 incorrect words and 24891 correct words.
 
 incorrect2correct["-__"] = "- (ASCII. 45 (decimal). 2D (hexadecimal). 55 (octal))__";
 incorrect2correct["- (ASCII. 45 (decimal). 2D (hexadecimal). 55 (octal))__"] = "- (ASCII. 45 (decimal). 2D (hexadecimal). 55 (octal))__";
@@ -1810,14 +1810,17 @@ incorrect2correct["&nbsp;′__"] = "&nbsp;′__";
 correct2URL["&nbsp;′__"] = "https://en.wikipedia.org/wiki/Foot_(unit)";
 
 
-incorrect2correct["&nbsp;centigrade___"] = "&nbsp;°C___";
+incorrect2correct["*celsius___"] = "&nbsp;°C___";
 incorrect2correct["&nbsp;°C___"] = "&nbsp;°C___";
 correct2URL["&nbsp;°C___"] = "https://en.wikipedia.org/wiki/Celsius";
 
 
+incorrect2correct["*Celsius___"] = "&nbsp;°C___";
+incorrect2correct["&nbsp;centigrade___"] = "&nbsp;°C___";
 incorrect2correct["&nbsp;degree Celsius___"] = "&nbsp;°C___";
 incorrect2correct["&nbsp;Fahrenheit___"] = "&nbsp;°C___";
 incorrect2correct["°C___"] = "&nbsp;°C___";
+incorrect2correct["°celsius___"] = "&nbsp;°C___";
 incorrect2correct["C___"] = "&nbsp;°C___";
 incorrect2correct["celcius___"] = "&nbsp;°C___";
 incorrect2correct["Celcius___"] = "&nbsp;°C___";
@@ -2375,6 +2378,7 @@ incorrect2correct["kbit__"] = "&nbsp;kbit/s__";
 incorrect2correct["kbit/s__"] = "&nbsp;kbit/s__";
 incorrect2correct["kBit/s__"] = "&nbsp;kbit/s__";
 incorrect2correct["Kbit/s__"] = "&nbsp;kbit/s__";
+incorrect2correct["kbit/sec__"] = "&nbsp;kbit/s__";
 incorrect2correct["KBits / s__"] = "&nbsp;kbit/s__";
 incorrect2correct["kbits/s__"] = "&nbsp;kbit/s__";
 incorrect2correct["kBits/s__"] = "&nbsp;kbit/s__";
@@ -3414,6 +3418,7 @@ incorrect2correct["sec"] = "&nbsp;s";
 incorrect2correct["seccond"] = "&nbsp;s";
 incorrect2correct["second"] = "&nbsp;s";
 incorrect2correct["SECOND"] = "&nbsp;s";
+incorrect2correct["secund"] = "&nbsp;s";
 incorrect2correct["sencond"] = "&nbsp;s";
 incorrect2correct["&nbsp;s_"] = "&nbsp;second_";
 incorrect2correct["&nbsp;second_"] = "&nbsp;second_";
@@ -4529,6 +4534,15 @@ correct2URL["0 keycode (KC_0. QMK. 39 (decimal). 27 (hexadecimal))_"] = "https:/
 
 incorrect2correct["KC_0_"] = "0 keycode (KC_0. QMK. 39 (decimal). 27 (hexadecimal))_";
 incorrect2correct["zero_"] = "0 keycode (KC_0. QMK. 39 (decimal). 27 (hexadecimal))_";
+incorrect2correct["0.0 °C"] = "0.0&nbsp;°C";
+incorrect2correct["0.0&nbsp;°C"] = "0.0&nbsp;°C";
+correct2URL["0.0&nbsp;°C"] = "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units";
+
+
+incorrect2correct["32"] = "0.0&nbsp;°C";
+incorrect2correct["32 °F"] = "0.0&nbsp;°C";
+incorrect2correct["32 F"] = "0.0&nbsp;°C";
+incorrect2correct["32&nbsp;°F"] = "0.0&nbsp;°C";
 incorrect2correct["-17.7&nbsp;°C____"] = "0&nbsp;°F____";
 incorrect2correct["0&nbsp;°F____"] = "0&nbsp;°F____";
 correct2URL["0&nbsp;°F____"] = "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion";
@@ -6545,6 +6559,7 @@ correct2URL["1Bitsy"] = "https://1bitsy.org/";
 
 
 incorrect2correct["1BitSy"] = "1Bitsy";
+incorrect2correct["teenie-tiny"] = "1Bitsy";
 incorrect2correct["1n4001"] = "1N4001";
 incorrect2correct["1N4001"] = "1N4001";
 correct2URL["1N4001"] = "https://en.wikipedia.org/wiki/1N400x_general-purpose_diodes";
@@ -6674,6 +6689,7 @@ incorrect2correct["Keylink__"] = "2.4&nbsp;GHz__";
 incorrect2correct["link__"] = "2.4&nbsp;GHz__";
 incorrect2correct["Link__"] = "2.4&nbsp;GHz__";
 incorrect2correct["radio dongle__"] = "2.4&nbsp;GHz__";
+incorrect2correct["radio interference__"] = "2.4&nbsp;GHz__";
 incorrect2correct["radio__"] = "2.4&nbsp;GHz__";
 incorrect2correct["Radio__"] = "2.4&nbsp;GHz__";
 incorrect2correct["receiver__"] = "2.4&nbsp;GHz__";
@@ -6907,6 +6923,15 @@ incorrect2correct["32.2 °C"] = "32.2&nbsp;°C";
 incorrect2correct["90 f"] = "32.2&nbsp;°C";
 incorrect2correct["90 F"] = "32.2&nbsp;°C";
 incorrect2correct["90&nbsp;°F"] = "32.2&nbsp;°C";
+incorrect2correct["0 C____"] = "32&nbsp;°F____";
+incorrect2correct["32&nbsp;°F____"] = "32&nbsp;°F____";
+correct2URL["32&nbsp;°F____"] = "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion";
+
+
+incorrect2correct["0____"] = "32&nbsp;°F____";
+incorrect2correct["0.0 C____"] = "32&nbsp;°F____";
+incorrect2correct["0.0&nbsp;°C____"] = "32&nbsp;°F____";
+incorrect2correct["32 °F____"] = "32&nbsp;°F____";
 incorrect2correct["stm32f469i-disco"] = "32F469IDISCOVERY";
 incorrect2correct["32F469IDISCOVERY"] = "32F469IDISCOVERY";
 correct2URL["32F469IDISCOVERY"] = "https://www.st.com/en/evaluation-tools/32f469idiscovery.html";
@@ -7736,11 +7761,13 @@ incorrect2correct["a means of"] = "a means of";
 correct2URL["a means of"] = "https://en.wiktionary.org/wiki/means#Noun_2";
 
 
-incorrect2correct["apriori"] = "a priori";
+incorrect2correct["a priory"] = "a priori";
 incorrect2correct["a priori"] = "a priori";
 correct2URL["a priori"] = "https://en.wiktionary.org/wiki/a_priori#Adverb";
 
 
+incorrect2correct["A priory"] = "a priori";
+incorrect2correct["apriori"] = "a priori";
 incorrect2correct["a record"] = "A record";
 incorrect2correct["A record"] = "A record";
 correct2URL["A record"] = "https://en.wikipedia.org/wiki/List_of_DNS_record_types#Resource_records";
@@ -8208,6 +8235,11 @@ correct2URL["Abu Dhabi International Airport"] = "https://en.wikipedia.org/wiki/
 incorrect2correct["abundently"] = "abundantly";
 incorrect2correct["abundantly"] = "abundantly";
 correct2URL["abundantly"] = "https://en.wiktionary.org/wiki/abundantly#Adverb";
+
+
+incorrect2correct["Abysmal_"] = "abysmal_";
+incorrect2correct["abysmal_"] = "abysmal_";
+correct2URL["abysmal_"] = "https://en.wiktionary.org/wiki/abysmal#Adjective";
 
 
 incorrect2correct["abysmal"] = "abysmally";
@@ -8836,6 +8868,11 @@ incorrect2correct["acorss"] = "across";
 incorrect2correct["acroos"] = "across";
 incorrect2correct["acrooss"] = "across";
 incorrect2correct["acros"] = "across";
+incorrect2correct["across-the-board"] = "across the board";
+incorrect2correct["across the board"] = "across the board";
+correct2URL["across the board"] = "https://en.wiktionary.org/wiki/across_the_board#Prepositional_phrase";
+
+
 incorrect2correct["acrilyc"] = "acrylic";
 incorrect2correct["acrylic"] = "acrylic";
 correct2URL["acrylic"] = "https://en.wikipedia.org/wiki/Acrylate_polymer";
@@ -9340,6 +9377,11 @@ incorrect2correct["Adress"] = "address";
 incorrect2correct["adresse"] = "address";
 incorrect2correct["adresss"] = "address";
 incorrect2correct["anddress"] = "address";
+incorrect2correct["addressbar"] = "address bar";
+incorrect2correct["address bar"] = "address bar";
+correct2URL["address bar"] = "https://en.wikipedia.org/wiki/Address_bar";
+
+
 incorrect2correct["address-space"] = "address space";
 incorrect2correct["address space"] = "address space";
 correct2URL["address space"] = "https://en.wikipedia.org/wiki/Address_space";
@@ -9429,6 +9471,7 @@ correct2URL["adjacent"] = "https://en.wiktionary.org/wiki/adjacent#Adjective";
 
 
 incorrect2correct["adjecent"] = "adjacent";
+incorrect2correct["adjesant"] = "adjacent";
 incorrect2correct["adj"] = "adjective";
 incorrect2correct["adjective"] = "adjective";
 correct2URL["adjective"] = "https://en.wiktionary.org/wiki/adjective#Noun";
@@ -9472,11 +9515,12 @@ correct2URL["administration_"] = "https://en.wiktionary.org/wiki/administration#
 
 incorrect2correct["adminstration_"] = "administration_";
 incorrect2correct["system administrator_"] = "administration_";
-incorrect2correct["adminstator_"] = "administrator_";
-incorrect2correct["administrator_"] = "administrator_";
-correct2URL["administrator_"] = "https://en.wiktionary.org/wiki/administrator#Noun";
+incorrect2correct["adminstator__"] = "administrator__";
+incorrect2correct["administrator__"] = "administrator__";
+correct2URL["administrator__"] = "https://en.wiktionary.org/wiki/administrator#Noun";
 
 
+incorrect2correct["system administrator__"] = "administrator__";
 incorrect2correct["Admirable"] = "admirable";
 incorrect2correct["admirable"] = "admirable";
 correct2URL["admirable"] = "https://en.wiktionary.org/wiki/admirable#Adjective";
@@ -9816,6 +9860,7 @@ correct2URL["advice_"] = "https://en.wiktionary.org/wiki/advice#Noun";
 incorrect2correct["advices_"] = "advice_";
 incorrect2correct["advince_"] = "advice_";
 incorrect2correct["advise_"] = "advice_";
+incorrect2correct["Advise_"] = "advice_";
 incorrect2correct["advisement_"] = "advice_";
 incorrect2correct["Advisement_"] = "advice_";
 incorrect2correct["asvice_"] = "advice_";
@@ -9835,6 +9880,7 @@ incorrect2correct["advace"] = "advise";
 incorrect2correct["advaces"] = "advise";
 incorrect2correct["advice"] = "advise";
 incorrect2correct["advide"] = "advise";
+incorrect2correct["Advise"] = "advise";
 incorrect2correct["adviced"] = "advised";
 incorrect2correct["advised"] = "advised";
 correct2URL["advised"] = "https://en.wiktionary.org/wiki/advise#Verb";
@@ -10516,6 +10562,11 @@ incorrect2correct["air craft_"] = "aircraft_";
 incorrect2correct["aircaraft_"] = "aircraft_";
 incorrect2correct["aircarft_"] = "aircraft_";
 incorrect2correct["aircrafts_"] = "aircraft_";
+incorrect2correct["airdrop"] = "AirDrop";
+incorrect2correct["AirDrop"] = "AirDrop";
+correct2URL["AirDrop"] = "https://en.wikipedia.org/wiki/AirDrop";
+
+
 incorrect2correct["air field"] = "airfield";
 incorrect2correct["airfield"] = "airfield";
 correct2URL["airfield"] = "https://en.wiktionary.org/wiki/airfield#Noun";
@@ -10927,6 +10978,7 @@ incorrect2correct["alien"] = "alien";
 correct2URL["alien"] = "https://en.wiktionary.org/wiki/alien#Noun";
 
 
+incorrect2correct["AlIeN"] = "alien";
 incorrect2correct["alianate"] = "alienate";
 incorrect2correct["alienate"] = "alienate";
 correct2URL["alienate"] = "https://en.wiktionary.org/wiki/alienate#Verb";
@@ -10937,12 +10989,19 @@ incorrect2correct["alienation"] = "alienation";
 correct2URL["alienation"] = "https://en.wiktionary.org/wiki/alienation#Noun";
 
 
+incorrect2correct["AlIeNs"] = "aliens";
+incorrect2correct["aliens"] = "aliens";
+correct2URL["aliens"] = "https://en.wiktionary.org/wiki/alien#Noun";
+
+
+incorrect2correct["ALIENS"] = "aliens";
 incorrect2correct["a1iexpress_"] = "AliExpress_";
 incorrect2correct["AliExpress_"] = "AliExpress_";
 correct2URL["AliExpress_"] = "https://en.wikipedia.org/wiki/AliExpress";
 
 
 incorrect2correct["AE_"] = "AliExpress_";
+incorrect2correct["Aex_"] = "AliExpress_";
 incorrect2correct["Ali Ex_"] = "AliExpress_";
 incorrect2correct["ali exp_"] = "AliExpress_";
 incorrect2correct["ali expres_"] = "AliExpress_";
@@ -10952,6 +11011,7 @@ incorrect2correct["ali_"] = "AliExpress_";
 incorrect2correct["Ali_"] = "AliExpress_";
 incorrect2correct["Ali-E_"] = "AliExpress_";
 incorrect2correct["ali-express_"] = "AliExpress_";
+incorrect2correct["Ali-Express_"] = "AliExpress_";
 incorrect2correct["AliE_"] = "AliExpress_";
 incorrect2correct["Aliex_"] = "AliExpress_";
 incorrect2correct["AliEx_"] = "AliExpress_";
@@ -11051,6 +11111,8 @@ incorrect2correct["all hell breaks loose"] = "all hell breaks loose";
 correct2URL["all hell breaks loose"] = "https://en.wiktionary.org/wiki/all_hell_breaks_loose#Phrase";
 
 
+incorrect2correct["All HELL BREAKS LOOSE"] = "all hell breaks loose";
+incorrect2correct["ALL HELL BREAKS LOOSE"] = "all hell breaks loose";
 incorrect2correct["all hell broke lose"] = "all hell broke loose";
 incorrect2correct["all hell broke loose"] = "all hell broke loose";
 correct2URL["all hell broke loose"] = "https://en.wiktionary.org/wiki/all_hell_breaks_loose#Phrase";
@@ -11536,22 +11598,24 @@ incorrect2correct["Alpine.js"] = "Alpine.js";
 correct2URL["Alpine.js"] = "https://github.com/alpinejs/alpine";
 
 
-incorrect2correct["Alps SKBM Black"] = "Alps SKCM Black";
-incorrect2correct["Alps SKCM Black"] = "Alps SKCM Black";
-correct2URL["Alps SKCM Black"] = "https://www.youtube.com/watch?v=jvDluHoe7ro&t=4m45s";
+incorrect2correct["Alps SKBM Black"] = "Alps SKCM Black switches";
+incorrect2correct["Alps SKCM Black switches"] = "Alps SKCM Black switches";
+correct2URL["Alps SKCM Black switches"] = "https://www.youtube.com/watch?v=jvDluHoe7ro&t=4m45s";
 
 
-incorrect2correct["Black Alps"] = "Alps SKCM Black";
-incorrect2correct["ALP"] = "Alps SKCM Cream damped";
-incorrect2correct["Alps SKCM Cream damped"] = "Alps SKCM Cream damped";
-correct2URL["Alps SKCM Cream damped"] = "https://www.youtube.com/watch?v=huCdi0bljgk";
+incorrect2correct["Alps SKCM Black"] = "Alps SKCM Black switches";
+incorrect2correct["Black Alps"] = "Alps SKCM Black switches";
+incorrect2correct["ALP"] = "Alps SKCM Cream damped switches";
+incorrect2correct["Alps SKCM Cream damped switches"] = "Alps SKCM Cream damped switches";
+correct2URL["Alps SKCM Cream damped switches"] = "https://www.youtube.com/watch?v=huCdi0bljgk";
 
 
-incorrect2correct["alps"] = "Alps SKCM Cream damped";
-incorrect2correct["Alps"] = "Alps SKCM Cream damped";
-incorrect2correct["ALPS"] = "Alps SKCM Cream damped";
-incorrect2correct["Alps SKCM"] = "Alps SKCM Cream damped";
-incorrect2correct["Alps SKCM Cream"] = "Alps SKCM Cream damped";
+incorrect2correct["alps"] = "Alps SKCM Cream damped switches";
+incorrect2correct["Alps"] = "Alps SKCM Cream damped switches";
+incorrect2correct["ALPS"] = "Alps SKCM Cream damped switches";
+incorrect2correct["Alps SKCM"] = "Alps SKCM Cream damped switches";
+incorrect2correct["Alps SKCM Cream"] = "Alps SKCM Cream damped switches";
+incorrect2correct["Alps SKCM Cream damped"] = "Alps SKCM Cream damped switches";
 incorrect2correct["aleady"] = "already";
 incorrect2correct["already"] = "already";
 correct2URL["already"] = "https://en.wiktionary.org/wiki/already#Adverb";
@@ -12024,6 +12088,7 @@ correct2URL["Amazon EC2"] = "https://en.wikipedia.org/wiki/Amazon_Elastic_Comput
 incorrect2correct["amazon EC2"] = "Amazon EC2";
 incorrect2correct["Amazon ec2"] = "Amazon EC2";
 incorrect2correct["aws ec2"] = "Amazon EC2";
+incorrect2correct["aws EC2"] = "Amazon EC2";
 incorrect2correct["AWS Ec2"] = "Amazon EC2";
 incorrect2correct["AWS EC2"] = "Amazon EC2";
 incorrect2correct["ec2"] = "Amazon EC2";
@@ -12298,6 +12363,11 @@ correct2URL["American"] = "https://en.wiktionary.org/wiki/American#Adjective";
 incorrect2correct["Amercian"] = "American";
 incorrect2correct["american"] = "American";
 incorrect2correct["Amurrikan"] = "American";
+incorrect2correct["American_"] = "American Airlines_";
+incorrect2correct["American Airlines_"] = "American Airlines_";
+correct2URL["American Airlines_"] = "https://en.wikipedia.org/wiki/American_Airlines";
+
+
 incorrect2correct["AmE"] = "American English";
 incorrect2correct["American English"] = "American English";
 correct2URL["American English"] = "https://en.wikipedia.org/wiki/American_English";
@@ -13366,6 +13436,11 @@ incorrect2correct["annilation"] = "annihilation";
 incorrect2correct["anniversery"] = "anniversary";
 incorrect2correct["anniversary"] = "anniversary";
 correct2URL["anniversary"] = "https://en.wiktionary.org/wiki/anniversary#Noun";
+
+
+incorrect2correct["Annotate"] = "annotate";
+incorrect2correct["annotate"] = "annotate";
+correct2URL["annotate"] = "https://en.wiktionary.org/wiki/annotate#Verb";
 
 
 incorrect2correct["annoted"] = "annotated";
@@ -14726,6 +14801,8 @@ incorrect2correct["Apple M1 Max"] = "Apple M1 Max";
 correct2URL["Apple M1 Max"] = "https://en.wikipedia.org/wiki/Apple_M1_Pro_and_M1_Max";
 
 
+incorrect2correct["M1 max"] = "Apple M1 Max";
+incorrect2correct["M1 Max"] = "Apple M1 Max";
 incorrect2correct["Apple M1 pro"] = "Apple M1 Pro";
 incorrect2correct["Apple M1 Pro"] = "Apple M1 Pro";
 correct2URL["Apple M1 Pro"] = "https://en.wikipedia.org/wiki/Apple_M1_Pro_and_M1_Max";
@@ -15267,7 +15344,7 @@ correct2URL["ar_"] = "https://en.wikipedia.org/wiki/Ar_(Unix)";
 
 incorrect2correct["ar-15"] = "AR-15";
 incorrect2correct["AR-15"] = "AR-15";
-correct2URL["AR-15"] = "https://en.wikipedia.org/wiki/AR-15_style_rifle";
+correct2URL["AR-15"] = "https://en.wikipedia.org/wiki/AR-15%E2%80%93style_rifle";
 
 
 incorrect2correct["arabian"] = "Arabian";
@@ -15691,11 +15768,12 @@ correct2URL["Argentina"] = "https://en.wikipedia.org/wiki/Argentina";
 
 incorrect2correct["argentina"] = "Argentina";
 incorrect2correct["Argentine"] = "Argentina";
-incorrect2correct["Argon"] = "argon";
+incorrect2correct["Ar"] = "argon";
 incorrect2correct["argon"] = "argon";
 correct2URL["argon"] = "https://en.wikipedia.org/wiki/Argon";
 
 
+incorrect2correct["Argon"] = "argon";
 incorrect2correct["agrue"] = "argue";
 incorrect2correct["argue"] = "argue";
 correct2URL["argue"] = "https://en.wiktionary.org/wiki/argue#Verb";
@@ -16994,6 +17072,7 @@ correct2URL["asshole"] = "https://en.wiktionary.org/wiki/asshole#Noun";
 
 
 incorrect2correct["a**hole"] = "asshole";
+incorrect2correct["A**HOLE"] = "asshole";
 incorrect2correct["ahole"] = "asshole";
 incorrect2correct["arsehole"] = "asshole";
 incorrect2correct["ashole"] = "asshole";
@@ -17510,6 +17589,11 @@ incorrect2correct["atleat"] = "at least";
 incorrect2correct["atlest"] = "at least";
 incorrect2correct["Atlest"] = "at least";
 incorrect2correct["atvleast"] = "at least";
+incorrect2correct["in length"] = "at length";
+incorrect2correct["at length"] = "at length";
+correct2URL["at length"] = "https://en.wiktionary.org/wiki/at_length#Prepositional_phrase";
+
+
 incorrect2correct["on my own risk"] = "at my own risk";
 incorrect2correct["at my own risk"] = "at my own risk";
 correct2URL["at my own risk"] = "https://en.wiktionary.org/wiki/at_one%27s_own_risk#Prepositional_phrase";
@@ -17804,6 +17888,7 @@ incorrect2correct["32U4"] = "ATmega32U4";
 incorrect2correct["at32"] = "ATmega32U4";
 incorrect2correct["AT32"] = "ATmega32U4";
 incorrect2correct["at32u4"] = "ATmega32U4";
+incorrect2correct["atmega 32u4"] = "ATmega32U4";
 incorrect2correct["Atmega 32u4"] = "ATmega32U4";
 incorrect2correct["ATmega 32u4"] = "ATmega32U4";
 incorrect2correct["ATmega 32U4"] = "ATmega32U4";
@@ -18095,6 +18180,7 @@ correct2URL["attribute"] = "https://en.wiktionary.org/wiki/attribute#Noun";
 
 incorrect2correct["atrribute"] = "attribute";
 incorrect2correct["attibute"] = "attribute";
+incorrect2correct["Attibute"] = "attribute";
 incorrect2correct["attr"] = "attribute";
 incorrect2correct["attrabuite"] = "attribute";
 incorrect2correct["Attrabuite"] = "attribute";
@@ -18231,6 +18317,10 @@ correct2URL["Aula F75"] = "https://www.youtube.com/watch?v=zpS9e5FGjPE";
 
 incorrect2correct["Aula f75"] = "Aula F75";
 incorrect2correct["AULA F75"] = "Aula F75";
+incorrect2correct["aula f75 he"] = "Aula F75";
+incorrect2correct["Aula F75 HE"] = "Aula F75";
+incorrect2correct["f75"] = "Aula F75";
+incorrect2correct["F75"] = "Aula F75";
 incorrect2correct["aurelia"] = "Aurelia";
 incorrect2correct["Aurelia"] = "Aurelia";
 correct2URL["Aurelia"] = "https://aurelia.io/";
@@ -18241,6 +18331,12 @@ incorrect2correct["AURman"] = "AURman";
 correct2URL["AURman"] = "https://github.com/polygamma/aurman";
 
 
+incorrect2correct["aurora_"] = "Aurora Keychron x Gateron double-rail magnetic switches_";
+incorrect2correct["Aurora Keychron x Gateron double-rail magnetic switches_"] = "Aurora Keychron x Gateron double-rail magnetic switches_";
+correct2URL["Aurora Keychron x Gateron double-rail magnetic switches_"] = "https://www.keychron.com/products/gateron-double-rail-magnetic-switch?variant=40784600727641";
+
+
+incorrect2correct["Aurora_"] = "Aurora Keychron x Gateron double-rail magnetic switches_";
 incorrect2correct["aus"] = "Australia";
 incorrect2correct["Australia"] = "Australia";
 correct2URL["Australia"] = "https://en.wikipedia.org/wiki/Australia";
@@ -18470,6 +18566,7 @@ incorrect2correct["autocompletion"] = "autocompletion";
 correct2URL["autocompletion"] = "https://en.wiktionary.org/wiki/autocompletion#Noun";
 
 
+incorrect2correct["Auto-Completion"] = "autocompletion";
 incorrect2correct["Autocompletion"] = "autocompletion";
 incorrect2correct["autoconf"] = "Autoconf";
 incorrect2correct["Autoconf"] = "Autoconf";
@@ -18984,8 +19081,10 @@ incorrect2correct["Chrome_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["Google Chrome_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["so-called stand-alone version_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["so-called stand-alone Via_"] = "avoid Google Chrome when using Via_";
+incorrect2correct["so-called stand-alone_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["so-called standalone version_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["so-called standalone Via_"] = "avoid Google Chrome when using Via_";
+incorrect2correct["so-called_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["stand-alone application_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["stand-alone version_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["stand-alone Via application_"] = "avoid Google Chrome when using Via_";
@@ -18993,6 +19092,7 @@ incorrect2correct["stand-alone Via client_"] = "avoid Google Chrome when using V
 incorrect2correct["stand-alone Via web application_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["stand-alone via_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["stand-alone Via_"] = "avoid Google Chrome when using Via_";
+incorrect2correct["stand-alone_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["standalone application_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["standalone version of Via_"] = "avoid Google Chrome when using Via_";
 incorrect2correct["standalone version_"] = "avoid Google Chrome when using Via_";
@@ -19547,11 +19647,15 @@ incorrect2correct["Babun"] = "Babun";
 correct2URL["Babun"] = "https://babun.en.softonic.com/";
 
 
-incorrect2correct["babyy_"] = "baby_";
+incorrect2correct["b*by_"] = "baby_";
 incorrect2correct["baby_"] = "baby_";
 correct2URL["baby_"] = "https://en.wiktionary.org/wiki/baby#Noun";
 
 
+incorrect2correct["B*by_"] = "baby_";
+incorrect2correct["babe_"] = "baby_";
+incorrect2correct["Babe_"] = "baby_";
+incorrect2correct["babyy_"] = "baby_";
 incorrect2correct["BABYLON"] = "Babylon";
 incorrect2correct["Babylon"] = "Babylon";
 correct2URL["Babylon"] = "https://en.wiktionary.org/wiki/Babylon#Proper_noun";
@@ -19902,6 +20006,11 @@ correct2URL["backward elimination__"] = "https://en.wikipedia.org/wiki/Stepwise_
 
 
 incorrect2correct["BE__"] = "backward elimination__";
+incorrect2correct["backwardsly"] = "backwardly";
+incorrect2correct["backwardly"] = "backwardly";
+correct2URL["backwardly"] = "https://en.wiktionary.org/wiki/backwardly#Adverb";
+
+
 incorrect2correct["backward"] = "backwards";
 incorrect2correct["backwards"] = "backwards";
 correct2URL["backwards"] = "https://en.wiktionary.org/wiki/backwards#Adverb";
@@ -20507,6 +20616,16 @@ incorrect2correct["bass guitar"] = "bass guitar";
 correct2URL["bass guitar"] = "https://en.wikipedia.org/wiki/Bass_guitar";
 
 
+incorrect2correct["bastardkb_"] = "Bastard Keyboards_";
+incorrect2correct["Bastard Keyboards_"] = "Bastard Keyboards_";
+correct2URL["Bastard Keyboards_"] = "https://github.com/Bastardkb";
+
+
+incorrect2correct["Bastardkb_"] = "Bastard Keyboards_";
+incorrect2correct["BastardKB_"] = "Bastard Keyboards_";
+incorrect2correct["brb_"] = "Bastard Keyboards_";
+incorrect2correct["Brb_"] = "Bastard Keyboards_";
+incorrect2correct["Quentin_"] = "Bastard Keyboards_";
 incorrect2correct["Bat"] = "bat";
 incorrect2correct["bat"] = "bat";
 correct2URL["bat"] = "https://en.wiktionary.org/wiki/bat#Noun";
@@ -20716,17 +20835,19 @@ incorrect2correct["bazcor"] = "Bazecor";
 incorrect2correct["Bazcor"] = "Bazecor";
 incorrect2correct["bazecor"] = "Bazecor";
 incorrect2correct["bazecore"] = "Bazecor";
+incorrect2correct["Bazecore"] = "Bazecor";
 incorrect2correct["bazercor"] = "Bazecor";
 incorrect2correct["bazel"] = "Bazel";
 incorrect2correct["Bazel"] = "Bazel";
 correct2URL["Bazel"] = "https://en.wikipedia.org/wiki/Bazel_(software)";
 
 
-incorrect2correct["bazilion"] = "bazillion";
+incorrect2correct["bajillion"] = "bazillion";
 incorrect2correct["bazillion"] = "bazillion";
 correct2URL["bazillion"] = "https://en.wiktionary.org/wiki/bazillion#Noun";
 
 
+incorrect2correct["bazilion"] = "bazillion";
 incorrect2correct["bazzite"] = "Bazzite";
 incorrect2correct["Bazzite"] = "Bazzite";
 correct2URL["Bazzite"] = "https://en.wikipedia.org/wiki/Bazzite_(operating_system)";
@@ -20808,6 +20929,7 @@ incorrect2correct["be right back"] = "be right back";
 correct2URL["be right back"] = "https://en.wiktionary.org/wiki/be_right_back#Phrase";
 
 
+incorrect2correct["Brb"] = "be right back";
 incorrect2correct["BRB"] = "be right back";
 incorrect2correct["b____"] = "be____";
 incorrect2correct["be____"] = "be____";
@@ -21137,16 +21259,19 @@ correct2URL["Beechcraft Bonanza"] = "https://en.wikipedia.org/wiki/Beechcraft_Bo
 
 
 incorrect2correct["Bonanza"] = "Beechcraft Bonanza";
-incorrect2correct["KINGAIR"] = "Beechcraft King Air";
+incorrect2correct["king air"] = "Beechcraft King Air";
 incorrect2correct["Beechcraft King Air"] = "Beechcraft King Air";
 correct2URL["Beechcraft King Air"] = "https://en.wikipedia.org/wiki/Beechcraft_King_Air";
 
 
-incorrect2correct["KING AIR 200"] = "Beechcraft Super King Air 200";
+incorrect2correct["KINGAIR"] = "Beechcraft King Air";
+incorrect2correct["Beechcraft King Air 200"] = "Beechcraft Super King Air 200";
 incorrect2correct["Beechcraft Super King Air 200"] = "Beechcraft Super King Air 200";
 correct2URL["Beechcraft Super King Air 200"] = "https://en.wikipedia.org/wiki/Beechcraft_Super_King_Air#Super_King_Air_200";
 
 
+incorrect2correct["BEECHCRAFT KING AIR 200"] = "Beechcraft Super King Air 200";
+incorrect2correct["KING AIR 200"] = "Beechcraft Super King Air 200";
 incorrect2correct["been there done that"] = "been there, done that";
 incorrect2correct["been there, done that"] = "been there, done that";
 correct2URL["been there, done that"] = "https://en.wiktionary.org/wiki/been_there,_done_that#Phrase";
@@ -21493,6 +21618,7 @@ correct2URL["beneficial"] = "https://en.wiktionary.org/wiki/beneficial#Adjective
 
 incorrect2correct["benefisial"] = "beneficial";
 incorrect2correct["benefitial"] = "beneficial";
+incorrect2correct["beneifical"] = "beneficial";
 incorrect2correct["benfit"] = "benefit";
 incorrect2correct["benefit"] = "benefit";
 correct2URL["benefit"] = "https://en.wiktionary.org/wiki/benefit#Noun";
@@ -23128,6 +23254,11 @@ incorrect2correct["bloodstream"] = "bloodstream";
 correct2URL["bloodstream"] = "https://en.wiktionary.org/wiki/bloodstream#Noun";
 
 
+incorrect2correct["bloody"] = "Bloody";
+incorrect2correct["Bloody"] = "Bloody";
+correct2URL["Bloody"] = "https://bloody.com/en/product.php?pid=11&id=196";
+
+
 incorrect2correct["blow fish"] = "Blowfish";
 incorrect2correct["Blowfish"] = "Blowfish";
 correct2URL["Blowfish"] = "https://en.wikipedia.org/wiki/Blowfish_(cipher)";
@@ -23339,6 +23470,7 @@ incorrect2correct["BLE"] = "Bluetooth LE";
 incorrect2correct["bluetooth low energy"] = "Bluetooth LE";
 incorrect2correct["Bluetooth low energy"] = "Bluetooth LE";
 incorrect2correct["Bluetooth Low Energy"] = "Bluetooth LE";
+incorrect2correct["BlueTooth Low Energy"] = "Bluetooth LE";
 incorrect2correct["BluetoothLowEnergy"] = "Bluetooth LE";
 incorrect2correct["bt_"] = "Bluetooth_";
 incorrect2correct["Bluetooth_"] = "Bluetooth_";
@@ -23524,6 +23656,7 @@ incorrect2correct["737 Max"] = "Boeing 737 MAX";
 incorrect2correct["737 MAX"] = "Boeing 737 MAX";
 incorrect2correct["737 Maxx"] = "Boeing 737 MAX";
 incorrect2correct["737-MAX"] = "Boeing 737 MAX";
+incorrect2correct["737Max"] = "Boeing 737 MAX";
 incorrect2correct["7MAX"] = "Boeing 737 MAX";
 incorrect2correct["Boeing Max"] = "Boeing 737 MAX";
 incorrect2correct["boing max"] = "Boeing 737 MAX";
@@ -23580,11 +23713,12 @@ incorrect2correct["Bohr model"] = "Bohr model";
 correct2URL["Bohr model"] = "https://en.wikipedia.org/wiki/Bohr_model";
 
 
-incorrect2correct["Bohrium"] = "bohrium";
+incorrect2correct["Bh"] = "bohrium";
 incorrect2correct["bohrium"] = "bohrium";
 correct2URL["bohrium"] = "https://en.wikipedia.org/wiki/Bohrium";
 
 
+incorrect2correct["Bohrium"] = "bohrium";
 incorrect2correct["boiler down"] = "boil down";
 incorrect2correct["boil down"] = "boil down";
 correct2URL["boil down"] = "https://en.wiktionary.org/wiki/boil_down#Verb";
@@ -24001,11 +24135,12 @@ incorrect2correct["Bosch"] = "Bosch";
 correct2URL["Bosch"] = "https://en.wikipedia.org/wiki/Bosch_(company)";
 
 
-incorrect2correct["bose condensate"] = "Bose-Einstein condensate";
+incorrect2correct["BEC"] = "Bose-Einstein condensate";
 incorrect2correct["Bose-Einstein condensate"] = "Bose-Einstein condensate";
 correct2URL["Bose-Einstein condensate"] = "https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate";
 
 
+incorrect2correct["bose condensate"] = "Bose-Einstein condensate";
 incorrect2correct["Bose condensate"] = "Bose-Einstein condensate";
 incorrect2correct["Boss"] = "boss";
 incorrect2correct["boss"] = "boss";
@@ -25615,6 +25750,13 @@ incorrect2correct["buerocratic"] = "bureaucratic";
 incorrect2correct["burocratic"] = "bureaucratic";
 incorrect2correct["Burocratic"] = "bureaucratic";
 incorrect2correct["buroucratic"] = "bureaucratic";
+incorrect2correct["burger king"] = "Burger King";
+incorrect2correct["Burger King"] = "Burger King";
+correct2URL["Burger King"] = "https://en.wikipedia.org/wiki/Burger_King";
+
+
+incorrect2correct["burgerking"] = "Burger King";
+incorrect2correct["BurgerKing"] = "Burger King";
 incorrect2correct["burried"] = "buried";
 incorrect2correct["buried"] = "buried";
 correct2URL["buried"] = "https://en.wiktionary.org/wiki/bury#Verb";
@@ -26554,6 +26696,8 @@ incorrect2correct["caesium"] = "caesium";
 correct2URL["caesium"] = "https://en.wikipedia.org/wiki/Caesium";
 
 
+incorrect2correct["caessium"] = "caesium";
+incorrect2correct["Caessium"] = "caesium";
 incorrect2correct["ceasium"] = "caesium";
 incorrect2correct["cesium"] = "caesium";
 incorrect2correct["Cesium"] = "caesium";
@@ -26841,6 +26985,11 @@ correct2URL["called"] = "https://en.wiktionary.org/wiki/call#Verb";
 
 
 incorrect2correct["callled"] = "called";
+incorrect2correct["cast into doubt"] = "called into doubt";
+incorrect2correct["called into doubt"] = "called into doubt";
+correct2URL["called into doubt"] = "https://en.wiktionary.org/wiki/call_into_doubt#Verb";
+
+
 incorrect2correct["calle"] = "callee";
 incorrect2correct["callee"] = "callee";
 correct2URL["callee"] = "https://en.wiktionary.org/wiki/callee#Noun";
@@ -26859,6 +27008,11 @@ correct2URL["calling"] = "https://en.wiktionary.org/wiki/call#Verb";
 incorrect2correct["callin"] = "calling";
 incorrect2correct["callng"] = "calling";
 incorrect2correct["colling"] = "calling";
+incorrect2correct["callisto_"] = "Callisto_";
+incorrect2correct["Callisto_"] = "Callisto_";
+correct2URL["Callisto_"] = "https://en.wikipedia.org/wiki/Callisto_(moon)";
+
+
 incorrect2correct["call out"] = "callout";
 incorrect2correct["callout"] = "callout";
 correct2URL["callout"] = "https://en.wiktionary.org/wiki/callout#Noun";
@@ -26957,6 +27111,13 @@ incorrect2correct["Camtasia"] = "Camtasia";
 correct2URL["Camtasia"] = "https://en.wikipedia.org/wiki/Camtasia";
 
 
+incorrect2correct["somewhere in the operating system"] = "can be found somewhere in the operating system";
+incorrect2correct["can be found somewhere in the operating system"] = "can be found somewhere in the operating system";
+correct2URL["can be found somewhere in the operating system"] = "https://www.reddit.com/r/Keychron/comments/1qsx84d/comment/o2zfi5z/";
+
+
+incorrect2correct["USB"] = "can be found somewhere in the operating system";
+incorrect2correct["USB identity"] = "can be found somewhere in the operating system";
 incorrect2correct["can"] = "CAN bus";
 incorrect2correct["CAN bus"] = "CAN bus";
 correct2URL["CAN bus"] = "https://en.wikipedia.org/wiki/CAN_bus";
@@ -27136,6 +27297,12 @@ correct2URL["cancelling"] = "https://en.wiktionary.org/wiki/cancel#Verb";
 
 
 incorrect2correct["canceling"] = "cancelling";
+incorrect2correct["cancells"] = "cancels";
+incorrect2correct["cancels"] = "cancels";
+correct2URL["cancels"] = "https://en.wiktionary.org/wiki/source#Noun";
+
+
+incorrect2correct["Cancells"] = "cancels";
 incorrect2correct["candiate"] = "candidate";
 incorrect2correct["candidate"] = "candidate";
 correct2URL["candidate"] = "https://en.wiktionary.org/wiki/candidate#Noun";
@@ -27201,6 +27368,18 @@ incorrect2correct["CANlib"] = "CANlib";
 correct2URL["CANlib"] = "https://kvaser.com/developer/canlib-sdk/";
 
 
+incorrect2correct["Cannabis_"] = "cannabis_";
+incorrect2correct["cannabis_"] = "cannabis_";
+correct2URL["cannabis_"] = "https://en.wikipedia.org/wiki/Cannabis_(drug)";
+
+
+incorrect2correct["ganja_"] = "cannabis_";
+incorrect2correct["marijuana_"] = "cannabis_";
+incorrect2correct["mariuana_"] = "cannabis_";
+incorrect2correct["pot_"] = "cannabis_";
+incorrect2correct["w**d_"] = "cannabis_";
+incorrect2correct["weed_"] = "cannabis_";
+incorrect2correct["Weed_"] = "cannabis_";
 incorrect2correct["canibalise"] = "cannibalise";
 incorrect2correct["cannibalise"] = "cannibalise";
 correct2URL["cannibalise"] = "https://en.wiktionary.org/wiki/cannibalise#Verb";
@@ -28386,6 +28565,11 @@ correct2URL["CDU"] = "https://en.wikipedia.org/wiki/Christian_Democratic_Union_o
 
 
 incorrect2correct["Christian Democratic Union of Germany"] = "CDU";
+incorrect2correct["seise"] = "cease";
+incorrect2correct["cease"] = "cease";
+correct2URL["cease"] = "https://en.wiktionary.org/wiki/cease#Verb";
+
+
 incorrect2correct["seised"] = "ceased";
 incorrect2correct["ceased"] = "ceased";
 correct2URL["ceased"] = "https://en.wiktionary.org/wiki/cease#Verb";
@@ -28436,11 +28620,12 @@ incorrect2correct["Celeste"] = "Celeste";
 correct2URL["Celeste"] = "https://en.wikipedia.org/wiki/Celeste_(video_game)";
 
 
-incorrect2correct["celle"] = "cell";
-incorrect2correct["cell"] = "cell";
-correct2URL["cell"] = "https://en.wiktionary.org/wiki/cell#Noun";
+incorrect2correct["celle_"] = "cell_";
+incorrect2correct["cell_"] = "cell_";
+correct2URL["cell_"] = "https://en.wiktionary.org/wiki/cell#Noun";
 
 
+incorrect2correct["sale_"] = "cell_";
 incorrect2correct["cellulaure"] = "cellular";
 incorrect2correct["cellular"] = "cellular";
 correct2URL["cellular"] = "https://en.wiktionary.org/wiki/cellular#Adjective";
@@ -28487,6 +28672,7 @@ correct2URL["center of gravity"] = "https://en.wikipedia.org/wiki/Center_of_mass
 
 
 incorrect2correct["c.g"] = "center of gravity";
+incorrect2correct["Center of Gravity"] = "center of gravity";
 incorrect2correct["CG"] = "center of gravity";
 incorrect2correct["cent"] = "CentOS";
 incorrect2correct["CentOS"] = "CentOS";
@@ -29206,11 +29392,14 @@ correct2URL["Charlie_______"] = "https://en.wikipedia.org/wiki/NATO_phonetic_alp
 
 incorrect2correct["C_______"] = "Charlie_______";
 incorrect2correct["charlie_______"] = "Charlie_______";
-incorrect2correct["chart.js"] = "Chart.js";
+incorrect2correct["Chart Js"] = "Chart.js";
 incorrect2correct["Chart.js"] = "Chart.js";
 correct2URL["Chart.js"] = "https://en.wikipedia.org/wiki/Chart.js";
 
 
+incorrect2correct["Chart JS"] = "Chart.js";
+incorrect2correct["chart.js"] = "Chart.js";
+incorrect2correct["Chart.JS"] = "Chart.js";
 incorrect2correct["chartjs"] = "Chart.js";
 incorrect2correct["chartJs"] = "Chart.js";
 incorrect2correct["chartJS"] = "Chart.js";
@@ -29322,6 +29511,7 @@ incorrect2correct["ChatGTP"] = "ChatGPT";
 incorrect2correct["chstGPT"] = "ChatGPT";
 incorrect2correct["clanker"] = "ChatGPT";
 incorrect2correct["CrapGPT"] = "ChatGPT";
+incorrect2correct["genie"] = "ChatGPT";
 incorrect2correct["GhatGPT"] = "ChatGPT";
 incorrect2correct["global brain statistics"] = "ChatGPT";
 incorrect2correct["gpt"] = "ChatGPT";
@@ -29350,6 +29540,7 @@ incorrect2correct["puppy"] = "ChatGPT";
 incorrect2correct["SpamGPT"] = "ChatGPT";
 incorrect2correct["stochastic parrot"] = "ChatGPT";
 incorrect2correct["sycophantic"] = "ChatGPT";
+incorrect2correct["the genie"] = "ChatGPT";
 incorrect2correct["3.5"] = "ChatGPT (using GPT-3.5)";
 incorrect2correct["ChatGPT (using GPT-3.5)"] = "ChatGPT (using GPT-3.5)";
 correct2URL["ChatGPT (using GPT-3.5)"] = "https://en.wikipedia.org/wiki/ChatGPT#Training";
@@ -29580,6 +29771,11 @@ incorrect2correct["Checkstyle"] = "Checkstyle";
 correct2URL["Checkstyle"] = "https://en.wikipedia.org/wiki/Checkstyle";
 
 
+incorrect2correct["check sum"] = "checksum";
+incorrect2correct["checksum"] = "checksum";
+correct2URL["checksum"] = "https://en.wiktionary.org/wiki/checksum#Noun";
+
+
 incorrect2correct["check summing"] = "checksumming";
 incorrect2correct["checksumming"] = "checksumming";
 correct2URL["checksumming"] = "https://en.wiktionary.org/wiki/checksum#Verb";
@@ -29705,155 +29901,181 @@ incorrect2correct["CHERRY PROFILE___"] = "Cherry keycap profile___";
 incorrect2correct["Cherry___"] = "Cherry keycap profile___";
 incorrect2correct["MX profile___"] = "Cherry keycap profile___";
 incorrect2correct["south-facing blinding light___"] = "Cherry keycap profile___";
-incorrect2correct["Cerry MX"] = "Cherry MX";
-incorrect2correct["Cherry MX"] = "Cherry MX";
-correct2URL["Cherry MX"] = "https://en.wikipedia.org/wiki/Cherry_AG#Cherry_MX";
+incorrect2correct["Black Cherry MX"] = "Cherry MX Black switches";
+incorrect2correct["Cherry MX Black switches"] = "Cherry MX Black switches";
+correct2URL["Cherry MX Black switches"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
 
 
-incorrect2correct["Cheer"] = "Cherry MX";
-incorrect2correct["Cheers"] = "Cherry MX";
-incorrect2correct["cheery"] = "Cherry MX";
-incorrect2correct["Cheery"] = "Cherry MX";
-incorrect2correct["Cherr"] = "Cherry MX";
-incorrect2correct["Cherrs"] = "Cherry MX";
-incorrect2correct["cherry"] = "Cherry MX";
-incorrect2correct["Cherry"] = "Cherry MX";
-incorrect2correct["cherry mx"] = "Cherry MX";
-incorrect2correct["cherry Mx"] = "Cherry MX";
-incorrect2correct["cherry MX"] = "Cherry MX";
-incorrect2correct["Cherry mx"] = "Cherry MX";
-incorrect2correct["CHERRY MX"] = "Cherry MX";
-incorrect2correct["cherrymx"] = "Cherry MX";
-incorrect2correct["Cherrymx"] = "Cherry MX";
-incorrect2correct["chery mx"] = "Cherry MX";
-incorrect2correct["Chrerry MX"] = "Cherry MX";
-incorrect2correct["mx"] = "Cherry MX";
-incorrect2correct["Mx"] = "Cherry MX";
-incorrect2correct["MX"] = "Cherry MX";
-incorrect2correct["mx cherry"] = "Cherry MX";
-incorrect2correct["mx Cherry"] = "Cherry MX";
-incorrect2correct["MX cherry"] = "Cherry MX";
-incorrect2correct["mx sw"] = "Cherry MX";
-incorrect2correct["mx switch"] = "Cherry MX";
-incorrect2correct["Mx switch"] = "Cherry MX";
-incorrect2correct["Mx Switch"] = "Cherry MX";
-incorrect2correct["MX switch"] = "Cherry MX";
-incorrect2correct["MX switches"] = "Cherry MX";
-incorrect2correct["Black Cherry MX"] = "Cherry MX Black";
-incorrect2correct["Cherry MX Black"] = "Cherry MX Black";
-correct2URL["Cherry MX Black"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
+incorrect2correct["cherry black"] = "Cherry MX Black switches";
+incorrect2correct["Cherry Black"] = "Cherry MX Black switches";
+incorrect2correct["cherry MX Black"] = "Cherry MX Black switches";
+incorrect2correct["Cherry MX Black"] = "Cherry MX Black switches";
+incorrect2correct["Cherry MX Black switch"] = "Cherry MX Black switches";
+incorrect2correct["cherry MX Blacks"] = "Cherry MX Black switches";
+incorrect2correct["mx black"] = "Cherry MX Black switches";
+incorrect2correct["MX Black"] = "Cherry MX Black switches";
+incorrect2correct["MX blacks"] = "Cherry MX Black switches";
+incorrect2correct["blue_"] = "Cherry MX Blue switches_";
+incorrect2correct["Cherry MX Blue switches_"] = "Cherry MX Blue switches_";
+correct2URL["Cherry MX Blue switches_"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
 
 
-incorrect2correct["cherry black"] = "Cherry MX Black";
-incorrect2correct["Cherry Black"] = "Cherry MX Black";
-incorrect2correct["cherry MX Black"] = "Cherry MX Black";
-incorrect2correct["cherry MX Blacks"] = "Cherry MX Black";
-incorrect2correct["mx black"] = "Cherry MX Black";
-incorrect2correct["MX Black"] = "Cherry MX Black";
-incorrect2correct["MX blacks"] = "Cherry MX Black";
-incorrect2correct["blue_"] = "Cherry MX Blue_";
-incorrect2correct["Cherry MX Blue_"] = "Cherry MX Blue_";
-correct2URL["Cherry MX Blue_"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
+incorrect2correct["Cherry Blue_"] = "Cherry MX Blue switches_";
+incorrect2correct["Cherry MX Blue switch_"] = "Cherry MX Blue switches_";
+incorrect2correct["cherry mx blue_"] = "Cherry MX Blue switches_";
+incorrect2correct["Cherry MX blue_"] = "Cherry MX Blue switches_";
+incorrect2correct["Cherry MX Blue_"] = "Cherry MX Blue switches_";
+incorrect2correct["cherry MX blues_"] = "Cherry MX Blue switches_";
+incorrect2correct["Cherry MX blues_"] = "Cherry MX Blue switches_";
+incorrect2correct["mx blue_"] = "Cherry MX Blue switches_";
+incorrect2correct["Mx blue_"] = "Cherry MX Blue switches_";
+incorrect2correct["MX blue_"] = "Cherry MX Blue switches_";
+incorrect2correct["MX Blue_"] = "Cherry MX Blue switches_";
+incorrect2correct["MX Blues_"] = "Cherry MX Blue switches_";
+incorrect2correct["brown stwitchs_"] = "Cherry MX Brown switches_";
+incorrect2correct["Cherry MX Brown switches_"] = "Cherry MX Brown switches_";
+correct2URL["Cherry MX Brown switches_"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
 
 
-incorrect2correct["Cherry Blue_"] = "Cherry MX Blue_";
-incorrect2correct["cherry mx blue_"] = "Cherry MX Blue_";
-incorrect2correct["Cherry MX blue_"] = "Cherry MX Blue_";
-incorrect2correct["mx blue_"] = "Cherry MX Blue_";
-incorrect2correct["Mx blue_"] = "Cherry MX Blue_";
-incorrect2correct["MX blue_"] = "Cherry MX Blue_";
-incorrect2correct["MX Blue_"] = "Cherry MX Blue_";
-incorrect2correct["MX Blues_"] = "Cherry MX Blue_";
-incorrect2correct["brown stwitchs_"] = "Cherry MX Brown_";
-incorrect2correct["Cherry MX Brown_"] = "Cherry MX Brown_";
-correct2URL["Cherry MX Brown_"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
+incorrect2correct["brown_"] = "Cherry MX Brown switches_";
+incorrect2correct["browns_"] = "Cherry MX Brown switches_";
+incorrect2correct["brows_"] = "Cherry MX Brown switches_";
+incorrect2correct["cherry brown_"] = "Cherry MX Brown switches_";
+incorrect2correct["Cherry brown_"] = "Cherry MX Brown switches_";
+incorrect2correct["Cherry Brown_"] = "Cherry MX Brown switches_";
+incorrect2correct["cherry browns_"] = "Cherry MX Brown switches_";
+incorrect2correct["cherry max brown_"] = "Cherry MX Brown switches_";
+incorrect2correct["Cherry MX Brown switch_"] = "Cherry MX Brown switches_";
+incorrect2correct["cherry mx brown_"] = "Cherry MX Brown switches_";
+incorrect2correct["cherry Mx brown_"] = "Cherry MX Brown switches_";
+incorrect2correct["Cherry MX Brown_"] = "Cherry MX Brown switches_";
+incorrect2correct["cherry Mx browns_"] = "Cherry MX Brown switches_";
+incorrect2correct["Cherry MX browns_"] = "Cherry MX Brown switches_";
+incorrect2correct["Cherry MX Sand_"] = "Cherry MX Brown switches_";
+incorrect2correct["Cherry MX Shit_"] = "Cherry MX Brown switches_";
+incorrect2correct["mx brown_"] = "Cherry MX Brown switches_";
+incorrect2correct["Mx Brown_"] = "Cherry MX Brown switches_";
+incorrect2correct["MX brown_"] = "Cherry MX Brown switches_";
+incorrect2correct["MX Brown_"] = "Cherry MX Brown switches_";
+incorrect2correct["Cherry MX Clear"] = "Cherry MX Clear switches";
+incorrect2correct["Cherry MX Clear switches"] = "Cherry MX Clear switches";
+correct2URL["Cherry MX Clear switches"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX";
 
 
-incorrect2correct["brown_"] = "Cherry MX Brown_";
-incorrect2correct["browns_"] = "Cherry MX Brown_";
-incorrect2correct["brows_"] = "Cherry MX Brown_";
-incorrect2correct["cherry brown_"] = "Cherry MX Brown_";
-incorrect2correct["Cherry brown_"] = "Cherry MX Brown_";
-incorrect2correct["Cherry Brown_"] = "Cherry MX Brown_";
-incorrect2correct["cherry browns_"] = "Cherry MX Brown_";
-incorrect2correct["cherry max brown_"] = "Cherry MX Brown_";
-incorrect2correct["cherry mx brown_"] = "Cherry MX Brown_";
-incorrect2correct["cherry Mx brown_"] = "Cherry MX Brown_";
-incorrect2correct["cherry Mx browns_"] = "Cherry MX Brown_";
-incorrect2correct["Cherry MX browns_"] = "Cherry MX Brown_";
-incorrect2correct["Cherry MX Sand_"] = "Cherry MX Brown_";
-incorrect2correct["Cherry MX Shit_"] = "Cherry MX Brown_";
-incorrect2correct["mx brown_"] = "Cherry MX Brown_";
-incorrect2correct["Mx Brown_"] = "Cherry MX Brown_";
-incorrect2correct["MX brown_"] = "Cherry MX Brown_";
-incorrect2correct["MX Brown_"] = "Cherry MX Brown_";
-incorrect2correct["cherrymx clear"] = "Cherry MX Clear";
-incorrect2correct["Cherry MX Clear"] = "Cherry MX Clear";
-correct2URL["Cherry MX Clear"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX";
+incorrect2correct["Cherry MX Clear switch"] = "Cherry MX Clear switches";
+incorrect2correct["cherrymx clear"] = "Cherry MX Clear switches";
+incorrect2correct["MX Cherry Clear"] = "Cherry MX Clear switches";
+incorrect2correct["mx clear"] = "Cherry MX Clear switches";
+incorrect2correct["Cherry MX Green switch___"] = "Cherry MX Green switches___";
+incorrect2correct["Cherry MX Green switches___"] = "Cherry MX Green switches___";
+correct2URL["Cherry MX Green switches___"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
 
 
-incorrect2correct["MX Cherry Clear"] = "Cherry MX Clear";
-incorrect2correct["mx clear"] = "Cherry MX Clear";
-incorrect2correct["CHERRY MX GREEN___"] = "Cherry MX Green___";
-incorrect2correct["Cherry MX Green___"] = "Cherry MX Green___";
-correct2URL["Cherry MX Green___"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
+incorrect2correct["Cherry MX Green___"] = "Cherry MX Green switches___";
+incorrect2correct["CHERRY MX GREEN___"] = "Cherry MX Green switches___";
+incorrect2correct["green___"] = "Cherry MX Green switches___";
+incorrect2correct["Cherry MX re d_"] = "Cherry MX Red switches_";
+incorrect2correct["Cherry MX Red switches_"] = "Cherry MX Red switches_";
+correct2URL["Cherry MX Red switches_"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
 
 
-incorrect2correct["green___"] = "Cherry MX Green___";
-incorrect2correct["Cherry MX re d_"] = "Cherry MX Red_";
-incorrect2correct["Cherry MX Red_"] = "Cherry MX Red_";
-correct2URL["Cherry MX Red_"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
+incorrect2correct["Cherry MX Red switch_"] = "Cherry MX Red switches_";
+incorrect2correct["cherry mx red_"] = "Cherry MX Red switches_";
+incorrect2correct["Cherry MX Red_"] = "Cherry MX Red switches_";
+incorrect2correct["CHERRY MX Red_"] = "Cherry MX Red switches_";
+incorrect2correct["CHERRY MX RED_"] = "Cherry MX Red switches_";
+incorrect2correct["cherry mx red's_"] = "Cherry MX Red switches_";
+incorrect2correct["Cherry MX Red's_"] = "Cherry MX Red switches_";
+incorrect2correct["cherry mx reds_"] = "Cherry MX Red switches_";
+incorrect2correct["Cherry MX Reds_"] = "Cherry MX Red switches_";
+incorrect2correct["Cherry Red_"] = "Cherry MX Red switches_";
+incorrect2correct["Chrerry MX Red_"] = "Cherry MX Red switches_";
+incorrect2correct["mx red_"] = "Cherry MX Red switches_";
+incorrect2correct["Mx Red_"] = "Cherry MX Red switches_";
+incorrect2correct["MX red_"] = "Cherry MX Red switches_";
+incorrect2correct["MX Red_"] = "Cherry MX Red switches_";
+incorrect2correct["red_"] = "Cherry MX Red switches_";
+incorrect2correct["Cherry MX Silent Black"] = "Cherry MX Silent Black switches";
+incorrect2correct["Cherry MX Silent Black switches"] = "Cherry MX Silent Black switches";
+correct2URL["Cherry MX Silent Black switches"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
 
 
-incorrect2correct["cherry mx red_"] = "Cherry MX Red_";
-incorrect2correct["CHERRY MX Red_"] = "Cherry MX Red_";
-incorrect2correct["CHERRY MX RED_"] = "Cherry MX Red_";
-incorrect2correct["cherry mx red's_"] = "Cherry MX Red_";
-incorrect2correct["Cherry MX Red's_"] = "Cherry MX Red_";
-incorrect2correct["cherry mx reds_"] = "Cherry MX Red_";
-incorrect2correct["Cherry MX Reds_"] = "Cherry MX Red_";
-incorrect2correct["Cherry Red_"] = "Cherry MX Red_";
-incorrect2correct["Chrerry MX Red_"] = "Cherry MX Red_";
-incorrect2correct["mx red_"] = "Cherry MX Red_";
-incorrect2correct["Mx Red_"] = "Cherry MX Red_";
-incorrect2correct["MX red_"] = "Cherry MX Red_";
-incorrect2correct["MX Red_"] = "Cherry MX Red_";
-incorrect2correct["red_"] = "Cherry MX Red_";
-incorrect2correct["MX Silent Black"] = "Cherry MX Silent Black";
-incorrect2correct["Cherry MX Silent Black"] = "Cherry MX Silent Black";
-correct2URL["Cherry MX Silent Black"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
+incorrect2correct["Cherry MX Silent Black switch"] = "Cherry MX Silent Black switches";
+incorrect2correct["MX Silent Black"] = "Cherry MX Silent Black switches";
+incorrect2correct["cherry mx silent red"] = "Cherry MX Silent Red switches";
+incorrect2correct["Cherry MX Silent Red switches"] = "Cherry MX Silent Red switches";
+correct2URL["Cherry MX Silent Red switches"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
 
 
-incorrect2correct["cherry mx silent red"] = "Cherry MX Silent Red";
-incorrect2correct["Cherry MX Silent Red"] = "Cherry MX Silent Red";
-correct2URL["Cherry MX Silent Red"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
+incorrect2correct["Cherry MX Silent Red"] = "Cherry MX Silent Red switches";
+incorrect2correct["CHERRY MX SILENT RED"] = "Cherry MX Silent Red switches";
+incorrect2correct["Cherry MX Silent Red switch"] = "Cherry MX Silent Red switches";
+incorrect2correct["Cherry MX Silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["Cherry MX Speed Silver switches_"] = "Cherry MX Speed Silver switches_";
+correct2URL["Cherry MX Speed Silver switches_"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
 
 
-incorrect2correct["CHERRY MX SILENT RED"] = "Cherry MX Silent Red";
-incorrect2correct["Cherry MX Silver_"] = "Cherry MX Speed Silver_";
-incorrect2correct["Cherry MX Speed Silver_"] = "Cherry MX Speed Silver_";
-correct2URL["Cherry MX Speed Silver_"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
+incorrect2correct["Cherry MX Speed Silver switch_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["Cherry MX Speed silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["Cherry MX Speed Silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["Cherry MX SPEED Silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["CHERRY MX Speed Silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["Cherry Silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["MX Speed Silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["MX SPEED Silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["Silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["speed silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["Speed Silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["speed silvers_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["speed-silver_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["speed-silvers_"] = "Cherry MX Speed Silver switches_";
+incorrect2correct["Cerry MX"] = "Cherry MX switches";
+incorrect2correct["Cherry MX switches"] = "Cherry MX switches";
+correct2URL["Cherry MX switches"] = "https://en.wikipedia.org/wiki/Cherry_AG#Cherry_MX";
 
 
-incorrect2correct["Cherry MX Speed silver_"] = "Cherry MX Speed Silver_";
-incorrect2correct["Cherry MX SPEED Silver_"] = "Cherry MX Speed Silver_";
-incorrect2correct["CHERRY MX Speed Silver_"] = "Cherry MX Speed Silver_";
-incorrect2correct["Cherry Silver_"] = "Cherry MX Speed Silver_";
-incorrect2correct["MX Speed Silver_"] = "Cherry MX Speed Silver_";
-incorrect2correct["MX SPEED Silver_"] = "Cherry MX Speed Silver_";
-incorrect2correct["silver_"] = "Cherry MX Speed Silver_";
-incorrect2correct["Silver_"] = "Cherry MX Speed Silver_";
-incorrect2correct["speed silver_"] = "Cherry MX Speed Silver_";
-incorrect2correct["Speed Silver_"] = "Cherry MX Speed Silver_";
-incorrect2correct["speed silvers_"] = "Cherry MX Speed Silver_";
-incorrect2correct["speed-silver_"] = "Cherry MX Speed Silver_";
-incorrect2correct["speed-silvers_"] = "Cherry MX Speed Silver_";
-incorrect2correct["tactile grey"] = "Cherry MX Tactile Grey";
-incorrect2correct["Cherry MX Tactile Grey"] = "Cherry MX Tactile Grey";
-correct2URL["Cherry MX Tactile Grey"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
+incorrect2correct["Cheer"] = "Cherry MX switches";
+incorrect2correct["Cheers"] = "Cherry MX switches";
+incorrect2correct["cheery"] = "Cherry MX switches";
+incorrect2correct["Cheery"] = "Cherry MX switches";
+incorrect2correct["Cherr"] = "Cherry MX switches";
+incorrect2correct["Cherrs"] = "Cherry MX switches";
+incorrect2correct["cherry"] = "Cherry MX switches";
+incorrect2correct["Cherry"] = "Cherry MX switches";
+incorrect2correct["cherry mx"] = "Cherry MX switches";
+incorrect2correct["cherry Mx"] = "Cherry MX switches";
+incorrect2correct["cherry MX"] = "Cherry MX switches";
+incorrect2correct["Cherry mx"] = "Cherry MX switches";
+incorrect2correct["Cherry MX"] = "Cherry MX switches";
+incorrect2correct["CHERRY MX"] = "Cherry MX switches";
+incorrect2correct["cherry mx switch"] = "Cherry MX switches";
+incorrect2correct["Cherry MX switch"] = "Cherry MX switches";
+incorrect2correct["cherry mx switches"] = "Cherry MX switches";
+incorrect2correct["cherrymx"] = "Cherry MX switches";
+incorrect2correct["Cherrymx"] = "Cherry MX switches";
+incorrect2correct["chery mx"] = "Cherry MX switches";
+incorrect2correct["Chrerry MX"] = "Cherry MX switches";
+incorrect2correct["mx"] = "Cherry MX switches";
+incorrect2correct["Mx"] = "Cherry MX switches";
+incorrect2correct["MX"] = "Cherry MX switches";
+incorrect2correct["mx cherry"] = "Cherry MX switches";
+incorrect2correct["mx Cherry"] = "Cherry MX switches";
+incorrect2correct["MX cherry"] = "Cherry MX switches";
+incorrect2correct["mx sw"] = "Cherry MX switches";
+incorrect2correct["mx switch"] = "Cherry MX switches";
+incorrect2correct["Mx switch"] = "Cherry MX switches";
+incorrect2correct["Mx Switch"] = "Cherry MX switches";
+incorrect2correct["MX switch"] = "Cherry MX switches";
+incorrect2correct["MX switches"] = "Cherry MX switches";
+incorrect2correct["Cherry MX Tactile Grey"] = "Cherry MX Tactile Grey switches";
+incorrect2correct["Cherry MX Tactile Grey switches"] = "Cherry MX Tactile Grey switches";
+correct2URL["Cherry MX Tactile Grey switches"] = "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards";
 
 
-incorrect2correct["Tactile Grey"] = "Cherry MX Tactile Grey";
+incorrect2correct["Cherry MX Tactile Grey switch"] = "Cherry MX Tactile Grey switches";
+incorrect2correct["tactile grey"] = "Cherry MX Tactile Grey switches";
+incorrect2correct["Tactile Grey"] = "Cherry MX Tactile Grey switches";
 incorrect2correct["cherry pick"] = "cherry-pick";
 incorrect2correct["cherry-pick"] = "cherry-pick";
 correct2URL["cherry-pick"] = "https://en.wiktionary.org/wiki/cherry-pick#Verb";
@@ -29979,11 +30201,12 @@ incorrect2correct["chief technology officer"] = "chief technology officer";
 correct2URL["chief technology officer"] = "https://en.wikipedia.org/wiki/Chief_technology_officer";
 
 
-incorrect2correct["Child"] = "child";
+incorrect2correct["ch*ld"] = "child";
 incorrect2correct["child"] = "child";
 correct2URL["child"] = "https://en.wiktionary.org/wiki/child#Noun";
 
 
+incorrect2correct["Child"] = "child";
 incorrect2correct["childd"] = "child";
 incorrect2correct["childe"] = "child";
 incorrect2correct["childs play"] = "child's play";
@@ -31317,6 +31540,8 @@ correct2URL["clicky switches"] = "https://switchandclick.com/best-clicky-switche
 
 
 incorrect2correct["Blue"] = "clicky switches";
+incorrect2correct["blue switch"] = "clicky switches";
+incorrect2correct["Blue Switch"] = "clicky switches";
 incorrect2correct["blues"] = "clicky switches";
 incorrect2correct["clickies"] = "clicky switches";
 incorrect2correct["clickiez"] = "clicky switches";
@@ -31874,6 +32099,11 @@ correct2URL["coarse"] = "https://en.wiktionary.org/wiki/coarse#Adjective";
 
 
 incorrect2correct["Corse"] = "coarse";
+incorrect2correct["course_____"] = "coarse_____";
+incorrect2correct["coarse_____"] = "coarse_____";
+correct2URL["coarse_____"] = "https://en.wiktionary.org/wiki/coarse#Adjective";
+
+
 incorrect2correct["coarse grained"] = "coarse-grained";
 incorrect2correct["coarse-grained"] = "coarse-grained";
 correct2URL["coarse-grained"] = "https://en.wiktionary.org/wiki/coarse-grained#Adjective";
@@ -32714,6 +32944,8 @@ correct2URL["cold solder joints"] = "https://en.wikipedia.org/wiki/Soldering#Col
 
 
 incorrect2correct["bad solder joints"] = "cold solder joints";
+incorrect2correct["cold sauder joints"] = "cold solder joints";
+incorrect2correct["cold sauter joints"] = "cold solder joints";
 incorrect2correct["cold solder joint"] = "cold solder joints";
 incorrect2correct["Cold solder joints"] = "cold solder joints";
 incorrect2correct["cold soldering"] = "cold solder joints";
@@ -33276,11 +33508,12 @@ incorrect2correct["Comet"] = "Comet";
 correct2URL["Comet"] = "https://en.wikipedia.org/wiki/Comet_%28programming%29";
 
 
-incorrect2correct["confort"] = "comfort";
+incorrect2correct["comfortability"] = "comfort";
 incorrect2correct["comfort"] = "comfort";
 correct2URL["comfort"] = "https://en.wiktionary.org/wiki/comfort#Noun";
 
 
+incorrect2correct["confort"] = "comfort";
 incorrect2correct["comfi"] = "comfortable";
 incorrect2correct["comfortable"] = "comfortable";
 correct2URL["comfortable"] = "https://en.wiktionary.org/wiki/comfortable#Adjective";
@@ -33438,11 +33671,13 @@ incorrect2correct["Commandline"] = "command line";
 incorrect2correct["CommandLine"] = "command line";
 incorrect2correct["commanline"] = "command line";
 incorrect2correct["commont line"] = "command line";
-incorrect2correct["commandlines"] = "command lines";
+incorrect2correct["Command lines"] = "command lines";
 incorrect2correct["command lines"] = "command lines";
 correct2URL["command lines"] = "https://en.wiktionary.org/wiki/command_line#Noun";
 
 
+incorrect2correct["commandlines"] = "command lines";
+incorrect2correct["Commandlines"] = "command lines";
 incorrect2correct["command palett"] = "Command Palette";
 incorrect2correct["Command Palette"] = "Command Palette";
 correct2URL["Command Palette"] = "https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette";
@@ -34068,6 +34303,7 @@ incorrect2correct["compatabily"] = "compatibility";
 incorrect2correct["Compatabily"] = "compatibility";
 incorrect2correct["compatablity"] = "compatibility";
 incorrect2correct["compatbile"] = "compatibility";
+incorrect2correct["Compatibility"] = "compatibility";
 incorrect2correct["compatibiltity"] = "compatibility";
 incorrect2correct["compatibilty"] = "compatibility";
 incorrect2correct["compatiblity"] = "compatibility";
@@ -34099,6 +34335,7 @@ incorrect2correct["compaitble"] = "compatible";
 incorrect2correct["compaitible"] = "compatible";
 incorrect2correct["compatabile"] = "compatible";
 incorrect2correct["compatable"] = "compatible";
+incorrect2correct["compatble"] = "compatible";
 incorrect2correct["compatiable"] = "compatible";
 incorrect2correct["compatibale"] = "compatible";
 incorrect2correct["compatibile"] = "compatible";
@@ -34405,7 +34642,7 @@ correct2URL["completely bogus answers on Stack Overflow_____"] = "https://stacko
 
 
 incorrect2correct["bogus answers on Stack Overflow_____"] = "completely bogus answers on Stack Overflow_____";
-incorrect2correct["Stack&nbsp;Overflow_____"] = "completely bogus answers on Stack Overflow_____";
+incorrect2correct["Stack Overflow_____"] = "completely bogus answers on Stack Overflow_____";
 incorrect2correct["CNG"] = "completely new game";
 incorrect2correct["completely new game"] = "completely new game";
 correct2URL["completely new game"] = "https://www.reddit.com/r/chess/comments/gos6xx/agadmator_as_of_x_move_this_is_a_completely_new/";
@@ -35117,6 +35354,11 @@ correct2URL["configuring"] = "https://en.wiktionary.org/wiki/configure#Verb";
 incorrect2correct["confinent"] = "confinement";
 incorrect2correct["confinement"] = "confinement";
 correct2URL["confinement"] = "https://en.wiktionary.org/wiki/confinement#Noun";
+
+
+incorrect2correct["confrim"] = "confirm";
+incorrect2correct["confirm"] = "confirm";
+correct2URL["confirm"] = "https://en.wiktionary.org/wiki/confirm#Verb";
 
 
 incorrect2correct["Confirmation bias"] = "confirmation bias";
@@ -36451,13 +36693,16 @@ incorrect2correct["cooler"] = "cooler";
 correct2URL["cooler"] = "https://en.wiktionary.org/wiki/cooler#Noun";
 
 
-incorrect2correct["Cooler Master quit the keyboard business_"] = "Cooler Master exited the mechanical keyboards and mice business_";
+incorrect2correct["Cooler Master exited the keyboard business years ago_"] = "Cooler Master exited the mechanical keyboards and mice business_";
 incorrect2correct["Cooler Master exited the mechanical keyboards and mice business_"] = "Cooler Master exited the mechanical keyboards and mice business_";
 correct2URL["Cooler Master exited the mechanical keyboards and mice business_"] = "https://www.reddit.com/r/coolermaster/comments/1c87jl5/coolermaster_is_dropping_the_ball_on_the_mm712_pro/";
 
 
+incorrect2correct["Cooler Master quit the keyboard business_"] = "Cooler Master exited the mechanical keyboards and mice business_";
 incorrect2correct["Cooler Master quit_"] = "Cooler Master exited the mechanical keyboards and mice business_";
 incorrect2correct["Cooler Master_"] = "Cooler Master exited the mechanical keyboards and mice business_";
+incorrect2correct["exited the keyboard business years ago_"] = "Cooler Master exited the mechanical keyboards and mice business_";
+incorrect2correct["exited the keyboard business_"] = "Cooler Master exited the mechanical keyboards and mice business_";
 incorrect2correct["fired_"] = "Cooler Master exited the mechanical keyboards and mice business_";
 incorrect2correct["production has allegedly ceased_"] = "Cooler Master exited the mechanical keyboards and mice business_";
 incorrect2correct["production has ceased_"] = "Cooler Master exited the mechanical keyboards and mice business_";
@@ -36569,11 +36814,12 @@ correct2URL["Copenhagen interpretation_"] = "https://en.wikipedia.org/wiki/Copen
 
 
 incorrect2correct["Copenhagen_"] = "Copenhagen interpretation_";
-incorrect2correct["Copernicium"] = "copernicium";
+incorrect2correct["Cn"] = "copernicium";
 incorrect2correct["copernicium"] = "copernicium";
 correct2URL["copernicium"] = "https://en.wikipedia.org/wiki/Copernicium";
 
 
+incorrect2correct["Copernicium"] = "copernicium";
 incorrect2correct["copyable"] = "copiable";
 incorrect2correct["copiable"] = "copiable";
 correct2URL["copiable"] = "https://en.wiktionary.org/wiki/copiable#Adjective";
@@ -37701,6 +37947,7 @@ incorrect2correct["cover-up"] = "cover-up";
 correct2URL["cover-up"] = "https://en.wiktionary.org/wiki/cover-up#Noun";
 
 
+incorrect2correct["Cover-Up"] = "cover-up";
 incorrect2correct["coverup"] = "cover-up";
 incorrect2correct["cove"] = "covered";
 incorrect2correct["covered"] = "covered";
@@ -38215,6 +38462,7 @@ incorrect2correct["criterion"] = "criterion";
 correct2URL["criterion"] = "https://en.wiktionary.org/wiki/criterion#Noun";
 
 
+incorrect2correct["criterum"] = "criterion";
 incorrect2correct["Critic"] = "Critic badge";
 incorrect2correct["Critic badge"] = "Critic badge";
 correct2URL["Critic badge"] = "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/188732#188732";
@@ -38437,6 +38685,7 @@ incorrect2correct["Cross platform"] = "cross-platform";
 incorrect2correct["Cross Platform"] = "cross-platform";
 incorrect2correct["cross-plat"] = "cross-platform";
 incorrect2correct["cross-platfrom"] = "cross-platform";
+incorrect2correct["cross.platform"] = "cross-platform";
 incorrect2correct["crossplat"] = "cross-platform";
 incorrect2correct["crossplatfom"] = "cross-platform";
 incorrect2correct["crossplatform"] = "cross-platform";
@@ -39133,12 +39382,12 @@ incorrect2correct["cumulative distribution function"] = "cumulative distribution
 correct2URL["cumulative distribution function"] = "https://en.wikipedia.org/wiki/Cumulative_distribution_function";
 
 
-incorrect2correct["Cb"] = "cumulonimbus";
-incorrect2correct["cumulonimbus"] = "cumulonimbus";
-correct2URL["cumulonimbus"] = "https://en.wikipedia.org/wiki/Cumulonimbus";
+incorrect2correct["Cb_"] = "cumulonimbus_";
+incorrect2correct["cumulonimbus_"] = "cumulonimbus_";
+correct2URL["cumulonimbus_"] = "https://en.wikipedia.org/wiki/Cumulonimbus";
 
 
-incorrect2correct["Cumulonimbus"] = "cumulonimbus";
+incorrect2correct["Cumulonimbus_"] = "cumulonimbus_";
 incorrect2correct["CumulusCi"] = "CumulusCI";
 incorrect2correct["CumulusCI"] = "CumulusCI";
 correct2URL["CumulusCI"] = "https://github.com/SFDO-Tooling/CumulusCI";
@@ -39279,6 +39528,7 @@ correct2URL["current_"] = "https://en.wikipedia.org/wiki/Electric_current";
 incorrect2correct["amperage_"] = "current_";
 incorrect2correct["ctrrent_"] = "current_";
 incorrect2correct["curent_"] = "current_";
+incorrect2correct["curernt_"] = "current_";
 incorrect2correct["currend_"] = "current_";
 incorrect2correct["Current_"] = "current_";
 incorrect2correct["I_"] = "current_";
@@ -39377,6 +39627,11 @@ correct2URL["Cursor_"] = "https://en.wikipedia.org/wiki/Cursor_(code_editor)";
 incorrect2correct["causary"] = "cursory";
 incorrect2correct["cursory"] = "cursory";
 correct2URL["cursory"] = "https://en.wiktionary.org/wiki/cursory#Adjective";
+
+
+incorrect2correct["Curved Space"] = "curved space";
+incorrect2correct["curved space"] = "curved space";
+correct2URL["curved space"] = "https://en.wikipedia.org/wiki/Curved_space";
 
 
 incorrect2correct["costom"] = "custom";
@@ -39500,7 +39755,6 @@ correct2URL["Customising the ZMK-based Keychron B6 Pro keyboard without the Via 
 
 
 incorrect2correct["Keychron Launcher_____"] = "Customising the ZMK-based Keychron B6 Pro keyboard without the Via clone_____";
-incorrect2correct["Keychron&nbsp;B6&nbsp;Pro_____"] = "Customising the ZMK-based Keychron B6 Pro keyboard without the Via clone_____";
 incorrect2correct["ZMK_____"] = "Customising the ZMK-based Keychron B6 Pro keyboard without the Via clone_____";
 incorrect2correct["Cut"] = "cut";
 incorrect2correct["cut"] = "cut";
@@ -39896,16 +40150,18 @@ correct2URL["Dactyl"] = "https://github.com/adereth/dactyl-keyboard/blob/master/
 incorrect2correct["dactyl"] = "Dactyl";
 incorrect2correct["dactyle"] = "Dactyl";
 incorrect2correct["Daktyl"] = "Dactyl";
-incorrect2correct["dactyl manuform"] = "Dactyl ManuForm";
+incorrect2correct["Dacty Manuform"] = "Dactyl ManuForm";
 incorrect2correct["Dactyl ManuForm"] = "Dactyl ManuForm";
 correct2URL["Dactyl ManuForm"] = "https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform";
 
 
+incorrect2correct["dactyl manuform"] = "Dactyl ManuForm";
 incorrect2correct["Dactyl manuform"] = "Dactyl ManuForm";
 incorrect2correct["Dactyl Manuform"] = "Dactyl ManuForm";
 incorrect2correct["Dactyl-Manuform"] = "Dactyl ManuForm";
 incorrect2correct["Dactyl-ManuForm"] = "Dactyl ManuForm";
 incorrect2correct["daktyl manuform"] = "Dactyl ManuForm";
+incorrect2correct["manuform"] = "Dactyl ManuForm";
 incorrect2correct["ManuForm"] = "Dactyl ManuForm";
 incorrect2correct["da"] = "dad";
 incorrect2correct["dad"] = "dad";
@@ -40698,6 +40954,12 @@ incorrect2correct["DaVinci"] = "DaVinci Resolve";
 incorrect2correct["davinci resolve"] = "DaVinci Resolve";
 incorrect2correct["DaVinci resolve"] = "DaVinci Resolve";
 incorrect2correct["DaVinici resolve"] = "DaVinci Resolve";
+incorrect2correct["dawn_"] = "Dawn Keychron x Gateron double-rail magnetic switches_";
+incorrect2correct["Dawn Keychron x Gateron double-rail magnetic switches_"] = "Dawn Keychron x Gateron double-rail magnetic switches_";
+correct2URL["Dawn Keychron x Gateron double-rail magnetic switches_"] = "https://www.keychron.com/products/gateron-double-rail-magnetic-switch?variant=40784600662105";
+
+
+incorrect2correct["Dawn_"] = "Dawn Keychron x Gateron double-rail magnetic switches_";
 incorrect2correct["beginning of time"] = "dawn of time";
 incorrect2correct["dawn of time"] = "dawn of time";
 correct2URL["dawn of time"] = "https://en.wiktionary.org/wiki/dawn_of_time#Phrase";
@@ -41112,6 +41374,14 @@ correct2URL["dealt"] = "https://en.wiktionary.org/wiki/deal#Verb";
 incorrect2correct["dealth"] = "dealt";
 incorrect2correct["delt"] = "dealt";
 incorrect2correct["Delt"] = "dealt";
+incorrect2correct["dear imgui_"] = "Dear ImGui_";
+incorrect2correct["Dear ImGui_"] = "Dear ImGui_";
+correct2URL["Dear ImGui_"] = "https://github.com/ocornut/imgui/wiki";
+
+
+incorrect2correct["imgui_"] = "Dear ImGui_";
+incorrect2correct["ImGui_"] = "Dear ImGui_";
+incorrect2correct["immediate mode GUI_"] = "Dear ImGui_";
 incorrect2correct["derth"] = "dearth";
 incorrect2correct["dearth"] = "dearth";
 correct2URL["dearth"] = "https://en.wiktionary.org/wiki/dearth#Noun";
@@ -42046,11 +42316,12 @@ incorrect2correct["degree"] = "degree";
 correct2URL["degree"] = "https://en.wiktionary.org/wiki/degree#Noun";
 
 
-incorrect2correct["Degrees"] = "degrees";
+incorrect2correct["degree's"] = "degrees";
 incorrect2correct["degrees"] = "degrees";
 correct2URL["degrees"] = "https://en.wiktionary.org/wiki/degree#Noun";
 
 
+incorrect2correct["Degrees"] = "degrees";
 incorrect2correct["degres"] = "degrees";
 incorrect2correct["degress"] = "degrees";
 incorrect2correct["digrees"] = "degrees";
@@ -42525,8 +42796,10 @@ incorrect2correct["has left the building"] = "DenverCoder9";
 incorrect2correct["help future readers"] = "DenverCoder9";
 incorrect2correct["How did it go"] = "DenverCoder9";
 incorrect2correct["How did it go?"] = "DenverCoder9";
+incorrect2correct["inquiring minds want to know"] = "DenverCoder9";
 incorrect2correct["isn't any resolution"] = "DenverCoder9";
 incorrect2correct["it happen"] = "DenverCoder9";
+incorrect2correct["know about the progress"] = "DenverCoder9";
 incorrect2correct["learn from"] = "DenverCoder9";
 incorrect2correct["learn from it"] = "DenverCoder9";
 incorrect2correct["left the building"] = "DenverCoder9";
@@ -42544,6 +42817,7 @@ incorrect2correct["Please do"] = "DenverCoder9";
 incorrect2correct["Please let us know"] = "DenverCoder9";
 incorrect2correct["please post it here"] = "DenverCoder9";
 incorrect2correct["Please report back here"] = "DenverCoder9";
+incorrect2correct["please report it here"] = "DenverCoder9";
 incorrect2correct["post deleted"] = "DenverCoder9";
 incorrect2correct["post it here"] = "DenverCoder9";
 incorrect2correct["post the progress"] = "DenverCoder9";
@@ -42552,12 +42826,15 @@ incorrect2correct["report back here"] = "DenverCoder9";
 incorrect2correct["report here"] = "DenverCoder9";
 incorrect2correct["report it"] = "DenverCoder9";
 incorrect2correct["report it here"] = "DenverCoder9";
+incorrect2correct["report the outcome"] = "DenverCoder9";
+incorrect2correct["report the outcome here"] = "DenverCoder9";
 incorrect2correct["report the progress"] = "DenverCoder9";
 incorrect2correct["report the progress here"] = "DenverCoder9";
 incorrect2correct["report the result"] = "DenverCoder9";
 incorrect2correct["reported back"] = "DenverCoder9";
 incorrect2correct["reporting here"] = "DenverCoder9";
 incorrect2correct["reveal it"] = "DenverCoder9";
+incorrect2correct["share it with us"] = "DenverCoder9";
 incorrect2correct["Thanks for sharing"] = "DenverCoder9";
 incorrect2correct["thanks for the report"] = "DenverCoder9";
 incorrect2correct["Thanks for the report"] = "DenverCoder9";
@@ -42571,6 +42848,7 @@ incorrect2correct["Was there a resolution?"] = "DenverCoder9";
 incorrect2correct["we may never know"] = "DenverCoder9";
 incorrect2correct["we will never know"] = "DenverCoder9";
 incorrect2correct["What was it"] = "DenverCoder9";
+incorrect2correct["What was the result"] = "DenverCoder9";
 incorrect2correct["will never know"] = "DenverCoder9";
 incorrect2correct["with future readers"] = "DenverCoder9";
 incorrect2correct["xkcd 979"] = "DenverCoder9";
@@ -42685,15 +42963,15 @@ incorrect2correct["dependency-injection"] = "dependency injection";
 incorrect2correct["di"] = "dependency injection";
 incorrect2correct["Di"] = "dependency injection";
 incorrect2correct["DI"] = "dependency injection";
-incorrect2correct["dependency inversion"] = "dependency inversion principle";
-incorrect2correct["dependency inversion principle"] = "dependency inversion principle";
-correct2URL["dependency inversion principle"] = "https://en.wikipedia.org/wiki/Dependency_inversion_principle";
+incorrect2correct["Dependency Inversion principle___"] = "dependency inversion principle___";
+incorrect2correct["dependency inversion principle___"] = "dependency inversion principle___";
+correct2URL["dependency inversion principle___"] = "https://en.wikipedia.org/wiki/Dependency_inversion_principle";
 
 
-incorrect2correct["Dependency Inversion"] = "dependency inversion principle";
-incorrect2correct["Dependency Inversion principle"] = "dependency inversion principle";
-incorrect2correct["dependicy inversion"] = "dependency inversion principle";
-incorrect2correct["DIP"] = "dependency inversion principle";
+incorrect2correct["dependency inversion___"] = "dependency inversion principle___";
+incorrect2correct["Dependency Inversion___"] = "dependency inversion principle___";
+incorrect2correct["dependicy inversion___"] = "dependency inversion principle___";
+incorrect2correct["DIP___"] = "dependency inversion principle___";
 incorrect2correct["dependency walker"] = "Dependency Walker";
 incorrect2correct["Dependency Walker"] = "Dependency Walker";
 correct2URL["Dependency Walker"] = "https://en.wikipedia.org/wiki/Dependency_Walker";
@@ -43144,18 +43422,22 @@ incorrect2correct["Desmos"] = "Desmos";
 correct2URL["Desmos"] = "https://en.wikipedia.org/wiki/Desmos";
 
 
-incorrect2correct["desolderate"] = "desolder";
+incorrect2correct["desauder"] = "desolder";
 incorrect2correct["desolder"] = "desolder";
 correct2URL["desolder"] = "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering";
 
 
+incorrect2correct["desauter"] = "desolder";
+incorrect2correct["desolderate"] = "desolder";
 incorrect2correct["disolder"] = "desolder";
 incorrect2correct["dosolder"] = "desolder";
-incorrect2correct["Desoldering"] = "desoldering";
+incorrect2correct["desaudering"] = "desoldering";
 incorrect2correct["desoldering"] = "desoldering";
 correct2URL["desoldering"] = "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering";
 
 
+incorrect2correct["desautering"] = "desoldering";
+incorrect2correct["Desoldering"] = "desoldering";
 incorrect2correct["desoldeting"] = "desoldering";
 incorrect2correct["despeair"] = "despair";
 incorrect2correct["despair"] = "despair";
@@ -43864,6 +44146,7 @@ correct2URL["did_"] = "https://en.wiktionary.org/wiki/did#Verb";
 
 
 incorrect2correct["dit_"] = "did_";
+incorrect2correct["dod_"] = "did_";
 incorrect2correct["id_"] = "did_";
 incorrect2correct["sid_"] = "did_";
 incorrect2correct["did not"] = "didn’t";
@@ -43918,11 +44201,12 @@ incorrect2correct["didn’t have any"] = "didn’t have any";
 correct2URL["didn’t have any"] = "https://ell.stackexchange.com/questions/19056";
 
 
-incorrect2correct["d%e_"] = "die_";
+incorrect2correct["d*e_"] = "die_";
 incorrect2correct["die_"] = "die_";
 correct2URL["die_"] = "https://en.wiktionary.org/wiki/die#Verb";
 
 
+incorrect2correct["d%e_"] = "die_";
 incorrect2correct["D%E_"] = "die_";
 incorrect2correct["day_"] = "die_";
 incorrect2correct["dieded"] = "died";
@@ -44002,6 +44286,7 @@ incorrect2correct["differences"] = "differences";
 correct2URL["differences"] = "https://en.wiktionary.org/wiki/difference#Noun";
 
 
+incorrect2correct["differances"] = "differences";
 incorrect2correct["differeces"] = "differences";
 incorrect2correct["differencies"] = "differences";
 incorrect2correct["diffrences"] = "differences";
@@ -44391,6 +44676,8 @@ correct2URL["dinosaur"] = "https://en.wiktionary.org/wiki/dinosaur#Noun";
 
 
 incorrect2correct["Dinasaur"] = "dinosaur";
+incorrect2correct["dinisaur"] = "dinosaur";
+incorrect2correct["Dinisaur"] = "dinosaur";
 incorrect2correct["dino"] = "dinosaur";
 incorrect2correct["no Wi-Fi dinosaur game"] = "Dinosaur Game";
 incorrect2correct["Dinosaur Game"] = "Dinosaur Game";
@@ -44429,24 +44716,25 @@ incorrect2correct["Diodes"] = "diodes";
 incorrect2correct["diods"] = "diodes";
 incorrect2correct["Diods"] = "diodes";
 incorrect2correct["DIODS"] = "diodes";
-incorrect2correct["dip_switch"] = "DIP Switch";
-incorrect2correct["DIP Switch"] = "DIP Switch";
-correct2URL["DIP Switch"] = "https://docs.qmk.fm/features/dip_switch";
+incorrect2correct["DIP"] = "DIP switch";
+incorrect2correct["DIP switch"] = "DIP switch";
+correct2URL["DIP switch"] = "https://en.wikipedia.org/wiki/DIP_switch";
 
 
-incorrect2correct["dip switch__"] = "DIP switch__";
+incorrect2correct["dip switch"] = "DIP switch";
+incorrect2correct["Dip switch"] = "DIP switch";
+incorrect2correct["DIP Switch__"] = "DIP switch__";
 incorrect2correct["DIP switch__"] = "DIP switch__";
-correct2URL["DIP switch__"] = "https://en.wikipedia.org/wiki/DIP_switch";
+correct2URL["DIP switch__"] = "https://docs.qmk.fm/features/dip_switch";
 
 
-incorrect2correct["Dip switch__"] = "DIP switch__";
-incorrect2correct["DIP__"] = "DIP switch__";
-incorrect2correct["DIP switch"] = "DIP switches";
-incorrect2correct["DIP switches"] = "DIP switches";
-correct2URL["DIP switches"] = "https://en.wiktionary.org/wiki/DIP_switch#Noun";
+incorrect2correct["dip_switch__"] = "DIP switch__";
+incorrect2correct["DIP switch_"] = "DIP switches_";
+incorrect2correct["DIP switches_"] = "DIP switches_";
+correct2URL["DIP switches_"] = "https://en.wiktionary.org/wiki/DIP_switch#Noun";
 
 
-incorrect2correct["dip switches"] = "DIP switches";
+incorrect2correct["dip switches_"] = "DIP switches_";
 incorrect2correct["dip_"] = "DIP_";
 incorrect2correct["DIP_"] = "DIP_";
 correct2URL["DIP_"] = "https://en.wikipedia.org/wiki/Dual_in-line_package";
@@ -44614,6 +44902,7 @@ correct2URL["disable"] = "https://en.wiktionary.org/wiki/disable#Verb";
 
 
 incorrect2correct["Diable"] = "disable";
+incorrect2correct["diasble"] = "disable";
 incorrect2correct["disablink"] = "disable";
 incorrect2correct["disbale"] = "disable";
 incorrect2correct["disble"] = "disable";
@@ -44736,6 +45025,7 @@ incorrect2correct["disapeared"] = "disappeared";
 incorrect2correct["disappared"] = "disappeared";
 incorrect2correct["disappeard"] = "disappeared";
 incorrect2correct["diseapeard"] = "disappeared";
+incorrect2correct["dissaapeared"] = "disappeared";
 incorrect2correct["dissapeared"] = "disappeared";
 incorrect2correct["dissapered"] = "disappeared";
 incorrect2correct["dissappeared"] = "disappeared";
@@ -45317,6 +45607,11 @@ incorrect2correct["DP"] = "DisplayPort";
 incorrect2correct["dislplays"] = "displays";
 incorrect2correct["displays"] = "displays";
 correct2URL["displays"] = "https://en.wiktionary.org/wiki/display#Verb";
+
+
+incorrect2correct["Dispos"] = "dispos";
+incorrect2correct["dispos"] = "dispos";
+correct2URL["dispos"] = "https://en.wiktionary.org/wiki/dispo#Noun";
 
 
 incorrect2correct["dis-positioned"] = "dispositioned";
@@ -45946,6 +46241,11 @@ incorrect2correct["doctor"] = "doctor";
 correct2URL["doctor"] = "https://en.wiktionary.org/wiki/doctor#Noun";
 
 
+incorrect2correct["Dr. Who"] = "Doctor Who";
+incorrect2correct["Doctor Who"] = "Doctor Who";
+correct2URL["Doctor Who"] = "https://en.wikipedia.org/wiki/Doctor_Who";
+
+
 incorrect2correct["Doctors"] = "doctors";
 incorrect2correct["doctors"] = "doctors";
 correct2URL["doctors"] = "https://en.wiktionary.org/wiki/doctor#Noun";
@@ -46085,6 +46385,7 @@ incorrect2correct["doen't"] = "doesn’t";
 incorrect2correct["doens"] = "doesn’t";
 incorrect2correct["doens't"] = "doesn’t";
 incorrect2correct["doenst"] = "doesn’t";
+incorrect2correct["Doenst"] = "doesn’t";
 incorrect2correct["doent"] = "doesn’t";
 incorrect2correct["does'nt"] = "doesn’t";
 incorrect2correct["does't"] = "doesn’t";
@@ -46183,6 +46484,7 @@ incorrect2correct["doinf"] = "doing";
 incorrect2correct["dong"] = "doing";
 incorrect2correct["donig"] = "doing";
 incorrect2correct["doning"] = "doing";
+incorrect2correct["goind"] = "doing";
 incorrect2correct["doio"] = "DOIO KB16";
 incorrect2correct["DOIO KB16"] = "DOIO KB16";
 correct2URL["DOIO KB16"] = "https://wiki.keebmonkey.com/en/guides/kb16update";
@@ -46685,11 +46987,12 @@ incorrect2correct["double-quote"] = "double quote";
 incorrect2correct["doubleqoute"] = "double quote";
 incorrect2correct["doublequote"] = "double quote";
 incorrect2correct["speech mark"] = "double quote";
-incorrect2correct["Double Quotes"] = "double quotes";
+incorrect2correct["Double quotes"] = "double quotes";
 incorrect2correct["double quotes"] = "double quotes";
 correct2URL["double quotes"] = "https://en.wiktionary.org/wiki/double_quote#Noun";
 
 
+incorrect2correct["Double Quotes"] = "double quotes";
 incorrect2correct["double-quotes"] = "double quotes";
 incorrect2correct["double-standard"] = "double standard";
 incorrect2correct["double standard"] = "double standard";
@@ -46978,9 +47281,7 @@ correct2URL["download URL for Bluetooth firmware version 0.2.1_"] = "https://cdn
 incorrect2correct["Keychron K10 Max_"] = "download URL for Bluetooth firmware version 0.2.1_";
 incorrect2correct["Keychron Q6 Max_"] = "download URL for Bluetooth firmware version 0.2.1_";
 incorrect2correct["Keychron V6 Max_"] = "download URL for Bluetooth firmware version 0.2.1_";
-incorrect2correct["Keychron&nbsp;K10&nbsp;Max_"] = "download URL for Bluetooth firmware version 0.2.1_";
 incorrect2correct["Keychron&nbsp;Q6&nbsp;Max_"] = "download URL for Bluetooth firmware version 0.2.1_";
-incorrect2correct["Keychron&nbsp;V6&nbsp;Max_"] = "download URL for Bluetooth firmware version 0.2.1_";
 incorrect2correct["Bluetooth firmware version 1.32.2 for Keychron K Pro and Q Pro series keyboards_"] = "download URL for Bluetooth firmware version 1.32_";
 incorrect2correct["download URL for Bluetooth firmware version 1.32_"] = "download URL for Bluetooth firmware version 1.32_";
 correct2URL["download URL for Bluetooth firmware version 1.32_"] = "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/keychron_ckbt51_01.32.kfw";
@@ -46988,7 +47289,6 @@ correct2URL["download URL for Bluetooth firmware version 1.32_"] = "https://cdn.
 
 incorrect2correct["Keychron K10 Pro_"] = "download URL for Bluetooth firmware version 1.32_";
 incorrect2correct["Keychron Q6 Pro_"] = "download URL for Bluetooth firmware version 1.32_";
-incorrect2correct["Keychron&nbsp;K10&nbsp;Pro_"] = "download URL for Bluetooth firmware version 1.32_";
 incorrect2correct["Keychron&nbsp;Q6&nbsp;Pro_"] = "download URL for Bluetooth firmware version 1.32_";
 incorrect2correct["downloadeable"] = "downloadable";
 incorrect2correct["downloadable"] = "downloadable";
@@ -47269,6 +47569,11 @@ incorrect2correct["drain"] = "drain";
 correct2URL["drain"] = "https://en.wikipedia.org/wiki/Field-effect_transistor#Basic_information";
 
 
+incorrect2correct["drame"] = "drama";
+incorrect2correct["drama"] = "drama";
+correct2URL["drama"] = "https://en.wiktionary.org/wiki/drama#Noun";
+
+
 incorrect2correct["Dramatic reading"] = "dramatic reading";
 incorrect2correct["dramatic reading"] = "dramatic reading";
 correct2URL["dramatic reading"] = "https://en.wikipedia.org/wiki/Oral_interpretation";
@@ -47334,8 +47639,13 @@ incorrect2correct["dress the naked links"] = "dress the naked links";
 correct2URL["dress the naked links"] = "https://heyoka.medium.com/dont-use-click-here-f32f445d1021";
 
 
+incorrect2correct["naked"] = "dress the naked links";
 incorrect2correct["naked link"] = "dress the naked links";
 incorrect2correct["naked links"] = "dress the naked links";
+incorrect2correct["non-naked"] = "dress the naked links";
+incorrect2correct["non-naked link"] = "dress the naked links";
+incorrect2correct["nonnaked"] = "dress the naked links";
+incorrect2correct["nonnaked link"] = "dress the naked links";
 incorrect2correct["drys"] = "dries";
 incorrect2correct["dries"] = "dries";
 correct2URL["dries"] = "https://en.wiktionary.org/wiki/dry#Verb";
@@ -47515,11 +47825,17 @@ incorrect2correct["drudgery"] = "drudgery";
 correct2URL["drudgery"] = "https://en.wiktionary.org/wiki/drudgery#Noun";
 
 
-incorrect2correct["dr*gs"] = "drugs";
+incorrect2correct["d**g"] = "drug";
+incorrect2correct["drug"] = "drug";
+correct2URL["drug"] = "https://en.wiktionary.org/wiki/drug#Noun";
+
+
+incorrect2correct["d**gs"] = "drugs";
 incorrect2correct["drugs"] = "drugs";
 correct2URL["drugs"] = "https://en.wiktionary.org/wiki/drug#Noun";
 
 
+incorrect2correct["dr*gs"] = "drugs";
 incorrect2correct["DR*GS"] = "drugs";
 incorrect2correct["drumroll"] = "drum roll";
 incorrect2correct["drum roll"] = "drum roll";
@@ -47670,11 +47986,12 @@ incorrect2correct["dubious"] = "dubious";
 correct2URL["dubious"] = "https://en.wiktionary.org/wiki/dubious#Adjective";
 
 
-incorrect2correct["Dubnium"] = "dubnium";
-incorrect2correct["dubnium"] = "dubnium";
-correct2URL["dubnium"] = "https://en.wikipedia.org/wiki/Dubnium";
+incorrect2correct["Db_"] = "dubnium_";
+incorrect2correct["dubnium_"] = "dubnium_";
+correct2URL["dubnium_"] = "https://en.wikipedia.org/wiki/Dubnium";
 
 
+incorrect2correct["Dubnium_"] = "dubnium_";
 incorrect2correct["Duck typing"] = "duck typing";
 incorrect2correct["duck typing"] = "duck typing";
 correct2URL["duck typing"] = "https://en.wikipedia.org/wiki/Duck_typing";
@@ -48183,11 +48500,15 @@ incorrect2correct["dynamicall"] = "dynamically";
 incorrect2correct["dynamicaly"] = "dynamically";
 incorrect2correct["dynamicly"] = "dynamically";
 incorrect2correct["dynically"] = "dynamically";
-incorrect2correct["dynamics 365"] = "Dynamics 365";
+incorrect2correct["d365"] = "Dynamics 365";
 incorrect2correct["Dynamics 365"] = "Dynamics 365";
 correct2URL["Dynamics 365"] = "https://en.wikipedia.org/wiki/Microsoft_Dynamics_365";
 
 
+incorrect2correct["D365"] = "Dynamics 365";
+incorrect2correct["dynamics 365"] = "Dynamics 365";
+incorrect2correct["Microsoft D365"] = "Dynamics 365";
+incorrect2correct["Microsoft Dynamics 365"] = "Dynamics 365";
 incorrect2correct["dynamo db"] = "DynamoDB";
 incorrect2correct["DynamoDB"] = "DynamoDB";
 correct2URL["DynamoDB"] = "https://en.wikipedia.org/wiki/Amazon_DynamoDB";
@@ -48763,6 +49084,18 @@ incorrect2correct["Eclipse RCP_"] = "Eclipse RCP_";
 correct2URL["Eclipse RCP_"] = "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Rich_client_platform";
 
 
+incorrect2correct["eclipse sumo"] = "Eclipse Simulation of Urban Mobility";
+incorrect2correct["Eclipse Simulation of Urban Mobility"] = "Eclipse Simulation of Urban Mobility";
+correct2URL["Eclipse Simulation of Urban Mobility"] = "https://en.wikipedia.org/wiki/Simulation_of_Urban_MObility";
+
+
+incorrect2correct["Eclipse SUMO"] = "Eclipse Simulation of Urban Mobility";
+incorrect2correct["Simulation of Urban Mobility"] = "Eclipse Simulation of Urban Mobility";
+incorrect2correct["Simulation of Urban MObility"] = "Eclipse Simulation of Urban Mobility";
+incorrect2correct["sumo"] = "Eclipse Simulation of Urban Mobility";
+incorrect2correct["SUMO"] = "Eclipse Simulation of Urban Mobility";
+incorrect2correct["sumo eclipse"] = "Eclipse Simulation of Urban Mobility";
+incorrect2correct["SUMO Eclipse"] = "Eclipse Simulation of Urban Mobility";
 incorrect2correct["Subversive"] = "Eclipse Subversive";
 incorrect2correct["Eclipse Subversive"] = "Eclipse Subversive";
 correct2URL["Eclipse Subversive"] = "https://en.wikipedia.org/wiki/Comparison_of_Subversion_clients#Descriptions";
@@ -49175,20 +49508,18 @@ incorrect2correct["ediot"] = "edit";
 incorrect2correct["Edit"] = "edit";
 incorrect2correct["EDIT"] = "edit";
 incorrect2correct["edti"] = "edit";
-incorrect2correct["edit overflow"] = "Edit&nbsp;Overflow";
-incorrect2correct["Edit&nbsp;Overflow"] = "Edit&nbsp;Overflow";
-correct2URL["Edit&nbsp;Overflow"] = "https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Edit%20Overflow";
+incorrect2correct["edit overflow"] = "Edit Overflow";
+incorrect2correct["Edit Overflow"] = "Edit Overflow";
+correct2URL["Edit Overflow"] = "https://pmortensen.eu/world/EditOverflow.php?LookUpTerm=Edit%20Overflow";
 
 
-incorrect2correct["Edit Overflow"] = "Edit&nbsp;Overflow";
-incorrect2correct["EditOverflow"] = "Edit&nbsp;Overflow";
-incorrect2correct["EO"] = "Edit&nbsp;Overflow";
-incorrect2correct["edit overflow_"] = "Edit&nbsp;Overflow_";
-incorrect2correct["Edit&nbsp;Overflow_"] = "Edit&nbsp;Overflow_";
-correct2URL["Edit&nbsp;Overflow_"] = "https://github.com/PeterMortensen/Edit_Overflow";
+incorrect2correct["EditOverflow"] = "Edit Overflow";
+incorrect2correct["EO"] = "Edit Overflow";
+incorrect2correct["edit overflow_"] = "Edit Overflow_";
+incorrect2correct["Edit Overflow_"] = "Edit Overflow_";
+correct2URL["Edit Overflow_"] = "https://github.com/PeterMortensen/Edit_Overflow";
 
 
-incorrect2correct["Edit Overflow_"] = "Edit&nbsp;Overflow_";
 incorrect2correct["aditable"] = "editable";
 incorrect2correct["editable"] = "editable";
 correct2URL["editable"] = "https://en.wiktionary.org/wiki/editable#Adjective";
@@ -49390,11 +49721,12 @@ incorrect2correct["effect___"] = "effect___";
 correct2URL["effect___"] = "https://www.wikihow.com/Use-Affect-and-Effect-Properly";
 
 
-incorrect2correct["effectvie"] = "effective";
+incorrect2correct["efective"] = "effective";
 incorrect2correct["effective"] = "effective";
 correct2URL["effective"] = "https://en.wiktionary.org/wiki/effective#Adjective";
 
 
+incorrect2correct["effectvie"] = "effective";
 incorrect2correct["effective c++"] = "Effective C++";
 incorrect2correct["Effective C++"] = "Effective C++";
 correct2URL["Effective C++"] = "https://en.wikipedia.org/wiki/Scott_Meyers#Publications";
@@ -49446,6 +49778,7 @@ correct2URL["efficiently"] = "https://en.wiktionary.org/wiki/efficiently#Adverb"
 incorrect2correct["effectiently"] = "efficiently";
 incorrect2correct["efficently"] = "efficiently";
 incorrect2correct["Efficently"] = "efficiently";
+incorrect2correct["efficienly"] = "efficiently";
 incorrect2correct["efficientlly"] = "efficiently";
 incorrect2correct["effictiently"] = "efficiently";
 incorrect2correct["afford"] = "effort";
@@ -49775,19 +50108,19 @@ correct2URL["electric field"] = "https://en.wikipedia.org/wiki/Electric_field";
 
 
 incorrect2correct["Electric Field"] = "electric field";
-incorrect2correct["P"] = "electric power";
-incorrect2correct["electric power"] = "electric power";
-correct2URL["electric power"] = "https://en.wikipedia.org/wiki/Electric_power";
-
-
-incorrect2correct["power"] = "electric power";
-incorrect2correct["Power"] = "electric power";
 incorrect2correct["electronic power steering_"] = "electric power steering_";
 incorrect2correct["electric power steering_"] = "electric power steering_";
 correct2URL["electric power steering_"] = "https://en.wikipedia.org/wiki/Power_steering#Electric_and_electronic_systems";
 
 
 incorrect2correct["EPS_"] = "electric power steering_";
+incorrect2correct["P_"] = "electric power_";
+incorrect2correct["electric power_"] = "electric power_";
+correct2URL["electric power_"] = "https://en.wikipedia.org/wiki/Electric_power";
+
+
+incorrect2correct["power_"] = "electric power_";
+incorrect2correct["Power_"] = "electric power_";
 incorrect2correct["electric car"] = "electric vehicle";
 incorrect2correct["electric vehicle"] = "electric vehicle";
 correct2URL["electric vehicle"] = "https://en.wikipedia.org/wiki/Electric_car#Terminology";
@@ -50053,20 +50386,18 @@ incorrect2correct["elemet"] = "element";
 incorrect2correct["elemnet"] = "element";
 incorrect2correct["elemnt"] = "element";
 incorrect2correct["elment"] = "element";
-incorrect2correct["elementary"] = "elementary&nbsp;OS";
-incorrect2correct["elementary&nbsp;OS"] = "elementary&nbsp;OS";
-correct2URL["elementary&nbsp;OS"] = "https://en.wikipedia.org/wiki/Elementary_OS";
+incorrect2correct["elementary"] = "elementary OS";
+incorrect2correct["elementary OS"] = "elementary OS";
+correct2URL["elementary OS"] = "https://en.wikipedia.org/wiki/Elementary_OS";
 
 
-incorrect2correct["Elementary"] = "elementary&nbsp;OS";
-incorrect2correct["elementary os"] = "elementary&nbsp;OS";
-incorrect2correct["elementary OS"] = "elementary&nbsp;OS";
-incorrect2correct["Elementary OS"] = "elementary&nbsp;OS";
-incorrect2correct["Elementary&nbsp;OS"] = "elementary&nbsp;OS";
-incorrect2correct["elementaryos"] = "elementary&nbsp;OS";
-incorrect2correct["elementaryOS"] = "elementary&nbsp;OS";
-incorrect2correct["ElementaryOS"] = "elementary&nbsp;OS";
-incorrect2correct["eOS"] = "elementary&nbsp;OS";
+incorrect2correct["Elementary"] = "elementary OS";
+incorrect2correct["elementary os"] = "elementary OS";
+incorrect2correct["Elementary OS"] = "elementary OS";
+incorrect2correct["elementaryos"] = "elementary OS";
+incorrect2correct["elementaryOS"] = "elementary OS";
+incorrect2correct["ElementaryOS"] = "elementary OS";
+incorrect2correct["eOS"] = "elementary OS";
 incorrect2correct["elementor"] = "Elementor";
 incorrect2correct["Elementor"] = "Elementor";
 correct2URL["Elementor"] = "https://en.wikipedia.org/wiki/Elementor";
@@ -50248,6 +50579,8 @@ incorrect2correct["elon musk"] = "Elon Musk";
 incorrect2correct["Mr. Musk"] = "Elon Musk";
 incorrect2correct["musk"] = "Elon Musk";
 incorrect2correct["Musk"] = "Elon Musk";
+incorrect2correct["space karen"] = "Elon Musk";
+incorrect2correct["Space Karen"] = "Elon Musk";
 incorrect2correct["eloquence"] = "Eloquence";
 incorrect2correct["Eloquence"] = "Eloquence";
 correct2URL["Eloquence"] = "https://eloquence.marxmeier.com/sales/info.html";
@@ -50415,6 +50748,7 @@ correct2URL["embarrassingly"] = "https://en.wiktionary.org/wiki/embarrassingly#A
 
 incorrect2correct["embarrasingly"] = "embarrassingly";
 incorrect2correct["embarresleing"] = "embarrassingly";
+incorrect2correct["embarsingly"] = "embarrassingly";
 incorrect2correct["embarrasingly parallel"] = "embarrassingly parallel";
 incorrect2correct["embarrassingly parallel"] = "embarrassingly parallel";
 correct2URL["embarrassingly parallel"] = "https://en.wikipedia.org/wiki/Embarrassingly_parallel";
@@ -50498,7 +50832,7 @@ incorrect2correct["EmberJs"] = "Ember.js";
 incorrect2correct["EmberJS"] = "Ember.js";
 incorrect2correct["EmbOS"] = "embOS";
 incorrect2correct["embOS"] = "embOS";
-correct2URL["embOS"] = "https://en.wikipedia.org/wiki/Segger_Microcontroller_Systems#History";
+correct2URL["embOS"] = "https://en.wikipedia.org/wiki/Segger#History";
 
 
 incorrect2correct["emjance"] = "embrace";
@@ -50910,17 +51244,17 @@ incorrect2correct["encoded"] = "encoded";
 correct2URL["encoded"] = "https://en.wiktionary.org/wiki/encode#Verb";
 
 
-incorrect2correct["ecoder_"] = "encoder_";
-incorrect2correct["encoder_"] = "encoder_";
-correct2URL["encoder_"] = "https://en.wiktionary.org/wiki/encoder#Noun";
+incorrect2correct["ecoder"] = "encoder";
+incorrect2correct["encoder"] = "encoder";
+correct2URL["encoder"] = "https://en.wiktionary.org/wiki/encoder#Noun";
 
 
-incorrect2correct["enconder_"] = "encoder_";
-incorrect2correct["encorer_"] = "encoder_";
-incorrect2correct["enmcoder_"] = "encoder_";
-incorrect2correct["encorers_"] = "encoders_";
-incorrect2correct["encoders_"] = "encoders_";
-correct2URL["encoders_"] = "https://en.wiktionary.org/wiki/encoder#Noun";
+incorrect2correct["enconder"] = "encoder";
+incorrect2correct["encorer"] = "encoder";
+incorrect2correct["enmcoder"] = "encoder";
+incorrect2correct["encorers"] = "encoders";
+incorrect2correct["encoders"] = "encoders";
+correct2URL["encoders"] = "https://en.wiktionary.org/wiki/encoder#Noun";
 
 
 incorrect2correct["encodeing"] = "encoding";
@@ -50973,6 +51307,11 @@ correct2URL["encouraged"] = "https://en.wiktionary.org/wiki/encourage#Verb";
 
 
 incorrect2correct["encourax"] = "encouraged";
+incorrect2correct["incourages"] = "encourages";
+incorrect2correct["encourages"] = "encourages";
+correct2URL["encourages"] = "https://en.wiktionary.org/wiki/encourage#Verb";
+
+
 incorrect2correct["encoraging"] = "encouraging";
 incorrect2correct["encouraging"] = "encouraging";
 correct2URL["encouraging"] = "https://en.wiktionary.org/wiki/encourage#Verb";
@@ -51447,6 +51786,8 @@ incorrect2correct["enquiring"] = "enquiring";
 correct2URL["enquiring"] = "https://en.wiktionary.org/wiki/enquire#Verb";
 
 
+incorrect2correct["inquiring"] = "enquiring";
+incorrect2correct["Inquiring"] = "enquiring";
 incorrect2correct["Enrollment"] = "enrollment";
 incorrect2correct["enrollment"] = "enrollment";
 correct2URL["enrollment"] = "https://en.wiktionary.org/wiki/enrollment#Noun";
@@ -52138,6 +52479,7 @@ incorrect2correct["ergo mechanical keyboard"] = "ergonomic mechanical keyboard";
 incorrect2correct["ergo mechkeyboard"] = "ergonomic mechanical keyboard";
 incorrect2correct["ergokb"] = "ergonomic mechanical keyboard";
 incorrect2correct["ergoKB"] = "ergonomic mechanical keyboard";
+incorrect2correct["ergokeeb"] = "ergonomic mechanical keyboard";
 incorrect2correct["ergokeyboard"] = "ergonomic mechanical keyboard";
 incorrect2correct["ergomec keyboard"] = "ergonomic mechanical keyboard";
 incorrect2correct["ergomech"] = "ergonomic mechanical keyboard";
@@ -52157,6 +52499,7 @@ incorrect2correct["Ergonomic Mechanical keyboard"] = "ergonomic mechanical keybo
 incorrect2correct["Ergonomic Mechanical Keyboard"] = "ergonomic mechanical keyboard";
 incorrect2correct["mechergo"] = "ergonomic mechanical keyboard";
 incorrect2correct["non-split"] = "ergonomic mechanical keyboard";
+incorrect2correct["regokeeb"] = "ergonomic mechanical keyboard";
 incorrect2correct["emks"] = "ergonomic mechanical keyboards";
 incorrect2correct["ergonomic mechanical keyboards"] = "ergonomic mechanical keyboards";
 correct2URL["ergonomic mechanical keyboards"] = "https://www.reddit.com/r/ErgoMechKeyboards/new/";
@@ -52189,6 +52532,7 @@ incorrect2correct["erganomoc_"] = "ergonomic_";
 incorrect2correct["ergo_"] = "ergonomic_";
 incorrect2correct["Ergonomic_"] = "ergonomic_";
 incorrect2correct["ergonomical_"] = "ergonomic_";
+incorrect2correct["ergoomic_"] = "ergonomic_";
 incorrect2correct["erogonomic_"] = "ergonomic_";
 incorrect2correct["Erogonomic_"] = "ergonomic_";
 incorrect2correct["erganimics"] = "ergonomics";
@@ -52260,6 +52604,7 @@ incorrect2correct["erronois"] = "erroneous";
 incorrect2correct["Erronois"] = "erroneous";
 incorrect2correct["erroreous"] = "erroneous";
 incorrect2correct["errorneous"] = "erroneous";
+incorrect2correct["errornious"] = "erroneous";
 incorrect2correct["erroronious"] = "erroneous";
 incorrect2correct["erraneously"] = "erroneously";
 incorrect2correct["erroneously"] = "erroneously";
@@ -53161,6 +53506,11 @@ incorrect2correct["Eventlet"] = "Eventlet";
 correct2URL["Eventlet"] = "https://eventlet.readthedocs.io/en/latest/";
 
 
+incorrect2correct["eventuallity"] = "eventuality";
+incorrect2correct["eventuality"] = "eventuality";
+correct2URL["eventuality"] = "https://en.wiktionary.org/wiki/eventuality#Noun";
+
+
 incorrect2correct["edvantuly"] = "eventually";
 incorrect2correct["eventually"] = "eventually";
 correct2URL["eventually"] = "https://en.wiktionary.org/wiki/eventually#Adverb";
@@ -53304,6 +53654,7 @@ incorrect2correct["everyone's"] = "everyone's";
 correct2URL["everyone's"] = "https://www.tprteaching.com/everyones/";
 
 
+incorrect2correct["Everyone's"] = "everyone's";
 incorrect2correct["everyones"] = "everyone's";
 incorrect2correct["averything"] = "everything";
 incorrect2correct["everything"] = "everything";
@@ -53983,6 +54334,11 @@ incorrect2correct["existential protest"] = "existential protest";
 correct2URL["existential protest"] = "https://www.youtube.com/watch?v=jHG2tHJWVK8&t=12m0s";
 
 
+incorrect2correct["exsitential_"] = "existential_";
+incorrect2correct["existential_"] = "existential_";
+correct2URL["existential_"] = "https://en.wiktionary.org/wiki/existential#Adjective";
+
+
 incorrect2correct["exising"] = "existing";
 incorrect2correct["existing"] = "existing";
 correct2URL["existing"] = "https://en.wiktionary.org/wiki/existing#Adjective";
@@ -54277,11 +54633,12 @@ correct2URL["expiry"] = "https://en.wiktionary.org/wiki/expiry#Noun";
 
 
 incorrect2correct["expiery"] = "expiry";
-incorrect2correct["ELI5"] = "explain like I'm five";
+incorrect2correct["ELI-5"] = "explain like I'm five";
 incorrect2correct["explain like I'm five"] = "explain like I'm five";
 correct2URL["explain like I'm five"] = "https://en.wiktionary.org/wiki/ELI5#Phrase";
 
 
+incorrect2correct["ELI5"] = "explain like I'm five";
 incorrect2correct["ELIF"] = "explain like I'm five";
 incorrect2correct["explain to me like I am 10 years old"] = "explain like I'm five";
 incorrect2correct["like I am 10 years old"] = "explain like I'm five";
@@ -54488,6 +54845,7 @@ incorrect2correct["expres.js"] = "Express.js";
 incorrect2correct["express"] = "Express.js";
 incorrect2correct["Express"] = "Express.js";
 incorrect2correct["express js"] = "Express.js";
+incorrect2correct["Express Js"] = "Express.js";
 incorrect2correct["Express JS"] = "Express.js";
 incorrect2correct["express.js"] = "Express.js";
 incorrect2correct["Express.JS"] = "Express.js";
@@ -54649,6 +55007,11 @@ correct2URL["extinct"] = "https://en.wiktionary.org/wiki/extinct#Verb";
 incorrect2correct["exstinctien"] = "extinction";
 incorrect2correct["extinction"] = "extinction";
 correct2URL["extinction"] = "https://en.wiktionary.org/wiki/extinction#Noun";
+
+
+incorrect2correct["extingushing"] = "extinguishing";
+incorrect2correct["extinguishing"] = "extinguishing";
+correct2URL["extinguishing"] = "https://en.wiktionary.org/wiki/extinguish#Verb";
 
 
 incorrect2correct["extorsion"] = "extortion";
@@ -54889,11 +55252,13 @@ incorrect2correct["f-string"] = "f-string";
 correct2URL["f-string"] = "https://en.wikipedia.org/wiki/Python_(programming_language)#Expressions";
 
 
+incorrect2correct["f String"] = "f-string";
 incorrect2correct["F string"] = "f-string";
 incorrect2correct["F String"] = "f-string";
 incorrect2correct["f-String"] = "f-string";
 incorrect2correct["F-string"] = "f-string";
 incorrect2correct["f-strings"] = "f-string";
+incorrect2correct["F-strings"] = "f-string";
 incorrect2correct["f' string"] = "f-string";
 incorrect2correct["formatted string literals"] = "f-string";
 incorrect2correct["fstrings"] = "f-string";
@@ -54916,6 +55281,8 @@ incorrect2correct["F12 keycode (KC_F12. QMK. 69 (decimal). 45 (hexadecimal))_"] 
 correct2URL["F12 keycode (KC_F12. QMK. 69 (decimal). 45 (hexadecimal))_"] = "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md";
 
 
+incorrect2correct["f12_"] = "F12 keycode (KC_F12. QMK. 69 (decimal). 45 (hexadecimal))_";
+incorrect2correct["F12_"] = "F12 keycode (KC_F12. QMK. 69 (decimal). 45 (hexadecimal))_";
 incorrect2correct["KC_F12_"] = "F12 keycode (KC_F12. QMK. 69 (decimal). 45 (hexadecimal))_";
 incorrect2correct["0x6F_"] = "F20 keycode (KC_F20. QMK. 111 (decimal). 6F (hexadecimal))_";
 incorrect2correct["F20 keycode (KC_F20. QMK. 111 (decimal). 6F (hexadecimal))_"] = "F20 keycode (KC_F20. QMK. 111 (decimal). 6F (hexadecimal))_";
@@ -55613,11 +55980,26 @@ incorrect2correct["FarmVille"] = "FarmVille";
 correct2URL["FarmVille"] = "https://en.wikipedia.org/wiki/FarmVille";
 
 
-incorrect2correct["Faroe islands"] = "Faroe Islands";
+incorrect2correct["Faroe"] = "Faroe Islands";
 incorrect2correct["Faroe Islands"] = "Faroe Islands";
 correct2URL["Faroe Islands"] = "https://en.wikipedia.org/wiki/Faroe_Islands";
 
 
+incorrect2correct["Faroe islands"] = "Faroe Islands";
+incorrect2correct["feroe"] = "Faroe Islands";
+incorrect2correct["Feroe"] = "Faroe Islands";
+incorrect2correct["Faroese_"] = "Faroese keyboard layout_";
+incorrect2correct["Faroese keyboard layout_"] = "Faroese keyboard layout_";
+correct2URL["Faroese keyboard layout_"] = "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Faroese";
+
+
+incorrect2correct["Faroe Islands__"] = "Faroese__";
+incorrect2correct["Faroese__"] = "Faroese__";
+correct2URL["Faroese__"] = "https://en.wiktionary.org/wiki/Faroese#Adjective";
+
+
+incorrect2correct["Faroeic__"] = "Faroese__";
+incorrect2correct["Ferøic__"] = "Faroese__";
 incorrect2correct["farsi"] = "Farsi";
 incorrect2correct["Farsi"] = "Farsi";
 correct2URL["Farsi"] = "https://en.wiktionary.org/wiki/Farsi#Noun";
@@ -56200,6 +56582,12 @@ incorrect2correct["feminine"] = "feminine";
 correct2URL["feminine"] = "https://en.wiktionary.org/wiki/feminine#Adjective";
 
 
+incorrect2correct["fe**anyl"] = "fentanyl";
+incorrect2correct["fentanyl"] = "fentanyl";
+correct2URL["fentanyl"] = "https://en.wikipedia.org/wiki/Fentanyl";
+
+
+incorrect2correct["fen**nyl"] = "fentanyl";
 incorrect2correct["fermi energy"] = "Fermi energy";
 incorrect2correct["Fermi energy"] = "Fermi energy";
 correct2URL["Fermi energy"] = "https://en.wikipedia.org/wiki/Fermi_energy";
@@ -56234,11 +56622,12 @@ incorrect2correct["Ferris"] = "Ferris";
 correct2URL["Ferris"] = "https://github.com/pierrechevalier83/ferris";
 
 
-incorrect2correct["bueller"] = "Ferris Bueller's Day Off";
+incorrect2correct["Bueler"] = "Ferris Bueller's Day Off";
 incorrect2correct["Ferris Bueller's Day Off"] = "Ferris Bueller's Day Off";
 correct2URL["Ferris Bueller's Day Off"] = "https://en.wikipedia.org/wiki/Ferris_Bueller%27s_Day_Off";
 
 
+incorrect2correct["bueller"] = "Ferris Bueller's Day Off";
 incorrect2correct["feriss sweep"] = "Ferris Sweep";
 incorrect2correct["Ferris Sweep"] = "Ferris Sweep";
 correct2URL["Ferris Sweep"] = "https://github.com/davidphilipbarr/Sweep/tree/main/Sweep%20v2.2";
@@ -56644,6 +57033,13 @@ incorrect2correct["file permissions"] = "file permissions";
 correct2URL["file permissions"] = "https://en.wikipedia.org/wiki/File-system_permissions";
 
 
+incorrect2correct["archive manager"] = "File Roller";
+incorrect2correct["File Roller"] = "File Roller";
+correct2URL["File Roller"] = "https://en.wikipedia.org/wiki/File_Roller";
+
+
+incorrect2correct["Archive Manager"] = "File Roller";
+incorrect2correct["GNOME Archive Manager"] = "File Roller";
 incorrect2correct["file-size"] = "file size";
 incorrect2correct["file size"] = "file size";
 correct2URL["file size"] = "https://en.wiktionary.org/wiki/file_size#Noun";
@@ -56665,6 +57061,7 @@ incorrect2correct["File system"] = "file system";
 incorrect2correct["File System"] = "file system";
 incorrect2correct["file sytem"] = "file system";
 incorrect2correct["file-system"] = "file system";
+incorrect2correct["File-system"] = "file system";
 incorrect2correct["files system"] = "file system";
 incorrect2correct["filesysem"] = "file system";
 incorrect2correct["filesystem"] = "file system";
@@ -57255,13 +57652,16 @@ incorrect2correct["Mozilla"] = "Firefox";
 incorrect2correct["mozilla firefox"] = "Firefox";
 incorrect2correct["Mozilla Firefox"] = "Firefox";
 incorrect2correct["Mozzilla"] = "Firefox";
-incorrect2correct["firefox esr"] = "Firefox ESR";
-incorrect2correct["Firefox ESR"] = "Firefox ESR";
-correct2URL["Firefox ESR"] = "https://en.wikipedia.org/wiki/Firefox#Channels_and_release_schedule";
+incorrect2correct["esr__"] = "Firefox ESR__";
+incorrect2correct["Firefox ESR__"] = "Firefox ESR__";
+correct2URL["Firefox ESR__"] = "https://en.wikipedia.org/wiki/Firefox#Channels_and_release_schedule";
 
 
-incorrect2correct["Firefox esr"] = "Firefox ESR";
-incorrect2correct["Firefox-ESR"] = "Firefox ESR";
+incorrect2correct["ESR__"] = "Firefox ESR__";
+incorrect2correct["extended support release__"] = "Firefox ESR__";
+incorrect2correct["firefox esr__"] = "Firefox ESR__";
+incorrect2correct["Firefox esr__"] = "Firefox ESR__";
+incorrect2correct["Firefox-ESR__"] = "Firefox ESR__";
 incorrect2correct["firefox quantum"] = "Firefox Quantum";
 incorrect2correct["Firefox Quantum"] = "Firefox Quantum";
 correct2URL["Firefox Quantum"] = "https://en.wikipedia.org/wiki/Firefox#Firefox_Quantum";
@@ -57340,6 +57740,7 @@ incorrect2correct["firmeware"] = "firmware";
 incorrect2correct["firmnware"] = "firmware";
 incorrect2correct["firmwar"] = "firmware";
 incorrect2correct["firmward"] = "firmware";
+incorrect2correct["fIrmware"] = "firmware";
 incorrect2correct["Firmware"] = "firmware";
 incorrect2correct["Firmwares"] = "firmware";
 incorrect2correct["firmwarm"] = "firmware";
@@ -57350,11 +57751,13 @@ incorrect2correct["Firmwear"] = "firmware";
 incorrect2correct["firmweare"] = "firmware";
 incorrect2correct["firmwfare"] = "firmware";
 incorrect2correct["firmwre"] = "firmware";
+incorrect2correct["firmwware"] = "firmware";
 incorrect2correct["firnware"] = "firmware";
 incorrect2correct["firware"] = "firmware";
 incorrect2correct["formware"] = "firmware";
 incorrect2correct["frimaware"] = "firmware";
 incorrect2correct["frimware"] = "firmware";
+incorrect2correct["Frimware"] = "firmware";
 incorrect2correct["fw"] = "firmware";
 incorrect2correct["FW"] = "firmware";
 incorrect2correct["ROM"] = "firmware";
@@ -57859,8 +58262,8 @@ correct2URL["flashing Keychron K QMK keyboards_______"] = "https://github.com/Ke
 incorrect2correct["flashing_______"] = "flashing Keychron K QMK keyboards_______";
 incorrect2correct["K&nbsp;QMK&nbsp;series_______"] = "flashing Keychron K QMK keyboards_______";
 incorrect2correct["K10 V2_______"] = "flashing Keychron K QMK keyboards_______";
+incorrect2correct["Keychron K10 (100%)_______"] = "flashing Keychron K QMK keyboards_______";
 incorrect2correct["Keychron K10_______"] = "flashing Keychron K QMK keyboards_______";
-incorrect2correct["Keychron&nbsp;K10 (100%)_______"] = "flashing Keychron K QMK keyboards_______";
 incorrect2correct["WB32 DFU updater_______"] = "flashing Keychron K QMK keyboards_______";
 incorrect2correct["wb32_______"] = "flashing Keychron K QMK keyboards_______";
 incorrect2correct["WB32_______"] = "flashing Keychron K QMK keyboards_______";
@@ -58261,18 +58664,19 @@ correct2URL["Fluke"] = "https://en.wikipedia.org/wiki/Fluke_Corporation";
 
 
 incorrect2correct["FLuke"] = "Fluke";
-incorrect2correct["fluor_"] = "Fluor_";
-incorrect2correct["Fluor_"] = "Fluor_";
-correct2URL["Fluor_"] = "https://github.com/Pyroh/Fluor";
+incorrect2correct["fluor"] = "Fluor";
+incorrect2correct["Fluor"] = "Fluor";
+correct2URL["Fluor"] = "https://github.com/Pyroh/Fluor";
 
 
-incorrect2correct["fluor"] = "fluorine";
-incorrect2correct["fluorine"] = "fluorine";
-correct2URL["fluorine"] = "https://en.wikipedia.org/wiki/Fluorine";
+incorrect2correct["F_"] = "fluorine_";
+incorrect2correct["fluorine_"] = "fluorine_";
+correct2URL["fluorine_"] = "https://en.wikipedia.org/wiki/Fluorine";
 
 
-incorrect2correct["Fluor"] = "fluorine";
-incorrect2correct["Fluorine"] = "fluorine";
+incorrect2correct["fluor_"] = "fluorine_";
+incorrect2correct["Fluor_"] = "fluorine_";
+incorrect2correct["Fluorine_"] = "fluorine_";
 incorrect2correct["Fludder"] = "Flutter";
 incorrect2correct["Flutter"] = "Flutter";
 correct2URL["Flutter"] = "https://en.wikipedia.org/wiki/Flutter_(software)";
@@ -58809,12 +59213,12 @@ incorrect2correct["for loops"] = "for loops";
 correct2URL["for loops"] = "https://en.wiktionary.org/wiki/for_loop#Noun";
 
 
-incorrect2correct["fr_"] = "for real_";
-incorrect2correct["for real_"] = "for real_";
-correct2URL["for real_"] = "https://en.wiktionary.org/wiki/for_real#Adverb";
+incorrect2correct["fr__"] = "for real__";
+incorrect2correct["for real__"] = "for real__";
+correct2URL["for real__"] = "https://en.wiktionary.org/wiki/for_real#Adverb";
 
 
-incorrect2correct["Fr_"] = "for real_";
+incorrect2correct["Fr__"] = "for real__";
 incorrect2correct["life of me"] = "for the life of me";
 incorrect2correct["for the life of me"] = "for the life of me";
 correct2URL["for the life of me"] = "https://en.wiktionary.org/wiki/for_the_life_of_one#Prepositional_phrase";
@@ -58832,6 +59236,13 @@ incorrect2correct["for the record"] = "for the record";
 correct2URL["for the record"] = "https://en.wiktionary.org/wiki/for_the_record#Prepositional_phrase";
 
 
+incorrect2correct["For the rest of us"] = "for the rest of us";
+incorrect2correct["for the rest of us"] = "for the rest of us";
+correct2URL["for the rest of us"] = "https://www.youtube.com/watch?v=u8mBGpAOFNk&t=23s";
+
+
+incorrect2correct["rest of us"] = "for the rest of us";
+incorrect2correct["the rest of us"] = "for the rest of us";
 incorrect2correct["for sake of"] = "for the sake of";
 incorrect2correct["for the sake of"] = "for the sake of";
 correct2URL["for the sake of"] = "https://en.wiktionary.org/wiki/for_the_sake_of#Prepositional_phrase";
@@ -59038,6 +59449,11 @@ correct2URL["foremost"] = "https://en.wiktionary.org/wiki/foremost#Adverb";
 incorrect2correct["forensic"] = "forensics";
 incorrect2correct["forensics"] = "forensics";
 correct2URL["forensics"] = "https://en.wiktionary.org/wiki/forensics#Noun";
+
+
+incorrect2correct["forsee"] = "foresee";
+incorrect2correct["foresee"] = "foresee";
+correct2URL["foresee"] = "https://en.wiktionary.org/wiki/foresee#Verb";
 
 
 incorrect2correct["fore-see-able"] = "foreseeable";
@@ -59678,11 +60094,12 @@ incorrect2correct["France"] = "France";
 correct2URL["France"] = "https://en.wikipedia.org/wiki/France";
 
 
-incorrect2correct["Francium"] = "francium";
+incorrect2correct["Fr"] = "francium";
 incorrect2correct["francium"] = "francium";
 correct2URL["francium"] = "https://en.wikipedia.org/wiki/Francium";
 
 
+incorrect2correct["Francium"] = "francium";
 incorrect2correct["Frainglaich"] = "Franglais";
 incorrect2correct["Franglais"] = "Franglais";
 correct2URL["Franglais"] = "https://en.wiktionary.org/wiki/Franglais#Proper_noun";
@@ -60078,18 +60495,18 @@ incorrect2correct["Freudian slip"] = "Freudian slip";
 correct2URL["Freudian slip"] = "https://en.wikipedia.org/wiki/Freudian_slip";
 
 
-incorrect2correct["Fr"] = "Friday";
-incorrect2correct["Friday"] = "Friday";
-correct2URL["Friday"] = "https://en.wiktionary.org/wiki/Friday#Noun";
-
-
-incorrect2correct["Fri"] = "Friday";
-incorrect2correct["friday"] = "Friday";
 incorrect2correct["FNF"] = "Friday Night Funkin'";
 incorrect2correct["Friday Night Funkin'"] = "Friday Night Funkin'";
 correct2URL["Friday Night Funkin'"] = "https://en.wikipedia.org/wiki/Friday_Night_Funkin'";
 
 
+incorrect2correct["Fr_"] = "Friday_";
+incorrect2correct["Friday_"] = "Friday_";
+correct2URL["Friday_"] = "https://en.wiktionary.org/wiki/Friday#Noun";
+
+
+incorrect2correct["Fri_"] = "Friday_";
+incorrect2correct["friday_"] = "Friday_";
 incorrect2correct["fired"] = "fried";
 incorrect2correct["fried"] = "fried";
 correct2URL["fried"] = "https://en.wiktionary.org/wiki/fry#Verb";
@@ -60187,6 +60604,11 @@ incorrect2correct["frorm"] = "from";
 incorrect2correct["frron"] = "from";
 incorrect2correct["grom"] = "from";
 incorrect2correct["tom"] = "from";
+incorrect2correct["from one day to another"] = "from one day to the next";
+incorrect2correct["from one day to the next"] = "from one day to the next";
+correct2URL["from one day to the next"] = "https://en.wiktionary.org/wiki/from_one_day_to_the_next#Prepositional_phrase";
+
+
 incorrect2correct["from scatch"] = "from scratch";
 incorrect2correct["from scratch"] = "from scratch";
 correct2URL["from scratch"] = "https://en.wiktionary.org/wiki/from_scratch#Prepositional_phrase";
@@ -60403,6 +60825,8 @@ incorrect2correct["f___"] = "fuck___";
 incorrect2correct["F___"] = "fuck___";
 incorrect2correct["f@!___"] = "fuck___";
 incorrect2correct["f@!?___"] = "fuck___";
+incorrect2correct["f@k___"] = "fuck___";
+incorrect2correct["F@K___"] = "fuck___";
 incorrect2correct["f***___"] = "fuck___";
 incorrect2correct["F***___"] = "fuck___";
 incorrect2correct["f**k___"] = "fuck___";
@@ -60473,7 +60897,10 @@ incorrect2correct["f****g__"] = "fucking__";
 incorrect2correct["F****g__"] = "fucking__";
 incorrect2correct["f***ing__"] = "fucking__";
 incorrect2correct["F***ING__"] = "fucking__";
+incorrect2correct["f**king__"] = "fucking__";
+incorrect2correct["F**KING__"] = "fucking__";
 incorrect2correct["f*cking__"] = "fucking__";
+incorrect2correct["F*cking__"] = "fucking__";
 incorrect2correct["f*ing__"] = "fucking__";
 incorrect2correct["F*ing__"] = "fucking__";
 incorrect2correct["f*king__"] = "fucking__";
@@ -60503,6 +60930,7 @@ incorrect2correct["fu**ing__"] = "fucking__";
 incorrect2correct["fu*ing__"] = "fucking__";
 incorrect2correct["fucken__"] = "fucking__";
 incorrect2correct["fuckin__"] = "fucking__";
+incorrect2correct["FUCKING__"] = "fucking__";
 incorrect2correct["fukin__"] = "fucking__";
 incorrect2correct["fuking__"] = "fucking__";
 incorrect2correct["hecking__"] = "fucking__";
@@ -60524,6 +60952,8 @@ correct2URL["fuckup"] = "https://en.wiktionary.org/wiki/fuckup#Noun";
 
 
 incorrect2correct["F-Up"] = "fuckup";
+incorrect2correct["f**k up"] = "fuckup";
+incorrect2correct["F**K UP"] = "fuckup";
 incorrect2correct["fuck up"] = "fuckup";
 incorrect2correct["fud"] = "FUD";
 incorrect2correct["FUD"] = "FUD";
@@ -60812,43 +61242,40 @@ incorrect2correct["function calls"] = "function calls";
 correct2URL["function calls"] = "https://en.wikipedia.org/wiki/Function_(computer_programming)#Call_stack";
 
 
-incorrect2correct["F key"] = "function key";
-incorrect2correct["function key"] = "function key";
-correct2URL["function key"] = "https://en.wikipedia.org/wiki/IBM_PC_keyboard#Invented_for_computers_with_video_displays";
+incorrect2correct["F key__"] = "function key__";
+incorrect2correct["function key__"] = "function key__";
+correct2URL["function key__"] = "https://en.wikipedia.org/wiki/IBM_PC_keyboard#Invented_for_computers_with_video_displays";
 
 
-incorrect2correct["F Key"] = "function key";
-incorrect2correct["Function key"] = "function key";
-incorrect2correct["function keys"] = "function key";
-incorrect2correct["Function keys"] = "function key";
-incorrect2correct["functional key"] = "function key";
-incorrect2correct["F key row__"] = "function keys row (F1 - F12)__";
-incorrect2correct["function keys row (F1 - F12)__"] = "function keys row (F1 - F12)__";
-correct2URL["function keys row (F1 - F12)__"] = "https://en.wikipedia.org/wiki/Fn_key";
+incorrect2correct["F Key__"] = "function key__";
+incorrect2correct["F-key__"] = "function key__";
+incorrect2correct["fun__"] = "function key__";
+incorrect2correct["Fun__"] = "function key__";
+incorrect2correct["Function key__"] = "function key__";
+incorrect2correct["functional key__"] = "function key__";
+incorrect2correct["F key row___"] = "function keys row (F1 - F12)___";
+incorrect2correct["function keys row (F1 - F12)___"] = "function keys row (F1 - F12)___";
+correct2URL["function keys row (F1 - F12)___"] = "https://en.wikipedia.org/wiki/Fn_key";
 
 
-incorrect2correct["F Key Row__"] = "function keys row (F1 - F12)__";
-incorrect2correct["F row__"] = "function keys row (F1 - F12)__";
-incorrect2correct["F Row__"] = "function keys row (F1 - F12)__";
-incorrect2correct["Frow__"] = "function keys row (F1 - F12)__";
-incorrect2correct["FRow__"] = "function keys row (F1 - F12)__";
-incorrect2correct["function key row__"] = "function keys row (F1 - F12)__";
-incorrect2correct["function key__"] = "function keys row (F1 - F12)__";
-incorrect2correct["function keys row__"] = "function keys row (F1 - F12)__";
-incorrect2correct["function keys__"] = "function keys row (F1 - F12)__";
-incorrect2correct["F key_"] = "function keys_";
+incorrect2correct["F Key Row___"] = "function keys row (F1 - F12)___";
+incorrect2correct["F row___"] = "function keys row (F1 - F12)___";
+incorrect2correct["F Row___"] = "function keys row (F1 - F12)___";
+incorrect2correct["Frow___"] = "function keys row (F1 - F12)___";
+incorrect2correct["FRow___"] = "function keys row (F1 - F12)___";
+incorrect2correct["function key row___"] = "function keys row (F1 - F12)___";
+incorrect2correct["function key___"] = "function keys row (F1 - F12)___";
+incorrect2correct["function keys row___"] = "function keys row (F1 - F12)___";
+incorrect2correct["function keys___"] = "function keys row (F1 - F12)___";
+incorrect2correct["f keys_"] = "function keys_";
 incorrect2correct["function keys_"] = "function keys_";
 correct2URL["function keys_"] = "https://en.wikipedia.org/wiki/Function_key";
 
 
-incorrect2correct["f keys_"] = "function keys_";
 incorrect2correct["F keys_"] = "function keys_";
-incorrect2correct["F-key_"] = "function keys_";
 incorrect2correct["F-keys_"] = "function keys_";
 incorrect2correct["F-Keys_"] = "function keys_";
 incorrect2correct["Fkeys_"] = "function keys_";
-incorrect2correct["fun_"] = "function keys_";
-incorrect2correct["Fun_"] = "function keys_";
 incorrect2correct["Function keys_"] = "function keys_";
 incorrect2correct["function-names"] = "function names";
 incorrect2correct["function names"] = "function names";
@@ -61302,22 +61729,23 @@ correct2URL["gallery"] = "https://en.wiktionary.org/wiki/gallery#Noun";
 incorrect2correct["galery"] = "gallery";
 incorrect2correct["galleru"] = "gallery";
 incorrect2correct["galory"] = "gallery";
-incorrect2correct["Gallium"] = "gallium";
-incorrect2correct["gallium"] = "gallium";
-correct2URL["gallium"] = "https://en.wikipedia.org/wiki/Gallium";
+incorrect2correct["gallium"] = "Gallium keyboard layout";
+incorrect2correct["Gallium keyboard layout"] = "Gallium keyboard layout";
+correct2URL["Gallium keyboard layout"] = "https://www.keyboard-design.com/letterlayout.html?layout=gallium2.en.ansi";
 
 
-incorrect2correct["gallium_"] = "Gallium keyboard layout_";
-incorrect2correct["Gallium keyboard layout_"] = "Gallium keyboard layout_";
-correct2URL["Gallium keyboard layout_"] = "https://www.keyboard-design.com/letterlayout.html?layout=gallium2.en.ansi";
-
-
-incorrect2correct["Gallium_"] = "Gallium keyboard layout_";
+incorrect2correct["Gallium"] = "Gallium keyboard layout";
 incorrect2correct["GaN"] = "gallium nitride";
 incorrect2correct["gallium nitride"] = "gallium nitride";
 correct2URL["gallium nitride"] = "https://en.wikipedia.org/wiki/Gallium_nitride";
 
 
+incorrect2correct["Ga_"] = "gallium_";
+incorrect2correct["gallium_"] = "gallium_";
+correct2URL["gallium_"] = "https://en.wikipedia.org/wiki/Gallium";
+
+
+incorrect2correct["Gallium_"] = "gallium_";
 incorrect2correct["gallium os__"] = "GalliumOS__";
 incorrect2correct["GalliumOS__"] = "GalliumOS__";
 correct2URL["GalliumOS__"] = "https://en.wikipedia.org/wiki/GalliumOS";
@@ -61427,6 +61855,11 @@ correct2URL["games"] = "https://en.wiktionary.org/wiki/game#Noun";
 incorrect2correct["gamescope"] = "Gamescope";
 incorrect2correct["Gamescope"] = "Gamescope";
 correct2URL["Gamescope"] = "https://wiki.archlinux.org/title/Gamescope";
+
+
+incorrect2correct["gamshark"] = "GameShark";
+incorrect2correct["GameShark"] = "GameShark";
+correct2URL["GameShark"] = "https://en.wikipedia.org/wiki/GameShark";
 
 
 incorrect2correct["gamestop"] = "GameStop";
@@ -61697,6 +62130,7 @@ incorrect2correct["banana gateron"] = "Gateron Jupiter Banana switches";
 incorrect2correct["Banana Gateron"] = "Gateron Jupiter Banana switches";
 incorrect2correct["banana jupiter"] = "Gateron Jupiter Banana switches";
 incorrect2correct["Banana Jupiter"] = "Gateron Jupiter Banana switches";
+incorrect2correct["banananas"] = "Gateron Jupiter Banana switches";
 incorrect2correct["bananas"] = "Gateron Jupiter Banana switches";
 incorrect2correct["bananna"] = "Gateron Jupiter Banana switches";
 incorrect2correct["Bananna"] = "Gateron Jupiter Banana switches";
@@ -61934,6 +62368,16 @@ correct2URL["gazillions"] = "https://en.wiktionary.org/wiki/gazillion#Noun";
 
 incorrect2correct["gazillons"] = "gazillions";
 incorrect2correct["gazzilions"] = "gazillions";
+incorrect2correct["boba"] = "Gazzew Boba U4 switches";
+incorrect2correct["Gazzew Boba U4 switches"] = "Gazzew Boba U4 switches";
+correct2URL["Gazzew Boba U4 switches"] = "https://www.youtube.com/watch?v=ce9LsfoJl34&t=14m33s";
+
+
+incorrect2correct["Boba"] = "Gazzew Boba U4 switches";
+incorrect2correct["Boba U4"] = "Gazzew Boba U4 switches";
+incorrect2correct["Boba U4S"] = "Gazzew Boba U4 switches";
+incorrect2correct["Boba U4T"] = "Gazzew Boba U4 switches";
+incorrect2correct["Gazzew Boba U4T"] = "Gazzew Boba U4 switches";
 incorrect2correct["GB 2312"] = "GB&nbsp;2312";
 incorrect2correct["GB&nbsp;2312"] = "GB&nbsp;2312";
 correct2URL["GB&nbsp;2312"] = "https://en.wikipedia.org/wiki/GB_2312";
@@ -63256,11 +63700,12 @@ correct2URL["Ghostery"] = "https://en.wikipedia.org/wiki/Ghostery";
 
 
 incorrect2correct["Ghosty"] = "Ghostery";
-incorrect2correct["Ghosting"] = "ghosting";
+incorrect2correct["ghosthing"] = "ghosting";
 incorrect2correct["ghosting"] = "ghosting";
 correct2URL["ghosting"] = "https://en.wikipedia.org/wiki/Key_rollover#Key_jamming_and_ghosting";
 
 
+incorrect2correct["Ghosting"] = "ghosting";
 incorrect2correct["ghostscript"] = "Ghostscript";
 incorrect2correct["Ghostscript"] = "Ghostscript";
 correct2URL["Ghostscript"] = "https://en.wikipedia.org/wiki/Ghostscript";
@@ -63458,8 +63903,8 @@ correct2URL["Git branch \"2025q3\" in Keychron's fork_______"] = "https://github
 
 
 incorrect2correct["Git branch \"wls_2025q1\" in Keychron's fork_______"] = "Git branch \"2025q3\" in Keychron's fork_______";
+incorrect2correct["Keychron V6 Max_______"] = "Git branch \"2025q3\" in Keychron's fork_______";
 incorrect2correct["Keychron's main fork of QMK_______"] = "Git branch \"2025q3\" in Keychron's fork_______";
-incorrect2correct["Keychron&nbsp;V6&nbsp;Max_______"] = "Git branch \"2025q3\" in Keychron's fork_______";
 incorrect2correct["q3_______"] = "Git branch \"2025q3\" in Keychron's fork_______";
 incorrect2correct["Q3_______"] = "Git branch \"2025q3\" in Keychron's fork_______";
 incorrect2correct["wls_2025q1_______"] = "Git branch \"2025q3\" in Keychron's fork_______";
@@ -63479,6 +63924,18 @@ incorrect2correct["bluetooth_playground_____"] = "Git branch \"bluetooth_playgro
 incorrect2correct["Git branch \"2025q3\" in Keychron's fork_____"] = "Git branch \"bluetooth_playground\" in Keychron's fork_____";
 incorrect2correct["Git branch \"wireless_playground\" in Keychron's fork_____"] = "Git branch \"bluetooth_playground\" in Keychron's fork_____";
 incorrect2correct["wireless_playground_____"] = "Git branch \"bluetooth_playground\" in Keychron's fork_____";
+incorrect2correct["Git branch \"2025q3\" in Keychron's fork____"] = "Git branch \"hall_effect_playground\" in Keychron's fork____";
+incorrect2correct["Git branch \"hall_effect_playground\" in Keychron's fork____"] = "Git branch \"hall_effect_playground\" in Keychron's fork____";
+correct2URL["Git branch \"hall_effect_playground\" in Keychron's fork____"] = "https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron";
+
+
+incorrect2correct["Hall sensor____"] = "Git branch \"hall_effect_playground\" in Keychron's fork____";
+incorrect2correct["hall_effect_playground____"] = "Git branch \"hall_effect_playground\" in Keychron's fork____";
+incorrect2correct["hall_playground____"] = "Git branch \"hall_effect_playground\" in Keychron's fork____";
+incorrect2correct["Keychron K10 HE source code____"] = "Git branch \"hall_effect_playground\" in Keychron's fork____";
+incorrect2correct["Keychron K2 HE source code____"] = "Git branch \"hall_effect_playground\" in Keychron's fork____";
+incorrect2correct["Keychron Q3 HE source code____"] = "Git branch \"hall_effect_playground\" in Keychron's fork____";
+incorrect2correct["Keychron Q6 HE source code____"] = "Git branch \"hall_effect_playground\" in Keychron's fork____";
 incorrect2correct["Git branch \"wireless_playground\" in Keychron's fork____"] = "Git branch \"playground\" in Keychron's fork____";
 incorrect2correct["Git branch \"playground\" in Keychron's fork____"] = "Git branch \"playground\" in Keychron's fork____";
 correct2URL["Git branch \"playground\" in Keychron's fork____"] = "https://github.com/Keychron/qmk_firmware/tree/playground/keyboards/keychron/x3/iso/rgb";
@@ -63681,6 +64138,7 @@ incorrect2correct["Git Hub"] = "GitHub";
 incorrect2correct["GIT HUB"] = "GitHub";
 incorrect2correct["Git site"] = "GitHub";
 incorrect2correct["git-hub"] = "GitHub";
+incorrect2correct["Git-hub"] = "GitHub";
 incorrect2correct["Git/hub"] = "GitHub";
 incorrect2correct["githhub"] = "GitHub";
 incorrect2correct["Githhub"] = "GitHub";
@@ -64083,6 +64541,11 @@ incorrect2correct["globbing"] = "globbing";
 correct2URL["globbing"] = "https://en.wiktionary.org/wiki/glob#Verb";
 
 
+incorrect2correct["glock"] = "Glock";
+incorrect2correct["Glock"] = "Glock";
+correct2URL["Glock"] = "https://en.wikipedia.org/wiki/Glock";
+
+
 incorrect2correct["golrious"] = "glorious";
 incorrect2correct["glorious"] = "glorious";
 correct2URL["glorious"] = "https://en.wiktionary.org/wiki/glorious#Adjective";
@@ -64232,6 +64695,7 @@ correct2URL["GNOME"] = "https://en.wikipedia.org/wiki/GNOME";
 incorrect2correct["GNMOE"] = "GNOME";
 incorrect2correct["gnome"] = "GNOME";
 incorrect2correct["Gnome"] = "GNOME";
+incorrect2correct["GNONE"] = "GNOME";
 incorrect2correct["GNOME 4.0"] = "GNOME 40";
 incorrect2correct["GNOME 40"] = "GNOME 40";
 correct2URL["GNOME 40"] = "https://en.wikipedia.org/wiki/GNOME#GNOME_40";
@@ -64622,6 +65086,8 @@ incorrect2correct["goes"] = "goes";
 correct2URL["goes"] = "https://en.wiktionary.org/wiki/go#Verb";
 
 
+incorrect2correct["goeas"] = "goes";
+incorrect2correct["Goeas"] = "goes";
 incorrect2correct["goes'"] = "goes";
 incorrect2correct["goest"] = "goes";
 incorrect2correct["gose"] = "goes";
@@ -64676,11 +65142,12 @@ incorrect2correct["golang-nuts"] = "golang-nuts";
 correct2URL["golang-nuts"] = "https://groups.google.com/g/golang-nuts/about";
 
 
-incorrect2correct["Gold"] = "gold";
+incorrect2correct["Au"] = "gold";
 incorrect2correct["gold"] = "gold";
 correct2URL["gold"] = "https://en.wikipedia.org/wiki/Gold";
 
 
+incorrect2correct["Gold"] = "gold";
 incorrect2correct["gold-nugget"] = "gold nugget";
 incorrect2correct["gold nugget"] = "gold nugget";
 correct2URL["gold nugget"] = "https://en.wikipedia.org/wiki/Gold_nugget";
@@ -64811,6 +65278,11 @@ correct2URL["goodbye"] = "https://en.wiktionary.org/wiki/goodbye#Interjection";
 
 
 incorrect2correct["Goodby"] = "goodbye";
+incorrect2correct["Goodhart's Law"] = "Goodhart's law";
+incorrect2correct["Goodhart's law"] = "Goodhart's law";
+correct2URL["Goodhart's law"] = "https://en.wikipedia.org/wiki/Goodhart%27s_law#Generalization";
+
+
 incorrect2correct["Good reads"] = "Goodreads";
 incorrect2correct["Goodreads"] = "Goodreads";
 correct2URL["Goodreads"] = "https://en.wikipedia.org/wiki/Goodreads";
@@ -64944,6 +65416,7 @@ correct2URL["Google Chrome"] = "https://en.wikipedia.org/wiki/Google_Chrome";
 
 
 incorrect2correct["Ch"] = "Google Chrome";
+incorrect2correct["chome"] = "Google Chrome";
 incorrect2correct["Chome"] = "Google Chrome";
 incorrect2correct["chomr"] = "Google Chrome";
 incorrect2correct["chorm"] = "Google Chrome";
@@ -65607,6 +66080,12 @@ incorrect2correct["GPT-5"] = "GPT-5";
 correct2URL["GPT-5"] = "https://en.wikipedia.org/wiki/GPT-5";
 
 
+incorrect2correct["astra"] = "GPT-6 Astra";
+incorrect2correct["GPT-6 Astra"] = "GPT-6 Astra";
+correct2URL["GPT-6 Astra"] = "https://en.wikipedia.org/wiki/GPT-6";
+
+
+incorrect2correct["GPT 6.0 Astra"] = "GPT-6 Astra";
 incorrect2correct["gpu"] = "GPU";
 incorrect2correct["GPU"] = "GPU";
 correct2URL["GPU"] = "https://en.wikipedia.org/wiki/Graphics_processing_unit";
@@ -65787,6 +66266,13 @@ incorrect2correct["grandaunt"] = "grandaunt";
 correct2URL["grandaunt"] = "https://en.wiktionary.org/wiki/grandaunt#Noun";
 
 
+incorrect2correct["grand daughter"] = "granddaughter";
+incorrect2correct["granddaughter"] = "granddaughter";
+correct2URL["granddaughter"] = "https://en.wiktionary.org/wiki/granddaughter#Noun";
+
+
+incorrect2correct["Grand daughter"] = "granddaughter";
+incorrect2correct["grand-daughter"] = "granddaughter";
 incorrect2correct["Grande écoles"] = "grande écoles";
 incorrect2correct["grande écoles"] = "grande écoles";
 correct2URL["grande écoles"] = "https://en.wiktionary.org/wiki/grande_%C3%A9cole#Noun";
@@ -66229,6 +66715,11 @@ correct2URL["Greenland"] = "https://en.wikipedia.org/wiki/Greenland";
 
 incorrect2correct["greenland"] = "Greenland";
 incorrect2correct["GreenLand"] = "Greenland";
+incorrect2correct["greenlandic_"] = "Greenlandic_";
+incorrect2correct["Greenlandic_"] = "Greenlandic_";
+correct2URL["Greenlandic_"] = "https://en.wiktionary.org/wiki/Greenlandic#Adjective";
+
+
 incorrect2correct["Greenlet"] = "greenlet";
 incorrect2correct["greenlet"] = "greenlet";
 correct2URL["greenlet"] = "https://stackoverflow.com/questions/15556718/greenlet-vs-threads";
@@ -66355,11 +66846,6 @@ correct2URL["GROMACS"] = "https://en.wikipedia.org/wiki/GROMACS";
 
 
 incorrect2correct["Gromacs"] = "GROMACS";
-incorrect2correct["groovy"] = "Groovy";
-incorrect2correct["Groovy"] = "Groovy";
-correct2URL["Groovy"] = "https://en.wikipedia.org/wiki/Apache_Groovy";
-
-
 incorrect2correct["[tag:groovy]_"] = "Groovy (tag wiki)_";
 incorrect2correct["Groovy (tag wiki)_"] = "Groovy (tag wiki)_";
 correct2URL["Groovy (tag wiki)_"] = "https://stackoverflow.com/questions/tagged/groovy";
@@ -66368,6 +66854,11 @@ correct2URL["Groovy (tag wiki)_"] = "https://stackoverflow.com/questions/tagged/
 incorrect2correct["groovy_"] = "Groovy (tag wiki)_";
 incorrect2correct["Groovy_"] = "Groovy (tag wiki)_";
 incorrect2correct["tag:groovy_"] = "Groovy (tag wiki)_";
+incorrect2correct["groovy__"] = "Groovy__";
+incorrect2correct["Groovy__"] = "Groovy__";
+correct2URL["Groovy__"] = "https://en.wikipedia.org/wiki/Apache_Groovy";
+
+
 incorrect2correct["brut"] = "gross income";
 incorrect2correct["gross income"] = "gross income";
 correct2URL["gross income"] = "https://en.wikipedia.org/wiki/Gross_income";
@@ -66895,6 +67386,11 @@ incorrect2correct["Gyazo"] = "Gyazo";
 correct2URL["Gyazo"] = "https://en.wikipedia.org/wiki/Gyazo";
 
 
+incorrect2correct["gymnaisum"] = "gymnasium";
+incorrect2correct["gymnasium"] = "gymnasium";
+correct2URL["gymnasium"] = "https://en.wiktionary.org/wiki/gymnasium#Noun";
+
+
 incorrect2correct["girations"] = "gyrations";
 incorrect2correct["gyrations"] = "gyrations";
 correct2URL["gyrations"] = "https://en.wiktionary.org/wiki/gyration#Noun";
@@ -67210,25 +67706,6 @@ correct2URL["halfway"] = "https://en.wiktionary.org/wiki/halfway#Adverb";
 
 incorrect2correct["half-way"] = "halfway";
 incorrect2correct["halve way"] = "halfway";
-incorrect2correct["hal effect__"] = "Hall effect switch__";
-incorrect2correct["Hall effect switch__"] = "Hall effect switch__";
-correct2URL["Hall effect switch__"] = "https://www.tomshardware.com/news/how-hall-effect-switches-work,33105.html";
-
-
-incorrect2correct["hal-effect__"] = "Hall effect switch__";
-incorrect2correct["Hall effect switches__"] = "Hall effect switch__";
-incorrect2correct["hall effect__"] = "Hall effect switch__";
-incorrect2correct["Hall effect__"] = "Hall effect switch__";
-incorrect2correct["Hall sensor__"] = "Hall effect switch__";
-incorrect2correct["hall switch__"] = "Hall effect switch__";
-incorrect2correct["Hall switch__"] = "Hall effect switch__";
-incorrect2correct["Hall Switch__"] = "Hall effect switch__";
-incorrect2correct["hall-effect__"] = "Hall effect switch__";
-incorrect2correct["Hall-effect__"] = "Hall effect switch__";
-incorrect2correct["HE switch__"] = "Hall effect switch__";
-incorrect2correct["HE__"] = "Hall effect switch__";
-incorrect2correct["magnetic keyboard__"] = "Hall effect switch__";
-incorrect2correct["Magnetic Keyboard__"] = "Hall effect switch__";
 incorrect2correct["Hall effect switches with N-pole magnets facing downward_"] = "Hall effect switches with north-pole magnets facing downward_";
 incorrect2correct["Hall effect switches with north-pole magnets facing downward_"] = "Hall effect switches with north-pole magnets facing downward_";
 correct2URL["Hall effect switches with north-pole magnets facing downward_"] = "https://www.monsgeek.com/blog/magnetic-switch-compatibility-how-to-know-if-they-work-with-your-keyboard/";
@@ -67241,6 +67718,25 @@ incorrect2correct["North Switch_"] = "Hall effect switches with north-pole magne
 incorrect2correct["south pole_"] = "Hall effect switches with north-pole magnets facing downward_";
 incorrect2correct["south pole-down_"] = "Hall effect switches with north-pole magnets facing downward_";
 incorrect2correct["south-pole-down_"] = "Hall effect switches with north-pole magnets facing downward_";
+incorrect2correct["hal effect__"] = "Hall effect switches__";
+incorrect2correct["Hall effect switches__"] = "Hall effect switches__";
+correct2URL["Hall effect switches__"] = "https://www.tomshardware.com/news/how-hall-effect-switches-work,33105.html";
+
+
+incorrect2correct["hal-effect__"] = "Hall effect switches__";
+incorrect2correct["Hall effect switch__"] = "Hall effect switches__";
+incorrect2correct["hall effect__"] = "Hall effect switches__";
+incorrect2correct["Hall effect__"] = "Hall effect switches__";
+incorrect2correct["Hall sensor__"] = "Hall effect switches__";
+incorrect2correct["hall switch__"] = "Hall effect switches__";
+incorrect2correct["Hall switch__"] = "Hall effect switches__";
+incorrect2correct["Hall Switch__"] = "Hall effect switches__";
+incorrect2correct["hall-effect__"] = "Hall effect switches__";
+incorrect2correct["Hall-effect__"] = "Hall effect switches__";
+incorrect2correct["HE switch__"] = "Hall effect switches__";
+incorrect2correct["HE__"] = "Hall effect switches__";
+incorrect2correct["magnetic keyboard__"] = "Hall effect switches__";
+incorrect2correct["Magnetic Keyboard__"] = "Hall effect switches__";
 incorrect2correct["hall efect switches___"] = "Hall effect switches___";
 incorrect2correct["Hall effect switches___"] = "Hall effect switches___";
 correct2URL["Hall effect switches___"] = "https://www.tomshardware.com/news/how-hall-effect-switches-work,33105.html";
@@ -67551,9 +68047,11 @@ incorrect2correct["Hands Down keyboard layout__"] = "Hands Down keyboard layout_
 correct2URL["Hands Down keyboard layout__"] = "https://sites.google.com/alanreiser.com/handsdown";
 
 
+incorrect2correct["Hands down__"] = "Hands Down keyboard layout__";
 incorrect2correct["Hands Down__"] = "Hands Down keyboard layout__";
 incorrect2correct["Hands On__"] = "Hands Down keyboard layout__";
 incorrect2correct["handsdown__"] = "Hands Down keyboard layout__";
+incorrect2correct["Handsdown__"] = "Hands Down keyboard layout__";
 incorrect2correct["HD__"] = "Hands Down keyboard layout__";
 incorrect2correct["hands down neu"] = "Hands Down Neu keyboard layout";
 incorrect2correct["Hands Down Neu keyboard layout"] = "Hands Down Neu keyboard layout";
@@ -67650,11 +68148,12 @@ incorrect2correct["haphazard"] = "haphazard";
 correct2URL["haphazard"] = "https://en.wiktionary.org/wiki/haphazard#Adjective";
 
 
-incorrect2correct["hapharsodly"] = "haphazardly";
+incorrect2correct["haphardsly"] = "haphazardly";
 incorrect2correct["haphazardly"] = "haphazardly";
 correct2URL["haphazardly"] = "https://en.wiktionary.org/wiki/haphazardly#Adverb";
 
 
+incorrect2correct["hapharsodly"] = "haphazardly";
 incorrect2correct["hanppen"] = "happen";
 incorrect2correct["happen"] = "happen";
 correct2URL["happen"] = "https://en.wiktionary.org/wiki/happen#Verb";
@@ -67790,6 +68289,7 @@ incorrect2correct["HD"] = "hard disk drive";
 incorrect2correct["hdd"] = "hard disk drive";
 incorrect2correct["HDD"] = "hard disk drive";
 incorrect2correct["rotating rust"] = "hard disk drive";
+incorrect2correct["spinning rust"] = "hard disk drive";
 incorrect2correct["Hard flashing_"] = "hard flashing_";
 incorrect2correct["hard flashing_"] = "hard flashing_";
 correct2URL["hard flashing_"] = "https://www.keychron.com/pages/how-to-flash-k8-pro-with-entire-chip-erase";
@@ -68460,6 +68960,7 @@ incorrect2correct["heads-up"] = "heads-up";
 correct2URL["heads-up"] = "https://en.wiktionary.org/wiki/heads-up#Noun";
 
 
+incorrect2correct["headsup"] = "heads-up";
 incorrect2correct["Headset_"] = "headset_";
 incorrect2correct["headset_"] = "headset_";
 correct2URL["headset_"] = "https://en.wiktionary.org/wiki/headset#Noun";
@@ -68767,22 +69268,23 @@ incorrect2correct["held in check"] = "held in check";
 correct2URL["held in check"] = "https://en.wiktionary.org/wiki/in_check#Usage_notes";
 
 
-incorrect2correct["'copter"] = "helicopter";
-incorrect2correct["helicopter"] = "helicopter";
-correct2URL["helicopter"] = "https://en.wiktionary.org/wiki/helo#Noun";
+incorrect2correct["'copter_"] = "helicopter_";
+incorrect2correct["helicopter_"] = "helicopter_";
+correct2URL["helicopter_"] = "https://en.wiktionary.org/wiki/helo#Noun";
 
 
-incorrect2correct["copter"] = "helicopter";
-incorrect2correct["heli"] = "helicopter";
-incorrect2correct["Heli"] = "helicopter";
-incorrect2correct["helo"] = "helicopter";
-incorrect2correct["Helo"] = "helicopter";
+incorrect2correct["copter_"] = "helicopter_";
+incorrect2correct["heli_"] = "helicopter_";
+incorrect2correct["Heli_"] = "helicopter_";
+incorrect2correct["helo_"] = "helicopter_";
+incorrect2correct["Helo_"] = "helicopter_";
 incorrect2correct["'copters"] = "helicopters";
 incorrect2correct["helicopters"] = "helicopters";
 correct2URL["helicopters"] = "https://en.wiktionary.org/wiki/helo#Noun";
 
 
 incorrect2correct["copters"] = "helicopters";
+incorrect2correct["helicopter"] = "helicopters";
 incorrect2correct["helis"] = "helicopters";
 incorrect2correct["Heliopause"] = "heliopause";
 incorrect2correct["heliopause"] = "heliopause";
@@ -68817,6 +69319,11 @@ correct2URL["Helix QAC"] = "https://en.wikipedia.org/wiki/Helix_QAC";
 
 
 incorrect2correct["QA·C"] = "Helix QAC";
+incorrect2correct["helix_"] = "Helix_";
+incorrect2correct["Helix_"] = "Helix_";
+correct2URL["Helix_"] = "https://github.com/MakotoKurauchi/helix";
+
+
 incorrect2correct["H3ll"] = "hell";
 incorrect2correct["hell"] = "hell";
 correct2URL["hell"] = "https://en.wiktionary.org/wiki/hell#Proper_noun";
@@ -68861,6 +69368,7 @@ incorrect2correct["helli"] = "hello";
 incorrect2correct["Helli"] = "hello";
 incorrect2correct["hellow"] = "hello";
 incorrect2correct["Hellow"] = "hello";
+incorrect2correct["helo"] = "hello";
 incorrect2correct["heloo"] = "hello";
 incorrect2correct["hola"] = "hello";
 incorrect2correct["Hola"] = "hello";
@@ -69275,7 +69783,7 @@ correct2URL["HFP"] = "https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#H
 
 incorrect2correct["hfs"] = "HFS";
 incorrect2correct["HFS"] = "HFS";
-correct2URL["HFS"] = "https://en.wikipedia.org/wiki/Hierarchical_File_System";
+correct2URL["HFS"] = "https://en.wikipedia.org/wiki/Hierarchical_File_System_(Apple)";
 
 
 incorrect2correct["HFS+"] = "HFS Plus";
@@ -69852,11 +70360,12 @@ incorrect2correct["nakamura"] = "Hikaru Nakamura";
 incorrect2correct["Nakamura"] = "Hikaru Nakamura";
 incorrect2correct["Nakumoro"] = "Hikaru Nakamura";
 incorrect2correct["nakumura"] = "Hikaru Nakamura";
-incorrect2correct["hilarius"] = "hilarious";
+incorrect2correct["Hilarious"] = "hilarious";
 incorrect2correct["hilarious"] = "hilarious";
 correct2URL["hilarious"] = "https://en.wiktionary.org/wiki/hilarious#Adjective";
 
 
+incorrect2correct["hilarius"] = "hilarious";
 incorrect2correct["hilarous"] = "hilarious";
 incorrect2correct["hillarious"] = "hilarious";
 incorrect2correct["hillarous"] = "hilarious";
@@ -70007,6 +70516,11 @@ correct2URL["hitchhike"] = "https://en.wiktionary.org/wiki/hitchhike#Verb";
 
 
 incorrect2correct["hitch-hike"] = "hitchhike";
+incorrect2correct["hiting"] = "hitting";
+incorrect2correct["hitting"] = "hitting";
+correct2URL["hitting"] = "https://en.wiktionary.org/wiki/hit#Verb";
+
+
 incorrect2correct["human immunodeficiency virus"] = "HIV";
 incorrect2correct["HIV"] = "HIV";
 correct2URL["HIV"] = "https://en.wikipedia.org/wiki/HIV";
@@ -70152,6 +70666,11 @@ correct2URL["holier"] = "https://en.wiktionary.org/wiki/holier#Adjective";
 incorrect2correct["wholistic"] = "holistic";
 incorrect2correct["holistic"] = "holistic";
 correct2URL["holistic"] = "https://en.wiktionary.org/wiki/holistic#Adjective";
+
+
+incorrect2correct["Silksong"] = "Hollow Knight: Silksong";
+incorrect2correct["Hollow Knight: Silksong"] = "Hollow Knight: Silksong";
+correct2URL["Hollow Knight: Silksong"] = "https://en.wikipedia.org/wiki/Hollow_Knight:_Silksong";
 
 
 incorrect2correct["hallow_"] = "hollow_";
@@ -70444,6 +70963,11 @@ incorrect2correct["Honsestly"] = "honestly";
 incorrect2correct["honsetly"] = "honestly";
 incorrect2correct["honstly"] = "honestly";
 incorrect2correct["onestly"] = "honestly";
+incorrect2correct["hon"] = "honey";
+incorrect2correct["honey"] = "honey";
+correct2URL["honey"] = "https://en.wiktionary.org/wiki/honey#Noun";
+
+
 incorrect2correct["Honeypot"] = "honeypot";
 incorrect2correct["honeypot"] = "honeypot";
 correct2URL["honeypot"] = "https://en.wikipedia.org/wiki/Honeypot_(computing)";
@@ -70671,8 +71195,11 @@ incorrect2correct["hot-swap sockets__"] = "hot-swap sockets__";
 correct2URL["hot-swap sockets__"] = "https://switchandclick.com/how-to-remove-replace-switches-on-a-hot-swappable-keyboard/";
 
 
+incorrect2correct["hot-swap socket__"] = "hot-swap sockets__";
+incorrect2correct["hot-swappable sockets__"] = "hot-swap sockets__";
 incorrect2correct["hot-swappable__"] = "hot-swap sockets__";
 incorrect2correct["hotswap sockets__"] = "hot-swap sockets__";
+incorrect2correct["switch plate__"] = "hot-swap sockets__";
 incorrect2correct["hot swap_"] = "hot-swap_";
 incorrect2correct["hot-swap_"] = "hot-swap_";
 correct2URL["hot-swap_"] = "https://en.wiktionary.org/wiki/hot-swap#Verb";
@@ -70713,6 +71240,7 @@ incorrect2correct["Hot-Swappable"] = "hot-swappable";
 incorrect2correct["HOT-SWAPPABLE"] = "hot-swappable";
 incorrect2correct["hot-swappable switches"] = "hot-swappable";
 incorrect2correct["hot-swappablr"] = "hot-swappable";
+incorrect2correct["hot-swappalbe"] = "hot-swappable";
 incorrect2correct["hot-swapple"] = "hot-swappable";
 incorrect2correct["Hot-swapple"] = "hot-swappable";
 incorrect2correct["Hot-Swapple"] = "hot-swappable";
@@ -70725,10 +71253,12 @@ incorrect2correct["hotswap"] = "hot-swappable";
 incorrect2correct["Hotswap"] = "hot-swappable";
 incorrect2correct["hotswap socket"] = "hot-swappable";
 incorrect2correct["hotswap sockets"] = "hot-swappable";
+incorrect2correct["hotswap switches"] = "hot-swappable";
 incorrect2correct["hotswapable"] = "hot-swappable";
 incorrect2correct["Hotswapable"] = "hot-swappable";
 incorrect2correct["hotswappable"] = "hot-swappable";
 incorrect2correct["Hotswappable"] = "hot-swappable";
+incorrect2correct["hotswappalbe"] = "hot-swappable";
 incorrect2correct["hotswappble"] = "hot-swappable";
 incorrect2correct["hotswapple"] = "hot-swappable";
 incorrect2correct["Hotswapple"] = "hot-swappable";
@@ -71676,11 +72206,12 @@ incorrect2correct["hydrofluoric acid"] = "hydrofluoric acid";
 correct2URL["hydrofluoric acid"] = "https://en.wikipedia.org/wiki/Hydrofluoric_acid";
 
 
-incorrect2correct["Hydrogen"] = "hydrogen";
+incorrect2correct["H"] = "hydrogen";
 incorrect2correct["hydrogen"] = "hydrogen";
 correct2URL["hydrogen"] = "https://en.wikipedia.org/wiki/Hydrogen";
 
 
+incorrect2correct["Hydrogen"] = "hydrogen";
 incorrect2correct["H2O2"] = "hydrogen peroxide";
 incorrect2correct["hydrogen peroxide"] = "hydrogen peroxide";
 correct2URL["hydrogen peroxide"] = "https://en.wikipedia.org/wiki/Hydrogen_peroxide";
@@ -71703,11 +72234,12 @@ incorrect2correct["hygienic"] = "hygienic";
 correct2URL["hygienic"] = "https://en.wiktionary.org/wiki/hygienic#Adjective";
 
 
-incorrect2correct["hydrospopic"] = "hygroscopic";
+incorrect2correct["hydroscopic"] = "hygroscopic";
 incorrect2correct["hygroscopic"] = "hygroscopic";
 correct2URL["hygroscopic"] = "https://en.wikipedia.org/wiki/Hygroscopy";
 
 
+incorrect2correct["hydrospopic"] = "hygroscopic";
 incorrect2correct["Hygroscopic"] = "hygroscopic";
 incorrect2correct["hypecycle"] = "hype cycle";
 incorrect2correct["hype cycle"] = "hype cycle";
@@ -71790,6 +72322,12 @@ incorrect2correct["hypermedia as the engine of application state"] = "hypermedia
 correct2URL["hypermedia as the engine of application state"] = "https://en.wikipedia.org/wiki/HATEOAS";
 
 
+incorrect2correct["heds"] = "hypermobile Ehlers–Danlos syndrome";
+incorrect2correct["hypermobile Ehlers–Danlos syndrome"] = "hypermobile Ehlers–Danlos syndrome";
+correct2URL["hypermobile Ehlers–Danlos syndrome"] = "https://en.wikipedia.org/wiki/Ehlers%E2%80%93Danlos_syndrome";
+
+
+incorrect2correct["hEDS"] = "hypermobile Ehlers–Danlos syndrome";
 incorrect2correct["hyper parameter"] = "hyperparameter";
 incorrect2correct["hyperparameter"] = "hyperparameter";
 correct2URL["hyperparameter"] = "https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)";
@@ -72054,15 +72592,19 @@ correct2URL["I swear to God"] = "https://en.wiktionary.org/wiki/swear_to_God#Ver
 
 incorrect2correct["Istg"] = "I swear to God";
 incorrect2correct["ISTG"] = "I swear to God";
-incorrect2correct["i___"] = "I___";
+incorrect2correct["capitalise \"i\"___"] = "I___";
 incorrect2correct["I___"] = "I___";
 correct2URL["I___"] = "https://en.wikipedia.org/wiki/Capitalization#Pronouns";
 
 
+incorrect2correct["capitalise i___"] = "I___";
+incorrect2correct["i___"] = "I___";
 incorrect2correct["im___"] = "I___";
 incorrect2correct["Im___"] = "I___";
 incorrect2correct["in___"] = "I___";
 incorrect2correct["In___"] = "I___";
+incorrect2correct["please capitalise \"i\"___"] = "I___";
+incorrect2correct["please capitalise i___"] = "I___";
 incorrect2correct["I d__"] = "I’d__";
 incorrect2correct["I’d__"] = "I’d__";
 correct2URL["I’d__"] = "https://en.wiktionary.org/wiki/I%27d#Contraction";
@@ -72088,6 +72630,7 @@ incorrect2correct["I'll"] = "I’ll";
 incorrect2correct["i´ll"] = "I’ll";
 incorrect2correct["I´ll"] = "I’ll";
 incorrect2correct["il"] = "I’ll";
+incorrect2correct["Il"] = "I’ll";
 incorrect2correct["ill"] = "I’ll";
 incorrect2correct["Ill"] = "I’ll";
 incorrect2correct["I'll tell you what"] = "I’ll tell you what";
@@ -72429,6 +72972,11 @@ incorrect2correct["IceTea"] = "IcedTea";
 incorrect2correct["iceland"] = "Iceland";
 incorrect2correct["Iceland"] = "Iceland";
 correct2URL["Iceland"] = "https://en.wikipedia.org/wiki/Iceland";
+
+
+incorrect2correct["icelandic"] = "Icelandic";
+incorrect2correct["Icelandic"] = "Icelandic";
+correct2URL["Icelandic"] = "https://en.wiktionary.org/wiki/Icelandic#Adjective";
 
 
 incorrect2correct["icewm"] = "IceWM";
@@ -73288,6 +73836,21 @@ incorrect2correct["immidiate"] = "immediate";
 incorrect2correct["inmdiate"] = "immediate";
 incorrect2correct["inmediate"] = "immediate";
 incorrect2correct["inmidate"] = "immediate";
+incorrect2correct["Immediate mode"] = "immediate mode";
+incorrect2correct["immediate mode"] = "immediate mode";
+correct2URL["immediate mode"] = "https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics)#Immediate_mode_GUI";
+
+
+incorrect2correct["'immediate mode'-GUI"] = "immediate mode GUI";
+incorrect2correct["immediate mode GUI"] = "immediate mode GUI";
+correct2URL["immediate mode GUI"] = "https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics)#Immediate_mode_GUI";
+
+
+incorrect2correct["imgui"] = "immediate mode GUI";
+incorrect2correct["IMGUI"] = "immediate mode GUI";
+incorrect2correct["immediate mode gui"] = "immediate mode GUI";
+incorrect2correct["Immediate mode GUI"] = "immediate mode GUI";
+incorrect2correct["immediate-mode GUI"] = "immediate mode GUI";
 incorrect2correct["imedeately"] = "immediately";
 incorrect2correct["immediately"] = "immediately";
 correct2URL["immediately"] = "https://en.wiktionary.org/wiki/immediately#Adverb";
@@ -73831,6 +74394,7 @@ correct2URL["in any case"] = "https://en.wiktionary.org/wiki/in_any_case#Adverb"
 
 
 incorrect2correct["anycase"] = "in any case";
+incorrect2correct["at any case"] = "in any case";
 incorrect2correct["in any way or form"] = "in any way, shape, or form";
 incorrect2correct["in any way, shape, or form"] = "in any way, shape, or form";
 correct2URL["in any way, shape, or form"] = "https://en.wiktionary.org/wiki/in_any_way,_shape,_or_form#Prepositional_phrase";
@@ -74058,11 +74622,12 @@ incorrect2correct["in practical terms"] = "in practical terms";
 correct2URL["in practical terms"] = "https://www.collinsdictionary.com/dictionary/english/practical-terms";
 
 
-incorrect2correct["in the practice"] = "in practice";
+incorrect2correct["in practise"] = "in practice";
 incorrect2correct["in practice"] = "in practice";
 correct2URL["in practice"] = "https://en.wiktionary.org/wiki/in_practice#Prepositional_phrase";
 
 
+incorrect2correct["in the practice"] = "in practice";
 incorrect2correct["on the practice"] = "in practice";
 incorrect2correct["On the practice"] = "in practice";
 incorrect2correct["irl"] = "in real life";
@@ -75797,12 +76362,17 @@ incorrect2correct["inquired"] = "inquired";
 correct2URL["inquired"] = "https://en.wiktionary.org/wiki/inquire#Verb";
 
 
-incorrect2correct["enquiring minds want to know"] = "inquiring minds want to know";
-incorrect2correct["inquiring minds want to know"] = "inquiring minds want to know";
-correct2URL["inquiring minds want to know"] = "https://dictionary.cambridge.org/dictionary/english/inquiring-minds-want-to-know";
+incorrect2correct["enquiring minds want to know_"] = "inquiring minds want to know_";
+incorrect2correct["inquiring minds want to know_"] = "inquiring minds want to know_";
+correct2URL["inquiring minds want to know_"] = "https://dictionary.cambridge.org/dictionary/english/inquiring-minds-want-to-know";
 
 
-incorrect2correct["Enquiring minds want to know"] = "inquiring minds want to know";
+incorrect2correct["Enquiring minds want to know_"] = "inquiring minds want to know_";
+incorrect2correct["enquiring_"] = "inquiring minds want to know_";
+incorrect2correct["Inquiring minds want to know_"] = "inquiring minds want to know_";
+incorrect2correct["inquiring minds would like to know_"] = "inquiring minds want to know_";
+incorrect2correct["inquiring minds_"] = "inquiring minds want to know_";
+incorrect2correct["inquiring_"] = "inquiring minds want to know_";
 incorrect2correct["Inquisitive"] = "Inquisitive badge";
 incorrect2correct["Inquisitive badge"] = "Inquisitive badge";
 correct2URL["Inquisitive badge"] = "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/67399#67399";
@@ -75930,12 +76500,15 @@ incorrect2correct["inspections"] = "inspections";
 correct2URL["inspections"] = "https://en.wiktionary.org/wiki/inspection#Noun";
 
 
-incorrect2correct["inspecter"] = "Inspector";
+incorrect2correct["F12"] = "Inspector";
 incorrect2correct["Inspector"] = "Inspector";
 correct2URL["Inspector"] = "https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/open_the_inspector/index.html";
 
 
+incorrect2correct["F12 keycode (KC_F12. QMK. 69 (decimal). 45 (hexadecimal))"] = "Inspector";
+incorrect2correct["inspecter"] = "Inspector";
 incorrect2correct["Inspecter"] = "Inspector";
+incorrect2correct["Web development tools"] = "Inspector";
 incorrect2correct["inspi"] = "inspiration";
 incorrect2correct["inspiration"] = "inspiration";
 correct2URL["inspiration"] = "https://en.wiktionary.org/wiki/inspiration#Noun";
@@ -76337,6 +76910,7 @@ correct2URL["integer__"] = "https://en.wiktionary.org/wiki/integer#Noun";
 incorrect2correct["intager__"] = "integer__";
 incorrect2correct["Integer__"] = "integer__";
 incorrect2correct["integeric__"] = "integer__";
+incorrect2correct["integrer__"] = "integer__";
 incorrect2correct["interger__"] = "integer__";
 incorrect2correct["intger__"] = "integer__";
 incorrect2correct["intiger__"] = "integer__";
@@ -76388,11 +76962,12 @@ incorrect2correct["Integrated Performance Primitives"] = "Integrated Performance
 correct2URL["Integrated Performance Primitives"] = "https://en.wikipedia.org/wiki/Integrated_Performance_Primitives";
 
 
-incorrect2correct["Integrating"] = "integrating";
+incorrect2correct["integating"] = "integrating";
 incorrect2correct["integrating"] = "integrating";
 correct2URL["integrating"] = "https://en.wiktionary.org/wiki/integrate#Verb";
 
 
+incorrect2correct["Integrating"] = "integrating";
 incorrect2correct["intergating"] = "integrating";
 incorrect2correct["intergration"] = "integration";
 incorrect2correct["integration"] = "integration";
@@ -76574,6 +77149,7 @@ incorrect2correct["Intellij"] = "IntelliJ IDEA";
 incorrect2correct["IntelliJ"] = "IntelliJ IDEA";
 incorrect2correct["INTELLIJ"] = "IntelliJ IDEA";
 incorrect2correct["intellij idea"] = "IntelliJ IDEA";
+incorrect2correct["intellij IDEA"] = "IntelliJ IDEA";
 incorrect2correct["intelliJ idea"] = "IntelliJ IDEA";
 incorrect2correct["intelliJ IDEA"] = "IntelliJ IDEA";
 incorrect2correct["Intellij idea"] = "IntelliJ IDEA";
@@ -76690,11 +77266,12 @@ incorrect2correct["interactions"] = "interactions";
 correct2URL["interactions"] = "https://en.wiktionary.org/wiki/interaction#Noun";
 
 
-incorrect2correct["intractive"] = "interactive";
+incorrect2correct["interractive"] = "interactive";
 incorrect2correct["interactive"] = "interactive";
 correct2URL["interactive"] = "https://en.wiktionary.org/wiki/interactive#Adjective";
 
 
+incorrect2correct["intractive"] = "interactive";
 incorrect2correct["ICE___"] = "Interactive Connectivity Establishment___";
 incorrect2correct["Interactive Connectivity Establishment___"] = "Interactive Connectivity Establishment___";
 correct2URL["Interactive Connectivity Establishment___"] = "https://en.wikipedia.org/wiki/Interactive_Connectivity_Establishment";
@@ -78206,11 +78783,12 @@ correct2URL["IrfanView"] = "https://en.wikipedia.org/wiki/IrfanView";
 
 incorrect2correct["irfanview"] = "IrfanView";
 incorrect2correct["Irfanview"] = "IrfanView";
-incorrect2correct["Iridium"] = "iridium";
+incorrect2correct["Ir"] = "iridium";
 incorrect2correct["iridium"] = "iridium";
 correct2URL["iridium"] = "https://en.wikipedia.org/wiki/Iridium";
 
 
+incorrect2correct["Iridium"] = "iridium";
 incorrect2correct["iris"] = "Iris";
 incorrect2correct["Iris"] = "Iris";
 correct2URL["Iris"] = "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keebio/iris";
@@ -78646,7 +79224,10 @@ incorrect2correct["isolate the problem"] = "isolate the problem";
 correct2URL["isolate the problem"] = "https://www.reddit.com/r/Keychron/comments/1dhc5pz/comment/l8zdnmw/";
 
 
+incorrect2correct["isolate problem"] = "isolate the problem";
+incorrect2correct["isolated the problem"] = "isolate the problem";
 incorrect2correct["isolating the problem"] = "isolate the problem";
+incorrect2correct["problem isolation"] = "isolate the problem";
 incorrect2correct["isoltation"] = "isolation";
 incorrect2correct["isolation"] = "isolation";
 correct2URL["isolation"] = "https://en.wiktionary.org/wiki/isolation#Noun";
@@ -78746,6 +79327,11 @@ correct2URL["issues"] = "https://en.wiktionary.org/wiki/issue#Noun";
 
 incorrect2correct["issuers"] = "issues";
 incorrect2correct["issures"] = "issues";
+incorrect2correct["bears repeating"] = "it bears repeating";
+incorrect2correct["it bears repeating"] = "it bears repeating";
+correct2URL["it bears repeating"] = "https://www.merriam-webster.com/dictionary/bear%20repeating";
+
+
 incorrect2correct["money"] = "it doesn't grow on trees";
 incorrect2correct["it doesn't grow on trees"] = "it doesn't grow on trees";
 correct2URL["it doesn't grow on trees"] = "https://www.youtube.com/watch?v=GXFrUWJvx44&t=13m32s&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2";
@@ -78840,15 +79426,17 @@ correct2URL["IT___"] = "https://en.wikipedia.org/wiki/Information_technology";
 
 incorrect2correct["it___"] = "IT___";
 incorrect2correct["iT___"] = "IT___";
-incorrect2correct["i_____"] = "it_____";
+incorrect2correct["i t_____"] = "it_____";
 incorrect2correct["it_____"] = "it_____";
 correct2URL["it_____"] = "https://en.wiktionary.org/wiki/it#Pronoun";
 
 
+incorrect2correct["i_____"] = "it_____";
 incorrect2correct["I_____"] = "it_____";
 incorrect2correct["i,t_____"] = "it_____";
 incorrect2correct["IF_____"] = "it_____";
 incorrect2correct["iit_____"] = "it_____";
+incorrect2correct["ik_____"] = "it_____";
 incorrect2correct["int_____"] = "it_____";
 incorrect2correct["It_____"] = "it_____";
 incorrect2correct["its_____"] = "it_____";
@@ -78883,6 +79471,7 @@ correct2URL["it’s"] = "https://en.wiktionary.org/wiki/it's#Contraction";
 
 incorrect2correct["i'ts"] = "it’s";
 incorrect2correct["it is"] = "it’s";
+incorrect2correct["It is"] = "it’s";
 incorrect2correct["it s"] = "it’s";
 incorrect2correct["It s"] = "it’s";
 incorrect2correct["it,s"] = "it’s";
@@ -79036,14 +79625,15 @@ incorrect2correct["itselt"] = "itself";
 incorrect2correct["itselve"] = "itself";
 incorrect2correct["itslef"] = "itself";
 incorrect2correct["itsself"] = "itself";
-incorrect2correct["bitsy"] = "Itsy bitsy teenie weenie yellow polka dot bikini";
-incorrect2correct["Itsy bitsy teenie weenie yellow polka dot bikini"] = "Itsy bitsy teenie weenie yellow polka dot bikini";
-correct2URL["Itsy bitsy teenie weenie yellow polka dot bikini"] = "https://www.youtube.com/watch?v=ICkWjdQuK7Q";
+incorrect2correct["bitsy__"] = "Itsy bitsy teenie weenie yellow polka dot bikini__";
+incorrect2correct["Itsy bitsy teenie weenie yellow polka dot bikini__"] = "Itsy bitsy teenie weenie yellow polka dot bikini__";
+correct2URL["Itsy bitsy teenie weenie yellow polka dot bikini__"] = "https://www.youtube.com/watch?v=ICkWjdQuK7Q";
 
 
-incorrect2correct["itsy"] = "Itsy bitsy teenie weenie yellow polka dot bikini";
-incorrect2correct["itsy bitsy"] = "Itsy bitsy teenie weenie yellow polka dot bikini";
-incorrect2correct["Itsy bitsy"] = "Itsy bitsy teenie weenie yellow polka dot bikini";
+incorrect2correct["itsy bitsy__"] = "Itsy bitsy teenie weenie yellow polka dot bikini__";
+incorrect2correct["Itsy bitsy__"] = "Itsy bitsy teenie weenie yellow polka dot bikini__";
+incorrect2correct["itsy__"] = "Itsy bitsy teenie weenie yellow polka dot bikini__";
+incorrect2correct["teenie-tiny__"] = "Itsy bitsy teenie weenie yellow polka dot bikini__";
 incorrect2correct["itune"] = "iTunes";
 incorrect2correct["iTunes"] = "iTunes";
 correct2URL["iTunes"] = "https://en.wikipedia.org/wiki/ITunes";
@@ -79377,6 +79967,7 @@ correct2URL["JamesDonkey"] = "https://jamesdonkey.com/";
 
 
 incorrect2correct["James donkey"] = "JamesDonkey";
+incorrect2correct["james-donkey"] = "JamesDonkey";
 incorrect2correct["jamesdonkey"] = "JamesDonkey";
 incorrect2correct["Jamesdonkey"] = "JamesDonkey";
 incorrect2correct["jaming"] = "jamming";
@@ -80274,6 +80865,8 @@ correct2URL["JLCPCB"] = "https://stm32world.com/wiki/JLCPCB";
 incorrect2correct["jlcpcb"] = "JLCPCB";
 incorrect2correct["Jlcpcb"] = "JLCPCB";
 incorrect2correct["jlcpcb.com"] = "JLCPCB";
+incorrect2correct["Jlpcb"] = "JLCPCB";
+incorrect2correct["JLPCB"] = "JLCPCB";
 incorrect2correct["Japanese-Language Proficiency Test"] = "JLPT";
 incorrect2correct["JLPT"] = "JLPT";
 correct2URL["JLPT"] = "https://en.wikipedia.org/wiki/Japanese-Language_Proficiency_Test";
@@ -80359,6 +80952,7 @@ incorrect2correct["Joe Scotto"] = "Joe Scotto";
 correct2URL["Joe Scotto"] = "https://www.youtube.com/watch?v=o7SF2TPVV6o";
 
 
+incorrect2correct["JoeScotto"] = "Joe Scotto";
 incorrect2correct["scotto"] = "Joe Scotto";
 incorrect2correct["skotto"] = "Joe Scotto";
 incorrect2correct["tom scotto"] = "Joe Scotto";
@@ -80422,6 +81016,8 @@ correct2URL["Johannes Brahms"] = "https://en.wikipedia.org/wiki/Johannes_Brahms"
 
 incorrect2correct["brahms"] = "Johannes Brahms";
 incorrect2correct["Brahms"] = "Johannes Brahms";
+incorrect2correct["bramhs"] = "Johannes Brahms";
+incorrect2correct["Bramhs"] = "Johannes Brahms";
 incorrect2correct["john carmack"] = "John Carmack";
 incorrect2correct["John Carmack"] = "John Carmack";
 correct2URL["John Carmack"] = "https://en.wikipedia.org/wiki/John_Carmack";
@@ -81156,11 +81752,13 @@ incorrect2correct["Blancolirio"] = "Juan Browne";
 incorrect2correct["blancolirio channel"] = "Juan Browne";
 incorrect2correct["Blancolirio channel"] = "Juan Browne";
 incorrect2correct["Blancolirio Channel"] = "Juan Browne";
+incorrect2correct["Blunco"] = "Juan Browne";
 incorrect2correct["Jaun"] = "Juan Browne";
 incorrect2correct["JB"] = "Juan Browne";
 incorrect2correct["Juan"] = "Juan Browne";
 incorrect2correct["Juan Brown"] = "Juan Browne";
 incorrect2correct["Juan Brown Blancalario"] = "Juan Browne";
+incorrect2correct["One Brown"] = "Juan Browne";
 incorrect2correct["Judiadism"] = "Judaism";
 incorrect2correct["Judaism"] = "Judaism";
 correct2URL["Judaism"] = "https://en.wiktionary.org/wiki/Judaism#Proper_noun";
@@ -81622,9 +82220,9 @@ correct2URL["K10 V2 with overlubricated switches_____"] = "https://www.reddit.co
 
 
 incorrect2correct["K10 V2_____"] = "K10 V2 with overlubricated switches_____";
+incorrect2correct["Keychron K QMK series_____"] = "K10 V2 with overlubricated switches_____";
+incorrect2correct["Keychron K10 (100%)_____"] = "K10 V2 with overlubricated switches_____";
 incorrect2correct["Keychron K10_____"] = "K10 V2 with overlubricated switches_____";
-incorrect2correct["Keychron&nbsp;K&nbsp;QMK&nbsp;series_____"] = "K10 V2 with overlubricated switches_____";
-incorrect2correct["Keychron&nbsp;K10 (100%)_____"] = "K10 V2 with overlubricated switches_____";
 incorrect2correct["Keychron&nbsp;K10_____"] = "K10 V2 with overlubricated switches_____";
 incorrect2correct["my K10 V2_____"] = "K10 V2 with overlubricated switches_____";
 incorrect2correct["My K10 V2_____"] = "K10 V2 with overlubricated switches_____";
@@ -81658,92 +82256,103 @@ incorrect2correct["Kagi"] = "Kagi";
 correct2URL["Kagi"] = "https://en.wikipedia.org/wiki/Kagi_(search_engine)";
 
 
-incorrect2correct["kaih"] = "Kailh";
-incorrect2correct["Kailh"] = "Kailh";
-correct2URL["Kailh"] = "https://en.wikipedia.org/wiki/List_of_keyboard_switches";
+incorrect2correct["Kailh blue"] = "Kailh Blue switches";
+incorrect2correct["Kailh Blue switches"] = "Kailh Blue switches";
+correct2URL["Kailh Blue switches"] = "https://en.wikipedia.org/wiki/List_of_keyboard_switches";
 
 
-incorrect2correct["kaihl"] = "Kailh";
-incorrect2correct["Kaihl"] = "Kailh";
-incorrect2correct["kail"] = "Kailh";
-incorrect2correct["Kail"] = "Kailh";
-incorrect2correct["kailh"] = "Kailh";
-incorrect2correct["Kalh"] = "Kailh";
-incorrect2correct["kalih"] = "Kailh";
-incorrect2correct["Keihl"] = "Kailh";
-incorrect2correct["khail"] = "Kailh";
-incorrect2correct["Khail"] = "Kailh";
-incorrect2correct["khali"] = "Kailh";
-incorrect2correct["Khali"] = "Kailh";
-incorrect2correct["kialh"] = "Kailh";
-incorrect2correct["Kialh"] = "Kailh";
-incorrect2correct["Kailh blue"] = "Kailh Blue";
-incorrect2correct["Kailh Blue"] = "Kailh Blue";
-correct2URL["Kailh Blue"] = "https://en.wikipedia.org/wiki/List_of_keyboard_switches";
+incorrect2correct["Kailh Blue"] = "Kailh Blue switches";
+incorrect2correct["Kailh Blue switch"] = "Kailh Blue switches";
+incorrect2correct["Kalei Blue"] = "Kailh Blue switches";
+incorrect2correct["Kailh Box Cream Pro"] = "Kailh BOX Cream Pro switches";
+incorrect2correct["Kailh BOX Cream Pro switches"] = "Kailh BOX Cream Pro switches";
+correct2URL["Kailh BOX Cream Pro switches"] = "https://www.youtube.com/watch?v=zq3q3Zn7A7o&t=1m23s";
 
 
-incorrect2correct["Kalei Blue"] = "Kailh Blue";
-incorrect2correct["Kailh Box Cream Pro"] = "Kailh BOX Cream Pro switch";
-incorrect2correct["Kailh BOX Cream Pro switch"] = "Kailh BOX Cream Pro switch";
-correct2URL["Kailh BOX Cream Pro switch"] = "https://www.youtube.com/watch?v=zq3q3Zn7A7o&t=1m23s";
+incorrect2correct["Kailh BOX Cream Pro"] = "Kailh BOX Cream Pro switches";
+incorrect2correct["Kailh BOX Cream Pro switch"] = "Kailh BOX Cream Pro switches";
+incorrect2correct["box jade"] = "Kailh BOX Jade switches";
+incorrect2correct["Kailh BOX Jade switches"] = "Kailh BOX Jade switches";
+correct2URL["Kailh BOX Jade switches"] = "https://switchandclick.com/best-clicky-switches-for-your-mechanical-keyboard/";
 
 
-incorrect2correct["Kailh BOX Cream Pro"] = "Kailh BOX Cream Pro switch";
-incorrect2correct["box jade"] = "Kailh BOX Jade switch";
-incorrect2correct["Kailh BOX Jade switch"] = "Kailh BOX Jade switch";
-correct2URL["Kailh BOX Jade switch"] = "https://switchandclick.com/best-clicky-switches-for-your-mechanical-keyboard/";
+incorrect2correct["Box Jade"] = "Kailh BOX Jade switches";
+incorrect2correct["BOX Jade"] = "Kailh BOX Jade switches";
+incorrect2correct["box jades"] = "Kailh BOX Jade switches";
+incorrect2correct["Kailh BOX Jade"] = "Kailh BOX Jade switches";
+incorrect2correct["Kailh BOX JADE"] = "Kailh BOX Jade switches";
+incorrect2correct["Kailh BOX Jade switch"] = "Kailh BOX Jade switches";
+incorrect2correct["Box Pink"] = "Kailh BOX Pink switches";
+incorrect2correct["Kailh BOX Pink switches"] = "Kailh BOX Pink switches";
+correct2URL["Kailh BOX Pink switches"] = "https://www.kailh.net/collections/box-switches/products/kailh-coco-pink-box-v2-switch-set";
 
 
-incorrect2correct["Box Jade"] = "Kailh BOX Jade switch";
-incorrect2correct["BOX Jade"] = "Kailh BOX Jade switch";
-incorrect2correct["box jades"] = "Kailh BOX Jade switch";
-incorrect2correct["Kailh BOX Jade"] = "Kailh BOX Jade switch";
-incorrect2correct["Kailh BOX JADE"] = "Kailh BOX Jade switch";
-incorrect2correct["Box Pink"] = "Kailh BOX Pink switch";
-incorrect2correct["Kailh BOX Pink switch"] = "Kailh BOX Pink switch";
-correct2URL["Kailh BOX Pink switch"] = "https://www.kailh.net/collections/box-switches/products/kailh-coco-pink-box-v2-switch-set";
+incorrect2correct["Kailh Box Pink"] = "Kailh BOX Pink switches";
+incorrect2correct["Kailh BOX Pink"] = "Kailh BOX Pink switches";
+incorrect2correct["Kailh BOX Pink switch"] = "Kailh BOX Pink switches";
+incorrect2correct["Kailh BOX Silent Pink"] = "Kailh BOX Silent Pink switches";
+incorrect2correct["Kailh BOX Silent Pink switches"] = "Kailh BOX Silent Pink switches";
+correct2URL["Kailh BOX Silent Pink switches"] = "https://www.keychron.com/products/kailh-box-cream-pro-switch";
 
 
-incorrect2correct["Kailh Box Pink"] = "Kailh BOX Pink switch";
-incorrect2correct["Kailh BOX Pink"] = "Kailh BOX Pink switch";
-incorrect2correct["Kailh BOX Silent Pink"] = "Kailh BOX Silent Pink switch";
-incorrect2correct["Kailh BOX Silent Pink switch"] = "Kailh BOX Silent Pink switch";
-correct2URL["Kailh BOX Silent Pink switch"] = "https://www.keychron.com/products/kailh-box-cream-pro-switch";
+incorrect2correct["Kailh BOX Silent Pink switch"] = "Kailh BOX Silent Pink switches";
+incorrect2correct["kailh silent"] = "Kailh BOX Silent Pink switches";
+incorrect2correct["Kailh Silent Pink"] = "Kailh BOX Silent Pink switches";
+incorrect2correct["Kailh Box V2"] = "Kailh BOX V2 Red switches";
+incorrect2correct["Kailh BOX V2 Red switches"] = "Kailh BOX V2 Red switches";
+correct2URL["Kailh BOX V2 Red switches"] = "https://www.kailh.net/products/kailh-box-v2-switch-set";
 
 
-incorrect2correct["kailh silent"] = "Kailh BOX Silent Pink switch";
-incorrect2correct["Kailh Silent Pink"] = "Kailh BOX Silent Pink switch";
-incorrect2correct["Kailh Box V2"] = "Kailh BOX V2 Red switch";
-incorrect2correct["Kailh BOX V2 Red switch"] = "Kailh BOX V2 Red switch";
-correct2URL["Kailh BOX V2 Red switch"] = "https://www.kailh.net/products/kailh-box-v2-switch-set";
+incorrect2correct["Kailh BOX V2"] = "Kailh BOX V2 Red switches";
+incorrect2correct["Kailh BOX V2 Red"] = "Kailh BOX V2 Red switches";
+incorrect2correct["Kailh BOX V2 Red switch"] = "Kailh BOX V2 Red switches";
+incorrect2correct["box whites"] = "Kailh BOX White switches";
+incorrect2correct["Kailh BOX White switches"] = "Kailh BOX White switches";
+correct2URL["Kailh BOX White switches"] = "https://switchandclick.com/best-clicky-switches-for-your-mechanical-keyboard/";
 
 
-incorrect2correct["Kailh BOX V2"] = "Kailh BOX V2 Red switch";
-incorrect2correct["Kailh BOX V2 Red"] = "Kailh BOX V2 Red switch";
-incorrect2correct["box whites"] = "Kailh BOX White switch";
-incorrect2correct["Kailh BOX White switch"] = "Kailh BOX White switch";
-correct2URL["Kailh BOX White switch"] = "https://switchandclick.com/best-clicky-switches-for-your-mechanical-keyboard/";
+incorrect2correct["kailh box"] = "Kailh BOX White switches";
+incorrect2correct["Kailh Box"] = "Kailh BOX White switches";
+incorrect2correct["Kailh Box White"] = "Kailh BOX White switches";
+incorrect2correct["Kailh BOX White"] = "Kailh BOX White switches";
+incorrect2correct["Kailh BOX White switch"] = "Kailh BOX White switches";
+incorrect2correct["kailh white"] = "Kailh BOX White switches";
+incorrect2correct["Kailh white BOX"] = "Kailh BOX White switches";
+incorrect2correct["Khali BOX"] = "Kailh BOX White switches";
+incorrect2correct["Kialh Box"] = "Kailh BOX White switches";
+incorrect2correct["choc"] = "Kailh Chocolate switches";
+incorrect2correct["Kailh Chocolate switches"] = "Kailh Chocolate switches";
+correct2URL["Kailh Chocolate switches"] = "https://www.youtube.com/watch?v=yARYeV8X7d8&t=2m45s";
 
 
-incorrect2correct["kailh box"] = "Kailh BOX White switch";
-incorrect2correct["Kailh Box"] = "Kailh BOX White switch";
-incorrect2correct["Kailh Box White"] = "Kailh BOX White switch";
-incorrect2correct["Kailh BOX White"] = "Kailh BOX White switch";
-incorrect2correct["kailh white"] = "Kailh BOX White switch";
-incorrect2correct["Kailh white BOX"] = "Kailh BOX White switch";
-incorrect2correct["Khali BOX"] = "Kailh BOX White switch";
-incorrect2correct["Kialh Box"] = "Kailh BOX White switch";
-incorrect2correct["choc"] = "Kailh Chocolate switch";
-incorrect2correct["Kailh Chocolate switch"] = "Kailh Chocolate switch";
-correct2URL["Kailh Chocolate switch"] = "https://www.youtube.com/watch?v=yARYeV8X7d8&t=2m45s";
+incorrect2correct["Choc"] = "Kailh Chocolate switches";
+incorrect2correct["chocolate"] = "Kailh Chocolate switches";
+incorrect2correct["Chocolate"] = "Kailh Chocolate switches";
+incorrect2correct["chocs"] = "Kailh Chocolate switches";
+incorrect2correct["Chocs"] = "Kailh Chocolate switches";
+incorrect2correct["Kailh Chocolate"] = "Kailh Chocolate switches";
+incorrect2correct["Kailh Chocolate switch"] = "Kailh Chocolate switches";
+incorrect2correct["kaih"] = "Kailh switches";
+incorrect2correct["Kailh switches"] = "Kailh switches";
+correct2URL["Kailh switches"] = "https://en.wikipedia.org/wiki/List_of_keyboard_switches";
 
 
-incorrect2correct["Choc"] = "Kailh Chocolate switch";
-incorrect2correct["chocolate"] = "Kailh Chocolate switch";
-incorrect2correct["Chocolate"] = "Kailh Chocolate switch";
-incorrect2correct["chocs"] = "Kailh Chocolate switch";
-incorrect2correct["Chocs"] = "Kailh Chocolate switch";
-incorrect2correct["Kailh Chocolate"] = "Kailh Chocolate switch";
+incorrect2correct["kaihl"] = "Kailh switches";
+incorrect2correct["Kaihl"] = "Kailh switches";
+incorrect2correct["kail"] = "Kailh switches";
+incorrect2correct["Kail"] = "Kailh switches";
+incorrect2correct["kailh"] = "Kailh switches";
+incorrect2correct["Kailh"] = "Kailh switches";
+incorrect2correct["Kailh switch"] = "Kailh switches";
+incorrect2correct["Kalh"] = "Kailh switches";
+incorrect2correct["kalih"] = "Kailh switches";
+incorrect2correct["Keihl"] = "Kailh switches";
+incorrect2correct["khail"] = "Kailh switches";
+incorrect2correct["Khail"] = "Kailh switches";
+incorrect2correct["khali"] = "Kailh switches";
+incorrect2correct["Khali"] = "Kailh switches";
+incorrect2correct["kialh"] = "Kailh switches";
+incorrect2correct["Kialh"] = "Kailh switches";
 incorrect2correct["kakoune"] = "Kakoune";
 incorrect2correct["Kakoune"] = "Kakoune";
 correct2URL["Kakoune"] = "https://en.wikipedia.org/wiki/Kakoune";
@@ -81960,6 +82569,12 @@ correct2URL["KDE"] = "https://en.wikipedia.org/wiki/KDE_Software_Compilation";
 
 incorrect2correct["Kde"] = "KDE";
 incorrect2correct["KDRE"] = "KDE";
+incorrect2correct["kde4"] = "KDE 4";
+incorrect2correct["KDE 4"] = "KDE 4";
+correct2URL["KDE 4"] = "https://en.wikipedia.org/wiki/KDE_Software_Compilation_4#Released_versions";
+
+
+incorrect2correct["KDE4"] = "KDE 4";
 incorrect2correct["KDE connect"] = "KDE Connect";
 incorrect2correct["KDE Connect"] = "KDE Connect";
 correct2URL["KDE Connect"] = "https://en.wikipedia.org/wiki/KDE_Connect";
@@ -82002,13 +82617,6 @@ correct2URL["KDE_"] = "https://en.wikipedia.org/wiki/Kernel_density_estimation";
 incorrect2correct["Kernel Density Estimates_"] = "KDE_";
 incorrect2correct["kernel density estimation_"] = "KDE_";
 incorrect2correct["Kernel Density Estimation_"] = "KDE_";
-incorrect2correct["KDE 4"] = "KDE&nbsp;4";
-incorrect2correct["KDE&nbsp;4"] = "KDE&nbsp;4";
-correct2URL["KDE&nbsp;4"] = "https://en.wikipedia.org/wiki/KDE_Software_Compilation_4#Released_versions";
-
-
-incorrect2correct["kde4"] = "KDE&nbsp;4";
-incorrect2correct["KDE4"] = "KDE&nbsp;4";
 incorrect2correct["kdenlive"] = "Kdenlive";
 incorrect2correct["Kdenlive"] = "Kdenlive";
 correct2URL["Kdenlive"] = "https://en.wikipedia.org/wiki/Kdenlive";
@@ -82165,6 +82773,11 @@ incorrect2correct["kernel extension"] = "kernel extension";
 correct2URL["kernel extension"] = "https://en.wikipedia.org/wiki/Loadable_kernel_module";
 
 
+incorrect2correct["KSM_"] = "kernel shared memory_";
+incorrect2correct["kernel shared memory_"] = "kernel shared memory_";
+correct2URL["kernel shared memory_"] = "https://en.wikipedia.org/wiki/Kernel_same-page_merging";
+
+
 incorrect2correct["Kernel size"] = "kernel size";
 incorrect2correct["kernel size"] = "kernel size";
 correct2URL["kernel size"] = "https://en.wikipedia.org/wiki/Convolutional_neural_network#Kernel_size";
@@ -82281,6 +82894,11 @@ correct2URL["key debounce_"] = "https://www.ganssle.com/debouncing.htm";
 incorrect2correct["debounce_"] = "key debounce_";
 incorrect2correct["Jack Ganssle_"] = "key debounce_";
 incorrect2correct["key debounce time_"] = "key debounce_";
+incorrect2correct["keydebounce_"] = "key debounce_";
+incorrect2correct["response time_"] = "key debounce_";
+incorrect2correct["Response Time_"] = "key debounce_";
+incorrect2correct["switch debounce time_"] = "key debounce_";
+incorrect2correct["switch debounce_"] = "key debounce_";
 incorrect2correct["kdf"] = "key derivation function";
 incorrect2correct["key derivation function"] = "key derivation function";
 correct2URL["key derivation function"] = "https://en.wikipedia.org/wiki/Key_derivation_function";
@@ -82328,6 +82946,8 @@ correct2URL["keyboard and mouse"] = "https://gamerswiki.net/what-does-kbm-mean-i
 
 incorrect2correct["kbm"] = "keyboard and mouse";
 incorrect2correct["KBM"] = "keyboard and mouse";
+incorrect2correct["Keyboard and Mouse"] = "keyboard and mouse";
+incorrect2correct["knm"] = "keyboard and mouse";
 incorrect2correct["m+kb"] = "keyboard and mouse";
 incorrect2correct["mouse and keyboard"] = "keyboard and mouse";
 incorrect2correct["mouse n keyboard"] = "keyboard and mouse";
@@ -82370,6 +82990,11 @@ incorrect2correct["Keyboard Layout Language"] = "Keyboard Layout Language";
 correct2URL["Keyboard Layout Language"] = "https://github.com/kiibohd/kll-spec";
 
 
+incorrect2correct["keyboard maestro"] = "Keyboard Maestro";
+incorrect2correct["Keyboard Maestro"] = "Keyboard Maestro";
+correct2URL["Keyboard Maestro"] = "https://en.wikipedia.org/wiki/Keyboard_Maestro";
+
+
 incorrect2correct["keyboard matrix scanning rate"] = "keyboard matrix scan rate";
 incorrect2correct["keyboard matrix scan rate"] = "keyboard matrix scan rate";
 correct2URL["keyboard matrix scan rate"] = "https://michael.stapelberg.ch/posts/2021-05-08-keyboard-input-latency-qmk-kinesis/";
@@ -82406,6 +83031,7 @@ incorrect2correct["keyboard modifier keys__"] = "keyboard modifier keys__";
 correct2URL["keyboard modifier keys__"] = "https://en.wikipedia.org/wiki/Modifier_key";
 
 
+incorrect2correct["modificators__"] = "keyboard modifier keys__";
 incorrect2correct["modifier keys__"] = "keyboard modifier keys__";
 incorrect2correct["modifiers__"] = "keyboard modifier keys__";
 incorrect2correct["mods__"] = "keyboard modifier keys__";
@@ -82520,6 +83146,7 @@ incorrect2correct["keybpard_"] = "keyboard_";
 incorrect2correct["Keybpard_"] = "keyboard_";
 incorrect2correct["keybrd_"] = "keyboard_";
 incorrect2correct["keybroad_"] = "keyboard_";
+incorrect2correct["keynoard_"] = "keyboard_";
 incorrect2correct["keyoard_"] = "keyboard_";
 incorrect2correct["keyobard_"] = "keyboard_";
 incorrect2correct["keystroking machine_"] = "keyboard_";
@@ -82541,17 +83168,19 @@ incorrect2correct["keyboard_post_init_kb()"] = "keyboard_post_init_kb()";
 correct2URL["keyboard_post_init_kb()"] = "https://docs.qmk.fm/custom_quantum_functions#keyboard-initialization-code";
 
 
-incorrect2correct["Keybordio"] = "Keyboardio";
+incorrect2correct["keyboardio"] = "Keyboardio";
 incorrect2correct["Keyboardio"] = "Keyboardio";
 correct2URL["Keyboardio"] = "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards#Mechanical_keyboards";
 
 
+incorrect2correct["Keybordio"] = "Keyboardio";
 incorrect2correct["Keybordium"] = "Keyboardio";
-incorrect2correct["Keyboardio Model 101"] = "Keyboardio The Model 100";
+incorrect2correct["keyboardio model 100"] = "Keyboardio The Model 100";
 incorrect2correct["Keyboardio The Model 100"] = "Keyboardio The Model 100";
 correct2URL["Keyboardio The Model 100"] = "https://shop.keyboard.io/products/model-100";
 
 
+incorrect2correct["Keyboardio Model 101"] = "Keyboardio The Model 100";
 incorrect2correct["Model 100"] = "Keyboardio The Model 100";
 incorrect2correct["The Model 100"] = "Keyboardio The Model 100";
 incorrect2correct["bards"] = "keyboards";
@@ -82570,6 +83199,7 @@ incorrect2correct["kebs"] = "keyboards";
 incorrect2correct["keeba"] = "keyboards";
 incorrect2correct["keebs"] = "keyboards";
 incorrect2correct["Keebs"] = "keyboards";
+incorrect2correct["keens"] = "keyboards";
 incorrect2correct["keewbs"] = "keyboards";
 incorrect2correct["kerbs"] = "keyboards";
 incorrect2correct["key boards"] = "keyboards";
@@ -82660,6 +83290,7 @@ incorrect2correct["2024__"] = "Keychron 2024 design and production quality issue
 incorrect2correct["a history of quality problems__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["a problem with key chattering__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["a product quality lottery__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
+incorrect2correct["a quality lottery__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["a well-known problem__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["defective__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["double input__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
@@ -82674,12 +83305,14 @@ incorrect2correct["manufacturing__"] = "Keychron 2024 design and production qual
 incorrect2correct["number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["other problems__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["product quality lottery__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
+incorrect2correct["quality lottery__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["quality problems__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["severe quality problems__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["the 2024 Keychron manufacturing problems__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["the 2024 troubles__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["the current troubles__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["the double pressing issue__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
+incorrect2correct["the quality lottery__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["the severe quality problems__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["the troubles__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
 incorrect2correct["there are quality problems__"] = "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)__";
@@ -82707,7 +83340,57 @@ incorrect2correct["Keychron-Assistant"] = "Keychron Assist";
 incorrect2correct["launcher Assist"] = "Keychron Assist";
 incorrect2correct["the assisant program"] = "Keychron Assist";
 incorrect2correct["the assistant program"] = "Keychron Assist";
-incorrect2correct["Keychron&nbsp;B6&nbsp;Pro__"] = "Keychron B6 Pro source code__";
+incorrect2correct["B Pro series___"] = "Keychron B Pro series___";
+incorrect2correct["Keychron B Pro series___"] = "Keychron B Pro series___";
+correct2URL["Keychron B Pro series___"] = "https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard";
+
+
+incorrect2correct["b pro___"] = "Keychron B Pro series___";
+incorrect2correct["B Pro___"] = "Keychron B Pro series___";
+incorrect2correct["b6 pro___"] = "Keychron B Pro series___";
+incorrect2correct["Keychron B6 Pro___"] = "Keychron B Pro series___";
+incorrect2correct["b1 pro_"] = "Keychron B1 Pro_";
+incorrect2correct["Keychron B1 Pro_"] = "Keychron B1 Pro_";
+correct2URL["Keychron B1 Pro_"] = "https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard";
+
+
+incorrect2correct["B1 pro_"] = "Keychron B1 Pro_";
+incorrect2correct["B1 Pro_"] = "Keychron B1 Pro_";
+incorrect2correct["B1 PRO_"] = "Keychron B1 Pro_";
+incorrect2correct["B1_"] = "Keychron B1 Pro_";
+incorrect2correct["B1&nbsp;Pro_"] = "Keychron B1 Pro_";
+incorrect2correct["B1pro_"] = "Keychron B1 Pro_";
+incorrect2correct["B1Pro_"] = "Keychron B1 Pro_";
+incorrect2correct["keychorn b1 pro_"] = "Keychron B1 Pro_";
+incorrect2correct["keychron b1 pro_"] = "Keychron B1 Pro_";
+incorrect2correct["Keychron b1 pro_"] = "Keychron B1 Pro_";
+incorrect2correct["Keychron b1_"] = "Keychron B1 Pro_";
+incorrect2correct["Keychron B1_"] = "Keychron B1 Pro_";
+incorrect2correct["b2 pro"] = "Keychron B2 Pro";
+incorrect2correct["Keychron B2 Pro"] = "Keychron B2 Pro";
+correct2URL["Keychron B2 Pro"] = "https://device.report/manual/13839696";
+
+
+incorrect2correct["B2 Pro"] = "Keychron B2 Pro";
+incorrect2correct["B Pro"] = "Keychron B6 Pro";
+incorrect2correct["Keychron B6 Pro"] = "Keychron B6 Pro";
+correct2URL["Keychron B6 Pro"] = "https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard-iso-layout-collection";
+
+
+incorrect2correct["B Pro series"] = "Keychron B6 Pro";
+incorrect2correct["b6"] = "Keychron B6 Pro";
+incorrect2correct["B6"] = "Keychron B6 Pro";
+incorrect2correct["b6 pro"] = "Keychron B6 Pro";
+incorrect2correct["B6 pro"] = "Keychron B6 Pro";
+incorrect2correct["B6 Pro"] = "Keychron B6 Pro";
+incorrect2correct["B6 PRO"] = "Keychron B6 Pro";
+incorrect2correct["B6 Pro"] = "Keychron B6 Pro";
+incorrect2correct["B6 Pro ISO"] = "Keychron B6 Pro";
+incorrect2correct["B6&nbsp;Pro"] = "Keychron B6 Pro";
+incorrect2correct["Bpro"] = "Keychron B6 Pro";
+incorrect2correct["keychron B6"] = "Keychron B6 Pro";
+incorrect2correct["Keychron b6 pro"] = "Keychron B6 Pro";
+incorrect2correct["Keychron B6 Pro__"] = "Keychron B6 Pro source code__";
 incorrect2correct["Keychron B6 Pro source code__"] = "Keychron B6 Pro source code__";
 correct2URL["Keychron B6 Pro source code__"] = "https://github.com/Keychron/zmk/tree/keychron_bpro/app/boards/shields/keychron/b6";
 
@@ -82717,6 +83400,35 @@ incorrect2correct["Keychron broke compilation for all K Pro and Q Pro series key
 correct2URL["Keychron broke compilation for all K Pro and Q Pro series keyboards"] = "https://github.com/Keychron/qmk_firmware/issues/396#issuecomment-3102239204";
 
 
+incorrect2correct["C Pro 8K series___"] = "Keychron C Pro 8K series___";
+incorrect2correct["Keychron C Pro 8K series___"] = "Keychron C Pro 8K series___";
+correct2URL["Keychron C Pro 8K series___"] = "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["C&nbsp;Pro&nbsp;8K&nbsp;series___"] = "Keychron C Pro 8K series___";
+incorrect2correct["Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)___"] = "Keychron C Pro 8K series___";
+incorrect2correct["Keychron&nbsp;C2&nbsp;Pro&nbsp;8K___"] = "Keychron C Pro 8K series___";
+incorrect2correct["C Pro series___"] = "Keychron C Pro series___";
+incorrect2correct["Keychron C Pro series___"] = "Keychron C Pro series___";
+correct2URL["Keychron C Pro series___"] = "https://www.keychron.com/products/keychron-c2-pro-qmk-via-wired-mechanical-keyboard";
+
+
+incorrect2correct["C series___"] = "Keychron C Pro series___";
+incorrect2correct["C&nbsp;Pro&nbsp;series___"] = "Keychron C Pro series___";
+incorrect2correct["C&nbsp;series___"] = "Keychron C Pro series___";
+incorrect2correct["C2 Pro___"] = "Keychron C Pro series___";
+incorrect2correct["Keychron C2 Pro___"] = "Keychron C Pro series___";
+incorrect2correct["Keychron&nbsp;C2&nbsp;Pro___"] = "Keychron C Pro series___";
+incorrect2correct["C0 HE"] = "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)"] = "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)";
+correct2URL["Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)"] = "https://www.keychron.com/products/keychron-c0-he-one-handed-magnetic-switch-gaming-keyboard";
+
+
+incorrect2correct["C0 HE 8K"] = "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["C0&nbsp;HE&nbsp;8K"] = "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Keychron C0 HE"] = "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Keychron C0 HE 8K"] = "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Keychron&nbsp;C0&nbsp;HE&nbsp;8K"] = "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["c1"] = "Keychron C1";
 incorrect2correct["Keychron C1"] = "Keychron C1";
 correct2URL["Keychron C1"] = "https://www.keychron.com/products/keychron-c1-wired-mechanical-keyboard";
@@ -82746,6 +83458,7 @@ incorrect2correct["C3 Pro 1K RGB"] = "Keychron C3 Pro";
 incorrect2correct["C3Pro"] = "Keychron C3 Pro";
 incorrect2correct["C3PRO"] = "Keychron C3 Pro";
 incorrect2correct["keychron c3 pro"] = "Keychron C3 Pro";
+incorrect2correct["Keychron c3 Pro"] = "Keychron C3 Pro";
 incorrect2correct["the original red LED one"] = "Keychron C3 Pro";
 incorrect2correct["has set it to_"] = "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_";
 incorrect2correct["Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_"] = "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_";
@@ -82758,6 +83471,8 @@ incorrect2correct["masking a problem_"] = "Keychron changing the QMK debounce ti
 incorrect2correct["masking_"] = "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_";
 incorrect2correct["symptom_"] = "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_";
 incorrect2correct["symptoms_"] = "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_";
+incorrect2correct["to hide quality problems_"] = "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_";
+incorrect2correct["to hide_"] = "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_";
 incorrect2correct["to masking_"] = "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_";
 incorrect2correct["treat symptoms_"] = "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_";
 incorrect2correct["treat the symptoms_"] = "Keychron changing the QMK debounce time is treating the symptoms, masking a mechanical problem_";
@@ -82790,12 +83505,43 @@ incorrect2correct["Keychron '2.4 GHz' Firmware Updater_"] = "Keychron Firmware U
 incorrect2correct["Keychron 2.4 GHz Firmware Updater_"] = "Keychron Firmware Updater_";
 incorrect2correct["Keychron firmware updater_"] = "Keychron Firmware Updater_";
 incorrect2correct["Keychron Firmware Upgrade_"] = "Keychron Firmware Updater_";
+incorrect2correct["J HE 8K series___"] = "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___";
+incorrect2correct["Keychron J HE 8K series (proprietary keyboard firmware, not open source)___"] = "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___";
+correct2URL["Keychron J HE 8K series (proprietary keyboard firmware, not open source)___"] = "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard";
+
+
+incorrect2correct["J HE 8K___"] = "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___";
+incorrect2correct["J HE series___"] = "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___";
+incorrect2correct["Keychron J HE 8K series___"] = "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___";
+incorrect2correct["J series___"] = "Keychron J series___";
+incorrect2correct["Keychron J series___"] = "Keychron J series___";
+correct2URL["Keychron J series___"] = "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard";
+
+
 incorrect2correct["J1"] = "Keychron J1";
 incorrect2correct["Keychron J1"] = "Keychron J1";
 correct2URL["Keychron J1"] = "https://www.keychron.com/products/keychron-j1-qmk-wireless-mechanical-keyboard";
 
 
 incorrect2correct["Keychrone J1"] = "Keychron J1";
+incorrect2correct["j2"] = "Keychron J2";
+incorrect2correct["Keychron J2"] = "Keychron J2";
+correct2URL["Keychron J2"] = "https://www.keychron.com/products/keychron-j2-qmk-wireless-mechanical-keyboard";
+
+
+incorrect2correct["J2"] = "Keychron J2";
+incorrect2correct["Jamesdonkey J2"] = "Keychron J2";
+incorrect2correct["JamesDonkey J2"] = "Keychron J2";
+incorrect2correct["J2 HE"] = "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)"] = "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)";
+correct2URL["Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)"] = "https://www.keychron.com/products/keychron-j2-he-8k-magnetic-switch-keyboard";
+
+
+incorrect2correct["J2 HE 8K"] = "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["J2&nbsp;HE"] = "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Keychron J2 HE"] = "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Keychron J2 HE 8K"] = "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Keychron J2 HE 8K (proprietary keyboard firmware, not open source)"] = "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["j4"] = "Keychron J4";
 incorrect2correct["Keychron J4"] = "Keychron J4";
 correct2URL["Keychron J4"] = "https://www.keychron.com/products/keychron-j4-qmk-wireless-mechanical-keyboard";
@@ -82805,6 +83551,120 @@ incorrect2correct["J4"] = "Keychron J4";
 incorrect2correct["James donkey j4"] = "Keychron J4";
 incorrect2correct["JamesDonkey J4"] = "Keychron J4";
 incorrect2correct["KeyChron J4"] = "Keychron J4";
+incorrect2correct["J5"] = "Keychron J5 (105%)";
+incorrect2correct["Keychron J5 (105%)"] = "Keychron J5 (105%)";
+correct2URL["Keychron J5 (105%)"] = "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard";
+
+
+incorrect2correct["keychron j5"] = "Keychron J5 (105%)";
+incorrect2correct["Keychron j5"] = "Keychron J5 (105%)";
+incorrect2correct["Keychron J5"] = "Keychron J5 (105%)";
+incorrect2correct["KJ5"] = "Keychron J5 (105%)";
+incorrect2correct["J8 HE 8K"] = "Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)"] = "Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)";
+correct2URL["Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)"] = "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard";
+
+
+incorrect2correct["Keychron J8 HE 8K"] = "Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["J9"] = "Keychron J9 (80%)";
+incorrect2correct["Keychron J9 (80%)"] = "Keychron J9 (80%)";
+correct2URL["Keychron J9 (80%)"] = "https://www.keychron.id/products/keychron-j9-qmk-ultra-slim-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["Keychron J9"] = "Keychron J9 (80%)";
+incorrect2correct["HE series___"] = "Keychron K HE series___";
+incorrect2correct["Keychron K HE series___"] = "Keychron K HE series___";
+correct2URL["Keychron K HE series___"] = "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection";
+
+
+incorrect2correct["k he series___"] = "Keychron K HE series___";
+incorrect2correct["K HE series___"] = "Keychron K HE series___";
+incorrect2correct["k he___"] = "Keychron K HE series___";
+incorrect2correct["K HE___"] = "Keychron K HE series___";
+incorrect2correct["k series HE___"] = "Keychron K HE series___";
+incorrect2correct["K series HE___"] = "Keychron K HE series___";
+incorrect2correct["K&nbsp;HE&nbsp;series___"] = "Keychron K HE series___";
+incorrect2correct["Keychron K2 HE___"] = "Keychron K HE series___";
+incorrect2correct["Keychron&nbsp;K2&nbsp;HE (80%)___"] = "Keychron K HE series___";
+incorrect2correct["Keychron&nbsp;K2&nbsp;HE___"] = "Keychron K HE series___";
+incorrect2correct["k max series___"] = "Keychron K Max series___";
+incorrect2correct["Keychron K Max series___"] = "Keychron K Max series___";
+correct2URL["Keychron K Max series___"] = "https://www.keychron.com/products/keychron-k10-max-qmk-wireless-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["K Max series___"] = "Keychron K Max series___";
+incorrect2correct["k max___"] = "Keychron K Max series___";
+incorrect2correct["K Max___"] = "Keychron K Max series___";
+incorrect2correct["K Max'es___"] = "Keychron K Max series___";
+incorrect2correct["K series Max___"] = "Keychron K Max series___";
+incorrect2correct["K series MAX___"] = "Keychron K Max series___";
+incorrect2correct["K Series Max___"] = "Keychron K Max series___";
+incorrect2correct["K Series MAX___"] = "Keychron K Max series___";
+incorrect2correct["K-Max series___"] = "Keychron K Max series___";
+incorrect2correct["K&nbsp;Max&nbsp;series___"] = "Keychron K Max series___";
+incorrect2correct["Keychron K10 Max___"] = "Keychron K Max series___";
+incorrect2correct["k pro series___"] = "Keychron K Pro series___";
+incorrect2correct["Keychron K Pro series___"] = "Keychron K Pro series___";
+correct2URL["Keychron K Pro series___"] = "https://keychron.de/collections/k-pro-series-iso-keyboard/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["K Pro series___"] = "Keychron K Pro series___";
+incorrect2correct["k pro___"] = "Keychron K Pro series___";
+incorrect2correct["K pro___"] = "Keychron K Pro series___";
+incorrect2correct["K Pro___"] = "Keychron K Pro series___";
+incorrect2correct["K series Pro___"] = "Keychron K Pro series___";
+incorrect2correct["K series PRO___"] = "Keychron K Pro series___";
+incorrect2correct["K Series Pro___"] = "Keychron K Pro series___";
+incorrect2correct["K Series PRO___"] = "Keychron K Pro series___";
+incorrect2correct["k-pro___"] = "Keychron K Pro series___";
+incorrect2correct["K-pro___"] = "Keychron K Pro series___";
+incorrect2correct["K-Pro___"] = "Keychron K Pro series___";
+incorrect2correct["K&nbsp;Pro&nbsp;series___"] = "Keychron K Pro series___";
+incorrect2correct["Keychron K10 Pro___"] = "Keychron K Pro series___";
+incorrect2correct["KPro series___"] = "Keychron K Pro series___";
+incorrect2correct["Pro series___"] = "Keychron K Pro series___";
+incorrect2correct["Pro___"] = "Keychron K Pro series___";
+incorrect2correct["k qmk series____"] = "Keychron K QMK series____";
+incorrect2correct["Keychron K QMK series____"] = "Keychron K QMK series____";
+correct2URL["Keychron K QMK series____"] = "https://www.keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2";
+
+
+incorrect2correct["K QMK series____"] = "Keychron K QMK series____";
+incorrect2correct["k qmk____"] = "Keychron K QMK series____";
+incorrect2correct["K QMK____"] = "Keychron K QMK series____";
+incorrect2correct["K&nbsp;QMK&nbsp;series____"] = "Keychron K QMK series____";
+incorrect2correct["K&nbsp;series____"] = "Keychron K QMK series____";
+incorrect2correct["K1 V6____"] = "Keychron K QMK series____";
+incorrect2correct["K10 QMK version 2____"] = "Keychron K QMK series____";
+incorrect2correct["K10 QMK____"] = "Keychron K QMK series____";
+incorrect2correct["k10 v2____"] = "Keychron K QMK series____";
+incorrect2correct["K10 V2____"] = "Keychron K QMK series____";
+incorrect2correct["k2 QMK____"] = "Keychron K QMK series____";
+incorrect2correct["K2 QMK____"] = "Keychron K QMK series____";
+incorrect2correct["K2 V3____"] = "Keychron K QMK series____";
+incorrect2correct["K5 qmk version 2____"] = "Keychron K QMK series____";
+incorrect2correct["Keychron K10 (100%)____"] = "Keychron K QMK series____";
+incorrect2correct["Keychron K10____"] = "Keychron K QMK series____";
+incorrect2correct["k series___"] = "Keychron K series___";
+incorrect2correct["Keychron K series___"] = "Keychron K series___";
+correct2URL["Keychron K series___"] = "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout";
+
+
+incorrect2correct["K series___"] = "Keychron K series___";
+incorrect2correct["K-series___"] = "Keychron K series___";
+incorrect2correct["K-Series___"] = "Keychron K series___";
+incorrect2correct["K&nbsp;series___"] = "Keychron K series___";
+incorrect2correct["Keychron K10 (100%)___"] = "Keychron K series___";
+incorrect2correct["Keychron K10___"] = "Keychron K series___";
+incorrect2correct["original K series___"] = "Keychron K series___";
+incorrect2correct["original series___"] = "Keychron K series___";
+incorrect2correct["K Ultra 8 series___"] = "Keychron K Ultra 8K series___";
+incorrect2correct["Keychron K Ultra 8K series___"] = "Keychron K Ultra 8K series___";
+correct2URL["Keychron K Ultra 8K series___"] = "https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards";
+
+
+incorrect2correct["K Ultra 8K series___"] = "Keychron K Ultra 8K series___";
+incorrect2correct["Keychron K3 Ultra 8K___"] = "Keychron K Ultra 8K series___";
 incorrect2correct["K1 Max default keymap____"] = "Keychron K1 Max default keymap (ISO RGB)____";
 incorrect2correct["Keychron K1 Max default keymap (ISO RGB)____"] = "Keychron K1 Max default keymap (ISO RGB)____";
 correct2URL["Keychron K1 Max default keymap (ISO RGB)____"] = "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k1_max/iso/rgb/keymaps/via/keymap.c#L44";
@@ -82855,18 +83715,106 @@ incorrect2correct["k1_"] = "Keychron K1_";
 incorrect2correct["K1_"] = "Keychron K1_";
 incorrect2correct["k1se_"] = "Keychron K1_";
 incorrect2correct["K1SE_"] = "Keychron K1_";
+incorrect2correct["k 10_"] = "Keychron K10 (100%)_";
+incorrect2correct["Keychron K10 (100%)_"] = "Keychron K10 (100%)_";
+correct2URL["Keychron K10 (100%)_"] = "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout";
+
+
+incorrect2correct["K series_"] = "Keychron K10 (100%)_";
+incorrect2correct["K10 keychron_"] = "Keychron K10 (100%)_";
+incorrect2correct["K10 QMK v2_"] = "Keychron K10 (100%)_";
+incorrect2correct["K10 QMK V2_"] = "Keychron K10 (100%)_";
+incorrect2correct["k10 qmk version 2_"] = "Keychron K10 (100%)_";
+incorrect2correct["k10 QMK version 2_"] = "Keychron K10 (100%)_";
+incorrect2correct["K10 qmk version 2_"] = "Keychron K10 (100%)_";
+incorrect2correct["K10 QMK_"] = "Keychron K10 (100%)_";
+incorrect2correct["K10 QMK_"] = "Keychron K10 (100%)_";
+incorrect2correct["K10 V1_"] = "Keychron K10 (100%)_";
+incorrect2correct["k10 v2_"] = "Keychron K10 (100%)_";
+incorrect2correct["k10 V2_"] = "Keychron K10 (100%)_";
+incorrect2correct["K10 v2_"] = "Keychron K10 (100%)_";
+incorrect2correct["K10 V2_"] = "Keychron K10 (100%)_";
+incorrect2correct["k10_"] = "Keychron K10 (100%)_";
+incorrect2correct["K10_"] = "Keychron K10 (100%)_";
+incorrect2correct["K10X_"] = "Keychron K10 (100%)_";
+incorrect2correct["Keychron K10_"] = "Keychron K10 (100%)_";
+incorrect2correct["10E"] = "Keychron K10 HE";
+incorrect2correct["Keychron K10 HE"] = "Keychron K10 HE";
+correct2URL["Keychron K10 HE"] = "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection";
+
+
+incorrect2correct["H10 HE"] = "Keychron K10 HE";
+incorrect2correct["He K10"] = "Keychron K10 HE";
+incorrect2correct["HE K10"] = "Keychron K10 HE";
+incorrect2correct["k10 he"] = "Keychron K10 HE";
+incorrect2correct["k10 HE"] = "Keychron K10 HE";
+incorrect2correct["K10 HE"] = "Keychron K10 HE";
+incorrect2correct["K10 HE se"] = "Keychron K10 HE";
+incorrect2correct["K10 HE SE"] = "Keychron K10 HE";
+incorrect2correct["K10-HE"] = "Keychron K10 HE";
+incorrect2correct["k10he"] = "Keychron K10 HE";
+incorrect2correct["k10HE"] = "Keychron K10 HE";
+incorrect2correct["K10HE"] = "Keychron K10 HE";
+incorrect2correct["K10JE"] = "Keychron K10 HE";
+incorrect2correct["keychron k10 he"] = "Keychron K10 HE";
+incorrect2correct["Keychron k10 he"] = "Keychron K10 HE";
+incorrect2correct["Keychron K10 he"] = "Keychron K10 HE";
+incorrect2correct["keychron k10he"] = "Keychron K10 HE";
+incorrect2correct["Keychron K10HE"] = "Keychron K10 HE";
 incorrect2correct["Keychron K10 HE__"] = "Keychron K10 HE source code__";
 incorrect2correct["Keychron K10 HE source code__"] = "Keychron K10 HE source code__";
 correct2URL["Keychron K10 HE source code__"] = "https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/k10_he";
 
 
-incorrect2correct["Keychron&nbsp;K10&nbsp;HE__"] = "Keychron K10 HE source code__";
+incorrect2correct["K Max series"] = "Keychron K10 Max";
+incorrect2correct["Keychron K10 Max"] = "Keychron K10 Max";
+correct2URL["Keychron K10 Max"] = "https://www.keychron.com/products/keychron-k10-max-qmk-wireless-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["k10 max"] = "Keychron K10 Max";
+incorrect2correct["k10 Max"] = "Keychron K10 Max";
+incorrect2correct["K10 max"] = "Keychron K10 Max";
+incorrect2correct["K10 Max"] = "Keychron K10 Max";
+incorrect2correct["K10 MAX"] = "Keychron K10 Max";
+incorrect2correct["K10&nbsp;Max"] = "Keychron K10 Max";
+incorrect2correct["K10max"] = "Keychron K10 Max";
+incorrect2correct["Kechron K10 Max"] = "Keychron K10 Max";
+incorrect2correct["10 PRO"] = "Keychron K10 Pro";
+incorrect2correct["Keychron K10 Pro"] = "Keychron K10 Pro";
+correct2URL["Keychron K10 Pro"] = "https://keychron.de/collections/k-pro-series-iso-keyboard/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["K Pro series"] = "Keychron K10 Pro";
+incorrect2correct["k10"] = "Keychron K10 Pro";
+incorrect2correct["K10"] = "Keychron K10 Pro";
+incorrect2correct["k10 pro"] = "Keychron K10 Pro";
+incorrect2correct["k10 Pro"] = "Keychron K10 Pro";
+incorrect2correct["K10 pro"] = "Keychron K10 Pro";
+incorrect2correct["K10 Pro"] = "Keychron K10 Pro";
+incorrect2correct["K10 Pro ISO"] = "Keychron K10 Pro";
+incorrect2correct["K10 Pro Max"] = "Keychron K10 Pro";
+incorrect2correct["K10&nbsp;Pro"] = "Keychron K10 Pro";
+incorrect2correct["K10P"] = "Keychron K10 Pro";
+incorrect2correct["K10P-H1"] = "Keychron K10 Pro";
+incorrect2correct["K10P-H3"] = "Keychron K10 Pro";
+incorrect2correct["K10PH1"] = "Keychron K10 Pro";
+incorrect2correct["K10PH3"] = "Keychron K10 Pro";
+incorrect2correct["k10pro"] = "Keychron K10 Pro";
+incorrect2correct["K10pro"] = "Keychron K10 Pro";
+incorrect2correct["K10Pro"] = "Keychron K10 Pro";
+incorrect2correct["Keychain K10"] = "Keychron K10 Pro";
+incorrect2correct["Keychron 10"] = "Keychron K10 Pro";
+incorrect2correct["Keychron 10 PRO"] = "Keychron K10 Pro";
+incorrect2correct["keychron k10 pro"] = "Keychron K10 Pro";
+incorrect2correct["keychron K10 pro"] = "Keychron K10 Pro";
+incorrect2correct["pro 10"] = "Keychron K10 Pro";
+incorrect2correct["pro10"] = "Keychron K10 Pro";
+incorrect2correct["V10 Pro"] = "Keychron K10 Pro";
 incorrect2correct["Keychron K10 Pro__"] = "Keychron K10 Pro source code__";
 incorrect2correct["Keychron K10 Pro source code__"] = "Keychron K10 Pro source code__";
 correct2URL["Keychron K10 Pro source code__"] = "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k10_pro";
 
 
-incorrect2correct["Keychron&nbsp;K10&nbsp;Pro__"] = "Keychron K10 Pro source code__";
 incorrect2correct["02a3____"] = "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____";
 incorrect2correct["Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____"] = "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____";
 correct2URL["Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____"] = "https://www.keychron.com/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard?variant=40618605674585";
@@ -82876,7 +83824,6 @@ incorrect2correct["02A3____"] = "Keychron K10 Pro, white backlight variant (USB 
 incorrect2correct["0x02A3____"] = "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____";
 incorrect2correct["K10P-A1____"] = "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____";
 incorrect2correct["Keychron K10 Pro____"] = "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____";
-incorrect2correct["Keychron&nbsp;K10&nbsp;Pro____"] = "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____";
 incorrect2correct["Git branch \"wls_2025q1\" in Keychron's fork______"] = "Keychron K10 V2 source code______";
 incorrect2correct["Keychron K10 V2 source code______"] = "Keychron K10 V2 source code______";
 correct2URL["Keychron K10 V2 source code______"] = "https://github.com/Keychron/qmk_firmware/tree/wls_2025q1/keyboards/keychron/k10_version_2";
@@ -82884,7 +83831,7 @@ correct2URL["Keychron K10 V2 source code______"] = "https://github.com/Keychron/
 
 incorrect2correct["K&nbsp;QMK&nbsp;series______"] = "Keychron K10 V2 source code______";
 incorrect2correct["K10 V2 source code______"] = "Keychron K10 V2 source code______";
-incorrect2correct["Keychron&nbsp;K&nbsp;QMK&nbsp;series______"] = "Keychron K10 V2 source code______";
+incorrect2correct["Keychron K QMK series______"] = "Keychron K10 V2 source code______";
 incorrect2correct["the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed______"] = "Keychron K10 V2 source code______";
 incorrect2correct["wls_2025q1______"] = "Keychron K10 V2 source code______";
 incorrect2correct["K11"] = "Keychron K11 Pro";
@@ -82977,6 +83924,13 @@ correct2URL["Keychron K2 Pro source code__"] = "https://github.com/Keychron/qmk_
 
 
 incorrect2correct["Keychron&nbsp;K2&nbsp;Pro__"] = "Keychron K2 Pro source code__";
+incorrect2correct["K2 Ultra"] = "Keychron K2 Ultra 8K (80%)";
+incorrect2correct["Keychron K2 Ultra 8K (80%)"] = "Keychron K2 Ultra 8K (80%)";
+correct2URL["Keychron K2 Ultra 8K (80%)"] = "https://www.keychron.com/products/keychron-k2-ultra-8k-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["K2 Ultra 8K"] = "Keychron K2 Ultra 8K (80%)";
+incorrect2correct["Keychron K2 Ultra 8K"] = "Keychron K2 Ultra 8K (80%)";
 incorrect2correct["k2 v2_"] = "Keychron K2_";
 incorrect2correct["Keychron K2_"] = "Keychron K2_";
 correct2URL["Keychron K2_"] = "https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard-uk-iso-layout";
@@ -82992,6 +83946,27 @@ incorrect2correct["k2v2_"] = "Keychron K2_";
 incorrect2correct["K2V2_"] = "Keychron K2_";
 incorrect2correct["Keychron k2_"] = "Keychron K2_";
 incorrect2correct["keychronK2_"] = "Keychron K2_";
+incorrect2correct["K3 HE"] = "Keychron K3 HE";
+incorrect2correct["Keychron K3 HE"] = "Keychron K3 HE";
+correct2URL["Keychron K3 HE"] = "https://www.keychron.com/products/keychron-k3-he-wireless-magnetic-switch-custom-keyboard";
+
+
+incorrect2correct["k3 max"] = "Keychron K3 Max";
+incorrect2correct["Keychron K3 Max"] = "Keychron K3 Max";
+correct2URL["Keychron K3 Max"] = "https://www.keychron.com/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["K3 max"] = "Keychron K3 Max";
+incorrect2correct["K3 Max"] = "Keychron K3 Max";
+incorrect2correct["K3 MAX"] = "Keychron K3 Max";
+incorrect2correct["K3 Mx"] = "Keychron K3 Max";
+incorrect2correct["K3M"] = "Keychron K3 Max";
+incorrect2correct["k3max"] = "Keychron K3 Max";
+incorrect2correct["K3max"] = "Keychron K3 Max";
+incorrect2correct["K3Max"] = "Keychron K3 Max";
+incorrect2correct["Keychron K3 max"] = "Keychron K3 Max";
+incorrect2correct["Keycron K3 Max"] = "Keychron K3 Max";
+incorrect2correct["M3 Max"] = "Keychron K3 Max";
 incorrect2correct["K3 Max default keymap____"] = "Keychron K3 Max default keymap (ISO RGB)____";
 incorrect2correct["Keychron K3 Max default keymap (ISO RGB)____"] = "Keychron K3 Max default keymap (ISO RGB)____";
 correct2URL["Keychron K3 Max default keymap (ISO RGB)____"] = "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k3_max/iso/rgb/keymaps/via/keymap.c#L44";
@@ -82999,13 +83974,39 @@ correct2URL["Keychron K3 Max default keymap (ISO RGB)____"] = "https://github.co
 
 incorrect2correct["K3 Max keymap____"] = "Keychron K3 Max default keymap (ISO RGB)____";
 incorrect2correct["Keychron K3 Max____"] = "Keychron K3 Max default keymap (ISO RGB)____";
-incorrect2correct["Keychron&nbsp;K3&nbsp;Max____"] = "Keychron K3 Max default keymap (ISO RGB)____";
 incorrect2correct["Keychron K3 Max__"] = "Keychron K3 Max source code__";
 incorrect2correct["Keychron K3 Max source code__"] = "Keychron K3 Max source code__";
 correct2URL["Keychron K3 Max source code__"] = "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k3_max";
 
 
-incorrect2correct["Keychron&nbsp;K3&nbsp;Max__"] = "Keychron K3 Max source code__";
+incorrect2correct["k3"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["Keychron K3 Pro ISO (80%)"] = "Keychron K3 Pro ISO (80%)";
+correct2URL["Keychron K3 Pro ISO (80%)"] = "https://www.keychron.com/products/keychron-k3-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["K3"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["k3 pro"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["K3 pro"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["K3 Pro"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["K3 PRO"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["K3 Pro ISO"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["K3P"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["k3pro"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["Keychron K3"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["Keychron k3 pro"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["Keychron K3 Pro"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["Keychron K3 Pro ISO"] = "Keychron K3 Pro ISO (80%)";
+incorrect2correct["K3 8K"] = "Keychron K3 Ultra 8K";
+incorrect2correct["Keychron K3 Ultra 8K"] = "Keychron K3 Ultra 8K";
+correct2URL["Keychron K3 Ultra 8K"] = "https://www.keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["k3 ultra"] = "Keychron K3 Ultra 8K";
+incorrect2correct["K3 Ultra"] = "Keychron K3 Ultra 8K";
+incorrect2correct["K3 Ultra (8K)"] = "Keychron K3 Ultra 8K";
+incorrect2correct["K3 ultra 8k"] = "Keychron K3 Ultra 8K";
+incorrect2correct["K3 Ultra 8k"] = "Keychron K3 Ultra 8K";
+incorrect2correct["K3 Ultra 8K"] = "Keychron K3 Ultra 8K";
 incorrect2correct["k3 v2_"] = "Keychron K3_";
 incorrect2correct["Keychron K3_"] = "Keychron K3_";
 correct2URL["Keychron K3_"] = "https://www.keychron.com/collections/k3-iso-keyboards/products/keychron-k3-ultra-slim-wireless-mechanical-keyboard-nordic-iso-layout-version-2";
@@ -83034,6 +84035,20 @@ incorrect2correct["K4 QMK"] = "Keychron K4";
 incorrect2correct["K4 V2"] = "Keychron K4";
 incorrect2correct["K4 V3"] = "Keychron K4";
 incorrect2correct["K4v3"] = "Keychron K4";
+incorrect2correct["K5 Mas"] = "Keychron K5 Max";
+incorrect2correct["Keychron K5 Max"] = "Keychron K5 Max";
+correct2URL["Keychron K5 Max"] = "https://www.keychron.com/products/keychron-k5-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["k5 max"] = "Keychron K5 Max";
+incorrect2correct["k5 Max"] = "Keychron K5 Max";
+incorrect2correct["K5 max"] = "Keychron K5 Max";
+incorrect2correct["K5 Max"] = "Keychron K5 Max";
+incorrect2correct["K5 MAX"] = "Keychron K5 Max";
+incorrect2correct["K5-Max"] = "Keychron K5 Max";
+incorrect2correct["Keychain K5 Max"] = "Keychron K5 Max";
+incorrect2correct["KeyChron K5 max"] = "Keychron K5 Max";
+incorrect2correct["KeyChron K5 Max"] = "Keychron K5 Max";
 incorrect2correct["K5 Max default keymap____"] = "Keychron K5 Max default keymap (ISO RGB)____";
 incorrect2correct["Keychron K5 Max default keymap (ISO RGB)____"] = "Keychron K5 Max default keymap (ISO RGB)____";
 correct2URL["Keychron K5 Max default keymap (ISO RGB)____"] = "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k5_max/iso/rgb/keymaps/via/keymap.c#L45";
@@ -83042,13 +84057,11 @@ correct2URL["Keychron K5 Max default keymap (ISO RGB)____"] = "https://github.co
 incorrect2correct["K5 Max keymap____"] = "Keychron K5 Max default keymap (ISO RGB)____";
 incorrect2correct["K5 Max____"] = "Keychron K5 Max default keymap (ISO RGB)____";
 incorrect2correct["Keychron K5 Max____"] = "Keychron K5 Max default keymap (ISO RGB)____";
-incorrect2correct["Keychron&nbsp;K5&nbsp;Max____"] = "Keychron K5 Max default keymap (ISO RGB)____";
 incorrect2correct["Keychron K5 Max__"] = "Keychron K5 Max source code__";
 incorrect2correct["Keychron K5 Max source code__"] = "Keychron K5 Max source code__";
 correct2URL["Keychron K5 Max source code__"] = "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k5_max";
 
 
-incorrect2correct["Keychron&nbsp;K5&nbsp;Max__"] = "Keychron K5 Max source code__";
 incorrect2correct["K5 Pro default keymap____"] = "Keychron K5 Pro default keymap (ISO RGB)____";
 incorrect2correct["Keychron K5 Pro default keymap (ISO RGB)____"] = "Keychron K5 Pro default keymap (ISO RGB)____";
 correct2URL["Keychron K5 Pro default keymap (ISO RGB)____"] = "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k5_pro/iso/rgb/keymaps/via/keymap.c#L44";
@@ -83056,16 +84069,28 @@ correct2URL["Keychron K5 Pro default keymap (ISO RGB)____"] = "https://github.co
 
 incorrect2correct["K5 Pro keymap____"] = "Keychron K5 Pro default keymap (ISO RGB)____";
 incorrect2correct["K5 Pro____"] = "Keychron K5 Pro default keymap (ISO RGB)____";
+incorrect2correct["Keychron K5 Pro ISO (105%)____"] = "Keychron K5 Pro default keymap (ISO RGB)____";
 incorrect2correct["Keychron K5 Pro ISO____"] = "Keychron K5 Pro default keymap (ISO RGB)____";
-incorrect2correct["Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)____"] = "Keychron K5 Pro default keymap (ISO RGB)____";
-incorrect2correct["Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO____"] = "Keychron K5 Pro default keymap (ISO RGB)____";
-incorrect2correct["Keychron K5 Pro ISO__"] = "Keychron K5 Pro source code__";
+incorrect2correct["5pro"] = "Keychron K5 Pro ISO (105%)";
+incorrect2correct["Keychron K5 Pro ISO (105%)"] = "Keychron K5 Pro ISO (105%)";
+correct2URL["Keychron K5 Pro ISO (105%)"] = "https://www.keychron.com/products/keychron-k5-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["k5"] = "Keychron K5 Pro ISO (105%)";
+incorrect2correct["K5"] = "Keychron K5 Pro ISO (105%)";
+incorrect2correct["k5 pro"] = "Keychron K5 Pro ISO (105%)";
+incorrect2correct["K5 pro"] = "Keychron K5 Pro ISO (105%)";
+incorrect2correct["K5 Pro"] = "Keychron K5 Pro ISO (105%)";
+incorrect2correct["K5 Pro"] = "Keychron K5 Pro ISO (105%)";
+incorrect2correct["K5 Pro ISO"] = "Keychron K5 Pro ISO (105%)";
+incorrect2correct["Keychron K5 Pro"] = "Keychron K5 Pro ISO (105%)";
+incorrect2correct["Keychron K5 Pro ISO"] = "Keychron K5 Pro ISO (105%)";
+incorrect2correct["Keychron K5 Pro ISO (105%)__"] = "Keychron K5 Pro source code__";
 incorrect2correct["Keychron K5 Pro source code__"] = "Keychron K5 Pro source code__";
 correct2URL["Keychron K5 Pro source code__"] = "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k5_pro";
 
 
-incorrect2correct["Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)__"] = "Keychron K5 Pro source code__";
-incorrect2correct["Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO__"] = "Keychron K5 Pro source code__";
+incorrect2correct["Keychron K5 Pro ISO__"] = "Keychron K5 Pro source code__";
 incorrect2correct["0251___"] = "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___";
 incorrect2correct["Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___"] = "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___";
 correct2URL["Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___"] = "https://www.keychron.com/products/keychron-k5-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection?variant=40516482334809";
@@ -83073,9 +84098,8 @@ correct2URL["Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___"]
 
 incorrect2correct["0x0251___"] = "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___";
 incorrect2correct["K5P-H3-BO___"] = "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___";
+incorrect2correct["Keychron K5 Pro ISO (105%)___"] = "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___";
 incorrect2correct["Keychron K5 Pro ISO___"] = "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___";
-incorrect2correct["Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)___"] = "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___";
-incorrect2correct["Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO___"] = "Keychron K5 Pro, ISO RGB backlight variant (USB 0x3434/0x0251)___";
 incorrect2correct["K5 QMK v2_"] = "Keychron K5_";
 incorrect2correct["Keychron K5_"] = "Keychron K5_";
 correct2URL["Keychron K5_"] = "https://www.keychron.com/products/keychron-k5-ultra-slim-wireless-mechanical-keyboard";
@@ -83181,6 +84205,7 @@ incorrect2correct["KeyChron Launcher_"] = "Keychron Launcher_";
 incorrect2correct["Keychron luncher_"] = "Keychron Launcher_";
 incorrect2correct["Keychron Luncher_"] = "Keychron Launcher_";
 incorrect2correct["Keychron Via clone_"] = "Keychron Launcher_";
+incorrect2correct["Keychron web Launcher_"] = "Keychron Launcher_";
 incorrect2correct["Keychron Web Launcher_"] = "Keychron Launcher_";
 incorrect2correct["Keychron_"] = "Keychron Launcher_";
 incorrect2correct["Keychron's clone of Via_"] = "Keychron Launcher_";
@@ -83217,6 +84242,8 @@ incorrect2correct["launched_"] = "Keychron Launcher_";
 incorrect2correct["launcher web configurator_"] = "Keychron Launcher_";
 incorrect2correct["Launcher web configurator_"] = "Keychron Launcher_";
 incorrect2correct["Launcher Web Configurator_"] = "Keychron Launcher_";
+incorrect2correct["launcher web interface_"] = "Keychron Launcher_";
+incorrect2correct["launcher Web interface_"] = "Keychron Launcher_";
 incorrect2correct["launcher_"] = "Keychron Launcher_";
 incorrect2correct["Launcher_"] = "Keychron Launcher_";
 incorrect2correct["launcher.keychrome.com_"] = "Keychron Launcher_";
@@ -83301,6 +84328,19 @@ incorrect2correct["Lemokey p1"] = "Keychron Lemokey P1";
 incorrect2correct["Lemokey P1"] = "Keychron Lemokey P1";
 incorrect2correct["Lemonkey P1"] = "Keychron Lemokey P1";
 incorrect2correct["P1"] = "Keychron Lemokey P1";
+incorrect2correct["Lemokey P HE"] = "Keychron Lemokey P1 HE";
+incorrect2correct["Keychron Lemokey P1 HE"] = "Keychron Lemokey P1 HE";
+correct2URL["Keychron Lemokey P1 HE"] = "https://www.keychron.com/products/lemokey-p1-he-wireless-magnetic-switch-custom-gaming-keyboard-iso-layout-collection";
+
+
+incorrect2correct["lemokey p1 he"] = "Keychron Lemokey P1 HE";
+incorrect2correct["Lemokey P1 HE"] = "Keychron Lemokey P1 HE";
+incorrect2correct["Lemokey P1 PRO HE"] = "Keychron Lemokey P1 HE";
+incorrect2correct["Lemokey P1HE"] = "Keychron Lemokey P1 HE";
+incorrect2correct["LK P1 HE"] = "Keychron Lemokey P1 HE";
+incorrect2correct["p1 HE"] = "Keychron Lemokey P1 HE";
+incorrect2correct["P1 HE"] = "Keychron Lemokey P1 HE";
+incorrect2correct["P1&nbsp;HE"] = "Keychron Lemokey P1 HE";
 incorrect2correct["Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro__"] = "Keychron Lemokey P1 Pro source code__";
 incorrect2correct["Keychron Lemokey P1 Pro source code__"] = "Keychron Lemokey P1 Pro source code__";
 correct2URL["Keychron Lemokey P1 Pro source code__"] = "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/lemokey/p1_pro";
@@ -83401,12 +84441,90 @@ incorrect2correct["Keychron M7"] = "Keychron M7";
 correct2URL["Keychron M7"] = "https://www.keychron.com/products/keychron-m7-wireless-mouse";
 
 
+incorrect2correct["Keychrone nape pro"] = "Keychron Nape Pro";
+incorrect2correct["Keychron Nape Pro"] = "Keychron Nape Pro";
+correct2URL["Keychron Nape Pro"] = "https://www.keychron.com/products/keychron-nape-pro-wireless-trackball-mouse";
+
+
+incorrect2correct["nape"] = "Keychron Nape Pro";
+incorrect2correct["Nape"] = "Keychron Nape Pro";
+incorrect2correct["nape pro"] = "Keychron Nape Pro";
+incorrect2correct["Nape Pro"] = "Keychron Nape Pro";
 incorrect2correct["Keychron product design blunder"] = "Keychron poor product design";
 incorrect2correct["Keychron poor product design"] = "Keychron poor product design";
 correct2URL["Keychron poor product design"] = "https://www.reddit.com/r/Keychron/comments/1gk35qy/comment/lvi59ob/";
 
 
 incorrect2correct["poor product design"] = "Keychron poor product design";
+incorrect2correct["HE keyboards___"] = "Keychron Q HE series___";
+incorrect2correct["Keychron Q HE series___"] = "Keychron Q HE series___";
+correct2URL["Keychron Q HE series___"] = "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard";
+
+
+incorrect2correct["HE___"] = "Keychron Q HE series___";
+incorrect2correct["Keychron Q6 HE___"] = "Keychron Q HE series___";
+incorrect2correct["Keychron&nbsp;Q6&nbsp;HE (105%)___"] = "Keychron Q HE series___";
+incorrect2correct["Keychron&nbsp;Q6&nbsp;HE___"] = "Keychron Q HE series___";
+incorrect2correct["q he series___"] = "Keychron Q HE series___";
+incorrect2correct["Q HE series___"] = "Keychron Q HE series___";
+incorrect2correct["q he___"] = "Keychron Q HE series___";
+incorrect2correct["Q HE___"] = "Keychron Q HE series___";
+incorrect2correct["Q&nbsp;HE&nbsp;series___"] = "Keychron Q HE series___";
+incorrect2correct["QHE___"] = "Keychron Q HE series___";
+incorrect2correct["the HE___"] = "Keychron Q HE series___";
+incorrect2correct["Keychron Q6 Max___"] = "Keychron Q Max series___";
+incorrect2correct["Keychron Q Max series___"] = "Keychron Q Max series___";
+correct2URL["Keychron Q Max series___"] = "https://www.keychron.com/products/keychron-q6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["Keychron&nbsp;Q6&nbsp;Max___"] = "Keychron Q Max series___";
+incorrect2correct["q max series___"] = "Keychron Q Max series___";
+incorrect2correct["Q Max series___"] = "Keychron Q Max series___";
+incorrect2correct["Q Max Series___"] = "Keychron Q Max series___";
+incorrect2correct["Q max seriesc___"] = "Keychron Q Max series___";
+incorrect2correct["q max___"] = "Keychron Q Max series___";
+incorrect2correct["Q Max___"] = "Keychron Q Max series___";
+incorrect2correct["q series max___"] = "Keychron Q Max series___";
+incorrect2correct["Q-Max___"] = "Keychron Q Max series___";
+incorrect2correct["Q&nbsp;Max&nbsp;series___"] = "Keychron Q Max series___";
+incorrect2correct["qmax___"] = "Keychron Q Max series___";
+incorrect2correct["Keychron Q6 Pro___"] = "Keychron Q Pro series___";
+incorrect2correct["Keychron Q Pro series___"] = "Keychron Q Pro series___";
+correct2URL["Keychron Q Pro series___"] = "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["Keychron&nbsp;Q6&nbsp;Pro___"] = "Keychron Q Pro series___";
+incorrect2correct["q pro series___"] = "Keychron Q Pro series___";
+incorrect2correct["Q Pro series___"] = "Keychron Q Pro series___";
+incorrect2correct["q pro___"] = "Keychron Q Pro series___";
+incorrect2correct["Q Pro___"] = "Keychron Q Pro series___";
+incorrect2correct["Q-Pro___"] = "Keychron Q Pro series___";
+incorrect2correct["Q&nbsp;Pro&nbsp;series___"] = "Keychron Q Pro series___";
+incorrect2correct["Keychron Q6___"] = "Keychron Q series___";
+incorrect2correct["Keychron Q series___"] = "Keychron Q series___";
+correct2URL["Keychron Q series___"] = "https://www.keychron.com/products/keychron-q6-qmk-custom-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["Q serie___"] = "Keychron Q series___";
+incorrect2correct["q series___"] = "Keychron Q series___";
+incorrect2correct["Q series___"] = "Keychron Q series___";
+incorrect2correct["q___"] = "Keychron Q series___";
+incorrect2correct["Q___"] = "Keychron Q series___";
+incorrect2correct["q-series___"] = "Keychron Q series___";
+incorrect2correct["Q-series___"] = "Keychron Q series___";
+incorrect2correct["Q&nbsp;series___"] = "Keychron Q series___";
+incorrect2correct["Keychron Q6 Ultra 8K___"] = "Keychron Q Ultra 8K series___";
+incorrect2correct["Keychron Q Ultra 8K series___"] = "Keychron Q Ultra 8K series___";
+correct2URL["Keychron Q Ultra 8K series___"] = "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["Q Ultra 8K series___"] = "Keychron Q Ultra 8K series___";
+incorrect2correct["Q Ultra 8k___"] = "Keychron Q Ultra 8K series___";
+incorrect2correct["Q Ultra 8K___"] = "Keychron Q Ultra 8K series___";
+incorrect2correct["Q ultra series___"] = "Keychron Q Ultra 8K series___";
+incorrect2correct["Q Ultra series___"] = "Keychron Q Ultra 8K series___";
+incorrect2correct["Q Ultra___"] = "Keychron Q Ultra 8K series___";
+incorrect2correct["Q6 Ultra 8K___"] = "Keychron Q Ultra 8K series___";
 incorrect2correct["q0"] = "Keychron Q0";
 incorrect2correct["Keychron Q0"] = "Keychron Q0";
 correct2URL["Keychron Q0"] = "https://www.keychron.com/pages/keychron-q0-customizable-mechanical-number-pad";
@@ -83442,6 +84560,18 @@ correct2URL["Keychron Q1 HE__"] = "https://www.kickstarter.com/projects/keytron/
 
 
 incorrect2correct["Keychron&nbsp;Q1&nbsp;HE__"] = "Keychron Q1 HE__";
+incorrect2correct["Q1 HE__"] = "Keychron Q1 HE__";
+incorrect2correct["keychron Q1 Ultra"] = "Keychron Q1 Ultra 8K";
+incorrect2correct["Keychron Q1 Ultra 8K"] = "Keychron Q1 Ultra 8K";
+correct2URL["Keychron Q1 Ultra 8K"] = "https://www.keychron.com/products/keychron-q1-ultra-8k-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["Q1 Ulta 8k"] = "Keychron Q1 Ultra 8K";
+incorrect2correct["q1 ultra"] = "Keychron Q1 Ultra 8K";
+incorrect2correct["Q1 ultra"] = "Keychron Q1 Ultra 8K";
+incorrect2correct["Q1 Ultra"] = "Keychron Q1 Ultra 8K";
+incorrect2correct["Q1 Ultra 8k"] = "Keychron Q1 Ultra 8K";
+incorrect2correct["Q1 Ultra 8K"] = "Keychron Q1 Ultra 8K";
 incorrect2correct["q10"] = "Keychron Q10";
 incorrect2correct["Keychron Q10"] = "Keychron Q10";
 correct2URL["Keychron Q10"] = "https://www.keychron.com/pages/keychron-q10-customizable-mechanical-keyboard";
@@ -83505,11 +84635,12 @@ incorrect2correct["0B30___"] = "Keychron Q3 HE, ANSI knob carbon black variant (
 incorrect2correct["0x0B30___"] = "Keychron Q3 HE, ANSI knob carbon black variant (USB 0x3434/0x0B30)___";
 incorrect2correct["Keychron Q3 HE___"] = "Keychron Q3 HE, ANSI knob carbon black variant (USB 0x3434/0x0B30)___";
 incorrect2correct["Keychron&nbsp;Q3&nbsp;HE (85%)___"] = "Keychron Q3 HE, ANSI knob carbon black variant (USB 0x3434/0x0B30)___";
-incorrect2correct["q3 pro se"] = "Keychron Q3 Pro SE (special edition)";
+incorrect2correct["Keychron Q3 Pro SE"] = "Keychron Q3 Pro SE (special edition)";
 incorrect2correct["Keychron Q3 Pro SE (special edition)"] = "Keychron Q3 Pro SE (special edition)";
 correct2URL["Keychron Q3 Pro SE (special edition)"] = "https://www.keychron.com/products/keychron-q3-pro-qmk-via-wireless-custom-mechanical-keyboard";
 
 
+incorrect2correct["q3 pro se"] = "Keychron Q3 Pro SE (special edition)";
 incorrect2correct["Q3 Pro SE"] = "Keychron Q3 Pro SE (special edition)";
 incorrect2correct["q5"] = "Keychron Q5";
 incorrect2correct["Keychron Q5"] = "Keychron Q5";
@@ -83517,6 +84648,15 @@ correct2URL["Keychron Q5"] = "https://www.keychron.com/pages/keychron-q5-customi
 
 
 incorrect2correct["Q5"] = "Keychron Q5";
+incorrect2correct["Keychron Q5 Pro"] = "Keychron Q5 Pro (95%)";
+incorrect2correct["Keychron Q5 Pro (95%)"] = "Keychron Q5 Pro (95%)";
+correct2URL["Keychron Q5 Pro (95%)"] = "https://www.keychron.com/products/keychron-q5-pro-qmk-via-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["q5 pro"] = "Keychron Q5 Pro (95%)";
+incorrect2correct["q5 Pro"] = "Keychron Q5 Pro (95%)";
+incorrect2correct["Q5 pro"] = "Keychron Q5 Pro (95%)";
+incorrect2correct["Q5 Pro"] = "Keychron Q5 Pro (95%)";
 incorrect2correct["keychron Q6"] = "Keychron Q6";
 incorrect2correct["Keychron Q6"] = "Keychron Q6";
 correct2URL["Keychron Q6"] = "https://www.keychron.com/products/keychron-q6-qmk-custom-mechanical-keyboard-iso-layout-collection";
@@ -83546,6 +84686,20 @@ correct2URL["Keychron Q6 Max source code__"] = "https://github.com/Keychron/qmk_
 
 
 incorrect2correct["Keychron&nbsp;Q6&nbsp;Max__"] = "Keychron Q6 Max source code__";
+incorrect2correct["Keychron Q6 ULTRA"] = "Keychron Q6 Ultra 8K";
+incorrect2correct["Keychron Q6 Ultra 8K"] = "Keychron Q6 Ultra 8K";
+correct2URL["Keychron Q6 Ultra 8K"] = "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["KEYCRON Q6 ULTRA"] = "Keychron Q6 Ultra 8K";
+incorrect2correct["Q6 Max Ultra"] = "Keychron Q6 Ultra 8K";
+incorrect2correct["Q6 ultra"] = "Keychron Q6 Ultra 8K";
+incorrect2correct["Q6 Ultra"] = "Keychron Q6 Ultra 8K";
+incorrect2correct["Q6 ULTRA"] = "Keychron Q6 Ultra 8K";
+incorrect2correct["Q6 ultra 8k"] = "Keychron Q6 Ultra 8K";
+incorrect2correct["Q6 Ultra 8k"] = "Keychron Q6 Ultra 8K";
+incorrect2correct["Q6 Ultra 8K"] = "Keychron Q6 Ultra 8K";
+incorrect2correct["Q6 Ultra AK"] = "Keychron Q6 Ultra 8K";
 incorrect2correct["q60"] = "Keychron Q60";
 incorrect2correct["Keychron Q60"] = "Keychron Q60";
 correct2URL["Keychron Q60"] = "https://www.keychron.com/products/keychron-q60-qmk-custom-mechanical-keyboard";
@@ -83596,12 +84750,58 @@ correct2URL["Keychron Q9"] = "https://www.keychron.com/products/keychron-q9-qmk-
 
 
 incorrect2correct["Q9"] = "Keychron Q9";
+incorrect2correct["Keychron S1___"] = "Keychron S series___";
+incorrect2correct["Keychron S series___"] = "Keychron S series___";
+correct2URL["Keychron S series___"] = "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard";
+
+
+incorrect2correct["S series___"] = "Keychron S series___";
+incorrect2correct["S&nbsp;series___"] = "Keychron S series___";
+incorrect2correct["S1___"] = "Keychron S series___";
 incorrect2correct["keychron S1"] = "Keychron S1";
 incorrect2correct["Keychron S1"] = "Keychron S1";
 correct2URL["Keychron S1"] = "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard";
 
 
 incorrect2correct["S1"] = "Keychron S1";
+incorrect2correct["Keychron V6 Max___"] = "Keychron V Max series___";
+incorrect2correct["Keychron V Max series___"] = "Keychron V Max series___";
+correct2URL["Keychron V Max series___"] = "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["v max series___"] = "Keychron V Max series___";
+incorrect2correct["V Max series___"] = "Keychron V Max series___";
+incorrect2correct["V Max Series___"] = "Keychron V Max series___";
+incorrect2correct["v max___"] = "Keychron V Max series___";
+incorrect2correct["V Max___"] = "Keychron V Max series___";
+incorrect2correct["V-Max___"] = "Keychron V Max series___";
+incorrect2correct["V&nbsp;Max&nbsp;series___"] = "Keychron V Max series___";
+incorrect2correct["Keychron V6 ISO___"] = "Keychron V series___";
+incorrect2correct["Keychron V series___"] = "Keychron V series___";
+correct2URL["Keychron V series___"] = "https://www.keychron.com/products/keychron-v6-qmk-custom-mechanical-keyboard-iso-layout-collection";
+
+
+incorrect2correct["v series___"] = "Keychron V series___";
+incorrect2correct["V series___"] = "Keychron V series___";
+incorrect2correct["V series___"] = "Keychron V series___";
+incorrect2correct["v___"] = "Keychron V series___";
+incorrect2correct["V___"] = "Keychron V series___";
+incorrect2correct["V&nbsp;series___"] = "Keychron V series___";
+incorrect2correct["Keychron V6 Ultra 8K___"] = "Keychron V Ultra 8K series___";
+incorrect2correct["Keychron V Ultra 8K series___"] = "Keychron V Ultra 8K series___";
+correct2URL["Keychron V Ultra 8K series___"] = "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["V Ultra 8K series___"] = "Keychron V Ultra 8K series___";
+incorrect2correct["V Ultra 8K___"] = "Keychron V Ultra 8K series___";
+incorrect2correct["V ultra series___"] = "Keychron V Ultra 8K series___";
+incorrect2correct["V Ultra series___"] = "Keychron V Ultra 8K series___";
+incorrect2correct["V Ultra___"] = "Keychron V Ultra 8K series___";
+incorrect2correct["V1 8K"] = "Keychron V1 8K";
+incorrect2correct["Keychron V1 8K"] = "Keychron V1 8K";
+correct2URL["Keychron V1 8K"] = "https://www.keychron.com/products/keychron-v1-8k-qmk-wired-custom-mechanical-keyboard";
+
+
 incorrect2correct["keychron v1"] = "Keychron V1 ISO";
 incorrect2correct["Keychron V1 ISO"] = "Keychron V1 ISO";
 correct2URL["Keychron V1 ISO"] = "https://www.keychron.com/products/keychron-v1-qmk-custom-mechanical-keyboard-iso-layout-collection";
@@ -83611,6 +84811,39 @@ incorrect2correct["Keychron v1"] = "Keychron V1 ISO";
 incorrect2correct["Keychron V1"] = "Keychron V1 ISO";
 incorrect2correct["v1"] = "Keychron V1 ISO";
 incorrect2correct["V1"] = "Keychron V1 ISO";
+incorrect2correct["V1 ISO"] = "Keychron V1 ISO";
+incorrect2correct["keychron v1 max"] = "Keychron V1 Max";
+incorrect2correct["Keychron V1 Max"] = "Keychron V1 Max";
+correct2URL["Keychron V1 Max"] = "https://www.keychron.com/products/keychron-v1-max-qmk-via-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["Keychron v1 max"] = "Keychron V1 Max";
+incorrect2correct["Keychron V1 max"] = "Keychron V1 Max";
+incorrect2correct["Keychron V1 MAX"] = "Keychron V1 Max";
+incorrect2correct["KEYCHRON V1 MAX"] = "Keychron V1 Max";
+incorrect2correct["max v1"] = "Keychron V1 Max";
+incorrect2correct["v1 max"] = "Keychron V1 Max";
+incorrect2correct["V1 max"] = "Keychron V1 Max";
+incorrect2correct["V1 Max"] = "Keychron V1 Max";
+incorrect2correct["V1 MAX"] = "Keychron V1 Max";
+incorrect2correct["V1&nbsp;Max"] = "Keychron V1 Max";
+incorrect2correct["V1Max"] = "Keychron V1 Max";
+incorrect2correct["V1MAX"] = "Keychron V1 Max";
+incorrect2correct["Keychron V1 Ultra"] = "Keychron V1 Ultra 8K";
+incorrect2correct["Keychron V1 Ultra 8K"] = "Keychron V1 Ultra 8K";
+correct2URL["Keychron V1 Ultra 8K"] = "https://www.keychron.com/products/keychron-v1-ultra-8k-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["KEYCHRON VI ULTRA 8k"] = "Keychron V1 Ultra 8K";
+incorrect2correct["v1 ultra"] = "Keychron V1 Ultra 8K";
+incorrect2correct["V1 ultra"] = "Keychron V1 Ultra 8K";
+incorrect2correct["V1 Ultra"] = "Keychron V1 Ultra 8K";
+incorrect2correct["v1 Ultra 8k"] = "Keychron V1 Ultra 8K";
+incorrect2correct["V1 Ultra 8k"] = "Keychron V1 Ultra 8K";
+incorrect2correct["V1 Ultra 8K"] = "Keychron V1 Ultra 8K";
+incorrect2correct["V1 ULTRA 8k"] = "Keychron V1 Ultra 8K";
+incorrect2correct["V1 ULTRA 8K"] = "Keychron V1 Ultra 8K";
+incorrect2correct["VI ULTRA 8k"] = "Keychron V1 Ultra 8K";
 incorrect2correct["keychron v10"] = "Keychron V10 ISO";
 incorrect2correct["Keychron V10 ISO"] = "Keychron V10 ISO";
 correct2URL["Keychron V10 ISO"] = "https://www.keychron.com/products/keychron-v10-alice-layout-qmk-custom-mechanical-keyboard-iso-layout-collection";
@@ -83621,6 +84854,7 @@ incorrect2correct["Keychron V10"] = "Keychron V10 ISO";
 incorrect2correct["V 10"] = "Keychron V10 ISO";
 incorrect2correct["v10"] = "Keychron V10 ISO";
 incorrect2correct["V10"] = "Keychron V10 ISO";
+incorrect2correct["V10 ISO"] = "Keychron V10 ISO";
 incorrect2correct["v10 max"] = "Keychron V10 Max";
 incorrect2correct["Keychron V10 Max"] = "Keychron V10 Max";
 correct2URL["Keychron V10 Max"] = "https://www.keychron.com/products/keychron-v10-max-qmk-via-wireless-custom-mechanical-keyboard";
@@ -83636,6 +84870,14 @@ correct2URL["Keychron V2 ISO"] = "https://www.keychron.com/products/keychron-v2-
 incorrect2correct["Keychron V2"] = "Keychron V2 ISO";
 incorrect2correct["Keytron V2"] = "Keychron V2 ISO";
 incorrect2correct["V2"] = "Keychron V2 ISO";
+incorrect2correct["V2 ISO"] = "Keychron V2 ISO";
+incorrect2correct["v2 max"] = "Keychron V2 Max";
+incorrect2correct["Keychron V2 Max"] = "Keychron V2 Max";
+correct2URL["Keychron V2 Max"] = "https://www.keychron.com/products/keychron-v2-max-qmk-via-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["V2 Max"] = "Keychron V2 Max";
+incorrect2correct["V2 MAX"] = "Keychron V2 Max";
 incorrect2correct["Keychron V3"] = "Keychron V3 ISO";
 incorrect2correct["Keychron V3 ISO"] = "Keychron V3 ISO";
 correct2URL["Keychron V3 ISO"] = "https://www.keychron.com/products/keychron-v3-qmk-custom-mechanical-keyboard-iso-layout-collection";
@@ -83643,6 +84885,7 @@ correct2URL["Keychron V3 ISO"] = "https://www.keychron.com/products/keychron-v3-
 
 incorrect2correct["v3"] = "Keychron V3 ISO";
 incorrect2correct["V3"] = "Keychron V3 ISO";
+incorrect2correct["V3 ISO"] = "Keychron V3 ISO";
 incorrect2correct["v3qmk"] = "Keychron V3 ISO";
 incorrect2correct["keychron v4"] = "Keychron V4 ISO";
 incorrect2correct["Keychron V4 ISO"] = "Keychron V4 ISO";
@@ -83651,6 +84894,7 @@ correct2URL["Keychron V4 ISO"] = "https://www.keychron.com/products/keychron-v4-
 
 incorrect2correct["Keychron V4"] = "Keychron V4 ISO";
 incorrect2correct["V4"] = "Keychron V4 ISO";
+incorrect2correct["V4 ISO"] = "Keychron V4 ISO";
 incorrect2correct["v4 max"] = "Keychron V4 Max";
 incorrect2correct["Keychron V4 Max"] = "Keychron V4 Max";
 correct2URL["Keychron V4 Max"] = "https://www.keychron.com/products/keychron-v4-max-qmk-via-wireless-custom-mechanical-keyboard";
@@ -83677,6 +84921,24 @@ incorrect2correct["Keytron V5_"] = "Keychron V5 ISO_";
 incorrect2correct["V5 ISO_"] = "Keychron V5 ISO_";
 incorrect2correct["v5_"] = "Keychron V5 ISO_";
 incorrect2correct["V5_"] = "Keychron V5 ISO_";
+incorrect2correct["keychain v5 max"] = "Keychron V5 Max";
+incorrect2correct["Keychron V5 Max"] = "Keychron V5 Max";
+correct2URL["Keychron V5 Max"] = "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["Keychron v5 max"] = "Keychron V5 Max";
+incorrect2correct["v5 max"] = "Keychron V5 Max";
+incorrect2correct["v5 Max"] = "Keychron V5 Max";
+incorrect2correct["V5 max"] = "Keychron V5 Max";
+incorrect2correct["V5 Max"] = "Keychron V5 Max";
+incorrect2correct["V5 MAX"] = "Keychron V5 Max";
+incorrect2correct["V5&nbsp;Max"] = "Keychron V5 Max";
+incorrect2correct["V5M"] = "Keychron V5 Max";
+incorrect2correct["v5max"] = "Keychron V5 Max";
+incorrect2correct["V5max"] = "Keychron V5 Max";
+incorrect2correct["V5Max"] = "Keychron V5 Max";
+incorrect2correct["v5maz"] = "Keychron V5 Max";
+incorrect2correct["VMAX 5"] = "Keychron V5 Max";
 incorrect2correct["Keychron V5"] = "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard";
 incorrect2correct["Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard"] = "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard";
 correct2URL["Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard"] = "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard/";
@@ -83685,6 +84947,13 @@ correct2URL["Keychron V5, a reasonably priced fully macro-capable QMK-based mech
 incorrect2correct["Keychron V5 ISO"] = "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard";
 incorrect2correct["v5"] = "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard";
 incorrect2correct["V5"] = "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard";
+incorrect2correct["Keychron V6 8K"] = "Keychron V6 8K (105%)";
+incorrect2correct["Keychron V6 8K (105%)"] = "Keychron V6 8K (105%)";
+correct2URL["Keychron V6 8K (105%)"] = "https://www.keychron.com/products/keychron-v6-8k-qmk-wired-custom-mechanical-keyboard";
+
+
+incorrect2correct["Keychron&nbsp;V6&nbsp;8K"] = "Keychron V6 8K (105%)";
+incorrect2correct["V6 8K"] = "Keychron V6 8K (105%)";
 incorrect2correct["Keychron V6 ISO____"] = "Keychron V6 default keymap (ISO RGB)____";
 incorrect2correct["Keychron V6 default keymap (ISO RGB)____"] = "Keychron V6 default keymap (ISO RGB)____";
 correct2URL["Keychron V6 default keymap (ISO RGB)____"] = "https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/v6/iso_encoder/keymaps/default/keymap.c#L46";
@@ -83692,11 +84961,12 @@ correct2URL["Keychron V6 default keymap (ISO RGB)____"] = "https://github.com/qm
 
 incorrect2correct["V6 default keymap____"] = "Keychron V6 default keymap (ISO RGB)____";
 incorrect2correct["V6 keymap____"] = "Keychron V6 default keymap (ISO RGB)____";
-incorrect2correct["Keychron v6"] = "Keychron V6 ISO";
+incorrect2correct["keychron v6"] = "Keychron V6 ISO";
 incorrect2correct["Keychron V6 ISO"] = "Keychron V6 ISO";
 correct2URL["Keychron V6 ISO"] = "https://www.keychron.com/products/keychron-v6-qmk-custom-mechanical-keyboard-iso-layout-collection";
 
 
+incorrect2correct["Keychron v6"] = "Keychron V6 ISO";
 incorrect2correct["Keychron V6"] = "Keychron V6 ISO";
 incorrect2correct["keytron v6"] = "Keychron V6 ISO";
 incorrect2correct["Keytron V6"] = "Keychron V6 ISO";
@@ -83704,17 +84974,35 @@ incorrect2correct["V series"] = "Keychron V6 ISO";
 incorrect2correct["v6"] = "Keychron V6 ISO";
 incorrect2correct["V6"] = "Keychron V6 ISO";
 incorrect2correct["V6 ISO"] = "Keychron V6 ISO";
-incorrect2correct["V6_"] = "Keychron V6 ISO_";
-incorrect2correct["Keychron V6 ISO_"] = "Keychron V6 ISO_";
-correct2URL["Keychron V6 ISO_"] = "https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/v6/iso_encoder/keymaps/default/keymap.c";
+incorrect2correct["Keychain V6 Max"] = "Keychron V6 Max";
+incorrect2correct["Keychron V6 Max"] = "Keychron V6 Max";
+correct2URL["Keychron V6 Max"] = "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
 
 
+incorrect2correct["keychron v6 max"] = "Keychron V6 Max";
+incorrect2correct["keychron V6 Max"] = "Keychron V6 Max";
+incorrect2correct["Keychron V6 MAX"] = "Keychron V6 Max";
+incorrect2correct["KEYCHRON V6 MAX"] = "Keychron V6 Max";
+incorrect2correct["V 6 max"] = "Keychron V6 Max";
+incorrect2correct["V Max series"] = "Keychron V6 Max";
+incorrect2correct["v6 max"] = "Keychron V6 Max";
+incorrect2correct["v6 Max"] = "Keychron V6 Max";
+incorrect2correct["V6 max"] = "Keychron V6 Max";
+incorrect2correct["V6 Max"] = "Keychron V6 Max";
+incorrect2correct["V6 MAX"] = "Keychron V6 Max";
+incorrect2correct["v6_max"] = "Keychron V6 Max";
+incorrect2correct["V6&nbsp;Max"] = "Keychron V6 Max";
+incorrect2correct["v6m"] = "Keychron V6 Max";
+incorrect2correct["V6M"] = "Keychron V6 Max";
+incorrect2correct["v6max"] = "Keychron V6 Max";
+incorrect2correct["V6max"] = "Keychron V6 Max";
+incorrect2correct["V6Max"] = "Keychron V6 Max";
+incorrect2correct["V6MAX"] = "Keychron V6 Max";
 incorrect2correct["Keychron V6 Max____"] = "Keychron V6 Max default keymap (ISO RGB)____";
 incorrect2correct["Keychron V6 Max default keymap (ISO RGB)____"] = "Keychron V6 Max default keymap (ISO RGB)____";
 correct2URL["Keychron V6 Max default keymap (ISO RGB)____"] = "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/v6_max/iso_encoder/keymaps/via/keymap.c#L42";
 
 
-incorrect2correct["Keychron&nbsp;V6&nbsp;Max____"] = "Keychron V6 Max default keymap (ISO RGB)____";
 incorrect2correct["V6 Max default keymap____"] = "Keychron V6 Max default keymap (ISO RGB)____";
 incorrect2correct["V6 Max keymap____"] = "Keychron V6 Max default keymap (ISO RGB)____";
 incorrect2correct["Keychron V6 Max__"] = "Keychron V6 Max source code__";
@@ -83722,19 +85010,37 @@ incorrect2correct["Keychron V6 Max source code__"] = "Keychron V6 Max source cod
 correct2URL["Keychron V6 Max source code__"] = "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v6_max";
 
 
-incorrect2correct["Keychron&nbsp;V6&nbsp;Max__"] = "Keychron V6 Max source code__";
 incorrect2correct["Keychron V6 ISO__"] = "Keychron V6 source code__";
 incorrect2correct["Keychron V6 source code__"] = "Keychron V6 source code__";
 correct2URL["Keychron V6 source code__"] = "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron/v6";
 
 
 incorrect2correct["V6__"] = "Keychron V6 source code__";
-incorrect2correct["Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series__"] = "Keychron V6 Ultra 8K source code__";
+incorrect2correct["Keychron V6 Ultra"] = "Keychron V6 Ultra 8K";
+incorrect2correct["Keychron V6 Ultra 8K"] = "Keychron V6 Ultra 8K";
+correct2URL["Keychron V6 Ultra 8K"] = "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard";
+
+
+incorrect2correct["ultra"] = "Keychron V6 Ultra 8K";
+incorrect2correct["Ultra"] = "Keychron V6 Ultra 8K";
+incorrect2correct["Ultras"] = "Keychron V6 Ultra 8K";
+incorrect2correct["V6 8K Ultra"] = "Keychron V6 Ultra 8K";
+incorrect2correct["v6 ultra"] = "Keychron V6 Ultra 8K";
+incorrect2correct["V6 ultra"] = "Keychron V6 Ultra 8K";
+incorrect2correct["V6 Ultra"] = "Keychron V6 Ultra 8K";
+incorrect2correct["v6 ultra 8k"] = "Keychron V6 Ultra 8K";
+incorrect2correct["V6 ultra 8k"] = "Keychron V6 Ultra 8K";
+incorrect2correct["V6 Ultra 8k"] = "Keychron V6 Ultra 8K";
+incorrect2correct["V6 Ultra 8K"] = "Keychron V6 Ultra 8K";
+incorrect2correct["v6_ultra"] = "Keychron V6 Ultra 8K";
+incorrect2correct["v6_ultra_8k"] = "Keychron V6 Ultra 8K";
+incorrect2correct["V6_Ultra_8K"] = "Keychron V6 Ultra 8K";
+incorrect2correct["Keychron V Ultra 8K series__"] = "Keychron V6 Ultra 8K source code__";
 incorrect2correct["Keychron V6 Ultra 8K source code__"] = "Keychron V6 Ultra 8K source code__";
 correct2URL["Keychron V6 Ultra 8K source code__"] = "https://github.com/Keychron/zmk/tree/rtl8762g/app/boards/shields/keychron_v6_ultra_iso";
 
 
-incorrect2correct["Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K__"] = "Keychron V6 Ultra 8K source code__";
+incorrect2correct["Keychron V6 Ultra 8K__"] = "Keychron V6 Ultra 8K source code__";
 incorrect2correct["V7"] = "Keychron V7";
 incorrect2correct["Keychron V7"] = "Keychron V7";
 correct2URL["Keychron V7"] = "https://www.keychron.com/products/keychron-v7-qmk-custom-mechanical-keyboard";
@@ -83837,6 +85143,7 @@ incorrect2correct["Keychronic____"] = "Keychron____";
 incorrect2correct["keychronn____"] = "Keychron____";
 incorrect2correct["Keychronn____"] = "Keychron____";
 incorrect2correct["Keychronr____"] = "Keychron____";
+incorrect2correct["Keychrpn____"] = "Keychron____";
 incorrect2correct["keychrron____"] = "Keychron____";
 incorrect2correct["Keychrron____"] = "Keychron____";
 incorrect2correct["keychton____"] = "Keychron____";
@@ -83902,34 +85209,6 @@ incorrect2correct["the fork"] = "Keychron's main fork of QMK";
 incorrect2correct["The fork"] = "Keychron's main fork of QMK";
 incorrect2correct["the Keychron fork"] = "Keychron's main fork of QMK";
 incorrect2correct["wireless_playground"] = "Keychron's main fork of QMK";
-incorrect2correct["B Pro series___"] = "Keychron&nbsp;B&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron&nbsp;B&nbsp;Pro&nbsp;series___"] = "Keychron&nbsp;B&nbsp;Pro&nbsp;series___";
-correct2URL["Keychron&nbsp;B&nbsp;Pro&nbsp;series___"] = "https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard";
-
-
-incorrect2correct["b pro___"] = "Keychron&nbsp;B&nbsp;Pro&nbsp;series___";
-incorrect2correct["B Pro___"] = "Keychron&nbsp;B&nbsp;Pro&nbsp;series___";
-incorrect2correct["B&nbsp;Pro&nbsp;series___"] = "Keychron&nbsp;B&nbsp;Pro&nbsp;series___";
-incorrect2correct["b6 pro___"] = "Keychron&nbsp;B&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron B Pro series___"] = "Keychron&nbsp;B&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron B6 Pro___"] = "Keychron&nbsp;B&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron&nbsp;B6&nbsp;Pro___"] = "Keychron&nbsp;B&nbsp;Pro&nbsp;series___";
-incorrect2correct["b1 pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
-incorrect2correct["Keychron&nbsp;B1&nbsp;Pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
-correct2URL["Keychron&nbsp;B1&nbsp;Pro_"] = "https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard";
-
-
-incorrect2correct["B1 pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
-incorrect2correct["B1 Pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
-incorrect2correct["B1 PRO_"] = "Keychron&nbsp;B1&nbsp;Pro_";
-incorrect2correct["B1_"] = "Keychron&nbsp;B1&nbsp;Pro_";
-incorrect2correct["B1&nbsp;Pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
-incorrect2correct["B1pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
-incorrect2correct["B1Pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
-incorrect2correct["keychorn b1 pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
-incorrect2correct["keychron b1 pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
-incorrect2correct["Keychron B1 Pro_"] = "Keychron&nbsp;B1&nbsp;Pro_";
-incorrect2correct["Keychron B1_"] = "Keychron&nbsp;B1&nbsp;Pro_";
 incorrect2correct["B11"] = "Keychron&nbsp;B11&nbsp;Pro";
 incorrect2correct["Keychron&nbsp;B11&nbsp;Pro"] = "Keychron&nbsp;B11&nbsp;Pro";
 correct2URL["Keychron&nbsp;B11&nbsp;Pro"] = "https://www.keychron.com/products/keychron-b11-pro-ultra-slim-wireless-foldable-keyboard";
@@ -83938,14 +85217,6 @@ correct2URL["Keychron&nbsp;B11&nbsp;Pro"] = "https://www.keychron.com/products/k
 incorrect2correct["B11 pro"] = "Keychron&nbsp;B11&nbsp;Pro";
 incorrect2correct["B11 Pro"] = "Keychron&nbsp;B11&nbsp;Pro";
 incorrect2correct["Keychron B11 Pro"] = "Keychron&nbsp;B11&nbsp;Pro";
-incorrect2correct["b2 pro"] = "Keychron&nbsp;B2&nbsp;Pro";
-incorrect2correct["Keychron&nbsp;B2&nbsp;Pro"] = "Keychron&nbsp;B2&nbsp;Pro";
-correct2URL["Keychron&nbsp;B2&nbsp;Pro"] = "https://device.report/manual/13839696";
-
-
-incorrect2correct["B2 Pro"] = "Keychron&nbsp;B2&nbsp;Pro";
-incorrect2correct["B2&nbsp;Pro"] = "Keychron&nbsp;B2&nbsp;Pro";
-incorrect2correct["Keychron B2 Pro"] = "Keychron&nbsp;B2&nbsp;Pro";
 incorrect2correct["B36"] = "Keychron&nbsp;B36";
 incorrect2correct["Keychron&nbsp;B36"] = "Keychron&nbsp;B36";
 correct2URL["Keychron&nbsp;B36"] = "https://www.keychron.com/products/keychron-b36-wireless-keyboard";
@@ -83961,25 +85232,6 @@ incorrect2correct["B4 Pro_"] = "Keychron&nbsp;B4&nbsp;Pro_";
 incorrect2correct["b4_"] = "Keychron&nbsp;B4&nbsp;Pro_";
 incorrect2correct["B4&nbsp;Pro_"] = "Keychron&nbsp;B4&nbsp;Pro_";
 incorrect2correct["Keychron B4 Pro_"] = "Keychron&nbsp;B4&nbsp;Pro_";
-incorrect2correct["B Pro"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["Keychron&nbsp;B6&nbsp;Pro"] = "Keychron&nbsp;B6&nbsp;Pro";
-correct2URL["Keychron&nbsp;B6&nbsp;Pro"] = "https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard-iso-layout-collection";
-
-
-incorrect2correct["B Pro series"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["b6"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["B6"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["b6 pro"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["B6 pro"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["B6 Pro"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["B6 PRO"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["B6 Pro"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["B6 Pro ISO"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["B6&nbsp;Pro"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["Bpro"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["keychron B6"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["Keychron b6 pro"] = "Keychron&nbsp;B6&nbsp;Pro";
-incorrect2correct["Keychron B6 Pro"] = "Keychron&nbsp;B6&nbsp;Pro";
 incorrect2correct["bm25"] = "Keychron&nbsp;BM25";
 incorrect2correct["Keychron&nbsp;BM25"] = "Keychron&nbsp;BM25";
 correct2URL["Keychron&nbsp;BM25"] = "https://www.keychron.com/products/keychron-bm25-wireless-mouse";
@@ -83987,38 +85239,6 @@ correct2URL["Keychron&nbsp;BM25"] = "https://www.keychron.com/products/keychron-
 
 incorrect2correct["BM25"] = "Keychron&nbsp;BM25";
 incorrect2correct["Keychron BM25"] = "Keychron&nbsp;BM25";
-incorrect2correct["C Pro 8K series___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___";
-incorrect2correct["Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___";
-correct2URL["Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___"] = "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["C&nbsp;Pro&nbsp;8K&nbsp;series___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___";
-incorrect2correct["Keychron C Pro 8K series___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___";
-incorrect2correct["Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___";
-incorrect2correct["Keychron&nbsp;C2&nbsp;Pro&nbsp;8K___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;8K&nbsp;series___";
-incorrect2correct["C Pro series___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron&nbsp;C&nbsp;Pro&nbsp;series___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;series___";
-correct2URL["Keychron&nbsp;C&nbsp;Pro&nbsp;series___"] = "https://www.keychron.com/products/keychron-c2-pro-qmk-via-wired-mechanical-keyboard";
-
-
-incorrect2correct["C series___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;series___";
-incorrect2correct["C&nbsp;Pro&nbsp;series___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;series___";
-incorrect2correct["C&nbsp;series___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;series___";
-incorrect2correct["C2 Pro___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron C Pro series___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron C2 Pro___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron&nbsp;C2&nbsp;Pro___"] = "Keychron&nbsp;C&nbsp;Pro&nbsp;series___";
-incorrect2correct["C0 HE"] = "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)";
-correct2URL["Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)"] = "https://www.keychron.com/products/keychron-c0-he-one-handed-magnetic-switch-gaming-keyboard";
-
-
-incorrect2correct["C0 HE 8K"] = "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["C0&nbsp;HE&nbsp;8K"] = "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron C0 HE"] = "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron C0 HE 8K"] = "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron&nbsp;C0&nbsp;HE&nbsp;8K"] = "Keychron&nbsp;C0&nbsp;HE&nbsp;8K (30%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["c1 pro"] = "Keychron&nbsp;C1&nbsp;Pro";
 incorrect2correct["Keychron&nbsp;C1&nbsp;Pro"] = "Keychron&nbsp;C1&nbsp;Pro";
 correct2URL["Keychron&nbsp;C1&nbsp;Pro"] = "https://www.keychron.com/products/keychron-c1-pro-qmk-via-wired-mechanical-keyboard";
@@ -84042,6 +85262,7 @@ correct2URL["Keychron&nbsp;C100&nbsp;8K (95%)"] = "https://www.keychron.com/prod
 
 
 incorrect2correct["C100"] = "Keychron&nbsp;C100&nbsp;8K (95%)";
+incorrect2correct["C100 8K"] = "Keychron&nbsp;C100&nbsp;8K (95%)";
 incorrect2correct["Keychron C100"] = "Keychron&nbsp;C100&nbsp;8K (95%)";
 incorrect2correct["Keychron C100 8K"] = "Keychron&nbsp;C100&nbsp;8K (95%)";
 incorrect2correct["Keychron C100 8K (95%)"] = "Keychron&nbsp;C100&nbsp;8K (95%)";
@@ -84074,11 +85295,14 @@ incorrect2correct["C2&nbsp;Pro&nbsp;8K"] = "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (1
 incorrect2correct["Keychron C2 Pro 8K"] = "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)";
 incorrect2correct["Keychron C2 Pro 8K (100%)"] = "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)";
 incorrect2correct["Keychron&nbsp;C2&nbsp;Pro&nbsp;8K"] = "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)";
-incorrect2correct["c3 pro 8k"] = "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)";
+incorrect2correct["C3 Pro (8k)"] = "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)";
 incorrect2correct["Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)"] = "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)";
 correct2URL["Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)"] = "https://keychron.ca/products/keychron-c3-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout";
 
 
+incorrect2correct["C3 Pro (8K)"] = "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)";
+incorrect2correct["c3 pro 8k"] = "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)";
+incorrect2correct["C3 Pro 8k"] = "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)";
 incorrect2correct["C3 Pro 8K"] = "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)";
 incorrect2correct["Keychron C3 Pro 8K"] = "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)";
 incorrect2correct["Keychron C3 Pro 8K (85%)"] = "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)";
@@ -84092,161 +85316,16 @@ incorrect2correct["C4&nbsp;HE&nbsp;8K"] = "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100
 incorrect2correct["Keychron C4 HE 8K"] = "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Keychron C4 HE 8K (100%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Keychron&nbsp;C4&nbsp;HE&nbsp;8K"] = "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["J HE 8K series___"] = "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___";
-incorrect2correct["Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"] = "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___";
-correct2URL["Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"] = "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard";
-
-
-incorrect2correct["J HE 8K___"] = "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___";
-incorrect2correct["J&nbsp;HE&nbsp;8K series___"] = "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___";
-incorrect2correct["J&nbsp;HE&nbsp;8K___"] = "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___";
-incorrect2correct["J&nbsp;HE&nbsp;8K&nbsp;series___"] = "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___";
-incorrect2correct["Keychron J HE 8K series (proprietary keyboard firmware, not open source)___"] = "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___";
-incorrect2correct["Keychron J HE 8K series___"] = "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___";
-incorrect2correct["Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series___"] = "Keychron&nbsp;J&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___";
-incorrect2correct["j2"] = "Keychron&nbsp;J2";
-incorrect2correct["Keychron&nbsp;J2"] = "Keychron&nbsp;J2";
-correct2URL["Keychron&nbsp;J2"] = "https://www.keychron.com/products/keychron-j2-qmk-wireless-mechanical-keyboard";
-
-
-incorrect2correct["J2"] = "Keychron&nbsp;J2";
-incorrect2correct["Jamesdonkey J2"] = "Keychron&nbsp;J2";
-incorrect2correct["JamesDonkey J2"] = "Keychron&nbsp;J2";
-incorrect2correct["Keychron J2"] = "Keychron&nbsp;J2";
-incorrect2correct["J2 HE"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-correct2URL["Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"] = "https://www.keychron.com/products/keychron-j2-he-8k-magnetic-switch-keyboard";
-
-
-incorrect2correct["J2&nbsp;HE"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["j5 he ultra"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["j5 he ultra 8k"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron J2 HE"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron J2 HE 8K"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["keychron j5 he ultra"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["keychron j5 he ultra 8k"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron&nbsp;J2&nbsp;HE"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron&nbsp;J2&nbsp;HE&nbsp;8K"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron&nbsp;J2&nbsp;HE&nbsp;8K (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;J2&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["J5"] = "Keychron&nbsp;J5 (105%)";
-incorrect2correct["Keychron&nbsp;J5 (105%)"] = "Keychron&nbsp;J5 (105%)";
-correct2URL["Keychron&nbsp;J5 (105%)"] = "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard";
-
-
-incorrect2correct["keychron j5"] = "Keychron&nbsp;J5 (105%)";
-incorrect2correct["Keychron j5"] = "Keychron&nbsp;J5 (105%)";
-incorrect2correct["Keychron J5"] = "Keychron&nbsp;J5 (105%)";
-incorrect2correct["Keychron J5 (105%)"] = "Keychron&nbsp;J5 (105%)";
-incorrect2correct["Keychron&nbsp;J5"] = "Keychron&nbsp;J5 (105%)";
-incorrect2correct["KJ5"] = "Keychron&nbsp;J5 (105%)";
-incorrect2correct["J8 HE 8K"] = "Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-correct2URL["Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"] = "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard";
-
-
-incorrect2correct["Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;J8&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["HE series___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-incorrect2correct["Keychron&nbsp;K&nbsp;HE&nbsp;series___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-correct2URL["Keychron&nbsp;K&nbsp;HE&nbsp;series___"] = "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection";
-
-
-incorrect2correct["k he series___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-incorrect2correct["K HE series___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-incorrect2correct["k he___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-incorrect2correct["K HE___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-incorrect2correct["k series HE___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-incorrect2correct["K series HE___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-incorrect2correct["K&nbsp;HE&nbsp;series___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-incorrect2correct["Keychron K HE series___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-incorrect2correct["Keychron K2 HE___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-incorrect2correct["Keychron&nbsp;K2&nbsp;HE (80%)___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-incorrect2correct["Keychron&nbsp;K2&nbsp;HE___"] = "Keychron&nbsp;K&nbsp;HE&nbsp;series___";
-incorrect2correct["k max series___"] = "Keychron&nbsp;K&nbsp;Max&nbsp;series___";
-incorrect2correct["Keychron&nbsp;K&nbsp;Max&nbsp;series___"] = "Keychron&nbsp;K&nbsp;Max&nbsp;series___";
-correct2URL["Keychron&nbsp;K&nbsp;Max&nbsp;series___"] = "https://www.keychron.com/products/keychron-k10-max-qmk-wireless-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["K Max series___"] = "Keychron&nbsp;K&nbsp;Max&nbsp;series___";
-incorrect2correct["k max___"] = "Keychron&nbsp;K&nbsp;Max&nbsp;series___";
-incorrect2correct["K Max___"] = "Keychron&nbsp;K&nbsp;Max&nbsp;series___";
-incorrect2correct["K-Max series___"] = "Keychron&nbsp;K&nbsp;Max&nbsp;series___";
-incorrect2correct["K&nbsp;Max&nbsp;series___"] = "Keychron&nbsp;K&nbsp;Max&nbsp;series___";
-incorrect2correct["Keychron K Max series___"] = "Keychron&nbsp;K&nbsp;Max&nbsp;series___";
-incorrect2correct["Keychron K10 Max___"] = "Keychron&nbsp;K&nbsp;Max&nbsp;series___";
-incorrect2correct["Keychron&nbsp;K10&nbsp;Max___"] = "Keychron&nbsp;K&nbsp;Max&nbsp;series___";
-incorrect2correct["k pro series___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron&nbsp;K&nbsp;Pro&nbsp;series___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-correct2URL["Keychron&nbsp;K&nbsp;Pro&nbsp;series___"] = "https://keychron.de/collections/k-pro-series-iso-keyboard/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["K Pro series___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["k pro___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["K pro___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["K Pro___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["k-pro___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["K-pro___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["K-Pro___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["K&nbsp;Pro&nbsp;series___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron K Pro series___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron K10 Pro___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron&nbsp;K10&nbsp;Pro___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["KPro series___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["Pro series___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["Pro___"] = "Keychron&nbsp;K&nbsp;Pro&nbsp;series___";
-incorrect2correct["k qmk series____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["Keychron&nbsp;K&nbsp;QMK&nbsp;series____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-correct2URL["Keychron&nbsp;K&nbsp;QMK&nbsp;series____"] = "https://www.keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2";
-
-
-incorrect2correct["K QMK series____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["k qmk____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["K QMK____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["K&nbsp;QMK&nbsp;series____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["K&nbsp;series____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["K1 V6____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["K10 QMK version 2____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["K10 QMK____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["k10 v2____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["K10 V2____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["k2 QMK____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["K2 QMK____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["K2 V3____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["K5 qmk version 2____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["Keychron K QMK series____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["Keychron K10____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["Keychron&nbsp;K10 (100%)____"] = "Keychron&nbsp;K&nbsp;QMK&nbsp;series____";
-incorrect2correct["k series___"] = "Keychron&nbsp;K&nbsp;series___";
-incorrect2correct["Keychron&nbsp;K&nbsp;series___"] = "Keychron&nbsp;K&nbsp;series___";
-correct2URL["Keychron&nbsp;K&nbsp;series___"] = "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout";
-
-
-incorrect2correct["K series___"] = "Keychron&nbsp;K&nbsp;series___";
-incorrect2correct["K-series___"] = "Keychron&nbsp;K&nbsp;series___";
-incorrect2correct["K-Series___"] = "Keychron&nbsp;K&nbsp;series___";
-incorrect2correct["K&nbsp;series___"] = "Keychron&nbsp;K&nbsp;series___";
-incorrect2correct["Keychron K series___"] = "Keychron&nbsp;K&nbsp;series___";
-incorrect2correct["Keychron K10___"] = "Keychron&nbsp;K&nbsp;series___";
-incorrect2correct["Keychron&nbsp;K10 (100%)___"] = "Keychron&nbsp;K&nbsp;series___";
-incorrect2correct["original K series___"] = "Keychron&nbsp;K&nbsp;series___";
-incorrect2correct["original series___"] = "Keychron&nbsp;K&nbsp;series___";
-incorrect2correct["K Ultra 8 series___"] = "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___"] = "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___";
-correct2URL["Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___"] = "https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards";
-
-
-incorrect2correct["K Ultra 8K series___"] = "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["K&nbsp;Ultra&nbsp;8K&nbsp;series___"] = "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Keychron K Ultra 8K series___"] = "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K___"] = "Keychron&nbsp;K&nbsp;Ultra&nbsp;8K&nbsp;series___";
 incorrect2correct["K0"] = "Keychron&nbsp;K0&nbsp;Max";
 incorrect2correct["Keychron&nbsp;K0&nbsp;Max"] = "Keychron&nbsp;K0&nbsp;Max";
 correct2URL["Keychron&nbsp;K0&nbsp;Max"] = "https://www.keychron.com/products/keychron-k0-max-qmk-wireless-custom-number-pad";
 
 
 incorrect2correct["k0 max"] = "Keychron&nbsp;K0&nbsp;Max";
+incorrect2correct["k0 Max"] = "Keychron&nbsp;K0&nbsp;Max";
 incorrect2correct["K0 Max"] = "Keychron&nbsp;K0&nbsp;Max";
 incorrect2correct["K0&nbsp;Max"] = "Keychron&nbsp;K0&nbsp;Max";
+incorrect2correct["Keychron k0 Max"] = "Keychron&nbsp;K0&nbsp;Max";
 incorrect2correct["Keychron K0 Max"] = "Keychron&nbsp;K0&nbsp;Max";
 incorrect2correct["k1 max"] = "Keychron&nbsp;K1&nbsp;Max";
 incorrect2correct["Keychron&nbsp;K1&nbsp;Max"] = "Keychron&nbsp;K1&nbsp;Max";
@@ -84255,6 +85334,7 @@ correct2URL["Keychron&nbsp;K1&nbsp;Max"] = "https://www.keychron.com/products/ke
 
 incorrect2correct["K1 max"] = "Keychron&nbsp;K1&nbsp;Max";
 incorrect2correct["K1 Max"] = "Keychron&nbsp;K1&nbsp;Max";
+incorrect2correct["K1 MAX"] = "Keychron&nbsp;K1&nbsp;Max";
 incorrect2correct["K1&nbsp;Max"] = "Keychron&nbsp;K1&nbsp;Max";
 incorrect2correct["keychron k1 max"] = "Keychron&nbsp;K1&nbsp;Max";
 incorrect2correct["Keychron K1 Max"] = "Keychron&nbsp;K1&nbsp;Max";
@@ -84264,105 +85344,14 @@ correct2URL["Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)"] = "https://www.keychron
 
 
 incorrect2correct["K1 Ultra 8K"] = "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)";
+incorrect2correct["Keychron K1 Ultra 8K"] = "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)";
 incorrect2correct["Keychron K1 Ultra 8K (85%)"] = "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)";
-incorrect2correct["k 10_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["Keychron&nbsp;K10 (100%)_"] = "Keychron&nbsp;K10 (100%)_";
-correct2URL["Keychron&nbsp;K10 (100%)_"] = "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout";
-
-
-incorrect2correct["K series_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["K10 QMK v2_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["K10 QMK V2_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["k10 qmk version 2_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["k10 QMK version 2_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["K10 qmk version 2_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["K10 QMK_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["K10 QMK_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["K10 V1_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["k10 v2_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["K10 v2_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["K10 V2_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["k10_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["K10_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["K10X_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["Keychron K10 (100%)_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["Keychron K10_"] = "Keychron&nbsp;K10 (100%)_";
-incorrect2correct["10E"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["Keychron&nbsp;K10&nbsp;HE"] = "Keychron&nbsp;K10&nbsp;HE";
-correct2URL["Keychron&nbsp;K10&nbsp;HE"] = "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection";
-
-
-incorrect2correct["H10 HE"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["He K10"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["HE K10"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["k10 he"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["k10 HE"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["K10 HE"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["K10 HE se"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["K10 HE SE"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["K10-HE"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["K10&nbsp;HE"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["k10he"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["k10HE"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["K10HE"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["K10JE"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["keychron k10 he"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["Keychron k10 he"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["Keychron K10 he"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["Keychron K10 HE"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["keychron k10he"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["Keychron K10HE"] = "Keychron&nbsp;K10&nbsp;HE";
-incorrect2correct["K Max series"] = "Keychron&nbsp;K10&nbsp;Max";
-incorrect2correct["Keychron&nbsp;K10&nbsp;Max"] = "Keychron&nbsp;K10&nbsp;Max";
-correct2URL["Keychron&nbsp;K10&nbsp;Max"] = "https://www.keychron.com/products/keychron-k10-max-qmk-wireless-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["k10 max"] = "Keychron&nbsp;K10&nbsp;Max";
-incorrect2correct["k10 Max"] = "Keychron&nbsp;K10&nbsp;Max";
-incorrect2correct["K10 max"] = "Keychron&nbsp;K10&nbsp;Max";
-incorrect2correct["K10 Max"] = "Keychron&nbsp;K10&nbsp;Max";
-incorrect2correct["K10 MAX"] = "Keychron&nbsp;K10&nbsp;Max";
-incorrect2correct["K10&nbsp;Max"] = "Keychron&nbsp;K10&nbsp;Max";
-incorrect2correct["K10max"] = "Keychron&nbsp;K10&nbsp;Max";
-incorrect2correct["Kechron K10 Max"] = "Keychron&nbsp;K10&nbsp;Max";
-incorrect2correct["Keychron K10 Max"] = "Keychron&nbsp;K10&nbsp;Max";
-incorrect2correct["10 PRO"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["Keychron&nbsp;K10&nbsp;Pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-correct2URL["Keychron&nbsp;K10&nbsp;Pro"] = "https://keychron.de/collections/k-pro-series-iso-keyboard/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["K Pro series"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["k10"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["k10 pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["k10 Pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10 pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10 Pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10 Pro ISO"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10 Pro Max"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10&nbsp;Pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10P"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10P-H1"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10P-H3"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10PH1"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10PH3"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["k10pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["K10Pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["Keychain K10"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["Keychron 10"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["Keychron 10 PRO"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["keychron k10 pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["keychron K10 pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["Keychron K10 Pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["pro 10"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["pro10"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["V10 Pro"] = "Keychron&nbsp;K10&nbsp;Pro";
-incorrect2correct["k10 ultra"] = "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)";
+incorrect2correct["10k ultra 8k"] = "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)";
 incorrect2correct["Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)"] = "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)";
 correct2URL["Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)"] = "https://www.keychron.com/products/keychron-k10-ultra-8k-wireless-custom-mechanical-keyboard";
 
 
+incorrect2correct["k10 ultra"] = "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)";
 incorrect2correct["K10 ultra"] = "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)";
 incorrect2correct["K10 Ultra"] = "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)";
 incorrect2correct["K10 Ultra 8K"] = "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)";
@@ -84392,6 +85381,7 @@ incorrect2correct["K17&nbsp;Max_"] = "Keychron&nbsp;K17&nbsp;Max_";
 incorrect2correct["K17M_"] = "Keychron&nbsp;K17&nbsp;Max_";
 incorrect2correct["k17max_"] = "Keychron&nbsp;K17&nbsp;Max_";
 incorrect2correct["K17Max_"] = "Keychron&nbsp;K17&nbsp;Max_";
+incorrect2correct["Keychron K17 max_"] = "Keychron&nbsp;K17&nbsp;Max_";
 incorrect2correct["Keychron K17 Max_"] = "Keychron&nbsp;K17&nbsp;Max_";
 incorrect2correct["k17 pro"] = "Keychron&nbsp;K17&nbsp;Pro";
 incorrect2correct["Keychron&nbsp;K17&nbsp;Pro"] = "Keychron&nbsp;K17&nbsp;Pro";
@@ -84413,6 +85403,7 @@ incorrect2correct["H2_"] = "Keychron&nbsp;K2&nbsp;HE (80%)_";
 incorrect2correct["HE K2_"] = "Keychron&nbsp;K2&nbsp;HE (80%)_";
 incorrect2correct["K HE series_"] = "Keychron&nbsp;K2&nbsp;HE (80%)_";
 incorrect2correct["K2 he se_"] = "Keychron&nbsp;K2&nbsp;HE (80%)_";
+incorrect2correct["K2 He Se_"] = "Keychron&nbsp;K2&nbsp;HE (80%)_";
 incorrect2correct["K2 HE SE_"] = "Keychron&nbsp;K2&nbsp;HE (80%)_";
 incorrect2correct["K2 HE Special Ed_"] = "Keychron&nbsp;K2&nbsp;HE (80%)_";
 incorrect2correct["K2 HE Special Edition_"] = "Keychron&nbsp;K2&nbsp;HE (80%)_";
@@ -84458,62 +85449,6 @@ incorrect2correct["K2 Pro"] = "Keychron&nbsp;K2&nbsp;Pro";
 incorrect2correct["K2 PRO"] = "Keychron&nbsp;K2&nbsp;Pro";
 incorrect2correct["K2&nbsp;Pro"] = "Keychron&nbsp;K2&nbsp;Pro";
 incorrect2correct["Keychron K2 Pro"] = "Keychron&nbsp;K2&nbsp;Pro";
-incorrect2correct["K3 HE"] = "Keychron&nbsp;K3&nbsp;HE";
-incorrect2correct["Keychron&nbsp;K3&nbsp;HE"] = "Keychron&nbsp;K3&nbsp;HE";
-correct2URL["Keychron&nbsp;K3&nbsp;HE"] = "https://www.keychron.com/products/keychron-k3-he-wireless-magnetic-switch-custom-keyboard";
-
-
-incorrect2correct["Keychron K3 HE"] = "Keychron&nbsp;K3&nbsp;HE";
-incorrect2correct["k3 max"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["Keychron&nbsp;K3&nbsp;Max"] = "Keychron&nbsp;K3&nbsp;Max";
-correct2URL["Keychron&nbsp;K3&nbsp;Max"] = "https://www.keychron.com/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["K3 max"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["K3 Max"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["K3 MAX"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["K3 Mx"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["K3&nbsp;Max"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["K3M"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["k3max"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["K3max"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["K3Max"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["Keychron K3 max"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["Keychron K3 Max"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["Keycron K3 Max"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["M3 Max"] = "Keychron&nbsp;K3&nbsp;Max";
-incorrect2correct["k3"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-correct2URL["Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)"] = "https://www.keychron.com/products/keychron-k3-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["K3"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["k3 pro"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["K3 pro"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["K3 Pro"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["K3 PRO"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["K3&nbsp;Pro"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["K3&nbsp;Pro&nbsp;ISO"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["K3P"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["k3pro"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["Keychron K3"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["Keychron k3 pro"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["Keychron K3 Pro"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["Keychron K3 Pro ISO"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["Keychron K3 Pro ISO (80%)"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO"] = "Keychron&nbsp;K3&nbsp;Pro&nbsp;ISO (80%)";
-incorrect2correct["K3 8K"] = "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K";
-correct2URL["Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K"] = "https://www.keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard";
-
-
-incorrect2correct["k3 ultra"] = "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K";
-incorrect2correct["K3 Ultra"] = "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K";
-incorrect2correct["K3 Ultra (8K)"] = "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K";
-incorrect2correct["K3 ultra 8k"] = "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K";
-incorrect2correct["K3 Ultra 8K"] = "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K";
-incorrect2correct["K3&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Keychron K3 Ultra 8K"] = "Keychron&nbsp;K3&nbsp;Ultra&nbsp;8K";
 incorrect2correct["HE K4"] = "Keychron&nbsp;K4&nbsp;HE";
 incorrect2correct["Keychron&nbsp;K4&nbsp;HE"] = "Keychron&nbsp;K4&nbsp;HE";
 correct2URL["Keychron&nbsp;K4&nbsp;HE"] = "https://www.keychron.com/products/keychron-k4-he-wireless-magnetic-switch-custom-keyboard";
@@ -84528,6 +85463,7 @@ incorrect2correct["K4-HE"] = "Keychron&nbsp;K4&nbsp;HE";
 incorrect2correct["K4&nbsp;HE"] = "Keychron&nbsp;K4&nbsp;HE";
 incorrect2correct["k4he"] = "Keychron&nbsp;K4&nbsp;HE";
 incorrect2correct["k4HE"] = "Keychron&nbsp;K4&nbsp;HE";
+incorrect2correct["K4HE"] = "Keychron&nbsp;K4&nbsp;HE";
 incorrect2correct["Keychron K4 HE"] = "Keychron&nbsp;K4&nbsp;HE";
 incorrect2correct["KEYCHRON K4 HE"] = "Keychron&nbsp;K4&nbsp;HE";
 incorrect2correct["K4 Max"] = "Keychron&nbsp;K4&nbsp;Max";
@@ -84547,39 +85483,6 @@ incorrect2correct["K4 Pro"] = "Keychron&nbsp;K4&nbsp;Pro";
 incorrect2correct["K4&nbsp;Pro"] = "Keychron&nbsp;K4&nbsp;Pro";
 incorrect2correct["K4pro"] = "Keychron&nbsp;K4&nbsp;Pro";
 incorrect2correct["Keychron K4 Pro"] = "Keychron&nbsp;K4&nbsp;Pro";
-incorrect2correct["K5 Mas"] = "Keychron&nbsp;K5&nbsp;Max";
-incorrect2correct["Keychron&nbsp;K5&nbsp;Max"] = "Keychron&nbsp;K5&nbsp;Max";
-correct2URL["Keychron&nbsp;K5&nbsp;Max"] = "https://www.keychron.com/products/keychron-k5-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["k5 max"] = "Keychron&nbsp;K5&nbsp;Max";
-incorrect2correct["k5 Max"] = "Keychron&nbsp;K5&nbsp;Max";
-incorrect2correct["K5 max"] = "Keychron&nbsp;K5&nbsp;Max";
-incorrect2correct["K5 Max"] = "Keychron&nbsp;K5&nbsp;Max";
-incorrect2correct["K5 MAX"] = "Keychron&nbsp;K5&nbsp;Max";
-incorrect2correct["K5-Max"] = "Keychron&nbsp;K5&nbsp;Max";
-incorrect2correct["K5&nbsp;Max"] = "Keychron&nbsp;K5&nbsp;Max";
-incorrect2correct["Keychain K5 Max"] = "Keychron&nbsp;K5&nbsp;Max";
-incorrect2correct["Keychron K5 Max"] = "Keychron&nbsp;K5&nbsp;Max";
-incorrect2correct["KeyChron K5 max"] = "Keychron&nbsp;K5&nbsp;Max";
-incorrect2correct["KeyChron K5 Max"] = "Keychron&nbsp;K5&nbsp;Max";
-incorrect2correct["5pro"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-incorrect2correct["Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-correct2URL["Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)"] = "https://www.keychron.com/products/keychron-k5-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["k5"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-incorrect2correct["K5"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-incorrect2correct["k5 pro"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-incorrect2correct["K5 pro"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-incorrect2correct["K5 Pro"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-incorrect2correct["K5 Pro"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-incorrect2correct["K5&nbsp;Pro"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-incorrect2correct["Keychron K5 Pro"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-incorrect2correct["Keychron K5 Pro ISO"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-incorrect2correct["Keychron K5 Pro ISO (105%)"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-incorrect2correct["Keychron&nbsp;K5&nbsp;Pro"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
-incorrect2correct["Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO"] = "Keychron&nbsp;K5&nbsp;Pro&nbsp;ISO (105%)";
 incorrect2correct["K5 8k Ultra"] = "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)";
 incorrect2correct["Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)"] = "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)";
 correct2URL["Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)"] = "https://www.keychron.com/products/keychron-k5-ultra-8k-wireless-custom-mechanical-keyboard";
@@ -84591,6 +85494,7 @@ incorrect2correct["k5 ultra 8k"] = "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)";
 incorrect2correct["K5 Ultra 8k"] = "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)";
 incorrect2correct["K5 Ultra 8K"] = "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)";
 incorrect2correct["K5&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)";
+incorrect2correct["Keychron K5 Ultra 8K"] = "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)";
 incorrect2correct["Keychron K5 Ultra 8K (105%)"] = "Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)";
 incorrect2correct["k6 he"] = "Keychron&nbsp;K6&nbsp;HE (65%)";
 incorrect2correct["Keychron&nbsp;K6&nbsp;HE (65%)"] = "Keychron&nbsp;K6&nbsp;HE (65%)";
@@ -84629,6 +85533,7 @@ incorrect2correct["Keychron&nbsp;K7&nbsp;Pro_"] = "Keychron&nbsp;K7&nbsp;Pro_";
 correct2URL["Keychron&nbsp;K7&nbsp;Pro_"] = "https://www.keychron.com/products/keychron-k7-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
 
 
+incorrect2correct["k7 pro_"] = "Keychron&nbsp;K7&nbsp;Pro_";
 incorrect2correct["K7 Pro_"] = "Keychron&nbsp;K7&nbsp;Pro_";
 incorrect2correct["K7-Pro_"] = "Keychron&nbsp;K7&nbsp;Pro_";
 incorrect2correct["K7&nbsp;Pro_"] = "Keychron&nbsp;K7&nbsp;Pro_";
@@ -84662,6 +85567,7 @@ correct2URL["Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO"] = "https://www.keychron.com/pr
 incorrect2correct["K8 pro"] = "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO";
 incorrect2correct["K8 Pro"] = "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO";
 incorrect2correct["K8 PRO"] = "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO";
+incorrect2correct["K8 Pro ISO"] = "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO";
 incorrect2correct["K8&nbsp;Pro"] = "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO";
 incorrect2correct["K8&nbsp;Pro&nbsp;ISO"] = "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO";
 incorrect2correct["k8pro"] = "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO";
@@ -84689,11 +85595,12 @@ correct2URL["Keychron&nbsp;K9&nbsp;Max"] = "https://www.keychron.com/products/ke
 incorrect2correct["K9 Max"] = "Keychron&nbsp;K9&nbsp;Max";
 incorrect2correct["K9&nbsp;Max"] = "Keychron&nbsp;K9&nbsp;Max";
 incorrect2correct["Keychron K9 Max"] = "Keychron&nbsp;K9&nbsp;Max";
-incorrect2correct["81 Pro"] = "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)";
+incorrect2correct["81 pro"] = "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)";
 incorrect2correct["Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)"] = "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)";
 correct2URL["Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)"] = "https://www.keychron.com/products/keyboard-81-pro-qmk-via-wireless-custom-mechanical-keyboard";
 
 
+incorrect2correct["81 Pro"] = "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)";
 incorrect2correct["Keyboard 81 Pro"] = "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)";
 incorrect2correct["Keyboard&nbsp;81&nbsp;Pro"] = "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)";
 incorrect2correct["Keychron Keyboard 81 Pro"] = "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)";
@@ -84719,21 +85626,6 @@ incorrect2correct["Lemokey l3_"] = "Keychron&nbsp;Lemokey&nbsp;L3_";
 incorrect2correct["Lemokey L3_"] = "Keychron&nbsp;Lemokey&nbsp;L3_";
 incorrect2correct["Lemokey&nbsp;L3_"] = "Keychron&nbsp;Lemokey&nbsp;L3_";
 incorrect2correct["Lemonkey L3_"] = "Keychron&nbsp;Lemokey&nbsp;L3_";
-incorrect2correct["Keychron Lemokey P1 HE"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE";
-incorrect2correct["Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE";
-correct2URL["Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE"] = "https://www.keychron.com/products/lemokey-p1-he-wireless-magnetic-switch-custom-gaming-keyboard-iso-layout-collection";
-
-
-incorrect2correct["Lemokey P HE"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE";
-incorrect2correct["lemokey p1 he"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE";
-incorrect2correct["Lemokey P1 HE"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE";
-incorrect2correct["Lemokey P1 PRO HE"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE";
-incorrect2correct["Lemokey P1HE"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE";
-incorrect2correct["Lemokey&nbsp;P1&nbsp;HE"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE";
-incorrect2correct["LK P1 HE"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE";
-incorrect2correct["p1 HE"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE";
-incorrect2correct["P1 HE"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE";
-incorrect2correct["P1&nbsp;HE"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE";
 incorrect2correct["Keychron Lemokey P1 Pro"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro";
 incorrect2correct["Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro"] = "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro";
 correct2URL["Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro"] = "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard";
@@ -84811,81 +85703,6 @@ incorrect2correct["Q&nbsp;HE&nbsp;8K series___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp
 incorrect2correct["Q&nbsp;HE&nbsp;8K___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___";
 incorrect2correct["Q&nbsp;HE&nbsp;8K&nbsp;series___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___";
 incorrect2correct["Q6 HE 8K___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___";
-incorrect2correct["HE keyboards___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["Keychron&nbsp;Q&nbsp;HE&nbsp;series___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-correct2URL["Keychron&nbsp;Q&nbsp;HE&nbsp;series___"] = "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard";
-
-
-incorrect2correct["HE___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["Keychron Q HE series___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["Keychron Q6 HE___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["Keychron&nbsp;Q6&nbsp;HE (105%)___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["Keychron&nbsp;Q6&nbsp;HE___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["q he series___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["Q HE series___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["q he___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["Q HE___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["Q&nbsp;HE&nbsp;series___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["QHE___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["the HE___"] = "Keychron&nbsp;Q&nbsp;HE&nbsp;series___";
-incorrect2correct["Keychron Q Max series___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["Keychron&nbsp;Q&nbsp;Max&nbsp;series___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-correct2URL["Keychron&nbsp;Q&nbsp;Max&nbsp;series___"] = "https://www.keychron.com/products/keychron-q6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["Keychron Q6 Max___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["Keychron&nbsp;Q6&nbsp;Max___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["q max series___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["Q Max series___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["Q Max Series___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["Q max seriesc___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["q max___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["Q Max___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["q series max___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["Q-Max___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["Q&nbsp;Max&nbsp;series___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["qmax___"] = "Keychron&nbsp;Q&nbsp;Max&nbsp;series___";
-incorrect2correct["Keychron Q Pro series___"] = "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron&nbsp;Q&nbsp;Pro&nbsp;series___"] = "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___";
-correct2URL["Keychron&nbsp;Q&nbsp;Pro&nbsp;series___"] = "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["Keychron Q6 Pro___"] = "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron&nbsp;Q6&nbsp;Pro___"] = "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___";
-incorrect2correct["q pro series___"] = "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___";
-incorrect2correct["Q Pro series___"] = "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___";
-incorrect2correct["q pro___"] = "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___";
-incorrect2correct["Q Pro___"] = "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___";
-incorrect2correct["Q-Pro___"] = "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___";
-incorrect2correct["Q&nbsp;Pro&nbsp;series___"] = "Keychron&nbsp;Q&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron Q series___"] = "Keychron&nbsp;Q&nbsp;series___";
-incorrect2correct["Keychron&nbsp;Q&nbsp;series___"] = "Keychron&nbsp;Q&nbsp;series___";
-correct2URL["Keychron&nbsp;Q&nbsp;series___"] = "https://www.keychron.com/products/keychron-q6-qmk-custom-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["Keychron Q6___"] = "Keychron&nbsp;Q&nbsp;series___";
-incorrect2correct["Q serie___"] = "Keychron&nbsp;Q&nbsp;series___";
-incorrect2correct["q series___"] = "Keychron&nbsp;Q&nbsp;series___";
-incorrect2correct["Q series___"] = "Keychron&nbsp;Q&nbsp;series___";
-incorrect2correct["q___"] = "Keychron&nbsp;Q&nbsp;series___";
-incorrect2correct["Q___"] = "Keychron&nbsp;Q&nbsp;series___";
-incorrect2correct["q-series___"] = "Keychron&nbsp;Q&nbsp;series___";
-incorrect2correct["Q-series___"] = "Keychron&nbsp;Q&nbsp;series___";
-incorrect2correct["Q&nbsp;series___"] = "Keychron&nbsp;Q&nbsp;series___";
-incorrect2correct["Keychron Q Ultra 8K series___"] = "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___"] = "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___";
-correct2URL["Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___"] = "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard";
-
-
-incorrect2correct["Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K___"] = "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Q Ultra 8K series___"] = "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Q Ultra 8k___"] = "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Q Ultra 8K___"] = "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Q ultra series___"] = "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Q Ultra series___"] = "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Q Ultra___"] = "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Q&nbsp;Ultra&nbsp;8K&nbsp;series___"] = "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Q6&nbsp;Ultra&nbsp;8K___"] = "Keychron&nbsp;Q&nbsp;Ultra&nbsp;8K&nbsp;series___";
 incorrect2correct["Kewchron Q0 max"] = "Keychron&nbsp;Q0&nbsp;Max";
 incorrect2correct["Keychron&nbsp;Q0&nbsp;Max"] = "Keychron&nbsp;Q0&nbsp;Max";
 correct2URL["Keychron&nbsp;Q0&nbsp;Max"] = "https://www.keychron.com/products/keychron-q0-max-qmk-custom-number-pad";
@@ -84928,8 +85745,11 @@ incorrect2correct["Keychron Q1 HE 8K (80%)"] = "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K
 incorrect2correct["Keychron Q1 HE 8K (80%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Keychron&nbsp;Q1&nbsp;HE&nbsp;8K"] = "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%)"] = "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["q1 he 8k"] = "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Q1 HE 8k"] = "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Q1 HE 8K"] = "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Q1 Ultra 8k HE"] = "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Q1 Ultra 8K HE"] = "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Q1&nbsp;HE&nbsp;8K"] = "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["keychron q1 max"] = "Keychron&nbsp;Q1&nbsp;Max";
 incorrect2correct["Keychron&nbsp;Q1&nbsp;Max"] = "Keychron&nbsp;Q1&nbsp;Max";
@@ -84957,18 +85777,6 @@ incorrect2correct["Q1 Pro"] = "Keychron&nbsp;Q1&nbsp;Pro";
 incorrect2correct["Q1 PRO"] = "Keychron&nbsp;Q1&nbsp;Pro";
 incorrect2correct["Q1&nbsp;Pro"] = "Keychron&nbsp;Q1&nbsp;Pro";
 incorrect2correct["Q1pro"] = "Keychron&nbsp;Q1&nbsp;Pro";
-incorrect2correct["keychron Q1 Ultra"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
-correct2URL["Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K"] = "https://www.keychron.com/products/keychron-q1-ultra-8k-wireless-custom-mechanical-keyboard";
-
-
-incorrect2correct["Keychron Q1 Ultra 8K"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q1 Ulta 8k"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q1 ultra"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q1 Ultra"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q1 Ultra 8k"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q1 Ultra 8K"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q1&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;Q1&nbsp;Ultra&nbsp;8K";
 incorrect2correct["Keychron Q10 Max"] = "Keychron&nbsp;Q10&nbsp;Max";
 incorrect2correct["Keychron&nbsp;Q10&nbsp;Max"] = "Keychron&nbsp;Q10&nbsp;Max";
 correct2URL["Keychron&nbsp;Q10&nbsp;Max"] = "https://www.keychron.com/products/keychron-q10-max-alice-layout-qmk-via-wireless-custom-mechanical-keyboard";
@@ -84998,7 +85806,11 @@ incorrect2correct["q11 ultra"] = "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)";
 incorrect2correct["q11 Ultra"] = "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)";
 incorrect2correct["Q11 ultra"] = "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)";
 incorrect2correct["Q11 Ultra"] = "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)";
+incorrect2correct["Q11 ultra 8k"] = "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)";
+incorrect2correct["Q11 ultra 8K"] = "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)";
+incorrect2correct["Q11 Ultra 8k"] = "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)";
 incorrect2correct["Q11 Ultra 8K"] = "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)";
+incorrect2correct["Q11&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;Q11&nbsp;Ultra&nbsp;8K (85%)";
 incorrect2correct["Keychron Q12 Max"] = "Keychron&nbsp;Q12&nbsp;Max";
 incorrect2correct["Keychron&nbsp;Q12&nbsp;Max"] = "Keychron&nbsp;Q12&nbsp;Max";
 correct2URL["Keychron&nbsp;Q12&nbsp;Max"] = "https://www.keychron.com/products/keychron-q12-max-qmk-via-wireless-custom-mechanical-keyboard";
@@ -85030,11 +85842,13 @@ incorrect2correct["Q13 Pro"] = "Keychron&nbsp;Q13&nbsp;Pro (100%)";
 incorrect2correct["q13pro"] = "Keychron&nbsp;Q13&nbsp;Pro (100%)";
 incorrect2correct["Q13Pro"] = "Keychron&nbsp;Q13&nbsp;Pro (100%)";
 incorrect2correct["q13pro alice"] = "Keychron&nbsp;Q13&nbsp;Pro (100%)";
-incorrect2correct["Keychron Q13 Ultra 8K (100%)"] = "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)";
+incorrect2correct["Keychron Q13 Ultra 8K"] = "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)";
 incorrect2correct["Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)"] = "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)";
 correct2URL["Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)"] = "https://www.keychron.com/products/keychron-q13-ultra-8k-wireless-custom-mechanical-keyboard";
 
 
+incorrect2correct["Keychron Q13 Ultra 8K (100%)"] = "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)";
+incorrect2correct["Q13 ultra"] = "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)";
 incorrect2correct["Q13 Ultra"] = "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)";
 incorrect2correct["Q13 Ultra 8K"] = "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)";
 incorrect2correct["Q13&nbsp;Ultra"] = "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)";
@@ -85088,11 +85902,12 @@ incorrect2correct["Keychron&nbsp;Q2&nbsp;HE"] = "Keychron&nbsp;Q2&nbsp;HE (65%)"
 incorrect2correct["q2 he"] = "Keychron&nbsp;Q2&nbsp;HE (65%)";
 incorrect2correct["Q2 HE"] = "Keychron&nbsp;Q2&nbsp;HE (65%)";
 incorrect2correct["Q2&nbsp;HE"] = "Keychron&nbsp;Q2&nbsp;HE (65%)";
-incorrect2correct["Keychron Q2 HE 8K (65%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Keychron Q2 HE 8K"] = "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)";
 correct2URL["Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)"] = "https://www.keychron.com/products/keychron-q2-he-8k-magnetic-switch-keyboard";
 
 
+incorrect2correct["Keychron Q2 HE 8K (65%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["q2 he 8k"] = "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Q2 HE 8K"] = "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Keychron Q2 Max"] = "Keychron&nbsp;Q2&nbsp;Max (65%)";
@@ -85128,14 +85943,19 @@ incorrect2correct["q3 HE"] = "Keychron&nbsp;Q3&nbsp;HE (85%)";
 incorrect2correct["Q3 HE"] = "Keychron&nbsp;Q3&nbsp;HE (85%)";
 incorrect2correct["q3HE"] = "Keychron&nbsp;Q3&nbsp;HE (85%)";
 incorrect2correct["Q3He"] = "Keychron&nbsp;Q3&nbsp;HE (85%)";
-incorrect2correct["Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Keychron Q3 HE 8K"] = "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)";
 correct2URL["Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)"] = "https://www.keychron.com/products/keychron-q3-he-8k-magnetic-switch-keyboard";
 
 
+incorrect2correct["Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)"] = "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Keychron&nbsp;Q3&nbsp;HE&nbsp;8K"] = "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Q3 HE 8 kHz"] = "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Q3 HE 8 Khz"] = "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Q3 HE 8k"] = "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Q3 HE 8K"] = "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Q3 HE 8kHz"] = "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)";
+incorrect2correct["Q3 HE 8Khz"] = "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Q3&nbsp;HE&nbsp;8K"] = "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Keychron Q3 max"] = "Keychron&nbsp;Q3&nbsp;Max";
 incorrect2correct["Keychron&nbsp;Q3&nbsp;Max"] = "Keychron&nbsp;Q3&nbsp;Max";
@@ -85224,16 +86044,6 @@ incorrect2correct["Q5 max"] = "Keychron&nbsp;Q5&nbsp;Max";
 incorrect2correct["Q5 Max"] = "Keychron&nbsp;Q5&nbsp;Max";
 incorrect2correct["Q5 MAX"] = "Keychron&nbsp;Q5&nbsp;Max";
 incorrect2correct["Q5max"] = "Keychron&nbsp;Q5&nbsp;Max";
-incorrect2correct["Keychron Q5 Pro"] = "Keychron&nbsp;Q5&nbsp;Pro (95%)";
-incorrect2correct["Keychron&nbsp;Q5&nbsp;Pro (95%)"] = "Keychron&nbsp;Q5&nbsp;Pro (95%)";
-correct2URL["Keychron&nbsp;Q5&nbsp;Pro (95%)"] = "https://www.keychron.com/products/keychron-q5-pro-qmk-via-wireless-custom-mechanical-keyboard";
-
-
-incorrect2correct["Keychron Q5 Pro (95%)"] = "Keychron&nbsp;Q5&nbsp;Pro (95%)";
-incorrect2correct["q5 pro"] = "Keychron&nbsp;Q5&nbsp;Pro (95%)";
-incorrect2correct["q5 Pro"] = "Keychron&nbsp;Q5&nbsp;Pro (95%)";
-incorrect2correct["Q5 pro"] = "Keychron&nbsp;Q5&nbsp;Pro (95%)";
-incorrect2correct["Q5 Pro"] = "Keychron&nbsp;Q5&nbsp;Pro (95%)";
 incorrect2correct["Keychron Q5 Ultra 8K"] = "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K";
 incorrect2correct["Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K";
 correct2URL["Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K"] = "https://www.keychron.com/products/keychron-q5-ultra-8k-wireless-custom-mechanical-keyboard";
@@ -85270,17 +86080,20 @@ incorrect2correct["q6 he 8k"] = "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (propri
 incorrect2correct["Q6 HE 8k"] = "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Q6 HE 8K"] = "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)";
 incorrect2correct["Q6&nbsp;HE&nbsp;8K"] = "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)";
-incorrect2correct["Keychron Q6 Max"] = "Keychron&nbsp;Q6&nbsp;Max";
+incorrect2correct["keychron q6 max"] = "Keychron&nbsp;Q6&nbsp;Max";
 incorrect2correct["Keychron&nbsp;Q6&nbsp;Max"] = "Keychron&nbsp;Q6&nbsp;Max";
 correct2URL["Keychron&nbsp;Q6&nbsp;Max"] = "https://www.keychron.com/products/keychron-q6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
 
 
+incorrect2correct["Keychron Q6 Max"] = "Keychron&nbsp;Q6&nbsp;Max";
 incorrect2correct["Q Max series"] = "Keychron&nbsp;Q6&nbsp;Max";
 incorrect2correct["q6 max"] = "Keychron&nbsp;Q6&nbsp;Max";
 incorrect2correct["Q6 max"] = "Keychron&nbsp;Q6&nbsp;Max";
 incorrect2correct["Q6 Max"] = "Keychron&nbsp;Q6&nbsp;Max";
 incorrect2correct["Q6 MAx"] = "Keychron&nbsp;Q6&nbsp;Max";
 incorrect2correct["Q6 MAX"] = "Keychron&nbsp;Q6&nbsp;Max";
+incorrect2correct["q6 max pro"] = "Keychron&nbsp;Q6&nbsp;Max";
+incorrect2correct["Q6 Max Pro"] = "Keychron&nbsp;Q6&nbsp;Max";
 incorrect2correct["Q6-MAX"] = "Keychron&nbsp;Q6&nbsp;Max";
 incorrect2correct["Q6&nbsp;Max"] = "Keychron&nbsp;Q6&nbsp;Max";
 incorrect2correct["q6ax"] = "Keychron&nbsp;Q6&nbsp;Max";
@@ -85301,27 +86114,13 @@ incorrect2correct["Q6&nbsp;Pro"] = "Keychron&nbsp;Q6&nbsp;Pro";
 incorrect2correct["Q6pro"] = "Keychron&nbsp;Q6&nbsp;Pro";
 incorrect2correct["six pro"] = "Keychron&nbsp;Q6&nbsp;Pro";
 incorrect2correct["six Pro"] = "Keychron&nbsp;Q6&nbsp;Pro";
-incorrect2correct["Keychron Q6 ULTRA"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
-correct2URL["Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K"] = "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard";
-
-
-incorrect2correct["Keychron Q6 Ultra 8K"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["KEYCRON Q6 ULTRA"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q6 Max Ultra"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q6 ultra"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q6 Ultra"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q6 ULTRA"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q6 ultra 8k"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q6 Ultra 8k"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q6 Ultra 8K"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q6 Ultra AK"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Q6&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;Q6&nbsp;Ultra&nbsp;8K";
 incorrect2correct["Keychron Q60 Max"] = "Keychron&nbsp;Q60&nbsp;Max";
 incorrect2correct["Keychron&nbsp;Q60&nbsp;Max"] = "Keychron&nbsp;Q60&nbsp;Max";
 correct2URL["Keychron&nbsp;Q60&nbsp;Max"] = "https://www.keychron.com/collections/wireless-mechanical-keyboard/products/keychron-q60-max-qmk-via-wireless-custom-mechanical-keyboard";
 
 
+incorrect2correct["q60 max"] = "Keychron&nbsp;Q60&nbsp;Max";
+incorrect2correct["Q60 max"] = "Keychron&nbsp;Q60&nbsp;Max";
 incorrect2correct["Q60 Max"] = "Keychron&nbsp;Q60&nbsp;Max";
 incorrect2correct["Q60_max"] = "Keychron&nbsp;Q60&nbsp;Max";
 incorrect2correct["Q60&nbsp;Max"] = "Keychron&nbsp;Q60&nbsp;Max";
@@ -85338,54 +86137,6 @@ correct2URL["Keychron&nbsp;R6"] = "https://www.keychron.com/collections/vintage-
 
 
 incorrect2correct["R6"] = "Keychron&nbsp;R6";
-incorrect2correct["Keychron S series___"] = "Keychron&nbsp;S&nbsp;series___";
-incorrect2correct["Keychron&nbsp;S&nbsp;series___"] = "Keychron&nbsp;S&nbsp;series___";
-correct2URL["Keychron&nbsp;S&nbsp;series___"] = "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard";
-
-
-incorrect2correct["Keychron S1___"] = "Keychron&nbsp;S&nbsp;series___";
-incorrect2correct["S series___"] = "Keychron&nbsp;S&nbsp;series___";
-incorrect2correct["S&nbsp;series___"] = "Keychron&nbsp;S&nbsp;series___";
-incorrect2correct["S1___"] = "Keychron&nbsp;S&nbsp;series___";
-incorrect2correct["Keychron V Max series___"] = "Keychron&nbsp;V&nbsp;Max&nbsp;series___";
-incorrect2correct["Keychron&nbsp;V&nbsp;Max&nbsp;series___"] = "Keychron&nbsp;V&nbsp;Max&nbsp;series___";
-correct2URL["Keychron&nbsp;V&nbsp;Max&nbsp;series___"] = "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["Keychron V6 Max___"] = "Keychron&nbsp;V&nbsp;Max&nbsp;series___";
-incorrect2correct["Keychron&nbsp;V6&nbsp;Max___"] = "Keychron&nbsp;V&nbsp;Max&nbsp;series___";
-incorrect2correct["v max series___"] = "Keychron&nbsp;V&nbsp;Max&nbsp;series___";
-incorrect2correct["V Max series___"] = "Keychron&nbsp;V&nbsp;Max&nbsp;series___";
-incorrect2correct["V Max Series___"] = "Keychron&nbsp;V&nbsp;Max&nbsp;series___";
-incorrect2correct["v max___"] = "Keychron&nbsp;V&nbsp;Max&nbsp;series___";
-incorrect2correct["V Max___"] = "Keychron&nbsp;V&nbsp;Max&nbsp;series___";
-incorrect2correct["V-Max___"] = "Keychron&nbsp;V&nbsp;Max&nbsp;series___";
-incorrect2correct["V&nbsp;Max&nbsp;series___"] = "Keychron&nbsp;V&nbsp;Max&nbsp;series___";
-incorrect2correct["Keychron V series___"] = "Keychron&nbsp;V&nbsp;series___";
-incorrect2correct["Keychron&nbsp;V&nbsp;series___"] = "Keychron&nbsp;V&nbsp;series___";
-correct2URL["Keychron&nbsp;V&nbsp;series___"] = "https://www.keychron.com/products/keychron-v6-qmk-custom-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["Keychron V6 ISO___"] = "Keychron&nbsp;V&nbsp;series___";
-incorrect2correct["v series___"] = "Keychron&nbsp;V&nbsp;series___";
-incorrect2correct["V series___"] = "Keychron&nbsp;V&nbsp;series___";
-incorrect2correct["V series___"] = "Keychron&nbsp;V&nbsp;series___";
-incorrect2correct["v___"] = "Keychron&nbsp;V&nbsp;series___";
-incorrect2correct["V___"] = "Keychron&nbsp;V&nbsp;series___";
-incorrect2correct["V&nbsp;series___"] = "Keychron&nbsp;V&nbsp;series___";
-incorrect2correct["Keychron V Ultra 8K series___"] = "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___"] = "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___";
-correct2URL["Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___"] = "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard";
-
-
-incorrect2correct["Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K___"] = "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["V Ultra 8K series___"] = "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["V Ultra 8K___"] = "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["V ultra series___"] = "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["V Ultra series___"] = "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["V Ultra___"] = "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["V&nbsp;Ultra&nbsp;8K series___"] = "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___";
-incorrect2correct["V&nbsp;Ultra&nbsp;8K&nbsp;series___"] = "Keychron&nbsp;V&nbsp;Ultra&nbsp;8K&nbsp;series___";
 incorrect2correct["Keychron V0 Ultra"] = "Keychron&nbsp;V0&nbsp;Ultra&nbsp;8K";
 incorrect2correct["Keychron&nbsp;V0&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;V0&nbsp;Ultra&nbsp;8K";
 correct2URL["Keychron&nbsp;V0&nbsp;Ultra&nbsp;8K"] = "https://www.keychron.com/products/keychron-v0-ultra-8k-wireless-custom-number-pad";
@@ -85397,46 +86148,6 @@ incorrect2correct["V0 Ulta"] = "Keychron&nbsp;V0&nbsp;Ultra&nbsp;8K";
 incorrect2correct["V0 Ultra"] = "Keychron&nbsp;V0&nbsp;Ultra&nbsp;8K";
 incorrect2correct["V0 Ultra 8K"] = "Keychron&nbsp;V0&nbsp;Ultra&nbsp;8K";
 incorrect2correct["V0&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;V0&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Keychron V1 8K"] = "Keychron&nbsp;V1&nbsp;8K";
-incorrect2correct["Keychron&nbsp;V1&nbsp;8K"] = "Keychron&nbsp;V1&nbsp;8K";
-correct2URL["Keychron&nbsp;V1&nbsp;8K"] = "https://www.keychron.com/products/keychron-v1-8k-qmk-wired-custom-mechanical-keyboard";
-
-
-incorrect2correct["V1 8K"] = "Keychron&nbsp;V1&nbsp;8K";
-incorrect2correct["keychron v1 max"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["Keychron&nbsp;V1&nbsp;Max"] = "Keychron&nbsp;V1&nbsp;Max";
-correct2URL["Keychron&nbsp;V1&nbsp;Max"] = "https://www.keychron.com/products/keychron-v1-max-qmk-via-wireless-custom-mechanical-keyboard";
-
-
-incorrect2correct["Keychron v1 max"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["Keychron V1 max"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["Keychron V1 Max"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["Keychron V1 MAX"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["KEYCHRON V1 MAX"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["max v1"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["v1 max"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["V1 max"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["V1 Max"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["V1 MAX"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["V1&nbsp;Max"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["V1Max"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["V1MAX"] = "Keychron&nbsp;V1&nbsp;Max";
-incorrect2correct["Keychron V1 Ultra"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
-correct2URL["Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K"] = "https://www.keychron.com/products/keychron-v1-ultra-8k-wireless-custom-mechanical-keyboard";
-
-
-incorrect2correct["Keychron V1 Ultra 8K"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["KEYCHRON VI ULTRA 8k"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["v1 ultra"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V1 Ultra"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["v1 Ultra 8k"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V1 Ultra 8k"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V1 Ultra 8K"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V1 ULTRA 8k"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V1 ULTRA 8K"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V1&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
-incorrect2correct["VI ULTRA 8k"] = "Keychron&nbsp;V1&nbsp;Ultra&nbsp;8K";
 incorrect2correct["Keychron V10 Ultra 8K"] = "Keychron&nbsp;V10&nbsp;Ultra&nbsp;8K";
 incorrect2correct["Keychron&nbsp;V10&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;V10&nbsp;Ultra&nbsp;8K";
 correct2URL["Keychron&nbsp;V10&nbsp;Ultra&nbsp;8K"] = "https://www.keychron.com/products/keychron-v10-ultra-8k-wireless-custom-mechanical-keyboard";
@@ -85444,15 +86155,6 @@ correct2URL["Keychron&nbsp;V10&nbsp;Ultra&nbsp;8K"] = "https://www.keychron.com/
 
 incorrect2correct["V10 Ultra"] = "Keychron&nbsp;V10&nbsp;Ultra&nbsp;8K";
 incorrect2correct["V10 Ultra 8K"] = "Keychron&nbsp;V10&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Keychron V2 Max"] = "Keychron&nbsp;V2&nbsp;Max";
-incorrect2correct["Keychron&nbsp;V2&nbsp;Max"] = "Keychron&nbsp;V2&nbsp;Max";
-correct2URL["Keychron&nbsp;V2&nbsp;Max"] = "https://www.keychron.com/products/keychron-v2-max-qmk-via-wireless-custom-mechanical-keyboard";
-
-
-incorrect2correct["v2 max"] = "Keychron&nbsp;V2&nbsp;Max";
-incorrect2correct["V2 Max"] = "Keychron&nbsp;V2&nbsp;Max";
-incorrect2correct["V2 MAX"] = "Keychron&nbsp;V2&nbsp;Max";
-incorrect2correct["V2&nbsp;Max"] = "Keychron&nbsp;V2&nbsp;Max";
 incorrect2correct["keychron v3 max"] = "Keychron&nbsp;V3&nbsp;Max";
 incorrect2correct["Keychron&nbsp;V3&nbsp;Max"] = "Keychron&nbsp;V3&nbsp;Max";
 correct2URL["Keychron&nbsp;V3&nbsp;Max"] = "https://www.keychron.mx/products/keychron-v3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
@@ -85486,85 +86188,13 @@ correct2URL["Keychron&nbsp;V5&nbsp;8K (95%)"] = "https://www.keychron.com/produc
 incorrect2correct["Keychron V5 8K (95%)"] = "Keychron&nbsp;V5&nbsp;8K (95%)";
 incorrect2correct["Keychron&nbsp;V5&nbsp;8K"] = "Keychron&nbsp;V5&nbsp;8K (95%)";
 incorrect2correct["V5 8K"] = "Keychron&nbsp;V5&nbsp;8K (95%)";
-incorrect2correct["keychain v5 max"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["Keychron&nbsp;V5&nbsp;Max"] = "Keychron&nbsp;V5&nbsp;Max";
-correct2URL["Keychron&nbsp;V5&nbsp;Max"] = "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard";
-
-
-incorrect2correct["Keychron v5 max"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["Keychron V5 Max"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["v5 max"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["v5 Max"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["V5 max"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["V5 Max"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["V5 MAX"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["V5&nbsp;Max"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["V5M"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["v5max"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["V5max"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["V5Max"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["v5maz"] = "Keychron&nbsp;V5&nbsp;Max";
-incorrect2correct["VMAX 5"] = "Keychron&nbsp;V5&nbsp;Max";
 incorrect2correct["Keychron V5 Ultra 8K"] = "Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K";
 incorrect2correct["Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K";
 correct2URL["Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K"] = "https://www.keychron.com/products/keychron-v5-ultra-8k-wireless-custom-mechanical-keyboard";
 
 
+incorrect2correct["V5 Ultra"] = "Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K";
 incorrect2correct["V5 Ultra 8K"] = "Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Keychron V6 8K"] = "Keychron&nbsp;V6&nbsp;8K (105%)";
-incorrect2correct["Keychron&nbsp;V6&nbsp;8K (105%)"] = "Keychron&nbsp;V6&nbsp;8K (105%)";
-correct2URL["Keychron&nbsp;V6&nbsp;8K (105%)"] = "https://www.keychron.com/products/keychron-v6-8k-qmk-wired-custom-mechanical-keyboard";
-
-
-incorrect2correct["Keychron V6 8K (105%)"] = "Keychron&nbsp;V6&nbsp;8K (105%)";
-incorrect2correct["Keychron&nbsp;V6&nbsp;8K"] = "Keychron&nbsp;V6&nbsp;8K (105%)";
-incorrect2correct["V6 8K"] = "Keychron&nbsp;V6&nbsp;8K (105%)";
-incorrect2correct["Keychain V6 Max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["Keychron&nbsp;V6&nbsp;Max"] = "Keychron&nbsp;V6&nbsp;Max";
-correct2URL["Keychron&nbsp;V6&nbsp;Max"] = "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection";
-
-
-incorrect2correct["keychron v6 max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["keychron V6 Max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["Keychron V6 Max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["Keychron V6 MAX"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["KEYCHRON V6 MAX"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["V 6 max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["V Max series"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["v6 max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["v6 Max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["V6 max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["V6 Max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["V6 MAX"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["v6_max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["V6&nbsp;Max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["v6m"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["V6M"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["v6max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["V6max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["V6Max"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["V6MAX"] = "Keychron&nbsp;V6&nbsp;Max";
-incorrect2correct["Keychron V6 Ultra"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-correct2URL["Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K"] = "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard";
-
-
-incorrect2correct["Keychron V6 Ultra 8K"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["ultra"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Ultra"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["Ultras"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V6 8K Ultra"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["v6 ultra"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V6 ultra"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V6 Ultra"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["v6 ultra 8k"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V6 ultra 8k"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V6 Ultra 8k"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V6 Ultra 8K"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["v6_ultra"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["v6_ultra_8k"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V6_Ultra_8K"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
-incorrect2correct["V6&nbsp;Ultra&nbsp;8K"] = "Keychron&nbsp;V6&nbsp;Ultra&nbsp;8K";
 incorrect2correct["keycloak"] = "Keycloak";
 incorrect2correct["Keycloak"] = "Keycloak";
 correct2URL["Keycloak"] = "https://en.wikipedia.org/wiki/Keycloak";
@@ -85667,6 +86297,7 @@ correct2URL["keys"] = "https://en.wiktionary.org/wiki/key#Noun";
 
 
 incorrect2correct["kes"] = "keys";
+incorrect2correct["kesy"] = "keys";
 incorrect2correct["keye"] = "keys";
 incorrect2correct["keyes"] = "keys";
 incorrect2correct["Keys"] = "keys";
@@ -85947,6 +86578,7 @@ incorrect2correct["Kenesis_"] = "Kinesis Advantage 2_";
 incorrect2correct["kineses_"] = "Kinesis Advantage 2_";
 incorrect2correct["Kineses_"] = "Kinesis Advantage 2_";
 incorrect2correct["kinesis advantage 2_"] = "Kinesis Advantage 2_";
+incorrect2correct["kinesis advantage 360_"] = "Kinesis Advantage 2_";
 incorrect2correct["Kinesis advantage 360_"] = "Kinesis Advantage 2_";
 incorrect2correct["kinesis advantage 369_"] = "Kinesis Advantage 2_";
 incorrect2correct["kinesis advantage_"] = "Kinesis Advantage 2_";
@@ -86209,12 +86841,6 @@ incorrect2correct["knitr"] = "knitr";
 correct2URL["knitr"] = "https://yihui.org/knitr/";
 
 
-incorrect2correct["knbo_"] = "knob_";
-incorrect2correct["knob_"] = "knob_";
-correct2URL["knob_"] = "https://en.wiktionary.org/wiki/knob#Noun";
-
-
-incorrect2correct["nob_"] = "knob_";
 incorrect2correct["knock on"] = "knock-on";
 incorrect2correct["knock-on"] = "knock-on";
 correct2URL["knock-on"] = "https://en.wiktionary.org/wiki/knock-on#Noun";
@@ -86456,11 +87082,17 @@ correct2URL["Kruskal–Wallis"] = "https://en.wikipedia.org/wiki/Kruskal%E2%80%9
 
 incorrect2correct["kruskall-Wallis"] = "Kruskal–Wallis";
 incorrect2correct["Kruskall-wallis"] = "Kruskal–Wallis";
-incorrect2correct["KSA__"] = "KSA keycap profile__";
+incorrect2correct["KSA caps profile__"] = "KSA keycap profile__";
 incorrect2correct["KSA keycap profile__"] = "KSA keycap profile__";
 correct2URL["KSA keycap profile__"] = "https://thekeeblog.com/overview-of-different-keycap-profiles/#KSA_Profile";
 
 
+incorrect2correct["KSA Caps Profile__"] = "KSA keycap profile__";
+incorrect2correct["KSA keycap__"] = "KSA keycap profile__";
+incorrect2correct["KSA keycaps profile__"] = "KSA keycap profile__";
+incorrect2correct["KSA Keycaps Profile__"] = "KSA keycap profile__";
+incorrect2correct["KSA keycaps__"] = "KSA keycap profile__";
+incorrect2correct["KSA__"] = "KSA keycap profile__";
 incorrect2correct["deduplication"] = "KSM";
 incorrect2correct["KSM"] = "KSM";
 correct2URL["KSM"] = "https://en.wikipedia.org/wiki/Kernel_same-page_merging";
@@ -86470,6 +87102,8 @@ incorrect2correct["kernel same-page merging"] = "KSM";
 incorrect2correct["kernel shared memory"] = "KSM";
 incorrect2correct["memory deduplication"] = "KSM";
 incorrect2correct["memory merging"] = "KSM";
+incorrect2correct["shared memory"] = "KSM";
+incorrect2correct["shm"] = "KSM";
 incorrect2correct["Ktrace"] = "ktrace";
 incorrect2correct["ktrace"] = "ktrace";
 correct2URL["ktrace"] = "https://en.wikipedia.org/wiki/Ktrace";
@@ -86514,24 +87148,21 @@ incorrect2correct["kUbuntu"] = "Kubuntu";
 incorrect2correct["KUbuntu"] = "Kubuntu";
 incorrect2correct["KUBUNTU"] = "Kubuntu";
 incorrect2correct["kubutnu"] = "Kubuntu";
-incorrect2correct["Kubuntu 16.04"] = "Kubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Kubuntu&nbsp;16.04 (Xenial Xerus)"] = "Kubuntu&nbsp;16.04 (Xenial Xerus)";
-correct2URL["Kubuntu&nbsp;16.04 (Xenial Xerus)"] = "https://en.wikipedia.org/wiki/Kubuntu#Releases";
+incorrect2correct["Kubuntu 16.04"] = "Kubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["Kubuntu 16.04 (Xenial Xerus)"] = "Kubuntu 16.04 (Xenial Xerus)";
+correct2URL["Kubuntu 16.04 (Xenial Xerus)"] = "https://en.wikipedia.org/wiki/Kubuntu#Releases";
 
 
-incorrect2correct["Kubuntu 16.04 (Xenial Xerus)"] = "Kubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Kubuntu 20.04"] = "Kubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Kubuntu&nbsp;20.04 (Focal Fossa)"] = "Kubuntu&nbsp;20.04 (Focal Fossa)";
-correct2URL["Kubuntu&nbsp;20.04 (Focal Fossa)"] = "https://en.wikipedia.org/wiki/Kubuntu#History";
+incorrect2correct["Kubuntu 20.04"] = "Kubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Kubuntu 20.04 (Focal Fossa)"] = "Kubuntu 20.04 (Focal Fossa)";
+correct2URL["Kubuntu 20.04 (Focal Fossa)"] = "https://en.wikipedia.org/wiki/Kubuntu#History";
 
 
-incorrect2correct["Kubuntu 20.04 (Focal Fossa)"] = "Kubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Kubuntu 24.04 (Noble Numbat)"] = "Kubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["Kubuntu&nbsp;24.04 (Noble Numbat)"] = "Kubuntu&nbsp;24.04 (Noble Numbat)";
-correct2URL["Kubuntu&nbsp;24.04 (Noble Numbat)"] = "https://en.wikipedia.org/wiki/Kubuntu#Releases";
+incorrect2correct["kubuntu24.04"] = "Kubuntu 24.04 (Noble Numbat)";
+incorrect2correct["Kubuntu 24.04 (Noble Numbat)"] = "Kubuntu 24.04 (Noble Numbat)";
+correct2URL["Kubuntu 24.04 (Noble Numbat)"] = "https://en.wikipedia.org/wiki/Kubuntu#Releases";
 
 
-incorrect2correct["kubuntu24.04"] = "Kubuntu&nbsp;24.04 (Noble Numbat)";
 incorrect2correct["cudo's"] = "kudos";
 incorrect2correct["kudos"] = "kudos";
 correct2URL["kudos"] = "https://en.wiktionary.org/wiki/kudos#Noun";
@@ -87439,6 +88070,11 @@ correct2URL["laughing my fucking ass off"] = "https://en.wiktionary.org/wiki/LMF
 
 
 incorrect2correct["LMFAO"] = "laughing my fucking ass off";
+incorrect2correct["lauther"] = "laughter";
+incorrect2correct["laughter"] = "laughter";
+correct2URL["laughter"] = "https://en.wiktionary.org/wiki/laughter#Noun";
+
+
 incorrect2correct["lanch"] = "launch";
 incorrect2correct["launch"] = "launch";
 correct2URL["launch"] = "https://en.wiktionary.org/wiki/launch#Noun";
@@ -87852,12 +88488,12 @@ incorrect2correct["leakage current"] = "leakage current";
 correct2URL["leakage current"] = "https://en.wiktionary.org/wiki/leakage_current#Noun";
 
 
-incorrect2correct["Lean"] = "lean";
-incorrect2correct["lean"] = "lean";
-correct2URL["lean"] = "https://en.wikipedia.org/wiki/Lean_thinking";
+incorrect2correct["Lean_"] = "lean_";
+incorrect2correct["lean_"] = "lean_";
+correct2URL["lean_"] = "https://en.wikipedia.org/wiki/Lean_thinking";
 
 
-incorrect2correct["LEAN"] = "lean";
+incorrect2correct["LEAN_"] = "lean_";
 incorrect2correct["leap of nerd faith"] = "leap of faith";
 incorrect2correct["leap of faith"] = "leap of faith";
 correct2URL["leap of faith"] = "https://en.wiktionary.org/wiki/leap_of_faith#Noun";
@@ -87879,11 +88515,23 @@ incorrect2correct["Lear Siegler"] = "Lear Siegler";
 correct2URL["Lear Siegler"] = "https://en.wikipedia.org/wiki/Lear_Siegler#Computer_terminals";
 
 
-incorrect2correct["learen"] = "learn";
+incorrect2correct["lear"] = "Learjet";
+incorrect2correct["Learjet"] = "Learjet";
+correct2URL["Learjet"] = "https://en.wikipedia.org/wiki/Learjet#Aircraft";
+
+
+incorrect2correct["Lear"] = "Learjet";
+incorrect2correct["lear jet"] = "Learjet";
+incorrect2correct["Lear jet"] = "Learjet";
+incorrect2correct["Lear Jet"] = "Learjet";
+incorrect2correct["learjet"] = "Learjet";
+incorrect2correct["LearJet"] = "Learjet";
+incorrect2correct["lean"] = "learn";
 incorrect2correct["learn"] = "learn";
 correct2URL["learn"] = "https://en.wiktionary.org/wiki/learn#Verb";
 
 
+incorrect2correct["learen"] = "learn";
 incorrect2correct["lern"] = "learn";
 incorrect2correct["Learn Python the hard way"] = "Learn Python the Hard Way";
 incorrect2correct["Learn Python the Hard Way"] = "Learn Python the Hard Way";
@@ -88353,6 +89001,24 @@ correct2URL["Lemokey Launcher____"] = "https://www.reddit.com/r/Keychron/comment
 incorrect2correct["lemokey launcher____"] = "Lemokey Launcher____";
 incorrect2correct["Lemokey Link____"] = "Lemokey Launcher____";
 incorrect2correct["Lemonkey Launcher____"] = "Lemokey Launcher____";
+incorrect2correct["Keychron Lemokey P1 Pro___"] = "Lemokey P Pro series___";
+incorrect2correct["Lemokey P Pro series___"] = "Lemokey P Pro series___";
+correct2URL["Lemokey P Pro series___"] = "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard";
+
+
+incorrect2correct["Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro___"] = "Lemokey P Pro series___";
+incorrect2correct["lemokey p pro series___"] = "Lemokey P Pro series___";
+incorrect2correct["Lemokey series___"] = "Lemokey P Pro series___";
+incorrect2correct["p pro series___"] = "Lemokey P Pro series___";
+incorrect2correct["P Pro series___"] = "Lemokey P Pro series___";
+incorrect2correct["p pro___"] = "Lemokey P Pro series___";
+incorrect2correct["P Pro___"] = "Lemokey P Pro series___";
+incorrect2correct["Keychron Lemokey X3___"] = "Lemokey X series___";
+incorrect2correct["Lemokey X series___"] = "Lemokey X series___";
+correct2URL["Lemokey X series___"] = "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard";
+
+
+incorrect2correct["X series___"] = "Lemokey X series___";
 incorrect2correct["L0 HE"] = "Lemokey&nbsp;L0&nbsp;HE";
 incorrect2correct["Lemokey&nbsp;L0&nbsp;HE"] = "Lemokey&nbsp;L0&nbsp;HE";
 correct2URL["Lemokey&nbsp;L0&nbsp;HE"] = "https://www.lemokey.com/products/lemokey-l0-he-one-handed-magnetic-switch-gaming-keyboard";
@@ -88360,26 +89026,6 @@ correct2URL["Lemokey&nbsp;L0&nbsp;HE"] = "https://www.lemokey.com/products/lemok
 
 incorrect2correct["L0&nbsp;HE"] = "Lemokey&nbsp;L0&nbsp;HE";
 incorrect2correct["Lemokey L0 HE"] = "Lemokey&nbsp;L0&nbsp;HE";
-incorrect2correct["Keychron Lemokey P1 Pro___"] = "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___";
-incorrect2correct["Lemokey&nbsp;P&nbsp;Pro&nbsp;series___"] = "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___";
-correct2URL["Lemokey&nbsp;P&nbsp;Pro&nbsp;series___"] = "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard";
-
-
-incorrect2correct["Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro___"] = "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___";
-incorrect2correct["lemokey p pro series___"] = "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___";
-incorrect2correct["Lemokey P Pro series___"] = "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___";
-incorrect2correct["Lemokey series___"] = "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___";
-incorrect2correct["p pro series___"] = "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___";
-incorrect2correct["P Pro series___"] = "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___";
-incorrect2correct["p pro___"] = "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___";
-incorrect2correct["P Pro___"] = "Lemokey&nbsp;P&nbsp;Pro&nbsp;series___";
-incorrect2correct["Keychron Lemokey X3___"] = "Lemokey&nbsp;X&nbsp;series___";
-incorrect2correct["Lemokey&nbsp;X&nbsp;series___"] = "Lemokey&nbsp;X&nbsp;series___";
-correct2URL["Lemokey&nbsp;X&nbsp;series___"] = "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard";
-
-
-incorrect2correct["Lemokey X series___"] = "Lemokey&nbsp;X&nbsp;series___";
-incorrect2correct["X series___"] = "Lemokey&nbsp;X&nbsp;series___";
 incorrect2correct["Lemon_"] = "lemon_";
 incorrect2correct["lemon_"] = "lemon_";
 correct2URL["lemon_"] = "https://en.wiktionary.org/wiki/lemon#Noun";
@@ -89144,6 +89790,16 @@ correct2URL["LightDM"] = "https://en.wikipedia.org/wiki/LightDM";
 
 
 incorrect2correct["Lightdm"] = "LightDM";
+incorrect2correct["ligher"] = "lighter";
+incorrect2correct["lighter"] = "lighter";
+correct2URL["lighter"] = "https://en.wiktionary.org/wiki/lighter#Adjective";
+
+
+incorrect2correct["ligthest"] = "lightest";
+incorrect2correct["lightest"] = "lightest";
+correct2URL["lightest"] = "https://en.wiktionary.org/wiki/lightest#Adjective";
+
+
 incorrect2correct["light hearted"] = "lighthearted";
 incorrect2correct["lighthearted"] = "lighthearted";
 correct2URL["lighthearted"] = "https://en.wiktionary.org/wiki/lighthearted#Adjective";
@@ -89169,11 +89825,12 @@ incorrect2correct["lightning"] = "lighting";
 incorrect2correct["ligting"] = "lighting";
 incorrect2correct["Ligting"] = "lighting";
 incorrect2correct["loghting"] = "lighting";
-incorrect2correct["ligtly"] = "lightly";
+incorrect2correct["lightlty"] = "lightly";
 incorrect2correct["lightly"] = "lightly";
 correct2URL["lightly"] = "https://en.wiktionary.org/wiki/lightly#Adverb";
 
 
+incorrect2correct["ligtly"] = "lightly";
 incorrect2correct["Lightning bolt"] = "lightning bolt";
 incorrect2correct["lightning bolt"] = "lightning bolt";
 correct2URL["lightning bolt"] = "https://en.wiktionary.org/wiki/lightning_bolt#Noun";
@@ -89243,6 +89900,7 @@ incorrect2correct["liket"] = "like";
 incorrect2correct["lild"] = "like";
 incorrect2correct["lile"] = "like";
 incorrect2correct["lilke"] = "like";
+incorrect2correct["linke"] = "like";
 incorrect2correct["lke"] = "like";
 incorrect2correct["Lke"] = "like";
 incorrect2correct["loke"] = "like";
@@ -89526,6 +90184,11 @@ incorrect2correct["lignes"] = "lines";
 incorrect2correct["line up"] = "lineup";
 incorrect2correct["lineup"] = "lineup";
 correct2URL["lineup"] = "https://en.wiktionary.org/wiki/lineup#Noun";
+
+
+incorrect2correct["line-widths"] = "linewidths";
+incorrect2correct["linewidths"] = "linewidths";
+correct2URL["linewidths"] = "https://en.wiktionary.org/wiki/linewidth#Noun";
 
 
 incorrect2correct["lingua Franca"] = "lingua franca";
@@ -90079,6 +90742,7 @@ incorrect2correct["Sonix QMK_"] = "list of Sonix QMK-compatible keyboards_";
 incorrect2correct["Sonix_"] = "list of Sonix QMK-compatible keyboards_";
 incorrect2correct["supported keyboards_"] = "list of Sonix QMK-compatible keyboards_";
 incorrect2correct["the list of compatible keyboards_"] = "list of Sonix QMK-compatible keyboards_";
+incorrect2correct["the list_"] = "list of Sonix QMK-compatible keyboards_";
 incorrect2correct["manufacturer's suggested retail price_"] = "list price_";
 incorrect2correct["list price_"] = "list price_";
 correct2URL["list price_"] = "https://en.wikipedia.org/wiki/List_price";
@@ -91240,7 +91904,7 @@ correct2URL["looking into"] = "https://en.wiktionary.org/wiki/look_into#Verb";
 
 incorrect2correct["loks"] = "looks";
 incorrect2correct["looks"] = "looks";
-correct2URL["looks"] = "https://en.wiktionary.org/wiki/looks#Verb";
+correct2URL["looks"] = "https://en.wiktionary.org/wiki/look#Verb";
 
 
 incorrect2correct["lols"] = "looks";
@@ -91697,30 +92361,32 @@ incorrect2correct["low-power"] = "low-power";
 correct2URL["low-power"] = "https://en.wiktionary.org/wiki/low-power#Adjective";
 
 
-incorrect2correct["low pro"] = "low-profile mechanical switch";
-incorrect2correct["low-profile mechanical switch"] = "low-profile mechanical switch";
-correct2URL["low-profile mechanical switch"] = "https://switchandclick.com/low-profile-switches-explained/";
+incorrect2correct["low pro"] = "low-profile mechanical switches";
+incorrect2correct["low-profile mechanical switches"] = "low-profile mechanical switches";
+correct2URL["low-profile mechanical switches"] = "https://switchandclick.com/low-profile-switches-explained/";
 
 
-incorrect2correct["low profile"] = "low-profile mechanical switch";
-incorrect2correct["Low profile"] = "low-profile mechanical switch";
-incorrect2correct["Low Profile"] = "low-profile mechanical switch";
-incorrect2correct["low profile mechanical switch"] = "low-profile mechanical switch";
-incorrect2correct["low profile switch"] = "low-profile mechanical switch";
-incorrect2correct["Low profile switch"] = "low-profile mechanical switch";
-incorrect2correct["low-pro"] = "low-profile mechanical switch";
-incorrect2correct["low-profie"] = "low-profile mechanical switch";
-incorrect2correct["Low-profie"] = "low-profile mechanical switch";
-incorrect2correct["low-profile"] = "low-profile mechanical switch";
-incorrect2correct["Low-profile"] = "low-profile mechanical switch";
-incorrect2correct["low-profile switche"] = "low-profile mechanical switch";
-incorrect2correct["low-profile switches"] = "low-profile mechanical switch";
-incorrect2correct["lp"] = "low-profile mechanical switch";
-incorrect2correct["LP"] = "low-profile mechanical switch";
-incorrect2correct["LP switch"] = "low-profile mechanical switch";
-incorrect2correct["LP switches"] = "low-profile mechanical switch";
-incorrect2correct["LPs"] = "low-profile mechanical switch";
-incorrect2correct["now profile"] = "low-profile mechanical switch";
+incorrect2correct["low profile"] = "low-profile mechanical switches";
+incorrect2correct["Low profile"] = "low-profile mechanical switches";
+incorrect2correct["Low Profile"] = "low-profile mechanical switches";
+incorrect2correct["low profile mechanical switch"] = "low-profile mechanical switches";
+incorrect2correct["low profile switch"] = "low-profile mechanical switches";
+incorrect2correct["Low profile switch"] = "low-profile mechanical switches";
+incorrect2correct["low-pro"] = "low-profile mechanical switches";
+incorrect2correct["low-profie"] = "low-profile mechanical switches";
+incorrect2correct["Low-profie"] = "low-profile mechanical switches";
+incorrect2correct["low-profile"] = "low-profile mechanical switches";
+incorrect2correct["Low-profile"] = "low-profile mechanical switches";
+incorrect2correct["low-profile mechanical switch"] = "low-profile mechanical switches";
+incorrect2correct["low-profile switche"] = "low-profile mechanical switches";
+incorrect2correct["low-profile switches"] = "low-profile mechanical switches";
+incorrect2correct["lowprofile switches"] = "low-profile mechanical switches";
+incorrect2correct["lp"] = "low-profile mechanical switches";
+incorrect2correct["LP"] = "low-profile mechanical switches";
+incorrect2correct["LP switch"] = "low-profile mechanical switches";
+incorrect2correct["LP switches"] = "low-profile mechanical switches";
+incorrect2correct["LPs"] = "low-profile mechanical switches";
+incorrect2correct["now profile"] = "low-profile mechanical switches";
 incorrect2correct["lo-pro_"] = "low-profile_";
 incorrect2correct["low-profile_"] = "low-profile_";
 correct2URL["low-profile_"] = "https://en.wiktionary.org/wiki/low-profile#Adjective";
@@ -92113,9 +92779,9 @@ correct2URL["LUNA_"] = "https://www.crowdsupply.com/great-scott-gadgets/luna/upd
 
 
 incorrect2correct["Luna_"] = "LUNA_";
-incorrect2correct["Lunar"] = "lunar";
-incorrect2correct["lunar"] = "lunar";
-correct2URL["lunar"] = "https://en.wiktionary.org/wiki/lunar#Adjective";
+incorrect2correct["Lunar_"] = "lunar_";
+incorrect2correct["lunar_"] = "lunar_";
+correct2URL["lunar_"] = "https://en.wiktionary.org/wiki/lunar#Adjective";
 
 
 incorrect2correct["ling"] = "lung";
@@ -92205,12 +92871,12 @@ incorrect2correct["lying"] = "lying";
 correct2URL["lying"] = "https://en.wiktionary.org/wiki/lie#Verb_2";
 
 
-incorrect2correct["lynx"] = "Lynx";
-incorrect2correct["Lynx"] = "Lynx";
-correct2URL["Lynx"] = "https://en.wikipedia.org/wiki/Lynx_%28web_browser%29";
+incorrect2correct["lynx_"] = "Lynx_";
+incorrect2correct["Lynx_"] = "Lynx_";
+correct2URL["Lynx_"] = "https://en.wikipedia.org/wiki/Lynx_%28web_browser%29";
 
 
-incorrect2correct["LYNX"] = "Lynx";
+incorrect2correct["LYNX_"] = "Lynx_";
 incorrect2correct["LC4"] = "LZ4";
 incorrect2correct["LZ4"] = "LZ4";
 correct2URL["LZ4"] = "https://en.wikipedia.org/wiki/LZ4_(compression_algorithm)";
@@ -92267,13 +92933,11 @@ incorrect2correct["m/PATTERN/msixpodualngc"] = "m/PATTERN/msixpodualngc";
 correct2URL["m/PATTERN/msixpodualngc"] = "https://perldoc.perl.org/perlop.html#m%2f_PATTERN_%2fmsixpodualngc";
 
 
-incorrect2correct["M1 max"] = "M1 Max MacBook Pro";
+incorrect2correct["Macbook M1 Max"] = "M1 Max MacBook Pro";
 incorrect2correct["M1 Max MacBook Pro"] = "M1 Max MacBook Pro";
 correct2URL["M1 Max MacBook Pro"] = "https://en.wikipedia.org/wiki/MacBook_Pro#5th_generation_(M1_Pro_and_M1_Max)";
 
 
-incorrect2correct["M1 Max"] = "M1 Max MacBook Pro";
-incorrect2correct["Macbook M1 Max"] = "M1 Max MacBook Pro";
 incorrect2correct["Makbook M1 Max"] = "M1 Max MacBook Pro";
 incorrect2correct["m3u8"] = "M3U8";
 incorrect2correct["M3U8"] = "M3U8";
@@ -92350,6 +93014,319 @@ incorrect2correct["Mac OS 9"] = "Mac OS 9";
 correct2URL["Mac OS 9"] = "https://en.wikipedia.org/wiki/Mac_OS_9";
 
 
+incorrect2correct["10.10__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["Mac OS X v10.10 (Yosemite) (2014 vintage)__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+correct2URL["Mac OS X v10.10 (Yosemite) (2014 vintage)__"] = "https://en.wikipedia.org/wiki/OS_X_Yosemite";
+
+
+incorrect2correct["Mac 10.10__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["mac os 10.10__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["Mac OS X 10.10__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["Mac OS X v10.10 (Yosemite)__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["Mac OS X Yosemite__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["Mac OSX Yosemite__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["Mac10.10__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["macOS 10.10__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["MacOS X Yosemite__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["OS X 10.10__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["OS X v10.10__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["OS X yosemite__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["OS X Yosemite__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["osx 10.10__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["OsX 10.10__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["OSX 10.10__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["OSX yosemite__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["OSX Yosemite__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["v10.10__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["yosemite__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["Yosemite__"] = "Mac OS X v10.10 (Yosemite) (2014 vintage)__";
+incorrect2correct["10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["Mac OS X v10.11 (El Capitan) (2015 vintage)"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+correct2URL["Mac OS X v10.11 (El Capitan) (2015 vintage)"] = "https://en.wikipedia.org/wiki/OS_X_El_Capitan";
+
+
+incorrect2correct["10.11 El Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["10.11 Mac OS X"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["10.11 Mac OSX"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["10.11 Mac OSX El Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["Captain"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["EI Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["El Capitain"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["el capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["El capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["El Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["EL Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["EL CAPITAN"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["El Capitan 10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["El Captain"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["Mac 10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["mac os el capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["mac OS El Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["Mac OS X 10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["MAC OS X 10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["mac OS X El Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["Mac OS X El Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["Mac OS X El Capitan 10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["Mac OS X v10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["Mac OS X v10.11 (El Capitan)"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["mac version 10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["Mac version 10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["macOS El Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["OS El Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["OS X 10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["OS X Captain"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["os x el capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["OS X El Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["OS X EL Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["OS X El Capitan 10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["OS X v10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["osx 10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["OSX 10.11"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["osx 10.11 El Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["OSX El Capitan"] = "Mac OS X v10.11 (El Capitan) (2015 vintage)";
+incorrect2correct["10.2__"] = "Mac OS X v10.2 (Jaguar) (2002 vintage)__";
+incorrect2correct["Mac OS X v10.2 (Jaguar) (2002 vintage)__"] = "Mac OS X v10.2 (Jaguar) (2002 vintage)__";
+correct2URL["Mac OS X v10.2 (Jaguar) (2002 vintage)__"] = "https://en.wikipedia.org/wiki/Mac_OS_X_v10.2";
+
+
+incorrect2correct["Jaguar__"] = "Mac OS X v10.2 (Jaguar) (2002 vintage)__";
+incorrect2correct["Mac OS X v10.2 (Jaguar)__"] = "Mac OS X v10.2 (Jaguar) (2002 vintage)__";
+incorrect2correct["10.4"] = "Mac OS X v10.4 (Tiger) (2005 vintage)";
+incorrect2correct["Mac OS X v10.4 (Tiger) (2005 vintage)"] = "Mac OS X v10.4 (Tiger) (2005 vintage)";
+correct2URL["Mac OS X v10.4 (Tiger) (2005 vintage)"] = "https://en.wikipedia.org/wiki/Mac_OS_X_Tiger";
+
+
+incorrect2correct["Mac 10.4"] = "Mac OS X v10.4 (Tiger) (2005 vintage)";
+incorrect2correct["Mac OS (10.4)"] = "Mac OS X v10.4 (Tiger) (2005 vintage)";
+incorrect2correct["Mac OS X v10.4"] = "Mac OS X v10.4 (Tiger) (2005 vintage)";
+incorrect2correct["Mac OS X v10.4 (Tiger)"] = "Mac OS X v10.4 (Tiger) (2005 vintage)";
+incorrect2correct["macOS (10.4)"] = "Mac OS X v10.4 (Tiger) (2005 vintage)";
+incorrect2correct["macOS 10.4"] = "Mac OS X v10.4 (Tiger) (2005 vintage)";
+incorrect2correct["MacOS 10.4"] = "Mac OS X v10.4 (Tiger) (2005 vintage)";
+incorrect2correct["Tiger"] = "Mac OS X v10.4 (Tiger) (2005 vintage)";
+incorrect2correct["10.5"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["Mac OS X v10.5 (Leopard) (2007 vintage)"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+correct2URL["Mac OS X v10.5 (Leopard) (2007 vintage)"] = "https://en.wikipedia.org/wiki/Mac_OS_X_Leopard";
+
+
+incorrect2correct["leopard"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["Leopard"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["Mac OS X 10.5"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["Mac OS X 10.5"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["Mac OS X Leopard"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["Mac OS X v10.5"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["Mac OS X v10.5 (Leopard)"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["MacOS X 10.5"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["OS X 10.5"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["OS-X 10.5"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["OSX 10.5"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["OX 10.5"] = "Mac OS X v10.5 (Leopard) (2007 vintage)";
+incorrect2correct["10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Mac OS X v10.6 (Snow Leopard) (2009 vintage)"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+correct2URL["Mac OS X v10.6 (Snow Leopard) (2009 vintage)"] = "https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard";
+
+
+incorrect2correct["10.6 Snow Leopard"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Mac OS 10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Mac OS Snow Leopard"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Mac OS X (10.6 \"Snow Leopard\")"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Mac OS X (10.6 Snow Leopard)"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Mac OS X 10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Mac OS X 10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Mac OS X Snow Leopard"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Mac OS X v10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Mac OS X v10.6 (Snow Leopard)"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Mac OSX 10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["mac osx snow leopard"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Mac OSX Snow Leopard"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["MacOS Snow Leopard"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["MacOS X 10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["OS X 10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["OS X v10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["OSx 10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["OSX 10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["OSX Snow Leopard"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["OSX-10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["SL"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["snow leopard"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Snow leopard"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["Snow Leopard"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["snow-leopard"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["SnowLeopard"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["v10.6"] = "Mac OS X v10.6 (Snow Leopard) (2009 vintage)";
+incorrect2correct["10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Mac OS X v10.7 (Lion) (2011 vintage)__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+correct2URL["Mac OS X v10.7 (Lion) (2011 vintage)__"] = "https://en.wikipedia.org/wiki/OS_X_Lion";
+
+
+incorrect2correct["7.4__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Lion OS X 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Lion X__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["LION__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Mac Lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Mac OS 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Mac OS Lion (10.7)__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Mac OS Lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Mac OS X 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["MAC OS X 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Mac OS X Lion 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["mac os x lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Mac OS X Lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Mac OS X v10.7 (Lion)__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Mac OS X v10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["Mac OSx Lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["macOS 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["MacOS 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["MacOS X 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["MacOSX 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["OS 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["OS X 10.7 Lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["OS X 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["OS X Lion 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["os x lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["OS X Lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["OS X.10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["OS X.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["OS X.7.4__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["OSX 10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["osx lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["OSX lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["OSX Lion__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["v10.7__"] = "Mac OS X v10.7 (Lion) (2011 vintage)__";
+incorrect2correct["10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["Mac OS X v10.8 (Mountain Lion) (2012 vintage)"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+correct2URL["Mac OS X v10.8 (Mountain Lion) (2012 vintage)"] = "https://en.wikipedia.org/wiki/OS_X_Mountain_Lion";
+
+
+incorrect2correct["mac os 10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["mac os x 10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["Mac os x 10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["Mac OS X 10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["MAC OS X 10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["Mac OS X Mountain Lion"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["Mac OS X v10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["Mac OS X v10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["Mac OS X v10.8 (Mountain Lion)"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["mac osx 10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["Mac OSX 10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["Mac OSX Mountain Lion"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["MacOS 10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["mountain lion"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["Mountain lion"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["Mountain Lion"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["Mountinan Lion"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["OS X 10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["OS X 10.8 Mountain Lion"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["OS X v10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["OS X version 10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["OSX 10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["OSX Mountain Lion"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["v10.8"] = "Mac OS X v10.8 (Mountain Lion) (2012 vintage)";
+incorrect2correct["10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Mac OS X v10.9 (Mavericks) (2013 vintage)__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+correct2URL["Mac OS X v10.9 (Mavericks) (2013 vintage)__"] = "https://en.wikipedia.org/wiki/OS_X_Mavericks";
+
+
+incorrect2correct["Mac 10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Mac Maverick__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["MAC Maverick__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Mac Mavericks__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["MAC Mavericks__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Mac OS (Mavericks)__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Mac OS 10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["mac os x 10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Mac OS X 10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["mac OS X mavericks__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Mac OS X Mavericks__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Mac OS X v10.9 (Mavericks)__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Mac OS X v10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["mac osx 10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["mac OSx 10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["mac ox 10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["macOS (Mavericks)__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["MacOSX 10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["makericks__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["maverick__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Maverick__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["mavericks__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Mavericks__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Maverics__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Maveriks__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Max OS X 10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["Max OSX 10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["OS X 10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["OS X Mavericks__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["OS X v10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["OSX 10.9__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["osx mavericks__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["OSX mavericks__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["OSX Mavericks__"] = "Mac OS X v10.9 (Mavericks) (2013 vintage)__";
+incorrect2correct["MAC 0S X_"] = "Mac OS X_";
+incorrect2correct["Mac OS X_"] = "Mac OS X_";
+correct2URL["Mac OS X_"] = "https://en.wikipedia.org/wiki/Mac_OS_X";
+
+
+incorrect2correct["mac os x_"] = "Mac OS X_";
+incorrect2correct["mac os X_"] = "Mac OS X_";
+incorrect2correct["mac OS X_"] = "Mac OS X_";
+incorrect2correct["Mac os x_"] = "Mac OS X_";
+incorrect2correct["Mac os X_"] = "Mac OS X_";
+incorrect2correct["Mac Os X_"] = "Mac OS X_";
+incorrect2correct["Mac OS x_"] = "Mac OS X_";
+incorrect2correct["MAC os x_"] = "Mac OS X_";
+incorrect2correct["MAC OS X_"] = "Mac OS X_";
+incorrect2correct["mac os_"] = "Mac OS X_";
+incorrect2correct["Mac OS-X_"] = "Mac OS X_";
+incorrect2correct["mac os/x_"] = "Mac OS X_";
+incorrect2correct["mac osx_"] = "Mac OS X_";
+incorrect2correct["mac OSx_"] = "Mac OS X_";
+incorrect2correct["mac OSX_"] = "Mac OS X_";
+incorrect2correct["Mac osx_"] = "Mac OS X_";
+incorrect2correct["Mac osX_"] = "Mac OS X_";
+incorrect2correct["Mac OsX_"] = "Mac OS X_";
+incorrect2correct["Mac OSx_"] = "Mac OS X_";
+incorrect2correct["Mac OSX_"] = "Mac OS X_";
+incorrect2correct["MAC osx_"] = "Mac OS X_";
+incorrect2correct["MAC OSx_"] = "Mac OS X_";
+incorrect2correct["MAC OSX_"] = "Mac OS X_";
+incorrect2correct["mac ox_"] = "Mac OS X_";
+incorrect2correct["MAC X_"] = "Mac OS X_";
+incorrect2correct["MAC-OS_"] = "Mac OS X_";
+incorrect2correct["mac-osx_"] = "Mac OS X_";
+incorrect2correct["Mac/OSx_"] = "Mac OS X_";
+incorrect2correct["Mac/OSX_"] = "Mac OS X_";
+incorrect2correct["macOS X_"] = "Mac OS X_";
+incorrect2correct["MacOs X_"] = "Mac OS X_";
+incorrect2correct["MacOS X_"] = "Mac OS X_";
+incorrect2correct["macOS_"] = "Mac OS X_";
+incorrect2correct["MacOS-X_"] = "Mac OS X_";
+incorrect2correct["MacOS/X_"] = "Mac OS X_";
+incorrect2correct["macosx_"] = "Mac OS X_";
+incorrect2correct["macosX_"] = "Mac OS X_";
+incorrect2correct["macOSX_"] = "Mac OS X_";
+incorrect2correct["MacOsX_"] = "Mac OS X_";
+incorrect2correct["MacOSx_"] = "Mac OS X_";
+incorrect2correct["MacOSX_"] = "Mac OS X_";
+incorrect2correct["MACOSX_"] = "Mac OS X_";
+incorrect2correct["Macsox_"] = "Mac OS X_";
+incorrect2correct["MaxOSX_"] = "Mac OS X_";
+incorrect2correct["os x_"] = "Mac OS X_";
+incorrect2correct["Os x_"] = "Mac OS X_";
+incorrect2correct["OS x_"] = "Mac OS X_";
+incorrect2correct["OS X_"] = "Mac OS X_";
+incorrect2correct["OS-X_"] = "Mac OS X_";
+incorrect2correct["os/x_"] = "Mac OS X_";
+incorrect2correct["OS/X_"] = "Mac OS X_";
+incorrect2correct["OS&nbsp;X_"] = "Mac OS X_";
+incorrect2correct["osx_"] = "Mac OS X_";
+incorrect2correct["osX_"] = "Mac OS X_";
+incorrect2correct["Osx_"] = "Mac OS X_";
+incorrect2correct["OsX_"] = "Mac OS X_";
+incorrect2correct["OSx_"] = "Mac OS X_";
+incorrect2correct["OSX_"] = "Mac OS X_";
+incorrect2correct["OX_"] = "Mac OS X_";
 incorrect2correct["classic Mac OS_"] = "Mac OS_";
 incorrect2correct["Mac OS_"] = "Mac OS_";
 correct2URL["Mac OS_"] = "https://en.wikipedia.org/wiki/Classic_Mac_OS";
@@ -92383,351 +93360,6 @@ incorrect2correct["Mac__"] = "Mac__";
 correct2URL["Mac__"] = "https://en.wiktionary.org/wiki/Mac#Noun_2";
 
 
-incorrect2correct["10.10__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-correct2URL["Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__"] = "https://en.wikipedia.org/wiki/OS_X_Yosemite";
-
-
-incorrect2correct["Mac 10.10__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["mac os 10.10__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["Mac OS X 10.10__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["Mac OS X v10.10 (Yosemite) (2014 vintage)__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["Mac OS X v10.10 (Yosemite)__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["Mac OS X Yosemite__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["Mac OSX Yosemite__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["Mac&nbsp;OS&nbsp;X v10.10 (Yosemite)__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["Mac10.10__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["macOS 10.10__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["MacOS X Yosemite__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["OS X 10.10__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["OS X yosemite__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["OS X Yosemite__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["OS&nbsp;X v10.10__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["osx 10.10__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["OsX 10.10__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["OSX 10.10__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["OSX yosemite__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["OSX Yosemite__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["v10.10__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["yosemite__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["Yosemite__"] = "Mac&nbsp;OS&nbsp;X v10.10 (Yosemite) (2014 vintage)__";
-incorrect2correct["10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-correct2URL["Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)"] = "https://en.wikipedia.org/wiki/OS_X_El_Capitan";
-
-
-incorrect2correct["10.11 El Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["10.11 Mac OS X"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["10.11 Mac OSX"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["10.11 Mac OSX El Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["Captain"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["EI Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["El Capitain"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["el capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["El capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["El Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["EL Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["EL CAPITAN"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["El Capitan 10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["El Captain"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["Mac 10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["mac os el capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["mac OS El Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["Mac OS X 10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["MAC OS X 10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["mac OS X El Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["Mac OS X El Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["Mac OS X El Capitan 10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["Mac OS X v10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["Mac OS X v10.11 (El Capitan)"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["Mac OS X v10.11 (El Capitan) (2015 vintage)"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["mac version 10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["Mac version 10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X v10.11 (El Capitan)"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["macOS El Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["OS El Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["OS X 10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["OS X Captain"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["os x el capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["OS X El Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["OS X EL Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["OS X El Capitan 10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["OS&nbsp;X 10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["OS&nbsp;X v10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["OS&nbsp;X&nbsp;v10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["osx 10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["OSX 10.11"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["osx 10.11 El Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["OSX El Capitan"] = "Mac&nbsp;OS&nbsp;X v10.11 (El Capitan) (2015 vintage)";
-incorrect2correct["10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-correct2URL["Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)"] = "https://en.wikipedia.org/wiki/OS_X_Mavericks";
-
-
-incorrect2correct["Mac 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mac Maverick"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["MAC Maverick"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mac Mavericks"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["MAC Mavericks"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mac OS (Mavericks)"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mac OS 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["mac os x 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mac OS X 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["mac OS X mavericks"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mac OS X Mavericks"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mac OS X v10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mac OS X v10.9 (Mavericks)"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mac OS X v10.9 (Mavericks) (2013 vintage)"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["mac osx 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["mac OSx 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["mac ox 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X v10.9 (Mavericks)"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["macOS (Mavericks)"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["MacOSX 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["makericks"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["maverick"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Maverick"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["mavericks"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Mavericks"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Maverics"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Maveriks"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Max OS X 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["Max OSX 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["OS X 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["OS X Mavericks"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["OS X v10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["OS&nbsp;X 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["OS&nbsp;X v10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["OSX 10.9"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["osx mavericks"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["OSX mavericks"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["OSX Mavericks"] = "Mac&nbsp;OS&nbsp;X v10.9 (Mavericks) (2013 vintage)";
-incorrect2correct["MAC 0S X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac&nbsp;OS&nbsp;X_"] = "Mac&nbsp;OS&nbsp;X_";
-correct2URL["Mac&nbsp;OS&nbsp;X_"] = "https://en.wikipedia.org/wiki/Mac_OS_X";
-
-
-incorrect2correct["mac os x_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["mac os X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["mac OS X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac os x_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac os X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac Os X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac OS x_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac OS X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MAC os x_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MAC OS X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["mac os_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac OS-X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["mac os/x_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["mac osx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["mac OSx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["mac OSX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac osx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac osX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac OsX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac OSx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac OSX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MAC osx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MAC OSx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MAC OSX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["mac ox_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MAC X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MAC-OS_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["mac-osx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac/OSx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Mac/OSX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["macOS X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MacOs X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MacOS X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["macOS_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MacOS-X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MacOS/X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["macosx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["macosX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["macOSX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MacOsX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MacOSx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MacOSX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MACOSX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Macsox_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["MaxOSX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["os x_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Os x_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["OS x_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["OS X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["OS-X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["os/x_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["OS/X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["OS&nbsp;X_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["osx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["osX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["Osx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["OsX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["OSx_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["OSX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["OX_"] = "Mac&nbsp;OS&nbsp;X_";
-incorrect2correct["10.2__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__";
-correct2URL["Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__"] = "https://en.wikipedia.org/wiki/Mac_OS_X_v10.2";
-
-
-incorrect2correct["Jaguar__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__";
-incorrect2correct["Mac OS X v10.2 (Jaguar) (2002 vintage)__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__";
-incorrect2correct["Mac OS X v10.2 (Jaguar)__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar)__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.2 (Jaguar) (2002 vintage)__";
-incorrect2correct["10.4"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)";
-correct2URL["Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)"] = "https://en.wikipedia.org/wiki/Mac_OS_X_Tiger";
-
-
-incorrect2correct["Mac 10.4"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)";
-incorrect2correct["Mac OS (10.4)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)";
-incorrect2correct["Mac OS X v10.4 (Tiger)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)";
-incorrect2correct["Mac OS X v10.4 (Tiger) (2005 vintage)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.4"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)";
-incorrect2correct["macOS (10.4)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)";
-incorrect2correct["macOS 10.4"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)";
-incorrect2correct["MacOS 10.4"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)";
-incorrect2correct["Tiger"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.4 (Tiger) (2005 vintage)";
-incorrect2correct["10.5"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-correct2URL["Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)"] = "https://en.wikipedia.org/wiki/Mac_OS_X_Leopard";
-
-
-incorrect2correct["leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["Leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["Mac OS X 10.5"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["Mac OS X 10.5"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["Mac OS X Leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["Mac OS X v10.5 (Leopard)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["Mac OS X v10.5 (Leopard) (2007 vintage)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.5"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["MacOS X 10.5"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["OS X 10.5"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["OS-X 10.5"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["OSX 10.5"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["OX 10.5"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.5 (Leopard) (2007 vintage)";
-incorrect2correct["10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-correct2URL["Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)"] = "https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard";
-
-
-incorrect2correct["10.6 Snow Leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OS 10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OS Snow Leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OS X (10.6 \"Snow Leopard\")"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OS X (10.6 Snow Leopard)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OS X 10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OS X 10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OS X Snow Leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OS X v10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OS X v10.6 (Snow Leopard)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OS X v10.6 (Snow Leopard) (2009 vintage)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OS&nbsp;X 10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OSX 10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["mac osx snow leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac OSX Snow Leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X 10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["MacOS Snow Leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["MacOS X 10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["OS X 10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["OS&nbsp;X&nbsp;v10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["OSx 10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["OSX 10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["OSX Snow Leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["OSX-10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["SL"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["snow leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Snow leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Snow Leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["snow-leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["Snow&nbsp;Leopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["SnowLeopard"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["v10.6"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.6 (Snow&nbsp;Leopard) (2009 vintage)";
-incorrect2correct["10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-correct2URL["Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__"] = "https://en.wikipedia.org/wiki/OS_X_Lion";
-
-
-incorrect2correct["7.4__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Lion OS X 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Lion X__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["LION__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac Lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac OS 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac OS Lion (10.7)__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac OS Lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac OS X 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["MAC OS X 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac OS X Lion 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["mac os x lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac OS X Lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac OS X v10.7 (Lion) (2011 vintage)__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac OS X v10.7 (Lion)__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac OS X v10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac OSx Lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac&nbsp;OS&nbsp;X 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion)__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["macOS 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["MacOS 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["MacOS X 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["MacOSX 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["OS 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["OS X 10.7 Lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["OS X 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["OS X Lion 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["os x lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["OS X Lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["OS X.10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["OS X.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["OS X.7.4__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["OS&nbsp;X 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["OSX 10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["osx lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["OSX lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["OSX Lion__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["v10.7__"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.7 (Lion) (2011 vintage)__";
-incorrect2correct["10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-correct2URL["Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)"] = "https://en.wikipedia.org/wiki/OS_X_Mountain_Lion";
-
-
-incorrect2correct["mac os 10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["mac os x 10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac os x 10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac OS X 10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["MAC OS X 10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac OS X Mountain Lion"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac OS X v10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac OS X v10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac OS X v10.8 (Mountain Lion)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac OS X v10.8 (Mountain Lion) (2012 vintage)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["mac osx 10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac OSX 10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac OSX Mountain Lion"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X 10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion)"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["MacOS 10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["mountain lion"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mountain lion"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mountain Lion"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["Mountinan Lion"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["OS X 10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["OS X 10.8 Mountain Lion"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["OS X version 10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["OS&nbsp;X&nbsp;v10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["OSX 10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["OSX Mountain Lion"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
-incorrect2correct["v10.8"] = "Mac&nbsp;OS&nbsp;X&nbsp;v10.8 (Mountain Lion) (2012 vintage)";
 incorrect2correct["macao"] = "Macau";
 incorrect2correct["Macau"] = "Macau";
 correct2URL["Macau"] = "https://en.wikipedia.org/wiki/Macau";
@@ -92937,8 +93569,8 @@ incorrect2correct["Mac Os"] = "macOS";
 incorrect2correct["Mac OS"] = "macOS";
 incorrect2correct["MAC os"] = "macOS";
 incorrect2correct["MAC OS"] = "macOS";
+incorrect2correct["Mac OS X"] = "macOS";
 incorrect2correct["Mac-Os"] = "macOS";
-incorrect2correct["Mac&nbsp;OS&nbsp;X"] = "macOS";
 incorrect2correct["macos"] = "macOS";
 incorrect2correct["macOs"] = "macOS";
 incorrect2correct["Macos"] = "macOS";
@@ -92948,347 +93580,336 @@ incorrect2correct["MAcOS"] = "macOS";
 incorrect2correct["MACos"] = "macOS";
 incorrect2correct["MACOS"] = "macOS";
 incorrect2correct["MacOX"] = "macOS";
-incorrect2correct["10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["macOS&nbsp;v10.12 (Sierra) (2016 vintage)"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-correct2URL["macOS&nbsp;v10.12 (Sierra) (2016 vintage)"] = "https://en.wikipedia.org/wiki/MacOS_Sierra";
+incorrect2correct["10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["macOS v10.12 (Sierra) (2016 vintage)"] = "macOS v10.12 (Sierra) (2016 vintage)";
+correct2URL["macOS v10.12 (Sierra) (2016 vintage)"] = "https://en.wikipedia.org/wiki/MacOS_Sierra";
 
 
-incorrect2correct["Mac 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Mac OS 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["mac os sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Mac OS Sierra 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Mac OS X 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["MAC OS X 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Mac OS X Sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Mac OS X v10.12 (Sierra)"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["mac sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Mac sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Mac Sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["MAC sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Mac&nbsp;OS&nbsp;X 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["macOS 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["MacOS 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["macOS sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["macOS Sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["MacOS Sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["macOS Sierra 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["MacOS Sierra 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["macOS v10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["macOS v10.12 (Sierra)"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["macOS v10.12 (Sierra) (2016 vintage)"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["macOS&nbsp;v10.12 (Sierra)"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["MacOSX 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["OS X 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["OS X Sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["OSX Sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Seirra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Siera"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Sierra"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Sierra 10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["Sierra.6"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["v10.12"] = "macOS&nbsp;v10.12 (Sierra) (2016 vintage)";
-incorrect2correct["10.13"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["macOS&nbsp;v10.13 (High Sierra) (2017 vintage)"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-correct2URL["macOS&nbsp;v10.13 (High Sierra) (2017 vintage)"] = "https://en.wikipedia.org/wiki/MacOS_High_Sierra";
+incorrect2correct["Mac 10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["Mac OS 10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["mac os sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["Mac OS Sierra 10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["Mac OS X 10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["MAC OS X 10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["Mac OS X Sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["Mac OS X v10.12 (Sierra)"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["mac sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["Mac sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["Mac Sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["MAC sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["macOS 10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["MacOS 10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["macOS sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["macOS Sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["MacOS Sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["macOS Sierra 10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["MacOS Sierra 10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["macOS v10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["macOS v10.12 (Sierra)"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["MacOSX 10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["OS X 10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["OS X Sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["OSX Sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["Seirra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["Siera"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["Sierra"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["Sierra 10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["Sierra.6"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["v10.12"] = "macOS v10.12 (Sierra) (2016 vintage)";
+incorrect2correct["10.13"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["macOS v10.13 (High Sierra) (2017 vintage)"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+correct2URL["macOS v10.13 (High Sierra) (2017 vintage)"] = "https://en.wikipedia.org/wiki/MacOS_High_Sierra";
 
 
-incorrect2correct["high sierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["High sierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["High Sierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["high sierra 10.13"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["Highsierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["HighSierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["Mac 10.13"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["Mac High Sierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["Mac OS High Sierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["Mac OS X 10.13"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["Mac OS X High Sierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["macos 10.13"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["macOS 10.13"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["macOS High Sierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["MacOs High Sierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["MacOS High Sierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["macOS HighSierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["MacOs HighSierra"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["macOS v10.13"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["macOS v10.13 (High Sierra)"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["macOS v10.13 (High Sierra) (2017 vintage)"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["macOS&nbsp;v10.13"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["macOS&nbsp;v10.13 (High Sierra)"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["OS X 10.13"] = "macOS&nbsp;v10.13 (High Sierra) (2017 vintage)";
-incorrect2correct["10.14"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["macOS&nbsp;v10.14 (Mojave) (2018 vintage)"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-correct2URL["macOS&nbsp;v10.14 (Mojave) (2018 vintage)"] = "https://en.wikipedia.org/wiki/MacOS_Mojave";
+incorrect2correct["high sierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["High sierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["High Sierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["high sierra 10.13"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["Highsierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["HighSierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["Mac 10.13"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["Mac High Sierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["Mac OS High Sierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["Mac OS X 10.13"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["Mac OS X High Sierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["macos 10.13"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["macOS 10.13"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["macOS High Sierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["MacOs High Sierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["MacOS High Sierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["macOS HighSierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["MacOs HighSierra"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["macOS v10.13"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["macOS v10.13 (High Sierra)"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["OS X 10.13"] = "macOS v10.13 (High Sierra) (2017 vintage)";
+incorrect2correct["10.14"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["macOS v10.14 (Mojave) (2018 vintage)"] = "macOS v10.14 (Mojave) (2018 vintage)";
+correct2URL["macOS v10.14 (Mojave) (2018 vintage)"] = "https://en.wikipedia.org/wiki/MacOS_Mojave";
 
 
-incorrect2correct["mac Mojave"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["Mac OS Mojave"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["macOS 10.14"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["MacOS 10.14"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["macOS 10.14 Mojave"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["macOS Mojave"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["MacOs Mojave"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["MacOS Mojave"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["macOS Mojave 10.14"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["MacOS Mojave 10.14"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["macOS v10.14"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["macOS v10.14"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["macOS v10.14 (Mojave)"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["macOS v10.14 (Mojave) (2018 vintage)"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["macOS&nbsp;v10.14 (Mojave)"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["MacOS10.14"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["mojave"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["Mojave"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["Mojave 10.14"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["OS 10.14"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["OS X Mojave"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["OS&nbsp;X Mojave"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["Osx Mojave"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["OSX Mojave"] = "macOS&nbsp;v10.14 (Mojave) (2018 vintage)";
-incorrect2correct["10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["macOS&nbsp;v10.15 (Catalina) (2019 vintage)"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-correct2URL["macOS&nbsp;v10.15 (Catalina) (2019 vintage)"] = "https://en.wikipedia.org/wiki/MacOS_Catalina";
+incorrect2correct["mac Mojave"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["Mac OS Mojave"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["macOS 10.14"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["MacOS 10.14"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["macOS 10.14 Mojave"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["macOS Mojave"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["MacOs Mojave"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["MacOS Mojave"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["macOS Mojave 10.14"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["MacOS Mojave 10.14"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["macOS v10.14"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["macOS v10.14"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["macOS v10.14 (Mojave)"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["MacOS10.14"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["mojave"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["Mojave"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["Mojave 10.14"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["OS 10.14"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["OS X Mojave"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["Osx Mojave"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["OSX Mojave"] = "macOS v10.14 (Mojave) (2018 vintage)";
+incorrect2correct["10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["macOS v10.15 (Catalina) (2019 vintage)"] = "macOS v10.15 (Catalina) (2019 vintage)";
+correct2URL["macOS v10.15 (Catalina) (2019 vintage)"] = "https://en.wikipedia.org/wiki/MacOS_Catalina";
 
 
-incorrect2correct["catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["Catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["cataline"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["Cataline"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["Mac (Catalina)"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["mac 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["Mac 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["Mac Catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["MAC Catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["Mac OS 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["MAC OS 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["MAC OS 10.15 Catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["Mac OS Catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["Mac OS X 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["Mac OSX 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["macOS 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["MacOS 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["macOS 10.15 Catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["macOS catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["macOS Catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["Macos Catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["MacOs Catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["MacOS catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["MacOS Catalina"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["macOS catalina 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["macOS Catalina 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["MacOS catalina 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["MacOS Catalina 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["macOS v10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["macOS v10.15 (Catalina)"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["macOS v10.15 (Catalina) (2019 vintage)"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["macOS&nbsp;v10.15 (Catalina)"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["OS 10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["v10.15"] = "macOS&nbsp;v10.15 (Catalina) (2019 vintage)";
-incorrect2correct["11__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macOS&nbsp;v11 (Big Sur) (2020 vintage)__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-correct2URL["macOS&nbsp;v11 (Big Sur) (2020 vintage)__"] = "https://en.wikipedia.org/wiki/MacOS_Big_Sur";
+incorrect2correct["catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["Catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["cataline"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["Cataline"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["Mac (Catalina)"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["mac 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["Mac 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["Mac Catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["MAC Catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["Mac OS 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["MAC OS 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["MAC OS 10.15 Catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["Mac OS Catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["Mac OS X 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["Mac OSX 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["macOS 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["MacOS 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["macOS 10.15 Catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["macOS catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["macOS Catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["Macos Catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["MacOs Catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["MacOS catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["MacOS Catalina"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["macOS catalina 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["macOS Catalina 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["MacOS catalina 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["MacOS Catalina 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["macOS v10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["macOS v10.15 (Catalina)"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["OS 10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["v10.15"] = "macOS v10.15 (Catalina) (2019 vintage)";
+incorrect2correct["11__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["macOS v11 (Big Sur) (2020 vintage)__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+correct2URL["macOS v11 (Big Sur) (2020 vintage)__"] = "https://en.wikipedia.org/wiki/MacOS_Big_Sur";
 
 
-incorrect2correct["11.1__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["Big Sewer__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["Big Sir__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["big sur__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["Big sur__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["Big Sur__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["BIG SUR__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["Big Suwer__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["BigSur 11__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["Bigsur__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["BigSur__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["Mac 11__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["Mac Big Sur__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["Mac OS Big Sur__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macOS 11 Big Sur__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macos 11__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macOS 11__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["MacOS 11__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macOS Big Sur 11__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["MacOS Big Sur 11__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macOS Big Sur__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macOS BIG SUR__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["MacOS Big Sur__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macOS BigSur__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macOS v11 (Big Sur) (2020 vintage)__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macOS v11 (Big Sur)__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macOS v11__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macOS v11__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macos-11__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["macOS&nbsp;v11 (Big Sur)__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["OSX 11__"] = "macOS&nbsp;v11 (Big Sur) (2020 vintage)__";
-incorrect2correct["12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS&nbsp;v12 (Monterey) (2021 vintage)__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-correct2URL["macOS&nbsp;v12 (Monterey) (2021 vintage)__"] = "https://en.wikipedia.org/wiki/MacOS_Monterey";
+incorrect2correct["11.1__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["Big Sewer__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["Big Sir__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["big sur__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["Big sur__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["Big Sur__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["BIG SUR__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["Big Suwer__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["BigSur 11__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["Bigsur__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["BigSur__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["Mac 11__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["Mac Big Sur__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["Mac OS Big Sur__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["macOS 11 Big Sur__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["macos 11__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["macOS 11__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["MacOS 11__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["macOS Big Sur 11__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["MacOS Big Sur 11__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["macOS Big Sur__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["macOS BIG SUR__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["MacOS Big Sur__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["macOS BigSur__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["macOS v11 (Big Sur)__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["macOS v11__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["macOS v11__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["macos-11__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["OSX 11__"] = "macOS v11 (Big Sur) (2020 vintage)__";
+incorrect2correct["12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macOS v12 (Monterey) (2021 vintage)__"] = "macOS v12 (Monterey) (2021 vintage)__";
+correct2URL["macOS v12 (Monterey) (2021 vintage)__"] = "https://en.wikipedia.org/wiki/MacOS_Monterey";
 
 
-incorrect2correct["12.1__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["12.2__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["12.3__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["12.6__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["mac monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["mac OS 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Mac OS 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Mac OS 12.2__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Mac OS Monteray 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Mac OS Monteray__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Mac OS Monterey 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Mac OS Monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["MAC OS Monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Mac OS Ver 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Mac OS X 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Mac OS X 12.2__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Mac OSX 12.2__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macos 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["MacOS 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["MacOS 12.1__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS 12.2__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS 12.3__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS Monteray 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["MacOS Monteray 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS Monteray__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["MacOS Monteray__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS Monterey 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macos monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS Monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Macos monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Macos Monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["MacOs Monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["MacOS Monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["MACos Monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["MacOS Monterrey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS v12 (Monterey) (2021 vintage)__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS v12 (Monterey)__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS&nbsp;v12 (Monterey)__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["macOS&nbsp;v12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Monteray 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["monteray__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Monteray__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Monterey 12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Monterrey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["Monterry__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["OS X 12.2__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["OS X v12__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["OSX Monterey__"] = "macOS&nbsp;v12 (Monterey) (2021 vintage)__";
-incorrect2correct["13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOS&nbsp;v13 (Ventura) (2022 vintage)__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-correct2URL["macOS&nbsp;v13 (Ventura) (2022 vintage)__"] = "https://en.wikipedia.org/wiki/MacOS_Ventura";
+incorrect2correct["12.1__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["12.2__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["12.3__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["12.6__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["mac monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["mac OS 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Mac OS 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Mac OS 12.2__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Mac OS Monteray 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Mac OS Monteray__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Mac OS Monterey 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Mac OS Monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["MAC OS Monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Mac OS Ver 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Mac OS X 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Mac OS X 12.2__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Mac OSX 12.2__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macos 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macOS 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["MacOS 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["MacOS 12.1__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macOS 12.2__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macOS 12.3__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macOS Monteray 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["MacOS Monteray 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macOS Monteray__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["MacOS Monteray__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macOS Monterey 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macos monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macOS monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macOS Monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Macos monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Macos Monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["MacOs Monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["MacOS Monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["MACos Monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["MacOS Monterrey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macOS v12 (Monterey)__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["macOS v12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Monteray 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["monteray__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Monteray__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Monterey 12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Monterrey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["Monterry__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["OS X 12.2__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["OS X v12__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["OSX Monterey__"] = "macOS v12 (Monterey) (2021 vintage)__";
+incorrect2correct["13__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["macOS v13 (Ventura) (2022 vintage)__"] = "macOS v13 (Ventura) (2022 vintage)__";
+correct2URL["macOS v13 (Ventura) (2022 vintage)__"] = "https://en.wikipedia.org/wiki/MacOS_Ventura";
 
 
-incorrect2correct["Mac OS Ventua__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["mac os ventura__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["Mac OS Ventura__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["MAC OS Ventura__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["Mac OS X 13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["Mac OSX Venture__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOS 13 (Ventura)__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOs 13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOS 13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["MacOS 13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOS 13.1__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["MacOS 13.1__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOS v13 (Ventura) (2022 vintage)__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOS v13 (Ventura)__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOS v13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOS v13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOS Ventura 13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["MacOS Ventura 13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macos ventura__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOs Ventura__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOS Ventura__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["Macos Ventura__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["MacOS Ventura__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOS&nbsp;v13 (Ventura)__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["macOS&nbsp;v13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["OS 13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["OS 13.0__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["OS Ventura 13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["OS Ventura__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["Ventua__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["Ventura 13__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["ventura__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["Ventura__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["Venture__"] = "macOS&nbsp;v13 (Ventura) (2022 vintage)__";
-incorrect2correct["14__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["macOS&nbsp;v14 (Sonoma) (2023 vintage)__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-correct2URL["macOS&nbsp;v14 (Sonoma) (2023 vintage)__"] = "https://en.wikipedia.org/wiki/MacOS_Sonoma";
+incorrect2correct["Mac OS Ventua__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["mac os ventura__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["Mac OS Ventura__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["MAC OS Ventura__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["Mac OS X 13__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["Mac OSX Venture__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["macOS 13 (Ventura)__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["macOs 13__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["macOS 13__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["MacOS 13__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["macOS 13.1__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["MacOS 13.1__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["macOS v13 (Ventura)__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["macOS v13__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["macOS v13__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["macOS Ventura 13__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["MacOS Ventura 13__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["macos ventura__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["macOs Ventura__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["macOS Ventura__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["Macos Ventura__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["MacOS Ventura__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["OS 13__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["OS 13.0__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["OS Ventura 13__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["OS Ventura__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["Ventua__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["Ventura 13__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["ventura__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["Ventura__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["Venture__"] = "macOS v13 (Ventura) (2022 vintage)__";
+incorrect2correct["14__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["macOS v14 (Sonoma) (2023 vintage)__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+correct2URL["macOS v14 (Sonoma) (2023 vintage)__"] = "https://en.wikipedia.org/wiki/MacOS_Sonoma";
 
 
-incorrect2correct["mac Sonoma__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["macOS 14__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["macOS Sonoma 14__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["MacOS Sonoma 14__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["macOs Sonoma__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["macOS sonoma__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["macOS Sonoma__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["MacOS Sonoma__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["macOS Sonora 14__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["MacOS Sonora 14__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["macOS Sonora__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["MacOS Sonora__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["macOS v14 (Sonoma) (2023 vintage)__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["macOS v14 (Sonoma)__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["macOS v14__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["macOS&nbsp;v14 (Sonoma)__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["MacOSX Sonoma__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["Sonoma 14__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["Sonoma OS 14__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["Sonoma OS__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["sonoma__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["Sonoma__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["Sonora__"] = "macOS&nbsp;v14 (Sonoma) (2023 vintage)__";
-incorrect2correct["15__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["macOS&nbsp;v15 (Sequoia) (2024 vintage)__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-correct2URL["macOS&nbsp;v15 (Sequoia) (2024 vintage)__"] = "https://en.wikipedia.org/wiki/MacOS_Sequoia";
+incorrect2correct["mac Sonoma__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["macOS 14__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["macOS Sonoma 14__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["MacOS Sonoma 14__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["macOs Sonoma__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["macOS sonoma__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["macOS Sonoma__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["MacOS Sonoma__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["macOS Sonora 14__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["MacOS Sonora 14__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["macOS Sonora__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["MacOS Sonora__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["macOS v14 (Sonoma)__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["macOS v14__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["MacOSX Sonoma__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["Sonoma 14__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["Sonoma OS 14__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["Sonoma OS__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["sonoma__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["Sonoma__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["Sonora__"] = "macOS v14 (Sonoma) (2023 vintage)__";
+incorrect2correct["15__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["macOS v15 (Sequoia) (2024 vintage)__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+correct2URL["macOS v15 (Sequoia) (2024 vintage)__"] = "https://en.wikipedia.org/wiki/MacOS_Sequoia";
 
 
-incorrect2correct["Mac OS sequoia__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["Mac sequoia 15__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["Mac sequoia__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["Mac Sequoia__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["macos 15 Seqoia__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["macos 15__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["macOS 15__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["macOS Sequoia 15__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["macos sequoia__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["macOS Sequoia__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["MacOS Sequoia__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["macOS v15 (Sequoia) (2024 vintage)__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["macOS v15 (Sequoia)__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["macOS v15__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["macOS&nbsp;v15 (Sequoia)__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["OS X 15__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["OS15__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["OSX 15__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["Seqoia__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["sequa__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["sequoia 15__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["Sequoia 15__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["sequoia__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["Sequoia__"] = "macOS&nbsp;v15 (Sequoia) (2024 vintage)__";
-incorrect2correct["Mac OS Tahoe"] = "macOS&nbsp;v26 (Tahoe) (2026 vintage)";
-incorrect2correct["macOS&nbsp;v26 (Tahoe) (2026 vintage)"] = "macOS&nbsp;v26 (Tahoe) (2026 vintage)";
-correct2URL["macOS&nbsp;v26 (Tahoe) (2026 vintage)"] = "https://en.wikipedia.org/wiki/MacOS_Tahoe";
+incorrect2correct["Mac OS sequoia__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["Mac sequoia 15__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["Mac sequoia__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["Mac Sequoia__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["macos 15 Seqoia__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["macos 15__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["macOS 15__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["macOS Sequoia 15__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["macos sequoia__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["macOS Sequoia__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["MacOS Sequoia__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["macOS v15 (Sequoia)__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["macOS v15__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["OS X 15__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["OS15__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["OSX 15__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["Seqoia__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["sequa__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["sequoia 15__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["Sequoia 15__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["sequoia__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["Sequoia__"] = "macOS v15 (Sequoia) (2024 vintage)__";
+incorrect2correct["Mac OS Tahoe"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["macOS v26 (Tahoe) (2026 vintage)"] = "macOS v26 (Tahoe) (2026 vintage)";
+correct2URL["macOS v26 (Tahoe) (2026 vintage)"] = "https://en.wikipedia.org/wiki/MacOS_Tahoe";
 
 
-incorrect2correct["Mac Tahoe"] = "macOS&nbsp;v26 (Tahoe) (2026 vintage)";
-incorrect2correct["macos tahoe"] = "macOS&nbsp;v26 (Tahoe) (2026 vintage)";
-incorrect2correct["MacOS Tahoe"] = "macOS&nbsp;v26 (Tahoe) (2026 vintage)";
-incorrect2correct["macos tahoe 26"] = "macOS&nbsp;v26 (Tahoe) (2026 vintage)";
-incorrect2correct["MacOS Tahoe 26"] = "macOS&nbsp;v26 (Tahoe) (2026 vintage)";
-incorrect2correct["macOS v26 (Tahoe) (2026 vintage)"] = "macOS&nbsp;v26 (Tahoe) (2026 vintage)";
-incorrect2correct["tahoe"] = "macOS&nbsp;v26 (Tahoe) (2026 vintage)";
-incorrect2correct["Tahoe"] = "macOS&nbsp;v26 (Tahoe) (2026 vintage)";
-incorrect2correct["tahoe 26"] = "macOS&nbsp;v26 (Tahoe) (2026 vintage)";
-incorrect2correct["Tahoe 26"] = "macOS&nbsp;v26 (Tahoe) (2026 vintage)";
+incorrect2correct["Mac Tahoe"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["macos 26"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["MacOS 26"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["macos tahoe"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["MacOS Tahoe"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["macos tahoe 26"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["MacOS Tahoe 26"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["macOS version 26"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["MacOS version 26"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["tahoe"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["Tahoe"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["tahoe 26"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["Tahoe 26"] = "macOS v26 (Tahoe) (2026 vintage)";
+incorrect2correct["golden gate"] = "macOS v27 (Golden Gate) (2026 vintage)";
+incorrect2correct["macOS v27 (Golden Gate) (2026 vintage)"] = "macOS v27 (Golden Gate) (2026 vintage)";
+correct2URL["macOS v27 (Golden Gate) (2026 vintage)"] = "https://en.wikipedia.org/wiki/MacOS_Golden_Gate";
+
+
+incorrect2correct["Golden Gate"] = "macOS v27 (Golden Gate) (2026 vintage)";
+incorrect2correct["macOS 27"] = "macOS v27 (Golden Gate) (2026 vintage)";
+incorrect2correct["macOS Golden Gate"] = "macOS v27 (Golden Gate) (2026 vintage)";
 incorrect2correct["Mac Port"] = "MacPorts";
 incorrect2correct["MacPorts"] = "MacPorts";
 correct2URL["MacPorts"] = "https://en.wikipedia.org/wiki/MacPorts";
@@ -93325,6 +93946,7 @@ incorrect2correct["Macro pad_"] = "macro pad_";
 incorrect2correct["Macro Pad_"] = "macro pad_";
 incorrect2correct["macro-pad_"] = "macro pad_";
 incorrect2correct["Macro-Pad_"] = "macro pad_";
+incorrect2correct["macropa_"] = "macro pad_";
 incorrect2correct["macropad_"] = "macro pad_";
 incorrect2correct["Macropad_"] = "macro pad_";
 incorrect2correct["MacroPad_"] = "macro pad_";
@@ -93376,6 +93998,7 @@ incorrect2correct["macros_"] = "macros_";
 correct2URL["macros_"] = "https://en.wiktionary.org/wiki/macro#Noun_2";
 
 
+incorrect2correct["macroses_"] = "macros_";
 incorrect2correct["macrosses_"] = "macros_";
 incorrect2correct["makros_"] = "macros_";
 incorrect2correct["Makros_"] = "macros_";
@@ -93582,6 +94205,11 @@ incorrect2correct["Magnification API"] = "Magnification API";
 correct2URL["Magnification API"] = "https://docs.microsoft.com/en-us/previous-versions/windows/desktop/magapi/magapi-intro";
 
 
+incorrect2correct["Magnificent"] = "magnificent";
+incorrect2correct["magnificent"] = "magnificent";
+correct2URL["magnificent"] = "https://en.wiktionary.org/wiki/magnificent#Adjective";
+
+
 incorrect2correct["magnifyer"] = "Magnifier";
 incorrect2correct["Magnifier"] = "Magnifier";
 correct2URL["Magnifier"] = "https://en.wikipedia.org/wiki/Magnifier_(Windows)";
@@ -93602,6 +94230,7 @@ incorrect2correct["Magnus Carlsen_"] = "Magnus Carlsen_";
 correct2URL["Magnus Carlsen_"] = "https://en.wikipedia.org/wiki/Magnus_Carlsen";
 
 
+incorrect2correct["Carl_"] = "Magnus Carlsen_";
 incorrect2correct["Carlie_"] = "Magnus Carlsen_";
 incorrect2correct["carlsen_"] = "Magnus Carlsen_";
 incorrect2correct["Carlsen_"] = "Magnus Carlsen_";
@@ -94316,8 +94945,10 @@ incorrect2correct["manually"] = "manually";
 correct2URL["manually"] = "https://en.wiktionary.org/wiki/manually#Adverb";
 
 
+incorrect2correct["manaully"] = "manually";
 incorrect2correct["mannually"] = "manually";
 incorrect2correct["mannualy"] = "manually";
+incorrect2correct["mannulay"] = "manually";
 incorrect2correct["manuallz"] = "manually";
 incorrect2correct["manualy"] = "manually";
 incorrect2correct["manully"] = "manually";
@@ -95171,11 +95802,12 @@ incorrect2correct["Matias Ergo Pro"] = "Matias Ergo Pro";
 correct2URL["Matias Ergo Pro"] = "https://uk.pcmag.com/keyboards/127129/matias-ergo-pro-2020";
 
 
-incorrect2correct["Mini Quiet Pro"] = "Matias Mini Quiet Pro";
+incorrect2correct["Matias"] = "Matias Mini Quiet Pro";
 incorrect2correct["Matias Mini Quiet Pro"] = "Matias Mini Quiet Pro";
 correct2URL["Matias Mini Quiet Pro"] = "https://matias.ca/miniquietpro/pc/";
 
 
+incorrect2correct["Mini Quiet Pro"] = "Matias Mini Quiet Pro";
 incorrect2correct["MQP"] = "Matias Mini Quiet Pro";
 incorrect2correct["matalab"] = "MATLAB";
 incorrect2correct["MATLAB"] = "MATLAB";
@@ -95772,14 +96404,6 @@ incorrect2correct["meatspace"] = "meatspace";
 correct2URL["meatspace"] = "https://en.wiktionary.org/wiki/meatspace#Noun";
 
 
-incorrect2correct["machanical"] = "mechanical";
-incorrect2correct["mechanical"] = "mechanical";
-correct2URL["mechanical"] = "https://en.wiktionary.org/wiki/mechanical#Adjective";
-
-
-incorrect2correct["mecanical"] = "mechanical";
-incorrect2correct["mechanicical"] = "mechanical";
-incorrect2correct["mechnical"] = "mechanical";
 incorrect2correct["mech eng"] = "mechanical engineering";
 incorrect2correct["mechanical engineering"] = "mechanical engineering";
 correct2URL["mechanical engineering"] = "https://en.wikipedia.org/wiki/Mechanical_engineering";
@@ -95806,6 +96430,7 @@ incorrect2correct["mech keyb"] = "mechanical keyboard";
 incorrect2correct["mech keyboard"] = "mechanical keyboard";
 incorrect2correct["mecha"] = "mechanical keyboard";
 incorrect2correct["Mecha"] = "mechanical keyboard";
+incorrect2correct["mechanical"] = "mechanical keyboard";
 incorrect2correct["mechanical keeb"] = "mechanical keyboard";
 incorrect2correct["Mechanical keyboard"] = "mechanical keyboard";
 incorrect2correct["Mechanical Keyboard"] = "mechanical keyboard";
@@ -95851,6 +96476,14 @@ incorrect2correct["Mech switches_"] = "mechanical switches_";
 incorrect2correct["mechanical keyboard switches_"] = "mechanical switches_";
 incorrect2correct["mechanicals_"] = "mechanical switches_";
 incorrect2correct["mechs_"] = "mechanical switches_";
+incorrect2correct["machanical_"] = "mechanical_";
+incorrect2correct["mechanical_"] = "mechanical_";
+correct2URL["mechanical_"] = "https://en.wiktionary.org/wiki/mechanical#Adjective";
+
+
+incorrect2correct["mecanical_"] = "mechanical_";
+incorrect2correct["mechanicical_"] = "mechanical_";
+incorrect2correct["mechnical_"] = "mechanical_";
 incorrect2correct["machanics"] = "mechanics";
 incorrect2correct["mechanics"] = "mechanics";
 correct2URL["mechanics"] = "https://en.wiktionary.org/wiki/mechanics#Noun";
@@ -96086,6 +96719,7 @@ correct2URL["membrane keyboard"] = "https://en.wikipedia.org/wiki/Membrane_keybo
 
 
 incorrect2correct["membrane"] = "membrane keyboard";
+incorrect2correct["membrane keyboards"] = "membrane keyboard";
 incorrect2correct["MC__"] = "Memcached__";
 incorrect2correct["Memcached__"] = "Memcached__";
 correct2URL["Memcached__"] = "https://en.wikipedia.org/wiki/Memcached";
@@ -96101,6 +96735,8 @@ correct2URL["memchanical"] = "https://www.tomshardware.com/news/razer-mecha-memb
 
 incorrect2correct["mecha membrane"] = "memchanical";
 incorrect2correct["mecha-membrane"] = "memchanical";
+incorrect2correct["Mecha-Membrane"] = "memchanical";
+incorrect2correct["mechamembrane"] = "memchanical";
 incorrect2correct["mechanical hybrid"] = "memchanical";
 incorrect2correct["mem-chanical"] = "memchanical";
 incorrect2correct["Mem-chanical"] = "memchanical";
@@ -96255,6 +96891,11 @@ correct2URL["men_"] = "https://en.wiktionary.org/wiki/men#Noun";
 
 incorrect2correct["mens_"] = "men_";
 incorrect2correct["Mens_"] = "men_";
+incorrect2correct["manace"] = "menace";
+incorrect2correct["menace"] = "menace";
+correct2URL["menace"] = "https://en.wiktionary.org/wiki/menace#Noun";
+
+
 incorrect2correct["Mendel"] = "Mendel Linux";
 incorrect2correct["Mendel Linux"] = "Mendel Linux";
 correct2URL["Mendel Linux"] = "https://coral.googlesource.com/docs/+/refs/heads/master/ReadMe.md";
@@ -96378,21 +97019,22 @@ incorrect2correct["Mercure"] = "Mercure";
 correct2URL["Mercure"] = "https://github.com/dunglas/mercure";
 
 
-incorrect2correct["hg"] = "Mercurial";
-incorrect2correct["Mercurial"] = "Mercurial";
-correct2URL["Mercurial"] = "https://en.wikipedia.org/wiki/Mercurial";
+incorrect2correct["hg_"] = "Mercurial_";
+incorrect2correct["Mercurial_"] = "Mercurial_";
+correct2URL["Mercurial_"] = "https://en.wikipedia.org/wiki/Mercurial";
 
 
-incorrect2correct["Hg"] = "Mercurial";
-incorrect2correct["HG"] = "Mercurial";
-incorrect2correct["mecurial"] = "Mercurial";
-incorrect2correct["Mecurial"] = "Mercurial";
-incorrect2correct["mercurial"] = "Mercurial";
-incorrect2correct["Mercury"] = "mercury";
+incorrect2correct["Hg_"] = "Mercurial_";
+incorrect2correct["HG_"] = "Mercurial_";
+incorrect2correct["mecurial_"] = "Mercurial_";
+incorrect2correct["Mecurial_"] = "Mercurial_";
+incorrect2correct["mercurial_"] = "Mercurial_";
+incorrect2correct["Hg"] = "mercury";
 incorrect2correct["mercury"] = "mercury";
 correct2URL["mercury"] = "https://en.wikipedia.org/wiki/Mercury_%28element%29";
 
 
+incorrect2correct["Mercury"] = "mercury";
 incorrect2correct["quicksilver"] = "mercury";
 incorrect2correct["Mercury__"] = "Mercury Coder__";
 incorrect2correct["Mercury Coder__"] = "Mercury Coder__";
@@ -96614,6 +97256,42 @@ correct2URL["Meta key"] = "https://en.wikipedia.org/wiki/Meta_key";
 
 
 incorrect2correct["meta-key"] = "Meta key";
+incorrect2correct["Meta"] = "Meta Stack Overflow";
+incorrect2correct["Meta Stack Overflow"] = "Meta Stack Overflow";
+correct2URL["Meta Stack Overflow"] = "https://stackoverflow.com/help/whats-meta";
+
+
+incorrect2correct["meta SO"] = "Meta Stack Overflow";
+incorrect2correct["Meta SO"] = "Meta Stack Overflow";
+incorrect2correct["META SO"] = "Meta Stack Overflow";
+incorrect2correct["meta stack overflow"] = "Meta Stack Overflow";
+incorrect2correct["meta stackoverflow"] = "Meta Stack Overflow";
+incorrect2correct["Meta stackoverflow"] = "Meta Stack Overflow";
+incorrect2correct["Meta Stackoverflow"] = "Meta Stack Overflow";
+incorrect2correct["Meta StackOverflow"] = "Meta Stack Overflow";
+incorrect2correct["Meta-SO"] = "Meta Stack Overflow";
+incorrect2correct["meta-stack-overflow"] = "Meta Stack Overflow";
+incorrect2correct["meta-stackoverflow"] = "Meta Stack Overflow";
+incorrect2correct["Meta-stackoverflow"] = "Meta Stack Overflow";
+incorrect2correct["meta.so"] = "Meta Stack Overflow";
+incorrect2correct["meta.SO"] = "Meta Stack Overflow";
+incorrect2correct["Meta.SO"] = "Meta Stack Overflow";
+incorrect2correct["meta.stackoverflow"] = "Meta Stack Overflow";
+incorrect2correct["Meta.Stackoverflow"] = "Meta Stack Overflow";
+incorrect2correct["Meta.StackOverflow"] = "Meta Stack Overflow";
+incorrect2correct["MetaSO"] = "Meta Stack Overflow";
+incorrect2correct["metastackoverflow"] = "Meta Stack Overflow";
+incorrect2correct["Metastackoverflow"] = "Meta Stack Overflow";
+incorrect2correct["MetaStackOverflow"] = "Meta Stack Overflow";
+incorrect2correct["mso"] = "Meta Stack Overflow";
+incorrect2correct["MSO"] = "Meta Stack Overflow";
+incorrect2correct["Neta Stack Overflow"] = "Meta Stack Overflow";
+incorrect2correct["stack overflow META"] = "Meta Stack Overflow";
+incorrect2correct["Stack Overflow Meta"] = "Meta Stack Overflow";
+incorrect2correct["Stack Overflow META"] = "Meta Stack Overflow";
+incorrect2correct["stackoverflow META"] = "Meta Stack Overflow";
+incorrect2correct["StackOverflow meta"] = "Meta Stack Overflow";
+incorrect2correct["StackOverflow Meta"] = "Meta Stack Overflow";
 incorrect2correct["metatag"] = "meta tag";
 incorrect2correct["meta tag"] = "meta tag";
 correct2URL["meta tag"] = "https://en.wiktionary.org/wiki/meta_tag#Noun";
@@ -96669,45 +97347,6 @@ incorrect2correct["Stack exchange Meta_"] = "Meta&nbsp;Stack&nbsp;Exchange_";
 incorrect2correct["Stack-exchange Meta_"] = "Meta&nbsp;Stack&nbsp;Exchange_";
 incorrect2correct["Über meta_"] = "Meta&nbsp;Stack&nbsp;Exchange_";
 incorrect2correct["Über Meta_"] = "Meta&nbsp;Stack&nbsp;Exchange_";
-incorrect2correct["Meta"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Meta&nbsp;Stack&nbsp;Overflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-correct2URL["Meta&nbsp;Stack&nbsp;Overflow"] = "https://stackoverflow.com/help/whats-meta";
-
-
-incorrect2correct["meta SO"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Meta SO"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["META SO"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["meta stack overflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Meta Stack Overflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Meta Stack&nbsp;Overflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["meta stackoverflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Meta stackoverflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Meta Stackoverflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Meta StackOverflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Meta-SO"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["meta-stack-overflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["meta-stackoverflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Meta-stackoverflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["meta.so"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["meta.SO"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Meta.SO"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["meta.stackoverflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Meta.Stackoverflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Meta.StackOverflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["MetaSO"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["metastackoverflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Metastackoverflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["MetaStackOverflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["mso"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["MSO"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Neta Stack Overflow"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["stack overflow META"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Stack Overflow Meta"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Stack Overflow META"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["Stack&nbsp;Overflow META"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["stackoverflow META"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["StackOverflow meta"] = "Meta&nbsp;Stack&nbsp;Overflow";
-incorrect2correct["StackOverflow Meta"] = "Meta&nbsp;Stack&nbsp;Overflow";
 incorrect2correct["meta-character"] = "metacharacter";
 incorrect2correct["metacharacter"] = "metacharacter";
 correct2URL["metacharacter"] = "https://en.wiktionary.org/wiki/metacharacter#Noun";
@@ -96831,11 +97470,14 @@ incorrect2correct["meteorological"] = "meteorological";
 correct2URL["meteorological"] = "https://en.wiktionary.org/wiki/meteorological#Adjective";
 
 
-incorrect2correct["Methamphetamine"] = "methamphetamine";
+incorrect2correct["m*th"] = "methamphetamine";
 incorrect2correct["methamphetamine"] = "methamphetamine";
 correct2URL["methamphetamine"] = "https://en.wikipedia.org/wiki/Methamphetamine";
 
 
+incorrect2correct["me****phetamine"] = "methamphetamine";
+incorrect2correct["meth"] = "methamphetamine";
+incorrect2correct["Methamphetamine"] = "methamphetamine";
 incorrect2correct["Methane"] = "methane";
 incorrect2correct["methane"] = "methane";
 correct2URL["methane"] = "https://en.wikipedia.org/wiki/Methane";
@@ -98328,6 +98970,7 @@ incorrect2correct["minimalism"] = "minimalism";
 correct2URL["minimalism"] = "https://en.wiktionary.org/wiki/minimalism#Noun";
 
 
+incorrect2correct["miNiMaLisM"] = "minimalism";
 incorrect2correct["minmalistic"] = "minimalistic";
 incorrect2correct["minimalistic"] = "minimalistic";
 correct2URL["minimalistic"] = "https://en.wiktionary.org/wiki/minimalistic#Adjective";
@@ -98412,11 +99055,12 @@ incorrect2correct["Minkowski metric"] = "Minkowski metric";
 correct2URL["Minkowski metric"] = "https://en.wikipedia.org/wiki/Minkowski_space";
 
 
-incorrect2correct["Minkowski spacetime"] = "Minkowski space";
+incorrect2correct["Minkowski Space-Time"] = "Minkowski space";
 incorrect2correct["Minkowski space"] = "Minkowski space";
 correct2URL["Minkowski space"] = "https://en.wikipedia.org/wiki/Minkowski_space";
 
 
+incorrect2correct["Minkowski spacetime"] = "Minkowski space";
 incorrect2correct["mints_"] = "minks_";
 incorrect2correct["minks_"] = "minks_";
 correct2URL["minks_"] = "https://en.wiktionary.org/wiki/mink#Noun";
@@ -100361,6 +101005,7 @@ correct2URL["mostly"] = "https://en.wiktionary.org/wiki/mostly#Adverb";
 
 
 incorrect2correct["mostli"] = "mostly";
+incorrect2correct["Mostly"] = "mostly";
 incorrect2correct["mosty"] = "mostly";
 incorrect2correct["mstly"] = "mostly";
 incorrect2correct["harmless"] = "mostly harmless";
@@ -100508,6 +101153,15 @@ incorrect2correct["Mouse"] = "mouse";
 incorrect2correct["mousr"] = "mouse";
 incorrect2correct["Mousr"] = "mouse";
 incorrect2correct["mpuse"] = "mouse";
+incorrect2correct["keyboard and mouse_"] = "mouse and keyboard_";
+incorrect2correct["mouse and keyboard_"] = "mouse and keyboard_";
+correct2URL["mouse and keyboard_"] = "https://gamerswiki.net/what-does-kbm-mean-in-gaming/";
+
+
+incorrect2correct["mnk_"] = "mouse and keyboard_";
+incorrect2correct["MnK_"] = "mouse and keyboard_";
+incorrect2correct["MNK_"] = "mouse and keyboard_";
+incorrect2correct["Mouse and Keyboard_"] = "mouse and keyboard_";
 incorrect2correct["mouse key"] = "mouse keys";
 incorrect2correct["mouse keys"] = "mouse keys";
 correct2URL["mouse keys"] = "https://docs.qmk.fm/features/mouse_keys#mouse-keys";
@@ -102484,6 +103138,13 @@ correct2URL["navigation bar"] = "https://en.wikipedia.org/wiki/Navigation_bar";
 
 
 incorrect2correct["Nav bar"] = "navigation bar";
+incorrect2correct["cluster___"] = "navigation cluster___";
+incorrect2correct["navigation cluster___"] = "navigation cluster___";
+correct2URL["navigation cluster___"] = "https://en.wikipedia.org/wiki/File:Insertpad.svg";
+
+
+incorrect2correct["Del block___"] = "navigation cluster___";
+incorrect2correct["navigation___"] = "navigation cluster___";
 incorrect2correct["navy seal"] = "Navy SEAL";
 incorrect2correct["Navy SEAL"] = "Navy SEAL";
 correct2URL["Navy SEAL"] = "https://en.wikipedia.org/wiki/United_States_Navy_SEALs";
@@ -102572,6 +103233,12 @@ correct2URL["Nebraska, United States_"] = "https://en.wikipedia.org/wiki/Nebrask
 
 
 incorrect2correct["Nebraska_"] = "Nebraska, United States_";
+incorrect2correct["nebula_"] = "Nebula Keychron x Gateron double-rail magnetic switches_";
+incorrect2correct["Nebula Keychron x Gateron double-rail magnetic switches_"] = "Nebula Keychron x Gateron double-rail magnetic switches_";
+correct2URL["Nebula Keychron x Gateron double-rail magnetic switches_"] = "https://www.keychron.com/products/gateron-double-rail-magnetic-switch?variant=40784600694873";
+
+
+incorrect2correct["Nebula_"] = "Nebula Keychron x Gateron double-rail magnetic switches_";
 incorrect2correct["nebula graph"] = "NebulaGraph";
 incorrect2correct["NebulaGraph"] = "NebulaGraph";
 correct2URL["NebulaGraph"] = "https://docs.nebula-graph.io/3.1.0/1.introduction/1.what-is-nebula-graph/";
@@ -102694,6 +103361,8 @@ correct2URL["necroposting"] = "https://en.wiktionary.org/wiki/necropost#Verb";
 
 
 incorrect2correct["necro posting"] = "necroposting";
+incorrect2correct["necroing"] = "necroposting";
+incorrect2correct["Necroing"] = "necroposting";
 incorrect2correct["thread dig"] = "necroposting";
 incorrect2correct["necro posting_"] = "necroposting_";
 incorrect2correct["necroposting_"] = "necroposting_";
@@ -103501,11 +104170,12 @@ incorrect2correct["Newark Liberty International Airport"] = "Newark Liberty Inte
 correct2URL["Newark Liberty International Airport"] = "https://en.wikipedia.org/wiki/Newark_Liberty_International_Airport";
 
 
-incorrect2correct["n00bie"] = "newbie";
+incorrect2correct["n00b"] = "newbie";
 incorrect2correct["newbie"] = "newbie";
 correct2URL["newbie"] = "https://en.wiktionary.org/wiki/newbie#Noun";
 
 
+incorrect2correct["n00bie"] = "newbie";
 incorrect2correct["n3wb"] = "newbie";
 incorrect2correct["new at"] = "newbie";
 incorrect2correct["new bee"] = "newbie";
@@ -103559,6 +104229,7 @@ correct2URL["newer_"] = "https://en.wiktionary.org/wiki/newer#Adjective";
 
 
 incorrect2correct["Never_"] = "newer_";
+incorrect2correct["newevr_"] = "newer_";
 incorrect2correct["new fangled"] = "newfangled";
 incorrect2correct["newfangled"] = "newfangled";
 correct2URL["newfangled"] = "https://en.wiktionary.org/wiki/newfangled#Adjective";
@@ -104175,11 +104846,14 @@ correct2URL["NIO.2_"] = "https://en.wikipedia.org/wiki/Non-blocking_I/O_(Java)#J
 
 incorrect2correct["nio.2_"] = "NIO.2_";
 incorrect2correct["non-blocking I/O_"] = "NIO.2_";
-incorrect2correct["columbium"] = "niobium";
+incorrect2correct["Cb"] = "niobium";
 incorrect2correct["niobium"] = "niobium";
 correct2URL["niobium"] = "https://en.wikipedia.org/wiki/Niobium";
 
 
+incorrect2correct["columbium"] = "niobium";
+incorrect2correct["Columbium"] = "niobium";
+incorrect2correct["Nb"] = "niobium";
 incorrect2correct["Niobium"] = "niobium";
 incorrect2correct["NIOS II"] = "Nios II";
 incorrect2correct["Nios II"] = "Nios II";
@@ -104451,6 +105125,8 @@ correct2URL["no___"] = "https://en.wiktionary.org/wiki/no#Determiner";
 
 
 incorrect2correct["n o___"] = "no___";
+incorrect2correct["nein___"] = "no___";
+incorrect2correct["ni___"] = "no___";
 incorrect2correct["now___"] = "no___";
 incorrect2correct["no brainer"] = "no-brainer";
 incorrect2correct["no-brainer"] = "no-brainer";
@@ -104458,11 +105134,12 @@ correct2URL["no-brainer"] = "https://en.wiktionary.org/wiki/no-brainer#Noun";
 
 
 incorrect2correct["nobrainer"] = "no-brainer";
-incorrect2correct["00A0"] = "NO-BREAK SPACE";
+incorrect2correct["\\u00A0"] = "NO-BREAK SPACE";
 incorrect2correct["NO-BREAK SPACE"] = "NO-BREAK SPACE";
 correct2URL["NO-BREAK SPACE"] = "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=157&utf8=0x";
 
 
+incorrect2correct["00A0"] = "NO-BREAK SPACE";
 incorrect2correct["A0"] = "NO-BREAK SPACE";
 incorrect2correct["nbsp"] = "NO-BREAK SPACE";
 incorrect2correct["NO BREAK SPACE"] = "NO-BREAK SPACE";
@@ -106171,6 +106848,11 @@ incorrect2correct["Norwegian"] = "Norwegian";
 correct2URL["Norwegian"] = "https://en.wiktionary.org/wiki/Norwegian#Adjective";
 
 
+incorrect2correct["Norwegian_"] = "Norwegian keyboard layout_";
+incorrect2correct["Norwegian keyboard layout_"] = "Norwegian keyboard layout_";
+correct2URL["Norwegian keyboard layout_"] = "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Norwegian";
+
+
 incorrect2correct["JavaScript from__"] = "NoScript__";
 incorrect2correct["NoScript__"] = "NoScript__";
 correct2URL["NoScript__"] = "https://en.wikipedia.org/wiki/NoScript";
@@ -106632,6 +107314,7 @@ correct2URL["nRF52840___"] = "https://en.wikipedia.org/wiki/Nordic_Semiconductor
 
 
 incorrect2correct["nrf52840___"] = "nRF52840___";
+incorrect2correct["Nrf52840___"] = "nRF52840___";
 incorrect2correct["NRF52840___"] = "nRF52840___";
 incorrect2correct["nrf5340___"] = "nRF5340___";
 incorrect2correct["nRF5340___"] = "nRF5340___";
@@ -106821,6 +107504,7 @@ incorrect2correct["N Lock_"] = "Num Lock key_";
 incorrect2correct["N. Lck_"] = "Num Lock key_";
 incorrect2correct["nub lock_"] = "Num Lock key_";
 incorrect2correct["num block_"] = "Num Lock key_";
+incorrect2correct["Num block_"] = "Num Lock key_";
 incorrect2correct["num button_"] = "Num Lock key_";
 incorrect2correct["Num clear_"] = "Num Lock key_";
 incorrect2correct["Num Clear_"] = "Num Lock key_";
@@ -106968,6 +107652,7 @@ incorrect2correct["mum pas"] = "numeric keypad";
 incorrect2correct["num"] = "numeric keypad";
 incorrect2correct["Num"] = "numeric keypad";
 incorrect2correct["num block"] = "numeric keypad";
+incorrect2correct["Num block"] = "numeric keypad";
 incorrect2correct["num pad"] = "numeric keypad";
 incorrect2correct["Num pad"] = "numeric keypad";
 incorrect2correct["num pads"] = "numeric keypad";
@@ -107269,9 +107954,15 @@ correct2URL["Nvidia"] = "https://en.wikipedia.org/wiki/Nvidia";
 
 
 incorrect2correct["Ngreedia"] = "Nvidia";
+incorrect2correct["nvda"] = "Nvidia";
+incorrect2correct["NVDA"] = "Nvidia";
 incorrect2correct["nvdia"] = "Nvidia";
 incorrect2correct["Nvdia"] = "Nvidia";
 incorrect2correct["NVDIA"] = "Nvidia";
+incorrect2correct["nvidea"] = "Nvidia";
+incorrect2correct["nVidea"] = "Nvidia";
+incorrect2correct["nVIDEA"] = "Nvidia";
+incorrect2correct["Nvidea"] = "Nvidia";
 incorrect2correct["nvidia"] = "Nvidia";
 incorrect2correct["nVidia"] = "Nvidia";
 incorrect2correct["nVIDIA"] = "Nvidia";
@@ -108055,6 +108746,7 @@ incorrect2correct["occurred"] = "occurred";
 correct2URL["occurred"] = "https://en.wiktionary.org/wiki/occur#Verb";
 
 
+incorrect2correct["occurer"] = "occurred";
 incorrect2correct["ocurred"] = "occurred";
 incorrect2correct["occurance"] = "occurrence";
 incorrect2correct["occurrence"] = "occurrence";
@@ -108586,11 +109278,12 @@ incorrect2correct["often times"] = "oftentimes";
 incorrect2correct["Often times"] = "oftentimes";
 incorrect2correct["oftentime"] = "oftentimes";
 incorrect2correct["Oftentimes"] = "oftentimes";
-incorrect2correct["Oganesson"] = "oganesson";
+incorrect2correct["Og"] = "oganesson";
 incorrect2correct["oganesson"] = "oganesson";
 correct2URL["oganesson"] = "https://en.wikipedia.org/wiki/Oganesson";
 
 
+incorrect2correct["Oganesson"] = "oganesson";
 incorrect2correct["oganesson (element)"] = "oganesson";
 incorrect2correct[".ogg"] = "Ogg";
 incorrect2correct["Ogg"] = "Ogg";
@@ -108676,6 +109369,12 @@ incorrect2correct["oke"] = "OK";
 incorrect2correct["Oke"] = "OK";
 incorrect2correct["okey"] = "OK";
 incorrect2correct["Okey"] = "OK";
+incorrect2correct["pkay"] = "OK";
+incorrect2correct["OK__"] = "okay__";
+incorrect2correct["okay__"] = "okay__";
+correct2URL["okay__"] = "https://en.wiktionary.org/wiki/okay#Noun";
+
+
 incorrect2correct["OK_"] = "okey-dokey_";
 incorrect2correct["okey-dokey_"] = "okey-dokey_";
 correct2URL["okey-dokey_"] = "https://en.wiktionary.org/wiki/okey-dokey#Interjection";
@@ -109797,6 +110496,8 @@ incorrect2correct["open sores__"] = "open source__";
 incorrect2correct["Open source__"] = "open source__";
 incorrect2correct["Open Source__"] = "open source__";
 incorrect2correct["open soures__"] = "open source__";
+incorrect2correct["open sourse__"] = "open source__";
+incorrect2correct["Open sourse__"] = "open source__";
 incorrect2correct["open-source__"] = "open source__";
 incorrect2correct["Open-Source__"] = "open source__";
 incorrect2correct["opensource__"] = "open source__";
@@ -110182,6 +110883,7 @@ correct2URL["OpenOCD"] = "https://en.wikipedia.org/wiki/List_of_ARM_Cortex-M_dev
 incorrect2correct["openOcd"] = "OpenOCD";
 incorrect2correct["openOCD"] = "OpenOCD";
 incorrect2correct["Openocd"] = "OpenOCD";
+incorrect2correct["OPENOCD"] = "OpenOCD";
 incorrect2correct["openosd"] = "OpenOCD";
 incorrect2correct["OOo"] = "OpenOffice";
 incorrect2correct["OpenOffice"] = "OpenOffice";
@@ -110409,11 +111111,6 @@ incorrect2correct["operable"] = "operable";
 correct2URL["operable"] = "https://en.wiktionary.org/wiki/operable#Adjective";
 
 
-incorrect2correct["operatiing"] = "operating";
-incorrect2correct["operating"] = "operating";
-correct2URL["operating"] = "https://en.wiktionary.org/wiki/operate#Verb";
-
-
 incorrect2correct["running costs"] = "operating costs";
 incorrect2correct["operating costs"] = "operating costs";
 correct2URL["operating costs"] = "https://en.wikipedia.org/wiki/Operating_cost#Equipment_operating_costs";
@@ -110431,6 +111128,7 @@ incorrect2correct["opearating system"] = "operating system";
 incorrect2correct["Opearting System"] = "operating system";
 incorrect2correct["operatating system"] = "operating system";
 incorrect2correct["operatig system"] = "operating system";
+incorrect2correct["operating"] = "operating system";
 incorrect2correct["Operating system"] = "operating system";
 incorrect2correct["Operating System"] = "operating system";
 incorrect2correct["Operating Sytem"] = "operating system";
@@ -110461,6 +111159,11 @@ incorrect2correct["operational systems"] = "operating systems";
 incorrect2correct["OSTEP"] = "Operating Systems: Three Easy Pieces";
 incorrect2correct["Operating Systems: Three Easy Pieces"] = "Operating Systems: Three Easy Pieces";
 correct2URL["Operating Systems: Three Easy Pieces"] = "https://github.com/gedeonych/csc/blob/master/coursepages/ostep/README.md";
+
+
+incorrect2correct["operatiing_"] = "operating_";
+incorrect2correct["operating_"] = "operating_";
+correct2URL["operating_"] = "https://en.wiktionary.org/wiki/operate#Verb";
 
 
 incorrect2correct["ooperation"] = "operation";
@@ -110643,27 +111346,20 @@ correct2URL["Optiboot bootloader"] = "https://github.com/Optiboot/optiboot";
 
 incorrect2correct["Optiboot"] = "Optiboot bootloader";
 incorrect2correct["OptiBoot"] = "Optiboot bootloader";
-incorrect2correct["optital"] = "optical";
-incorrect2correct["optical"] = "optical";
-correct2URL["optical"] = "https://en.wiktionary.org/wiki/optical#Adjective";
+incorrect2correct["optical"] = "optical switches";
+incorrect2correct["optical switches"] = "optical switches";
+correct2URL["optical switches"] = "https://www.tomshardware.com/news/what-are-optical-keyboard-switches,32352.html";
 
 
-incorrect2correct["opticatility"] = "optical switch";
-incorrect2correct["optical switch"] = "optical switch";
-correct2URL["optical switch"] = "https://www.tomshardware.com/news/what-are-optical-keyboard-switches,32352.html";
+incorrect2correct["optical switch"] = "optical switches";
+incorrect2correct["Optical switches"] = "optical switches";
+incorrect2correct["opticals"] = "optical switches";
+incorrect2correct["opticatility"] = "optical switches";
+incorrect2correct["optital_"] = "optical_";
+incorrect2correct["optical_"] = "optical_";
+correct2URL["optical_"] = "https://en.wiktionary.org/wiki/optical#Adjective";
 
 
-incorrect2correct["optical_"] = "optical switch_";
-incorrect2correct["optical switch_"] = "optical switch_";
-correct2URL["optical switch_"] = "https://en.wikipedia.org/wiki/Keyboard_technology#Optical";
-
-
-incorrect2correct["Optical switches_"] = "optical switches_";
-incorrect2correct["optical switches_"] = "optical switches_";
-correct2URL["optical switches_"] = "https://en.wikipedia.org/wiki/Keyboard_technology#Optical";
-
-
-incorrect2correct["opticals_"] = "optical switches_";
 incorrect2correct["Optics"] = "optics";
 incorrect2correct["optics"] = "optics";
 correct2URL["optics"] = "https://en.wiktionary.org/wiki/optic#Noun";
@@ -111143,9 +111839,9 @@ incorrect2correct["orthogonal frequency-division multiplexing"] = "orthogonal fr
 correct2URL["orthogonal frequency-division multiplexing"] = "https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiplexing";
 
 
-incorrect2correct["Orthographic"] = "orthographic";
-incorrect2correct["orthographic"] = "orthographic";
-correct2URL["orthographic"] = "https://en.wiktionary.org/wiki/orthographic#Adjective";
+incorrect2correct["Orthographic_"] = "orthographic_";
+incorrect2correct["orthographic_"] = "orthographic_";
+correct2URL["orthographic_"] = "https://en.wiktionary.org/wiki/orthographic#Adjective";
 
 
 incorrect2correct["ortography"] = "orthography";
@@ -111171,6 +111867,8 @@ incorrect2correct["ortho board"] = "ortholinear mechanical keyboard";
 incorrect2correct["ortho boards"] = "ortholinear mechanical keyboard";
 incorrect2correct["ortho keyboards"] = "ortholinear mechanical keyboard";
 incorrect2correct["ortho-linear"] = "ortholinear mechanical keyboard";
+incorrect2correct["orthographic"] = "ortholinear mechanical keyboard";
+incorrect2correct["Orthographic"] = "ortholinear mechanical keyboard";
 incorrect2correct["orthoish"] = "ortholinear mechanical keyboard";
 incorrect2correct["orthoish board"] = "ortholinear mechanical keyboard";
 incorrect2correct["ortholienar"] = "ortholinear mechanical keyboard";
@@ -111229,7 +111927,6 @@ incorrect2correct["OS&nbsp;X__"] = "OS&nbsp;X__";
 correct2URL["OS&nbsp;X__"] = "https://en.wikipedia.org/wiki/OS_X";
 
 
-incorrect2correct["Mac&nbsp;OS&nbsp;X__"] = "OS&nbsp;X__";
 incorrect2correct["macOS__"] = "OS&nbsp;X__";
 incorrect2correct["OS X__"] = "OS&nbsp;X__";
 incorrect2correct["OSX__"] = "OS&nbsp;X__";
@@ -111331,11 +112028,12 @@ incorrect2correct["OSMC"] = "OSMC";
 correct2URL["OSMC"] = "https://en.wikipedia.org/wiki/List_of_software_based_on_Kodi_and_XBMC#OSMC_.28formerly_Raspbmc.29";
 
 
-incorrect2correct["Osmium"] = "osmium";
-incorrect2correct["osmium"] = "osmium";
-correct2URL["osmium"] = "https://en.wikipedia.org/wiki/Osmium";
+incorrect2correct["Os_"] = "osmium_";
+incorrect2correct["osmium_"] = "osmium_";
+correct2URL["osmium_"] = "https://en.wikipedia.org/wiki/Osmium";
 
 
+incorrect2correct["Osmium_"] = "osmium_";
 incorrect2correct["osmnx"] = "OSMnx";
 incorrect2correct["OSMnx"] = "OSMnx";
 correct2URL["OSMnx"] = "https://wiki.openstreetmap.org/wiki/OSMnx";
@@ -111492,6 +112190,11 @@ incorrect2correct["out of kilter"] = "out of kilter";
 correct2URL["out of kilter"] = "https://en.wiktionary.org/wiki/out_of_kilter#Prepositional_phrase";
 
 
+incorrect2correct["Out of my depth"] = "out of my depth";
+incorrect2correct["out of my depth"] = "out of my depth";
+correct2URL["out of my depth"] = "https://en.wiktionary.org/wiki/out_of_one%27s_depth#Adjective";
+
+
 incorrect2correct["OOS"] = "out of stock";
 incorrect2correct["out of stock"] = "out of stock";
 correct2URL["out of stock"] = "https://en.wiktionary.org/wiki/out_of_stock#Prepositional_phrase";
@@ -111568,6 +112271,14 @@ correct2URL["out-of-bounds"] = "https://en.wiktionary.org/wiki/out-of-bounds#Adj
 
 incorrect2correct["out Of Bound"] = "out-of-bounds";
 incorrect2correct["outOfBound"] = "out-of-bounds";
+incorrect2correct["OOS_"] = "out-of-specification_";
+incorrect2correct["out-of-specification_"] = "out-of-specification_";
+correct2URL["out-of-specification_"] = "https://specsdata.com/out-of-spec/";
+
+
+incorrect2correct["out of spec_"] = "out-of-specification_";
+incorrect2correct["out of specification_"] = "out-of-specification_";
+incorrect2correct["out-of-spec_"] = "out-of-specification_";
 incorrect2correct["out-string"] = "Out-String";
 incorrect2correct["Out-String"] = "Out-String";
 correct2URL["Out-String"] = "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Out-String";
@@ -111835,6 +112546,12 @@ incorrect2correct["overcompensating"] = "overcompensating";
 correct2URL["overcompensating"] = "https://en.wiktionary.org/wiki/overcompensate#Verb";
 
 
+incorrect2correct["over-compensation"] = "overcompensation";
+incorrect2correct["overcompensation"] = "overcompensation";
+correct2URL["overcompensation"] = "https://en.wiktionary.org/wiki/overcompensation#Noun";
+
+
+incorrect2correct["Overcompensation"] = "overcompensation";
 incorrect2correct["over complex"] = "overcomplex";
 incorrect2correct["overcomplex"] = "overcomplex";
 correct2URL["overcomplex"] = "https://en.wiktionary.org/wiki/overcomplex#Adjective";
@@ -111905,6 +112622,12 @@ correct2URL["overengineered"] = "https://en.wiktionary.org/wiki/overengineered#A
 
 incorrect2correct["Over engineered"] = "overengineered";
 incorrect2correct["over-engineered"] = "overengineered";
+incorrect2correct["over engineering"] = "overengineering";
+incorrect2correct["overengineering"] = "overengineering";
+correct2URL["overengineering"] = "https://en.wiktionary.org/wiki/overengineer#Verb";
+
+
+incorrect2correct["over-engineering"] = "overengineering";
 incorrect2correct["over-estimate"] = "overestimate";
 incorrect2correct["overestimate"] = "overestimate";
 correct2URL["overestimate"] = "https://en.wiktionary.org/wiki/overestimate#Noun";
@@ -113088,6 +113811,11 @@ correct2URL["panel"] = "https://en.wiktionary.org/wiki/panel#Noun";
 
 
 incorrect2correct["Pannel"] = "panel";
+incorrect2correct["paneles"] = "panels";
+incorrect2correct["panels"] = "panels";
+correct2URL["panels"] = "https://en.wiktionary.org/wiki/panel#Noun";
+
+
 incorrect2correct["Papa smurf"] = "Papa Smurf";
 incorrect2correct["Papa Smurf"] = "Papa Smurf";
 correct2URL["Papa Smurf"] = "https://en.wikipedia.org/wiki/Papa_Smurf";
@@ -113105,6 +113833,7 @@ incorrect2correct["Papua New Guinea_"] = "Papua New Guinea_";
 correct2URL["Papua New Guinea_"] = "https://en.wikipedia.org/wiki/Papua_New_Guinea";
 
 
+incorrect2correct["Papau_"] = "Papua New Guinea_";
 incorrect2correct["Papua New Gunnea_"] = "Papua New Guinea_";
 incorrect2correct["PNG_"] = "Papua New Guinea_";
 incorrect2correct["Bluetooth____"] = "par for the course is resetting to factory defaults and reflashing the keyboard firmware____";
@@ -113609,6 +114338,7 @@ correct2URL["participation"] = "https://en.wiktionary.org/wiki/participation#Nou
 
 
 incorrect2correct["particpation"] = "participation";
+incorrect2correct["partipication"] = "participation";
 incorrect2correct["partical"] = "particle";
 incorrect2correct["particle"] = "particle";
 correct2URL["particle"] = "https://en.wiktionary.org/wiki/particle#Noun";
@@ -113749,6 +114479,16 @@ incorrect2correct["passed on"] = "passed on";
 correct2URL["passed on"] = "https://en.wiktionary.org/wiki/pass_on#Verb";
 
 
+incorrect2correct["passed pawns_"] = "passed pawn_";
+incorrect2correct["passed pawn_"] = "passed pawn_";
+correct2URL["passed pawn_"] = "https://en.wikipedia.org/wiki/Passed_pawn";
+
+
+incorrect2correct["passer_"] = "passed pawn_";
+incorrect2correct["passers_"] = "passed pawn_";
+incorrect2correct["past pawn_"] = "passed pawn_";
+incorrect2correct["past pawns_"] = "passed pawn_";
+incorrect2correct["pawn_"] = "passed pawn_";
 incorrect2correct["passanger"] = "passenger";
 incorrect2correct["passenger"] = "passenger";
 correct2URL["passenger"] = "https://en.wiktionary.org/wiki/passenger#Noun";
@@ -114046,6 +114786,7 @@ incorrect2correct["Pause_"] = "Pause key_";
 incorrect2correct["PAUSE_"] = "Pause key_";
 incorrect2correct["pause/break_"] = "Pause key_";
 incorrect2correct["Pause/Break_"] = "Pause key_";
+incorrect2correct["PAUSE/BREAK_"] = "Pause key_";
 incorrect2correct["0x48_"] = "Pause keycode (KC_PAUSE. QMK. 72 (decimal). 48 (hexadecimal))_";
 incorrect2correct["Pause keycode (KC_PAUSE. QMK. 72 (decimal). 48 (hexadecimal))_"] = "Pause keycode (KC_PAUSE. QMK. 72 (decimal). 48 (hexadecimal))_";
 correct2URL["Pause keycode (KC_PAUSE. QMK. 72 (decimal). 48 (hexadecimal))_"] = "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md";
@@ -114053,14 +114794,22 @@ correct2URL["Pause keycode (KC_PAUSE. QMK. 72 (decimal). 48 (hexadecimal))_"] = 
 
 incorrect2correct["KC_PAUS_"] = "Pause keycode (KC_PAUSE. QMK. 72 (decimal). 48 (hexadecimal))_";
 incorrect2correct["KC_PAUSE_"] = "Pause keycode (KC_PAUSE. QMK. 72 (decimal). 48 (hexadecimal))_";
-incorrect2correct["pwan"] = "pawn";
+incorrect2correct["minion"] = "pawn";
 incorrect2correct["pawn"] = "pawn";
 correct2URL["pawn"] = "https://en.wikipedia.org/wiki/Pawn_(chess)";
 
 
-incorrect2correct["PAWN_"] = "Pawn_";
-incorrect2correct["Pawn_"] = "Pawn_";
-correct2URL["Pawn_"] = "https://github.com/compuphase/pawn";
+incorrect2correct["pwan"] = "pawn";
+incorrect2correct["PAWN__"] = "Pawn__";
+incorrect2correct["Pawn__"] = "Pawn__";
+correct2URL["Pawn__"] = "https://github.com/compuphase/pawn";
+
+
+incorrect2correct["small__"] = "Pawn__";
+incorrect2correct["Small__"] = "Pawn__";
+incorrect2correct["minions"] = "pawns";
+incorrect2correct["pawns"] = "pawns";
+correct2URL["pawns"] = "https://en.wikipedia.org/wiki/Pawn_(chess)";
 
 
 incorrect2correct["ay"] = "pay";
@@ -114179,6 +114928,11 @@ correct2URL["PBKDF2"] = "https://en.wikipedia.org/wiki/PBKDF2";
 incorrect2correct["PBPASTE"] = "pbpaste";
 incorrect2correct["pbpaste"] = "pbpaste";
 correct2URL["pbpaste"] = "https://ss64.com/mac/pbpaste.html";
+
+
+incorrect2correct["PBS"] = "PBS keycap profile";
+incorrect2correct["PBS keycap profile"] = "PBS keycap profile";
+correct2URL["PBS keycap profile"] = "https://matt3o.com/pbs-the-penguin-slides-fast-on-his-belly/";
 
 
 incorrect2correct["pbs_"] = "PBT_";
@@ -115818,11 +116572,12 @@ correct2URL["phosphine"] = "https://en.wikipedia.org/wiki/Phosphine";
 
 incorrect2correct["Phosphene"] = "phosphine";
 incorrect2correct["Phosphine"] = "phosphine";
-incorrect2correct["phosphorous"] = "phosphorus";
+incorrect2correct["P"] = "phosphorus";
 incorrect2correct["phosphorus"] = "phosphorus";
 correct2URL["phosphorus"] = "https://en.wikipedia.org/wiki/Phosphorus";
 
 
+incorrect2correct["phosphorous"] = "phosphorus";
 incorrect2correct["Phosphorus"] = "phosphorus";
 incorrect2correct["photino"] = "Photino";
 incorrect2correct["Photino"] = "Photino";
@@ -116011,6 +116766,11 @@ correct2URL["PHP&nbsp;8"] = "https://en.wikipedia.org/wiki/PHP#Release_history";
 
 
 incorrect2correct["PHP8"] = "PHP&nbsp;8";
+incorrect2correct["php2shell"] = "PHP2Shell";
+incorrect2correct["PHP2Shell"] = "PHP2Shell";
+correct2URL["PHP2Shell"] = "https://en.wikipedia.org/wiki/PHP2Shell";
+
+
 incorrect2correct["bbPHP"] = "phpBB";
 incorrect2correct["phpBB"] = "phpBB";
 correct2URL["phpBB"] = "https://en.wikipedia.org/wiki/PhpBB";
@@ -116388,11 +117148,12 @@ correct2URL["pie chart"] = "https://en.wiktionary.org/wiki/pie_chart#Noun";
 
 
 incorrect2correct["piechart"] = "pie chart";
-incorrect2correct["peace"] = "piece";
+incorrect2correct["pc"] = "piece";
 incorrect2correct["piece"] = "piece";
 correct2URL["piece"] = "https://en.wiktionary.org/wiki/piece#Noun";
 
 
+incorrect2correct["peace"] = "piece";
 incorrect2correct["peice"] = "piece";
 incorrect2correct["pice"] = "piece";
 incorrect2correct["p.o.s"] = "piece of shit";
@@ -116406,11 +117167,12 @@ incorrect2correct["piecemeal"] = "piecemeal";
 correct2URL["piecemeal"] = "https://en.wiktionary.org/wiki/piecemeal#Adjective";
 
 
-incorrect2correct["peices_"] = "pieces_";
+incorrect2correct["pcs_"] = "pieces_";
 incorrect2correct["pieces_"] = "pieces_";
 correct2URL["pieces_"] = "https://en.wiktionary.org/wiki/piece#Noun";
 
 
+incorrect2correct["peices_"] = "pieces_";
 incorrect2correct["picies_"] = "pieces_";
 incorrect2correct["piecies_"] = "pieces_";
 incorrect2correct["buzzer"] = "piezo";
@@ -116520,6 +117282,13 @@ correct2URL["PIN"] = "https://en.wikipedia.org/wiki/Personal_identification_numb
 
 incorrect2correct["PIN code"] = "PIN";
 incorrect2correct["PIN number"] = "PIN";
+incorrect2correct["header_"] = "pin header_";
+incorrect2correct["pin header_"] = "pin header_";
+correct2URL["pin header_"] = "https://en.wikipedia.org/wiki/Pin_header";
+
+
+incorrect2correct["headers_"] = "pin header_";
+incorrect2correct["pin headers_"] = "pin header_";
 incorrect2correct["Pin_"] = "pin_";
 incorrect2correct["pin_"] = "pin_";
 correct2URL["pin_"] = "https://en.wiktionary.org/wiki/pin#Noun";
@@ -116950,6 +117719,7 @@ incorrect2correct["plagiarising"] = "plagiarising";
 correct2URL["plagiarising"] = "https://en.wiktionary.org/wiki/plagiarise#Verb";
 
 
+incorrect2correct["plagiaring"] = "plagiarising";
 incorrect2correct["plagiarizing"] = "plagiarising";
 incorrect2correct["plagirising"] = "plagiarising";
 incorrect2correct["plafiarism"] = "plagiarism";
@@ -117136,13 +117906,14 @@ correct2URL["platforms"] = "https://en.wiktionary.org/wiki/platform#Noun";
 incorrect2correct["platfroms"] = "platforms";
 incorrect2correct["plattforms"] = "platforms";
 incorrect2correct["Plattforms"] = "platforms";
-incorrect2correct["Platinum"] = "platinum";
-incorrect2correct["platinum"] = "platinum";
-correct2URL["platinum"] = "https://en.wikipedia.org/wiki/Platinum";
+incorrect2correct["Platinum_"] = "platinum_";
+incorrect2correct["platinum_"] = "platinum_";
+correct2URL["platinum_"] = "https://en.wikipedia.org/wiki/Platinum";
 
 
-incorrect2correct["platnium"] = "platinum";
-incorrect2correct["Platnium"] = "platinum";
+incorrect2correct["platnium_"] = "platinum_";
+incorrect2correct["Platnium_"] = "platinum_";
+incorrect2correct["Pt_"] = "platinum_";
 incorrect2correct["lying_"] = "plausible deniability_";
 incorrect2correct["plausible deniability_"] = "plausible deniability_";
 correct2URL["plausible deniability_"] = "https://en.wiktionary.org/wiki/plausible_deniability#Noun";
@@ -117404,6 +118175,11 @@ correct2URL["plugged"] = "https://en.wiktionary.org/wiki/plug#Verb";
 
 incorrect2correct["plugit"] = "plugged";
 incorrect2correct["pugged"] = "plugged";
+incorrect2correct["pluged in"] = "plugged in";
+incorrect2correct["plugged in"] = "plugged in";
+correct2URL["plugged in"] = "https://en.wiktionary.org/wiki/plug_in#Verb";
+
+
 incorrect2correct["pluggin_"] = "plugging_";
 incorrect2correct["plugging_"] = "plugging_";
 correct2URL["plugging_"] = "https://en.wiktionary.org/wiki/plug#Verb";
@@ -117510,6 +118286,12 @@ incorrect2correct["PNG"] = "PNG";
 correct2URL["PNG"] = "https://en.wikipedia.org/wiki/Portable_Network_Graphics";
 
 
+incorrect2correct["poket"] = "pocket";
+incorrect2correct["pocket"] = "pocket";
+correct2URL["pocket"] = "https://en.wiktionary.org/wiki/pocket#Noun";
+
+
+incorrect2correct["Poket"] = "pocket";
 incorrect2correct["pocket tanks__"] = "Pocket Tanks__";
 incorrect2correct["Pocket Tanks__"] = "Pocket Tanks__";
 correct2URL["Pocket Tanks__"] = "https://en.wikipedia.org/wiki/Pocket_Tanks";
@@ -117891,11 +118673,12 @@ incorrect2correct["Polly"] = "Polly";
 correct2URL["Polly"] = "https://github.com/App-vNext/Polly";
 
 
-incorrect2correct["Polonium"] = "polonium";
+incorrect2correct["Po"] = "polonium";
 incorrect2correct["polonium"] = "polonium";
 correct2URL["polonium"] = "https://en.wikipedia.org/wiki/Polonium";
 
 
+incorrect2correct["Polonium"] = "polonium";
 incorrect2correct["polybar"] = "Polybar";
 incorrect2correct["Polybar"] = "Polybar";
 correct2URL["Polybar"] = "https://github.com/polybar/polybar";
@@ -118357,6 +119140,7 @@ correct2URL["position"] = "https://en.wiktionary.org/wiki/position#Noun";
 
 incorrect2correct["poition"] = "position";
 incorrect2correct["pos"] = "position";
+incorrect2correct["posistion"] = "position";
 incorrect2correct["positon"] = "position";
 incorrect2correct["posotion"] = "position";
 incorrect2correct["possition"] = "position";
@@ -118750,11 +119534,19 @@ correct2URL["Postman"] = "https://stackoverflow.com/tags/postman/info";
 incorrect2correct["postman"] = "Postman";
 incorrect2correct["PostMan"] = "Postman";
 incorrect2correct["POSTMAN"] = "Postman";
-incorrect2correct["post-process"] = "postprocess";
+incorrect2correct["post poned"] = "postponed";
+incorrect2correct["postponed"] = "postponed";
+correct2URL["postponed"] = "https://en.wiktionary.org/wiki/postponed#Adjective";
+
+
+incorrect2correct["Post poned"] = "postponed";
+incorrect2correct["post process"] = "postprocess";
 incorrect2correct["postprocess"] = "postprocess";
 correct2URL["postprocess"] = "https://en.wiktionary.org/wiki/postprocess#Verb";
 
 
+incorrect2correct["Post process"] = "postprocess";
+incorrect2correct["post-process"] = "postprocess";
 incorrect2correct["post processed"] = "postprocessed";
 incorrect2correct["postprocessed"] = "postprocessed";
 correct2URL["postprocessed"] = "https://en.wiktionary.org/wiki/postprocess#Verb";
@@ -118799,15 +119591,6 @@ incorrect2correct["PostSharp"] = "PostSharp";
 correct2URL["PostSharp"] = "https://sourceforge.net/p/postsharp/wiki/Home/";
 
 
-incorrect2correct["potasium"] = "potassium";
-incorrect2correct["potassium"] = "potassium";
-correct2URL["potassium"] = "https://en.wikipedia.org/wiki/Potassium";
-
-
-incorrect2correct["Potasium"] = "potassium";
-incorrect2correct["Potassium"] = "potassium";
-incorrect2correct["pottasium"] = "potassium";
-incorrect2correct["Pottasium"] = "potassium";
 incorrect2correct["Aluminum Potassium Sulfate"] = "potassium aluminium sulfate";
 incorrect2correct["potassium aluminium sulfate"] = "potassium aluminium sulfate";
 correct2URL["potassium aluminium sulfate"] = "https://en.wikipedia.org/wiki/Potassium_alum";
@@ -118841,6 +119624,16 @@ incorrect2correct["potassium sorbate"] = "potassium sorbate";
 correct2URL["potassium sorbate"] = "https://en.wikipedia.org/wiki/Potassium_sorbate";
 
 
+incorrect2correct["K_"] = "potassium_";
+incorrect2correct["potassium_"] = "potassium_";
+correct2URL["potassium_"] = "https://en.wikipedia.org/wiki/Potassium";
+
+
+incorrect2correct["potasium_"] = "potassium_";
+incorrect2correct["Potasium_"] = "potassium_";
+incorrect2correct["Potassium_"] = "potassium_";
+incorrect2correct["pottasium_"] = "potassium_";
+incorrect2correct["Pottasium_"] = "potassium_";
 incorrect2correct["potassium 40"] = "potassium-40";
 incorrect2correct["potassium-40"] = "potassium-40";
 correct2URL["potassium-40"] = "https://en.wikipedia.org/wiki/Potassium-40";
@@ -119065,12 +119858,12 @@ correct2URL["power users"] = "https://en.wiktionary.org/wiki/power_user#Noun";
 
 
 incorrect2correct["powerusers"] = "power users";
-incorrect2correct["pawer_"] = "power_";
-incorrect2correct["power_"] = "power_";
-correct2URL["power_"] = "https://en.wiktionary.org/wiki/power#Noun";
+incorrect2correct["pawer___"] = "power___";
+incorrect2correct["power___"] = "power___";
+correct2URL["power___"] = "https://en.wiktionary.org/wiki/power#Noun";
 
 
-incorrect2correct["pwer_"] = "power_";
+incorrect2correct["pwer___"] = "power___";
 incorrect2correct["power cycle"] = "power-cycle";
 incorrect2correct["power-cycle"] = "power-cycle";
 correct2URL["power-cycle"] = "https://en.wiktionary.org/wiki/power-cycle#Verb";
@@ -119398,11 +120191,13 @@ incorrect2correct["pre-rendered"] = "pre-rendered";
 correct2URL["pre-rendered"] = "https://en.wiktionary.org/wiki/pre-render#Verb";
 
 
-incorrect2correct["per-soldered"] = "pre-soldered";
+incorrect2correct["per-saudered"] = "pre-soldered";
 incorrect2correct["pre-soldered"] = "pre-soldered";
 correct2URL["pre-soldered"] = "https://www.raspberrypi.com/news/zero-wh/";
 
 
+incorrect2correct["per-sautered"] = "pre-soldered";
+incorrect2correct["per-soldered"] = "pre-soldered";
 incorrect2correct["pre-allocate"] = "preallocate";
 incorrect2correct["preallocate"] = "preallocate";
 correct2URL["preallocate"] = "https://en.wiktionary.org/wiki/preallocate#Verb";
@@ -119542,6 +120337,7 @@ correct2URL["precisely"] = "https://en.wiktionary.org/wiki/precisely#Adverb";
 
 incorrect2correct["precisly"] = "precisely";
 incorrect2correct["presicesly"] = "precisely";
+incorrect2correct["pricely"] = "precisely";
 incorrect2correct["most precise"] = "precisest";
 incorrect2correct["precisest"] = "precisest";
 correct2URL["precisest"] = "https://en.wiktionary.org/wiki/precise#Adjective";
@@ -120159,6 +120955,11 @@ incorrect2correct["present perfect"] = "present perfect";
 correct2URL["present perfect"] = "https://en.wiktionary.org/wiki/present_perfect#Noun";
 
 
+incorrect2correct["presenttation"] = "presentation";
+incorrect2correct["presentation"] = "presentation";
+correct2URL["presentation"] = "https://en.wiktionary.org/wiki/presentation#Noun";
+
+
 incorrect2correct["Presentation Logic"] = "presentation logic";
 incorrect2correct["presentation logic"] = "presentation logic";
 correct2URL["presentation logic"] = "https://en.wikipedia.org/wiki/Presentation_logic";
@@ -120397,6 +121198,12 @@ incorrect2correct["prevalidation"] = "prevalidation";
 correct2URL["prevalidation"] = "https://en.wiktionary.org/wiki/prevalidation#Noun";
 
 
+incorrect2correct["preventative"] = "preventive";
+incorrect2correct["preventive"] = "preventive";
+correct2URL["preventive"] = "https://en.wiktionary.org/wiki/preventive#Adjective";
+
+
+incorrect2correct["Preventive"] = "preventive";
 incorrect2correct["previe"] = "preview";
 incorrect2correct["preview"] = "preview";
 correct2URL["preview"] = "https://en.wiktionary.org/wiki/preview#Noun";
@@ -121039,6 +121846,12 @@ incorrect2correct["Prolly_"] = "probably_";
 incorrect2correct["proly_"] = "probably_";
 incorrect2correct["propably_"] = "probably_";
 incorrect2correct["Propably_"] = "probably_";
+incorrect2correct["parole officer___"] = "probation officer___";
+incorrect2correct["probation officer___"] = "probation officer___";
+correct2URL["probation officer___"] = "https://en.wikipedia.org/wiki/Probation_and_parole_officer";
+
+
+incorrect2correct["PO___"] = "probation officer___";
 incorrect2correct["broblem"] = "problem";
 incorrect2correct["problem"] = "problem";
 correct2URL["problem"] = "https://en.wiktionary.org/wiki/problem#Noun";
@@ -121086,6 +121899,7 @@ incorrect2correct["proplem"] = "problem";
 incorrect2correct["Proplem"] = "problem";
 incorrect2correct["prorblem"] = "problem";
 incorrect2correct["ptoblem"] = "problem";
+incorrect2correct["rpblem"] = "problem";
 incorrect2correct["problemantic"] = "problematic";
 incorrect2correct["problematic"] = "problematic";
 correct2URL["problematic"] = "https://en.wiktionary.org/wiki/problematic#Adjective";
@@ -121499,6 +122313,7 @@ correct2URL["programmable"] = "https://en.wiktionary.org/wiki/programmable#Adjec
 
 incorrect2correct["programamble"] = "programmable";
 incorrect2correct["programmalbe"] = "programmable";
+incorrect2correct["Programmalbe"] = "programmable";
 incorrect2correct["programmamble"] = "programmable";
 incorrect2correct["PIO"] = "programmable input–output";
 incorrect2correct["programmable input–output"] = "programmable input–output";
@@ -121728,6 +122543,7 @@ incorrect2correct["proj"] = "project";
 incorrect2correct["projcet"] = "project";
 incorrect2correct["projct"] = "project";
 incorrect2correct["Projct"] = "project";
+incorrect2correct["projec"] = "project";
 incorrect2correct["Project"] = "project";
 incorrect2correct["projekt"] = "project";
 incorrect2correct["Projekt"] = "project";
@@ -121917,6 +122733,11 @@ correct2URL["propagate"] = "https://en.wiktionary.org/wiki/propagate#Verb";
 
 
 incorrect2correct["Propogate"] = "propagate";
+incorrect2correct["propogates"] = "propagates";
+incorrect2correct["propagates"] = "propagates";
+correct2URL["propagates"] = "https://en.wiktionary.org/wiki/propagate#Verb";
+
+
 incorrect2correct["propogating"] = "propagating";
 incorrect2correct["propagating"] = "propagating";
 correct2URL["propagating"] = "https://en.wiktionary.org/wiki/propagate#Verb";
@@ -124183,11 +125004,12 @@ incorrect2correct["QMK tick counter being reset or overflow at keyboard sleep"] 
 correct2URL["QMK tick counter being reset or overflow at keyboard sleep"] = "https://www.reddit.com/r/Keychron/comments/19fn0j3/comment/lc3koet/";
 
 
-incorrect2correct["GMK Toolbox"] = "QMK Toolbox";
+incorrect2correct["gmk toolbox"] = "QMK Toolbox";
 incorrect2correct["QMK Toolbox"] = "QMK Toolbox";
 correct2URL["QMK Toolbox"] = "https://github.com/qmk/qmk_toolbox";
 
 
+incorrect2correct["GMK Toolbox"] = "QMK Toolbox";
 incorrect2correct["QMK Tool Box"] = "QMK Toolbox";
 incorrect2correct["qmk toolbox"] = "QMK Toolbox";
 incorrect2correct["QMK toolbox"] = "QMK Toolbox";
@@ -124464,6 +125286,11 @@ incorrect2correct["quantifiers"] = "quantifiers";
 correct2URL["quantifiers"] = "https://en.wiktionary.org/wiki/quantifier#Noun";
 
 
+incorrect2correct["quantized"] = "quantised";
+incorrect2correct["quantised"] = "quantised";
+correct2URL["quantised"] = "https://en.wiktionary.org/wiki/quantise#Verb";
+
+
 incorrect2correct["cuantitative"] = "quantitative";
 incorrect2correct["quantitative"] = "quantitative";
 correct2URL["quantitative"] = "https://en.wiktionary.org/wiki/quantitative#Adjective";
@@ -124529,11 +125356,13 @@ incorrect2correct["quantum field"] = "quantum field";
 correct2URL["quantum field"] = "https://en.wikipedia.org/wiki/Quantum_field_theory";
 
 
+incorrect2correct["Quantum Field"] = "quantum field";
 incorrect2correct["QFT"] = "quantum field theory";
 incorrect2correct["quantum field theory"] = "quantum field theory";
 correct2URL["quantum field theory"] = "https://en.wikipedia.org/wiki/Quantum_field_theory";
 
 
+incorrect2correct["Quantum Field theory"] = "quantum field theory";
 incorrect2correct["Quantum Field Theory"] = "quantum field theory";
 incorrect2correct["QFT_"] = "quantum Fourier transform_";
 incorrect2correct["quantum Fourier transform_"] = "quantum Fourier transform_";
@@ -125166,6 +125995,8 @@ correct2URL["quotation mark"] = "https://en.wiktionary.org/wiki/quotation_mark#N
 
 
 incorrect2correct["Quotation mark"] = "quotation mark";
+incorrect2correct["quotation sign"] = "quotation mark";
+incorrect2correct["quotation signs"] = "quotation mark";
 incorrect2correct["quotationmark"] = "quotation mark";
 incorrect2correct["qoute__"] = "quote__";
 incorrect2correct["quote__"] = "quote__";
@@ -125232,6 +126063,7 @@ incorrect2correct["Qwertykeys"] = "Qwertykeys";
 correct2URL["Qwertykeys"] = "https://github.com/qmk/qmk_firmware/issues/24085";
 
 
+incorrect2correct["qwertykesy"] = "Qwertykeys";
 incorrect2correct["qwertykey"] = "Qwertykeys";
 incorrect2correct["Qwertykey"] = "Qwertykeys";
 incorrect2correct["qwertykeys"] = "Qwertykeys";
@@ -125403,16 +126235,23 @@ incorrect2correct["radio dish"] = "radio dish";
 correct2URL["radio dish"] = "https://en.wikipedia.org/wiki/Radio_telescope";
 
 
+incorrect2correct["interference_"] = "radio interference_";
+incorrect2correct["radio interference_"] = "radio interference_";
+correct2URL["radio interference_"] = "https://www.reddit.com/r/Keychron/comments/1kvqhf3/comment/mublo7e/";
+
+
+incorrect2correct["radio_"] = "radio interference_";
 incorrect2correct["RTG"] = "radioisotope thermoelectric generator";
 incorrect2correct["radioisotope thermoelectric generator"] = "radioisotope thermoelectric generator";
 correct2URL["radioisotope thermoelectric generator"] = "https://en.wikipedia.org/wiki/Radioisotope_thermoelectric_generator";
 
 
-incorrect2correct["Radium"] = "radium";
+incorrect2correct["Ra"] = "radium";
 incorrect2correct["radium"] = "radium";
 correct2URL["radium"] = "https://en.wikipedia.org/wiki/Radium";
 
 
+incorrect2correct["Radium"] = "radium";
 incorrect2correct["radium_"] = "Radium_";
 incorrect2correct["Radium_"] = "Radium_";
 correct2URL["Radium_"] = "https://www.npmjs.com/package/radium#how-does-radium-work";
@@ -125877,6 +126716,12 @@ correct2URL["Raspberry Pi Imager"] = "https://en.wikipedia.org/wiki/Raspberry_Pi
 
 incorrect2correct["Pi Imager"] = "Raspberry Pi Imager";
 incorrect2correct["raspberry imager"] = "Raspberry Pi Imager";
+incorrect2correct["Pi OS"] = "Raspberry Pi OS";
+incorrect2correct["Raspberry Pi OS"] = "Raspberry Pi OS";
+correct2URL["Raspberry Pi OS"] = "https://en.wikipedia.org/wiki/Raspberry_Pi_OS";
+
+
+incorrect2correct["PI OS"] = "Raspberry Pi OS";
 incorrect2correct["pico w"] = "Raspberry Pi Pico W";
 incorrect2correct["Raspberry Pi Pico W"] = "Raspberry Pi Pico W";
 correct2URL["Raspberry Pi Pico W"] = "https://en.wikipedia.org/wiki/Raspberry_Pi#Pico_series";
@@ -125940,6 +126785,7 @@ correct2URL["Raspberry Pi Zero"] = "https://en.wikipedia.org/wiki/Raspberry_Pi#R
 
 incorrect2correct["raspberrypi zero"] = "Raspberry Pi Zero";
 incorrect2correct["raspi zero"] = "Raspberry Pi Zero";
+incorrect2correct["RPizero"] = "Raspberry Pi Zero";
 incorrect2correct["pi_"] = "Raspberry Pi_";
 incorrect2correct["Raspberry Pi_"] = "Raspberry Pi_";
 correct2URL["Raspberry Pi_"] = "https://en.wikipedia.org/wiki/Raspberry_Pi";
@@ -126183,11 +127029,13 @@ incorrect2correct["razer widowmaker_"] = "Razer BlackWidow_";
 incorrect2correct["Razer_"] = "Razer BlackWidow_";
 incorrect2correct["Razor Blackwidow_"] = "Razer BlackWidow_";
 incorrect2correct["Razor_"] = "Razer BlackWidow_";
-incorrect2correct["razer Huntsman"] = "Razer Huntsman";
+incorrect2correct["huntsman razer"] = "Razer Huntsman";
 incorrect2correct["Razer Huntsman"] = "Razer Huntsman";
 correct2URL["Razer Huntsman"] = "https://www.razer.com/pc/gaming-keyboards/huntsman-line";
 
 
+incorrect2correct["Huntsman Razer"] = "Razer Huntsman";
+incorrect2correct["razer Huntsman"] = "Razer Huntsman";
 incorrect2correct["Razer Synapes___"] = "Razer Synapse___";
 incorrect2correct["Razer Synapse___"] = "Razer Synapse___";
 correct2URL["Razer Synapse___"] = "https://en.wikipedia.org/wiki/Razer_Inc.#Razer_Synapse";
@@ -126216,6 +127064,11 @@ incorrect2correct["razor"] = "Razor";
 incorrect2correct["Razor pages"] = "Razor Pages";
 incorrect2correct["Razor Pages"] = "Razor Pages";
 correct2URL["Razor Pages"] = "https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-3.1";
+
+
+incorrect2correct["razor thin"] = "razor-thin";
+incorrect2correct["razor-thin"] = "razor-thin";
+correct2URL["razor-thin"] = "https://en.wiktionary.org/wiki/razor-thin#Adjective";
 
 
 incorrect2correct["rbenv"] = "RBEnv";
@@ -127176,6 +128029,7 @@ incorrect2correct["receivet_"] = "receiver_";
 incorrect2correct["recevier_"] = "receiver_";
 incorrect2correct["reciever_"] = "receiver_";
 incorrect2correct["reciver_"] = "receiver_";
+incorrect2correct["recver_"] = "receiver_";
 incorrect2correct["recievers"] = "receivers";
 incorrect2correct["receivers"] = "receivers";
 correct2URL["receivers"] = "https://en.wiktionary.org/wiki/receiver#Noun";
@@ -127686,6 +128540,12 @@ incorrect2correct["recursivity"] = "recursivity";
 correct2URL["recursivity"] = "https://en.wiktionary.org/wiki/recursivity#Noun";
 
 
+incorrect2correct["recurva"] = "Recurva keyboard layout";
+incorrect2correct["Recurva keyboard layout"] = "Recurva keyboard layout";
+correct2URL["Recurva keyboard layout"] = "https://github.com/GalileoBlues/Recurva";
+
+
+incorrect2correct["Recurva"] = "Recurva keyboard layout";
 incorrect2correct["recyckled"] = "recycled";
 incorrect2correct["recycled"] = "recycled";
 correct2URL["recycled"] = "https://en.wiktionary.org/wiki/recycle#Verb";
@@ -127696,8 +128556,8 @@ incorrect2correct["red blink of death_____"] = "red blink of death_____";
 correct2URL["red blink of death_____"] = "https://www.reddit.com/r/Keychron/comments/1rsc5qp/comment/oa91ndl/";
 
 
+incorrect2correct["Keychron K HE series_____"] = "red blink of death_____";
 incorrect2correct["Keychron_____"] = "red blink of death_____";
-incorrect2correct["Keychron&nbsp;K&nbsp;HE&nbsp;series_____"] = "red blink of death_____";
 incorrect2correct["red blinks of death_____"] = "red blink of death_____";
 incorrect2correct["the red blink of death_____"] = "red blink of death_____";
 incorrect2correct["The red blink of death_____"] = "red blink of death_____";
@@ -127766,11 +128626,17 @@ correct2URL["red-black tree"] = "https://en.wikipedia.org/wiki/Red%E2%80%93black
 
 
 incorrect2correct["Red-Black-Tree"] = "red-black tree";
+incorrect2correct["redbot"] = "REDbot";
+incorrect2correct["REDbot"] = "REDbot";
+correct2URL["REDbot"] = "https://github.com/mnot/redbot";
+
+
 incorrect2correct["r*ddit"] = "Reddit";
 incorrect2correct["Reddit"] = "Reddit";
 correct2URL["Reddit"] = "https://en.wikipedia.org/wiki/Reddit";
 
 
+incorrect2correct["Reddi"] = "Reddit";
 incorrect2correct["reddit"] = "Reddit";
 incorrect2correct["REDDIT"] = "Reddit";
 incorrect2correct["redit"] = "Reddit";
@@ -128014,7 +128880,7 @@ correct2URL["redundancy"] = "https://en.wiktionary.org/wiki/redundancy#Noun";
 
 incorrect2correct["redux"] = "Redux";
 incorrect2correct["Redux"] = "Redux";
-correct2URL["Redux"] = "https://en.wikipedia.org/wiki/Redux_(JavaScript_library)";
+correct2URL["Redux"] = "https://en.wikipedia.org/wiki/Redux_(software)";
 
 
 incorrect2correct["REDUX"] = "Redux";
@@ -128624,6 +129490,7 @@ incorrect2correct["reg exp"] = "regular expression";
 incorrect2correct["Reg Exp"] = "regular expression";
 incorrect2correct["Reg Expression"] = "regular expression";
 incorrect2correct["reg exps"] = "regular expression";
+incorrect2correct["reg_ex"] = "regular expression";
 incorrect2correct["reg-ex"] = "regular expression";
 incorrect2correct["reg-exp"] = "regular expression";
 incorrect2correct["RegE"] = "regular expression";
@@ -128953,6 +129820,7 @@ correct2URL["related"] = "https://en.wiktionary.org/wiki/related#Adjective";
 
 
 incorrect2correct["realted"] = "related";
+incorrect2correct["Realted"] = "related";
 incorrect2correct["Related"] = "related";
 incorrect2correct["relater"] = "related";
 incorrect2correct["relatet"] = "related";
@@ -129003,6 +129871,7 @@ correct2URL["relatively"] = "https://en.wiktionary.org/wiki/relatively#Adverb";
 
 incorrect2correct["relativelly"] = "relatively";
 incorrect2correct["relativety"] = "relatively";
+incorrect2correct["relativley"] = "relatively";
 incorrect2correct["relativly"] = "relatively";
 incorrect2correct["reletively"] = "relatively";
 incorrect2correct["relitively"] = "relatively";
@@ -130544,16 +131413,20 @@ incorrect2correct["resizing"] = "resizing";
 correct2URL["resizing"] = "https://en.wiktionary.org/wiki/resize#Verb";
 
 
-incorrect2correct["Resolder"] = "resolder";
+incorrect2correct["resauder"] = "resolder";
 incorrect2correct["resolder"] = "resolder";
 correct2URL["resolder"] = "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering";
 
 
-incorrect2correct["Resoldering"] = "resoldering";
+incorrect2correct["resauter"] = "resolder";
+incorrect2correct["Resolder"] = "resolder";
+incorrect2correct["resaudering"] = "resoldering";
 incorrect2correct["resoldering"] = "resoldering";
 correct2URL["resoldering"] = "https://en.wikipedia.org/wiki/Soldering#Desoldering_and_resoldering";
 
 
+incorrect2correct["resautering"] = "resoldering";
+incorrect2correct["Resoldering"] = "resoldering";
 incorrect2correct["res"] = "resolution";
 incorrect2correct["resolution"] = "resolution";
 correct2URL["resolution"] = "https://en.wiktionary.org/wiki/resolution#Noun";
@@ -131762,11 +132635,12 @@ correct2URL["RHEL_"] = "https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux";
 
 incorrect2correct["RHE_"] = "RHEL_";
 incorrect2correct["rhel_"] = "RHEL_";
-incorrect2correct["Rhenium"] = "rhenium";
+incorrect2correct["Re"] = "rhenium";
 incorrect2correct["rhenium"] = "rhenium";
 correct2URL["rhenium"] = "https://en.wikipedia.org/wiki/Rhenium";
 
 
+incorrect2correct["Rhenium"] = "rhenium";
 incorrect2correct["rethetorical"] = "rhetorical";
 incorrect2correct["rhetorical"] = "rhetorical";
 correct2URL["rhetorical"] = "https://en.wiktionary.org/wiki/rhetorical#Adjective";
@@ -131953,6 +132827,7 @@ incorrect2correct["redicuous"] = "ridiculous";
 incorrect2correct["redoculous"] = "ridiculous";
 incorrect2correct["ridicolous"] = "ridiculous";
 incorrect2correct["ridicous"] = "ridiculous";
+incorrect2correct["Ridiculous"] = "ridiculous";
 incorrect2correct["redicously"] = "ridiculously";
 incorrect2correct["ridiculously"] = "ridiculously";
 correct2URL["ridiculously"] = "https://en.wiktionary.org/wiki/ridiculously#Adverb";
@@ -131962,6 +132837,11 @@ incorrect2correct["rediculously"] = "ridiculously";
 incorrect2correct["redicoulusness"] = "ridiculousness";
 incorrect2correct["ridiculousness"] = "ridiculousness";
 correct2URL["ridiculousness"] = "https://en.wiktionary.org/wiki/ridiculousness#Noun";
+
+
+incorrect2correct["Riemann Curvature tensor"] = "Riemann curvature tensor";
+incorrect2correct["Riemann curvature tensor"] = "Riemann curvature tensor";
+correct2URL["Riemann curvature tensor"] = "https://en.wikipedia.org/wiki/Riemann_curvature_tensor";
 
 
 incorrect2correct["riff raff"] = "riffraff";
@@ -132718,6 +133598,11 @@ correct2URL["Romeo_______"] = "https://en.wikipedia.org/wiki/NATO_phonetic_alpha
 
 incorrect2correct["R_______"] = "Romeo_______";
 incorrect2correct["romeo_______"] = "Romeo_______";
+incorrect2correct["romulan"] = "Romulan";
+incorrect2correct["Romulan"] = "Romulan";
+correct2URL["Romulan"] = "https://en.wikipedia.org/wiki/Romulan";
+
+
 incorrect2correct["DCA"] = "Ronald Reagan Washington National Airport";
 incorrect2correct["Ronald Reagan Washington National Airport"] = "Ronald Reagan Washington National Airport";
 correct2URL["Ronald Reagan Washington National Airport"] = "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport";
@@ -132864,37 +133749,40 @@ incorrect2correct["rotary"] = "rotary";
 correct2URL["rotary"] = "https://en.wiktionary.org/wiki/rotary#Adjective";
 
 
-incorrect2correct["enc"] = "rotary knob";
-incorrect2correct["rotary knob"] = "rotary knob";
-correct2URL["rotary knob"] = "https://keyboardsexpert.com/rotary-encoder-knobs-guide/";
+incorrect2correct["enc_"] = "rotary knob_";
+incorrect2correct["rotary knob_"] = "rotary knob_";
+correct2URL["rotary knob_"] = "https://keyboardsexpert.com/rotary-encoder-knobs-guide/";
 
 
-incorrect2correct["Enc"] = "rotary knob";
-incorrect2correct["encoder"] = "rotary knob";
-incorrect2correct["Encoder"] = "rotary knob";
-incorrect2correct["encoders"] = "rotary knob";
-incorrect2correct["enconder"] = "rotary knob";
-incorrect2correct["knob"] = "rotary knob";
-incorrect2correct["Knob"] = "rotary knob";
-incorrect2correct["media dial"] = "rotary knob";
-incorrect2correct["Media Dial"] = "rotary knob";
-incorrect2correct["nkob"] = "rotary knob";
-incorrect2correct["nob"] = "rotary knob";
-incorrect2correct["nobs"] = "rotary knob";
-incorrect2correct["rotaray encoder"] = "rotary knob";
-incorrect2correct["rotary angle pulse encoder"] = "rotary knob";
-incorrect2correct["Rotary Angle Pulse Encoder"] = "rotary knob";
-incorrect2correct["rotary encoder"] = "rotary knob";
-incorrect2correct["Rotary encoder"] = "rotary knob";
-incorrect2correct["rotary knobs"] = "rotary knob";
-incorrect2correct["rotatory encoder"] = "rotary knob";
-incorrect2correct["rotaty encoder"] = "rotary knob";
-incorrect2correct["rotray encoder"] = "rotary knob";
-incorrect2correct["spin"] = "rotary knob";
-incorrect2correct["spin wheel"] = "rotary knob";
-incorrect2correct["Spin Wheel"] = "rotary knob";
-incorrect2correct["volume knob"] = "rotary knob";
-incorrect2correct["wheel"] = "rotary knob";
+incorrect2correct["Enc_"] = "rotary knob_";
+incorrect2correct["encoder_"] = "rotary knob_";
+incorrect2correct["Encoder_"] = "rotary knob_";
+incorrect2correct["encoders_"] = "rotary knob_";
+incorrect2correct["enconder_"] = "rotary knob_";
+incorrect2correct["knbo_"] = "rotary knob_";
+incorrect2correct["knob_"] = "rotary knob_";
+incorrect2correct["Knob_"] = "rotary knob_";
+incorrect2correct["know_"] = "rotary knob_";
+incorrect2correct["media dial_"] = "rotary knob_";
+incorrect2correct["Media Dial_"] = "rotary knob_";
+incorrect2correct["nkob_"] = "rotary knob_";
+incorrect2correct["nob_"] = "rotary knob_";
+incorrect2correct["nobs_"] = "rotary knob_";
+incorrect2correct["rotaray encoder_"] = "rotary knob_";
+incorrect2correct["rotary angle pulse encoder_"] = "rotary knob_";
+incorrect2correct["Rotary Angle Pulse Encoder_"] = "rotary knob_";
+incorrect2correct["rotary encoder_"] = "rotary knob_";
+incorrect2correct["Rotary encoder_"] = "rotary knob_";
+incorrect2correct["rotary knobs_"] = "rotary knob_";
+incorrect2correct["rotatory encoder_"] = "rotary knob_";
+incorrect2correct["rotatory knob_"] = "rotary knob_";
+incorrect2correct["rotaty encoder_"] = "rotary knob_";
+incorrect2correct["rotray encoder_"] = "rotary knob_";
+incorrect2correct["spin wheel_"] = "rotary knob_";
+incorrect2correct["Spin Wheel_"] = "rotary knob_";
+incorrect2correct["spin_"] = "rotary knob_";
+incorrect2correct["volume knob_"] = "rotary knob_";
+incorrect2correct["wheel_"] = "rotary knob_";
 incorrect2correct["roate"] = "rotate";
 incorrect2correct["rotate"] = "rotate";
 correct2URL["rotate"] = "https://en.wiktionary.org/wiki/rotate#Verb";
@@ -133332,11 +134220,12 @@ incorrect2correct["Rubi__"] = "Rubi__";
 correct2URL["Rubi__"] = "https://github.com/RuleBasedIntegration/Rubi";
 
 
-incorrect2correct["Rubidium"] = "rubidium";
+incorrect2correct["Rb"] = "rubidium";
 incorrect2correct["rubidium"] = "rubidium";
 correct2URL["rubidium"] = "https://en.wikipedia.org/wiki/Rubidium";
 
 
+incorrect2correct["Rubidium"] = "rubidium";
 incorrect2correct["Rubik's cube"] = "Rubik's Cube";
 incorrect2correct["Rubik's Cube"] = "Rubik's Cube";
 correct2URL["Rubik's Cube"] = "https://en.wikipedia.org/wiki/Rubik's_Cube";
@@ -133693,11 +134582,12 @@ correct2URL["Rust borrow checker"] = "https://en.wikipedia.org/wiki/Rust_(progra
 
 
 incorrect2correct["Rust Borrow Checker"] = "Rust borrow checker";
-incorrect2correct["Rutherfordium"] = "rutherfordium";
+incorrect2correct["Rf"] = "rutherfordium";
 incorrect2correct["rutherfordium"] = "rutherfordium";
 correct2URL["rutherfordium"] = "https://en.wikipedia.org/wiki/Rutherfordium";
 
 
+incorrect2correct["Rutherfordium"] = "rutherfordium";
 incorrect2correct["roothlessly"] = "ruthlessly";
 incorrect2correct["ruthlessly"] = "ruthlessly";
 correct2URL["ruthlessly"] = "https://en.wiktionary.org/wiki/ruthlessly#Adverb";
@@ -133809,16 +134699,15 @@ incorrect2correct["s/PATTERN/REPLACEMENT/msixpodualngcer"] = "s/PATTERN/REPLACEM
 correct2URL["s/PATTERN/REPLACEMENT/msixpodualngcer"] = "https://perldoc.perl.org/perlop.html#s%2f_PATTERN_%2f_REPLACEMENT_%2fmsixpodualngcer";
 
 
-incorrect2correct["S&P 500"] = "S&P&nbsp;500";
-incorrect2correct["S&P&nbsp;500"] = "S&P&nbsp;500";
-correct2URL["S&P&nbsp;500"] = "https://en.wikipedia.org/wiki/S%26P_500";
+incorrect2correct["S&P500"] = "S&P 500";
+incorrect2correct["S&P 500"] = "S&P 500";
+correct2URL["S&P 500"] = "https://en.wikipedia.org/wiki/S%26P_500";
 
 
-incorrect2correct["S&P500"] = "S&P&nbsp;500";
-incorrect2correct["SP500"] = "S&P&nbsp;500";
-incorrect2correct["SPX"] = "S&P&nbsp;500";
-incorrect2correct["spx index"] = "S&P&nbsp;500";
-incorrect2correct["SPX Index"] = "S&P&nbsp;500";
+incorrect2correct["SP500"] = "S&P 500";
+incorrect2correct["SPX"] = "S&P 500";
+incorrect2correct["spx index"] = "S&P 500";
+incorrect2correct["SPX Index"] = "S&P 500";
 incorrect2correct["S1AP"] = "S1 Application Protocol";
 incorrect2correct["S1 Application Protocol"] = "S1 Application Protocol";
 correct2URL["S1 Application Protocol"] = "https://www.synopsys.com/software-integrity/security-testing/fuzz-testing/defensics/protocols/s1ap-server.html";
@@ -134127,6 +135016,12 @@ incorrect2correct["Same finger bigrams"] = "same-finger bigrams";
 incorrect2correct["Same Finger Bigrams"] = "same-finger bigrams";
 incorrect2correct["SFB"] = "same-finger bigrams";
 incorrect2correct["SFBs"] = "same-finger bigrams";
+incorrect2correct["same finger skipgrams"] = "same-finger skipgrams";
+incorrect2correct["same-finger skipgrams"] = "same-finger skipgrams";
+correct2URL["same-finger skipgrams"] = "https://github.com/GalileoBlues/Recurva#an-alternate-keyboard-layout-focused-on-efficiency";
+
+
+incorrect2correct["SFS"] = "same-finger skipgrams";
 incorrect2correct["same origin policies"] = "same-origin policy";
 incorrect2correct["same-origin policy"] = "same-origin policy";
 correct2URL["same-origin policy"] = "https://en.wikipedia.org/wiki/Same-origin_policy";
@@ -134442,6 +135337,7 @@ incorrect2correct["satelight"] = "satellite";
 incorrect2correct["satelights"] = "satellite";
 incorrect2correct["satelite"] = "satellite";
 incorrect2correct["satellit"] = "satellite";
+incorrect2correct["satilite"] = "satellite";
 incorrect2correct["sattelite"] = "satellite";
 incorrect2correct["SATTELITE"] = "satellite";
 incorrect2correct["SBAS"] = "satellite-based augmentation systems";
@@ -135492,6 +136388,7 @@ incorrect2correct["scripting"] = "scripting";
 correct2URL["scripting"] = "https://en.wiktionary.org/wiki/scripting#Noun";
 
 
+incorrect2correct["scriptiong"] = "scripting";
 incorrect2correct["scruipting"] = "scripting";
 incorrect2correct["scholl"] = "scroll";
 incorrect2correct["scroll"] = "scroll";
@@ -135541,7 +136438,10 @@ incorrect2correct["Scroll Lk_"] = "Scroll Lock key_";
 incorrect2correct["scroll lock_"] = "Scroll Lock key_";
 incorrect2correct["Scroll lock_"] = "Scroll Lock key_";
 incorrect2correct["Scroll Lock_"] = "Scroll Lock key_";
+incorrect2correct["SCROLL LOCK_"] = "Scroll Lock key_";
 incorrect2correct["SCROLL-LOCK_"] = "Scroll Lock key_";
+incorrect2correct["scrolllock_"] = "Scroll Lock key_";
+incorrect2correct["ScrollLock_"] = "Scroll Lock key_";
 incorrect2correct["0x47_"] = "Scroll Lock keycode (KC_SCROLL_LOCK. QMK. 71 (decimal). 47 (hexadecimal))_";
 incorrect2correct["Scroll Lock keycode (KC_SCROLL_LOCK. QMK. 71 (decimal). 47 (hexadecimal))_"] = "Scroll Lock keycode (KC_SCROLL_LOCK. QMK. 71 (decimal). 47 (hexadecimal))_";
 correct2URL["Scroll Lock keycode (KC_SCROLL_LOCK. QMK. 71 (decimal). 47 (hexadecimal))_"] = "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md";
@@ -135618,6 +136518,12 @@ correct2URL["sculpted"] = "https://en.wiktionary.org/wiki/sculpted#Adjective";
 
 
 incorrect2correct["Sculped"] = "sculpted";
+incorrect2correct["sculpted_"] = "sculpted, a kind of row shape for a keycap profile_";
+incorrect2correct["sculpted, a kind of row shape for a keycap profile_"] = "sculpted, a kind of row shape for a keycap profile_";
+correct2URL["sculpted, a kind of row shape for a keycap profile_"] = "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=2m19s";
+
+
+incorrect2correct["sculpting_"] = "sculpted, a kind of row shape for a keycap profile_";
 incorrect2correct["scylla"] = "Scylla";
 incorrect2correct["Scylla"] = "Scylla";
 correct2URL["Scylla"] = "https://github.com/Bastardkb/Scylla";
@@ -135703,6 +136609,7 @@ incorrect2correct["seaborgium"] = "seaborgium";
 correct2URL["seaborgium"] = "https://en.wikipedia.org/wiki/Seaborgium";
 
 
+incorrect2correct["Sg"] = "seaborgium";
 incorrect2correct["seaborn"] = "Seaborn";
 incorrect2correct["Seaborn"] = "Seaborn";
 correct2URL["Seaborn"] = "https://seaborn.pydata.org/";
@@ -136196,6 +137103,7 @@ correct2URL["seem"] = "https://en.wiktionary.org/wiki/seem#Verb";
 incorrect2correct["seemt"] = "seem";
 incorrect2correct["seen"] = "seem";
 incorrect2correct["seep"] = "seem";
+incorrect2correct["send"] = "seem";
 incorrect2correct["smme"] = "seem";
 incorrect2correct["seeemingly"] = "seemingly";
 incorrect2correct["seemingly"] = "seemingly";
@@ -136234,7 +137142,7 @@ correct2URL["Sefer Torah"] = "https://en.wikipedia.org/wiki/Sefer_Torah";
 
 incorrect2correct["Seggar"] = "Segger";
 incorrect2correct["Segger"] = "Segger";
-correct2URL["Segger"] = "https://en.wikipedia.org/wiki/Segger_Microcontroller_Systems";
+correct2URL["Segger"] = "https://en.wikipedia.org/wiki/Segger";
 
 
 incorrect2correct["segger"] = "Segger";
@@ -136834,17 +137742,17 @@ correct2URL["semitransparent"] = "https://en.wiktionary.org/wiki/semitransparent
 incorrect2correct["semi transparent"] = "semitransparent";
 incorrect2correct["semi-transparant"] = "semitransparent";
 incorrect2correct["semi-transparent"] = "semitransparent";
-incorrect2correct["csend"] = "send";
-incorrect2correct["send"] = "send";
-correct2URL["send"] = "https://en.wiktionary.org/wiki/send#Verb";
-
-
-incorrect2correct["sand"] = "send";
 incorrect2correct["send_string"] = "Send String";
 incorrect2correct["Send String"] = "Send String";
 correct2URL["Send String"] = "https://docs.qmk.fm/features/send_string";
 
 
+incorrect2correct["csend__"] = "send__";
+incorrect2correct["send__"] = "send__";
+correct2URL["send__"] = "https://en.wiktionary.org/wiki/send#Verb";
+
+
+incorrect2correct["sand__"] = "send__";
 incorrect2correct["send-mailmessage"] = "Send-MailMessage";
 incorrect2correct["Send-MailMessage"] = "Send-MailMessage";
 correct2URL["Send-MailMessage"] = "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage";
@@ -136909,6 +137817,7 @@ incorrect2correct["sense_"] = "sense_";
 correct2URL["sense_"] = "https://en.wiktionary.org/wiki/sense#Noun";
 
 
+incorrect2correct["senes_"] = "sense_";
 incorrect2correct["sens_"] = "sense_";
 incorrect2correct["Sense_"] = "sense_";
 incorrect2correct["sencical"] = "sensical";
@@ -137344,9 +138253,9 @@ correct2URL["serverless computing"] = "https://en.wikipedia.org/wiki/Serverless_
 incorrect2correct["Serverless"] = "serverless computing";
 incorrect2correct["serverlesss"] = "serverless computing";
 incorrect2correct["serviceless"] = "serverless computing";
-incorrect2correct["server_"] = "serves_";
-incorrect2correct["serves_"] = "serves_";
-correct2URL["serves_"] = "https://en.wiktionary.org/wiki/serve#Verb";
+incorrect2correct["server__"] = "serves__";
+incorrect2correct["serves__"] = "serves__";
+correct2URL["serves__"] = "https://en.wiktionary.org/wiki/serve#Verb";
 
 
 incorrect2correct["serice"] = "service";
@@ -137618,6 +138527,8 @@ incorrect2correct["seven___"] = "seven___";
 correct2URL["seven___"] = "https://en.wiktionary.org/wiki/seven#Numeral";
 
 
+incorrect2correct["seveen___"] = "seven___";
+incorrect2correct["Seveen___"] = "seven___";
 incorrect2correct["7 segment"] = "seven-segment LED display";
 incorrect2correct["seven-segment LED display"] = "seven-segment LED display";
 correct2URL["seven-segment LED display"] = "https://en.wikipedia.org/wiki/Seven-segment_display";
@@ -137669,9 +138580,6 @@ correct2URL["severe NKRO problems for the Keychron B Pro series______"] = "https
 
 incorrect2correct["Keychron B2 Pro______"] = "severe NKRO problems for the Keychron B Pro series______";
 incorrect2correct["Keychron B6 Pro______"] = "severe NKRO problems for the Keychron B Pro series______";
-incorrect2correct["Keychron&nbsp;B1&nbsp;Pro______"] = "severe NKRO problems for the Keychron B Pro series______";
-incorrect2correct["Keychron&nbsp;B2&nbsp;Pro______"] = "severe NKRO problems for the Keychron B Pro series______";
-incorrect2correct["Keychron&nbsp;B6&nbsp;Pro______"] = "severe NKRO problems for the Keychron B Pro series______";
 incorrect2correct["NKRO______"] = "severe NKRO problems for the Keychron B Pro series______";
 incorrect2correct["severe key roll-over problems______"] = "severe NKRO problems for the Keychron B Pro series______";
 incorrect2correct["severe NKRO problems______"] = "severe NKRO problems for the Keychron B Pro series______";
@@ -137927,11 +138835,12 @@ incorrect2correct["sheer"] = "sheer";
 correct2URL["sheer"] = "https://en.wiktionary.org/wiki/sheer#Adjective";
 
 
-incorrect2correct["Sheet Music"] = "sheet music";
+incorrect2correct["score"] = "sheet music";
 incorrect2correct["sheet music"] = "sheet music";
 correct2URL["sheet music"] = "https://en.wikipedia.org/wiki/Sheet_music";
 
 
+incorrect2correct["Sheet Music"] = "sheet music";
 incorrect2correct["sheetmusic"] = "sheet music";
 incorrect2correct["sheikh hasina"] = "Sheikh Hasina";
 incorrect2correct["Sheikh Hasina"] = "Sheikh Hasina";
@@ -138125,6 +139034,7 @@ incorrect2correct["shine-through"] = "shine-through keycaps";
 incorrect2correct["Shine-Through"] = "shine-through keycaps";
 incorrect2correct["shine-through caps"] = "shine-through keycaps";
 incorrect2correct["Shine-through Caps"] = "shine-through keycaps";
+incorrect2correct["Shine-through Keycaps"] = "shine-through keycaps";
 incorrect2correct["shine-throught"] = "shine-through keycaps";
 incorrect2correct["shine-trough"] = "shine-through keycaps";
 incorrect2correct["Shine-Trough"] = "shine-through keycaps";
@@ -138204,6 +139114,7 @@ incorrect2correct["SH*T_"] = "shit_";
 incorrect2correct["sh#£_"] = "shit_";
 incorrect2correct["SH#£_"] = "shit_";
 incorrect2correct["shi_"] = "shit_";
+incorrect2correct["shiat_"] = "shit_";
 incorrect2correct["shid_"] = "shit_";
 incorrect2correct["shiet_"] = "shit_";
 incorrect2correct["shite_"] = "shit_";
@@ -139727,6 +140638,7 @@ incorrect2correct["simiar"] = "similar";
 incorrect2correct["Simiar"] = "similar";
 incorrect2correct["similair"] = "similar";
 incorrect2correct["Similar"] = "similar";
+incorrect2correct["SImilar"] = "similar";
 incorrect2correct["similare"] = "similar";
 incorrect2correct["similer"] = "similar";
 incorrect2correct["similiar"] = "similar";
@@ -139958,13 +140870,6 @@ incorrect2correct["simulates"] = "simulates";
 correct2URL["simulates"] = "https://en.wiktionary.org/wiki/simulate#Verb";
 
 
-incorrect2correct["Eclipse SUMO"] = "Simulation of Urban Mobility";
-incorrect2correct["Simulation of Urban Mobility"] = "Simulation of Urban Mobility";
-correct2URL["Simulation of Urban Mobility"] = "https://en.wikipedia.org/wiki/Simulation_of_Urban_MObility";
-
-
-incorrect2correct["Simulation of Urban MObility"] = "Simulation of Urban Mobility";
-incorrect2correct["SUMO"] = "Simulation of Urban Mobility";
 incorrect2correct["sim_"] = "simulation_";
 incorrect2correct["simulation_"] = "simulation_";
 correct2URL["simulation_"] = "https://en.wiktionary.org/wiki/simulation#Noun";
@@ -140587,6 +141492,11 @@ correct2URL["skipped"] = "https://en.wiktionary.org/wiki/skip#Verb";
 incorrect2correct["Skoda"] = "Škoda";
 incorrect2correct["Škoda"] = "Škoda";
 correct2URL["Škoda"] = "https://en.wikipedia.org/wiki/List_of_%C5%A0koda_vehicles";
+
+
+incorrect2correct["stuck key syndrome__"] = "SKS__";
+incorrect2correct["SKS__"] = "SKS__";
+correct2URL["SKS__"] = "https://www.reddit.com/r/Keychron/comments/1t39xsd/comment/ojv2en8/";
 
 
 incorrect2correct["sku"] = "SKU";
@@ -141837,35 +142747,44 @@ incorrect2correct["sold__"] = "sold__";
 correct2URL["sold__"] = "https://en.wiktionary.org/wiki/sold#Verb";
 
 
-incorrect2correct["soldee"] = "solder";
+incorrect2correct["sauder"] = "solder";
 incorrect2correct["solder"] = "solder";
 correct2URL["solder"] = "https://en.wikipedia.org/wiki/Solder";
 
 
+incorrect2correct["sauter"] = "solder";
+incorrect2correct["soldee"] = "solder";
 incorrect2correct["soldier"] = "solder";
-incorrect2correct["shoulder joint"] = "solder joints";
+incorrect2correct["sauder joints"] = "solder joints";
 incorrect2correct["solder joints"] = "solder joints";
 correct2URL["solder joints"] = "https://en.wikipedia.org/wiki/Soldering#Defects";
 
 
+incorrect2correct["sauter joints"] = "solder joints";
+incorrect2correct["shoulder joint"] = "solder joints";
 incorrect2correct["shoulder joints"] = "solder joints";
 incorrect2correct["solders"] = "solder joints";
-incorrect2correct["Solder paste"] = "solder paste";
+incorrect2correct["sauder paste"] = "solder paste";
 incorrect2correct["solder paste"] = "solder paste";
 correct2URL["solder paste"] = "https://en.wikipedia.org/wiki/Solder_paste";
 
 
-incorrect2correct["soldert"] = "soldered";
+incorrect2correct["sauter paste"] = "solder paste";
+incorrect2correct["Solder paste"] = "solder paste";
+incorrect2correct["saudered"] = "soldered";
 incorrect2correct["soldered"] = "soldered";
 correct2URL["soldered"] = "https://en.wiktionary.org/wiki/solder#Verb";
 
 
+incorrect2correct["sautered"] = "soldered";
+incorrect2correct["soldert"] = "soldered";
 incorrect2correct["soldiered"] = "soldered";
 incorrect2correct["saudering"] = "soldering";
 incorrect2correct["soldering"] = "soldering";
 correct2URL["soldering"] = "https://en.wikipedia.org/wiki/Soldering";
 
 
+incorrect2correct["sautering"] = "soldering";
 incorrect2correct["sildering"] = "soldering";
 incorrect2correct["Soldering"] = "soldering";
 incorrect2correct["soldiering"] = "soldering";
@@ -141875,12 +142794,15 @@ correct2URL["soldering iron_"] = "https://en.wikipedia.org/wiki/Soldering_iron";
 
 
 incorrect2correct["saudering iron_"] = "soldering iron_";
+incorrect2correct["sautering iron_"] = "soldering iron_";
 incorrect2correct["solder iron_"] = "soldering iron_";
-incorrect2correct["soldered's_"] = "solders_";
+incorrect2correct["sauders_"] = "solders_";
 incorrect2correct["solders_"] = "solders_";
 correct2URL["solders_"] = "https://en.wiktionary.org/wiki/solder#Verb";
 
 
+incorrect2correct["sauters_"] = "solders_";
+incorrect2correct["soldered's_"] = "solders_";
 incorrect2correct["solider_"] = "soldier_";
 incorrect2correct["soldier_"] = "soldier_";
 correct2URL["soldier_"] = "https://en.wiktionary.org/wiki/soldier#Noun";
@@ -142437,11 +143359,12 @@ incorrect2correct["sre"] = "sorry";
 incorrect2correct["srry"] = "sorry";
 incorrect2correct["sry"] = "sorry";
 incorrect2correct["Sry"] = "sorry";
-incorrect2correct["sort (unix)"] = "sort (Unix)";
+incorrect2correct["sort"] = "sort (Unix)";
 incorrect2correct["sort (Unix)"] = "sort (Unix)";
 correct2URL["sort (Unix)"] = "https://en.wikipedia.org/wiki/Sort_(Unix)";
 
 
+incorrect2correct["sort (unix)"] = "sort (Unix)";
 incorrect2correct["sort-of"] = "sort of";
 incorrect2correct["sort of"] = "sort of";
 correct2URL["sort of"] = "https://en.wiktionary.org/wiki/sort_of#Adverb";
@@ -142459,15 +143382,15 @@ correct2URL["sort___"] = "https://en.wiktionary.org/wiki/sort#Verb";
 
 
 incorrect2correct["sout___"] = "sort___";
-incorrect2correct["sort"] = "Sort-Object";
-incorrect2correct["Sort-Object"] = "Sort-Object";
-correct2URL["Sort-Object"] = "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Sort-Object";
+incorrect2correct["sort_"] = "Sort-Object_";
+incorrect2correct["Sort-Object_"] = "Sort-Object_";
+correct2URL["Sort-Object_"] = "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Sort-Object";
 
 
-incorrect2correct["sort-object"] = "Sort-Object";
-incorrect2correct["sort_"] = "sort()_";
-incorrect2correct["sort()_"] = "sort()_";
-correct2URL["sort()_"] = "https://docs.python.org/3.8/library/stdtypes.html#list.sort";
+incorrect2correct["sort-object_"] = "Sort-Object_";
+incorrect2correct["sort____"] = "sort()____";
+incorrect2correct["sort()____"] = "sort()____";
+correct2URL["sort()____"] = "https://docs.python.org/3.8/library/stdtypes.html#list.sort";
 
 
 incorrect2correct["sorted_"] = "sorted out_";
@@ -142976,6 +143899,7 @@ incorrect2correct["space"] = "space";
 correct2URL["space"] = "https://en.wiktionary.org/wiki/space#Noun";
 
 
+incorrect2correct["psace"] = "space";
 incorrect2correct["sapce"] = "space";
 incorrect2correct["Sapce"] = "space";
 incorrect2correct["scpace"] = "space";
@@ -143413,6 +144337,7 @@ incorrect2correct["speficic"] = "specific";
 incorrect2correct["speicfic"] = "specific";
 incorrect2correct["speicific"] = "specific";
 incorrect2correct["spesific"] = "specific";
+incorrect2correct["spicific"] = "specific";
 incorrect2correct["Specific Impulse"] = "specific impulse";
 incorrect2correct["specific impulse"] = "specific impulse";
 correct2URL["specific impulse"] = "https://en.wikipedia.org/wiki/Specific_impulse";
@@ -143737,12 +144662,12 @@ correct2URL["SpinRite"] = "https://en.wikipedia.org/wiki/SpinRite";
 
 incorrect2correct["spinrite"] = "SpinRite";
 incorrect2correct["Spinrite"] = "SpinRite";
-incorrect2correct["spin_"] = "Spins_";
-incorrect2correct["Spins_"] = "Spins_";
-correct2URL["Spins_"] = "https://en.wikipedia.org/wiki/Fedora_Linux#Spins_and_Remixes";
+incorrect2correct["spin__"] = "Spins__";
+incorrect2correct["Spins__"] = "Spins__";
+correct2URL["Spins__"] = "https://en.wikipedia.org/wiki/Fedora_Linux#Spins_and_Remixes";
 
 
-incorrect2correct["spins_"] = "Spins_";
+incorrect2correct["spins__"] = "Spins__";
 incorrect2correct["Spirit"] = "Spirit Parser Framework";
 incorrect2correct["Spirit Parser Framework"] = "Spirit Parser Framework";
 correct2URL["Spirit Parser Framework"] = "https://en.wikipedia.org/wiki/Spirit_Parser_Framework";
@@ -143807,19 +144732,14 @@ incorrect2correct["ergo split keeb"] = "split ergonomic mechanical keyboard";
 incorrect2correct["ergo split keyboard"] = "split ergonomic mechanical keyboard";
 incorrect2correct["Ergo Split keyboard"] = "split ergonomic mechanical keyboard";
 incorrect2correct["ergomech split"] = "split ergonomic mechanical keyboard";
-incorrect2correct["ergomech splits"] = "split ergonomic mechanical keyboard";
 incorrect2correct["ergonomic split keeb"] = "split ergonomic mechanical keyboard";
 incorrect2correct["ergonomic split keyboard"] = "split ergonomic mechanical keyboard";
 incorrect2correct["ergosplit"] = "split ergonomic mechanical keyboard";
-incorrect2correct["ergosplits"] = "split ergonomic mechanical keyboard";
 incorrect2correct["SplErgo"] = "split ergonomic mechanical keyboard";
 incorrect2correct["split ergo"] = "split ergonomic mechanical keyboard";
 incorrect2correct["Split ergo"] = "split ergonomic mechanical keyboard";
 incorrect2correct["split ergo board"] = "split ergonomic mechanical keyboard";
-incorrect2correct["split ergo boards"] = "split ergonomic mechanical keyboard";
-incorrect2correct["Split ergo Boards"] = "split ergonomic mechanical keyboard";
 incorrect2correct["split ergo keyboard"] = "split ergonomic mechanical keyboard";
-incorrect2correct["split ergo keyboards"] = "split ergonomic mechanical keyboard";
 incorrect2correct["split ergo mechanical keyboard"] = "split ergonomic mechanical keyboard";
 incorrect2correct["split ergonomic"] = "split ergonomic mechanical keyboard";
 incorrect2correct["split ergonomic keyboard"] = "split ergonomic mechanical keyboard";
@@ -143832,13 +144752,25 @@ incorrect2correct["Split Keyb"] = "split ergonomic mechanical keyboard";
 incorrect2correct["split keyboard"] = "split ergonomic mechanical keyboard";
 incorrect2correct["Split keyboard"] = "split ergonomic mechanical keyboard";
 incorrect2correct["Split Keyboard"] = "split ergonomic mechanical keyboard";
+incorrect2correct["split mech"] = "split ergonomic mechanical keyboard";
 incorrect2correct["split mechanical keyboard"] = "split ergonomic mechanical keyboard";
-incorrect2correct["split mechs"] = "split ergonomic mechanical keyboard";
+incorrect2correct["split ortholinear mechanical keyboard"] = "split ergonomic mechanical keyboard";
 incorrect2correct["SplitKB"] = "split ergonomic mechanical keyboard";
-incorrect2correct["SplitKBs"] = "split ergonomic mechanical keyboard";
 incorrect2correct["splitkeyboard"] = "split ergonomic mechanical keyboard";
-incorrect2correct["splits"] = "split ergonomic mechanical keyboard";
 incorrect2correct["splt keyboard"] = "split ergonomic mechanical keyboard";
+incorrect2correct["ergomech splits"] = "split ergonomic mechanical keyboards";
+incorrect2correct["split ergonomic mechanical keyboards"] = "split ergonomic mechanical keyboards";
+correct2URL["split ergonomic mechanical keyboards"] = "https://en.wikipedia.org/wiki/Ergonomic_keyboard";
+
+
+incorrect2correct["ergosplits"] = "split ergonomic mechanical keyboards";
+incorrect2correct["split ergo boards"] = "split ergonomic mechanical keyboards";
+incorrect2correct["Split ergo Boards"] = "split ergonomic mechanical keyboards";
+incorrect2correct["split ergo keyboards"] = "split ergonomic mechanical keyboards";
+incorrect2correct["split ergos"] = "split ergonomic mechanical keyboards";
+incorrect2correct["split mechs"] = "split ergonomic mechanical keyboards";
+incorrect2correct["SplitKBs"] = "split ergonomic mechanical keyboards";
+incorrect2correct["splits"] = "split ergonomic mechanical keyboards";
 incorrect2correct["ergo ortho____"] = "split ergonomic ortholinear mechanical keyboard____";
 incorrect2correct["split ergonomic ortholinear mechanical keyboard____"] = "split ergonomic ortholinear mechanical keyboard____";
 correct2URL["split ergonomic ortholinear mechanical keyboard____"] = "https://en.wikipedia.org/wiki/Ergonomic_keyboard";
@@ -144058,6 +144990,11 @@ incorrect2correct["Spreadsheet"] = "spreadsheet";
 incorrect2correct["SpreadSheet"] = "spreadsheet";
 incorrect2correct["spreadshet"] = "spreadsheet";
 incorrect2correct["spreadshset"] = "spreadsheet";
+incorrect2correct["spreadhseets"] = "spreadsheets";
+incorrect2correct["spreadsheets"] = "spreadsheets";
+correct2URL["spreadsheets"] = "https://en.wiktionary.org/wiki/spreadsheet#Noun";
+
+
 incorrect2correct["Spirng boot"] = "Spring Boot";
 incorrect2correct["Spring Boot"] = "Spring Boot";
 correct2URL["Spring Boot"] = "https://en.wikipedia.org/wiki/Spring_Framework#Spring_Boot";
@@ -144695,6 +145632,8 @@ incorrect2correct["squeeze_"] = "squeeze_";
 correct2URL["squeeze_"] = "https://en.wiktionary.org/wiki/squeeze#Verb";
 
 
+incorrect2correct["sqeease_"] = "squeeze_";
+incorrect2correct["squase_"] = "squeeze_";
 incorrect2correct["squeese_"] = "squeeze_";
 incorrect2correct["squise_"] = "squeeze_";
 incorrect2correct["squid"] = "Squid";
@@ -144845,6 +145784,11 @@ incorrect2correct["sshd"] = "sshd";
 correct2URL["sshd"] = "https://en.wikipedia.org/wiki/Secure_Shell#Use";
 
 
+incorrect2correct["sshfs"] = "SSHFS";
+incorrect2correct["SSHFS"] = "SSHFS";
+correct2URL["SSHFS"] = "https://en.wikipedia.org/wiki/SSHFS";
+
+
 incorrect2correct["ssid"] = "SSID";
 incorrect2correct["SSID"] = "SSID";
 correct2URL["SSID"] = "https://en.wikipedia.org/wiki/Wi-Fi#Etymology_and_terminology";
@@ -144934,11 +145878,12 @@ incorrect2correct["stabiliser"] = "stabiliser";
 correct2URL["stabiliser"] = "https://en.wiktionary.org/wiki/stabiliser#Noun";
 
 
-incorrect2correct["side supports"] = "stabilisers";
+incorrect2correct["atabilizers"] = "stabilisers";
 incorrect2correct["stabilisers"] = "stabilisers";
 correct2URL["stabilisers"] = "https://switchandclick.com/stabilizer-guide/";
 
 
+incorrect2correct["side supports"] = "stabilisers";
 incorrect2correct["stab"] = "stabilisers";
 incorrect2correct["Stab"] = "stabilisers";
 incorrect2correct["stabalisers"] = "stabilisers";
@@ -145051,6 +145996,156 @@ incorrect2correct["stack frame"] = "stack frame";
 correct2URL["stack frame"] = "https://en.wikipedia.org/wiki/Call_stack#Description";
 
 
+incorrect2correct["CuntOverflow"] = "Stack Overflow";
+incorrect2correct["Stack Overflow"] = "Stack Overflow";
+correct2URL["Stack Overflow"] = "https://stackoverflow.design/brand/copywriting/naming/";
+
+
+incorrect2correct["enSO"] = "Stack Overflow";
+incorrect2correct["Flak overflow"] = "Stack Overflow";
+incorrect2correct["Flak Overflow"] = "Stack Overflow";
+incorrect2correct["Garbage Overflow"] = "Stack Overflow";
+incorrect2correct["overflow"] = "Stack Overflow";
+incorrect2correct["overstackflow"] = "Stack Overflow";
+incorrect2correct["S.O"] = "Stack Overflow";
+incorrect2correct["S/O"] = "Stack Overflow";
+incorrect2correct["satckoverflow"] = "Stack Overflow";
+incorrect2correct["Satckoverflow"] = "Stack Overflow";
+incorrect2correct["SatckOverflow"] = "Stack Overflow";
+incorrect2correct["snark overflow"] = "Stack Overflow";
+incorrect2correct["Snark Overflow"] = "Stack Overflow";
+incorrect2correct["so"] = "Stack Overflow";
+incorrect2correct["So"] = "Stack Overflow";
+incorrect2correct["SO"] = "Stack Overflow";
+incorrect2correct["SO dot com"] = "Stack Overflow";
+incorrect2correct["SO flow"] = "Stack Overflow";
+incorrect2correct["SO.main"] = "Stack Overflow";
+incorrect2correct["sof"] = "Stack Overflow";
+incorrect2correct["SoF"] = "Stack Overflow";
+incorrect2correct["SOF"] = "Stack Overflow";
+incorrect2correct["SOflow"] = "Stack Overflow";
+incorrect2correct["ST"] = "Stack Overflow";
+incorrect2correct["stack"] = "Stack Overflow";
+incorrect2correct["Stack"] = "Stack Overflow";
+incorrect2correct["stack flow"] = "Stack Overflow";
+incorrect2correct["Stack Ooverflow"] = "Stack Overflow";
+incorrect2correct["stack oveflow"] = "Stack Overflow";
+incorrect2correct["Stack Oveflow"] = "Stack Overflow";
+incorrect2correct["stack over flow"] = "Stack Overflow";
+incorrect2correct["Stack over flow"] = "Stack Overflow";
+incorrect2correct["Stack Over Flow"] = "Stack Overflow";
+incorrect2correct["Stack Over Follow"] = "Stack Overflow";
+incorrect2correct["stack overflow"] = "Stack Overflow";
+incorrect2correct["stack Overflow"] = "Stack Overflow";
+incorrect2correct["Stack overflow"] = "Stack Overflow";
+incorrect2correct["Stack OverfLow"] = "Stack Overflow";
+incorrect2correct["Stack OverFlow"] = "Stack Overflow";
+incorrect2correct["Stack OVerflow"] = "Stack Overflow";
+incorrect2correct["Stack OVERFLOW"] = "Stack Overflow";
+incorrect2correct["StACK overFLOw"] = "Stack Overflow";
+incorrect2correct["STACK OVERFLOW"] = "Stack Overflow";
+incorrect2correct["Stack Overflów"] = "Stack Overflow";
+incorrect2correct["stack overflown"] = "Stack Overflow";
+incorrect2correct["Stack overflown"] = "Stack Overflow";
+incorrect2correct["Stack Overfollow"] = "Stack Overflow";
+incorrect2correct["stack Overfolw"] = "Stack Overflow";
+incorrect2correct["Stack Overlfow"] = "Stack Overflow";
+incorrect2correct["Stack Overlow"] = "Stack Overflow";
+incorrect2correct["Stack Oversflow"] = "Stack Overflow";
+incorrect2correct["Stack Owerflow"] = "Stack Overflow";
+incorrect2correct["Stack Undertow"] = "Stack Overflow";
+incorrect2correct["stack-overflow"] = "Stack Overflow";
+incorrect2correct["Stack-overflow"] = "Stack Overflow";
+incorrect2correct["Stack-Overflow"] = "Stack Overflow";
+incorrect2correct["Stacked Overflow"] = "Stack Overflow";
+incorrect2correct["StackedOverflow"] = "Stack Overflow";
+incorrect2correct["Stackeoverflow"] = "Stack Overflow";
+incorrect2correct["Stackerflow"] = "Stack Overflow";
+incorrect2correct["stackflow"] = "Stack Overflow";
+incorrect2correct["Stackflow"] = "Stack Overflow";
+incorrect2correct["StackO"] = "Stack Overflow";
+incorrect2correct["stackoerflow"] = "Stack Overflow";
+incorrect2correct["StackOerflow"] = "Stack Overflow";
+incorrect2correct["StackOF"] = "Stack Overflow";
+incorrect2correct["StackOFlow"] = "Stack Overflow";
+incorrect2correct["stackoveflow"] = "Stack Overflow";
+incorrect2correct["Stackoveflow"] = "Stack Overflow";
+incorrect2correct["StackOveflow"] = "Stack Overflow";
+incorrect2correct["Stackover"] = "Stack Overflow";
+incorrect2correct["stackover flow"] = "Stack Overflow";
+incorrect2correct["Stackover flow"] = "Stack Overflow";
+incorrect2correct["StackoverBlows"] = "Stack Overflow";
+incorrect2correct["StackOvereflow"] = "Stack Overflow";
+incorrect2correct["stackoverflopw"] = "Stack Overflow";
+incorrect2correct["stackoverflow"] = "Stack Overflow";
+incorrect2correct["stackOverflow"] = "Stack Overflow";
+incorrect2correct["stackOverFlow"] = "Stack Overflow";
+incorrect2correct["Stackoverflow"] = "Stack Overflow";
+incorrect2correct["StackoverFlow"] = "Stack Overflow";
+incorrect2correct["StackOverflow"] = "Stack Overflow";
+incorrect2correct["StackOverfLow"] = "Stack Overflow";
+incorrect2correct["StackOverFlow"] = "Stack Overflow";
+incorrect2correct["StackOVerflow"] = "Stack Overflow";
+incorrect2correct["STACKOVERFLOW"] = "Stack Overflow";
+incorrect2correct["stackoverflow.com"] = "Stack Overflow";
+incorrect2correct["Stackoverflow.com"] = "Stack Overflow";
+incorrect2correct["StackOverflow.com"] = "Stack Overflow";
+incorrect2correct["stackoverflow.SE"] = "Stack Overflow";
+incorrect2correct["stackoverflown"] = "Stack Overflow";
+incorrect2correct["Stackoverflown"] = "Stack Overflow";
+incorrect2correct["stackoverflown.com"] = "Stack Overflow";
+incorrect2correct["Stackoverflown.com"] = "Stack Overflow";
+incorrect2correct["Stackoverflwo"] = "Stack Overflow";
+incorrect2correct["stackoverfow"] = "Stack Overflow";
+incorrect2correct["stackoverfull"] = "Stack Overflow";
+incorrect2correct["StackOverlflow"] = "Stack Overflow";
+incorrect2correct["stackoverlfow"] = "Stack Overflow";
+incorrect2correct["StackOverlfow"] = "Stack Overflow";
+incorrect2correct["stackoverlow"] = "Stack Overflow";
+incorrect2correct["Stackoverlow"] = "Stack Overflow";
+incorrect2correct["StackOverlow"] = "Stack Overflow";
+incorrect2correct["StackOvertflow"] = "Stack Overflow";
+incorrect2correct["StackOvervlow"] = "Stack Overflow";
+incorrect2correct["stackovrflow"] = "Stack Overflow";
+incorrect2correct["stackovwerflow"] = "Stack Overflow";
+incorrect2correct["stackowerflow"] = "Stack Overflow";
+incorrect2correct["StackOwerflow"] = "Stack Overflow";
+incorrect2correct["stackverflow"] = "Stack Overflow";
+incorrect2correct["stackvoerflow"] = "Stack Overflow";
+incorrect2correct["stackvoverflow"] = "Stack Overflow";
+incorrect2correct["Stackvoverflow"] = "Stack Overflow";
+incorrect2correct["stacloverflow"] = "Stack Overflow";
+incorrect2correct["StacOkverflow"] = "Stack Overflow";
+incorrect2correct["Stacoverflow"] = "Stack Overflow";
+incorrect2correct["Staff Overflow"] = "Stack Overflow";
+incorrect2correct["StaffOverflow"] = "Stack Overflow";
+incorrect2correct["stafkoverflow"] = "Stack Overflow";
+incorrect2correct["Stak Overflow"] = "Stack Overflow";
+incorrect2correct["Stakcoverflow"] = "Stack Overflow";
+incorrect2correct["stake overflow"] = "Stack Overflow";
+incorrect2correct["stakoverflow"] = "Stack Overflow";
+incorrect2correct["StakOverflow"] = "Stack Overflow";
+incorrect2correct["Stalckoverflow"] = "Stack Overflow";
+incorrect2correct["Stalkoverflow"] = "Stack Overflow";
+incorrect2correct["Stank Overflow"] = "Stack Overflow";
+incorrect2correct["StankOverflow"] = "Stack Overflow";
+incorrect2correct["Staok Overflow"] = "Stack Overflow";
+incorrect2correct["StaOk Overflow"] = "Stack Overflow";
+incorrect2correct["statckoverflow"] = "Stack Overflow";
+incorrect2correct["Staxk Overflow"] = "Stack Overflow";
+incorrect2correct["StckOverflow"] = "Stack Overflow";
+incorrect2correct["StckOvrflw"] = "Stack Overflow";
+incorrect2correct["steakoverflow"] = "Stack Overflow";
+incorrect2correct["Steal Overflow"] = "Stack Overflow";
+incorrect2correct["stock overflow"] = "Stack Overflow";
+incorrect2correct["Stock Overflow"] = "Stack Overflow";
+incorrect2correct["stockoverflow"] = "Stack Overflow";
+incorrect2correct["stockoverflown"] = "Stack Overflow";
+incorrect2correct["StrackOverflow"] = "Stack Overflow";
+incorrect2correct["Stuck Overflow"] = "Stack Overflow";
+incorrect2correct["stuckoverflow"] = "Stack Overflow";
+incorrect2correct["Syackoverflow"] = "Stack Overflow";
+incorrect2correct["Whack Overflow"] = "Stack Overflow";
 incorrect2correct["ai assist"] = "Stack Overflow AI Assist";
 incorrect2correct["Stack Overflow AI Assist"] = "Stack Overflow AI Assist";
 correct2URL["Stack Overflow AI Assist"] = "https://meta.stackexchange.com/questions/415115/ai-assist-is-now-available-on-stack-overflow";
@@ -145167,7 +146262,6 @@ incorrect2correct["Stack Overflow for teams"] = "Stack Overflow for Teams";
 incorrect2correct["Stack Overflow For Teams"] = "Stack Overflow for Teams";
 incorrect2correct["Stack Overflow teams"] = "Stack Overflow for Teams";
 incorrect2correct["Stack Overflow Teams"] = "Stack Overflow for Teams";
-incorrect2correct["Stack&nbsp;Overflow teams"] = "Stack Overflow for Teams";
 incorrect2correct["stackoverflow for teams"] = "Stack Overflow for Teams";
 incorrect2correct["Stackoverflow for Teams"] = "Stack Overflow for Teams";
 incorrect2correct["StackOverflow for Teams"] = "Stack Overflow for Teams";
@@ -145266,12 +146360,22 @@ incorrect2correct["Stack Overflow in Russian"] = "Stack Overflow на русск
 incorrect2correct["Stack Overflow на русском"] = "Stack Overflow на русском (Stack Exchange site)";
 incorrect2correct["StackOverflow in Russian"] = "Stack Overflow на русском (Stack Exchange site)";
 incorrect2correct["StackOverflow on Russian"] = "Stack Overflow на русском (Stack Exchange site)";
+incorrect2correct["SO_"] = "Stack Overflow_";
+incorrect2correct["Stack Overflow_"] = "Stack Overflow_";
+correct2URL["Stack Overflow_"] = "https://policies.stackoverflow.co/company/trademark-guidance/";
+
+
+incorrect2correct["stack overflow_"] = "Stack Overflow_";
+incorrect2correct["Stack overflow_"] = "Stack Overflow_";
+incorrect2correct["stackoverflow_"] = "Stack Overflow_";
+incorrect2correct["Stackoverflow_"] = "Stack Overflow_";
+incorrect2correct["StackOverflow_"] = "Stack Overflow_";
 incorrect2correct["stack oveflow__"] = "stack overflow__";
 incorrect2correct["stack overflow__"] = "stack overflow__";
 correct2URL["stack overflow__"] = "https://en.wikipedia.org/wiki/Stack_overflow";
 
 
-incorrect2correct["Stack&nbsp;Overflow__"] = "stack overflow__";
+incorrect2correct["Stack Overflow__"] = "stack overflow__";
 incorrect2correct["StackOverflow__"] = "stack overflow__";
 incorrect2correct["Stack&nbsp;Overflow___"] = "Stack Overflow___";
 incorrect2correct["Stack Overflow___"] = "Stack Overflow___";
@@ -145437,168 +146541,6 @@ incorrect2correct["SX__"] = "Stack&nbsp;Exchange__";
 incorrect2correct["The site formerly known as Stack Exchange__"] = "Stack&nbsp;Exchange__";
 incorrect2correct["x-exchange__"] = "Stack&nbsp;Exchange__";
 incorrect2correct["X-exchange__"] = "Stack&nbsp;Exchange__";
-incorrect2correct["CuntOverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack&nbsp;Overflow"] = "Stack&nbsp;Overflow";
-correct2URL["Stack&nbsp;Overflow"] = "https://stackoverflow.design/brand/copywriting/naming/";
-
-
-incorrect2correct["enSO"] = "Stack&nbsp;Overflow";
-incorrect2correct["Flak overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Flak Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Garbage Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["overstackflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["S.O"] = "Stack&nbsp;Overflow";
-incorrect2correct["S/O"] = "Stack&nbsp;Overflow";
-incorrect2correct["satckoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Satckoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["SatckOverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["snark overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Snark Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["so"] = "Stack&nbsp;Overflow";
-incorrect2correct["So"] = "Stack&nbsp;Overflow";
-incorrect2correct["SO"] = "Stack&nbsp;Overflow";
-incorrect2correct["SO dot com"] = "Stack&nbsp;Overflow";
-incorrect2correct["SO flow"] = "Stack&nbsp;Overflow";
-incorrect2correct["SO.main"] = "Stack&nbsp;Overflow";
-incorrect2correct["sof"] = "Stack&nbsp;Overflow";
-incorrect2correct["SoF"] = "Stack&nbsp;Overflow";
-incorrect2correct["SOF"] = "Stack&nbsp;Overflow";
-incorrect2correct["SOflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["ST"] = "Stack&nbsp;Overflow";
-incorrect2correct["stack"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack"] = "Stack&nbsp;Overflow";
-incorrect2correct["stack flow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack Ooverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stack oveflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack Oveflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stack over flow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack over flow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack Over Flow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack Over Follow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stack overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stack Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack OverfLow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack OverFlow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack OVerflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack OVERFLOW"] = "Stack&nbsp;Overflow";
-incorrect2correct["StACK overFLOw"] = "Stack&nbsp;Overflow";
-incorrect2correct["STACK OVERFLOW"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack Overflów"] = "Stack&nbsp;Overflow";
-incorrect2correct["stack overflown"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack overflown"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack Overfollow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stack Overfolw"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack Overlfow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack Overlow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack Oversflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack Owerflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack Undertow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stack-overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack-overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stack-Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stacked Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackedOverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackeoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackerflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackO"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackoerflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOerflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOF"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOFlow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackoveflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackoveflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOveflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackover"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackover flow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackover flow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackoverBlows"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOvereflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackoverflopw"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackOverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackOverFlow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackoverFlow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOverfLow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOverFlow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOVerflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["STACKOVERFLOW"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackoverflow.com"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackoverflow.com"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOverflow.com"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackoverflow.SE"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackoverflown"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackoverflown"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackoverflown.com"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackoverflown.com"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackoverflwo"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackoverfow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackoverfull"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOverlflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackoverlfow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOverlfow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackoverlow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackoverlow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOverlow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOvertflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOvervlow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackovrflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackovwerflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackowerflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StackOwerflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackvoerflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stackvoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stackvoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stacloverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StacOkverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stacoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Staff Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StaffOverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stafkoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stak Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stakcoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stake overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stakoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StakOverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stalckoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stalkoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stank Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StankOverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Staok Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StaOk Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["statckoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Staxk Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StckOverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["StckOvrflw"] = "Stack&nbsp;Overflow";
-incorrect2correct["steakoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Steal Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stock overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stock Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stockoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stockoverflown"] = "Stack&nbsp;Overflow";
-incorrect2correct["StrackOverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Stuck Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["stuckoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Syackoverflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["Whack Overflow"] = "Stack&nbsp;Overflow";
-incorrect2correct["SO_"] = "Stack&nbsp;Overflow_";
-incorrect2correct["Stack&nbsp;Overflow_"] = "Stack&nbsp;Overflow_";
-correct2URL["Stack&nbsp;Overflow_"] = "https://policies.stackoverflow.co/company/trademark-guidance/";
-
-
-incorrect2correct["stack overflow_"] = "Stack&nbsp;Overflow_";
-incorrect2correct["Stack overflow_"] = "Stack&nbsp;Overflow_";
-incorrect2correct["Stack Overflow_"] = "Stack&nbsp;Overflow_";
-incorrect2correct["stackoverflow_"] = "Stack&nbsp;Overflow_";
-incorrect2correct["Stackoverflow_"] = "Stack&nbsp;Overflow_";
-incorrect2correct["StackOverflow_"] = "Stack&nbsp;Overflow_";
 incorrect2correct["stack blitz"] = "StackBlitz";
 incorrect2correct["StackBlitz"] = "StackBlitz";
 correct2URL["StackBlitz"] = "https://stackblitz.com/";
@@ -147098,14 +148040,21 @@ correct2URL["Strawberry GraphQL_"] = "https://pypi.org/project/strawberry-graphq
 
 
 incorrect2correct["Strawberry_"] = "Strawberry GraphQL_";
-incorrect2correct["Strawberry"] = "Strawberry Perl";
+incorrect2correct["strawberry"] = "Strawberry Perl";
 incorrect2correct["Strawberry Perl"] = "Strawberry Perl";
 correct2URL["Strawberry Perl"] = "https://en.wikipedia.org/wiki/Strawberry_Perl";
 
 
+incorrect2correct["Strawberry"] = "Strawberry Perl";
 incorrect2correct["strawberry perl"] = "Strawberry Perl";
 incorrect2correct["Strawberry perl"] = "Strawberry Perl";
 incorrect2correct["StrawberryPerl"] = "Strawberry Perl";
+incorrect2correct["strawbery__"] = "strawberry__";
+incorrect2correct["strawberry__"] = "strawberry__";
+correct2URL["strawberry__"] = "https://en.wiktionary.org/wiki/strawberry#Noun";
+
+
+incorrect2correct["Strawbery__"] = "strawberry__";
 incorrect2correct["stary_"] = "stray_";
 incorrect2correct["stray_"] = "stray_";
 correct2URL["stray_"] = "https://en.wiktionary.org/wiki/stray#Adjective";
@@ -147131,6 +148080,11 @@ incorrect2correct["stram"] = "stream";
 incorrect2correct["streal"] = "stream";
 incorrect2correct["strem"] = "stream";
 incorrect2correct["strewam"] = "stream";
+incorrect2correct["Streamline"] = "streamline";
+incorrect2correct["streamline"] = "streamline";
+correct2URL["streamline"] = "https://en.wiktionary.org/wiki/streamline#Verb";
+
+
 incorrect2correct["streamlit"] = "Streamlit";
 incorrect2correct["Streamlit"] = "Streamlit";
 correct2URL["Streamlit"] = "https://github.com/streamlit/streamlit";
@@ -147157,6 +148111,11 @@ incorrect2correct["strenhgt"] = "strength";
 incorrect2correct["Strength Reduction"] = "strength reduction";
 incorrect2correct["strength reduction"] = "strength reduction";
 correct2URL["strength reduction"] = "https://en.wikipedia.org/wiki/Strength_reduction";
+
+
+incorrect2correct["strengthnend"] = "strengthened";
+incorrect2correct["strengthened"] = "strengthened";
+correct2URL["strengthened"] = "https://en.wiktionary.org/wiki/strengthen#Verb";
 
 
 incorrect2correct["strenghening"] = "strengthening";
@@ -147238,11 +148197,13 @@ correct2URL["string interpolation"] = "https://en.wikipedia.org/wiki/String_inte
 
 
 incorrect2correct["variable interpolation"] = "string interpolation";
-incorrect2correct["cow music"] = "String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini";
+incorrect2correct["boccherini"] = "String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini";
 incorrect2correct["String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini"] = "String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini";
 correct2URL["String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini"] = "https://www.youtube.com/watch?v=5fLPBIBOE5U";
 
 
+incorrect2correct["Boccherini"] = "String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini";
+incorrect2correct["cow music"] = "String quintet in E Major, Op.11 No.5. Minuet - Luigi Boccherini";
 incorrect2correct["String theory"] = "string theory";
 incorrect2correct["string theory"] = "string theory";
 correct2URL["string theory"] = "https://en.wikipedia.org/wiki/String_theory";
@@ -147537,6 +148498,12 @@ correct2URL["stubborn"] = "https://en.wiktionary.org/wiki/stubborn#Adjective";
 
 incorrect2correct["stubburn"] = "stubborn";
 incorrect2correct["stuburn"] = "stubborn";
+incorrect2correct["key chatter"] = "stuck key syndrome";
+incorrect2correct["stuck key syndrome"] = "stuck key syndrome";
+correct2URL["stuck key syndrome"] = "https://www.reddit.com/r/Keychron/comments/1t39xsd/comment/ojv2en8/";
+
+
+incorrect2correct["SKS"] = "stuck key syndrome";
 incorrect2correct["stack___"] = "stuck___";
 incorrect2correct["stuck___"] = "stuck___";
 correct2URL["stuck___"] = "https://en.wiktionary.org/wiki/stick#Verb_2";
@@ -148479,11 +149446,12 @@ incorrect2correct["sudden_"] = "sudden_";
 correct2URL["sudden_"] = "https://en.wiktionary.org/wiki/sudden#Adverb";
 
 
-incorrect2correct["suddent"] = "suddenly";
+incorrect2correct["suddely"] = "suddenly";
 incorrect2correct["suddenly"] = "suddenly";
 correct2URL["suddenly"] = "https://en.wiktionary.org/wiki/suddenly#Adverb";
 
 
+incorrect2correct["suddent"] = "suddenly";
 incorrect2correct["suddently"] = "suddenly";
 incorrect2correct["su"] = "sudo";
 incorrect2correct["sudo"] = "sudo";
@@ -148945,6 +149913,12 @@ correct2URL["superblock"] = "https://en.wikipedia.org/wiki/Superblock_(file_syst
 
 
 incorrect2correct["super-block"] = "superblock";
+incorrect2correct["SC__"] = "supercapacitor__";
+incorrect2correct["supercapacitor__"] = "supercapacitor__";
+correct2URL["supercapacitor__"] = "https://en.wikipedia.org/wiki/Supercapacitor";
+
+
+incorrect2correct["super cap__"] = "supercapacitor__";
 incorrect2correct["supercoducting"] = "superconducting";
 incorrect2correct["superconducting"] = "superconducting";
 correct2URL["superconducting"] = "https://en.wiktionary.org/wiki/superconducting#Adjective";
@@ -148956,6 +149930,7 @@ incorrect2correct["superconductivity"] = "superconductivity";
 correct2URL["superconductivity"] = "https://en.wikipedia.org/wiki/Superconductivity";
 
 
+incorrect2correct["Superconductivity"] = "superconductivity";
 incorrect2correct["super conductor"] = "superconductor";
 incorrect2correct["superconductor"] = "superconductor";
 correct2URL["superconductor"] = "https://en.wikipedia.org/wiki/Superconductivity";
@@ -149076,6 +150051,11 @@ incorrect2correct["surpersed"] = "superseded";
 incorrect2correct["supercedes"] = "supersedes";
 incorrect2correct["supersedes"] = "supersedes";
 correct2URL["supersedes"] = "https://en.wiktionary.org/wiki/supersede#Verb";
+
+
+incorrect2correct["super sensitive"] = "supersensitive";
+incorrect2correct["supersensitive"] = "supersensitive";
+correct2URL["supersensitive"] = "https://en.wiktionary.org/wiki/supersensitive#Adjective";
 
 
 incorrect2correct["super set"] = "superset";
@@ -149346,6 +150326,11 @@ incorrect2correct["Surface Pro 7+"] = "Surface Pro 7+";
 correct2URL["Surface Pro 7+"] = "https://en.wikipedia.org/wiki/Surface_Pro_7";
 
 
+incorrect2correct["Surface tension"] = "surface tension";
+incorrect2correct["surface tension"] = "surface tension";
+correct2URL["surface tension"] = "https://en.wiktionary.org/wiki/surface_tension#Noun";
+
+
 incorrect2correct["sugrical"] = "surgical";
 incorrect2correct["surgical"] = "surgical";
 correct2URL["surgical"] = "https://en.wiktionary.org/wiki/surgical#Adjective";
@@ -149467,6 +150452,7 @@ incorrect2correct["suseptible"] = "susceptible";
 incorrect2correct["suspectable"] = "susceptible";
 incorrect2correct["suspectible"] = "susceptible";
 incorrect2correct["suspectiple"] = "susceptible";
+incorrect2correct["suspeptiple"] = "susceptible";
 incorrect2correct["suspetible"] = "susceptible";
 incorrect2correct["suspiple"] = "susceptible";
 incorrect2correct["SLE"] = "SUSE Linux Enterprise";
@@ -149722,6 +150708,11 @@ incorrect2correct["Swedish"] = "Swedish";
 correct2URL["Swedish"] = "https://en.wiktionary.org/wiki/Swedish#Noun";
 
 
+incorrect2correct["Swedish_"] = "Swedish keyboard layout_";
+incorrect2correct["Swedish keyboard layout_"] = "Swedish keyboard layout_";
+correct2URL["Swedish keyboard layout_"] = "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Swedish";
+
+
 incorrect2correct["sweat spot"] = "sweet spot";
 incorrect2correct["sweet spot"] = "sweet spot";
 correct2URL["sweet spot"] = "https://en.wiktionary.org/wiki/sweet_spot#Noun";
@@ -149844,6 +150835,7 @@ incorrect2correct["swityc"] = "switch";
 incorrect2correct["swotch"] = "switch";
 incorrect2correct["swtich"] = "switch";
 incorrect2correct["Swtich"] = "switch";
+incorrect2correct["witch"] = "switch";
 incorrect2correct["switch_"] = "switch for a mechanical keyboard_";
 incorrect2correct["switch for a mechanical keyboard_"] = "switch for a mechanical keyboard_";
 correct2URL["switch for a mechanical keyboard_"] = "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact";
@@ -149900,6 +150892,7 @@ incorrect2correct["keyswitches"] = "switches";
 incorrect2correct["stitches"] = "switches";
 incorrect2correct["stwitches"] = "switches";
 incorrect2correct["stwitchs"] = "switches";
+incorrect2correct["swichtes"] = "switches";
 incorrect2correct["swicthed"] = "switches";
 incorrect2correct["swirches"] = "switches";
 incorrect2correct["switces"] = "switches";
@@ -150424,6 +151417,7 @@ incorrect2correct["admin"] = "system administrator";
 incorrect2correct["Admin"] = "system administrator";
 incorrect2correct["administartor"] = "system administrator";
 incorrect2correct["administator"] = "system administrator";
+incorrect2correct["administer"] = "system administrator";
 incorrect2correct["administratior"] = "system administrator";
 incorrect2correct["Administratior"] = "system administrator";
 incorrect2correct["administrator"] = "system administrator";
@@ -151163,11 +152157,12 @@ incorrect2correct["tantalum"] = "tantalum capacitor";
 incorrect2correct["Tantalum capacitor"] = "tantalum capacitor";
 incorrect2correct["tantelum"] = "tantalum capacitor";
 incorrect2correct["Tantelum"] = "tantalum capacitor";
-incorrect2correct["Tantalum_"] = "tantalum_";
+incorrect2correct["Ta_"] = "tantalum_";
 incorrect2correct["tantalum_"] = "tantalum_";
 correct2URL["tantalum_"] = "https://en.wikipedia.org/wiki/Tantalum";
 
 
+incorrect2correct["Tantalum_"] = "tantalum_";
 incorrect2correct["tanya"] = "Tanya";
 incorrect2correct["Tanya"] = "Tanya";
 correct2URL["Tanya"] = "https://en.wikipedia.org/wiki/Tanya_(Judaism)";
@@ -151818,16 +152813,26 @@ incorrect2correct["teenager"] = "teenager";
 correct2URL["teenager"] = "https://en.wiktionary.org/wiki/teenager#Noun";
 
 
-incorrect2correct["small_"] = "teenie-tiny_";
+incorrect2correct["bitsy_"] = "teenie-tiny_";
 incorrect2correct["teenie-tiny_"] = "teenie-tiny_";
 correct2URL["teenie-tiny_"] = "https://www.youtube.com/watch?v=ICkWjdQuK7Q";
 
 
+incorrect2correct["Bitsy_"] = "teenie-tiny_";
+incorrect2correct["itsy_"] = "teenie-tiny_";
+incorrect2correct["Itsy_"] = "teenie-tiny_";
+incorrect2correct["small_"] = "teenie-tiny_";
 incorrect2correct["teenie tiny_"] = "teenie-tiny_";
+incorrect2correct["teenie weenie_"] = "teenie-tiny_";
 incorrect2correct["teensy-tinsy_"] = "teenie-tiny_";
 incorrect2correct["teeny tiny_"] = "teenie-tiny_";
+incorrect2correct["teeny weeny_"] = "teenie-tiny_";
+incorrect2correct["teeny_"] = "teenie-tiny_";
+incorrect2correct["teeny-tiny_"] = "teenie-tiny_";
 incorrect2correct["tiniest_"] = "teenie-tiny_";
 incorrect2correct["very small_"] = "teenie-tiny_";
+incorrect2correct["weenie_"] = "teenie-tiny_";
+incorrect2correct["weeny_"] = "teenie-tiny_";
 incorrect2correct["teensy"] = "Teensy";
 incorrect2correct["Teensy"] = "Teensy";
 correct2URL["Teensy"] = "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems#Software-compatibility_only";
@@ -152130,6 +153135,11 @@ incorrect2correct["Temporary Duty Assignment_"] = "temporary duty assignment_";
 incorrect2correct["Temporary duty travel_"] = "temporary duty assignment_";
 incorrect2correct["temporary duty_"] = "temporary duty assignment_";
 incorrect2correct["Temporary Duty_"] = "temporary duty assignment_";
+incorrect2correct["temptataion"] = "temptation";
+incorrect2correct["temptation"] = "temptation";
+correct2URL["temptation"] = "https://en.wiktionary.org/wiki/temptation#Noun";
+
+
 incorrect2correct["tenacious"] = "Tenacious badge";
 incorrect2correct["Tenacious badge"] = "Tenacious badge";
 correct2URL["Tenacious badge"] = "https://meta.stackexchange.com/questions/67397/what-are-the-badges-i-can-earn-on-each-site-and-what-are-the-exact-criteria-for/68258#68258";
@@ -153007,6 +154017,11 @@ incorrect2correct["thanks a great deal"] = "thanks a lot";
 incorrect2correct["Thanks a great deal"] = "thanks a lot";
 incorrect2correct["thanks heaps"] = "thanks a lot";
 incorrect2correct["Thanks heaps"] = "thanks a lot";
+incorrect2correct["thx for nothing"] = "thanks for nothing";
+incorrect2correct["thanks for nothing"] = "thanks for nothing";
+correct2URL["thanks for nothing"] = "https://en.wiktionary.org/wiki/thanks_for_nothing#Interjection";
+
+
 incorrect2correct["T.I.A_"] = "thanks in advance_";
 incorrect2correct["thanks in advance_"] = "thanks in advance_";
 correct2URL["thanks in advance_"] = "https://en.wiktionary.org/wiki/thanks_in_advance#Interjection";
@@ -153062,6 +154077,7 @@ incorrect2correct["hat__"] = "that__";
 incorrect2correct["nthat__"] = "that__";
 incorrect2correct["taht__"] = "that__";
 incorrect2correct["tat__"] = "that__";
+incorrect2correct["tha__"] = "that__";
 incorrect2correct["thai__"] = "that__";
 incorrect2correct["than__"] = "that__";
 incorrect2correct["thant__"] = "that__";
@@ -153288,11 +154304,12 @@ correct2URL["The definition of insanity is doing the same thing over and over ag
 
 
 incorrect2correct["The definition of insanity is doing the same thing over and over again, but expecting different results"] = "The definition of insanity is doing the same thing over and over again, but expecting different results (misattributed to Einstein)";
-incorrect2correct["The devil is in the details"] = "the devil is in the details";
+incorrect2correct["the Devil is in the details"] = "the devil is in the details";
 incorrect2correct["the devil is in the details"] = "the devil is in the details";
 correct2URL["the devil is in the details"] = "https://en.wiktionary.org/wiki/the_devil_is_in_the_details#Proverb";
 
 
+incorrect2correct["The devil is in the details"] = "the devil is in the details";
 incorrect2correct["2025 features_____"] = "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____";
 incorrect2correct["the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____"] = "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____";
 correct2URL["the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____"] = "https://www.reddit.com/r/Keychron/comments/1j092s2/comment/ml0wljn/";
@@ -153311,7 +154328,6 @@ incorrect2correct["from 2025_____"] = "the early 2025 Keychron keyboard main fir
 incorrect2correct["Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)_____"] = "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____";
 incorrect2correct["Keychron 2025 firmware_____"] = "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____";
 incorrect2correct["Keychron V6 Max_____"] = "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____";
-incorrect2correct["Keychron&nbsp;V6&nbsp;Max_____"] = "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____";
 incorrect2correct["KVM switch_____"] = "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____";
 incorrect2correct["newer Keychron firmware_____"] = "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____";
 incorrect2correct["NKRO_____"] = "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____";
@@ -153735,6 +154751,13 @@ correct2URL["The ships hung in the sky much the same way that bricks don't."] = 
 
 
 incorrect2correct["yellow bricks"] = "The ships hung in the sky much the same way that bricks don't.";
+incorrect2correct["fan"] = "the shit hit the fan";
+incorrect2correct["the shit hit the fan"] = "the shit hit the fan";
+correct2URL["the shit hit the fan"] = "https://dictionary.cambridge.org/dictionary/english/shit-hits-the-fan";
+
+
+incorrect2correct["shit hit the fan"] = "the shit hit the fan";
+incorrect2correct["SHTF"] = "the shit hit the fan";
 incorrect2correct["single source"] = "The single source of truth for the site list";
 incorrect2correct["The single source of truth for the site list"] = "The single source of truth for the site list";
 correct2URL["The single source of truth for the site list"] = "https://meta.stackexchange.com/a/359796";
@@ -153774,7 +154797,6 @@ correct2URL["the Stack Overflow blog"] = "https://stackoverflow.blog/";
 
 incorrect2correct["stack overflow blog"] = "the Stack Overflow blog";
 incorrect2correct["Stack Overflow blog"] = "the Stack Overflow blog";
-incorrect2correct["Stack&nbsp;Overflow blog"] = "the Stack Overflow blog";
 incorrect2correct["StackOverflow blog"] = "the Stack Overflow blog";
 incorrect2correct["banner"] = "The Star-Spangled Banner";
 incorrect2correct["The Star-Spangled Banner"] = "The Star-Spangled Banner";
@@ -154182,6 +155204,8 @@ correct2URL["there’s"] = "https://en.wiktionary.org/wiki/there%27s#Contraction
 incorrect2correct["ther's"] = "there’s";
 incorrect2correct["Ther's"] = "there’s";
 incorrect2correct["there's"] = "there’s";
+incorrect2correct["there´s"] = "there’s";
+incorrect2correct["There´s"] = "there’s";
 incorrect2correct["theres"] = "there’s";
 incorrect2correct["Theres"] = "there’s";
 incorrect2correct["theres's"] = "there’s";
@@ -154654,11 +155678,12 @@ correct2URL["Thonny"] = "https://en.wikipedia.org/wiki/Thonny";
 
 
 incorrect2correct["Thonny IDE"] = "Thonny";
-incorrect2correct["Thorium"] = "thorium";
+incorrect2correct["Th"] = "thorium";
 incorrect2correct["thorium"] = "thorium";
 correct2URL["thorium"] = "https://en.wikipedia.org/wiki/Thorium";
 
 
+incorrect2correct["Thorium"] = "thorium";
 incorrect2correct["thorium_"] = "Thorium_";
 incorrect2correct["Thorium_"] = "Thorium_";
 correct2URL["Thorium_"] = "https://news.slashdot.org/story/24/03/31/2250209/thorium-the-fastest-open-source-chromium-based-browser";
@@ -154765,6 +155790,7 @@ incorrect2correct["thoght_"] = "thought_";
 incorrect2correct["thot_"] = "thought_";
 incorrect2correct["though_"] = "thought_";
 incorrect2correct["thougt_"] = "thought_";
+incorrect2correct["THOUGT_"] = "thought_";
 incorrect2correct["thougth_"] = "thought_";
 incorrect2correct["thout_"] = "thought_";
 incorrect2correct["tought_"] = "thought_";
@@ -154894,6 +155920,7 @@ incorrect2correct["three"] = "three";
 correct2URL["three"] = "https://en.wiktionary.org/wiki/three#Numeral";
 
 
+incorrect2correct["thee"] = "three";
 incorrect2correct["theee"] = "three";
 incorrect2correct["theree"] = "three";
 incorrect2correct["thre"] = "three";
@@ -155248,14 +156275,14 @@ incorrect2correct["thunking"] = "thunking";
 correct2URL["thunking"] = "https://en.wikipedia.org/wiki/Thunk";
 
 
-incorrect2correct["Th"] = "Thursday";
-incorrect2correct["Thursday"] = "Thursday";
-correct2URL["Thursday"] = "https://en.wiktionary.org/wiki/Thursday#Noun";
+incorrect2correct["Th_"] = "Thursday_";
+incorrect2correct["Thursday_"] = "Thursday_";
+correct2URL["Thursday_"] = "https://en.wiktionary.org/wiki/Thursday#Noun";
 
 
-incorrect2correct["Thrusday"] = "Thursday";
-incorrect2correct["Thu"] = "Thursday";
-incorrect2correct["thursday"] = "Thursday";
+incorrect2correct["Thrusday_"] = "Thursday_";
+incorrect2correct["Thu_"] = "Thursday_";
+incorrect2correct["thursday_"] = "Thursday_";
 incorrect2correct["this_"] = "thus_";
 incorrect2correct["thus_"] = "thus_";
 correct2URL["thus_"] = "https://en.wiktionary.org/wiki/thus#Adverb";
@@ -155450,6 +156477,7 @@ correct2URL["till"] = "https://en.wiktionary.org/wiki/till#Preposition";
 
 
 incorrect2correct["til"] = "till";
+incorrect2correct["Til"] = "till";
 incorrect2correct["Tim Berners Lee"] = "Tim Berners-Lee";
 incorrect2correct["Tim Berners-Lee"] = "Tim Berners-Lee";
 correct2URL["Tim Berners-Lee"] = "https://en.wikipedia.org/wiki/Tim_Berners-Lee";
@@ -155701,12 +156729,15 @@ incorrect2correct["timeless home row keyboard modifiers_"] = "timeless home row 
 incorrect2correct["timeless home row modifier keys_"] = "timeless home row keyboard modifier keys_";
 incorrect2correct["timeless home row modifiers_"] = "timeless home row keyboard modifier keys_";
 incorrect2correct["timeless home row mods_"] = "timeless home row keyboard modifier keys_";
+incorrect2correct["Timeless Home Row Mods_"] = "timeless home row keyboard modifier keys_";
 incorrect2correct["timeless home row_"] = "timeless home row keyboard modifier keys_";
 incorrect2correct["Timeless home row_"] = "timeless home row keyboard modifier keys_";
 incorrect2correct["timeless homerow mod_"] = "timeless home row keyboard modifier keys_";
 incorrect2correct["timeless homerow mods_"] = "timeless home row keyboard modifier keys_";
 incorrect2correct["Timeless homerow mods_"] = "timeless home row keyboard modifier keys_";
 incorrect2correct["Timeless Homerow Mods_"] = "timeless home row keyboard modifier keys_";
+incorrect2correct["timeless hrms_"] = "timeless home row keyboard modifier keys_";
+incorrect2correct["timeless HRMs_"] = "timeless home row keyboard modifier keys_";
 incorrect2correct["timeless_"] = "timeless home row keyboard modifier keys_";
 incorrect2correct["Timerless homerow mods_"] = "timeless home row keyboard modifier keys_";
 incorrect2correct["urob mod_"] = "timeless home row keyboard modifier keys_";
@@ -155974,11 +157005,12 @@ correct2URL["Titanic"] = "https://en.wikipedia.org/wiki/RMS_Titanic";
 
 
 incorrect2correct["titanic"] = "Titanic";
-incorrect2correct["Titanium"] = "titanium";
+incorrect2correct["Ti"] = "titanium";
 incorrect2correct["titanium"] = "titanium";
 correct2URL["titanium"] = "https://en.wikipedia.org/wiki/Titanium";
 
 
+incorrect2correct["Titanium"] = "titanium";
 incorrect2correct["titl"] = "title";
 incorrect2correct["title"] = "title";
 correct2URL["title"] = "https://en.wiktionary.org/wiki/title#Noun";
@@ -157166,11 +158198,12 @@ correct2URL["traducir.win"] = "https://github.com/g3rv4/Traducir";
 
 
 incorrect2correct["Traducir"] = "traducir.win";
-incorrect2correct["traefik"] = "Træfik";
+incorrect2correct["traefick"] = "Træfik";
 incorrect2correct["Træfik"] = "Træfik";
 correct2URL["Træfik"] = "https://traefik.io/";
 
 
+incorrect2correct["traefik"] = "Træfik";
 incorrect2correct["Traefik"] = "Træfik";
 incorrect2correct["terrafic"] = "traffic";
 incorrect2correct["traffic"] = "traffic";
@@ -157181,6 +158214,14 @@ incorrect2correct["traffick"] = "traffic";
 incorrect2correct["Traffick"] = "traffic";
 incorrect2correct["trafic"] = "traffic";
 incorrect2correct["trafiic"] = "traffic";
+incorrect2correct["traci"] = "Traffic Control Interface";
+incorrect2correct["Traffic Control Interface"] = "Traffic Control Interface";
+correct2URL["Traffic Control Interface"] = "https://pypi.org/project/traci/";
+
+
+incorrect2correct["Traci"] = "Traffic Control Interface";
+incorrect2correct["TraCI"] = "Traffic Control Interface";
+incorrect2correct["traffic control interface"] = "Traffic Control Interface";
 incorrect2correct["tailing"] = "trailing";
 incorrect2correct["trailing"] = "trailing";
 correct2URL["trailing"] = "https://en.wiktionary.org/wiki/trailing#Adjective";
@@ -157287,6 +158328,7 @@ correct2URL["transferred"] = "https://en.wiktionary.org/wiki/transfer#Verb";
 
 
 incorrect2correct["transfered"] = "transferred";
+incorrect2correct["Transferred"] = "transferred";
 incorrect2correct["transfering"] = "transferring";
 incorrect2correct["transferring"] = "transferring";
 correct2URL["transferring"] = "https://en.wiktionary.org/wiki/transferring#Verb";
@@ -157706,11 +158748,12 @@ incorrect2correct["trespass"] = "trespass";
 correct2URL["trespass"] = "https://en.wiktionary.org/wiki/trespass#Verb";
 
 
-incorrect2correct["wired, Bluetooth, and '2.4 GHz'__"] = "tri-mode__";
+incorrect2correct["trimode__"] = "tri-mode__";
 incorrect2correct["tri-mode__"] = "tri-mode__";
 correct2URL["tri-mode__"] = "https://www.reddit.com/r/MechanicalKeyboards/comments/qafy00/what_is_dual_mode_and_trimode_in_keyboard/";
 
 
+incorrect2correct["wired, Bluetooth, and '2.4 GHz'__"] = "tri-mode__";
 incorrect2correct["traic"] = "TRIAC";
 incorrect2correct["TRIAC"] = "TRIAC";
 correct2URL["TRIAC"] = "https://en.wikipedia.org/wiki/TRIAC";
@@ -158150,6 +159193,7 @@ incorrect2correct["Citizen Trump"] = "Trump";
 incorrect2correct["Conald Chump"] = "Trump";
 incorrect2correct["djt"] = "Trump";
 incorrect2correct["DJT"] = "Trump";
+incorrect2correct["Donny"] = "Trump";
 incorrect2correct["DT"] = "Trump";
 incorrect2correct["Dump"] = "Trump";
 incorrect2correct["Mango Mussolini"] = "Trump";
@@ -158365,12 +159409,14 @@ incorrect2correct["TT"] = "TT";
 correct2URL["TT"] = "https://docs.keeb.io/via#layersfn";
 
 
-incorrect2correct["Ttc"] = "TTC Mechanical Switch";
-incorrect2correct["TTC Mechanical Switch"] = "TTC Mechanical Switch";
-correct2URL["TTC Mechanical Switch"] = "https://techbullish.com/ttc-switches/";
+incorrect2correct["Ttc"] = "TTC mechanical switches";
+incorrect2correct["TTC mechanical switches"] = "TTC mechanical switches";
+correct2URL["TTC mechanical switches"] = "https://techbullish.com/ttc-switches/";
 
 
-incorrect2correct["TTC"] = "TTC Mechanical Switch";
+incorrect2correct["TTC"] = "TTC mechanical switches";
+incorrect2correct["TTC mechanical switch"] = "TTC mechanical switches";
+incorrect2correct["TTC Mechanical Switch"] = "TTC mechanical switches";
 incorrect2correct["ttl"] = "TTL";
 incorrect2correct["TTL"] = "TTL";
 correct2URL["TTL"] = "https://en.wikipedia.org/wiki/Transistor%E2%80%93transistor_logic";
@@ -159600,6 +160646,538 @@ correct2URL["Ubuntu (tag wiki)_"] = "https://stackoverflow.com/questions/tagged/
 incorrect2correct["tag:ubuntu_"] = "Ubuntu (tag wiki)_";
 incorrect2correct["ubuntu_"] = "Ubuntu (tag wiki)_";
 incorrect2correct["Ubuntu_"] = "Ubuntu (tag wiki)_";
+incorrect2correct["10.04"] = "Ubuntu 10.04 (Lucid Lynx)";
+incorrect2correct["Ubuntu 10.04 (Lucid Lynx)"] = "Ubuntu 10.04 (Lucid Lynx)";
+correct2URL["Ubuntu 10.04 (Lucid Lynx)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.04_LTS_.28Lucid_Lynx.29";
+
+
+incorrect2correct["lucid"] = "Ubuntu 10.04 (Lucid Lynx)";
+incorrect2correct["Lucid"] = "Ubuntu 10.04 (Lucid Lynx)";
+incorrect2correct["Lynx"] = "Ubuntu 10.04 (Lucid Lynx)";
+incorrect2correct["ubuntu 10"] = "Ubuntu 10.04 (Lucid Lynx)";
+incorrect2correct["ubuntu 10.04"] = "Ubuntu 10.04 (Lucid Lynx)";
+incorrect2correct["Ubuntu 10.04"] = "Ubuntu 10.04 (Lucid Lynx)";
+incorrect2correct["UBUNTU 10.04"] = "Ubuntu 10.04 (Lucid Lynx)";
+incorrect2correct["Ubuntu 10.04 LTS (Lucid Lynx)"] = "Ubuntu 10.04 (Lucid Lynx)";
+incorrect2correct["Ubuntu 10.04 Lucid Lynx"] = "Ubuntu 10.04 (Lucid Lynx)";
+incorrect2correct["ubuntu 10.4"] = "Ubuntu 10.04 (Lucid Lynx)";
+incorrect2correct["Ubuntu 10.4"] = "Ubuntu 10.04 (Lucid Lynx)";
+incorrect2correct["1.10"] = "Ubuntu 10.10 (Maverick Meerkat)";
+incorrect2correct["Ubuntu 10.10 (Maverick Meerkat)"] = "Ubuntu 10.10 (Maverick Meerkat)";
+correct2URL["Ubuntu 10.10 (Maverick Meerkat)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.10_.28Maverick_Meerkat.29";
+
+
+incorrect2correct["10.10"] = "Ubuntu 10.10 (Maverick Meerkat)";
+incorrect2correct["10.10 Maverick Meerkat"] = "Ubuntu 10.10 (Maverick Meerkat)";
+incorrect2correct["Maverick"] = "Ubuntu 10.10 (Maverick Meerkat)";
+incorrect2correct["Maverick Meerkat"] = "Ubuntu 10.10 (Maverick Meerkat)";
+incorrect2correct["Meerkat"] = "Ubuntu 10.10 (Maverick Meerkat)";
+incorrect2correct["ubuntu 1.10"] = "Ubuntu 10.10 (Maverick Meerkat)";
+incorrect2correct["ubuntu 10.10"] = "Ubuntu 10.10 (Maverick Meerkat)";
+incorrect2correct["Ubuntu 10.10"] = "Ubuntu 10.10 (Maverick Meerkat)";
+incorrect2correct["Ubuntu Maverick"] = "Ubuntu 10.10 (Maverick Meerkat)";
+incorrect2correct["11.04"] = "Ubuntu 11.04 (Natty Narwhal)";
+incorrect2correct["Ubuntu 11.04 (Natty Narwhal)"] = "Ubuntu 11.04 (Natty Narwhal)";
+correct2URL["Ubuntu 11.04 (Natty Narwhal)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.04_.28Natty_Narwhal.29";
+
+
+incorrect2correct["Narwhal"] = "Ubuntu 11.04 (Natty Narwhal)";
+incorrect2correct["Natty"] = "Ubuntu 11.04 (Natty Narwhal)";
+incorrect2correct["Natty Narwhal"] = "Ubuntu 11.04 (Natty Narwhal)";
+incorrect2correct["ubuntu 11.04"] = "Ubuntu 11.04 (Natty Narwhal)";
+incorrect2correct["Ubuntu 11.04"] = "Ubuntu 11.04 (Natty Narwhal)";
+incorrect2correct["Ubuntu Narwhal"] = "Ubuntu 11.04 (Natty Narwhal)";
+incorrect2correct["ubuntu natty"] = "Ubuntu 11.04 (Natty Narwhal)";
+incorrect2correct["Ubuntu natty"] = "Ubuntu 11.04 (Natty Narwhal)";
+incorrect2correct["Ubuntu Natty"] = "Ubuntu 11.04 (Natty Narwhal)";
+incorrect2correct["11.10"] = "Ubuntu 11.10 (Oneiric Ocelot)";
+incorrect2correct["Ubuntu 11.10 (Oneiric Ocelot)"] = "Ubuntu 11.10 (Oneiric Ocelot)";
+correct2URL["Ubuntu 11.10 (Oneiric Ocelot)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.10_.28Oneiric_Ocelot.29";
+
+
+incorrect2correct["Ocelot"] = "Ubuntu 11.10 (Oneiric Ocelot)";
+incorrect2correct["oneiric"] = "Ubuntu 11.10 (Oneiric Ocelot)";
+incorrect2correct["Oneiric"] = "Ubuntu 11.10 (Oneiric Ocelot)";
+incorrect2correct["Oneiric Ocelot"] = "Ubuntu 11.10 (Oneiric Ocelot)";
+incorrect2correct["Ubuntu 11"] = "Ubuntu 11.10 (Oneiric Ocelot)";
+incorrect2correct["ubuntu 11.10"] = "Ubuntu 11.10 (Oneiric Ocelot)";
+incorrect2correct["Ubuntu 11.10"] = "Ubuntu 11.10 (Oneiric Ocelot)";
+incorrect2correct["uBuntu Oneiric"] = "Ubuntu 11.10 (Oneiric Ocelot)";
+incorrect2correct["Ubuntu Oneiric"] = "Ubuntu 11.10 (Oneiric Ocelot)";
+incorrect2correct["12.0.4"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["Ubuntu 12.04 (Precise Pangolin)"] = "Ubuntu 12.04 (Precise Pangolin)";
+correct2URL["Ubuntu 12.04 (Precise Pangolin)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.04_LTS_.28Precise_Pangolin.29";
+
+
+incorrect2correct["12.04"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["12.04 Ubuntu"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["Pangolin"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["precise"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["Precise"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["Precise 12.04"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["Precise Pangolin"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["ubuntu 12"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["Ubuntu 12"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["ubuntu 12 .04"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["Ubuntu 12 .04"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["ubuntu 12.0"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["Ubuntu 12.0"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["ubuntu 12.04"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["Ubuntu 12.04"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["ubuntu 12.04 lts"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["Ubuntu 12.04 LTS (Precise Pangolin)"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["Ubuntu 12.4"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["ubuntu precise"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["unbuntu 12.04"] = "Ubuntu 12.04 (Precise Pangolin)";
+incorrect2correct["12.10"] = "Ubuntu 12.10 (Quantal Quetzal)";
+incorrect2correct["Ubuntu 12.10 (Quantal Quetzal)"] = "Ubuntu 12.10 (Quantal Quetzal)";
+correct2URL["Ubuntu 12.10 (Quantal Quetzal)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.10_.28Quantal_Quetzal.29";
+
+
+incorrect2correct["quantal"] = "Ubuntu 12.10 (Quantal Quetzal)";
+incorrect2correct["Quantal"] = "Ubuntu 12.10 (Quantal Quetzal)";
+incorrect2correct["Quantal Quetzal"] = "Ubuntu 12.10 (Quantal Quetzal)";
+incorrect2correct["Quetzal"] = "Ubuntu 12.10 (Quantal Quetzal)";
+incorrect2correct["ubuntu 12.10"] = "Ubuntu 12.10 (Quantal Quetzal)";
+incorrect2correct["Ubuntu 12.10"] = "Ubuntu 12.10 (Quantal Quetzal)";
+incorrect2correct["ubunut 12.10"] = "Ubuntu 12.10 (Quantal Quetzal)";
+incorrect2correct["ubunut12.10"] = "Ubuntu 12.10 (Quantal Quetzal)";
+incorrect2correct["13.04"] = "Ubuntu 13.04 (Raring Ringtail)";
+incorrect2correct["Ubuntu 13.04 (Raring Ringtail)"] = "Ubuntu 13.04 (Raring Ringtail)";
+correct2URL["Ubuntu 13.04 (Raring Ringtail)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.04_.28Raring_Ringtail.29";
+
+
+incorrect2correct["raring"] = "Ubuntu 13.04 (Raring Ringtail)";
+incorrect2correct["Raring"] = "Ubuntu 13.04 (Raring Ringtail)";
+incorrect2correct["Raring Ringtail"] = "Ubuntu 13.04 (Raring Ringtail)";
+incorrect2correct["Ringtail"] = "Ubuntu 13.04 (Raring Ringtail)";
+incorrect2correct["Ubuntu 13"] = "Ubuntu 13.04 (Raring Ringtail)";
+incorrect2correct["ubuntu 13.04"] = "Ubuntu 13.04 (Raring Ringtail)";
+incorrect2correct["Ubuntu 13.04"] = "Ubuntu 13.04 (Raring Ringtail)";
+incorrect2correct["13.10"] = "Ubuntu 13.10 (Saucy Salamander)";
+incorrect2correct["Ubuntu 13.10 (Saucy Salamander)"] = "Ubuntu 13.10 (Saucy Salamander)";
+correct2URL["Ubuntu 13.10 (Saucy Salamander)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.10_.28Saucy_Salamander.29";
+
+
+incorrect2correct["saucy"] = "Ubuntu 13.10 (Saucy Salamander)";
+incorrect2correct["ubuntu 13.10"] = "Ubuntu 13.10 (Saucy Salamander)";
+incorrect2correct["Ubuntu 13.10"] = "Ubuntu 13.10 (Saucy Salamander)";
+incorrect2correct["14-04"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["Ubuntu 14.04 (Trusty Tahr)"] = "Ubuntu 14.04 (Trusty Tahr)";
+correct2URL["Ubuntu 14.04 (Trusty Tahr)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_14.04_LTS_.28Trusty_Tahr.29";
+
+
+incorrect2correct["14.04"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["14.04 Trusty"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["Tahr"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["trusty"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["Trusty"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["Trusty Tahr"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["trusty Ubuntu 14.04"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["ubunru 14.04lts"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["Ubuntu 14"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["uBuntu 14-04"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["ubuntu 14.04"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["Ubuntu 14.04"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["ubuntu 14.04 LTS"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["Ubuntu 14.04 LTS"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["Ubuntu 14.04LTS"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["Ubuntu Linux 14.04"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["Ubuntu Unity 14.0.4"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["Ubuntu Unity 14.04"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["ubuntu14.04"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["Ubuntu14.04"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["ubuntu14.04 LTS"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["ubuntu14.04LTS"] = "Ubuntu 14.04 (Trusty Tahr)";
+incorrect2correct["14.10"] = "Ubuntu 14.10 (Utopic Unicorn)";
+incorrect2correct["Ubuntu 14.10 (Utopic Unicorn)"] = "Ubuntu 14.10 (Utopic Unicorn)";
+correct2URL["Ubuntu 14.10 (Utopic Unicorn)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_14.10_.28Utopic_Unicorn.29";
+
+
+incorrect2correct["ubuntu 14.10"] = "Ubuntu 14.10 (Utopic Unicorn)";
+incorrect2correct["Ubuntu 14.10"] = "Ubuntu 14.10 (Utopic Unicorn)";
+incorrect2correct["Ubuntu Server 14.10"] = "Ubuntu 14.10 (Utopic Unicorn)";
+incorrect2correct["Unicorn"] = "Ubuntu 14.10 (Utopic Unicorn)";
+incorrect2correct["Utopic"] = "Ubuntu 14.10 (Utopic Unicorn)";
+incorrect2correct["Utopic Unicorn"] = "Ubuntu 14.10 (Utopic Unicorn)";
+incorrect2correct["15.04"] = "Ubuntu 15.04 (Vivid Vervet)";
+incorrect2correct["Ubuntu 15.04 (Vivid Vervet)"] = "Ubuntu 15.04 (Vivid Vervet)";
+correct2URL["Ubuntu 15.04 (Vivid Vervet)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_15.04_.28Vivid_Vervet.29";
+
+
+incorrect2correct["Ubuntu 15"] = "Ubuntu 15.04 (Vivid Vervet)";
+incorrect2correct["ubuntu 15.04"] = "Ubuntu 15.04 (Vivid Vervet)";
+incorrect2correct["Ubuntu 15.04"] = "Ubuntu 15.04 (Vivid Vervet)";
+incorrect2correct["Ubuntu15"] = "Ubuntu 15.04 (Vivid Vervet)";
+incorrect2correct["Vervet"] = "Ubuntu 15.04 (Vivid Vervet)";
+incorrect2correct["Vivid"] = "Ubuntu 15.04 (Vivid Vervet)";
+incorrect2correct["Vivid Vervet"] = "Ubuntu 15.04 (Vivid Vervet)";
+incorrect2correct["15.10"] = "Ubuntu 15.10 (Wily Werewolf)";
+incorrect2correct["Ubuntu 15.10 (Wily Werewolf)"] = "Ubuntu 15.10 (Wily Werewolf)";
+correct2URL["Ubuntu 15.10 (Wily Werewolf)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_15.10_.28Wily_Werewolf.29";
+
+
+incorrect2correct["ubuntu 15.10"] = "Ubuntu 15.10 (Wily Werewolf)";
+incorrect2correct["Ubuntu 15.10"] = "Ubuntu 15.10 (Wily Werewolf)";
+incorrect2correct["Werewolf"] = "Ubuntu 15.10 (Wily Werewolf)";
+incorrect2correct["Wily"] = "Ubuntu 15.10 (Wily Werewolf)";
+incorrect2correct["Wily Werewolf"] = "Ubuntu 15.10 (Wily Werewolf)";
+incorrect2correct["16"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["Ubuntu 16.04 (Xenial Xerus)"] = "Ubuntu 16.04 (Xenial Xerus)";
+correct2URL["Ubuntu 16.04 (Xenial Xerus)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.04_LTS_.28Xenial_Xerus.29";
+
+
+incorrect2correct["16.04"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["16.4"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["of 2016"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["ubuntu 16"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["Ubuntu 16"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["ubuntu 16.04"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["Ubuntu 16.04"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["UBUNTU 16.04"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["Ubuntu 16.06"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["Ubuntu 16.4"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["ubuntu xenial"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["Ubuntu Xenial"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["Ubuntu-16.04"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["Ubuntu16.04"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["xenial"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["Xenial"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["Xenial Xerus"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["Xerus"] = "Ubuntu 16.04 (Xenial Xerus)";
+incorrect2correct["16.10"] = "Ubuntu 16.10 (Yakkety Yak)";
+incorrect2correct["Ubuntu 16.10 (Yakkety Yak)"] = "Ubuntu 16.10 (Yakkety Yak)";
+correct2URL["Ubuntu 16.10 (Yakkety Yak)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.10_.28Yakkety_Yak.29";
+
+
+incorrect2correct["Ubuntu 16.10"] = "Ubuntu 16.10 (Yakkety Yak)";
+incorrect2correct["Yak"] = "Ubuntu 16.10 (Yakkety Yak)";
+incorrect2correct["Yakkety"] = "Ubuntu 16.10 (Yakkety Yak)";
+incorrect2correct["Yakkety Yak"] = "Ubuntu 16.10 (Yakkety Yak)";
+incorrect2correct["17.04"] = "Ubuntu 17.04 (Zesty Zapus)";
+incorrect2correct["Ubuntu 17.04 (Zesty Zapus)"] = "Ubuntu 17.04 (Zesty Zapus)";
+correct2URL["Ubuntu 17.04 (Zesty Zapus)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.04_.28Zesty_Zapus.29";
+
+
+incorrect2correct["ubuntu 17.04"] = "Ubuntu 17.04 (Zesty Zapus)";
+incorrect2correct["Ubuntu 17.04"] = "Ubuntu 17.04 (Zesty Zapus)";
+incorrect2correct["Zapus"] = "Ubuntu 17.04 (Zesty Zapus)";
+incorrect2correct["zesty"] = "Ubuntu 17.04 (Zesty Zapus)";
+incorrect2correct["Zesty"] = "Ubuntu 17.04 (Zesty Zapus)";
+incorrect2correct["Zesty Zapus"] = "Ubuntu 17.04 (Zesty Zapus)";
+incorrect2correct["17.10"] = "Ubuntu 17.10 (Artful Aardvark)";
+incorrect2correct["Ubuntu 17.10 (Artful Aardvark)"] = "Ubuntu 17.10 (Artful Aardvark)";
+correct2URL["Ubuntu 17.10 (Artful Aardvark)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.10_.28Artful_Aardvark.29";
+
+
+incorrect2correct["Aardvark"] = "Ubuntu 17.10 (Artful Aardvark)";
+incorrect2correct["artful"] = "Ubuntu 17.10 (Artful Aardvark)";
+incorrect2correct["Artful"] = "Ubuntu 17.10 (Artful Aardvark)";
+incorrect2correct["Artful Aardvark"] = "Ubuntu 17.10 (Artful Aardvark)";
+incorrect2correct["ubuntu 17"] = "Ubuntu 17.10 (Artful Aardvark)";
+incorrect2correct["Ubuntu 17"] = "Ubuntu 17.10 (Artful Aardvark)";
+incorrect2correct["Ubuntu 17.1"] = "Ubuntu 17.10 (Artful Aardvark)";
+incorrect2correct["ubuntu 17.10"] = "Ubuntu 17.10 (Artful Aardvark)";
+incorrect2correct["Ubuntu 17.10"] = "Ubuntu 17.10 (Artful Aardvark)";
+incorrect2correct["ubuntu17.10"] = "Ubuntu 17.10 (Artful Aardvark)";
+incorrect2correct["18"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu 18.04 (Bionic Beaver)"] = "Ubuntu 18.04 (Bionic Beaver)";
+correct2URL["Ubuntu 18.04 (Bionic Beaver)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.04_LTS_.28Bionic_Beaver.29";
+
+
+incorrect2correct["18.04"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["18.04 LTS"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["18.04LTS"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Beaver"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["bionic"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Bionic"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["bionic beaver"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Bionic Beaver"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["ubuntu 18"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu 18"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["ubuntu 18 lts"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu 18 LTS"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["ubuntu 18.0.4"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu 18.0.4"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["ubuntu 18.04"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu 18.04"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu 18.04LTS"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu 18.4"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["ubuntu bionic"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu bionic"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu Bionic"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu Bionic Beaver"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu V18"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu-18"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["ubuntu-18.04"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu-18.04"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["ubuntu18.04"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["Ubuntu18.04"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["V18"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["v18.04"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["V18.04"] = "Ubuntu 18.04 (Bionic Beaver)";
+incorrect2correct["18.10"] = "Ubuntu 18.10 (Cosmic Cuttlefish)";
+incorrect2correct["Ubuntu 18.10 (Cosmic Cuttlefish)"] = "Ubuntu 18.10 (Cosmic Cuttlefish)";
+correct2URL["Ubuntu 18.10 (Cosmic Cuttlefish)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.10_(Cosmic_Cuttlefish)";
+
+
+incorrect2correct["cosmic"] = "Ubuntu 18.10 (Cosmic Cuttlefish)";
+incorrect2correct["Cosmic"] = "Ubuntu 18.10 (Cosmic Cuttlefish)";
+incorrect2correct["Cosmic Cuttlefish"] = "Ubuntu 18.10 (Cosmic Cuttlefish)";
+incorrect2correct["Cuttlefish"] = "Ubuntu 18.10 (Cosmic Cuttlefish)";
+incorrect2correct["ubuntu 18.10"] = "Ubuntu 18.10 (Cosmic Cuttlefish)";
+incorrect2correct["Ubuntu 18.10"] = "Ubuntu 18.10 (Cosmic Cuttlefish)";
+incorrect2correct["UBUNTU 18.10"] = "Ubuntu 18.10 (Cosmic Cuttlefish)";
+incorrect2correct["Ubuntu Cosmic"] = "Ubuntu 18.10 (Cosmic Cuttlefish)";
+incorrect2correct["19.04"] = "Ubuntu 19.04 (Disco Dingo)";
+incorrect2correct["Ubuntu 19.04 (Disco Dingo)"] = "Ubuntu 19.04 (Disco Dingo)";
+correct2URL["Ubuntu 19.04 (Disco Dingo)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_19.04_(Disco_Dingo)";
+
+
+incorrect2correct["Dingo"] = "Ubuntu 19.04 (Disco Dingo)";
+incorrect2correct["disco"] = "Ubuntu 19.04 (Disco Dingo)";
+incorrect2correct["Disco"] = "Ubuntu 19.04 (Disco Dingo)";
+incorrect2correct["Disco Dingo"] = "Ubuntu 19.04 (Disco Dingo)";
+incorrect2correct["ubuntu 19"] = "Ubuntu 19.04 (Disco Dingo)";
+incorrect2correct["Ubuntu 19"] = "Ubuntu 19.04 (Disco Dingo)";
+incorrect2correct["ubuntu 19.04"] = "Ubuntu 19.04 (Disco Dingo)";
+incorrect2correct["Ubuntu 19.04"] = "Ubuntu 19.04 (Disco Dingo)";
+incorrect2correct["19.10"] = "Ubuntu 19.10 (Eoan Ermine)";
+incorrect2correct["Ubuntu 19.10 (Eoan Ermine)"] = "Ubuntu 19.10 (Eoan Ermine)";
+correct2URL["Ubuntu 19.10 (Eoan Ermine)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_19.10_(Eoan_Ermine)";
+
+
+incorrect2correct["eoan"] = "Ubuntu 19.10 (Eoan Ermine)";
+incorrect2correct["Eoan"] = "Ubuntu 19.10 (Eoan Ermine)";
+incorrect2correct["Eoan Ermine"] = "Ubuntu 19.10 (Eoan Ermine)";
+incorrect2correct["Ermine"] = "Ubuntu 19.10 (Eoan Ermine)";
+incorrect2correct["Ubunto 19.10"] = "Ubuntu 19.10 (Eoan Ermine)";
+incorrect2correct["Ubuntu 19.04 eoan"] = "Ubuntu 19.10 (Eoan Ermine)";
+incorrect2correct["ubuntu 19.10"] = "Ubuntu 19.10 (Eoan Ermine)";
+incorrect2correct["Ubuntu 19.10"] = "Ubuntu 19.10 (Eoan Ermine)";
+incorrect2correct["UBUNTU 19.10"] = "Ubuntu 19.10 (Eoan Ermine)";
+incorrect2correct["Ubuntu v.19.10"] = "Ubuntu 19.10 (Eoan Ermine)";
+incorrect2correct["20"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu 20.04 (Focal Fossa)"] = "Ubuntu 20.04 (Focal Fossa)";
+correct2URL["Ubuntu 20.04 (Focal Fossa)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.04_LTS_(Focal_Fossa)";
+
+
+incorrect2correct["20.04"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["20.04 lts"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["20.04lts"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["focal"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Focal"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["focal fossa"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Focal Fossa"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Fossa"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["ubuntu 20"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu 20"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["ubuntu 20.04"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu 20.04"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["UBUNTU 20.04"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["ubuntu 20.04 LTS"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu 20.04 LTS"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["ubuntu 20.04LTS"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["ubuntu 20.4"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu 20.4"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["ubuntu 20.4 focal fossa"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu focal"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu Focal"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu Linux 20.04"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["ubuntu-20"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["ubuntu-20.04"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["ubuntu-focal"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu20"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["ubuntu20.04"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu20.04"] = "Ubuntu 20.04 (Focal Fossa)";
+incorrect2correct["20.10"] = "Ubuntu 20.10 (Groovy Gorilla)";
+incorrect2correct["Ubuntu 20.10 (Groovy Gorilla)"] = "Ubuntu 20.10 (Groovy Gorilla)";
+correct2URL["Ubuntu 20.10 (Groovy Gorilla)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.10_(Groovy_Gorilla)";
+
+
+incorrect2correct["Gorilla"] = "Ubuntu 20.10 (Groovy Gorilla)";
+incorrect2correct["Groovy"] = "Ubuntu 20.10 (Groovy Gorilla)";
+incorrect2correct["Groovy Gorilla"] = "Ubuntu 20.10 (Groovy Gorilla)";
+incorrect2correct["ubuntu 20.10"] = "Ubuntu 20.10 (Groovy Gorilla)";
+incorrect2correct["Ubuntu 20.10"] = "Ubuntu 20.10 (Groovy Gorilla)";
+incorrect2correct["21.04"] = "Ubuntu 21.04 (Hirsute Hippo)";
+incorrect2correct["Ubuntu 21.04 (Hirsute Hippo)"] = "Ubuntu 21.04 (Hirsute Hippo)";
+correct2URL["Ubuntu 21.04 (Hirsute Hippo)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.04_(Hirsute_Hippo)";
+
+
+incorrect2correct["Hippo"] = "Ubuntu 21.04 (Hirsute Hippo)";
+incorrect2correct["hirsute"] = "Ubuntu 21.04 (Hirsute Hippo)";
+incorrect2correct["Hirsute"] = "Ubuntu 21.04 (Hirsute Hippo)";
+incorrect2correct["Hirsute Hippo"] = "Ubuntu 21.04 (Hirsute Hippo)";
+incorrect2correct["ubuntu 21.04"] = "Ubuntu 21.04 (Hirsute Hippo)";
+incorrect2correct["Ubuntu 21.04"] = "Ubuntu 21.04 (Hirsute Hippo)";
+incorrect2correct["ubuntu hirsute"] = "Ubuntu 21.04 (Hirsute Hippo)";
+incorrect2correct["21.10"] = "Ubuntu 21.10 (Impish Indri)";
+incorrect2correct["Ubuntu 21.10 (Impish Indri)"] = "Ubuntu 21.10 (Impish Indri)";
+correct2URL["Ubuntu 21.10 (Impish Indri)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.10_(Impish_Indri)";
+
+
+incorrect2correct["impish"] = "Ubuntu 21.10 (Impish Indri)";
+incorrect2correct["Impish"] = "Ubuntu 21.10 (Impish Indri)";
+incorrect2correct["Impish Indri"] = "Ubuntu 21.10 (Impish Indri)";
+incorrect2correct["Indri"] = "Ubuntu 21.10 (Impish Indri)";
+incorrect2correct["ubuntu 21.10"] = "Ubuntu 21.10 (Impish Indri)";
+incorrect2correct["Ubuntu 21.10"] = "Ubuntu 21.10 (Impish Indri)";
+incorrect2correct["ubuntu 21.10 impish"] = "Ubuntu 21.10 (Impish Indri)";
+incorrect2correct["22"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["Ubuntu 22.04 (Jammy Jellyfish)"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+correct2URL["Ubuntu 22.04 (Jammy Jellyfish)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.04_LTS_(Jammy_Jellyfish)";
+
+
+incorrect2correct["22:04"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["22.04"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["22.xx"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["gobble"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["gople"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["gopple"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["jammy"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["Jammy"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["jammy jellyfish"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["Jammy jellyfish"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["Jammy Jellyfish"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["Jellyfish"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["the gobble"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["the gople"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["The gople"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["the gopple"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["ubuntu 22"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["Ubuntu 22"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["Ubuntu 22 LTS"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["ubuntu 22.04"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["Ubuntu 22.04"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["Ubuntu 22.04"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["Ubuntu Linux 22.xx"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["ubuntu-22.04"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["ubuntu22"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["ubuntu22.04"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["Ubuntu22.04"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["Ubuntu22LTS"] = "Ubuntu 22.04 (Jammy Jellyfish)";
+incorrect2correct["22.10"] = "Ubuntu 22.10 (Kinetic Kudu)";
+incorrect2correct["Ubuntu 22.10 (Kinetic Kudu)"] = "Ubuntu 22.10 (Kinetic Kudu)";
+correct2URL["Ubuntu 22.10 (Kinetic Kudu)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.10_(Kinetic_Kudu)";
+
+
+incorrect2correct["Kinetic"] = "Ubuntu 22.10 (Kinetic Kudu)";
+incorrect2correct["Kinetic Kudu"] = "Ubuntu 22.10 (Kinetic Kudu)";
+incorrect2correct["Kudu"] = "Ubuntu 22.10 (Kinetic Kudu)";
+incorrect2correct["23.04"] = "Ubuntu 23.04 (Lunar Lobster)";
+incorrect2correct["Ubuntu 23.04 (Lunar Lobster)"] = "Ubuntu 23.04 (Lunar Lobster)";
+correct2URL["Ubuntu 23.04 (Lunar Lobster)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_23.04_(Lunar_Lobster)";
+
+
+incorrect2correct["Lobster"] = "Ubuntu 23.04 (Lunar Lobster)";
+incorrect2correct["Lunar"] = "Ubuntu 23.04 (Lunar Lobster)";
+incorrect2correct["Lunar Lobster"] = "Ubuntu 23.04 (Lunar Lobster)";
+incorrect2correct["Ubuntu 23.04"] = "Ubuntu 23.04 (Lunar Lobster)";
+incorrect2correct["23.10"] = "Ubuntu 23.10 (Mantic Minotaur)";
+incorrect2correct["Ubuntu 23.10 (Mantic Minotaur)"] = "Ubuntu 23.10 (Mantic Minotaur)";
+correct2URL["Ubuntu 23.10 (Mantic Minotaur)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_23.10_(Mantic_Minotaur)";
+
+
+incorrect2correct["bovine"] = "Ubuntu 23.10 (Mantic Minotaur)";
+incorrect2correct["Mantic"] = "Ubuntu 23.10 (Mantic Minotaur)";
+incorrect2correct["Mantic Minotaur"] = "Ubuntu 23.10 (Mantic Minotaur)";
+incorrect2correct["Minotaur"] = "Ubuntu 23.10 (Mantic Minotaur)";
+incorrect2correct["Ubuntu 23.10"] = "Ubuntu 23.10 (Mantic Minotaur)";
+incorrect2correct["24.04"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["Ubuntu 24.04 (Noble Numbat)"] = "Ubuntu 24.04 (Noble Numbat)";
+correct2URL["Ubuntu 24.04 (Noble Numbat)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_24.04_LTS_(Noble_Numbat)";
+
+
+incorrect2correct["noble"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["Noble"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["Noble Numbat"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["Numbat"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["ubunto 24.04"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["ubuntu 24"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["Ubuntu 24"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["ubuntu 24.01"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["ubuntu 24.04"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["Ubuntu 24.04"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["Ubuntu noble"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["Ubuntu Noble"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["Ubuntu noble 24.04"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["ubuntu-24.04"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["Ubuntu:24.04"] = "Ubuntu 24.04 (Noble Numbat)";
+incorrect2correct["26.04"] = "Ubuntu 26.04 (Resolute Raccoon)";
+incorrect2correct["Ubuntu 26.04 (Resolute Raccoon)"] = "Ubuntu 26.04 (Resolute Raccoon)";
+correct2URL["Ubuntu 26.04 (Resolute Raccoon)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_26.04_LTS_(Resolute_Raccoon)";
+
+
+incorrect2correct["2604"] = "Ubuntu 26.04 (Resolute Raccoon)";
+incorrect2correct["Raccoon"] = "Ubuntu 26.04 (Resolute Raccoon)";
+incorrect2correct["Resolute"] = "Ubuntu 26.04 (Resolute Raccoon)";
+incorrect2correct["Resolute Raccoon"] = "Ubuntu 26.04 (Resolute Raccoon)";
+incorrect2correct["ubuntu 26.04"] = "Ubuntu 26.04 (Resolute Raccoon)";
+incorrect2correct["Ubuntu 26.04"] = "Ubuntu 26.04 (Resolute Raccoon)";
+incorrect2correct["ubuntu 2604"] = "Ubuntu 26.04 (Resolute Raccoon)";
+incorrect2correct["ubuntu26.04"] = "Ubuntu 26.04 (Resolute Raccoon)";
+incorrect2correct["ubuntu2604"] = "Ubuntu 26.04 (Resolute Raccoon)";
+incorrect2correct["Warty Warthog"] = "Ubuntu 4.10 (Warty Warthog)";
+incorrect2correct["Ubuntu 4.10 (Warty Warthog)"] = "Ubuntu 4.10 (Warty Warthog)";
+correct2URL["Ubuntu 4.10 (Warty Warthog)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_4.10_(Warty_Warthog)";
+
+
+incorrect2correct["7.1-ubuntu"] = "Ubuntu 7.10 (Gutsy Gibbon)";
+incorrect2correct["Ubuntu 7.10 (Gutsy Gibbon)"] = "Ubuntu 7.10 (Gutsy Gibbon)";
+correct2URL["Ubuntu 7.10 (Gutsy Gibbon)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_7.10_(Gutsy_Gibbon)";
+
+
+incorrect2correct["Gutsy"] = "Ubuntu 7.10 (Gutsy Gibbon)";
+incorrect2correct["Gutsy Gibbon"] = "Ubuntu 7.10 (Gutsy Gibbon)";
+incorrect2correct["ubuntu 7.1"] = "Ubuntu 7.10 (Gutsy Gibbon)";
+incorrect2correct["Ubuntu 7.1"] = "Ubuntu 7.10 (Gutsy Gibbon)";
+incorrect2correct["ubuntu 7.10"] = "Ubuntu 7.10 (Gutsy Gibbon)";
+incorrect2correct["Ubuntu 7.10"] = "Ubuntu 7.10 (Gutsy Gibbon)";
+incorrect2correct["ubuntu7"] = "Ubuntu 7.10 (Gutsy Gibbon)";
+incorrect2correct["08.04"] = "Ubuntu 8.04 (Hardy Heron)";
+incorrect2correct["Ubuntu 8.04 (Hardy Heron)"] = "Ubuntu 8.04 (Hardy Heron)";
+correct2URL["Ubuntu 8.04 (Hardy Heron)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.04_LTS_(Hardy_Heron)";
+
+
+incorrect2correct["8.04"] = "Ubuntu 8.04 (Hardy Heron)";
+incorrect2correct["Hardy"] = "Ubuntu 8.04 (Hardy Heron)";
+incorrect2correct["Hardy Heron"] = "Ubuntu 8.04 (Hardy Heron)";
+incorrect2correct["Ubuntu 8.04"] = "Ubuntu 8.04 (Hardy Heron)";
+incorrect2correct["Ubuntu 8.04 LTS (Hardy Heron)"] = "Ubuntu 8.04 (Hardy Heron)";
+incorrect2correct["Ubuntu Hardy"] = "Ubuntu 8.04 (Hardy Heron)";
+incorrect2correct["Ubuntu Linux 8.04"] = "Ubuntu 8.04 (Hardy Heron)";
+incorrect2correct["8.10"] = "Ubuntu 8.10 (Intrepid Ibex)";
+incorrect2correct["Ubuntu 8.10 (Intrepid Ibex)"] = "Ubuntu 8.10 (Intrepid Ibex)";
+correct2URL["Ubuntu 8.10 (Intrepid Ibex)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.10_(Intrepid_Ibex)";
+
+
+incorrect2correct["Intrepid Ibex"] = "Ubuntu 8.10 (Intrepid Ibex)";
+incorrect2correct["Linux Ubuntu Intrepid Ibex"] = "Ubuntu 8.10 (Intrepid Ibex)";
+incorrect2correct["Ubuntu 8.10"] = "Ubuntu 8.10 (Intrepid Ibex)";
+incorrect2correct["Ubuntu Intrepid Ibex"] = "Ubuntu 8.10 (Intrepid Ibex)";
+incorrect2correct["9.04"] = "Ubuntu 9.04 (Jaunty Jackalope)";
+incorrect2correct["Ubuntu 9.04 (Jaunty Jackalope)"] = "Ubuntu 9.04 (Jaunty Jackalope)";
+correct2URL["Ubuntu 9.04 (Jaunty Jackalope)"] = "https://en.wikipedia.org/wiki/Jaunty#Ubuntu_9.04_(Jaunty_Jackalope)";
+
+
+incorrect2correct["Jaunty"] = "Ubuntu 9.04 (Jaunty Jackalope)";
+incorrect2correct["Jaunty Jackalope"] = "Ubuntu 9.04 (Jaunty Jackalope)";
+incorrect2correct["ubuntu 9.04"] = "Ubuntu 9.04 (Jaunty Jackalope)";
+incorrect2correct["Ubuntu 9.04"] = "Ubuntu 9.04 (Jaunty Jackalope)";
+incorrect2correct["Ubuntu Jaunty"] = "Ubuntu 9.04 (Jaunty Jackalope)";
+incorrect2correct["9.10"] = "Ubuntu 9.10 (Karmic Koala)";
+incorrect2correct["Ubuntu 9.10 (Karmic Koala)"] = "Ubuntu 9.10 (Karmic Koala)";
+correct2URL["Ubuntu 9.10 (Karmic Koala)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_9.10_.28Karmic_Koala.29";
+
+
+incorrect2correct["karmic"] = "Ubuntu 9.10 (Karmic Koala)";
+incorrect2correct["Karmic"] = "Ubuntu 9.10 (Karmic Koala)";
+incorrect2correct["Karmic Koala"] = "Ubuntu 9.10 (Karmic Koala)";
+incorrect2correct["Koala"] = "Ubuntu 9.10 (Karmic Koala)";
+incorrect2correct["ubuntu 9.10"] = "Ubuntu 9.10 (Karmic Koala)";
+incorrect2correct["Ubuntu 9.10"] = "Ubuntu 9.10 (Karmic Koala)";
+incorrect2correct["Ubuntu Karmic"] = "Ubuntu 9.10 (Karmic Koala)";
 incorrect2correct["Budgie_"] = "Ubuntu Budgie_";
 incorrect2correct["Ubuntu Budgie_"] = "Ubuntu Budgie_";
 correct2URL["Ubuntu Budgie_"] = "https://en.wikipedia.org/wiki/Ubuntu_Budgie";
@@ -159621,6 +161199,30 @@ incorrect2correct["Ubuntu Kylin"] = "Ubuntu Kylin";
 correct2URL["Ubuntu Kylin"] = "https://en.wikipedia.org/wiki/Ubuntu_Kylin";
 
 
+incorrect2correct["ubuntu manta"] = "Ubuntu MATE";
+incorrect2correct["Ubuntu MATE"] = "Ubuntu MATE";
+correct2URL["Ubuntu MATE"] = "https://en.wikipedia.org/wiki/Ubuntu_MATE";
+
+
+incorrect2correct["ubuntu mate"] = "Ubuntu MATE";
+incorrect2correct["ubuntu Mate"] = "Ubuntu MATE";
+incorrect2correct["Ubuntu Mate"] = "Ubuntu MATE";
+incorrect2correct["Ubuntu-MATE"] = "Ubuntu MATE";
+incorrect2correct["UbuntuMate"] = "Ubuntu MATE";
+incorrect2correct["20.04 mate"] = "Ubuntu MATE 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu MATE 20.04 (Focal Fossa)"] = "Ubuntu MATE 20.04 (Focal Fossa)";
+correct2URL["Ubuntu MATE 20.04 (Focal Fossa)"] = "https://en.wikipedia.org/wiki/Ubuntu_MATE#Releases";
+
+
+incorrect2correct["20.04 MATE"] = "Ubuntu MATE 20.04 (Focal Fossa)";
+incorrect2correct["mate 20.04"] = "Ubuntu MATE 20.04 (Focal Fossa)";
+incorrect2correct["MATE 20.04"] = "Ubuntu MATE 20.04 (Focal Fossa)";
+incorrect2correct["ubuntu 20.04 mate"] = "Ubuntu MATE 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu 20.04 mate"] = "Ubuntu MATE 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu 20.04 MATE"] = "Ubuntu MATE 20.04 (Focal Fossa)";
+incorrect2correct["ubuntu mate 20.04"] = "Ubuntu MATE 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu Mate 20.04"] = "Ubuntu MATE 20.04 (Focal Fossa)";
+incorrect2correct["Ubuntu MATE 20.04"] = "Ubuntu MATE 20.04 (Focal Fossa)";
 incorrect2correct["Ubuntu one"] = "Ubuntu One";
 incorrect2correct["Ubuntu One"] = "Ubuntu One";
 correct2URL["Ubuntu One"] = "https://en.wikipedia.org/wiki/Ubuntu_One#Features";
@@ -159647,555 +161249,6 @@ incorrect2correct["Ubuntu Studio"] = "Ubuntu Studio";
 correct2URL["Ubuntu Studio"] = "https://en.wikipedia.org/wiki/Ubuntu_Studio";
 
 
-incorrect2correct["10.04"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["Ubuntu&nbsp;10.04 (Lucid Lynx)"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-correct2URL["Ubuntu&nbsp;10.04 (Lucid Lynx)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.04_LTS_.28Lucid_Lynx.29";
-
-
-incorrect2correct["lucid"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["Lucid"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["ubuntu 10"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["ubuntu 10.04"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["Ubuntu 10.04"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["UBUNTU 10.04"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["Ubuntu 10.04 (Lucid Lynx)"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["Ubuntu 10.04 LTS (Lucid Lynx)"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["Ubuntu 10.04 Lucid Lynx"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["ubuntu 10.4"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["Ubuntu 10.4"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["Ubuntu&nbsp;10.04"] = "Ubuntu&nbsp;10.04 (Lucid Lynx)";
-incorrect2correct["1.10"] = "Ubuntu&nbsp;10.10 (Maverick Meerkat)";
-incorrect2correct["Ubuntu&nbsp;10.10 (Maverick Meerkat)"] = "Ubuntu&nbsp;10.10 (Maverick Meerkat)";
-correct2URL["Ubuntu&nbsp;10.10 (Maverick Meerkat)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_10.10_.28Maverick_Meerkat.29";
-
-
-incorrect2correct["10.10"] = "Ubuntu&nbsp;10.10 (Maverick Meerkat)";
-incorrect2correct["10.10 Maverick Meerkat"] = "Ubuntu&nbsp;10.10 (Maverick Meerkat)";
-incorrect2correct["Maverick Meerkat"] = "Ubuntu&nbsp;10.10 (Maverick Meerkat)";
-incorrect2correct["ubuntu 1.10"] = "Ubuntu&nbsp;10.10 (Maverick Meerkat)";
-incorrect2correct["ubuntu 10.10"] = "Ubuntu&nbsp;10.10 (Maverick Meerkat)";
-incorrect2correct["Ubuntu 10.10"] = "Ubuntu&nbsp;10.10 (Maverick Meerkat)";
-incorrect2correct["Ubuntu 10.10 (Maverick Meerkat)"] = "Ubuntu&nbsp;10.10 (Maverick Meerkat)";
-incorrect2correct["Ubuntu Maverick"] = "Ubuntu&nbsp;10.10 (Maverick Meerkat)";
-incorrect2correct["11.04"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-incorrect2correct["Ubuntu&nbsp;11.04 (Natty Narwhal)"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-correct2URL["Ubuntu&nbsp;11.04 (Natty Narwhal)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.04_.28Natty_Narwhal.29";
-
-
-incorrect2correct["Narwhal"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-incorrect2correct["Natty"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-incorrect2correct["Natty Narwhal"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-incorrect2correct["ubuntu 11.04"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-incorrect2correct["Ubuntu 11.04"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-incorrect2correct["Ubuntu 11.04 (Natty Narwhal)"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-incorrect2correct["Ubuntu Narwhal"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-incorrect2correct["ubuntu natty"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-incorrect2correct["Ubuntu natty"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-incorrect2correct["Ubuntu Natty"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-incorrect2correct["Ubuntu&nbsp;11.04"] = "Ubuntu&nbsp;11.04 (Natty Narwhal)";
-incorrect2correct["11.10"] = "Ubuntu&nbsp;11.10 (Oneiric Ocelot)";
-incorrect2correct["Ubuntu&nbsp;11.10 (Oneiric Ocelot)"] = "Ubuntu&nbsp;11.10 (Oneiric Ocelot)";
-correct2URL["Ubuntu&nbsp;11.10 (Oneiric Ocelot)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_11.10_.28Oneiric_Ocelot.29";
-
-
-incorrect2correct["oneiric"] = "Ubuntu&nbsp;11.10 (Oneiric Ocelot)";
-incorrect2correct["Oneiric"] = "Ubuntu&nbsp;11.10 (Oneiric Ocelot)";
-incorrect2correct["Ubuntu 11"] = "Ubuntu&nbsp;11.10 (Oneiric Ocelot)";
-incorrect2correct["ubuntu 11.10"] = "Ubuntu&nbsp;11.10 (Oneiric Ocelot)";
-incorrect2correct["Ubuntu 11.10"] = "Ubuntu&nbsp;11.10 (Oneiric Ocelot)";
-incorrect2correct["Ubuntu 11.10 (Oneiric Ocelot)"] = "Ubuntu&nbsp;11.10 (Oneiric Ocelot)";
-incorrect2correct["uBuntu Oneiric"] = "Ubuntu&nbsp;11.10 (Oneiric Ocelot)";
-incorrect2correct["Ubuntu Oneiric"] = "Ubuntu&nbsp;11.10 (Oneiric Ocelot)";
-incorrect2correct["Ubuntu&nbsp;11.10"] = "Ubuntu&nbsp;11.10 (Oneiric Ocelot)";
-incorrect2correct["12.0.4"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["Ubuntu&nbsp;12.04 (Precise Pangolin)"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-correct2URL["Ubuntu&nbsp;12.04 (Precise Pangolin)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.04_LTS_.28Precise_Pangolin.29";
-
-
-incorrect2correct["12.04"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["12.04 Ubuntu"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["precise"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["Precise"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["Precise 12.04"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["Precise Pangolin"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["ubuntu 12"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["Ubuntu 12"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["ubuntu 12 .04"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["Ubuntu 12 .04"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["ubuntu 12.0"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["Ubuntu 12.0"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["ubuntu 12.04"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["Ubuntu 12.04"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["Ubuntu 12.04 (Precise Pangolin)"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["ubuntu 12.04 lts"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["Ubuntu 12.04 LTS (Precise Pangolin)"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["Ubuntu 12.4"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["ubuntu precise"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["Ubuntu&nbsp;12.04"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["unbuntu 12.04"] = "Ubuntu&nbsp;12.04 (Precise Pangolin)";
-incorrect2correct["12.10"] = "Ubuntu&nbsp;12.10 (Quantal Quetzal)";
-incorrect2correct["Ubuntu&nbsp;12.10 (Quantal Quetzal)"] = "Ubuntu&nbsp;12.10 (Quantal Quetzal)";
-correct2URL["Ubuntu&nbsp;12.10 (Quantal Quetzal)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_12.10_.28Quantal_Quetzal.29";
-
-
-incorrect2correct["quantal"] = "Ubuntu&nbsp;12.10 (Quantal Quetzal)";
-incorrect2correct["ubuntu 12.10"] = "Ubuntu&nbsp;12.10 (Quantal Quetzal)";
-incorrect2correct["Ubuntu 12.10"] = "Ubuntu&nbsp;12.10 (Quantal Quetzal)";
-incorrect2correct["Ubuntu 12.10 (Quantal Quetzal)"] = "Ubuntu&nbsp;12.10 (Quantal Quetzal)";
-incorrect2correct["Ubuntu&nbsp;12.10"] = "Ubuntu&nbsp;12.10 (Quantal Quetzal)";
-incorrect2correct["ubunut 12.10"] = "Ubuntu&nbsp;12.10 (Quantal Quetzal)";
-incorrect2correct["ubunut12.10"] = "Ubuntu&nbsp;12.10 (Quantal Quetzal)";
-incorrect2correct["13.04"] = "Ubuntu&nbsp;13.04 (Raring Ringtail)";
-incorrect2correct["Ubuntu&nbsp;13.04 (Raring Ringtail)"] = "Ubuntu&nbsp;13.04 (Raring Ringtail)";
-correct2URL["Ubuntu&nbsp;13.04 (Raring Ringtail)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.04_.28Raring_Ringtail.29";
-
-
-incorrect2correct["raring"] = "Ubuntu&nbsp;13.04 (Raring Ringtail)";
-incorrect2correct["Ubuntu 13"] = "Ubuntu&nbsp;13.04 (Raring Ringtail)";
-incorrect2correct["ubuntu 13.04"] = "Ubuntu&nbsp;13.04 (Raring Ringtail)";
-incorrect2correct["Ubuntu 13.04"] = "Ubuntu&nbsp;13.04 (Raring Ringtail)";
-incorrect2correct["Ubuntu 13.04 (Raring Ringtail)"] = "Ubuntu&nbsp;13.04 (Raring Ringtail)";
-incorrect2correct["Ubuntu&nbsp;13.04"] = "Ubuntu&nbsp;13.04 (Raring Ringtail)";
-incorrect2correct["13.10"] = "Ubuntu&nbsp;13.10 (Saucy Salamander)";
-incorrect2correct["Ubuntu&nbsp;13.10 (Saucy Salamander)"] = "Ubuntu&nbsp;13.10 (Saucy Salamander)";
-correct2URL["Ubuntu&nbsp;13.10 (Saucy Salamander)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_13.10_.28Saucy_Salamander.29";
-
-
-incorrect2correct["saucy"] = "Ubuntu&nbsp;13.10 (Saucy Salamander)";
-incorrect2correct["ubuntu 13.10"] = "Ubuntu&nbsp;13.10 (Saucy Salamander)";
-incorrect2correct["Ubuntu 13.10"] = "Ubuntu&nbsp;13.10 (Saucy Salamander)";
-incorrect2correct["Ubuntu 13.10 (Saucy Salamander)"] = "Ubuntu&nbsp;13.10 (Saucy Salamander)";
-incorrect2correct["Ubuntu&nbsp;13.10"] = "Ubuntu&nbsp;13.10 (Saucy Salamander)";
-incorrect2correct["14-04"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Ubuntu&nbsp;14.04 (Trusty Tahr)"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-correct2URL["Ubuntu&nbsp;14.04 (Trusty Tahr)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_14.04_LTS_.28Trusty_Tahr.29";
-
-
-incorrect2correct["14.04"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["14.04 Trusty"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["trusty"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Trusty"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Trusty Tahr"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["trusty Ubuntu 14.04"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["ubunru 14.04lts"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Ubuntu 14"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["uBuntu 14-04"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["ubuntu 14.04"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Ubuntu 14.04"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Ubuntu 14.04 (Trusty Tahr)"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["ubuntu 14.04 LTS"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Ubuntu 14.04 LTS"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Ubuntu 14.04LTS"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Ubuntu Linux 14.04"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Ubuntu Unity 14.0.4"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Ubuntu Unity 14.04"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Ubuntu&nbsp;14.04"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["ubuntu14.04"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["Ubuntu14.04"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["ubuntu14.04 LTS"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["ubuntu14.04LTS"] = "Ubuntu&nbsp;14.04 (Trusty Tahr)";
-incorrect2correct["14.10"] = "Ubuntu&nbsp;14.10 (Utopic Unicorn)";
-incorrect2correct["Ubuntu&nbsp;14.10 (Utopic Unicorn)"] = "Ubuntu&nbsp;14.10 (Utopic Unicorn)";
-correct2URL["Ubuntu&nbsp;14.10 (Utopic Unicorn)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_14.10_.28Utopic_Unicorn.29";
-
-
-incorrect2correct["ubuntu 14.10"] = "Ubuntu&nbsp;14.10 (Utopic Unicorn)";
-incorrect2correct["Ubuntu 14.10"] = "Ubuntu&nbsp;14.10 (Utopic Unicorn)";
-incorrect2correct["Ubuntu 14.10 (Utopic Unicorn)"] = "Ubuntu&nbsp;14.10 (Utopic Unicorn)";
-incorrect2correct["Ubuntu Server 14.10"] = "Ubuntu&nbsp;14.10 (Utopic Unicorn)";
-incorrect2correct["Ubuntu&nbsp;14.10"] = "Ubuntu&nbsp;14.10 (Utopic Unicorn)";
-incorrect2correct["15.04"] = "Ubuntu&nbsp;15.04 (Vivid Vervet)";
-incorrect2correct["Ubuntu&nbsp;15.04 (Vivid Vervet)"] = "Ubuntu&nbsp;15.04 (Vivid Vervet)";
-correct2URL["Ubuntu&nbsp;15.04 (Vivid Vervet)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_15.04_.28Vivid_Vervet.29";
-
-
-incorrect2correct["Ubuntu 15"] = "Ubuntu&nbsp;15.04 (Vivid Vervet)";
-incorrect2correct["ubuntu 15.04"] = "Ubuntu&nbsp;15.04 (Vivid Vervet)";
-incorrect2correct["Ubuntu 15.04"] = "Ubuntu&nbsp;15.04 (Vivid Vervet)";
-incorrect2correct["Ubuntu 15.04 (Vivid Vervet)"] = "Ubuntu&nbsp;15.04 (Vivid Vervet)";
-incorrect2correct["Ubuntu&nbsp;15.04"] = "Ubuntu&nbsp;15.04 (Vivid Vervet)";
-incorrect2correct["Ubuntu15"] = "Ubuntu&nbsp;15.04 (Vivid Vervet)";
-incorrect2correct["15.10"] = "Ubuntu&nbsp;15.10 (Wily Werewolf)";
-incorrect2correct["Ubuntu&nbsp;15.10 (Wily Werewolf)"] = "Ubuntu&nbsp;15.10 (Wily Werewolf)";
-correct2URL["Ubuntu&nbsp;15.10 (Wily Werewolf)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_15.10_.28Wily_Werewolf.29";
-
-
-incorrect2correct["ubuntu 15.10"] = "Ubuntu&nbsp;15.10 (Wily Werewolf)";
-incorrect2correct["Ubuntu 15.10"] = "Ubuntu&nbsp;15.10 (Wily Werewolf)";
-incorrect2correct["Ubuntu 15.10 (Wily Werewolf)"] = "Ubuntu&nbsp;15.10 (Wily Werewolf)";
-incorrect2correct["16"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Ubuntu&nbsp;16.04 (Xenial Xerus)"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-correct2URL["Ubuntu&nbsp;16.04 (Xenial Xerus)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.04_LTS_.28Xenial_Xerus.29";
-
-
-incorrect2correct["16.04"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["16.4"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["of 2016"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["ubuntu 16"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Ubuntu 16"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["ubuntu 16.04"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Ubuntu 16.04"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["UBUNTU 16.04"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Ubuntu 16.04 (Xenial Xerus)"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Ubuntu 16.06"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Ubuntu 16.4"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["ubuntu xenial"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Ubuntu Xenial"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Ubuntu-16.04"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Ubuntu&nbsp;16.04"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Ubuntu16.04"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["xenial"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["Xenial"] = "Ubuntu&nbsp;16.04 (Xenial Xerus)";
-incorrect2correct["16.10"] = "Ubuntu&nbsp;16.10 (Yakkety Yak)";
-incorrect2correct["Ubuntu&nbsp;16.10 (Yakkety Yak)"] = "Ubuntu&nbsp;16.10 (Yakkety Yak)";
-correct2URL["Ubuntu&nbsp;16.10 (Yakkety Yak)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_16.10_.28Yakkety_Yak.29";
-
-
-incorrect2correct["Ubuntu 16.10"] = "Ubuntu&nbsp;16.10 (Yakkety Yak)";
-incorrect2correct["Ubuntu 16.10 (Yakkety Yak)"] = "Ubuntu&nbsp;16.10 (Yakkety Yak)";
-incorrect2correct["Yakkety Yak"] = "Ubuntu&nbsp;16.10 (Yakkety Yak)";
-incorrect2correct["17.04"] = "Ubuntu&nbsp;17.04 (Zesty Zapus)";
-incorrect2correct["Ubuntu&nbsp;17.04 (Zesty Zapus)"] = "Ubuntu&nbsp;17.04 (Zesty Zapus)";
-correct2URL["Ubuntu&nbsp;17.04 (Zesty Zapus)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.04_.28Zesty_Zapus.29";
-
-
-incorrect2correct["ubuntu 17.04"] = "Ubuntu&nbsp;17.04 (Zesty Zapus)";
-incorrect2correct["Ubuntu 17.04"] = "Ubuntu&nbsp;17.04 (Zesty Zapus)";
-incorrect2correct["Ubuntu 17.04 (Zesty Zapus)"] = "Ubuntu&nbsp;17.04 (Zesty Zapus)";
-incorrect2correct["zesty"] = "Ubuntu&nbsp;17.04 (Zesty Zapus)";
-incorrect2correct["Zesty Zapus"] = "Ubuntu&nbsp;17.04 (Zesty Zapus)";
-incorrect2correct["17.10"] = "Ubuntu&nbsp;17.10 (Artful Aardvark)";
-incorrect2correct["Ubuntu&nbsp;17.10 (Artful Aardvark)"] = "Ubuntu&nbsp;17.10 (Artful Aardvark)";
-correct2URL["Ubuntu&nbsp;17.10 (Artful Aardvark)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_17.10_.28Artful_Aardvark.29";
-
-
-incorrect2correct["artful"] = "Ubuntu&nbsp;17.10 (Artful Aardvark)";
-incorrect2correct["ubuntu 17"] = "Ubuntu&nbsp;17.10 (Artful Aardvark)";
-incorrect2correct["Ubuntu 17"] = "Ubuntu&nbsp;17.10 (Artful Aardvark)";
-incorrect2correct["Ubuntu 17.1"] = "Ubuntu&nbsp;17.10 (Artful Aardvark)";
-incorrect2correct["ubuntu 17.10"] = "Ubuntu&nbsp;17.10 (Artful Aardvark)";
-incorrect2correct["Ubuntu 17.10"] = "Ubuntu&nbsp;17.10 (Artful Aardvark)";
-incorrect2correct["Ubuntu 17.10 (Artful Aardvark)"] = "Ubuntu&nbsp;17.10 (Artful Aardvark)";
-incorrect2correct["ubuntu17.10"] = "Ubuntu&nbsp;17.10 (Artful Aardvark)";
-incorrect2correct["18"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu&nbsp;18.04 (Bionic Beaver)"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-correct2URL["Ubuntu&nbsp;18.04 (Bionic Beaver)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.04_LTS_.28Bionic_Beaver.29";
-
-
-incorrect2correct["18.04"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["18.04 LTS"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["18.04LTS"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["bionic"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Bionic"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["bionic beaver"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Bionic Beaver"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["ubuntu 18"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu 18"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["ubuntu 18 lts"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu 18 LTS"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["ubuntu 18.0.4"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu 18.0.4"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["ubuntu 18.04"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu 18.04"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu 18.04 (Bionic Beaver)"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu 18.04LTS"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu 18.4"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["ubuntu bionic"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu bionic"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu Bionic"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu Bionic Beaver"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu V18"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu-18"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["ubuntu-18.04"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu-18.04"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu&nbsp;18.04"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["ubuntu18.04"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["Ubuntu18.04"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["V18"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["v18.04"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["V18.04"] = "Ubuntu&nbsp;18.04 (Bionic Beaver)";
-incorrect2correct["18.10"] = "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)";
-incorrect2correct["Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"] = "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)";
-correct2URL["Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_18.10_(Cosmic_Cuttlefish)";
-
-
-incorrect2correct["cosmic"] = "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)";
-incorrect2correct["Cosmic"] = "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)";
-incorrect2correct["Cosmic Cuttlefish"] = "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)";
-incorrect2correct["ubuntu 18.10"] = "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)";
-incorrect2correct["Ubuntu 18.10"] = "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)";
-incorrect2correct["UBUNTU 18.10"] = "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)";
-incorrect2correct["Ubuntu 18.10 (Cosmic Cuttlefish)"] = "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)";
-incorrect2correct["Ubuntu Cosmic"] = "Ubuntu&nbsp;18.10 (Cosmic Cuttlefish)";
-incorrect2correct["19.04"] = "Ubuntu&nbsp;19.04 (Disco Dingo)";
-incorrect2correct["Ubuntu&nbsp;19.04 (Disco Dingo)"] = "Ubuntu&nbsp;19.04 (Disco Dingo)";
-correct2URL["Ubuntu&nbsp;19.04 (Disco Dingo)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_19.04_(Disco_Dingo)";
-
-
-incorrect2correct["disco"] = "Ubuntu&nbsp;19.04 (Disco Dingo)";
-incorrect2correct["Disco"] = "Ubuntu&nbsp;19.04 (Disco Dingo)";
-incorrect2correct["Disco Dingo"] = "Ubuntu&nbsp;19.04 (Disco Dingo)";
-incorrect2correct["ubuntu 19"] = "Ubuntu&nbsp;19.04 (Disco Dingo)";
-incorrect2correct["Ubuntu 19"] = "Ubuntu&nbsp;19.04 (Disco Dingo)";
-incorrect2correct["ubuntu 19.04"] = "Ubuntu&nbsp;19.04 (Disco Dingo)";
-incorrect2correct["Ubuntu 19.04"] = "Ubuntu&nbsp;19.04 (Disco Dingo)";
-incorrect2correct["Ubuntu 19.04 (Disco Dingo)"] = "Ubuntu&nbsp;19.04 (Disco Dingo)";
-incorrect2correct["19.10"] = "Ubuntu&nbsp;19.10 (Eoan Ermine)";
-incorrect2correct["Ubuntu&nbsp;19.10 (Eoan Ermine)"] = "Ubuntu&nbsp;19.10 (Eoan Ermine)";
-correct2URL["Ubuntu&nbsp;19.10 (Eoan Ermine)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_19.10_(Eoan_Ermine)";
-
-
-incorrect2correct["eoan"] = "Ubuntu&nbsp;19.10 (Eoan Ermine)";
-incorrect2correct["Eoan"] = "Ubuntu&nbsp;19.10 (Eoan Ermine)";
-incorrect2correct["Ubunto 19.10"] = "Ubuntu&nbsp;19.10 (Eoan Ermine)";
-incorrect2correct["Ubuntu 19.04 eoan"] = "Ubuntu&nbsp;19.10 (Eoan Ermine)";
-incorrect2correct["ubuntu 19.10"] = "Ubuntu&nbsp;19.10 (Eoan Ermine)";
-incorrect2correct["Ubuntu 19.10"] = "Ubuntu&nbsp;19.10 (Eoan Ermine)";
-incorrect2correct["UBUNTU 19.10"] = "Ubuntu&nbsp;19.10 (Eoan Ermine)";
-incorrect2correct["Ubuntu 19.10 (Eoan Ermine)"] = "Ubuntu&nbsp;19.10 (Eoan Ermine)";
-incorrect2correct["Ubuntu v.19.10"] = "Ubuntu&nbsp;19.10 (Eoan Ermine)";
-incorrect2correct["20"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu&nbsp;20.04 (Focal Fossa)"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-correct2URL["Ubuntu&nbsp;20.04 (Focal Fossa)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.04_LTS_(Focal_Fossa)";
-
-
-incorrect2correct["20.04"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["20.04 lts"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["20.04lts"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["focal"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Focal"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["focal fossa"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["ubuntu 20"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu 20"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["ubuntu 20.04"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu 20.04"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["UBUNTU 20.04"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu 20.04 (Focal Fossa)"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["ubuntu 20.04 LTS"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu 20.04 LTS"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["ubuntu 20.04LTS"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["ubuntu 20.4"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu 20.4"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["ubuntu 20.4 focal fossa"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu focal"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu Focal"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu Linux 20.04"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["ubuntu-20"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["ubuntu-20.04"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["ubuntu-focal"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu&nbsp;20.04"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu20"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["ubuntu20.04"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu20.04"] = "Ubuntu&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["20.10"] = "Ubuntu&nbsp;20.10 (Groovy Gorilla)";
-incorrect2correct["Ubuntu&nbsp;20.10 (Groovy Gorilla)"] = "Ubuntu&nbsp;20.10 (Groovy Gorilla)";
-correct2URL["Ubuntu&nbsp;20.10 (Groovy Gorilla)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_20.10_(Groovy_Gorilla)";
-
-
-incorrect2correct["ubuntu 20.10"] = "Ubuntu&nbsp;20.10 (Groovy Gorilla)";
-incorrect2correct["Ubuntu 20.10"] = "Ubuntu&nbsp;20.10 (Groovy Gorilla)";
-incorrect2correct["Ubuntu 20.10 (Groovy Gorilla)"] = "Ubuntu&nbsp;20.10 (Groovy Gorilla)";
-incorrect2correct["21.04"] = "Ubuntu&nbsp;21.04 (Hirsute Hippo)";
-incorrect2correct["Ubuntu&nbsp;21.04 (Hirsute Hippo)"] = "Ubuntu&nbsp;21.04 (Hirsute Hippo)";
-correct2URL["Ubuntu&nbsp;21.04 (Hirsute Hippo)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.04_(Hirsute_Hippo)";
-
-
-incorrect2correct["hirsute"] = "Ubuntu&nbsp;21.04 (Hirsute Hippo)";
-incorrect2correct["Hirsute Hippo"] = "Ubuntu&nbsp;21.04 (Hirsute Hippo)";
-incorrect2correct["ubuntu 21.04"] = "Ubuntu&nbsp;21.04 (Hirsute Hippo)";
-incorrect2correct["Ubuntu 21.04"] = "Ubuntu&nbsp;21.04 (Hirsute Hippo)";
-incorrect2correct["Ubuntu 21.04 (Hirsute Hippo)"] = "Ubuntu&nbsp;21.04 (Hirsute Hippo)";
-incorrect2correct["ubuntu hirsute"] = "Ubuntu&nbsp;21.04 (Hirsute Hippo)";
-incorrect2correct["21.10"] = "Ubuntu&nbsp;21.10 (Impish Indri)";
-incorrect2correct["Ubuntu&nbsp;21.10 (Impish Indri)"] = "Ubuntu&nbsp;21.10 (Impish Indri)";
-correct2URL["Ubuntu&nbsp;21.10 (Impish Indri)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_21.10_(Impish_Indri)";
-
-
-incorrect2correct["impish"] = "Ubuntu&nbsp;21.10 (Impish Indri)";
-incorrect2correct["Impish"] = "Ubuntu&nbsp;21.10 (Impish Indri)";
-incorrect2correct["ubuntu 21.10"] = "Ubuntu&nbsp;21.10 (Impish Indri)";
-incorrect2correct["Ubuntu 21.10"] = "Ubuntu&nbsp;21.10 (Impish Indri)";
-incorrect2correct["Ubuntu 21.10 (Impish Indri)"] = "Ubuntu&nbsp;21.10 (Impish Indri)";
-incorrect2correct["ubuntu 21.10 impish"] = "Ubuntu&nbsp;21.10 (Impish Indri)";
-incorrect2correct["22"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Ubuntu&nbsp;22.04 (Jammy Jellyfish)"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-correct2URL["Ubuntu&nbsp;22.04 (Jammy Jellyfish)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.04_LTS_(Jammy_Jellyfish)";
-
-
-incorrect2correct["22:04"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["22.04"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["22.xx"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["gobble"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["gople"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["gopple"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["jammy"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Jammy"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["jammy jellyfish"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Jammy jellyfish"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Jammy Jellyfish"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Jellyfish"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["the gobble"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["the gople"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["The gople"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["the gopple"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["ubuntu 22"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Ubuntu 22"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Ubuntu 22 LTS"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["ubuntu 22.04"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Ubuntu 22.04"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Ubuntu 22.04"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Ubuntu 22.04 (Jammy Jellyfish)"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Ubuntu Linux 22.xx"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["ubuntu-22.04"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["ubuntu22"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["ubuntu22.04"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Ubuntu22.04"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["Ubuntu22LTS"] = "Ubuntu&nbsp;22.04 (Jammy Jellyfish)";
-incorrect2correct["22.10"] = "Ubuntu&nbsp;22.10 (Kinetic Kudu)";
-incorrect2correct["Ubuntu&nbsp;22.10 (Kinetic Kudu)"] = "Ubuntu&nbsp;22.10 (Kinetic Kudu)";
-correct2URL["Ubuntu&nbsp;22.10 (Kinetic Kudu)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_22.10_(Kinetic_Kudu)";
-
-
-incorrect2correct["Ubuntu 22.10 (Kinetic Kudu)"] = "Ubuntu&nbsp;22.10 (Kinetic Kudu)";
-incorrect2correct["23.04"] = "Ubuntu&nbsp;23.04 (Lunar Lobster)";
-incorrect2correct["Ubuntu&nbsp;23.04 (Lunar Lobster)"] = "Ubuntu&nbsp;23.04 (Lunar Lobster)";
-correct2URL["Ubuntu&nbsp;23.04 (Lunar Lobster)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_23.04_(Lunar_Lobster)";
-
-
-incorrect2correct["Ubuntu 23.04"] = "Ubuntu&nbsp;23.04 (Lunar Lobster)";
-incorrect2correct["Ubuntu 23.04 (Lunar Lobster)"] = "Ubuntu&nbsp;23.04 (Lunar Lobster)";
-incorrect2correct["23.10"] = "Ubuntu&nbsp;23.10 (Mantic Minotaur)";
-incorrect2correct["Ubuntu&nbsp;23.10 (Mantic Minotaur)"] = "Ubuntu&nbsp;23.10 (Mantic Minotaur)";
-correct2URL["Ubuntu&nbsp;23.10 (Mantic Minotaur)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_23.10_(Mantic_Minotaur)";
-
-
-incorrect2correct["bovine"] = "Ubuntu&nbsp;23.10 (Mantic Minotaur)";
-incorrect2correct["Ubuntu 23.10"] = "Ubuntu&nbsp;23.10 (Mantic Minotaur)";
-incorrect2correct["Ubuntu 23.10 (Mantic Minotaur)"] = "Ubuntu&nbsp;23.10 (Mantic Minotaur)";
-incorrect2correct["24.04"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["Ubuntu&nbsp;24.04 (Noble Numbat)"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-correct2URL["Ubuntu&nbsp;24.04 (Noble Numbat)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_24.04_LTS_(Noble_Numbat)";
-
-
-incorrect2correct["noble"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["Noble"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["Noble Numbat"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["ubunto 24.04"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["ubuntu 24"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["Ubuntu 24"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["ubuntu 24.01"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["ubuntu 24.04"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["Ubuntu 24.04"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["Ubuntu 24.04 (Noble Numbat)"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["Ubuntu noble"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["Ubuntu Noble"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["Ubuntu noble 24.04"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["ubuntu-24.04"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["Ubuntu:24.04"] = "Ubuntu&nbsp;24.04 (Noble Numbat)";
-incorrect2correct["26.04"] = "Ubuntu&nbsp;26.04 (Resolute Raccoon)";
-incorrect2correct["Ubuntu&nbsp;26.04 (Resolute Raccoon)"] = "Ubuntu&nbsp;26.04 (Resolute Raccoon)";
-correct2URL["Ubuntu&nbsp;26.04 (Resolute Raccoon)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_26.04_LTS_(Resolute_Raccoon)";
-
-
-incorrect2correct["2604"] = "Ubuntu&nbsp;26.04 (Resolute Raccoon)";
-incorrect2correct["ubuntu 26.04"] = "Ubuntu&nbsp;26.04 (Resolute Raccoon)";
-incorrect2correct["Ubuntu 26.04"] = "Ubuntu&nbsp;26.04 (Resolute Raccoon)";
-incorrect2correct["Ubuntu 26.04 (Resolute Raccoon)"] = "Ubuntu&nbsp;26.04 (Resolute Raccoon)";
-incorrect2correct["ubuntu 2604"] = "Ubuntu&nbsp;26.04 (Resolute Raccoon)";
-incorrect2correct["ubuntu26.04"] = "Ubuntu&nbsp;26.04 (Resolute Raccoon)";
-incorrect2correct["ubuntu2604"] = "Ubuntu&nbsp;26.04 (Resolute Raccoon)";
-incorrect2correct["Ubuntu 4.10 (Warty Warthog)"] = "Ubuntu&nbsp;4.10 (Warty Warthog)";
-incorrect2correct["Ubuntu&nbsp;4.10 (Warty Warthog)"] = "Ubuntu&nbsp;4.10 (Warty Warthog)";
-correct2URL["Ubuntu&nbsp;4.10 (Warty Warthog)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_4.10_(Warty_Warthog)";
-
-
-incorrect2correct["Warty Warthog"] = "Ubuntu&nbsp;4.10 (Warty Warthog)";
-incorrect2correct["7.1-ubuntu"] = "Ubuntu&nbsp;7.10 (Gutsy Gibbon)";
-incorrect2correct["Ubuntu&nbsp;7.10 (Gutsy Gibbon)"] = "Ubuntu&nbsp;7.10 (Gutsy Gibbon)";
-correct2URL["Ubuntu&nbsp;7.10 (Gutsy Gibbon)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_7.10_(Gutsy_Gibbon)";
-
-
-incorrect2correct["Gutsy"] = "Ubuntu&nbsp;7.10 (Gutsy Gibbon)";
-incorrect2correct["Gutsy Gibbon"] = "Ubuntu&nbsp;7.10 (Gutsy Gibbon)";
-incorrect2correct["ubuntu 7.1"] = "Ubuntu&nbsp;7.10 (Gutsy Gibbon)";
-incorrect2correct["Ubuntu 7.1"] = "Ubuntu&nbsp;7.10 (Gutsy Gibbon)";
-incorrect2correct["ubuntu 7.10"] = "Ubuntu&nbsp;7.10 (Gutsy Gibbon)";
-incorrect2correct["Ubuntu 7.10"] = "Ubuntu&nbsp;7.10 (Gutsy Gibbon)";
-incorrect2correct["Ubuntu 7.10 (Gutsy Gibbon)"] = "Ubuntu&nbsp;7.10 (Gutsy Gibbon)";
-incorrect2correct["ubuntu7"] = "Ubuntu&nbsp;7.10 (Gutsy Gibbon)";
-incorrect2correct["08.04"] = "Ubuntu&nbsp;8.04 (Hardy Heron)";
-incorrect2correct["Ubuntu&nbsp;8.04 (Hardy Heron)"] = "Ubuntu&nbsp;8.04 (Hardy Heron)";
-correct2URL["Ubuntu&nbsp;8.04 (Hardy Heron)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.04_LTS_(Hardy_Heron)";
-
-
-incorrect2correct["8.04"] = "Ubuntu&nbsp;8.04 (Hardy Heron)";
-incorrect2correct["Hardy"] = "Ubuntu&nbsp;8.04 (Hardy Heron)";
-incorrect2correct["Hardy Heron"] = "Ubuntu&nbsp;8.04 (Hardy Heron)";
-incorrect2correct["Ubuntu 8.04"] = "Ubuntu&nbsp;8.04 (Hardy Heron)";
-incorrect2correct["Ubuntu 8.04 (Hardy Heron)"] = "Ubuntu&nbsp;8.04 (Hardy Heron)";
-incorrect2correct["Ubuntu 8.04 LTS (Hardy Heron)"] = "Ubuntu&nbsp;8.04 (Hardy Heron)";
-incorrect2correct["Ubuntu Hardy"] = "Ubuntu&nbsp;8.04 (Hardy Heron)";
-incorrect2correct["Ubuntu Linux 8.04"] = "Ubuntu&nbsp;8.04 (Hardy Heron)";
-incorrect2correct["8.10"] = "Ubuntu&nbsp;8.10 (Intrepid Ibex)";
-incorrect2correct["Ubuntu&nbsp;8.10 (Intrepid Ibex)"] = "Ubuntu&nbsp;8.10 (Intrepid Ibex)";
-correct2URL["Ubuntu&nbsp;8.10 (Intrepid Ibex)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_8.10_(Intrepid_Ibex)";
-
-
-incorrect2correct["Intrepid Ibex"] = "Ubuntu&nbsp;8.10 (Intrepid Ibex)";
-incorrect2correct["Linux Ubuntu Intrepid Ibex"] = "Ubuntu&nbsp;8.10 (Intrepid Ibex)";
-incorrect2correct["Ubuntu 8.10"] = "Ubuntu&nbsp;8.10 (Intrepid Ibex)";
-incorrect2correct["Ubuntu 8.10 (Intrepid Ibex)"] = "Ubuntu&nbsp;8.10 (Intrepid Ibex)";
-incorrect2correct["Ubuntu Intrepid Ibex"] = "Ubuntu&nbsp;8.10 (Intrepid Ibex)";
-incorrect2correct["9.04"] = "Ubuntu&nbsp;9.04 (Jaunty Jackalope)";
-incorrect2correct["Ubuntu&nbsp;9.04 (Jaunty Jackalope)"] = "Ubuntu&nbsp;9.04 (Jaunty Jackalope)";
-correct2URL["Ubuntu&nbsp;9.04 (Jaunty Jackalope)"] = "https://en.wikipedia.org/wiki/Jaunty#Ubuntu_9.04_(Jaunty_Jackalope)";
-
-
-incorrect2correct["Jaunty"] = "Ubuntu&nbsp;9.04 (Jaunty Jackalope)";
-incorrect2correct["Jaunty Jackalope"] = "Ubuntu&nbsp;9.04 (Jaunty Jackalope)";
-incorrect2correct["ubuntu 9.04"] = "Ubuntu&nbsp;9.04 (Jaunty Jackalope)";
-incorrect2correct["Ubuntu 9.04"] = "Ubuntu&nbsp;9.04 (Jaunty Jackalope)";
-incorrect2correct["Ubuntu 9.04 (Jaunty Jackalope)"] = "Ubuntu&nbsp;9.04 (Jaunty Jackalope)";
-incorrect2correct["Ubuntu Jaunty"] = "Ubuntu&nbsp;9.04 (Jaunty Jackalope)";
-incorrect2correct["9.10"] = "Ubuntu&nbsp;9.10 (Karmic Koala)";
-incorrect2correct["Ubuntu&nbsp;9.10 (Karmic Koala)"] = "Ubuntu&nbsp;9.10 (Karmic Koala)";
-correct2URL["Ubuntu&nbsp;9.10 (Karmic Koala)"] = "https://en.wikipedia.org/wiki/Ubuntu_version_history#Ubuntu_9.10_.28Karmic_Koala.29";
-
-
-incorrect2correct["karmic"] = "Ubuntu&nbsp;9.10 (Karmic Koala)";
-incorrect2correct["Karmic"] = "Ubuntu&nbsp;9.10 (Karmic Koala)";
-incorrect2correct["Karmic Koala"] = "Ubuntu&nbsp;9.10 (Karmic Koala)";
-incorrect2correct["ubuntu 9.10"] = "Ubuntu&nbsp;9.10 (Karmic Koala)";
-incorrect2correct["Ubuntu 9.10"] = "Ubuntu&nbsp;9.10 (Karmic Koala)";
-incorrect2correct["Ubuntu 9.10 (Karmic Koala)"] = "Ubuntu&nbsp;9.10 (Karmic Koala)";
-incorrect2correct["Ubuntu Karmic"] = "Ubuntu&nbsp;9.10 (Karmic Koala)";
-incorrect2correct["Ubuntu&nbsp;9.10"] = "Ubuntu&nbsp;9.10 (Karmic Koala)";
-incorrect2correct["ubuntu manta"] = "Ubuntu&nbsp;MATE";
-incorrect2correct["Ubuntu&nbsp;MATE"] = "Ubuntu&nbsp;MATE";
-correct2URL["Ubuntu&nbsp;MATE"] = "https://en.wikipedia.org/wiki/Ubuntu_MATE";
-
-
-incorrect2correct["ubuntu mate"] = "Ubuntu&nbsp;MATE";
-incorrect2correct["ubuntu Mate"] = "Ubuntu&nbsp;MATE";
-incorrect2correct["Ubuntu Mate"] = "Ubuntu&nbsp;MATE";
-incorrect2correct["Ubuntu MATE"] = "Ubuntu&nbsp;MATE";
-incorrect2correct["Ubuntu-MATE"] = "Ubuntu&nbsp;MATE";
-incorrect2correct["UbuntuMate"] = "Ubuntu&nbsp;MATE";
-incorrect2correct["20.04 mate"] = "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)"] = "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)";
-correct2URL["Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)"] = "https://en.wikipedia.org/wiki/Ubuntu_MATE#Releases";
-
-
-incorrect2correct["20.04 MATE"] = "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["mate 20.04"] = "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["MATE 20.04"] = "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["ubuntu 20.04 mate"] = "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu 20.04 mate"] = "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu 20.04 MATE"] = "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["ubuntu mate 20.04"] = "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu Mate 20.04"] = "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu MATE 20.04"] = "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)";
-incorrect2correct["Ubuntu MATE 20.04 (Focal Fossa)"] = "Ubuntu&nbsp;MATE&nbsp;20.04 (Focal Fossa)";
 incorrect2correct["uc_"] = "uc()_";
 incorrect2correct["uc()_"] = "uc()_";
 correct2URL["uc()_"] = "https://perldoc.perl.org/functions/uc";
@@ -160435,27 +161488,31 @@ correct2URL["Ultimate Hacking Keyboard"] = "https://www.tomshardware.com/reviews
 
 
 incorrect2correct["UHK"] = "Ultimate Hacking Keyboard";
+incorrect2correct["UHK v2"] = "Ultimate Hacking Keyboard";
+incorrect2correct["uhkv2"] = "Ultimate Hacking Keyboard";
 incorrect2correct["UHKv2"] = "Ultimate Hacking Keyboard";
 incorrect2correct["ultimate hacking keyboard"] = "Ultimate Hacking Keyboard";
 incorrect2correct["ultimate hacking keyboard v2"] = "Ultimate Hacking Keyboard";
+incorrect2correct["Ultimate Hacking Keyboard v2"] = "Ultimate Hacking Keyboard";
 incorrect2correct["ulitmately"] = "ultimately";
 incorrect2correct["ultimately"] = "ultimately";
 correct2URL["ultimately"] = "https://en.wiktionary.org/wiki/ultimately#Adverb";
 
 
 incorrect2correct["Ulitmately"] = "ultimately";
-incorrect2correct["Cherry MX ULP"] = "ultra-low-profile mechanical switch";
-incorrect2correct["ultra-low-profile mechanical switch"] = "ultra-low-profile mechanical switch";
-correct2URL["ultra-low-profile mechanical switch"] = "https://github.com/pashutk/Cherry_MX_ULP";
+incorrect2correct["Cherry MX ULP"] = "ultra-low-profile mechanical switches";
+incorrect2correct["ultra-low-profile mechanical switches"] = "ultra-low-profile mechanical switches";
+correct2URL["ultra-low-profile mechanical switches"] = "https://github.com/pashutk/Cherry_MX_ULP";
 
 
-incorrect2correct["MX ULP"] = "ultra-low-profile mechanical switch";
-incorrect2correct["ULP"] = "ultra-low-profile mechanical switch";
-incorrect2correct["ultra low profile"] = "ultra-low-profile mechanical switch";
-incorrect2correct["Ultra Low Profile"] = "ultra-low-profile mechanical switch";
-incorrect2correct["ultra low-profile mechanical switch"] = "ultra-low-profile mechanical switch";
-incorrect2correct["ultra-low-profile"] = "ultra-low-profile mechanical switch";
-incorrect2correct["Ultra-Low-Profile"] = "ultra-low-profile mechanical switch";
+incorrect2correct["MX ULP"] = "ultra-low-profile mechanical switches";
+incorrect2correct["ULP"] = "ultra-low-profile mechanical switches";
+incorrect2correct["ultra low profile"] = "ultra-low-profile mechanical switches";
+incorrect2correct["Ultra Low Profile"] = "ultra-low-profile mechanical switches";
+incorrect2correct["ultra low-profile mechanical switch"] = "ultra-low-profile mechanical switches";
+incorrect2correct["ultra-low-profile"] = "ultra-low-profile mechanical switches";
+incorrect2correct["Ultra-Low-Profile"] = "ultra-low-profile mechanical switches";
+incorrect2correct["ultra-low-profile mechanical switch"] = "ultra-low-profile mechanical switches";
 incorrect2correct["ULV"] = "ultra-low-voltage";
 incorrect2correct["ultra-low-voltage"] = "ultra-low-voltage";
 correct2URL["ultra-low-voltage"] = "https://en.wikipedia.org/wiki/Ultra-low-voltage_processor";
@@ -160677,16 +161734,18 @@ correct2URL["unbelievable"] = "https://en.wiktionary.org/wiki/unbelievable#Adjec
 
 incorrect2correct["Unbelieable"] = "unbelievable";
 incorrect2correct["unbelivable"] = "unbelievable";
-incorrect2correct["Unbihexium"] = "unbihexium";
+incorrect2correct["Ubh"] = "unbihexium";
 incorrect2correct["unbihexium"] = "unbihexium";
 correct2URL["unbihexium"] = "https://en.wikipedia.org/wiki/Unbihexium";
 
 
-incorrect2correct["Unbinilium"] = "unbinilium";
+incorrect2correct["Unbihexium"] = "unbihexium";
+incorrect2correct["Ubn"] = "unbinilium";
 incorrect2correct["unbinilium"] = "unbinilium";
 correct2URL["unbinilium"] = "https://en.wikipedia.org/wiki/Unbinilium";
 
 
+incorrect2correct["Unbinilium"] = "unbinilium";
 incorrect2correct["unbinded"] = "unbound";
 incorrect2correct["unbound"] = "unbound";
 correct2URL["unbound"] = "https://en.wiktionary.org/wiki/unbind#Verb";
@@ -161353,11 +162412,13 @@ correct2URL["Uniform_______"] = "https://en.wikipedia.org/wiki/NATO_phonetic_alp
 
 incorrect2correct["U_______"] = "Uniform_______";
 incorrect2correct["uniform_______"] = "Uniform_______";
-incorrect2correct["unify all branches"] = "unify all branches in Keychron's fork";
+incorrect2correct["promised to unify all branches"] = "unify all branches in Keychron's fork";
 incorrect2correct["unify all branches in Keychron's fork"] = "unify all branches in Keychron's fork";
 correct2URL["unify all branches in Keychron's fork"] = "https://github.com/Keychron/qmk_firmware/issues/217#issuecomment-3479051277";
 
 
+incorrect2correct["to unify all branches"] = "unify all branches in Keychron's fork";
+incorrect2correct["unify all branches"] = "unify all branches in Keychron's fork";
 incorrect2correct["un-ignore"] = "unignore";
 incorrect2correct["unignore"] = "unignore";
 correct2URL["unignore"] = "https://en.wiktionary.org/wiki/unignore#Verb";
@@ -161634,6 +162695,7 @@ incorrect2correct["U.S. QWERTY"] = "United States keyboard layout";
 incorrect2correct["united states keyboard layout"] = "United States keyboard layout";
 incorrect2correct["united states lauout"] = "United States keyboard layout";
 incorrect2correct["United States layout"] = "United States keyboard layout";
+incorrect2correct["US"] = "United States keyboard layout";
 incorrect2correct["US ANSI"] = "United States keyboard layout";
 incorrect2correct["US ANSI layout"] = "United States keyboard layout";
 incorrect2correct["us keyboard"] = "United States keyboard layout";
@@ -161649,11 +162711,12 @@ incorrect2correct["United States of America Computing Olympiad"] = "United State
 correct2URL["United States of America Computing Olympiad"] = "https://en.wikipedia.org/wiki/United_States_of_America_Computing_Olympiad";
 
 
-incorrect2correct["USA___"] = "United States___";
+incorrect2correct["US___"] = "United States___";
 incorrect2correct["United States___"] = "United States___";
 correct2URL["United States___"] = "https://en.wikipedia.org/wiki/United_States";
 
 
+incorrect2correct["USA___"] = "United States___";
 incorrect2correct["unit less"] = "unitless";
 incorrect2correct["unitless"] = "unitless";
 correct2URL["unitless"] = "https://en.wiktionary.org/wiki/unitless#Adjective";
@@ -161886,6 +162949,7 @@ correct2URL["Unix&nbsp;&&nbsp;Linux (Stack Exchange site)"] = "https://unix.stac
 
 incorrect2correct["linux and unix"] = "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)";
 incorrect2correct["the Unix site"] = "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)";
+incorrect2correct["u&l"] = "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)";
 incorrect2correct["U&L"] = "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)";
 incorrect2correct["U&L SE"] = "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)";
 incorrect2correct["U&L_SE"] = "Unix&nbsp;&&nbsp;Linux (Stack Exchange site)";
@@ -162084,11 +163148,12 @@ correct2URL["Uno Platform_"] = "https://en.wikipedia.org/wiki/Uno_Platform";
 
 
 incorrect2correct["Uno_"] = "Uno Platform_";
-incorrect2correct["unobtanium"] = "unobtainium";
+incorrect2correct["unobtaninium"] = "unobtainium";
 incorrect2correct["unobtainium"] = "unobtainium";
 correct2URL["unobtainium"] = "https://en.wiktionary.org/wiki/unobtainium#Noun";
 
 
+incorrect2correct["unobtanium"] = "unobtainium";
 incorrect2correct["unobrusive"] = "unobtrusive";
 incorrect2correct["unobtrusive"] = "unobtrusive";
 correct2URL["unobtrusive"] = "https://en.wiktionary.org/wiki/unobtrusive#Adjective";
@@ -162435,6 +163500,7 @@ incorrect2correct["unsupported"] = "unsupported";
 correct2URL["unsupported"] = "https://en.wiktionary.org/wiki/unsupported#Adjective";
 
 
+incorrect2correct["non-supported"] = "unsupported";
 incorrect2correct["nonsupported"] = "unsupported";
 incorrect2correct["un-supported"] = "unsupported";
 incorrect2correct["unspported"] = "unsupported";
@@ -162663,6 +163729,8 @@ incorrect2correct["UPADTE"] = "update";
 incorrect2correct["upate"] = "update";
 incorrect2correct["upd"] = "update";
 incorrect2correct["UPD"] = "update";
+incorrect2correct["updaate"] = "update";
+incorrect2correct["Updaate"] = "update";
 incorrect2correct["updadate"] = "update";
 incorrect2correct["Updadate"] = "update";
 incorrect2correct["updade"] = "update";
@@ -162981,11 +164049,12 @@ incorrect2correct["urgency"] = "urgency";
 correct2URL["urgency"] = "https://en.wiktionary.org/wiki/urgency#Noun";
 
 
-incorrect2correct["urjent"] = "urgent";
+incorrect2correct["ergent"] = "urgent";
 incorrect2correct["urgent"] = "urgent";
 correct2URL["urgent"] = "https://en.wiktionary.org/wiki/urgent#Adjective";
 
 
+incorrect2correct["urjent"] = "urgent";
 incorrect2correct["uri"] = "URI";
 incorrect2correct["URI"] = "URI";
 correct2URL["URI"] = "https://en.wikipedia.org/wiki/Uniform_Resource_Identifier";
@@ -163071,6 +164140,7 @@ incorrect2correct["URLs"] = "URLs";
 correct2URL["URLs"] = "https://en.wiktionary.org/wiki/URL#Noun";
 
 
+incorrect2correct["URL's"] = "URLs";
 incorrect2correct["Big Dipper"] = "Ursa Major";
 incorrect2correct["Ursa Major"] = "Ursa Major";
 correct2URL["Ursa Major"] = "https://en.wikipedia.org/wiki/Ursa_Major";
@@ -163876,6 +164946,7 @@ incorrect2correct["usning"] = "using";
 incorrect2correct["usong"] = "using";
 incorrect2correct["ussing"] = "using";
 incorrect2correct["usuing"] = "using";
+incorrect2correct["usung"] = "using";
 incorrect2correct["utilising"] = "using";
 incorrect2correct["utilizing"] = "using";
 incorrect2correct["alternative keyboard layouts___"] = "using alternative keyboard layouts___";
@@ -165239,6 +166310,16 @@ incorrect2correct["the check list___"] = "Via blues___";
 incorrect2correct["the checklist___"] = "Via blues___";
 incorrect2correct["via blues___"] = "Via blues___";
 incorrect2correct["Via___"] = "Via blues___";
+incorrect2correct["Keychron Launcher outage_"] = "Via clone outages_";
+incorrect2correct["Via clone outages_"] = "Via clone outages_";
+correct2URL["Via clone outages_"] = "https://www.reddit.com/r/Keychron/comments/1w75qk9/comment/p7y005o/";
+
+
+incorrect2correct["Keychron Launcher outages_"] = "Via clone outages_";
+incorrect2correct["outage_"] = "Via clone outages_";
+incorrect2correct["outages_"] = "Via clone outages_";
+incorrect2correct["the outage_"] = "Via clone outages_";
+incorrect2correct["Via clone outage_"] = "Via clone outages_";
 incorrect2correct["its limitations"] = "Via limitations";
 incorrect2correct["Via limitations"] = "Via limitations";
 correct2URL["Via limitations"] = "https://pmortensen.eu/world2/2024/02/26/a-hack-to-use-mouse-actions-in-via-macros#listOfViaDeficiencies_and_solutions";
@@ -165302,9 +166383,15 @@ incorrect2correct["vibe coding"] = "vibe coding";
 correct2URL["vibe coding"] = "https://en.wikipedia.org/wiki/Vibe_coding";
 
 
+incorrect2correct["vibecoding"] = "vibe coding";
 incorrect2correct["vibe code"] = "vibecode";
 incorrect2correct["vibecode"] = "vibecode";
 correct2URL["vibecode"] = "https://en.wiktionary.org/wiki/vibecode#Verb";
+
+
+incorrect2correct["vibe coded"] = "vibecoded";
+incorrect2correct["vibecoded"] = "vibecoded";
+correct2URL["vibecoded"] = "https://en.wiktionary.org/wiki/vibecode#Verb";
 
 
 incorrect2correct["vibractions"] = "vibrations";
@@ -165380,12 +166467,15 @@ correct2URL["video conference"] = "https://en.wiktionary.org/wiki/video_conferen
 
 incorrect2correct["videoconference"] = "video conference";
 incorrect2correct["visioconference"] = "video conference";
-incorrect2correct["videogame"] = "video game";
-incorrect2correct["video game"] = "video game";
-correct2URL["video game"] = "https://en.wikipedia.org/wiki/Video_game";
+incorrect2correct["comp game__"] = "video game__";
+incorrect2correct["video game__"] = "video game__";
+correct2URL["video game__"] = "https://en.wikipedia.org/wiki/Video_game";
 
 
-incorrect2correct["Videogame"] = "video game";
+incorrect2correct["comp__"] = "video game__";
+incorrect2correct["computer game__"] = "video game__";
+incorrect2correct["videogame__"] = "video game__";
+incorrect2correct["Videogame__"] = "video game__";
 incorrect2correct["Video Memory"] = "video memory";
 incorrect2correct["video memory"] = "video memory";
 correct2URL["video memory"] = "https://en.wikipedia.org/wiki/Dynamic_video_memory_technology";
@@ -165695,6 +166785,12 @@ incorrect2correct["virtual environment_"] = "virtual Python environment_";
 incorrect2correct["Virtual Environment_"] = "virtual Python environment_";
 incorrect2correct["virtualenv_"] = "virtual Python environment_";
 incorrect2correct["virualenv_"] = "virtual Python environment_";
+incorrect2correct["venvs_"] = "virtual Python environments_";
+incorrect2correct["virtual Python environments_"] = "virtual Python environments_";
+correct2URL["virtual Python environments_"] = "https://www.w3schools.com/python/python_virtualenv.asp";
+
+
+incorrect2correct["virtual environments_"] = "virtual Python environments_";
 incorrect2correct["Virtual Reality"] = "virtual reality";
 incorrect2correct["virtual reality"] = "virtual reality";
 correct2URL["virtual reality"] = "https://en.wikipedia.org/wiki/Virtual_reality";
@@ -166489,16 +167585,17 @@ incorrect2correct["vishy"] = "Viswanathan Anand";
 incorrect2correct["Vishy"] = "Viswanathan Anand";
 incorrect2correct["vitali"] = "Vitaly";
 incorrect2correct["Vitaly"] = "Vitaly";
-correct2URL["Vitaly"] = "https://www.reddit.com/r/olkb/comments/1p75lee/comment/nr6hilt/";
+correct2URL["Vitaly"] = "https://github.com/bskaplou/vitaly";
 
 
 incorrect2correct["Via______"] = "Vitaly______";
 incorrect2correct["Vitaly______"] = "Vitaly______";
-correct2URL["Vitaly______"] = "https://www.reddit.com/r/olkb/comments/1p75lee/comment/nr6hilt/";
+correct2URL["Vitaly______"] = "https://www.reddit.com/r/olkb/comments/1p75lee/comment/nrdobv3/";
 
 
 incorrect2correct["vitali______"] = "Vitaly______";
 incorrect2correct["Vitali______"] = "Vitaly______";
+incorrect2correct["Vitality______"] = "Vitaly______";
 incorrect2correct["vitaly______"] = "Vitaly______";
 incorrect2correct["Vitamin A"] = "vitamin A";
 incorrect2correct["vitamin A"] = "vitamin A";
@@ -167293,6 +168390,12 @@ incorrect2correct["Wacom"] = "Wacom";
 correct2URL["Wacom"] = "https://en.wikipedia.org/wiki/Wacom";
 
 
+incorrect2correct["wacom bamboo"] = "Wacom Bamboo";
+incorrect2correct["Wacom Bamboo"] = "Wacom Bamboo";
+correct2URL["Wacom Bamboo"] = "https://en.wikipedia.org/wiki/Wacom#Other_products";
+
+
+incorrect2correct["Wacom bamboo pad"] = "Wacom Bamboo";
 incorrect2correct["waffen ss"] = "Waffen-SS";
 incorrect2correct["Waffen-SS"] = "Waffen-SS";
 correct2URL["Waffen-SS"] = "https://en.wikipedia.org/wiki/Waffen-SS";
@@ -167495,6 +168598,11 @@ incorrect2correct["wanne"] = "want to";
 incorrect2correct["wanto"] = "want to";
 incorrect2correct["wnna"] = "want to";
 incorrect2correct["wonna"] = "want to";
+incorrect2correct["WTB"] = "want to buy";
+incorrect2correct["want to buy"] = "want to buy";
+correct2URL["want to buy"] = "https://en.wiktionary.org/wiki/WTB#Phrase";
+
+
 incorrect2correct["ant_"] = "want_";
 incorrect2correct["want_"] = "want_";
 correct2URL["want_"] = "https://en.wiktionary.org/wiki/want#Verb";
@@ -167538,6 +168646,11 @@ incorrect2correct["want’s"] = "wants";
 incorrect2correct["wap"] = "WAP";
 incorrect2correct["WAP"] = "WAP";
 correct2URL["WAP"] = "https://en.wikipedia.org/wiki/Wireless_Application_Protocol";
+
+
+incorrect2correct["wappalyzer"] = "Wappalyzer";
+incorrect2correct["Wappalyzer"] = "Wappalyzer";
+correct2URL["Wappalyzer"] = "https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg";
 
 
 incorrect2correct["war"] = "WAR";
@@ -167789,6 +168902,7 @@ incorrect2correct["watch dog"] = "watchdog timer";
 incorrect2correct["Watch Dog"] = "watchdog timer";
 incorrect2correct["watchdog"] = "watchdog timer";
 incorrect2correct["WatchDog"] = "watchdog timer";
+incorrect2correct["WATCHDOG"] = "watchdog timer";
 incorrect2correct["WDT"] = "watchdog timer";
 incorrect2correct["watchs"] = "watches";
 incorrect2correct["watches"] = "watches";
@@ -168311,15 +169425,22 @@ incorrect2correct["webdev"] = "Web development";
 incorrect2correct["Webdev"] = "Web development";
 incorrect2correct["WebDev"] = "Web development";
 incorrect2correct["Webdevelopment"] = "Web development";
-incorrect2correct["dev tools_"] = "Web development tools_";
-incorrect2correct["Web development tools_"] = "Web development tools_";
-correct2URL["Web development tools_"] = "https://en.wikipedia.org/wiki/Web_development_tools";
+incorrect2correct["dev tools__"] = "Web development tools__";
+incorrect2correct["Web development tools__"] = "Web development tools__";
+correct2URL["Web development tools__"] = "https://en.wikipedia.org/wiki/Web_development_tools";
 
 
-incorrect2correct["developer tools_"] = "Web development tools_";
-incorrect2correct["development tools_"] = "Web development tools_";
-incorrect2correct["devtools_"] = "Web development tools_";
-incorrect2correct["DevTools_"] = "Web development tools_";
+incorrect2correct["Dev Tools__"] = "Web development tools__";
+incorrect2correct["developer tools__"] = "Web development tools__";
+incorrect2correct["Developer tools__"] = "Web development tools__";
+incorrect2correct["developertools__"] = "Web development tools__";
+incorrect2correct["Developertools__"] = "Web development tools__";
+incorrect2correct["development tools__"] = "Web development tools__";
+incorrect2correct["devtools__"] = "Web development tools__";
+incorrect2correct["DevTools__"] = "Web development tools__";
+incorrect2correct["F12__"] = "Web development tools__";
+incorrect2correct["F8__"] = "Web development tools__";
+incorrect2correct["Inspector__"] = "Web development tools__";
 incorrect2correct["web-editor"] = "web editor";
 incorrect2correct["web editor"] = "web editor";
 correct2URL["web editor"] = "https://en.wikipedia.org/wiki/HTML_editor";
@@ -169274,24 +170395,24 @@ correct2URL["Wheatstone bridge"] = "https://en.wikipedia.org/wiki/Wheatstone_bri
 
 
 incorrect2correct["whetstone"] = "Wheatstone bridge";
+incorrect2correct["Wheel"] = "wheel";
+incorrect2correct["wheel"] = "wheel";
+correct2URL["wheel"] = "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology";
+
+
+incorrect2correct["whl"] = "wheel";
+incorrect2correct["WHL"] = "wheel";
 incorrect2correct["wheels"] = "wheel packages";
 incorrect2correct["wheel packages"] = "wheel packages";
 correct2URL["wheel packages"] = "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology";
 
 
 incorrect2correct["Wheels"] = "wheel packages";
-incorrect2correct["weel_"] = "wheel_";
-incorrect2correct["wheel_"] = "wheel_";
-correct2URL["wheel_"] = "https://en.wiktionary.org/wiki/wheel#Noun";
-
-
-incorrect2correct["Wheel__"] = "wheel__";
+incorrect2correct["weel__"] = "wheel__";
 incorrect2correct["wheel__"] = "wheel__";
-correct2URL["wheel__"] = "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology";
+correct2URL["wheel__"] = "https://en.wiktionary.org/wiki/wheel#Noun";
 
 
-incorrect2correct["whl__"] = "wheel__";
-incorrect2correct["WHL__"] = "wheel__";
 incorrect2correct["de Witt"] = "Wheeler–DeWitt metric";
 incorrect2correct["Wheeler–DeWitt metric"] = "Wheeler–DeWitt metric";
 correct2URL["Wheeler–DeWitt metric"] = "https://en.wikipedia.org/wiki/Wheeler%E2%80%93DeWitt_equation";
@@ -169485,6 +170606,7 @@ incorrect2correct["while loop"] = "while loop";
 correct2URL["while loop"] = "https://en.wiktionary.org/wiki/while_loop#Noun";
 
 
+incorrect2correct["While-loop"] = "while loop";
 incorrect2correct["whiel_"] = "while_";
 incorrect2correct["while_"] = "while_";
 correct2URL["while_"] = "https://en.wiktionary.org/wiki/while#Conjunction";
@@ -170199,10 +171321,12 @@ correct2URL["Windows Credentials"] = "https://stackoverflow.com/questions/490331
 
 incorrect2correct["defender"] = "Windows Defender";
 incorrect2correct["Windows Defender"] = "Windows Defender";
-correct2URL["Windows Defender"] = "https://en.wikipedia.org/wiki/Microsoft_Defender";
+correct2URL["Windows Defender"] = "https://en.wikipedia.org/wiki/Microsoft_Defender_Antivirus";
 
 
 incorrect2correct["Defender"] = "Windows Defender";
+incorrect2correct["Microsoft defender"] = "Windows Defender";
+incorrect2correct["Microsoft Defender Antivirus"] = "Windows Defender";
 incorrect2correct["ms defender"] = "Windows Defender";
 incorrect2correct["windows defender"] = "Windows Defender";
 incorrect2correct["Windows defender"] = "Windows Defender";
@@ -170446,18 +171570,13 @@ correct2URL["Windows SDK"] = "https://en.wikipedia.org/wiki/Microsoft_Windows_SD
 incorrect2correct["Platform SDK"] = "Windows SDK";
 incorrect2correct["Windows sdk"] = "Windows SDK";
 incorrect2correct["WindowsSDK"] = "Windows SDK";
-incorrect2correct["windows server"] = "Windows Server";
-incorrect2correct["Windows Server"] = "Windows Server";
-correct2URL["Windows Server"] = "https://en.wikipedia.org/wiki/Windows_Server";
-
-
-incorrect2correct["Windows server"] = "Windows Server";
-incorrect2correct["winserver"] = "Windows Server";
-incorrect2correct["WServer2000"] = "Windows Server 2000";
+incorrect2correct["server 2000"] = "Windows Server 2000";
 incorrect2correct["Windows Server 2000"] = "Windows Server 2000";
 correct2URL["Windows Server 2000"] = "https://en.wikipedia.org/wiki/Windows_2000#Server_family_features";
 
 
+incorrect2correct["Server 2000"] = "Windows Server 2000";
+incorrect2correct["WServer2000"] = "Windows Server 2000";
 incorrect2correct["2003"] = "Windows Server 2003";
 incorrect2correct["Windows Server 2003"] = "Windows Server 2003";
 correct2URL["Windows Server 2003"] = "https://en.wikipedia.org/wiki/Windows_Server_2003";
@@ -170560,6 +171679,7 @@ correct2URL["Windows Server 2016"] = "https://en.wikipedia.org/wiki/Windows_Serv
 
 
 incorrect2correct["2016 Windows Server"] = "Windows Server 2016";
+incorrect2correct["server 2016"] = "Windows Server 2016";
 incorrect2correct["Server 2016"] = "Windows Server 2016";
 incorrect2correct["Windows 10 Server"] = "Windows Server 2016";
 incorrect2correct["windows 2016"] = "Windows Server 2016";
@@ -170568,19 +171688,33 @@ incorrect2correct["windows server 2016"] = "Windows Server 2016";
 incorrect2correct["Windows server 2016"] = "Windows Server 2016";
 incorrect2correct["Windows Server/10"] = "Windows Server 2016";
 incorrect2correct["Windows2016"] = "Windows Server 2016";
-incorrect2correct["2019 windows server"] = "Windows Server 2019";
-incorrect2correct["Windows Server 2019"] = "Windows Server 2019";
-correct2URL["Windows Server 2019"] = "https://en.wikipedia.org/wiki/Windows_Server_2019";
+incorrect2correct["2019 windows server_"] = "Windows Server 2019_";
+incorrect2correct["Windows Server 2019_"] = "Windows Server 2019_";
+correct2URL["Windows Server 2019_"] = "https://en.wikipedia.org/wiki/Windows_Server_2019";
 
 
-incorrect2correct["Windows 2019"] = "Windows Server 2019";
-incorrect2correct["windows server 2019"] = "Windows Server 2019";
+incorrect2correct["server 2019_"] = "Windows Server 2019_";
+incorrect2correct["Server 2019_"] = "Windows Server 2019_";
+incorrect2correct["Windows 2019_"] = "Windows Server 2019_";
+incorrect2correct["windows server 2019_"] = "Windows Server 2019_";
 incorrect2correct["2022_"] = "Windows Server 2022_";
 incorrect2correct["Windows Server 2022_"] = "Windows Server 2022_";
 correct2URL["Windows Server 2022_"] = "https://en.wikipedia.org/wiki/Windows_Server_2022";
 
 
+incorrect2correct["server 2022_"] = "Windows Server 2022_";
+incorrect2correct["Server 2022_"] = "Windows Server 2022_";
 incorrect2correct["windows 2022_"] = "Windows Server 2022_";
+incorrect2correct["server_"] = "Windows Server_";
+incorrect2correct["Windows Server_"] = "Windows Server_";
+correct2URL["Windows Server_"] = "https://en.wikipedia.org/wiki/Windows_Server";
+
+
+incorrect2correct["Server_"] = "Windows Server_";
+incorrect2correct["windows server_"] = "Windows Server_";
+incorrect2correct["Windows server_"] = "Windows Server_";
+incorrect2correct["winserver_"] = "Windows Server_";
+incorrect2correct["WS_"] = "Windows Server_";
 incorrect2correct["lnk"] = "Windows shortcut (.lnk)";
 incorrect2correct["Windows shortcut (.lnk)"] = "Windows shortcut (.lnk)";
 correct2URL["Windows shortcut (.lnk)"] = "https://en.wikipedia.org/wiki/Shortcut_(computing)#Microsoft_Windows";
@@ -171101,6 +172235,11 @@ correct2URL["Wired__"] = "https://en.wikipedia.org/wiki/Wired_(magazine)";
 incorrect2correct["WIRED Magazine__"] = "Wired__";
 incorrect2correct["wired__"] = "Wired__";
 incorrect2correct["WIRED__"] = "Wired__";
+incorrect2correct["hardwired_"] = "wired-only_";
+incorrect2correct["wired-only_"] = "wired-only_";
+correct2URL["wired-only_"] = "https://electronics.stackexchange.com/questions/140225/how-can-i-tell-charge-only-usb-cables-from-usb-data-cables";
+
+
 incorrect2correct["tmode_"] = "wired, Bluetooth, and '2.4 GHz'_";
 incorrect2correct["wired, Bluetooth, and '2.4 GHz'_"] = "wired, Bluetooth, and '2.4 GHz'_";
 correct2URL["wired, Bluetooth, and '2.4 GHz'_"] = "https://www.durgod.com/blogs/what-is-dual-mode-and-tri-mode-in-mechanical-keyboard/";
@@ -171968,6 +173107,7 @@ incorrect2correct["World Chess Championship"] = "World Chess Championship";
 correct2URL["World Chess Championship"] = "https://en.wikipedia.org/wiki/World_Chess_Championship";
 
 
+incorrect2correct["Word Championship"] = "World Chess Championship";
 incorrect2correct["world championship"] = "World Chess Championship";
 incorrect2correct["World Championship"] = "World Chess Championship";
 incorrect2correct["championship 2021"] = "World Chess Championship 2021";
@@ -172078,11 +173218,13 @@ correct2URL["worldwide"] = "https://en.wiktionary.org/wiki/worldwide#Adjective";
 
 
 incorrect2correct["world-wide"] = "worldwide";
-incorrect2correct["worm-hole"] = "wormhole";
+incorrect2correct["worm hole"] = "wormhole";
 incorrect2correct["wormhole"] = "wormhole";
 correct2URL["wormhole"] = "https://en.wiktionary.org/wiki/wormhole#Noun";
 
 
+incorrect2correct["Worm hole"] = "wormhole";
+incorrect2correct["worm-hole"] = "wormhole";
 incorrect2correct["worms"] = "Worms";
 incorrect2correct["Worms"] = "Worms";
 correct2URL["Worms"] = "https://en.wikipedia.org/wiki/Worms_(series)";
@@ -172322,6 +173464,7 @@ incorrect2correct["wrist rest_"] = "wrist rest_";
 correct2URL["wrist rest_"] = "https://en.wikipedia.org/wiki/Wrist_rest";
 
 
+incorrect2correct["Palm rest_"] = "wrist rest_";
 incorrect2correct["palm_"] = "wrist rest_";
 incorrect2correct["rest_"] = "wrist rest_";
 incorrect2correct["Wrist Rest_"] = "wrist rest_";
@@ -172594,14 +173737,14 @@ correct2URL["Wuhan"] = "https://en.wikipedia.org/wiki/Wuhan";
 
 
 incorrect2correct["WUHAR"] = "Wuhan";
-incorrect2correct["WS_"] = "Wuque Studio_";
-incorrect2correct["Wuque Studio_"] = "Wuque Studio_";
-correct2URL["Wuque Studio_"] = "https://divinikey.com/products/wuque-ws-silent-tactile-switches";
+incorrect2correct["WS__"] = "Wuque Studio__";
+incorrect2correct["Wuque Studio__"] = "Wuque Studio__";
+correct2URL["Wuque Studio__"] = "https://divinikey.com/products/wuque-ws-silent-tactile-switches";
 
 
-incorrect2correct["Wuque studio_"] = "Wuque Studio_";
-incorrect2correct["wuque_"] = "Wuque Studio_";
-incorrect2correct["Wuque_"] = "Wuque Studio_";
+incorrect2correct["Wuque studio__"] = "Wuque Studio__";
+incorrect2correct["wuque__"] = "Wuque Studio__";
+incorrect2correct["Wuque__"] = "Wuque Studio__";
 incorrect2correct["wpython"] = "wxPython";
 incorrect2correct["wxPython"] = "wxPython";
 correct2URL["wxPython"] = "https://en.wikipedia.org/wiki/WxPython";
@@ -172956,11 +174099,12 @@ incorrect2correct["Xenix"] = "Xenix";
 correct2URL["Xenix"] = "https://en.wikipedia.org/wiki/Xenix";
 
 
-incorrect2correct["Xenon"] = "xenon";
+incorrect2correct["Xe"] = "xenon";
 incorrect2correct["xenon"] = "xenon";
 correct2URL["xenon"] = "https://en.wikipedia.org/wiki/Xenon";
 
 
+incorrect2correct["Xenon"] = "xenon";
 incorrect2correct["Xe-133"] = "xenon-133";
 incorrect2correct["xenon-133"] = "xenon-133";
 correct2URL["xenon-133"] = "https://en.wikipedia.org/wiki/Isotopes_of_xenon";
@@ -173783,6 +174927,11 @@ incorrect2correct["the day before today"] = "yesterday";
 incorrect2correct["Yestarday"] = "yesterday";
 incorrect2correct["yestoday"] = "yesterday";
 incorrect2correct["Yestoday"] = "yesterday";
+incorrect2correct["once again"] = "yet again";
+incorrect2correct["yet again"] = "yet again";
+correct2URL["yet again"] = "https://en.wiktionary.org/wiki/yet_again#Adverb";
+
+
 incorrect2correct["jet_"] = "yet_";
 incorrect2correct["yet_"] = "yet_";
 correct2URL["yet_"] = "https://en.wiktionary.org/wiki/yet#Conjunction";
@@ -174111,6 +175260,16 @@ incorrect2correct["yourselves"] = "yourself";
 incorrect2correct["yourshelf"] = "yourself";
 incorrect2correct["youself"] = "yourself";
 incorrect2correct["yout self"] = "yourself";
+incorrect2correct["JD_"] = "youth detention center_";
+incorrect2correct["youth detention center_"] = "youth detention center_";
+correct2URL["youth detention center_"] = "https://en.wikipedia.org/wiki/Youth_detention_center";
+
+
+incorrect2correct["JDC_"] = "youth detention center_";
+incorrect2correct["juvenile detention center_"] = "youth detention center_";
+incorrect2correct["juvenile jail_"] = "youth detention center_";
+incorrect2correct["YD_"] = "youth detention center_";
+incorrect2correct["YDC_"] = "youth detention center_";
 incorrect2correct["Youtrack"] = "YouTrack";
 incorrect2correct["YouTrack"] = "YouTrack";
 correct2URL["YouTrack"] = "https://en.wikipedia.org/wiki/YouTrack";
@@ -174524,6 +175683,7 @@ incorrect2correct["ZephyrOS"] = "Zephyr";
 incorrect2correct["zephyrproject"] = "Zephyr";
 incorrect2correct["zephyrproject-rtos"] = "Zephyr";
 incorrect2correct["Zypher"] = "Zephyr";
+incorrect2correct["Zyphyr"] = "Zephyr";
 incorrect2correct["[tag:zephyr]_"] = "Zephyr (tag wiki)_";
 incorrect2correct["Zephyr (tag wiki)_"] = "Zephyr (tag wiki)_";
 correct2URL["Zephyr (tag wiki)_"] = "https://stackoverflow.com/questions/tagged/zephyr";
@@ -174750,6 +175910,12 @@ incorrect2correct["zlib"] = "zlib";
 correct2URL["zlib"] = "https://en.wikipedia.org/wiki/Zlib";
 
 
+incorrect2correct["PLN"] = "złoty";
+incorrect2correct["złoty"] = "złoty";
+correct2URL["złoty"] = "https://en.wikipedia.org/wiki/Polish_z%C5%82oty#Fourth_z%C5%82oty_(PLN)";
+
+
+incorrect2correct["zloty"] = "złoty";
 incorrect2correct["zls"] = "ZLS";
 incorrect2correct["ZLS"] = "ZLS";
 correct2URL["ZLS"] = "https://github.com/zigtools/zls";
@@ -174983,6 +176149,11 @@ incorrect2correct["ZX spectrum"] = "ZX Spectrum";
 incorrect2correct["ZX-Spectrum"] = "ZX Spectrum";
 incorrect2correct["ZXspectrum"] = "ZX Spectrum";
 incorrect2correct["ZXSpectrum"] = "ZX Spectrum";
+incorrect2correct["ZX 80"] = "ZX80";
+incorrect2correct["ZX80"] = "ZX80";
+correct2URL["ZX80"] = "https://en.wikipedia.org/wiki/ZX80";
+
+
 incorrect2correct["ZX 81"] = "ZX81";
 incorrect2correct["ZX81"] = "ZX81";
 correct2URL["ZX81"] = "https://en.wikipedia.org/wiki/ZX81";
