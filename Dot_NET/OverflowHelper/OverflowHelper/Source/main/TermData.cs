@@ -17273,6 +17273,7 @@ namespace OverflowHelper.core
             correctionAdd("seccond", "&nbsp;s");
             correctionAdd("sencond", "&nbsp;s");
             correctionAdd("SECOND", "&nbsp;s");
+            correctionAdd("secund", "&nbsp;s");
             correctionAdd("sec", "&nbsp;s");
             correctionAdd("s", "&nbsp;s");
             correctionAdd("second", "&nbsp;s"); // The official expanded name
@@ -20162,9 +20163,10 @@ namespace OverflowHelper.core
             //
             //   <https://www.youtube.com/watch?v=kyd6KH5jBY4>
             //
-            // Retired 2026-11-01:
+            // Retired 2026-11-01 from American Airlines:
             //
             //   <https://www.youtube.com/watch?v=03wk6hVbd7o&t=14m55s>
+            //   <https://www.youtube.com/watch?v=dK9SR6iKf_M&t=37s>
             //
             correctionAdd("Juan Brown Blancalario", "Juan Browne");
             correctionAdd("Blancolirio Channel", "Juan Browne");
@@ -43186,6 +43188,7 @@ namespace OverflowHelper.core
             correctionAdd("Did you find a solution", "DenverCoder9");
             correctionAdd("report the outcome here", "DenverCoder9");
             correctionAdd("ego deletion on Reddit", "DenverCoder9");
+            correctionAdd("know about the progress", "DenverCoder9");
             correctionAdd("has left the building", "DenverCoder9");
             correctionAdd("Thanks for the report", "DenverCoder9");
             correctionAdd("thanks for the report", "DenverCoder9");
@@ -45229,6 +45232,8 @@ namespace OverflowHelper.core
             //   <https://en.wikipedia.org/wiki/Vibe_coding>
             //
             correctionAdd("vibe code", "vibecode");
+
+            correctionAdd("vibe coded", "vibecoded");
 
             // Simulated intelligence
             //
@@ -88753,17 +88758,15 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/Keychron/comments/1ipe1pa/lemokey_p1_he_review_a_quality_behemoth_in/>
             //   <https://www.reddit.com/r/MechanicalKeyboards/comments/1ipbq8p/lemokey_p1_he_review_a_quality_behemoth_in/>
             //
-            correctionAdd("Lemokey&nbsp;P1&nbsp;HE", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE");
-            correctionAdd("Keychron Lemokey P1 HE", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE"); // Sort of identity mapping
-            correctionAdd("Lemokey P1 PRO HE", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE");
-            correctionAdd("Lemokey P1 HE", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE");
-            correctionAdd("lemokey p1 he", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE");
-            correctionAdd("Lemokey P HE", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE");
-            correctionAdd("Lemokey P1HE", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE");
-            correctionAdd("P1&nbsp;HE", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE");
-            correctionAdd("LK P1 HE", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE");
-            correctionAdd("P1 HE", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE");
-            correctionAdd("p1 HE", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE");
+            correctionAdd("Lemokey P1 PRO HE", "Keychron Lemokey P1 HE");
+            correctionAdd("Lemokey P1 HE", "Keychron Lemokey P1 HE");
+            correctionAdd("lemokey p1 he", "Keychron Lemokey P1 HE");
+            correctionAdd("Lemokey P HE", "Keychron Lemokey P1 HE");
+            correctionAdd("Lemokey P1HE", "Keychron Lemokey P1 HE");
+            correctionAdd("P1&nbsp;HE", "Keychron Lemokey P1 HE");
+            correctionAdd("LK P1 HE", "Keychron Lemokey P1 HE");
+            correctionAdd("P1 HE", "Keychron Lemokey P1 HE");
+            correctionAdd("p1 HE", "Keychron Lemokey P1 HE");
 
             // A 82-key (80%. Not true TKL) crippled wired-only
             // proprietary firmware (very likely ripped off QMK)
@@ -127384,6 +127387,8 @@ namespace OverflowHelper.core
 
             URL_Add("vibecode", "https://en.wiktionary.org/wiki/vibecode#Verb");
 
+            URL_Add("vibecoded", "https://en.wiktionary.org/wiki/vibecode#Verb");
+
             URL_Add("flavoured", "https://en.wiktionary.org/wiki/flavoured#Adjective");
 
             URL_Add("adhered", "https://en.wiktionary.org/wiki/adhere#Verb");
@@ -143868,7 +143873,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Lemokey P1", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
 
-            URL_Add("Keychron&nbsp;Lemokey&nbsp;P1&nbsp;HE", "https://www.keychron.com/products/lemokey-p1-he-wireless-magnetic-switch-custom-gaming-keyboard-iso-layout-collection");
+            URL_Add("Keychron Lemokey P1 HE", "https://www.keychron.com/products/lemokey-p1-he-wireless-magnetic-switch-custom-gaming-keyboard-iso-layout-collection");
 
             URL_Add("Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
 
@@ -154546,6 +154551,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("macrosses_", "macros_");
             correctionAdd("masroses_", "macros_");
+            correctionAdd("macroses_", "macros_");
             correctionAdd("marcos_", "macros_");
             correctionAdd("Macros_", "macros_");
             correctionAdd("Makros_", "macros_");
@@ -155015,6 +155021,8 @@ namespace OverflowHelper.core
             correctionAdd("Scroll lock_", "Scroll Lock key_");
             correctionAdd("Scroll Lock_", "Scroll Lock key_");
             correctionAdd("SCROLL LOCK_", "Scroll Lock key_");
+            correctionAdd("ScrollLock_", "Scroll Lock key_");
+            correctionAdd("scrolllock_", "Scroll Lock key_");
             correctionAdd("Scroll Lk_", "Scroll Lock key_");
             correctionAdd("Scrl Lock_", "Scroll Lock key_");
             correctionAdd("scrl lock_", "Scroll Lock key_");
@@ -155082,6 +155090,7 @@ namespace OverflowHelper.core
             correctionAdd("Num clear_", "Num Lock key_");
             correctionAdd("Num Clear_", "Num Lock key_");
             correctionAdd("num block_", "Num Lock key_");
+            correctionAdd("Num block_", "Num Lock key_");
             correctionAdd("num luck_", "Num Lock key_");
             correctionAdd("Num Luck_", "Num Lock key_");
             correctionAdd("num lock_", "Num Lock key_");
@@ -155701,6 +155710,9 @@ namespace OverflowHelper.core
             // An airliner. Aviation
             correctionAdd("united airlines_", "United Airlines_");
             correctionAdd("united_", "United Airlines_");
+
+            // An airliner. Aviation
+            correctionAdd("American_", "American Airlines_");
 
             // A rocket. Spacecraft. SpaceX.
             correctionAdd("superheavy_", "Super Heavy_");
@@ -170576,6 +170588,8 @@ namespace OverflowHelper.core
 
             URL_Add("United Airlines_", "https://en.wikipedia.org/wiki/United_Airlines");
 
+            URL_Add("American Airlines_", "https://en.wikipedia.org/wiki/American_Airlines");
+
             URL_Add("Pakistan International Airlines_", "https://en.wikipedia.org/wiki/Pakistan_International_Airlines");
 
             URL_Add("Delta Air Lines_", "https://en.wikipedia.org/wiki/Delta_Air_Lines");
@@ -179531,6 +179545,7 @@ namespace OverflowHelper.core
             // That is, the keys Ins, Del, Home, End, PgUp, and PgDn
             //
             correctionAdd("navigation___", "navigation cluster___"); // For the cross-reference
+            correctionAdd("Del block___", "navigation cluster___");
             correctionAdd("cluster___", "navigation cluster___"); // For the cross-reference
 
             correctionAdd("modificator___", "modifier___");
