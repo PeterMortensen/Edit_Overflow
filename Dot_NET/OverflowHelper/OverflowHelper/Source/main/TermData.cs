@@ -9779,6 +9779,12 @@ namespace OverflowHelper.core
 
             correctionAdd("lessson", "lesson");
 
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Falling_Down#Plot>
+            //
+            correctionAdd("lessons", "Take some shooting lessons");
+
             correctionAdd("uness", "unless");
 
             correctionAdd("limit-less", "limitless");
@@ -15319,7 +15325,7 @@ namespace OverflowHelper.core
             correctionAdd("flashrom", "Flashrom");
             correctionAdd("FlashRom", "Flashrom");
 
-            // For EEPROM images with UEFI firmwarm
+            // For EEPROM images with UEFI firmware
             correctionAdd("UEFItool", "UEFITool");
 
             // Related computer permanent storage
@@ -15559,13 +15565,13 @@ namespace OverflowHelper.core
 
             correctionAdd("instacnce", "instance");
             correctionAdd("instancce", "instance");
+            correctionAdd("instacee", "instance");
             correctionAdd("Instance", "instance");
             correctionAdd("isntance", "instance");
-            correctionAdd("instacee", "instance");
             correctionAdd("isntacee", "instance");
             correctionAdd("intance", "instance");
-            correctionAdd("instace", "instance");
             correctionAdd("isntace", "instance");
+            correctionAdd("instace", "instance");
 
             correctionAdd("instance's", "instances");
             correctionAdd("Instances", "instances");
@@ -18205,6 +18211,8 @@ namespace OverflowHelper.core
 
             correctionAdd("crowfounding", "crowdfunding");
             correctionAdd("crowfouding", "crowdfunding");
+            correctionAdd("Crowfunding", "crowdfunding");
+            correctionAdd("crowfunding", "crowdfunding");
 
             correctionAdd("Crowdsourcing", "crowdsourcing");
 
@@ -18623,6 +18631,123 @@ namespace OverflowHelper.core
             correctionAdd("bottom-line", "bottom line");
             correctionAdd("Bottomline", "bottom line");
             correctionAdd("bottomline", "bottom line");
+
+            correctionAdd("left most", "leftmost");
+            correctionAdd("left-most", "leftmost");
+
+            correctionAdd("reight most", "rightmost");
+            correctionAdd("right most", "rightmost");
+            correctionAdd("right-most", "rightmost");
+
+            correctionAdd("bottommost", "bottom-most");
+
+            correctionAdd("front-most", "frontmost");
+
+            correctionAdd("top-most", "topmost");
+            correctionAdd("Topmost", "topmost");
+
+            correctionAdd("LH", "left-hand");
+
+            correctionAdd("left hand side", "left-hand side");
+            correctionAdd("left-side", "left-hand side");
+            correctionAdd("LHS", "left-hand side");
+
+            correctionAdd("right hand side", "right-hand side");
+            correctionAdd("Right Hand Side", "right-hand side");
+            correctionAdd("right-side", "right-hand side");
+            correctionAdd("RHS", "right-hand side");
+
+            //We need to find a better reference. Some leads:
+            //
+            //   <https://www.chicagomanualofstyle.org/qanda/data/faq/topics/Compounds/faq0020.html>
+            //   <https://english.stackexchange.com/questions/185624/how-should-one-punctuate-upper-right-most>
+            //   <https://learn.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/u/upper-left-upper-right>
+            //   <https://blog.iconlogic.com/weblog/2012/02/writing-grammar-hyphenating-adjectives-and-answers-to-last-weeks-challenge.html>
+            //
+            correctionAdd("upper-right hand corner", "upper-right corner");
+            correctionAdd("upper right corner", "upper-right corner");
+            correctionAdd("Upper-right corner", "upper-right corner");
+            correctionAdd("upper right hand", "upper-right corner");
+            correctionAdd("upper-right hand", "upper-right corner");
+            correctionAdd("upper right", "upper-right corner");
+            correctionAdd("upper-right", "upper-right corner");
+            correctionAdd("Upper right", "upper-right corner");
+            correctionAdd("URH", "upper-right corner");
+
+            correctionAdd("upper left corner", "upper-left corner");
+            correctionAdd("upper-left hand", "upper-left corner");
+            correctionAdd("upper left", "upper-left corner");
+            correctionAdd("upper-left", "upper-left corner");
+            correctionAdd("ULH", "upper-left corner");
+
+            //We need to find a better reference. See entry "upper-right corner"
+            correctionAdd("bottom left corner", "bottom-left corner");
+            correctionAdd("bottom left hand", "bottom-left corner");
+            correctionAdd("bottom-left hand", "bottom-left corner");
+            correctionAdd("bottom left", "bottom-left corner");
+            correctionAdd("BLH", "bottom-left corner");
+
+            correctionAdd("sky scraper", "skyscraper");
+
+            correctionAdd("scrappe", "scrape");
+            correctionAdd("scrap", "scrape");
+
+            correctionAdd("scrapping", "scraping");
+            correctionAdd("Scrapping", "scraping");
+
+            correctionAdd("scrapped", "scraped");
+
+            correctionAdd("scaper", "scraper");
+
+            // Probably idiomatic
+            correctionAdd("Scraping the bottom of the barrel", "scraping the bottom of the barrel");
+
+            correctionAdd("screen scrape", "screen-scrape");
+            correctionAdd("screen scrabe", "screen-scrape");
+            correctionAdd("screenscrape", "screen-scrape");
+            correctionAdd("screen scrap", "screen-scrape");
+            correctionAdd("Screenscrape", "screen-scrape");
+
+            correctionAdd("Screen-scraping", "screen-scraping");
+            correctionAdd("Screen scraping", "screen-scraping");
+            correctionAdd("screen scraping", "screen-scraping");
+            correctionAdd("screenscraping", "screen-scraping");
+
+            // A visual programming language
+            correctionAdd("MIT Scratch", "Scratch");
+            correctionAdd("MIT-Scratch", "Scratch");
+            correctionAdd("scratch", "Scratch");
+            correctionAdd("scrath", "Scratch");
+
+            correctionAdd("from scrath", "from scratch");
+            correctionAdd("from scatch", "from scratch");
+            correctionAdd("from scrach", "from scratch");
+            correctionAdd("from sketc", "from scratch");
+            correctionAdd("from scrap", "from scratch");
+
+            correctionAdd("web scrapping", "web scraping");
+            correctionAdd("web-scraping", "web scraping");
+            correctionAdd("Web Scrapper", "web scraping");
+            correctionAdd("web scrapper", "web scraping");
+            correctionAdd("webscrapping", "web scraping");
+            correctionAdd("webscraping", "web scraping");
+            correctionAdd("web scraper", "web scraping");
+            correctionAdd("web scraped", "web scraping");
+            correctionAdd("web-scrappe", "web scraping"); // Not 100% correct (verb tense)
+            correctionAdd("web scrappe", "web scraping"); // Not 100% correct (verb tense)
+            correctionAdd("web scrape", "web scraping"); // Not 100% correct (verb tense)
+
+            correctionAdd("scrapeninja", "ScrapeNinja");
+
+            correctionAdd("screen cast", "screencast");
+
+            correctionAdd("web spider", "Web crawler");
+            correctionAdd("Web spider", "Web crawler");
+            correctionAdd("webcrawler", "Web crawler");
+            correctionAdd("crawler", "Web crawler");
+            correctionAdd("Cralwer", "Web crawler");
+            correctionAdd("cralwer", "Web crawler");
+            correctionAdd("spider", "Web crawler");
 
             correctionAdd("Piped", "piped");
 
@@ -27233,11 +27358,17 @@ namespace OverflowHelper.core
             correctionAdd("staibility", "stability");
             correctionAdd("stabilty", "stability");
 
+            // E.g., aviation
+            //
             // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Stabilizer_(aeronautics)>
             //
             //   <https://switchandclick.com/stabilizer-guide/>
             //
             correctionAdd("stabilizer", "stabiliser");
+            correctionAdd("stabaliser", "stabiliser");
+            correctionAdd("stabalizer", "stabiliser");
 
             correctionAdd("understrand", "understand");
             correctionAdd("under Stand", "understand");
@@ -32976,16 +33107,23 @@ namespace OverflowHelper.core
             correctionAdd("Global warming", "global warming");
             correctionAdd("Global Warming", "global warming");
 
+            // The noun
+            correctionAdd("warmup", "warm-up");
+
+            correctionAdd("lupe warm", "lukewarm");
+            correctionAdd("luke warm", "lukewarm");
+            correctionAdd("luke-warm", "lukewarm");
+
             // It is context-dependent; "fuzzy" may be perfectly OK
             correctionAdd("fuzzy", "fussy");
 
             correctionAdd("warm fussies", "warm fuzzies");
 
+            correctionAdd("heart warming", "heart-warming");
+
             correctionAdd("hearth", "heart");
             correctionAdd("hart", "heart");
             correctionAdd("hard", "heart");
-
-            correctionAdd("heart warming", "heart-warming");
 
             correctionAdd("by hearth", "by heart");
 
@@ -33023,10 +33161,6 @@ namespace OverflowHelper.core
             correctionAdd("hole", "whole");
 
             correctionAdd("non-whole", "nonwhole");
-
-            correctionAdd("lupe warm", "lukewarm");
-            correctionAdd("luke warm", "lukewarm");
-            correctionAdd("luke-warm", "lukewarm");
 
             correctionAdd("coolor", "cooler");
 
@@ -33362,9 +33496,12 @@ namespace OverflowHelper.core
             correctionAdd("WSAD", "WASD");
 
             correctionAdd("anti cheat software", "anti-cheat software");
+            correctionAdd("Anti-cheat software", "anti-cheat software");
 
-            // Gaming. Software for preventing cheating in online games. It
-            // intercepts key strokes, e.g., F8 and can thus make
+            // Gaming.
+            //
+            // Software for preventing cheating in online games (anti-cheat).
+            // It intercepts key strokes, e.g., F8 and can thus make
             // it appear:
             //
             //   A mechanical keyboard, e.g., based on QMK has
@@ -33386,14 +33523,18 @@ namespace OverflowHelper.core
             correctionAdd("FACEIT", "FACEIT Anti-cheat");
             correctionAdd("Faceit", "FACEIT Anti-cheat");
 
-            // Gaming. Software for preventing cheating in online games
+            // Gaming.
+            //
+            // Software for preventing cheating in online games (anti-cheat).
             //
             // Note: Not a typo...
             //
             correctionAdd("BattleEye", "BattlEye");
             correctionAdd("Battleye", "BattlEye");
 
-            // Gaming. Software for preventing cheating in online games
+            // Gaming.
+            //
+            // Software for preventing cheating in online games (anti-cheat).
             //
             // Alternative URL:
             //
@@ -33401,15 +33542,33 @@ namespace OverflowHelper.core
             //
             correctionAdd("EAC", "Easy Anti-Cheat");
 
-            // Gaming. Anti-cheat software. Software for preventing
-            // cheating in online games
+            // Gaming.
+            //
+            // Software for preventing cheating in online games (anti-cheat).
             //
             correctionAdd("Valve anti-cheat", "Valve Anti-Cheat");
             correctionAdd("VAC", "Valve Anti-Cheat");
 
-            // Gaming. Anti-cheat software. Software for preventing
-            // cheating in online games
+            // Gaming.
+            //
+            // Software for preventing cheating in online games (anti-cheat).
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.ea.com/security/news/eaac-deep-dive>
+            //
+            correctionAdd("EA AntiCheat", "Electronic Arts AntiCheat");
+            correctionAdd("EAAC", "Electronic Arts AntiCheat");
+            correctionAdd("eaac", "Electronic Arts AntiCheat");
+
+            // Gaming.
+            //
+            // Software for preventing cheating in online games (anti-cheat).
+            //
             correctionAdd("Vanguard", "Riot Vanguard");
+
+            // Gaming. Cheating
+            correctionAdd("gamshark", "GameShark");
 
             // Related to computer games
             correctionAdd("Aimbot", "aimbot");
@@ -33491,9 +33650,6 @@ namespace OverflowHelper.core
             correctionAdd("aaa", "AAA");
 
             correctionAdd("Game Console", "game console");
-
-            // Gaming. Cheating
-            correctionAdd("gamshark", "GameShark");
 
             correctionAdd("Game Engine", "game engine");
             correctionAdd("gameengine", "game engine");
@@ -35572,68 +35728,6 @@ namespace OverflowHelper.core
             correctionAdd("Constuctive", "constructive");
 
             correctionAdd("non constructive", "nonconstructive");
-
-            correctionAdd("sky scraper", "skyscraper");
-
-            correctionAdd("scrappe", "scrape");
-            correctionAdd("scrap", "scrape");
-
-            correctionAdd("scrapping", "scraping");
-            correctionAdd("Scrapping", "scraping");
-
-            correctionAdd("scrapped", "scraped");
-
-            correctionAdd("scaper", "scraper");
-
-            // Probably idiomatic
-            correctionAdd("Scraping the bottom of the barrel", "scraping the bottom of the barrel");
-
-            correctionAdd("screen scrape", "screen-scrape");
-            correctionAdd("screen scrabe", "screen-scrape");
-            correctionAdd("screenscrape", "screen-scrape");
-            correctionAdd("screen scrap", "screen-scrape");
-            correctionAdd("Screenscrape", "screen-scrape");
-
-            correctionAdd("Screen-scraping", "screen-scraping");
-            correctionAdd("Screen scraping", "screen-scraping");
-            correctionAdd("screen scraping", "screen-scraping");
-            correctionAdd("screenscraping", "screen-scraping");
-
-            // A visual programming language
-            correctionAdd("MIT Scratch", "Scratch");
-            correctionAdd("MIT-Scratch", "Scratch");
-            correctionAdd("scratch", "Scratch");
-            correctionAdd("scrath", "Scratch");
-
-            correctionAdd("from scrath", "from scratch");
-            correctionAdd("from scatch", "from scratch");
-            correctionAdd("from scrach", "from scratch");
-            correctionAdd("from sketc", "from scratch");
-            correctionAdd("from scrap", "from scratch");
-
-            correctionAdd("web scrapping", "web scraping");
-            correctionAdd("web-scraping", "web scraping");
-            correctionAdd("Web Scrapper", "web scraping");
-            correctionAdd("web scrapper", "web scraping");
-            correctionAdd("webscrapping", "web scraping");
-            correctionAdd("webscraping", "web scraping");
-            correctionAdd("web scraper", "web scraping");
-            correctionAdd("web scraped", "web scraping");
-            correctionAdd("web-scrappe", "web scraping"); // Not 100% correct (verb tense)
-            correctionAdd("web scrappe", "web scraping"); // Not 100% correct (verb tense)
-            correctionAdd("web scrape", "web scraping"); // Not 100% correct (verb tense)
-
-            correctionAdd("scrapeninja", "ScrapeNinja");
-
-            correctionAdd("screen cast", "screencast");
-
-            correctionAdd("web spider", "Web crawler");
-            correctionAdd("Web spider", "Web crawler");
-            correctionAdd("webcrawler", "Web crawler");
-            correctionAdd("crawler", "Web crawler");
-            correctionAdd("Cralwer", "Web crawler");
-            correctionAdd("cralwer", "Web crawler");
-            correctionAdd("spider", "Web crawler");
 
             correctionAdd("broserser", "browser");
             correctionAdd("browswer", "browser");
@@ -40254,9 +40348,6 @@ namespace OverflowHelper.core
             correctionAdd("fileinfo", "FileInfo");
 
             // Of PowerShell...
-            correctionAdd("install-package", "Install-Package");
-
-            // Of PowerShell...
             correctionAdd("format-table", "Format-Table");
             correctionAdd("ft", "Format-Table"); // A (standard) alias (corresponding to Unix)
 
@@ -40273,6 +40364,9 @@ namespace OverflowHelper.core
 
             // Of PowerShell...
             correctionAdd("format-wide", "Format-Wide");
+
+            // Of PowerShell...
+            correctionAdd("install-package", "Install-Package");
 
             // Windows
             correctionAdd("RegEdit.exe", "RegEdit");
@@ -43010,6 +43104,12 @@ namespace OverflowHelper.core
             correctionAdd("instanyly", "instantly");
             correctionAdd("intantly", "instantly");
 
+            correctionAdd("instantanioously", "instantaneously");
+            correctionAdd("insta", "instantaneously");
+
+            correctionAdd("instantanious", "instantaneous");
+            correctionAdd("instantaious", "instantaneous");
+
             correctionAdd("instanciate", "instantiate");
             correctionAdd("inatantiate", "instantiate");
             correctionAdd("Instantiate", "instantiate");
@@ -43032,11 +43132,6 @@ namespace OverflowHelper.core
             correctionAdd("instanciable", "instantiable");
 
             correctionAdd("un-instantiated", "uninstantiated");
-
-            correctionAdd("instantanious", "instantaneous");
-            correctionAdd("instantaious", "instantaneous");
-
-            correctionAdd("instantanioously", "instantaneously");
 
             // Alternative URLs:
             //
@@ -44620,15 +44715,15 @@ namespace OverflowHelper.core
             correctionAdd("in your shows", "in your shoes");
 
             // Note: "installation" is in an alternative word set
-            correctionAdd("intsall", "install");
             correctionAdd("Install", "install");
+            correctionAdd("intsall", "install");
             correctionAdd("instlal", "install");
             correctionAdd("insatll", "install");
             correctionAdd("instal", "install");
+            correctionAdd("Instal", "install");
             correctionAdd("intall", "install");
             correctionAdd("Intall", "install");
             correctionAdd("insall", "install");
-            correctionAdd("Instal", "install");
             correctionAdd("instl", "install");
 
             correctionAdd("isntalles", "installs"); // Multiple typos...
@@ -44640,11 +44735,11 @@ namespace OverflowHelper.core
             correctionAdd("installaing", "installing");
             correctionAdd("Installing", "installing");
             correctionAdd("insatlling", "installing");
+            correctionAdd("installin", "installing");
             correctionAdd("Intalling", "installing");
             correctionAdd("intalling", "installing");
             correctionAdd("Instlling", "installing");
             correctionAdd("instlling", "installing");
-            correctionAdd("installin", "installing");
             correctionAdd("instaling", "installing");
 
             correctionAdd("insatalled", "installed");
@@ -58645,61 +58740,6 @@ namespace OverflowHelper.core
 
             correctionAdd("most people don't read", "people don't read");
 
-            correctionAdd("left most", "leftmost");
-            correctionAdd("left-most", "leftmost");
-
-            correctionAdd("reight most", "rightmost");
-            correctionAdd("right most", "rightmost");
-            correctionAdd("right-most", "rightmost");
-
-            correctionAdd("bottommost", "bottom-most");
-
-            correctionAdd("front-most", "frontmost");
-
-            correctionAdd("top-most", "topmost");
-            correctionAdd("Topmost", "topmost");
-
-            correctionAdd("LH", "left-hand");
-
-            correctionAdd("left hand side", "left-hand side");
-            correctionAdd("left-side", "left-hand side");
-            correctionAdd("LHS", "left-hand side");
-
-            correctionAdd("right hand side", "right-hand side");
-            correctionAdd("Right Hand Side", "right-hand side");
-            correctionAdd("right-side", "right-hand side");
-            correctionAdd("RHS", "right-hand side");
-
-            //We need to find a better reference. Some leads:
-            //
-            //   <https://www.chicagomanualofstyle.org/qanda/data/faq/topics/Compounds/faq0020.html>
-            //   <https://english.stackexchange.com/questions/185624/how-should-one-punctuate-upper-right-most>
-            //   <https://learn.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/u/upper-left-upper-right>
-            //   <https://blog.iconlogic.com/weblog/2012/02/writing-grammar-hyphenating-adjectives-and-answers-to-last-weeks-challenge.html>
-            //
-            correctionAdd("upper-right hand corner", "upper-right corner");
-            correctionAdd("upper right corner", "upper-right corner");
-            correctionAdd("Upper-right corner", "upper-right corner");
-            correctionAdd("upper right hand", "upper-right corner");
-            correctionAdd("upper-right hand", "upper-right corner");
-            correctionAdd("upper right", "upper-right corner");
-            correctionAdd("upper-right", "upper-right corner");
-            correctionAdd("Upper right", "upper-right corner");
-            correctionAdd("URH", "upper-right corner");
-
-            correctionAdd("upper left corner", "upper-left corner");
-            correctionAdd("upper-left hand", "upper-left corner");
-            correctionAdd("upper left", "upper-left corner");
-            correctionAdd("upper-left", "upper-left corner");
-            correctionAdd("ULH", "upper-left corner");
-
-            //We need to find a better reference. See entry "upper-right corner"
-            correctionAdd("bottom left corner", "bottom-left corner");
-            correctionAdd("bottom left hand", "bottom-left corner");
-            correctionAdd("bottom-left hand", "bottom-left corner");
-            correctionAdd("bottom left", "bottom-left corner");
-            correctionAdd("BLH", "bottom-left corner");
-
             // The adjective
             correctionAdd("wellcome", "welcome");
 
@@ -70426,8 +70466,7 @@ namespace OverflowHelper.core
             //
             // Alternative URL:
             //
-            //   <https://switchandclick.com/the-best-o-rings-for-silencing-your-mechanical-keyboard/>
-            //     The best O-rings for silencing your keyboard
+            //   <https://en.wikipedia.org/wiki/O-ring>
             //
             correctionAdd("O ring", "O-ring");
             correctionAdd("o-ring", "O-ring");
@@ -70625,6 +70664,8 @@ namespace OverflowHelper.core
             correctionAdd("Bottoming out", "bottoming out");
             correctionAdd("buttoming out", "bottoming out");
             correctionAdd("buttoning out", "bottoming out");
+
+            correctionAdd("buttomed out", "bottomed out");
 
             // Mechanical keyboards
             correctionAdd("Force break modification", "force break modification");
@@ -83995,10 +84036,10 @@ namespace OverflowHelper.core
             correctionAdd("firmward", "firmware");
             correctionAdd("firmwear", "firmware");
             correctionAdd("Firmwear", "firmware");
-            correctionAdd("firmwarm", "firmware");
             correctionAdd("filmware", "firmware");
             correctionAdd("frimware", "firmware");
             correctionAdd("Frimware", "firmware");
+            correctionAdd("firmwarm", "firmware");
             correctionAdd("firmwre", "firmware");
             correctionAdd("firmwar", "firmware");
             correctionAdd("firware", "firmware");
@@ -88709,31 +88750,29 @@ namespace OverflowHelper.core
             //
             // Microcontroller: WB32F3G71RCT6 (256 KB flash)
             //
-            correctionAdd("Lemokey&nbsp;P1&nbsp;Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("Keychron Lemokey P1 Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro"); // Sort of identity mapping
-            correctionAdd("Lemonkey P1 Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("LemonKey P1 Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("Lemokey P1 Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("Lemokey p1 pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("lemlkey P1 Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("lemokey P1 Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("lemokey p1 pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("Lemokey P1 pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("LemoKey P1 Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("Lemokey P1 PRO", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("Lemokey Pro P1", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("lemokey P1 pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("Lemmnie P1Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("Lemoke P1 Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("LMO Key P1", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro"); // From weird YouTube AI annotation??
-            correctionAdd("pro p1", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("L1 Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("P1 pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("p1 pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("P1 Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("P1 PRO", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("P1Pro", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro");
-            correctionAdd("Lemokey P Pro series", "Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro"); // For the cross-reference
+            correctionAdd("Lemonkey P1 Pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("LemonKey P1 Pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("Lemokey P1 Pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("Lemokey p1 pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("lemlkey P1 Pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("lemokey P1 Pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("lemokey p1 pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("Lemokey P1 pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("LemoKey P1 Pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("Lemokey P1 PRO", "Keychron Lemokey P1 Pro");
+            correctionAdd("Lemokey Pro P1", "Keychron Lemokey P1 Pro");
+            correctionAdd("lemokey P1 pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("Lemmnie P1Pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("Lemoke P1 Pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("LMO Key P1", "Keychron Lemokey P1 Pro"); // From weird YouTube AI annotation??
+            correctionAdd("pro p1", "Keychron Lemokey P1 Pro");
+            correctionAdd("L1 Pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("P1 pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("p1 pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("P1 Pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("P1 PRO", "Keychron Lemokey P1 Pro");
+            correctionAdd("P1Pro", "Keychron Lemokey P1 Pro");
+            correctionAdd("Lemokey P Pro series", "Keychron Lemokey P1 Pro"); // For the cross-reference
 
             // A 82-key (80%. Not true TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
@@ -88872,15 +88911,16 @@ namespace OverflowHelper.core
             //     Thomas is confused if Lemokey is Keychron
             //     or not (it is).
             //
-            correctionAdd("Keychron Lemokey L5 HE", "Keychron Lemokey L5 HE 8K");
-            correctionAdd("Lemokey L5 HE", "Keychron Lemokey L5 HE 8K");
-            correctionAdd("Lemokey 8K HE", "Keychron Lemokey L5 HE 8K");
-            correctionAdd("Lemokey HE 8K", "Keychron Lemokey L5 HE 8K");
-            correctionAdd("lemokey l5 he", "Keychron Lemokey L5 HE 8K");
-            correctionAdd("Lemokey L5", "Keychron Lemokey L5 HE 8K");
-            correctionAdd("L5 HE", "Keychron Lemokey L5 HE 8K");
-            correctionAdd("L5HE", "Keychron Lemokey L5 HE 8K");
-            correctionAdd("L5", "Keychron Lemokey L5 HE 8K");
+            correctionAdd("Keychron Lemokey L5 HE 8K", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Lemokey L5 HE", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
+            correctionAdd("Lemokey L5 HE", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
+            correctionAdd("Lemokey 8K HE", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
+            correctionAdd("Lemokey HE 8K", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
+            correctionAdd("lemokey l5 he", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
+            correctionAdd("Lemokey L5", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
+            correctionAdd("L5 HE", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
+            correctionAdd("L5HE", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
+            correctionAdd("L5", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
 
             // A 82-key (80%. Not true TKL) crippled wired-only
             // QMK/Via-capable mechanical keyboard with a knob
@@ -93529,6 +93569,8 @@ namespace OverflowHelper.core
             // a standard full-size keyboard.
             //
             // "R" is probably for 'retro'.
+            //
+            // It is based on STM32F402, not a Westberry microcontroller.
             //
             // R6 source code, released on 2026-08-07:
             //
@@ -102982,6 +103024,7 @@ namespace OverflowHelper.core
             correctionAdd("retreived", "retrieved");
             correctionAdd("retrived", "retrieved");
 
+            correctionAdd("redicoulouis", "ridiculous");
             correctionAdd("redicoulous", "ridiculous");
             correctionAdd("redicoulush", "ridiculous");
             correctionAdd("ridicolous", "ridiculous");
@@ -110635,8 +110678,6 @@ namespace OverflowHelper.core
 
             URL_Add("ArcGIS", "https://en.wikipedia.org/wiki/ArcGIS");
 
-            URL_Add("instantiate", "https://en.wiktionary.org/wiki/instantiate#Verb");
-
             URL_Add("LINQPad", "https://en.wikipedia.org/wiki/LINQPad");
 
             URL_Add("efficient", "https://en.wiktionary.org/wiki/efficient#Adjective"); // Old: https://en.wiktionary.org/wiki/efficient
@@ -113247,8 +113288,6 @@ namespace OverflowHelper.core
 
             URL_Add("association", "https://en.wiktionary.org/wiki/association#Noun");
 
-            URL_Add("instantiating", "https://en.wiktionary.org/wiki/instantiate#Verb");
-
             URL_Add("structured", "https://en.wiktionary.org/wiki/structured#Adjective");
 
             URL_Add("Borland", "https://en.wikipedia.org/wiki/Borland");
@@ -114725,8 +114764,6 @@ namespace OverflowHelper.core
 
             URL_Add("efficacy", "https://en.wikipedia.org/wiki/Efficacy#Medicine");
 
-            URL_Add("instantaneous", "https://en.wiktionary.org/wiki/instantaneous#Adjective");
-
             URL_Add("mpv", "https://en.wikipedia.org/wiki/Mpv_(media_player)");
 
             URL_Add("mtPaint", "https://en.wikipedia.org/wiki/MtPaint");
@@ -114786,8 +114823,6 @@ namespace OverflowHelper.core
             URL_Add("improved", "https://en.wiktionary.org/wiki/improve#Verb");
 
             URL_Add("tidbit", "https://www.merriam-webster.com/dictionary/tidbit");
-
-            URL_Add("bloodstream", "https://en.wiktionary.org/wiki/bloodstream#Noun");
 
             URL_Add("Twitch", "https://en.wikipedia.org/wiki/Twitch_(service)");
 
@@ -118787,8 +118822,6 @@ namespace OverflowHelper.core
 
             URL_Add("folks", "https://en.wiktionary.org/wiki/folks#Noun");
 
-            URL_Add("instantiable", "https://en.wiktionary.org/wiki/instantiable#Adjective");
-
             URL_Add("outstation", "https://en.wiktionary.org/wiki/outstation#Noun");
 
             URL_Add("prisoner's dilemma", "https://en.wikipedia.org/wiki/Prisoner's_dilemma");
@@ -119633,8 +119666,6 @@ namespace OverflowHelper.core
 
             URL_Add("proposal", "https://en.wiktionary.org/wiki/proposal#Noun");
 
-            URL_Add("instantiation", "https://en.wiktionary.org/wiki/instantiation#Noun");
-
             URL_Add("Judgement of Solomon", "https://en.wikipedia.org/wiki/Judgement_of_Solomon");
 
             URL_Add("named", "https://en.wiktionary.org/wiki/named#Adjective");
@@ -119718,8 +119749,6 @@ namespace OverflowHelper.core
             URL_Add("globbing", "https://en.wiktionary.org/wiki/glob#Verb");
 
             URL_Add("hyperplane", "https://en.wikipedia.org/wiki/Hyperplane");
-
-            URL_Add("instantly", "https://en.wiktionary.org/wiki/instantly#Adverb");
 
             URL_Add("source measure unit", "https://en.wikipedia.org/wiki/Source_measure_unit");
 
@@ -121617,8 +121646,6 @@ namespace OverflowHelper.core
 
             URL_Add("chunk", "https://en.wiktionary.org/wiki/chunk#Noun");
 
-            URL_Add("instantiates", "https://en.wiktionary.org/wiki/instantiate#Verb");
-
             URL_Add("amoeba", "https://en.wikipedia.org/wiki/Amoeba");
 
             URL_Add("initial ramdisk", "https://en.wikipedia.org/wiki/Initial_ramdisk");
@@ -122285,8 +122312,6 @@ namespace OverflowHelper.core
 
             URL_Add("biasing", "https://en.wiktionary.org/wiki/bias#Verb");
 
-            URL_Add("instantiated", "https://en.wiktionary.org/wiki/instantiate#Verb");
-
             URL_Add("kidney", "https://en.wiktionary.org/wiki/kidney#Noun");
 
             URL_Add("Shockley diode equation", "https://en.wikipedia.org/wiki/Shockley_diode_equation");
@@ -122768,8 +122793,6 @@ namespace OverflowHelper.core
             URL_Add("file globbing", "https://en.wikipedia.org/wiki/Glob_(programming)");
 
             URL_Add("shone", "https://en.wiktionary.org/wiki/shine#Verb");
-
-            URL_Add("instantaneously", "https://en.wiktionary.org/wiki/instantaneously#Adverb");
 
             URL_Add("raw HID", "https://www.pjrc.com/teensy/rawhid.html");
 
@@ -123260,10 +123283,6 @@ namespace OverflowHelper.core
             URL_Add("migrate", "https://en.wiktionary.org/wiki/migrate#Verb");
 
             URL_Add("villain", "https://en.wiktionary.org/wiki/villain#Noun");
-
-            URL_Add("BattlEye", "https://en.wikipedia.org/wiki/BattlEye");
-
-            URL_Add("Diablo II", "https://en.wikipedia.org/wiki/Diablo_II");
 
             URL_Add("D-pad", "https://en.wikipedia.org/wiki/D-pad#History");
 
@@ -125757,7 +125776,7 @@ namespace OverflowHelper.core
 
             URL_Add("trickling", "https://en.wiktionary.org/wiki/trickle#Verb");
 
-            URL_Add("O-ring", "https://en.wikipedia.org/wiki/O-ring");
+            URL_Add("O-ring", "https://switchandclick.com/the-best-o-rings-for-silencing-your-mechanical-keyboard/");
 
             URL_Add("O-rings", "https://en.wikipedia.org/wiki/O-ring");
 
@@ -130211,28 +130230,6 @@ namespace OverflowHelper.core
 
             URL_Add("SourceForge", "https://en.wikipedia.org/wiki/SourceForge");
 
-            URL_Add("business intelligence", "https://en.wikipedia.org/wiki/Business_intelligence");
-
-            URL_Add("swarm intelligence", "https://en.wikipedia.org/wiki/Swarm_intelligence");
-
-            URL_Add("IQ", "https://en.wikipedia.org/wiki/Intelligence_quotient");
-
-            URL_Add("emotional quotient", "https://en.wikipedia.org/wiki/Emotional_intelligence#History"); // Old: <https://en.wikipedia.org/wiki/Emotional_intelligence>
-
-            URL_Add("intelligence", "https://en.wiktionary.org/wiki/intelligence#Noun");
-
-            URL_Add("artificial general intelligence", "https://en.wikipedia.org/wiki/Artificial_general_intelligence");
-
-            URL_Add("simulated intelligence-generated content", "https://en.wikipedia.org/wiki/Generative_artificial_intelligence#Copyright_of_AI-generated_content");
-
-            URL_Add("simulated intelligence", "https://en.wikipedia.org/wiki/Artificial_intelligence");
-
-            URL_Add("vibe coding", "https://en.wikipedia.org/wiki/Vibe_coding");
-
-            URL_Add("Large Language Model Meta AI", "https://en.wikipedia.org/wiki/Llama_(language_model)"); // Old: <https://en.wikipedia.org/wiki/LLaMA>
-
-            URL_Add("Ollama", "https://github.com/ollama/ollama");
-
             URL_Add("GGUF", "https://en.wikipedia.org/wiki/Llama.cpp#GGUF_file_format");
 
             URL_Add("Gemma 3", "https://en.wikipedia.org/wiki/Gemma_(language_model)#History");
@@ -132125,6 +132122,8 @@ namespace OverflowHelper.core
 
             URL_Add("lesson", "https://en.wiktionary.org/wiki/lesson#Noun");
 
+            URL_Add("Take some shooting lessons", "https://www.youtube.com/watch?v=pZfva5xDNLU&t=1m22s");
+
             URL_Add("unindent", "https://en.wiktionary.org/wiki/unindent#Verb");
 
             URL_Add("unindented", "https://en.wiktionary.org/wiki/unindented#Adjective");
@@ -132730,8 +132729,6 @@ namespace OverflowHelper.core
             URL_Add("struck", "https://en.wiktionary.org/wiki/strike#Verb");
 
             URL_Add("S1 Application Protocol", "https://www.synopsys.com/software-integrity/security-testing/fuzz-testing/defensics/protocols/s1ap-server.html");
-
-            URL_Add("Riot Vanguard", "https://en.wikipedia.org/wiki/Riot_Vanguard");
 
             URL_Add("struck out", "https://en.wiktionary.org/wiki/strike_out#Verb");
 
@@ -137429,42 +137426,6 @@ namespace OverflowHelper.core
 
             URL_Add("wholesale", "https://en.wiktionary.org/wiki/wholesale#Adjective");
 
-            URL_Add("warm fuzzies", "https://en.wiktionary.org/wiki/warm_fuzzy#Noun");
-
-            URL_Add("lukewarm", "https://en.wiktionary.org/wiki/lukewarm#Adjective");
-
-            URL_Add("global warming", "https://en.wikipedia.org/wiki/Global_warming");
-
-            URL_Add("heart", "https://en.wiktionary.org/wiki/heart#Noun");
-
-            URL_Add("heartache", "https://en.wiktionary.org/wiki/heartache#Noun");
-
-            URL_Add("lighthearted", "https://en.wiktionary.org/wiki/lighthearted#Adjective");
-
-            URL_Add("halfhearted", "https://en.wiktionary.org/wiki/halfhearted#Adjective");
-
-            URL_Add("wholeheartedly", "https://en.wiktionary.org/wiki/wholeheartedly#Adverb");
-
-            URL_Add("heart-warming", "https://en.wiktionary.org/wiki/heart-warming#Adjective");
-
-            URL_Add("by heart", "https://en.wiktionary.org/wiki/by_heart#Prepositional_phrase");
-
-            URL_Add("disheartening", "https://en.wiktionary.org/wiki/disheartening#Adjective");
-
-            URL_Add("heartbreaking", "https://en.wiktionary.org/wiki/heartbreaking#Adjective");
-
-            URL_Add("heartbroken", "https://en.wiktionary.org/wiki/heartbroken#Adjective");
-
-            URL_Add("heartstrings", "https://en.wiktionary.org/wiki/heartstrings#Noun");
-
-            URL_Add("faint of heart", "https://en.wiktionary.org/wiki/faint_of_heart#Noun");
-
-            URL_Add("to (one's) heart’s content", "https://en.wiktionary.org/wiki/heart%27s_content#Adverb");
-
-            URL_Add("Heartbleed", "https://en.wikipedia.org/wiki/Heartbleed");
-
-            URL_Add("Hearts of Iron IV", "https://en.wikipedia.org/wiki/Hearts_of_Iron_IV");
-
             URL_Add("ironically", "https://en.wiktionary.org/wiki/ironically#Adverb");
 
             URL_Add("IronPython", "https://en.wikipedia.org/wiki/IronPython");
@@ -139090,6 +139051,10 @@ namespace OverflowHelper.core
             URL_Add("bottom line", "https://en.wiktionary.org/wiki/bottom_line#Noun");
 
             URL_Add("bottom-left corner", "https://english.stackexchange.com/questions/123050/upper-left-corner-or-top-left-corner");
+
+            URL_Add("bottoming out", "https://keyboardsexpert.com/bottoming-out-keyboard-switches/");
+
+            URL_Add("bottomed out", "https://en.wiktionary.org/wiki/bottom_out#Verb");
 
             URL_Add("scraping the bottom of the barrel", "https://en.wiktionary.org/wiki/scraping_the_bottom_of_the_barrel#Verb");
 
@@ -142001,11 +141966,19 @@ namespace OverflowHelper.core
 
             URL_Add("FACEIT Anti-cheat", "https://www.gamingonlinux.com/2023/07/faceit-anti-cheat-to-support-linux-steam-deck-with-battlebit-remastered/");
 
-            URL_Add("Valve Anti-Cheat", "https://en.wikipedia.org/wiki/Valve_Anti-Cheat");
+            URL_Add("BattlEye", "https://en.wikipedia.org/wiki/BattlEye");
 
             URL_Add("Easy Anti-Cheat", "https://www.pcgamer.com/games/battle-royale/easy-anti-cheat-washes-its-hands-of-the-apex-legends-hacking-disaster-that-saw-streamer-accounts-hijacked-live-there-is-no-rce-vulnerability-within-eac/");
 
+            URL_Add("Valve Anti-Cheat", "https://en.wikipedia.org/wiki/Valve_Anti-Cheat");
+
+            URL_Add("Electronic Arts AntiCheat", "https://www.theverge.com/2022/9/13/23351900/ea-kernel-level-anti-cheat-system-fifa-23");
+
+            URL_Add("Riot Vanguard", "https://en.wikipedia.org/wiki/Riot_Vanguard");
+
             URL_Add("aimbot", "https://en.wikipedia.org/wiki/Cheating_in_online_games#Aimbots_and_triggerbots");
+
+            URL_Add("Diablo II", "https://en.wikipedia.org/wiki/Diablo_II");
 
             URL_Add("Fourier series", "https://en.wikipedia.org/wiki/Fourier_series");
 
@@ -143519,8 +143492,6 @@ namespace OverflowHelper.core
 
             URL_Add("Rapoo", "https://pmortensen.eu/world2/2021/12/24/rapoo-mechanical-keyboards-gotchas-and-setup/");
 
-            URL_Add("Bloody", "https://bloody.com/en/product.php?pid=11&id=196");
-
             URL_Add("chiclet", "https://en.wikipedia.org/wiki/Chiclet_keyboard");
 
             URL_Add("programmable input–output", "https://en.wikipedia.org/wiki/RP2040#Features");
@@ -143605,13 +143576,13 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Lemokey L1 HE", "https://www.lemokey.com/products/lemokey-l1-he-wireless-magnetic-switch-custom-gaming-keyboard");
 
-            URL_Add("Keychron Lemokey L5 HE 8K", "https://www.lemokey.com/pages/lemokey-l5-he-landing-page");
+            URL_Add("Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)", "https://www.lemokey.com/pages/lemokey-l5-he-landing-page");
 
             URL_Add("Keychron Lemokey P1", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
 
             URL_Add("Keychron Lemokey P1 HE", "https://www.keychron.com/products/lemokey-p1-he-wireless-magnetic-switch-custom-gaming-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
+            URL_Add("Keychron Lemokey P1 Pro", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
 
             URL_Add("Keychron Lemokey P2 HE", "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard");
 
@@ -145105,8 +145076,6 @@ namespace OverflowHelper.core
 
             URL_Add("board support package", "https://stackoverflow.com/questions/tagged/bsp");
 
-            URL_Add("bottoming out", "https://keyboardsexpert.com/bottoming-out-keyboard-switches/");
-
             URL_Add("chess player", "https://en.wiktionary.org/wiki/chess_player#Noun");
 
             URL_Add("en passant", "https://en.wikipedia.org/wiki/En_passant");
@@ -145544,8 +145513,6 @@ namespace OverflowHelper.core
             URL_Add("Internet&nbsp;Explorer&nbsp;9", "https://en.wikipedia.org/wiki/Internet_Explorer_9");
 
             URL_Add("Internet&nbsp;Explorer&nbsp;10", "https://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_10");
-
-            URL_Add("bad blood", "https://en.wiktionary.org/wiki/bad_blood#Noun");
 
             URL_Add("badge", "https://en.wiktionary.org/wiki/badge#Noun");
 
@@ -147218,6 +147185,12 @@ namespace OverflowHelper.core
             URL_Add("cold solder joints", "https://en.wikipedia.org/wiki/Soldering#Cold_joints");
 
             URL_Add("cold-blooded", "https://en.wiktionary.org/wiki/cold-blooded#Adjective");
+
+            URL_Add("bloodstream", "https://en.wiktionary.org/wiki/bloodstream#Noun");
+
+            URL_Add("bad blood", "https://en.wiktionary.org/wiki/bad_blood#Noun");
+
+            URL_Add("Bloody", "https://bloody.com/en/product.php?pid=11&id=196");
 
             URL_Add("cold gas thruster", "https://en.wikipedia.org/wiki/Cold_gas_thruster");
 
@@ -151544,6 +151517,84 @@ namespace OverflowHelper.core
             URL_Add("area theorem", "https://en.wikipedia.org/wiki/Black_hole_thermodynamics#The_second_law_2");
 
             URL_Add("YAPF", "https://github.com/google/yapf");
+
+            URL_Add("business intelligence", "https://en.wikipedia.org/wiki/Business_intelligence");
+
+            URL_Add("IQ", "https://en.wikipedia.org/wiki/Intelligence_quotient");
+
+            URL_Add("emotional quotient", "https://en.wikipedia.org/wiki/Emotional_intelligence#History"); // Old: <https://en.wikipedia.org/wiki/Emotional_intelligence>
+
+            URL_Add("intelligence", "https://en.wiktionary.org/wiki/intelligence#Noun");
+
+            URL_Add("artificial general intelligence", "https://en.wikipedia.org/wiki/Artificial_general_intelligence");
+
+            URL_Add("simulated intelligence-generated content", "https://en.wikipedia.org/wiki/Generative_artificial_intelligence#Copyright_of_AI-generated_content");
+
+            URL_Add("simulated intelligence", "https://en.wikipedia.org/wiki/Artificial_intelligence");
+
+            URL_Add("vibe coding", "https://en.wikipedia.org/wiki/Vibe_coding");
+
+            URL_Add("Large Language Model Meta AI", "https://en.wikipedia.org/wiki/Llama_(language_model)"); // Old: <https://en.wikipedia.org/wiki/LLaMA>
+
+            URL_Add("Ollama", "https://github.com/ollama/ollama");
+
+            URL_Add("swarm intelligence", "https://en.wikipedia.org/wiki/Swarm_intelligence");
+
+            URL_Add("warm-up", "https://en.wiktionary.org/wiki/warm-up#Noun");
+
+            URL_Add("lukewarm", "https://en.wiktionary.org/wiki/lukewarm#Adjective");
+
+            URL_Add("global warming", "https://en.wikipedia.org/wiki/Global_warming");
+
+            URL_Add("warm fuzzies", "https://en.wiktionary.org/wiki/warm_fuzzy#Noun");
+
+            URL_Add("heart-warming", "https://en.wiktionary.org/wiki/heart-warming#Adjective");
+
+            URL_Add("heart", "https://en.wiktionary.org/wiki/heart#Noun");
+
+            URL_Add("heartache", "https://en.wiktionary.org/wiki/heartache#Noun");
+
+            URL_Add("lighthearted", "https://en.wiktionary.org/wiki/lighthearted#Adjective");
+
+            URL_Add("halfhearted", "https://en.wiktionary.org/wiki/halfhearted#Adjective");
+
+            URL_Add("wholeheartedly", "https://en.wiktionary.org/wiki/wholeheartedly#Adverb");
+
+            URL_Add("by heart", "https://en.wiktionary.org/wiki/by_heart#Prepositional_phrase");
+
+            URL_Add("disheartening", "https://en.wiktionary.org/wiki/disheartening#Adjective");
+
+            URL_Add("heartbreaking", "https://en.wiktionary.org/wiki/heartbreaking#Adjective");
+
+            URL_Add("heartbroken", "https://en.wiktionary.org/wiki/heartbroken#Adjective");
+
+            URL_Add("heartstrings", "https://en.wiktionary.org/wiki/heartstrings#Noun");
+
+            URL_Add("faint of heart", "https://en.wiktionary.org/wiki/faint_of_heart#Noun");
+
+            URL_Add("to (one's) heart’s content", "https://en.wiktionary.org/wiki/heart%27s_content#Adverb");
+
+            URL_Add("Heartbleed", "https://en.wikipedia.org/wiki/Heartbleed");
+
+            URL_Add("Hearts of Iron IV", "https://en.wikipedia.org/wiki/Hearts_of_Iron_IV");
+
+            URL_Add("instantly", "https://en.wiktionary.org/wiki/instantly#Adverb");
+
+            URL_Add("instantaneous", "https://en.wiktionary.org/wiki/instantaneous#Adjective");
+
+            URL_Add("instantaneously", "https://en.wiktionary.org/wiki/instantaneously#Adverb");
+
+            URL_Add("instantiate", "https://en.wiktionary.org/wiki/instantiate#Verb");
+
+            URL_Add("instantiating", "https://en.wiktionary.org/wiki/instantiate#Verb");
+
+            URL_Add("instantiation", "https://en.wiktionary.org/wiki/instantiation#Noun");
+
+            URL_Add("instantiates", "https://en.wiktionary.org/wiki/instantiate#Verb");
+
+            URL_Add("instantiated", "https://en.wiktionary.org/wiki/instantiate#Verb");
+
+            URL_Add("instantiable", "https://en.wiktionary.org/wiki/instantiable#Adjective");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -157417,6 +157468,15 @@ namespace OverflowHelper.core
             correctionAdd("ASCIIZ_", "null-terminated string_");
             correctionAdd("asciiz_", "null-terminated string_");
 
+            correctionAdd("Blood Pressure_", "blood pressure_");
+            correctionAdd("BP_", "blood pressure_");
+
+            // A blood test value
+            correctionAdd("INR_", "international normalized ratio_");
+
+            // A computer game
+            correctionAdd("blood_", "Blood_");
+
             correctionAdd("Gaming_", "gaming_");
             correctionAdd("Gsming_", "gaming_");
             correctionAdd("gsming_", "gaming_");
@@ -157445,25 +157505,17 @@ namespace OverflowHelper.core
             correctionAdd("EA_", "Electronic Arts_");
             correctionAdd("ea_", "Electronic Arts_");
 
-            // Alternative URLs:
-            //
-            //   <https://www.ea.com/security/news/eaac-deep-dive>
-            //
-            correctionAdd("EA AntiCheat_", "Electronic Arts AntiCheat_");
-            correctionAdd("EAAC_", "Electronic Arts AntiCheat_");
-            correctionAdd("eaac_", "Electronic Arts AntiCheat_");
-
             // Gaming
-            correctionAdd("FPS_", "first-person shooter_");
             correctionAdd("first person shooters_", "first-person shooter_");
             correctionAdd("first-person shooters_", "first-person shooter_");
             correctionAdd("first person shooter_", "first-person shooter_");
-            correctionAdd("fps_", "first-person shooter_");
             correctionAdd("First-person shooter_", "first-person shooter_");
+            correctionAdd("fps_", "first-person shooter_");
+            correctionAdd("FPS_", "first-person shooter_");
 
             // Gaming
-            correctionAdd("npc_", "NPC_");
             correctionAdd("non-player_character_", "NPC_");
+            correctionAdd("npc_", "NPC_");
 
             // A type of game, incl. computer games
             // Example: 'FTL: Faster Than Light'
@@ -157475,9 +157527,6 @@ namespace OverflowHelper.core
             correctionAdd("rouge_", "roguelike_"); // A true typo? Or an autocorrect "masterpiece"?
 
             correctionAdd("roguelikes_", "roguelike games_");
-
-            // A computer game
-            correctionAdd("blood_", "Blood_");
 
             // A computer game.
             //
@@ -167859,9 +167908,6 @@ namespace OverflowHelper.core
 
             correctionAdd("edi_", "EDI_");
 
-            // A blood test value
-            correctionAdd("INR_", "international normalized ratio_");
-
             correctionAdd("syphophantic_", "sycophantic_");
 
             // The adjective
@@ -168009,9 +168055,6 @@ namespace OverflowHelper.core
 
             // Linux / Unix
             correctionAdd("WATCH_", "watch_");
-
-            correctionAdd("Blood Pressure_", "blood pressure_");
-            correctionAdd("BP_", "blood pressure_");
 
             // A laptop. Or rather a series of laptops
             correctionAdd("X1_", "ThinkPad X1_");
@@ -168880,8 +168923,6 @@ namespace OverflowHelper.core
 
             URL_Add("wpm_", "https://en.wiktionary.org/wiki/wpm#Noun");
 
-            URL_Add("Blood_", "https://en.wikipedia.org/wiki/Blood_(video_game)");
-
             URL_Add("CYA_", "https://en.wiktionary.org/wiki/cover_one%27s_ass#Verb");
 
             URL_Add("double-click_", "https://en.wiktionary.org/wiki/double-click#Noun");
@@ -169654,8 +169695,6 @@ namespace OverflowHelper.core
 
             URL_Add("descending_", "https://en.wiktionary.org/wiki/descend#Verb");
 
-            URL_Add("instant messaging_", "https://en.wikipedia.org/wiki/Instant_messaging");
-
             URL_Add("bisecting_", "https://en.wiktionary.org/wiki/bisect#Verb");
 
             URL_Add("polling_", "https://en.wiktionary.org/wiki/poll#Verb");
@@ -170407,8 +170446,6 @@ namespace OverflowHelper.core
             URL_Add("über_", "https://en.wiktionary.org/wiki/%C3%BCber-#Prefix");
 
             URL_Add("Tom Clancy's Rainbow Six Siege_", "https://en.wikipedia.org/wiki/Tom_Clancy%27s_Rainbow_Six_Siege");
-
-            URL_Add("international normalized ratio_", "https://en.wikipedia.org/wiki/Prothrombin_time");
 
             URL_Add("sycophantic_", "https://en.wiktionary.org/wiki/sycophantic#Adjective");
 
@@ -171354,7 +171391,11 @@ namespace OverflowHelper.core
 
             URL_Add("pressed_", "https://en.wiktionary.org/wiki/press#Verb");
 
+            URL_Add("Blood_", "https://en.wikipedia.org/wiki/Blood_(video_game)");
+
             URL_Add("blood pressure_", "https://en.wikipedia.org/wiki/Blood_pressure");
+
+            URL_Add("international normalized ratio_", "https://en.wikipedia.org/wiki/Prothrombin_time");
 
             URL_Add("AliExpress_", "https://en.wikipedia.org/wiki/AliExpress");
 
@@ -172318,8 +172359,6 @@ namespace OverflowHelper.core
 
             URL_Add("virtual Python environments_", "https://www.w3schools.com/python/python_virtualenv.asp");
 
-            URL_Add("Electronic Arts AntiCheat_", "https://www.theverge.com/2022/9/13/23351900/ea-kernel-level-anti-cheat-system-fifa-23");
-
             URL_Add("existential_", "https://en.wiktionary.org/wiki/existential#Adjective");
 
             URL_Add("cumulonimbus_", "https://en.wikipedia.org/wiki/Cumulonimbus");
@@ -173035,6 +173074,8 @@ namespace OverflowHelper.core
             URL_Add("Keychron V5 ISO_", "https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
+
+            URL_Add("instant messaging_", "https://en.wikipedia.org/wiki/Instant_messaging");
 
         } //addLookupData_alternativeWordSet()
 
@@ -176616,6 +176657,7 @@ namespace OverflowHelper.core
             correctionAdd("layor__", "layer__");
             correctionAdd("leyer__", "layer__");
             correctionAdd("later__", "layer__"); // A true typo
+            correctionAdd("layet__", "layer__");
 
             correctionAdd("Most Valuable Player__", "most valuable player__");
             correctionAdd("MVP__", "most valuable player__");
@@ -177521,7 +177563,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Keychron V6 Max__", "Keychron V6 Max source code__");
 
-            correctionAdd("Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro__", "Keychron Lemokey P1 Pro source code__");
+            correctionAdd("Keychron Lemokey P1 Pro__", "Keychron Lemokey P1 Pro source code__");
 
             // For the cross-reference to the source code
             // Note: In Git branch "keychron_bpro"
@@ -181192,7 +181234,6 @@ namespace OverflowHelper.core
             correctionAdd("HE 8k___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
 
             // For a direct text, "Lemokey P Pro series"
-            correctionAdd("Keychron&nbsp;Lemokey&nbsp;P1&nbsp;Pro___", "Lemokey P Pro series___");
             correctionAdd("Keychron Lemokey P1 Pro___", "Lemokey P Pro series___"); // For the cross-reference
             correctionAdd("lemokey p pro series___", "Lemokey P Pro series___");
             correctionAdd("Lemokey series___", "Lemokey P Pro series___");
@@ -185191,8 +185232,6 @@ namespace OverflowHelper.core
 
             URL_Add("macronutrient____", "https://en.wikipedia.org/wiki/List_of_macronutrients");
 
-            URL_Add("anti-cheat____", "https://en.wikipedia.org/wiki/Cheating_in_online_games#Anti-cheating_methods_and_limitations"); // Old: <https://en.wikipedia.org/wiki/Cheating_in_online_games>. Even older: <https://en.wikipedia.org/wiki/Anti-cheat_software>
-
             URL_Add("Debian&nbsp;8 (Jessie)____", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_8_(Jessie)");
 
             URL_Add("Git branch \"playground\" in Keychron's fork____", "https://github.com/Keychron/qmk_firmware/tree/playground/keyboards/keychron/x3/iso/rgb");
@@ -185318,6 +185357,8 @@ namespace OverflowHelper.core
             URL_Add("Keychron V6 default keymap (ISO RGB)____", "https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/v6/iso_encoder/keymaps/default/keymap.c#L46");
 
             URL_Add("Keychron V6 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/v6_max/iso_encoder/keymaps/via/keymap.c#L42");
+
+            URL_Add("anti-cheat____", "https://en.wikipedia.org/wiki/Cheating_in_online_games#Anti-cheating_methods_and_limitations"); // Old: <https://en.wikipedia.org/wiki/Cheating_in_online_games>. Even older: <https://en.wikipedia.org/wiki/Anti-cheat_software>
 
         } //addLookupData_alternativeWordSet4()
 
