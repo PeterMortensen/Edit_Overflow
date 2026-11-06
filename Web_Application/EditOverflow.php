@@ -42,8 +42,31 @@
                                           # They will be treated as failed
                                           # lookups.
                 {
+                    if (substr($aLookupTerm, 0, 6) == '&nbsp;')
+                    {
+                        # For now:
+                        #
+                        #   Don't apply any filtering if it starts
+                        #   with "&nbsp;".
+                        #
+                        # The proper thing to do would be to leave the
+                        # leading non-breaking space alone, but
+                        # convert the rest.
+                        #
+                        $effectiveLookupTerm = $aLookupTerm;
+                    }
+                    else
+                    {
+                        # Treat non-breaking space as normal space
+                        $effectiveLookupTerm = preg_replace('/&nbsp;/', ' ',
+                                                            $aLookupTerm);
+                    }
+
+                    #Temp!!!
+                    #$effectiveLookupTerm = $aLookupTerm;
+
                     $statement = $aPDO->prepare($SQLprefix . ' :name');
-                    $statement->execute(array('name' => $aLookupTerm));
+                    $statement->execute(array('name' => $effectiveLookupTerm));
 
                     if ($statement->rowCount() > 0)
                     {

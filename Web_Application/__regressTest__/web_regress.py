@@ -1184,24 +1184,19 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         #Meta: What about using double quotes vs. single quotes?
         #
         self._checkInlineMarkdownLink(
-            #'BAD_[pass&nbsp;by&nbsp;reference](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference)',
             '[pass&nbsp;by&nbsp;reference](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference)',
             'Inline Markdown link')
         self._checkYouTubeCompatibleLink(
-            #'YYYYYY                 *en DOT wikipedia DOT org/wiki/Evaluation_strategy#Call_by_reference*',
             '                 *en DOT wikipedia DOT org/wiki/Evaluation_strategy#Call_by_reference*',
             'YouTube compatible link')
         self._checkHTML_Link(
-            #'YYYYYY_<a href="https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference">pass&nbsp;by&nbsp;reference</a>',
             '<a href="https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference">pass&nbsp;by&nbsp;reference</a>',
             'HTML link')
         # _checkInternalMediaWikiLink() is part of _lookUp():
         self._checkExternalMediaWikiLink(
-            #"BAD_''[https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference pass&nbsp;by&nbsp;reference]''",
             "''[https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference pass&nbsp;by&nbsp;reference]''",
             'External MediaWiki link')
         self._checkCorrectionCommentLink(
-            #'BAD_It is *"[pass&nbsp;by&nbsp;reference](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference)"* in this context (not *"Pass by Reference"*). You can edit (change) your question/comment/answer/post (*"..."* (to the right of *"Share"*) &rarr; *"Edit comment"*). Please, for such a minor change, *"Edit"*, *"Update"*, or similar is ***[not](https://meta.stackexchange.com/a/131011)*** required (near *"Changelogs"*).',
             'It is *"[pass&nbsp;by&nbsp;reference](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference)"* in this context (not *"Pass by Reference"*). You can edit (change) your question/comment/answer/post (*"..."* (to the right of *"Share"*) &rarr; *"Edit comment"*). Please, for such a minor change, *"Edit"*, *"Update"*, or similar is ***[not](https://meta.stackexchange.com/a/131011)*** required (near *"Changelogs"*).',
             'Correction comment')
 
@@ -1261,6 +1256,36 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          altURLprefix + "c%2B%2B_",
                          wordList_URLprefix + "C++")
 
+        if True: # Test filtering of non-breaking space in the input
+                 #
+                 # This tests particular expected content of the
+                 # word list
+
+            self._setCheckbox("resetState")
+            self._lookUp("Win&nbsp;2008",
+                         "Active reading [<https://en.wikipedia.org/wiki/Windows_Server_2008>].",
+                         defaultMsgForEditSummary,
+                         "''[[Windows_Server_2008|Windows&nbsp;Server&nbsp;2008]]''",
+                         "", "",  # No cross references
+                         wordList_URLprefix + "Windows_Server_2008")
+
+        if True: # Test filtering of non-breaking space in the input:
+                 # Leading non-breaking space should be left
+                 # alone, for the convention in the word set
+                 # to cross reference the expanded form of
+                 # units. Example  "&nbsp;pF" <-> "&nbsp;picofarad_"
+                 #
+                 # This tests particular expected content of the
+                 # word list
+
+            self._setCheckbox("resetState")
+            self._lookUp("pF",
+                         "Active reading [<https://en.wikipedia.org/wiki/Farad#Definition>].",
+                         defaultMsgForEditSummary,
+                         "''[[Farad#Definition|&nbsp;pF]]''",
+                         "&nbsp;picofarad",
+                         altURLprefix + "%26nbsp%3BpF_",
+                         wordList_URLprefix + "&nbsp;pF")
 
     # Helper function for testing
     #

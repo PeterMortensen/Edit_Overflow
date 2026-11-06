@@ -393,6 +393,13 @@ export PYLINT_DISABLE_WARNINGS_SET="--disable=C0301 --disable=C0114 --disable=C0
 export PYLINT_DISABLE_WARNINGS_SET="--disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302 --disable=R0914"                  # LDME 6
 export PYLINT_DISABLE_WARNINGS_SET="--disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0913 --disable=C0302 --disable=R0914 --disable=R0917"  # LDME 7
 
+# 2026-11-06 (after adding more regression tests):
+#
+#   --disable=R0912 
+#   --disable=R0915   Too many statements (51/50) 
+#
+export PYLINT_DISABLE_WARNINGS_SET="--disable=C0301 --disable=C0114 --disable=C0115 --disable=C0103 --disable=C0116 --disable=W0125 --disable=R0912 --disable=R0913 --disable=C0302 --disable=R0914 --disable=R0915 --disable=R0917"  # LDME 7
+
 
 #export SELENIUM_DRIVERFOLDER="/home/embo/.wdm/drivers/geckodriver/linux64/v0.28.0"   # XP64_NEW
 export SELENIUM_DRIVERFOLDER="$HOME/.wdm/drivers/geckodriver/linux64/v0.30.0"         # Ubuntu 20.04
@@ -2791,7 +2798,6 @@ webServer_test  "http://localhost/world/Link_Builder.php?OverflowStyle=Native&Li
 # entering the password...
 #
 #exit
-
 
 
 # ###########################################################################

@@ -153675,6 +153675,7 @@ namespace OverflowHelper.core
             correctionAdd("Weblauncher_", "Keychron Launcher_");
             correctionAdd("The website_", "Keychron Launcher_");
             correctionAdd("Web Lancher_", "Keychron Launcher_");
+            correctionAdd("K Launcher_", "Keychron Launcher_");
             correctionAdd("Via clone_", "Keychron Launcher_");
             correctionAdd("via clone_", "Keychron Launcher_");
             correctionAdd("its clone_", "Keychron Launcher_");
