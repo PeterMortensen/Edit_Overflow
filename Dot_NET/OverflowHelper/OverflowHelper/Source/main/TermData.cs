@@ -6809,6 +6809,9 @@ namespace OverflowHelper.core
             correctionAdd("iptable", "iptables");
 
             // Linux
+            correctionAdd("NFTABLES", "nftables");
+
+            // Linux
             correctionAdd("nautilus", "Nautilus");
 
             // Linux
@@ -8322,6 +8325,7 @@ namespace OverflowHelper.core
             // A Linux distribution
             correctionAdd("alphine linux", "Alpine Linux");
             correctionAdd("alpine linux", "Alpine Linux");
+            correctionAdd("Alpine linux", "Alpine Linux");
             correctionAdd("Alpine", "Alpine Linux");
             correctionAdd("alpine", "Alpine Linux");
 
@@ -71372,6 +71376,7 @@ namespace OverflowHelper.core
             correctionAdd("Gateron Pro Banana", "Gateron Jupiter Banana switches");
             correctionAdd("Gateron Jupiter", "Gateron Jupiter Banana switches"); // Not 100% correct (it is really only for the Gateron Jupiter part)
             correctionAdd("Gateron Jupitor", "Gateron Jupiter Banana switches"); // Not 100% correct (it is really only for the Gateron Jupiter part)
+            correctionAdd("banana switches", "Gateron Jupiter Banana switches");
             correctionAdd("juniper banana", "Gateron Jupiter Banana switches"); // An autocorrect "masterpiece"?
             correctionAdd("Gateron Banana", "Gateron Jupiter Banana switches");
             correctionAdd("Banana Jupiter", "Gateron Jupiter Banana switches");
@@ -71380,6 +71385,7 @@ namespace OverflowHelper.core
             correctionAdd("banana gateron", "Gateron Jupiter Banana switches");
             correctionAdd("gateron banana", "Gateron Jupiter Banana switches");
             correctionAdd("jupitor banana", "Gateron Jupiter Banana switches");
+            correctionAdd("banana switch", "Gateron Jupiter Banana switches");
             correctionAdd("gat jupiter", "Gateron Jupiter Banana switches"); // Not 100% correct (it is really only for the Gateron Jupiter part)
             correctionAdd("banananas", "Gateron Jupiter Banana switches");
             correctionAdd("jupiters", "Gateron Jupiter Banana switches");
@@ -77609,6 +77615,12 @@ namespace OverflowHelper.core
 
             correctionAdd("Impala", "Apache Impala");
             correctionAdd("impala", "Apache Impala");
+
+            // For managing computer clusters
+            //
+            // Allegedly retired in 2025
+            correctionAdd("mesos", "Apache Mesos");
+            correctionAdd("Mesos", "Apache Mesos");
 
             correctionAdd("pagging", "paging");
 
@@ -88261,6 +88273,12 @@ namespace OverflowHelper.core
             // RGB (per-key) south-facing (unwanted
             // ***light bleed***) lighting.
             //
+            // Q1 Ultra 8K user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-q1-ultra-8k-user-manual>
+            //
+            //   From this list: <https://www.keychron.com/pages/keychron-q6-ultra-8k-user-guide>
+            //
             correctionAdd("keychron Q1 Ultra", "Keychron Q1 Ultra 8K");
             correctionAdd("Q1 Ultra 8K", "Keychron Q1 Ultra 8K");
             correctionAdd("Q1 Ultra 8k", "Keychron Q1 Ultra 8K");
@@ -93581,8 +93599,8 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/r6>
             //
-            correctionAdd("Keychron R6", "Keychron&nbsp;R6"); // Sort of identity mapping
-            correctionAdd("R6", "Keychron&nbsp;R6");
+            correctionAdd("Keychron R6 Retro", "Keychron R6");
+            correctionAdd("R6", "Keychron R6");
 
             // A 105-key (100%. Not true TKL) full-size wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -110134,8 +110152,6 @@ namespace OverflowHelper.core
 
             URL_Add("Solaris", "https://en.wikipedia.org/wiki/Solaris_%28operating_system%29");
 
-            URL_Add("iptables", "https://en.wikipedia.org/wiki/Iptables");
-
             URL_Add("Samba", "https://en.wikipedia.org/wiki/Samba_%28software%29");
 
             URL_Add("colocation centre", "https://en.wikipedia.org/wiki/Colocation_centre");
@@ -112635,8 +112651,6 @@ namespace OverflowHelper.core
             URL_Add("selling", "https://en.wiktionary.org/wiki/sell#Verb");
 
             URL_Add("staccato", "https://en.wiktionary.org/wiki/staccato#Adjective");
-
-            URL_Add("vegetables", "https://en.wiktionary.org/wiki/vegetable#Noun");
 
             URL_Add("integrity", "https://en.wiktionary.org/wiki/integrity#Noun");
 
@@ -123932,8 +123946,6 @@ namespace OverflowHelper.core
 
             URL_Add("FRAM", "https://en.wikipedia.org/wiki/Ferroelectric_RAM");
 
-            URL_Add("Instructables", "https://www.instructables.com/Pico-Based-Number-Pad/");
-
             URL_Add("pleasantly", "https://en.wiktionary.org/wiki/pleasantly#Adverb");
 
             URL_Add("programmability", "https://en.wiktionary.org/wiki/programmability#Noun");
@@ -124365,8 +124377,6 @@ namespace OverflowHelper.core
             URL_Add("ecstatic", "https://en.wiktionary.org/wiki/ecstatic#Adjective");
 
             URL_Add("keen", "https://en.wiktionary.org/wiki/keen#Adjective");
-
-            URL_Add("tables", "https://en.wiktionary.org/wiki/table#Noun");
 
             URL_Add("unconsciously", "https://en.wiktionary.org/wiki/unconsciously#Adverb");
 
@@ -126294,10 +126304,6 @@ namespace OverflowHelper.core
 
             URL_Add("stack frame", "https://en.wikipedia.org/wiki/Call_stack#Description");
 
-            URL_Add("-fasynchronous-unwind-tables", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fasynchronous-unwind-tables");
-
-            URL_Add("-funwind-tables", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-funwind-tables");
-
             URL_Add("-fno-optimize-sibling-calls", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-foptimize-sibling-calls");
 
             URL_Add("-mno-sched-prolog", "https://gcc.gnu.org/onlinedocs/gcc/ARM-Options.html#index-mno-sched-prolog");
@@ -126305,6 +126311,10 @@ namespace OverflowHelper.core
             URL_Add("-mtpcs-frame", "https://gcc.gnu.org/onlinedocs/gcc/ARM-Options.html#index-mtpcs-frame");
 
             URL_Add("-mtpcs-leaf-frame", "https://gcc.gnu.org/onlinedocs/gcc/ARM-Options.html#index-mtpcs-leaf-frame");
+
+            URL_Add("-fasynchronous-unwind-tables", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-fasynchronous-unwind-tables");
+
+            URL_Add("-funwind-tables", "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html#index-funwind-tables");
 
             URL_Add("crt0", "https://en.wikipedia.org/wiki/Crt0");
 
@@ -129371,8 +129381,6 @@ namespace OverflowHelper.core
             URL_Add("chapter", "https://en.wiktionary.org/wiki/nonclustered#Adjective");
 
             URL_Add("chapters", "https://en.wiktionary.org/wiki/nonclustered#Adjective");
-
-            URL_Add("PyTables", "https://wiki.python.org/moin/PyTables");
 
             URL_Add("dyld", "https://en.wikipedia.org/wiki/Dynamic_linker#macOS_and_iOS");
 
@@ -133328,6 +133336,8 @@ namespace OverflowHelper.core
 
             URL_Add("Apache POI", "https://en.wikipedia.org/wiki/Apache_POI");
 
+            URL_Add("Apache Mesos", "https://en.wikipedia.org/wiki/Apache_Mesos");
+
             URL_Add("Eclipse", "https://en.wikipedia.org/wiki/Eclipse_%28software%29");
 
             URL_Add("Eclipse JDT", "https://en.wikipedia.org/wiki/Eclipse_(software)#Architecture");
@@ -136050,22 +136060,6 @@ namespace OverflowHelper.core
             URL_Add("&kp", "https://zmk.dev/docs/keymaps/behaviors/key-press");
 
             URL_Add("Place Autocomplete", "https://developers.google.com/maps/documentation/places/web-service/autocomplete");
-
-            URL_Add("hash", "https://en.wiktionary.org/wiki/hash#Noun");
-
-            URL_Add("hashes", "https://en.wiktionary.org/wiki/hash#Noun");
-
-            URL_Add("hash table", "https://en.wikipedia.org/wiki/Hash_table");
-
-            URL_Add("hash tables", "https://en.wikipedia.org/wiki/Hash_table");
-
-            URL_Add("hashtag", "https://en.wiktionary.org/wiki/hashtag#Noun");
-
-            URL_Add("hash mark", "https://en.wiktionary.org/wiki/hash_mark#Noun");
-
-            URL_Add("HashiCorp", "https://en.wikipedia.org/wiki/HashiCorp");
-
-            URL_Add("Haswell", "https://en.wikipedia.org/wiki/Haswell_%28microarchitecture%29");
 
             URL_Add("Oculus Quest", "https://en.wikipedia.org/wiki/Oculus_Quest");
 
@@ -139205,24 +139199,6 @@ namespace OverflowHelper.core
             URL_Add("current-controlled voltage source", "https://en.wikipedia.org/wiki/Dependent_source#Classification");
 
             URL_Add("voltage-controlled voltage source", "https://en.wikipedia.org/wiki/Dependent_source#Classification");
-
-            URL_Add("execute", "https://en.wiktionary.org/wiki/execute#Verb");
-
-            URL_Add("executes", "https://en.wiktionary.org/wiki/execute#Verb");
-
-            URL_Add("executing", "https://en.wiktionary.org/wiki/execute#Verb");
-
-            URL_Add("executed", "https://en.wiktionary.org/wiki/execute#Verb");
-
-            URL_Add("reexecute", "https://en.wiktionary.org/wiki/reexecute#Verb");
-
-            URL_Add("executables", "https://en.wiktionary.org/wiki/executable#Noun");
-
-            URL_Add("executable", "https://en.wiktionary.org/wiki/executable#Noun");
-
-            URL_Add("remote code execution", "https://en.wikipedia.org/wiki/Arbitrary_code_execution");
-
-            URL_Add("self-executing anonymous function", "https://stackoverflow.com/questions/14322708");
 
             URL_Add("far-ranging", "https://dictionary.cambridge.org/thesaurus/far-ranging");
 
@@ -143722,7 +143698,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)", "https://www.keychron.com/products/keychron-k10-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;R6", "https://www.keychron.com/collections/vintage-keyboards/products/keychron-r6-qmk-wireless-mechanical-keyboard");
+            URL_Add("Keychron R6", "https://www.keychron.com/collections/vintage-keyboards/products/keychron-r6-qmk-wireless-mechanical-keyboard");
 
             URL_Add("Keychron Q12 HE", "https://www.keychron.com/products/keychron-q12-he-qmk-wireless-custom-keyboard");
 
@@ -151600,6 +151576,52 @@ namespace OverflowHelper.core
 
             URL_Add("the waters have been muddied", "https://en.wiktionary.org/wiki/muddy_the_waters#Verb");
 
+            URL_Add("tables", "https://en.wiktionary.org/wiki/table#Noun");
+
+            URL_Add("iptables", "https://en.wikipedia.org/wiki/Iptables");
+
+            URL_Add("nftables", "https://en.wikipedia.org/wiki/Nftables");
+
+            URL_Add("PyTables", "https://wiki.python.org/moin/PyTables");
+
+            URL_Add("vegetables", "https://en.wiktionary.org/wiki/vegetable#Noun");
+
+            URL_Add("Instructables", "https://www.instructables.com/Pico-Based-Number-Pad/");
+
+            URL_Add("hash tables", "https://en.wikipedia.org/wiki/Hash_table");
+
+            URL_Add("hash", "https://en.wiktionary.org/wiki/hash#Noun");
+
+            URL_Add("hashes", "https://en.wiktionary.org/wiki/hash#Noun");
+
+            URL_Add("hash table", "https://en.wikipedia.org/wiki/Hash_table");
+
+            URL_Add("hashtag", "https://en.wiktionary.org/wiki/hashtag#Noun");
+
+            URL_Add("hash mark", "https://en.wiktionary.org/wiki/hash_mark#Noun");
+
+            URL_Add("HashiCorp", "https://en.wikipedia.org/wiki/HashiCorp");
+
+            URL_Add("Haswell", "https://en.wikipedia.org/wiki/Haswell_%28microarchitecture%29");
+
+            URL_Add("execute", "https://en.wiktionary.org/wiki/execute#Verb");
+
+            URL_Add("executes", "https://en.wiktionary.org/wiki/execute#Verb");
+
+            URL_Add("executing", "https://en.wiktionary.org/wiki/execute#Verb");
+
+            URL_Add("executed", "https://en.wiktionary.org/wiki/execute#Verb");
+
+            URL_Add("reexecute", "https://en.wiktionary.org/wiki/reexecute#Verb");
+
+            URL_Add("executables", "https://en.wiktionary.org/wiki/executable#Noun");
+
+            URL_Add("executable", "https://en.wiktionary.org/wiki/executable#Noun");
+
+            URL_Add("remote code execution", "https://en.wikipedia.org/wiki/Arbitrary_code_execution");
+
+            URL_Add("self-executing anonymous function", "https://stackoverflow.com/questions/14322708");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -152241,13 +152263,12 @@ namespace OverflowHelper.core
             correctionAdd("gpt_", "GPT_");
 
             // Simulated intelligence
-            correctionAdd("Hugging Face_", "Hugging&nbsp;Face_"); // Sort of identity mapping
-            correctionAdd("hugging face_", "Hugging&nbsp;Face_");
-            correctionAdd("hugging-face_", "Hugging&nbsp;Face_");
-            correctionAdd("huggingface_", "Hugging&nbsp;Face_");
-            correctionAdd("HuggingFace_", "Hugging&nbsp;Face_");
-            correctionAdd("Huggingface_", "Hugging&nbsp;Face_");
-            correctionAdd("HF_", "Hugging&nbsp;Face_");
+            correctionAdd("hugging face_", "Hugging Face_");
+            correctionAdd("hugging-face_", "Hugging Face_");
+            correctionAdd("huggingface_", "Hugging Face_");
+            correctionAdd("HuggingFace_", "Hugging Face_");
+            correctionAdd("Huggingface_", "Hugging Face_");
+            correctionAdd("HF_", "Hugging Face_");
 
             // For the reverse mapping
             //
@@ -152266,13 +152287,15 @@ namespace OverflowHelper.core
 
             correctionAdd("mutli_", "multi_");
 
-            correctionAdd("multiplums_", "multiples_");
-            correctionAdd("multiple_", "multiples_");
-            correctionAdd("multipla_", "multiples_");
+            // The noun
+            correctionAdd("multiplum_", "multiple_");
+            correctionAdd("multiples_", "multiple_"); // For the cross-reference
 
             correctionAdd("mux_", "multiplex_");
 
             correctionAdd("multi-tasking_", "multitasking_");
+
+            correctionAdd("multithreaded_", "multithreaded programs_");
 
             correctionAdd("basic multilingual plane_", "Basic Multilingual Plane_");
             correctionAdd("BMP_", "Basic Multilingual Plane_");
@@ -152286,14 +152309,277 @@ namespace OverflowHelper.core
             correctionAdd("tread_", "thread_");
             correctionAdd("thred_", "thread_");
 
-            correctionAdd("multithreaded_", "multithreaded programs_");
-
             // Multithreading
             correctionAdd("compare and swap_", "compare-and-swap_");
             correctionAdd("CAS_", "compare-and-swap_");
 
             correctionAdd("pthreads_", "POSIX Threads_");
             correctionAdd("pthread_", "POSIX Threads_");
+
+            // Only observed misspelt in 2026 (though introduced in 2025)
+            //
+            // From German?
+            correctionAdd("celle_", "cell_");
+            correctionAdd("sale_", "cell_");
+
+            correctionAdd("handy_", "mobile phone_");
+
+            correctionAdd("Mobile App_", "mobile app_");
+            correctionAdd("m0bile app_", "mobile app_");
+
+            correctionAdd("Mobile Apps_", "mobile apps_");
+
+            // A manufacturer of consumer electronics, etc.
+            // For example, smartphones and TVs.
+            //
+            correctionAdd("LG Electronics_", "LG_");
+            correctionAdd("lg_", "LG_");
+
+            // Electronics
+            //
+            // Alternative URLs:
+            //
+            //  <https://www.youtube.com/watch?v=rPGoMbVSUu8>
+            //
+            correctionAdd("multi meter_", "multimeter_");
+            correctionAdd("Multimeter_", "multimeter_");
+            correctionAdd("multineter_", "multimeter_");
+            correctionAdd("moldymeter_", "multimeter_");
+            correctionAdd("multimete_", "multimeter_");
+            correctionAdd("milimeter_", "multimeter_");
+            correctionAdd("mm_", "multimeter_");
+
+            // Electronics
+            correctionAdd("dip_", "DIP_");
+            correctionAdd("Dip_", "DIP_");
+
+            // A physical connector (electronics)
+            correctionAdd("JST_", "JST connector_");
+
+            // Electronics
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1xcdie8/diy_low_profile_pin_headers/>
+            //
+            correctionAdd("pin headers_", "pin header_");
+            correctionAdd("headers_", "pin header_");
+            correctionAdd("header_", "pin header_");
+
+            // Electronics
+            correctionAdd("coaxial cable_", "coax_");
+            correctionAdd("co-ax_", "coax_");
+
+            correctionAdd("usb_", "USB_");
+            correctionAdd("Usb_", "USB_");
+            correctionAdd("USN_", "USB_");
+            correctionAdd("UBS_", "USB_");
+            correctionAdd("ISB_", "USB_"); // A true typo
+            correctionAdd("SUB_", "USB_"); // A true typo
+            correctionAdd("sub_", "USB_"); // A true typo
+
+            // Mostly for the cross-reference
+            correctionAdd("USB-HID_", "USB HID_");
+            correctionAdd("HID_", "USB HID_");
+
+            // SC for 'storage class'?
+            correctionAdd("USB mass storage device class_", "USB MSC_");
+            correctionAdd("mass storage device class_", "USB MSC_");
+            correctionAdd("mass storaage device_", "USB MSC_");
+            correctionAdd("mass storage device_", "USB MSC_");
+            correctionAdd("USB Mass Storage_", "USB MSC_");
+            correctionAdd("USB mass storage_", "USB MSC_");
+            correctionAdd("USBMSC_", "USB MSC_"); // Note: USBMSD is something else (a library?)
+            correctionAdd("MSC_", "USB MSC_");
+            correctionAdd("MSD_", "USB MSC_");
+            correctionAdd("UMS_", "USB MSC_");
+
+            // USB
+            correctionAdd("Start of Frame_", "SOF_");
+            correctionAdd("Start-of-frame_", "SOF_");
+            correctionAdd("start of frame_", "SOF_");
+            correctionAdd("start-of-frame_", "SOF_");
+            correctionAdd("sof_", "SOF_");
+
+            correctionAdd("revision code_", "USB side version_");
+            correctionAdd("bcdDevice_", "USB side version_");
+            correctionAdd("version_", "USB side version_");
+
+            // Alternative URLs:
+            //
+            //   <https://i.imgur.com/xaj1qvs.jpeg>
+            //     Loose USB connector
+            //
+            //     Referenced in: <https://www.reddit.com/r/Keychron/comments/1it1m0u/comment/mjbbz91/>
+            //
+            //       Old: <https://www.reddit.com/r/Keychron/comments/1it1m0u/comment/mdm2cf6/>
+            //
+            //     Note: Requires JavaScript to be allowed from
+            //           'cloudfront.net' to not be surrounded
+            //           by Imgur goo.
+            //
+            //     Tag: Loose. USB. Keychron. Connector.
+            //
+            //   <https://imgur.com/cYsmJtH>
+            //     The V Max, at least the V3 Max, has internal connectors.
+            //     From <https://www.reddit.com/r/Keychron/comments/1t0fstn/v3_max_usb_board/>
+            //
+            correctionAdd("loose internal USB connector_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose internal connectors_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose internal connector_", "loose connectors in Keychron keyboards_");
+            correctionAdd("internal connectors_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose USB connector_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose connectors_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose connector_", "loose connectors in Keychron keyboards_");
+            correctionAdd("loose_", "loose connectors in Keychron keyboards_");
+
+            correctionAdd("USB Power Delivery_", "USB power delivery_");
+            correctionAdd("Power Delivery_", "USB power delivery_");
+            correctionAdd("USB-PD_", "USB power delivery_");
+            correctionAdd("PD_", "USB power delivery_");
+
+            // Electronics
+            correctionAdd("power_", "electric power_");
+            correctionAdd("Power_", "electric power_");
+            correctionAdd("P_", "electric power_");
+
+            // The noun
+            correctionAdd("power down_", "power-down_");
+            correctionAdd("powerdown_", "power-down_");
+
+            // The noun
+            correctionAdd("power up_", "power-up_");
+            correctionAdd("powerup_", "power-up_");
+
+            // The noun
+            correctionAdd("power cyccle_", "power cycle_");
+            correctionAdd("power cyckle_", "power cycle_");
+            correctionAdd("power-cycle_", "power cycle_");
+            correctionAdd("power cycke_", "power cycle_");
+
+            // For the expanded version
+            correctionAdd("PSU_", "power supply unit_");
+
+            correctionAdd("atomic power station_", "nuclear power plant_");
+            correctionAdd("NPP_", "nuclear power plant_");
+            correctionAdd("APS_", "nuclear power plant_");
+
+            // Idiomatic
+            //
+            correctionAdd("making all the molecules of hostesses' undergarments leap simultaneously one foot to the left_", "out of thin air_"); // For the cross-reference
+            correctionAdd("out of the air_", "out of thin air_");
+
+            correctionAdd("quiete_", "quite_");
+            correctionAdd("quiet_", "quite_");
+            correctionAdd("wuite_", "quite_");
+            correctionAdd("suite_", "quite_"); // Possibly a true typo
+            correctionAdd("qute_", "quite_");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            //
+            // Alternative URL:
+            //
+            //   <https://www.youtube.com/watch?v=eAswvg60FnY&t=53s>
+            //     For "almost, but not quite entirely, unlike tea"
+            //
+            //     00 min 53 secs.
+            //
+            //   <https://www.youtube.com/watch?v=5wAuDhoRmzg&t=9m37s>
+            //
+            //   <https://www.youtube.com/watch?v=fxEqIt-NUSY&t=43s>
+            //     "There is something jamming my guidance systems."
+            //
+            // "East India Company" is also in this part (and also in the
+            // original radio show?).
+            //
+            correctionAdd("almost, but not quite entirely, unlike tea_", "So I am a masochist on a diet, am I?_");
+            correctionAdd("masochist on a diet_", "So I am a masochist on a diet, am I?_");
+            correctionAdd("masochist_", "So I am a masochist on a diet, am I?_");
+            correctionAdd("on a diet_", "So I am a masochist on a diet, am I?_");
+
+            // In 'The Hitchhiker's Guide to the Galaxy' (Vogon poetry)
+            //
+            // The reference is broken now...
+            //
+            // 'unlucky' (and 'lucky'): At 07 min 30 secs
+            //
+            correctionAdd("if you are unlucky_", "if you are very lucky, I will read some of my poetry first_");
+            correctionAdd("if you are lucky_", "if you are very lucky, I will read some of my poetry first_");
+            correctionAdd("are lucky_", "if you are very lucky, I will read some of my poetry first_");
+            correctionAdd("unlucky_", "if you are very lucky, I will read some of my poetry first_");
+            correctionAdd("lucky_", "if you are very lucky, I will read some of my poetry first_");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'. The book.
+            correctionAdd("time travel_", "The main problem in time travel is that of grammar_");
+
+            correctionAdd("Time machine_", "time machine_");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'. Arthur Dent.
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/East_India_Company>
+            //
+            correctionAdd("East Indian Company_", "East India Company_");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'. Arthur Dent.
+            //
+            correctionAdd("You soon will be, baby_", "dying for a cup of tea_");
+            correctionAdd("You soon will be_", "dying for a cup of tea_");
+            correctionAdd("you soon will be_", "dying for a cup of tea_");
+            correctionAdd("cup of tea_", "dying for a cup of tea_");
+            correctionAdd("tea_", "dying for a cup of tea_");
+
+            // In 'The Hitchhiker's Guide to the Galaxy'
+            correctionAdd("this planet_", "an utterly insignificant little blue-green planet_");
+            correctionAdd("Earth_", "an utterly insignificant little blue-green planet_"); // For the cross-reference
+
+            // For the shorthand (often used).
+            //
+            // Not to be confused with Linux' "Maui" (the only difference
+            // is the casing) AKA "Multi-Adaptable User Interface"
+            //
+            // Otherwise, it is "app" (.NET) vs. "adaptable" (Linux).
+            //
+            correctionAdd("Multi-platform App UI_", ".NET MAUI_");
+            correctionAdd(".NET Maui_", ".NET MAUI_");
+            correctionAdd(".net Maui_", ".NET MAUI_");
+            correctionAdd(".net MAUI_", ".NET MAUI_");
+            correctionAdd("maui_", ".NET MAUI_");
+
+            // A .NET function
+            correctionAdd("TrimEnd_", "String.TrimEnd()_");
+
+            // The .NET one.
+            correctionAdd("Common Intermediate Language_", "CIL_");
+            correctionAdd("MSIL_", "CIL_");
+            correctionAdd("msil_", "CIL_");
+            correctionAdd("cil_", "CIL_");
+            correctionAdd("il_", "CIL_");
+            correctionAdd("IL_", "CIL_");
+
+            correctionAdd("ASP classic_", "ASP Classic_");
+            correctionAdd("asp classic_", "ASP Classic_");
+            correctionAdd("Asp Classic_", "ASP Classic_");
+            correctionAdd("Classic ASP_", "ASP Classic_");
+            correctionAdd("classic ASP_", "ASP Classic_");
+            correctionAdd("Classic-ASP_", "ASP Classic_");
+            correctionAdd("classic asp_", "ASP Classic_");
+            correctionAdd("Classic Asp_", "ASP Classic_");
+            correctionAdd("ASPclassic_", "ASP Classic_");
+            correctionAdd("classicASP_", "ASP Classic_");
+            correctionAdd("classicasp_", "ASP Classic_");
+            correctionAdd("old ASP_", "ASP Classic_"); // Synonym.
+            correctionAdd("asp_", "ASP Classic_");
+            correctionAdd("ASP_", "ASP Classic_");
+
+            // .NET. Related to ASP.NET
+            //
+            // Alternative URLs:
+            //
+            //   <https://stackoverflow.com/questions/58090626/which-is-the-real-asp-net-boilerplate-project/58090974#58090974>
+            //
+            correctionAdd("abp_", "ABP Framework_");
 
             correctionAdd("hadndle_", "handle_");
             correctionAdd("handel_", "handle_");
@@ -152586,19 +152872,18 @@ namespace OverflowHelper.core
 
             correctionAdd("MSK_", "Moscow time zone_");
 
-            correctionAdd("timestamp_", "ISO&nbsp;8601_");
-            correctionAdd("iso 8601_", "ISO&nbsp;8601_");
-            correctionAdd("ISO 8601_", "ISO&nbsp;8601_");
-            correctionAdd("ISO-8601_", "ISO&nbsp;8601_");
-            correctionAdd("iso-8601_", "ISO&nbsp;8601_");
-            correctionAdd("ISO 8901_", "ISO&nbsp;8601_");
-            correctionAdd("ISO date_", "ISO&nbsp;8601_");
-            correctionAdd("ISO8601_", "ISO&nbsp;8601_");
-            correctionAdd("iso8601_", "ISO&nbsp;8601_");
-            correctionAdd("8601_", "ISO&nbsp;8601_");
-            correctionAdd("8901_", "ISO&nbsp;8601_");
-            correctionAdd("ISO_", "ISO&nbsp;8601_");
-            correctionAdd("Iso_", "ISO&nbsp;8601_");
+            correctionAdd("timestamp_", "ISO 8601_");
+            correctionAdd("iso 8601_", "ISO 8601_");
+            correctionAdd("ISO-8601_", "ISO 8601_");
+            correctionAdd("iso-8601_", "ISO 8601_");
+            correctionAdd("ISO 8901_", "ISO 8601_");
+            correctionAdd("ISO date_", "ISO 8601_");
+            correctionAdd("ISO8601_", "ISO 8601_");
+            correctionAdd("iso8601_", "ISO 8601_");
+            correctionAdd("8601_", "ISO 8601_");
+            correctionAdd("8901_", "ISO 8601_");
+            correctionAdd("ISO_", "ISO 8601_");
+            correctionAdd("Iso_", "ISO 8601_");
 
             correctionAdd("canadates_", "candidates_");
             correctionAdd("Canadates_", "candidates_");
@@ -155618,53 +155903,6 @@ namespace OverflowHelper.core
             correctionAdd("Cmd_", "Apple key AKA Command key_"); // The official short name
             correctionAdd("⌘_", "Apple key AKA Command key_");
 
-            // For the shorthand (often used).
-            //
-            // Not to be confused with Linux' "Maui" (the only difference
-            // is the casing) AKA "Multi-Adaptable User Interface"
-            //
-            // Otherwise, it is "app" (.NET) vs. "adaptable" (Linux).
-            //
-            correctionAdd("Multi-platform App UI_", ".NET MAUI_");
-            correctionAdd(".NET Maui_", ".NET MAUI_");
-            correctionAdd(".net Maui_", ".NET MAUI_");
-            correctionAdd(".net MAUI_", ".NET MAUI_");
-            correctionAdd("maui_", ".NET MAUI_");
-
-            // A .NET function
-            correctionAdd("TrimEnd_", "String.TrimEnd()_");
-
-            // The .NET one.
-            correctionAdd("Common Intermediate Language_", "CIL_");
-            correctionAdd("MSIL_", "CIL_");
-            correctionAdd("msil_", "CIL_");
-            correctionAdd("cil_", "CIL_");
-            correctionAdd("il_", "CIL_");
-            correctionAdd("IL_", "CIL_");
-
-            correctionAdd("ASP classic_", "ASP Classic_");
-            correctionAdd("asp classic_", "ASP Classic_");
-            correctionAdd("Asp Classic_", "ASP Classic_");
-            correctionAdd("Classic ASP_", "ASP Classic_");
-            correctionAdd("classic ASP_", "ASP Classic_");
-            correctionAdd("Classic-ASP_", "ASP Classic_");
-            correctionAdd("classic asp_", "ASP Classic_");
-            correctionAdd("Classic Asp_", "ASP Classic_");
-            correctionAdd("ASPclassic_", "ASP Classic_");
-            correctionAdd("classicASP_", "ASP Classic_");
-            correctionAdd("classicasp_", "ASP Classic_");
-            correctionAdd("old ASP_", "ASP Classic_"); // Synonym.
-            correctionAdd("asp_", "ASP Classic_");
-            correctionAdd("ASP_", "ASP Classic_");
-
-            // .NET. Related to ASP.NET
-            //
-            // Alternative URLs:
-            //
-            //   <https://stackoverflow.com/questions/58090626/which-is-the-real-asp-net-boilerplate-project/58090974#58090974>
-            //
-            correctionAdd("abp_", "ABP Framework_");
-
             correctionAdd("cd_", "CD_");
 
             correctionAdd("continiuous_", "continuous_");
@@ -155929,76 +156167,6 @@ namespace OverflowHelper.core
             correctionAdd("qota_", "quota_");
 
             correctionAdd("qotas_", "quotas_");
-
-            correctionAdd("quiete_", "quite_");
-            correctionAdd("quiet_", "quite_");
-            correctionAdd("wuite_", "quite_");
-            correctionAdd("suite_", "quite_"); // Possibly a true typo
-            correctionAdd("qute_", "quite_");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'
-            //
-            // Alternative URL:
-            //
-            //   <https://www.youtube.com/watch?v=eAswvg60FnY&t=53s>
-            //     For "almost, but not quite entirely, unlike tea"
-            //
-            //     00 min 53 secs.
-            //
-            //   <https://www.youtube.com/watch?v=5wAuDhoRmzg&t=9m37s>
-            //
-            //   <https://www.youtube.com/watch?v=fxEqIt-NUSY&t=43s>
-            //     "There is something jamming my guidance systems."
-            //
-            // "East India Company" is also in this part (and also in the
-            // original radio show?).
-            //
-            correctionAdd("almost, but not quite entirely, unlike tea_", "So I am a masochist on a diet, am I?_");
-            correctionAdd("masochist on a diet_", "So I am a masochist on a diet, am I?_");
-            correctionAdd("masochist_", "So I am a masochist on a diet, am I?_");
-            correctionAdd("on a diet_", "So I am a masochist on a diet, am I?_");
-
-            // In 'The Hitchhiker's Guide to the Galaxy' (Vogon poetry)
-            //
-            // The reference is broken now...
-            //
-            // 'unlucky' (and 'lucky'): At 07 min 30 secs
-            //
-            correctionAdd("if you are unlucky_", "if you are very lucky, I will read some of my poetry first_");
-            correctionAdd("if you are lucky_", "if you are very lucky, I will read some of my poetry first_");
-            correctionAdd("are lucky_", "if you are very lucky, I will read some of my poetry first_");
-            correctionAdd("unlucky_", "if you are very lucky, I will read some of my poetry first_");
-            correctionAdd("lucky_", "if you are very lucky, I will read some of my poetry first_");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'. The book.
-            correctionAdd("time travel_", "The main problem in time travel is that of grammar_");
-
-            correctionAdd("Time machine_", "time machine_");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'. Arthur Dent.
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/East_India_Company>
-            //
-            correctionAdd("East Indian Company_", "East India Company_");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'. Arthur Dent.
-            //
-            correctionAdd("You soon will be, baby_", "dying for a cup of tea_");
-            correctionAdd("You soon will be_", "dying for a cup of tea_");
-            correctionAdd("you soon will be_", "dying for a cup of tea_");
-            correctionAdd("cup of tea_", "dying for a cup of tea_");
-            correctionAdd("tea_", "dying for a cup of tea_");
-
-            // In 'The Hitchhiker's Guide to the Galaxy'
-            correctionAdd("this planet_", "an utterly insignificant little blue-green planet_");
-            correctionAdd("Earth_", "an utterly insignificant little blue-green planet_"); // For the cross-reference
-
-            // Idiomatic
-            //
-            correctionAdd("making all the molecules of hostesses' undergarments leap simultaneously one foot to the left_", "out of thin air_"); // For the cross-reference
-            correctionAdd("out of the air_", "out of thin air_");
 
             correctionAdd("BA_", "business analyst_");
 
@@ -157615,154 +157783,6 @@ namespace OverflowHelper.core
             correctionAdd("sped_", "speeded_");
 
             correctionAdd("speedup_", "speed up_");
-
-            // Only observed misspelt in 2026 (though introduced in 2025)
-            //
-            // From German?
-            correctionAdd("celle_", "cell_");
-            correctionAdd("sale_", "cell_");
-
-            correctionAdd("handy_", "mobile phone_");
-
-            correctionAdd("Mobile App_", "mobile app_");
-            correctionAdd("m0bile app_", "mobile app_");
-
-            correctionAdd("Mobile Apps_", "mobile apps_");
-
-            // A manufacturer of consumer electronics, etc.
-            // For example, smartphones and TVs.
-            //
-            correctionAdd("LG Electronics_", "LG_");
-            correctionAdd("lg_", "LG_");
-
-            // Electronics
-            //
-            // Alternative URLs:
-            //
-            //  <https://www.youtube.com/watch?v=rPGoMbVSUu8>
-            //
-            correctionAdd("multi meter_", "multimeter_");
-            correctionAdd("Multimeter_", "multimeter_");
-            correctionAdd("multineter_", "multimeter_");
-            correctionAdd("moldymeter_", "multimeter_");
-            correctionAdd("multimete_", "multimeter_");
-            correctionAdd("milimeter_", "multimeter_");
-            correctionAdd("mm_", "multimeter_");
-
-            // Electronics
-            correctionAdd("dip_", "DIP_");
-            correctionAdd("Dip_", "DIP_");
-
-            // A physical connector (electronics)
-            correctionAdd("JST_", "JST connector_");
-
-            // Electronics
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1xcdie8/diy_low_profile_pin_headers/>
-            //
-            correctionAdd("pin headers_", "pin header_");
-            correctionAdd("headers_", "pin header_");
-            correctionAdd("header_", "pin header_");
-
-            // Electronics
-            correctionAdd("coaxial cable_", "coax_");
-            correctionAdd("co-ax_", "coax_");
-
-            correctionAdd("usb_", "USB_");
-            correctionAdd("Usb_", "USB_");
-            correctionAdd("USN_", "USB_");
-            correctionAdd("UBS_", "USB_");
-            correctionAdd("ISB_", "USB_"); // A true typo
-            correctionAdd("SUB_", "USB_"); // A true typo
-            correctionAdd("sub_", "USB_"); // A true typo
-
-            // Mostly for the cross-reference
-            correctionAdd("USB-HID_", "USB HID_");
-            correctionAdd("HID_", "USB HID_");
-
-            // SC for 'storage class'?
-            correctionAdd("USB mass storage device class_", "USB MSC_");
-            correctionAdd("mass storage device class_", "USB MSC_");
-            correctionAdd("mass storaage device_", "USB MSC_");
-            correctionAdd("mass storage device_", "USB MSC_");
-            correctionAdd("USB Mass Storage_", "USB MSC_");
-            correctionAdd("USB mass storage_", "USB MSC_");
-            correctionAdd("USBMSC_", "USB MSC_"); // Note: USBMSD is something else (a library?)
-            correctionAdd("MSC_", "USB MSC_");
-            correctionAdd("MSD_", "USB MSC_");
-            correctionAdd("UMS_", "USB MSC_");
-
-            // USB
-            correctionAdd("Start of Frame_", "SOF_");
-            correctionAdd("Start-of-frame_", "SOF_");
-            correctionAdd("start of frame_", "SOF_");
-            correctionAdd("start-of-frame_", "SOF_");
-            correctionAdd("sof_", "SOF_");
-
-            correctionAdd("revision code_", "USB side version_");
-            correctionAdd("bcdDevice_", "USB side version_");
-            correctionAdd("version_", "USB side version_");
-
-            // Alternative URLs:
-            //
-            //   <https://i.imgur.com/xaj1qvs.jpeg>
-            //     Loose USB connector
-            //
-            //     Referenced in: <https://www.reddit.com/r/Keychron/comments/1it1m0u/comment/mjbbz91/>
-            //
-            //       Old: <https://www.reddit.com/r/Keychron/comments/1it1m0u/comment/mdm2cf6/>
-            //
-            //     Note: Requires JavaScript to be allowed from
-            //           'cloudfront.net' to not be surrounded
-            //           by Imgur goo.
-            //
-            //     Tag: Loose. USB. Keychron. Connector.
-            //
-            //   <https://imgur.com/cYsmJtH>
-            //     The V Max, at least the V3 Max, has internal connectors.
-            //     From <https://www.reddit.com/r/Keychron/comments/1t0fstn/v3_max_usb_board/>
-            //
-            correctionAdd("loose internal USB connector_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose internal connectors_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose internal connector_", "loose connectors in Keychron keyboards_");
-            correctionAdd("internal connectors_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose USB connector_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose connectors_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose connector_", "loose connectors in Keychron keyboards_");
-            correctionAdd("loose_", "loose connectors in Keychron keyboards_");
-
-            correctionAdd("USB Power Delivery_", "USB power delivery_");
-            correctionAdd("Power Delivery_", "USB power delivery_");
-            correctionAdd("USB-PD_", "USB power delivery_");
-            correctionAdd("PD_", "USB power delivery_");
-
-            // Electronics
-            correctionAdd("power_", "electric power_");
-            correctionAdd("Power_", "electric power_");
-            correctionAdd("P_", "electric power_");
-
-            // The noun
-            correctionAdd("power down_", "power-down_");
-            correctionAdd("powerdown_", "power-down_");
-
-            // The noun
-            correctionAdd("power up_", "power-up_");
-            correctionAdd("powerup_", "power-up_");
-
-            // The noun
-            correctionAdd("power cyccle_", "power cycle_");
-            correctionAdd("power cyckle_", "power cycle_");
-            correctionAdd("power-cycle_", "power cycle_");
-            correctionAdd("power cycke_", "power cycle_");
-
-            // For the expanded version
-            correctionAdd("PSU_", "power supply unit_");
-
-            correctionAdd("atomic power station_", "nuclear power plant_");
-            correctionAdd("NPP_", "nuclear power plant_");
-            correctionAdd("APS_", "nuclear power plant_");
 
             correctionAdd("tempertaure_", "temperature_");
             correctionAdd("Temperature_", "temperature_");
@@ -169087,7 +169107,7 @@ namespace OverflowHelper.core
 
             URL_Add("T/P_", "https://www.investopedia.com/terms/t/take-profitorder.asp");
 
-            URL_Add("ISO&nbsp;8601_", "https://en.wikipedia.org/wiki/ISO_8601");
+            URL_Add("ISO 8601_", "https://en.wikipedia.org/wiki/ISO_8601");
 
             URL_Add("Apache Calcite_", "https://en.wikipedia.org/wiki/Apache_Calcite");
 
@@ -171725,28 +171745,6 @@ namespace OverflowHelper.core
 
             URL_Add("PCI_", "https://en.wikipedia.org/wiki/Peripheral_Component_Interconnect"); // Old: <https://en.wikipedia.org/wiki/Conventional_PCI>
 
-            URL_Add("multi_", "https://en.wiktionary.org/wiki/multi-#Prefix");
-
-            URL_Add("multimeter_", "https://en.wikipedia.org/wiki/Multimeter");
-
-            URL_Add("multiples_", "https://en.wiktionary.org/wiki/multiple#Noun");
-
-            URL_Add("multiplex_", "https://en.wiktionary.org/wiki/multiplex#Verb");
-
-            URL_Add("multitasking_", "https://en.wiktionary.org/wiki/multitasking#Noun");
-
-            URL_Add("Basic Multilingual Plane_", "https://en.wikipedia.org/wiki/Plane_(Unicode)");
-
-            URL_Add("bootloader mode_", "https://en.wikipedia.org/wiki/Bootloader#Embedded_and_multi-stage_boot_loaders");
-
-            URL_Add("thread_", "https://en.wiktionary.org/wiki/thread#Noun");
-
-            URL_Add("multithreaded programs_", "https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)");
-
-            URL_Add("POSIX Threads_", "https://en.wikipedia.org/wiki/Pthreads");
-
-            URL_Add("Multi-Threaded Apartment_", "https://en.wikipedia.org/wiki/Component_Object_Model#Threading");
-
             URL_Add("PEAK_", "https://www.peak-system.com/Contact.54.0.html");
 
             URL_Add("Text Editor_", "https://help.ubuntu.com/community/gedit");
@@ -172769,7 +172767,7 @@ namespace OverflowHelper.core
 
             URL_Add("Copilot (copyright laundering machine)_", "https://odysee.com/@TheLinuxExperiment:e/microsoft-isn't-the-enemy-of-linux-and:3");
 
-            URL_Add("Hugging&nbsp;Face_", "https://en.wikipedia.org/wiki/Hugging_Face");
+            URL_Add("Hugging Face_", "https://en.wikipedia.org/wiki/Hugging_Face");
 
             URL_Add("Anthropic_", "https://en.wikipedia.org/wiki/Anthropic");
 
@@ -172809,13 +172807,9 @@ namespace OverflowHelper.core
 
             URL_Add("page attribute table_", "https://en.wikipedia.org/wiki/Page_attribute_table");
 
-            URL_Add("Little Bobby Tables_", "https://www.explainxkcd.com/wiki/index.php/327:_Exploits_of_a_Mom");
-
             URL_Add("Portable Executable (PE)_", "https://en.wikipedia.org/wiki/Portable_Executable");
 
             URL_Add("type library file_", "https://learn.microsoft.com/en-us/windows/win32/midl/com-dcom-and-type-libraries");
-
-            URL_Add("Delta Live Tables_", "https://learn.microsoft.com/en-us/azure/databricks/delta-live-tables/");
 
             URL_Add("Kusto.Explorer_", "https://learn.microsoft.com/en-us/azure/data-explorer/kusto/tools/kusto-explorer");
 
@@ -173090,6 +173084,32 @@ namespace OverflowHelper.core
             URL_Add("Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("instant messaging_", "https://en.wikipedia.org/wiki/Instant_messaging");
+
+            URL_Add("Little Bobby Tables_", "https://www.explainxkcd.com/wiki/index.php/327:_Exploits_of_a_Mom");
+
+            URL_Add("Delta Live Tables_", "https://learn.microsoft.com/en-us/azure/databricks/delta-live-tables/");
+
+            URL_Add("multi_", "https://en.wiktionary.org/wiki/multi-#Prefix");
+
+            URL_Add("multiple_", "https://en.wiktionary.org/wiki/multiple#Noun");
+
+            URL_Add("multimeter_", "https://en.wikipedia.org/wiki/Multimeter");
+
+            URL_Add("multiplex_", "https://en.wiktionary.org/wiki/multiplex#Verb");
+
+            URL_Add("multitasking_", "https://en.wiktionary.org/wiki/multitasking#Noun");
+
+            URL_Add("Multi-Threaded Apartment_", "https://en.wikipedia.org/wiki/Component_Object_Model#Threading");
+
+            URL_Add("Basic Multilingual Plane_", "https://en.wikipedia.org/wiki/Plane_(Unicode)");
+
+            URL_Add("bootloader mode_", "https://en.wikipedia.org/wiki/Bootloader#Embedded_and_multi-stage_boot_loaders");
+
+            URL_Add("thread_", "https://en.wiktionary.org/wiki/thread#Noun");
+
+            URL_Add("multithreaded programs_", "https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)");
+
+            URL_Add("POSIX Threads_", "https://en.wikipedia.org/wiki/Pthreads");
 
         } //addLookupData_alternativeWordSet()
 
@@ -178791,8 +178811,6 @@ namespace OverflowHelper.core
 
             URL_Add("grade F__", "https://en.wikipedia.org/wiki/Academic_grading_in_the_United_States#Grades_A%E2%80%93F_in_the_United_States");
 
-            URL_Add("Markdown tables__", "https://meta.stackexchange.com/questions/356997/new-feature-table-support");
-
             URL_Add("Multi-Adaptable User Interface__", "https://mauikit.org/");
 
             URL_Add("multimedia__", "https://en.wikipedia.org/wiki/Multimedia");
@@ -179592,6 +179610,8 @@ namespace OverflowHelper.core
             URL_Add("credit card__", "https://en.wikipedia.org/wiki/Credit_card");
 
             URL_Add("rapid trigger__", "https://www.wired.com/review/keychron-q1-he/");
+
+            URL_Add("Markdown tables__", "https://meta.stackexchange.com/questions/356997/new-feature-table-support");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -182210,6 +182230,10 @@ namespace OverflowHelper.core
             correctionAdd("parole officer___", "probation officer___");
             correctionAdd("PO___", "probation officer___");
 
+            correctionAdd("multiplums___", "multiples___");
+            correctionAdd("multiple___", "multiples___");
+            correctionAdd("multipla___", "multiples___");
+
             // Of the "B" programming language (also by Dennis Ritchie)
             //
             // Alternative URLs:
@@ -182827,6 +182851,8 @@ namespace OverflowHelper.core
             URL_Add("Lemokey P Pro series___", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
 
             URL_Add("Lemokey X series___", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
+
+            URL_Add("multiples___", "https://en.wiktionary.org/wiki/multiple#Noun");
 
         } //addLookupData_alternativeWordSet3()
 
