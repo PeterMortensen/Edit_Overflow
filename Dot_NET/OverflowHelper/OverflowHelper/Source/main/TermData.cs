@@ -9359,6 +9359,7 @@ namespace OverflowHelper.core
             correctionAdd("pooitng", "pointing");
             correctionAdd("pooting", "pointing");
 
+            correctionAdd("poi Ted", "pointed"); // A true typo (involving the space bar)
             correctionAdd("ponted", "pointed");
 
             correctionAdd("re-point", "repoint");
@@ -16997,6 +16998,18 @@ namespace OverflowHelper.core
             correctionAdd("uH", "&nbsp;µH");
             correctionAdd("µH", "&nbsp;µH"); // Note: "µ" is U+00B5 (µ MICRO SIGN (seaer)).
             correctionAdd("μH", "&nbsp;µH"); // Note: "μ" is U+03BC (μ GREEK SMALL LETTER MU).
+
+            // Electronics. A unit (of magnetic field strength)
+            // 1 oersted = about 80 A/m (SI)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Magnetic_field#The_H-field>
+            //   <https://en.wiktionary.org/wiki/Oe#Symbol>
+            //
+            correctionAdd("oersted", "&nbsp;Oe");
+            correctionAdd("oe", "&nbsp;Oe");
+            correctionAdd("Oe", "&nbsp;Oe"); // Sort of identity mapping
 
             // Electronics. A unit (of magnetic flux density)
             // 1 tesla (SI) = 10,000 gauss
@@ -25001,6 +25014,7 @@ namespace OverflowHelper.core
             correctionAdd("electro-dynamical", "electrodynamical");
 
             correctionAdd("fermi energy", "Fermi energy");
+            correctionAdd("Fermi Energy", "Fermi energy");
 
             correctionAdd("brian greene", "Brian Greene");
 
@@ -51493,6 +51507,8 @@ namespace OverflowHelper.core
             //     example, measuring a voltage does not inherently
             //     consume more power (on the contrary).
             //
+            correctionAdd("Tunneling Magnetoresistance", "tunnel magnetoresistance");
+            correctionAdd("tunneling magnetoresistance", "tunnel magnetoresistance");
             correctionAdd("TMR", "tunnel magnetoresistance");
             correctionAdd("tmr", "tunnel magnetoresistance");
 
@@ -81520,6 +81536,10 @@ namespace OverflowHelper.core
 
             correctionAdd("waters are muddy", "muddied the waters");
 
+            correctionAdd("The waters have been muddied", "the waters have been muddied");
+            correctionAdd("have been muddied", "the waters have been muddied");
+            correctionAdd("been muddied", "the waters have been muddied");
+
             correctionAdd("water tight", "watertight");
 
             correctionAdd("tightned", "tightened");
@@ -84865,8 +84885,6 @@ namespace OverflowHelper.core
             //
             //     What about the C0 HE series??
             //
-            correctionAdd("Keychron&nbsp;C0&nbsp;HE&nbsp;8K", "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("C0&nbsp;HE&nbsp;8K", "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Keychron C0 HE 8K", "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Keychron C0 HE", "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)");
             correctionAdd("C0 HE 8K", "Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)");
@@ -86695,10 +86713,9 @@ namespace OverflowHelper.core
             //
             //     What about the Q HE 8K series???
             //
-            correctionAdd("Keychron Q2 HE 8K (65%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Keychron Q2 HE 8K", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q2 HE 8K", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("q2 he 8k", "Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Q2 HE 8K", "Keychron Q2 HE 8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q2 HE 8K", "Keychron Q2 HE 8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("q2 he 8k", "Keychron Q2 HE 8K (65%) (proprietary keyboard firmware, not open source)");
 
             // A 67-key (65%. Not true TKL) severely crippled
             // wired-only QMK/Via-capable mechanical keyboard
@@ -87516,16 +87533,13 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-q16-he-8k-user-manual>
             //
-            correctionAdd("Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Keychron&nbsp;Q16&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q16&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Keychron Q16 HE 8K", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Q16 HE 8K", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q16 HE", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("q16 he", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("q16he", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q16", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("q16", "Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Q16 HE 8K", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("Q16 HE 8K", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q16 HE", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("q16 he", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("q16he", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q16", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("q16", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)");
 
             // A 72-key (70%. Not true TKL) severely crippled wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -88291,17 +88305,13 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-q1-he-8k-user-manual>
             //
-            correctionAdd("Keychron Q1 HE 8K (80%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%)", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Keychron&nbsp;Q1&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Keychron Q1 HE 8K (80%)", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Q1&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Keychron Q1 HE 8K", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q1 Ultra 8K HE", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q1 Ultra 8k HE", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q1 HE 8K", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q1 HE 8k", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("q1 he 8k", "Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Q1 HE 8K (80%)", "Keychron Q1 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Q1 HE 8K", "Keychron Q1 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q1 Ultra 8K HE", "Keychron Q1 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q1 Ultra 8k HE", "Keychron Q1 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q1 HE 8K", "Keychron Q1 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q1 HE 8k", "Keychron Q1 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("q1 he 8k", "Keychron Q1 HE 8K (80%) (proprietary keyboard firmware, not open source)");
 
             // A 82-key (80%. Not true TKL) crippled wired-only
             // QMK/Via-capable mechanical keyboard
@@ -90600,13 +90610,12 @@ namespace OverflowHelper.core
             //     The ISO source code wasn't released until 2025-07-22
             //     (but when was the keyboard variant introduced?).
             //
-            correctionAdd("Keychron Q3 HE (85%)", "Keychron&nbsp;Q3&nbsp;HE (85%)"); // Sort of identity mapping
-            correctionAdd("Keychron Q3 HE", "Keychron&nbsp;Q3&nbsp;HE (85%)");
-            correctionAdd("Q3 HE", "Keychron&nbsp;Q3&nbsp;HE (85%)");
-            correctionAdd("q3 he", "Keychron&nbsp;Q3&nbsp;HE (85%)");
-            correctionAdd("q3 HE", "Keychron&nbsp;Q3&nbsp;HE (85%)");
-            correctionAdd("Q3He", "Keychron&nbsp;Q3&nbsp;HE (85%)");
-            correctionAdd("q3HE", "Keychron&nbsp;Q3&nbsp;HE (85%)");
+            correctionAdd("Keychron Q3 HE", "Keychron Q3 HE (85%)");
+            correctionAdd("Q3 HE", "Keychron Q3 HE (85%)");
+            correctionAdd("q3 he", "Keychron Q3 HE (85%)");
+            correctionAdd("q3 HE", "Keychron Q3 HE (85%)");
+            correctionAdd("Q3He", "Keychron Q3 HE (85%)");
+            correctionAdd("q3HE", "Keychron Q3 HE (85%)");
 
             // A 88-key (85%. True TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
@@ -90666,16 +90675,15 @@ namespace OverflowHelper.core
             //
             //     What about the Q HE 8K series???
             //
-            correctionAdd("Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Keychron&nbsp;Q3&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Keychron Q3 HE 8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8 Khz", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8 kHz", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8Khz", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8kHz", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8K", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8k", "Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron&nbsp;Q3&nbsp;HE&nbsp;8K", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3&nbsp;HE&nbsp;8K", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Q3 HE 8K", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8 Khz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8 kHz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8Khz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8kHz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8K", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8k", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
 
             // A 88-key (85%. True TKL) crippled low-profile wired and
             // wireless (only Bluetooth) QMK/Via-capable
@@ -93553,12 +93561,9 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-c2-pro-user-manual>
             //
-            correctionAdd("Keychron C4 HE 8K (100%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Keychron&nbsp;C4&nbsp;HE&nbsp;8K", "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("C4&nbsp;HE&nbsp;8K", "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Keychron C4 HE 8K", "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("C4 HE 8K", "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("C4 HE", "Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron C4 HE 8K", "Keychron C4 HE 8K (100%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
+            correctionAdd("C4 HE 8K", "Keychron C4 HE 8K (100%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("C4 HE", "Keychron C4 HE 8K (100%) (proprietary keyboard firmware, not open source)");
 
             // A 105-key (100%. Not true TKL) full-size wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -94775,16 +94780,13 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/q6_he>
             //     Note: In a new Git branch, "hall_effect_playground"
             //
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE", "Keychron&nbsp;Q6&nbsp;HE (105%)");
-            correctionAdd("Keychron Q6 HE (105%)", "Keychron&nbsp;Q6&nbsp;HE (105%)"); // Sort of identity mapping
-            correctionAdd("Keychron Q6 HE", "Keychron&nbsp;Q6&nbsp;HE (105%)"); // Sort of identity mapping
-            correctionAdd("Q HE series", "Keychron&nbsp;Q6&nbsp;HE (105%)"); // For the cross-reference
-            correctionAdd("Q6&nbsp;HE", "Keychron&nbsp;Q6&nbsp;HE (105%)");
-            correctionAdd("Q6 HE", "Keychron&nbsp;Q6&nbsp;HE (105%)");
-            correctionAdd("q6 he", "Keychron&nbsp;Q6&nbsp;HE (105%)");
-            correctionAdd("q6 HE", "Keychron&nbsp;Q6&nbsp;HE (105%)");
-            correctionAdd("Q6 He", "Keychron&nbsp;Q6&nbsp;HE (105%)");
-            correctionAdd("H6", "Keychron&nbsp;Q6&nbsp;HE (105%)");
+            correctionAdd("Keychron Q6 HE", "Keychron Q6 HE (105%)");
+            correctionAdd("Q HE series", "Keychron Q6 HE (105%)"); // For the cross-reference
+            correctionAdd("Q6 HE", "Keychron Q6 HE (105%)");
+            correctionAdd("q6 he", "Keychron Q6 HE (105%)");
+            correctionAdd("q6 HE", "Keychron Q6 HE (105%)");
+            correctionAdd("Q6 He", "Keychron Q6 HE (105%)");
+            correctionAdd("H6", "Keychron Q6 HE (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -94881,15 +94883,12 @@ namespace OverflowHelper.core
             //
             //     Near "Q6 HE 8K knob"
             //
-            correctionAdd("Keychron Q6 HE 8K (105%) (proprietary keyboard firmware, not open source)", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q6&nbsp;HE&nbsp;8K", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Keychron Q6 HE 8K", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q6 HE 8K", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("q6 he 8k", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q6 HE 8k", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("HE 8K", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("HE 8k", "Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Q6 HE 8K", "Keychron Q6 HE 8K (105%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q6 HE 8K", "Keychron Q6 HE 8K (105%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("q6 he 8k", "Keychron Q6 HE 8K (105%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q6 HE 8k", "Keychron Q6 HE 8K (105%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("HE 8K", "Keychron Q6 HE 8K (105%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("HE 8k", "Keychron Q6 HE 8K (105%) (proprietary keyboard firmware, not open source)");
 
             // A 109-key (105%. Not true TKL) full-size wired-only
             // QMK/Via-capable mechanical keyboard from Keychron
@@ -108477,6 +108476,7 @@ namespace OverflowHelper.core
             correctionAdd("A**HOLE", "asshole");
             correctionAdd("ass hoe", "asshole");
             correctionAdd("asshold", "asshole");
+            correctionAdd("*sshole", "asshole");
             correctionAdd("a-hole", "asshole");
             correctionAdd("ashole", "asshole");
             correctionAdd("ahole", "asshole");
@@ -124584,8 +124584,6 @@ namespace OverflowHelper.core
 
             URL_Add("dispatched", "https://en.wiktionary.org/wiki/dispatch#Verb");
 
-            URL_Add("muddy the waters", "https://en.wiktionary.org/wiki/muddy_the_waters#Verb");
-
             URL_Add("under", "https://en.wiktionary.org/wiki/under#Adverb");
 
             URL_Add("hung", "https://en.wiktionary.org/wiki/hang#Verb");
@@ -126775,8 +126773,6 @@ namespace OverflowHelper.core
             URL_Add("applying", "https://en.wiktionary.org/wiki/apply#Verb");
 
             URL_Add("apply", "https://en.wiktionary.org/wiki/apply#Verb");
-
-            URL_Add("muddying the waters", "https://en.wiktionary.org/wiki/muddy_the_waters#Verb");
 
             URL_Add("Chevrolet Blazer", "https://en.wikipedia.org/wiki/Chevrolet_Blazer");
 
@@ -134296,8 +134292,6 @@ namespace OverflowHelper.core
 
             URL_Add("script kiddie", "https://en.wikipedia.org/wiki/Script_kiddie");
 
-            URL_Add("muddied the waters", "https://en.wiktionary.org/wiki/muddy_the_waters#Verb");
-
             URL_Add("San Diego", "https://en.wikipedia.org/wiki/San_Diego");
 
             URL_Add("Indiegogo", "https://en.wikipedia.org/wiki/Indiegogo");
@@ -134555,6 +134549,8 @@ namespace OverflowHelper.core
             URL_Add("inductor", "https://en.wikipedia.org/wiki/Inductor");
 
             URL_Add("&nbsp;µH", "https://en.wikipedia.org/wiki/Inductor");
+
+            URL_Add("&nbsp;Oe", "https://en.wikipedia.org/wiki/Oersted");
 
             URL_Add("&nbsp;G", "https://en.wikipedia.org/wiki/Gauss_(unit)");
 
@@ -143638,7 +143634,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)", "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection"); // Old: <https://keychron.ca/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout>
 
-            URL_Add("Keychron&nbsp;C4&nbsp;HE&nbsp;8K (100%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-c4-he-magnetic-switch-keyboard");
+            URL_Add("Keychron C4 HE 8K (100%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-c4-he-magnetic-switch-keyboard");
 
             URL_Add("Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)", "https://www.keychron.com/products/keyboard-81-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -143804,23 +143800,23 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;Q2&nbsp;HE (65%)", "https://www.keychron.com/products/keychron-q2-he-qmk-wireless-custom-keyboard");
 
-            URL_Add("Keychron&nbsp;Q3&nbsp;HE (85%)", "https://www.keychron.com/products/keychron-q3-he-qmk-wireless-custom-keyboard");
+            URL_Add("Keychron Q3 HE (85%)", "https://www.keychron.com/products/keychron-q3-he-qmk-wireless-custom-keyboard");
 
             URL_Add("Keychron&nbsp;Q4&nbsp;HE", "https://keychron.de/products/keychron-q4-he-qmk-wireless-custom-keyboard");
 
             URL_Add("Keychron&nbsp;Q5&nbsp;HE (95%)", "https://www.keychron.com/products/keychron-q5-he-qmk-wireless-custom-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/products/keychron-q5-he-qmk-wireless-custom-keyboard>
 
-            URL_Add("Keychron&nbsp;Q6&nbsp;HE (105%)", "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard");
+            URL_Add("Keychron Q6 HE (105%)", "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard");
 
-            URL_Add("Keychron&nbsp;Q1&nbsp;HE&nbsp;8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q1-he-8k-magnetic-switch-keyboard");
+            URL_Add("Keychron Q1 HE 8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q1-he-8k-magnetic-switch-keyboard");
 
-            URL_Add("Keychron&nbsp;Q2&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q2-he-8k-magnetic-switch-keyboard");
+            URL_Add("Keychron Q2 HE 8K (65%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q2-he-8k-magnetic-switch-keyboard");
 
-            URL_Add("Keychron&nbsp;Q3&nbsp;HE&nbsp;8K (85%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q3-he-8k-magnetic-switch-keyboard");
+            URL_Add("Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q3-he-8k-magnetic-switch-keyboard");
 
-            URL_Add("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q6-he-8k-magnetic-switch-keyboard");
+            URL_Add("Keychron Q6 HE 8K (105%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q6-he-8k-magnetic-switch-keyboard");
 
-            URL_Add("Keychron&nbsp;Q16&nbsp;HE&nbsp;8K (65%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q16-he-8k-magnetic-switch-keyboard");
+            URL_Add("Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-q16-he-8k-magnetic-switch-keyboard");
 
             URL_Add("Keychron Q1 Ultra 8K", "https://www.keychron.com/products/keychron-q1-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -151596,6 +151592,14 @@ namespace OverflowHelper.core
 
             URL_Add("instantiable", "https://en.wiktionary.org/wiki/instantiable#Adjective");
 
+            URL_Add("muddy the waters", "https://en.wiktionary.org/wiki/muddy_the_waters#Verb");
+
+            URL_Add("muddying the waters", "https://en.wiktionary.org/wiki/muddy_the_waters#Verb");
+
+            URL_Add("muddied the waters", "https://en.wiktionary.org/wiki/muddy_the_waters#Verb");
+
+            URL_Add("the waters have been muddied", "https://en.wiktionary.org/wiki/muddy_the_waters#Verb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -158073,6 +158077,9 @@ namespace OverflowHelper.core
             correctionAdd("&nbsp;µH_", "&nbsp;microhenry_");
 
             // Electronics. A unit (of magnetic flux density). For the expansion
+            correctionAdd("&nbsp;Oe_", "&nbsp;oersted_");
+
+            // Electronics. A unit (of magnetic flux density). For the expansion
             correctionAdd("&nbsp;G_", "&nbsp;gauss_");
             correctionAdd("GS_", "&nbsp;gauss_");
             correctionAdd("gs_", "&nbsp;gauss_");
@@ -159965,6 +159972,10 @@ namespace OverflowHelper.core
             //
             //      South pole facing downward (uncommon)
             //
+            //   9. There is apparently a hardware version 2:
+            //
+            //      "Only version 1 is equipped with this TMR sensor."
+            //
             // Alternative URLs:
             //
             //   <https://www.kickstarter.com/projects/keytron/keychron-k2-he-mechanical-keyboard-with-magnetic-switches?ref=38cjpf>
@@ -160046,36 +160057,35 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/shorts/k2JREZE6QX4>
             //     Apparently, the "B" key is blinking in red at low battery
             //
-            correctionAdd("Keychron&nbsp;K2&nbsp;HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("K2 HE Special Edition_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("K2 HE Special Ed_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("Keychrone K2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("keychron k2 he_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("keychron k2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("Keychron k2 He_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("Keychron K2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_"); // Sort of identity mapping
-            correctionAdd("Keychain K2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("Keychron K2HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("Keychain H2_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("K HE series_", "Keychron&nbsp;K2&nbsp;HE (80%)_"); // For the cross-reference
-            correctionAdd("K2&nbsp;HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("KC K2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("K2 he se_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("K2 HE SE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("K2 He Se_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("K2HE SE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("HE K2_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("H2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("H2 he_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("k2 he_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("K2 he_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("k2 He_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("K2 He_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("k2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("K2 HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("k2he_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("K2HE_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
-            correctionAdd("H2_", "Keychron&nbsp;K2&nbsp;HE (80%)_");
+            correctionAdd("K2 HE Special Edition_", "Keychron K2 HE (80%)_");
+            correctionAdd("K2 HE Special Ed_", "Keychron K2 HE (80%)_");
+            correctionAdd("Keychrone K2 HE_", "Keychron K2 HE (80%)_");
+            correctionAdd("keychron k2 he_", "Keychron K2 HE (80%)_");
+            correctionAdd("keychron k2 HE_", "Keychron K2 HE (80%)_");
+            correctionAdd("Keychron k2 He_", "Keychron K2 HE (80%)_");
+            correctionAdd("Keychron K2 HE_", "Keychron K2 HE (80%)_"); // Sort of identity mapping
+            correctionAdd("Keychain K2 HE_", "Keychron K2 HE (80%)_");
+            correctionAdd("Keychron K2HE_", "Keychron K2 HE (80%)_");
+            correctionAdd("Keychain H2_", "Keychron K2 HE (80%)_");
+            correctionAdd("K HE series_", "Keychron K2 HE (80%)_"); // For the cross-reference
+            correctionAdd("KC K2 HE_", "Keychron K2 HE (80%)_");
+            correctionAdd("K2 he se_", "Keychron K2 HE (80%)_");
+            correctionAdd("K2 HE SE_", "Keychron K2 HE (80%)_");
+            correctionAdd("K2 He Se_", "Keychron K2 HE (80%)_");
+            correctionAdd("K2HE SE_", "Keychron K2 HE (80%)_");
+            correctionAdd("HE K2_", "Keychron K2 HE (80%)_");
+            correctionAdd("he K2_", "Keychron K2 HE (80%)_");
+            correctionAdd("H2 HE_", "Keychron K2 HE (80%)_");
+            correctionAdd("H2 he_", "Keychron K2 HE (80%)_");
+            correctionAdd("k2 he_", "Keychron K2 HE (80%)_");
+            correctionAdd("K2 he_", "Keychron K2 HE (80%)_");
+            correctionAdd("k2 He_", "Keychron K2 HE (80%)_");
+            correctionAdd("K2 He_", "Keychron K2 HE (80%)_");
+            correctionAdd("k2 HE_", "Keychron K2 HE (80%)_");
+            correctionAdd("K2 HE_", "Keychron K2 HE (80%)_");
+            correctionAdd("k2he_", "Keychron K2 HE (80%)_");
+            correctionAdd("K2HE_", "Keychron K2 HE (80%)_");
+            correctionAdd("H2_", "Keychron K2 HE (80%)_");
 
             // A 85-key (80%. Not true TKL) crippled low-profile wired
             // and wireless (only Bluetooth) mechanical keyboard
@@ -163176,6 +163186,7 @@ namespace OverflowHelper.core
             correctionAdd("Sh*t_", "shit_");
             correctionAdd("$H*T_", "shit_");
             correctionAdd("$h*t_", "shit_");
+            correctionAdd("shi*_", "shit_");
             correctionAdd("S**T_", "shit_");
             correctionAdd("s**t_", "shit_");
             correctionAdd("S***_", "shit_");
@@ -170102,6 +170113,8 @@ namespace OverflowHelper.core
 
             URL_Add("&nbsp;microhenry_", "https://en.wiktionary.org/wiki/microhenry#Noun");
 
+            URL_Add("&nbsp;oersted_", "https://en.wikipedia.org/wiki/Oersted");
+
             URL_Add("&nbsp;gauss_", "https://en.wiktionary.org/wiki/gauss#Noun");
 
             URL_Add("&nbsp;tesla_", "https://en.wiktionary.org/wiki/tesla#Noun");
@@ -173058,7 +173071,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K17&nbsp;Max_", "https://www.keychron.com/products/keychron-k17-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K2&nbsp;HE (80%)_", "https://www.keychron.com/products/keychron-k2-he-wireless-magnetic-switch-keyboard"); // Old: <https://www.keychron.com/pages/keychron-k2-he-landing-page>
+            URL_Add("Keychron K2 HE (80%)_", "https://www.keychron.com/products/keychron-k2-he-wireless-magnetic-switch-keyboard"); // Old: <https://www.keychron.com/pages/keychron-k2-he-landing-page>
 
             URL_Add("Keychron Q8_", "https://www.keychron.com/products/keychron-q8-alice-layout-qmk-custom-mechanical-keyboard");
 
@@ -177504,8 +177517,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "hall_effect_playground"
             //
-            correctionAdd("Keychron&nbsp;K2&nbsp;HE (80%)__", "Keychron K2 HE source code__");
-            correctionAdd("Keychron&nbsp;K2&nbsp;HE__", "Keychron K2 HE source code__");
+            correctionAdd("Keychron K2 HE (80%)__", "Keychron K2 HE source code__");
             correctionAdd("Keychron K2 HE__", "Keychron K2 HE source code__");
 
             // For the cross-reference to the source code
@@ -177532,7 +177544,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "hall_effect_playground"
             //
-            correctionAdd("Keychron&nbsp;Q3&nbsp;HE (85%)__", "Keychron Q3 HE source code__");
+            correctionAdd("Keychron Q3 HE (85%)__", "Keychron Q3 HE source code__");
             correctionAdd("Keychron Q3 HE__", "Keychron Q3 HE source code__");
 
             // For the cross-reference to the source code
@@ -177544,8 +177556,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "hall_effect_playground"
             //
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE (105%)__", "Keychron Q6 HE source code__");
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE__", "Keychron Q6 HE source code__");
+            correctionAdd("Keychron Q6 HE (105%)__", "Keychron Q6 HE source code__");
             correctionAdd("Keychron Q6 HE__", "Keychron Q6 HE source code__");
 
             // For the cross-reference to the source code
@@ -181190,9 +181201,7 @@ namespace OverflowHelper.core
             correctionAdd("k max___", "Keychron K Max series___");
 
             // For a direct text, "K HE series"
-            correctionAdd("Keychron&nbsp;K2&nbsp;HE (80%)___", "Keychron K HE series___");
-            correctionAdd("Keychron&nbsp;K2&nbsp;HE___", "Keychron K HE series___");
-            correctionAdd("K&nbsp;HE&nbsp;series___", "Keychron K HE series___");
+            correctionAdd("Keychron K2 HE (80%)___", "Keychron K HE series___");
             correctionAdd("Keychron K2 HE___", "Keychron K HE series___"); // For the cross-reference
             correctionAdd("K HE series___", "Keychron K HE series___"); // Sort of identity mapping
             correctionAdd("k he series___", "Keychron K HE series___");
@@ -181203,9 +181212,7 @@ namespace OverflowHelper.core
             correctionAdd("k he___", "Keychron K HE series___");
 
             // For a direct text, "Q HE series"
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE (105%)___", "Keychron Q HE series___");
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE___", "Keychron Q HE series___");
-            correctionAdd("Q&nbsp;HE&nbsp;series___", "Keychron Q HE series___");
+            correctionAdd("Keychron Q6 HE (105%)___", "Keychron Q HE series___");
             correctionAdd("Keychron Q6 HE___", "Keychron Q HE series___"); // For the cross-reference
             correctionAdd("HE keyboards___", "Keychron Q HE series___");
             correctionAdd("Q HE series___", "Keychron Q HE series___"); // Sort of identity mapping
@@ -181216,23 +181223,17 @@ namespace OverflowHelper.core
             correctionAdd("QHE___", "Keychron Q HE series___");
             correctionAdd("HE___", "Keychron Q HE series___");
 
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K (105%) (proprietary keyboard firmware, not open source)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
-            correctionAdd("Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
-            correctionAdd("Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("Keychron&nbsp;Q6&nbsp;HE&nbsp;8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
-            correctionAdd("Q&nbsp;HE&nbsp;8K&nbsp;series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("Q&nbsp;HE&nbsp;8K series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("Keychron Q HE 8K series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
-            correctionAdd("Q&nbsp;HE&nbsp;8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("Keychron Q6 HE 8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
-            correctionAdd("Q HE 8K series___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("Q6 HE 8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
-            correctionAdd("Q HE 8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("Q HE 8k___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("8K HE___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("8k HE___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("HE 8K___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
-            correctionAdd("HE 8k___", "Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("Keychron Q6 HE 8K (105%) (proprietary keyboard firmware, not open source)___", "Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
+            correctionAdd("Keychron Q HE 8K series___", "Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
+            correctionAdd("Keychron Q6 HE 8K___", "Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
+            correctionAdd("Q HE 8K series___", "Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("Q6 HE 8K___", "Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___"); // For the cross-reference
+            correctionAdd("Q HE 8K___", "Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("Q HE 8k___", "Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("8K HE___", "Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("8k HE___", "Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("HE 8K___", "Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("HE 8k___", "Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___");
 
             // For a direct text, "Lemokey P Pro series"
             correctionAdd("Keychron Lemokey P1 Pro___", "Lemokey P Pro series___"); // For the cross-reference
@@ -181391,7 +181392,7 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/blob/hall_effect_playground/keyboards/keychron/q3_he/ansi_encoder/info.json#L3>
             //
-            correctionAdd("Keychron&nbsp;Q3&nbsp;HE (85%)___", "Keychron Q3 HE, ANSI knob carbon black variant (USB 0x3434/0x0B30)___");
+            correctionAdd("Keychron Q3 HE (85%)___", "Keychron Q3 HE, ANSI knob carbon black variant (USB 0x3434/0x0B30)___");
             correctionAdd("Keychron Q3 HE___", "Keychron Q3 HE, ANSI knob carbon black variant (USB 0x3434/0x0B30)___");
             correctionAdd("0x0B30___", "Keychron Q3 HE, ANSI knob carbon black variant (USB 0x3434/0x0B30)___");
             correctionAdd("0B30___", "Keychron Q3 HE, ANSI knob carbon black variant (USB 0x3434/0x0B30)___");
@@ -182797,7 +182798,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q HE series___", "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard");
 
-            URL_Add("Keychron&nbsp;Q&nbsp;HE&nbsp;8K&nbsp;series (proprietary keyboard firmware, not open source)___", "https://www.keychron.com/products/keychron-q6-he-8k-magnetic-switch-keyboard");
+            URL_Add("Keychron Q HE 8K series (proprietary keyboard firmware, not open source)___", "https://www.keychron.com/products/keychron-q6-he-8k-magnetic-switch-keyboard");
 
             URL_Add("Keychron V series___", "https://www.keychron.com/products/keychron-v6-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -183757,7 +183758,7 @@ namespace OverflowHelper.core
             //
             //     South pole facing downward (uncommon)
             //
-            correctionAdd("Keychron&nbsp;Q3&nbsp;HE (85%)____", "Keychron Q3 HE default keymap (ANSI RGB)____");
+            correctionAdd("Keychron Q3 HE (85%)____", "Keychron Q3 HE default keymap (ANSI RGB)____");
             correctionAdd("Q3 HE default keymap____", "Keychron Q3 HE default keymap (ANSI RGB)____");
             correctionAdd("Keychron Q3 HE____", "Keychron Q3 HE default keymap (ANSI RGB)____");
             correctionAdd("Q3 HE keymap____", "Keychron Q3 HE default keymap (ANSI RGB)____");
