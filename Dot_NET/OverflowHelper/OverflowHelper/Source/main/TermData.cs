@@ -4400,6 +4400,7 @@ namespace OverflowHelper.core
             correctionAdd("another words", "in other words");
             correctionAdd("In other word", "in other words");
             correctionAdd("in other word", "in other words");
+            correctionAdd("in otherwords", "in other words");
             correctionAdd("IOW", "in other words");
 
             correctionAdd("World", "world");
@@ -58125,7 +58126,9 @@ namespace OverflowHelper.core
             correctionAdd("substr_replace", "substr_replace()");
 
             // A PHP function
-            correctionAdd("str-replace", "str-replace()");
+            correctionAdd("str-replace()", "str_replace()");
+            correctionAdd("str_replace", "str_replace()");
+            correctionAdd("str-replace", "str_replace()");
 
             // A PHP function
             correctionAdd("Preg_match", "preg_match()");
@@ -61846,6 +61849,7 @@ namespace OverflowHelper.core
             correctionAdd("alpha-numeric", "alphanumeric");
             correctionAdd("Alphanumeric", "alphanumeric");
             correctionAdd("AlphaNumeric", "alphanumeric");
+            correctionAdd("alphanumaric", "alphanumeric");
 
             // A synonym of "alphanumeric"?
             correctionAdd("alfa-numeric", "alfanumeric");
@@ -101475,44 +101479,41 @@ namespace OverflowHelper.core
             correctionAdd("color-code", "color code");
             correctionAdd("colorcode", "color code");
 
-            correctionAdd("ISO/IEC 8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("ISO/IEC-8859", "ISO&nbsp;8859-1");
-            correctionAdd("ISO-8951-1", "ISO&nbsp;8859-1");
-            correctionAdd("ISO-8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("ISO 8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("iso-8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("iso-5589-1", "ISO&nbsp;8859-1");
-            correctionAdd("iso_8859_1", "ISO&nbsp;8859-1");
-            correctionAdd("iso 8859 1", "ISO&nbsp;8859-1");
-            correctionAdd("iso-8859-2", "ISO&nbsp;8859-1");
-            correctionAdd("ISO-8859-2", "ISO&nbsp;8859-1");
-            correctionAdd("ISO-8859-n", "ISO&nbsp;8859-1");
-            correctionAdd("ISO8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("ISO 8851", "ISO&nbsp;8859-1");
-            correctionAdd("ISO 8859", "ISO&nbsp;8859-1");
-            correctionAdd("IEC-8859", "ISO&nbsp;8859-1");
-            correctionAdd("ISO-8859", "ISO&nbsp;8859-1");
-            correctionAdd("iso-8859", "ISO&nbsp;8859-1");
-            correctionAdd("iso 8859", "ISO&nbsp;8859-1");
-            correctionAdd("ISO8859", "ISO&nbsp;8859-1");
-            correctionAdd("Latin-1", "ISO&nbsp;8859-1"); // The official shorthand
-            correctionAdd("Latin 1", "ISO&nbsp;8859-1");
-            correctionAdd("latin-1", "ISO&nbsp;8859-1");
-            correctionAdd("8859-1", "ISO&nbsp;8859-1");
-            correctionAdd("Latin1", "ISO&nbsp;8859-1");
-            correctionAdd("latin1", "ISO&nbsp;8859-1");
-            correctionAdd("8859", "ISO&nbsp;8859-1");
-            correctionAdd("8851", "ISO&nbsp;8859-1");
-            correctionAdd("8681", "ISO&nbsp;8859-1");
-            correctionAdd("8801", "ISO&nbsp;8859-1");
-            correctionAdd("88", "ISO&nbsp;8859-1");
+            correctionAdd("ISO/IEC 8859-1", "ISO 8859-1");
+            correctionAdd("ISO/IEC-8859", "ISO 8859-1");
+            correctionAdd("ISO-8951-1", "ISO 8859-1");
+            correctionAdd("ISO-8859-1", "ISO 8859-1");
+            correctionAdd("iso-8859-1", "ISO 8859-1");
+            correctionAdd("iso-5589-1", "ISO 8859-1");
+            correctionAdd("iso_8859_1", "ISO 8859-1");
+            correctionAdd("iso 8859 1", "ISO 8859-1");
+            correctionAdd("iso-8859-2", "ISO 8859-1");
+            correctionAdd("ISO-8859-2", "ISO 8859-1");
+            correctionAdd("ISO-8859-n", "ISO 8859-1");
+            correctionAdd("ISO8859-1", "ISO 8859-1");
+            correctionAdd("ISO 8851", "ISO 8859-1");
+            correctionAdd("ISO 8859", "ISO 8859-1");
+            correctionAdd("IEC-8859", "ISO 8859-1");
+            correctionAdd("ISO-8859", "ISO 8859-1");
+            correctionAdd("iso-8859", "ISO 8859-1");
+            correctionAdd("iso 8859", "ISO 8859-1");
+            correctionAdd("ISO8859", "ISO 8859-1");
+            correctionAdd("Latin-1", "ISO 8859-1"); // The official shorthand
+            correctionAdd("Latin 1", "ISO 8859-1");
+            correctionAdd("latin-1", "ISO 8859-1");
+            correctionAdd("8859-1", "ISO 8859-1");
+            correctionAdd("Latin1", "ISO 8859-1");
+            correctionAdd("latin1", "ISO 8859-1");
+            correctionAdd("8859", "ISO 8859-1");
+            correctionAdd("8851", "ISO 8859-1");
+            correctionAdd("8681", "ISO 8859-1");
+            correctionAdd("8801", "ISO 8859-1");
+            correctionAdd("88", "ISO 8859-1");
 
-            correctionAdd("ISO 8859-2", "ISO&nbsp;8859-2"); // Sort of identity mapping
-            correctionAdd("Latin-2", "ISO&nbsp;8859-2");
-            correctionAdd("Latin2", "ISO&nbsp;8859-2");
+            correctionAdd("Latin-2", "ISO 8859-2");
+            correctionAdd("Latin2", "ISO 8859-2");
 
-            correctionAdd("iso-8859-15", "ISO&nbsp;8859-15");
-            correctionAdd("ISO 8859-15", "ISO&nbsp;8859-15"); // Sort of identity mapping
+            correctionAdd("iso-8859-15", "ISO 8859-15");
 
             correctionAdd("shopify", "Shopify");
             correctionAdd("Shopfiy", "Shopify");
@@ -126228,11 +126229,11 @@ namespace OverflowHelper.core
 
             URL_Add("F#", "https://en.wikipedia.org/wiki/F_Sharp_%28programming_language%29");
 
-            URL_Add("ISO&nbsp;8859-1", "https://en.wikipedia.org/wiki/ISO/IEC_8859-1");
+            URL_Add("ISO 8859-1", "https://en.wikipedia.org/wiki/ISO/IEC_8859-1");
 
-            URL_Add("ISO&nbsp;8859-2", "https://en.wikipedia.org/wiki/ISO/IEC_8859-2");
+            URL_Add("ISO 8859-2", "https://en.wikipedia.org/wiki/ISO/IEC_8859-2");
 
-            URL_Add("ISO&nbsp;8859-15", "https://en.wikipedia.org/wiki/ISO/IEC_8859-15");
+            URL_Add("ISO 8859-15", "https://en.wikipedia.org/wiki/ISO/IEC_8859-15");
 
             URL_Add("SIMATIC S5", "https://en.wikipedia.org/wiki/Simatic#SIMATIC_S5");
 
@@ -127946,7 +127947,7 @@ namespace OverflowHelper.core
 
             URL_Add("substr_replace()", "https://www.php.net/manual/en/function.substr-replace.php");
 
-            URL_Add("str-replace()", "https://www.php.net/manual/en/function.str-replace.php");
+            URL_Add("str_replace()", "https://www.php.net/manual/en/function.str-replace.php");
 
             URL_Add("preg_replace()", "https://www.php.net/manual/en/function.preg-replace.php");
 
