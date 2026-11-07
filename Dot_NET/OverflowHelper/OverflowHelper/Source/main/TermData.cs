@@ -4685,23 +4685,24 @@ namespace OverflowHelper.core
             correctionAdd("foto", "go to");
 
             // "shall" is nowhere, because it has never been misspelt! (That is, never observed in the wild.)
-            correctionAdd("shoould", "should");
-            correctionAdd("shouold", "should");
-            correctionAdd("shoulld", "should");
-            correctionAdd("shuold", "should");
-            correctionAdd("chould", "should");
-            correctionAdd("Should", "should");
+            correctionAdd("shoould", "should"); // A true typo
+            correctionAdd("shouold", "should"); // A true typo
+            correctionAdd("shoulld", "should"); // A true typo
+            correctionAdd("shudold", "should"); // Multiple typos, incl. doubling
+            correctionAdd("shoudl", "should");
             correctionAdd("shoulb", "should");
             correctionAdd("shoule", "should");
-            correctionAdd("shoudl", "should");
-            correctionAdd("Shoult", "should");
             correctionAdd("shoult", "should");
             correctionAdd("shpuld", "should");
-            correctionAdd("sholud", "should");
-            correctionAdd("Shoule", "should");
-            correctionAdd("Shoudl", "should");
-            correctionAdd("shoukd", "should");
+            correctionAdd("shuold", "should"); // A true typo
+            correctionAdd("sholud", "should"); // A true typo
+            correctionAdd("shoukd", "should"); // A true typo
             correctionAdd("whould", "should"); // A true typo
+            correctionAdd("chould", "should");
+            correctionAdd("Shoule", "should");
+            correctionAdd("Should", "should");
+            correctionAdd("Shoudl", "should");
+            correctionAdd("Shoult", "should");
             correctionAdd("shold", "should");
             correctionAdd("shoud", "should");
             correctionAdd("shuld", "should");
@@ -4723,7 +4724,7 @@ namespace OverflowHelper.core
             correctionAdd("shoulnd´t", "shouldn’t");
             correctionAdd("shoulnd't", "shouldn’t");
             correctionAdd("shouldn't", "shouldn’t");
-            correctionAdd("shuoldn't", "shouldn’t");
+            correctionAdd("shuoldn't", "shouldn’t"); // A true typo
             correctionAdd("should'nt", "shouldn’t");
             correctionAdd("shouldn´t", "shouldn’t");
             correctionAdd("Shouldn´t", "shouldn’t");
@@ -29136,9 +29137,6 @@ namespace OverflowHelper.core
             //     Why it's not possible to use regex to parse HTML/XML:
             //     a formal explanation in layman's terms
             //
-            correctionAdd("Regular Expressions", "regular expression"); // Not 100% correct - plural.
-            correctionAdd("regular expressions", "regular expression"); // Not 100% correct - plural.
-            correctionAdd("reqular expressions", "regular expression");
             correctionAdd("regulare expression", "regular expression");
             correctionAdd("regular Expression", "regular expression");
             correctionAdd("Regular experssion", "regular expression");
@@ -29153,16 +29151,10 @@ namespace OverflowHelper.core
             correctionAdd("regular express", "regular expression");
             correctionAdd("Reg Expression", "regular expression");
             correctionAdd("regular exp", "regular expression");
-            correctionAdd("reg exps", "regular expression");
-            correctionAdd("regex's", "regular expression");
-            correctionAdd("regexen", "regular expression");
             correctionAdd("Reg Exp", "regular expression");
             correctionAdd("reg exp", "regular expression");
-            correctionAdd("regexes", "regular expression"); // Not 100% correct - plural.
             correctionAdd("reg-exp", "regular expression");
-            correctionAdd("Regexes", "regular expression"); // Not 100% correct - plural.
             correctionAdd("regexpr", "regular expression");
-            correctionAdd("regexs", "regular expression");
             correctionAdd("reg-ex", "regular expression");
             correctionAdd("REGEXP", "regular expression");
             correctionAdd("regexp", "regular expression");
@@ -29181,6 +29173,16 @@ namespace OverflowHelper.core
             correctionAdd("regx", "regular expression");
             correctionAdd("RE", "regular expression");
             correctionAdd("re", "regular expression");
+
+            correctionAdd("Regular Expressions", "regular expressions");
+            correctionAdd("reqular expressions", "regular expressions");
+            correctionAdd("reg exps", "regular expressions");
+            correctionAdd("regexps", "regular expressions");
+            correctionAdd("Regexes", "regular expressions");
+            correctionAdd("regex's", "regular expressions");
+            correctionAdd("regexen", "regular expressions");
+            correctionAdd("regexes", "regular expressions");
+            correctionAdd("regexs", "regular expressions");
 
             correctionAdd("BRE", "Basic Regular Expressions");
 
@@ -58116,6 +58118,7 @@ namespace OverflowHelper.core
             // A PHP function
             correctionAdd("Preg_replace", "preg_replace()");
             correctionAdd("preg_replace", "preg_replace()");
+            correctionAdd("Preg replace", "preg_replace()");
 
             // A PHP function
             correctionAdd("SUBSTR_REPLACE", "substr_replace()");
@@ -69196,7 +69199,14 @@ namespace OverflowHelper.core
             correctionAdd("ghosthing", "ghosting");
             correctionAdd("Ghosting", "ghosting");
 
+            // Alternative URLs:
+            //
+            //   <https://mechanicalkeyboard.net/what-is-an-anti-ghosting-keyboard/>
+            //
+            //   <https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo>
+            //
             correctionAdd("anti ghosting", "anti-ghosting");
+            correctionAdd("Anti-Ghosting", "anti-ghosting");
 
             // Mechanical keyboards. Without NKRO diodes
             // (instead, direct I/O pin connections).
@@ -107349,6 +107359,8 @@ namespace OverflowHelper.core
 
             correctionAdd("orchestation", "orchestration");
 
+            // It is (usually) an uncountable noun
+            correctionAdd("punctuations", "punctuation");
             correctionAdd("punctiation", "punctuation");
             correctionAdd("puncutation", "punctuation");
             correctionAdd("puncuation", "punctuation");
@@ -149526,6 +149538,8 @@ namespace OverflowHelper.core
 
             URL_Add("regular expression", "https://en.wikipedia.org/wiki/Regular_expression");
 
+            URL_Add("regular expressions", "https://en.wikipedia.org/wiki/Regular_expression");
+
             URL_Add("reminder", "https://en.wiktionary.org/wiki/reminder#Noun");
 
             URL_Add("remains", "https://en.wiktionary.org/wiki/remain#Verb");
@@ -165576,15 +165590,6 @@ namespace OverflowHelper.core
             correctionAdd("pcre_", "PCRE (tag wiki)_");
             correctionAdd("PCRE_", "PCRE (tag wiki)_");
 
-            correctionAdd("[tag:regex]_", "regular expression (tag wiki)_");
-            correctionAdd("regular expression_", "regular expression (tag wiki)_");
-            correctionAdd("regex_", "regular expression (tag wiki)_");
-
-            correctionAdd("[tag:xregexp]_", "XRegExp (tag wiki)_");
-            correctionAdd("tag:xregexp_", "XRegExp (tag wiki)_");
-            correctionAdd("xregexp_", "XRegExp (tag wiki)_");
-            correctionAdd("XRegExp_", "XRegExp (tag wiki)_");
-
             correctionAdd("[tag:foxpro]_", "FoxPro (tag wiki)_");
 
             correctionAdd("[tag:amazon-web-services]_", "Amazon Web Services (tag wiki)_");
@@ -165897,6 +165902,15 @@ namespace OverflowHelper.core
             correctionAdd("tag:python_", "Python (tag wiki)_");
             correctionAdd("python_", "Python (tag wiki)_");
             correctionAdd("Python_", "Python (tag wiki)_");
+
+            correctionAdd("[tag:xregexp]_", "XRegExp (tag wiki)_");
+            correctionAdd("tag:xregexp_", "XRegExp (tag wiki)_");
+            correctionAdd("xregexp_", "XRegExp (tag wiki)_");
+            correctionAdd("XRegExp_", "XRegExp (tag wiki)_");
+
+            correctionAdd("[tag:regex]_", "regular expression (tag wiki)_");
+            correctionAdd("regular expression_", "regular expression (tag wiki)_");
+            correctionAdd("regex_", "regular expression (tag wiki)_");
 
             //// Wrong URL... It should be:
             //
