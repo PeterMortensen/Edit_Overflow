@@ -981,7 +981,7 @@ namespace OverflowHelper.core
             correctionAdd("Windows ten", "Windows&nbsp;10");
             correctionAdd("windows(10)", "Windows&nbsp;10");
             correctionAdd("windows ten", "Windows&nbsp;10");
-            correctionAdd("Windows 10", "Windows&nbsp;10"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Windows 10", "Windows&nbsp;10"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("Windows 10", "Windows&nbsp;10"); // Effectively self
             correctionAdd("WIndows 10", "Windows&nbsp;10");
             correctionAdd("WINDOWS 10", "Windows&nbsp;10");
@@ -2962,7 +2962,7 @@ namespace OverflowHelper.core
             correctionAdd("firt", "first");
             correctionAdd("1’th", "first");
             correctionAdd("frst", "first");
-            correctionAdd("ﬁrst", "first"); // Has a strange character... Unicode point U+FB01, "LATIN SMALL LIGATURE FI". UTF-8 sequence 0xEF 0xAC 0x81. <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=64255>. Search for it by the regular expression "\x{FB01}" ("\uFB01" in Visual Studio Code and some others).
+            correctionAdd("ﬁrst", "first"); // Has a strange character... Unicode code point U+FB01, "LATIN SMALL LIGATURE FI". UTF-8 sequence 0xEF 0xAC 0x81. <https://www.utf8-chartable.de/unicode-utf8-table.pl?start=64255>. Search for it by the regular expression "\x{FB01}" ("\uFB01" in Visual Studio Code and some others).
             correctionAdd("1st", "first");
             correctionAdd("1º", "first"); // Note: May or may not have an underline under the "o", depending on the font.
 
@@ -4275,8 +4275,10 @@ namespace OverflowHelper.core
             correctionAdd("in other word", "in other words");
             correctionAdd("IOW", "in other words");
 
-            // Note: "world" is in an alternative word set
-            //
+            correctionAdd("World", "world");
+            correctionAdd("qorld", "world");
+            correctionAdd("wolrd", "world"); // A true typo
+
             correctionAdd("other-worldly", "otherworldly");
             correctionAdd("other-wordly", "otherworldly");
             correctionAdd("otherwordly", "otherworldly");
@@ -4448,25 +4450,6 @@ namespace OverflowHelper.core
             correctionAdd("sont", "won’t"); // Partly a real typo. Alternative (less likely) typo: don't
             correctionAdd("won", "won’t");
 
-            correctionAdd("wouhld", "would");
-            correctionAdd("whould", "would");
-            correctionAdd("wouild", "would");
-            correctionAdd("woul d", "would"); // A true typo (with the following space (swap))
-            correctionAdd("woudl", "would");
-            correctionAdd("Woulc", "would");
-            correctionAdd("woulc", "would");
-            correctionAdd("eould", "would");
-            correctionAdd("woult", "would");
-            correctionAdd("woukd", "would");
-            correctionAdd("woulf", "would"); // A true typo
-            correctionAdd("world", "would");
-            correctionAdd("woiud", "would");
-            correctionAdd("wold", "would");
-            correctionAdd("woul", "would");
-            correctionAdd("woud", "would");
-            correctionAdd("wud", "would");
-            correctionAdd("wld", "would");
-
             correctionAdd("wouyldn't", "wouldn’t");
             correctionAdd("wouldn't", "wouldn’t");
             correctionAdd("woulnd't", "wouldn’t");
@@ -4591,6 +4574,7 @@ namespace OverflowHelper.core
             correctionAdd("Shoule", "should");
             correctionAdd("Shoudl", "should");
             correctionAdd("shoukd", "should");
+            correctionAdd("whould", "should"); // A true typo
             correctionAdd("shold", "should");
             correctionAdd("shoud", "should");
             correctionAdd("shuld", "should");
@@ -8183,7 +8167,7 @@ namespace OverflowHelper.core
             correctionAdd("jammy jellyfish", "Ubuntu 22.04 (Jammy Jellyfish)");
             correctionAdd("Ubuntu 22 LTS", "Ubuntu 22.04 (Jammy Jellyfish)");
             correctionAdd("ubuntu 22.04", "Ubuntu 22.04 (Jammy Jellyfish)");
-            correctionAdd("Ubuntu 22.04", "Ubuntu 22.04 (Jammy Jellyfish)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Ubuntu 22.04", "Ubuntu 22.04 (Jammy Jellyfish)"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("Ubuntu 22.04", "Ubuntu 22.04 (Jammy Jellyfish)");
             correctionAdd("ubuntu-22.04", "Ubuntu 22.04 (Jammy Jellyfish)");
             correctionAdd("Ubuntu22LTS", "Ubuntu 22.04 (Jammy Jellyfish)");
@@ -9899,6 +9883,7 @@ namespace OverflowHelper.core
             correctionAdd("whn", "when");
             correctionAdd("wen", "when");
             correctionAdd("Wen", "when");
+            correctionAdd("hen", "when");
 
             correctionAdd("needa", "need to");
 
@@ -13447,7 +13432,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OS X v10.5 (Leopard)", "Mac OS X v10.5 (Leopard) (2007 vintage)"); // Sort of identity mapping
             correctionAdd("Mac OS X Leopard", "Mac OS X v10.5 (Leopard) (2007 vintage)");
             correctionAdd("Mac OS X v10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)");
-            correctionAdd("Mac OS X 10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Mac OS X 10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("Mac OS X 10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)");
             correctionAdd("MacOS X 10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)");
             correctionAdd("OS X 10.5", "Mac OS X v10.5 (Leopard) (2007 vintage)");
@@ -13471,7 +13456,7 @@ namespace OverflowHelper.core
             correctionAdd("10.6 Snow Leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
             correctionAdd("OSX Snow Leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
             correctionAdd("Mac OS X v10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
-            correctionAdd("Mac OS X 10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Mac OS X 10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("Mac OS X 10.6", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
             correctionAdd("snow leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
             correctionAdd("Snow leopard", "Mac OS X v10.6 (Snow Leopard) (2009 vintage)");
@@ -13499,7 +13484,7 @@ namespace OverflowHelper.core
             correctionAdd("Mac OSX Mountain Lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
             correctionAdd("OSX Mountain Lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
             correctionAdd("OS X version 10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
-            correctionAdd("Mac OS X v10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Mac OS X v10.8", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("Mountinan Lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
             correctionAdd("Mountain Lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
             correctionAdd("Mountain lion", "Mac OS X v10.8 (Mountain Lion) (2012 vintage)");
@@ -13627,7 +13612,7 @@ namespace OverflowHelper.core
             correctionAdd("macOS 10.14 Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
             correctionAdd("macOS Mojave 10.14", "macOS v10.14 (Mojave) (2018 vintage)");
             correctionAdd("Mac OS Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
-            correctionAdd("macOS v10.14", "macOS v10.14 (Mojave) (2018 vintage)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("macOS v10.14", "macOS v10.14 (Mojave) (2018 vintage)"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("macOS Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
             correctionAdd("macOS v10.14", "macOS v10.14 (Mojave) (2018 vintage)");
             correctionAdd("MacOs Mojave", "macOS v10.14 (Mojave) (2018 vintage)");
@@ -31083,18 +31068,6 @@ namespace OverflowHelper.core
             correctionAdd("preventative", "preventive");
             correctionAdd("Preventive", "preventive");
 
-            correctionAdd("Then", "then");
-            correctionAdd("rhen", "then");
-            correctionAdd("than", "then"); // A homonym/homophone
-            correctionAdd("Than", "then");
-            correctionAdd("them", "then");
-            correctionAdd("thn", "then");
-            correctionAdd("the", "then");
-            correctionAdd("The", "then");
-            correctionAdd("hen", "then");
-            correctionAdd("Ten", "then");
-            correctionAdd("ten", "then");
-
             correctionAdd("tiring", "tiering");
 
             // Alternative URL:
@@ -35769,6 +35742,8 @@ namespace OverflowHelper.core
             correctionAdd("Webbrowser", "web browser");
             correctionAdd("web browse", "web browser");
             correctionAdd("Web Broser", "web browser");
+
+            correctionAdd("webbrowsers", "web browsers");
 
             correctionAdd("addressbar", "address bar");
 
@@ -56958,6 +56933,7 @@ namespace OverflowHelper.core
             correctionAdd("Unicode Code Point", "code point");
             correctionAdd("Unicode codepoint", "code point");
             correctionAdd("Unicode value", "code point");
+            correctionAdd("Unicode point", "code point");
             correctionAdd("Code Points", "code point"); // Not 100% correct - plural.
             correctionAdd("code points", "code point"); // Not 100% correct - plural.
             correctionAdd("codepoints", "code point"); // Not 100% correct - plural.
@@ -59449,6 +59425,7 @@ namespace OverflowHelper.core
             correctionAdd("entity thingy", "HTML character entity reference");
             correctionAdd("HTML Entities", "HTML character entity reference");
             correctionAdd("HTML entities", "HTML character entity reference");
+            correctionAdd("html entities", "HTML character entity reference");
             correctionAdd("HTML entites", "HTML character entity reference");
             correctionAdd("html entity", "HTML character entity reference");
             correctionAdd("HTML entity", "HTML character entity reference");
@@ -83826,6 +83803,9 @@ namespace OverflowHelper.core
 
             correctionAdd("3 Act structure", "three-act structure");
 
+            correctionAdd("teme", "theme");
+            correctionAdd("them", "theme");
+
             correctionAdd("that'll", "that’ll");
             correctionAdd("thatll", "that’ll");
 
@@ -87287,7 +87267,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Keychron K6 Pro", "Keychron&nbsp;K6&nbsp;Pro"); // Sort of identity mapping
             correctionAdd("K6&nbsp;Pro", "Keychron&nbsp;K6&nbsp;Pro");
-            correctionAdd("K6 pro", "Keychron&nbsp;K6&nbsp;Pro"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("K6 pro", "Keychron&nbsp;K6&nbsp;Pro"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("K6 Pro", "Keychron&nbsp;K6&nbsp;Pro");
             correctionAdd("K6 pro", "Keychron&nbsp;K6&nbsp;Pro");
             correctionAdd("M6 PRO", "Keychron&nbsp;K6&nbsp;Pro");
@@ -95535,7 +95515,7 @@ namespace OverflowHelper.core
             correctionAdd("K5 Pro", "Keychron K5 Pro ISO (105%)");
             correctionAdd("k5 pro", "Keychron K5 Pro ISO (105%)");
             correctionAdd("K5 pro", "Keychron K5 Pro ISO (105%)");
-            correctionAdd("K5 Pro", "Keychron K5 Pro ISO (105%)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others). For example, as a result of conversion of &nbsp; at Reddit.
+            correctionAdd("K5 Pro", "Keychron K5 Pro ISO (105%)"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others). For example, as a result of conversion of &nbsp; at Reddit.
             correctionAdd("5pro", "Keychron K5 Pro ISO (105%)");
             correctionAdd("K5", "Keychron K5 Pro ISO (105%)");
             correctionAdd("k5", "Keychron K5 Pro ISO (105%)");
@@ -96143,7 +96123,7 @@ namespace OverflowHelper.core
             correctionAdd("b6 pro", "Keychron B6 Pro");
             correctionAdd("B6 pro", "Keychron B6 Pro");
             correctionAdd("B6 PRO", "Keychron B6 Pro");
-            correctionAdd("B6 Pro", "Keychron B6 Pro"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others). For example, as a result of conversion of &nbsp; at Reddit.
+            correctionAdd("B6 Pro", "Keychron B6 Pro"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others). For example, as a result of conversion of &nbsp; at Reddit.
             correctionAdd("B Pro", "Keychron B6 Pro"); // Not 100% correct, but a representative of that Keychron keyboard series
             correctionAdd("Bpro", "Keychron B6 Pro"); // Not 100% correct, but a representative of that Keychron keyboard series
             correctionAdd("B6", "Keychron B6 Pro");
@@ -98231,7 +98211,7 @@ namespace OverflowHelper.core
 
             correctionAdd("chaininng", "chaining");
 
-            correctionAdd("tool chain", "toolchain"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("tool chain", "toolchain"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("tool chain", "toolchain");
             correctionAdd("tool-chain", "toolchain");
             correctionAdd("Toolchain", "toolchain");
@@ -100431,7 +100411,7 @@ namespace OverflowHelper.core
             correctionAdd("SuperUser.SE", "Super&nbsp;User (Stack Exchange site)");
             correctionAdd("superuser.SE", "Super&nbsp;User (Stack Exchange site)");
             correctionAdd("Super users", "Super&nbsp;User (Stack Exchange site)");
-            correctionAdd("Super User", "Super&nbsp;User (Stack Exchange site)"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Super User", "Super&nbsp;User (Stack Exchange site)"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("super user", "Super&nbsp;User (Stack Exchange site)");
             correctionAdd("Super User", "Super&nbsp;User (Stack Exchange site)");
             correctionAdd("super-user", "Super&nbsp;User (Stack Exchange site)");
@@ -119966,6 +119946,8 @@ namespace OverflowHelper.core
 
             URL_Add("web browser", "https://en.wikipedia.org/wiki/Web_browser");
 
+            URL_Add("web browsers", "https://en.wiktionary.org/wiki/web_browser#Noun");
+
             URL_Add("address bar", "https://en.wikipedia.org/wiki/Address_bar");
 
             URL_Add("Web development", "https://en.wikipedia.org/wiki/Web_development");
@@ -129614,11 +129596,13 @@ namespace OverflowHelper.core
 
             URL_Add("weekdays", "https://en.wiktionary.org/wiki/weekday#Noun");
 
+            URL_Add("world", "https://en.wiktionary.org/wiki/world#Noun");
+
+            URL_Add("otherworldly", "https://en.wiktionary.org/wiki/otherworldly#Adjective");
+
             URL_Add("worldwide", "https://en.wiktionary.org/wiki/worldwide#Adjective");
 
             URL_Add("world-famous", "https://en.wiktionary.org/wiki/world-famous#Adjective");
-
-            URL_Add("otherworldly", "https://en.wiktionary.org/wiki/otherworldly#Adjective");
 
             URL_Add("Everett interpretation (many-worlds)", "https://en.wikipedia.org/wiki/Many-worlds_interpretation");
 
@@ -133626,6 +133610,8 @@ namespace OverflowHelper.core
 
             URL_Add("himself", "https://en.wiktionary.org/wiki/himself#Pronoun");
 
+            URL_Add("theme", "https://en.wiktionary.org/wiki/theme#Noun");
+
             URL_Add("that’ll", "https://en.wiktionary.org/wiki/that'll#Contraction");
 
             URL_Add("could", "https://en.wiktionary.org/wiki/could#Verb");
@@ -133655,8 +133641,6 @@ namespace OverflowHelper.core
             URL_Add("must-see", "https://en.wiktionary.org/wiki/must-see#Adjective");
 
             URL_Add("foresee", "https://en.wiktionary.org/wiki/foresee#Verb");
-
-            URL_Add("would", "https://en.wiktionary.org/wiki/would#Verb"); // Old: https://en.wiktionary.org/wiki/would
 
             URL_Add("wouldn’t", "https://en.wiktionary.org/wiki/wouldn%27t#Verb"); // Old: <https://en.wiktionary.org/wiki/wouldn%27t#Contraction>
 
@@ -140699,8 +140683,6 @@ namespace OverflowHelper.core
             URL_Add("yours", "https://en.wiktionary.org/wiki/yours#Pronoun");
 
             URL_Add("yourself", "https://en.wiktionary.org/wiki/yourself#Pronoun");
-
-            URL_Add("then", "https://en.wiktionary.org/wiki/then#Adverb");
 
             URL_Add("CRM", "https://en.wikipedia.org/wiki/Customer-relationship_management");
 
@@ -157004,6 +156986,7 @@ namespace OverflowHelper.core
 
             // Linux
             correctionAdd("Echo_", "echo_");
+            correctionAdd("cho_", "echo_");
 
             // Linux. For unmounting mounted drives
             //
@@ -161034,7 +161017,7 @@ namespace OverflowHelper.core
             correctionAdd("K10 QMK v2_", "Keychron K10 (100%)_");
             correctionAdd("K series_", "Keychron K10 (100%)_"); // For the cross-reference
             correctionAdd("K10 QMK_", "Keychron K10 (100%)_"); // K10 V2 (QMK-based)
-            correctionAdd("K10 QMK_", "Keychron K10 (100%)_"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("K10 QMK_", "Keychron K10 (100%)_"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("K10 V2_", "Keychron K10 (100%)_"); // Or maybe a whole new series, K QMK series. Thus, K10 QMK
             correctionAdd("K10 v2_", "Keychron K10 (100%)_");
             correctionAdd("k10 v2_", "Keychron K10 (100%)_");
@@ -161476,76 +161459,6 @@ namespace OverflowHelper.core
             correctionAdd("whiel_", "while_"); // A true typo
             correctionAdd("whil_", "while_");
             correctionAdd("wile_", "while_");
-
-            correctionAdd("thtare_", "the_");
-            correctionAdd("thje_", "the_");
-            correctionAdd("thge_", "the_");
-            correctionAdd("thae_", "the_");
-            correctionAdd("thhe_", "the_");
-            correctionAdd("thie_", "the_");
-            correctionAdd("TThe_", "the_");
-            correctionAdd("tthe_", "the_");
-            correctionAdd("thre_", "the_");
-            correctionAdd("Thne_", "the_");
-            correctionAdd("thne_", "the_");
-            correctionAdd("tghe_", "the_");
-            correctionAdd("ht e_", "the_"); // Multiple typos (letter order, including space for the following word)
-            correctionAdd("t he_", "the_");
-            correctionAdd("theb_", "the_");
-            correctionAdd("Theb_", "the_");
-            correctionAdd("Theh_", "the_");
-            correctionAdd("theh_", "the_");
-            correctionAdd("They_", "the_");
-            correctionAdd("they_", "the_");
-            correctionAdd("thes_", "the_"); // A true typo
-            correctionAdd("ther_", "the_"); // A true typo
-            correctionAdd("thew_", "the_"); // A true typo
-            correctionAdd("Thee_", "the_");
-            correctionAdd("thee_", "the_");
-            correctionAdd("bthe_", "the_"); // A true typo (involving the space bar)
-            correctionAdd("teh_", "the_"); // A true typo
-            correctionAdd("THe_", "the_");
-            correctionAdd("The_", "the_");
-            correctionAdd("tbe_", "the_");
-            correctionAdd("tge_", "the_"); // A true typo
-            correctionAdd("Tge_", "the_"); // A true typo
-            correctionAdd("tje_", "the_");
-            correctionAdd("tue_", "the_");
-            correctionAdd("tye_", "the_"); // A true typo
-            correctionAdd("ghe_", "the_"); // A true typo
-            correctionAdd("fhe_", "the_");
-            correctionAdd("rhe_", "the_");
-            correctionAdd("hte_", "the_");
-            correctionAdd("yhe_", "the_");
-            correctionAdd("yje_", "the_"); // A true typo (double; slide of the first two letters)
-            correctionAdd("5he_", "the_"); // A true typo
-            correctionAdd("che_", "the_"); // Just silly
-            correctionAdd("zhe_", "the_"); // A true typo, on a QWERTZ keyboard layout...
-            correctionAdd("zee_", "the_"); // Just silly. Some ridiculous Internet meme?
-            correctionAdd("tha_", "the_");
-            correctionAdd("Tha_", "the_");
-            correctionAdd("Thi_", "the_");
-            correctionAdd("thi_", "the_");
-            correctionAdd("thr_", "the_"); // A true typo
-            correctionAdd("Thw_", "the_");
-            correctionAdd("thw_", "the_");
-            correctionAdd("tne_", "the_"); // A true typo
-            correctionAdd("dah_", "the_");
-            correctionAdd("еру_", "the_"); // Allegedly, using some other keyboard layout (needs to be confirmed): Probably some Unicode character
-            correctionAdd("ht_", "the_");
-            correctionAdd("de_", "the_");
-            correctionAdd("te_", "the_");
-            correctionAdd("se_", "the_"); // Just silly
-            correctionAdd("Ze_", "the_");
-            correctionAdd("ze_", "the_");
-            correctionAdd("ðe_", "the_"); // Just silly
-            correctionAdd("th_", "the_");
-            correctionAdd("ts_", "the_");
-            correctionAdd("za_", "the_"); // Just silly
-            correctionAdd("Da_", "the_");
-            correctionAdd("da_", "the_");
-            correctionAdd("hr_", "the_");
-            correctionAdd("he_", "the_");
 
             correctionAdd("rate_", "rare_");
 
@@ -163230,10 +163143,6 @@ namespace OverflowHelper.core
             correctionAdd("kidney_", "a load of dingo's kidneys_");
             correctionAdd("dingo_", "a load of dingo's kidneys_");
 
-            correctionAdd("World_", "world_");
-            correctionAdd("qorld_", "world_");
-            correctionAdd("wolrd_", "world_"); // A true typo
-
             correctionAdd("bios_", "biographies_");
 
             correctionAdd("Cantor_", "Georg Cantor_");
@@ -163563,7 +163472,7 @@ namespace OverflowHelper.core
             correctionAdd("Programming Language Design and Implementation (Stack Exchange site)_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Programming Language Design and Implementation_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_");
-            correctionAdd("Programming Language Design and Implementation_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Programming Language Design and Implementation_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("Programming Language and Implementation_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_");
             correctionAdd("language design_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_");
             correctionAdd("langdev.SE_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_");
@@ -163584,7 +163493,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Software Recommendations (Stack Exchange site)_", "Software&nbsp;Recommendations (Stack Exchange site)_");
             correctionAdd("Software&nbsp;Recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Software Recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Software Recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("software recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_");
             correctionAdd("Software Recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_");
             correctionAdd("Sofware Recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_");
@@ -163963,17 +163872,6 @@ namespace OverflowHelper.core
             correctionAdd("flare_", "flair_");
 
             correctionAdd("she's_", "her_");
-
-            // Alternative URL:
-            //
-            //   <https://www.wikihow.com/Use-Than-and-Then>
-            //
-            correctionAdd("then_", "than_"); // A homonym/homophone
-            correctionAdd("Than_", "than_");
-            correctionAdd("Then_", "than_");
-            correctionAdd("tahn_", "than_");
-            correctionAdd("that_", "than_"); // An autocorrect "masterpiece"?
-            correctionAdd("zan_", "than_"); // Just silly
 
             correctionAdd("effect_", "affect_"); // A homonym/homophone
             correctionAdd("Affect_", "affect_");
@@ -167650,9 +167548,6 @@ namespace OverflowHelper.core
 
             correctionAdd("utm_", "UTM_");
 
-            correctionAdd("teme_", "theme_");
-            correctionAdd("them_", "theme_");
-
             // Is here because it conflicts with "percent-encoding"
             // in the main word set
             correctionAdd("percent-encoding_", "URL encoded_"); // For the cross-reference
@@ -167747,6 +167642,7 @@ namespace OverflowHelper.core
             correctionAdd("tb_", "Thunderbird_");
 
             correctionAdd("enrtiry_", "entity_");
+            correctionAdd("entitiy_", "entity_");
 
             // Through it is more likely a shorthand for 'entity characters'
             correctionAdd("entites_", "entities_");
@@ -168357,6 +168253,37 @@ namespace OverflowHelper.core
             correctionAdd("dear imgui_", "Dear ImGui_");
             correctionAdd("imgui_", "Dear ImGui_"); // But it is highly ambiguous. See the notes above
             correctionAdd("ImGui_", "Dear ImGui_"); // But it is ambiguous. See the notes above
+
+            correctionAdd("wouhld_", "would_");
+            correctionAdd("whould_", "would_"); // Depending on context, it could also be a true typo of "should"
+            correctionAdd("wouild_", "would_");
+            correctionAdd("woul d_", "would_"); // A true typo (with the following space (swap))
+            correctionAdd("woudl_", "would_");
+            correctionAdd("Woulc_", "would_");
+            correctionAdd("woulc_", "would_");
+            correctionAdd("eould_", "would_");
+            correctionAdd("woult_", "would_");
+            correctionAdd("woukd_", "would_");
+            correctionAdd("woulf_", "would_"); // A true typo
+            correctionAdd("world_", "would_");
+            correctionAdd("woiud_", "would_");
+            correctionAdd("wold_", "would_");
+            correctionAdd("woul_", "would_");
+            correctionAdd("woud_", "would_");
+            correctionAdd("wud_", "would_");
+            correctionAdd("wld_", "would_");
+
+            correctionAdd("Then_", "then_");
+            correctionAdd("rhen_", "then_");
+            correctionAdd("than_", "then_"); // A homonym/homophone
+            correctionAdd("Than_", "then_");
+            correctionAdd("them_", "then_");
+            correctionAdd("thn_", "then_");
+            correctionAdd("hen_", "then_");
+            correctionAdd("Ten_", "then_");
+            correctionAdd("ten_", "then_");
+            correctionAdd("the_", "then_");
+            correctionAdd("The_", "then_");
 
             // C. A book
             //
@@ -169649,8 +169576,6 @@ namespace OverflowHelper.core
 
             URL_Add("New Zealander_", "https://en.wiktionary.org/wiki/New_Zealander#Noun");
 
-            URL_Add("the_", "https://en.wiktionary.org/wiki/the#Article");
-
             URL_Add("Austria_", "https://en.wikipedia.org/wiki/Austria");
 
             URL_Add("mind_", "https://en.wiktionary.org/wiki/mind#Noun");
@@ -170038,8 +169963,6 @@ namespace OverflowHelper.core
             URL_Add("zoom_", "https://en.wiktionary.org/wiki/zoom#Noun");
 
             URL_Add("UTM_", "https://en.wikipedia.org/wiki/UTM_(software)");
-
-            URL_Add("theme_", "https://en.wiktionary.org/wiki/theme#Noun");
 
             URL_Add("GiST_", "https://en.wikipedia.org/wiki/GiST");
 
@@ -170618,8 +170541,6 @@ namespace OverflowHelper.core
             URL_Add("complaint_", "https://en.wiktionary.org/wiki/complaint#Noun");
 
             URL_Add("complains_", "https://en.wiktionary.org/wiki/complain#Verb");
-
-            URL_Add("world_", "https://en.wiktionary.org/wiki/world#Noun");
 
             URL_Add("borderline_", "https://en.wiktionary.org/wiki/borderline#Noun");
 
@@ -171738,8 +171659,6 @@ namespace OverflowHelper.core
             URL_Add("short string optimisation_", "https://stackoverflow.com/questions/10315041/meaning-of-acronym-sso-in-the-context-of-stdstring/10319672#10319672");
 
             URL_Add("long story short_", "https://en.wiktionary.org/wiki/long_story_short#Adverb");
-
-            URL_Add("than_", "https://en.wiktionary.org/wiki/than#Conjunction");
 
             URL_Add("Charles-Augustin de Coulomb_", "https://en.wikipedia.org/wiki/Charles-Augustin_de_Coulomb");
 
@@ -173110,6 +173029,10 @@ namespace OverflowHelper.core
             URL_Add("multithreaded programs_", "https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)");
 
             URL_Add("POSIX Threads_", "https://en.wikipedia.org/wiki/Pthreads");
+
+            URL_Add("would_", "https://en.wiktionary.org/wiki/would#Verb"); // Old: https://en.wiktionary.org/wiki/would
+
+            URL_Add("then_", "https://en.wiktionary.org/wiki/then#Adverb");
 
         } //addLookupData_alternativeWordSet()
 
@@ -176354,7 +176277,7 @@ namespace OverflowHelper.core
             correctionAdd("MacOS Big Sur__", "macOS v11 (Big Sur) (2020 vintage)__");
             correctionAdd("macOS BigSur__", "macOS v11 (Big Sur) (2020 vintage)__");
             correctionAdd("Mac Big Sur__", "macOS v11 (Big Sur) (2020 vintage)__");
-            correctionAdd("macOS v11__", "macOS v11 (Big Sur) (2020 vintage)__"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("macOS v11__", "macOS v11 (Big Sur) (2020 vintage)__"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("macOS v11__", "macOS v11 (Big Sur) (2020 vintage)__");
             correctionAdd("Big Suwer__", "macOS v11 (Big Sur) (2020 vintage)__");
             correctionAdd("Big Sewer__", "macOS v11 (Big Sur) (2020 vintage)__");
@@ -176450,7 +176373,7 @@ namespace OverflowHelper.core
             correctionAdd("MacOS 13.1__", "macOS v13 (Ventura) (2022 vintage)__");
             correctionAdd("Ventura 13__", "macOS v13 (Ventura) (2022 vintage)__");
             correctionAdd("OS Ventura__", "macOS v13 (Ventura) (2022 vintage)__");
-            correctionAdd("macOS v13__", "macOS v13 (Ventura) (2022 vintage)__"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("macOS v13__", "macOS v13 (Ventura) (2022 vintage)__"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("macOS v13__", "macOS v13 (Ventura) (2022 vintage)__");
             correctionAdd("macOS 13__", "macOS v13 (Ventura) (2022 vintage)__");
             correctionAdd("MacOS 13__", "macOS v13 (Ventura) (2022 vintage)__");
@@ -181147,7 +181070,7 @@ namespace OverflowHelper.core
             // For a direct text, "V series"
             correctionAdd("Keychron V6 ISO___", "Keychron V series___"); // For the cross-reference
             correctionAdd("V&nbsp;series___", "Keychron V series___");
-            correctionAdd("V series___", "Keychron V series___"); // Has a strange space... Unicode point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("V series___", "Keychron V series___"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("V series___", "Keychron V series___"); // Sort of identity mapping
             correctionAdd("v series___", "Keychron V series___");
             correctionAdd("V___", "Keychron V series___");
@@ -183060,19 +182983,6 @@ namespace OverflowHelper.core
             correctionAdd("or____", "for____");
             correctionAdd("4____", "for____");
 
-            correctionAdd("bee____", "be____");
-            correctionAdd("bea____", "be____");
-            correctionAdd("ber____", "be____");
-            correctionAdd("bei____", "be____");
-            correctionAdd("ble____", "be____");
-            correctionAdd("ba____", "be____");
-            correctionAdd("bd____", "be____");
-            correctionAdd("by____", "be____");
-            correctionAdd("br____", "be____"); // A true typo
-            correctionAdd("ne____", "be____");
-            correctionAdd("he____", "be____"); // A true typo
-            correctionAdd("b____", "be____");
-
             // The unit of measure for keycap sizes for mechanical keyboards.
             //
             //    1 u = 19.05 mm (3/4 inch)
@@ -183488,6 +183398,76 @@ namespace OverflowHelper.core
             correctionAdd("throw____", "circling poets throw rocks at them____");
             correctionAdd("threw____", "circling poets throw rocks at them____");
             correctionAdd("rock____", "circling poets throw rocks at them____");
+
+            correctionAdd("thtare____", "the____");
+            correctionAdd("bthe____", "the____"); // A true typo (involving the space bar)
+            correctionAdd("ht e____", "the____"); // Multiple typos (letter order, including space for the following word)
+            correctionAdd("thae____", "the____");
+            correctionAdd("thge____", "the____");
+            correctionAdd("thhe____", "the____");
+            correctionAdd("thie____", "the____");
+            correctionAdd("thje____", "the____");
+            correctionAdd("Thne____", "the____");
+            correctionAdd("thne____", "the____");
+            correctionAdd("thre____", "the____");
+            correctionAdd("tghe____", "the____");
+            correctionAdd("TThe____", "the____");
+            correctionAdd("tthe____", "the____");
+            correctionAdd("t he____", "the____");
+            correctionAdd("theb____", "the____");
+            correctionAdd("Theb____", "the____");
+            correctionAdd("Theh____", "the____");
+            correctionAdd("theh____", "the____");
+            correctionAdd("They____", "the____");
+            correctionAdd("they____", "the____");
+            correctionAdd("thes____", "the____"); // A true typo
+            correctionAdd("ther____", "the____"); // A true typo
+            correctionAdd("thew____", "the____"); // A true typo
+            correctionAdd("Thee____", "the____");
+            correctionAdd("thee____", "the____");
+            correctionAdd("THe____", "the____");
+            correctionAdd("The____", "the____");
+            correctionAdd("tha____", "the____");
+            correctionAdd("Tha____", "the____");
+            correctionAdd("Thi____", "the____");
+            correctionAdd("thi____", "the____");
+            correctionAdd("thr____", "the____"); // A true typo
+            correctionAdd("Thw____", "the____");
+            correctionAdd("thw____", "the____");
+            correctionAdd("teh____", "the____"); // A true typo
+            correctionAdd("tbe____", "the____");
+            correctionAdd("tge____", "the____"); // A true typo
+            correctionAdd("Tge____", "the____"); // A true typo
+            correctionAdd("tje____", "the____");
+            correctionAdd("tue____", "the____");
+            correctionAdd("tye____", "the____"); // A true typo
+            correctionAdd("tne____", "the____"); // A true typo
+            correctionAdd("ghe____", "the____"); // A true typo
+            correctionAdd("fhe____", "the____");
+            correctionAdd("rhe____", "the____");
+            correctionAdd("hte____", "the____");
+            correctionAdd("yhe____", "the____");
+            correctionAdd("yje____", "the____"); // A true typo (double; slide of the first two letters)
+            correctionAdd("5he____", "the____"); // A true typo
+            correctionAdd("che____", "the____"); // Just silly
+            correctionAdd("zhe____", "the____"); // A true typo, on a QWERTZ keyboard layout...
+            correctionAdd("zee____", "the____"); // Just silly. Some ridiculous Internet meme?
+            correctionAdd("dah____", "the____");
+            correctionAdd("еру____", "the____"); // Allegedly, using some other keyboard layout (needs to be confirmed): Probably some Unicode character
+            correctionAdd("ht____", "the____");
+            correctionAdd("de____", "the____");
+            correctionAdd("te____", "the____");
+            correctionAdd("se____", "the____"); // Just silly
+            correctionAdd("Ze____", "the____"); // Just silly
+            correctionAdd("ze____", "the____"); // Just silly
+            correctionAdd("ðe____", "the____"); // Just silly
+            correctionAdd("th____", "the____");
+            correctionAdd("ts____", "the____");
+            correctionAdd("za____", "the____"); // Just silly
+            correctionAdd("Da____", "the____");
+            correctionAdd("da____", "the____");
+            correctionAdd("hr____", "the____");
+            correctionAdd("he____", "the____");
 
             // The food thing... (not keyboard macros...)
             correctionAdd("macronutrients____", "macronutrient____");
@@ -185306,8 +185286,6 @@ namespace OverflowHelper.core
 
             URL_Add("and____", "https://en.wiktionary.org/wiki/and#Conjunction");
 
-            URL_Add("be____", "https://en.wiktionary.org/wiki/be#Verb");
-
             URL_Add("Navier–Stokes equations____", "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations");
 
             URL_Add("circling poets throw rocks at them____", "https://www.youtube.com/watch?v=vaVYEYeWbGs&list=PLSoD2CcPrumFJREVL6RmMnZP5U7sGYYi2&index=25&t=1m6s");
@@ -185387,6 +185365,8 @@ namespace OverflowHelper.core
             URL_Add("Keychron V6 Max default keymap (ISO RGB)____", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/v6_max/iso_encoder/keymaps/via/keymap.c#L42");
 
             URL_Add("anti-cheat____", "https://en.wikipedia.org/wiki/Cheating_in_online_games#Anti-cheating_methods_and_limitations"); // Old: <https://en.wikipedia.org/wiki/Cheating_in_online_games>. Even older: <https://en.wikipedia.org/wiki/Anti-cheat_software>
+
+            URL_Add("the____", "https://en.wiktionary.org/wiki/the#Article");
 
         } //addLookupData_alternativeWordSet4()
 
@@ -187135,6 +187115,7 @@ namespace OverflowHelper.core
             correctionAdd("2______", "to______");
             correctionAdd("t______", "to______");
 
+            // correctionAdd("by______", "but______");  Current a conflict
             correctionAdd("buit______", "but______");
             correctionAdd("buat______", "but______");
             correctionAdd("Buts______", "but______");
@@ -187158,7 +187139,6 @@ namespace OverflowHelper.core
             correctionAdd("Bus______", "but______");
             correctionAdd("Bu______", "but______");
             correctionAdd("bu______", "but______");
-            correctionAdd("by______", "but______");
             correctionAdd("bt______", "but______");
             correctionAdd("ut______", "but______");
 
@@ -187352,16 +187332,40 @@ namespace OverflowHelper.core
             correctionAdd("40 °F______", "40&nbsp;°F______"); // Sort of identity mapping
             correctionAdd("4______", "40&nbsp;°F______");
 
+            correctionAdd("bee______", "be______");
+            correctionAdd("bea______", "be______");
+            correctionAdd("ber______", "be______");
+            correctionAdd("bei______", "be______");
+            correctionAdd("ble______", "be______");
+            correctionAdd("ba______", "be______");
+            correctionAdd("bd______", "be______");
+            correctionAdd("by______", "be______");
+            correctionAdd("br______", "be______"); // A true typo
+            correctionAdd("ne______", "be______");
+            correctionAdd("he______", "be______"); // A true typo
+            correctionAdd("b______", "be______");
+
             // A programming language. Of Ken Thompson. And
             // also by Dennis Ritchie.
             correctionAdd("Ken Thompson______", "B______");
-            correctionAdd("b______", "B______");
+            // correctionAdd("b______", "B______");  Currently no space...
 
             // A programming language
             correctionAdd("k______", "K______");
 
             correctionAdd("probabe cause______", "probable cause______");
             correctionAdd("PC______", "probable cause______");
+
+            // Alternative URL:
+            //
+            //   <https://www.wikihow.com/Use-Than-and-Then>
+            //
+            correctionAdd("then______", "than______"); // A homonym/homophone
+            correctionAdd("Then______", "than______");
+            correctionAdd("Than______", "than______");
+            correctionAdd("tahn______", "than______");
+            correctionAdd("that______", "than______"); // An autocorrect "masterpiece"?
+            correctionAdd("zan______", "than______"); // Just silly
 
             // URL mappings
             //
@@ -187434,6 +187438,10 @@ namespace OverflowHelper.core
             URL_Add("par for the course steps for HE (Hall effect switch) keyboards______", "https://www.reddit.com/r/Keychron/comments/1pisxi9/comment/nt8mmi3/");
 
             URL_Add("increase the number of macros and increase the space for Via macros______", "https://www.reddit.com/r/macro_pads/comments/1ge7cbi/comment/lu9jlcy/");
+
+            URL_Add("than______", "https://en.wiktionary.org/wiki/than#Conjunction");
+
+            URL_Add("be______", "https://en.wiktionary.org/wiki/be#Verb");
 
         } //addLookupData_alternativeWordSet6()
 
