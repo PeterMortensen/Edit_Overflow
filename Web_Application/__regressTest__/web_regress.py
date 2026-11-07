@@ -1017,7 +1017,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("chord",
                          firstRealLookup_editSummary,
                          defaultMsgForEditSummary,
-                         #"''[[Shorthand|stenography_]]''",
                          "''[[Shorthand|stenography]]''",
                          "Plover",
                          #"http://localhost/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=python_")
@@ -1043,7 +1042,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             # Second direct lookup with a known
             # correct term (identity mapping)
             self._lookUp("until",
-                         #'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Python_%28programming_language%29> <https://en.wiktionary.org/wiki/until#Conjunction>].',
                          'Active reading [<https://en.wikipedia.org/wiki/PHP> <https://en.wikipedia.org/wiki/Shorthand> <https://en.wiktionary.org/wiki/until#Conjunction>].',
                          defaultMsgForEditSummary + 'for looking up a ***correct*** term',
                          "''[[until#Conjunction|until]]''",
@@ -1164,19 +1162,12 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             #                     #"/world/EditOverflow.php?OverflowStyle=Native&LookUpTerm=Super%26nbsp%3BUser+%28Stack+Exchange+site%29_"
             #                     #                                                        "Super%26nbsp%3BUser+%28Stack+Exchange+site%29_")
 
-            self._lookUp("Pass by Reference",  # aLookUpTerm,
+            self._lookUp("Pass by Reference",
                          "Active reading [<https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference>].", # anExpectedEditSummary
-                         defaultMsgForEditSummary, # anExplanation
-
-                         #"''[[Evaluation_strategy#Call_by_reference|pass by reference]]''",     # anExpectedLink
+                         defaultMsgForEditSummary,
                          "''[[Evaluation_strategy#Call_by_reference|pass&nbsp;by&nbsp;reference]]''",     # anExpectedLink
-
-                         "call by reference",              # anAlternativeLinkText
-                         # anAlternativeURL
+                         "call by reference",
                          altURLprefix + "pass+by+reference_",
-
-                         # aWordListReferenceURL
-                           # Requires a weird mapping in the word list...
                          wordList_URLprefix + "pass_by_reference")
 
         # Check more fields
@@ -1214,10 +1205,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("Microsoft Azure",
                          "Active reading [<https://en.wikipedia.org/wiki/Microsoft_Azure>].",
                          defaultMsgForEditSummary,
-
-                         #"''[[Microsoft_Azure|Microsoft Azure]]''",
                          "''[[Microsoft_Azure|Microsoft&nbsp;Azure]]''",
-
                          "Azure (tag wiki)",
                          altURLprefix + "Microsoft+Azure_", # "+" is for space in the
                                                             # URL query parameter
@@ -1236,7 +1224,6 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
             self._lookUp("quite_",
                          "Active reading [<https://en.wiktionary.org/wiki/quite#Adverb>].",
                          defaultMsgForEditSummary,
-                         #"''[[quite#Adverb|quite_]]''",
                          "''[[quite#Adverb|quite]]''",
                          "quiet", altURLprefix + "quite",
                          wordList_URLprefix + "quite_")
@@ -1269,8 +1256,10 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "", "",  # No cross references
                          wordList_URLprefix + "Windows_Server_2008")
 
-        if True: # Test filtering of non-breaking space in the input:
-                 # Leading non-breaking space should be left
+        if True: # Test filtering of non-breaking space (HTML /
+                 # Markdown encoded) in the input:
+                 #
+                 # ***Leading*** non-breaking space should be left
                  # alone, for the convention in the word set
                  # to cross reference the expanded form of
                  # units. Example  "&nbsp;pF" <-> "&nbsp;picofarad_"
@@ -1286,6 +1275,32 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "&nbsp;picofarad",
                          altURLprefix + "%26nbsp%3BpF_",
                          wordList_URLprefix + "&nbsp;pF")
+
+        if True: # Test filtering of non-breaking
+                 # space (Unicode) in the input
+                 #
+                 # This tests particular expected content of the
+                 # word list
+
+            self._setCheckbox("resetState")
+            #self._lookUp(
+            #  #"K Pro series", # Note: Contains Unicode code point U+00A0
+            #  "K Pro series", # With space
+            #  "Active reading [<https://keychron.de/collections/k-pro-series-iso-keyboard/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection>].",
+            #  defaultMsgForEditSummary,
+            #  "Does not apply",
+            #  "Keychron K Pro series",
+            #  altURLprefix + "K+Pro+series___",
+            #  wordList_URLprefix + "Keychron_K10_Pro")
+            self._lookUp(
+              "Pass by Reference", # Note: Contains Unicode code point U+00A0
+              # "Pass by Reference",  space
+              "Active reading [<https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference>].", # anExpectedEditSummary
+              defaultMsgForEditSummary,
+              "''[[Evaluation_strategy#Call_by_reference|pass&nbsp;by&nbsp;reference]]''",     # anExpectedLink
+              "call by reference",
+              altURLprefix + "pass+by+reference_",
+              wordList_URLprefix + "pass_by_reference")
 
     # Helper function for testing
     #

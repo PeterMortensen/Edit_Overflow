@@ -57,9 +57,16 @@
                     }
                     else
                     {
-                        # Treat non-breaking space as normal space
+                        # Treat non-breaking space (HTML/Markdown 
+                        # encoded) as normal space
                         $effectiveLookupTerm = preg_replace('/&nbsp;/', ' ',
                                                             $aLookupTerm);
+
+                        # Treat non-breaking space (Unicode) as normal space
+                        #$effectiveLookupTerm = preg_replace('/\u00A0/', ' ',
+                        #                                    $effectiveLookupTerm);
+                        $effectiveLookupTerm = preg_replace('/\s+/u', ' ',
+                                                            $effectiveLookupTerm);
                     }
 
                     #Temp!!!
