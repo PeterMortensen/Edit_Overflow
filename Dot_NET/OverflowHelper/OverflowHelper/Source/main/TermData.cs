@@ -1826,7 +1826,8 @@ namespace OverflowHelper.core
 
             correctionAdd("block quote", "blockquote");
 
-            correctionAdd("Right single quotation mark", "’");
+            // A typographic apostrophe
+            correctionAdd("right single quotation mark", "’");
             correctionAdd("RIGHT SINGLE QUOTATION", "’");
             correctionAdd("&rsquo;", "’");
             correctionAdd("U+2019", "’");
@@ -1837,17 +1838,19 @@ namespace OverflowHelper.core
             //   <https://en.wikipedia.org/wiki/Quotation_mark>
             //
             correctionAdd("double-quote", "double quote");
-            correctionAdd("double-qoute", "double quote");
             correctionAdd("Double quote", "double quote");
+            correctionAdd("double-qoute", "double quote");
+            correctionAdd("double qoute", "double quote");
             correctionAdd("doublequote", "double quote");
-            correctionAdd("doubleqoute", "double quote");
             correctionAdd("speech mark", "double quote");
             correctionAdd("doube quote", "double quote");
+            correctionAdd("doubleqoute", "double quote");
             correctionAdd("\"", "double quote");
 
             correctionAdd("double-quotes", "double quotes");
             correctionAdd("Double Quotes", "double quotes");
             correctionAdd("Double quotes", "double quotes");
+            correctionAdd("double qoutes", "double quotes");
 
             correctionAdd("double quoted", "double-quoted");
 
@@ -51631,6 +51634,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Digital Electronics", "digital electronics");
 
+            correctionAdd("shiftet", "shifted");
+
             correctionAdd("shift registers", "shift register");
             correctionAdd("Shift Register", "shift register");
             correctionAdd("Shift Reigster", "shift register");
@@ -64560,8 +64565,6 @@ namespace OverflowHelper.core
             correctionAdd("deviced", "devices"); // A true typo
             correctionAdd("derives", "devices");
 
-            correctionAdd("shiftet", "shifted");
-
             correctionAdd("comform", "conform");
 
             correctionAdd("conforment", "conformant");
@@ -69188,8 +69191,12 @@ namespace OverflowHelper.core
             //     The 'deskthority.net' reference is now broken (blank page).
             //     Candidate site for the wiki: <https://wiki.themk.org>
             //
+            //     Though it worked again on 2026-11-07.
+            //
             correctionAdd("ghosthing", "ghosting");
             correctionAdd("Ghosting", "ghosting");
+
+            correctionAdd("anti ghosting", "anti-ghosting");
 
             // Mechanical keyboards. Without NKRO diodes
             // (instead, direct I/O pin connections).
@@ -72179,7 +72186,6 @@ namespace OverflowHelper.core
             correctionAdd("Lshft", "left Shift key");
             correctionAdd("shfit", "left Shift key");
             correctionAdd("lshit", "left Shift key");
-            correctionAdd("rshit", "left Shift key");
             correctionAdd("SHIF", "left Shift key");
             correctionAdd("Shft", "left Shift key");
             correctionAdd("shft", "left Shift key");
@@ -72187,6 +72193,8 @@ namespace OverflowHelper.core
             correctionAdd("shit", "left Shift key");
             correctionAdd("SHF", "left Shift key");
             correctionAdd("shf", "left Shift key");
+
+            correctionAdd("rshit", "right Shift key");
 
             // A key on a keyboard. Modifier.
             correctionAdd("ALT-key", "Alt key");
@@ -72299,6 +72307,8 @@ namespace OverflowHelper.core
             correctionAdd("pgdwn", "PgDn key");
             correctionAdd("PG DN", "PgDn key");
             correctionAdd("pg dn", "PgDn key");
+            correctionAdd("Pg dn", "PgDn key");
+            correctionAdd("Pg Dn", "PgDn key");
             correctionAdd("pgdn", "PgDn key");
             correctionAdd("Pgdn", "PgDn key");
             correctionAdd("PgDn", "PgDn key");
@@ -72314,6 +72324,7 @@ namespace OverflowHelper.core
             correctionAdd("Pg Up", "PgUp key");
             correctionAdd("PG UP", "PgUp key");
             correctionAdd("pg up", "PgUp key");
+            correctionAdd("Pg up", "PgUp key");
             correctionAdd("p-up", "PgUp key");
             correctionAdd("pgup", "PgUp key");
             correctionAdd("Pgup", "PgUp key");
@@ -127463,6 +127474,8 @@ namespace OverflowHelper.core
 
             URL_Add("ghosting", "https://en.wikipedia.org/wiki/Key_rollover#Key_jamming_and_ghosting");
 
+            URL_Add("anti-ghosting", "https://deskthority.net/wiki/Rollover,_blocking_and_ghosting#Ghosting");
+
             URL_Add("ghost town", "https://en.wiktionary.org/wiki/ghost_town#Noun");
 
             URL_Add("Ghostscript", "https://en.wikipedia.org/wiki/Ghostscript");
@@ -146138,6 +146151,8 @@ namespace OverflowHelper.core
             URL_Add("context menu key", "https://en.wikipedia.org/wiki/Menu_key");
 
             URL_Add("left Shift key", "https://en.wikipedia.org/wiki/Shift_key");
+
+            URL_Add("right Shift key", "https://en.wikipedia.org/wiki/Shift_key");
 
             URL_Add("AltGr key", "https://en.wikipedia.org/wiki/AltGr_key");
 
@@ -175496,8 +175511,8 @@ namespace OverflowHelper.core
 
             correctionAdd("quaote__", "quote__");
             correctionAdd("wuote__", "quote__");
-            correctionAdd("qoute__", "quote__");
             correctionAdd("quota__", "quote__");
+            correctionAdd("qoute__", "quote__");
 
             correctionAdd("live__", "leave__");
 
