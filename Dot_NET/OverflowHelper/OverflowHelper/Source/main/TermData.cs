@@ -1809,6 +1809,127 @@ namespace OverflowHelper.core
             correctionAdd("Beall's list", "Beall's List");
             correctionAdd("Bealls list", "Beall's List");
 
+            correctionAdd("qouting", "quoting");
+
+            correctionAdd("quotation marks", "quotes");
+            correctionAdd("quetes", "quotes");
+            correctionAdd("quotas", "quotes");
+            correctionAdd("qoutes", "quotes");
+            correctionAdd("qutes", "quotes");
+
+            correctionAdd("un quote", "unquote");
+
+            correctionAdd("un-quoted", "unquoted");
+            correctionAdd("unqouted", "unquoted");
+
+            correctionAdd("re-quote", "requote");
+
+            correctionAdd("block quote", "blockquote");
+
+            correctionAdd("Right single quotation mark", "’");
+            correctionAdd("RIGHT SINGLE QUOTATION", "’");
+            correctionAdd("&rsquo;", "’");
+            correctionAdd("U+2019", "’");
+            correctionAdd("rsquo", "’");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Quotation_mark>
+            //
+            correctionAdd("double-quote", "double quote");
+            correctionAdd("double-qoute", "double quote");
+            correctionAdd("Double quote", "double quote");
+            correctionAdd("doublequote", "double quote");
+            correctionAdd("doubleqoute", "double quote");
+            correctionAdd("speech mark", "double quote");
+            correctionAdd("doube quote", "double quote");
+            correctionAdd("\"", "double quote");
+
+            correctionAdd("double-quotes", "double quotes");
+            correctionAdd("Double Quotes", "double quotes");
+            correctionAdd("Double quotes", "double quotes");
+
+            correctionAdd("double quoted", "double-quoted");
+
+            correctionAdd("triple-quote", "triple quote");
+
+            correctionAdd("tripping", "triple");
+            correctionAdd("tripple", "triple");
+            correctionAdd("trippe", "triple");
+            correctionAdd("treble", "triple");
+
+            correctionAdd("tri-lingual", "trilingual");
+            correctionAdd("3-lingual", "trilingual");
+
+            correctionAdd("quadri-lingual", "quadrilingual");
+            correctionAdd("4-lingual", "quadrilingual");
+
+            correctionAdd("Quotient", "quotient");
+
+            // "`"
+            correctionAdd("backward quote", "backtick");
+            correctionAdd("back tick", "backtick");
+            correctionAdd("back-tick", "backtick");
+            correctionAdd("backquote", "backtick");
+            correctionAdd("Back tick", "backtick");
+            correctionAdd("back mark", "backtick");
+            correctionAdd("Back-tick", "backtick");
+            correctionAdd("Backtick", "backtick");
+            correctionAdd("backtisk", "backtick");
+            correctionAdd("back-tic", "backtick");
+            correctionAdd("`", "backtick");
+
+            correctionAdd("Backquotes", "backticks");
+            correctionAdd("backquotes", "backticks");
+            correctionAdd("back ticks", "backticks");
+            correctionAdd("back-tics", "backticks");
+            correctionAdd("Backticks", "backticks");
+            correctionAdd("backtics", "backticks");
+
+            correctionAdd("qutation", "quotation");
+
+            correctionAdd("quotation signs", "quotation mark"); // Not 100% correct (plural)
+            correctionAdd("quatation mark", "quotation mark");
+            correctionAdd("Quotation mark", "quotation mark");
+            correctionAdd("quotation sign", "quotation mark");
+            correctionAdd("quotationmark", "quotation mark");
+
+            correctionAdd("Smart quotes", "smart quotes");
+
+            // Note: "single quote" is in an alternative word set...
+            correctionAdd("single quotas", "single quotes");
+            correctionAdd("single-quotes", "single quotes");
+            correctionAdd("Single Quotes", "single quotes");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Slash_(punctuation)>
+            //
+            correctionAdd("(forward) slash", "forward slash");
+            correctionAdd("forward-slash", "forward slash");
+            correctionAdd("Forward slash", "forward slash");
+            correctionAdd("forwardslash", "forward slash");
+            correctionAdd("foward slash", "forward slash");
+            correctionAdd("front slash", "forward slash");
+            correctionAdd("slash", "forward slash");
+            correctionAdd("/", "forward slash");
+
+            correctionAdd("backward slash", "backslash");
+            correctionAdd("back slash", "backslash");
+            correctionAdd("back-slash", "backslash");
+            correctionAdd("baskslash", "backslash");
+            correctionAdd("backslahs", "backslash");
+            correctionAdd("Backslash", "backslash");
+            correctionAdd("BackSlash", "backslash");
+            correctionAdd("backlash", "backslash");
+            correctionAdd("\\", "backslash");
+
+            correctionAdd("backslahes", "backslashes");
+
+            correctionAdd("tilda", "tilde");
+            correctionAdd("tidle", "tilde");
+            correctionAdd("Tilde", "tilde");
+
             correctionAdd("reliefed", "relieved");
             correctionAdd("releaved", "relieved");
 
@@ -2566,6 +2687,7 @@ namespace OverflowHelper.core
             correctionAdd("workoing", "working");
             correctionAdd("workikng", "working");
             correctionAdd("workring", "working");
+            correctionAdd("waorking", "working");
             correctionAdd("work'in", "working");
             correctionAdd("workong", "working");
             correctionAdd("wroking", "working");
@@ -3970,6 +4092,8 @@ namespace OverflowHelper.core
             correctionAdd("guyz", "guys");
             correctionAdd("gusy", "guys"); // A true typo
             correctionAdd("gys", "guys");
+
+            correctionAdd("She", "she");
 
             correctionAdd("femenine", "feminine");
 
@@ -9237,6 +9361,7 @@ namespace OverflowHelper.core
             correctionAdd("dependancy injection", "dependency injection");
             correctionAdd("Dependency injection", "dependency injection");
             correctionAdd("dependency-injection", "dependency injection");
+            correctionAdd("dependency injecting", "dependency injection");
             correctionAdd("depedency inejction", "dependency injection");
             correctionAdd("depedency injection", "dependency injection");
             correctionAdd("di", "dependency injection"); // Not actually observed.
@@ -11001,6 +11126,7 @@ namespace OverflowHelper.core
             correctionAdd("oughta", "ought to");
 
             // Note: "do" and "did" are in an alternative word set
+            correctionAdd("don&rsquo;t", "don’t");
             correctionAdd("dont't", "don’t");
             correctionAdd("dont’t", "don’t");
             correctionAdd("donn't", "don’t");
@@ -18422,6 +18548,9 @@ namespace OverflowHelper.core
 
             correctionAdd("VASP", "Vienna Ab initio Simulation Package");
 
+            correctionAdd("succomb", "succumb");
+            correctionAdd("succom", "succumb");
+
             // Note: "die" is in an alternative word set
             correctionAdd("dieing", "dying");
             correctionAdd("dyeing", "dying");
@@ -23935,6 +24064,8 @@ namespace OverflowHelper.core
             correctionAdd("super nova", "supernova");
 
             correctionAdd("Neutron Star", "neutron star");
+            correctionAdd("Neutron stars", "neutron star");
+            correctionAdd("Neutron star", "neutron star");
             correctionAdd("NS", "neutron star");
 
             correctionAdd("GammaRay Burst", "gamma-ray burst");
@@ -25398,19 +25529,6 @@ namespace OverflowHelper.core
             correctionAdd("dipol", "dipole");
 
             correctionAdd("quadrupol", "quadrupole");
-
-            correctionAdd("tripping", "triple");
-            correctionAdd("tripple", "triple");
-            correctionAdd("trippe", "triple");
-            correctionAdd("treble", "triple");
-
-            correctionAdd("triple-quote", "triple quote");
-
-            correctionAdd("tri-lingual", "trilingual");
-            correctionAdd("3-lingual", "trilingual");
-
-            correctionAdd("quadri-lingual", "quadrilingual");
-            correctionAdd("4-lingual", "quadrilingual");
 
             correctionAdd("quadruplicate", "quadruple");
 
@@ -32916,6 +33034,8 @@ namespace OverflowHelper.core
             correctionAdd("Aprils fool", "April fool");
             correctionAdd("Aprils Fool", "April fool");
             correctionAdd("APRIL FOOLS", "April fool");
+            correctionAdd("April First", "April fool");
+            correctionAdd("April first", "April fool");
             correctionAdd("april joke", "April fool");
             correctionAdd("April Fool", "April fool");
             correctionAdd("april fool", "April fool");
@@ -38099,108 +38219,6 @@ namespace OverflowHelper.core
             correctionAdd("Doppelgänger", "doppelganger");
             correctionAdd("doppelgänger", "doppelganger");
             correctionAdd("doppleganger", "doppelganger");
-
-            correctionAdd("quotation marks", "quotes");
-            correctionAdd("quetes", "quotes");
-            correctionAdd("quotas", "quotes");
-            correctionAdd("qoutes", "quotes");
-            correctionAdd("qutes", "quotes");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Quotation_mark>
-            //
-            correctionAdd("double-quote", "double quote");
-            correctionAdd("double-qoute", "double quote");
-            correctionAdd("Double quote", "double quote");
-            correctionAdd("doublequote", "double quote");
-            correctionAdd("doubleqoute", "double quote");
-            correctionAdd("speech mark", "double quote");
-            correctionAdd("doube quote", "double quote");
-            correctionAdd("\"", "double quote");
-
-            correctionAdd("double-quotes", "double quotes");
-            correctionAdd("Double Quotes", "double quotes");
-            correctionAdd("Double quotes", "double quotes");
-
-            correctionAdd("double quoted", "double-quoted");
-
-            correctionAdd("qouting", "quoting");
-
-            correctionAdd("un quote", "unquote");
-
-            correctionAdd("un-quoted", "unquoted");
-            correctionAdd("unqouted", "unquoted");
-
-            correctionAdd("re-quote", "requote");
-
-            correctionAdd("block quote", "blockquote");
-
-            correctionAdd("Quotient", "quotient");
-
-            // "`"
-            correctionAdd("backward quote", "backtick");
-            correctionAdd("back tick", "backtick");
-            correctionAdd("back-tick", "backtick");
-            correctionAdd("backquote", "backtick");
-            correctionAdd("Back tick", "backtick");
-            correctionAdd("back mark", "backtick");
-            correctionAdd("Back-tick", "backtick");
-            correctionAdd("Backtick", "backtick");
-            correctionAdd("backtisk", "backtick");
-            correctionAdd("back-tic", "backtick");
-            correctionAdd("`", "backtick");
-
-            correctionAdd("Backquotes", "backticks");
-            correctionAdd("backquotes", "backticks");
-            correctionAdd("back ticks", "backticks");
-            correctionAdd("back-tics", "backticks");
-            correctionAdd("Backticks", "backticks");
-            correctionAdd("backtics", "backticks");
-
-            correctionAdd("qutation", "quotation");
-
-            correctionAdd("quotation signs", "quotation mark"); // Not 100% correct (plural)
-            correctionAdd("quatation mark", "quotation mark");
-            correctionAdd("Quotation mark", "quotation mark");
-            correctionAdd("quotation sign", "quotation mark");
-            correctionAdd("quotationmark", "quotation mark");
-
-            correctionAdd("Smart quotes", "smart quotes");
-
-            // Note: "single quote" is in an alternative word set...
-            correctionAdd("single quotas", "single quotes");
-            correctionAdd("single-quotes", "single quotes");
-            correctionAdd("Single Quotes", "single quotes");
-
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Slash_(punctuation)>
-            //
-            correctionAdd("(forward) slash", "forward slash");
-            correctionAdd("forward-slash", "forward slash");
-            correctionAdd("Forward slash", "forward slash");
-            correctionAdd("forwardslash", "forward slash");
-            correctionAdd("foward slash", "forward slash");
-            correctionAdd("front slash", "forward slash");
-            correctionAdd("slash", "forward slash");
-            correctionAdd("/", "forward slash");
-
-            correctionAdd("backward slash", "backslash");
-            correctionAdd("back slash", "backslash");
-            correctionAdd("back-slash", "backslash");
-            correctionAdd("baskslash", "backslash");
-            correctionAdd("backslahs", "backslash");
-            correctionAdd("Backslash", "backslash");
-            correctionAdd("BackSlash", "backslash");
-            correctionAdd("backlash", "backslash");
-            correctionAdd("\\", "backslash");
-
-            correctionAdd("backslahes", "backslashes");
-
-            correctionAdd("tilda", "tilde");
-            correctionAdd("tidle", "tilde");
-            correctionAdd("Tilde", "tilde");
 
             correctionAdd("Start", "start");
             correctionAdd("satrt", "start");
@@ -52543,7 +52561,9 @@ namespace OverflowHelper.core
             correctionAdd("trigerred", "triggered");
             correctionAdd("triggerd", "triggered");
             correctionAdd("tiggered", "triggered");
+            correctionAdd("trigered", "triggered");
             correctionAdd("trigged", "triggered");
+            correctionAdd("tigered", "triggered");
 
             correctionAdd("re-trigger", "retrigger");
 
@@ -63373,6 +63393,11 @@ namespace OverflowHelper.core
             //   <https://dictionary.cambridge.org/example/english/beginning-stage>
             //
             correctionAdd("beginning-stage", "beginning stage");
+
+            // We need a better reference!
+            // And perhaps it is "twostage"?
+            //
+            correctionAdd("two stage", "two-stage");
 
             correctionAdd("prestigous", "prestigious");
 
@@ -83062,10 +83087,13 @@ namespace OverflowHelper.core
             correctionAdd("raspi zero", "Raspberry Pi Zero");
             correctionAdd("RPizero", "Raspberry Pi Zero");
 
+            // Note: "Raspberry Pi Pico" is in an alternative word set
             correctionAdd("Raspberry Pi Pico-W", "Raspberry Pi Pico W");
             correctionAdd("Raspberry Pi pico-w", "Raspberry Pi Pico W");
             correctionAdd("Raspberry pi pico-w", "Raspberry Pi Pico W");
+            correctionAdd("pi pico 2 w", "Raspberry Pi Pico W");
             correctionAdd("RP Pico W", "Raspberry Pi Pico W");
+            correctionAdd("pi pico w", "Raspberry Pi Pico W");
             correctionAdd("pico-w", "Raspberry Pi Pico W");
             correctionAdd("pico w", "Raspberry Pi Pico W");
             correctionAdd("Pico W", "Raspberry Pi Pico W");
@@ -104011,6 +104039,7 @@ namespace OverflowHelper.core
             correctionAdd("knights", "knight");
             correctionAdd("knightz", "knight");
             correctionAdd("knigth", "knight");
+            correctionAdd("pony", "knight");
 
             // Chess. As in 'nightmare'
             correctionAdd("knight mare", "knightmare");
@@ -112809,6 +112838,8 @@ namespace OverflowHelper.core
             URL_Add("biscuit", "https://en.wiktionary.org/wiki/biscuit#Noun");
 
             URL_Add("double", "https://en.wiktionary.org/wiki/double#Adjective");
+
+            URL_Add("she", "https://en.wiktionary.org/wiki/she#Pronoun");
 
             URL_Add("feminine", "https://en.wiktionary.org/wiki/feminine#Adjective");
 
@@ -134252,6 +134283,8 @@ namespace OverflowHelper.core
 
             URL_Add("ellipsis", "https://en.wikipedia.org/wiki/Ellipsis#Computer_representations");
 
+            URL_Add("succumb", "https://en.wiktionary.org/wiki/succumb#Verb");
+
             URL_Add("dying", "https://en.wiktionary.org/wiki/die#Verb");
 
             URL_Add("died", "https://en.wiktionary.org/wiki/die#Verb");
@@ -146652,6 +146685,8 @@ namespace OverflowHelper.core
 
             URL_Add("blockquote", "https://en.wiktionary.org/wiki/blockquote#Noun");
 
+            URL_Add("’", "https://en.wikipedia.org/wiki/Right_single_quotation_mark");
+
             URL_Add("blockchain", "https://en.wikipedia.org/wiki/Blockchain");
 
             URL_Add("Code::Blocks", "https://en.wikipedia.org/wiki/Code::Blocks");
@@ -148591,6 +148626,8 @@ namespace OverflowHelper.core
             URL_Add("unstaged", "https://en.wiktionary.org/wiki/unstage#Verb");
 
             URL_Add("beginning stage", "https://www.collinsdictionary.com/dictionary/english/beginning-stage");
+
+            URL_Add("two-stage", "https://www.thefreedictionary.com/_/help/help3.htm#325");
 
             URL_Add("postage and packaging", "https://en.wiktionary.org/wiki/p&p#Noun");
 
@@ -174328,8 +174365,10 @@ namespace OverflowHelper.core
             correctionAdd("mods__", "keyboard modifier keys__");
 
             // A key on a keyboard. Modifier.
+            correctionAdd("shortcut mode__", "Ctrl key__");
             correctionAdd("Control key__", "Ctrl key__");
             correctionAdd("control key__", "Ctrl key__");
+            correctionAdd("shortcut__", "Ctrl key__");
             correctionAdd("Control__", "Ctrl key__");
             correctionAdd("control__", "Ctrl key__");
             correctionAdd("CNTRL__", "Ctrl key__");
@@ -187116,6 +187155,8 @@ namespace OverflowHelper.core
             correctionAdd("t______", "to______");
 
             // correctionAdd("by______", "but______");  Current a conflict
+            //    Though it is actually very common!!!
+            //
             correctionAdd("buit______", "but______");
             correctionAdd("buat______", "but______");
             correctionAdd("Buts______", "but______");
