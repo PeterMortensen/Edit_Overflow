@@ -3246,6 +3246,8 @@ namespace OverflowHelper.core
             correctionAdd("fight-ed", "fought");
             correctionAdd("fighted", "fought");
 
+            correctionAdd("Infighting", "infighting");
+
             // Note: "thought" is in an alternative word set
             correctionAdd("thoughtfull", "thoughtful");
 
@@ -11608,7 +11610,13 @@ namespace OverflowHelper.core
 
             correctionAdd("gimick", "gimmick");
 
+            // The noun
+            correctionAdd("shoppe", "shop");
+
             correctionAdd("shoping", "shopping");
+
+            correctionAdd("shopify", "Shopify");
+            correctionAdd("Shopfiy", "Shopify");
 
             correctionAdd("nlank", "blank");
 
@@ -27252,6 +27260,10 @@ namespace OverflowHelper.core
             correctionAdd("Reapeated", "repeated");
             correctionAdd("repreated", "repeated");
 
+            correctionAdd("non repeating", "nonrepeating");
+
+            correctionAdd("oft repeated", "oft-repeated");
+
             correctionAdd("repitable", "repeatable");
 
             correctionAdd("repeatibility", "repeatability");
@@ -27268,9 +27280,9 @@ namespace OverflowHelper.core
             correctionAdd("rwpetedly", "repeatedly");
             correctionAdd("repeatly", "repeatedly");
 
-            correctionAdd("non repeating", "nonrepeating");
-
             correctionAdd("repeator", "repeater");
+
+            correctionAdd("bears repeating", "it bears repeating");
 
             correctionAdd("Wash, rinse, repeat", "lather, rinse, repeat");
             correctionAdd("wash, rinse, repeat", "lather, rinse, repeat");
@@ -27290,6 +27302,44 @@ namespace OverflowHelper.core
 
             correctionAdd("repeatitively", "repetitively");
             correctionAdd("repetitavely", "repetitively");
+
+            correctionAdd("bare in mind", "bear in mind");
+            correctionAdd("Bare in mind", "bear in mind");
+            correctionAdd("Bear in mind", "bear in mind");
+
+            correctionAdd("baring in mind", "bearing in mind");
+
+            correctionAdd("bare out", "bear out");
+
+            correctionAdd("bare with me", "bear with me");
+
+            correctionAdd("bare with", "bear with");
+
+            correctionAdd("Mines", "mines");
+
+            correctionAdd("mindfield", "minefield"); // !!!!!
+
+            correctionAdd("closed mindedness", "closed-mindedness");
+            correctionAdd("closedmindedness", "closed-mindedness");
+
+            // Idiomatic
+            correctionAdd("make my mind", "make up my mind");
+
+            correctionAdd("springs to mind", "comes to mind");
+
+            correctionAdd("came in mind", "came to mind");
+
+            correctionAdd("simple minded", "simple-minded");
+
+            correctionAdd("in my mind", "on my mind");
+
+            correctionAdd("peace of senses", "peace of mind");
+
+            // Idiomatic
+            correctionAdd("loosing my mind", "losing my mind");
+
+            correctionAdd("in two minds", "of two minds");
+            correctionAdd("in 2 minds", "of two minds");
 
             correctionAdd("restaining order", "restraining order");
 
@@ -32447,46 +32497,6 @@ namespace OverflowHelper.core
             // The web template system
             correctionAdd("mustache", "Mustache");
 
-            correctionAdd("Mines", "mines");
-
-            correctionAdd("mindfield", "minefield"); // !!!!!
-
-            correctionAdd("closed mindedness", "closed-mindedness");
-            correctionAdd("closedmindedness", "closed-mindedness");
-
-            // Idiomatic
-            correctionAdd("make my mind", "make up my mind");
-
-            correctionAdd("springs to mind", "comes to mind");
-
-            correctionAdd("came in mind", "came to mind");
-
-            correctionAdd("bare in mind", "bear in mind");
-            correctionAdd("Bare in mind", "bear in mind");
-            correctionAdd("Bear in mind", "bear in mind");
-
-            correctionAdd("baring in mind", "bearing in mind");
-
-            correctionAdd("bare out", "bear out");
-
-            correctionAdd("bears repeating", "it bears repeating");
-
-            correctionAdd("bare with me", "bear with me");
-
-            correctionAdd("bare with", "bear with");
-
-            correctionAdd("simple minded", "simple-minded");
-
-            correctionAdd("in my mind", "on my mind");
-
-            correctionAdd("peace of senses", "peace of mind");
-
-            // Idiomatic
-            correctionAdd("loosing my mind", "losing my mind");
-
-            correctionAdd("in two minds", "of two minds");
-            correctionAdd("in 2 minds", "of two minds");
-
             correctionAdd("grapple", "grapple with");
 
             correctionAdd("re-export", "reexport");
@@ -35783,6 +35793,8 @@ namespace OverflowHelper.core
             correctionAdd("non functional", "nonfunctional");
 
             correctionAdd("disfunction", "dysfunction");
+
+            correctionAdd("Dysfunctional", "dysfunctional");
 
             correctionAdd("functionallitiy", "functionality");
             correctionAdd("functionalility", "functionality");
@@ -48291,10 +48303,12 @@ namespace OverflowHelper.core
             //      level 3." (partly paraphrased)
             //
             correctionAdd("litteracy", "literacy");
+            correctionAdd("Literacy", "literacy");
 
             correctionAdd("Illiterate", "illiterate");
             correctionAdd("iliterate", "illiterate");
 
+            correctionAdd("Illiteracy", "illiteracy");
             correctionAdd("iliteracy", "illiteracy");
 
             // Alternative URLs:
@@ -48803,8 +48817,9 @@ namespace OverflowHelper.core
             correctionAdd("Pip", "pip");
 
             // Python
-            correctionAdd("pip 3", "pip&nbsp;3");
-            correctionAdd("pip3", "pip&nbsp;3");
+            correctionAdd("pip3", "pip 3");
+
+            correctionAdd("Python Packaging Authority", "PyPA");
 
             // Python
             correctionAdd("Wheel", "wheel");
@@ -53382,6 +53397,15 @@ namespace OverflowHelper.core
             correctionAdd("stm8", "STM8");
 
             // Note: "STMicroelectronics" / "ST" is in an alternative word set
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/STM32#Part_number_decoding>
+            //     STM32 part number decoding
+            //
+            //   <https://stackoverflow.com/questions/67648556/how-much-flash-memory-is-there-in-the-microcontroller/79997157#79997157>
+            //     Allegedly, there is a read-only register
+            //     with the actual flash memory size.
             //
             correctionAdd("stm 32", "STM32");
             correctionAdd("stm32", "STM32");
@@ -86019,10 +86043,8 @@ namespace OverflowHelper.core
             //
             //     South pole facing downward (uncommon)
             //
-            correctionAdd("Keychron Q4 HE", "Keychron&nbsp;Q4&nbsp;HE"); // Sort of identity mapping
-            correctionAdd("Q4&nbsp;HE", "Keychron&nbsp;Q4&nbsp;HE");
-            correctionAdd("Q4 HE", "Keychron&nbsp;Q4&nbsp;HE");
-            correctionAdd("q4 he", "Keychron&nbsp;Q4&nbsp;HE");
+            correctionAdd("Q4 HE", "Keychron Q4 HE");
+            correctionAdd("q4 he", "Keychron Q4 HE");
 
             // A 62-key (60%. Not true TKL) severely crippled
             // wired-only QMK/Via-capable mechanical keyboard
@@ -86712,12 +86734,9 @@ namespace OverflowHelper.core
             //
             //     South pole facing downward (uncommon)
             //
-            correctionAdd("Keychron&nbsp;Q2&nbsp;HE", "Keychron&nbsp;Q2&nbsp;HE (65%)");
-            correctionAdd("Keychron Q2 HE (65%)", "Keychron&nbsp;Q2&nbsp;HE (65%)"); // Sort of identity mapping
-            correctionAdd("Keychron Q2 HE", "Keychron&nbsp;Q2&nbsp;HE (65%)"); // Sort of identity mapping
-            correctionAdd("Q2&nbsp;HE", "Keychron&nbsp;Q2&nbsp;HE (65%)");
-            correctionAdd("Q2 HE", "Keychron&nbsp;Q2&nbsp;HE (65%)");
-            correctionAdd("q2 he", "Keychron&nbsp;Q2&nbsp;HE (65%)");
+            correctionAdd("Keychron Q2 HE", "Keychron Q2 HE (65%)");
+            correctionAdd("Q2 HE", "Keychron Q2 HE (65%)");
+            correctionAdd("q2 he", "Keychron Q2 HE (65%)");
 
             // A 67-key (65%. Not true TKL) severely crippled wired-only
             // closed source (but with Via support)
@@ -87333,13 +87352,11 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-k6-he-user-manual>
             //
-            correctionAdd("Keychron K6 HE (65%)", "Keychron&nbsp;K6&nbsp;HE (65%)"); // Sort of identity mapping
-            correctionAdd("K6&nbsp;HE (65%)", "Keychron&nbsp;K6&nbsp;HE (65%)");
-            correctionAdd("Keychron K6 HE", "Keychron&nbsp;K6&nbsp;HE (65%)");
-            correctionAdd("K6 HE (65%)", "Keychron&nbsp;K6&nbsp;HE (65%)");
-            correctionAdd("K6 HE", "Keychron&nbsp;K6&nbsp;HE (65%)");
-            correctionAdd("k6 he", "Keychron&nbsp;K6&nbsp;HE (65%)");
-            correctionAdd("k6he", "Keychron&nbsp;K6&nbsp;HE (65%)");
+            correctionAdd("Keychron K6 HE", "Keychron K6 HE (65%)");
+            correctionAdd("K6 HE (65%)", "Keychron K6 HE (65%)");
+            correctionAdd("K6 HE", "Keychron K6 HE (65%)");
+            correctionAdd("k6 he", "Keychron K6 HE (65%)");
+            correctionAdd("k6he", "Keychron K6 HE (65%)");
 
             // A 70-key (65%. Not true TKL) severely crippled
             // wired-only QMK/Via-capable mechanical keyboard
@@ -88877,7 +88894,6 @@ namespace OverflowHelper.core
             correctionAdd("lemokey p1 he", "Keychron Lemokey P1 HE");
             correctionAdd("Lemokey P HE", "Keychron Lemokey P1 HE");
             correctionAdd("Lemokey P1HE", "Keychron Lemokey P1 HE");
-            correctionAdd("P1&nbsp;HE", "Keychron Lemokey P1 HE");
             correctionAdd("LK P1 HE", "Keychron Lemokey P1 HE");
             correctionAdd("P1 HE", "Keychron Lemokey P1 HE");
             correctionAdd("p1 HE", "Keychron Lemokey P1 HE");
@@ -89110,7 +89126,6 @@ namespace OverflowHelper.core
             correctionAdd("Keychron J2 HE 8K (proprietary keyboard firmware, not open source)", "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Keychron J2 HE 8K", "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
             correctionAdd("Keychron J2 HE", "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)"); // Sort of identity mapping
-            correctionAdd("J2&nbsp;HE", "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("J2 HE 8K", "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)");
             correctionAdd("J2 HE", "Keychron J2 HE 8K (80%) (proprietary keyboard firmware, not open source)");
 
@@ -90706,8 +90721,6 @@ namespace OverflowHelper.core
             //
             //     What about the Q HE 8K series???
             //
-            correctionAdd("Keychron&nbsp;Q3&nbsp;HE&nbsp;8K", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3&nbsp;HE&nbsp;8K", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Keychron Q3 HE 8K", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q3 HE 8 Khz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q3 HE 8 kHz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
@@ -91321,9 +91334,7 @@ namespace OverflowHelper.core
             //
             //      What about the P HE series???
             //
-            correctionAdd("Keychron Lemokey P3 HE", "Keychron&nbsp;Lemokey&nbsp;P3&nbsp;HE"); // Sort of identity mapping
-            correctionAdd("P3&nbsp;HE", "Keychron&nbsp;Lemokey&nbsp;P3&nbsp;HE");
-            correctionAdd("P3 HE", "Keychron&nbsp;Lemokey&nbsp;P3&nbsp;HE");
+            correctionAdd("P3 HE", "Keychron Lemokey P3 HE");
 
             // A 88-key (85%. True TKL) crippled wired-only
             // mechanical keyboard from Cooler Master.
@@ -92897,19 +92908,17 @@ namespace OverflowHelper.core
             //
             //       <https://www.reddit.com/r/Keychron/comments/1mr6x2p/comment/n8zzfzy/>
             //
-            correctionAdd("KEYCHRON K4 HE", "Keychron&nbsp;K4&nbsp;HE");
-            correctionAdd("Keychron K4 HE", "Keychron&nbsp;K4&nbsp;HE"); // Sort of identity mapping
-            correctionAdd("K4&nbsp;HE", "Keychron&nbsp;K4&nbsp;HE");
-            correctionAdd("K4 HE", "Keychron&nbsp;K4&nbsp;HE");
-            correctionAdd("k4 he", "Keychron&nbsp;K4&nbsp;HE");
-            correctionAdd("HE K4", "Keychron&nbsp;K4&nbsp;HE");
-            correctionAdd("K4 he", "Keychron&nbsp;K4&nbsp;HE");
-            correctionAdd("K4 He", "Keychron&nbsp;K4&nbsp;HE");
-            correctionAdd("K4-HE", "Keychron&nbsp;K4&nbsp;HE");
-            correctionAdd("k4 HE", "Keychron&nbsp;K4&nbsp;HE");
-            correctionAdd("k4he", "Keychron&nbsp;K4&nbsp;HE");
-            correctionAdd("k4HE", "Keychron&nbsp;K4&nbsp;HE");
-            correctionAdd("K4HE", "Keychron&nbsp;K4&nbsp;HE");
+            correctionAdd("KEYCHRON K4 HE", "Keychron K4 HE");
+            correctionAdd("K4 HE", "Keychron K4 HE");
+            correctionAdd("k4 he", "Keychron K4 HE");
+            correctionAdd("HE K4", "Keychron K4 HE");
+            correctionAdd("K4 he", "Keychron K4 HE");
+            correctionAdd("K4 He", "Keychron K4 HE");
+            correctionAdd("K4-HE", "Keychron K4 HE");
+            correctionAdd("k4 HE", "Keychron K4 HE");
+            correctionAdd("k4he", "Keychron K4 HE");
+            correctionAdd("k4HE", "Keychron K4 HE");
+            correctionAdd("K4HE", "Keychron K4 HE");
 
             // A 102-key (95%. Not true TKL) full-size keyboard.
             //
@@ -93145,14 +93154,13 @@ namespace OverflowHelper.core
             //     A review (but with irritating background music)
             //     Includes setting actuation points.
             //
-            correctionAdd("Keychron Q5 HE (95%)", "Keychron&nbsp;Q5&nbsp;HE (95%)"); // Sort of identity mapping
-            correctionAdd("Keychron Q5 HE", "Keychron&nbsp;Q5&nbsp;HE (95%)");
-            correctionAdd("Q5 HE", "Keychron&nbsp;Q5&nbsp;HE (95%)");
-            correctionAdd("Q5 He", "Keychron&nbsp;Q5&nbsp;HE (95%)");
-            correctionAdd("q5 HE", "Keychron&nbsp;Q5&nbsp;HE (95%)");
-            correctionAdd("q5 he", "Keychron&nbsp;Q5&nbsp;HE (95%)");
-            correctionAdd("Q5 he", "Keychron&nbsp;Q5&nbsp;HE (95%)");
-            correctionAdd("q5he", "Keychron&nbsp;Q5&nbsp;HE (95%)");
+            correctionAdd("Keychron Q5 HE", "Keychron Q5 HE (95%)");
+            correctionAdd("Q5 HE", "Keychron Q5 HE (95%)");
+            correctionAdd("Q5 He", "Keychron Q5 HE (95%)");
+            correctionAdd("q5 HE", "Keychron Q5 HE (95%)");
+            correctionAdd("q5 he", "Keychron Q5 HE (95%)");
+            correctionAdd("Q5 he", "Keychron Q5 HE (95%)");
+            correctionAdd("q5he", "Keychron Q5 HE (95%)");
 
             // A 102-key (95%. Not true TKL) crippled (wrt. missing
             // PgUp and PgDn, etc.) wired and wireless (only
@@ -101485,9 +101493,6 @@ namespace OverflowHelper.core
             correctionAdd("Latin2", "ISO 8859-2");
 
             correctionAdd("iso-8859-15", "ISO 8859-15");
-
-            correctionAdd("shopify", "Shopify");
-            correctionAdd("Shopfiy", "Shopify");
 
             correctionAdd("Finite element analysis", "finite element method");
             correctionAdd("finite element analysis", "finite element method");
@@ -112009,6 +112014,8 @@ namespace OverflowHelper.core
             URL_Add("disappeared", "https://en.wiktionary.org/wiki/disappear#Verb");
 
             URL_Add("dysfunction", "https://en.wiktionary.org/wiki/dysfunction#Noun");
+
+            URL_Add("dysfunctional", "https://en.wiktionary.org/wiki/dysfunctional#Adjective");
 
             URL_Add("déjà vu", "https://en.wiktionary.org/wiki/d%C3%A9j%C3%A0_vu#Noun");
 
@@ -124244,6 +124251,8 @@ namespace OverflowHelper.core
 
             URL_Add("fought", "https://en.wiktionary.org/wiki/fight#Verb");
 
+            URL_Add("infighting", "https://en.wiktionary.org/wiki/infighting#Noun");
+
             URL_Add("fighters", "https://en.wiktionary.org/wiki/fighter#Noun");
 
             URL_Add("infantry fighting vehicle", "https://en.wikipedia.org/wiki/Infantry_fighting_vehicle");
@@ -125753,6 +125762,8 @@ namespace OverflowHelper.core
             URL_Add("UnxUtils", "https://unxutils.sourceforge.net/UnxUtils.html");
 
             URL_Add("decrease", "https://en.wiktionary.org/wiki/decrease#Verb");
+
+            URL_Add("shop", "https://en.wiktionary.org/wiki/shop#Noun");
 
             URL_Add("shopping", "https://en.wiktionary.org/wiki/shopping#Noun");
 
@@ -129653,6 +129664,8 @@ namespace OverflowHelper.core
             URL_Add("repeating", "https://en.wiktionary.org/wiki/repeating#Adjective");
 
             URL_Add("repeated", "https://en.wiktionary.org/wiki/repeated#Adjective");
+
+            URL_Add("oft-repeated", "https://en.wiktionary.org/wiki/oft-repeated#Adjective");
 
             URL_Add("nonrepeating", "https://en.wiktionary.org/wiki/nonrepeating#Adjective");
 
@@ -143570,7 +143583,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Lemokey P2 HE", "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard");
 
-            URL_Add("Keychron&nbsp;Lemokey&nbsp;P3&nbsp;HE", "https://www.keychron.com/products/lemokey-p3-he-wireless-magnetic-switch-custom-gaming-keyboard");
+            URL_Add("Keychron Lemokey P3 HE", "https://www.keychron.com/products/lemokey-p3-he-wireless-magnetic-switch-custom-gaming-keyboard");
 
             URL_Add("Lemokey&nbsp;L0&nbsp;HE", "https://www.lemokey.com/products/lemokey-l0-he-one-handed-magnetic-switch-gaming-keyboard");
 
@@ -143690,9 +143703,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K3 HE", "https://www.keychron.com/products/keychron-k3-he-wireless-magnetic-switch-custom-keyboard");
 
-            URL_Add("Keychron&nbsp;K4&nbsp;HE", "https://www.keychron.com/products/keychron-k4-he-wireless-magnetic-switch-custom-keyboard");
+            URL_Add("Keychron K4 HE", "https://www.keychron.com/products/keychron-k4-he-wireless-magnetic-switch-custom-keyboard");
 
-            URL_Add("Keychron&nbsp;K6&nbsp;HE (65%)", "https://www.keychron.com/products/keychron-k6-he-wireless-magnetic-switch-keyboard");
+            URL_Add("Keychron K6 HE (65%)", "https://www.keychron.com/products/keychron-k6-he-wireless-magnetic-switch-keyboard");
 
             URL_Add("Keychron K8 HE", "https://www.keychron.com/products/keychron-k8-he-wireless-magnetic-switch-custom-keyboard");
 
@@ -143786,13 +143799,13 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q65 Max", "https://www.keychron.com/products/keychron-q65-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q2&nbsp;HE (65%)", "https://www.keychron.com/products/keychron-q2-he-qmk-wireless-custom-keyboard");
+            URL_Add("Keychron Q2 HE (65%)", "https://www.keychron.com/products/keychron-q2-he-qmk-wireless-custom-keyboard");
 
             URL_Add("Keychron Q3 HE (85%)", "https://www.keychron.com/products/keychron-q3-he-qmk-wireless-custom-keyboard");
 
-            URL_Add("Keychron&nbsp;Q4&nbsp;HE", "https://keychron.de/products/keychron-q4-he-qmk-wireless-custom-keyboard");
+            URL_Add("Keychron Q4 HE", "https://keychron.de/products/keychron-q4-he-qmk-wireless-custom-keyboard");
 
-            URL_Add("Keychron&nbsp;Q5&nbsp;HE (95%)", "https://www.keychron.com/products/keychron-q5-he-qmk-wireless-custom-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/products/keychron-q5-he-qmk-wireless-custom-keyboard>
+            URL_Add("Keychron Q5 HE (95%)", "https://www.keychron.com/products/keychron-q5-he-qmk-wireless-custom-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/products/keychron-q5-he-qmk-wireless-custom-keyboard>
 
             URL_Add("Keychron Q6 HE (105%)", "https://www.keychron.com/products/keychron-q6-he-qmk-wireless-custom-keyboard");
 
@@ -147068,7 +147081,9 @@ namespace OverflowHelper.core
 
             URL_Add("pip", "https://en.wikipedia.org/wiki/Pip_%28package_manager%29");
 
-            URL_Add("pip&nbsp;3", "https://en.wikipedia.org/wiki/Pip_%28package_manager%29");
+            URL_Add("pip 3", "https://en.wikipedia.org/wiki/Pip_%28package_manager%29");
+
+            URL_Add("PyPA", "https://en.wikipedia.org/wiki/Pip_%28package_manager%29#History");
 
             URL_Add("right to repair", "https://en.wikipedia.org/wiki/Right_to_repair");
 
@@ -159789,24 +159804,22 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/Keychron/comments/1dj1180/comment/l9fe5w7/>
             //     "It should be released in this year" (2024)
             //
-            correctionAdd("Keychron q1 HE_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("keychron q1 HE_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("Keychron Q1 he_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("keychron q1 he_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("Keychron Q1 HE_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("KEYCHRON Q1 HE_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("Q1&nbsp;HE_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("Q1 HE_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("Q1 He_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("q1 he_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("q1 He_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("HE Q1_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("q1 HE_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("Q1 he_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("Q1HE_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("HEQ1_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("q1he_", "Keychron&nbsp;Q1&nbsp;HE_");
-            correctionAdd("Q1he_", "Keychron&nbsp;Q1&nbsp;HE_");
+            correctionAdd("Keychron q1 HE_", "Keychron Q1 HE_");
+            correctionAdd("keychron q1 HE_", "Keychron Q1 HE_");
+            correctionAdd("Keychron Q1 he_", "Keychron Q1 HE_");
+            correctionAdd("keychron q1 he_", "Keychron Q1 HE_");
+            correctionAdd("KEYCHRON Q1 HE_", "Keychron Q1 HE_");
+            correctionAdd("Q1 HE_", "Keychron Q1 HE_");
+            correctionAdd("Q1 He_", "Keychron Q1 HE_");
+            correctionAdd("q1 he_", "Keychron Q1 HE_");
+            correctionAdd("q1 He_", "Keychron Q1 HE_");
+            correctionAdd("HE Q1_", "Keychron Q1 HE_");
+            correctionAdd("q1 HE_", "Keychron Q1 HE_");
+            correctionAdd("Q1 he_", "Keychron Q1 HE_");
+            correctionAdd("Q1HE_", "Keychron Q1 HE_");
+            correctionAdd("HEQ1_", "Keychron Q1 HE_");
+            correctionAdd("q1he_", "Keychron Q1 HE_");
+            correctionAdd("Q1he_", "Keychron Q1 HE_");
 
             // A 85-key (80%. Not true TKL) crippled wired and
             // wireless (only Bluetooth) mechanical keyboard
@@ -173025,7 +173038,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q12_", "https://www.keychron.com/products/keychron-q12-qmk-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q1&nbsp;HE_", "https://www.keychron.com/products/keychron-q1-he-qmk-wireless-custom-keyboard-iso-layout-collection");
+            URL_Add("Keychron Q1 HE_", "https://www.keychron.com/products/keychron-q1-he-qmk-wireless-custom-keyboard-iso-layout-collection");
 
             URL_Add("Keychron Q65_", "https://www.keychron.com/products/keychron-q65-qmk-custom-mechanical-keyboard");
 
@@ -174810,7 +174823,6 @@ namespace OverflowHelper.core
             //
             //     South pole facing downward (uncommon)
             //
-            correctionAdd("Keychron&nbsp;Q1&nbsp;HE__", "Keychron Q1 HE__");
             correctionAdd("HE Q1__", "Keychron Q1 HE__");
             correctionAdd("Q1 HE__", "Keychron Q1 HE__");
 
@@ -176145,11 +176157,11 @@ namespace OverflowHelper.core
 
             correctionAdd("mac__", "Mac__"); // The computer. For the Wiktionary entry
 
-            // Mostly for the URL
-            correctionAdd("Mac OS X__", "OS&nbsp;X__");
-            correctionAdd("macOS__", "OS&nbsp;X__");
-            correctionAdd("OS X__", "OS&nbsp;X__"); // Sort of identity mapping
-            correctionAdd("OSX__", "OS&nbsp;X__");
+            // Mostly for the URL. But also for the shorter form.
+            //
+            correctionAdd("Mac OS X__", "OS X__");
+            correctionAdd("macOS__", "OS X__");
+            correctionAdd("OSX__", "OS X__");
 
             // Not to be confused with MacBook Pro...
             correctionAdd("MacPro__", "Mac Pro__");
@@ -179322,7 +179334,7 @@ namespace OverflowHelper.core
 
             URL_Add("Mac__", "https://en.wiktionary.org/wiki/Mac#Noun_2");
 
-            URL_Add("OS&nbsp;X__", "https://en.wikipedia.org/wiki/OS_X");
+            URL_Add("OS X__", "https://en.wikipedia.org/wiki/OS_X");
 
             URL_Add("Mac Pro__", "https://en.wikipedia.org/wiki/Mac_Pro");
 
