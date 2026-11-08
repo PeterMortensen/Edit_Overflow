@@ -830,28 +830,25 @@ namespace OverflowHelper.core
             correctionAdd("NT", "Windows NT");
             correctionAdd("nt", "Windows NT");
 
-            correctionAdd("Windows 95", "Windows&nbsp;95"); // Sort of identity mapping
-            correctionAdd("windows 95", "Windows&nbsp;95");
-            correctionAdd("Windows95", "Windows&nbsp;95");
-            correctionAdd("WIN 95", "Windows&nbsp;95");
-            correctionAdd("win 95", "Windows&nbsp;95");
-            correctionAdd("Win95", "Windows&nbsp;95");
-            correctionAdd("WIN95", "Windows&nbsp;95");
-            correctionAdd("win95", "Windows&nbsp;95");
-            correctionAdd("'95", "Windows&nbsp;95");
-            correctionAdd("95", "Windows&nbsp;95");
+            correctionAdd("windows 95", "Windows 95");
+            correctionAdd("Windows95", "Windows 95");
+            correctionAdd("WIN 95", "Windows 95");
+            correctionAdd("win 95", "Windows 95");
+            correctionAdd("Win95", "Windows 95");
+            correctionAdd("WIN95", "Windows 95");
+            correctionAdd("win95", "Windows 95");
+            correctionAdd("'95", "Windows 95");
+            correctionAdd("95", "Windows 95");
 
-            correctionAdd("Windows 98", "Windows&nbsp;98");
-            correctionAdd("windows 98", "Windows&nbsp;98");
-            correctionAdd("Windows98", "Windows&nbsp;98");
-            correctionAdd("windows98", "Windows&nbsp;98");
-            correctionAdd("win98", "Windows&nbsp;98");
-            correctionAdd("Win98", "Windows&nbsp;98");
-            correctionAdd("98", "Windows&nbsp;98");
+            correctionAdd("windows 98", "Windows 98");
+            correctionAdd("Windows98", "Windows 98");
+            correctionAdd("windows98", "Windows 98");
+            correctionAdd("win98", "Windows 98");
+            correctionAdd("Win98", "Windows 98");
+            correctionAdd("98", "Windows 98");
 
-            correctionAdd("Windows ME", "Windows&nbsp;ME");
-            correctionAdd("WinME", "Windows&nbsp;ME");
-            correctionAdd("ME", "Windows&nbsp;ME");
+            correctionAdd("WinME", "Windows ME");
+            correctionAdd("ME", "Windows ME");
 
             correctionAdd("windows 2000", "Windows 2000");
             correctionAdd("windows2000", "Windows 2000");
@@ -863,109 +860,102 @@ namespace OverflowHelper.core
             correctionAdd("2k", "Windows 2000"); // Highly likely to collide with something else.
             correctionAdd("2K", "Windows 2000"); // Highly likely to collide with something else.
 
-            correctionAdd("MS WINDOWS XP", "Windows&nbsp;XP");
-            correctionAdd("MS-WINDOWS XP", "Windows&nbsp;XP");
-            correctionAdd("Windows XP", "Windows&nbsp;XP");
-            correctionAdd("Windows Xp", "Windows&nbsp;XP");
-            correctionAdd("Windows xp", "Windows&nbsp;XP");
-            correctionAdd("Windows-XP", "Windows&nbsp;XP");
-            correctionAdd("windows xp", "Windows&nbsp;XP");
-            correctionAdd("windows Xp", "Windows&nbsp;XP");
-            correctionAdd("windows-XP", "Windows&nbsp;XP");
-            correctionAdd("windows XP", "Windows&nbsp;XP");
-            correctionAdd("WindowsXp", "Windows&nbsp;XP");
-            correctionAdd("WindowsXP", "Windows&nbsp;XP");
-            correctionAdd("windox xp", "Windows&nbsp;XP");
-            correctionAdd("window xp", "Windows&nbsp;XP");
-            correctionAdd("Window XP", "Windows&nbsp;XP");
-            correctionAdd("win xp", "Windows&nbsp;XP");
-            correctionAdd("Win XP", "Windows&nbsp;XP");
-            correctionAdd("WIN XP", "Windows&nbsp;XP");
-            correctionAdd("win-XP", "Windows&nbsp;XP");
-            correctionAdd("Win Xp", "Windows&nbsp;XP");
-            correctionAdd("win XP", "Windows&nbsp;XP");
-            correctionAdd("WinXP", "Windows&nbsp;XP");
-            correctionAdd("winXP", "Windows&nbsp;XP");
-            correctionAdd("WinXp", "Windows&nbsp;XP");
-            correctionAdd("WINXP", "Windows&nbsp;XP");
-            correctionAdd("winxp", "Windows&nbsp;XP");
-            correctionAdd("Win-XP", "Windows&nbsp;XP");
-            correctionAdd("Xp", "Windows&nbsp;XP");
-            correctionAdd("xp", "Windows&nbsp;XP");
-            correctionAdd("XP", "Windows&nbsp;XP");
+            correctionAdd("MS WINDOWS XP", "Windows XP");
+            correctionAdd("MS-WINDOWS XP", "Windows XP");
+            correctionAdd("Windows Xp", "Windows XP");
+            correctionAdd("Windows xp", "Windows XP");
+            correctionAdd("Windows-XP", "Windows XP");
+            correctionAdd("windows xp", "Windows XP");
+            correctionAdd("windows Xp", "Windows XP");
+            correctionAdd("windows-XP", "Windows XP");
+            correctionAdd("windows XP", "Windows XP");
+            correctionAdd("WindowsXp", "Windows XP");
+            correctionAdd("WindowsXP", "Windows XP");
+            correctionAdd("windox xp", "Windows XP");
+            correctionAdd("window xp", "Windows XP");
+            correctionAdd("Window XP", "Windows XP");
+            correctionAdd("win xp", "Windows XP");
+            correctionAdd("Win XP", "Windows XP");
+            correctionAdd("WIN XP", "Windows XP");
+            correctionAdd("win-XP", "Windows XP");
+            correctionAdd("Win Xp", "Windows XP");
+            correctionAdd("win XP", "Windows XP");
+            correctionAdd("WinXP", "Windows XP");
+            correctionAdd("winXP", "Windows XP");
+            correctionAdd("WinXp", "Windows XP");
+            correctionAdd("WINXP", "Windows XP");
+            correctionAdd("winxp", "Windows XP");
+            correctionAdd("Win-XP", "Windows XP");
+            correctionAdd("Xp", "Windows XP");
+            correctionAdd("xp", "Windows XP");
+            correctionAdd("XP", "Windows XP");
 
-            correctionAdd("Windows XP SP2", "Windows&nbsp;XP SP2"); // Sort of identity mapping
-            correctionAdd("XP SP2", "Windows&nbsp;XP SP2");
-            correctionAdd("SP2", "Windows&nbsp;XP SP2");
+            correctionAdd("XP SP2", "Windows XP SP2");
+            correctionAdd("SP2", "Windows XP SP2");
 
-            correctionAdd("Windows XP SP3", "Windows&nbsp;XP&nbsp;SP3");
-            correctionAdd("windows xp sp3", "Windows&nbsp;XP&nbsp;SP3");
-            correctionAdd("sp3", "Windows&nbsp;XP&nbsp;SP3");
-            correctionAdd("SP3", "Windows&nbsp;XP&nbsp;SP3");
+            correctionAdd("windows xp sp3", "Windows XP SP3");
+            correctionAdd("sp3", "Windows XP SP3");
+            correctionAdd("SP3", "Windows XP SP3");
 
-            correctionAdd("Windows Vista", "Windows&nbsp;Vista");
-            correctionAdd("Windows vista", "Windows&nbsp;Vista");
-            correctionAdd("windows-vista", "Windows&nbsp;Vista");
-            correctionAdd("windows vista", "Windows&nbsp;Vista");
-            correctionAdd("windows Vista", "Windows&nbsp;Vista");
-            correctionAdd("window vista", "Windows&nbsp;Vista");
-            correctionAdd("Win Vista", "Windows&nbsp;Vista");
-            correctionAdd("win vista", "Windows&nbsp;Vista");
-            correctionAdd("WinVista", "Windows&nbsp;Vista");
-            correctionAdd("VIsta", "Windows&nbsp;Vista");
-            correctionAdd("VISTA", "Windows&nbsp;Vista");
-            correctionAdd("Vista", "Windows&nbsp;Vista");
-            correctionAdd("vista", "Windows&nbsp;Vista");
+            correctionAdd("Windows vista", "Windows Vista");
+            correctionAdd("windows-vista", "Windows Vista");
+            correctionAdd("windows vista", "Windows Vista");
+            correctionAdd("windows Vista", "Windows Vista");
+            correctionAdd("window vista", "Windows Vista");
+            correctionAdd("Win Vista", "Windows Vista");
+            correctionAdd("win vista", "Windows Vista");
+            correctionAdd("WinVista", "Windows Vista");
+            correctionAdd("VIsta", "Windows Vista");
+            correctionAdd("VISTA", "Windows Vista");
+            correctionAdd("Vista", "Windows Vista");
+            correctionAdd("vista", "Windows Vista");
 
             correctionAdd("Vista Ultimate", "Windows Vista Ultimate");
 
-            correctionAdd("Windows Seven", "Windows&nbsp;7");
-            correctionAdd("Windows seven", "Windows&nbsp;7");
-            correctionAdd("windows seven", "Windows&nbsp;7");
-            correctionAdd("Windonw 7", "Windows&nbsp;7");
-            correctionAdd("wiidows 7", "Windows&nbsp;7");
-            correctionAdd("windwos 7", "Windows&nbsp;7");
-            correctionAdd("Widnows 7", "Windows&nbsp;7");
-            correctionAdd("widnows 7", "Windows&nbsp;7");
-            correctionAdd("windows 7", "Windows&nbsp;7");
-            correctionAdd("windows-7", "Windows&nbsp;7");
-            correctionAdd("Windows-7", "Windows&nbsp;7");
-            correctionAdd("WIndows 7", "Windows&nbsp;7");
-            correctionAdd("Windows 7", "Windows&nbsp;7");
-            correctionAdd("window 7", "Windows&nbsp;7");
-            correctionAdd("Window 7", "Windows&nbsp;7");
-            correctionAdd("Windows7", "Windows&nbsp;7");
-            correctionAdd("windows7", "Windows&nbsp;7");
-            correctionAdd("window7", "Windows&nbsp;7");
-            correctionAdd("Window7", "Windows&nbsp;7");
-            correctionAdd("win &", "Windows&nbsp;7"); // A true typo. On an English keyboard, "&" is Shift + 7...
-            correctionAdd("Seven", "Windows&nbsp;7");
-            correctionAdd("Win-7", "Windows&nbsp;7");
-            correctionAdd("win 7", "Windows&nbsp;7");
-            correctionAdd("WIN 7", "Windows&nbsp;7");
-            correctionAdd("Win 7", "Windows&nbsp;7");
-            correctionAdd("win&", "Windows&nbsp;7"); // A true typo. On an English keyboard, "&" is Shift + 7...
-            correctionAdd("WIn7", "Windows&nbsp;7");
-            correctionAdd("win7", "Windows&nbsp;7");
-            correctionAdd("Win7", "Windows&nbsp;7");
-            correctionAdd("w7", "Windows&nbsp;7");
-            correctionAdd("W7", "Windows&nbsp;7");
-            correctionAdd("7", "Windows&nbsp;7");
+            correctionAdd("Windows Seven", "Windows 7");
+            correctionAdd("Windows seven", "Windows 7");
+            correctionAdd("windows seven", "Windows 7");
+            correctionAdd("Windonw 7", "Windows 7");
+            correctionAdd("wiidows 7", "Windows 7");
+            correctionAdd("windwos 7", "Windows 7");
+            correctionAdd("Widnows 7", "Windows 7");
+            correctionAdd("widnows 7", "Windows 7");
+            correctionAdd("windows 7", "Windows 7");
+            correctionAdd("windows-7", "Windows 7");
+            correctionAdd("Windows-7", "Windows 7");
+            correctionAdd("WIndows 7", "Windows 7");
+            correctionAdd("window 7", "Windows 7");
+            correctionAdd("Window 7", "Windows 7");
+            correctionAdd("Windows7", "Windows 7");
+            correctionAdd("windows7", "Windows 7");
+            correctionAdd("window7", "Windows 7");
+            correctionAdd("Window7", "Windows 7");
+            correctionAdd("win &", "Windows 7"); // A true typo. On an English keyboard, "&" is Shift + 7...
+            correctionAdd("Seven", "Windows 7");
+            correctionAdd("Win-7", "Windows 7");
+            correctionAdd("win 7", "Windows 7");
+            correctionAdd("WIN 7", "Windows 7");
+            correctionAdd("Win 7", "Windows 7");
+            correctionAdd("win&", "Windows 7"); // A true typo. On an English keyboard, "&" is Shift + 7...
+            correctionAdd("WIn7", "Windows 7");
+            correctionAdd("win7", "Windows 7");
+            correctionAdd("Win7", "Windows 7");
+            correctionAdd("w7", "Windows 7");
+            correctionAdd("W7", "Windows 7");
+            correctionAdd("7", "Windows 7");
 
-            correctionAdd("Windows 7 starter", "Windows&nbsp;7 Starter");
-            correctionAdd("Windows 7 Starter", "Windows&nbsp;7 Starter");
+            correctionAdd("Windows 7 starter", "Windows 7 Starter");
 
             correctionAdd("windows 7 enterprise", "Windows 7 Enterprise");
             correctionAdd("Win 7 Enterprise", "Windows 7 Enterprise");
 
-            correctionAdd("Windows 8.1", "Windows&nbsp;8.1");
-            correctionAdd("windows 8.1", "Windows&nbsp;8.1");
-            correctionAdd("windows8.1", "Windows&nbsp;8.1");
-            correctionAdd("Win 8.1", "Windows&nbsp;8.1");
-            correctionAdd("win 8.1", "Windows&nbsp;8.1");
-            correctionAdd("win8.1", "Windows&nbsp;8.1");
-            correctionAdd("Win8.1", "Windows&nbsp;8.1");
-            correctionAdd("8.1", "Windows&nbsp;8.1"); // Somewhat ambiguous!
+            correctionAdd("windows 8.1", "Windows 8.1");
+            correctionAdd("windows8.1", "Windows 8.1");
+            correctionAdd("Win 8.1", "Windows 8.1");
+            correctionAdd("win 8.1", "Windows 8.1");
+            correctionAdd("win8.1", "Windows 8.1");
+            correctionAdd("Win8.1", "Windows 8.1");
+            correctionAdd("8.1", "Windows 8.1"); // Somewhat ambiguous!
 
             // Note: <www.utf8-chartable.de> has been down several times.
             //       For example, on 2026-04-09:
@@ -977,34 +967,33 @@ namespace OverflowHelper.core
             //
             //       The same on 2026-11-04.
             //
-            correctionAdd("Microsoft 10", "Windows&nbsp;10");
-            correctionAdd("Windows ten", "Windows&nbsp;10");
-            correctionAdd("windows(10)", "Windows&nbsp;10");
-            correctionAdd("windows ten", "Windows&nbsp;10");
-            correctionAdd("Windows 10", "Windows&nbsp;10"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("Windows 10", "Windows&nbsp;10"); // Effectively self
-            correctionAdd("WIndows 10", "Windows&nbsp;10");
-            correctionAdd("WINDOWS 10", "Windows&nbsp;10");
-            correctionAdd("windown 10", "Windows&nbsp;10");
-            correctionAdd("Windows-10", "Windows&nbsp;10");
-            correctionAdd("windows-10", "Windows&nbsp;10");
-            correctionAdd("windows 10", "Windows&nbsp;10");
-            correctionAdd("Windows10", "Windows&nbsp;10");
-            correctionAdd("Window 10", "Windows&nbsp;10");
-            correctionAdd("WINDOWS10", "Windows&nbsp;10");
-            correctionAdd("window 10", "Windows&nbsp;10");
-            correctionAdd("windows10", "Windows&nbsp;10");
-            correctionAdd("Window10", "Windows&nbsp;10");
-            correctionAdd("Win. 10", "Windows&nbsp;10");
-            correctionAdd("Win-10", "Windows&nbsp;10");
-            correctionAdd("win 10", "Windows&nbsp;10");
-            correctionAdd("Win 10", "Windows&nbsp;10");
-            correctionAdd("Win10", "Windows&nbsp;10");
-            correctionAdd("win10", "Windows&nbsp;10");
-            correctionAdd("WIN10", "Windows&nbsp;10");
-            correctionAdd("W10", "Windows&nbsp;10");
-            correctionAdd("w10", "Windows&nbsp;10");
-            correctionAdd("10", "Windows&nbsp;10");
+            correctionAdd("Microsoft 10", "Windows 10");
+            correctionAdd("Windows ten", "Windows 10");
+            correctionAdd("windows(10)", "Windows 10");
+            correctionAdd("windows ten", "Windows 10");
+            correctionAdd("Windows 10", "Windows 10"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("WIndows 10", "Windows 10");
+            correctionAdd("WINDOWS 10", "Windows 10");
+            correctionAdd("windown 10", "Windows 10");
+            correctionAdd("Windows-10", "Windows 10");
+            correctionAdd("windows-10", "Windows 10");
+            correctionAdd("windows 10", "Windows 10");
+            correctionAdd("Windows10", "Windows 10");
+            correctionAdd("Window 10", "Windows 10");
+            correctionAdd("WINDOWS10", "Windows 10");
+            correctionAdd("window 10", "Windows 10");
+            correctionAdd("windows10", "Windows 10");
+            correctionAdd("Window10", "Windows 10");
+            correctionAdd("Win. 10", "Windows 10");
+            correctionAdd("Win-10", "Windows 10");
+            correctionAdd("win 10", "Windows 10");
+            correctionAdd("Win 10", "Windows 10");
+            correctionAdd("Win10", "Windows 10");
+            correctionAdd("win10", "Windows 10");
+            correctionAdd("WIN10", "Windows 10");
+            correctionAdd("W10", "Windows 10");
+            correctionAdd("w10", "Windows 10");
+            correctionAdd("10", "Windows 10");
 
             correctionAdd("Windows OS 10 Home Edition", "Windows 10 Home");
             correctionAdd("Windows 10 home", "Windows 10 Home");
@@ -1038,9 +1027,8 @@ namespace OverflowHelper.core
 
             correctionAdd("1803", "Windows 10, 2018-04-10 Update (version 1803)");
 
-            correctionAdd("Windows 10 version 1903 (May 2019 update)", "Windows&nbsp;10 version 1903 (May 2019 update)"); // Sort of identity mapping
-            correctionAdd("19H1", "Windows&nbsp;10 version 1903 (May 2019 update)");
-            correctionAdd("1903", "Windows&nbsp;10 version 1903 (May 2019 update)");
+            correctionAdd("19H1", "Windows 10 version 1903 (May 2019 update)");
+            correctionAdd("1903", "Windows 10 version 1903 (May 2019 update)");
 
             // Released 2019-07-19
             correctionAdd("insider preview", "Windows 10 Insider Preview Build 18945");
@@ -1048,28 +1036,27 @@ namespace OverflowHelper.core
             correctionAdd("build 18945", "Windows 10 Insider Preview Build 18945");
             correctionAdd("18945", "Windows 10 Insider Preview Build 18945");
 
-            correctionAdd("Windowds 11", "Windows&nbsp;11");
-            correctionAdd("Windows 11", "Windows&nbsp;11");
-            correctionAdd("Windowd 11", "Windows&nbsp;11");
-            correctionAdd("Windows-11", "Windows&nbsp;11");
-            correctionAdd("windows 11", "Windows&nbsp;11");
-            correctionAdd("windows-11", "Windows&nbsp;11");
-            correctionAdd("Window 11", "Windows&nbsp;11");
-            correctionAdd("window 11", "Windows&nbsp;11");
-            correctionAdd("Windows11", "Windows&nbsp;11");
-            correctionAdd("windows11", "Windows&nbsp;11");
-            correctionAdd("Windows 1", "Windows&nbsp;11");
-            correctionAdd("windows 1", "Windows&nbsp;11");
-            correctionAdd("Window11", "Windows&nbsp;11");
-            correctionAdd("window11", "Windows&nbsp;11");
-            correctionAdd("win 11", "Windows&nbsp;11");
-            correctionAdd("Win 11", "Windows&nbsp;11");
-            correctionAdd("Win11", "Windows&nbsp;11");
-            correctionAdd("WIN11", "Windows&nbsp;11");
-            correctionAdd("win11", "Windows&nbsp;11");
-            correctionAdd("W11", "Windows&nbsp;11");
-            correctionAdd("w11", "Windows&nbsp;11");
-            correctionAdd("11", "Windows&nbsp;11");
+            correctionAdd("Windowds 11", "Windows 11");
+            correctionAdd("Windowd 11", "Windows 11");
+            correctionAdd("windows 11", "Windows 11");
+            correctionAdd("Windows-11", "Windows 11");
+            correctionAdd("windows-11", "Windows 11");
+            correctionAdd("Window 11", "Windows 11");
+            correctionAdd("window 11", "Windows 11");
+            correctionAdd("Windows11", "Windows 11");
+            correctionAdd("windows11", "Windows 11");
+            correctionAdd("Windows 1", "Windows 11");
+            correctionAdd("windows 1", "Windows 11");
+            correctionAdd("Window11", "Windows 11");
+            correctionAdd("window11", "Windows 11");
+            correctionAdd("win 11", "Windows 11");
+            correctionAdd("Win 11", "Windows 11");
+            correctionAdd("Win11", "Windows 11");
+            correctionAdd("WIN11", "Windows 11");
+            correctionAdd("win11", "Windows 11");
+            correctionAdd("W11", "Windows 11");
+            correctionAdd("w11", "Windows 11");
+            correctionAdd("11", "Windows 11");
 
             // Windows
             correctionAdd("LTSC", "Long-Term Servicing Channel");
@@ -2257,13 +2244,12 @@ namespace OverflowHelper.core
             correctionAdd("PID", "USB product ID");
 
             // Note: "USB 2.0" is in an alternative word set
-            correctionAdd("usb 3.0", "USB&nbsp;3.0");
-            correctionAdd("USB 3.0", "USB&nbsp;3.0");
-            correctionAdd("usb 3", "USB&nbsp;3.0");
-            correctionAdd("USB 3", "USB&nbsp;3.0");
-            correctionAdd("USB-3", "USB&nbsp;3.0");
-            correctionAdd("USB3", "USB&nbsp;3.0");
-            correctionAdd("usb3", "USB&nbsp;3.0");
+            correctionAdd("usb 3.0", "USB 3.0");
+            correctionAdd("usb 3", "USB 3.0");
+            correctionAdd("USB 3", "USB 3.0");
+            correctionAdd("USB-3", "USB 3.0");
+            correctionAdd("USB3", "USB 3.0");
+            correctionAdd("usb3", "USB 3.0");
 
             correctionAdd("SuperSpeed", "SuperSpeed USB");
             correctionAdd("USB SS", "SuperSpeed USB");
@@ -3570,10 +3556,9 @@ namespace OverflowHelper.core
             correctionAdd("HPR", "Hacker Public Radio");
             correctionAdd("hpr", "Hacker Public Radio");
 
-            correctionAdd("Hacker News", "Hacker&nbsp;News"); // Sort of identity mapping
-            correctionAdd("hacker news", "Hacker&nbsp;News");
-            correctionAdd("Hacker news", "Hacker&nbsp;News");
-            correctionAdd("HN", "Hacker&nbsp;News");
+            correctionAdd("hacker news", "Hacker News");
+            correctionAdd("Hacker news", "Hacker News");
+            correctionAdd("HN", "Hacker News");
 
             correctionAdd("hacker rank", "HackerRank");
             correctionAdd("hackerrank", "HackerRank");
@@ -7146,8 +7131,7 @@ namespace OverflowHelper.core
             correctionAdd("GNONE", "GNOME"); // A true typo
 
             // Related to Linux. Desktop environment.
-            correctionAdd("Gnome 3", "GNOME&nbsp;3");
-            correctionAdd("GNOME 3", "GNOME&nbsp;3"); // Sort of identity mapping
+            correctionAdd("Gnome 3", "GNOME 3");
 
             correctionAdd("GNOME 4.0", "GNOME 40");
 
@@ -7303,13 +7287,12 @@ namespace OverflowHelper.core
             correctionAdd("nobara", "Nobara Linux");
 
             // A Linux distribution
-            correctionAdd("SUSE Linux", "SUSE&nbsp;Linux"); // Effectively self
-            correctionAdd("Suse Linux", "SUSE&nbsp;Linux");
-            correctionAdd("suse", "SUSE&nbsp;Linux");
-            correctionAdd("Suse", "SUSE&nbsp;Linux");
-            correctionAdd("SuSe", "SUSE&nbsp;Linux");
-            correctionAdd("SUSE", "SUSE&nbsp;Linux");
-            correctionAdd("SuSE", "SUSE&nbsp;Linux");
+            correctionAdd("Suse Linux", "SUSE Linux");
+            correctionAdd("suse", "SUSE Linux");
+            correctionAdd("Suse", "SUSE Linux");
+            correctionAdd("SuSe", "SUSE Linux");
+            correctionAdd("SUSE", "SUSE Linux");
+            correctionAdd("SuSE", "SUSE Linux");
 
             // A Linux distribution
             correctionAdd("Open Suse", "openSUSE");
@@ -7358,8 +7341,7 @@ namespace OverflowHelper.core
             correctionAdd("fc 11", "Fedora Core 11"); // Since Fedora 7, the Core and Extras repositories have been merged, hence the distribution dropping Core from its name.
 
             // Released 2015-05-26.
-            correctionAdd("Fedora Linux 22", "Fedora&nbsp;22");
-            correctionAdd("Fedora 22", "Fedora&nbsp;22"); // Sort of identity mapping
+            correctionAdd("Fedora Linux 22", "Fedora 22");
 
             // Released 2021-04-27
             correctionAdd("Fedora Linux 34", "Fedora&nbsp;34");
@@ -7671,9 +7653,9 @@ namespace OverflowHelper.core
             correctionAdd("mesa", "Mesa");
 
             // A Linux distribution
-            correctionAdd("LMDE&nbsp;7 (Gigi)", "Debian"); // For the cross-reference
+            correctionAdd("LMDE 7 (Gigi)", "Debian"); // For the cross-reference
             correctionAdd("Debian Linux", "Debian");
-            correctionAdd("LMDE&nbsp;7", "Debian"); // For the cross-reference
+            correctionAdd("LMDE 7", "Debian"); // For the cross-reference
             correctionAdd("Linux Mint", "Debian"); // For the cross-reference
             correctionAdd("debian", "Debian");
             correctionAdd("Debain", "Debian");
@@ -7779,7 +7761,7 @@ namespace OverflowHelper.core
             correctionAdd("Bookworm", "Debian&nbsp;12 (Bookworm)");
             correctionAdd("bookworm", "Debian&nbsp;12 (Bookworm)");
 
-            // Note: "Debian&nbsp;13 (Trixie)" is in an alternative word set
+            // Note: "Debian 13 (Trixie)" is in an alternative word set
             correctionAdd("Debian 14 (Forky)", "Debian&nbsp;14 (Forky)"); // Sort of identity mapping
             correctionAdd("Debian 14", "Debian&nbsp;14 (Forky)");
             correctionAdd("Forky", "Debian&nbsp;14 (Forky)");
@@ -13075,16 +13057,15 @@ namespace OverflowHelper.core
 
             correctionAdd("Apple IIE", "Apple IIe");
 
-            correctionAdd("Apple store", "App&nbsp;Store"); // Not 100% correct
-            correctionAdd("apple store", "App&nbsp;Store");
-            correctionAdd("apple Store", "App&nbsp;Store");
-            correctionAdd("appleStore", "App&nbsp;Store");
-            correctionAdd("App Store", "App&nbsp;Store");
-            correctionAdd("app store", "App&nbsp;Store");
-            correctionAdd("app-store", "App&nbsp;Store");
-            correctionAdd("AppStore", "App&nbsp;Store");
-            correctionAdd("appstore", "App&nbsp;Store");
-            correctionAdd("Appstore", "App&nbsp;Store");
+            correctionAdd("Apple store", "App Store"); // Not 100% correct
+            correctionAdd("apple store", "App Store");
+            correctionAdd("apple Store", "App Store");
+            correctionAdd("appleStore", "App Store");
+            correctionAdd("app store", "App Store");
+            correctionAdd("app-store", "App Store");
+            correctionAdd("AppStore", "App Store");
+            correctionAdd("appstore", "App Store");
+            correctionAdd("Appstore", "App Store");
 
             correctionAdd("WWDC", "Apple Worldwide Developers Conference");
             correctionAdd("wwdc", "Apple Worldwide Developers Conference");
@@ -14676,9 +14657,8 @@ namespace OverflowHelper.core
 
             // Z80
             // Note: The URL does not work as HTTPS...
-            correctionAdd("T state", "T&nbsp;state");
-            correctionAdd("T-state", "T&nbsp;state");
-            correctionAdd("t-state", "T&nbsp;state");
+            correctionAdd("T-state", "T state");
+            correctionAdd("t-state", "T state");
 
             // A CPU
             //
@@ -27002,9 +26982,8 @@ namespace OverflowHelper.core
             correctionAdd("dragon 2", "Dragon 2");
 
             // Spacecraft / rocket. SpaceX
-            correctionAdd("Falcon 9", "Falcon&nbsp;9"); // Sort of identity mapping
-            correctionAdd("Falcon", "Falcon&nbsp;9");
-            correctionAdd("F9", "Falcon&nbsp;9");
+            correctionAdd("Falcon", "Falcon 9");
+            correctionAdd("F9", "Falcon 9");
 
             // Spacecraft / rocket. SpaceX
             correctionAdd("falcon heavy", "Falcon Heavy");
@@ -83157,6 +83136,7 @@ namespace OverflowHelper.core
             //     reset process and I/O pins
             //
             correctionAdd("rp 2040", "RP2040");
+            correctionAdd("RPi2040", "RP2040");
             correctionAdd("rp2040", "RP2040");
             correctionAdd("Rp2040", "RP2040");
             correctionAdd("RP4020", "RP2040");
@@ -91264,12 +91244,10 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/k8_he>
             //     Note: In a new Git branch, "hall_effect_playground"
             //
-            correctionAdd("Keychron K8 HE", "Keychron&nbsp;K8&nbsp;HE"); // Sort of identity mapping
-            correctionAdd("K8&nbsp;HE", "Keychron&nbsp;K8&nbsp;HE");
-            correctionAdd("K8 HE", "Keychron&nbsp;K8&nbsp;HE");
-            correctionAdd("k8 HE", "Keychron&nbsp;K8&nbsp;HE");
-            correctionAdd("k8 he", "Keychron&nbsp;K8&nbsp;HE");
-            correctionAdd("k8he", "Keychron&nbsp;K8&nbsp;HE");
+            correctionAdd("K8 HE", "Keychron K8 HE");
+            correctionAdd("k8 HE", "Keychron K8 HE");
+            correctionAdd("k8 he", "Keychron K8 HE");
+            correctionAdd("k8he", "Keychron K8 HE");
 
             // A 88-key (85%. True TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') ZMK/Via-capable
@@ -93515,18 +93493,16 @@ namespace OverflowHelper.core
             //     identification of, for example, original vs. V2
             //     and RGB light vs. white light.
             //
-            correctionAdd("Keychron&nbsp;C2&nbsp;Pro", "Keychron&nbsp;C2&nbsp;Pro (100%)");
-            correctionAdd("Keychron C2 Pro (100%)", "Keychron&nbsp;C2&nbsp;Pro (100%)"); // Sort of identity mapping
-            correctionAdd("Keychron C2 Pro", "Keychron&nbsp;C2&nbsp;Pro (100%)"); // Sort of identity mapping
-            correctionAdd("C2&nbsp;Pro", "Keychron&nbsp;C2&nbsp;Pro (100%)");
-            correctionAdd("c2 Pro rgb", "Keychron&nbsp;C2&nbsp;Pro (100%)");
-            correctionAdd("C2 Pro", "Keychron&nbsp;C2&nbsp;Pro (100%)");
-            correctionAdd("C2 pro", "Keychron&nbsp;C2&nbsp;Pro (100%)");
-            correctionAdd("C2 PRO", "Keychron&nbsp;C2&nbsp;Pro (100%)");
-            correctionAdd("c2 Pro", "Keychron&nbsp;C2&nbsp;Pro (100%)");
-            correctionAdd("c2 pro", "Keychron&nbsp;C2&nbsp;Pro (100%)");
-            correctionAdd("c2pro", "Keychron&nbsp;C2&nbsp;Pro (100%)");
-            correctionAdd("C2", "Keychron&nbsp;C2&nbsp;Pro (100%)");
+            correctionAdd("Keychron C2 Pro", "Keychron C2 Pro (100%)");
+            correctionAdd("C2&nbsp;Pro", "Keychron C2 Pro (100%)");
+            correctionAdd("c2 Pro rgb", "Keychron C2 Pro (100%)");
+            correctionAdd("C2 Pro", "Keychron C2 Pro (100%)");
+            correctionAdd("C2 pro", "Keychron C2 Pro (100%)");
+            correctionAdd("C2 PRO", "Keychron C2 Pro (100%)");
+            correctionAdd("c2 Pro", "Keychron C2 Pro (100%)");
+            correctionAdd("c2 pro", "Keychron C2 Pro (100%)");
+            correctionAdd("c2pro", "Keychron C2 Pro (100%)");
+            correctionAdd("C2", "Keychron C2 Pro (100%)");
 
             // A 105-key (100%. Not true TKL) full-size wired-only
             // QMK/Via-capable mechanical keyboard from Keychron.
@@ -93576,14 +93552,11 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/c2_pro_8k>
             //
-            correctionAdd("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
-            correctionAdd("Keychron C2 Pro 8K (100%)", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)"); // Sort of identity mapping
-            correctionAdd("C2&nbsp;Pro&nbsp;8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
-            correctionAdd("Keychron C2 Pro 8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)"); // Sort of identity mapping
-            correctionAdd("C2 Pro 8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
-            correctionAdd("c2 pro 8k", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
-            correctionAdd("C2 Pro 8k", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
-            correctionAdd("C2 8K", "Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)");
+            correctionAdd("Keychron C2 Pro 8K", "Keychron C2 Pro 8K (100%)");
+            correctionAdd("C2 Pro 8K", "Keychron C2 Pro 8K (100%)");
+            correctionAdd("c2 pro 8k", "Keychron C2 Pro 8K (100%)");
+            correctionAdd("C2 Pro 8k", "Keychron C2 Pro 8K (100%)");
+            correctionAdd("C2 8K", "Keychron C2 Pro 8K (100%)");
 
             // A 105-key (100%. Not true TKL) full-size non-crippled
             // wired-only closed source (but with Via support)
@@ -94596,15 +94569,14 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-q-pro-series-bluetooth-firmware>
             //
-            correctionAdd("Keychron Q6 Pro", "Keychron&nbsp;Q6&nbsp;Pro"); // Sort of identity mapping
-            correctionAdd("Q Pro series", "Keychron&nbsp;Q6&nbsp;Pro"); // For the cross-reference
-            correctionAdd("Q6&nbsp;Pro", "Keychron&nbsp;Q6&nbsp;Pro");
-            correctionAdd("six pro", "Keychron&nbsp;Q6&nbsp;Pro");
-            correctionAdd("six Pro", "Keychron&nbsp;Q6&nbsp;Pro");
-            correctionAdd("q6 pro", "Keychron&nbsp;Q6&nbsp;Pro");
-            correctionAdd("Q6 Pro", "Keychron&nbsp;Q6&nbsp;Pro");
-            correctionAdd("Q6 pro", "Keychron&nbsp;Q6&nbsp;Pro");
-            correctionAdd("Q6pro", "Keychron&nbsp;Q6&nbsp;Pro");
+            correctionAdd("Q Pro series", "Keychron Q6 Pro"); // For the cross-reference
+            correctionAdd("Q6&nbsp;Pro", "Keychron Q6 Pro");
+            correctionAdd("six pro", "Keychron Q6 Pro");
+            correctionAdd("six Pro", "Keychron Q6 Pro");
+            correctionAdd("q6 pro", "Keychron Q6 Pro");
+            correctionAdd("Q6 Pro", "Keychron Q6 Pro");
+            correctionAdd("Q6 pro", "Keychron Q6 Pro");
+            correctionAdd("Q6pro", "Keychron Q6 Pro");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -94753,23 +94725,22 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=fZCRySY2ZRI&t=12m44s>
             //     Via clone demo
             //
-            correctionAdd("Keychron Q6 Max", "Keychron&nbsp;Q6&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("keychron q6 max", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("Q Max series", "Keychron&nbsp;Q6&nbsp;Max"); // For the cross-reference
-            correctionAdd("Q6&nbsp;Max", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("Q6 Max Pro", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("q6 max pro", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("q6 max", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("Q6 Max", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("Q6 MAX", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("Q6 max", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("Q6-MAX", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("Q6 MAx", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("Q6MAX", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("q6max", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("QMAX6", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("Q6max", "Keychron&nbsp;Q6&nbsp;Max");
-            correctionAdd("q6ax", "Keychron&nbsp;Q6&nbsp;Max");
+            correctionAdd("keychron q6 max", "Keychron Q6 Max");
+            correctionAdd("Q Max series", "Keychron Q6 Max"); // For the cross-reference
+            correctionAdd("Q6&nbsp;Max", "Keychron Q6 Max");
+            correctionAdd("Q6 Max Pro", "Keychron Q6 Max");
+            correctionAdd("q6 max pro", "Keychron Q6 Max");
+            correctionAdd("q6 max", "Keychron Q6 Max");
+            correctionAdd("Q6 Max", "Keychron Q6 Max");
+            correctionAdd("Q6 MAX", "Keychron Q6 Max");
+            correctionAdd("Q6 max", "Keychron Q6 Max");
+            correctionAdd("Q6-MAX", "Keychron Q6 Max");
+            correctionAdd("Q6 MAx", "Keychron Q6 Max");
+            correctionAdd("Q6MAX", "Keychron Q6 Max");
+            correctionAdd("q6max", "Keychron Q6 Max");
+            correctionAdd("QMAX6", "Keychron Q6 Max");
+            correctionAdd("Q6max", "Keychron Q6 Max");
+            correctionAdd("q6ax", "Keychron Q6 Max");
 
             // A 109-key (105%. Not true TKL) full-size wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
@@ -109739,7 +109710,7 @@ namespace OverflowHelper.core
 
             URL_Add("ActiveX", "https://en.wikipedia.org/wiki/ActiveX");
 
-            URL_Add("SUSE&nbsp;Linux", "https://en.wikipedia.org/wiki/SUSE_Linux"); // Old: https://en.wikipedia.org/wiki/SUSE_Linux_distributions
+            URL_Add("SUSE Linux", "https://en.wikipedia.org/wiki/SUSE_Linux"); // Old: https://en.wikipedia.org/wiki/SUSE_Linux_distributions
 
             URL_Add("separate", "https://en.wiktionary.org/wiki/separate#Adjective"); // Old: https://en.wiktionary.org/wiki/seperate
 
@@ -109933,7 +109904,7 @@ namespace OverflowHelper.core
 
             URL_Add("URI", "https://en.wikipedia.org/wiki/Uniform_Resource_Identifier");
 
-            URL_Add("App&nbsp;Store", "https://en.wikipedia.org/wiki/App_Store_(iOS/iPadOS)"); // Old: https://en.wikipedia.org/wiki/App_Store_%28iOS%29
+            URL_Add("App Store", "https://en.wikipedia.org/wiki/App_Store_(iOS/iPadOS)"); // Old: https://en.wikipedia.org/wiki/App_Store_%28iOS%29
 
             URL_Add("ANTLR", "https://en.wikipedia.org/wiki/ANTLR");
 
@@ -120453,7 +120424,7 @@ namespace OverflowHelper.core
 
             URL_Add("auto_ptr", "https://en.wikipedia.org/wiki/Auto_ptr");
 
-            URL_Add("GNOME&nbsp;3", "https://en.wikipedia.org/wiki/GNOME_3");
+            URL_Add("GNOME 3", "https://en.wikipedia.org/wiki/GNOME_3");
 
             URL_Add("INI file", "https://en.wikipedia.org/wiki/INI_file");
 
@@ -131839,7 +131810,7 @@ namespace OverflowHelper.core
 
             URL_Add("Soyuz", "https://en.wikipedia.org/wiki/Soyuz_(spacecraft)");
 
-            URL_Add("Falcon&nbsp;9", "https://en.wikipedia.org/wiki/Falcon_9");
+            URL_Add("Falcon 9", "https://en.wikipedia.org/wiki/Falcon_9");
 
             URL_Add("Falcon Heavy", "https://en.wikipedia.org/wiki/Falcon_Heavy");
 
@@ -135065,7 +135036,7 @@ namespace OverflowHelper.core
 
             URL_Add("Fedora Core 11", "https://en.wikipedia.org/wiki/List_of_Fedora_versions#Fedora_11");
 
-            URL_Add("Fedora&nbsp;22", "https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_22");
+            URL_Add("Fedora 22", "https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_22");
 
             URL_Add("Fedora&nbsp;34", "https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_34");
 
@@ -139635,33 +139606,33 @@ namespace OverflowHelper.core
 
             URL_Add("Windows NT", "https://en.wikipedia.org/wiki/Windows_NT");
 
-            URL_Add("Windows&nbsp;95", "https://en.wikipedia.org/wiki/Windows_95");
+            URL_Add("Windows 95", "https://en.wikipedia.org/wiki/Windows_95");
 
-            URL_Add("Windows&nbsp;98", "https://en.wikipedia.org/wiki/Windows_98");
+            URL_Add("Windows 98", "https://en.wikipedia.org/wiki/Windows_98");
 
-            URL_Add("Windows&nbsp;ME", "https://en.wikipedia.org/wiki/Windows_Me");
+            URL_Add("Windows ME", "https://en.wikipedia.org/wiki/Windows_Me");
 
             URL_Add("Windows 2000", "https://en.wikipedia.org/wiki/Windows_2000");
 
-            URL_Add("Windows&nbsp;XP", "https://en.wikipedia.org/wiki/Windows_XP");
+            URL_Add("Windows XP", "https://en.wikipedia.org/wiki/Windows_XP");
 
-            URL_Add("Windows&nbsp;XP SP2", "https://en.wikipedia.org/wiki/Windows_XP#Service_Pack_2");
+            URL_Add("Windows XP SP2", "https://en.wikipedia.org/wiki/Windows_XP#Service_Pack_2");
 
-            URL_Add("Windows&nbsp;XP&nbsp;SP3", "https://en.wikipedia.org/wiki/Windows_XP#Service_Pack_3");
+            URL_Add("Windows XP SP3", "https://en.wikipedia.org/wiki/Windows_XP#Service_Pack_3");
 
-            URL_Add("Windows&nbsp;Vista", "https://en.wikipedia.org/wiki/Windows_Vista");
+            URL_Add("Windows Vista", "https://en.wikipedia.org/wiki/Windows_Vista");
 
             URL_Add("Windows Vista Ultimate", "https://en.wikipedia.org/wiki/Windows_Vista_editions#Editions_for_personal_computers");
 
-            URL_Add("Windows&nbsp;7", "https://en.wikipedia.org/wiki/Windows_7");
+            URL_Add("Windows 7", "https://en.wikipedia.org/wiki/Windows_7");
 
-            URL_Add("Windows&nbsp;7 Starter", "https://en.wikipedia.org/wiki/Windows_7_editions#Comparison_chart");
+            URL_Add("Windows 7 Starter", "https://en.wikipedia.org/wiki/Windows_7_editions#Comparison_chart");
 
             URL_Add("Windows 7 Enterprise", "https://en.wikipedia.org/wiki/Windows_7_editions#Main_editions");
 
-            URL_Add("Windows&nbsp;8.1", "https://en.wikipedia.org/wiki/Windows_8.1");
+            URL_Add("Windows 8.1", "https://en.wikipedia.org/wiki/Windows_8.1");
 
-            URL_Add("Windows&nbsp;10", "https://en.wikipedia.org/wiki/Windows_10");
+            URL_Add("Windows 10", "https://en.wikipedia.org/wiki/Windows_10");
 
             URL_Add("Windows 10 Home", "https://en.wikipedia.org/wiki/Windows_10_editions#Base_editions"); // Old: https://en.wikipedia.org/wiki/Windows_10_editions#Baseline_editions
 
@@ -139675,11 +139646,11 @@ namespace OverflowHelper.core
 
             URL_Add("Windows 10, 2018-04-10 Update (version 1803)", "https://en.wikipedia.org/wiki/Windows_10_version_history#Version_1803_(April_2018_Update)");
 
-            URL_Add("Windows&nbsp;10 version 1903 (May 2019 update)", "https://en.wikipedia.org/wiki/Windows_10_version_history#Version_1903_(May_2019_Update)");
+            URL_Add("Windows 10 version 1903 (May 2019 update)", "https://en.wikipedia.org/wiki/Windows_10_version_history#Version_1903_(May_2019_Update)");
 
             URL_Add("Windows 10 Insider Preview Build 18945", "https://blogs.windows.com/windows-insider/2019/07/26/announcing-windows-10-insider-preview-build-18945/");
 
-            URL_Add("Windows&nbsp;11", "https://en.wikipedia.org/wiki/Windows_11");
+            URL_Add("Windows 11", "https://en.wikipedia.org/wiki/Windows_11");
 
             URL_Add("Windows Server 2000", "https://en.wikipedia.org/wiki/Windows_2000#Server_family_features");
 
@@ -143637,7 +143608,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;C1&nbsp;Pro", "https://www.keychron.com/products/keychron-c1-pro-qmk-via-wired-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;C2&nbsp;Pro (100%)", "https://www.keychron.com/products/keychron-c2-pro-qmk-via-wired-mechanical-keyboard");
+            URL_Add("Keychron C2 Pro (100%)", "https://www.keychron.com/products/keychron-c2-pro-qmk-via-wired-mechanical-keyboard");
 
             URL_Add("Keychron C3 Pro", "https://www.keychron.uk/products/keychron-c3-pro-qmk-via-wired-mechanical-keyboard-iso-layout-collection");
 
@@ -143649,7 +143620,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;C100&nbsp;8K (95%)", "https://www.keychron.com/products/keychron-c100-8k-giant-custom-macro-pad");
 
-            URL_Add("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)", "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection"); // Old: <https://keychron.ca/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout>
+            URL_Add("Keychron C2 Pro 8K (100%)", "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection"); // Old: <https://keychron.ca/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout>
 
             URL_Add("Keychron C4 HE 8K (100%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-c4-he-magnetic-switch-keyboard");
 
@@ -143723,7 +143694,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K6&nbsp;HE (65%)", "https://www.keychron.com/products/keychron-k6-he-wireless-magnetic-switch-keyboard");
 
-            URL_Add("Keychron&nbsp;K8&nbsp;HE", "https://www.keychron.com/products/keychron-k8-he-wireless-magnetic-switch-custom-keyboard");
+            URL_Add("Keychron K8 HE", "https://www.keychron.com/products/keychron-k8-he-wireless-magnetic-switch-custom-keyboard");
 
             URL_Add("Keychron K10 HE", "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection");
 
@@ -143777,7 +143748,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q5 Pro (95%)", "https://www.keychron.com/products/keychron-q5-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q6&nbsp;Pro", "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron Q6 Pro", "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron Q8 Pro", "https://www.keychron.com/products/keychron-q8-pro-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -143797,7 +143768,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;Q5&nbsp;Max", "https://www.keychron.com/products/keychron-q5-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;Q6&nbsp;Max", "https://www.keychron.com/products/keychron-q6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron Q6 Max", "https://www.keychron.com/products/keychron-q6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron Q8 Max", "https://www.keychron.com/products/keychron-q8-max-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -146067,7 +146038,7 @@ namespace OverflowHelper.core
 
             URL_Add("USB type-C plug", "https://en.wikipedia.org/wiki/USB-C");
 
-            URL_Add("USB&nbsp;3.0", "https://en.wikipedia.org/wiki/USB_3.0");
+            URL_Add("USB 3.0", "https://en.wikipedia.org/wiki/USB_3.0");
 
             URL_Add("USB vendor ID", "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/standard-usb-identifiers"); // Old: <https://www.oshwa.org/2013/11/19/new-faq-on-usb-vendor-id-and-product-id/>
 
@@ -146883,7 +146854,7 @@ namespace OverflowHelper.core
 
             URL_Add("steady state", "https://en.wiktionary.org/wiki/steady_state#Noun");
 
-            URL_Add("T&nbsp;state", "http://z80.info/zip/z80cpu_um.pdf");
+            URL_Add("T state", "http://z80.info/zip/z80cpu_um.pdf");
 
             URL_Add("state-of-the-art", "https://en.wiktionary.org/wiki/state-of-the-art#Adjective");
 
@@ -149147,7 +149118,7 @@ namespace OverflowHelper.core
 
             URL_Add("Hackaday", "https://en.wikipedia.org/wiki/Hackaday");
 
-            URL_Add("Hacker&nbsp;News", "https://en.wikipedia.org/wiki/Hacker_News");
+            URL_Add("Hacker News", "https://en.wikipedia.org/wiki/Hacker_News");
 
             URL_Add("HackerRank", "https://en.wikipedia.org/wiki/HackerRank");
 
@@ -155607,7 +155578,6 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/Keychron/comments/1as61bs/comment/kqvmae2/>
             //
             correctionAdd("Bluetooth firmware version 1.32.2 for Keychron K Pro and Q Pro series keyboards_", "download URL for Bluetooth firmware version 1.32_");
-            correctionAdd("Keychron&nbsp;Q6&nbsp;Pro_", "download URL for Bluetooth firmware version 1.32_");
             correctionAdd("Keychron K10 Pro_", "download URL for Bluetooth firmware version 1.32_");
             correctionAdd("Keychron Q6 Pro_", "download URL for Bluetooth firmware version 1.32_");
 
@@ -155634,7 +155604,6 @@ namespace OverflowHelper.core
             // For the cross-reference
             // 2024-11-19. 92444 bytes. MD5 55E3EE7BBDDAF72AB370ACECDF5EC9E.
             correctionAdd("Bluetooth firmware version 0.2.1 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.2.1_");
-            correctionAdd("Keychron&nbsp;Q6&nbsp;Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
             correctionAdd("Keychron K10 Max_", "download URL for Bluetooth firmware version 0.2.1_");
             correctionAdd("Keychron Q6 Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
             correctionAdd("Keychron V6 Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
@@ -162297,15 +162266,14 @@ namespace OverflowHelper.core
             //
             // Released 2025-08-09
             //
-            correctionAdd("Debian 13 (Trixie)_", "Debian&nbsp;13 (Trixie)_"); // Sort of identity mapping
-            correctionAdd("Debian 13 'Trixie'_", "Debian&nbsp;13 (Trixie)_");
-            correctionAdd("LMDE&nbsp;7 (Gigi)_", "Debian&nbsp;13 (Trixie)_"); // For the cross-reference
-            correctionAdd("Debian 13 Trixie_", "Debian&nbsp;13 (Trixie)_");
-            correctionAdd("Debian Trixie_", "Debian&nbsp;13 (Trixie)_");
-            correctionAdd("LMDE&nbsp;7_", "Debian&nbsp;13 (Trixie)_"); // For the cross-reference
-            correctionAdd("Debian 13_", "Debian&nbsp;13 (Trixie)_");
-            correctionAdd("Trixie_", "Debian&nbsp;13 (Trixie)_");
-            correctionAdd("trixie_", "Debian&nbsp;13 (Trixie)_");
+            correctionAdd("Debian 13 'Trixie'_", "Debian 13 (Trixie)_");
+            correctionAdd("LMDE 7 (Gigi)_", "Debian 13 (Trixie)_"); // For the cross-reference
+            correctionAdd("Debian 13 Trixie_", "Debian 13 (Trixie)_");
+            correctionAdd("Debian Trixie_", "Debian 13 (Trixie)_");
+            correctionAdd("LMDE 7_", "Debian 13 (Trixie)_"); // For the cross-reference
+            correctionAdd("Debian 13_", "Debian 13 (Trixie)_");
+            correctionAdd("Trixie_", "Debian 13 (Trixie)_");
+            correctionAdd("trixie_", "Debian 13 (Trixie)_");
 
             // A Linux distribution.
             // It is in this word set due to the conflict with "LM"
@@ -171435,7 +171403,7 @@ namespace OverflowHelper.core
 
             URL_Add("Linux Standard Base_", "https://en.wikipedia.org/wiki/Linux_Standard_Base");
 
-            URL_Add("Debian&nbsp;13 (Trixie)_", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_13_(Trixie)");
+            URL_Add("Debian 13 (Trixie)_", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_13_(Trixie)");
 
             URL_Add("Linux Mint_", "https://en.wikipedia.org/wiki/Linux_Mint");
 
@@ -175162,6 +175130,7 @@ namespace OverflowHelper.core
             correctionAdd("PICO PI__", "Raspberry Pi Pico__");
             correctionAdd("pico pi__", "Raspberry Pi Pico__");
             correctionAdd("Pico Pi__", "Raspberry Pi Pico__");
+            correctionAdd("RPi2040__", "Raspberry Pi Pico__");
             correctionAdd("peco__", "Raspberry Pi Pico__");
             correctionAdd("pick__", "Raspberry Pi Pico__"); // A true typo of "Pico"
             correctionAdd("PICO__", "Raspberry Pi Pico__");
@@ -175666,29 +175635,30 @@ namespace OverflowHelper.core
             correctionAdd("FUCKING__", "fucking__");
             correctionAdd("fecking__", "fucking__");
             correctionAdd("fscking__", "fucking__");
-            correctionAdd("F*****G__", "fucking__");
-            correctionAdd("f*****g__", "fucking__");
-            correctionAdd("F***ING__", "fucking__");
-            correctionAdd("f***ing__", "fucking__");
-            correctionAdd("fu**ing__", "fucking__");
-            correctionAdd("F**KING__", "fucking__");
-            correctionAdd("f**king__", "fucking__");
-            correctionAdd("f*cking__", "fucking__");
-            correctionAdd("F*cking__", "fucking__");
             correctionAdd("freakin__", "fucking__");
             correctionAdd("frikkin__", "fucking__");
             correctionAdd("friggin__", "fucking__");
             correctionAdd("forking__", "fucking__");
             correctionAdd("hecking__", "fucking__");
-            correctionAdd("F*KiNG__", "fucking__");
-            correctionAdd("f*king__", "fucking__");
+            correctionAdd("f*cking__", "fucking__");
+            correctionAdd("F*cking__", "fucking__");
+            correctionAdd("F**KING__", "fucking__");
+            correctionAdd("f**king__", "fucking__");
+            correctionAdd("F**king__", "fucking__");
+            correctionAdd("fu**ing__", "fucking__");
+            correctionAdd("F***ING__", "fucking__");
+            correctionAdd("f***ing__", "fucking__");
+            correctionAdd("F*****G__", "fucking__");
+            correctionAdd("f*****g__", "fucking__");
             correctionAdd("effing__", "fucking__");
             correctionAdd("fuckin__", "fucking__");
             correctionAdd("fuking__", "fucking__");
             correctionAdd("fucken__", "fucking__");
+            correctionAdd("F*KiNG__", "fucking__");
+            correctionAdd("f*king__", "fucking__");
+            correctionAdd("fu*ing__", "fucking__");
             correctionAdd("F****g__", "fucking__");
             correctionAdd("f****g__", "fucking__");
-            correctionAdd("fu*ing__", "fucking__");
             correctionAdd("F*ing__", "fucking__");
             correctionAdd("f*ing__", "fucking__");
             correctionAdd("fking__", "fucking__");
@@ -177562,7 +177532,6 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Keychron&nbsp;Q6&nbsp;Max__", "Keychron Q6 Max source code__");
             correctionAdd("Keychron Q6 Max__", "Keychron Q6 Max source code__");
 
             // For the cross-reference to the source code
@@ -179972,24 +179941,23 @@ namespace OverflowHelper.core
             correctionAdd("one oh one___", "101___");
             correctionAdd("basic___", "101___");
 
-            correctionAdd("windows 8.0___", "Windows&nbsp;8___");
-            correctionAdd("Windows 8___", "Windows&nbsp;8___");
-            correctionAdd("windows-8___", "Windows&nbsp;8___");
-            correctionAdd("windows 8___", "Windows&nbsp;8___");
-            correctionAdd("Windows8___", "Windows&nbsp;8___");
-            correctionAdd("window-8___", "Windows&nbsp;8___");
-            correctionAdd("windows8___", "Windows&nbsp;8___");
-            correctionAdd("win 8.0___", "Windows&nbsp;8___");
-            correctionAdd("win 8___", "Windows&nbsp;8___");
-            correctionAdd("Win 8___", "Windows&nbsp;8___");
-            correctionAdd("WIn 8___", "Windows&nbsp;8___");
-            correctionAdd("WIN 8___", "Windows&nbsp;8___");
-            correctionAdd("Win-8___", "Windows&nbsp;8___");
-            correctionAdd("win8___", "Windows&nbsp;8___");
-            correctionAdd("Win8___", "Windows&nbsp;8___");
-            correctionAdd("8.0___", "Windows&nbsp;8___");
-            correctionAdd("W8___", "Windows&nbsp;8___");
-            correctionAdd("8___", "Windows&nbsp;8___"); // Ambiguous!
+            correctionAdd("windows 8.0___", "Windows 8___");
+            correctionAdd("windows-8___", "Windows 8___");
+            correctionAdd("windows 8___", "Windows 8___");
+            correctionAdd("Windows8___", "Windows 8___");
+            correctionAdd("window-8___", "Windows 8___");
+            correctionAdd("windows8___", "Windows 8___");
+            correctionAdd("win 8.0___", "Windows 8___");
+            correctionAdd("win 8___", "Windows 8___");
+            correctionAdd("Win 8___", "Windows 8___");
+            correctionAdd("WIn 8___", "Windows 8___");
+            correctionAdd("WIN 8___", "Windows 8___");
+            correctionAdd("Win-8___", "Windows 8___");
+            correctionAdd("win8___", "Windows 8___");
+            correctionAdd("Win8___", "Windows 8___");
+            correctionAdd("8.0___", "Windows 8___");
+            correctionAdd("W8___", "Windows 8___");
+            correctionAdd("8___", "Windows 8___"); // Ambiguous!
 
             // JavaScript
             correctionAdd("split___", "split()___");
@@ -181118,15 +181086,13 @@ namespace OverflowHelper.core
             correctionAdd("Keychron K10 (100%)___", "Keychron K series___");
             correctionAdd("original K series___", "Keychron K series___");
             correctionAdd("original series___", "Keychron K series___");
-            correctionAdd("K&nbsp;series___", "Keychron K series___");
             correctionAdd("Keychron K10___", "Keychron K series___"); // For the cross-reference
+            correctionAdd("K series___", "Keychron K series___");
             correctionAdd("K-series___", "Keychron K series___"); // A misspelling of "K series"
             correctionAdd("K-Series___", "Keychron K series___");
-            correctionAdd("K series___", "Keychron K series___"); // Sort of identity mapping
             correctionAdd("k series___", "Keychron K series___");
 
             // For a direct text, "Q series"
-            correctionAdd("Q&nbsp;series___", "Keychron Q series___");
             correctionAdd("Keychron Q6___", "Keychron Q series___"); // For the cross-reference
             correctionAdd("Q-series___", "Keychron Q series___");
             correctionAdd("Q series___", "Keychron Q series___"); // Sort of identity mapping
@@ -181138,7 +181104,6 @@ namespace OverflowHelper.core
 
             // For a direct text, "V series"
             correctionAdd("Keychron V6 ISO___", "Keychron V series___"); // For the cross-reference
-            correctionAdd("V&nbsp;series___", "Keychron V series___");
             correctionAdd("V series___", "Keychron V series___"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("V series___", "Keychron V series___"); // Sort of identity mapping
             correctionAdd("v series___", "Keychron V series___");
@@ -181146,7 +181111,6 @@ namespace OverflowHelper.core
             correctionAdd("v___", "Keychron V series___");
 
             // For a direct text, "K Pro series"
-            correctionAdd("K&nbsp;Pro&nbsp;series___", "Keychron K Pro series___");
             correctionAdd("Keychron K10 Pro___", "Keychron K Pro series___"); // For the cross-reference
             correctionAdd("K Pro series___", "Keychron K Pro series___"); // Sort of identity mapping
             correctionAdd("k pro series___", "Keychron K Pro series___");
@@ -181165,8 +181129,6 @@ namespace OverflowHelper.core
             correctionAdd("Pro___", "Keychron K Pro series___");
 
             // For a direct text, "Q Pro series"
-            correctionAdd("Keychron&nbsp;Q6&nbsp;Pro___", "Keychron Q Pro series___"); // For the cross-reference
-            correctionAdd("Q&nbsp;Pro&nbsp;series___", "Keychron Q Pro series___");
             correctionAdd("Keychron Q6 Pro___", "Keychron Q Pro series___"); // For the cross-reference
             correctionAdd("Q Pro series___", "Keychron Q Pro series___"); // Sort of identity mapping
             correctionAdd("q pro series___", "Keychron Q Pro series___");
@@ -181176,7 +181138,6 @@ namespace OverflowHelper.core
 
             // For a direct text, "V Max series"
             correctionAdd("Keychron V6 Max___", "Keychron V Max series___"); // For the cross-reference
-            correctionAdd("V&nbsp;Max&nbsp;series___", "Keychron V Max series___");
             correctionAdd("V Max series___", "Keychron V Max series___"); // Sort of identity mapping
             correctionAdd("v max series___", "Keychron V Max series___");
             correctionAdd("V Max Series___", "Keychron V Max series___");
@@ -181185,8 +181146,6 @@ namespace OverflowHelper.core
             correctionAdd("v max___", "Keychron V Max series___");
 
             // For a direct text, "Q Max series"
-            correctionAdd("Keychron&nbsp;Q6&nbsp;Max___", "Keychron Q Max series___"); // For the cross-reference
-            correctionAdd("Q&nbsp;Max&nbsp;series___", "Keychron Q Max series___");
             correctionAdd("Keychron Q6 Max___", "Keychron Q Max series___"); // For the cross-reference
             correctionAdd("Q max seriesc___", "Keychron Q Max series___");
             correctionAdd("q max series___", "Keychron Q Max series___");
@@ -181199,7 +181158,6 @@ namespace OverflowHelper.core
             correctionAdd("qmax___", "Keychron Q Max series___");
 
             // For a direct text, "K Max series"
-            correctionAdd("K&nbsp;Max&nbsp;series___", "Keychron K Max series___");
             correctionAdd("Keychron K10 Max___", "Keychron K Max series___"); // For the cross-reference
             correctionAdd("K-Max series___", "Keychron K Max series___");
             correctionAdd("K Max series___", "Keychron K Max series___"); // Sort of identity mapping
@@ -181256,20 +181214,15 @@ namespace OverflowHelper.core
             correctionAdd("P Pro___", "Lemokey P Pro series___");
             correctionAdd("p pro___", "Lemokey P Pro series___");
 
-            correctionAdd("Keychron&nbsp;C2&nbsp;Pro___", "Keychron C Pro series___"); // For the cross-reference
-            correctionAdd("C&nbsp;Pro&nbsp;series___", "Keychron C Pro series___");
             correctionAdd("Keychron C2 Pro___", "Keychron C Pro series___"); // For the cross-reference
-            correctionAdd("C&nbsp;series___", "Keychron C Pro series___"); // Not 100% correct (there is C series (proprietary firmware, not based on QMK))
             correctionAdd("C Pro series___", "Keychron C Pro series___"); // Sort of identity mapping
             correctionAdd("C series___", "Keychron C Pro series___"); // Not 100% correct (there is C series (proprietary firmware, not based on QMK)). Sort of identity mapping.
             correctionAdd("C2 Pro___", "Keychron C Pro series___");
 
-            correctionAdd("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K (100%)___", "Keychron C Pro 8K series___");
-            correctionAdd("Keychron&nbsp;C2&nbsp;Pro&nbsp;8K___", "Keychron C Pro 8K series___");
-            correctionAdd("C&nbsp;Pro&nbsp;8K&nbsp;series___", "Keychron C Pro 8K series___");
+            correctionAdd("Keychron C2 Pro 8K (100%)___", "Keychron C Pro 8K series___");
+            correctionAdd("Keychron C2 Pro 8K___", "Keychron C Pro 8K series___");
             correctionAdd("C Pro 8K series___", "Keychron C Pro 8K series___");
 
-            correctionAdd("S&nbsp;series___", "Keychron S series___");
             correctionAdd("Keychron S1___", "Keychron S series___"); // For the cross-reference
             correctionAdd("S series___", "Keychron S series___"); // Sort of identity mapping
             correctionAdd("S1___", "Keychron S series___"); // For the cross-reference
@@ -181538,18 +181491,16 @@ namespace OverflowHelper.core
             //
             //     Has command-lines for upgrade from LMDE 6 to LMDE 7.
             //
-            correctionAdd("Linux Mint Debian Edition___", "LMDE&nbsp;7 (Gigi)___"); // For the cross-reference
-            correctionAdd("Debian&nbsp;13 (Trixie)___", "LMDE&nbsp;7 (Gigi)___"); // For the cross-reference
-            correctionAdd("LMDE 7 (Gigi)___", "LMDE&nbsp;7 (Gigi)___"); // Sort of identity mapping
-            correctionAdd("LMDE 7 'Gigi'___", "LMDE&nbsp;7 (Gigi)___");
-            correctionAdd("LMDE&nbsp;7___", "LMDE&nbsp;7 (Gigi)___");
-            correctionAdd("Linux Mint___", "LMDE&nbsp;7 (Gigi)___"); // For the cross-reference
-            correctionAdd("Debian___", "LMDE&nbsp;7 (Gigi)___"); // For the cross-reference
-            correctionAdd("LMDE 7___", "LMDE&nbsp;7 (Gigi)___");
-            correctionAdd("LMDE7___", "LMDE&nbsp;7 (Gigi)___");
-            correctionAdd("lmde7___", "LMDE&nbsp;7 (Gigi)___");
-            correctionAdd("Gigi___", "LMDE&nbsp;7 (Gigi)___");
-            correctionAdd("gigi___", "LMDE&nbsp;7 (Gigi)___");
+            correctionAdd("Linux Mint Debian Edition___", "LMDE 7 (Gigi)___"); // For the cross-reference
+            correctionAdd("Debian 13 (Trixie)___", "LMDE 7 (Gigi)___"); // For the cross-reference
+            correctionAdd("LMDE 7 'Gigi'___", "LMDE 7 (Gigi)___");
+            correctionAdd("Linux Mint___", "LMDE 7 (Gigi)___"); // For the cross-reference
+            correctionAdd("Debian___", "LMDE 7 (Gigi)___"); // For the cross-reference
+            correctionAdd("LMDE 7___", "LMDE 7 (Gigi)___");
+            correctionAdd("LMDE7___", "LMDE 7 (Gigi)___");
+            correctionAdd("lmde7___", "LMDE 7 (Gigi)___");
+            correctionAdd("Gigi___", "LMDE 7 (Gigi)___");
+            correctionAdd("gigi___", "LMDE 7 (Gigi)___");
 
             // A Linux distribution
             correctionAdd("Linux MX___", "MX Linux___");
@@ -182514,7 +182465,7 @@ namespace OverflowHelper.core
 
             URL_Add("IT___", "https://en.wikipedia.org/wiki/Information_technology");
 
-            URL_Add("Windows&nbsp;8___", "https://en.wikipedia.org/wiki/Windows_8");
+            URL_Add("Windows 8___", "https://en.wikipedia.org/wiki/Windows_8");
 
             URL_Add("non___", "https://en.wiktionary.org/wiki/non-#Prefix");
 
@@ -182598,7 +182549,7 @@ namespace OverflowHelper.core
 
             URL_Add("MX Linux___", "https://en.wikipedia.org/wiki/MX_Linux");
 
-            URL_Add("LMDE&nbsp;7 (Gigi)___", "https://blog.linuxmint.com/?p=4924");
+            URL_Add("LMDE 7 (Gigi)___", "https://blog.linuxmint.com/?p=4924");
 
             URL_Add("logarithm___", "https://en.wiktionary.org/wiki/logarithm#Noun");
 
@@ -183841,7 +183792,6 @@ namespace OverflowHelper.core
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Keychron&nbsp;Q6&nbsp;Max____", "Keychron Q6 Max default keymap (ISO RGB)____"); // For the cross-reference
             correctionAdd("Q6 Max default keymap____", "Keychron Q6 Max default keymap (ISO RGB)____");
             correctionAdd("Keychron Q6 Max____", "Keychron Q6 Max default keymap (ISO RGB)____"); // For the cross-reference
             correctionAdd("Q6 Max keymap____", "Keychron Q6 Max default keymap (ISO RGB)____");
@@ -183901,11 +183851,10 @@ namespace OverflowHelper.core
             correctionAdd("02A3____", "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____");
             correctionAdd("02a3____", "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____");
 
-            correctionAdd("K&nbsp;QMK&nbsp;series____", "Keychron K QMK series____");
             correctionAdd("Keychron K10 (100%)____", "Keychron K QMK series____");
             correctionAdd("K10 QMK version 2____", "Keychron K QMK series____");
             correctionAdd("K5 qmk version 2____", "Keychron K QMK series____");
-            correctionAdd("K&nbsp;series____", "Keychron K QMK series____"); // For the cross-reference
+            correctionAdd("K series____", "Keychron K QMK series____"); // For the cross-reference
             correctionAdd("Keychron K10____", "Keychron K QMK series____");
             correctionAdd("K QMK series____", "Keychron K QMK series____"); // Sort of identity mapping
             correctionAdd("k qmk series____", "Keychron K QMK series____");
@@ -187122,7 +187071,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed______", "Keychron K10 V2 source code______");
             correctionAdd("Git branch \"wls_2025q1\" in Keychron's fork______", "Keychron K10 V2 source code______"); // For the cross-reference
-            correctionAdd("K&nbsp;QMK&nbsp;series______", "Keychron K10 V2 source code______"); // For the cross referece
+            correctionAdd("K QMK series______", "Keychron K10 V2 source code______"); // For the cross referece
             correctionAdd("Keychron K QMK series______", "Keychron K10 V2 source code______"); // For the cross referece
             correctionAdd("K10 V2 source code______", "Keychron K10 V2 source code______");
             correctionAdd("wls_2025q1______", "Keychron K10 V2 source code______");
@@ -187851,7 +187800,7 @@ namespace OverflowHelper.core
             //         0x239A/0x0029: B Pro series (they mount in the operating system, and flashing is by simply copying the .uf2 file)
             //
             correctionAdd("flashing Keycron K QMK keyboards_______", "flashing Keychron K QMK keyboards_______");
-            correctionAdd("K&nbsp;QMK&nbsp;series_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
+            correctionAdd("K QMK series_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
             correctionAdd("wb32-dfu-updater_cli_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("Keychron K10 (100%)_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("wb32-dfu-updater_______", "flashing Keychron K QMK keyboards_______");
