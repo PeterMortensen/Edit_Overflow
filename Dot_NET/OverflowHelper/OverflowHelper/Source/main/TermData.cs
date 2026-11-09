@@ -18290,6 +18290,11 @@ namespace OverflowHelper.core
             correctionAdd("incomptible", "incompatible");
             correctionAdd("incomatible", "incompatible");
 
+            correctionAdd("synthetic aperture radar", "synthetic-aperture radar");
+            correctionAdd("Synthetic Aperture Radar", "synthetic-aperture radar");
+            correctionAdd("Sythetic Aperture Radar", "synthetic-aperture radar");
+            correctionAdd("SAR", "synthetic-aperture radar");
+
             correctionAdd("glade", "glad");
 
             correctionAdd("glandly", "gladly");
@@ -24551,6 +24556,7 @@ namespace OverflowHelper.core
             correctionAdd("Infra Red", "infrared");
             correctionAdd("infra red", "infrared");
             correctionAdd("Infrared", "infrared");
+            correctionAdd("InfraRed", "infrared");
             correctionAdd("IR", "infrared"); // Expansion
 
             correctionAdd("extreme UV", "extreme ultraviolet radiation");
@@ -27547,7 +27553,7 @@ namespace OverflowHelper.core
             correctionAdd("udnertand", "understand");
             correctionAdd("underhand", "understand"); // An autocorrect "masterpiece"?
             correctionAdd("uderstand", "understand");
-            correctionAdd("undertnd", "understand"); // A true typo (multiple typos (missed))
+            correctionAdd("undertnd", "understand"); // A true typo (multiple typos (missing input))
 
             correctionAdd("understanded", "understood");
             correctionAdd("understoood", "understood");
@@ -29272,8 +29278,6 @@ namespace OverflowHelper.core
             // Perl 6
             correctionAdd("raku", "Raku");
 
-            correctionAdd("MOD_PERL", "mod_perl");
-
             // Perl
             correctionAdd("cpan", "CPAN");
 
@@ -29549,7 +29553,7 @@ namespace OverflowHelper.core
             correctionAdd("infinte", "infinite");
             correctionAdd("Infinit", "infinite");
             correctionAdd("infinit", "infinite");
-            correctionAdd("infi te", "infinite"); // A true (double) typo (involving the space bar and a missing key). An exotic and rare typo specimen! It also could be "*" that got interpreted as italics in Markdown.
+            correctionAdd("infi te", "infinite"); // A true (double) typo (involving the space bar and a missing key (missing input)). An exotic and rare typo specimen! It also could be "*" that got interpreted as italics in Markdown.
             correctionAdd("inf", "infinite");
 
             correctionAdd("infinitaly", "infinitely");
@@ -36679,8 +36683,22 @@ namespace OverflowHelper.core
 
             correctionAdd("mod security", "ModSecurity");
 
-            // Apache
+            // Apache HTTP Server
             correctionAdd("MOD_WSGI", "mod_wsgi");
+
+            // Apache HTTP Server
+            correctionAdd("modproxy", "mod_proxy");
+
+            // Apache HTTP Server
+            correctionAdd("mod rewrite", "mod_rewrite");
+            correctionAdd("modrewrite", "mod_rewrite");
+            correctionAdd("ModRewrite", "mod_rewrite");
+
+            // Apache HTTP Server
+            correctionAdd("MOD_PERL", "mod_perl");
+
+            // Apache HTTP Server
+            correctionAdd("MOD_PHP", "mod_php");
 
             // Apache
             //
@@ -44832,6 +44850,7 @@ namespace OverflowHelper.core
             correctionAdd("unintelligle", "unintelligible");
             correctionAdd("Unitelligle", "unintelligible");
             correctionAdd("unitelligle", "unintelligible");
+            correctionAdd("unintellige", "unintelligible");
             correctionAdd("untelligle", "unintelligible");
 
             correctionAdd("intellegently", "intelligently");
@@ -48254,8 +48273,6 @@ namespace OverflowHelper.core
 
             correctionAdd("proxys", "proxies");
 
-            correctionAdd("modproxy", "mod_proxy");
-
             correctionAdd("haproxy", "HAProxy");
 
             correctionAdd("reverse proxies", "reverse proxy");
@@ -48292,6 +48309,10 @@ namespace OverflowHelper.core
             correctionAdd("incompetant", "incompetent");
             correctionAdd("incompotent", "incompetent");
 
+            correctionAdd("Literature", "literature");
+            correctionAdd("Lit", "literature");
+            correctionAdd("lit", "literature");
+
             // Not to be confused with literary...
             //
             // Alternative URLs:
@@ -48304,6 +48325,8 @@ namespace OverflowHelper.core
             //
             correctionAdd("litteracy", "literacy");
             correctionAdd("Literacy", "literacy");
+
+            correctionAdd("LITERATE", "literate");
 
             correctionAdd("Illiterate", "illiterate");
             correctionAdd("iliterate", "illiterate");
@@ -48333,10 +48356,6 @@ namespace OverflowHelper.core
             correctionAdd("literaly", "literally");
             correctionAdd("literary", "literally");
             correctionAdd("litrally", "literally");
-
-            correctionAdd("Literature", "literature");
-            correctionAdd("Lit", "literature");
-            correctionAdd("lit", "literature");
 
             correctionAdd("stubled", "stumble");
 
@@ -53137,7 +53156,7 @@ namespace OverflowHelper.core
             correctionAdd("ATMega328p", "ATmega328P");
             correctionAdd("atMega328", "ATmega328P");
             correctionAdd("ATmeta328", "ATmega328P");
-            correctionAdd("atmega28p", "ATmega328P"); // Partly a typo: Missing "3"
+            correctionAdd("atmega28p", "ATmega328P"); // Partly a typo: Missing "3" (missing input)
             correctionAdd("atmega32p", "ATmega328P");
             correctionAdd("m328p", "ATmega328P"); // Identifier in AVRDUDE
             correctionAdd("328p", "ATmega328P");
@@ -53406,6 +53425,10 @@ namespace OverflowHelper.core
             //   <https://stackoverflow.com/questions/67648556/how-much-flash-memory-is-there-in-the-microcontroller/79997157#79997157>
             //     Allegedly, there is a read-only register
             //     with the actual flash memory size.
+            //
+            //     See also:
+            //
+            //       <https://stackoverflow.com/questions/67431388>
             //
             correctionAdd("stm 32", "STM32");
             correctionAdd("stm32", "STM32");
@@ -58012,8 +58035,6 @@ namespace OverflowHelper.core
             correctionAdd("hiphop", "HipHop for PHP");
             correctionAdd("HipHop", "HipHop for PHP");
             correctionAdd("HPHPc", "HipHop for PHP");
-
-            correctionAdd("MOD_PHP", "mod_php");
 
             // Note: The URL does not work as HTTPS...
             correctionAdd("phpcli", "PHP CLI");
@@ -80081,6 +80102,7 @@ namespace OverflowHelper.core
             correctionAdd("Wipe", "wipe");
 
             correctionAdd("swipe", "swap");
+            correctionAdd("swamp", "swap"); // An autocorrect "masterpiece"?
             correctionAdd("swop", "swap");
 
             correctionAdd("swopping", "swapping");
@@ -80724,10 +80746,6 @@ namespace OverflowHelper.core
 
             // Related to SEO
             correctionAdd("DR", "Domain Rating");
-
-            correctionAdd("mod rewrite", "mod_rewrite");
-            correctionAdd("modrewrite", "mod_rewrite");
-            correctionAdd("ModRewrite", "mod_rewrite");
 
             correctionAdd("inhewrited", "inherited");
             correctionAdd("inherrited", "inherited");
@@ -84446,6 +84464,7 @@ namespace OverflowHelper.core
             //         "cython-hidapi Python library for HID communication"
             //
             correctionAdd("duckypad", "duckyPad");
+            correctionAdd("Duckypad", "duckyPad");
 
             // A 15-key macro pad, with programmable key legends.
             //
@@ -87580,6 +87599,7 @@ namespace OverflowHelper.core
             correctionAdd("Q16 HE", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)");
             correctionAdd("q16 he", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)");
             correctionAdd("q16he", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q16HE", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)");
             correctionAdd("Q16", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)");
             correctionAdd("q16", "Keychron Q16 HE 8K (65%) (proprietary keyboard firmware, not open source)");
 
@@ -94168,6 +94188,7 @@ namespace OverflowHelper.core
             //     At page 2-43.
             //
             correctionAdd("apple extended keyboard II", "Apple Extended Keyboard II");
+            correctionAdd("APPLE EXTENDED KEYBOARD II", "Apple Extended Keyboard II");
             correctionAdd("apple extended keyboard", "Apple Extended Keyboard II");
             correctionAdd("Apple Extended Keyboard", "Apple Extended Keyboard II");
             correctionAdd("an old Apple keyboard", "Apple Extended Keyboard II");
@@ -103743,6 +103764,11 @@ namespace OverflowHelper.core
 
             correctionAdd("faves", "favourites");
 
+            correctionAdd("fovoured", "favoured");
+
+            correctionAdd("favorably", "favourably");
+            correctionAdd("farably", "favourably");
+
             correctionAdd("in favor to", "in favor of");
 
             // Programming, self-inspection
@@ -105772,8 +105798,6 @@ namespace OverflowHelper.core
 
             correctionAdd("ancesstor", "ancestor");
             correctionAdd("anccestor", "ancestor");
-
-            correctionAdd("fovoured", "favoured");
 
             correctionAdd("Stat", "stat");
 
@@ -111763,8 +111787,6 @@ namespace OverflowHelper.core
 
             URL_Add("extension method", "https://en.wikipedia.org/wiki/Extension_method");
 
-            URL_Add("favourite", "https://en.wiktionary.org/wiki/favourite#Adjective");
-
             URL_Add("intend", "https://en.wiktionary.org/wiki/intend#Verb");
 
             URL_Add("CPU-bound", "https://en.wikipedia.org/wiki/CPU-bound");
@@ -114431,8 +114453,6 @@ namespace OverflowHelper.core
 
             URL_Add("LibreOffice Calc", "https://en.wikipedia.org/wiki/LibreOffice_Calc");
 
-            URL_Add("favoured", "https://en.wiktionary.org/wiki/favoured#Adjective");
-
             URL_Add("traverse", "https://en.wiktionary.org/wiki/traverse#Verb");
 
             URL_Add("Phoenix", "https://en.wikipedia.org/wiki/WxPython#Project_Phoenix");
@@ -115386,8 +115406,6 @@ namespace OverflowHelper.core
             URL_Add("nonfailure", "https://en.wiktionary.org/wiki/nonfailure#Noun");
 
             URL_Add("in any case", "https://en.wiktionary.org/wiki/in_any_case#Adverb");
-
-            URL_Add("incompatible", "https://en.wiktionary.org/wiki/incompatible#Adjective");
 
             URL_Add("Daily Mail", "https://en.wikipedia.org/wiki/Daily_Mail");
 
@@ -122581,8 +122599,6 @@ namespace OverflowHelper.core
 
             URL_Add("booted", "https://en.wiktionary.org/wiki/boot#Verb");
 
-            URL_Add("incompatibility", "https://en.wiktionary.org/wiki/incompatibility#Noun");
-
             URL_Add("CIFAR-10", "https://en.wikipedia.org/wiki/CIFAR-10");
 
             URL_Add("IEEE 754", "https://en.wikipedia.org/wiki/IEEE_754");
@@ -123793,8 +123809,6 @@ namespace OverflowHelper.core
 
             URL_Add("insightful", "https://en.wiktionary.org/wiki/insightful#Adjective");
 
-            URL_Add("favourites", "https://en.wiktionary.org/wiki/favourite#Adjective");
-
             URL_Add("principal investigator", "https://en.wikipedia.org/wiki/Principal_investigator");
 
             URL_Add("doubletap", "https://en.wiktionary.org/wiki/doubletap#Verb");
@@ -124284,8 +124298,6 @@ namespace OverflowHelper.core
             URL_Add("Pyramid", "https://en.wikipedia.org/wiki/Pylons_project#Pyramid");
 
             URL_Add("shared", "https://en.wiktionary.org/wiki/shared#Adjective");
-
-            URL_Add("forward compatible", "https://en.wikipedia.org/wiki/Forward_compatibility");
 
             URL_Add("routes", "https://en.wiktionary.org/wiki/route#Noun");
 
@@ -127096,12 +127108,6 @@ namespace OverflowHelper.core
             URL_Add("foremost", "https://en.wiktionary.org/wiki/foremost#Adverb");
 
             URL_Add("Tails", "https://en.wikipedia.org/wiki/Tails_%28operating_system%29");
-
-            URL_Add("Taiwan", "https://en.wikipedia.org/wiki/Taiwan");
-
-            URL_Add("Taiwanese", "https://en.wiktionary.org/wiki/Taiwanese#Adjective");
-
-            URL_Add("Literary Day", "https://en.wikipedia.org/wiki/Literary_Day");
 
             URL_Add("miserably", "https://en.wiktionary.org/wiki/miserably#Adverb");
 
@@ -136566,23 +136572,31 @@ namespace OverflowHelper.core
 
             URL_Add("Borderlands 2", "https://en.wikipedia.org/wiki/Borderlands_2");
 
+            URL_Add("Taiwan", "https://en.wikipedia.org/wiki/Taiwan");
+
+            URL_Add("Taiwanese", "https://en.wiktionary.org/wiki/Taiwanese#Adjective");
+
+            URL_Add("literature", "https://en.wiktionary.org/wiki/literature#Noun");
+
+            URL_Add("Literary Day", "https://en.wikipedia.org/wiki/Literary_Day");
+
+            URL_Add("literal", "https://en.wiktionary.org/wiki/literal#Noun");
+
+            URL_Add("literally", "https://en.wiktionary.org/wiki/literally#Adverb");
+
+            URL_Add("literate", "https://en.wiktionary.org/wiki/literate#Adjective");
+
+            URL_Add("literate programming", "https://en.wikipedia.org/wiki/Literate_programming");
+
             URL_Add("literacy", "https://en.wiktionary.org/wiki/literacy#Noun");
 
             URL_Add("illiterate", "https://en.wiktionary.org/wiki/illiterate#Adjective");
 
             URL_Add("illiteracy", "https://en.wiktionary.org/wiki/illiteracy#Noun");
 
-            URL_Add("literate programming", "https://en.wikipedia.org/wiki/Literate_programming");
-
-            URL_Add("literal", "https://en.wiktionary.org/wiki/literal#Noun");
-
-            URL_Add("literally", "https://en.wiktionary.org/wiki/literally#Adverb");
-
             URL_Add("object literal", "https://en.wikipedia.org/wiki/Literal_(computer_programming)#Literals_of_objects");
 
             URL_Add("template literal", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals");
-
-            URL_Add("literature", "https://en.wiktionary.org/wiki/literature#Noun");
 
             URL_Add("cross-origin resource policy", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy_(CORP)");
 
@@ -137951,8 +137965,6 @@ namespace OverflowHelper.core
 
             URL_Add("-Wimplicit-int", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-int");
 
-            URL_Add("-Wincompatible-pointer-types", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types");
-
             URL_Add("-Winit-self", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Winit-self");
 
             URL_Add("-Winline", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Winline");
@@ -138148,6 +138160,8 @@ namespace OverflowHelper.core
             URL_Add("-ffreestanding", "https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html#index-ffreestanding-1");
 
             URL_Add("-fdelete-null-pointer-checks", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-fdelete-null-pointer-checks");
+
+            URL_Add("-Wincompatible-pointer-types", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types");
 
             URL_Add("collect2: error: ld returned 1 exit status", "https://stackoverflow.com/questions/16437383/linker-error-gcc");
 
@@ -142595,14 +142609,6 @@ namespace OverflowHelper.core
 
             URL_Add("NOOBS", "https://github.com/raspberrypi/noobs");
 
-            URL_Add("pins", "https://en.wiktionary.org/wiki/pin#Noun");
-
-            URL_Add("pin-compatible", "https://en.wikipedia.org/wiki/Pin_compatibility");
-
-            URL_Add("GPIO", "http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications");
-
-            URL_Add("I/O expander", "https://www.reddit.com/r/olkb/comments/1qm3puv/comment/o1j6fuz/");
-
             URL_Add("Xiaomi", "https://en.wikipedia.org/wiki/Xiaomi");
 
             URL_Add("Seeed Studio XIAO RP2040", "https://www.hackster.io/seeed/products/seeed-studio-xiao-rp2040"); // Old (now broken): <https://www.hackster.io/seeed/products/seeed-xiao-rp2040>
@@ -144715,6 +144721,68 @@ namespace OverflowHelper.core
 
             URL_Add("companywide", "https://en.wiktionary.org/wiki/companywide#Adjective");
 
+            URL_Add("backwards", "https://en.wiktionary.org/wiki/backwards#Adverb");
+
+            URL_Add("backwardly", "https://en.wiktionary.org/wiki/backwardly#Adverb");
+
+            URL_Add("backtick", "https://en.wiktionary.org/wiki/backtick#Noun");
+
+            URL_Add("backticks", "https://en.wiktionary.org/wiki/backtick#Noun");
+
+            URL_Add("Backbone.js", "https://en.wikipedia.org/wiki/Backbone.js");
+
+            URL_Add("backstab", "https://en.wiktionary.org/wiki/backstab#Verb");
+
+            URL_Add("backstabbing", "https://en.wiktionary.org/wiki/backstab#Verb");
+
+            URL_Add("back up", "https://en.wiktionary.org/wiki/back_up#Verb");
+
+            URL_Add("back", "https://en.wiktionary.org/wiki/back#Adverb");
+
+            URL_Add("back burner", "https://en.wiktionary.org/wiki/back_burner#Noun");
+
+            URL_Add("back-to-back", "https://en.wiktionary.org/wiki/back-to-back#Adjective");
+
+            URL_Add("afterwards", "https://en.wiktionary.org/wiki/afterwards#Adverb");
+
+            URL_Add("onwards", "https://en.wiktionary.org/wiki/onwards#Adverb");
+
+            URL_Add("towards", "https://en.wiktionary.org/wiki/towards#Adverb");
+
+            URL_Add("coward", "https://en.wiktionary.org/wiki/coward#Noun");
+
+            URL_Add("forward", "https://en.wiktionary.org/wiki/forward#Verb");
+
+            URL_Add("straightforward", "https://en.wiktionary.org/wiki/straightforward#Adjective"); // Old: https://en.wiktionary.org/wiki/straightforward
+
+            URL_Add("fast forward", "https://en.wiktionary.org/wiki/fast_forward#Verb");
+
+            URL_Add("going forward", "https://en.wiktionary.org/wiki/going_forward#Adverb");
+
+            URL_Add("oriented toward", "https://www.vocabulary.com/dictionary/oriented");
+
+            URL_Add("awkward", "https://en.wiktionary.org/wiki/awkward#Adjective");
+
+            URL_Add("awkwardly", "https://en.wiktionary.org/wiki/awkwardly#Adverb");
+
+            URL_Add("pins", "https://en.wiktionary.org/wiki/pin#Noun");
+
+            URL_Add("GPIO", "http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/raspberry-pi/gpio-pin-electrical-specifications");
+
+            URL_Add("I/O expander", "https://www.reddit.com/r/olkb/comments/1qm3puv/comment/o1j6fuz/");
+
+            URL_Add("synthetic-aperture radar", "https://en.wikipedia.org/wiki/Synthetic-aperture_radar");
+
+            URL_Add("backwards compatible", "https://en.wikipedia.org/wiki/Backward_compatibility#In_software");
+
+            URL_Add("forward compatible", "https://en.wikipedia.org/wiki/Forward_compatibility");
+
+            URL_Add("pin-compatible", "https://en.wikipedia.org/wiki/Pin_compatibility");
+
+            URL_Add("incompatibility", "https://en.wiktionary.org/wiki/incompatibility#Noun");
+
+            URL_Add("incompatible", "https://en.wiktionary.org/wiki/incompatible#Adjective");
+
             URL_Add("compatible", "https://en.wiktionary.org/wiki/compatible#Adjective"); // Old: https://en.wiktionary.org/wiki/compatable
 
             URL_Add("compatibility", "https://en.wiktionary.org/wiki/compatibility#Noun"); // Old: https://en.wiktionary.org/wiki/compatability
@@ -146316,52 +146384,6 @@ namespace OverflowHelper.core
             URL_Add("SKALE", "https://skale.space/");
 
             URL_Add("memchanical", "https://www.tomshardware.com/news/razer-mecha-membrane-switch-ornata-chroma,32637.html");
-
-            URL_Add("backwards", "https://en.wiktionary.org/wiki/backwards#Adverb");
-
-            URL_Add("backwardly", "https://en.wiktionary.org/wiki/backwardly#Adverb");
-
-            URL_Add("backwards compatible", "https://en.wikipedia.org/wiki/Backward_compatibility#In_software");
-
-            URL_Add("backtick", "https://en.wiktionary.org/wiki/backtick#Noun");
-
-            URL_Add("backticks", "https://en.wiktionary.org/wiki/backtick#Noun");
-
-            URL_Add("Backbone.js", "https://en.wikipedia.org/wiki/Backbone.js");
-
-            URL_Add("backstab", "https://en.wiktionary.org/wiki/backstab#Verb");
-
-            URL_Add("backstabbing", "https://en.wiktionary.org/wiki/backstab#Verb");
-
-            URL_Add("back up", "https://en.wiktionary.org/wiki/back_up#Verb");
-
-            URL_Add("back", "https://en.wiktionary.org/wiki/back#Adverb");
-
-            URL_Add("back burner", "https://en.wiktionary.org/wiki/back_burner#Noun");
-
-            URL_Add("back-to-back", "https://en.wiktionary.org/wiki/back-to-back#Adjective");
-
-            URL_Add("afterwards", "https://en.wiktionary.org/wiki/afterwards#Adverb");
-
-            URL_Add("onwards", "https://en.wiktionary.org/wiki/onwards#Adverb");
-
-            URL_Add("towards", "https://en.wiktionary.org/wiki/towards#Adverb");
-
-            URL_Add("coward", "https://en.wiktionary.org/wiki/coward#Noun");
-
-            URL_Add("forward", "https://en.wiktionary.org/wiki/forward#Verb");
-
-            URL_Add("straightforward", "https://en.wiktionary.org/wiki/straightforward#Adjective"); // Old: https://en.wiktionary.org/wiki/straightforward
-
-            URL_Add("fast forward", "https://en.wiktionary.org/wiki/fast_forward#Verb");
-
-            URL_Add("going forward", "https://en.wiktionary.org/wiki/going_forward#Adverb");
-
-            URL_Add("oriented toward", "https://www.vocabulary.com/dictionary/oriented");
-
-            URL_Add("awkward", "https://en.wiktionary.org/wiki/awkward#Adjective");
-
-            URL_Add("awkwardly", "https://en.wiktionary.org/wiki/awkwardly#Adverb");
 
             URL_Add("useless use of 'cat'", "https://en.wikipedia.org/wiki/Cat_(Unix)#Useless_use_of_cat");
 
@@ -151657,6 +151679,14 @@ namespace OverflowHelper.core
 
             URL_Add("self-executing anonymous function", "https://stackoverflow.com/questions/14322708");
 
+            URL_Add("favourite", "https://en.wiktionary.org/wiki/favourite#Adjective");
+
+            URL_Add("favourites", "https://en.wiktionary.org/wiki/favourite#Adjective");
+
+            URL_Add("favoured", "https://en.wiktionary.org/wiki/favoured#Adjective");
+
+            URL_Add("favourably", "https://en.wiktionary.org/wiki/favourably#Adverb");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -154308,10 +154338,16 @@ namespace OverflowHelper.core
             // Not to be confused with RGB matrix ('per-key RGB light'),
             // RGB lighting
             //
+            correctionAdd("LED matrix lighting_", "LED matrix_");
             correctionAdd("LED Matrix_", "LED matrix_");
 
             // A QMK feature
             //
+            // Not to be confused with RGB matrix ('per-key RGB light')
+            //
+            // Presumably for ***single-colour*** (same colour) per-key LED light
+            correctionAdd("back lighting_", "Backlight_");
+            correctionAdd("backlighting_", "Backlight_");
             correctionAdd("backlight_", "Backlight_");
 
             // A QMK feature. Not to be confused with the completely
@@ -158472,6 +158508,7 @@ namespace OverflowHelper.core
 
             correctionAdd("more bettere_", "better_");
             correctionAdd("more better_", "better_");
+            correctionAdd("betterer_", "better_");
             correctionAdd("batter_", "better_");
             correctionAdd("bettet_", "better_");
             correctionAdd("beter_", "better_");
@@ -158638,10 +158675,10 @@ namespace OverflowHelper.core
             correctionAdd("repr_", "repr()_");
 
             // A Python function
-            correctionAdd("literal_eval_", "literal_eval()_");
+            correctionAdd("format_", "format()_");
 
             // A Python function
-            correctionAdd("format_", "format()_");
+            correctionAdd("literal_eval_", "literal_eval()_");
 
             // NumPy / Python
             correctionAdd("bottleneck_", "Bottleneck_");
@@ -160125,6 +160162,7 @@ namespace OverflowHelper.core
             correctionAdd("K2 HE SE_", "Keychron K2 HE (80%)_");
             correctionAdd("K2 He Se_", "Keychron K2 HE (80%)_");
             correctionAdd("K2HE SE_", "Keychron K2 HE (80%)_");
+            correctionAdd("KE2 HE_", "Keychron K2 HE (80%)_"); // Was version 2 of the K2 HE meant?
             correctionAdd("HE K2_", "Keychron K2 HE (80%)_");
             correctionAdd("he K2_", "Keychron K2 HE (80%)_");
             correctionAdd("H2 HE_", "Keychron K2 HE (80%)_");
@@ -164765,7 +164803,7 @@ namespace OverflowHelper.core
             //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
             //     The spacebar method for flashing Keychron keyboards
             //
-            correctionAdd("flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode_", "enter bootloader mode keycode (QK_BOOTLOADER. QMK. 31744 (decimal). 7C00 (hexadecimal))_");
+            correctionAdd("flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode_", "enter bootloader mode keycode (QK_BOOTLOADER. QMK. 31744 (decimal). 7C00 (hexadecimal))_");
             correctionAdd("QK_BOOTLOADER_", "enter bootloader mode keycode (QK_BOOTLOADER. QMK. 31744 (decimal). 7C00 (hexadecimal))_"); // Not accepted by Via or Vial
             correctionAdd("QK_BOOT_", "enter bootloader mode keycode (QK_BOOTLOADER. QMK. 31744 (decimal). 7C00 (hexadecimal))_"); // Not accepted by Via or Vial
             correctionAdd("0x7C00_", "enter bootloader mode keycode (QK_BOOTLOADER. QMK. 31744 (decimal). 7C00 (hexadecimal))_");
@@ -166172,6 +166210,7 @@ namespace OverflowHelper.core
             correctionAdd("halfs_", "halves_");
             correctionAdd("half_", "halves_");
 
+            correctionAdd("sythetic_", "synthetic_");
             correctionAdd("synth_", "synthetic_");
 
             // The noun
@@ -166917,7 +166956,7 @@ namespace OverflowHelper.core
             correctionAdd("nof_", "not_"); // A true typo
             correctionAdd("Not_", "not_");
             correctionAdd("NOT_", "not_");
-            correctionAdd("it_", "not_"); // A true (double) typo, with one omission
+            correctionAdd("it_", "not_"); // A true (double) typo, with one omission (missing input)
             correctionAdd("no_", "not_");
 
             correctionAdd("obvisouly_", "obviously_");
@@ -168238,6 +168277,7 @@ namespace OverflowHelper.core
             correctionAdd("alla_", "all of_");
 
             correctionAdd("optital_", "optical_");
+            correctionAdd("Optical_", "optical_");
 
             correctionAdd("inquiring minds would like to know_", "inquiring minds want to know_");
             correctionAdd("enquiring minds want to know_", "inquiring minds want to know_");
@@ -171532,8 +171572,6 @@ namespace OverflowHelper.core
 
             URL_Add("csv (the (literal) name of a Python module)_", "https://docs.python.org/3.8/library/csv.html");
 
-            URL_Add("literal_eval()_", "https://docs.python.org/3/library/ast.html#ast.literal_eval");
-
             URL_Add("format()_", "https://docs.python.org/3.8/library/functions.html#format");
 
             URL_Add("open()_", "https://docs.python.org/3/library/functions.html#open");
@@ -171545,6 +171583,8 @@ namespace OverflowHelper.core
             URL_Add("python-docx_", "https://pypi.org/project/python-docx/");
 
             URL_Add("lambda_", "https://docs.python.org/3/reference/expressions.html#lambda");
+
+            URL_Add("literal_eval()_", "https://docs.python.org/3/library/ast.html#ast.literal_eval");
 
             URL_Add("all()_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.all.html");
 
@@ -171829,8 +171869,6 @@ namespace OverflowHelper.core
             URL_Add("metasmoke_", "https://github.com/Charcoal-SE/metasmoke");
 
             URL_Add("Karabiner Elements_", "https://github.com/pqrs-org/Karabiner-Elements");
-
-            URL_Add("list of Sonix QMK-compatible keyboards_", "https://jpe230.github.io/SonixQMKDocs/compatible_kb/#keychron");
 
             URL_Add("Airbnb JavaScript style guide_", "https://github.com/airbnb/javascript");
 
@@ -173082,6 +173120,8 @@ namespace OverflowHelper.core
 
             URL_Add("then_", "https://en.wiktionary.org/wiki/then#Adverb");
 
+            URL_Add("list of Sonix QMK-compatible keyboards_", "https://jpe230.github.io/SonixQMKDocs/compatible_kb/#keychron");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -174199,6 +174239,7 @@ namespace OverflowHelper.core
             correctionAdd("USB 2.0__", "USB&nbsp;2.0__");
             correctionAdd("USB HB__", "USB&nbsp;2.0__");
             correctionAdd("USB HS__", "USB&nbsp;2.0__");
+            correctionAdd("usb2.0__", "USB&nbsp;2.0__");
             correctionAdd("USB 2__", "USB&nbsp;2.0__");
             correctionAdd("Usb 2__", "USB&nbsp;2.0__");
             correctionAdd("uSB2__", "USB&nbsp;2.0__");
@@ -175631,9 +175672,6 @@ namespace OverflowHelper.core
             correctionAdd("Clockwise__", "clockwise__");
             correctionAdd("CW__", "clockwise__");
             correctionAdd("cw__", "clockwise__");
-
-            correctionAdd("moth__", "mode__");
-            correctionAdd("more__", "mode__");
 
             correctionAdd("chrono__", "chronological__");
 
@@ -177659,17 +177697,15 @@ namespace OverflowHelper.core
             //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
             //     The spacebar method for flashing Keychron keyboards
             //
-            correctionAdd("flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode__", "flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__");
-            correctionAdd("flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode AKA burn mode__", "flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__"); // Sort of identity mapping
-            correctionAdd("flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode__", "flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__"); // Sort of identity mapping
-            correctionAdd("flash mode AKA bootloader mode AKA DFU mode__", "flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__");
-            correctionAdd("bootloader mode__", "flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__");
-            correctionAdd("flash memory__", "flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__"); // For the cross-reference
-            correctionAdd("flash mode__", "flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__");
-            correctionAdd("flach mode__", "flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__");
-            correctionAdd("burn mode__", "flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__");
-            correctionAdd("DFU mode__", "flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__");
-            correctionAdd("DFU__", "flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__"); // For the cross-reference
+            correctionAdd("flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode__", "flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode AKA burn mode__");
+            correctionAdd("flash mode AKA bootloader mode AKA DFU mode__", "flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode AKA burn mode__");
+            correctionAdd("bootloader mode__", "flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode AKA burn mode__");
+            correctionAdd("flash memory__", "flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode AKA burn mode__"); // For the cross-reference
+            correctionAdd("flash mode__", "flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode AKA burn mode__");
+            correctionAdd("flach mode__", "flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode AKA burn mode__");
+            correctionAdd("burn mode__", "flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode AKA burn mode__");
+            correctionAdd("DFU mode__", "flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode AKA burn mode__");
+            correctionAdd("DFU__", "flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode AKA burn mode__"); // For the cross-reference
 
             correctionAdd("electronic computer-aided design__", "electronic design automation__");
             correctionAdd("ECAD__", "electronic design automation__");
@@ -179010,8 +179046,6 @@ namespace OverflowHelper.core
 
             URL_Add("PII__", "https://en.wikipedia.org/wiki/Personal_data");
 
-            URL_Add("mode__", "https://en.wiktionary.org/wiki/mode#Noun");
-
             URL_Add("air conditioning__", "https://en.wiktionary.org/wiki/air_conditioning#Noun");
 
             URL_Add("bit__", "https://en.wiktionary.org/wiki/bite#Verb");
@@ -179112,7 +179146,7 @@ namespace OverflowHelper.core
 
             URL_Add("azure__", "https://en.wikipedia.org/wiki/Azure_(color)");
 
-            URL_Add("flash mode AKA&nbsp;firmware&nbsp;update&nbsp;mode AKA&nbsp;bootloader&nbsp;mode AKA&nbsp;DFU&nbsp;mode AKA&nbsp;burn&nbsp;mode__", "https://en.wikipedia.org/wiki/Bootloader#Embedded_and_multi-stage_boot_loaders");
+            URL_Add("flash mode AKA firmware update mode AKA bootloader mode AKA DFU mode AKA burn mode__", "https://en.wikipedia.org/wiki/Bootloader#Embedded_and_multi-stage_boot_loaders");
 
             URL_Add("assistive technology__", "https://en.wikipedia.org/wiki/Assistive_technology");
 
@@ -179601,6 +179635,111 @@ namespace OverflowHelper.core
             // Note: Due to a glitch in a checking Perl script, there should
             //       be an empty line before the first block...
 
+            // User interfaces and other systems
+            //
+            // Alternative URLs:
+            //
+            //   <https://medium.com/interaction-reimagined/dangers-of-modal-user-interfaces-316828de8161>
+            //
+            //   <https://pordesign1999.wordpress.com/2019/04/26/modes-in-user-interfaces-when-they-help-and-when-they-hurt-users/>
+            //
+            correctionAdd("Modes are evil___", "modes are evil___");
+            correctionAdd("modes are bad___", "modes are evil___");
+            correctionAdd("mode___", "modes are evil___");
+
+            // A unit (of time). Singular
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/mo#Symbol_2>
+            //
+            correctionAdd("&nbsp;month___", "&nbsp;mo___");
+            correctionAdd("mounth___", "&nbsp;mo___");
+            correctionAdd("motnh___", "&nbsp;mo___");
+            correctionAdd("Month___", "&nbsp;mo___");
+            correctionAdd("moth___", "&nbsp;mo___");
+            correctionAdd("mont___", "&nbsp;mo___");
+            correctionAdd("mth___", "&nbsp;mo___");
+            correctionAdd("mon___", "&nbsp;mo___");
+            correctionAdd("mo___", "&nbsp;mo___");
+            correctionAdd("M___", "&nbsp;mo___");
+            correctionAdd("m___", "&nbsp;mo___");
+            correctionAdd("month___", "&nbsp;mo___"); // The official expanded name
+
+            // 3D modelling
+            correctionAdd("uv mapping___", "UV mapping___");
+            correctionAdd("uv___", "UV mapping___");
+
+            // Mechanical keyboards. Related to QMK.
+            correctionAdd("sonix___", "Sonix___");
+
+            correctionAdd("overwrite the bootloader___", "overwrite the bootloader on the AVR ATmega32U4___");
+            correctionAdd("overwritten bootloader___", "overwrite the bootloader on the AVR ATmega32U4___");
+            correctionAdd("Overwritten bootloader___", "overwrite the bootloader on the AVR ATmega32U4___");
+            correctionAdd("bootloader mode___", "overwrite the bootloader on the AVR ATmega32U4___");
+            correctionAdd("overwriting___", "overwrite the bootloader on the AVR ATmega32U4___");
+            correctionAdd("overwritten___", "overwrite the bootloader on the AVR ATmega32U4___");
+            correctionAdd("overwrite___", "overwrite the bootloader on the AVR ATmega32U4___");
+
+            // QMK. Essentially adding:
+            //
+            //     :mass-erase:force
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lby5g3e/>
+            //     Also has a longer checklist
+            //
+            //   <https://www.keychron.com/pages/how-to-flash-k8-pro-with-entire-chip-erase>
+            //     How to flash K8 Pro with entire chip erase
+            //
+            //     It uses the commandline, adding ":mass-erase:force"
+            //
+            //   <https://www.keychron.com/pages/how-to-flash-k8-pro-with-entire-chip-erase-by-using-smt32programmer>
+            //     How to Flash K8 Pro with entire chip erase
+            //     by using STM32CubeProgrammer
+            //
+            //     Uses a tool, not the commandline.
+            //
+            correctionAdd("verifying bootloader mode___", "hard flashing___");
+            correctionAdd("verify bootloader mode___", "hard flashing___");
+            correctionAdd("verifying flash mode___", "hard flashing___");
+            correctionAdd("verify flash mode___", "hard flashing___");
+            correctionAdd("Verify flash mode___", "hard flashing___");
+            correctionAdd("retry flashing___", "hard flashing___");
+            correctionAdd("Hard flashing___", "hard flashing___");
+            correctionAdd("Don't give up___", "hard flashing___");
+            correctionAdd("don't give up___", "hard flashing___");
+            correctionAdd("flash memory___", "hard flashing___"); // For the cross-reference
+            correctionAdd("hard flash___", "hard flashing___");
+            correctionAdd("hard reset___", "hard flashing___");
+
+            // Alternative URLs:
+            //
+            //   See entry "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)",
+            //   e.g., the Keychron support article and the July 2024
+            //   Keychron acknowledgment.
+            //
+            correctionAdd("Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
+            correctionAdd("it isn't the switches, damn it!___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___"); // For the cross-reference
+            correctionAdd("number 9 on the checklist___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
+            correctionAdd("Keychron acknowledged___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
+            correctionAdd("the gasket problem___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
+            correctionAdd("gasket problem___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
+            correctionAdd("#9___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
+
+            correctionAdd("Keychron two-hour deep sleep___", "Keychron keyboards' two-hour deep sleep___");
+            correctionAdd("two-hour deep sleep___", "Keychron keyboards' two-hour deep sleep___");
+            correctionAdd("RGB light sleep___", "Keychron keyboards' two-hour deep sleep___");
+            correctionAdd("7200 seconds___", "Keychron keyboards' two-hour deep sleep___");
+            correctionAdd("deep sleep___", "Keychron keyboards' two-hour deep sleep___");
+            correctionAdd("RGB sleep___", "Keychron keyboards' two-hour deep sleep___");
+            correctionAdd("two hours___", "Keychron keyboards' two-hour deep sleep___");
+            correctionAdd("two hour___", "Keychron keyboards' two-hour deep sleep___");
+            correctionAdd("2 hours___", "Keychron keyboards' two-hour deep sleep___");
+            correctionAdd("sleep___", "Keychron keyboards' two-hour deep sleep___");
+            correctionAdd("7200___", "Keychron keyboards' two-hour deep sleep___");
+
             // QMK
             //
             // Alternative URLs:
@@ -180064,25 +180203,6 @@ namespace OverflowHelper.core
             // A unit (of force/acceleration). In terms of Earth's gravity
             correctionAdd("gee___", "g___");
             correctionAdd("G___", "g___");
-
-            // A unit (of time). Singular
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wiktionary.org/wiki/mo#Symbol_2>
-            //
-            correctionAdd("&nbsp;month___", "&nbsp;mo___");
-            correctionAdd("mounth___", "&nbsp;mo___");
-            correctionAdd("motnh___", "&nbsp;mo___");
-            correctionAdd("Month___", "&nbsp;mo___");
-            correctionAdd("moth___", "&nbsp;mo___");
-            correctionAdd("mont___", "&nbsp;mo___");
-            correctionAdd("mth___", "&nbsp;mo___");
-            correctionAdd("mon___", "&nbsp;mo___");
-            correctionAdd("mo___", "&nbsp;mo___");
-            correctionAdd("M___", "&nbsp;mo___");
-            correctionAdd("m___", "&nbsp;mo___");
-            correctionAdd("month___", "&nbsp;mo___"); // The official expanded name
 
             // A unit (of time). Plural.
             correctionAdd("&nbsp;hours___", "&nbsp;hrs___");
@@ -180976,39 +181096,6 @@ namespace OverflowHelper.core
             correctionAdd("modifier keys___", "QMK keyboard modifier keys___");
             correctionAdd("QMK keycode___", "QMK keyboard modifier keys___");
 
-            // QMK. Essentially adding:
-            //
-            //     :mass-erase:force
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lby5g3e/>
-            //     Also has a longer checklist
-            //
-            //   <https://www.keychron.com/pages/how-to-flash-k8-pro-with-entire-chip-erase>
-            //     How to flash K8 Pro with entire chip erase
-            //
-            //     It uses the commandline, adding ":mass-erase:force"
-            //
-            //   <https://www.keychron.com/pages/how-to-flash-k8-pro-with-entire-chip-erase-by-using-smt32programmer>
-            //     How to Flash K8 Pro with entire chip erase
-            //     by using STM32CubeProgrammer
-            //
-            //     Uses a tool, not the commandline.
-            //
-            correctionAdd("verifying bootloader mode___", "hard flashing___");
-            correctionAdd("verify bootloader mode___", "hard flashing___");
-            correctionAdd("verifying flash mode___", "hard flashing___");
-            correctionAdd("verify flash mode___", "hard flashing___");
-            correctionAdd("Verify flash mode___", "hard flashing___");
-            correctionAdd("retry flashing___", "hard flashing___");
-            correctionAdd("Hard flashing___", "hard flashing___");
-            correctionAdd("Don't give up___", "hard flashing___");
-            correctionAdd("don't give up___", "hard flashing___");
-            correctionAdd("flash memory___", "hard flashing___"); // For the cross-reference
-            correctionAdd("hard flash___", "hard flashing___");
-            correctionAdd("hard reset___", "hard flashing___");
-
             // SRGBmods: A compile service for QMK-based keyboards
             //           and macro pads, Vial part
             correctionAdd("a hypothetical compile service to generate QMK firmware based on input with simple configuration changes___", "SRGBmods (Vial)___"); // For the cross-reference
@@ -181866,10 +181953,6 @@ namespace OverflowHelper.core
             correctionAdd("par for course___", "par for the course___");
             correctionAdd("course___", "par for the course___"); // For the cross-reference
 
-            // 3D modelling
-            correctionAdd("uv mapping___", "UV mapping___");
-            correctionAdd("uv___", "UV mapping___");
-
             // Alternative URLs:
             //
             //   <https://en.wikipedia.org/wiki/Rubbing_alcohol>
@@ -181893,14 +181976,6 @@ namespace OverflowHelper.core
 
             // The verb
             correctionAdd("Input___", "input___");
-
-            correctionAdd("overwrite the bootloader___", "overwrite the bootloader on the AVR ATmega32U4___");
-            correctionAdd("overwritten bootloader___", "overwrite the bootloader on the AVR ATmega32U4___");
-            correctionAdd("Overwritten bootloader___", "overwrite the bootloader on the AVR ATmega32U4___");
-            correctionAdd("bootloader mode___", "overwrite the bootloader on the AVR ATmega32U4___");
-            correctionAdd("overwriting___", "overwrite the bootloader on the AVR ATmega32U4___");
-            correctionAdd("overwritten___", "overwrite the bootloader on the AVR ATmega32U4___");
-            correctionAdd("overwrite___", "overwrite the bootloader on the AVR ATmega32U4___");
 
             // Database-related
             correctionAdd("time travel___", "Snowflake Time Travel___");
@@ -181982,18 +182057,6 @@ namespace OverflowHelper.core
             correctionAdd("apple chip___", "Apple silicon___");
             correctionAdd("Silicon___", "Apple silicon___");
             correctionAdd("silicon___", "Apple silicon___");
-
-            // User interfaces and other systems
-            //
-            // Alternative URLs:
-            //
-            //   <https://medium.com/interaction-reimagined/dangers-of-modal-user-interfaces-316828de8161>
-            //
-            //   <https://pordesign1999.wordpress.com/2019/04/26/modes-in-user-interfaces-when-they-help-and-when-they-hurt-users/>
-            //
-            correctionAdd("Modes are evil___", "modes are evil___");
-            correctionAdd("modes are bad___", "modes are evil___");
-            correctionAdd("mode___", "modes are evil___");
 
             // A text editor
             correctionAdd("Text Editing and Authoring___", "TEA___");
@@ -182092,37 +182155,11 @@ namespace OverflowHelper.core
             correctionAdd("log___", "logarithm___");
             correctionAdd("lg___", "logarithm___");
 
-            correctionAdd("Keychron two-hour deep sleep___", "Keychron keyboards' two-hour deep sleep___");
-            correctionAdd("two-hour deep sleep___", "Keychron keyboards' two-hour deep sleep___");
-            correctionAdd("RGB light sleep___", "Keychron keyboards' two-hour deep sleep___");
-            correctionAdd("7200 seconds___", "Keychron keyboards' two-hour deep sleep___");
-            correctionAdd("deep sleep___", "Keychron keyboards' two-hour deep sleep___");
-            correctionAdd("RGB sleep___", "Keychron keyboards' two-hour deep sleep___");
-            correctionAdd("two hours___", "Keychron keyboards' two-hour deep sleep___");
-            correctionAdd("two hour___", "Keychron keyboards' two-hour deep sleep___");
-            correctionAdd("2 hours___", "Keychron keyboards' two-hour deep sleep___");
-            correctionAdd("sleep___", "Keychron keyboards' two-hour deep sleep___");
-            correctionAdd("7200___", "Keychron keyboards' two-hour deep sleep___");
-
             correctionAdd("Li-Po battery___", "lithium polymer battery___");
             correctionAdd("lipo batter___", "lithium polymer battery___");
             correctionAdd("lithium___", "lithium polymer battery___"); // For the cross-reference
             correctionAdd("Li-ion___", "lithium polymer battery___"); // For the cross-reference
             correctionAdd("LiPo___", "lithium polymer battery___");
-
-            // Alternative URLs:
-            //
-            //   See entry "Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)",
-            //   e.g., the Keychron support article and the July 2024
-            //   Keychron acknowledgment.
-            //
-            correctionAdd("Keychron 2024 design and production quality issues with keychattering and missed keystrokes (1xx instances and counting)___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
-            correctionAdd("it isn't the switches, damn it!___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___"); // For the cross-reference
-            correctionAdd("number 9 on the checklist___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
-            correctionAdd("Keychron acknowledged___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
-            correctionAdd("the gasket problem___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
-            correctionAdd("gasket problem___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
-            correctionAdd("#9___", "number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___");
 
             // Electronics
             correctionAdd("through-hole___", "through-hole construction___");
@@ -182343,8 +182380,6 @@ namespace OverflowHelper.core
 
             URL_Add("Midnight Commander___", "https://en.wikipedia.org/wiki/Midnight_Commander");
 
-            URL_Add("&nbsp;mo___", "https://en.wikipedia.org/wiki/Month");
-
             URL_Add("&nbsp;hrs___", "https://en.wiktionary.org/wiki/hour#Noun");
 
             URL_Add("&nbsp;mins___", "https://en.wiktionary.org/wiki/mins#Noun");
@@ -182517,8 +182552,6 @@ namespace OverflowHelper.core
 
             URL_Add("devicetree___", "https://en.wikipedia.org/wiki/Devicetree");
 
-            URL_Add("modes are evil___", "https://en.wikipedia.org/wiki/Mode_(user_interface)#Mode_errors");
-
             URL_Add("TEA___", "https://en.wikipedia.org/wiki/TEA_(text_editor)");
 
             URL_Add("go___", "https://en.wiktionary.org/wiki/go#Verb");
@@ -182671,11 +182704,11 @@ namespace OverflowHelper.core
 
             URL_Add("Mathematics (Stack Exchange site)___", "https://math.stackexchange.com/tour");
 
-            URL_Add("Literature (Stack Exchange site)___", "https://literature.stackexchange.com/tour");
-
             URL_Add("Cryptography (Stack Exchange site)___", "https://crypto.stackexchange.com/tour");
 
             URL_Add("Raspberry&nbsp;Pi (Stack Exchange site)___", "https://raspberrypi.stackexchange.com/tour");
+
+            URL_Add("Literature (Stack Exchange site)___", "https://literature.stackexchange.com/tour");
 
             URL_Add("sort___", "https://en.wiktionary.org/wiki/sort#Verb");
 
@@ -182745,15 +182778,7 @@ namespace OverflowHelper.core
 
             URL_Add("stored procedures___", "https://en.wikipedia.org/wiki/Stored_procedure");
 
-            URL_Add("number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/n52qr9o/");
-
-            URL_Add("Via blues___", "https://www.reddit.com/r/Keychron/comments/1g76o1e/comment/lsp51pj/");
-
-            URL_Add("hard flashing___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lby5g3e/");
-
-            URL_Add("Git branch \"wls_2025q1\" in Keychron's fork___", "https://github.com/Keychron/qmk_firmware/tree/wls_2025q1/keyboards/keychron/k10_version_2");
-
-            URL_Add("SRGBmods (Vial)___", "https://github.com/SRGBmods/QMK-Binaries/tree/main/QMK%2BVIA%2BVial-Firmware/10_12_25");
+            URL_Add("multiples___", "https://en.wiktionary.org/wiki/multiple#Noun");
 
             URL_Add("Hall effect switches___", "https://www.tomshardware.com/news/how-hall-effect-switches-work,33105.html");
 
@@ -182807,7 +182832,21 @@ namespace OverflowHelper.core
 
             URL_Add("Lemokey X series___", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
 
-            URL_Add("multiples___", "https://en.wiktionary.org/wiki/multiple#Noun");
+            URL_Add("modes are evil___", "https://en.wikipedia.org/wiki/Mode_(user_interface)#Mode_errors");
+
+            URL_Add("number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/n52qr9o/");
+
+            URL_Add("Via blues___", "https://www.reddit.com/r/Keychron/comments/1g76o1e/comment/lsp51pj/");
+
+            URL_Add("hard flashing___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lby5g3e/");
+
+            URL_Add("Git branch \"wls_2025q1\" in Keychron's fork___", "https://github.com/Keychron/qmk_firmware/tree/wls_2025q1/keyboards/keychron/k10_version_2");
+
+            URL_Add("SRGBmods (Vial)___", "https://github.com/SRGBmods/QMK-Binaries/tree/main/QMK%2BVIA%2BVial-Firmware/10_12_25");
+
+            URL_Add("&nbsp;mo___", "https://en.wikipedia.org/wiki/Month");
+
+            URL_Add("Sonix___", "https://www.sonix.com.tw/article-en-915-10794");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -182823,6 +182862,75 @@ namespace OverflowHelper.core
         {
             // Note: Due to a glitch in a checking Perl script, there should
             //       be an empty line before the first block...
+
+            correctionAdd("moth____", "mode____");
+            correctionAdd("more____", "mode____");
+            correctionAdd("mod____", "mode____"); // Probably a true typo (missing input)
+
+            // Note:
+            //
+            //   Includes a warning about bricking the Bluetooth module
+            //   in Keychron keyboards.
+            //
+            correctionAdd("Keychron Via clone (AKA Keychron Launcher) bug bricking the Bluetooth module by flashing completely wrong firmware____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference (Bluetooth firmware bricking part)
+            correctionAdd("par for the course is resetting to factory defaults and reflashing the firmware____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
+            correctionAdd("Par for the course is resetting to factory defaults and reflashing the firmware____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
+            correctionAdd("It is highly recommended to reset to factory defaults right after the flash____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference
+            correctionAdd("Esc key method to reset to factory defaults on QMK keyboards____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference
+            correctionAdd("Weird things are known to happen____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
+            correctionAdd("weird things are known to happen____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
+            correctionAdd("par for the course____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
+            correctionAdd("Par for the course____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
+            correctionAdd("not a guarantee____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference (Bluetooth firmware bricking part)
+            correctionAdd("bootloader mode____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference
+            correctionAdd("hard flashing____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference
+            correctionAdd("flash memory____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference
+            correctionAdd("don't brick____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
+            correctionAdd("some risk____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference (Bluetooth firmware bricking part)
+            correctionAdd("Bluetooth____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference (Bluetooth firmware bricking part)
+            correctionAdd("bricking____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference (Bluetooth firmware bricking part)
+            correctionAdd("course____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
+            correctionAdd("brick____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference (Bluetooth firmware bricking part)
+
+            // In Keychron's main fork of QMK, with the wired-only
+            // keyboard models (eventually to be included
+            // in the main QMK project)
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1nbzunx/comment/nd92jlf/>
+            //
+            correctionAdd("Git branch \"wireless_playground\" in Keychron's fork____", "Git branch \"playground\" in Keychron's fork____"); // For the cross-reference
+            correctionAdd("wireless_playground____", "Git branch \"playground\" in Keychron's fork____"); // For the cross-reference
+            correctionAdd("Playground____", "Git branch \"playground\" in Keychron's fork____");
+            correctionAdd("playground____", "Git branch \"playground\" in Keychron's fork____");
+
+            correctionAdd("Git branch \"2025q3\" in Keychron's fork____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
+            correctionAdd("Keychron K10 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
+            correctionAdd("Keychron K2 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
+            correctionAdd("Keychron Q3 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
+            correctionAdd("Keychron Q6 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
+            correctionAdd("hall_effect_playground____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
+            correctionAdd("hall_playground____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // The gross name used by SRGBmods
+            correctionAdd("Hall sensor____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
+
+            // Alternative URLs:
+            //
+            //   <https://github.com/qmk/qmk_firmware/pull/24322>
+            //
+            correctionAdd("those have been wiped out____", "disabled Via by default____");
+            correctionAdd("disabled Via____", "disabled Via by default____");
+            correctionAdd("Via____", "disabled Via by default____");
+
+            correctionAdd("polycarbonate____", "PC____"); // The reverse, but mostly for the alternative URL
+            correctionAdd("plastic____", "PC____"); // For the cross-reference
+
+            // Microsoft (a code name for a product.
+            // It is probably going to be renamed)
+            //
+            correctionAdd("multi-model agentic scanning harness____", "MDASH____");
+            correctionAdd("em dash____", "MDASH____"); // For the cross-reference
+            correctionAdd("EmDash____", "MDASH____"); // For the cross-reference
 
             // QMK
             //
@@ -183414,13 +183522,6 @@ namespace OverflowHelper.core
             correctionAdd("forward-slashes____", "forward slashes____");
             correctionAdd("forward slash____", "forward slashes____"); // For the cross-reference
 
-            // Microsoft (a code name for a product.
-            // It is probably going to be renamed)
-            //
-            correctionAdd("multi-model agentic scanning harness____", "MDASH____");
-            correctionAdd("em dash____", "MDASH____"); // For the cross-reference
-            correctionAdd("EmDash____", "MDASH____"); // For the cross-reference
-
             // In 'The Hitchhiker's Guide to the Galaxy'.
             correctionAdd("rock throwing business____", "circling poets throw rocks at them____");
             correctionAdd("business____", "circling poets throw rocks at them____");
@@ -183508,64 +183609,6 @@ namespace OverflowHelper.core
             correctionAdd("macro____", "macronutrient____");
 
             correctionAdd("QMK____", "QMK commits____");
-
-            // In Keychron's main fork of QMK, with the wired-only
-            // keyboard models (eventually to be included
-            // in the main QMK project)
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1nbzunx/comment/nd92jlf/>
-            //
-            correctionAdd("Git branch \"wireless_playground\" in Keychron's fork____", "Git branch \"playground\" in Keychron's fork____"); // For the cross-reference
-            correctionAdd("wireless_playground____", "Git branch \"playground\" in Keychron's fork____"); // For the cross-reference
-            correctionAdd("Playground____", "Git branch \"playground\" in Keychron's fork____");
-            correctionAdd("playground____", "Git branch \"playground\" in Keychron's fork____");
-
-            correctionAdd("Git branch \"2025q3\" in Keychron's fork____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
-            correctionAdd("Keychron K10 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
-            correctionAdd("Keychron K2 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
-            correctionAdd("Keychron Q3 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
-            correctionAdd("Keychron Q6 HE source code____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
-            correctionAdd("hall_effect_playground____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // For the cross-reference
-            correctionAdd("hall_playground____", "Git branch \"hall_effect_playground\" in Keychron's fork____"); // The gross name used by SRGBmods
-            correctionAdd("Hall sensor____", "Git branch \"hall_effect_playground\" in Keychron's fork____");
-
-            // Note:
-            //
-            //   Includes a warning about bricking the Bluetooth module
-            //   in Keychron keyboards.
-            //
-            correctionAdd("Keychron Via clone (AKA Keychron Launcher) bug bricking the Bluetooth module by flashing completely wrong firmware____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference (Bluetooth firmware bricking part)
-            correctionAdd("par for the course is resetting to factory defaults and reflashing the firmware____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
-            correctionAdd("Par for the course is resetting to factory defaults and reflashing the firmware____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
-            correctionAdd("It is highly recommended to reset to factory defaults right after the flash____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference
-            correctionAdd("Esc key method to reset to factory defaults on QMK keyboards____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference
-            correctionAdd("Weird things are known to happen____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
-            correctionAdd("weird things are known to happen____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
-            correctionAdd("par for the course____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
-            correctionAdd("Par for the course____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
-            correctionAdd("not a guarantee____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference (Bluetooth firmware bricking part)
-            correctionAdd("bootloader mode____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference
-            correctionAdd("hard flashing____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference
-            correctionAdd("flash memory____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference
-            correctionAdd("don't brick____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
-            correctionAdd("some risk____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference (Bluetooth firmware bricking part)
-            correctionAdd("Bluetooth____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference (Bluetooth firmware bricking part)
-            correctionAdd("bricking____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference (Bluetooth firmware bricking part)
-            correctionAdd("course____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____");
-            correctionAdd("brick____", "par for the course is resetting to factory defaults and reflashing the keyboard firmware____"); // For the cross-reference (Bluetooth firmware bricking part)
-
-            // Alternative URLs:
-            //
-            //   <https://github.com/qmk/qmk_firmware/pull/24322>
-            //
-            correctionAdd("those have been wiped out____", "disabled Via by default____");
-            correctionAdd("disabled Via____", "disabled Via by default____");
-            correctionAdd("Via____", "disabled Via by default____");
-
-            correctionAdd("polycarbonate____", "PC____"); // The reverse, but mostly for the alternative URL
-            correctionAdd("plastic____", "PC____"); // For the cross-reference
 
             correctionAdd("MS____", "mass spectrometry____");
 
@@ -185120,8 +185163,6 @@ namespace OverflowHelper.core
 
             URL_Add("canary____", "https://en.wiktionary.org/wiki/canary#Noun");
 
-            URL_Add("room owner____", "https://meta.stackexchange.com/questions/271267/a-guide-to-moderating-chat/271269#271269");
-
             URL_Add("full stop____", "https://en.wiktionary.org/wiki/full_stop#Noun");
 
             URL_Add("alternate____", "https://en.wiktionary.org/wiki/alternate#Adjective");
@@ -185197,8 +185238,6 @@ namespace OverflowHelper.core
             URL_Add("devise____", "https://en.wiktionary.org/wiki/devise#Verb");
 
             URL_Add("diff____", "https://en.wikipedia.org/wiki/Diff");
-
-            URL_Add("group buy____", "https://en.wikipedia.org/wiki/Group_buying#Business_model");
 
             URL_Add("ANSI____", "https://en.wikipedia.org/wiki/ANSI_character_set");
 
@@ -185285,8 +185324,6 @@ namespace OverflowHelper.core
             URL_Add("root____", "https://en.wiktionary.org/wiki/root#Noun");
 
             URL_Add("forward slashes____", "https://en.wikipedia.org/wiki/Slash_(punctuation)");
-
-            URL_Add("MDASH____", "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/");
 
             URL_Add("CVS____", "https://en.wikipedia.org/wiki/Concurrent_Versions_System");
 
@@ -185397,6 +185434,14 @@ namespace OverflowHelper.core
             URL_Add("anti-cheat____", "https://en.wikipedia.org/wiki/Cheating_in_online_games#Anti-cheating_methods_and_limitations"); // Old: <https://en.wikipedia.org/wiki/Cheating_in_online_games>. Even older: <https://en.wikipedia.org/wiki/Anti-cheat_software>
 
             URL_Add("the____", "https://en.wiktionary.org/wiki/the#Article");
+
+            URL_Add("room owner____", "https://meta.stackexchange.com/questions/271267/a-guide-to-moderating-chat/271269#271269");
+
+            URL_Add("group buy____", "https://en.wikipedia.org/wiki/Group_buying#Business_model");
+
+            URL_Add("MDASH____", "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/");
+
+            URL_Add("mode____", "https://en.wiktionary.org/wiki/mode#Noun");
 
         } //addLookupData_alternativeWordSet4()
 
@@ -185869,7 +185914,7 @@ namespace OverflowHelper.core
             correctionAdd("ti_____", "it_____");
             correctionAdd("iy_____", "it_____");
             correctionAdd("IF_____", "it_____"); // Should really be "if", but there is a conflict, so we use this indirection for now (but it means we can't do a direct lookup)
-            correctionAdd("ik_____", "it_____"); // Possibly multiple typos (incl. missing)
+            correctionAdd("ik_____", "it_____"); // Possibly multiple typos (incl. missing input)
             correctionAdd("It_____", "it_____");
             correctionAdd("i_____", "it_____");
             correctionAdd("I_____", "it_____");
@@ -186725,10 +186770,6 @@ namespace OverflowHelper.core
 
             URL_Add("Space&nbsp;Exploration (Stack Exchange site)_____", "https://space.stackexchange.com/tour");
 
-            URL_Add("fast mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
-
-            URL_Add("high-speed mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
-
             URL_Add("flux capacitor_____", "https://en.wikipedia.org/wiki/DeLorean_time_machine#Flux_capacitor"); // Old: https://en.wikipedia.org/wiki/DeLorean_time_machine
 
             URL_Add("non-US backslash key_____", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md#basic-keycodes-basic-keycodes");
@@ -186752,6 +186793,10 @@ namespace OverflowHelper.core
             URL_Add("Keychron 2024 Hall effect (HE) keyboard quality issues with self-repeating keys (1xx instances and counting)_____", "https://www.reddit.com/r/Keychron/comments/1geok1p/defective_key_on_k2_he/");
 
             URL_Add("K10 V2 with overlubricated switches_____", "https://www.reddit.com/r/Keychron/comments/1n9l1m0/comment/ncptj9i/");
+
+            URL_Add("fast mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
+
+            URL_Add("high-speed mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
@@ -187411,10 +187456,6 @@ namespace OverflowHelper.core
 
             URL_Add("to______", "https://en.wiktionary.org/wiki/to#Particle");
 
-            URL_Add("&nbsp;w______", "https://en.wikipedia.org/wiki/Week");
-
-            URL_Add("&nbsp;inch______", "https://en.wiktionary.org/wiki/inch#Noun");
-
             URL_Add("via______", "https://en.wiktionary.org/wiki/via#Preposition");
 
             URL_Add("larger than______", "https://en.wiktionary.org/wiki/larger_than_life#Adjective");
@@ -187431,8 +187472,6 @@ namespace OverflowHelper.core
 
             URL_Add("PostScript______", "https://en.wikipedia.org/wiki/PostScript");
 
-            URL_Add("south______", "https://en.wiktionary.org/wiki/south#Noun");
-
             URL_Add("man -s 3 intro______", "https://linux.die.net/man/3/intro");
 
             URL_Add("Internet&nbsp;Explorer&nbsp;8______", "https://en.wikipedia.org/wiki/Internet_Explorer_8");
@@ -187440,8 +187479,6 @@ namespace OverflowHelper.core
             URL_Add("Internet&nbsp;Explorer&nbsp;11______", "https://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_11");
 
             URL_Add("Idaho, United States______", "https://en.wikipedia.org/wiki/Idaho");
-
-            URL_Add("\\______", "https://en.wikipedia.org/wiki/Backslash");
 
             URL_Add("key bindings______", "https://en.wiktionary.org/wiki/key_binding#Noun");
 
@@ -187459,8 +187496,6 @@ namespace OverflowHelper.core
 
             URL_Add("windowing______", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
 
-            URL_Add("40&nbsp;°F______", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
-
             URL_Add("Vitaly______", "https://www.reddit.com/r/olkb/comments/1p75lee/comment/nrdobv3/"); // Old: <https://www.reddit.com/r/olkb/comments/1p75lee/comment/nr6hilt/>
 
             URL_Add("severe NKRO problems for the Keychron B Pro series______", "https://www.reddit.com/r/Keychron/comments/1j77m44/comment/mgv3t8j/");
@@ -187474,6 +187509,16 @@ namespace OverflowHelper.core
             URL_Add("than______", "https://en.wiktionary.org/wiki/than#Conjunction");
 
             URL_Add("be______", "https://en.wiktionary.org/wiki/be#Verb");
+
+            URL_Add("\\______", "https://en.wikipedia.org/wiki/Backslash");
+
+            URL_Add("south______", "https://en.wiktionary.org/wiki/south#Noun");
+
+            URL_Add("&nbsp;w______", "https://en.wikipedia.org/wiki/Week");
+
+            URL_Add("&nbsp;inch______", "https://en.wiktionary.org/wiki/inch#Noun");
+
+            URL_Add("40&nbsp;°F______", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
         } //addLookupData_alternativeWordSet6()
 
