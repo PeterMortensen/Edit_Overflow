@@ -3001,6 +3001,44 @@ namespace OverflowHelper.core
             correctionAdd("Non", "none");
             correctionAdd("one", "none");
 
+            correctionAdd("ruiles", "rule");
+            correctionAdd("Rule", "rule");
+
+            correctionAdd("rulles", "rules");
+            correctionAdd("ruels", "rules");
+
+            correctionAdd("rule sets", "rulesets");
+
+            correctionAdd("ruled-out", "ruled out");
+
+            correctionAdd("rule based", "rule-based");
+
+            correctionAdd("rule of thumbs", "rule of thumb");
+            correctionAdd("rule-of-thumb", "rule of thumb");
+
+            correctionAdd("rules of thumbs", "rules of thumb");
+
+            correctionAdd("the principle of four-eyes", "two-man rule");
+            correctionAdd("the four eyes principle", "two-man rule");
+
+            correctionAdd("zero-one-several principle", "zero one infinity rule");
+
+            correctionAdd("fajans' rules", "Fajans' rules");
+
+            correctionAdd("thuimbnail", "thumbnail");
+            correctionAdd("thumb nail", "thumbnail");
+            correctionAdd("thumbnale", "thumbnail");
+            correctionAdd("Thumbnale", "thumbnail");
+            correctionAdd("Thumnail", "thumbnail");
+            correctionAdd("thumnail", "thumbnail");
+
+            correctionAdd("thums up", "thumbs up");
+            correctionAdd("tumbs up", "thumbs up");
+            correctionAdd("ThumsUp", "thumbs up");
+            correctionAdd("thumsup", "thumbs up");
+
+            correctionAdd("nail scissor", "nail clipper");
+
             // The numeral
             correctionAdd("zeero", "zero");
             correctionAdd("0", "zero");
@@ -3010,8 +3048,6 @@ namespace OverflowHelper.core
             correctionAdd("zeroes", "zeros");
 
             correctionAdd("zero-ing", "zeroing");
-
-            correctionAdd("zero-one-several principle", "zero one infinity rule");
 
             correctionAdd("none-zero", "nonzero");
             correctionAdd("non-zero", "nonzero");
@@ -7346,25 +7382,22 @@ namespace OverflowHelper.core
             correctionAdd("Fedora Linux 22", "Fedora 22");
 
             // Released 2021-04-27
-            correctionAdd("Fedora Linux 34", "Fedora&nbsp;34");
-            correctionAdd("Fedora 34", "Fedora&nbsp;34"); // Sort of identity mapping
+            correctionAdd("Fedora Linux 34", "Fedora 34");
 
-            correctionAdd("Fedora Linux 36", "Fedora&nbsp;36");
-            correctionAdd("Fedora 36", "Fedora&nbsp;36"); // Sort of identity mapping
+            correctionAdd("Fedora Linux 36", "Fedora 36");
 
-            correctionAdd("Fedora Linux 37", "Fedora&nbsp;37");
-            correctionAdd("Fedora 37", "Fedora&nbsp;37"); // Sort of identity mapping
+            correctionAdd("Fedora Linux 37", "Fedora 37");
 
             // 2024-11
+            //
             // "FC" for "Fedora Core"?
             //
             // Alternative URLs:
             //
             //   <https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_41>
             //
-            correctionAdd("Fedora 41", "Fedora&nbsp;41"); // Sort of identity mapping
-            correctionAdd("FC 41", "Fedora&nbsp;41"); // FC for "Fedora Core"?
-            correctionAdd("F41", "Fedora&nbsp;41");
+            correctionAdd("FC 41", "Fedora 41"); // FC for "Fedora Core"?
+            correctionAdd("F41", "Fedora 41");
 
             // Fedora
             correctionAdd("Silver Blue", "Silverblue");
@@ -7685,88 +7718,75 @@ namespace OverflowHelper.core
             correctionAdd("DFSG", "Debian Free Software Guidelines");
 
             // Linux
-            correctionAdd("Debian 4.0 (Etch)", "Debian&nbsp;4.0 (Etch)"); // Sort of identity mapping
-            correctionAdd("Debian Etch", "Debian&nbsp;4.0 (Etch)");
-            correctionAdd("debian etch", "Debian&nbsp;4.0 (Etch)");
-            correctionAdd("Etch", "Debian&nbsp;4.0 (Etch)");
+            correctionAdd("Debian Etch", "Debian 4.0 (Etch)");
+            correctionAdd("debian etch", "Debian 4.0 (Etch)");
+            correctionAdd("Etch", "Debian 4.0 (Etch)");
 
             // Linux
-            correctionAdd("Debian 5.0 (Lenny)", "Debian&nbsp;5.0 (Lenny)"); // Sort of identity mapping
-            correctionAdd("debian lenny", "Debian&nbsp;5.0 (Lenny)");
-            correctionAdd("Debian 5.0", "Debian&nbsp;5.0 (Lenny)");
-            correctionAdd("lenny", "Debian&nbsp;5.0 (Lenny)");
-            correctionAdd("Lenny", "Debian&nbsp;5.0 (Lenny)");
+            correctionAdd("debian lenny", "Debian 5.0 (Lenny)");
+            correctionAdd("Debian 5.0", "Debian 5.0 (Lenny)");
+            correctionAdd("lenny", "Debian 5.0 (Lenny)");
+            correctionAdd("Lenny", "Debian 5.0 (Lenny)");
 
             // Linux
-            correctionAdd("Debian 6.0 (Squeeze)", "Debian&nbsp;6.0 (Squeeze)"); // Sort of identity mapping
-            correctionAdd("Debian&nbsp;6.0", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian Squeeze", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("debian squeeze", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian squeeze", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian 6.0", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Debian 6", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("debian 6", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("Squeeze", "Debian&nbsp;6.0 (Squeeze)");
-            correctionAdd("squeeze", "Debian&nbsp;6.0 (Squeeze)");
+            correctionAdd("Debian Squeeze", "Debian 6.0 (Squeeze)");
+            correctionAdd("debian squeeze", "Debian 6.0 (Squeeze)");
+            correctionAdd("Debian squeeze", "Debian 6.0 (Squeeze)");
+            correctionAdd("Debian 6.0", "Debian 6.0 (Squeeze)");
+            correctionAdd("Debian 6", "Debian 6.0 (Squeeze)");
+            correctionAdd("debian 6", "Debian 6.0 (Squeeze)");
+            correctionAdd("Squeeze", "Debian 6.0 (Squeeze)");
+            correctionAdd("squeeze", "Debian 6.0 (Squeeze)");
 
             // Linux
-            correctionAdd("Debian 7 (Wheezy)", "Debian&nbsp;7 (Wheezy)"); // Sort of identity mapping
-            correctionAdd("Debian Wheezy", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("debian wheezy", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Debian&nbsp;7", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Debian wheezy", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Debian 7", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("debian 7", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("wheezy", "Debian&nbsp;7 (Wheezy)");
-            correctionAdd("Wheezy", "Debian&nbsp;7 (Wheezy)");
+            correctionAdd("Debian Wheezy", "Debian 7 (Wheezy)");
+            correctionAdd("debian wheezy", "Debian 7 (Wheezy)");
+            correctionAdd("Debian wheezy", "Debian 7 (Wheezy)");
+            correctionAdd("Debian 7", "Debian 7 (Wheezy)");
+            correctionAdd("debian 7", "Debian 7 (Wheezy)");
+            correctionAdd("wheezy", "Debian 7 (Wheezy)");
+            correctionAdd("Wheezy", "Debian 7 (Wheezy)");
 
             // Linux
-            correctionAdd("Debian 9 (Stretch)", "Debian&nbsp;9 (Stretch)"); // Sort of identity mapping
-            correctionAdd("Debian Stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("debian stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("Debian stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("debian 9", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("Debian 9", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("Stretch", "Debian&nbsp;9 (Stretch)");
-            correctionAdd("stretch", "Debian&nbsp;9 (Stretch)");
+            correctionAdd("Debian Stretch", "Debian 9 (Stretch)");
+            correctionAdd("debian stretch", "Debian 9 (Stretch)");
+            correctionAdd("Debian stretch", "Debian 9 (Stretch)");
+            correctionAdd("debian 9", "Debian 9 (Stretch)");
+            correctionAdd("Debian 9", "Debian 9 (Stretch)");
+            correctionAdd("Stretch", "Debian 9 (Stretch)");
+            correctionAdd("stretch", "Debian 9 (Stretch)");
 
             // Linux
-            correctionAdd("Debian 10 \"Buster\"", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10 (Buster)", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10 Buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10 buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian&nbsp;10", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian Buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("debian buster", "Debian&nbsp;10 (Buster)");
-            correctionAdd("Debian 10", "Debian&nbsp;10 (Buster)");
-            correctionAdd("debian 10", "Debian&nbsp;10 (Buster)");
-            correctionAdd("buster", "Debian&nbsp;10 (Buster)");
+            correctionAdd("Debian 10 \"Buster\"", "Debian 10 (Buster)");
+            correctionAdd("Debian 10 Buster", "Debian 10 (Buster)");
+            correctionAdd("Debian 10 buster", "Debian 10 (Buster)");
+            correctionAdd("Debian Buster", "Debian 10 (Buster)");
+            correctionAdd("Debian buster", "Debian 10 (Buster)");
+            correctionAdd("debian buster", "Debian 10 (Buster)");
+            correctionAdd("Debian 10", "Debian 10 (Buster)");
+            correctionAdd("debian 10", "Debian 10 (Buster)");
+            correctionAdd("buster", "Debian 10 (Buster)");
 
             // Linux
-            correctionAdd("Debian 11 (Bullseye)", "Debian&nbsp;11 (Bullseye)"); // Sort of identity mapping
-            correctionAdd("Debian Bullseye", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("debian bullseye", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("Debian&nbsp;11", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("Debian 11", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("debian 11", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("bullseye", "Debian&nbsp;11 (Bullseye)");
-            correctionAdd("Bullseye", "Debian&nbsp;11 (Bullseye)");
+            correctionAdd("Debian Bullseye", "Debian 11 (Bullseye)");
+            correctionAdd("debian bullseye", "Debian 11 (Bullseye)");
+            correctionAdd("Debian 11", "Debian 11 (Bullseye)");
+            correctionAdd("debian 11", "Debian 11 (Bullseye)");
+            correctionAdd("bullseye", "Debian 11 (Bullseye)");
+            correctionAdd("Bullseye", "Debian 11 (Bullseye)");
 
             // Linux
-            correctionAdd("Debian 12 (Bookworm)", "Debian&nbsp;12 (Bookworm)"); // Sort of identity mapping
-            correctionAdd("Debian Bookworm", "Debian&nbsp;12 (Bookworm)");
-            correctionAdd("debian bookwork", "Debian&nbsp;12 (Bookworm)");
-            correctionAdd("debian bookworm", "Debian&nbsp;12 (Bookworm)");
-            correctionAdd("Debian bookworm", "Debian&nbsp;12 (Bookworm)");
-            correctionAdd("Debian 12", "Debian&nbsp;12 (Bookworm)");
-            correctionAdd("Bookworm", "Debian&nbsp;12 (Bookworm)");
-            correctionAdd("bookworm", "Debian&nbsp;12 (Bookworm)");
+            correctionAdd("Debian Bookworm", "Debian 12 (Bookworm)");
+            correctionAdd("debian bookwork", "Debian 12 (Bookworm)");
+            correctionAdd("debian bookworm", "Debian 12 (Bookworm)");
+            correctionAdd("Debian bookworm", "Debian 12 (Bookworm)");
+            correctionAdd("Debian 12", "Debian 12 (Bookworm)");
+            correctionAdd("Bookworm", "Debian 12 (Bookworm)");
+            correctionAdd("bookworm", "Debian 12 (Bookworm)");
 
             // Note: "Debian 13 (Trixie)" is in an alternative word set
-            correctionAdd("Debian 14 (Forky)", "Debian&nbsp;14 (Forky)"); // Sort of identity mapping
-            correctionAdd("Debian 14", "Debian&nbsp;14 (Forky)");
-            correctionAdd("Forky", "Debian&nbsp;14 (Forky)");
+            correctionAdd("Debian 14", "Debian 14 (Forky)");
+            correctionAdd("Forky", "Debian 14 (Forky)");
 
             // Based on Ubuntu 12.04 LTS
             //
@@ -7794,7 +7814,7 @@ namespace OverflowHelper.core
             //
             //   <https://en.linuxadictos.com/linux-mint-is-now-focused-on-the-development-of-lmde-6.html>
             //
-            //   See entry "LMDE&nbsp;6 (Faye)__" for more.
+            //   See entry "LMDE 6 (Faye)__" for more.
             //
             correctionAdd("Linux Mint DE", "Linux Mint Debian Edition");
             correctionAdd("LDME", "Linux Mint Debian Edition");
@@ -10696,6 +10716,7 @@ namespace OverflowHelper.core
             correctionAdd("painstaikingly", "painstakingly");
             correctionAdd("painstangly", "painstakingly");
 
+            correctionAdd("pain in the tail", "PITA");
             correctionAdd("PAIN IN THE A**", "PITA");
             correctionAdd("pain in the a**", "PITA");
             correctionAdd("PAIN IN THE A", "PITA");
@@ -18322,6 +18343,7 @@ namespace OverflowHelper.core
             correctionAdd("foud", "found");
             correctionAdd("fund", "found");
 
+            correctionAdd("find-out", "find out");
             correctionAdd("findout", "find out");
             correctionAdd("fid out", "find out");
 
@@ -32484,6 +32506,10 @@ namespace OverflowHelper.core
 
             correctionAdd("allseeing", "all-seeing");
 
+            correctionAdd("by date", "to date");
+
+            correctionAdd("in a later date", "at a later date");
+
             correctionAdd("Laye", "late");
             correctionAdd("laye", "late"); // A true typo
 
@@ -32498,8 +32524,6 @@ namespace OverflowHelper.core
             correctionAdd("Latest", "latest");
             correctionAdd("lastes", "latest");
             correctionAdd("lates", "latest");
-
-            correctionAdd("in a later date", "at a later date");
 
             correctionAdd("late-comer", "latecomer");
 
@@ -33135,8 +33159,6 @@ namespace OverflowHelper.core
             correctionAdd("chalenge", "challenge");
 
             correctionAdd("challanges", "challenges");
-
-            correctionAdd("rule based", "rule-based");
 
             correctionAdd("idx", "index");
 
@@ -39203,6 +39225,7 @@ namespace OverflowHelper.core
             correctionAdd("acidental", "accidental");
 
             correctionAdd("accidentically", "accidentally");
+            correctionAdd("accididentally", "accidentally");
             correctionAdd("accendentally", "accidentally");
             correctionAdd("accindentally", "accidentally");
             correctionAdd("acccidentally", "accidentally");
@@ -64549,9 +64572,6 @@ namespace OverflowHelper.core
 
             correctionAdd("principially", "principally");
 
-            correctionAdd("the principle of four-eyes", "two-man rule");
-            correctionAdd("the four eyes principle", "two-man rule");
-
             correctionAdd("erease", "erase");
 
             correctionAdd("deleate", "delete");
@@ -78238,30 +78258,6 @@ namespace OverflowHelper.core
             correctionAdd("bitchute", "BitChute");
             correctionAdd("Bitchute", "BitChute");
 
-            correctionAdd("ruiles", "rule");
-            correctionAdd("Rule", "rule");
-
-            correctionAdd("rule sets", "rulesets");
-
-            correctionAdd("rule of thumbs", "rule of thumb");
-            correctionAdd("rule-of-thumb", "rule of thumb");
-
-            correctionAdd("rules of thumbs", "rules of thumb");
-
-            correctionAdd("thuimbnail", "thumbnail");
-            correctionAdd("thumb nail", "thumbnail");
-            correctionAdd("thumbnale", "thumbnail");
-            correctionAdd("Thumbnale", "thumbnail");
-            correctionAdd("Thumnail", "thumbnail");
-            correctionAdd("thumnail", "thumbnail");
-
-            correctionAdd("thums up", "thumbs up");
-            correctionAdd("tumbs up", "thumbs up");
-            correctionAdd("ThumsUp", "thumbs up");
-            correctionAdd("thumsup", "thumbs up");
-
-            correctionAdd("nail scissor", "nail clipper");
-
             correctionAdd("acccomplish", "accomplish");
             correctionAdd("accomplush", "accomplish");
             correctionAdd("acomplish", "accomplish");
@@ -83312,9 +83308,8 @@ namespace OverflowHelper.core
             correctionAdd("raspbi", "Raspbian");
 
             // Raspberry Pi
-            correctionAdd("Raspbian 10 (Buster)", "Raspbian&nbsp;10 (Buster)"); // Sort of identity mapping
-            correctionAdd("Buster", "Raspbian&nbsp;10 (Buster)"); // Note: Can be confused with "Debian&nbsp;10 (Buster)"
-            correctionAdd("raspbian buster", "Raspbian&nbsp;10 (Buster)");
+            correctionAdd("Buster", "Raspbian 10 (Buster)"); // Note: Can be confused with "Debian 10 (Buster)"
+            correctionAdd("raspbian buster", "Raspbian 10 (Buster)");
 
             // Raspberry Pi. Renamed from Raspbian
             // Formerly Raspbian
@@ -92953,6 +92948,7 @@ namespace OverflowHelper.core
             //       <https://www.reddit.com/r/Keychron/comments/1mr6x2p/comment/n8zzfzy/>
             //
             correctionAdd("KEYCHRON K4 HE", "Keychron K4 HE");
+            correctionAdd("K4HE V1", "Keychron K4 HE");
             correctionAdd("K4 HE", "Keychron K4 HE");
             correctionAdd("k4 he", "Keychron K4 HE");
             correctionAdd("HE K4", "Keychron K4 HE");
@@ -106126,9 +106122,6 @@ namespace OverflowHelper.core
 
             correctionAdd("sprincle", "sprinkle");
 
-            correctionAdd("rulles", "rules");
-            correctionAdd("ruels", "rules");
-
             correctionAdd("dolphin", "Dolphin");
 
             correctionAdd("slax", "Slax");
@@ -106479,8 +106472,6 @@ namespace OverflowHelper.core
 
             correctionAdd("FCRON", "fcron");
 
-            correctionAdd("fajans' rules", "Fajans' rules");
-
             correctionAdd("Strapi CMS", "Strapi");
             correctionAdd("strapi", "Strapi");
 
@@ -106490,9 +106481,9 @@ namespace OverflowHelper.core
             correctionAdd("apoiler", "spoiler");
             correctionAdd("spoier", "spoiler");
 
+            correctionAdd("Circle CI", "CircleCI");
             correctionAdd("circleci", "CircleCI");
             correctionAdd("CircleCi", "CircleCI");
-            correctionAdd("Circle CI", "CircleCI");
 
             correctionAdd("cling", "Cling");
 
@@ -122783,6 +122774,8 @@ namespace OverflowHelper.core
 
             URL_Add("at a later date", "https://www.merriam-webster.com/dictionary/at%20a%20later/future%20date");
 
+            URL_Add("to date", "https://en.wiktionary.org/wiki/to_date#Prepositional_phrase");
+
             URL_Add("snake oil", "https://en.wiktionary.org/wiki/snake_oil#Noun");
 
             URL_Add("VMess", "https://guide.v2fly.org/en_US/");
@@ -134855,30 +134848,6 @@ namespace OverflowHelper.core
 
             URL_Add("Sonneborn–Berger score", "https://en.wikipedia.org/wiki/Sonneborn%E2%80%93Berger_score");
 
-            URL_Add("rule", "https://en.wiktionary.org/wiki/rule#Noun");
-
-            URL_Add("rule of three", "https://en.wikipedia.org/wiki/Rule_of_three_(C%2B%2B_programming)");
-
-            URL_Add("rules", "https://en.wiktionary.org/wiki/rule#Noun");
-
-            URL_Add("rulesets", "https://en.wiktionary.org/wiki/ruleset#Noun");
-
-            URL_Add("rule of thumb", "https://en.wiktionary.org/wiki/rule_of_thumb#Noun");
-
-            URL_Add("rules of thumb", "https://en.wiktionary.org/wiki/rule_of_thumb#Noun");
-
-            URL_Add("rule-based", "https://en.wiktionary.org/wiki/rule-based#Adjective");
-
-            URL_Add("chain rule", "https://en.wikipedia.org/wiki/Chain_rule");
-
-            URL_Add("trapezoidal rule", "https://en.wikipedia.org/wiki/Trapezoidal_rule");
-
-            URL_Add("zero one infinity rule", "https://en.wikipedia.org/wiki/Zero_one_infinity_rule");
-
-            URL_Add("two-man rule", "https://en.wikipedia.org/wiki/Two-man_rule");
-
-            URL_Add("Fajans' rules", "https://en.wikipedia.org/wiki/Fajans'_rules");
-
             URL_Add("Seaborn", "https://seaborn.pydata.org/");
 
             URL_Add("Robert's Rules of Order", "https://en.wikipedia.org/wiki/Robert%27s_Rules_of_Order");
@@ -135047,13 +135016,13 @@ namespace OverflowHelper.core
 
             URL_Add("Fedora 22", "https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_22");
 
-            URL_Add("Fedora&nbsp;34", "https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_34");
+            URL_Add("Fedora 34", "https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_34");
 
-            URL_Add("Fedora&nbsp;36", "https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_36");
+            URL_Add("Fedora 36", "https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_36");
 
-            URL_Add("Fedora&nbsp;37", "https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_37");
+            URL_Add("Fedora 37", "https://en.wikipedia.org/wiki/Fedora_Linux_release_history#Fedora_37");
 
-            URL_Add("Fedora&nbsp;41", "https://fedoraproject.org/spins/cinnamon/download/");
+            URL_Add("Fedora 41", "https://fedoraproject.org/spins/cinnamon/download/");
 
             URL_Add("fsadm", "https://www.man7.org/linux/man-pages/man8/fsadm.8.html");
 
@@ -145073,180 +145042,6 @@ namespace OverflowHelper.core
 
             URL_Add("Mikhail Tal", "https://en.wikipedia.org/wiki/Mikhail_Tal");
 
-            URL_Add("Margrethe II", "https://en.wikipedia.org/wiki/Margrethe_II"); // Old: https://en.wikipedia.org/wiki/Margrethe_II_of_Denmark
-
-            URL_Add("Winston Churchill", "https://en.wikipedia.org/wiki/Winston_Churchill");
-
-            URL_Add("Elizabeth II", "https://en.wikipedia.org/wiki/Elizabeth_II");
-
-            URL_Add("Rishi Sunak", "https://en.wikipedia.org/wiki/Rishi_Sunak");
-
-            URL_Add("David Cameron", "https://en.wikipedia.org/wiki/David_Cameron");
-
-            URL_Add("Julius Caesar", "https://en.wikipedia.org/wiki/Julius_Caesar");
-
-            URL_Add("James Gosling", "https://en.wikipedia.org/wiki/James_Gosling");
-
-            URL_Add("Jeff Bezos", "https://en.wikipedia.org/wiki/Jeff_Bezos");
-
-            URL_Add("Steve Jobs", "https://en.wikipedia.org/wiki/Steve_Jobs");
-
-            URL_Add("Steve Ballmer", "https://en.wikipedia.org/wiki/Steve_Ballmer");
-
-            URL_Add("Bill Gates", "https://en.wikipedia.org/wiki/Bill_Gates");
-
-            URL_Add("Greg Abbott", "https://en.wikipedia.org/wiki/Greg_Abbott");
-
-            URL_Add("Lex Fridman", "https://en.wikipedia.org/wiki/Lex_Fridman");
-
-            URL_Add("Elon Musk", "https://en.wikipedia.org/wiki/Elon_Musk");
-
-            URL_Add("Tucker Carlson", "https://en.wikipedia.org/wiki/Tucker_Carlson");
-
-            URL_Add("Saddam Hussein", "https://en.wikipedia.org/wiki/Saddam_Hussein");
-
-            URL_Add("Bashar al-Assad", "https://en.wikipedia.org/wiki/Bashar_al-Assad");
-
-            URL_Add("Mikhail Gorbachev", "https://en.wikipedia.org/wiki/Mikhail_Gorbachev");
-
-            URL_Add("Vladimir Putin", "https://en.wikipedia.org/wiki/Vladimir_Putin");
-
-            URL_Add("Gollum", "https://en.wikipedia.org/wiki/Gollum");
-
-            URL_Add("The Lord of the Rings", "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings");
-
-            URL_Add("J. R. R. Tolkien", "https://en.wikipedia.org/wiki/J._R._R._Tolkien");
-
-            URL_Add("dictator", "https://en.wiktionary.org/wiki/dictator#Noun");
-
-            URL_Add("Joseph Stalin", "https://en.wikipedia.org/wiki/Joseph_Stalin");
-
-            URL_Add("Alexander Lukashenko", "https://en.wikipedia.org/wiki/Alexander_Lukashenko");
-
-            URL_Add("Viktor Yanukovych", "https://en.wikipedia.org/wiki/Viktor_Yanukovych");
-
-            URL_Add("Volodymyr Zelenskyy", "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy");
-
-            URL_Add("Silvio Berlusconi", "https://en.wikipedia.org/wiki/Silvio_Berlusconi");
-
-            URL_Add("Karl Marx", "https://en.wikipedia.org/wiki/Karl_Marx");
-
-            URL_Add("Führer", "https://en.wikipedia.org/wiki/F%C3%BChrer");
-
-            URL_Add("Adolf Hitler", "https://en.wikipedia.org/wiki/Adolf_Hitler");
-
-            URL_Add("Göring", "https://en.wikipedia.org/wiki/Hermann_G%C3%B6ring");
-
-            URL_Add("Hannah Arendt", "https://en.wikipedia.org/wiki/Hannah_Arendt");
-
-            URL_Add("Muammar Gaddafi", "https://en.wikipedia.org/wiki/Muammar_Gaddafi");
-
-            URL_Add("Libyan", "https://en.wiktionary.org/wiki/Libyan#Adjective");
-
-            URL_Add("Nicolás Maduro", "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Maduro");
-
-            URL_Add("Dwight D. Eisenhower", "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower");
-
-            URL_Add("Alexander Alekhine", "https://en.wikipedia.org/wiki/Alexander_Alekhine");
-
-            URL_Add("Leonhard Euler", "https://en.wikipedia.org/wiki/Leonhard_Euler");
-
-            URL_Add("Eulerian", "https://en.wiktionary.org/wiki/Eulerian#Adjective");
-
-            URL_Add("Euler angles", "https://en.wikipedia.org/wiki/Euler_angles");
-
-            URL_Add("Euler–Lagrange equation", "https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation");
-
-            URL_Add("symplectic Euler", "https://en.wikipedia.org/wiki/Semi-implicit_Euler_method");
-
-            URL_Add("Euler tour technique", "https://en.wikipedia.org/wiki/Euler_tour_technique");
-
-            URL_Add("quaternion", "https://en.wikipedia.org/wiki/Quaternion");
-
-            URL_Add("Noether", "https://en.wikipedia.org/wiki/Emmy_Noether");
-
-            URL_Add("Project Euler", "https://en.wikipedia.org/wiki/Project_Euler");
-
-            URL_Add("Tycho Brahe", "https://en.wikipedia.org/wiki/Tycho_Brahe");
-
-            URL_Add("Galileo Galilei", "https://en.wikipedia.org/wiki/Galileo_Galilei");
-
-            URL_Add("Niels Bohr", "https://en.wikipedia.org/wiki/Niels_Bohr");
-
-            URL_Add("Werner Heisenberg", "https://en.wikipedia.org/wiki/Werner_Heisenberg");
-
-            URL_Add("J. J. Thomson", "https://en.wikipedia.org/wiki/J._J._Thomson");
-
-            URL_Add("Philippe Meyer", "https://fr.wikipedia.org/wiki/Philippe_Meyer_(physicien)");
-
-            URL_Add("Wolfgang Pauli", "https://en.wikipedia.org/wiki/Wolfgang_Pauli");
-
-            URL_Add("Yuhsin Tsai", "https://physics.nd.edu/people/yuhsin-tsai/");
-
-            URL_Add("Benjamin W. Lee", "https://en.wikipedia.org/wiki/Benjamin_W._Lee");
-
-            URL_Add("John Iliopoulos", "https://en.wikipedia.org/wiki/John_Iliopoulos");
-
-            URL_Add("Claude Bouchiat", "https://en.wikipedia.org/wiki/Claude_Bouchiat");
-
-            URL_Add("Abraham Pais", "https://en.wikipedia.org/wiki/Abraham_Pais");
-
-            URL_Add("John Stewart Bell", "https://en.wikipedia.org/wiki/John_Stewart_Bell");
-
-            URL_Add("Edward Witten", "https://www.youtube.com/watch?v=O76fjTNGbtI&t=1m36s");
-
-            URL_Add("Gerard 't Hooft", "https://en.wikipedia.org/wiki/Gerard_%27t_Hooft");
-
-            URL_Add("Leonard Susskind", "https://en.wikipedia.org/wiki/Leonard_Susskind");
-
-            URL_Add("Lennart Carleson", "https://en.wikipedia.org/wiki/Lennart_Carleson");
-
-            URL_Add("Roger Penrose", "https://en.wikipedia.org/wiki/Roger_Penrose");
-
-            URL_Add("Hawking radiation", "https://en.wikipedia.org/wiki/Hawking_radiation");
-
-            URL_Add("Penrose–Hawking singularity theorems", "https://en.wikipedia.org/wiki/Penrose%E2%80%93Hawking_singularity_theorems");
-
-            URL_Add("Richard Feynman", "https://en.wikipedia.org/wiki/Richard_Feynman");
-
-            URL_Add("John Wheeler", "https://en.wikipedia.org/wiki/John_Archibald_Wheeler");
-
-            URL_Add("Leopold Kronecker", "https://en.wikipedia.org/wiki/Leopold_Kronecker");
-
-            URL_Add("Mary K. Gaillard", "https://en.wikipedia.org/wiki/Mary_K._Gaillard");
-
-            URL_Add("Michio Kaku", "https://en.wikipedia.org/wiki/Michio_Kaku");
-
-            URL_Add("David Bohm", "https://en.wikipedia.org/wiki/David_Bohm");
-
-            URL_Add("Neil deGrasse Tyson", "https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson");
-
-            URL_Add("Louis de Broglie", "https://en.wikipedia.org/wiki/Louis_de_Broglie");
-
-            URL_Add("de Broglie–Bohm theory", "https://en.wikipedia.org/wiki/De_Broglie%E2%80%93Bohm_theory");
-
-            URL_Add("Max Born", "https://en.wikipedia.org/wiki/Max_Born");
-
-            URL_Add("Born rule", "https://en.wikipedia.org/wiki/Born_rule");
-
-            URL_Add("Brian Greene", "https://en.wikipedia.org/wiki/Brian_Greene");
-
-            URL_Add("Albert Einstein", "https://en.wikipedia.org/wiki/Albert_Einstein");
-
-            URL_Add("Einsteinian", "https://en.wiktionary.org/wiki/Einsteinian#Adjective");
-
-            URL_Add("Einstein–Podolsky–Rosen paradox", "https://en.wikipedia.org/wiki/Einstein%E2%80%93Podolsky%E2%80%93Rosen_paradox");
-
-            URL_Add("Einstein field equations", "https://en.wikipedia.org/wiki/Einstein_field_equations");
-
-            URL_Add("Bose-Einstein condensate", "https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate");
-
-            URL_Add("The definition of insanity is doing the same thing over and over again, but expecting different results (misattributed to Einstein)", "https://quoteinvestigator.com/2017/03/23/same/");
-
-            URL_Add("photoelectric effect", "https://en.wikipedia.org/wiki/Photoelectric_effect");
-
-            URL_Add("backscatter", "https://en.wikipedia.org/wiki/Backscatter");
-
             URL_Add("cmp()", "https://perldoc.perl.org/perlfunc#sort-LIST");
 
             URL_Add("Strassen algorithm", "https://en.wikipedia.org/wiki/Strassen_algorithm");
@@ -145819,7 +145614,7 @@ namespace OverflowHelper.core
 
             URL_Add("Linux Mint 13 (Maya)", "https://en.wikipedia.org/wiki/Linux_Mint#Releases");
 
-            URL_Add("Debian&nbsp;14 (Forky)", "https://en.wikipedia.org/wiki/Debian_release_version_history#Debian_14_(Forky)");
+            URL_Add("Debian 14 (Forky)", "https://en.wikipedia.org/wiki/Debian_release_version_history#Debian_14_(Forky)");
 
             URL_Add("Linux Mint 18.1 (Serena)", "https://en.wikipedia.org/wiki/Linux_Mint#Release_history");
 
@@ -145837,23 +145632,23 @@ namespace OverflowHelper.core
 
             URL_Add("Debian Free Software Guidelines", "https://en.wikipedia.org/wiki/Debian_Free_Software_Guidelines");
 
-            URL_Add("Debian&nbsp;4.0 (Etch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_4.0_(Etch)");
+            URL_Add("Debian 4.0 (Etch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_4.0_(Etch)");
 
-            URL_Add("Debian&nbsp;5.0 (Lenny)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_5.0_(Lenny)");
+            URL_Add("Debian 5.0 (Lenny)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_5.0_(Lenny)");
 
-            URL_Add("Debian&nbsp;6.0 (Squeeze)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_6.0_(Squeeze)");
+            URL_Add("Debian 6.0 (Squeeze)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_6.0_(Squeeze)");
 
-            URL_Add("Debian&nbsp;7 (Wheezy)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_7_(Wheezy)");
+            URL_Add("Debian 7 (Wheezy)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_7_(Wheezy)");
 
-            URL_Add("Debian&nbsp;9 (Stretch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_9_(Stretch)");
+            URL_Add("Debian 9 (Stretch)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_9_(Stretch)");
 
-            URL_Add("Debian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_10_(Buster)");
+            URL_Add("Debian 10 (Buster)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_10_(Buster)");
 
-            URL_Add("Raspbian&nbsp;10 (Buster)", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Release_history"); // Old: https://en.wikipedia.org/wiki/Raspbian#Version_history
+            URL_Add("Raspbian 10 (Buster)", "https://en.wikipedia.org/wiki/Raspberry_Pi_OS#Release_history"); // Old: https://en.wikipedia.org/wiki/Raspbian#Version_history
 
-            URL_Add("Debian&nbsp;11 (Bullseye)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_11_(Bullseye)");
+            URL_Add("Debian 11 (Bullseye)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_11_(Bullseye)");
 
-            URL_Add("Debian&nbsp;12 (Bookworm)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_12_(Bookworm)");
+            URL_Add("Debian 12 (Bookworm)", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_12_(Bookworm)");
 
             URL_Add("Raspbmc", "https://en.wikipedia.org/wiki/List_of_software_based_on_XBMC#Raspbmc");
 
@@ -148504,34 +148299,6 @@ namespace OverflowHelper.core
             URL_Add("microburst", "https://en.wikipedia.org/wiki/Downburst#Danger_to_aviation");
 
             URL_Add("ground rod", "https://en.wikipedia.org/wiki/Groundbed#Grounding_systems");
-
-            URL_Add("lift", "https://en.wiktionary.org/wiki/lift#Noun");
-
-            URL_Add("visual flight rules", "https://en.wikipedia.org/wiki/Visual_flight_rules");
-
-            URL_Add("instrument flight rules", "https://en.wikipedia.org/wiki/Instrument_flight_rules");
-
-            URL_Add("instrument meteorological conditions", "https://en.wikipedia.org/wiki/Instrument_meteorological_conditions");
-
-            URL_Add("mid-air collision", "https://en.wikipedia.org/wiki/Mid-air_collision");
-
-            URL_Add("hydraulics", "https://en.wiktionary.org/wiki/hydraulics#Noun");
-
-            URL_Add("pitch", "https://en.wiktionary.org/wiki/pitch#Noun");
-
-            URL_Add("yaw", "https://en.wiktionary.org/wiki/yaw#Noun");
-
-            URL_Add("angle of attack", "https://en.wiktionary.org/wiki/AOA#Noun");
-
-            URL_Add("angle of bank", "https://en.wikipedia.org/wiki/Banked_turn#Banked_turn_in_aeronautics");
-
-            URL_Add("Dutch roll", "https://en.wikipedia.org/wiki/Dutch_roll");
-
-            URL_Add("flight level", "https://en.wikipedia.org/wiki/Flight_level");
-
-            URL_Add("sea level", "https://en.wikipedia.org/wiki/Sea_level");
-
-            URL_Add("height above ground level", "https://en.wikipedia.org/wiki/Height_above_ground_level");
 
             URL_Add("PUBG: Battlegrounds", "https://en.wikipedia.org/wiki/PUBG:_Battlegrounds");
 
@@ -151708,6 +151475,234 @@ namespace OverflowHelper.core
             URL_Add("breathholding", "https://en.wiktionary.org/wiki/breathholding#Noun");
 
             URL_Add("don't hold your breath", "https://en.wiktionary.org/wiki/don%27t_hold_your_breath#Phrase");
+
+            URL_Add("rule", "https://en.wiktionary.org/wiki/rule#Noun");
+
+            URL_Add("rules", "https://en.wiktionary.org/wiki/rule#Noun");
+
+            URL_Add("ruled out", "https://en.wiktionary.org/wiki/rule_out#Verb");
+
+            URL_Add("rule of thumb", "https://en.wiktionary.org/wiki/rule_of_thumb#Noun");
+
+            URL_Add("rules of thumb", "https://en.wiktionary.org/wiki/rule_of_thumb#Noun");
+
+            URL_Add("rule-based", "https://en.wiktionary.org/wiki/rule-based#Adjective");
+
+            URL_Add("rulesets", "https://en.wiktionary.org/wiki/ruleset#Noun");
+
+            URL_Add("chain rule", "https://en.wikipedia.org/wiki/Chain_rule");
+
+            URL_Add("trapezoidal rule", "https://en.wikipedia.org/wiki/Trapezoidal_rule");
+
+            URL_Add("zero one infinity rule", "https://en.wikipedia.org/wiki/Zero_one_infinity_rule");
+
+            URL_Add("rule of three", "https://en.wikipedia.org/wiki/Rule_of_three_(C%2B%2B_programming)");
+
+            URL_Add("two-man rule", "https://en.wikipedia.org/wiki/Two-man_rule");
+
+            URL_Add("visual flight rules", "https://en.wikipedia.org/wiki/Visual_flight_rules");
+
+            URL_Add("instrument flight rules", "https://en.wikipedia.org/wiki/Instrument_flight_rules");
+
+            URL_Add("Born rule", "https://en.wikipedia.org/wiki/Born_rule");
+
+            URL_Add("Fajans' rules", "https://en.wikipedia.org/wiki/Fajans'_rules");
+
+            URL_Add("lift", "https://en.wiktionary.org/wiki/lift#Noun");
+
+            URL_Add("instrument meteorological conditions", "https://en.wikipedia.org/wiki/Instrument_meteorological_conditions");
+
+            URL_Add("mid-air collision", "https://en.wikipedia.org/wiki/Mid-air_collision");
+
+            URL_Add("hydraulics", "https://en.wiktionary.org/wiki/hydraulics#Noun");
+
+            URL_Add("pitch", "https://en.wiktionary.org/wiki/pitch#Noun");
+
+            URL_Add("yaw", "https://en.wiktionary.org/wiki/yaw#Noun");
+
+            URL_Add("angle of attack", "https://en.wiktionary.org/wiki/AOA#Noun");
+
+            URL_Add("angle of bank", "https://en.wikipedia.org/wiki/Banked_turn#Banked_turn_in_aeronautics");
+
+            URL_Add("Dutch roll", "https://en.wikipedia.org/wiki/Dutch_roll");
+
+            URL_Add("flight level", "https://en.wikipedia.org/wiki/Flight_level");
+
+            URL_Add("sea level", "https://en.wikipedia.org/wiki/Sea_level");
+
+            URL_Add("height above ground level", "https://en.wikipedia.org/wiki/Height_above_ground_level");
+
+            URL_Add("Margrethe II", "https://en.wikipedia.org/wiki/Margrethe_II"); // Old: https://en.wikipedia.org/wiki/Margrethe_II_of_Denmark
+
+            URL_Add("Winston Churchill", "https://en.wikipedia.org/wiki/Winston_Churchill");
+
+            URL_Add("Elizabeth II", "https://en.wikipedia.org/wiki/Elizabeth_II");
+
+            URL_Add("Rishi Sunak", "https://en.wikipedia.org/wiki/Rishi_Sunak");
+
+            URL_Add("David Cameron", "https://en.wikipedia.org/wiki/David_Cameron");
+
+            URL_Add("Julius Caesar", "https://en.wikipedia.org/wiki/Julius_Caesar");
+
+            URL_Add("James Gosling", "https://en.wikipedia.org/wiki/James_Gosling");
+
+            URL_Add("Jeff Bezos", "https://en.wikipedia.org/wiki/Jeff_Bezos");
+
+            URL_Add("Steve Jobs", "https://en.wikipedia.org/wiki/Steve_Jobs");
+
+            URL_Add("Steve Ballmer", "https://en.wikipedia.org/wiki/Steve_Ballmer");
+
+            URL_Add("Bill Gates", "https://en.wikipedia.org/wiki/Bill_Gates");
+
+            URL_Add("Greg Abbott", "https://en.wikipedia.org/wiki/Greg_Abbott");
+
+            URL_Add("Lex Fridman", "https://en.wikipedia.org/wiki/Lex_Fridman");
+
+            URL_Add("Elon Musk", "https://en.wikipedia.org/wiki/Elon_Musk");
+
+            URL_Add("Tucker Carlson", "https://en.wikipedia.org/wiki/Tucker_Carlson");
+
+            URL_Add("Saddam Hussein", "https://en.wikipedia.org/wiki/Saddam_Hussein");
+
+            URL_Add("Bashar al-Assad", "https://en.wikipedia.org/wiki/Bashar_al-Assad");
+
+            URL_Add("Mikhail Gorbachev", "https://en.wikipedia.org/wiki/Mikhail_Gorbachev");
+
+            URL_Add("Vladimir Putin", "https://en.wikipedia.org/wiki/Vladimir_Putin");
+
+            URL_Add("Gollum", "https://en.wikipedia.org/wiki/Gollum");
+
+            URL_Add("The Lord of the Rings", "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings");
+
+            URL_Add("J. R. R. Tolkien", "https://en.wikipedia.org/wiki/J._R._R._Tolkien");
+
+            URL_Add("dictator", "https://en.wiktionary.org/wiki/dictator#Noun");
+
+            URL_Add("Joseph Stalin", "https://en.wikipedia.org/wiki/Joseph_Stalin");
+
+            URL_Add("Alexander Lukashenko", "https://en.wikipedia.org/wiki/Alexander_Lukashenko");
+
+            URL_Add("Viktor Yanukovych", "https://en.wikipedia.org/wiki/Viktor_Yanukovych");
+
+            URL_Add("Volodymyr Zelenskyy", "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy");
+
+            URL_Add("Silvio Berlusconi", "https://en.wikipedia.org/wiki/Silvio_Berlusconi");
+
+            URL_Add("Karl Marx", "https://en.wikipedia.org/wiki/Karl_Marx");
+
+            URL_Add("Führer", "https://en.wikipedia.org/wiki/F%C3%BChrer");
+
+            URL_Add("Adolf Hitler", "https://en.wikipedia.org/wiki/Adolf_Hitler");
+
+            URL_Add("Göring", "https://en.wikipedia.org/wiki/Hermann_G%C3%B6ring");
+
+            URL_Add("Hannah Arendt", "https://en.wikipedia.org/wiki/Hannah_Arendt");
+
+            URL_Add("Muammar Gaddafi", "https://en.wikipedia.org/wiki/Muammar_Gaddafi");
+
+            URL_Add("Libyan", "https://en.wiktionary.org/wiki/Libyan#Adjective");
+
+            URL_Add("Nicolás Maduro", "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Maduro");
+
+            URL_Add("Dwight D. Eisenhower", "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower");
+
+            URL_Add("Alexander Alekhine", "https://en.wikipedia.org/wiki/Alexander_Alekhine");
+
+            URL_Add("Leonhard Euler", "https://en.wikipedia.org/wiki/Leonhard_Euler");
+
+            URL_Add("Eulerian", "https://en.wiktionary.org/wiki/Eulerian#Adjective");
+
+            URL_Add("Euler angles", "https://en.wikipedia.org/wiki/Euler_angles");
+
+            URL_Add("Euler–Lagrange equation", "https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation");
+
+            URL_Add("symplectic Euler", "https://en.wikipedia.org/wiki/Semi-implicit_Euler_method");
+
+            URL_Add("Euler tour technique", "https://en.wikipedia.org/wiki/Euler_tour_technique");
+
+            URL_Add("quaternion", "https://en.wikipedia.org/wiki/Quaternion");
+
+            URL_Add("Noether", "https://en.wikipedia.org/wiki/Emmy_Noether");
+
+            URL_Add("Project Euler", "https://en.wikipedia.org/wiki/Project_Euler");
+
+            URL_Add("Tycho Brahe", "https://en.wikipedia.org/wiki/Tycho_Brahe");
+
+            URL_Add("Galileo Galilei", "https://en.wikipedia.org/wiki/Galileo_Galilei");
+
+            URL_Add("Niels Bohr", "https://en.wikipedia.org/wiki/Niels_Bohr");
+
+            URL_Add("Werner Heisenberg", "https://en.wikipedia.org/wiki/Werner_Heisenberg");
+
+            URL_Add("J. J. Thomson", "https://en.wikipedia.org/wiki/J._J._Thomson");
+
+            URL_Add("Philippe Meyer", "https://fr.wikipedia.org/wiki/Philippe_Meyer_(physicien)");
+
+            URL_Add("Wolfgang Pauli", "https://en.wikipedia.org/wiki/Wolfgang_Pauli");
+
+            URL_Add("Yuhsin Tsai", "https://physics.nd.edu/people/yuhsin-tsai/");
+
+            URL_Add("Benjamin W. Lee", "https://en.wikipedia.org/wiki/Benjamin_W._Lee");
+
+            URL_Add("John Iliopoulos", "https://en.wikipedia.org/wiki/John_Iliopoulos");
+
+            URL_Add("Claude Bouchiat", "https://en.wikipedia.org/wiki/Claude_Bouchiat");
+
+            URL_Add("Abraham Pais", "https://en.wikipedia.org/wiki/Abraham_Pais");
+
+            URL_Add("John Stewart Bell", "https://en.wikipedia.org/wiki/John_Stewart_Bell");
+
+            URL_Add("Edward Witten", "https://www.youtube.com/watch?v=O76fjTNGbtI&t=1m36s");
+
+            URL_Add("Gerard 't Hooft", "https://en.wikipedia.org/wiki/Gerard_%27t_Hooft");
+
+            URL_Add("Leonard Susskind", "https://en.wikipedia.org/wiki/Leonard_Susskind");
+
+            URL_Add("Lennart Carleson", "https://en.wikipedia.org/wiki/Lennart_Carleson");
+
+            URL_Add("Roger Penrose", "https://en.wikipedia.org/wiki/Roger_Penrose");
+
+            URL_Add("Hawking radiation", "https://en.wikipedia.org/wiki/Hawking_radiation");
+
+            URL_Add("Penrose–Hawking singularity theorems", "https://en.wikipedia.org/wiki/Penrose%E2%80%93Hawking_singularity_theorems");
+
+            URL_Add("Richard Feynman", "https://en.wikipedia.org/wiki/Richard_Feynman");
+
+            URL_Add("John Wheeler", "https://en.wikipedia.org/wiki/John_Archibald_Wheeler");
+
+            URL_Add("Leopold Kronecker", "https://en.wikipedia.org/wiki/Leopold_Kronecker");
+
+            URL_Add("Mary K. Gaillard", "https://en.wikipedia.org/wiki/Mary_K._Gaillard");
+
+            URL_Add("Michio Kaku", "https://en.wikipedia.org/wiki/Michio_Kaku");
+
+            URL_Add("David Bohm", "https://en.wikipedia.org/wiki/David_Bohm");
+
+            URL_Add("Neil deGrasse Tyson", "https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson");
+
+            URL_Add("Louis de Broglie", "https://en.wikipedia.org/wiki/Louis_de_Broglie");
+
+            URL_Add("de Broglie–Bohm theory", "https://en.wikipedia.org/wiki/De_Broglie%E2%80%93Bohm_theory");
+
+            URL_Add("Max Born", "https://en.wikipedia.org/wiki/Max_Born");
+
+            URL_Add("Brian Greene", "https://en.wikipedia.org/wiki/Brian_Greene");
+
+            URL_Add("Albert Einstein", "https://en.wikipedia.org/wiki/Albert_Einstein");
+
+            URL_Add("Einsteinian", "https://en.wiktionary.org/wiki/Einsteinian#Adjective");
+
+            URL_Add("Einstein–Podolsky–Rosen paradox", "https://en.wikipedia.org/wiki/Einstein%E2%80%93Podolsky%E2%80%93Rosen_paradox");
+
+            URL_Add("Einstein field equations", "https://en.wikipedia.org/wiki/Einstein_field_equations");
+
+            URL_Add("Bose-Einstein condensate", "https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate");
+
+            URL_Add("The definition of insanity is doing the same thing over and over again, but expecting different results (misattributed to Einstein)", "https://quoteinvestigator.com/2017/03/23/same/");
+
+            URL_Add("photoelectric effect", "https://en.wikipedia.org/wiki/Photoelectric_effect");
+
+            URL_Add("backscatter", "https://en.wikipedia.org/wiki/Backscatter");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -157875,6 +157870,7 @@ namespace OverflowHelper.core
             correctionAdd("LOL_", "League of Legends (LoL)_");
 
             // A computer game
+            correctionAdd("apex legends_", "Apex Legends_");
             correctionAdd("apex_", "Apex Legends_");
             correctionAdd("Apex_", "Apex Legends_");
 
@@ -160630,14 +160626,12 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/lemokey/l3>
             //     Note: In 'keyboards/lemokey', not 'keyboards/keychron'
             //
-            correctionAdd("Keychron Lemokey L3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
-            correctionAdd("Lemokey&nbsp;L3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
-            correctionAdd("Lemonkey L3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
-            correctionAdd("Lemokey L3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
-            correctionAdd("lemokey L3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
-            correctionAdd("Lemokey l3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
-            correctionAdd("lemokey l3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
-            correctionAdd("L3_", "Keychron&nbsp;Lemokey&nbsp;L3_");
+            correctionAdd("Lemonkey L3_", "Keychron Lemokey L3_");
+            correctionAdd("Lemokey L3_", "Keychron Lemokey L3_");
+            correctionAdd("lemokey L3_", "Keychron Lemokey L3_");
+            correctionAdd("Lemokey l3_", "Keychron Lemokey L3_");
+            correctionAdd("lemokey l3_", "Keychron Lemokey L3_");
+            correctionAdd("L3_", "Keychron Lemokey L3_");
 
             // A 98-key (95%. Not true TKL) crippled (wrt. missing
             // PgUp and PgDn, etc.) wired-only QMK/Via-capable
@@ -160679,11 +160673,9 @@ namespace OverflowHelper.core
             //
             // Microcontroller: TLSR8258
             //
-            correctionAdd("Keychron B4 Pro_", "Keychron&nbsp;B4&nbsp;Pro_"); // Sort of identity mapping
-            correctionAdd("B4&nbsp;Pro_", "Keychron&nbsp;B4&nbsp;Pro_");
-            correctionAdd("b4 pro_", "Keychron&nbsp;B4&nbsp;Pro_");
-            correctionAdd("B4 Pro_", "Keychron&nbsp;B4&nbsp;Pro_");
-            correctionAdd("b4_", "Keychron&nbsp;B4&nbsp;Pro_");
+            correctionAdd("b4 pro_", "Keychron B4 Pro_");
+            correctionAdd("B4 Pro_", "Keychron B4 Pro_");
+            correctionAdd("b4_", "Keychron B4 Pro_");
 
             // A 103-key (100%. Not true TKL) crippled wired-only
             // mechanical keyboard from Keychron with a knob.
@@ -160784,15 +160776,13 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k17_max>
             //
-            correctionAdd("Keychron K17 Max_", "Keychron&nbsp;K17&nbsp;Max_");
-            correctionAdd("Keychron K17 max_", "Keychron&nbsp;K17&nbsp;Max_");
-            correctionAdd("K17&nbsp;Max_", "Keychron&nbsp;K17&nbsp;Max_");
-            correctionAdd("K17 Max_", "Keychron&nbsp;K17&nbsp;Max_");
-            correctionAdd("k17 max_", "Keychron&nbsp;K17&nbsp;Max_");
-            correctionAdd("K17 max_", "Keychron&nbsp;K17&nbsp;Max_");
-            correctionAdd("K17Max_", "Keychron&nbsp;K17&nbsp;Max_");
-            correctionAdd("k17max_", "Keychron&nbsp;K17&nbsp;Max_");
-            correctionAdd("K17M_", "Keychron&nbsp;K17&nbsp;Max_");
+            correctionAdd("Keychron K17 max_", "Keychron K17 Max_");
+            correctionAdd("K17 Max_", "Keychron K17 Max_");
+            correctionAdd("k17 max_", "Keychron K17 Max_");
+            correctionAdd("K17 max_", "Keychron K17 Max_");
+            correctionAdd("K17Max_", "Keychron K17 Max_");
+            correctionAdd("k17max_", "Keychron K17 Max_");
+            correctionAdd("K17M_", "Keychron K17 Max_");
 
             // A 105-key (100%. Not true TKL) full-size
             // mechanical keyboard from Cooler Master.
@@ -161193,13 +161183,11 @@ namespace OverflowHelper.core
             //     Likely location: <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron>
             //     Likely branch: "rtl8762g" in Keychron's fork of ZMK.
             //
-            correctionAdd("P6&nbsp;Ultra&nbsp;8K_", "Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_");
-            correctionAdd("Keychron P6 Ultra 8K_", "Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_");
-            correctionAdd("Keychron P6 Ultra_", "Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_");
-            correctionAdd("P6 Ultra 8K_", "Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_");
-            correctionAdd("P6 Ultra_", "Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_");
-            correctionAdd("P6 ultra_", "Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_");
-            correctionAdd("P6_", "Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_");
+            correctionAdd("Keychron P6 Ultra_", "Keychron P6 Ultra 8K_");
+            correctionAdd("P6 Ultra 8K_", "Keychron P6 Ultra 8K_");
+            correctionAdd("P6 Ultra_", "Keychron P6 Ultra 8K_");
+            correctionAdd("P6 ultra_", "Keychron P6 Ultra 8K_");
+            correctionAdd("P6_", "Keychron P6 Ultra 8K_");
 
             // A 109-key (105%. Not true TKL) full-size mechanical
             // keyboard from Razer. It has five macro keys on
@@ -163275,23 +163263,17 @@ namespace OverflowHelper.core
             correctionAdd("christianity_", "Christianity (Stack Exchange site)_");
             correctionAdd("Christianity_", "Christianity (Stack Exchange site)_");
 
-            correctionAdd("Biblical Hermeneutics (Stack Exchange site)_", "Biblical&nbsp;Hermeneutics (Stack Exchange site)_");
-            correctionAdd("Biblical&nbsp;Hermeneutics_", "Biblical&nbsp;Hermeneutics (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Biblical Hermeneutics_", "Biblical&nbsp;Hermeneutics (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Bible hermeneutics_", "Biblical&nbsp;Hermeneutics (Stack Exchange site)_");
-            correctionAdd("BH_", "Biblical&nbsp;Hermeneutics (Stack Exchange site)_");
+            correctionAdd("Biblical Hermeneutics_", "Biblical Hermeneutics (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("Bible hermeneutics_", "Biblical Hermeneutics (Stack Exchange site)_");
+            correctionAdd("BH_", "Biblical Hermeneutics (Stack Exchange site)_");
 
-            correctionAdd("Geographic Information Systems (Stack Exchange site)_", "Geographic&nbsp;Information&nbsp;Systems (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Geographic&nbsp;Information&nbsp;Systems_", "Geographic&nbsp;Information&nbsp;Systems (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Geographic Information Systems_", "Geographic&nbsp;Information&nbsp;Systems (Stack Exchange site)_");
-            correctionAdd("GIS_", "Geographic&nbsp;Information&nbsp;Systems (Stack Exchange site)_");
-            correctionAdd("gis_", "Geographic&nbsp;Information&nbsp;Systems (Stack Exchange site)_");
+            correctionAdd("Geographic Information Systems_", "Geographic Information Systems (Stack Exchange site)_");
+            correctionAdd("GIS_", "Geographic Information Systems (Stack Exchange site)_");
+            correctionAdd("gis_", "Geographic Information Systems (Stack Exchange site)_");
 
-            correctionAdd("Artificial Intelligence (Stack Exchange site)_", "Artificial&nbsp;Intelligence (Stack Exchange site)_");
-            correctionAdd("Artificial&nbsp;Intelligence_", "Artificial&nbsp;Intelligence (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("artificial intelligence_", "Artificial&nbsp;Intelligence (Stack Exchange site)_");
-            correctionAdd("Artificial Intelligence_", "Artificial&nbsp;Intelligence (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("ai_", "Artificial&nbsp;Intelligence (Stack Exchange site)_");
+            correctionAdd("artificial intelligence_", "Artificial Intelligence (Stack Exchange site)_");
+            correctionAdd("Artificial Intelligence_", "Artificial Intelligence (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("ai_", "Artificial Intelligence (Stack Exchange site)_");
 
             correctionAdd("User Experience (Stack Exchange site)_", "User&nbsp;Experience (Stack Exchange site)_");
             correctionAdd("User&nbsp;Experience_", "User&nbsp;Experience (Stack Exchange site)_"); // Sort of identity mapping
@@ -172256,7 +172238,7 @@ namespace OverflowHelper.core
 
             URL_Add("Database&nbsp;Administrators (Stack Exchange site)_", "https://dba.stackexchange.com/tour");
 
-            URL_Add("Biblical&nbsp;Hermeneutics (Stack Exchange site)_", "https://hermeneutics.stackexchange.com/tour");
+            URL_Add("Biblical Hermeneutics (Stack Exchange site)_", "https://hermeneutics.stackexchange.com/tour");
 
             URL_Add("Motor&nbsp;Vehicle&nbsp;Maintenance&nbsp;&&nbsp;Repair (Stack Exchange site)_", "https://mechanics.stackexchange.com/tour");
 
@@ -172322,7 +172304,7 @@ namespace OverflowHelper.core
 
             URL_Add("Writing (Stack Exchange site)_", "https://writing.stackexchange.com/tour");
 
-            URL_Add("Geographic&nbsp;Information&nbsp;Systems (Stack Exchange site)_", "https://gis.stackexchange.com/tour");
+            URL_Add("Geographic Information Systems (Stack Exchange site)_", "https://gis.stackexchange.com/tour");
 
             URL_Add("Bioinformatics (Stack Exchange site)_", "https://bioinformatics.stackexchange.com/tour");
 
@@ -172340,7 +172322,7 @@ namespace OverflowHelper.core
 
             URL_Add("Cross&nbsp;Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
 
-            URL_Add("Artificial&nbsp;Intelligence (Stack Exchange site)_", "https://ai.stackexchange.com/tour");
+            URL_Add("Artificial Intelligence (Stack Exchange site)_", "https://ai.stackexchange.com/tour");
 
             URL_Add("operating_", "https://en.wiktionary.org/wiki/operate#Verb");
 
@@ -173042,7 +173024,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron B1 Pro_", "https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard");
 
-            URL_Add("Keychron&nbsp;B4&nbsp;Pro_", "https://www.keychron.com/products/keychron-b4-pro-ultra-slim-wireless-keyboard");
+            URL_Add("Keychron B4 Pro_", "https://www.keychron.com/products/keychron-b4-pro-ultra-slim-wireless-keyboard");
 
             URL_Add("slightly reduced selection of keycaps_", "https://switchandclick.com/mechanical-keyboard-switch-guide/");
 
@@ -173062,7 +173044,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K11 Max_", "https://www.keychron.com/products/keychron-k11-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K17&nbsp;Max_", "https://www.keychron.com/products/keychron-k17-max-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron K17 Max_", "https://www.keychron.com/products/keychron-k17-max-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron K2 HE (80%)_", "https://www.keychron.com/products/keychron-k2-he-wireless-magnetic-switch-keyboard"); // Old: <https://www.keychron.com/pages/keychron-k2-he-landing-page>
 
@@ -173076,11 +173058,11 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Lemokey L1_", "https://www.keychron.com/products/lemokey-l1-qmk-via-wireless-custom-gaming-keyboard");
 
-            URL_Add("Keychron&nbsp;Lemokey&nbsp;L3_", "https://www.keychron.com/products/lemokey-l3-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Lemokey L3_", "https://www.keychron.com/products/lemokey-l3-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron V5 ISO_", "https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;P6&nbsp;Ultra&nbsp;8K_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron P6 Ultra 8K_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("instant messaging_", "https://en.wikipedia.org/wiki/Instant_messaging");
 
@@ -174125,12 +174107,10 @@ namespace OverflowHelper.core
             //
             //       <https://www.debian.org/releases/trixie/release-notes/>
             //
-            correctionAdd("Linux Mint Debian Edition__", "LMDE&nbsp;6 (Faye)__"); // For the cross-reference
-            correctionAdd("LMDE 6 (Faye)__", "LMDE&nbsp;6 (Faye)__"); // Sort of identity mapping
-            correctionAdd("LMDE&nbsp;6__", "LMDE&nbsp;6 (Faye)__");
-            correctionAdd("LMDE 6__", "LMDE&nbsp;6 (Faye)__"); // Sort of identity mapping
-            correctionAdd("lmde6__", "LMDE&nbsp;6 (Faye)__");
-            correctionAdd("LMDE6__", "LMDE&nbsp;6 (Faye)__");
+            correctionAdd("Linux Mint Debian Edition__", "LMDE 6 (Faye)__"); // For the cross-reference
+            correctionAdd("LMDE 6__", "LMDE 6 (Faye)__");
+            correctionAdd("lmde6__", "LMDE 6 (Faye)__");
+            correctionAdd("LMDE6__", "LMDE 6 (Faye)__");
 
             // A Linux distribution
             correctionAdd("gallium os__", "GalliumOS__");
@@ -178301,6 +178281,9 @@ namespace OverflowHelper.core
             correctionAdd("strawbery__", "strawberry__");
             correctionAdd("Strawbery__", "strawberry__");
 
+            // A detector in the Large Hadron Collider (LHC) at CERN
+            correctionAdd("atlas__", "ATLAS__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -179164,7 +179147,7 @@ namespace OverflowHelper.core
 
             URL_Add("SWD__", "https://en.wikipedia.org/wiki/JTAG#Similar_interface_standards");
 
-            URL_Add("LMDE&nbsp;6 (Faye)__", "https://blog.linuxmint.com/?p=4570");
+            URL_Add("LMDE 6 (Faye)__", "https://blog.linuxmint.com/?p=4570");
 
             URL_Add("Oracle Linux__", "https://en.wikipedia.org/wiki/Oracle_Linux");
 
@@ -179625,6 +179608,8 @@ namespace OverflowHelper.core
             URL_Add("rapid trigger__", "https://www.wired.com/review/keychron-q1-he/");
 
             URL_Add("Markdown tables__", "https://meta.stackexchange.com/questions/356997/new-feature-table-support");
+
+            URL_Add("ATLAS__", "https://en.wikipedia.org/wiki/ATLAS_experiment");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -183277,23 +183262,21 @@ namespace OverflowHelper.core
             correctionAdd("nano____", "micro____"); // For the cross-reference (to another Linux text editor)
 
             // Linux
-            correctionAdd("Debian 8 \"Jessie\"____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("Debian 8 (Jessie)____", "Debian&nbsp;8 (Jessie)____"); // Sort of identity mapping
-            correctionAdd("Debian 8 Jessie____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("Debian Jessie____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("Debian&nbsp;8____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("debian jessie____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("Debian-Jessie____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("debian-jessie____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("8 \"Jessie\"____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("Debian 8____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("debian 8____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("8 Jessie____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("debian8____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("jessie____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("Jessie____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("JESSIE____", "Debian&nbsp;8 (Jessie)____");
-            correctionAdd("8____", "Debian&nbsp;8 (Jessie)____");
+            correctionAdd("Debian 8 \"Jessie\"____", "Debian 8 (Jessie)____");
+            correctionAdd("Debian 8 Jessie____", "Debian 8 (Jessie)____");
+            correctionAdd("Debian Jessie____", "Debian 8 (Jessie)____");
+            correctionAdd("debian jessie____", "Debian 8 (Jessie)____");
+            correctionAdd("Debian-Jessie____", "Debian 8 (Jessie)____");
+            correctionAdd("debian-jessie____", "Debian 8 (Jessie)____");
+            correctionAdd("8 \"Jessie\"____", "Debian 8 (Jessie)____");
+            correctionAdd("Debian 8____", "Debian 8 (Jessie)____");
+            correctionAdd("debian 8____", "Debian 8 (Jessie)____");
+            correctionAdd("8 Jessie____", "Debian 8 (Jessie)____");
+            correctionAdd("debian8____", "Debian 8 (Jessie)____");
+            correctionAdd("jessie____", "Debian 8 (Jessie)____");
+            correctionAdd("Jessie____", "Debian 8 (Jessie)____");
+            correctionAdd("JESSIE____", "Debian 8 (Jessie)____");
+            correctionAdd("8____", "Debian 8 (Jessie)____");
 
             correctionAdd("West____", "west____");
             correctionAdd("w____", "west____");
@@ -185333,7 +185316,7 @@ namespace OverflowHelper.core
 
             URL_Add("macronutrient____", "https://en.wikipedia.org/wiki/List_of_macronutrients");
 
-            URL_Add("Debian&nbsp;8 (Jessie)____", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_8_(Jessie)");
+            URL_Add("Debian 8 (Jessie)____", "https://en.wikipedia.org/wiki/Debian_version_history#Debian_8_(Jessie)");
 
             URL_Add("Git branch \"playground\" in Keychron's fork____", "https://github.com/Keychron/qmk_firmware/tree/playground/keyboards/keychron/x3/iso/rgb");
 
