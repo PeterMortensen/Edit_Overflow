@@ -3799,7 +3799,7 @@ namespace OverflowHelper.core
             correctionAdd("unevenly edited", "very unevenly edited");
 
             // In 'The Hitchhiker's Guide to the Galaxy' (Vogon poetry)
-            correctionAdd("Space&nbsp;Exploration (Stack Exchange site)", "Space, it says, is big, really big."); // Indirect mapping for "space". It is contrived, but we are out of alternative word sets...
+            correctionAdd("Space Exploration (Stack Exchange site)", "Space, it says, is big, really big."); // Indirect mapping for "space". It is contrived, but we are out of alternative word sets...
             correctionAdd("space is really big", "Space, it says, is big, really big.");
             correctionAdd("big", "Space, it says, is big, really big.");
 
@@ -10211,6 +10211,9 @@ namespace OverflowHelper.core
             // Internet slang (for the abbr.)
             correctionAdd("YKWIM", "you know what I mean");
 
+            correctionAdd("IYKYK", "if you know, you know");
+            correctionAdd("iykyk", "if you know, you know");
+
             // A film quote (from "The Big Lebowski")
             // Alternative URL:
             //
@@ -13857,6 +13860,8 @@ namespace OverflowHelper.core
             correctionAdd("oarts", "parts");
 
             correctionAdd("counter part", "counterpart");
+
+            correctionAdd("counter-parts", "counterparts");
 
             correctionAdd("hon", "honey");
 
@@ -26577,6 +26582,17 @@ namespace OverflowHelper.core
             correctionAdd("Finacci", "Fibonacci");
 
             correctionAdd("Tribonacci", "tribonacci");
+
+            correctionAdd("dispuse", "dispute");
+
+            correctionAdd("dissagreed", "disagreed");
+
+            correctionAdd("disagreeng", "disagreeing");
+            correctionAdd("disagreing", "disagreeing");
+
+            correctionAdd("greedyly", "greedily");
+
+            correctionAdd("non-greedy", "nongreedy");
 
             // Related to Fibonacci
             correctionAdd("greedy algorithm", "greedy algorithm for Egyptian fractions");
@@ -65120,7 +65136,7 @@ namespace OverflowHelper.core
             //   <https://en.wikipedia.org/wiki/Dongle>
             //   <https://www.reddit.com/r/Keychron/comments/1h0aqdj/comment/lz3k9no/>
             //
-            correctionAdd("2.4&nbsp;GHz", "dongle");
+            correctionAdd("2.4 GHz", "dongle");
             correctionAdd("dungle", "dongle");
             correctionAdd("dongel", "dongle");
             correctionAdd("donlge", "dongle");
@@ -69971,6 +69987,8 @@ namespace OverflowHelper.core
             correctionAdd("DVORAK", "Dvorak keyboard layout");
             correctionAdd("dvorak", "Dvorak keyboard layout");
             correctionAdd("Dvorak", "Dvorak keyboard layout");
+            correctionAdd("Drovak", "Dvorak keyboard layout");
+            correctionAdd("drovak", "Dvorak keyboard layout");
 
             // Dvorak Simplified Keyboard, French
             //
@@ -76533,6 +76551,10 @@ namespace OverflowHelper.core
             correctionAdd("autocad", "AutoCAD");
             correctionAdd("AutoCad", "AutoCAD");
             correctionAdd("AUTOCAD", "AutoCAD");
+
+            correctionAdd("Civil 3D", "Autodesk Civil 3D");
+            correctionAdd("Civil3D", "Autodesk Civil 3D");
+            correctionAdd("civil3d", "Autodesk Civil 3D");
 
             correctionAdd("Inventor", "Autodesk Inventor");
 
@@ -87582,6 +87604,8 @@ namespace OverflowHelper.core
             //     comparison with the Q HE and Q Max series
             //     causes confusion...)
             //
+            //   * There isn't a Q16, Q16 Pro, Q16 Max, or Q16 HE...
+            //
             //   * K HE and Q HE series:
             //
             //     South pole facing downward (uncommon)
@@ -98163,13 +98187,6 @@ namespace OverflowHelper.core
             correctionAdd("disastrorous", "disastrous");
             correctionAdd("disasterous", "disastrous");
 
-            correctionAdd("dispuse", "dispute");
-
-            correctionAdd("dissagreed", "disagreed");
-
-            correctionAdd("disagreeng", "disagreeing");
-            correctionAdd("disagreing", "disagreeing");
-
             correctionAdd("disappate", "dissipate");
 
             correctionAdd("dicipated", "dissipated");
@@ -100888,16 +100905,15 @@ namespace OverflowHelper.core
             correctionAdd("webmasters", "Webmasters (Stack Exchange site)");
             correctionAdd("WebMasters", "Webmasters (Stack Exchange site)");
 
-            correctionAdd("Web Applications (Stack Exchange site)", "Web&nbsp;Applications (Stack Exchange site)");
-            correctionAdd("WebApps.StackExchange", "Web&nbsp;Applications (Stack Exchange site)");
-            correctionAdd("Web&nbsp;Applications", "Web&nbsp;Applications (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Web Applications SE", "Web&nbsp;Applications (Stack Exchange site)");
-            correctionAdd("nothing to install", "Web&nbsp;Applications (Stack Exchange site)");
-            correctionAdd("web applications", "Web&nbsp;Applications (Stack Exchange site)"); // For the cross-reference
-            correctionAdd("WebApps.SE", "Web&nbsp;Applications (Stack Exchange site)");
-            correctionAdd("Web Apps SE", "Web&nbsp;Applications (Stack Exchange site)");
-            correctionAdd("webapps.se", "Web&nbsp;Applications (Stack Exchange site)");
-            correctionAdd("Web SE", "Web&nbsp;Applications (Stack Exchange site)");
+            correctionAdd("WebApps.StackExchange", "Web Applications (Stack Exchange site)");
+            correctionAdd("Web Applications SE", "Web Applications (Stack Exchange site)");
+            correctionAdd("nothing to install", "Web Applications (Stack Exchange site)");
+            correctionAdd("Web Applications", "Web Applications (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("web applications", "Web Applications (Stack Exchange site)"); // For the cross-reference
+            correctionAdd("Web Apps SE", "Web Applications (Stack Exchange site)");
+            correctionAdd("WebApps.SE", "Web Applications (Stack Exchange site)");
+            correctionAdd("webapps.se", "Web Applications (Stack Exchange site)");
+            correctionAdd("Web SE", "Web Applications (Stack Exchange site)");
 
             correctionAdd("Signal&nbsp;Processing", "Signal&nbsp;Processing (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("signal processing", "Signal&nbsp;Processing (Stack Exchange site)");
@@ -108269,8 +108285,6 @@ namespace OverflowHelper.core
             correctionAdd("throtting", "throttling");
             correctionAdd("throtling", "throttling");
 
-            correctionAdd("greedyly", "greedily");
-
             correctionAdd("humans rights", "human rights");
 
             // The noun
@@ -110213,8 +110227,6 @@ namespace OverflowHelper.core
 
             URL_Add("Kinect", "https://en.wikipedia.org/wiki/Kinect");
 
-            URL_Add("3ds&nbsp;Max", "https://en.wikipedia.org/wiki/Autodesk_3ds_Max");
-
             URL_Add("equivalent", "https://en.wiktionary.org/wiki/equivalent#Adjective"); // Old: https://en.wiktionary.org/wiki/equivalent
 
             URL_Add("Balsamiq", "https://en.wikipedia.org/wiki/Balsamiq");
@@ -110572,8 +110584,6 @@ namespace OverflowHelper.core
             URL_Add("Pythonic", "https://en.wiktionary.org/wiki/Pythonic#Adjective");
 
             URL_Add("separation", "https://en.wiktionary.org/wiki/seperation#Noun"); // Old: https://en.wiktionary.org/wiki/seperation
-
-            URL_Add("AutoCAD", "https://en.wikipedia.org/wiki/AutoCAD");
 
             URL_Add("Authenticode", "https://msdn.microsoft.com/en-us/library/ms537359(v=vs.85).aspx");
 
@@ -112835,8 +112845,6 @@ namespace OverflowHelper.core
 
             URL_Add("SNOBOL", "https://en.wikipedia.org/wiki/SNOBOL");
 
-            URL_Add("disagreed", "https://en.wiktionary.org/wiki/disagree#Verb");
-
             URL_Add("much", "https://en.wiktionary.org/wiki/much#Adverb");
 
             URL_Add("ternary operator", "https://en.wikipedia.org/wiki/Ternary_conditional_operator"); // Old: <https://en.wikipedia.org/wiki/%3F:>
@@ -113686,8 +113694,6 @@ namespace OverflowHelper.core
             URL_Add("hear, hear", "https://en.wiktionary.org/wiki/hear_hear#Interjection");
 
             URL_Add("muscle", "https://en.wiktionary.org/wiki/muscle#Noun");
-
-            URL_Add("Autodesk", "https://en.wikipedia.org/wiki/Autodesk");
 
             URL_Add("huge", "https://en.wiktionary.org/wiki/huge#Adjective");
 
@@ -118873,6 +118879,14 @@ namespace OverflowHelper.core
 
             URL_Add("treadmill", "https://en.wiktionary.org/wiki/treadmill#Noun");
 
+            URL_Add("3ds&nbsp;Max", "https://en.wikipedia.org/wiki/Autodesk_3ds_Max");
+
+            URL_Add("AutoCAD", "https://en.wikipedia.org/wiki/AutoCAD");
+
+            URL_Add("Autodesk Civil 3D", "https://en.wikipedia.org/wiki/AutoCAD#Features");
+
+            URL_Add("Autodesk", "https://en.wikipedia.org/wiki/Autodesk");
+
             URL_Add("Autodesk Inventor", "https://en.wikipedia.org/wiki/Autodesk_Inventor");
 
             URL_Add("Dr. Dobb's Journal", "https://en.wikipedia.org/wiki/Dr._Dobb's_Journal");
@@ -121672,8 +121686,6 @@ namespace OverflowHelper.core
             URL_Add("GC-content", "https://en.wikipedia.org/wiki/GC-content");
 
             URL_Add("throttling", "https://en.wiktionary.org/wiki/throttle#Verb");
-
-            URL_Add("greedily", "https://en.wiktionary.org/wiki/greedily#Adverb");
 
             URL_Add("human rights", "https://en.wiktionary.org/wiki/human_rights#Noun");
 
@@ -126809,6 +126821,12 @@ namespace OverflowHelper.core
 
             URL_Add("eCPM", "https://en.wikipedia.org/wiki/Cost_per_mille#Effective_cost_per_mille");
 
+            URL_Add("disagreed", "https://en.wiktionary.org/wiki/disagree#Verb");
+
+            URL_Add("nongreedy", "https://en.wiktionary.org/wiki/nongreedy#Adjective");
+
+            URL_Add("greedily", "https://en.wiktionary.org/wiki/greedily#Adverb");
+
             URL_Add("greedy algorithm for Egyptian fractions", "https://en.wikipedia.org/wiki/Greedy_algorithm_for_Egyptian_fractions");
 
             URL_Add("applying", "https://en.wiktionary.org/wiki/apply#Verb");
@@ -128619,8 +128637,6 @@ namespace OverflowHelper.core
 
             URL_Add("Cutecom", "https://help.ubuntu.com/community/Cutecom");
 
-            URL_Add("Type 6", "https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495#toc-hId--1163070806");
-
             URL_Add("PDO", "https://en.wikipedia.org/wiki/PHP#Development_and_community"); // Was https://en.wikipedia.org/wiki/PHP#History
 
             URL_Add("VSTO", "https://en.wikipedia.org/wiki/Visual_Studio_Tools_for_Office");
@@ -129252,24 +129268,6 @@ namespace OverflowHelper.core
             URL_Add("AppendLine", "https://learn.microsoft.com/en-us/dotnet/api/system.text.stringbuilder.appendline");
 
             URL_Add("without much fuss", "https://textranch.com/c/without-a-fuss-or-without-much-fuss/");
-
-            URL_Add("known", "https://en.wiktionary.org/wiki/known#Adjective");
-
-            URL_Add("well-known", "https://en.wiktionary.org/wiki/well-known#Adjective");
-
-            URL_Add("RTF", "https://en.wikipedia.org/wiki/Rich_Text_Format");
-
-            URL_Add("less-known", "https://en.wiktionary.org/wiki/less-known#Adjective");
-
-            URL_Add("lesser-known", "https://en.wiktionary.org/wiki/lesser-known#Adjective");
-
-            URL_Add("unknown", "https://en.wiktionary.org/wiki/unknown#Adjective");
-
-            URL_Add("unknowingly", "https://en.wiktionary.org/wiki/unknowingly#Adverb");
-
-            URL_Add("unbeknownst", "https://en.wiktionary.org/wiki/unbeknownst#Adverb");
-
-            URL_Add("as-yet-unknown", "https://en.wiktionary.org/wiki/as-yet-unknown#Adjective");
 
             URL_Add("SimpleText", "https://en.wikipedia.org/wiki/SimpleText");
 
@@ -130236,8 +130234,6 @@ namespace OverflowHelper.core
             URL_Add("loses", "https://en.wiktionary.org/wiki/lose#Verb");
 
             URL_Add("losing", "https://en.wiktionary.org/wiki/lose#Verb");
-
-            URL_Add("well-known text", "https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry");
 
             URL_Add("MLIR", "https://blog.tensorflow.org/2019/04/mlir-new-intermediate-representation.html");
 
@@ -133165,8 +133161,6 @@ namespace OverflowHelper.core
 
             URL_Add("on my side", "https://en.wiktionary.org/wiki/on_one%27s_side#Prepositional_phrase");
 
-            URL_Add("you know what I mean", "https://en.wiktionary.org/wiki/YKWIM#Phrase");
-
             URL_Add("downhill", "https://en.wiktionary.org/wiki/downhill#Adverb");
 
             URL_Add("hesitate", "https://en.wiktionary.org/wiki/hesitate#Verb");
@@ -134791,8 +134785,6 @@ namespace OverflowHelper.core
 
             URL_Add("pipe()", "https://en.wikipedia.org/wiki/Anonymous_pipe#Unix");
 
-            URL_Add("DirtyPipe", "https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/DirtyPipe");
-
             URL_Add("PipeWire", "https://en.wikipedia.org/wiki/PipeWire");
 
             URL_Add("Yahoo Pipes", "https://en.wikipedia.org/wiki/Yahoo!_Pipes");
@@ -134968,8 +134960,6 @@ namespace OverflowHelper.core
             URL_Add("how come", "https://en.wiktionary.org/wiki/how_come#Adverb");
 
             URL_Add("How can I", "https://www.youtube.com/watch?v=t4yWEt0OSpg&t=1m49s");
-
-            URL_Add("How Is Babby Formed?", "https://knowyourmeme.com/memes/how-is-babby-formed");
 
             URL_Add("How-To Geek", "https://www.howtogeek.com/about/");
 
@@ -138031,8 +138021,6 @@ namespace OverflowHelper.core
 
             URL_Add("-Wuninitialized", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized");
 
-            URL_Add("-Wunknown-pragmas", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas");
-
             URL_Add("-Wunreachable-code", "https://gcc.gnu.org/onlinedocs/gcc-4.4.7/gcc/Warning-Options.html#index-Wunreachable_002dcode-437");
 
             URL_Add("-Wunused-function", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function");
@@ -138162,6 +138150,8 @@ namespace OverflowHelper.core
             URL_Add("-fdelete-null-pointer-checks", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-fdelete-null-pointer-checks");
 
             URL_Add("-Wincompatible-pointer-types", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types");
+
+            URL_Add("-Wunknown-pragmas", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas");
 
             URL_Add("collect2: error: ld returned 1 exit status", "https://stackoverflow.com/questions/16437383/linker-error-gcc");
 
@@ -139989,36 +139979,6 @@ namespace OverflowHelper.core
 
             URL_Add("subdirectories", "https://en.wiktionary.org/wiki/subdirectory#Noun");
 
-            URL_Add("truth be told", "https://en.wiktionary.org/wiki/truth_be_told#Interjection");
-
-            URL_Add("holds", "https://en.wiktionary.org/wiki/hold#Verb");
-
-            URL_Add("held", "https://en.wiktionary.org/wiki/hold#Verb");
-
-            URL_Add("upheld", "https://en.wiktionary.org/wiki/uphold#Verb");
-
-            URL_Add("get hold of", "https://en.wiktionary.org/wiki/get_hold_of#Verb");
-
-            URL_Add("gotten hold of", "https://en.wiktionary.org/wiki/get_hold_of#Verb");
-
-            URL_Add("got ahold of", "https://en.wiktionary.org/wiki/get_ahold_of#Verb");
-
-            URL_Add("hold my beer", "https://knowyourmeme.com/memes/hold-my-beer");
-
-            URL_Add("hold my horses", "https://en.wiktionary.org/wiki/hold_your_horses#Verb");
-
-            URL_Add("households", "https://en.wiktionary.org/wiki/household#Noun");
-
-            URL_Add("hand-held", "https://en.wiktionary.org/wiki/hand-held#Adjective");
-
-            URL_Add("hand-hold", "https://en.wiktionary.org/wiki/hand-hold#Verb");
-
-            URL_Add("hand-holding", "https://en.wiktionary.org/wiki/hand-hold#Verb");
-
-            URL_Add("breathholding", "https://en.wiktionary.org/wiki/breathholding#Noun");
-
-            URL_Add("don't hold your breath", "https://en.wiktionary.org/wiki/don%27t_hold_your_breath#Phrase");
-
             URL_Add("no way", "https://en.wiktionary.org/wiki/no_way#Adverb");
 
             URL_Add("delimit", "https://en.wiktionary.org/wiki/delimit#Verb");
@@ -140712,8 +140672,6 @@ namespace OverflowHelper.core
             URL_Add("you’ve", "https://en.wiktionary.org/wiki/you%27ve#Contraction");
 
             URL_Add("you’d", "https://en.wiktionary.org/wiki/you'd#Contraction");
-
-            URL_Add("you know", "https://en.wiktionary.org/wiki/you_know#Interjection");
 
             URL_Add("you’re welcome", "https://en.wiktionary.org/wiki/you%27re_welcome#Phrase");
 
@@ -141438,6 +141396,8 @@ namespace OverflowHelper.core
             URL_Add("counterexample", "https://en.wiktionary.org/wiki/counterexample#Noun");
 
             URL_Add("counterpart", "https://en.wiktionary.org/wiki/counterpart#Noun");
+
+            URL_Add("counterparts", "https://en.wiktionary.org/wiki/counterpart#Noun");
 
             URL_Add("counteract", "https://en.wiktionary.org/wiki/counteract#Verb");
 
@@ -142650,8 +142610,6 @@ namespace OverflowHelper.core
             URL_Add("let sleeping dogs lie", "https://en.wiktionary.org/wiki/let_sleeping_dogs_lie#Verb");
 
             URL_Add("dogfooding", "https://en.wiktionary.org/wiki/dogfood#Verb");
-
-            URL_Add("On the Internet, nobody knows you’re a dog", "https://en.wikipedia.org/wiki/On_the_Internet%2C_nobody_knows_you're_a_dog");
 
             URL_Add("watchdog timer", "https://en.wikipedia.org/wiki/Watchdog_timer");
 
@@ -144215,10 +144173,6 @@ namespace OverflowHelper.core
 
             URL_Add("godlike", "https://en.wiktionary.org/wiki/godlike#Adjective");
 
-            URL_Add("God knows", "https://en.wiktionary.org/wiki/God_knows#Phrase");
-
-            URL_Add("God only knows", "https://en.wiktionary.org/wiki/God_only_knows#Phrase");
-
             URL_Add("for the love of God", "https://en.wiktionary.org/wiki/for_the_love_of_God#Prepositional_phrase");
 
             URL_Add("god object", "https://en.wikipedia.org/wiki/God_object");
@@ -144370,48 +144324,6 @@ namespace OverflowHelper.core
             URL_Add("TransMac", "https://en.wikipedia.org/wiki/Apple_Disk_Image#Utilities");
 
             URL_Add("Transifex", "https://en.wikipedia.org/wiki/Transifex");
-
-            URL_Add("knowledge transfer", "https://en.wikipedia.org/wiki/Knowledge_transfer");
-
-            URL_Add("knowledge base", "https://en.wiktionary.org/wiki/knowledge_base#Noun");
-
-            URL_Add("know", "https://en.wiktionary.org/wiki/know#Verb");
-
-            URL_Add("knew", "https://en.wiktionary.org/wiki/know#Verb");
-
-            URL_Add("don't know", "https://en.wiktionary.org/wiki/I_don%27t_know#Phrase");
-
-            URL_Add("all-knowing", "https://en.wiktionary.org/wiki/all-knowing#Adjective");
-
-            URL_Add("I know", "https://en.wiktionary.org/wiki/I_know#Phrase");
-
-            URL_Add("let you know", "https://en.wiktionary.org/wiki/let_know#Verb");
-
-            URL_Add("if you didn't know", "https://en.wiktionary.org/wiki/IYDK#Phrase");
-
-            URL_Add("know-how", "https://en.wiktionary.org/wiki/know-how#Noun");
-
-            URL_Add("as far as I know", "https://en.wiktionary.org/wiki/AFAIK#Adverb"); // Old: https://en.wiktionary.org/wiki/AFAIK
-
-            URL_Add("Well, you know, that's just like, your opinion, man", "https://www.youtube.com/watch?v=V0aDEvmf5u0&t=2m43s");
-
-            URL_Add("know your customer", "https://en.wikipedia.org/wiki/Know_your_customer");
-
-            URL_Add("knowledge", "https://en.wiktionary.org/wiki/knowledge#Noun");
-
-            URL_Add("knowledgeable", "https://en.wiktionary.org/wiki/knowledgeable#Adjective");
-
-            URL_Add("zero-knowledge proof", "https://en.wikipedia.org/wiki/Zero-knowledge_proof");
-
-            URL_Add("zk-SNARK", "https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof");
-
-            URL_Add("acknowledge", "https://en.wiktionary.org/wiki/acknowledge#Verb");
-
-            URL_Add("acknowledges", "https://en.wiktionary.org/wiki/acknowledge#Verb");
-
-            URL_Add("acknowledging", "https://en.wiktionary.org/wiki/acknowledge#Verb");
-
-            URL_Add("acknowledged", "https://en.wiktionary.org/wiki/acknowledged#Adjective");
 
             URL_Add("rocket science", "https://en.wiktionary.org/wiki/rocket_science#Noun");
 
@@ -145613,7 +145525,7 @@ namespace OverflowHelper.core
 
             URL_Add("Drupal&nbsp;Answers (Stack Exchange site)", "https://drupal.stackexchange.com/tour");
 
-            URL_Add("Web&nbsp;Applications (Stack Exchange site)", "https://webapps.stackexchange.com/tour");
+            URL_Add("Web Applications (Stack Exchange site)", "https://webapps.stackexchange.com/tour");
 
             URL_Add("Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)", "https://crafts.stackexchange.com/tour");
 
@@ -151687,6 +151599,116 @@ namespace OverflowHelper.core
 
             URL_Add("favourably", "https://en.wiktionary.org/wiki/favourably#Adverb");
 
+            URL_Add("know", "https://en.wiktionary.org/wiki/know#Verb");
+
+            URL_Add("knew", "https://en.wiktionary.org/wiki/know#Verb");
+
+            URL_Add("known", "https://en.wiktionary.org/wiki/known#Adjective");
+
+            URL_Add("all-knowing", "https://en.wiktionary.org/wiki/all-knowing#Adjective");
+
+            URL_Add("well-known", "https://en.wiktionary.org/wiki/well-known#Adjective");
+
+            URL_Add("well-known text", "https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry");
+
+            URL_Add("less-known", "https://en.wiktionary.org/wiki/less-known#Adjective");
+
+            URL_Add("lesser-known", "https://en.wiktionary.org/wiki/lesser-known#Adjective");
+
+            URL_Add("unknown", "https://en.wiktionary.org/wiki/unknown#Adjective");
+
+            URL_Add("unknowingly", "https://en.wiktionary.org/wiki/unknowingly#Adverb");
+
+            URL_Add("unbeknownst", "https://en.wiktionary.org/wiki/unbeknownst#Adverb");
+
+            URL_Add("as-yet-unknown", "https://en.wiktionary.org/wiki/as-yet-unknown#Adjective");
+
+            URL_Add("I know", "https://en.wiktionary.org/wiki/I_know#Phrase");
+
+            URL_Add("you know", "https://en.wiktionary.org/wiki/you_know#Interjection");
+
+            URL_Add("don't know", "https://en.wiktionary.org/wiki/I_don%27t_know#Phrase");
+
+            URL_Add("God knows", "https://en.wiktionary.org/wiki/God_knows#Phrase");
+
+            URL_Add("God only knows", "https://en.wiktionary.org/wiki/God_only_knows#Phrase");
+
+            URL_Add("you know what I mean", "https://en.wiktionary.org/wiki/YKWIM#Phrase");
+
+            URL_Add("if you know, you know", "https://en.wiktionary.org/wiki/IYKYK#Phrase");
+
+            URL_Add("let you know", "https://en.wiktionary.org/wiki/let_know#Verb");
+
+            URL_Add("if you didn't know", "https://en.wiktionary.org/wiki/IYDK#Phrase");
+
+            URL_Add("as far as I know", "https://en.wiktionary.org/wiki/AFAIK#Adverb"); // Old: https://en.wiktionary.org/wiki/AFAIK
+
+            URL_Add("Well, you know, that's just like, your opinion, man", "https://www.youtube.com/watch?v=V0aDEvmf5u0&t=2m43s");
+
+            URL_Add("know your customer", "https://en.wikipedia.org/wiki/Know_your_customer");
+
+            URL_Add("On the Internet, nobody knows you’re a dog", "https://en.wikipedia.org/wiki/On_the_Internet%2C_nobody_knows_you're_a_dog");
+
+            URL_Add("know-how", "https://en.wiktionary.org/wiki/know-how#Noun");
+
+            URL_Add("knowledge", "https://en.wiktionary.org/wiki/knowledge#Noun");
+
+            URL_Add("knowledgeable", "https://en.wiktionary.org/wiki/knowledgeable#Adjective");
+
+            URL_Add("knowledge transfer", "https://en.wikipedia.org/wiki/Knowledge_transfer");
+
+            URL_Add("knowledge base", "https://en.wiktionary.org/wiki/knowledge_base#Noun");
+
+            URL_Add("zero-knowledge proof", "https://en.wikipedia.org/wiki/Zero-knowledge_proof");
+
+            URL_Add("zk-SNARK", "https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof");
+
+            URL_Add("acknowledge", "https://en.wiktionary.org/wiki/acknowledge#Verb");
+
+            URL_Add("acknowledges", "https://en.wiktionary.org/wiki/acknowledge#Verb");
+
+            URL_Add("acknowledging", "https://en.wiktionary.org/wiki/acknowledge#Verb");
+
+            URL_Add("acknowledged", "https://en.wiktionary.org/wiki/acknowledged#Adjective");
+
+            URL_Add("RTF", "https://en.wikipedia.org/wiki/Rich_Text_Format");
+
+            URL_Add("Type 6", "https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495#toc-hId--1163070806");
+
+            URL_Add("DirtyPipe", "https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/DirtyPipe");
+
+            URL_Add("How Is Babby Formed?", "https://knowyourmeme.com/memes/how-is-babby-formed");
+
+            URL_Add("hold my beer", "https://knowyourmeme.com/memes/hold-my-beer");
+
+            URL_Add("truth be told", "https://en.wiktionary.org/wiki/truth_be_told#Interjection");
+
+            URL_Add("holds", "https://en.wiktionary.org/wiki/hold#Verb");
+
+            URL_Add("held", "https://en.wiktionary.org/wiki/hold#Verb");
+
+            URL_Add("upheld", "https://en.wiktionary.org/wiki/uphold#Verb");
+
+            URL_Add("get hold of", "https://en.wiktionary.org/wiki/get_hold_of#Verb");
+
+            URL_Add("gotten hold of", "https://en.wiktionary.org/wiki/get_hold_of#Verb");
+
+            URL_Add("got ahold of", "https://en.wiktionary.org/wiki/get_ahold_of#Verb");
+
+            URL_Add("hold my horses", "https://en.wiktionary.org/wiki/hold_your_horses#Verb");
+
+            URL_Add("households", "https://en.wiktionary.org/wiki/household#Noun");
+
+            URL_Add("hand-held", "https://en.wiktionary.org/wiki/hand-held#Adjective");
+
+            URL_Add("hand-hold", "https://en.wiktionary.org/wiki/hand-hold#Verb");
+
+            URL_Add("hand-holding", "https://en.wiktionary.org/wiki/hand-hold#Verb");
+
+            URL_Add("breathholding", "https://en.wiktionary.org/wiki/breathholding#Noun");
+
+            URL_Add("don't hold your breath", "https://en.wiktionary.org/wiki/don%27t_hold_your_breath#Phrase");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -152031,6 +152053,26 @@ namespace OverflowHelper.core
 
             // Predecessor to Elasticsearch
             correctionAdd("compass_", "Compass_"); // Conflicts?
+
+            correctionAdd("Node_", "node_");
+
+            correctionAdd("eclipse neon_", "Eclipse v4.6 (Neon)_");
+            correctionAdd("Eclipse Neon_", "Eclipse v4.6 (Neon)_");
+            correctionAdd("eclipse-neon_", "Eclipse v4.6 (Neon)_");
+            correctionAdd("neon eclipse_", "Eclipse v4.6 (Neon)_");
+            correctionAdd("neon_", "Eclipse v4.6 (Neon)_");
+            correctionAdd("Neon_", "Eclipse v4.6 (Neon)_");
+
+            // Alternative URL:
+            //
+            //   <https://mosquitto.org/>
+            //
+            correctionAdd("Mosquitto_", "Eclipse Mosquitto_");
+            correctionAdd("Mosquito_", "Eclipse Mosquitto_");
+            correctionAdd("mosquito_", "Eclipse Mosquitto_");
+
+            // RCP = rich client platform
+            correctionAdd("RCP_", "Eclipse RCP_");
 
             correctionAdd("reduce_", "reduced_");
 
@@ -153000,9 +153042,8 @@ namespace OverflowHelper.core
             correctionAdd("Server-Sent Events_", "server-sent events_");
             correctionAdd("SSE_", "server-sent events_");
 
-            correctionAdd("Web&nbsp;Applications_", "web applications_");
-            correctionAdd("Web Applicaitons_", "web applications_");
             correctionAdd("Web Applications_", "web applications_");
+            correctionAdd("Web Applicaitons_", "web applications_");
             correctionAdd("webapplications_", "web applications_");
             correctionAdd("Web Apps_", "web applications_");
             correctionAdd("Web apps_", "web applications_");
@@ -153100,6 +153141,19 @@ namespace OverflowHelper.core
             correctionAdd("minification_", "minify_");
             correctionAdd("minified_", "minify_");
             correctionAdd("Minify_", "minify_");
+
+            correctionAdd("ext-js_", "Ext JS_");
+            correctionAdd("Ext Js_", "Ext JS_");
+            correctionAdd("EXT JS_", "Ext JS_");
+            correctionAdd("Ext-JS_", "Ext JS_");
+            correctionAdd("ExtJS_", "Ext JS_");
+            correctionAdd("ExtJs_", "Ext JS_");
+            correctionAdd("extjs_", "Ext JS_");
+            correctionAdd("extJS_", "Ext JS_");
+            correctionAdd("Extjs_", "Ext JS_");
+            correctionAdd("etxjs_", "Ext JS_");
+            correctionAdd("ext_", "Ext JS_");
+            correctionAdd("Ext_", "Ext JS_");
 
             // The HTML tag
             correctionAdd("TABLE_", "table_");
@@ -154927,7 +154981,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron firmware updater_", "Keychron Firmware Updater_");
             correctionAdd("'2.4 GHz' firmware_", "Keychron Firmware Updater_");
             correctionAdd("2.4 GHz firmware_", "Keychron Firmware Updater_");
-            correctionAdd("2.4&nbsp;GHz_", "Keychron Firmware Updater_"); // For the cross-reference
+            correctionAdd("2.4 GHz_", "Keychron Firmware Updater_"); // For the cross-reference
             correctionAdd("Firmware_", "Keychron Firmware Updater_"); // For the cross-reference
             correctionAdd("firmware_", "Keychron Firmware Updater_"); // For the cross-reference
             correctionAdd("dongle_", "Keychron Firmware Updater_"); // For the cross-reference
@@ -159102,20 +159156,6 @@ namespace OverflowHelper.core
             correctionAdd("TK_", "Tcl/Tk_");
             correctionAdd("Tk_", "Tcl/Tk_");
 
-            correctionAdd("Ext JS_", "Ext&nbsp;JS_");
-            correctionAdd("ext-js_", "Ext&nbsp;JS_");
-            correctionAdd("Ext Js_", "Ext&nbsp;JS_");
-            correctionAdd("EXT JS_", "Ext&nbsp;JS_");
-            correctionAdd("Ext-JS_", "Ext&nbsp;JS_");
-            correctionAdd("ExtJS_", "Ext&nbsp;JS_");
-            correctionAdd("ExtJs_", "Ext&nbsp;JS_");
-            correctionAdd("extjs_", "Ext&nbsp;JS_");
-            correctionAdd("extJS_", "Ext&nbsp;JS_");
-            correctionAdd("Extjs_", "Ext&nbsp;JS_");
-            correctionAdd("etxjs_", "Ext&nbsp;JS_");
-            correctionAdd("ext_", "Ext&nbsp;JS_");
-            correctionAdd("Ext_", "Ext&nbsp;JS_");
-
             // The verb
             correctionAdd("exclode_", "explode_");
 
@@ -159131,18 +159171,17 @@ namespace OverflowHelper.core
             correctionAdd("window manger_", "window manager_");
             correctionAdd("WM_", "window manager_");
 
-            correctionAdd("Windows explorer_", "Windows&nbsp;Explorer_");
-            correctionAdd("Windows Explorer_", "Windows&nbsp;Explorer_"); // Effectively self
-            correctionAdd("WINDOWS EXPLORER_", "Windows&nbsp;Explorer_");
-            correctionAdd("Windows-Explorer_", "Windows&nbsp;Explorer_");
-            correctionAdd("windows explorer_", "Windows&nbsp;Explorer_");
-            correctionAdd("Windows Explore_", "Windows&nbsp;Explorer_");
-            correctionAdd("windows explore_", "Windows&nbsp;Explorer_");
-            correctionAdd("Win Explorer_", "Windows&nbsp;Explorer_");
-            correctionAdd("win explorer_", "Windows&nbsp;Explorer_");
-            correctionAdd("explorer_", "Windows&nbsp;Explorer_"); // Overloaded term, and
+            correctionAdd("Windows explorer_", "Windows Explorer_");
+            correctionAdd("WINDOWS EXPLORER_", "Windows Explorer_");
+            correctionAdd("Windows-Explorer_", "Windows Explorer_");
+            correctionAdd("windows explorer_", "Windows Explorer_");
+            correctionAdd("Windows Explore_", "Windows Explorer_");
+            correctionAdd("windows explore_", "Windows Explorer_");
+            correctionAdd("Win Explorer_", "Windows Explorer_");
+            correctionAdd("win explorer_", "Windows Explorer_");
+            correctionAdd("explorer_", "Windows Explorer_"); // Overloaded term, and
                                              // it could mean Internet Explorer instead.
-            correctionAdd("Explorer_", "Windows&nbsp;Explorer_");
+            correctionAdd("Explorer_", "Windows Explorer_");
 
             correctionAdd("Windows server_", "Windows Server_");
             correctionAdd("windows server_", "Windows Server_");
@@ -159199,7 +159238,6 @@ namespace OverflowHelper.core
             correctionAdd("Dos_", "DOS_");
             correctionAdd("DoS_", "DOS_");
 
-            correctionAdd("Command&nbsp;Prompt_", "cmd.exe_");
             correctionAdd("Command Prompt_", "cmd.exe_"); // The official expanded name?
             correctionAdd("cmd window_", "cmd.exe_");
             correctionAdd("CMD.exe_", "cmd.exe_");
@@ -159462,12 +159500,11 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/qmk_firmware/tree/bluetooth_playground/keyboards/keychron/k10_pro>
             //     Source code. Note: In a fork and in branch "bluetooth_playground"
             //
-            correctionAdd("Keychron K11 Max_", "Keychron&nbsp;K11&nbsp;Max_");
-            correctionAdd("K11 Max_", "Keychron&nbsp;K11&nbsp;Max_");
-            correctionAdd("K11 MAX_", "Keychron&nbsp;K11&nbsp;Max_");
-            correctionAdd("k11 max_", "Keychron&nbsp;K11&nbsp;Max_");
-            correctionAdd("K11 max_", "Keychron&nbsp;K11&nbsp;Max_");
-            correctionAdd("K11_", "Keychron&nbsp;K11&nbsp;Max_");
+            correctionAdd("K11 Max_", "Keychron K11 Max_");
+            correctionAdd("K11 MAX_", "Keychron K11 Max_");
+            correctionAdd("k11 max_", "Keychron K11 Max_");
+            correctionAdd("K11 max_", "Keychron K11 Max_");
+            correctionAdd("K11_", "Keychron K11 Max_");
 
             // A 69-key (65%. Not true TKL) severely crippled wired-only
             // Alice layout (a la Microsoft Natural Keyboard)
@@ -159540,12 +159577,10 @@ namespace OverflowHelper.core
             //     Note: In Keychron's fork and, in that fork, in
             //           branch "wireless_playground"
             //
-            correctionAdd("Keychron K7 Pro_", "Keychron&nbsp;K7&nbsp;Pro_");
-            correctionAdd("K7&nbsp;Pro_", "Keychron&nbsp;K7&nbsp;Pro_");
-            correctionAdd("K 7 Pro_", "Keychron&nbsp;K7&nbsp;Pro_");
-            correctionAdd("K7-Pro_", "Keychron&nbsp;K7&nbsp;Pro_");
-            correctionAdd("K7 Pro_", "Keychron&nbsp;K7&nbsp;Pro_");
-            correctionAdd("k7 pro_", "Keychron&nbsp;K7&nbsp;Pro_");
+            correctionAdd("K 7 Pro_", "Keychron K7 Pro_");
+            correctionAdd("K7-Pro_", "Keychron K7 Pro_");
+            correctionAdd("K7 Pro_", "Keychron K7 Pro_");
+            correctionAdd("k7 pro_", "Keychron K7 Pro_");
 
             // A 70-key (65%. Not true TKL) crippled split ergonomic
             // mechanical keyboard from Dygma.
@@ -159711,7 +159746,6 @@ namespace OverflowHelper.core
             correctionAdd("keychron b1 pro_", "Keychron B1 Pro_");
             correctionAdd("Keychron b1 pro_", "Keychron B1 Pro_");
             correctionAdd("Keychron B1_", "Keychron B1 Pro_");
-            correctionAdd("B1&nbsp;Pro_", "Keychron B1 Pro_");
             correctionAdd("Keychron b1_", "Keychron B1 Pro_");
             correctionAdd("B1 Pro_", "Keychron B1 Pro_");
             correctionAdd("b1 pro_", "Keychron B1 Pro_");
@@ -160430,10 +160464,9 @@ namespace OverflowHelper.core
             //
             //     Note: In 'keyboards/lemokey', not 'keyboards/keychron'
             //
-            correctionAdd("Keychron Lemokey L1_", "Keychron&nbsp;Lemokey&nbsp;L1_");
-            correctionAdd("Lemonkey L1_", "Keychron&nbsp;Lemokey&nbsp;L1_");
-            correctionAdd("Lemokey L1_", "Keychron&nbsp;Lemokey&nbsp;L1_");
-            correctionAdd("L1_", "Keychron&nbsp;Lemokey&nbsp;L1_");
+            correctionAdd("Lemonkey L1_", "Keychron Lemokey L1_");
+            correctionAdd("Lemokey L1_", "Keychron Lemokey L1_");
+            correctionAdd("L1_", "Keychron Lemokey L1_");
 
             // A 88-key (85%. True TKL) crippled low-profile wired
             // and wireless (only Bluetooth) mechanical
@@ -161913,7 +161946,6 @@ namespace OverflowHelper.core
             correctionAdd("classic MacOS_", "Mac OS_");
             correctionAdd("MacOS_", "Mac OS_");
 
-            correctionAdd("OS&nbsp;X_", "Mac OS X_");
             correctionAdd("MAC 0S X_", "Mac OS X_"); // Uses the number zero, not the letter "O".
             correctionAdd("Mac OS-X_", "Mac OS X_");
             correctionAdd("mac os/x_", "Mac OS X_");
@@ -163337,25 +163369,22 @@ namespace OverflowHelper.core
             correctionAdd("bitcoin.se_", "Bitcoin (Stack Exchange site)_");
             correctionAdd("Bitcoin_", "Bitcoin (Stack Exchange site)_");
 
-            correctionAdd("Seasoned Advice (Stack Exchange site)_", "Seasoned&nbsp;Advice (Stack Exchange site)_");
-            correctionAdd("Seasoned&nbsp;Advice_", "Seasoned&nbsp;Advice (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Seasoned Advice_", "Seasoned&nbsp;Advice (Stack Exchange site)_"); // Sort of identity mapping"
-            correctionAdd("Cooking_", "Seasoned&nbsp;Advice (Stack Exchange site)_");
-            correctionAdd("SA_", "Seasoned&nbsp;Advice (Stack Exchange site)_");
+            correctionAdd("Seasoned Advice_", "Seasoned Advice (Stack Exchange site)_"); // Sort of identity mapping"
+            correctionAdd("Cooking_", "Seasoned Advice (Stack Exchange site)_");
+            correctionAdd("SA_", "Seasoned Advice (Stack Exchange site)_");
 
             correctionAdd("academia SE_", "Academia (Stack Exchange site)_");
             correctionAdd("Academia.SE_", "Academia (Stack Exchange site)_");
             correctionAdd("Academia_", "Academia (Stack Exchange site)_");
             correctionAdd("academia_", "Academia (Stack Exchange site)_");
 
-            correctionAdd("Psychology & Neuroscience (Stack Exchange site)_", "Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_");
-            correctionAdd("Psychology&nbsp;&&nbsp;Neuroscience_", "Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Psycology and Neurocience_", "Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_");
-            correctionAdd("Psicology and Neurocience_", "Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_");
-            correctionAdd("Psychology & Neuroscience_", "Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Psychology&Neuroscience_", "Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_");
-            correctionAdd("Psychology_", "Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_");
-            correctionAdd("psychology_", "Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_");
+            correctionAdd("Psychology&nbsp;&&nbsp;Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("Psycology and Neurocience_", "Psychology & Neuroscience (Stack Exchange site)_");
+            correctionAdd("Psicology and Neurocience_", "Psychology & Neuroscience (Stack Exchange site)_");
+            correctionAdd("Psychology & Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("Psychology&Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_");
+            correctionAdd("Psychology_", "Psychology & Neuroscience (Stack Exchange site)_");
+            correctionAdd("psychology_", "Psychology & Neuroscience (Stack Exchange site)_");
 
             correctionAdd("Science Fiction & Fantasy (Stack Exchange site)_", "Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_");
             correctionAdd("Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy_", "Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_"); // Sort of identity mapping
@@ -166613,27 +166642,6 @@ namespace OverflowHelper.core
             correctionAdd("simples_", "simplest_");
             correctionAdd("Simples_", "simplest_");
 
-            correctionAdd("Node_", "node_");
-
-            correctionAdd("Eclipse v4.6 (Neon)_", "Eclipse&nbsp;v4.6 (Neon)_"); // Sort of identity mapping
-            correctionAdd("eclipse neon_", "Eclipse&nbsp;v4.6 (Neon)_");
-            correctionAdd("Eclipse Neon_", "Eclipse&nbsp;v4.6 (Neon)_");
-            correctionAdd("eclipse-neon_", "Eclipse&nbsp;v4.6 (Neon)_");
-            correctionAdd("neon eclipse_", "Eclipse&nbsp;v4.6 (Neon)_");
-            correctionAdd("neon_", "Eclipse&nbsp;v4.6 (Neon)_");
-            correctionAdd("Neon_", "Eclipse&nbsp;v4.6 (Neon)_");
-
-            // Alternative URL:
-            //
-            //   <https://mosquitto.org/>
-            //
-            correctionAdd("Mosquitto_", "Eclipse Mosquitto_");
-            correctionAdd("Mosquito_", "Eclipse Mosquitto_");
-            correctionAdd("mosquito_", "Eclipse Mosquitto_");
-
-            // RCP = rich client platform
-            correctionAdd("RCP_", "Eclipse RCP_");
-
             // Joel Spolsky
             correctionAdd("y axis_", "label y-axis_");
             correctionAdd("y-axis_", "label y-axis_");
@@ -169016,7 +169024,7 @@ namespace OverflowHelper.core
 
             URL_Add("front-end_", "https://en.wiktionary.org/wiki/front-end#Adjective");
 
-            URL_Add("Ext&nbsp;JS_", "https://en.wikipedia.org/wiki/Ext_JS");
+            URL_Add("Ext JS_", "https://en.wikipedia.org/wiki/Ext_JS");
 
             URL_Add("clone_", "https://en.wiktionary.org/wiki/clone#Verb");
 
@@ -169752,8 +169760,6 @@ namespace OverflowHelper.core
 
             URL_Add("QML_", "https://en.wikipedia.org/wiki/QML");
 
-            URL_Add("Autodesk Fusion 360_", "https://en.wikipedia.org/wiki/Fusion_360");
-
             URL_Add("either_", "https://en.wiktionary.org/wiki/either#Pronoun");
 
             URL_Add("intact_", "https://en.wiktionary.org/wiki/intact#Adjective");
@@ -170482,10 +170488,6 @@ namespace OverflowHelper.core
 
             URL_Add("our princess is in another castle_", "https://meta.stackexchange.com/questions/1939/kbd-elements-are-way-too-intrusive/1974#1974");
 
-            URL_Add("Eclipse Mosquitto_", "https://en.wikipedia.org/wiki/Comparison_of_MQTT_implementations#Overview");
-
-            URL_Add("Eclipse&nbsp;v4.6 (Neon)_", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
-
             URL_Add("EDI_", "https://en.wikipedia.org/wiki/Electronic_data_interchange");
 
             URL_Add("über_", "https://en.wiktionary.org/wiki/%C3%BCber-#Prefix");
@@ -170605,18 +170607,6 @@ namespace OverflowHelper.core
             URL_Add("image quality_", "https://en.wikipedia.org/wiki/Image_quality");
 
             URL_Add("accept_", "https://en.wiktionary.org/wiki/accept#Verb");
-
-            URL_Add("to my knowledge_", "https://en.wiktionary.org/wiki/TMK#Adverb");
-
-            URL_Add("as far as we know_", "https://en.wiktionary.org/wiki/as_far_as_one_knows#Adverb");
-
-            URL_Add("I don't know_", "https://en.wiktionary.org/wiki/IDK#Phrase");
-
-            URL_Add("let me know_", "https://en.wiktionary.org/wiki/lmk#Phrase");
-
-            URL_Add("acknowledged_", "https://en.wiktionary.org/wiki/acknowledge#Verb");
-
-            URL_Add("acknowledgment_", "https://en.wiktionary.org/wiki/acknowledgment#Noun");
 
             URL_Add("Compass_", "https://en.wikipedia.org/wiki/Compass_Project");
 
@@ -170952,6 +170942,10 @@ namespace OverflowHelper.core
 
             URL_Add("Unified Diagnostic Services_", "https://en.wikipedia.org/wiki/Unified_Diagnostic_Services");
 
+            URL_Add("Eclipse Mosquitto_", "https://en.wikipedia.org/wiki/Comparison_of_MQTT_implementations#Overview");
+
+            URL_Add("Eclipse v4.6 (Neon)_", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
+
             URL_Add("Eclipse RCP_", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Rich_client_platform");
 
             URL_Add("tradition_", "https://en.wiktionary.org/wiki/tradition#Noun");
@@ -171110,7 +171104,7 @@ namespace OverflowHelper.core
 
             URL_Add("Windows Server 2022_", "https://en.wikipedia.org/wiki/Windows_Server_2022");
 
-            URL_Add("Windows&nbsp;Explorer_", "https://en.wikipedia.org/wiki/File_Explorer"); // Old: https://en.wikipedia.org/wiki/Windows_Explorer
+            URL_Add("Windows Explorer_", "https://en.wikipedia.org/wiki/File_Explorer"); // Old: https://en.wikipedia.org/wiki/Windows_Explorer
 
             URL_Add("Virtual&nbsp;PC_", "https://en.wikipedia.org/wiki/Windows_Virtual_PC");
 
@@ -172258,7 +172252,7 @@ namespace OverflowHelper.core
 
             URL_Add("Aviation (Stack Exchange site)_", "https://aviation.stackexchange.com/tour");
 
-            URL_Add("Seasoned&nbsp;Advice (Stack Exchange site)_", "https://cooking.stackexchange.com/tour"); // Old (blantantly wroing): https://bitcoin.stackexchange.com/tour
+            URL_Add("Seasoned Advice (Stack Exchange site)_", "https://cooking.stackexchange.com/tour"); // Old (blantantly wroing): https://bitcoin.stackexchange.com/tour
 
             URL_Add("Database&nbsp;Administrators (Stack Exchange site)_", "https://dba.stackexchange.com/tour");
 
@@ -172274,7 +172268,7 @@ namespace OverflowHelper.core
 
             URL_Add("Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_", "https://music.stackexchange.com/tour");
 
-            URL_Add("Psychology&nbsp;&&nbsp;Neuroscience (Stack Exchange site)_", "https://psychology.stackexchange.com/tour");
+            URL_Add("Psychology & Neuroscience (Stack Exchange site)_", "https://psychology.stackexchange.com/tour");
 
             URL_Add("Science&nbsp;Fiction&nbsp;&&nbsp;Fantasy (Stack Exchange site)_", "https://scifi.stackexchange.com/tour");
 
@@ -173064,9 +173058,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K10 (100%)_", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
 
-            URL_Add("Keychron&nbsp;K7&nbsp;Pro_", "https://www.keychron.com/products/keychron-k7-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K7 Pro_", "https://www.keychron.com/products/keychron-k7-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;K11&nbsp;Max_", "https://www.keychron.com/products/keychron-k11-max-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron K11 Max_", "https://www.keychron.com/products/keychron-k11-max-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;K17&nbsp;Max_", "https://www.keychron.com/products/keychron-k17-max-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -173080,7 +173074,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q65_", "https://www.keychron.com/products/keychron-q65-qmk-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Lemokey&nbsp;L1_", "https://www.keychron.com/products/lemokey-l1-qmk-via-wireless-custom-gaming-keyboard");
+            URL_Add("Keychron Lemokey L1_", "https://www.keychron.com/products/lemokey-l1-qmk-via-wireless-custom-gaming-keyboard");
 
             URL_Add("Keychron&nbsp;Lemokey&nbsp;L3_", "https://www.keychron.com/products/lemokey-l3-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -173121,6 +173115,20 @@ namespace OverflowHelper.core
             URL_Add("then_", "https://en.wiktionary.org/wiki/then#Adverb");
 
             URL_Add("list of Sonix QMK-compatible keyboards_", "https://jpe230.github.io/SonixQMKDocs/compatible_kb/#keychron");
+
+            URL_Add("Autodesk Fusion 360_", "https://en.wikipedia.org/wiki/Fusion_360");
+
+            URL_Add("I don't know_", "https://en.wiktionary.org/wiki/IDK#Phrase");
+
+            URL_Add("let me know_", "https://en.wiktionary.org/wiki/lmk#Phrase");
+
+            URL_Add("to my knowledge_", "https://en.wiktionary.org/wiki/TMK#Adverb");
+
+            URL_Add("acknowledged_", "https://en.wiktionary.org/wiki/acknowledge#Verb");
+
+            URL_Add("acknowledgment_", "https://en.wiktionary.org/wiki/acknowledgment#Noun");
+
+            URL_Add("as far as we know_", "https://en.wiktionary.org/wiki/as_far_as_one_knows#Adverb");
 
         } //addLookupData_alternativeWordSet()
 
@@ -174228,24 +174236,23 @@ namespace OverflowHelper.core
             correctionAdd("LS__", "USB 1.x__");
             correctionAdd("FS__", "USB 1.x__");
 
-            correctionAdd("USB High Bandwidth__", "USB&nbsp;2.0__");
-            correctionAdd("USB High Speed__", "USB&nbsp;2.0__");
-            correctionAdd("High-Speed__", "USB&nbsp;2.0__");
-            correctionAdd("High Speed__", "USB&nbsp;2.0__");
-            correctionAdd("high-speed__", "USB&nbsp;2.0__");
-            correctionAdd("Hispeed__", "USB&nbsp;2.0__");
-            correctionAdd("hispeed__", "USB&nbsp;2.0__");
-            correctionAdd("usb 2.0__", "USB&nbsp;2.0__");
-            correctionAdd("USB 2.0__", "USB&nbsp;2.0__");
-            correctionAdd("USB HB__", "USB&nbsp;2.0__");
-            correctionAdd("USB HS__", "USB&nbsp;2.0__");
-            correctionAdd("usb2.0__", "USB&nbsp;2.0__");
-            correctionAdd("USB 2__", "USB&nbsp;2.0__");
-            correctionAdd("Usb 2__", "USB&nbsp;2.0__");
-            correctionAdd("uSB2__", "USB&nbsp;2.0__");
-            correctionAdd("USB2__", "USB&nbsp;2.0__");
-            correctionAdd("Usb2__", "USB&nbsp;2.0__");
-            correctionAdd("HS__", "USB&nbsp;2.0__");
+            correctionAdd("USB High Bandwidth__", "USB 2.0__");
+            correctionAdd("USB High Speed__", "USB 2.0__");
+            correctionAdd("High-Speed__", "USB 2.0__");
+            correctionAdd("High Speed__", "USB 2.0__");
+            correctionAdd("high-speed__", "USB 2.0__");
+            correctionAdd("Hispeed__", "USB 2.0__");
+            correctionAdd("hispeed__", "USB 2.0__");
+            correctionAdd("usb 2.0__", "USB 2.0__");
+            correctionAdd("USB HB__", "USB 2.0__");
+            correctionAdd("USB HS__", "USB 2.0__");
+            correctionAdd("usb2.0__", "USB 2.0__");
+            correctionAdd("USB 2__", "USB 2.0__");
+            correctionAdd("Usb 2__", "USB 2.0__");
+            correctionAdd("uSB2__", "USB 2.0__");
+            correctionAdd("USB2__", "USB 2.0__");
+            correctionAdd("Usb2__", "USB 2.0__");
+            correctionAdd("HS__", "USB 2.0__");
 
             // Originally a CJK-only feature.
             //
@@ -175031,100 +175038,99 @@ namespace OverflowHelper.core
             //
             //       "VIA/Launcher driver support in wireless mode"
             //
-            correctionAdd("USB type-C plug receiver__", "2.4&nbsp;GHz__");
-            correctionAdd("usb type-c plug receiver__", "2.4&nbsp;GHz__");
-            correctionAdd("usb A receiver dongle__", "2.4&nbsp;GHz__");
-            correctionAdd("radio interference__", "2.4&nbsp;GHz__"); // For the cross-reference
-            correctionAdd("Wireless Adapter__", "2.4&nbsp;GHz__");
-            correctionAdd("wireless adapter__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 GHz Receiver__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4GHz Receiver__", "2.4&nbsp;GHz__");
-            correctionAdd("USB-C receiver__", "2.4&nbsp;GHz__");
-            correctionAdd("usb-c receiver__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 GHz Dongle__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 GHz dongle__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 ghz Dongle__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 ghz dongle__", "2.4&nbsp;GHz__");
-            correctionAdd("Keychron Link__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 Gigahertz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 Gigahurtz__", "2.4&nbsp;GHz__"); // !!!!!
-            correctionAdd("2.4 gigahertz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4ghz Dongle__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4ghz dongle__", "2.4&nbsp;GHz__");
-            correctionAdd("USB A dongle__", "2.4&nbsp;GHz__");
-            correctionAdd("WiFi dongles__", "2.4&nbsp;GHz__");
-            correctionAdd("usb A dongle__", "2.4&nbsp;GHz__");
-            correctionAdd("radio dongle__", "2.4&nbsp;GHz__");
-            correctionAdd("WiFi dongle__", "2.4&nbsp;GHz__");
-            correctionAdd("a receiver__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4GHz RF__", "2.4&nbsp;GHz__");
-            correctionAdd("receiver__", "2.4&nbsp;GHz__");
-            correctionAdd("Receiver__", "2.4&nbsp;GHz__");
-            correctionAdd("wireless__", "2.4&nbsp;GHz__"); // Keychron's internal name for folders in the source code (e.g., 'keychron/common/wireless' (in contrast to 'keychron/bluetooth', <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/bluetooth>), <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/common/wireless>). But it isn't consistent; "P2P4" and "P24" is used in other places.
-            correctionAdd("2.45 GHz__", "2.4&nbsp;GHz__");
-            correctionAdd("2 .4Ghz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 GHz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 gig__", "2.4&nbsp;GHz__");
-            correctionAdd("Keylink__", "2.4&nbsp;GHz__");
-            correctionAdd("adapter__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4GHz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4Ghz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4ghz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4gHz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.5ghz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 gHz__", "2.4&nbsp;GHz__");
-            correctionAdd("2,4 ghz__", "2.4&nbsp;GHz__");
-            correctionAdd("2,4 GHz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 GHZ__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 mhz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 MHz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 Mhz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 GhZ__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 Gzh__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 gzh__", "2.4&nbsp;GHz__");
-            correctionAdd("2,4 Ghz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.5 GHz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.5 ghz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.5 GHZ__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4GHZ__", "2.4&nbsp;GHz__");
-            correctionAdd("2,4GHZ__", "2.4&nbsp;GHz__");
-            correctionAdd("2,4ghz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 Hz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4gzh__", "2.4&nbsp;GHz__");
-            correctionAdd("G mode__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 Gz__", "2.4&nbsp;GHz__");
-            correctionAdd("DUNGLE__", "2.4&nbsp;GHz__");
-            correctionAdd("dungle__", "2.4&nbsp;GHz__");
-            correctionAdd("dongle__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4gh__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4gz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.ghz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 g__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4 G__", "2.4&nbsp;GHz__");
-            correctionAdd("2.GHz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4hz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4Hz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4Gh__", "2.4&nbsp;GHz__");
-            correctionAdd("2 GHz__", "2.4&nbsp;GHz__");
-            correctionAdd("2 ghz__", "2.4&nbsp;GHz__");
-            correctionAdd("Radio__", "2.4&nbsp;GHz__");
-            correctionAdd("radio__", "2.4&nbsp;GHz__");
-            correctionAdd("2GHz__", "2.4&nbsp;GHz__");
-            correctionAdd("2ghz__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4g__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4G__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4z__", "2.4&nbsp;GHz__");
-            correctionAdd("Link__", "2.4&nbsp;GHz__");
-            correctionAdd("link__", "2.4&nbsp;GHz__");
-            correctionAdd("2.4__", "2.4&nbsp;GHz__");
-            correctionAdd("24g__", "2.4&nbsp;GHz__");
-            correctionAdd("2,4__", "2.4&nbsp;GHz__");
-            correctionAdd("2.5__", "2.4&nbsp;GHz__");
-            correctionAdd("2.8__", "2.4&nbsp;GHz__");
-            correctionAdd("24__", "2.4&nbsp;GHz__");
-            correctionAdd("4G__", "2.4&nbsp;GHz__");
-            correctionAdd("RF__", "2.4&nbsp;GHz__"); // "RF" is often used as a synonym, e.g., for wireless mice and keyboards (in contrast to Bluetooth).
-            correctionAdd("G__", "2.4&nbsp;GHz__");
+            correctionAdd("USB type-C plug receiver__", "2.4 GHz__");
+            correctionAdd("usb type-c plug receiver__", "2.4 GHz__");
+            correctionAdd("usb A receiver dongle__", "2.4 GHz__");
+            correctionAdd("radio interference__", "2.4 GHz__"); // For the cross-reference
+            correctionAdd("Wireless Adapter__", "2.4 GHz__");
+            correctionAdd("wireless adapter__", "2.4 GHz__");
+            correctionAdd("2.4 GHz Receiver__", "2.4 GHz__");
+            correctionAdd("2.4GHz Receiver__", "2.4 GHz__");
+            correctionAdd("USB-C receiver__", "2.4 GHz__");
+            correctionAdd("usb-c receiver__", "2.4 GHz__");
+            correctionAdd("2.4 GHz Dongle__", "2.4 GHz__");
+            correctionAdd("2.4 GHz dongle__", "2.4 GHz__");
+            correctionAdd("2.4 ghz Dongle__", "2.4 GHz__");
+            correctionAdd("2.4 ghz dongle__", "2.4 GHz__");
+            correctionAdd("Keychron Link__", "2.4 GHz__");
+            correctionAdd("2.4 Gigahertz__", "2.4 GHz__");
+            correctionAdd("2.4 Gigahurtz__", "2.4 GHz__"); // !!!!!
+            correctionAdd("2.4 gigahertz__", "2.4 GHz__");
+            correctionAdd("2.4ghz Dongle__", "2.4 GHz__");
+            correctionAdd("2.4ghz dongle__", "2.4 GHz__");
+            correctionAdd("USB A dongle__", "2.4 GHz__");
+            correctionAdd("WiFi dongles__", "2.4 GHz__");
+            correctionAdd("usb A dongle__", "2.4 GHz__");
+            correctionAdd("radio dongle__", "2.4 GHz__");
+            correctionAdd("WiFi dongle__", "2.4 GHz__");
+            correctionAdd("a receiver__", "2.4 GHz__");
+            correctionAdd("2.4GHz RF__", "2.4 GHz__");
+            correctionAdd("receiver__", "2.4 GHz__");
+            correctionAdd("Receiver__", "2.4 GHz__");
+            correctionAdd("wireless__", "2.4 GHz__"); // Keychron's internal name for folders in the source code (e.g., 'keychron/common/wireless' (in contrast to 'keychron/bluetooth', <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/bluetooth>), <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/common/wireless>). But it isn't consistent; "P2P4" and "P24" is used in other places.
+            correctionAdd("2.45 GHz__", "2.4 GHz__");
+            correctionAdd("2 .4Ghz__", "2.4 GHz__");
+            correctionAdd("2.4 gig__", "2.4 GHz__");
+            correctionAdd("Keylink__", "2.4 GHz__");
+            correctionAdd("adapter__", "2.4 GHz__");
+            correctionAdd("2.4 gHz__", "2.4 GHz__");
+            correctionAdd("2,4 ghz__", "2.4 GHz__");
+            correctionAdd("2,4 GHz__", "2.4 GHz__");
+            correctionAdd("2.4 GHZ__", "2.4 GHz__");
+            correctionAdd("2.4 mhz__", "2.4 GHz__");
+            correctionAdd("2.4 MHz__", "2.4 GHz__");
+            correctionAdd("2.4 Mhz__", "2.4 GHz__");
+            correctionAdd("2.4 GhZ__", "2.4 GHz__");
+            correctionAdd("2.4 Gzh__", "2.4 GHz__");
+            correctionAdd("2.4 gzh__", "2.4 GHz__");
+            correctionAdd("2,4 Ghz__", "2.4 GHz__");
+            correctionAdd("2.5 GHz__", "2.4 GHz__");
+            correctionAdd("2.5 ghz__", "2.4 GHz__");
+            correctionAdd("2.5 GHZ__", "2.4 GHz__");
+            correctionAdd("2.4GHZ__", "2.4 GHz__");
+            correctionAdd("2,4GHZ__", "2.4 GHz__");
+            correctionAdd("2,4ghz__", "2.4 GHz__");
+            correctionAdd("2.4 Hz__", "2.4 GHz__");
+            correctionAdd("2.4gzh__", "2.4 GHz__");
+            correctionAdd("G mode__", "2.4 GHz__");
+            correctionAdd("2.4 Gz__", "2.4 GHz__");
+            correctionAdd("DUNGLE__", "2.4 GHz__");
+            correctionAdd("dungle__", "2.4 GHz__");
+            correctionAdd("dongle__", "2.4 GHz__");
+            correctionAdd("2.4GHz__", "2.4 GHz__");
+            correctionAdd("2.4Ghz__", "2.4 GHz__");
+            correctionAdd("2.4ghz__", "2.4 GHz__");
+            correctionAdd("2.4gHz__", "2.4 GHz__");
+            correctionAdd("2.5ghz__", "2.4 GHz__");
+            correctionAdd("2.4gh__", "2.4 GHz__");
+            correctionAdd("2.4gz__", "2.4 GHz__");
+            correctionAdd("2.ghz__", "2.4 GHz__");
+            correctionAdd("2.4 g__", "2.4 GHz__");
+            correctionAdd("2.4 G__", "2.4 GHz__");
+            correctionAdd("2.GHz__", "2.4 GHz__");
+            correctionAdd("2.4hz__", "2.4 GHz__");
+            correctionAdd("2.4Hz__", "2.4 GHz__");
+            correctionAdd("2.4Gh__", "2.4 GHz__");
+            correctionAdd("2 GHz__", "2.4 GHz__");
+            correctionAdd("2 ghz__", "2.4 GHz__");
+            correctionAdd("Radio__", "2.4 GHz__");
+            correctionAdd("radio__", "2.4 GHz__");
+            correctionAdd("2GHz__", "2.4 GHz__");
+            correctionAdd("2ghz__", "2.4 GHz__");
+            correctionAdd("2.4g__", "2.4 GHz__");
+            correctionAdd("2.4G__", "2.4 GHz__");
+            correctionAdd("2.4z__", "2.4 GHz__");
+            correctionAdd("Link__", "2.4 GHz__");
+            correctionAdd("link__", "2.4 GHz__");
+            correctionAdd("2.4__", "2.4 GHz__");
+            correctionAdd("24g__", "2.4 GHz__");
+            correctionAdd("2,4__", "2.4 GHz__");
+            correctionAdd("2.5__", "2.4 GHz__");
+            correctionAdd("2.8__", "2.4 GHz__");
+            correctionAdd("24__", "2.4 GHz__");
+            correctionAdd("4G__", "2.4 GHz__");
+            correctionAdd("RF__", "2.4 GHz__"); // "RF" is often used as a synonym, e.g., for wireless mice and keyboards (in contrast to Bluetooth).
+            correctionAdd("G__", "2.4 GHz__");
 
             correctionAdd("GIGA-BYTE__", "Gigabyte Technology__");
             correctionAdd("Gigebyte__", "Gigabyte Technology__");
@@ -179516,9 +179522,9 @@ namespace OverflowHelper.core
 
             URL_Add("USB 1.x__", "https://en.wikipedia.org/wiki/USB#USB_1.x");
 
-            URL_Add("USB&nbsp;2.0__", "https://en.wikipedia.org/wiki/USB#USB_2.0");
+            URL_Add("USB 2.0__", "https://en.wikipedia.org/wiki/USB#USB_2.0");
 
-            URL_Add("2.4&nbsp;GHz__", "https://en.wikipedia.org/wiki/Wi-Fi#History");
+            URL_Add("2.4 GHz__", "https://en.wikipedia.org/wiki/Wi-Fi#History");
 
             URL_Add("send__", "https://en.wiktionary.org/wiki/send#Verb");
 
@@ -179800,7 +179806,7 @@ namespace OverflowHelper.core
             correctionAdd("USB 1.x___", "USB Low Speed___"); // To get a mapping *from* the USB version
             correctionAdd("LS___", "USB Low Speed___"); // To get the "LS" / "Low Speed" association
 
-            correctionAdd("USB&nbsp;2.0___", "USB High Speed___"); // To get a mapping *from* the USB version
+            correctionAdd("USB 2.0___", "USB High Speed___"); // To get a mapping *from* the USB version
             correctionAdd("HIGH SPEED___", "USB High Speed___");
             correctionAdd("High Speed___", "USB High Speed___"); // Not strictly necessary, but we want a direct lookup
             correctionAdd("HS___", "USB High Speed___"); // To get the "HS" / "USB High Speed" association
@@ -181180,6 +181186,22 @@ namespace OverflowHelper.core
             correctionAdd("dongle firmware___", "Keychron '2.4 GHz' dongle firmware___");
             correctionAdd("firmware___", "Keychron '2.4 GHz' dongle firmware___"); // For the cross-reference
             correctionAdd("dongle___", "Keychron '2.4 GHz' dongle firmware___"); // For the cross-reference
+
+            // A 50-key (50%) crippled split ergonomic mechanical keyboard.
+            //
+            // 2 x 25 = 50 keys
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1xs0coj/comment/19se9tar4bup0/?context=3>
+            //
+            correctionAdd("Orcha Echo___", "Keychron Orca Echo___");
+            correctionAdd("Orca Echo___", "Keychron Orca Echo___");
+            correctionAdd("Orca echo___", "Keychron Orca Echo___");
+            correctionAdd("Orcha___", "Keychron Orca Echo___");
+            correctionAdd("Echo___", "Keychron Orca Echo___");
+            correctionAdd("Orca___", "Keychron Orca Echo___");
+            correctionAdd("echo___", "Keychron Orca Echo___");
 
             // For a direct text, "K series"
             correctionAdd("Keychron K10 (100%)___", "Keychron K series___");
@@ -182847,6 +182869,8 @@ namespace OverflowHelper.core
             URL_Add("&nbsp;mo___", "https://en.wikipedia.org/wiki/Month");
 
             URL_Add("Sonix___", "https://www.sonix.com.tw/article-en-915-10794");
+
+            URL_Add("Keychron Orca Echo___", "https://www.reddit.com/r/Keychron/comments/1xockmz/comment/19s711kvnr0qs/");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -185563,13 +185587,12 @@ namespace OverflowHelper.core
             correctionAdd("backslash_____", "non-US backslash key_____");
             correctionAdd("NUBS_____", "non-US backslash key_____");
 
-            correctionAdd("Space Exploration (Stack Exchange site)_____", "Space&nbsp;Exploration (Stack Exchange site)_____");
-            correctionAdd("Space&nbsp;Exploration_____", "Space&nbsp;Exploration (Stack Exchange site)_____"); // Sort of identity mapping
-            correctionAdd("space exploration_____", "Space&nbsp;Exploration (Stack Exchange site)_____");
-            correctionAdd("Space Exploration_____", "Space&nbsp;Exploration (Stack Exchange site)_____");
-            correctionAdd("Space_____", "Space&nbsp;Exploration (Stack Exchange site)_____");
-            correctionAdd("SXSE_____", "Space&nbsp;Exploration (Stack Exchange site)_____");
-            correctionAdd("SX_____", "Space&nbsp;Exploration (Stack Exchange site)_____");
+            correctionAdd("Space&nbsp;Exploration_____", "Space Exploration (Stack Exchange site)_____"); // Sort of identity mapping
+            correctionAdd("space exploration_____", "Space Exploration (Stack Exchange site)_____");
+            correctionAdd("Space Exploration_____", "Space Exploration (Stack Exchange site)_____");
+            correctionAdd("Space_____", "Space Exploration (Stack Exchange site)_____");
+            correctionAdd("SXSE_____", "Space Exploration (Stack Exchange site)_____");
+            correctionAdd("SX_____", "Space Exploration (Stack Exchange site)_____");
 
             correctionAdd("course_____", "coarse_____");
 
@@ -186768,7 +186791,7 @@ namespace OverflowHelper.core
 
             URL_Add("window_____", "https://en.wikipedia.org/wiki/Suspicious_Russia-related_deaths_since_2022");
 
-            URL_Add("Space&nbsp;Exploration (Stack Exchange site)_____", "https://space.stackexchange.com/tour");
+            URL_Add("Space Exploration (Stack Exchange site)_____", "https://space.stackexchange.com/tour");
 
             URL_Add("flux capacitor_____", "https://en.wikipedia.org/wiki/DeLorean_time_machine#Flux_capacitor"); // Old: https://en.wikipedia.org/wiki/DeLorean_time_machine
 
