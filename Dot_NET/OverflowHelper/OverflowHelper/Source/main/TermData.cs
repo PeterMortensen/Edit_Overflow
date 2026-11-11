@@ -13201,28 +13201,22 @@ namespace OverflowHelper.core
             correctionAdd("IoS", "iOS");
             correctionAdd("ioS", "iOS");
 
-            correctionAdd("iOS 6", "iOS&nbsp;6"); // Sort of identity mapping
-            correctionAdd("iOS6", "iOS&nbsp;6");
+            correctionAdd("iOS6", "iOS 6");
 
-            correctionAdd("iOS 7.0", "iOS&nbsp;7");
-            correctionAdd("iOS 7", "iOS&nbsp;7");
-            correctionAdd("iOS7", "iOS&nbsp;7");
+            correctionAdd("iOS 7.0", "iOS 7");
+            correctionAdd("iOS7", "iOS 7");
 
-            correctionAdd("iOS 8.0", "iOS&nbsp;8");
-            correctionAdd("iOS 8", "iOS&nbsp;8");
-            correctionAdd("iOS8", "iOS&nbsp;8");
+            correctionAdd("iOS 8.0", "iOS 8");
+            correctionAdd("iOS8", "iOS 8");
 
-            correctionAdd("iOS 9", "iOS&nbsp;9");
-            correctionAdd("iOS9", "iOS&nbsp;9");
+            correctionAdd("iOS9", "iOS 9");
 
-            correctionAdd("iOS-10", "iOS&nbsp;10");
-            correctionAdd("iOS 10", "iOS&nbsp;10"); // Sort of identity mapping
-            correctionAdd("iOS10", "iOS&nbsp;10");
+            correctionAdd("iOS-10", "iOS 10");
+            correctionAdd("iOS10", "iOS 10");
 
-            correctionAdd("version 11", "iOS&nbsp;11");
-            correctionAdd("iOS-11", "iOS&nbsp;11");
-            correctionAdd("iOS 11", "iOS&nbsp;11"); // Sort of identity mapping
-            correctionAdd("iOS11", "iOS&nbsp;11");
+            correctionAdd("version 11", "iOS 11");
+            correctionAdd("iOS-11", "iOS 11");
+            correctionAdd("iOS11", "iOS 11");
 
             correctionAdd("ios 13", "iOS 13");
 
@@ -14858,31 +14852,25 @@ namespace OverflowHelper.core
 
             correctionAdd("pentium", "Pentium");
 
-            correctionAdd("Pentium II", "Pentium&nbsp;II");
+            correctionAdd("Pentium 2", "Pentium II");
 
-            correctionAdd("Pentium III", "Pentium&nbsp;III");
-            correctionAdd("PentiumIII", "Pentium&nbsp;III");
-            correctionAdd("Pentium 3", "Pentium&nbsp;III");
-            correctionAdd("III", "Pentium&nbsp;III");
+            correctionAdd("PentiumIII", "Pentium III");
+            correctionAdd("Pentium 3", "Pentium III");
+            correctionAdd("III", "Pentium III");
 
-            correctionAdd("Pentium 4", "Pentium&nbsp;4"); // Sort of identity mapping
-            correctionAdd("P4", "Pentium&nbsp;4");
+            correctionAdd("P4", "Pentium 4");
 
-            correctionAdd("P5 pentium", "Pentium&nbsp;5");
-            correctionAdd("P5 Pentium", "Pentium&nbsp;5");
-            correctionAdd("Pentium 5", "Pentium&nbsp;5"); // Sort of identity mapping
-            correctionAdd("P5", "Pentium&nbsp;5");
+            correctionAdd("P5 pentium", "Pentium 5");
+            correctionAdd("P5 Pentium", "Pentium 5");
+            correctionAdd("P5", "Pentium 5");
 
-            correctionAdd("P6 pentium", "Pentium&nbsp;6");
-            correctionAdd("P6 Pentium", "Pentium&nbsp;6");
-            correctionAdd("Pentium 6", "Pentium&nbsp;6"); // Sort of identity mapping
-            correctionAdd("P6", "Pentium&nbsp;6");
+            correctionAdd("P6 pentium", "Pentium 6");
+            correctionAdd("P6 Pentium", "Pentium 6");
+            correctionAdd("P6", "Pentium 6");
 
-            correctionAdd("Pentium M", "Pentium&nbsp;M");
-            correctionAdd("Pentium-M", "Pentium&nbsp;M");
+            correctionAdd("Pentium-M", "Pentium M");
 
-            correctionAdd("Pentium Pro", "Pentium&nbsp;Pro"); // Sort of identity mapping
-            correctionAdd("PPro", "Pentium&nbsp;Pro");
+            correctionAdd("PPro", "Pentium Pro");
 
             // CPU. Intel
             correctionAdd("celeron", "Celeron");
@@ -32812,6 +32800,8 @@ namespace OverflowHelper.core
             // Idiomatic
             correctionAdd("Don't hold your breath", "don't hold your breath");
             correctionAdd("hold your breath", "don't hold your breath");
+
+            correctionAdd("hold my breath", "I wouldn’t hold my breath");
 
             // An Internet meme
             correctionAdd("Hold my beer", "hold my beer");
@@ -60255,6 +60245,7 @@ namespace OverflowHelper.core
             correctionAdd("proggraming", "programming");
             correctionAdd("protramming", "programming");
             correctionAdd("Programming", "programming");
+            correctionAdd("porgramming", "programming");
             correctionAdd("programing", "programming");
             correctionAdd("prgramming", "programming");
             correctionAdd("programmig", "programming");
@@ -88757,6 +88748,7 @@ namespace OverflowHelper.core
             //   * Based on QMK, unlike ZMK for V1 Ultra 8K
             //
             correctionAdd("V1 8K", "Keychron V1 8K");
+            correctionAdd("V1 8k", "Keychron V1 8K");
 
             // A 82-key (80%. Not true TKL) crippled wired-only
             // QMK/Via-capable mechanical keyboard with a knob
@@ -121768,15 +121760,15 @@ namespace OverflowHelper.core
 
             URL_Add("glad", "https://en.wiktionary.org/wiki/glad#Adjective");
 
-            URL_Add("iOS&nbsp;10", "https://en.wikipedia.org/wiki/IOS_10");
+            URL_Add("iOS 7", "https://en.wikipedia.org/wiki/IOS_7");
 
-            URL_Add("iOS&nbsp;11", "https://en.wikipedia.org/wiki/IOS_11");
+            URL_Add("iOS 8", "https://en.wikipedia.org/wiki/IOS_8");
 
-            URL_Add("iOS&nbsp;7", "https://en.wikipedia.org/wiki/IOS_7");
+            URL_Add("iOS 9", "https://en.wikipedia.org/wiki/IOS_9");
 
-            URL_Add("iOS&nbsp;8", "https://en.wikipedia.org/wiki/IOS_8");
+            URL_Add("iOS 10", "https://en.wikipedia.org/wiki/IOS_10");
 
-            URL_Add("iOS&nbsp;9", "https://en.wikipedia.org/wiki/IOS_9");
+            URL_Add("iOS 11", "https://en.wikipedia.org/wiki/IOS_11");
 
             URL_Add("abomination", "https://en.wiktionary.org/wiki/abomination#Noun");
 
@@ -127168,7 +127160,7 @@ namespace OverflowHelper.core
 
             URL_Add("in a pinch", "https://en.wiktionary.org/wiki/in_a_pinch#Prepositional_phrase");
 
-            URL_Add("iOS&nbsp;6", "https://en.wikipedia.org/wiki/IOS_6");
+            URL_Add("iOS 6", "https://en.wikipedia.org/wiki/IOS_6");
 
             URL_Add("nominally", "https://en.wiktionary.org/wiki/nominally#Adverb");
 
@@ -139296,19 +139288,19 @@ namespace OverflowHelper.core
 
             URL_Add("Pentium", "https://en.wikipedia.org/wiki/Pentium");
 
-            URL_Add("Pentium&nbsp;II", "https://en.wikipedia.org/wiki/Pentium_II");
+            URL_Add("Pentium II", "https://en.wikipedia.org/wiki/Pentium_II");
 
-            URL_Add("Pentium&nbsp;III", "https://en.wikipedia.org/wiki/Pentium_III");
+            URL_Add("Pentium III", "https://en.wikipedia.org/wiki/Pentium_III");
 
-            URL_Add("Pentium&nbsp;4", "https://en.wikipedia.org/wiki/Pentium_4");
+            URL_Add("Pentium 4", "https://en.wikipedia.org/wiki/Pentium_4");
 
-            URL_Add("Pentium&nbsp;5", "https://en.wikipedia.org/wiki/P5_%28microarchitecture%29");
+            URL_Add("Pentium 5", "https://en.wikipedia.org/wiki/P5_%28microarchitecture%29");
 
-            URL_Add("Pentium&nbsp;6", "https://en.wikipedia.org/wiki/P6_(microarchitecture)");
+            URL_Add("Pentium 6", "https://en.wikipedia.org/wiki/P6_(microarchitecture)");
 
-            URL_Add("Pentium&nbsp;M", "https://en.wikipedia.org/wiki/Pentium_M");
+            URL_Add("Pentium M", "https://en.wikipedia.org/wiki/Pentium_M");
 
-            URL_Add("Pentium&nbsp;Pro", "https://en.wikipedia.org/wiki/Pentium_Pro");
+            URL_Add("Pentium Pro", "https://en.wikipedia.org/wiki/Pentium_Pro");
 
             URL_Add("reach", "https://en.wiktionary.org/wiki/reach#Verb");
 
@@ -151544,6 +151536,8 @@ namespace OverflowHelper.core
 
             URL_Add("don't hold your breath", "https://en.wiktionary.org/wiki/don%27t_hold_your_breath#Phrase");
 
+            URL_Add("I wouldn’t hold my breath", "https://en.wiktionary.org/wiki/hold_one%27s_breath#Verb");
+
             URL_Add("rule", "https://en.wiktionary.org/wiki/rule#Noun");
 
             URL_Add("rules", "https://en.wiktionary.org/wiki/rule#Noun");
@@ -161134,6 +161128,7 @@ namespace OverflowHelper.core
             //      Though 'tomsguide.com' may be deceptive (too
             //      close to 'www.tomshardware.com')
             //
+            correctionAdd("Keychron K10 (100%) (proprietary keyboard firmware, not open source)_", "Keychron K10 V2 (100%)_"); // For the cross-reference
             correctionAdd("K10 qmk version 2_", "Keychron K10 V2 (100%)_");
             correctionAdd("k10 QMK version 2_", "Keychron K10 V2 (100%)_");
             correctionAdd("k10 qmk version 2_", "Keychron K10 V2 (100%)_");
@@ -161147,6 +161142,7 @@ namespace OverflowHelper.core
             correctionAdd("k10 v2_", "Keychron K10 V2 (100%)_");
             correctionAdd("k10 V2_", "Keychron K10 V2 (100%)_");
             correctionAdd("K10X_", "Keychron K10 V2 (100%)_"); // K10 V2 (QMK-based) has "K10X" in the SKU number
+            correctionAdd("K10_", "Keychron K10 V2 (100%)_");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -163291,34 +163287,30 @@ namespace OverflowHelper.core
             correctionAdd("Artificial Intelligence_", "Artificial Intelligence (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("ai_", "Artificial Intelligence (Stack Exchange site)_");
 
-            correctionAdd("User Experience (Stack Exchange site)_", "User&nbsp;Experience (Stack Exchange site)_");
-            correctionAdd("User&nbsp;Experience_", "User&nbsp;Experience (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("UX Stack Exchange_", "User&nbsp;Experience (Stack Exchange site)_");
-            correctionAdd("User Experience_", "User&nbsp;Experience (Stack Exchange site)_");
-            correctionAdd("Ux_", "User&nbsp;Experience (Stack Exchange site)_");
-            correctionAdd("UX_", "User&nbsp;Experience (Stack Exchange site)_");
+            correctionAdd("UX Stack Exchange_", "User Experience (Stack Exchange site)_");
+            correctionAdd("User Experience_", "User Experience (Stack Exchange site)_");
+            correctionAdd("Ux_", "User Experience (Stack Exchange site)_");
+            correctionAdd("UX_", "User Experience (Stack Exchange site)_");
 
             correctionAdd("Chemistry SE_", "Chemistry (Stack Exchange site)_");
             correctionAdd("chemistry SE_", "Chemistry (Stack Exchange site)_");
             correctionAdd("Chemistry.SE_", "Chemistry (Stack Exchange site)_");
+            correctionAdd("Chemistry.se_", "Chemistry (Stack Exchange site)_");
+            correctionAdd("chemistry.se_", "Chemistry (Stack Exchange site)_");
             correctionAdd("Chemistry_", "Chemistry (Stack Exchange site)_"); // Sort of identity mapping"
             correctionAdd("chemistry_", "Chemistry (Stack Exchange site)_");
-            correctionAdd("Chemistry.se_", "Chemistry (Stack Exchange site)_");
             correctionAdd("ChemSE_", "Chemistry (Stack Exchange site)_");
-            correctionAdd("chemistry.se_", "Chemistry (Stack Exchange site)_");
 
-            correctionAdd("Electrical Engineering (Stack Exchange site)_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
-            correctionAdd("Electrical&nbsp;Engineering_", "Electrical&nbsp;Engineering (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Electrical Engineering SE_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
-            correctionAdd("Electrical Engineering_", "Electrical&nbsp;Engineering (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("electrical engineering_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
-            correctionAdd("Electronics_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
-            correctionAdd("electronics_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
-            correctionAdd("Electrical_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
-            correctionAdd("SE EE_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
-            correctionAdd("EE.SE_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
-            correctionAdd("EE SE_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
-            correctionAdd("EE_", "Electrical&nbsp;Engineering (Stack Exchange site)_");
+            correctionAdd("Electrical Engineering SE_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("Electrical Engineering_", "Electrical Engineering (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("electrical engineering_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("Electronics_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("electronics_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("Electrical_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("SE EE_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("EE.SE_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("EE SE_", "Electrical Engineering (Stack Exchange site)_");
+            correctionAdd("EE_", "Electrical Engineering (Stack Exchange site)_");
 
             correctionAdd("Islam SE_", "Islam (Stack Exchange site)_");
             correctionAdd("Islam_", "Islam (Stack Exchange site)_"); // Sort of identity mapping
@@ -163376,7 +163368,6 @@ namespace OverflowHelper.core
             correctionAdd("Academia_", "Academia (Stack Exchange site)_");
             correctionAdd("academia_", "Academia (Stack Exchange site)_");
 
-            correctionAdd("Psychology&nbsp;&&nbsp;Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("Psycology and Neurocience_", "Psychology & Neuroscience (Stack Exchange site)_");
             correctionAdd("Psicology and Neurocience_", "Psychology & Neuroscience (Stack Exchange site)_");
             correctionAdd("Psychology & Neuroscience_", "Psychology & Neuroscience (Stack Exchange site)_"); // Sort of identity mapping
@@ -172296,11 +172287,11 @@ namespace OverflowHelper.core
 
             URL_Add("Engineering (Stack Exchange site)_", "https://engineering.stackexchange.com/tour");
 
-            URL_Add("Electrical&nbsp;Engineering (Stack Exchange site)_", "https://electronics.stackexchange.com/tour");
+            URL_Add("Electrical Engineering (Stack Exchange site)_", "https://electronics.stackexchange.com/tour");
 
             URL_Add("Mathematica (Stack Exchange site)_", "https://mathematica.stackexchange.com/tour");
 
-            URL_Add("User&nbsp;Experience (Stack Exchange site)_", "https://ux.stackexchange.com/tour");
+            URL_Add("User Experience (Stack Exchange site)_", "https://ux.stackexchange.com/tour");
 
             URL_Add("Writing (Stack Exchange site)_", "https://writing.stackexchange.com/tour");
 
