@@ -22403,6 +22403,8 @@ namespace OverflowHelper.core
             correctionAdd("scotish", "Scottish");
             correctionAdd("Scotish", "Scottish");
 
+            correctionAdd("glasgow", "Glasgow");
+
             correctionAdd("loch ness", "Loch Ness Monster");
             correctionAdd("Loch Ness", "Loch Ness Monster");
 
@@ -27210,6 +27212,7 @@ namespace OverflowHelper.core
             correctionAdd("alreayd", "already");
             correctionAdd("alrealy", "already");
             correctionAdd("arleady", "already");
+            correctionAdd("akready", "already"); // A true typo
             correctionAdd("alredy", "already");
             correctionAdd("aready", "already");
             correctionAdd("alread", "already");
@@ -35890,6 +35893,7 @@ namespace OverflowHelper.core
             correctionAdd("borwser", "browser");
             correctionAdd("brower", "browser");
 
+            correctionAdd("browseable", "browsable");
             correctionAdd("browable", "browsable");
 
             correctionAdd("Web browser", "web browser");
@@ -38258,6 +38262,7 @@ namespace OverflowHelper.core
             correctionAdd("doube", "double");
             correctionAdd("duble", "double");
             correctionAdd("Duble", "double");
+            correctionAdd("2ble", "double");
             correctionAdd("dbl", "double");
 
             correctionAdd("doubledness", "doubleness");
@@ -57616,6 +57621,7 @@ namespace OverflowHelper.core
             correctionAdd("thinkig", "thinking");
             correctionAdd("Thnking", "thinking");
             correctionAdd("thnking", "thinking");
+            correctionAdd("thinkng", "thinking");
 
             correctionAdd("re-think", "rethink");
 
@@ -65883,12 +65889,55 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/ThereminGoat/switch-scores/blob/master/1-Composite%20Overall%20Total%20Score%20Sheet%20.csv>
             //     A long list of switches for mechanical keyboards,
-            //     with
+            //     sorted by a score
+            //
+            //     Now broken... (trailing space) Probably:
+            //
+            //       <https://github.com/ThereminGoat/switch-scores/blob/master/1-Composite%20Overall%20Total%20Score%20Sheet.csv>
+            //
+            //     E.g.,
+            //
+            //       187: Keychron Super Banana (2024-12-22)
+            //              <https://github.com/ThereminGoat/switch-scores/blob/master/Keychron%20Super%20Banana.pdf>
+            //
+            //              <https://github.com/ThereminGoat/force-curves/tree/main/Keychron%20Super%20Banana>
+            //                Not browsable... The repository is nearly 2 GB...
+            //
+            //                Also for Keychron:
+            //
+            //                  Gateron Phantom Brown
+            //                  KPro Banana
+            //                  KPro Blue
+            //                  KPro Brown
+            //                  KPro Mint
+            //                  KPro Red
+            //                  KPro Silent White
+            //                  KPro Silver
+            //                  KPro Yellow
+            //                  Low Pro Banana
+            //                  Low Profile Banana
+            //                  Low Profile Brown
+            //                  Low Profile Mint
+            //                  Low Profile Silent Red
+            //                  Low Pro Red
+            //                  Red (Clear_Black)
+            //                  Silent Banana
+            //                  Super Banana
+            //                  Super Brown
+            //                  Super Red
+            //                  x Gateron Aurora
+            //                  x Gateron Dawn
+            //                  x Gateron Nebula
+            //                  x Gateron Phantom Yellow
+            //                  x Huano Geisha
             //
             //     Reviews at, e.g.,
+            //
             //       <https://www.reddit.com/user/ThereminGoat/>
             //
             //       <https://www.theremingoat.com/blog/gateron-dual-rail-magnetic-orange-switch-review>
+            //         Gateron dual-rail magnetic Orange switch review
+            //
             //         Broken without JavaScript allowed from 'typekit.net'
             //
             //     Example score sheets, with explanations (use
@@ -72134,17 +72183,6 @@ namespace OverflowHelper.core
             correctionAdd("Thomas", "Chyrosran22");
             correctionAdd("chyros", "Chyrosran22");
             correctionAdd("thomas", "Chyrosran22");
-
-            // Essentially a blogger: Mechanical keyboards, in
-            // particular switches
-            //
-            // Alternative URLs:
-            //
-            //   <https://github.com/ThereminGoat/switch-scores>
-            //   <https://github.com/ThereminGoat/force-curves>
-            //   <https://github.com/ThereminGoat/keyswitch_documentation>
-            //
-            correctionAdd("theremin", "ThereminGoat");
 
             correctionAdd("luamacros", "LuaMacros");
 
@@ -80947,6 +80985,8 @@ namespace OverflowHelper.core
             correctionAdd("updatet", "updated");
             correctionAdd("Updatet", "updated");
             correctionAdd("updted", "updated");
+            correctionAdd("Udated", "updated");
+            correctionAdd("udated", "updated");
 
             correctionAdd("updateable", "updatable");
 
@@ -83308,8 +83348,8 @@ namespace OverflowHelper.core
             correctionAdd("raspbi", "Raspbian");
 
             // Raspberry Pi
-            correctionAdd("Buster", "Raspbian 10 (Buster)"); // Note: Can be confused with "Debian 10 (Buster)"
             correctionAdd("raspbian buster", "Raspbian 10 (Buster)");
+            correctionAdd("Buster", "Raspbian 10 (Buster)"); // Note: Can be confused with "Debian 10 (Buster)"
 
             // Raspberry Pi. Renamed from Raspbian
             // Formerly Raspbian
@@ -133610,21 +133650,11 @@ namespace OverflowHelper.core
 
             URL_Add("here’re", "https://en.wiktionary.org/wiki/here%27re#Contraction");
 
-            URL_Add("ThereminGoat", "https://github.com/ThereminGoat");
-
             URL_Add("requested", "https://en.wiktionary.org/wiki/request#Verb");
 
             URL_Add("Requests", "https://requests.readthedocs.io/en/latest/"); // Old: https://docs.python-requests.org/en/v2.2.1/user/authentication/
 
             URL_Add("GRequests", "https://github.com/spyoungtech/grequests");
-
-            URL_Add("nunchucks", "https://www.merriam-webster.com/dictionary/nunchuck");
-
-            URL_Add("Chuck Moore", "https://en.wikipedia.org/wiki/Charles_H._Moore");
-
-            URL_Add("Chuck Norris", "https://en.wikipedia.org/wiki/Chuck_Norris_facts"); // Old: https://en.wikipedia.org/wiki/Chuck_Norris
-
-            URL_Add("Chuck Norris question", "https://stackoverflow.com/questions/8318911/why-does-html-think-chucknorris-is-a-color");
 
             URL_Add("pytest", "https://docs.pytest.org/en/stable/");
 
@@ -147840,6 +147870,8 @@ namespace OverflowHelper.core
 
             URL_Add("Scottish", "https://en.wiktionary.org/wiki/Scottish#Adjective");
 
+            URL_Add("Glasgow", "https://en.wikipedia.org/wiki/Glasgow");
+
             URL_Add("British Medical Association", "https://en.wikipedia.org/wiki/British_Medical_Association");
 
             URL_Add("Loch Ness Monster", "https://en.wikipedia.org/wiki/Loch_Ness_Monster");
@@ -150540,8 +150572,6 @@ namespace OverflowHelper.core
 
             URL_Add("forever", "https://en.wiktionary.org/wiki/forever#Adverb");
 
-            URL_Add("Trump", "https://en.wikipedia.org/wiki/Donald_Trump");
-
             URL_Add("neckbeard", "https://en.wiktionary.org/wiki/neckbeard#Noun");
 
             URL_Add("Population I stars", "https://en.wikipedia.org/wiki/Stellar_population#Population_I_stars");
@@ -151066,7 +151096,13 @@ namespace OverflowHelper.core
 
             URL_Add("StepMania", "https://en.wikipedia.org/wiki/StepMania");
 
-            URL_Add("Stephen Hawking", "https://en.wikipedia.org/wiki/Stephen_Hawking");
+            URL_Add("nunchucks", "https://www.merriam-webster.com/dictionary/nunchuck");
+
+            URL_Add("Chuck Moore", "https://en.wikipedia.org/wiki/Charles_H._Moore");
+
+            URL_Add("Chuck Norris", "https://en.wikipedia.org/wiki/Chuck_Norris_facts"); // Old: https://en.wikipedia.org/wiki/Chuck_Norris
+
+            URL_Add("Chuck Norris question", "https://stackoverflow.com/questions/8318911/why-does-html-think-chucknorris-is-a-color");
 
             URL_Add("Charles Petzold", "https://en.wikipedia.org/wiki/Charles_Petzold");
 
@@ -151084,45 +151120,49 @@ namespace OverflowHelper.core
 
             URL_Add("Casey Muratori", "https://www.youtube.com/watch?v=wo84LFzx5nI");
 
+            URL_Add("Steve Gibson", "https://en.wikipedia.org/wiki/Steve_Gibson_(computer_programmer)");
+
             URL_Add("Gary Kildall", "https://en.wikipedia.org/wiki/Gary_Kildall");
 
-            URL_Add("Mona Lisa", "https://en.wikipedia.org/wiki/Mona_Lisa");
+            URL_Add("Bill Joy", "https://en.wikipedia.org/wiki/Bill_Joy");
+
+            URL_Add("Paul Graham", "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)");
+
+            URL_Add("Andrew Koenig", "https://en.wikipedia.org/wiki/Andrew_Koenig_(programmer)");
+
+            URL_Add("Paul Hudak", "https://en.wikipedia.org/wiki/Paul_Hudak");
+
+            URL_Add("Alvin Toffler", "https://en.wikipedia.org/wiki/Alvin_Toffler");
+
+            URL_Add("Stephen Hawking", "https://en.wikipedia.org/wiki/Stephen_Hawking");
 
             URL_Add("Lear Siegler", "https://en.wikipedia.org/wiki/Lear_Siegler#Computer_terminals");
 
-            URL_Add("Antichrist", "https://en.wiktionary.org/wiki/Antichrist#Proper_noun");
-
-            URL_Add("Lord Voldemort", "https://harrypotter.fandom.com/wiki/Tom_Riddle");
+            URL_Add("John Green", "https://en.wikipedia.org/wiki/John_Green");
 
             URL_Add("Johnny Depp", "https://en.wikipedia.org/wiki/Johnny_Depp");
 
             URL_Add("Arnold Schwarzenegger", "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger");
 
-            URL_Add("John Green", "https://en.wikipedia.org/wiki/John_Green");
-
-            URL_Add("Bill Joy", "https://en.wikipedia.org/wiki/Bill_Joy");
-
-            URL_Add("Alvin Toffler", "https://en.wikipedia.org/wiki/Alvin_Toffler");
-
             URL_Add("Martin Landau", "https://en.wikipedia.org/wiki/Martin_Landau");
-
-            URL_Add("Steve Gibson", "https://en.wikipedia.org/wiki/Steve_Gibson_(computer_programmer)");
-
-            URL_Add("Andrew Koenig", "https://en.wikipedia.org/wiki/Andrew_Koenig_(programmer)");
-
-            URL_Add("Paul Graham", "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)");
-
-            URL_Add("Paul Hudak", "https://en.wikipedia.org/wiki/Paul_Hudak");
 
             URL_Add("Ted Turner", "https://en.wikipedia.org/wiki/Ted_Turner");
 
             URL_Add("Scott Morrison", "https://en.wikipedia.org/wiki/Scott_Morrison");
 
-            URL_Add("Joe Biden", "https://en.wikipedia.org/wiki/Joe_Biden");
+            URL_Add("George W. Bush", "https://en.wikipedia.org/wiki/George_W._Bush");
 
             URL_Add("Barack Obama", "https://en.wikipedia.org/wiki/Barack_Obama");
 
-            URL_Add("George W. Bush", "https://en.wikipedia.org/wiki/George_W._Bush");
+            URL_Add("Joe Biden", "https://en.wikipedia.org/wiki/Joe_Biden");
+
+            URL_Add("Trump", "https://en.wikipedia.org/wiki/Donald_Trump");
+
+            URL_Add("Antichrist", "https://en.wiktionary.org/wiki/Antichrist#Proper_noun");
+
+            URL_Add("Lord Voldemort", "https://harrypotter.fandom.com/wiki/Tom_Riddle");
+
+            URL_Add("Mona Lisa", "https://en.wikipedia.org/wiki/Mona_Lisa");
 
             URL_Add("Lego", "https://en.wikipedia.org/wiki/Lego");
 
@@ -160845,6 +160885,15 @@ namespace OverflowHelper.core
             //           But the source code was not released until
             //           2025-03-28 (it is Keychron, after all)
             //
+            //           Sample variant:
+            //
+            //             <https://www.keychron.com/products/keychron-k5-qmk-wireless-mechanical-keyboard-version-2?variant=42078859690073>
+            //               K5X-B1
+            //
+            //               Soldered-in switches (not hot-swappable).
+            //               That is, even the K5 QMK series has
+            //               soldered-in variants ('ANSI' only)
+            //
             //   * Completely separate product page for the special
             //     edition (SE), without (sadly) any cross linking:
             //
@@ -160886,18 +160935,21 @@ namespace OverflowHelper.core
             //
             //       <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k5_version_2>
             //
-            correctionAdd("K5 QMK Version 2_", "Keychron K5_");
-            correctionAdd("K5 QMK version 2_", "Keychron K5_");
-            correctionAdd("K5 version 2_", "Keychron K5_");
-            correctionAdd("K5 QMK v2_", "Keychron K5_"); // K5 V2
-            correctionAdd("K5 QMK_", "Keychron K5_"); // K5 V2
-            correctionAdd("K5 V2_", "Keychron K5_"); // Or maybe a whole new series, K QMK series. Thus, K5 QMK
-            correctionAdd("K5 v2_", "Keychron K5_"); // K5 V2
-            correctionAdd("k5 v2_", "Keychron K5_"); // K5 V2
-            correctionAdd("k5v2_", "Keychron K5_"); // K5 V2
-            correctionAdd("K5X_", "Keychron K5_"); // K5 V2 (QMK-based) has "K5X" in the SKU number
-            correctionAdd("K5_", "Keychron K5_");
-            correctionAdd("k5_", "Keychron K5_");
+            correctionAdd("K5 QMK Version 2_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("K5 QMK version 2_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("K5 version 2_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("Keychron K5_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("K5 QMK v2_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_"); // K5 V2
+            correctionAdd("K5 QMK_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_"); // K5 V2
+            correctionAdd("K5 V2_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_"); // Or maybe a whole new series, K QMK series. Thus, K5 QMK
+            correctionAdd("K5 v2_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_"); // K5 V2
+            correctionAdd("k5 v2_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_"); // K5 V2
+            correctionAdd("k5v2_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_"); // K5 V2
+            correctionAdd("K5X-B1_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_"); // A variant of the K5 V2 AKA K5 QMK (soldered-in switches)
+            correctionAdd("k5x-B1_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("K5X_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_"); // K5 V2 (QMK-based) has "K5X" in the SKU number
+            correctionAdd("K5_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("k5_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_");
 
             // A 105-key (100%. Not true TKL) full-size non-crippled
             // wired and wireless (only Bluetooth) mechanical
@@ -173036,7 +173088,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K3_", "https://www.keychron.com/collections/k3-iso-keyboards/products/keychron-k3-ultra-slim-wireless-mechanical-keyboard-nordic-iso-layout-version-2");
 
-            URL_Add("Keychron K5_", "https://www.keychron.com/products/keychron-k5-ultra-slim-wireless-mechanical-keyboard");
+            URL_Add("Keychron K5 (100%) (proprietary keyboard firmware, not open source)_", "https://www.keychron.com/products/keychron-k5-ultra-slim-wireless-mechanical-keyboard");
 
             URL_Add("Keychron K10 (100%)_", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
 
@@ -174330,6 +174382,36 @@ namespace OverflowHelper.core
             correctionAdd("ball bearing__", "bearing ball__");
             correctionAdd("bb__", "bearing ball__");
             correctionAdd("BB__", "bearing ball__");
+
+            // Mechanical keyboards, in particular switches
+            //
+            // Essentially a blogger: Mechanical keyboards, in
+            // particular switches
+            //
+            // Blog: 'ThereminGoat Switches' (started 2020-03-11)
+            //
+            // GitHub: <https://www.reddit.com/user/ThereminGoat/>
+            //
+            // Reddit: <https://www.reddit.com/user/ThereminGoat/>
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/ThereminGoat/>
+            //
+            //     <https://github.com/ThereminGoat/keyswitch_documentation>
+            //     
+            //     <https://github.com/ThereminGoat/switch-scores/blob/master/1-Composite%20Overall%20Total%20Score%20Sheet%20.csv>
+            //       A long list of switches for mechanical keyboards
+            //     
+            //     <https://github.com/ThereminGoat/switch-scores>
+            //     <https://github.com/ThereminGoat/force-curves>
+            //
+            correctionAdd("therameningoat__", "Jesse Vincent__");
+            correctionAdd("ThereminGoat__", "Jesse Vincent__");
+            correctionAdd("theremingoat__", "Jesse Vincent__");
+            correctionAdd("theremin__", "Jesse Vincent__");
+            correctionAdd("Mr. Goat__", "Jesse Vincent__");
+            correctionAdd("GOAT__", "Jesse Vincent__");
 
             // A type of switch for mechanical keyboards
             //
@@ -178428,6 +178510,8 @@ namespace OverflowHelper.core
             URL_Add("half__", "https://en.wiktionary.org/wiki/half#Noun");
 
             URL_Add("problems__", "https://en.wiktionary.org/wiki/problem#Noun");
+
+            URL_Add("Jesse Vincent__", "https://www.theremingoat.com/");
 
             URL_Add("Akko Penguin switches (silent)__", "https://www.youtube.com/watch?v=SRrgxX1uDHw&t=7s");
 
