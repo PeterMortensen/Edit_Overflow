@@ -8348,7 +8348,10 @@ namespace OverflowHelper.core
             correctionAdd("Mantic", "Ubuntu 23.10 (Mantic Minotaur)");
             correctionAdd("23.10", "Ubuntu 23.10 (Mantic Minotaur)");
 
+            correctionAdd("Ubuntu Noble 24.0.4", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu noble 24.0.4", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("Ubuntu noble 24.04", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("Ubuntu Noble 24.04", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("Ubuntu 24.04", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("ubuntu 24.04", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("ubuntu 24.01", "Ubuntu 24.04 (Noble Numbat)"); // Probably 24.04.01
@@ -8361,6 +8364,7 @@ namespace OverflowHelper.core
             correctionAdd("ubuntu 24", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("Ubuntu 24", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("Numbat", "Ubuntu 24.04 (Noble Numbat)");
+            correctionAdd("24.0.4", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("Noble", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("24.04", "Ubuntu 24.04 (Noble Numbat)");
             correctionAdd("noble", "Ubuntu 24.04 (Noble Numbat)");
@@ -11153,47 +11157,49 @@ namespace OverflowHelper.core
             correctionAdd("down't", "don’t");
             correctionAdd("do not", "don’t");
             correctionAdd("don\"t", "don’t");
+            correctionAdd("donot", "don’t");
+            correctionAdd("Donmt", "don’t");
+            correctionAdd("donmt", "don’t");
+            correctionAdd("doknt", "don’t");
+            correctionAdd("donnt", "don’t");
+            correctionAdd("dondt", "don’t");
+            correctionAdd("don;t", "don’t");
+            correctionAdd("Don;t", "don’t");
             correctionAdd("dom't", "don’t");
+            correctionAdd("don’y", "don’t");
+            correctionAdd("don,t", "don’t");
             correctionAdd("don't", "don’t");
             correctionAdd("don´t", "don’t");
             correctionAdd("don`t", "don’t");
             correctionAdd("Don`t", "don’t");
             correctionAdd("DON'T", "don’t");
             correctionAdd("Don't", "don’t");
-            correctionAdd("don;t", "don’t");
-            correctionAdd("don’y", "don’t");
-            correctionAdd("don,t", "don’t");
-            correctionAdd("Dont'", "don’t");
-            correctionAdd("donnt", "don’t");
             correctionAdd("Don´t", "don’t");
             correctionAdd("don'n", "don’t");
-            correctionAdd("donot", "don’t");
-            correctionAdd("Don;t", "don’t");
-            correctionAdd("dont'", "don’t");
-            correctionAdd("doknt", "don’t");
-            correctionAdd("dondt", "don’t");
-            correctionAdd("don'r", "don’t");
-            correctionAdd("Donmt", "don’t");
-            correctionAdd("donmt", "don’t");
-            correctionAdd("do'nt", "don’t");
-            correctionAdd("con't", "don’t");
             correctionAdd("don’g", "don’t"); // A true typo!
+            correctionAdd("don'r", "don’t");
+            correctionAdd("do'nt", "don’t");
+            correctionAdd("dont'", "don’t");
             correctionAdd("d'ont", "don’t");
-            correctionAdd("Dn't", "don’t");
+            correctionAdd("Dont'", "don’t");
+            correctionAdd("con't", "don’t");
+            correctionAdd("non't", "don’t");
             correctionAdd("dont", "don’t");
             correctionAdd("Dont", "don’t"); // Not 100% correct - case.
-            correctionAdd("do't", "don’t");
-            correctionAdd("donw", "don’t");
-            correctionAdd("dond", "don’t");
             correctionAdd("DONT", "don’t");
-            correctionAdd("do t", "don’t");
+            correctionAdd("cont", "don’t");
+            correctionAdd("nont", "don’t");
+            correctionAdd("dond", "don’t");
+            correctionAdd("donw", "don’t");
             correctionAdd("dotn", "don’t");
             correctionAdd("dokt", "don’t");
             correctionAdd("Domt", "don’t");
             correctionAdd("domt", "don’t");
+            correctionAdd("do t", "don’t");
+            correctionAdd("Dn't", "don’t");
+            correctionAdd("do't", "don’t");
             correctionAdd("d'on", "don’t");
             correctionAdd("dn't", "don’t");
-            correctionAdd("cont", "don’t");
             correctionAdd("on't", "don’t");
             correctionAdd("ont", "don’t");
             correctionAdd("dun", "don’t");
@@ -24522,7 +24528,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Magnetic", "magnetic");
             correctionAdd("megnetic", "magnetic");
-            correctionAdd("magentig", "magnetic");
+            correctionAdd("magentig", "magnetic"); // Probably both a typo and a misspelling
             correctionAdd("mag", "magnetic");
 
             correctionAdd("non-magnetic", "nonmagnetic");
@@ -34225,7 +34231,7 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/products/wukong>
             //     The Keychron Q1 keyboard in disguise
-            //     Probably Q1 Max.
+            //     Probably Q1 Max. Name: "Black Myth Wukong"
             //
             correctionAdd("wukong", "Black Myth: Wukong");
             correctionAdd("Wukong", "Black Myth: Wukong");
@@ -65977,6 +65983,7 @@ namespace OverflowHelper.core
             correctionAdd("machanical keyboard", "mechanical keyboard");
             correctionAdd("mechnical keyboard", "mechanical keyboard");
             correctionAdd("mecanical keyboard", "mechanical keyboard");
+            correctionAdd("mechanic keyboard", "mechanical keyboard");
             correctionAdd("mechanical keeb", "mechanical keyboard");
             correctionAdd("mech keyboard", "mechanical keyboard");
             correctionAdd("mech board", "mechanical keyboard");
@@ -74646,6 +74653,7 @@ namespace OverflowHelper.core
             correctionAdd("previledge", "privilege");
             correctionAdd("previllege", "privilege");
             correctionAdd("privilegie", "privilege");
+            correctionAdd("preveledge", "privilege");
             correctionAdd("privilige", "privilege");
             correctionAdd("priveldge", "privilege");
             correctionAdd("provilege", "privilege");
@@ -74672,6 +74680,7 @@ namespace OverflowHelper.core
             correctionAdd("privilegges", "privileges");
             correctionAdd("previledges", "privileges");
             correctionAdd("privilegies", "privileges");
+            correctionAdd("preveledges", "privileges");
             correctionAdd("priveliges", "privileges");
             correctionAdd("Privileges", "privileges");
             correctionAdd("privilages", "privileges");
@@ -104127,6 +104136,7 @@ namespace OverflowHelper.core
             correctionAdd("knights", "knight");
             correctionAdd("knightz", "knight");
             correctionAdd("knigth", "knight");
+            correctionAdd("horse", "knight");
             correctionAdd("pony", "knight");
 
             // Chess. As in 'nightmare'
@@ -113829,8 +113839,6 @@ namespace OverflowHelper.core
             URL_Add("simplicity", "https://en.wiktionary.org/wiki/simplicity#Noun");
 
             URL_Add("watches", "https://en.wiktionary.org/wiki/watch#Verb");
-
-            URL_Add("chess", "https://en.wikipedia.org/wiki/Chess");
 
             URL_Add("iPad Mini", "https://en.wikipedia.org/wiki/IPad_Mini");
 
@@ -129912,16 +129920,6 @@ namespace OverflowHelper.core
 
             URL_Add("Badminton World Federation", "https://en.wikipedia.org/wiki/Badminton_World_Federation");
 
-            URL_Add("Chess World Cup", "https://en.wikipedia.org/wiki/Chess_World_Cup");
-
-            URL_Add("World Chess Championship", "https://en.wikipedia.org/wiki/World_Chess_Championship");
-
-            URL_Add("World Chess Championship 2021", "https://en.wikipedia.org/wiki/World_Chess_Championship_2021#Schedule_and_results"); // Old: https://en.wikipedia.org/wiki/World_Chess_Championship_2021
-
-            URL_Add("World Chess Championship 2023", "https://en.wikipedia.org/wiki/World_Chess_Championship_2023");
-
-            URL_Add("World 8-Bowser's Castle", "https://www.mariowiki.com/World_8-Bowser's_Castle_(Super_Mario_Bros._3)");
-
             URL_Add("Web", "https://en.wikipedia.org/wiki/World_Wide_Web");
 
             URL_Add("World Wide Web", "https://en.wikipedia.org/wiki/World_Wide_Web");
@@ -145070,9 +145068,31 @@ namespace OverflowHelper.core
 
             URL_Add("board support package", "https://stackoverflow.com/questions/tagged/bsp");
 
+            URL_Add("across the board", "https://en.wiktionary.org/wiki/across_the_board#Prepositional_phrase");
+
+            URL_Add("chess", "https://en.wikipedia.org/wiki/Chess");
+
             URL_Add("chess player", "https://en.wiktionary.org/wiki/chess_player#Noun");
 
+            URL_Add("knight", "https://en.wikipedia.org/wiki/Knight_(chess)");
+
+            URL_Add("horsing around", "https://en.wiktionary.org/wiki/horse_around#Verb");
+
+            URL_Add("chessboard", "https://en.wiktionary.org/wiki/chessboard#Noun");
+
+            URL_Add("over-the-board chess", "https://en.wikipedia.org/wiki/Glossary_of_chess#over_the_board");
+
             URL_Add("en passant", "https://en.wikipedia.org/wiki/En_passant");
+
+            URL_Add("Chess World Cup", "https://en.wikipedia.org/wiki/Chess_World_Cup");
+
+            URL_Add("World Chess Championship", "https://en.wikipedia.org/wiki/World_Chess_Championship");
+
+            URL_Add("World Chess Championship 2021", "https://en.wikipedia.org/wiki/World_Chess_Championship_2021#Schedule_and_results"); // Old: https://en.wikipedia.org/wiki/World_Chess_Championship_2021
+
+            URL_Add("World Chess Championship 2023", "https://en.wikipedia.org/wiki/World_Chess_Championship_2023");
+
+            URL_Add("World 8-Bowser's Castle", "https://www.mariowiki.com/World_8-Bowser's_Castle_(Super_Mario_Bros._3)");
 
             URL_Add("Paul Morphy", "https://en.wikipedia.org/wiki/Paul_Morphy");
 
@@ -146155,8 +146175,6 @@ namespace OverflowHelper.core
             URL_Add("Source Insight", "https://en.wikipedia.org/wiki/Source_Insight");
 
             URL_Add("hindsight", "https://en.wiktionary.org/wiki/hindsight#Noun");
-
-            URL_Add("knight", "https://en.wikipedia.org/wiki/Knight_(chess)");
 
             URL_Add("insight", "https://en.wiktionary.org/wiki/insight#Noun");
 
@@ -147247,12 +147265,6 @@ namespace OverflowHelper.core
             URL_Add("cardboard", "https://en.wiktionary.org/wiki/cardboard#Noun");
 
             URL_Add("clipboard", "https://en.wiktionary.org/wiki/clipboard#Noun");
-
-            URL_Add("chessboard", "https://en.wiktionary.org/wiki/chessboard#Noun");
-
-            URL_Add("across the board", "https://en.wiktionary.org/wiki/across_the_board#Prepositional_phrase");
-
-            URL_Add("over-the-board chess", "https://en.wikipedia.org/wiki/Glossary_of_chess#over_the_board");
 
             URL_Add("perfboard", "https://en.wikipedia.org/wiki/Perfboard");
 
@@ -148375,8 +148387,6 @@ namespace OverflowHelper.core
             URL_Add("workarounds", "https://en.wiktionary.org/wiki/workaround#Noun");
 
             URL_Add("fooled around", "https://en.wiktionary.org/wiki/fool_around#Verb");
-
-            URL_Add("horsing around", "https://en.wiktionary.org/wiki/horse_around#Verb");
 
             URL_Add("surround", "https://en.wiktionary.org/wiki/surround#Verb");
 
@@ -160969,245 +160979,174 @@ namespace OverflowHelper.core
             correctionAdd("K5_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_");
             correctionAdd("k5_", "Keychron K5 (100%) (proprietary keyboard firmware, not open source)_");
 
-            // A 105-key (100%. Not true TKL) full-size non-crippled
-            // wired and wireless (only Bluetooth) mechanical
-            // keyboard from Keychron without a knob.
-            //
-            // Gateron G Pro switches.
-            //
-            // The reference is now broken... (404):
-            //
-            //   <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
-            //
-            //   But this works:
-            //
-            //     <https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
-            //
-            // ANSI variant page (Keychron fails to link
-            // between the two variant's product pages):
-            //
-            //   <https://www.keychron.com/products/keychron-k10-wireless-mechanical-keyboard>
-            //
-            // Notes:
-            //
-            //  * ***No*** unwanted light bleed: RGB north-facing. Proof:
-            //
-            //      <https://www.youtube.com/watch?v=0PiUWfKXsw8>
-            //
-            //  * In the 'K' series, not 'K Pro' series.
-            //    Thus it is ***not*** QMK/Via-capable.
-            //
-            //    Though QMK support was added in late 2024, with
-            //    version 2 (2024-12-12) - see below for the
-            //    source:
-            //
-            //      <https://www.keychron.com/collections/keychron-k-qmk-series/products/keychron-k10-qmk-via-wireless-mechanical-keyboard-version-2>
-            //        ANSI product page
-            //
-            //        ISO variant product pages:
-            //
-            //          <https://www.keychron.se/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2>
-            //            Nordic
-            //
-            //            E.g., K10X-J3Z-BO:
-            //
-            //              <https://www.keychron.se/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2?variant=42589226106989>
-            //
-            //          <https://keychron.de/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2>
-            //            German
-            //
-            //          <https://keychron.ca/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2>
-            //             The UK
-            //
-            //          <https://www.keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2>
-            //            Did not exist. Now it does!
-            //
-            //        'dfu-util' does not work for the Westberry
-            //        Keychron keyboards:
-            //
-            //          <https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-2956304666>
-            //
-            //            Set up of the Keychron K10 V2, including gotchas.
-            //
-            //            'dfu-util' does not work; 'wb32-dfu-updater_cli' does:
-            //
-            //              <https://github.com/WestberryTech/wb32-dfu-updater>
-            //
-            //            Flash mode USB identity: 0x342D/0xDFA0
-            //
-            //        Overlubed switches:
-            //
-            //          <https://i.imgur.com/BInmiYV.jpeg>
-            //          <https://i.imgur.com/hjW1w0q.jpeg>
-            //
-            //            Note: Requires JavaScript to be allowed from
-            //                  'cloudfront.net' to not be surrounded
-            //                  by Imgur goo.
-            //
-            //      <https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-2956304666>
-            //        Non-mainstream microcontroller
-            //
-            //        'wb32-dfu-updater_cli' (equivalent to 'dfu-util'):
-            //
-            //          <https://github.com/WestberryTech/wb32-dfu-updater>
-            //          <https://github.com/WestberryTech/wb32-dfu-updater/issues/15>
-            //
-            //        Set up of the Keychron K10 V2, including gotchas.
-            //
-            //        'dfu-util' does not work; 'wb32-dfu-updater_cli' does:
-            //
-            //          <https://github.com/WestberryTech/wb32-dfu-updater>
-            //
-            //        Flash mode USB identity: 0x342D/0xDFA0
-            //
-            //      <https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-3139644356>
-            //        Using emulated EEPROM memory instead of the
-            //        limited physical 2.5 KB EEPROM for the K10 V2.
-            //
-            //      <https://www.reddit.com/r/Keychron/comments/1lrp9dt/comment/n1d9fc8/>
-            //        K10 V2 drawbacks, compared to other Keychron full-size
-            //        keyboards (though not the non-blinding light...)
-            //
-            //        Also alluded to in:
-            //
-            //          <https://www.reddit.com/r/Keychron/comments/1lvbz8f/comment/n25kvsv/>
-            //
-            //          <https://www.reddit.com/r/Keychron/comments/1lrp9dt/comment/n1d9fc8/>
-            //            Canonical
-            //
-            //            Increasing the space for Via macros is possible,
-            //            but only about threefold, to 2.8 KB:
-            //
-            //              <https://www.reddit.com/r/Keychron/comments/1ltmej0/comment/n65lpfm/>
-            //
-            //            Other instances:
-            //
-            //              <https://www.reddit.com/r/Keychron/comments/1lvbz8f/comment/n25kvsv/>
-            //
-            //      Non-Keychron:
-            //
-            //        <https://www.maxgaming.dk/dk/gaming-tastatur/k10-v2-qmk-rgb-hot-swap-aluminium-tastatur-keychron-super-brown>
-            //        <https://www.fcomputer.dk/keychron-k10-version-2-tastatur-iso-layout-qmk-mechanical-100-full-size-qwerty-nordisk-indgangsudstyr-k10x-j3z-bo-270>
-            //        <https://www.lambda-tek.com/Keychron-K10X-J3Z-BO-sh/B51000792>
-            //
-            //      <https://www.youtube.com/watch?v=gA9shBEsoYo>
-            //        A K10 V2 review. But not a lot of detail.
-            //
-            //      <https://www.keychron.com/pages/keychron-k10-version-2-user-manual>
-            //        K10 V2 user manual
-            //
-            //      <https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-2957204187>
-            //        The space for Via macros may or may not be
-            //        limited by hardware
-            //
-            //       The official name is probably
-            //       "K10 Version 2" or "K10 V2" AKA "K10 QMK:
-            //
-            //         <https://twitter.com/KeychronMK/status/1867204960179322891>
-            //
-            //       JSON files for Via:
-            //
-            //         <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-k-pro-and-k-max-series-keyboards>
-            //           Near "K10 version 2 ISO RGB keymap",
-            //           section "K QMK series"
-            //
-            //           <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/k10_version2_iso_rgb_v1.0.0_2408060957.json.zip>
-            //             k10_version2_iso_rgb_v1.0.0_2408060957.json.zip
-            //             2024-08-06
-            //
-            //           Parent:
-            //
-            //             <https://www.keychron.com/pages/firmware>
-            //               Link "Keychron K QMK / K Pro / K Max /
-            //                     K HE Series Firmware and JSON files"
-            //
-            //       K10 Version 2 firmware:
-            //
-            //         ISO RGB:
-            //
-            //           <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/k10_version2_iso_rgb_v1.0.0_2409091408.bin>
-            //
-            //             k10_version2_iso_rgb_v1.0.0_2409091408.bin
-            //             2024-09-09
-            //
-            //             From:
-            //
-            //               <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-k-pro-and-k-max-series-keyboards>
-            //
-            //                 Near "K10 version 2 ISO RGB version"
-            //
-            //       <https://www.tomsguide.com/computing/peripherals/keychron-k10-v2-mechanical-keyboard-review>
-            //         A review
-            //
-            //         "some of its keys are a little too recessed"
-            //
-            //         Simply ***not*** true: "Simply open the website in
-            //         any browser". What else has the review got wrong?
-            //
-            //         Though 'tomsguide.com' may be deceptive (too
-            //         close to 'www.tomshardware.com')
-            //
-            //  * Some variants are not hot-swappable
-            //
-            // A list of K10 user manuals:
-            //
-            //   <https://www.keychron.com/pages/k10-user-manual>
-            //
-            // K10 user manual:
-            //
-            //   <https://www.keychron.com/pages/k10-keyboard-user-manual>
-            //     Direct web page
-            //
-            //     PDF version: <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/K10_keyboard_user_manual.pdf>
-            //
-            // K10 key combination table:
-            //
-            //   <https://www.keychron.com/blogs/news/k10-key-combinations>
-            //
-            //     Includes:
-            //
-            //       Hold Fn + X + L down for three seconds to reset the keyboard.
-            //
-            //       Hold Fn + J + Z down for three seconds to reset the keyboard.
+            // A 105-key (100%. Not true TKL) full-size wired and wireless
+            // (only Bluetooth) QMK/Via-capable mechanical keyboard
+            // without a knob from Keychron.
+            //
+            // Note: Unlike the original K10, this keyboard from
+            //       late 2024 has QMK support.
             //
             // Alternative URLs:
             //
-            //   <https://www.reddit.com/r/Keychron/comments/1hpt55r/comment/m4kv410/>
-            //     QMK support
+            //   <https://www.keychron.com/collections/keychron-k-qmk-series/products/keychron-k10-qmk-via-wireless-mechanical-keyboard-version-2>
+            //     ANSI product page
             //
-            // K10 keymap (version 2 only):
+            //     ISO variant product pages:
             //
-            //   <https://github.com/Keychron/qmk_firmware/blob/wls_2025q1/keyboards/keychron/k10_version_2/iso/rgb/keymaps/via/keymap.c#L44>
+            //       <https://www.keychron.se/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2>
+            //         Nordic
             //
-            // K10 source code, version 2 only
-            //     (it was not released as of 2025-03-27 or 2025-05-23.
-            //      It was finally released on 2025-06-07):
+            //         E.g., K10X-J3Z-BO:
             //
-            //   <https://github.com/Keychron/qmk_firmware/tree/wls_2025q1/keyboards/keychron/k10_version_2>
+            //           <https://www.keychron.se/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2?variant=42589226106989>
             //
-            //       <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k10_version_2>
-            //         Probably not.
+            //       <https://keychron.de/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2>
+            //         German
             //
-            correctionAdd("Keychron K10 (100%)_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("K10 qmk version 2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("k10 QMK version 2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("k10 qmk version 2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("Keychron K10_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("K10 keychron_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("K10 QMK V2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("K10 QMK v2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("K series_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_"); // For the cross-reference
-            correctionAdd("K10 QMK_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_"); // K10 V2 (QMK-based)
-            correctionAdd("K10 QMK_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("K10 V2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_"); // Or maybe a whole new series, K QMK series. Thus, K10 QMK
-            correctionAdd("K10 v2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("k10 v2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("k10 V2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("K10 V1_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("K10X_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_"); // K10 V2 (QMK-based) has "K10X" in the SKU number
-            correctionAdd("k 10_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("k10_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
-            correctionAdd("K10_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            //       <https://keychron.ca/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2>
+            //          The UK
+            //
+            //       <https://www.keychron.com/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2>
+            //         Did not exist. Now it does!
+            //
+            //     'dfu-util' does not work for the Westberry
+            //     Keychron keyboards:
+            //
+            //       <https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-2956304666>
+            //
+            //         Set up of the Keychron K10 V2, including gotchas.
+            //
+            //         'dfu-util' does not work; 'wb32-dfu-updater_cli' does:
+            //
+            //           <https://github.com/WestberryTech/wb32-dfu-updater>
+            //
+            //         Flash mode USB identity: 0x342D/0xDFA0
+            //
+            //     Overlubed switches:
+            //
+            //       <https://i.imgur.com/BInmiYV.jpeg>
+            //       <https://i.imgur.com/hjW1w0q.jpeg>
+            //
+            //         Note: Requires JavaScript to be allowed from
+            //               'cloudfront.net' to not be surrounded
+            //               by Imgur goo.
+            //
+            //   <https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-2956304666>
+            //     Non-mainstream microcontroller
+            //
+            //     'wb32-dfu-updater_cli' (equivalent to 'dfu-util'):
+            //
+            //       <https://github.com/WestberryTech/wb32-dfu-updater>
+            //       <https://github.com/WestberryTech/wb32-dfu-updater/issues/15>
+            //
+            //     Set up of the Keychron K10 V2, including gotchas.
+            //
+            //     'dfu-util' does not work; 'wb32-dfu-updater_cli' does:
+            //
+            //       <https://github.com/WestberryTech/wb32-dfu-updater>
+            //
+            //     Flash mode USB identity: 0x342D/0xDFA0
+            //
+            //   <https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-3139644356>
+            //     Using emulated EEPROM memory instead of the
+            //     limited physical 2.5 KB EEPROM for the K10 V2.
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1lrp9dt/comment/n1d9fc8/>
+            //     K10 V2 drawbacks, compared to other Keychron full-size
+            //     keyboards (though not the non-blinding light...)
+            //
+            //     Also alluded to in:
+            //
+            //       <https://www.reddit.com/r/Keychron/comments/1lvbz8f/comment/n25kvsv/>
+            //
+            //       <https://www.reddit.com/r/Keychron/comments/1lrp9dt/comment/n1d9fc8/>
+            //         Canonical
+            //
+            //         Increasing the space for Via macros is possible,
+            //         but only about threefold, to 2.8 KB:
+            //
+            //           <https://www.reddit.com/r/Keychron/comments/1ltmej0/comment/n65lpfm/>
+            //
+            //         Other instances:
+            //
+            //           <https://www.reddit.com/r/Keychron/comments/1lvbz8f/comment/n25kvsv/>
+            //
+            //   Non-Keychron:
+            //
+            //     <https://www.maxgaming.dk/dk/gaming-tastatur/k10-v2-qmk-rgb-hot-swap-aluminium-tastatur-keychron-super-brown>
+            //     <https://www.fcomputer.dk/keychron-k10-version-2-tastatur-iso-layout-qmk-mechanical-100-full-size-qwerty-nordisk-indgangsudstyr-k10x-j3z-bo-270>
+            //     <https://www.lambda-tek.com/Keychron-K10X-J3Z-BO-sh/B51000792>
+            //
+            //   <https://www.youtube.com/watch?v=gA9shBEsoYo>
+            //     A K10 V2 review. But not a lot of detail.
+            //
+            //   <https://www.keychron.com/pages/keychron-k10-version-2-user-manual>
+            //     K10 V2 user manual
+            //
+            //   <https://github.com/Keychron/qmk_firmware/issues/386#issuecomment-2957204187>
+            //     The space for Via macros may or may not be
+            //     limited by hardware
+            //
+            //    The official name is probably
+            //    "K10 Version 2" or "K10 V2" AKA "K10 QMK:
+            //
+            //      <https://twitter.com/KeychronMK/status/1867204960179322891>
+            //
+            //    JSON files for Via:
+            //
+            //      <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-k-pro-and-k-max-series-keyboards>
+            //        Near "K10 version 2 ISO RGB keymap",
+            //        section "K QMK series"
+            //
+            //        <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/k10_version2_iso_rgb_v1.0.0_2408060957.json.zip>
+            //          k10_version2_iso_rgb_v1.0.0_2408060957.json.zip
+            //          2024-08-06
+            //
+            //        Parent:
+            //
+            //          <https://www.keychron.com/pages/firmware>
+            //            Link "Keychron K QMK / K Pro / K Max /
+            //                  K HE Series Firmware and JSON files"
+            //
+            //    K10 Version 2 firmware:
+            //
+            //      ISO RGB:
+            //
+            //        <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/k10_version2_iso_rgb_v1.0.0_2409091408.bin>
+            //
+            //          k10_version2_iso_rgb_v1.0.0_2409091408.bin
+            //          2024-09-09
+            //
+            //          From:
+            //
+            //            <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-k-pro-and-k-max-series-keyboards>
+            //
+            //              Near "K10 version 2 ISO RGB version"
+            //
+            //    <https://www.tomsguide.com/computing/peripherals/keychron-k10-v2-mechanical-keyboard-review>
+            //      A review
+            //
+            //      "some of its keys are a little too recessed"
+            //
+            //      Simply ***not*** true: "Simply open the website in
+            //      any browser". What else has the review got wrong?
+            //
+            //      Though 'tomsguide.com' may be deceptive (too
+            //      close to 'www.tomshardware.com')
+            //
+            correctionAdd("K10 qmk version 2_", "Keychron K10 V2 (100%)_");
+            correctionAdd("k10 QMK version 2_", "Keychron K10 V2 (100%)_");
+            correctionAdd("k10 qmk version 2_", "Keychron K10 V2 (100%)_");
+            correctionAdd("Keychron K10 V2_", "Keychron K10 V2 (100%)_");
+            correctionAdd("K10 QMK V2_", "Keychron K10 V2 (100%)_");
+            correctionAdd("K10 QMK v2_", "Keychron K10 V2 (100%)_");
+            correctionAdd("K10 QMK_", "Keychron K10 V2 (100%)_"); // K10 V2 (QMK-based)
+            correctionAdd("K10 QMK_", "Keychron K10 V2 (100%)_"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("K10 V2_", "Keychron K10 V2 (100%)_"); // Or maybe a whole new series, K QMK series. Thus, K10 QMK
+            correctionAdd("K10 v2_", "Keychron K10 V2 (100%)_");
+            correctionAdd("k10 v2_", "Keychron K10 V2 (100%)_");
+            correctionAdd("k10 V2_", "Keychron K10 V2 (100%)_");
+            correctionAdd("K10X_", "Keychron K10 V2 (100%)_"); // K10 V2 (QMK-based) has "K10X" in the SKU number
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -161511,6 +161450,12 @@ namespace OverflowHelper.core
 
             // Rust
             correctionAdd("embassy_", "Embassy_");
+
+            // Alternative URLs:
+            //
+            //   <https://en.wiktionary.org/wiki/horse#Noun>
+            //
+            correctionAdd("one with strong opinions about hay_", "horse_");
 
             // Chess
             correctionAdd("grand master_", "Grandmaster_");
@@ -168577,8 +168522,6 @@ namespace OverflowHelper.core
 
             URL_Add("Azure Kubernetes Service_", "https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes");
 
-            URL_Add("flagging (chess)_", "https://www.chess.com/terms/flagging-chess");
-
             URL_Add("cause_", "https://en.wiktionary.org/wiki/cause#Verb");
 
             URL_Add("International Baccalaureate_", "https://en.wikipedia.org/wiki/International_Baccalaureate");
@@ -169359,12 +169302,6 @@ namespace OverflowHelper.core
 
             URL_Add("static electricity_", "https://en.wikipedia.org/wiki/Static_electricity#Electronic_components");
 
-            URL_Add("Magnus Carlsen_", "https://en.wikipedia.org/wiki/Magnus_Carlsen");
-
-            URL_Add("Yashavant Kanetkar_", "https://en.wikipedia.org/wiki/Yashavant_Kanetkar");
-
-            URL_Add("Thomas Crider_", "https://en.wikipedia.org/wiki/Nobara_Linux");
-
             URL_Add("series_", "https://en.wiktionary.org/wiki/series#Noun");
 
             URL_Add("Leonardo da Vinci_", "https://en.wikipedia.org/wiki/Leonardo_da_Vinci");
@@ -169971,8 +169908,6 @@ namespace OverflowHelper.core
 
             URL_Add("up-front_", "https://en.wiktionary.org/wiki/upfront#Adjective");
 
-            URL_Add("Miguel Najdorf_", "https://en.wikipedia.org/wiki/Miguel_Najdorf");
-
             URL_Add("wireless_", "https://en.wiktionary.org/wiki/wireless#Adjective");
 
             URL_Add("experiences_", "https://en.wiktionary.org/wiki/experience#Noun");
@@ -170086,8 +170021,6 @@ namespace OverflowHelper.core
             URL_Add("name server_", "https://en.wikipedia.org/wiki/Name_server");
 
             URL_Add("collaborations_", "https://en.wiktionary.org/wiki/collaboration#Noun");
-
-            URL_Add("Grandmaster_", "https://en.wikipedia.org/wiki/Grandmaster_(chess)");
 
             URL_Add("role_", "https://en.wiktionary.org/wiki/role#Noun");
 
@@ -172219,8 +172152,6 @@ namespace OverflowHelper.core
 
             URL_Add("crate_", "https://doc.rust-lang.org/book/ch01-03-hello-cargo.html");
 
-            URL_Add("passed pawn_", "https://en.wikipedia.org/wiki/Passed_pawn");
-
             URL_Add("bear_", "https://en.wiktionary.org/wiki/bear#Noun");
 
             URL_Add("ballpark_", "https://en.wiktionary.org/wiki/ballpark#Noun");
@@ -172349,8 +172280,6 @@ namespace OverflowHelper.core
 
             URL_Add("Data&nbsp;Science (Stack Exchange site)_", "https://datascience.stackexchange.com/tour");
 
-            URL_Add("Chess (Stack Exchange site)_", "https://chess.stackexchange.com/tour");
-
             URL_Add("TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_", "https://tex.stackexchange.com/tour");
 
             URL_Add("Vi&nbsp;and&nbsp;Vim (Stack Exchange site)_", "https://vi.stackexchange.com/tour");
@@ -172394,6 +172323,8 @@ namespace OverflowHelper.core
             URL_Add("Cross&nbsp;Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
 
             URL_Add("Artificial Intelligence (Stack Exchange site)_", "https://ai.stackexchange.com/tour");
+
+            URL_Add("Chess (Stack Exchange site)_", "https://chess.stackexchange.com/tour");
 
             URL_Add("operating_", "https://en.wiktionary.org/wiki/operate#Verb");
 
@@ -173109,7 +173040,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K5 (100%) (proprietary keyboard firmware, not open source)_", "https://www.keychron.com/products/keychron-k5-ultra-slim-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron K10 (100%) (proprietary keyboard firmware, not open source)_", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
+            URL_Add("Keychron K10 V2 (100%)_", "https://www.keychron.se/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
 
             URL_Add("Keychron K7 Pro_", "https://www.keychron.com/products/keychron-k7-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -173182,6 +173113,22 @@ namespace OverflowHelper.core
             URL_Add("acknowledgment_", "https://en.wiktionary.org/wiki/acknowledgment#Noun");
 
             URL_Add("as far as we know_", "https://en.wiktionary.org/wiki/as_far_as_one_knows#Adverb");
+
+            URL_Add("Yashavant Kanetkar_", "https://en.wikipedia.org/wiki/Yashavant_Kanetkar");
+
+            URL_Add("Thomas Crider_", "https://en.wikipedia.org/wiki/Nobara_Linux");
+
+            URL_Add("horse_", "https://en.wikipedia.org/wiki/Horse");
+
+            URL_Add("Grandmaster_", "https://en.wikipedia.org/wiki/Grandmaster_(chess)");
+
+            URL_Add("flagging (chess)_", "https://www.chess.com/terms/flagging-chess");
+
+            URL_Add("passed pawn_", "https://en.wikipedia.org/wiki/Passed_pawn");
+
+            URL_Add("Magnus Carlsen_", "https://en.wikipedia.org/wiki/Magnus_Carlsen");
+
+            URL_Add("Miguel Najdorf_", "https://en.wikipedia.org/wiki/Miguel_Najdorf");
 
         } //addLookupData_alternativeWordSet()
 
@@ -177628,6 +177575,84 @@ namespace OverflowHelper.core
             correctionAdd("K8__", "Keychron K8__");
             correctionAdd("k8__", "Keychron K8__");
 
+            // A 105-key (100%. Not true TKL) full-size non-crippled
+            // wired and wireless (only Bluetooth) mechanical
+            // keyboard from Keychron without a knob.
+            //
+            // Gateron G Pro switches.
+            //
+            // The reference is now broken... (404):
+            //
+            //   <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
+            //
+            //   But this works:
+            //
+            //     <https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
+            //
+            // ANSI variant page (Keychron fails to link
+            // between the two variant's product pages):
+            //
+            //   <https://www.keychron.com/products/keychron-k10-wireless-mechanical-keyboard>
+            //
+            // Notes:
+            //
+            //  * ***No*** unwanted light bleed: RGB north-facing. Proof:
+            //
+            //      <https://www.youtube.com/watch?v=0PiUWfKXsw8>
+            //
+            //  * In the 'K' series, not 'K Pro' series.
+            //    Thus it is ***not*** QMK/Via-capable.
+            //
+            //  * Some variants are not hot-swappable
+            //
+            // A list of K10 user manuals:
+            //
+            //   <https://www.keychron.com/pages/k10-user-manual>
+            //
+            // K10 user manual:
+            //
+            //   <https://www.keychron.com/pages/k10-keyboard-user-manual>
+            //     Direct web page
+            //
+            //     PDF version: <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/K10_keyboard_user_manual.pdf>
+            //
+            // K10 key combination table:
+            //
+            //   <https://www.keychron.com/blogs/news/k10-key-combinations>
+            //
+            //     Includes:
+            //
+            //       Hold Fn + X + L down for three seconds to reset the keyboard.
+            //
+            //       Hold Fn + J + Z down for three seconds to reset the keyboard.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1hpt55r/comment/m4kv410/>
+            //     QMK support
+            //
+            // K10 keymap (version 2 only):
+            //
+            //   <https://github.com/Keychron/qmk_firmware/blob/wls_2025q1/keyboards/keychron/k10_version_2/iso/rgb/keymaps/via/keymap.c#L44>
+            //
+            // K10 source code, version 2 only
+            //     (it was not released as of 2025-03-27 or 2025-05-23.
+            //      It was finally released on 2025-06-07):
+            //
+            //   <https://github.com/Keychron/qmk_firmware/tree/wls_2025q1/keyboards/keychron/k10_version_2>
+            //
+            //       <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k10_version_2>
+            //         Probably not.
+            //
+            correctionAdd("Keychron K10 (100%)__", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("K10 keychron__", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("Keychron K10__", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)__"); // For the cross-reference
+            correctionAdd("K series__", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)__"); // For the cross-reference
+            correctionAdd("K10 V1__", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("k 10__", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("k10__", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("K10__", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)__");
+
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
@@ -178407,6 +178432,15 @@ namespace OverflowHelper.core
             correctionAdd("Kernigan__", "Brian Kernighan__");
             correctionAdd("K__", "Brian Kernighan__");
 
+            // A programming language
+            correctionAdd("elm__", "Elm__");
+
+            // A programming language
+            correctionAdd("IO__", "Io__");
+
+            // A programming language. Related to Java
+            correctionAdd("groovy__", "Groovy__");
+
             // A programming language for computer game
             // modification, not related to chess...
             //
@@ -178421,15 +178455,6 @@ namespace OverflowHelper.core
             correctionAdd("Small__", "Pawn__"); // Allegedly the old name
             correctionAdd("small__", "Pawn__");
             correctionAdd("PAWN__", "Pawn__");
-
-            // A programming language
-            correctionAdd("elm__", "Elm__");
-
-            // A programming language
-            correctionAdd("IO__", "Io__");
-
-            // A programming language. Related to Java
-            correctionAdd("groovy__", "Groovy__");
 
             URL_Add("Gigabyte Technology__", "https://en.wikipedia.org/wiki/Gigabyte_Technology");
 
@@ -178858,8 +178883,6 @@ namespace OverflowHelper.core
             URL_Add("Parse__", "https://en.wikipedia.org/wiki/Parse_(platform)");
 
             URL_Add("certificate signing request__", "https://en.wikipedia.org/wiki/Certificate_signing_request");
-
-            URL_Add("our good friends the engines__", "https://en.wikipedia.org/wiki/Chess_engine");
 
             URL_Add("develop__", "https://en.wiktionary.org/wiki/develop#Verb");
 
@@ -179513,6 +179536,8 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K8__", "https://www.keychron.uk/products/keychron-k8-wireless-mechanical-keyboard-uk-iso-layout");
 
+            URL_Add("Keychron K10 (100%) (proprietary keyboard firmware, not open source)__", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
+
             URL_Add("Keychron K10 Pro source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k10_pro");
 
             URL_Add("Keychron K10 HE source code__", "https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/k10_he");
@@ -179661,8 +179686,6 @@ namespace OverflowHelper.core
 
             URL_Add("Brian Kernighan__", "https://en.wikipedia.org/wiki/Brian_Kernighan");
 
-            URL_Add("Pawn__", "https://github.com/compuphase/pawn");
-
             URL_Add("Elm__", "https://en.wikipedia.org/wiki/Elm_(programming_language)");
 
             URL_Add("Io__", "https://en.wikipedia.org/wiki/Io_(programming_language)");
@@ -179720,6 +179743,10 @@ namespace OverflowHelper.core
             URL_Add("Markdown tables__", "https://meta.stackexchange.com/questions/356997/new-feature-table-support");
 
             URL_Add("ATLAS__", "https://en.wikipedia.org/wiki/ATLAS_experiment");
+
+            URL_Add("Pawn__", "https://github.com/compuphase/pawn");
+
+            URL_Add("our good friends the engines__", "https://en.wikipedia.org/wiki/Chess_engine");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -181815,15 +181842,6 @@ namespace OverflowHelper.core
             correctionAdd("PD___", "post scriptum___"); // Allegedly in Spanish and Portuguese: <https://en.wiktionary.org/wiki/P._D.#Noun>
             correctionAdd("PS___", "post scriptum___");
 
-            // Chess
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=7VIRc-L7bug&t=21m36s>
-            //
-            correctionAdd("our good friends the engines___", "disgusting engine move___"); // For the cross-reference
-            correctionAdd("soul of silicon idea___", "disgusting engine move___");
-
             correctionAdd("customer care service___", "customer service___");
             correctionAdd("customer care___", "customer service___");
             correctionAdd("consumer care___", "customer service___");
@@ -182344,6 +182362,15 @@ namespace OverflowHelper.core
             correctionAdd("multiple___", "multiples___");
             correctionAdd("multipla___", "multiples___");
 
+            // Chess
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=7VIRc-L7bug&t=21m36s>
+            //
+            correctionAdd("our good friends the engines___", "disgusting engine move___"); // For the cross-reference
+            correctionAdd("soul of silicon idea___", "disgusting engine move___");
+
             // Of the "B" programming language (also by Dennis Ritchie)
             //
             // Alternative URLs:
@@ -182768,8 +182795,6 @@ namespace OverflowHelper.core
 
             URL_Add("C macro___", "https://en.wikipedia.org/wiki/C_preprocessor#Macro_string_replacement");
 
-            URL_Add("disgusting engine move___", "https://en.wikipedia.org/wiki/Chess_engine");
-
             URL_Add("executable 'gcc' on macOS is the Clang compiler, not GCC___", "https://stackoverflow.com/questions/38840601/how-can-i-ignore-an-error-when-using-gcc-compile-option-werror#comment130977909_38840601");
 
             URL_Add("Apple silicon___", "https://en.wikipedia.org/wiki/Apple_silicon");
@@ -182967,6 +182992,8 @@ namespace OverflowHelper.core
             URL_Add("Sonix___", "https://www.sonix.com.tw/article-en-915-10794");
 
             URL_Add("Keychron Orca Echo___", "https://www.reddit.com/r/Keychron/comments/1xockmz/comment/19s711kvnr0qs/");
+
+            URL_Add("disgusting engine move___", "https://en.wikipedia.org/wiki/Chess_engine");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -183187,6 +183214,7 @@ namespace OverflowHelper.core
             correctionAdd("andt____", "and____");
             correctionAdd("antd____", "and____");
             correctionAdd("aadn____", "and____");
+            correctionAdd("an d____", "and____"); // A true typo (involving the space bar). A swap
             correctionAdd("And____", "and____");
             correctionAdd("anb____", "and____");
             correctionAdd("ane____", "and____");
@@ -186897,8 +186925,6 @@ namespace OverflowHelper.core
 
             URL_Add("read_____", "https://en.wiktionary.org/wiki/read#Verb");
 
-            URL_Add("White_____", "https://en.wikipedia.org/wiki/White_and_Black_in_chess");
-
             URL_Add("red blink of death_____", "https://www.reddit.com/r/Keychron/comments/1rsc5qp/comment/oa91ndl/");
 
             URL_Add("Git branch \"bluetooth_playground\" in Keychron's fork_____", "https://github.com/Keychron/qmk_firmware/tree/bluetooth_playground/keyboards/keychron/k10_pro");
@@ -186916,6 +186942,8 @@ namespace OverflowHelper.core
             URL_Add("fast mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
 
             URL_Add("high-speed mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
+
+            URL_Add("White_____", "https://en.wikipedia.org/wiki/White_and_Black_in_chess");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
