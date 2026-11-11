@@ -2665,8 +2665,6 @@ namespace OverflowHelper.core
             correctionAdd("application essay", "statement of purpose");
             correctionAdd("SoP", "statement of purpose");
 
-            correctionAdd("SOW", "statement of work");
-
             correctionAdd("work's", "works");
             correctionAdd("workes", "works");
             correctionAdd("werks", "works");
@@ -2743,6 +2741,14 @@ namespace OverflowHelper.core
 
             // Noun
             correctionAdd("work-alike", "workalike");
+
+            correctionAdd("nsfw", "not safe for work");
+            correctionAdd("NSFW", "not safe for work");
+
+            correctionAdd("SFW", "safe for work");
+            correctionAdd("sfw", "safe for work");
+
+            correctionAdd("SOW", "statement of work");
 
             correctionAdd("intern ship", "internship");
             correctionAdd("intership", "internship");
@@ -24516,6 +24522,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Magnetic", "magnetic");
             correctionAdd("megnetic", "magnetic");
+            correctionAdd("magentig", "magnetic");
             correctionAdd("mag", "magnetic");
 
             correctionAdd("non-magnetic", "nonmagnetic");
@@ -34213,7 +34220,15 @@ namespace OverflowHelper.core
             correctionAdd("Battlebit", "BattleBit Remastered");
 
             // A computer game
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.keychron.com/products/wukong>
+            //     The Keychron Q1 keyboard in disguise
+            //     Probably Q1 Max.
+            //
             correctionAdd("wukong", "Black Myth: Wukong");
+            correctionAdd("Wukong", "Black Myth: Wukong");
 
             // A computer game
             correctionAdd("division 2", "Tom Clancy's The Division 2");
@@ -51093,7 +51108,10 @@ namespace OverflowHelper.core
             // Alternative URLs
             //
             //   <https://www.youtube.com/watch?v=J5Sb21qbpEQ&list=PL2862BF3631A5C1AA&index=2>
-            //     A tutorial
+            //     A tutorial. By EEVBlog.
+            //
+            //   <https://www.youtube.com/watch?v=RA2OHv3bEF8>
+            //     A tutorial. Shorter, but without much explanation.
             //
             //   <https://docs.keeb.supply/basics/soldering/solder-advice/>
             //     Soldering advice. Oriented towards mechanical keyboards.
@@ -51519,14 +51537,8 @@ namespace OverflowHelper.core
             //
             //   South pole facing downward (uncommon)
             //
-            correctionAdd("Hall Effect Switches", "Hall sensor");
-            correctionAdd("Hall effect switches", "Hall sensor");
-            correctionAdd("hall effect switches", "Hall sensor");
-            correctionAdd("Hall Effect switches", "Hall sensor");
             correctionAdd("Hall effect sensor", "Hall sensor");
             correctionAdd("Hall effect switch", "Hall sensor");
-            correctionAdd("magnetic switches", "Hall sensor");
-            correctionAdd("Magnetic Switches", "Hall sensor");
             correctionAdd("Halle effects", "Hall sensor");
             correctionAdd("Halle effect", "Hall sensor");
             correctionAdd("Hall effects", "Hall sensor");
@@ -65054,12 +65066,12 @@ namespace OverflowHelper.core
             correctionAdd("prevuious", "previous");
             correctionAdd("perivous", "previous");
             correctionAdd("previuis", "previous");
-            correctionAdd("pervious", "previous"); // A true typo
             correctionAdd("prevoius", "previous");
             correctionAdd("Previous", "previous");
             correctionAdd("privious", "previous");
             correctionAdd("precious", "previous"); // A true typo
             correctionAdd("previuos", "previous");
+            correctionAdd("pervious", "previous"); // A true typo
             correctionAdd("prevous", "previous");
             correctionAdd("previus", "previous");
             correctionAdd("previos", "previous");
@@ -70057,7 +70069,7 @@ namespace OverflowHelper.core
             correctionAdd("dvorak", "Dvorak keyboard layout");
             correctionAdd("Dvorak", "Dvorak keyboard layout");
             correctionAdd("Drovak", "Dvorak keyboard layout");
-            correctionAdd("drovak", "Dvorak keyboard layout");
+            correctionAdd("drovak", "Dvorak keyboard layout"); // "r" and "v" are swapped, but it may not be a real typo
 
             // Dvorak Simplified Keyboard, French
             //
@@ -73465,6 +73477,7 @@ namespace OverflowHelper.core
             correctionAdd("logics", "logic");
             correctionAdd("locic", "logic");
 
+            correctionAdd("loigcally", "logically");
             correctionAdd("logicaly", "logically");
 
             correctionAdd("LVM", "logical volume management");
@@ -85136,6 +85149,7 @@ namespace OverflowHelper.core
             //     <https://tompi.github.io/cheapino/doc/troubleshooting/routing.html>
             //
             correctionAdd("Cheapodino", "Cheapino");
+            correctionAdd("cheapodino", "Cheapino");
             correctionAdd("cheapino", "Cheapino");
 
             // A 36-key (35%) crippled split mechanical keyboard.
@@ -103455,8 +103469,6 @@ namespace OverflowHelper.core
             correctionAdd("spontaniusly", "spontaneously");
             correctionAdd("spontaniosly", "spontaneously");
 
-            correctionAdd("nsfw", "NSFW");
-
             correctionAdd("wuffling", "waffling");
 
             correctionAdd("civillian", "civilian");
@@ -107614,12 +107626,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Ext2", "ext2");
 
-            correctionAdd("pervs", "perverts");
-
-            correctionAdd("masocist", "masochist");
-
-            correctionAdd("masocistic", "masochistic");
-
             correctionAdd("Flix Bus", "FlixBus");
 
             correctionAdd("ISO 9660", "ISO&nbsp;9660");
@@ -108552,6 +108558,14 @@ namespace OverflowHelper.core
 
             correctionAdd("poket", "pocket");
             correctionAdd("Poket", "pocket");
+
+            correctionAdd("pervs", "perverts");
+
+            correctionAdd("pervy", "perverted");
+
+            correctionAdd("masocist", "masochist");
+
+            correctionAdd("masocistic", "masochistic");
 
             correctionAdd("Sour Grapes", "sour grapes");
 
@@ -128546,7 +128560,9 @@ namespace OverflowHelper.core
 
             URL_Add("SJW", "https://en.wiktionary.org/wiki/SJW#Noun");
 
-            URL_Add("NSFW", "https://en.wiktionary.org/wiki/NSFW#Adjective");
+            URL_Add("not safe for work", "https://en.wiktionary.org/wiki/NSFW#Adjective");
+
+            URL_Add("safe for work", "https://en.wiktionary.org/wiki/SFW#Adjective");
 
             URL_Add("POW", "https://en.wiktionary.org/wiki/POW#Noun");
 
@@ -130511,6 +130527,8 @@ namespace OverflowHelper.core
             URL_Add("superior vena cava", "https://en.wikipedia.org/wiki/Superior_vena_cava");
 
             URL_Add("perverts", "https://en.wiktionary.org/wiki/pervert#Noun");
+
+            URL_Add("perverted", "https://en.wiktionary.org/wiki/pervert#Verb");
 
             URL_Add("institutional", "https://en.wiktionary.org/wiki/institutional#Adjective");
 
@@ -161170,25 +161188,26 @@ namespace OverflowHelper.core
             //       <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k10_version_2>
             //         Probably not.
             //
-            correctionAdd("K10 qmk version 2_", "Keychron K10 (100%)_");
-            correctionAdd("k10 QMK version 2_", "Keychron K10 (100%)_");
-            correctionAdd("k10 qmk version 2_", "Keychron K10 (100%)_");
-            correctionAdd("Keychron K10_", "Keychron K10 (100%)_");
-            correctionAdd("K10 keychron_", "Keychron K10 (100%)_");
-            correctionAdd("K10 QMK V2_", "Keychron K10 (100%)_");
-            correctionAdd("K10 QMK v2_", "Keychron K10 (100%)_");
-            correctionAdd("K series_", "Keychron K10 (100%)_"); // For the cross-reference
-            correctionAdd("K10 QMK_", "Keychron K10 (100%)_"); // K10 V2 (QMK-based)
-            correctionAdd("K10 QMK_", "Keychron K10 (100%)_"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("K10 V2_", "Keychron K10 (100%)_"); // Or maybe a whole new series, K QMK series. Thus, K10 QMK
-            correctionAdd("K10 v2_", "Keychron K10 (100%)_");
-            correctionAdd("k10 v2_", "Keychron K10 (100%)_");
-            correctionAdd("k10 V2_", "Keychron K10 (100%)_");
-            correctionAdd("K10 V1_", "Keychron K10 (100%)_");
-            correctionAdd("K10X_", "Keychron K10 (100%)_"); // K10 V2 (QMK-based) has "K10X" in the SKU number
-            correctionAdd("k 10_", "Keychron K10 (100%)_");
-            correctionAdd("k10_", "Keychron K10 (100%)_");
-            correctionAdd("K10_", "Keychron K10 (100%)_");
+            correctionAdd("Keychron K10 (100%)_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("K10 qmk version 2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("k10 QMK version 2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("k10 qmk version 2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("Keychron K10_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("K10 keychron_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("K10 QMK V2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("K10 QMK v2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("K series_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_"); // For the cross-reference
+            correctionAdd("K10 QMK_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_"); // K10 V2 (QMK-based)
+            correctionAdd("K10 QMK_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("K10 V2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_"); // Or maybe a whole new series, K QMK series. Thus, K10 QMK
+            correctionAdd("K10 v2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("k10 v2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("k10 V2_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("K10 V1_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("K10X_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_"); // K10 V2 (QMK-based) has "K10X" in the SKU number
+            correctionAdd("k 10_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("k10_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
+            correctionAdd("K10_", "Keychron K10 (100%) (proprietary keyboard firmware, not open source)_");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -173090,7 +173109,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K5 (100%) (proprietary keyboard firmware, not open source)_", "https://www.keychron.com/products/keychron-k5-ultra-slim-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron K10 (100%)_", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
+            URL_Add("Keychron K10 (100%) (proprietary keyboard firmware, not open source)_", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
 
             URL_Add("Keychron K7 Pro_", "https://www.keychron.com/products/keychron-k7-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -174399,10 +174418,10 @@ namespace OverflowHelper.core
             //   <https://github.com/ThereminGoat/>
             //
             //     <https://github.com/ThereminGoat/keyswitch_documentation>
-            //     
+            //
             //     <https://github.com/ThereminGoat/switch-scores/blob/master/1-Composite%20Overall%20Total%20Score%20Sheet%20.csv>
             //       A long list of switches for mechanical keyboards
-            //     
+            //
             //     <https://github.com/ThereminGoat/switch-scores>
             //     <https://github.com/ThereminGoat/force-curves>
             //
@@ -174412,6 +174431,7 @@ namespace OverflowHelper.core
             correctionAdd("theremin__", "Jesse Vincent__");
             correctionAdd("Mr. Goat__", "Jesse Vincent__");
             correctionAdd("GOAT__", "Jesse Vincent__");
+            correctionAdd("Goat__", "Jesse Vincent__");
 
             // A type of switch for mechanical keyboards
             //
@@ -174890,9 +174910,14 @@ namespace OverflowHelper.core
             //   <https://www.wired.com/review/keychron-q1-he/>
             //   <https://www.hlplanet.com/keyboards-hall-effect-switches/>
             //
+            correctionAdd("Hall Effect Switches__", "Hall effect switches__");
+            correctionAdd("Hall Effect switches__", "Hall effect switches__");
+            correctionAdd("hall effect switches__", "Hall effect switches__");
             correctionAdd("Hall effect switch__", "Hall effect switches__");
             correctionAdd("Magnetic Keyboard__", "Hall effect switches__"); // Not 100% correct
             correctionAdd("magnetic keyboard__", "Hall effect switches__"); // Not 100% correct
+            correctionAdd("Magnetic Switches__", "Hall effect switches__");
+            correctionAdd("magnetic switches__", "Hall effect switches__");
             correctionAdd("Hall sensor__", "Hall effect switches__");
             correctionAdd("Hall effect__", "Hall effect switches__");
             correctionAdd("hall effect__", "Hall effect switches__");
@@ -174904,6 +174929,7 @@ namespace OverflowHelper.core
             correctionAdd("hal effect__", "Hall effect switches__");
             correctionAdd("hal-effect__", "Hall effect switches__");
             correctionAdd("HE switch__", "Hall effect switches__");
+            correctionAdd("magnetics__", "Hall effect switches__");
             correctionAdd("HE__", "Hall effect switches__");
 
             // For the reverse, to the abbr
@@ -181273,6 +181299,7 @@ namespace OverflowHelper.core
             correctionAdd("echo___", "Keychron Orca Echo___");
 
             // For a direct text, "K series"
+            correctionAdd("Keychron K10 (100%) (proprietary keyboard firmware, not open source)___", "Keychron K series___");
             correctionAdd("Keychron K10 (100%)___", "Keychron K series___");
             correctionAdd("original K series___", "Keychron K series___");
             correctionAdd("original series___", "Keychron K series___");
@@ -183997,6 +184024,7 @@ namespace OverflowHelper.core
             correctionAdd("02A3____", "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____");
             correctionAdd("02a3____", "Keychron K10 Pro, white backlight variant (USB 0x3434/0x02A3)____");
 
+            correctionAdd("Keychron K10 (100%) (proprietary keyboard firmware, not open source)____", "Keychron K QMK series____");
             correctionAdd("Keychron K10 (100%)____", "Keychron K QMK series____");
             correctionAdd("K10 QMK version 2____", "Keychron K QMK series____");
             correctionAdd("K5 qmk version 2____", "Keychron K QMK series____");
@@ -185949,6 +185977,7 @@ namespace OverflowHelper.core
             correctionAdd("wsitch_____", "switch_____");
 
             // All are cross-references!
+            correctionAdd("Keychron K10 (100%) (proprietary keyboard firmware, not open source)_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("Keychron K QMK series_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("Keychron K10 (100%)_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("Keychron&nbsp;K10_____", "K10 V2 with overlubricated switches_____");
@@ -187946,14 +187975,15 @@ namespace OverflowHelper.core
             //
             //         0x239A/0x0029: B Pro series (they mount in the operating system, and flashing is by simply copying the .uf2 file)
             //
+            correctionAdd("Keychron K10 (100%) (proprietary keyboard firmware, not open source)_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("flashing Keycron K QMK keyboards_______", "flashing Keychron K QMK keyboards_______");
-            correctionAdd("K QMK series_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
             correctionAdd("wb32-dfu-updater_cli_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("Keychron K10 (100%)_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("wb32-dfu-updater_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("WB32 DFU updater_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
             correctionAdd("WB32F3G71RCT6_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("Keychron K10_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
+            correctionAdd("K QMK series_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
             correctionAdd("WB32F3G71_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("flashing_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("K10 V2_______", "flashing Keychron K QMK keyboards_______"); // For the cross-reference
