@@ -14354,6 +14354,7 @@ namespace OverflowHelper.core
             correctionAdd("pleases", "please");
             correctionAdd("Plaease", "please");
             correctionAdd("plaease", "please");
+            correctionAdd("pelease", "please");
             correctionAdd("PLease", "please");
             correctionAdd("Please", "please");
             correctionAdd("Pleaze", "please");
@@ -28628,6 +28629,11 @@ namespace OverflowHelper.core
             //     /etc/udev/rules.d
             //
             // Alternative URLs:
+            //
+            //   <https://linux.die.net/man/7/udev>
+            //
+            //   <https://linux.die.net/man/8/udev>
+            //     The primary
             //
             //   <https://www.reactivated.net/writing_udev_rules.html>
             //     Writing udev rules
@@ -43126,6 +43132,7 @@ namespace OverflowHelper.core
 
             correctionAdd("South pole", "south pole");
             correctionAdd("south-pole", "south pole");
+            correctionAdd("South Pole", "south pole");
             correctionAdd("S-pole", "south pole");
 
             correctionAdd("arctic", "Arctic");
@@ -76209,6 +76216,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Polio", "polio");
 
+            correctionAdd("polymorphisme", "polymorphism");
             correctionAdd("Polymorphism", "polymorphism");
 
             correctionAdd("Pollack", "Polack");
@@ -84901,6 +84909,7 @@ namespace OverflowHelper.core
             correctionAdd("ferris sweep", "Ferris Sweep");
             correctionAdd("Ferris/Sweep", "Ferris Sweep");
             correctionAdd("feriss sweep", "Ferris Sweep");
+            correctionAdd("ferris-sweep", "Ferris Sweep");
             correctionAdd("sweep", "Ferris Sweep");
             correctionAdd("Sweep", "Ferris Sweep");
 
@@ -153584,9 +153593,16 @@ namespace OverflowHelper.core
             //
             // Keychron changed orientation:
             //
-            //   * K HE and Q HE series:        south pole
+            //   * K HE and Q HE series:        south pole (down)
             //
-            //   * Q HE 8K series (wired only): north pole. But closed source code.
+            //     Though a hardware version 2
+            //     from 2026 uses north pole (down)...:
+            //
+            //       <https://www.reddit.com/r/Keychron/comments/1xu1tnk/comment/19sipynq9xe78/>
+            //
+            //   * Q HE 8K series (wired only): north pole (down).
+            //
+            //     But closed source code.
             //
             //   A reference:
             //
