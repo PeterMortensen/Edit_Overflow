@@ -1273,12 +1273,14 @@ namespace OverflowHelper.core
             correctionAdd("meat of the matter", "the meat of the matter");
             correctionAdd("Meat of the matter", "the meat of the matter");
 
-            correctionAdd("Spacewire", "SpaceWire");
-
             correctionAdd("spacefm", "SpaceFM");
+
+            correctionAdd("Spacewire", "SpaceWire");
 
             correctionAdd("myspace", "Myspace");
             correctionAdd("MySpace", "Myspace");
+
+            correctionAdd("hay wire", "haywire");
 
             correctionAdd("strewam", "stream");
             correctionAdd("streal", "stream");
@@ -5197,6 +5199,8 @@ namespace OverflowHelper.core
             correctionAdd("Consooomer", "consumer");
 
             correctionAdd("Producer/Consumer problem", "producer-consumer problem");
+
+            correctionAdd("multi programming", "multiprogramming");
 
             correctionAdd("trheads", "threads");
             correctionAdd("threds", "threads");
@@ -11143,9 +11147,7 @@ namespace OverflowHelper.core
             correctionAdd("boiler this down", "boil down");
             correctionAdd("boiler down", "boil down");
 
-            correctionAdd("aught", "ought");
-            correctionAdd("oight", "ought");
-
+            // Note: "ought" is in an alternative word set
             correctionAdd("oughta", "ought to");
 
             // Note: "do" and "did" are in an alternative word set
@@ -11434,6 +11436,7 @@ namespace OverflowHelper.core
             correctionAdd("buyed", "bought");
             correctionAdd("bough", "bought");
             correctionAdd("bougt", "bought");
+            correctionAdd("ought", "bought");
 
             correctionAdd("buy in", "buy-in");
 
@@ -15630,6 +15633,7 @@ namespace OverflowHelper.core
             correctionAdd("SUPORT", "support");
             correctionAdd("supprt", "support");
             correctionAdd("spport", "support");
+            correctionAdd("suppor", "support");
 
             // The verb
             correctionAdd("supperts", "supports");
@@ -15641,6 +15645,7 @@ namespace OverflowHelper.core
             correctionAdd("supprted", "supported");
             correctionAdd("Supportd", "supported");
             correctionAdd("supportd", "supported");
+            correctionAdd("suppoted", "supported");
 
             correctionAdd("non supported", "unsupported");
             correctionAdd("non-supported", "unsupported");
@@ -26567,6 +26572,7 @@ namespace OverflowHelper.core
             correctionAdd("DR*GS", "drugs");
             correctionAdd("dr*gs", "drugs");
             correctionAdd("d**gs", "drugs");
+            correctionAdd("d***s", "drugs");
 
             // Related to marijuana (slang)
             correctionAdd("Dispos", "dispos");
@@ -27029,6 +27035,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Star link", "Starlink");
             correctionAdd("starlink", "Starlink");
+            correctionAdd("Strlink", "Starlink");
 
             correctionAdd("raptor engine", "Raptor engine");
             correctionAdd("Raptor", "Raptor engine");
@@ -30457,6 +30464,7 @@ namespace OverflowHelper.core
             //   <https://en.wikipedia.org/wiki/Code_refactoring>
             //
             correctionAdd("re-factoring", "refactoring");
+            correctionAdd("outfactoring", "refactoring");
             correctionAdd("refctoring", "refactoring");
             correctionAdd("factored", "refactoring"); // Not 100% correct
 
@@ -31070,6 +31078,7 @@ namespace OverflowHelper.core
             correctionAdd("thinfs", "things"); // A true typo
             correctionAdd("thinks", "things");
             correctionAdd("THINKS", "things");
+            correctionAdd("Thinks", "things");
             correctionAdd("thins", "things");
             correctionAdd("zings", "things"); // Just silly
 
@@ -34598,6 +34607,9 @@ namespace OverflowHelper.core
 
             // A computer game
             correctionAdd("Silksong", "Hollow Knight: Silksong");
+
+            // A computer game
+            correctionAdd("vintage story", "Vintage Story");
 
             // A tabletop and digital collectible card game
             correctionAdd("M:tG cards", "Magic: The Gathering");
@@ -56157,6 +56169,7 @@ namespace OverflowHelper.core
 
             correctionAdd("logining in", "logging in");
             correctionAdd("loggin in", "logging in");
+            correctionAdd("logogin", "logging in");
 
             correctionAdd("logined in", "logged in");
             correctionAdd("logged-in", "logged in");
@@ -68221,6 +68234,7 @@ namespace OverflowHelper.core
             correctionAdd("charachorder x", "CharaCorder X");
             correctionAdd("Chara Corder X", "CharaCorder X");
             correctionAdd("Charachorder", "CharaCorder X"); // Not 100% correct
+            correctionAdd("charachorder", "CharaCorder X"); // Not 100% correct
             correctionAdd("CharaCorder", "CharaCorder X"); // Not 100% correct
             correctionAdd("CCX", "CharaCorder X");
 
@@ -70604,6 +70618,7 @@ namespace OverflowHelper.core
             //   <https://blog.keeb.io/fixing-mx-hotswap-socket-leaves/>
             //     Fixing MX Hotswap Socket Leaves
             //
+            correctionAdd("7305 Mill-Max sockets", "7305 Mill-Max socket");
             correctionAdd("Mill-Max socket", "7305 Mill-Max socket");
             correctionAdd("7305 Mill-Max", "7305 Mill-Max socket");
             correctionAdd("Mill-Max", "7305 Mill-Max socket");
@@ -70612,6 +70627,7 @@ namespace OverflowHelper.core
             correctionAdd("mill Max", "7305 Mill-Max socket");
             correctionAdd("Mill Max", "7305 Mill-Max socket");
             correctionAdd("Millmax", "7305 Mill-Max socket");
+            correctionAdd("millmax", "7305 Mill-Max socket");
             correctionAdd("milmax", "7305 Mill-Max socket");
 
             // Mechanical keyboards (for the mouse alternative)
@@ -78642,10 +78658,11 @@ namespace OverflowHelper.core
             correctionAdd("ZephyrOS", "Zephyr");
             correctionAdd("zeffer", "Zephyr");
             correctionAdd("seffer", "Zephyr");
-            correctionAdd("zephyr", "Zephyr");
+            correctionAdd("Zepher", "Zephyr");
+            correctionAdd("Zypher", "Zephyr");
             correctionAdd("Zephir", "Zephyr");
             correctionAdd("zephir", "Zephyr");
-            correctionAdd("Zypher", "Zephyr");
+            correctionAdd("zephyr", "Zephyr");
             correctionAdd("Zyphyr", "Zephyr");
 
             // A command line build tool used with Zephyr
@@ -85895,6 +85912,8 @@ namespace OverflowHelper.core
             correctionAdd("daktyl manuform", "Dactyl ManuForm");
             correctionAdd("Dactyl manuform", "Dactyl ManuForm");
             correctionAdd("Dactyl-Manuform", "Dactyl ManuForm");
+            correctionAdd("Dactyl Manoform", "Dactyl ManuForm");
+            correctionAdd("Dactyl manoform", "Dactyl ManuForm");
             correctionAdd("Dacty Manuform", "Dactyl ManuForm");
             correctionAdd("ManuForm", "Dactyl ManuForm");
             correctionAdd("manuform", "Dactyl ManuForm");
@@ -85947,6 +85966,7 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=RApoSEEeUL4>
             //   <https://www.youtube.com/watch?v=mYT5AyVAzE8>
             //
+            correctionAdd("Moergo go60", "MoErgo Go60");
             correctionAdd("Glo60", "MoErgo Go60"); // A true typo
             correctionAdd("Go60", "MoErgo Go60");
             correctionAdd("go60", "MoErgo Go60");
@@ -95948,6 +95968,7 @@ namespace OverflowHelper.core
             correctionAdd("keychron k10 pro", "Keychron K10 Pro");
             correctionAdd("keychron K10 pro", "Keychron K10 Pro");
             correctionAdd("Keychron 10 PRO", "Keychron K10 Pro");
+            correctionAdd("Keychron 10 Pro", "Keychron K10 Pro");
             correctionAdd("Keychain K10", "Keychron K10 Pro");
             correctionAdd("K10&nbsp;Pro", "Keychron K10 Pro");
             correctionAdd("K Pro series", "Keychron K10 Pro"); // For the cross-reference
@@ -102422,6 +102443,10 @@ namespace OverflowHelper.core
 
             correctionAdd("blender", "Blender");
 
+            // Blender
+            correctionAdd("eevee", "EEVEE");
+            correctionAdd("Eevee", "EEVEE");
+
             // But the link is (effectively) broken
             correctionAdd("jQuery Isotope", "jQuery&nbsp;Isotope"); // Sort of identity mapping
             correctionAdd("JQuery Isotope", "jQuery&nbsp;Isotope");
@@ -105666,8 +105691,6 @@ namespace OverflowHelper.core
 
             correctionAdd("microweber", "Microweber");
 
-            correctionAdd("eevee", "Eevee");
-
             correctionAdd("Miranda", "Miranda IM");
 
             correctionAdd("jsgi", "JSGI");
@@ -107009,6 +107032,7 @@ namespace OverflowHelper.core
             correctionAdd("QRSH", "qrsh");
 
             correctionAdd("gltf", "glTF");
+            correctionAdd("gLTF", "glTF");
 
             correctionAdd("dat.GUI", "Dat.GUI");
             correctionAdd("Dat,gui", "Dat.GUI");
@@ -113335,8 +113359,6 @@ namespace OverflowHelper.core
 
             URL_Add("phenomenon", "https://en.wiktionary.org/wiki/phenomenon#Noun");
 
-            URL_Add("ought", "https://en.wiktionary.org/wiki/ought#Verb_2");
-
             URL_Add("SwiftUI", "https://developer.apple.com/xcode/swiftui/");
 
             URL_Add("deem", "https://en.wiktionary.org/wiki/deem#Verb");
@@ -114045,7 +114067,7 @@ namespace OverflowHelper.core
 
             URL_Add("undisciplined", "https://en.wiktionary.org/wiki/undisciplined#Adjective");
 
-            URL_Add("Eevee", "https://en.wikipedia.org/wiki/Blender_(software)#Eevee");
+            URL_Add("EEVEE", "https://en.wikipedia.org/wiki/Blender_(software)#Eevee");
 
             URL_Add("GNUstep", "https://en.wikipedia.org/wiki/GNUstep");
 
@@ -123543,8 +123565,6 @@ namespace OverflowHelper.core
 
             URL_Add("under-represented", "https://en.wiktionary.org/wiki/under-represented#Adjective");
 
-            URL_Add("threads", "https://en.wiktionary.org/wiki/thread#Noun");
-
             URL_Add("birthday", "https://en.wiktionary.org/wiki/birthday#Noun");
 
             URL_Add("unpythonic", "https://en.wiktionary.org/wiki/unpythonic#Adjective");
@@ -126795,8 +126815,6 @@ namespace OverflowHelper.core
 
             URL_Add("tinge", "https://en.wiktionary.org/wiki/tinge#Noun");
 
-            URL_Add("scheduler", "https://en.wiktionary.org/wiki/scheduler#Noun");
-
             URL_Add("dongle", "https://en.wiktionary.org/wiki/dongle#Noun");
 
             URL_Add("dongles", "https://en.wiktionary.org/wiki/dongle#Noun");
@@ -127594,28 +127612,6 @@ namespace OverflowHelper.core
             URL_Add("STemWin", "https://www.st.com/resource/en/application_note/an4323-getting-started-with-stemwin-library-stmicroelectronics.pdf");
 
             URL_Add("gyrations", "https://en.wiktionary.org/wiki/gyration#Noun");
-
-            URL_Add("safer", "https://en.wiktionary.org/wiki/safer#Adjective");
-
-            URL_Add("unsafe", "https://en.wiktionary.org/wiki/unsafe#Adjective");
-
-            URL_Add("safely", "https://en.wiktionary.org/wiki/safely#Adverb");
-
-            URL_Add("safety", "https://en.wiktionary.org/wiki/safety#Noun");
-
-            URL_Add("safety net", "https://en.wiktionary.org/wiki/safety_net#Noun");
-
-            URL_Add("it’s safe to say that", "https://dictionary.cambridge.org/dictionary/english/it-s-safe-to-say-that");
-
-            URL_Add("type-safe", "https://en.wiktionary.org/wiki/type-safe#Adjective");
-
-            URL_Add("type safety", "https://en.wiktionary.org/wiki/type_safety#Noun");
-
-            URL_Add("threadsafe", "https://en.wiktionary.org/wiki/threadsafe#Adjective");
-
-            URL_Add("thread safety", "https://en.wikipedia.org/wiki/Thread_safety");
-
-            URL_Add("Safeway", "https://en.wikipedia.org/wiki/Safeway_Inc.");
 
             URL_Add("UL", "https://en.wikipedia.org/wiki/UL_(safety_organization)");
 
@@ -130840,8 +130836,6 @@ namespace OverflowHelper.core
             URL_Add("united", "https://en.wiktionary.org/wiki/united#Adjective");
 
             URL_Add("airliner", "https://en.wiktionary.org/wiki/airliner#Noun");
-
-            URL_Add("multithread", "https://en.wiktionary.org/wiki/multithread#Adjective");
 
             URL_Add("nonparallel", "https://en.wiktionary.org/wiki/nonparallel#Adjective");
 
@@ -135145,8 +135139,6 @@ namespace OverflowHelper.core
 
             URL_Add("oneAPI Threading Building Blocks", "https://en.wikipedia.org/wiki/Threading_Building_Blocks");
 
-            URL_Add("thread pool", "https://en.wikipedia.org/wiki/Thread_pool");
-
             URL_Add("point spread function", "https://en.wikipedia.org/wiki/Point_spread_function");
 
             URL_Add("reasonable", "https://en.wiktionary.org/wiki/reasonable#Adjective");
@@ -136079,8 +136071,6 @@ namespace OverflowHelper.core
             URL_Add("kludgy", "https://en.wiktionary.org/wiki/kludgy#Adjective");
 
             URL_Add("RFC&nbsp;3339", "https://www.rfc-editor.org/rfc/rfc3339");
-
-            URL_Add("semaphore", "https://en.wikipedia.org/wiki/Semaphore");
 
             URL_Add("Maple", "https://en.wikipedia.org/wiki/Maple_(software)");
 
@@ -140303,6 +140293,8 @@ namespace OverflowHelper.core
 
             URL_Add("Hollow Knight: Silksong", "https://en.wikipedia.org/wiki/Hollow_Knight:_Silksong");
 
+            URL_Add("Vintage Story", "https://en.wikipedia.org/wiki/Vintage_Story");
+
             URL_Add("Pokémon Go", "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go");
 
             URL_Add("Pokémon Red", "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow");
@@ -141796,98 +141788,6 @@ namespace OverflowHelper.core
             URL_Add("nonprintable", "https://en.wiktionary.org/wiki/nonprintable#Adjective");
 
             URL_Add("fingerprinting", "https://en.wiktionary.org/wiki/fingerprint#Verb");
-
-            URL_Add("3D printing", "https://en.wikipedia.org/wiki/3D_printing");
-
-            URL_Add("3D printed", "https://en.wiktionary.org/wiki/3D_print#Verb");
-
-            URL_Add("3D printer", "https://en.wikipedia.org/wiki/3D_printing#Processes_and_printers");
-
-            URL_Add("filament", "https://en.wiktionary.org/wiki/filament#Noun");
-
-            URL_Add("fused filament fabrication", "https://en.wikipedia.org/wiki/Fused_filament_fabrication");
-
-            URL_Add("multi jet fusion", "https://robots.net/tech/what-is-multi-jet-fusion-3d-printing/");
-
-            URL_Add("Thingiverse", "https://en.wikipedia.org/wiki/Thingiverse");
-
-            URL_Add("stencil", "https://en.wikipedia.org/wiki/Stencil_printing");
-
-            URL_Add("demultiplexer", "https://en.wikipedia.org/wiki/Multiplexer#Digital_demultiplexers");
-
-            URL_Add("multiplexer", "https://en.wikipedia.org/wiki/Multiplexer");
-
-            URL_Add("multiplexing", "https://en.wiktionary.org/wiki/multiplex#Verb");
-
-            URL_Add("multiplexed", "https://en.wiktionary.org/wiki/multiplex#Verb");
-
-            URL_Add("MTLS", "https://handwiki.org/wiki/Multiplexed_Transport_Layer_Security");
-
-            URL_Add("multiple", "https://en.wiktionary.org/wiki/multiple#Adjective");
-
-            URL_Add("multiple inheritance", "https://en.wikipedia.org/wiki/Multiple_inheritance");
-
-            URL_Add("diamond problem", "https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem");
-
-            URL_Add("multiply", "https://en.wiktionary.org/wiki/multiply#Verb");
-
-            URL_Add("multiplication", "https://en.wiktionary.org/wiki/multiplication#Noun");
-
-            URL_Add("multiplications", "https://en.wiktionary.org/wiki/multiplication#Noun");
-
-            URL_Add("multiplicity", "https://en.wiktionary.org/wiki/multiplicity#Noun");
-
-            URL_Add("fused multiply–add", "https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation");
-
-            URL_Add("Simplify3D", "https://www.simplify3d.com/");
-
-            URL_Add("multidimensional", "https://en.wiktionary.org/wiki/multidimensional#Adjective");
-
-            URL_Add("multiposition", "https://en.wiktionary.org/wiki/multiposition#Adjective");
-
-            URL_Add("multiversion", "https://en.wiktionary.org/wiki/multiversion#Adjective");
-
-            URL_Add("multi-page application", "https://neoteric.eu/blog/single-page-application-vs-multiple-page-application/");
-
-            URL_Add("multibyte", "https://en.wiktionary.org/wiki/multibyte#Adjective");
-
-            URL_Add("single-byte", "https://en.wikipedia.org/wiki/SBCS");
-
-            URL_Add("Multics", "https://en.wikipedia.org/wiki/Multics");
-
-            URL_Add("Multi-user MIMO", "https://en.wikipedia.org/wiki/Multi-user_MIMO");
-
-            URL_Add("singlethreaded", "https://en.wiktionary.org/wiki/multithreaded#Adjective");
-
-            URL_Add("multicore", "https://en.wiktionary.org/wiki/multicore#Adjective");
-
-            URL_Add("multiframe", "https://en.wiktionary.org/wiki/multiframe#Adjective");
-
-            URL_Add("multilevel", "https://en.wiktionary.org/wiki/multilevel#Adjective");
-
-            URL_Add("multi-level marketing", "https://en.wikipedia.org/wiki/Multi-level_marketing");
-
-            URL_Add("multithreaded", "https://en.wiktionary.org/wiki/multithreaded#Adjective");
-
-            URL_Add("multithreading", "https://en.wikipedia.org/wiki/Thread_(computing)#Single-threaded_vs_multithreaded_programs");
-
-            URL_Add("multilayer perceptron", "https://en.wikipedia.org/wiki/Multilayer_perceptron");
-
-            URL_Add("SIMD", "https://en.wikipedia.org/wiki/Single_instruction,_multiple_data"); // Old: https://en.wikipedia.org/wiki/SIMD
-
-            URL_Add("GMP", "https://en.wikipedia.org/wiki/GNU_Multiple_Precision_Arithmetic_Library");
-
-            URL_Add("preemptive", "https://en.wiktionary.org/wiki/preemptive#Adjective");
-
-            URL_Add("preemptively", "https://en.wiktionary.org/wiki/preemptively#Adverb");
-
-            URL_Add("nonpreemptive", "https://en.wiktionary.org/wiki/nonpreemptive#Adjective");
-
-            URL_Add("preemptive multitasking", "https://en.wikipedia.org/wiki/Preemption_(computing)#Preemptive_multitasking");
-
-            URL_Add("multi-pass", "https://en.wiktionary.org/wiki/multi-pass#Adjective");
-
-            URL_Add("multinational", "https://en.wiktionary.org/wiki/multinational#Adjective");
 
             URL_Add("purpose", "https://en.wiktionary.org/wiki/purpose#Noun"); // Old: https://en.wiktionary.org/wiki/purpose#English
 
@@ -146154,8 +146054,6 @@ namespace OverflowHelper.core
             URL_Add("Office Space", "https://en.wikipedia.org/wiki/Office_Space");
 
             URL_Add("G Suite", "https://en.wikipedia.org/wiki/Google_Workspace"); // Old: https://en.wikipedia.org/wiki/G_Suite
-
-            URL_Add("SpaceWire", "https://en.wikipedia.org/wiki/SpaceWire");
 
             URL_Add("SKALE", "https://skale.space/");
 
@@ -151774,6 +151672,136 @@ namespace OverflowHelper.core
             URL_Add("photoelectric effect", "https://en.wikipedia.org/wiki/Photoelectric_effect");
 
             URL_Add("backscatter", "https://en.wikipedia.org/wiki/Backscatter");
+
+            URL_Add("multiprogramming", "https://en.wikipedia.org/wiki/Computer_multitasking#Multiprogramming");
+
+            URL_Add("threads", "https://en.wiktionary.org/wiki/thread#Noun");
+
+            URL_Add("threadsafe", "https://en.wiktionary.org/wiki/threadsafe#Adjective");
+
+            URL_Add("thread safety", "https://en.wikipedia.org/wiki/Thread_safety");
+
+            URL_Add("singlethreaded", "https://en.wiktionary.org/wiki/multithreaded#Adjective");
+
+            URL_Add("multithread", "https://en.wiktionary.org/wiki/multithread#Adjective");
+
+            URL_Add("multithreaded", "https://en.wiktionary.org/wiki/multithreaded#Adjective");
+
+            URL_Add("multithreading", "https://en.wikipedia.org/wiki/Thread_(computing)#Single-threaded_vs_multithreaded_programs");
+
+            URL_Add("thread pool", "https://en.wikipedia.org/wiki/Thread_pool");
+
+            URL_Add("semaphore", "https://en.wikipedia.org/wiki/Semaphore");
+
+            URL_Add("scheduler", "https://en.wiktionary.org/wiki/scheduler#Noun");
+
+            URL_Add("safer", "https://en.wiktionary.org/wiki/safer#Adjective");
+
+            URL_Add("unsafe", "https://en.wiktionary.org/wiki/unsafe#Adjective");
+
+            URL_Add("safely", "https://en.wiktionary.org/wiki/safely#Adverb");
+
+            URL_Add("safety", "https://en.wiktionary.org/wiki/safety#Noun");
+
+            URL_Add("safety net", "https://en.wiktionary.org/wiki/safety_net#Noun");
+
+            URL_Add("it’s safe to say that", "https://dictionary.cambridge.org/dictionary/english/it-s-safe-to-say-that");
+
+            URL_Add("type-safe", "https://en.wiktionary.org/wiki/type-safe#Adjective");
+
+            URL_Add("type safety", "https://en.wiktionary.org/wiki/type_safety#Noun");
+
+            URL_Add("Safeway", "https://en.wikipedia.org/wiki/Safeway_Inc.");
+
+            URL_Add("3D printing", "https://en.wikipedia.org/wiki/3D_printing");
+
+            URL_Add("3D printed", "https://en.wiktionary.org/wiki/3D_print#Verb");
+
+            URL_Add("3D printer", "https://en.wikipedia.org/wiki/3D_printing#Processes_and_printers");
+
+            URL_Add("filament", "https://en.wiktionary.org/wiki/filament#Noun");
+
+            URL_Add("fused filament fabrication", "https://en.wikipedia.org/wiki/Fused_filament_fabrication");
+
+            URL_Add("multi jet fusion", "https://robots.net/tech/what-is-multi-jet-fusion-3d-printing/");
+
+            URL_Add("Thingiverse", "https://en.wikipedia.org/wiki/Thingiverse");
+
+            URL_Add("stencil", "https://en.wikipedia.org/wiki/Stencil_printing");
+
+            URL_Add("demultiplexer", "https://en.wikipedia.org/wiki/Multiplexer#Digital_demultiplexers");
+
+            URL_Add("multiplexer", "https://en.wikipedia.org/wiki/Multiplexer");
+
+            URL_Add("multiplexing", "https://en.wiktionary.org/wiki/multiplex#Verb");
+
+            URL_Add("multiplexed", "https://en.wiktionary.org/wiki/multiplex#Verb");
+
+            URL_Add("MTLS", "https://handwiki.org/wiki/Multiplexed_Transport_Layer_Security");
+
+            URL_Add("multiple", "https://en.wiktionary.org/wiki/multiple#Adjective");
+
+            URL_Add("multiple inheritance", "https://en.wikipedia.org/wiki/Multiple_inheritance");
+
+            URL_Add("diamond problem", "https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem");
+
+            URL_Add("multiply", "https://en.wiktionary.org/wiki/multiply#Verb");
+
+            URL_Add("multiplication", "https://en.wiktionary.org/wiki/multiplication#Noun");
+
+            URL_Add("multiplications", "https://en.wiktionary.org/wiki/multiplication#Noun");
+
+            URL_Add("multiplicity", "https://en.wiktionary.org/wiki/multiplicity#Noun");
+
+            URL_Add("fused multiply–add", "https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation");
+
+            URL_Add("Simplify3D", "https://www.simplify3d.com/");
+
+            URL_Add("multidimensional", "https://en.wiktionary.org/wiki/multidimensional#Adjective");
+
+            URL_Add("multiposition", "https://en.wiktionary.org/wiki/multiposition#Adjective");
+
+            URL_Add("multiversion", "https://en.wiktionary.org/wiki/multiversion#Adjective");
+
+            URL_Add("multi-page application", "https://neoteric.eu/blog/single-page-application-vs-multiple-page-application/");
+
+            URL_Add("multibyte", "https://en.wiktionary.org/wiki/multibyte#Adjective");
+
+            URL_Add("single-byte", "https://en.wikipedia.org/wiki/SBCS");
+
+            URL_Add("Multics", "https://en.wikipedia.org/wiki/Multics");
+
+            URL_Add("Multi-user MIMO", "https://en.wikipedia.org/wiki/Multi-user_MIMO");
+
+            URL_Add("multicore", "https://en.wiktionary.org/wiki/multicore#Adjective");
+
+            URL_Add("multiframe", "https://en.wiktionary.org/wiki/multiframe#Adjective");
+
+            URL_Add("multilevel", "https://en.wiktionary.org/wiki/multilevel#Adjective");
+
+            URL_Add("multi-level marketing", "https://en.wikipedia.org/wiki/Multi-level_marketing");
+
+            URL_Add("multilayer perceptron", "https://en.wikipedia.org/wiki/Multilayer_perceptron");
+
+            URL_Add("SIMD", "https://en.wikipedia.org/wiki/Single_instruction,_multiple_data"); // Old: https://en.wikipedia.org/wiki/SIMD
+
+            URL_Add("GMP", "https://en.wikipedia.org/wiki/GNU_Multiple_Precision_Arithmetic_Library");
+
+            URL_Add("preemptive", "https://en.wiktionary.org/wiki/preemptive#Adjective");
+
+            URL_Add("preemptively", "https://en.wiktionary.org/wiki/preemptively#Adverb");
+
+            URL_Add("nonpreemptive", "https://en.wiktionary.org/wiki/nonpreemptive#Adjective");
+
+            URL_Add("preemptive multitasking", "https://en.wikipedia.org/wiki/Preemption_(computing)#Preemptive_multitasking");
+
+            URL_Add("multi-pass", "https://en.wiktionary.org/wiki/multi-pass#Adjective");
+
+            URL_Add("multinational", "https://en.wiktionary.org/wiki/multinational#Adjective");
+
+            URL_Add("haywire", "https://en.wiktionary.org/wiki/haywire#Adjective");
+
+            URL_Add("SpaceWire", "https://en.wikipedia.org/wiki/SpaceWire");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -163092,6 +163120,7 @@ namespace OverflowHelper.core
             correctionAdd("hink_", "think_");
             correctionAdd("thin_", "think_");
 
+            correctionAdd("Thinks_", "thinks_");
             correctionAdd("thins_", "thinks_");
 
             // The verb...
@@ -168386,6 +168415,9 @@ namespace OverflowHelper.core
             correctionAdd("the_", "then_");
             correctionAdd("The_", "then_");
 
+            correctionAdd("aught_", "ought_");
+            correctionAdd("oight_", "ought_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -173136,6 +173168,8 @@ namespace OverflowHelper.core
             URL_Add("Magnus Carlsen_", "https://en.wikipedia.org/wiki/Magnus_Carlsen");
 
             URL_Add("Miguel Najdorf_", "https://en.wikipedia.org/wiki/Miguel_Najdorf");
+
+            URL_Add("ought_", "https://en.wiktionary.org/wiki/ought#Verb_2");
 
         } //addLookupData_alternativeWordSet()
 
@@ -180195,6 +180229,7 @@ namespace OverflowHelper.core
             correctionAdd("wone___", "one___");
             correctionAdd("onw___", "one___");
             correctionAdd("One___", "one___");
+            correctionAdd("noe___", "one___");
             correctionAdd("ome___", "one___");
             correctionAdd("ine___", "one___");
             correctionAdd("won___", "one___");
