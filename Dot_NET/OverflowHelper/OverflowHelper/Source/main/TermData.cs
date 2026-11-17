@@ -11576,8 +11576,6 @@ namespace OverflowHelper.core
             correctionAdd("super-set", "superset");
             correctionAdd("SuperSet", "superset");
 
-            correctionAdd("blendermarket", "Blender Market");
-
             correctionAdd("whole-sale", "wholesale");
             correctionAdd("whole sale", "wholesale");
 
@@ -12589,8 +12587,6 @@ namespace OverflowHelper.core
             // The verb
             correctionAdd("show-case", "showcase");
 
-            correctionAdd("long-run", "long run");
-
             correctionAdd("complexicity", "complexity");
             correctionAdd("complexitiy", "complexity");
             correctionAdd("complexcity", "complexity");
@@ -12944,6 +12940,21 @@ namespace OverflowHelper.core
 
             correctionAdd("timelock", "time lock");
 
+            correctionAdd("rund", "run");
+            correctionAdd("Runn", "run");
+            correctionAdd("runn", "run");
+            correctionAdd("tun", "run"); // A true typo
+            correctionAdd("rum", "run");
+            correctionAdd("Run", "run");
+            correctionAdd("rin", "run");
+            correctionAdd("rub", "run");
+
+            // The verb
+            correctionAdd("run's", "runs");
+
+            correctionAdd("runned", "ran");
+            correctionAdd("rang", "ran");
+
             correctionAdd("runnning", "running");
             correctionAdd("runninig", "running");
             correctionAdd("Running", "running");
@@ -12956,11 +12967,12 @@ namespace OverflowHelper.core
             correctionAdd("Runing", "running");
             correctionAdd("runnin", "running");
 
-            correctionAdd("long running", "long-running");
-            correctionAdd("Long running", "long-running");
-            correctionAdd("longrunning", "long-running");
+            correctionAdd("ruuner", "runner");
+            correctionAdd("runer", "runner");
 
-            correctionAdd("free running", "free-running");
+            correctionAdd("runneable", "runnable");
+            correctionAdd("Runnable", "runnable");
+            correctionAdd("runable", "runnable");
 
             correctionAdd("re-reun", "rerun"); // Partly a true typo and a partly a misspelling
             correctionAdd("re-run", "rerun");
@@ -12976,25 +12988,13 @@ namespace OverflowHelper.core
 
             correctionAdd("re-ran", "reran");
 
-            correctionAdd("rund", "run");
-            correctionAdd("tun", "run"); // A true typo
-            correctionAdd("rum", "run");
-            correctionAdd("Run", "run");
-            correctionAdd("rin", "run");
-            correctionAdd("rub", "run");
+            correctionAdd("long-run", "long run");
 
-            // The verb
-            correctionAdd("run's", "runs");
+            correctionAdd("long running", "long-running");
+            correctionAdd("Long running", "long-running");
+            correctionAdd("longrunning", "long-running");
 
-            correctionAdd("runned", "ran");
-            correctionAdd("rang", "ran");
-
-            correctionAdd("ruuner", "runner");
-            correctionAdd("runer", "runner");
-
-            correctionAdd("runneable", "runnable");
-            correctionAdd("Runnable", "runnable");
-            correctionAdd("runable", "runnable");
+            correctionAdd("free running", "free-running");
 
             correctionAdd("Now-a- days", "nowadays");
             correctionAdd("now-a-days", "nowadays");
@@ -16347,6 +16347,8 @@ namespace OverflowHelper.core
             correctionAdd("poertop", "PowerTOP");
 
             correctionAdd("Tickets", "tickets");
+
+            correctionAdd("ticketting", "ticketing");
 
             correctionAdd("decission", "decision");
             correctionAdd("descision", "decision");
@@ -22464,8 +22466,9 @@ namespace OverflowHelper.core
             correctionAdd("Ukranian", "Ukrainian");
             correctionAdd("ukranian", "Ukrainian");
 
-            // Ukraine
-            correctionAdd("victor yonokovich", "Viktor Yanukovych");
+            correctionAdd("crimea", "Crimea");
+
+            correctionAdd("crimean", "Crimean");
 
             // Ukraine
             correctionAdd("Bach, moot", "Bakhmut"); // A YouTube caption "masterpiece"
@@ -22477,6 +22480,9 @@ namespace OverflowHelper.core
 
             // A city
             correctionAdd("Vuledar", "Vuhledar");
+
+            // Ukraine
+            correctionAdd("victor yonokovich", "Viktor Yanukovych");
 
             correctionAdd("Zelensky", "Volodymyr Zelenskyy");
 
@@ -84495,6 +84501,8 @@ namespace OverflowHelper.core
             correctionAdd("techtiques", "techniques");
             correctionAdd("technics", "techniques");
 
+            correctionAdd("Priliminary", "preliminary");
+            correctionAdd("priliminary", "preliminary");
             correctionAdd("prelim", "preliminary");
             correctionAdd("Prelim", "preliminary");
 
@@ -89709,13 +89717,11 @@ namespace OverflowHelper.core
             //
             //     Now removed...
             //
-            correctionAdd("Keychron K2 Pro", "Keychron&nbsp;K2&nbsp;Pro"); // Sort of identity mapping
-            correctionAdd("K2&nbsp;Pro", "Keychron&nbsp;K2&nbsp;Pro");
-            correctionAdd("K2 Pro", "Keychron&nbsp;K2&nbsp;Pro");
-            correctionAdd("k2 pro", "Keychron&nbsp;K2&nbsp;Pro");
-            correctionAdd("K2 PRO", "Keychron&nbsp;K2&nbsp;Pro");
-            correctionAdd("k2", "Keychron&nbsp;K2&nbsp;Pro"); // Though there is a distict K2, different from K2 Pro
-            correctionAdd("K2", "Keychron&nbsp;K2&nbsp;Pro");
+            correctionAdd("K2 Pro", "Keychron K2 Pro");
+            correctionAdd("k2 pro", "Keychron K2 Pro");
+            correctionAdd("K2 PRO", "Keychron K2 Pro");
+            correctionAdd("k2", "Keychron K2 Pro"); // Though there is a distict K2, different from K2 Pro
+            correctionAdd("K2", "Keychron K2 Pro");
 
             // A 85-key (80%. Not true TKL) crippled wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -91283,21 +91289,19 @@ namespace OverflowHelper.core
             //   PCB: We don't have picture, but see the one for
             //        near "K3 Pro PCB"
             //
-            correctionAdd("K8&nbsp;Pro&nbsp;ISO", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("Keychron K8 Pro ISO", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO"); // Sort of identity mapping
-            correctionAdd("Keychron K8 Pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("keychron k8 pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("keychron K8 Pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("keychron K8 pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("Keychron K8", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("K8&nbsp;Pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("K8 Pro ISO", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("K8 Pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("K8 pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("k8 pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("K8 PRO", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("k8pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
-            correctionAdd("K8pro", "Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO");
+            correctionAdd("Keychron K8 Pro", "Keychron K8 Pro ISO");
+            correctionAdd("keychron k8 pro", "Keychron K8 Pro ISO");
+            correctionAdd("keychron K8 Pro", "Keychron K8 Pro ISO");
+            correctionAdd("keychron K8 pro", "Keychron K8 Pro ISO");
+            correctionAdd("Keychron K8", "Keychron K8 Pro ISO");
+            correctionAdd("K8 Pro ISO", "Keychron K8 Pro ISO");
+            correctionAdd("K8 Pro", "Keychron K8 Pro ISO");
+            correctionAdd("K8 pro", "Keychron K8 Pro ISO");
+            correctionAdd("k8 pro", "Keychron K8 Pro ISO");
+            correctionAdd("K8 PRO", "Keychron K8 Pro ISO");
+            correctionAdd("K8-Pro", "Keychron K8 Pro ISO");
+            correctionAdd("k8pro", "Keychron K8 Pro ISO");
+            correctionAdd("K8pro", "Keychron K8 Pro ISO");
 
             // A 88-key (85%. True TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
@@ -102447,6 +102451,12 @@ namespace OverflowHelper.core
             correctionAdd("eevee", "EEVEE");
             correctionAdd("Eevee", "EEVEE");
 
+            // Related to Blender
+            correctionAdd("gltf", "glTF");
+            correctionAdd("gLTF", "glTF");
+
+            correctionAdd("blendermarket", "Blender Market");
+
             // But the link is (effectively) broken
             correctionAdd("jQuery Isotope", "jQuery&nbsp;Isotope"); // Sort of identity mapping
             correctionAdd("JQuery Isotope", "jQuery&nbsp;Isotope");
@@ -107031,9 +107041,6 @@ namespace OverflowHelper.core
 
             correctionAdd("QRSH", "qrsh");
 
-            correctionAdd("gltf", "glTF");
-            correctionAdd("gLTF", "glTF");
-
             correctionAdd("dat.GUI", "Dat.GUI");
             correctionAdd("Dat,gui", "Dat.GUI");
             correctionAdd("Dat.gui", "Dat.GUI");
@@ -110018,10 +110025,6 @@ namespace OverflowHelper.core
             URL_Add("POV-Ray", "https://en.wikipedia.org/wiki/POV-Ray");
 
             URL_Add("XNA", "https://en.wikipedia.org/wiki/Microsoft_XNA");
-
-            URL_Add("Bézier curve", "https://en.wikipedia.org/wiki/B%C3%A9zier_curve");
-
-            URL_Add("Blender", "https://en.wikipedia.org/wiki/Blender_%28software%29");
 
             URL_Add("InstallShield", "https://en.wikipedia.org/wiki/InstallShield");
 
@@ -114066,8 +114069,6 @@ namespace OverflowHelper.core
             URL_Add("percentage point", "https://en.wikipedia.org/wiki/Percentage_point");
 
             URL_Add("undisciplined", "https://en.wiktionary.org/wiki/undisciplined#Adjective");
-
-            URL_Add("EEVEE", "https://en.wikipedia.org/wiki/Blender_(software)#Eevee");
 
             URL_Add("GNUstep", "https://en.wikipedia.org/wiki/GNUstep");
 
@@ -127049,6 +127050,8 @@ namespace OverflowHelper.core
 
             URL_Add("tickets", "https://en.wikipedia.org/wiki/Issue_tracking_system");
 
+            URL_Add("ticketing", "https://en.wiktionary.org/wiki/ticketing#Noun");
+
             URL_Add("nonmatched", "https://en.wiktionary.org/wiki/nonmatched#Adjective");
 
             URL_Add("excuse", "https://en.wiktionary.org/wiki/excuse#Noun");
@@ -128205,8 +128208,6 @@ namespace OverflowHelper.core
 
             URL_Add("NetCDF", "https://en.wikipedia.org/wiki/NetCDF");
 
-            URL_Add("glTF", "https://en.wikipedia.org/wiki/GlTF");
-
             URL_Add("SDF", "https://en.wikipedia.org/wiki/Chemical_table_file#SDF");
 
             URL_Add("SWF", "https://en.wikipedia.org/wiki/SWF");
@@ -128448,8 +128449,6 @@ namespace OverflowHelper.core
             URL_Add("Inspiron 620s", "https://en.wikipedia.org/wiki/Dell_Inspiron_desktop_computers#Inspiron_620_and_Inspiron_620s");
 
             URL_Add("NaI(Tl)", "https://en.wikipedia.org/wiki/Gamma_spectroscopy#Scintillation_detectors"); // Contains chemical element 81, chemical element 11, and chemical element 53
-
-            URL_Add("Blender Market", "https://en.wikipedia.org/wiki/Blender_(software)#Blender_Market");
 
             URL_Add("trademark", "https://en.wikipedia.org/wiki/Trademark_symbol");
 
@@ -130649,18 +130648,6 @@ namespace OverflowHelper.core
 
             URL_Add("chicken coop", "https://en.wikipedia.org/wiki/Poultry_farming#Chicken_coop");
 
-            URL_Add("course", "https://en.wiktionary.org/wiki/course#Noun");
-
-            URL_Add("due course", "https://en.wiktionary.org/wiki/due_course#Noun");
-
-            URL_Add("run its course", "https://en.wiktionary.org/wiki/run_its_course#Verb");
-
-            URL_Add("massive open online course", "https://en.wikipedia.org/wiki/Massive_open_online_course");
-
-            URL_Add("Coursera", "https://en.wikipedia.org/wiki/Coursera");
-
-            URL_Add("Discourse", "https://en.wikipedia.org/wiki/Discourse_%28software%29");
-
             URL_Add("HM-10", "https://people.ece.cornell.edu/land/courses/ece4760/PIC32/uart/HM10/DSD%20TECH%20HM-10%20datasheet.pdf");
 
             URL_Add("LIR", "https://web.eecs.umich.edu/~mahlke/courses/483f06/lectures/483L17.pdf");
@@ -131171,13 +131158,35 @@ namespace OverflowHelper.core
 
             URL_Add("runs", "https://en.wiktionary.org/wiki/run#Verb");
 
-            URL_Add("ran", "https://en.wiktionary.org/wiki/run#Verb");
-
             URL_Add("running", "https://en.wiktionary.org/wiki/running#Verb");
+
+            URL_Add("ran", "https://en.wiktionary.org/wiki/run#Verb");
 
             URL_Add("runnable", "https://en.wiktionary.org/wiki/runnable#Adjective");
 
             URL_Add("runner", "https://en.wiktionary.org/wiki/runner#Noun");
+
+            URL_Add("runner-up", "https://en.wiktionary.org/wiki/runner-up#Noun");
+
+            URL_Add("runaway", "https://en.wiktionary.org/wiki/runaway#Noun");
+
+            URL_Add("rundown", "https://en.wiktionary.org/wiki/rundown#Noun");
+
+            URL_Add("run-of-the-mill", "https://en.wiktionary.org/wiki/run-of-the-mill#Adjective");
+
+            URL_Add("run time", "https://en.wiktionary.org/wiki/run_time#Noun");
+
+            URL_Add("at runtime", "https://en.wikipedia.org/wiki/Runtime_(program_lifecycle_phase)");
+
+            URL_Add("up and running", "https://en.wiktionary.org/wiki/up_and_running#Adjective");
+
+            URL_Add("run its course", "https://en.wiktionary.org/wiki/run_its_course#Verb");
+
+            URL_Add("run times", "https://en.wiktionary.org/wiki/run_time#Noun");
+
+            URL_Add("run-on sentence", "https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_sentences"); // Old: <https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences>
+
+            URL_Add("autorun", "https://en.wiktionary.org/wiki/autorun#Verb");
 
             URL_Add("rerouted", "https://en.wiktionary.org/wiki/reroute#Verb");
 
@@ -131188,6 +131197,16 @@ namespace OverflowHelper.core
             URL_Add("reran", "https://en.wiktionary.org/wiki/rerun#Verb");
 
             URL_Add("reruns", "https://en.wiktionary.org/wiki/rerun#Noun");
+
+            URL_Add("course", "https://en.wiktionary.org/wiki/course#Noun");
+
+            URL_Add("due course", "https://en.wiktionary.org/wiki/due_course#Noun");
+
+            URL_Add("massive open online course", "https://en.wikipedia.org/wiki/Massive_open_online_course");
+
+            URL_Add("Coursera", "https://en.wikipedia.org/wiki/Coursera");
+
+            URL_Add("Discourse", "https://en.wikipedia.org/wiki/Discourse_%28software%29");
 
             URL_Add("reread", "https://en.wiktionary.org/wiki/reread#Verb");
 
@@ -135960,24 +135979,6 @@ namespace OverflowHelper.core
 
             URL_Add("in the short run", "https://en.wiktionary.org/wiki/in_the_short_run#Prepositional_phrase");
 
-            URL_Add("runner-up", "https://en.wiktionary.org/wiki/runner-up#Noun");
-
-            URL_Add("runaway", "https://en.wiktionary.org/wiki/runaway#Noun");
-
-            URL_Add("run-of-the-mill", "https://en.wiktionary.org/wiki/run-of-the-mill#Adjective");
-
-            URL_Add("run time", "https://en.wiktionary.org/wiki/run_time#Noun");
-
-            URL_Add("up and running", "https://en.wiktionary.org/wiki/up_and_running#Adjective");
-
-            URL_Add("rundown", "https://en.wiktionary.org/wiki/rundown#Noun");
-
-            URL_Add("at runtime", "https://en.wikipedia.org/wiki/Runtime_(program_lifecycle_phase)");
-
-            URL_Add("run-on sentence", "https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_sentences"); // Old: <https://en.wikipedia.org/wiki/Sentence_clause_structure#Run-on_(fused)_sentences>
-
-            URL_Add("autorun", "https://en.wiktionary.org/wiki/autorun#Verb");
-
             URL_Add("Try It Online", "https://tio.run/");
 
             URL_Add("dotnet run", "https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-run");
@@ -138502,8 +138503,6 @@ namespace OverflowHelper.core
             URL_Add("timestamps", "https://en.wiktionary.org/wiki/timestamp#Noun");
 
             URL_Add("other times", "https://en.wiktionary.org/wiki/other_times#Adverb");
-
-            URL_Add("run times", "https://en.wiktionary.org/wiki/run_time#Noun");
 
             URL_Add("two times", "https://en.wiktionary.org/wiki/two_times#Adverb");
 
@@ -143531,7 +143530,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K1 Pro", "https://www.keychron.com/collections/all-keyboards/products/keychron-k1-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K2&nbsp;Pro", "https://www.keychron.com/products/keychron-k2-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K2 Pro", "https://www.keychron.com/products/keychron-k2-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron K3 Pro ISO (80%)", "https://www.keychron.com/products/keychron-k3-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
 
@@ -143541,7 +143540,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K6&nbsp;Pro", "https://www.keychron.com/products/keychron-k6-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K8&nbsp;Pro&nbsp;ISO", "https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K8 Pro ISO", "https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron K9 Pro", "https://www.keychron.uk/products/keychron-k9-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -146199,74 +146198,6 @@ namespace OverflowHelper.core
 
             URL_Add("MTRR", "https://en.wikipedia.org/wiki/Memory_type_range_register");
 
-            URL_Add("checker", "https://en.wiktionary.org/wiki/checker#Noun");
-
-            URL_Add("checklist", "https://en.wiktionary.org/wiki/checklist#Noun");
-
-            URL_Add("checklists", "https://en.wiktionary.org/wiki/checklist#Noun");
-
-            URL_Add("checkpoint", "https://en.wiktionary.org/wiki/checkpoint#Noun");
-
-            URL_Add("checkride", "https://en.wikipedia.org/wiki/FAA_Practical_Test");
-
-            URL_Add("checkmate", "https://en.wiktionary.org/wiki/checkmate#Noun");
-
-            URL_Add("checkmating", "https://en.wiktionary.org/wiki/checkmate#Verb");
-
-            URL_Add("checkbox", "https://en.wiktionary.org/wiki/checkbox#Noun");
-
-            URL_Add("checkboxes", "https://en.wiktionary.org/wiki/checkbox#Noun");
-
-            URL_Add("checksumming", "https://en.wiktionary.org/wiki/checksum#Verb");
-
-            URL_Add("checksum", "https://en.wiktionary.org/wiki/checksum#Noun");
-
-            URL_Add("check mark", "https://en.wiktionary.org/wiki/check_mark#Noun");
-
-            URL_Add("checks and balances", "https://en.wiktionary.org/wiki/checks_and_balances#Noun");
-
-            URL_Add("check in", "https://en.wiktionary.org/wiki/check_in#Verb");
-
-            URL_Add("check up", "https://en.wiktionary.org/wiki/check_up#Verb");
-
-            URL_Add("check out", "https://en.wiktionary.org/wiki/check_out#Verb");
-
-            URL_Add("spot check", "https://en.wiktionary.org/wiki/spot_check#Noun");
-
-            URL_Add("paycheck", "https://en.wiktionary.org/wiki/paycheck#Noun");
-
-            URL_Add("health check", "https://dictionary.cambridge.org/dictionary/english/health-check");
-
-            URL_Add("held in check", "https://en.wiktionary.org/wiki/in_check#Usage_notes");
-
-            URL_Add("typechecking", "https://en.wiktionary.org/wiki/typechecking#Noun");
-
-            URL_Add("typechecker", "https://en.wiktionary.org/wiki/typechecker#Noun");
-
-            URL_Add("spellcheck", "https://en.wiktionary.org/wiki/spellcheck#Noun"); // Old: https://en.wiktionary.org/wiki/spellcheck#English
-
-            URL_Add("spell checker", "https://en.wiktionary.org/wiki/spell_checker#Noun");
-
-            URL_Add("web browser spell checking", "https://en.wikipedia.org/wiki/Wikipedia:Typo_Team#Browser_spell_checking");
-
-            URL_Add("Memcheck", "https://en.wikipedia.org/wiki/Valgrind#Memcheck");
-
-            URL_Add("Rust borrow checker", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Memory_safety");
-
-            URL_Add("ShellCheck", "https://www.shellcheck.net/");
-
-            URL_Add("Cppcheck", "https://en.wikipedia.org/wiki/Cppcheck");
-
-            URL_Add("Checkstyle", "https://en.wikipedia.org/wiki/Checkstyle");
-
-            URL_Add("System File Checker", "https://en.wikipedia.org/wiki/System_File_Checker");
-
-            URL_Add("npm-check-updates", "https://github.com/raineorshine/npm-check-updates");
-
-            URL_Add("CRC", "https://en.wikipedia.org/wiki/Cyclic_redundancy_check");
-
-            URL_Add("CRC-32", "https://en.wikipedia.org/wiki/Cyclic_redundancy_check#CRC-32_algorithm");
-
             URL_Add("look before you leap", "https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use#Preventing_TOCTOU");
 
             URL_Add("statically typed", "https://en.wikipedia.org/wiki/Type_system#Combining_static_and_dynamic_type_checking");
@@ -147824,6 +147755,10 @@ namespace OverflowHelper.core
             URL_Add("Kiev", "https://en.wikipedia.org/wiki/Kiev");
 
             URL_Add("Vuhledar", "https://en.wikipedia.org/wiki/Battle_of_Vuhledar");
+
+            URL_Add("Crimea", "https://en.wikipedia.org/wiki/Crimea");
+
+            URL_Add("Crimean", "https://en.wiktionary.org/wiki/Crimean#Adjective");
 
             URL_Add("Belarus", "https://en.wikipedia.org/wiki/Belarus");
 
@@ -149937,6 +149872,36 @@ namespace OverflowHelper.core
 
             URL_Add("checked", "https://en.wiktionary.org/wiki/check#Verb");
 
+            URL_Add("checker", "https://en.wiktionary.org/wiki/checker#Noun");
+
+            URL_Add("checklist", "https://en.wiktionary.org/wiki/checklist#Noun");
+
+            URL_Add("checklists", "https://en.wiktionary.org/wiki/checklist#Noun");
+
+            URL_Add("checkpoint", "https://en.wiktionary.org/wiki/checkpoint#Noun");
+
+            URL_Add("checkmate", "https://en.wiktionary.org/wiki/checkmate#Noun");
+
+            URL_Add("checkmating", "https://en.wiktionary.org/wiki/checkmate#Verb");
+
+            URL_Add("checkbox", "https://en.wiktionary.org/wiki/checkbox#Noun");
+
+            URL_Add("checkboxes", "https://en.wiktionary.org/wiki/checkbox#Noun");
+
+            URL_Add("checksumming", "https://en.wiktionary.org/wiki/checksum#Verb");
+
+            URL_Add("checksum", "https://en.wiktionary.org/wiki/checksum#Noun");
+
+            URL_Add("check mark", "https://en.wiktionary.org/wiki/check_mark#Noun");
+
+            URL_Add("checks and balances", "https://en.wiktionary.org/wiki/checks_and_balances#Noun");
+
+            URL_Add("check in", "https://en.wiktionary.org/wiki/check_in#Verb");
+
+            URL_Add("check up", "https://en.wiktionary.org/wiki/check_up#Verb");
+
+            URL_Add("check out", "https://en.wiktionary.org/wiki/check_out#Verb");
+
             URL_Add("cherry-pick", "https://en.wiktionary.org/wiki/cherry-pick#Verb");
 
             URL_Add("cherry-picked", "https://en.wiktionary.org/wiki/cherry-pick#Verb");
@@ -149978,6 +149943,44 @@ namespace OverflowHelper.core
             URL_Add("fact checked", "https://en.wiktionary.org/wiki/fact_check#Verb");
 
             URL_Add("fact checking", "https://en.wiktionary.org/wiki/fact_check#Verb");
+
+            URL_Add("checkride", "https://en.wikipedia.org/wiki/FAA_Practical_Test");
+
+            URL_Add("spot check", "https://en.wiktionary.org/wiki/spot_check#Noun");
+
+            URL_Add("paycheck", "https://en.wiktionary.org/wiki/paycheck#Noun");
+
+            URL_Add("health check", "https://dictionary.cambridge.org/dictionary/english/health-check");
+
+            URL_Add("held in check", "https://en.wiktionary.org/wiki/in_check#Usage_notes");
+
+            URL_Add("typechecking", "https://en.wiktionary.org/wiki/typechecking#Noun");
+
+            URL_Add("typechecker", "https://en.wiktionary.org/wiki/typechecker#Noun");
+
+            URL_Add("spellcheck", "https://en.wiktionary.org/wiki/spellcheck#Noun"); // Old: https://en.wiktionary.org/wiki/spellcheck#English
+
+            URL_Add("spell checker", "https://en.wiktionary.org/wiki/spell_checker#Noun");
+
+            URL_Add("web browser spell checking", "https://en.wikipedia.org/wiki/Wikipedia:Typo_Team#Browser_spell_checking");
+
+            URL_Add("Memcheck", "https://en.wikipedia.org/wiki/Valgrind#Memcheck");
+
+            URL_Add("Rust borrow checker", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Memory_safety");
+
+            URL_Add("ShellCheck", "https://www.shellcheck.net/");
+
+            URL_Add("Cppcheck", "https://en.wikipedia.org/wiki/Cppcheck");
+
+            URL_Add("Checkstyle", "https://en.wikipedia.org/wiki/Checkstyle");
+
+            URL_Add("System File Checker", "https://en.wikipedia.org/wiki/System_File_Checker");
+
+            URL_Add("npm-check-updates", "https://github.com/raineorshine/npm-check-updates");
+
+            URL_Add("CRC", "https://en.wikipedia.org/wiki/Cyclic_redundancy_check");
+
+            URL_Add("CRC-32", "https://en.wikipedia.org/wiki/Cyclic_redundancy_check#CRC-32_algorithm");
 
             URL_Add("grokking", "https://en.wiktionary.org/wiki/grok#Verb");
 
@@ -151803,6 +151806,16 @@ namespace OverflowHelper.core
 
             URL_Add("SpaceWire", "https://en.wikipedia.org/wiki/SpaceWire");
 
+            URL_Add("Bézier curve", "https://en.wikipedia.org/wiki/B%C3%A9zier_curve");
+
+            URL_Add("Blender", "https://en.wikipedia.org/wiki/Blender_%28software%29");
+
+            URL_Add("Blender Market", "https://en.wikipedia.org/wiki/Blender_(software)#Blender_Market");
+
+            URL_Add("EEVEE", "https://en.wikipedia.org/wiki/Blender_(software)#Eevee");
+
+            URL_Add("glTF", "https://en.wikipedia.org/wiki/GlTF");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -152369,6 +152382,203 @@ namespace OverflowHelper.core
 
             correctionAdd("Lean_", "lean_");
             correctionAdd("LEAN_", "lean_");
+
+            // The verb (not some computer thing)
+            //
+            // Note: Not all the incorrect words
+            //       are in the same verb tense
+            //
+            correctionAdd("setted_", "set_");
+            correctionAdd("Setted_", "set_");
+            correctionAdd("seyt_", "set_");
+            correctionAdd("sett_", "set_");
+            correctionAdd("det_", "set_"); // A true typo
+            correctionAdd("Set_", "set_");
+
+            correctionAdd("sitted_", "sat_");
+
+            // The noun
+            correctionAdd("set up_", "setup_"); // Not incorrect as a verb
+            correctionAdd("set-up_", "setup_");
+            correctionAdd("seup_", "setup_");
+
+            correctionAdd("test set_", "test data set_");
+
+            correctionAdd("Headset_", "headset_");
+
+            correctionAdd("pre-set_", "preset_");
+
+            correctionAdd("superset_", "Apache Superset_");
+            correctionAdd("Superset_", "Apache Superset_");
+
+            correctionAdd("Click_", "Apache Click_");
+            correctionAdd("click_", "Apache Click_"); // Mostly to connect it to the common noun (in the main word set)
+
+            correctionAdd("velocity_", "Apache Velocity_");
+            correctionAdd("Velocity_", "Apache Velocity_");
+
+            correctionAdd("calcite_", "Apache Calcite_");
+            correctionAdd("Calcite_", "Apache Calcite_");
+
+            correctionAdd("maeven_", "Apache Maven_");
+            correctionAdd("maven_", "Apache Maven_");
+            correctionAdd("MAVEN_", "Apache Maven_");
+            correctionAdd("Maven_", "Apache Maven_");
+            correctionAdd("mave_", "Apache Maven_");
+
+            // Apache Maven
+            correctionAdd("pom_", "POM_");
+
+            // Apache Maven (Java)
+            correctionAdd("Sonatype Nexus_", "Nexus Repository_");
+            correctionAdd("Nexus_", "Nexus Repository_");
+            correctionAdd("nexus_", "Nexus Repository_");
+
+            correctionAdd("unit test_", "unittest_");
+
+            correctionAdd("Scholastic Assessment Test_", "SAT_");
+
+            correctionAdd("TestNg_", "TestNG_");
+            correctionAdd("testng_", "TestNG_");
+
+            correctionAdd("eigther_", "either_");
+            correctionAdd("eiether_", "either_");
+            correctionAdd("eighter_", "either_");
+            correctionAdd("ethier_", "either_"); // Multiple typos
+            correctionAdd("Ethier_", "either_"); // Multiple typos
+            correctionAdd("wither_", "either_"); // A true typo
+            correctionAdd("eother_", "either_");
+            correctionAdd("Eiter_", "either_");
+            correctionAdd("eiter_", "either_");
+            correctionAdd("ether_", "either_");
+            correctionAdd("eider_", "either_");
+
+            correctionAdd("configurate_", "configure_");
+            correctionAdd("configerate_", "configure_");
+            correctionAdd("confiqure_", "configure_");
+            correctionAdd("configur_", "configure_");
+            correctionAdd("configer_", "configure_");
+            correctionAdd("config_", "configure_");
+
+            correctionAdd("some thing_", "something_");
+            correctionAdd("somerthing_", "something_");
+            correctionAdd("somehthing_", "something_");
+            correctionAdd("sometihing_", "something_");
+            correctionAdd("soomething_", "something_");
+            correctionAdd("some thjng_", "something_");
+            correctionAdd("somethings_", "something_");
+            correctionAdd("Soemthing_", "something_");
+            correctionAdd("soemthing_", "something_");
+            correctionAdd("somithing_", "something_");
+            correctionAdd("sonething_", "something_");
+            correctionAdd("seomthing_", "something_");
+            correctionAdd("somrthing_", "something_");
+            correctionAdd("samething_", "something_");
+            correctionAdd("sir thing_", "something_"); // A true typo (quad quad typo - three regular (slides, though not in the same direction: left, right, and down) and a swap)... One of them involving the space bar (should have been "M")
+            correctionAdd("osmething_", "something_"); // A true typo (swap)
+            correctionAdd("Something_", "something_");
+            correctionAdd("soemthign_", "something_");
+            correctionAdd("somethign_", "something_");
+            correctionAdd("somenting_", "something_");
+            correctionAdd("somethnig_", "something_");
+            correctionAdd("somethink_", "something_");
+            correctionAdd("somethimg_", "something_");
+            correctionAdd("somethitg_", "something_");
+            correctionAdd("somethjng_", "something_");
+            correctionAdd("somehting_", "something_");
+            correctionAdd("somthings_", "something_");
+            correctionAdd("somthing_", "something_");
+            correctionAdd("somethng_", "something_");
+            correctionAdd("somethig_", "something_");
+            correctionAdd("someting_", "something_");
+            correctionAdd("somethin_", "something_");
+            correctionAdd("Someting_", "something_");
+            correctionAdd("Somthing_", "something_");
+            correctionAdd("somtings_", "something_");
+            correctionAdd("somthign_", "something_");
+            correctionAdd("smething_", "something_");
+            correctionAdd("sumthing_", "something_");
+            correctionAdd("somhing_", "something_");
+            correctionAdd("Somting_", "something_");
+            correctionAdd("somting_", "something_"); // Not 100% correct - casing.
+            correctionAdd("somthig_", "something_");
+            correctionAdd("Somthig_", "something_"); // Not 100% correct - casing.
+            correctionAdd("smthing_", "something_");
+            correctionAdd("sumthin_", "something_");
+            correctionAdd("smthin_", "something_");
+            correctionAdd("someth_", "something_");
+            correctionAdd("smthg_", "something_");
+            correctionAdd("sum’n_", "something_");
+            correctionAdd("smthn_", "something_");
+            correctionAdd("Smth_", "something_");
+            correctionAdd("smth_", "something_");
+            correctionAdd("sthg_", "something_");
+            correctionAdd("smn_", "something_");
+            correctionAdd("sum_", "something_");
+            correctionAdd("sth_", "something_");
+            correctionAdd("smt_", "something_");
+            correctionAdd("Smt_", "something_");
+            correctionAdd("stg_", "something_");
+            correctionAdd("sm_", "something_");
+            correctionAdd("sg_", "something_"); // Stenography?
+            correctionAdd("SG_", "something_");
+
+            correctionAdd("thinkk_", "think_");
+            correctionAdd("thing_", "think_");
+            correctionAdd("thunk_", "think_");
+            correctionAdd("thibk_", "think_");
+            correctionAdd("htink_", "think_");
+            correctionAdd("thnik_", "think_");
+            correctionAdd("THink_", "think_");
+            correctionAdd("Think_", "think_");
+            correctionAdd("tihnk_", "think_");
+            correctionAdd("hink_", "think_");
+            correctionAdd("thin_", "think_");
+
+            correctionAdd("Thinks_", "thinks_");
+            correctionAdd("thins_", "thinks_");
+
+            correctionAdd("diffrerence_", "difference_");
+            correctionAdd("diffenrence_", "difference_");
+            correctionAdd("sdifference_", "difference_");
+            correctionAdd("differenece_", "difference_");
+            correctionAdd("Difference_", "difference_");
+            correctionAdd("differance_", "difference_");
+            correctionAdd("diffenerce_", "difference_");
+            correctionAdd("DIfference_", "difference_");
+            correctionAdd("differnece_", "difference_");
+            correctionAdd("differente_", "difference_");
+            correctionAdd("diffrence_", "difference_");
+            correctionAdd("diference_", "difference_");
+            correctionAdd("diffrance_", "difference_");
+            correctionAdd("Diference_", "difference_");
+            correctionAdd("differece_", "difference_");
+            correctionAdd("differnce_", "difference_");
+            correctionAdd("different_", "difference_");
+            correctionAdd("differenc_", "difference_");
+            correctionAdd("Differnce_", "difference_");
+            correctionAdd("differce_", "difference_");
+            correctionAdd("diff_", "difference_");
+
+            correctionAdd("!=_", "different from_");
+
+            // For the expansion
+            correctionAdd("ASAP_", "as soon as possible_");
+
+            correctionAdd("initialization_", "initialisation_");
+            correctionAdd("initialasation_", "initialisation_");
+            correctionAdd("initialazation_", "initialisation_");
+            correctionAdd("initilization_", "initialisation_");
+            correctionAdd("initalization_", "initialisation_");
+            correctionAdd("intialisation_", "initialisation_");
+            correctionAdd("Initilization_", "initialisation_");
+            correctionAdd("intialization_", "initialisation_");
+            correctionAdd("initlization_", "initialisation_");
+            correctionAdd("init_", "initialisation_");
+
+            correctionAdd("MASTER_", "master_");
+            correctionAdd("MATER_", "master_");
+            correctionAdd("mater_", "master_");
 
             // Simulated intelligence. A company
             correctionAdd("anthropic_", "Anthropic_");
@@ -159995,99 +160205,18 @@ namespace OverflowHelper.core
             correctionAdd("Q1he_", "Keychron Q1 HE_");
 
             // A 85-key (80%. Not true TKL) crippled wired and
-            // wireless (only Bluetooth) mechanical keyboard
-            // from Keychron without a knob.
+            // wireless (only Bluetooth) QMK/Via-capable
+            // mechanical keyboard from Keychron
+            // without a knob.
             //
-            // Did the original K2 have Bluetooth?
+            // Unlike the original K2 and K2 V2, this 2025 keyboard,
+            // has QMK support
             //
-            // ANSI product pages:
+            // K2 V3 user manual:
             //
-            //   <https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard>
-            //     All variants have soldered-in switches
+            //   <https://www.keychron.com/pages/keychron-k2-version-3-user-manual>
             //
-            //   <https://www.keychron.com/products/keychron-k2-hot-swappable-wireless-mechanical-keyboard?variant=32187465662553>
-            //     All variants have hot-swappable switches.
-            //     With a trailing "H" in the SKU number, e.g.
-            //     "K2-C3H".
-            //
-            // And ISO variant (UK) (used as the reference for this entry):
-            //
-            //   <https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard-uk-iso-layout>
-            //
-            // Notes:
-            //
-            //   1. In the 'K' series, not 'K Pro' series.
-            //      Thus it is ***not*** QMK/Via-capable.
-            //
-            //      Though in 2025, it has received QMK support
-            //      (version 3, 'K2 V3', 'K2 QMK', or 'K2 version 3' ):
-            //
-            //        <https://www.keychron.com/products/keychron-k2-qmk-wireless-mechanical-keyboard-version-3>
-            //          Keychron K2 QMK wireless mechanical keyboard (version 3)
-            //
-            //          <https://www.keychron.com/pages/keychron-k2-version-3-user-manual>
-            //             K2 V3 user manual
-            //
-            //   2. The original K2 was not, but the K2 comes
-            //      in both non-hot-swappable and hot-swappable
-            //      version. Confusingly, there is a ***second***
-            //      product page for the hot-swappable version
-            //      (not revealed by the search engine).
-            //
-            //       <https://www.keychron.com/products/keychron-k2-hot-swappable-wireless-mechanical-keyboard>
-            //
-            //   3. Not to be confused with 'Keychron K2 Pro'
-            //
-            //   4. The "Win"/"Mac" is (probably) on
-            //      the left side (not at the back)
-            //
-            // RGB north-facing (***no*** unwanted light
-            // bleed) lighting. Proof:
-            //
-            // A list of K2 user guides:
-            //
-            //   <https://www.keychron.com/pages/k2-user-manual-1>
-            //
-            // K2 user manual:
-            //
-            //   <https://www.keychron.com/pages/k2-keyboard-user-manual>
-            //
-            //   PDF version: <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/k2_user_manual_english_version.pdf>
-            //
-            // Its manual has documented this Mac (presumably
-            // Mac OS X) setting (page 5):
-            //
-            //   "Settings" → "Keyboard" → "Use F1, F2, etc. as standard function keys".
-            //
-            // K2 key combination table:
-            //
-            //   <https://www.keychron.com/blogs/news/k2-key-combinations>
-            //
-            //     Includes:
-            //
-            //       Hold Fn1 + J + Z down for three seconds to reset the keyboard.
-            //
-            // Actual measured latency (15 - 20 ms wired
-            // (18 ms, stddev 7 ms). 25 ms Bluetooth):
-            //
-            //   <https://www.rtings.com/keyboard/tools/compare/keychron-k2-version-2-vs-keychron-c2/5777/20527>
-            //
-            // K2 firmware update (by a Windows or Mac application):
-            //
-            //   <https://www.keychron.com/pages/keychron-firmware-for-k2>
-            //     Links to the different versions
-            //
-            // Bluetooth firmware for K2 (not to be
-            // confused with the main firmware):
-            //
-            //   <https://www.keychron.com/pages/k2-bluetooth-firmware>
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.keychron.com/blogs/news/keychron-k2-is-live-on-kickstarter>
-            //     It had a Kickstarter campaign in 2019...
-            //
-            // Keychron K2 source code (version 3 with QMK support):
+            // K2 V3 source code:
             //
             //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k2_version_3>
             //     Not as of 2025-04-02. Likely because the primary
@@ -160097,44 +160226,12 @@ namespace OverflowHelper.core
             //
             //        <https://github.com/Keychron/qmk_firmware/tree/wls_2025q1/keyboards/keychron/k2_version_3>
             //
-            // K2 PCB pictures:
-            //
-            //   <https://i.imgur.com/VSREh8I.jpeg>
-            //
-            //     A picture of part of the PCB for the USB connector,
-            //     "Wired"/"Off"/"BT" switch, charge controller, and
-            //     battery connectors (K2 V1).
-            //
-            //       Note: Requires JavaScript to be allowed from
-            //             'cloudfront.net' to not be surrounded
-            //             by Imgur goo.
-            //
-            //     Tags: PCB. Keychron. K1 (original).
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=j6PEZHVRTuI>
-            //
-            //     No real audio, but there are text inserts in the video.
-            //
-            //     For a variant with an aluminium frame.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/MechanicalKeyboards/comments/1n4uwxo/keychron_k2_battery_replacement_guide/>
-            //     Keychron K2 battery replacement guide
-            //
-            correctionAdd("K2 Version 2_", "Keychron K2_");
-            correctionAdd("Keychron k2_", "Keychron K2_");
-            correctionAdd("keychronK2_", "Keychron K2_");
-            correctionAdd("K2 V2_", "Keychron K2_");
-            correctionAdd("K2/V2_", "Keychron K2_");
-            correctionAdd("k2 v2_", "Keychron K2_");
-            correctionAdd("K2 v2_", "Keychron K2_");
-            correctionAdd("K2V2_", "Keychron K2_");
-            correctionAdd("k2v2_", "Keychron K2_");
-            correctionAdd("k2_", "Keychron K2_");
-            correctionAdd("K2_", "Keychron K2_");
+            correctionAdd("Keychron K2 (80%) (proprietary keyboard firmware, not open source)_", "Keychron K2 V3 (80%)_"); // For the cross-reference
+            correctionAdd("Keychron K2 V3_", "Keychron K2 V3 (80%)_");
+            correctionAdd("K2 version 3_", "Keychron K2 V3 (80%)_");
+            correctionAdd("K2 QMK_", "Keychron K2 V3 (80%)_");
+            correctionAdd("K2 V3_", "Keychron K2 V3 (80%)_");
+            correctionAdd("K2_", "Keychron K2 V3 (80%)_");
 
             // A 85-key (80%. Not true TKL) crippled wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -161804,6 +161901,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Checks_", "checks_");
 
+            correctionAdd("checkin_", "checking_");
+
             // The noun
             correctionAdd("fact-check_", "fact check_");
 
@@ -162577,6 +162676,7 @@ namespace OverflowHelper.core
             correctionAdd("poribably_", "probably_");
             correctionAdd("proibably_", "probably_");
             correctionAdd("probabvly_", "probably_");
+            correctionAdd("probablay_", "probably_");
             correctionAdd("probobly_", "probably_");
             correctionAdd("Propably_", "probably_");
             correctionAdd("propably_", "probably_");
@@ -162919,8 +163019,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Passport_", "passport_");
 
-            correctionAdd("pre-set_", "preset_");
-
             correctionAdd("frontpage_", "front page_");
 
             correctionAdd("debbug_", "debug_");
@@ -163021,107 +163119,10 @@ namespace OverflowHelper.core
             correctionAdd("MB_", "motherboard_");
             correctionAdd("mb_", "motherboard_");
 
-            correctionAdd("eigther_", "either_");
-            correctionAdd("eiether_", "either_");
-            correctionAdd("eighter_", "either_");
-            correctionAdd("ethier_", "either_"); // Multiple typos
-            correctionAdd("Ethier_", "either_"); // Multiple typos
-            correctionAdd("wither_", "either_"); // A true typo
-            correctionAdd("eother_", "either_");
-            correctionAdd("Eiter_", "either_");
-            correctionAdd("eiter_", "either_");
-            correctionAdd("ether_", "either_");
-            correctionAdd("eider_", "either_");
-
-            correctionAdd("configurate_", "configure_");
-            correctionAdd("configerate_", "configure_");
-            correctionAdd("confiqure_", "configure_");
-            correctionAdd("configur_", "configure_");
-            correctionAdd("configer_", "configure_");
-            correctionAdd("config_", "configure_");
-
             correctionAdd("chinese_", "Chinese_"); // The proper noun, the Chinese language. Main has the adjective.
 
             // DevOps. Terraform
             correctionAdd("HCL_", "HashiCorp Configuration Language_");
-
-            correctionAdd("some thing_", "something_");
-            correctionAdd("somerthing_", "something_");
-            correctionAdd("somehthing_", "something_");
-            correctionAdd("sometihing_", "something_");
-            correctionAdd("soomething_", "something_");
-            correctionAdd("some thjng_", "something_");
-            correctionAdd("somethings_", "something_");
-            correctionAdd("Soemthing_", "something_");
-            correctionAdd("soemthing_", "something_");
-            correctionAdd("somithing_", "something_");
-            correctionAdd("sonething_", "something_");
-            correctionAdd("seomthing_", "something_");
-            correctionAdd("somrthing_", "something_");
-            correctionAdd("samething_", "something_");
-            correctionAdd("sir thing_", "something_"); // A true typo (quad quad typo - three regular (slides, though not in the same direction: left, right, and down) and a swap)... One of them involving the space bar (should have been "M")
-            correctionAdd("osmething_", "something_"); // A true typo (swap)
-            correctionAdd("Something_", "something_");
-            correctionAdd("soemthign_", "something_");
-            correctionAdd("somethign_", "something_");
-            correctionAdd("somenting_", "something_");
-            correctionAdd("somethnig_", "something_");
-            correctionAdd("somethink_", "something_");
-            correctionAdd("somethimg_", "something_");
-            correctionAdd("somethitg_", "something_");
-            correctionAdd("somethjng_", "something_");
-            correctionAdd("somehting_", "something_");
-            correctionAdd("somthings_", "something_");
-            correctionAdd("somthing_", "something_");
-            correctionAdd("somethng_", "something_");
-            correctionAdd("somethig_", "something_");
-            correctionAdd("someting_", "something_");
-            correctionAdd("somethin_", "something_");
-            correctionAdd("Someting_", "something_");
-            correctionAdd("Somthing_", "something_");
-            correctionAdd("somtings_", "something_");
-            correctionAdd("somthign_", "something_");
-            correctionAdd("smething_", "something_");
-            correctionAdd("sumthing_", "something_");
-            correctionAdd("somhing_", "something_");
-            correctionAdd("Somting_", "something_");
-            correctionAdd("somting_", "something_"); // Not 100% correct - casing.
-            correctionAdd("somthig_", "something_");
-            correctionAdd("Somthig_", "something_"); // Not 100% correct - casing.
-            correctionAdd("smthing_", "something_");
-            correctionAdd("sumthin_", "something_");
-            correctionAdd("smthin_", "something_");
-            correctionAdd("someth_", "something_");
-            correctionAdd("smthg_", "something_");
-            correctionAdd("sum’n_", "something_");
-            correctionAdd("smthn_", "something_");
-            correctionAdd("Smth_", "something_");
-            correctionAdd("smth_", "something_");
-            correctionAdd("sthg_", "something_");
-            correctionAdd("smn_", "something_");
-            correctionAdd("sum_", "something_");
-            correctionAdd("sth_", "something_");
-            correctionAdd("smt_", "something_");
-            correctionAdd("Smt_", "something_");
-            correctionAdd("stg_", "something_");
-            correctionAdd("sm_", "something_");
-            correctionAdd("sg_", "something_"); // Stenography?
-            correctionAdd("SG_", "something_");
-
-            correctionAdd("thinkk_", "think_");
-            correctionAdd("thing_", "think_");
-            correctionAdd("thunk_", "think_");
-            correctionAdd("thibk_", "think_");
-            correctionAdd("htink_", "think_");
-            correctionAdd("thnik_", "think_");
-            correctionAdd("THink_", "think_");
-            correctionAdd("Think_", "think_");
-            correctionAdd("tihnk_", "think_");
-            correctionAdd("hink_", "think_");
-            correctionAdd("thin_", "think_");
-
-            correctionAdd("Thinks_", "thinks_");
-            correctionAdd("thins_", "thinks_");
 
             // The verb...
             correctionAdd("hybernate_", "hibernate_");
@@ -163132,64 +163133,6 @@ namespace OverflowHelper.core
             correctionAdd("fluentnhibernate_", "Fluent NHibernate_");
             correctionAdd("FluentNhibernate_", "Fluent NHibernate_");
             correctionAdd("fluent_", "Fluent NHibernate_");
-
-            // The verb (not some computer thing)
-            //
-            // Note: Not all the incorrect words
-            //       are in the same verb tense
-            //
-            correctionAdd("setted_", "set_");
-            correctionAdd("Setted_", "set_");
-            correctionAdd("seyt_", "set_");
-            correctionAdd("det_", "set_"); // A true typo
-            correctionAdd("Set_", "set_");
-
-            // The noun
-            correctionAdd("set up_", "setup_"); // Not incorrect as a verb
-            correctionAdd("set-up_", "setup_");
-            correctionAdd("seup_", "setup_");
-
-            correctionAdd("diffrerence_", "difference_");
-            correctionAdd("diffenrence_", "difference_");
-            correctionAdd("sdifference_", "difference_");
-            correctionAdd("differenece_", "difference_");
-            correctionAdd("Difference_", "difference_");
-            correctionAdd("differance_", "difference_");
-            correctionAdd("diffenerce_", "difference_");
-            correctionAdd("DIfference_", "difference_");
-            correctionAdd("differnece_", "difference_");
-            correctionAdd("differente_", "difference_");
-            correctionAdd("diffrence_", "difference_");
-            correctionAdd("diference_", "difference_");
-            correctionAdd("diffrance_", "difference_");
-            correctionAdd("Diference_", "difference_");
-            correctionAdd("differece_", "difference_");
-            correctionAdd("differnce_", "difference_");
-            correctionAdd("different_", "difference_");
-            correctionAdd("differenc_", "difference_");
-            correctionAdd("Differnce_", "difference_");
-            correctionAdd("differce_", "difference_");
-            correctionAdd("diff_", "difference_");
-
-            correctionAdd("!=_", "different from_");
-
-            // For the expansion
-            correctionAdd("ASAP_", "as soon as possible_");
-
-            correctionAdd("initialization_", "initialisation_");
-            correctionAdd("initialasation_", "initialisation_");
-            correctionAdd("initialazation_", "initialisation_");
-            correctionAdd("initilization_", "initialisation_");
-            correctionAdd("initalization_", "initialisation_");
-            correctionAdd("intialisation_", "initialisation_");
-            correctionAdd("Initilization_", "initialisation_");
-            correctionAdd("intialization_", "initialisation_");
-            correctionAdd("initlization_", "initialisation_");
-            correctionAdd("init_", "initialisation_");
-
-            correctionAdd("MASTER_", "master_");
-            correctionAdd("MATER_", "master_");
-            correctionAdd("mater_", "master_");
 
             correctionAdd("MA_", "moving average_");
 
@@ -163510,9 +163453,6 @@ namespace OverflowHelper.core
             correctionAdd("open source_", "Open&nbsp;Source (Stack Exchange site)_");
             correctionAdd("Open Source_", "Open&nbsp;Source (Stack Exchange site)_");
 
-            correctionAdd("Blender_", "Blender (Stack Exchange site)_");
-            correctionAdd("BSE_", "Blender (Stack Exchange site)_");
-
             correctionAdd("engineering_", "Engineering (Stack Exchange site)_");
             correctionAdd("Engineering_", "Engineering (Stack Exchange site)_"); // Sort of identity mapping
 
@@ -163695,6 +163635,9 @@ namespace OverflowHelper.core
             correctionAdd("Chess Exchange_", "Chess (Stack Exchange site)_");
             correctionAdd("Chess_", "Chess (Stack Exchange site)_"); // Sort of identity mapping
             correctionAdd("chess_", "Chess (Stack Exchange site)_");
+
+            correctionAdd("Blender_", "Blender (Stack Exchange site)_");
+            correctionAdd("BSE_", "Blender (Stack Exchange site)_");
 
             correctionAdd("SEDE_", "Stack Exchange Data Explorer_");
 
@@ -164978,17 +164921,6 @@ namespace OverflowHelper.core
 
             correctionAdd("jaws_", "JAWS_");
 
-            correctionAdd("unit test_", "unittest_");
-
-            correctionAdd("test set_", "test data set_");
-
-            correctionAdd("Scholastic Assessment Test_", "SAT_");
-
-            correctionAdd("TestNg_", "TestNG_");
-            correctionAdd("testng_", "TestNG_");
-
-            correctionAdd("sitted_", "sat_");
-
             correctionAdd("DA_", "dielectric absorption_");
 
             correctionAdd("drop-down_", "drop down_");
@@ -166167,32 +166099,6 @@ namespace OverflowHelper.core
             correctionAdd("pbd_", "Protein Data Bank_"); // A true typo (of misspelling 'pdb')
             correctionAdd("PBD_", "Protein Data Bank_"); // A true typo (of the official shortform, 'PDB')
 
-            correctionAdd("Click_", "Apache Click_");
-            correctionAdd("click_", "Apache Click_"); // Mostly to connect it to the common noun (in the main word set)
-
-            correctionAdd("superset_", "Apache Superset_");
-            correctionAdd("Superset_", "Apache Superset_");
-
-            correctionAdd("velocity_", "Apache Velocity_");
-            correctionAdd("Velocity_", "Apache Velocity_");
-
-            correctionAdd("calcite_", "Apache Calcite_");
-            correctionAdd("Calcite_", "Apache Calcite_");
-
-            correctionAdd("maeven_", "Apache Maven_");
-            correctionAdd("maven_", "Apache Maven_");
-            correctionAdd("MAVEN_", "Apache Maven_");
-            correctionAdd("Maven_", "Apache Maven_");
-            correctionAdd("mave_", "Apache Maven_");
-
-            // Apache Maven
-            correctionAdd("pom_", "POM_");
-
-            // Apache Maven (Java)
-            correctionAdd("Sonatype Nexus_", "Nexus Repository_");
-            correctionAdd("Nexus_", "Nexus Repository_");
-            correctionAdd("nexus_", "Nexus Repository_");
-
             correctionAdd("hem_", "Hem_");
 
             correctionAdd("empathy_", "Empathy_");
@@ -167349,8 +167255,6 @@ namespace OverflowHelper.core
 
             correctionAdd("fase_", "phase_");
 
-            correctionAdd("Headset_", "headset_");
-
             correctionAdd("managaed_", "managed_");
             correctionAdd("mannged_", "managed_");
             correctionAdd("manager_", "managed_"); // A true typo
@@ -168417,6 +168321,8 @@ namespace OverflowHelper.core
 
             correctionAdd("aught_", "ought_");
             correctionAdd("oight_", "ought_");
+
+            correctionAdd("reusme_", "resume_");
 
             // C. A book
             //
@@ -171499,8 +171405,6 @@ namespace OverflowHelper.core
 
             URL_Add("nano_", "https://en.wikipedia.org/wiki/GNU_nano");
 
-            URL_Add("checks_", "https://en.wiktionary.org/wiki/check#Noun");
-
             URL_Add("legitimacy check_", "https://en.wiktionary.org/wiki/LC#Noun");
 
             URL_Add("crosscheck_", "https://en.wiktionary.org/wiki/crosscheck#Noun");
@@ -172315,8 +172219,6 @@ namespace OverflowHelper.core
 
             URL_Add("Open&nbsp;Source (Stack Exchange site)_", "https://opensource.stackexchange.com/tour");
 
-            URL_Add("Blender (Stack Exchange site)_", "https://blender.stackexchange.com/tour");
-
             URL_Add("Data&nbsp;Science (Stack Exchange site)_", "https://datascience.stackexchange.com/tour");
 
             URL_Add("TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_", "https://tex.stackexchange.com/tour");
@@ -172364,6 +172266,8 @@ namespace OverflowHelper.core
             URL_Add("Artificial Intelligence (Stack Exchange site)_", "https://ai.stackexchange.com/tour");
 
             URL_Add("Chess (Stack Exchange site)_", "https://chess.stackexchange.com/tour");
+
+            URL_Add("Blender (Stack Exchange site)_", "https://blender.stackexchange.com/tour");
 
             URL_Add("operating_", "https://en.wiktionary.org/wiki/operate#Verb");
 
@@ -173073,7 +172977,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K1_", "https://www.keychron.com/products/keychron-k1-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron K2_", "https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard-uk-iso-layout");
+            URL_Add("Keychron K2 V3 (80%)_", "https://www.keychron.com/products/keychron-k2-qmk-wireless-mechanical-keyboard-version-3");
 
             URL_Add("Keychron K3_", "https://www.keychron.com/collections/k3-iso-keyboards/products/keychron-k3-ultra-slim-wireless-mechanical-keyboard-nordic-iso-layout-version-2");
 
@@ -173093,9 +172997,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q12_", "https://www.keychron.com/products/keychron-q12-qmk-custom-mechanical-keyboard");
 
-            URL_Add("Keychron Q1 HE_", "https://www.keychron.com/products/keychron-q1-he-qmk-wireless-custom-keyboard-iso-layout-collection");
-
             URL_Add("Keychron Q65_", "https://www.keychron.com/products/keychron-q65-qmk-custom-mechanical-keyboard");
+
+            URL_Add("Keychron Q1 HE_", "https://www.keychron.com/products/keychron-q1-he-qmk-wireless-custom-keyboard-iso-layout-collection");
 
             URL_Add("Keychron Lemokey L1_", "https://www.keychron.com/products/lemokey-l1-qmk-via-wireless-custom-gaming-keyboard");
 
@@ -173170,6 +173074,12 @@ namespace OverflowHelper.core
             URL_Add("Miguel Najdorf_", "https://en.wikipedia.org/wiki/Miguel_Najdorf");
 
             URL_Add("ought_", "https://en.wiktionary.org/wiki/ought#Verb_2");
+
+            URL_Add("resume_", "https://en.wiktionary.org/wiki/resume#Noun");
+
+            URL_Add("checks_", "https://en.wiktionary.org/wiki/check#Noun");
+
+            URL_Add("checking_", "https://en.wiktionary.org/wiki/check#Verb");
 
         } //addLookupData_alternativeWordSet()
 
@@ -176719,10 +176629,6 @@ namespace OverflowHelper.core
 
             correctionAdd("rewrite__", "rewrite from scratch__");
 
-            correctionAdd("Vitamin K2__", "vitamin K2__");
-            correctionAdd("K2__", "vitamin K2__");
-            correctionAdd("k2__", "vitamin K2__");
-
             correctionAdd("war__", "War__");
 
             correctionAdd("Velocity.js__", "Velocity__");
@@ -177489,6 +177395,130 @@ namespace OverflowHelper.core
             correctionAdd("NUPHY__", "NuPhy Air75 V2__"); // Not 100% correct, but a representative of the NuPhy keyboard series and of the NuPhy company
             correctionAdd("NuPhy series__", "NuPhy Air75 V2__"); // Not 100% correct, but a representative of the NuPhy keyboard series and of the NuPhy company
 
+            // A 85-key (80%. Not true TKL) crippled wired and
+            // wireless (only Bluetooth) mechanical keyboard
+            // from Keychron without a knob.
+            //
+            // Did the original K2 have Bluetooth?
+            //
+            // ANSI product pages:
+            //
+            //   <https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard>
+            //     All variants have soldered-in switches
+            //
+            //   <https://www.keychron.com/products/keychron-k2-hot-swappable-wireless-mechanical-keyboard?variant=32187465662553>
+            //     All variants have hot-swappable switches.
+            //     With a trailing "H" in the SKU number, e.g.
+            //     "K2-C3H".
+            //
+            // And ISO variant (UK) (used as the reference for this entry):
+            //
+            //   <https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard-uk-iso-layout>
+            //
+            // Notes:
+            //
+            //   1. In the 'K' series, not 'K Pro' series.
+            //      Thus it is ***not*** QMK/Via-capable.
+            //
+            //   2. The original K2 was not, but the K2 comes
+            //      in both non-hot-swappable and hot-swappable
+            //      version. Confusingly, there is a ***second***
+            //      product page for the hot-swappable version
+            //      (not revealed by the search engine).
+            //
+            //       <https://www.keychron.com/products/keychron-k2-hot-swappable-wireless-mechanical-keyboard>
+            //
+            //   3. Not to be confused with 'Keychron K2 Pro'
+            //
+            //   4. The "Win"/"Mac" is (probably) on
+            //      the left side (not at the back)
+            //
+            // RGB north-facing (***no*** unwanted light
+            // bleed) lighting. Proof:
+            //
+            // A list of K2 user guides:
+            //
+            //   <https://www.keychron.com/pages/k2-user-manual-1>
+            //
+            // K2 user manual:
+            //
+            //   <https://www.keychron.com/pages/k2-keyboard-user-manual>
+            //
+            //   PDF version: <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/k2_user_manual_english_version.pdf>
+            //
+            // Its manual has documented this Mac (presumably
+            // Mac OS X) setting (page 5):
+            //
+            //   "Settings" → "Keyboard" → "Use F1, F2, etc. as standard function keys".
+            //
+            // K2 key combination table:
+            //
+            //   <https://www.keychron.com/blogs/news/k2-key-combinations>
+            //
+            //     Includes:
+            //
+            //       Hold Fn1 + J + Z down for three seconds to reset the keyboard.
+            //
+            // Actual measured latency (15 - 20 ms wired
+            // (18 ms, stddev 7 ms). 25 ms Bluetooth):
+            //
+            //   <https://www.rtings.com/keyboard/tools/compare/keychron-k2-version-2-vs-keychron-c2/5777/20527>
+            //
+            // K2 firmware update (by a Windows or Mac application):
+            //
+            //   <https://www.keychron.com/pages/keychron-firmware-for-k2>
+            //     Links to the different versions
+            //
+            // Bluetooth firmware for K2 (not to be
+            // confused with the main firmware):
+            //
+            //   <https://www.keychron.com/pages/k2-bluetooth-firmware>
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.keychron.com/blogs/news/keychron-k2-is-live-on-kickstarter>
+            //     It had a Kickstarter campaign in 2019...
+            //
+            // K2 PCB pictures:
+            //
+            //   <https://i.imgur.com/VSREh8I.jpeg>
+            //
+            //     A picture of part of the PCB for the USB connector,
+            //     "Wired"/"Off"/"BT" switch, charge controller, and
+            //     battery connectors (K2 V1).
+            //
+            //       Note: Requires JavaScript to be allowed from
+            //             'cloudfront.net' to not be surrounded
+            //             by Imgur goo.
+            //
+            //     Tags: PCB. Keychron. K1 (original).
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=j6PEZHVRTuI>
+            //
+            //     No real audio, but there are text inserts in the video.
+            //
+            //     For a variant with an aluminium frame.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/MechanicalKeyboards/comments/1n4uwxo/keychron_k2_battery_replacement_guide/>
+            //     Keychron K2 battery replacement guide
+            //
+            correctionAdd("K2 Version 2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("Keychron k2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("Keychron K2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("keychronK2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("K2 V2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("K2/V2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("k2 v2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("K2 v2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("K2V2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("k2v2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("k2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("K2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+
             // A 88-key (85%. True TKL) crippled wired and wireless
             // (only Bluetooth) mechanical keyboard from Keychron
             // without a knob.
@@ -177703,7 +177733,6 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Keychron&nbsp;K2&nbsp;Pro__", "Keychron K2 Pro source code__");
             correctionAdd("Keychron K2 Pro__", "Keychron K2 Pro source code__");
 
             // For the cross-reference to the source code
@@ -178528,8 +178557,6 @@ namespace OverflowHelper.core
             URL_Add("non-binary__", "https://en.wiktionary.org/wiki/non-binary#Adjective");
 
             URL_Add("edge__", "https://en.wiktionary.org/wiki/edge#Noun");
-
-            URL_Add("vitamin K2__", "https://en.wikipedia.org/wiki/Vitamin_K2");
 
             URL_Add("rot__", "https://en.wiktionary.org/wiki/rot#Verb");
 
@@ -179575,6 +179602,8 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K5 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k5_max");
 
+            URL_Add("Keychron K2 (80%) (proprietary keyboard firmware, not open source)__", "https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard-uk-iso-layout");
+
             URL_Add("Keychron K8__", "https://www.keychron.uk/products/keychron-k8-wireless-mechanical-keyboard-uk-iso-layout");
 
             URL_Add("Keychron K10 (100%) (proprietary keyboard firmware, not open source)__", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
@@ -180227,11 +180256,11 @@ namespace OverflowHelper.core
             correctionAdd("onde___", "one___");
             correctionAdd("once___", "one___"); // An autocorrect "masterpiece"?
             correctionAdd("wone___", "one___");
-            correctionAdd("onw___", "one___");
+            correctionAdd("onw___", "one___"); // A true typo
             correctionAdd("One___", "one___");
-            correctionAdd("noe___", "one___");
-            correctionAdd("ome___", "one___");
-            correctionAdd("ine___", "one___");
+            correctionAdd("noe___", "one___"); // A true typo
+            correctionAdd("ome___", "one___"); // A true typo
+            correctionAdd("ine___", "one___"); // A true typo
             correctionAdd("won___", "one___");
             correctionAdd("oe___", "one___");
             correctionAdd("on___", "one___");
@@ -181822,6 +181851,7 @@ namespace OverflowHelper.core
             correctionAdd("differiential___", "differential___");
             correctionAdd("diff___", "differential___");
 
+            correctionAdd("rewrite of the URL___", "URL rewriting___");
             correctionAdd("url rewriting___", "URL rewriting___");
             correctionAdd("URL Rewriting___", "URL rewriting___");
             correctionAdd("URI Rewriting___", "URL rewriting___");
@@ -182412,6 +182442,10 @@ namespace OverflowHelper.core
             //
             correctionAdd("our good friends the engines___", "disgusting engine move___"); // For the cross-reference
             correctionAdd("soul of silicon idea___", "disgusting engine move___");
+
+            correctionAdd("Vitamin K2___", "vitamin K2___");
+            correctionAdd("K2___", "vitamin K2___");
+            correctionAdd("k2___", "vitamin K2___");
 
             // Of the "B" programming language (also by Dennis Ritchie)
             //
@@ -183036,6 +183070,8 @@ namespace OverflowHelper.core
             URL_Add("Keychron Orca Echo___", "https://www.reddit.com/r/Keychron/comments/1xockmz/comment/19s711kvnr0qs/");
 
             URL_Add("disgusting engine move___", "https://en.wikipedia.org/wiki/Chess_engine");
+
+            URL_Add("vitamin K2___", "https://en.wikipedia.org/wiki/Vitamin_K2");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -183989,7 +184025,6 @@ namespace OverflowHelper.core
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Keychron&nbsp;K2&nbsp;Pro____", "Keychron K2 Pro default keymap (ISO RGB)____");
             correctionAdd("K2 Pro default keymap____", "Keychron K2 Pro default keymap (ISO RGB)____");
             correctionAdd("Keychron K2 Pro____", "Keychron K2 Pro default keymap (ISO RGB)____");
             correctionAdd("K2 Pro keymap____", "Keychron K2 Pro default keymap (ISO RGB)____");
