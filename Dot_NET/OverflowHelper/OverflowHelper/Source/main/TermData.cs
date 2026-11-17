@@ -8688,6 +8688,7 @@ namespace OverflowHelper.core
             correctionAdd("nixos", "NixOS");
             correctionAdd("nixOs", "NixOS");
             correctionAdd("nixOS", "NixOS");
+            correctionAdd("NixOs", "NixOS");
 
             // A Linux distribution
             correctionAdd("zorin os", "Zorin OS");
@@ -25450,6 +25451,9 @@ namespace OverflowHelper.core
             correctionAdd("new scientist", "New Scientist");
             correctionAdd("NewScientist", "New Scientist");
 
+            // A magazine
+            correctionAdd("macworld", "Macworld");
+
             correctionAdd("kinetik", "kinetic");
 
             correctionAdd("Energy", "energy");
@@ -31468,6 +31472,7 @@ namespace OverflowHelper.core
 
             correctionAdd("apprear", "appear");
             correctionAdd("appesr", "appear");
+            correctionAdd("appera", "appear");
             correctionAdd("apear", "appear");
             correctionAdd("apper", "appear");
 
@@ -37011,6 +37016,7 @@ namespace OverflowHelper.core
             // The verb
             correctionAdd("phase", "face");
 
+            correctionAdd("enfacing", "facing");
             correctionAdd("faceing", "facing");
             correctionAdd("fasing", "facing");
             correctionAdd("facign", "facing");
@@ -56157,6 +56163,8 @@ namespace OverflowHelper.core
 
             correctionAdd("non uniforms", "nonuniform");
             correctionAdd("non uniform", "nonuniform");
+            correctionAdd("Non-uniform", "nonuniform");
+            correctionAdd("non-uniform", "nonuniform");
 
             correctionAdd("log file", "logfile");
 
@@ -125510,6 +125518,8 @@ namespace OverflowHelper.core
 
             URL_Add("New Scientist", "https://en.wikipedia.org/wiki/New_Scientist");
 
+            URL_Add("Macworld", "https://en.wikipedia.org/wiki/Macworld");
+
             URL_Add("in the absence of", "https://en.wiktionary.org/wiki/in_the_absence_of#Preposition");
 
             URL_Add("unoccupied", "https://en.wiktionary.org/wiki/unoccupied#Adjective");
@@ -152456,6 +152466,7 @@ namespace OverflowHelper.core
             correctionAdd("configurate_", "configure_");
             correctionAdd("configerate_", "configure_");
             correctionAdd("confiqure_", "configure_");
+            correctionAdd("confirgue_", "configure_"); // A true typo (single slide of two)
             correctionAdd("configur_", "configure_");
             correctionAdd("configer_", "configure_");
             correctionAdd("config_", "configure_");
@@ -159692,8 +159703,11 @@ namespace OverflowHelper.core
 
             correctionAdd("IQ_", "image quality_");
 
-            // System updates as one single image instead of
-            // updating individual files
+            // E.g., image processing
+            correctionAdd("affinity_", "affine transformation_");
+
+            // System updates as one single image instead
+            // of updating individual files
             correctionAdd("atomic system_", "atomic Linux system_");
             correctionAdd("atomic_", "atomic Linux system_");
 
@@ -160297,6 +160311,8 @@ namespace OverflowHelper.core
             //   9. There is apparently a hardware version 2:
             //
             //      "Only version 1 is equipped with this TMR sensor."
+            //
+            //      <https://www.reddit.com/r/Keychron/comments/1xpf5q6/comment/19s8kfx5mlirp/>
             //
             // Alternative URLs:
             //
@@ -170537,6 +170553,8 @@ namespace OverflowHelper.core
 
             URL_Add("image quality_", "https://en.wikipedia.org/wiki/Image_quality");
 
+            URL_Add("affine transformation_", "https://en.wikipedia.org/wiki/Affine_transformation");
+
             URL_Add("accept_", "https://en.wiktionary.org/wiki/accept#Verb");
 
             URL_Add("Compass_", "https://en.wikipedia.org/wiki/Compass_Project");
@@ -176348,6 +176366,11 @@ namespace OverflowHelper.core
             correctionAdd("10.10__", "Mac OS X v10.10 (Yosemite) (2014 vintage)__");
 
             // 2020 vintage
+            //
+            // Not to be confused with the GRUB 2 theme:
+            //
+            //   <https://github.com/Teraskull/bigsur-grub2-theme>
+            //
             correctionAdd("macOS v11 (Big Sur)__", "macOS v11 (Big Sur) (2020 vintage)__");
             correctionAdd("macOS 11 Big Sur__", "macOS v11 (Big Sur) (2020 vintage)__");
             correctionAdd("MacOS Big Sur 11__", "macOS v11 (Big Sur) (2020 vintage)__");
@@ -177509,6 +177532,7 @@ namespace OverflowHelper.core
             correctionAdd("K2 Version 2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
             correctionAdd("Keychron k2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
             correctionAdd("Keychron K2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
+            correctionAdd("keychron k2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
             correctionAdd("keychronK2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
             correctionAdd("K2 V2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
             correctionAdd("K2/V2__", "Keychron K2 (80%) (proprietary keyboard firmware, not open source)__");
