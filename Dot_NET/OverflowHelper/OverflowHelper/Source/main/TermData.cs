@@ -11931,13 +11931,14 @@ namespace OverflowHelper.core
             // Note: "one", "two", "five", "seven" are in an
             //       alternative word set (currently the third)
             //
-            correctionAdd("five", "give");
-            correctionAdd("Five", "give");
             correctionAdd("Give", "give");
             correctionAdd("gibe", "give");
-            correctionAdd("gove", "give"); // A true typo
             correctionAdd("Givi", "give");
             correctionAdd("givi", "give");
+            correctionAdd("g8ve", "give"); // A true typo
+            correctionAdd("gove", "give"); // A true typo
+            correctionAdd("five", "give");
+            correctionAdd("Five", "give");
 
             correctionAdd("geives", "gives");
             correctionAdd("givers", "gives");
@@ -17854,7 +17855,7 @@ namespace OverflowHelper.core
             correctionAdd("-10 F", "-23.3 °C");
             correctionAdd("-10 f", "-23.3 °C");
 
-            correctionAdd("0&nbsp;°F", "-17.7 °C");
+            correctionAdd("0 °F", "-17.7 °C");
             correctionAdd("0 F", "-17.7 °C");
             correctionAdd("0 f", "-17.7 °C");
 
@@ -17868,41 +17869,34 @@ namespace OverflowHelper.core
             correctionAdd("20 f", "-6.7 °C");
             correctionAdd("-7 C", "-6.7 °C");
 
-            correctionAdd("30&nbsp;°F", "-1.1&nbsp;°C");
-            correctionAdd("-1.1 °C", "-1.1&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("30 F", "-1.1&nbsp;°C");
-            correctionAdd("30 f", "-1.1&nbsp;°C");
-            correctionAdd("-1 C", "-1.1&nbsp;°C");
+            correctionAdd("30 °F", "-1.1 °C");
+            correctionAdd("30 F", "-1.1 °C");
+            correctionAdd("30 f", "-1.1 °C");
+            correctionAdd("-1 C", "-1.1 °C");
 
-            correctionAdd("32&nbsp;°F", "0.0&nbsp;°C");
-            correctionAdd("0.0 °C", "0.0&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("32 °F", "0.0&nbsp;°C");
-            correctionAdd("32 F", "0.0&nbsp;°C");
-            correctionAdd("32", "0.0&nbsp;°C");
+            correctionAdd("32 °F", "0.0 °C");
+            correctionAdd("32 F", "0.0 °C");
+            correctionAdd("32", "0.0 °C");
 
-            correctionAdd("40&nbsp;°F", "4.4&nbsp;°C");
-            correctionAdd("4.4 °C", "4.4&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("40 F", "4.4&nbsp;°C");
-            correctionAdd("40 f", "4.4&nbsp;°C");
-            correctionAdd("4 C", "4.4&nbsp;°C");
+            correctionAdd("40 °F", "4.4 °C");
+            correctionAdd("40 F", "4.4 °C");
+            correctionAdd("40 f", "4.4 °C");
+            correctionAdd("4 C", "4.4 °C");
 
-            correctionAdd("50&nbsp;°F", "10.0&nbsp;°C");
-            correctionAdd("10.0 °C", "10.0&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("50 F", "10.0&nbsp;°C");
-            correctionAdd("50 f", "10.0&nbsp;°C");
-            correctionAdd("10 C", "10.0&nbsp;°C");
+            correctionAdd("50 °F", "10.0 °C");
+            correctionAdd("50 F", "10.0 °C");
+            correctionAdd("50 f", "10.0 °C");
+            correctionAdd("10 C", "10.0 °C");
 
-            correctionAdd("60&nbsp;°F", "15.6&nbsp;°C");
-            correctionAdd("15.6 °C", "15.6&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("60 F", "15.6&nbsp;°C");
-            correctionAdd("60 f", "15.6&nbsp;°C");
-            correctionAdd("16 C", "15.6&nbsp;°C");
+            correctionAdd("60 °F", "15.6 °C");
+            correctionAdd("60 F", "15.6 °C");
+            correctionAdd("60 f", "15.6 °C");
+            correctionAdd("16 C", "15.6 °C");
 
-            correctionAdd("70&nbsp;°F", "21.1&nbsp;°C");
-            correctionAdd("21.1 °C", "21.1&nbsp;°C"); // Sort of identity mapping
-            correctionAdd("70 F", "21.1&nbsp;°C");
-            correctionAdd("70 f", "21.1&nbsp;°C");
-            correctionAdd("21 C", "21.1&nbsp;°C");
+            correctionAdd("70 °F", "21.1 °C");
+            correctionAdd("70 F", "21.1 °C");
+            correctionAdd("70 f", "21.1 °C");
+            correctionAdd("21 C", "21.1 °C");
 
             correctionAdd("80 °F", "26.7 °C");
             correctionAdd("80 F", "26.7 °C");
@@ -18025,8 +18019,7 @@ namespace OverflowHelper.core
             correctionAdd("900", "480 °C"); // Not 100% correct, but for the original 900 °F in the Weller Magnastat system (a 100 Fahrenheit increment scale)
             correctionAdd("#9", "480 °C"); // We had to add it manually...
 
-            correctionAdd("12000 ft", "3.7&nbsp;km");
-            correctionAdd("3.7 km", "3.7&nbsp;km"); // Sort of identity mapping
+            correctionAdd("12000 ft", "3.7 km");
 
             // A unit (of mass)
             correctionAdd("&nbsp;tons", "&nbsp;t");
@@ -27333,6 +27326,8 @@ namespace OverflowHelper.core
 
             correctionAdd("repeatation", "repetition");
             correctionAdd("repetiton", "repetition");
+            correctionAdd("repetion", "repetition");
+            correctionAdd("repition", "repetition");
 
             correctionAdd("repeatative", "repetitive");
             correctionAdd("repititive", "repetitive");
@@ -28454,10 +28449,14 @@ namespace OverflowHelper.core
             correctionAdd("Gtk", "GTK");
             correctionAdd("gkt", "GTK");
 
-            correctionAdd("GTK 2+", "GTK&nbsp;2+"); // Sort of identity mapping
-            correctionAdd("GTK 2", "GTK&nbsp;2+");
-            correctionAdd("GTK2+", "GTK&nbsp;2+");
-            correctionAdd("GTK2", "GTK&nbsp;2+");
+            correctionAdd("GTK 2", "GTK 2+");
+            correctionAdd("GTK2+", "GTK 2+");
+            correctionAdd("GTK2", "GTK 2+");
+
+            correctionAdd("gtk 3", "GTK 3");
+            correctionAdd("GTK-3", "GTK 3");
+            correctionAdd("gtk-3", "GTK 3");
+            correctionAdd("gtk3", "GTK 3");
 
             // GNOME / GTK. Related: 'dialog', 'xmessage',
             // 'alert' (Ubuntu), and 'notify-send'
@@ -29307,14 +29306,12 @@ namespace OverflowHelper.core
 
             correctionAdd("Perl-Script", "Perl script");
 
-            correctionAdd("Perl 5", "Perl&nbsp;5");
-            correctionAdd("perl 5", "Perl&nbsp;5");
-            correctionAdd("perl5", "Perl&nbsp;5");
+            correctionAdd("perl 5", "Perl 5");
+            correctionAdd("perl5", "Perl 5");
 
-            correctionAdd("Perl 6", "Perl&nbsp;6");
-            correctionAdd("perl 6", "Perl&nbsp;6");
-            correctionAdd("Perl6", "Perl&nbsp;6");
-            correctionAdd("perl6", "Perl&nbsp;6");
+            correctionAdd("perl 6", "Perl 6");
+            correctionAdd("Perl6", "Perl 6");
+            correctionAdd("perl6", "Perl 6");
 
             // Perl 6
             correctionAdd("raku", "Raku");
@@ -36066,83 +36063,73 @@ namespace OverflowHelper.core
             //
             // Note: "Internet" is in an alternative word set
             //
-            correctionAdd("internert explorer", "Internet&nbsp;Explorer");
-            correctionAdd("Internet Exploiter", "Internet&nbsp;Explorer");
-            correctionAdd("Internet Explorer", "Internet&nbsp;Explorer");
-            correctionAdd("internet-explorer", "Internet&nbsp;Explorer");
-            correctionAdd("internet explorer", "Internet&nbsp;Explorer");
-            correctionAdd("Internet explorer", "Internet&nbsp;Explorer");
-            correctionAdd("internet Explorer", "Internet&nbsp;Explorer");
-            correctionAdd("Internet Exploder", "Internet&nbsp;Explorer");
-            correctionAdd("Internet Exploere", "Internet&nbsp;Explorer");
-            correctionAdd("INTERNET EXPLORER", "Internet&nbsp;Explorer");
-            correctionAdd("internet explore", "Internet&nbsp;Explorer");
-            correctionAdd("interne explorer", "Internet&nbsp;Explorer");
-            correctionAdd("Internet exlorer", "Internet&nbsp;Explorer"); // Misspelling
-            correctionAdd("nternet Explorer", "Internet&nbsp;Explorer");
-            correctionAdd("IExplorer", "Internet&nbsp;Explorer");
-            correctionAdd("iexplore", "Internet&nbsp;Explorer");
-            correctionAdd("Explorer", "Internet&nbsp;Explorer");
-            correctionAdd("MSIE", "Internet&nbsp;Explorer");
-            correctionAdd("I.E", "Internet&nbsp;Explorer");
-            correctionAdd("iE", "Internet&nbsp;Explorer");
-            correctionAdd("ie", "Internet&nbsp;Explorer"); // Conflict with i.e. ...
-            correctionAdd("IE", "Internet&nbsp;Explorer");
+            correctionAdd("internert explorer", "Internet Explorer");
+            correctionAdd("Internet Exploiter", "Internet Explorer");
+            correctionAdd("internet-explorer", "Internet Explorer");
+            correctionAdd("internet explorer", "Internet Explorer");
+            correctionAdd("Internet explorer", "Internet Explorer");
+            correctionAdd("internet Explorer", "Internet Explorer");
+            correctionAdd("Internet Exploder", "Internet Explorer");
+            correctionAdd("Internet Exploere", "Internet Explorer");
+            correctionAdd("INTERNET EXPLORER", "Internet Explorer");
+            correctionAdd("internet explore", "Internet Explorer");
+            correctionAdd("interne explorer", "Internet Explorer");
+            correctionAdd("Internet exlorer", "Internet Explorer"); // Misspelling
+            correctionAdd("nternet Explorer", "Internet Explorer");
+            correctionAdd("IExplorer", "Internet Explorer");
+            correctionAdd("iexplore", "Internet Explorer");
+            correctionAdd("Explorer", "Internet Explorer");
+            correctionAdd("MSIE", "Internet Explorer");
+            correctionAdd("I.E", "Internet Explorer");
+            correctionAdd("iE", "Internet Explorer");
+            correctionAdd("ie", "Internet Explorer"); // Conflict with i.e. ...
+            correctionAdd("IE", "Internet Explorer");
 
             // A web browser
-            correctionAdd("Internet Explorer 5", "Internet&nbsp;Explorer&nbsp;5"); // Sort of identity mapping
-            correctionAdd("IE 5", "Internet&nbsp;Explorer&nbsp;5");
-            correctionAdd("ie 5", "Internet&nbsp;Explorer&nbsp;5");
-            correctionAdd("ie5", "Internet&nbsp;Explorer&nbsp;5");
-            correctionAdd("IE5", "Internet&nbsp;Explorer&nbsp;5");
+            correctionAdd("IE 5", "Internet Explorer 5");
+            correctionAdd("ie 5", "Internet Explorer 5");
+            correctionAdd("ie5", "Internet Explorer 5");
+            correctionAdd("IE5", "Internet Explorer 5");
 
             // A web browser
-            correctionAdd("Internet Explorer 5.5", "Internet&nbsp;Explorer&nbsp;5.5"); // Sort of identity mapping
-            correctionAdd("IE 5.5", "Internet&nbsp;Explorer&nbsp;5.5");
-            correctionAdd("IE5.5", "Internet&nbsp;Explorer&nbsp;5.5");
+            correctionAdd("IE 5.5", "Internet Explorer 5.5");
+            correctionAdd("IE5.5", "Internet Explorer 5.5");
 
             // A web browser
-            correctionAdd("Internet Explorer 6", "Internet&nbsp;Explorer&nbsp;6");
-            correctionAdd("IE 6", "Internet&nbsp;Explorer&nbsp;6");
-            correctionAdd("IE6", "Internet&nbsp;Explorer&nbsp;6");
-            correctionAdd("ie6", "Internet&nbsp;Explorer&nbsp;6");
-            correctionAdd("iE6", "Internet&nbsp;Explorer&nbsp;6");
+            correctionAdd("IE 6", "Internet Explorer 6");
+            correctionAdd("IE6", "Internet Explorer 6");
+            correctionAdd("ie6", "Internet Explorer 6");
+            correctionAdd("iE6", "Internet Explorer 6");
 
             // A web browser
-            correctionAdd("Internet&nbsp;Explorer 7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("Internet Explorer 7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("i.e. 7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("IE 7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("ie 7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("IE-7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("IE7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("ie7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("iE7", "Internet&nbsp;Explorer&nbsp;7");
-            correctionAdd("Ie7", "Internet&nbsp;Explorer&nbsp;7");
+            correctionAdd("i.e. 7", "Internet Explorer 7");
+            correctionAdd("IE 7", "Internet Explorer 7");
+            correctionAdd("ie 7", "Internet Explorer 7");
+            correctionAdd("IE-7", "Internet Explorer 7");
+            correctionAdd("IE7", "Internet Explorer 7");
+            correctionAdd("ie7", "Internet Explorer 7");
+            correctionAdd("iE7", "Internet Explorer 7");
+            correctionAdd("Ie7", "Internet Explorer 7");
 
             // A web browser
             //
-            // Note: "Internet&nbsp;Explorer&nbsp;8" is in an alternative word set
+            // Note: "Internet Explorer 8" is in an alternative word set
             //
-            correctionAdd("Internet&nbsp;Explorer 9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("Internet Explorer 9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("MSIE9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("IE 9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("ie 9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("IE-9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("IE9", "Internet&nbsp;Explorer&nbsp;9");
-            correctionAdd("ie9", "Internet&nbsp;Explorer&nbsp;9");
+            correctionAdd("MSIE9", "Internet Explorer 9");
+            correctionAdd("IE 9", "Internet Explorer 9");
+            correctionAdd("ie 9", "Internet Explorer 9");
+            correctionAdd("IE-9", "Internet Explorer 9");
+            correctionAdd("IE9", "Internet Explorer 9");
+            correctionAdd("ie9", "Internet Explorer 9");
 
             // A web browser
-            // Note: "Internet&nbsp;Explorer&nbsp;11" is in an alternative word set
+            // Note: "Internet Explorer 11" is in an alternative word set
             //
-            correctionAdd("Internet&nbsp;Explorer 10", "Internet&nbsp;Explorer&nbsp;10");
-            correctionAdd("Internet Explorer 10", "Internet&nbsp;Explorer&nbsp;10"); // Sort of identity mapping
-            correctionAdd("Explorer 10", "Internet&nbsp;Explorer&nbsp;10");
-            correctionAdd("ie 10", "Internet&nbsp;Explorer&nbsp;10");
-            correctionAdd("IE 10", "Internet&nbsp;Explorer&nbsp;10");
-            correctionAdd("ie10", "Internet&nbsp;Explorer&nbsp;10");
-            correctionAdd("IE10", "Internet&nbsp;Explorer&nbsp;10");
+            correctionAdd("Explorer 10", "Internet Explorer 10");
+            correctionAdd("ie 10", "Internet Explorer 10");
+            correctionAdd("IE 10", "Internet Explorer 10");
+            correctionAdd("ie10", "Internet Explorer 10");
+            correctionAdd("IE10", "Internet Explorer 10");
 
             // A web browser
             // Windows web browser
@@ -58613,6 +58600,7 @@ namespace OverflowHelper.core
             correctionAdd("onle", "only");
             correctionAdd("Onyl", "only");
             correctionAdd("onyl", "only"); // A true typo
+            correctionAdd("onky", "only"); // A true typo
             correctionAdd("ony", "only");
             correctionAdd("onl", "only");
 
@@ -72830,6 +72818,7 @@ namespace OverflowHelper.core
             correctionAdd("james donkey", "JamesDonkey");
             correctionAdd("James donkey", "JamesDonkey");
             correctionAdd("james-donkey", "JamesDonkey");
+            correctionAdd("James Donkey", "JamesDonkey");
             correctionAdd("Jamesdonkey", "JamesDonkey");
             correctionAdd("jamesdonkey", "JamesDonkey");
 
@@ -95732,13 +95721,17 @@ namespace OverflowHelper.core
             correctionAdd("KeyChron K5 Max", "Keychron K5 Max");
             correctionAdd("KeyChron K5 max", "Keychron K5 Max");
             correctionAdd("Keychain K5 Max", "Keychron K5 Max");
-            correctionAdd("K5 Mas", "Keychron K5 Max");
+            correctionAdd("Keychrom K5 max", "Keychron K5 Max");
+            correctionAdd("keychrom K5 max", "Keychron K5 Max");
+            correctionAdd("keychron K5 max", "Keychron K5 Max");
+            correctionAdd("Keychron K5 max", "Keychron K5 Max");
+            correctionAdd("K5 Max", "Keychron K5 Max");
             correctionAdd("K5 MAX", "Keychron K5 Max");
             correctionAdd("k5 max", "Keychron K5 Max");
             correctionAdd("K5 max", "Keychron K5 Max");
-            correctionAdd("K5 Max", "Keychron K5 Max");
             correctionAdd("k5 Max", "Keychron K5 Max");
             correctionAdd("K5-Max", "Keychron K5 Max");
+            correctionAdd("K5 Mas", "Keychron K5 Max");
 
             // A 109-key (105%. Not true TKL) full-size low-profile
             // wired-only ZMK/Via-capable mechanical keyboard
@@ -96061,16 +96054,14 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-q1-max-user-manual>
             //
-            correctionAdd("Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
-            correctionAdd("Keychron K10 Ultra 8K (105%)", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)"); // Sort of identity mapping
-            correctionAdd("Keychron K10 Ultra 8K (100%)", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
-            correctionAdd("Keychron K10 Ultra 8K", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
-            correctionAdd("keychron k10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
-            correctionAdd("K10 Ultra 8K", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
-            correctionAdd("10k ultra 8k", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
-            correctionAdd("K10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
-            correctionAdd("K10 Ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
-            correctionAdd("k10 ultra", "Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)");
+            correctionAdd("Keychron K10 Ultra 8K (100%)", "Keychron K10 Ultra 8K (105%)");
+            correctionAdd("Keychron K10 Ultra 8K", "Keychron K10 Ultra 8K (105%)");
+            correctionAdd("keychron k10 ultra", "Keychron K10 Ultra 8K (105%)");
+            correctionAdd("K10 Ultra 8K", "Keychron K10 Ultra 8K (105%)");
+            correctionAdd("10k ultra 8k", "Keychron K10 Ultra 8K (105%)");
+            correctionAdd("K10 ultra", "Keychron K10 Ultra 8K (105%)");
+            correctionAdd("K10 Ultra", "Keychron K10 Ultra 8K (105%)");
+            correctionAdd("k10 ultra", "Keychron K10 Ultra 8K (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -100799,10 +100790,6 @@ namespace OverflowHelper.core
             correctionAdd("Movies", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)");
             correctionAdd("M&TV", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)");
 
-            correctionAdd("Theoretical Computer Science (Stack Exchange site)", "Theoretical&nbsp;Computer&nbsp;Science (Stack Exchange site)");
-            correctionAdd("Theoretical&nbsp;Computer&nbsp;Science", "Theoretical&nbsp;Computer&nbsp;Science (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Theoretical Computer Science", "Theoretical&nbsp;Computer&nbsp;Science (Stack Exchange site)");
-
             correctionAdd("Matter Modeling (Stack Exchange site)", "Matter&nbsp;Modeling (Stack Exchange site)");
             correctionAdd("Matter&nbsp;Modeling", "Matter&nbsp;Modeling (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("matter modeling", "Matter&nbsp;Modeling (Stack Exchange site)");
@@ -100879,10 +100866,6 @@ namespace OverflowHelper.core
             correctionAdd("Board & Card Games (Stack Exchange site)", "Board&nbsp;&&nbsp;Card&nbsp;Games (Stack Exchange site)");
             correctionAdd("Board&nbsp;&&nbsp;Card&nbsp;Games", "Board&nbsp;&&nbsp;Card&nbsp;Games (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Board & Card Games", "Board&nbsp;&&nbsp;Card&nbsp;Games (Stack Exchange site)");
-
-            correctionAdd("Computer Science Educators (Stack Exchange site)", "Computer&nbsp;Science&nbsp;Educators (Stack Exchange site)");
-            correctionAdd("Computer&nbsp;Science&nbsp;Educators", "Computer&nbsp;Science&nbsp;Educators (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Computer Science Educators", "Computer&nbsp;Science&nbsp;Educators (Stack Exchange site)");
 
             correctionAdd("Ask&nbsp;Patents", "Ask&nbsp;Patents (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Ask Patents", "Ask&nbsp;Patents (Stack Exchange site)"); // Sort of identity mapping
@@ -100977,6 +100960,10 @@ namespace OverflowHelper.core
             correctionAdd("Interpersonal Skills", "Interpersonal&nbsp;Skills (Stack Exchange site)");
             correctionAdd("Interpersonal Skills (Stack Exchange site)", "Interpersonal&nbsp;Skills (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("IPS", "Interpersonal&nbsp;Skills (Stack Exchange site)");
+
+            correctionAdd("Computer Science Educators", "Computer Science Educators (Stack Exchange site)");
+
+            correctionAdd("Theoretical Computer Science", "Theoretical Computer Science (Stack Exchange site)");
 
             // A chatroom on the Stack Exchange site "Code Golf"
             // (<https://codegolf.stackexchange.com>)
@@ -105794,12 +105781,6 @@ namespace OverflowHelper.core
             correctionAdd("spurius", "spurious");
 
             correctionAdd("exim", "Exim");
-
-            correctionAdd("GTK 3", "GTK&nbsp;3");
-            correctionAdd("gtk 3", "GTK&nbsp;3");
-            correctionAdd("GTK-3", "GTK&nbsp;3");
-            correctionAdd("gtk-3", "GTK&nbsp;3");
-            correctionAdd("gtk3", "GTK&nbsp;3");
 
             correctionAdd("EdXPosed", "EdXposed");
             correctionAdd("Edxposed", "EdXposed");
@@ -126361,7 +126342,7 @@ namespace OverflowHelper.core
 
             URL_Add("crt0", "https://en.wikipedia.org/wiki/Crt0");
 
-            URL_Add("3.7&nbsp;km", "https://en.wikipedia.org/wiki/Kilometre");
+            URL_Add("3.7 km", "https://en.wikipedia.org/wiki/Kilometre");
 
             URL_Add("student", "https://en.wiktionary.org/wiki/student#Noun");
 
@@ -129487,9 +129468,9 @@ namespace OverflowHelper.core
 
             URL_Add("GTK", "https://en.wikipedia.org/wiki/GTK");
 
-            URL_Add("GTK&nbsp;2+", "https://en.wikipedia.org/wiki/GTK#GTK_2");
+            URL_Add("GTK 2+", "https://en.wikipedia.org/wiki/GTK#GTK_2");
 
-            URL_Add("GTK&nbsp;3", "https://en.wikipedia.org/wiki/GTK#History");
+            URL_Add("GTK 3", "https://en.wikipedia.org/wiki/GTK#History");
 
             URL_Add("Gtk#", "https://en.wikipedia.org/wiki/GTK#Gtk#");
 
@@ -139209,17 +139190,17 @@ namespace OverflowHelper.core
 
             URL_Add("-6.7 °C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
-            URL_Add("-1.1&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+            URL_Add("-1.1 °C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
-            URL_Add("0.0&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+            URL_Add("0.0 °C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
-            URL_Add("4.4&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+            URL_Add("4.4 °C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
-            URL_Add("10.0&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+            URL_Add("10.0 °C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
-            URL_Add("15.6&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+            URL_Add("15.6 °C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
-            URL_Add("21.1&nbsp;°C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+            URL_Add("21.1 °C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
             URL_Add("26.7 °C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
@@ -142685,7 +142666,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-k8-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K10&nbsp;Ultra&nbsp;8K (105%)", "https://www.keychron.com/products/keychron-k10-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron K10 Ultra 8K (105%)", "https://www.keychron.com/products/keychron-k10-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron R6", "https://www.keychron.com/collections/vintage-keyboards/products/keychron-r6-qmk-wireless-mechanical-keyboard");
 
@@ -144247,19 +144228,19 @@ namespace OverflowHelper.core
 
             URL_Add("at the time of writing", "https://english.stackexchange.com/questions/199381/is-at-the-time-of-writing-correct");
 
-            URL_Add("Internet&nbsp;Explorer", "https://en.wikipedia.org/wiki/Internet_Explorer");
+            URL_Add("Internet Explorer", "https://en.wikipedia.org/wiki/Internet_Explorer");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;5", "https://en.wikipedia.org/wiki/Internet_Explorer_5");
+            URL_Add("Internet Explorer 5", "https://en.wikipedia.org/wiki/Internet_Explorer_5");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;5.5", "https://en.wikipedia.org/wiki/Internet_Explorer_5#Versions");
+            URL_Add("Internet Explorer 5.5", "https://en.wikipedia.org/wiki/Internet_Explorer_5#Versions");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;6", "https://en.wikipedia.org/wiki/Internet_Explorer_6");
+            URL_Add("Internet Explorer 6", "https://en.wikipedia.org/wiki/Internet_Explorer_6");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;7", "https://en.wikipedia.org/wiki/Internet_Explorer_7");
+            URL_Add("Internet Explorer 7", "https://en.wikipedia.org/wiki/Internet_Explorer_7");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;9", "https://en.wikipedia.org/wiki/Internet_Explorer_9");
+            URL_Add("Internet Explorer 9", "https://en.wikipedia.org/wiki/Internet_Explorer_9");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;10", "https://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_10");
+            URL_Add("Internet Explorer 10", "https://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_10");
 
             URL_Add("badge", "https://en.wiktionary.org/wiki/badge#Noun");
 
@@ -144343,8 +144324,6 @@ namespace OverflowHelper.core
 
             URL_Add("Movies&nbsp;&&nbsp;TV (Stack Exchange site)", "https://movies.stackexchange.com/tour");
 
-            URL_Add("Theoretical&nbsp;Computer&nbsp;Science (Stack Exchange site)", "https://cstheory.stackexchange.com/tour");
-
             URL_Add("Matter&nbsp;Modeling (Stack Exchange site)", "https://mattermodeling.stackexchange.com/tour");
 
             URL_Add("Arqade (Stack Exchange site)", "https://gaming.stackexchange.com/tour");
@@ -144425,11 +144404,13 @@ namespace OverflowHelper.core
 
             URL_Add("Computer Graphics (Stack Exchange site)", "https://computergraphics.stackexchange.com/tour");
 
-            URL_Add("Computer&nbsp;Science&nbsp;Educators (Stack Exchange site)", "https://cseducators.stackexchange.com/tour");
+            URL_Add("Computer Science Educators (Stack Exchange site)", "https://cseducators.stackexchange.com/tour");
 
             URL_Add("Computational Science (Stack Exchange site)", "https://scicomp.stackexchange.com/tour");
 
             URL_Add("Retrocomputing (Stack Exchange site)", "https://retrocomputing.stackexchange.com/tour");
+
+            URL_Add("Theoretical Computer Science (Stack Exchange site)", "https://cstheory.stackexchange.com/tour");
 
             URL_Add("MBR", "https://en.wikipedia.org/wiki/Master_boot_record");
 
@@ -145615,9 +145596,9 @@ namespace OverflowHelper.core
 
             URL_Add("Perl", "https://en.wikipedia.org/wiki/Perl");
 
-            URL_Add("Perl&nbsp;5", "https://en.wikipedia.org/wiki/Perl#Perl_5");
+            URL_Add("Perl 5", "https://en.wikipedia.org/wiki/Perl#Perl_5");
 
-            URL_Add("Perl&nbsp;6", "https://en.wikipedia.org/wiki/Raku_(programming_language)"); // Old: https://en.wikipedia.org/wiki/Perl_6
+            URL_Add("Perl 6", "https://en.wikipedia.org/wiki/Raku_(programming_language)"); // Old: https://en.wikipedia.org/wiki/Perl_6
 
             URL_Add("Perl script", "https://en.wikipedia.org/wiki/Perl#Applications");
 
@@ -156284,6 +156265,7 @@ namespace OverflowHelper.core
             correctionAdd("Apple/Command_", "Apple key AKA Command key_");
             correctionAdd("Command key_", "Apple key AKA Command key_");
             correctionAdd("command key_", "Apple key AKA Command key_");
+            correctionAdd("cloverleaf_", "Apple key AKA Command key_");
             correctionAdd("apple key_", "Apple key AKA Command key_");
             correctionAdd("Apple key_", "Apple key AKA Command key_");
             correctionAdd("Cmd key_", "Apple key AKA Command key_");
@@ -163376,90 +163358,74 @@ namespace OverflowHelper.core
             correctionAdd("super_", "superuser_");
             correctionAdd("root_", "superuser_");
 
-            correctionAdd("Computer Science (Stack Exchange site)_", "Computer&nbsp;Science (Stack Exchange site)_");
-            correctionAdd("Computer&nbsp;Science_", "Computer&nbsp;Science (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("cs.stackexchange.com_", "Computer&nbsp;Science (Stack Exchange site)_");
-            correctionAdd("Computer Sciences_", "Computer&nbsp;Science (Stack Exchange site)_");
-            correctionAdd("CS Stack Exchange_", "Computer&nbsp;Science (Stack Exchange site)_");
-            correctionAdd("Computer Science_", "Computer&nbsp;Science (Stack Exchange site)_");
-            correctionAdd("computer science_", "Computer&nbsp;Science (Stack Exchange site)_");
-            correctionAdd("CS.StackExchange_", "Computer&nbsp;Science (Stack Exchange site)_");
+            correctionAdd("cs.stackexchange.com_", "Computer Science (Stack Exchange site)_");
+            correctionAdd("Computer Sciences_", "Computer Science (Stack Exchange site)_");
+            correctionAdd("CS Stack Exchange_", "Computer Science (Stack Exchange site)_");
+            correctionAdd("Computer Science_", "Computer Science (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("computer science_", "Computer Science (Stack Exchange site)_");
+            correctionAdd("CS.StackExchange_", "Computer Science (Stack Exchange site)_");
 
-            correctionAdd("Information Security (Stack Exchange site)_", "Information&nbsp;Security (Stack Exchange site)_");
-            correctionAdd("security.stackexchange.com_", "Information&nbsp;Security (Stack Exchange site)_");
-            correctionAdd("security.stackexhcange.com_", "Information&nbsp;Security (Stack Exchange site)_");
-            correctionAdd("Information&nbsp;Security_", "Information&nbsp;Security (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Information Security_", "Information&nbsp;Security (Stack Exchange site)_");
-            correctionAdd("information security_", "Information&nbsp;Security (Stack Exchange site)_");
-            correctionAdd("Information security_", "Information&nbsp;Security (Stack Exchange site)_");
-            correctionAdd("Security.SE_", "Information&nbsp;Security (Stack Exchange site)_");
-            correctionAdd("Security_", "Information&nbsp;Security (Stack Exchange site)_");
-            correctionAdd("info sec_", "Information&nbsp;Security (Stack Exchange site)_");
+            correctionAdd("security.stackexchange.com_", "Information Security (Stack Exchange site)_");
+            correctionAdd("security.stackexhcange.com_", "Information Security (Stack Exchange site)_");
+            correctionAdd("Information Security_", "Information Security (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("information security_", "Information Security (Stack Exchange site)_");
+            correctionAdd("Information security_", "Information Security (Stack Exchange site)_");
+            correctionAdd("Security.SE_", "Information Security (Stack Exchange site)_");
+            correctionAdd("Security_", "Information Security (Stack Exchange site)_");
+            correctionAdd("info sec_", "Information Security (Stack Exchange site)_");
 
             correctionAdd("Coffee SE_", "Coffee (Stack Exchange site)_");
             correctionAdd("Coffee_", "Coffee (Stack Exchange site)_");
             correctionAdd("coffee_", "Coffee (Stack Exchange site)_"); // Mostly to connect it to the common noun.
 
-            correctionAdd("Home Improvement (Stack Exchange site)_", "Home&nbsp;Improvement (Stack Exchange site)_");
-            correctionAdd("Home&nbsp;Improvement_", "Home&nbsp;Improvement (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Home Improvement_", "Home&nbsp;Improvement (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("diy_", "Home&nbsp;Improvement (Stack Exchange site)_");
-            correctionAdd("DIY_", "Home&nbsp;Improvement (Stack Exchange site)_");
+            correctionAdd("Home Improvement_", "Home Improvement (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("diy_", "Home Improvement (Stack Exchange site)_");
+            correctionAdd("DIY_", "Home Improvement (Stack Exchange site)_");
 
-            correctionAdd("Open Source (Stack Exchange site)_", "Open&nbsp;Source (Stack Exchange site)_");
-            correctionAdd("Open&nbsp;Source_", "Open&nbsp;Source (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Open Source SE_", "Open&nbsp;Source (Stack Exchange site)_");
-            correctionAdd("open source_", "Open&nbsp;Source (Stack Exchange site)_");
-            correctionAdd("Open Source_", "Open&nbsp;Source (Stack Exchange site)_");
+            correctionAdd("Open Source SE_", "Open Source (Stack Exchange site)_");
+            correctionAdd("open source_", "Open Source (Stack Exchange site)_");
+            correctionAdd("Open Source_", "Open Source (Stack Exchange site)_");
 
             correctionAdd("engineering_", "Engineering (Stack Exchange site)_");
             correctionAdd("Engineering_", "Engineering (Stack Exchange site)_"); // Sort of identity mapping
 
-            correctionAdd("Data Science (Stack Exchange site)_", "Data&nbsp;Science (Stack Exchange site)_");
-            correctionAdd("Data&nbsp;Science_", "Data&nbsp;Science (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Data Science SE_", "Data&nbsp;Science (Stack Exchange site)_");
-            correctionAdd("datascience.SE_", "Data&nbsp;Science (Stack Exchange site)_");
-            correctionAdd("Data Science_", "Data&nbsp;Science (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("DataScience_", "Data&nbsp;Science (Stack Exchange site)_");
-            correctionAdd("DSSE_", "Data&nbsp;Science (Stack Exchange site)_");
-            correctionAdd("DS_", "Data&nbsp;Science (Stack Exchange site)_");
+            correctionAdd("Data Science SE_", "Data Science (Stack Exchange site)_");
+            correctionAdd("datascience.SE_", "Data Science (Stack Exchange site)_");
+            correctionAdd("Data Science_", "Data Science (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("DataScience_", "Data Science (Stack Exchange site)_");
+            correctionAdd("DSSE_", "Data Science (Stack Exchange site)_");
+            correctionAdd("DS_", "Data Science (Stack Exchange site)_");
 
-            correctionAdd("Vi and Vim (Stack Exchange site)_", "Vi&nbsp;and&nbsp;Vim (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Vi&nbsp;and&nbsp;Vim_", "Vi&nbsp;and&nbsp;Vim (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("vi.stackexchange.com_", "Vi&nbsp;and&nbsp;Vim (Stack Exchange site)_");
-            correctionAdd("Vi and Vim_", "Vi&nbsp;and&nbsp;Vim (Stack Exchange site)_");
-            correctionAdd("vim_", "Vi&nbsp;and&nbsp;Vim (Stack Exchange site)_");
+            correctionAdd("vi.stackexchange.com_", "Vi and Vim (Stack Exchange site)_");
+            correctionAdd("Vi and Vim_", "Vi and Vim (Stack Exchange site)_");
+            correctionAdd("vim_", "Vi and Vim (Stack Exchange site)_");
 
-            correctionAdd("TeX - LaTeX (Stack Exchange site)_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("TeX&nbsp;-&nbsp;LaTeX_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Tex Stack Exchange_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("TeX Stack Exchange_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("tex.stackexchange_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("TeX - LaTeX_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("TeX-LaTeX_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("TeX LaTeX_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("Tex-LaTeX_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("LaTeX.SE_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("Tex.SE_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("TeX.se_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("tex se_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("tex.se_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("tex.SE_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("TeX.SE_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("TexSE_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("Latex_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("TeX_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
-            correctionAdd("Tex_", "TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_");
+            correctionAdd("Tex Stack Exchange_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("TeX Stack Exchange_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("tex.stackexchange_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("TeX - LaTeX_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("TeX-LaTeX_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("TeX LaTeX_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("Tex-LaTeX_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("LaTeX.SE_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("Tex.SE_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("TeX.se_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("tex se_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("tex.se_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("tex.SE_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("TeX.SE_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("TexSE_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("Latex_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("TeX_", "TeX - LaTeX (Stack Exchange site)_");
+            correctionAdd("Tex_", "TeX - LaTeX (Stack Exchange site)_");
 
-            correctionAdd("Database Administrators (Stack Exchange site)_", "Database&nbsp;Administrators (Stack Exchange site)_");
-            correctionAdd("Database&nbsp;Administrators_", "Database&nbsp;Administrators (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("database administrators_", "Database&nbsp;Administrators (Stack Exchange site)_");
-            correctionAdd("Database Administrators_", "Database&nbsp;Administrators (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Database administrators_", "Database&nbsp;Administrators (Stack Exchange site)_");
-            correctionAdd("Database Adminstrators_", "Database&nbsp;Administrators (Stack Exchange site)_");
-            correctionAdd("dba.stackexchange.com_", "Database&nbsp;Administrators (Stack Exchange site)_");
-            correctionAdd("dba_", "Database&nbsp;Administrators (Stack Exchange site)_");
-            correctionAdd("DBA_", "Database&nbsp;Administrators (Stack Exchange site)_");
+            correctionAdd("database administrators_", "Database Administrators (Stack Exchange site)_");
+            correctionAdd("Database Administrators_", "Database Administrators (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("Database administrators_", "Database Administrators (Stack Exchange site)_");
+            correctionAdd("Database Adminstrators_", "Database Administrators (Stack Exchange site)_");
+            correctionAdd("dba.stackexchange.com_", "Database Administrators (Stack Exchange site)_");
+            correctionAdd("dba_", "Database Administrators (Stack Exchange site)_");
+            correctionAdd("DBA_", "Database Administrators (Stack Exchange site)_");
 
             correctionAdd("generative AI_", "GenAI (Stack Exchange site)_");
             correctionAdd("GenAI_", "GenAI (Stack Exchange site)_"); // Sort of identity mapping
@@ -163494,38 +163460,32 @@ namespace OverflowHelper.core
 
             correctionAdd("Tor_", "Tor (Stack Exchange site)_");
 
-            correctionAdd("Motor Vehicle Maintenance & Repair (Stack Exchange site)_", "Motor&nbsp;Vehicle&nbsp;Maintenance&nbsp;&&nbsp;Repair (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Motor&nbsp;Vehicle&nbsp;Maintenance&nbsp;&&nbsp;Repair_", "Motor&nbsp;Vehicle&nbsp;Maintenance&nbsp;&&nbsp;Repair (Stack Exchange site)_");
-            correctionAdd("mechanics.SE_", "Motor&nbsp;Vehicle&nbsp;Maintenance&nbsp;&&nbsp;Repair (Stack Exchange site)_");
-            correctionAdd("mechanics_", "Motor&nbsp;Vehicle&nbsp;Maintenance&nbsp;&&nbsp;Repair (Stack Exchange site)_");
+            correctionAdd("Motor Vehicle Maintenance & Repair_", "Motor Vehicle Maintenance & Repair (Stack Exchange site)_");
+            correctionAdd("mechanics.SE_", "Motor Vehicle Maintenance & Repair (Stack Exchange site)_");
+            correctionAdd("mechanics_", "Motor Vehicle Maintenance & Repair (Stack Exchange site)_");
 
-            correctionAdd("Software Quality Assurance & Testing (Stack Exchange site)_", "Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing_", "Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("software quality assurance_", "Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_");
-            correctionAdd("Software Quality Assurance_", "Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_");
+            correctionAdd("Software Quality Assurance & Testing_", "Software Quality Assurance & Testing (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("software quality assurance_", "Software Quality Assurance & Testing (Stack Exchange site)_");
+            correctionAdd("Software Quality Assurance_", "Software Quality Assurance & Testing (Stack Exchange site)_");
 
-            correctionAdd("wordpress.stackexchange.com_", "WordPress&nbsp;Development (Stack Exchange site)_");
-            correctionAdd("WordPress&nbsp;Development_", "WordPress&nbsp;Development (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("WordPress development_", "WordPress&nbsp;Development (Stack Exchange site)_");
-            correctionAdd("WordPress Development_", "WordPress&nbsp;Development (Stack Exchange site)_");
-            correctionAdd("Wordpress Development_", "WordPress&nbsp;Development (Stack Exchange site)_");
-            correctionAdd("Wordpress dev_", "WordPress&nbsp;Development (Stack Exchange site)_");
-            correctionAdd("wordpress dev_", "WordPress&nbsp;Development (Stack Exchange site)_");
-            correctionAdd("WordPress dev_", "WordPress&nbsp;Development (Stack Exchange site)_");
-            correctionAdd("WordPress Development (Stack Exchange site)_", "WordPress&nbsp;Development (Stack Exchange site)_");
-            correctionAdd("WordPress_", "WordPress&nbsp;Development (Stack Exchange site)_");
-            correctionAdd("WPSE_", "WordPress&nbsp;Development (Stack Exchange site)_");
+            correctionAdd("wordpress.stackexchange.com_", "WordPress Development (Stack Exchange site)_");
+            correctionAdd("WordPress development_", "WordPress Development (Stack Exchange site)_");
+            correctionAdd("WordPress Development_", "WordPress Development (Stack Exchange site)_");
+            correctionAdd("Wordpress Development_", "WordPress Development (Stack Exchange site)_");
+            correctionAdd("Wordpress dev_", "WordPress Development (Stack Exchange site)_");
+            correctionAdd("wordpress dev_", "WordPress Development (Stack Exchange site)_");
+            correctionAdd("WordPress dev_", "WordPress Development (Stack Exchange site)_");
+            correctionAdd("WordPress_", "WordPress Development (Stack Exchange site)_");
+            correctionAdd("WPSE_", "WordPress Development (Stack Exchange site)_");
 
-            correctionAdd("Programming Language Design and Implementation (Stack Exchange site)_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Programming Language Design and Implementation_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_");
-            correctionAdd("Programming Language Design and Implementation_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("Programming Language and Implementation_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_");
-            correctionAdd("language design_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_");
-            correctionAdd("langdev.SE_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_");
-            correctionAdd("PLD SE_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_");
-            correctionAdd("PLDI_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_");
-            correctionAdd("PLD_", "Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_");
+            correctionAdd("Programming Language Design and Implementation_", "Programming Language Design and Implementation (Stack Exchange site)_");
+            correctionAdd("Programming Language Design and Implementation_", "Programming Language Design and Implementation (Stack Exchange site)_"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("Programming Language and Implementation_", "Programming Language Design and Implementation (Stack Exchange site)_");
+            correctionAdd("language design_", "Programming Language Design and Implementation (Stack Exchange site)_");
+            correctionAdd("langdev.SE_", "Programming Language Design and Implementation (Stack Exchange site)_");
+            correctionAdd("PLD SE_", "Programming Language Design and Implementation (Stack Exchange site)_");
+            correctionAdd("PLDI_", "Programming Language Design and Implementation (Stack Exchange site)_");
+            correctionAdd("PLD_", "Programming Language Design and Implementation (Stack Exchange site)_");
 
             correctionAdd("Biology.SE_", "Biology (Stack Exchange site)_");
             correctionAdd("biology_", "Biology (Stack Exchange site)_");
@@ -172137,11 +172097,11 @@ namespace OverflowHelper.core
 
             URL_Add("Seasoned Advice (Stack Exchange site)_", "https://cooking.stackexchange.com/tour"); // Old (blantantly wroing): https://bitcoin.stackexchange.com/tour
 
-            URL_Add("Database&nbsp;Administrators (Stack Exchange site)_", "https://dba.stackexchange.com/tour");
+            URL_Add("Database Administrators (Stack Exchange site)_", "https://dba.stackexchange.com/tour");
 
             URL_Add("Biblical Hermeneutics (Stack Exchange site)_", "https://hermeneutics.stackexchange.com/tour");
 
-            URL_Add("Motor&nbsp;Vehicle&nbsp;Maintenance&nbsp;&&nbsp;Repair (Stack Exchange site)_", "https://mechanics.stackexchange.com/tour");
+            URL_Add("Motor Vehicle Maintenance & Repair (Stack Exchange site)_", "https://mechanics.stackexchange.com/tour");
 
             URL_Add("Salesforce (Stack Exchange site)_", "https://salesforce.stackexchange.com/tour");
 
@@ -172165,21 +172125,19 @@ namespace OverflowHelper.core
 
             URL_Add("DevOps (Stack Exchange site)_", "https://devops.stackexchange.com/tour");
 
-            URL_Add("Computer&nbsp;Science (Stack Exchange site)_", "https://cs.stackexchange.com/tour");
-
-            URL_Add("Information&nbsp;Security (Stack Exchange site)_", "https://security.stackexchange.com/tour");
+            URL_Add("Information Security (Stack Exchange site)_", "https://security.stackexchange.com/tour");
 
             URL_Add("Coffee (Stack Exchange site)_", "https://coffee.stackexchange.com/tour");
 
-            URL_Add("Home&nbsp;Improvement (Stack Exchange site)_", "https://diy.stackexchange.com/tour");
+            URL_Add("Home Improvement (Stack Exchange site)_", "https://diy.stackexchange.com/tour");
 
-            URL_Add("Open&nbsp;Source (Stack Exchange site)_", "https://opensource.stackexchange.com/tour");
+            URL_Add("Open Source (Stack Exchange site)_", "https://opensource.stackexchange.com/tour");
 
-            URL_Add("Data&nbsp;Science (Stack Exchange site)_", "https://datascience.stackexchange.com/tour");
+            URL_Add("Data Science (Stack Exchange site)_", "https://datascience.stackexchange.com/tour");
 
-            URL_Add("TeX&nbsp;-&nbsp;LaTeX (Stack Exchange site)_", "https://tex.stackexchange.com/tour");
+            URL_Add("TeX - LaTeX (Stack Exchange site)_", "https://tex.stackexchange.com/tour");
 
-            URL_Add("Vi&nbsp;and&nbsp;Vim (Stack Exchange site)_", "https://vi.stackexchange.com/tour");
+            URL_Add("Vi and Vim (Stack Exchange site)_", "https://vi.stackexchange.com/tour");
 
             URL_Add("GenAI (Stack Exchange site)_", "https://genai.stackexchange.com/tour");
 
@@ -172189,7 +172147,7 @@ namespace OverflowHelper.core
 
             URL_Add("Medical Sciences (Stack Exchange site)_", "https://medicalsciences.stackexchange.com/tour");
 
-            URL_Add("Software&nbsp;Quality&nbsp;Assurance&nbsp;&&nbsp;Testing (Stack Exchange site)_", "https://sqa.stackexchange.com/tour");
+            URL_Add("Software Quality Assurance & Testing (Stack Exchange site)_", "https://sqa.stackexchange.com/tour");
 
             URL_Add("Engineering (Stack Exchange site)_", "https://engineering.stackexchange.com/tour");
 
@@ -172207,7 +172165,7 @@ namespace OverflowHelper.core
 
             URL_Add("Biology (Stack Exchange site)_", "https://biology.stackexchange.com/tour");
 
-            URL_Add("Programming&nbsp;Language&nbsp;Design&nbsp;and&nbsp;Implementation (Stack Exchange site)_", "https://languagedesign.stackexchange.com/tour");
+            URL_Add("Programming Language Design and Implementation (Stack Exchange site)_", "https://languagedesign.stackexchange.com/tour");
 
             URL_Add("Bitcoin (Stack Exchange site)_", "https://bitcoin.stackexchange.com/tour");
 
@@ -172215,7 +172173,7 @@ namespace OverflowHelper.core
 
             URL_Add("Linguistics (Stack Exchange site)_", "https://linguistics.stackexchange.com/tour");
 
-            URL_Add("WordPress&nbsp;Development (Stack Exchange site)_", "https://wordpress.stackexchange.com/tour");
+            URL_Add("WordPress Development (Stack Exchange site)_", "https://wordpress.stackexchange.com/tour");
 
             URL_Add("Cross&nbsp;Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
 
@@ -172224,6 +172182,8 @@ namespace OverflowHelper.core
             URL_Add("Chess (Stack Exchange site)_", "https://chess.stackexchange.com/tour");
 
             URL_Add("Blender (Stack Exchange site)_", "https://blender.stackexchange.com/tour");
+
+            URL_Add("Computer Science (Stack Exchange site)_", "https://cs.stackexchange.com/tour");
 
             URL_Add("operating_", "https://en.wiktionary.org/wiki/operate#Verb");
 
@@ -183536,9 +183496,8 @@ namespace OverflowHelper.core
             correctionAdd("-23.3 °C____", "-10 °F____");
             correctionAdd("-23____", "-10 °F____"); // Nearest whole Celcius value
 
-            correctionAdd("-17.7 °C____", "0&nbsp;°F____");
-            correctionAdd("0 °F____", "0&nbsp;°F____"); // Sort of identity mapping
-            correctionAdd("-18____", "0&nbsp;°F____"); // Nearest whole Celcius value
+            correctionAdd("-17.7 °C____", "0 °F____");
+            correctionAdd("-18____", "0 °F____"); // Nearest whole Celcius value
 
             correctionAdd("-12.2 °C____", "10 °F____");
             correctionAdd("-12____", "10 °F____"); // Nearest whole Celcius value
@@ -183546,33 +183505,28 @@ namespace OverflowHelper.core
             correctionAdd("-6.7 °C____", "20 °F____");
             correctionAdd("-7____", "20 °F____"); // Nearest whole Celcius value
 
-            correctionAdd("-1.1&nbsp;°C____", "30&nbsp;°F____");
-            correctionAdd("30 °F____", "30&nbsp;°F____"); // Sort of identity mapping
-            correctionAdd("-1____", "30&nbsp;°F____"); // Nearest whole Celcius value
+            correctionAdd("-1.1 °C____", "30 °F____");
+            correctionAdd("-1____", "30 °F____"); // Nearest whole Celcius value
 
             // Mostly for the reverse
-            correctionAdd("0.0&nbsp;°C____", "32&nbsp;°F____");
-            correctionAdd("32 °F____", "32&nbsp;°F____"); // Sort of identity mapping
-            correctionAdd("0.0 C____", "32&nbsp;°F____");
-            correctionAdd("0 C____", "32&nbsp;°F____");
-            correctionAdd("0____", "32&nbsp;°F____");
+            correctionAdd("0.0 °C____", "32 °F____");
+            correctionAdd("0.0 C____", "32 °F____");
+            correctionAdd("0 C____", "32 °F____");
+            correctionAdd("0____", "32 °F____");
 
             // Note:
             //
-            //   "40&nbsp;°F" is in an
+            //   "40 °F" is in an
             //   alternative word set...
             //
-            correctionAdd("10.0&nbsp;°C____", "50&nbsp;°F____");
-            correctionAdd("50 °F____", "50&nbsp;°F____"); // Sort of identity mapping
-            correctionAdd("10____", "50&nbsp;°F____"); // Nearest whole Celcius value
+            correctionAdd("10.0 °C____", "50 °F____");
+            correctionAdd("10____", "50 °F____"); // Nearest whole Celcius value
 
-            correctionAdd("15.6&nbsp;°C____", "60&nbsp;°F____");
-            correctionAdd("60 °F____", "60&nbsp;°F____"); // Sort of identity mapping
-            correctionAdd("16____", "60&nbsp;°F____"); // Nearest whole Celcius value
+            correctionAdd("15.6 °C____", "60 °F____");
+            correctionAdd("16____", "60 °F____"); // Nearest whole Celcius value
 
-            correctionAdd("21.1&nbsp;°C____", "70&nbsp;°F____");
-            correctionAdd("70 °F____", "70&nbsp;°F____"); // Sort of identity mapping
-            correctionAdd("21____", "70&nbsp;°F____"); // Nearest whole Celcius value
+            correctionAdd("21.1 °C____", "70 °F____");
+            correctionAdd("21____", "70 °F____"); // Nearest whole Celcius value
 
             correctionAdd("26.7 °C____", "80 °F____");
             correctionAdd("27____", "80 °F____"); // Nearest whole Celcius value
@@ -185358,21 +185312,21 @@ namespace OverflowHelper.core
 
             URL_Add("-10 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
-            URL_Add("0&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+            URL_Add("0 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
             URL_Add("10 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
             URL_Add("20 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
-            URL_Add("30&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+            URL_Add("30 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
-            URL_Add("32&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+            URL_Add("32 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
-            URL_Add("50&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+            URL_Add("50 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
-            URL_Add("60&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+            URL_Add("60 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
-            URL_Add("70&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+            URL_Add("70 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
             URL_Add("80 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
@@ -185726,7 +185680,6 @@ namespace OverflowHelper.core
             correctionAdd("backslash_____", "non-US backslash key_____");
             correctionAdd("NUBS_____", "non-US backslash key_____");
 
-            correctionAdd("Space&nbsp;Exploration_____", "Space Exploration (Stack Exchange site)_____"); // Sort of identity mapping
             correctionAdd("space exploration_____", "Space Exploration (Stack Exchange site)_____");
             correctionAdd("Space Exploration_____", "Space Exploration (Stack Exchange site)_____");
             correctionAdd("Space_____", "Space Exploration (Stack Exchange site)_____");
@@ -186024,7 +185977,6 @@ namespace OverflowHelper.core
             correctionAdd("Keychron K10 (100%) (proprietary keyboard firmware, not open source)_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("Keychron K QMK series_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("Keychron K10 (100%)_____", "K10 V2 with overlubricated switches_____");
-            correctionAdd("Keychron&nbsp;K10_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("overlubrication_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("overlubricated_____", "K10 V2 with overlubricated switches_____");
             correctionAdd("overlubricate_____", "K10 V2 with overlubricated switches_____");
@@ -187291,9 +187243,9 @@ namespace OverflowHelper.core
             //
             correctionAdd("the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed______", "Keychron K10 V2 source code______");
             correctionAdd("Git branch \"wls_2025q1\" in Keychron's fork______", "Keychron K10 V2 source code______"); // For the cross-reference
-            correctionAdd("K QMK series______", "Keychron K10 V2 source code______"); // For the cross referece
             correctionAdd("Keychron K QMK series______", "Keychron K10 V2 source code______"); // For the cross referece
             correctionAdd("K10 V2 source code______", "Keychron K10 V2 source code______");
+            correctionAdd("K QMK series______", "Keychron K10 V2 source code______"); // For the cross referece
             correctionAdd("wls_2025q1______", "Keychron K10 V2 source code______");
 
             correctionAdd("Git branch \"2025q3\" in Keychron's fork______", "Git branch \"2025q3\" in Keychron's fork, Lemokey______"); // For the cross-reference
@@ -187495,25 +187447,22 @@ namespace OverflowHelper.core
             correctionAdd("Via______", "Vitaly______"); // For the cross-reference
 
             // A web browser
-            correctionAdd("Internet Explorer 8______", "Internet&nbsp;Explorer&nbsp;8______"); // Effectively self
-            correctionAdd("i.e. 8______", "Internet&nbsp;Explorer&nbsp;8______");
-            correctionAdd("IE 8______", "Internet&nbsp;Explorer&nbsp;8______");
-            correctionAdd("IE-8______", "Internet&nbsp;Explorer&nbsp;8______");
-            correctionAdd("ie 8______", "Internet&nbsp;Explorer&nbsp;8______");
-            correctionAdd("IE8______", "Internet&nbsp;Explorer&nbsp;8______");
-            correctionAdd("ie8______", "Internet&nbsp;Explorer&nbsp;8______");
-            correctionAdd("8______", "Internet&nbsp;Explorer&nbsp;8______");
+            correctionAdd("i.e. 8______", "Internet Explorer 8______");
+            correctionAdd("IE 8______", "Internet Explorer 8______");
+            correctionAdd("IE-8______", "Internet Explorer 8______");
+            correctionAdd("ie 8______", "Internet Explorer 8______");
+            correctionAdd("IE8______", "Internet Explorer 8______");
+            correctionAdd("ie8______", "Internet Explorer 8______");
+            correctionAdd("8______", "Internet Explorer 8______");
 
             // A web browser
-            correctionAdd("Internet&nbsp;Explorer 11______", "Internet&nbsp;Explorer&nbsp;11______");
-            correctionAdd("Internet Explorer 11______", "Internet&nbsp;Explorer&nbsp;11______"); // Effectively self (line-breaks)
-            correctionAdd("version 11______", "Internet&nbsp;Explorer&nbsp;11______");
-            correctionAdd("MS IE 11______", "Internet&nbsp;Explorer&nbsp;11______");
-            correctionAdd("ie 11______", "Internet&nbsp;Explorer&nbsp;11______");
-            correctionAdd("IE 11______", "Internet&nbsp;Explorer&nbsp;11______");
-            correctionAdd("ie11______", "Internet&nbsp;Explorer&nbsp;11______");
-            correctionAdd("IE11______", "Internet&nbsp;Explorer&nbsp;11______");
-            correctionAdd("11______", "Internet&nbsp;Explorer&nbsp;11______");
+            correctionAdd("version 11______", "Internet Explorer 11______");
+            correctionAdd("MS IE 11______", "Internet Explorer 11______");
+            correctionAdd("ie 11______", "Internet Explorer 11______");
+            correctionAdd("IE 11______", "Internet Explorer 11______");
+            correctionAdd("ie11______", "Internet Explorer 11______");
+            correctionAdd("IE11______", "Internet Explorer 11______");
+            correctionAdd("11______", "Internet Explorer 11______");
 
             // The verb
             correctionAdd("killing______", "windowing______");
@@ -187568,9 +187517,8 @@ namespace OverflowHelper.core
             //
             // Is in this word set due to a conflict with "for"...
             //
-            correctionAdd("4.4&nbsp;°C______", "40&nbsp;°F______");
-            correctionAdd("40 °F______", "40&nbsp;°F______"); // Sort of identity mapping
-            correctionAdd("4______", "40&nbsp;°F______");
+            correctionAdd("4.4 °C______", "40 °F______");
+            correctionAdd("4______", "40 °F______");
 
             correctionAdd("bee______", "be______");
             correctionAdd("bea______", "be______");
@@ -187637,9 +187585,9 @@ namespace OverflowHelper.core
 
             URL_Add("man -s 3 intro______", "https://linux.die.net/man/3/intro");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;8______", "https://en.wikipedia.org/wiki/Internet_Explorer_8");
+            URL_Add("Internet Explorer 8______", "https://en.wikipedia.org/wiki/Internet_Explorer_8");
 
-            URL_Add("Internet&nbsp;Explorer&nbsp;11______", "https://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_11");
+            URL_Add("Internet Explorer 11______", "https://en.wikipedia.org/wiki/Internet_Explorer_11#Internet_Explorer_11");
 
             URL_Add("Idaho, United States______", "https://en.wikipedia.org/wiki/Idaho");
 
@@ -187681,7 +187629,7 @@ namespace OverflowHelper.core
 
             URL_Add("&nbsp;inch______", "https://en.wiktionary.org/wiki/inch#Noun");
 
-            URL_Add("40&nbsp;°F______", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+            URL_Add("40 °F______", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
         } //addLookupData_alternativeWordSet6()
 
