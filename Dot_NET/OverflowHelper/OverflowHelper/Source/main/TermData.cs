@@ -20431,6 +20431,7 @@ namespace OverflowHelper.core
             correctionAdd("Juan Brown", "Juan Browne");
             correctionAdd("One Brown", "Juan Browne"); // Gross transcription error!!!!
             correctionAdd("Blanco", "Juan Browne");
+            correctionAdd("blanco", "Juan Browne");
             correctionAdd("Blunco", "Juan Browne");
             correctionAdd("Jaun", "Juan Browne");
             correctionAdd("Juan", "Juan Browne");
@@ -34357,6 +34358,7 @@ namespace OverflowHelper.core
 
             // A computer game (2025).
             correctionAdd("gta 6", "Grand Theft Auto VI");
+            correctionAdd("GTA 6", "Grand Theft Auto VI");
 
             // A computer game
             correctionAdd("San Andreas", "Grand Theft Auto: San Andreas");
@@ -47245,9 +47247,8 @@ namespace OverflowHelper.core
             correctionAdd("submoduls", "Git submodules");
 
             // What is this??? A version from 2014?
-            correctionAdd("Git 2.0", "Git&nbsp;2.0"); // Sort of identity mapping
-            correctionAdd("git2", "Git&nbsp;2.0");
-            correctionAdd("Git2", "Git&nbsp;2.0");
+            correctionAdd("git2", "Git 2.0");
+            correctionAdd("Git2", "Git 2.0");
 
             // Git
             correctionAdd("Git ignore", ".gitignore file");
@@ -48616,55 +48617,47 @@ namespace OverflowHelper.core
             // A Python-to-C++ translator
             correctionAdd("pythran", "Pythran");
 
-            correctionAdd("Python 2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
-            correctionAdd("python-2.x", "Python&nbsp;2"); // Adaption to Stack Overflow tags
-            correctionAdd("python v2", "Python&nbsp;2");
-            correctionAdd("Python 2", "Python&nbsp;2");
-            correctionAdd("python 2", "Python&nbsp;2");
-            correctionAdd("python-2", "Python&nbsp;2");
-            correctionAdd("Python-2", "Python&nbsp;2");
-            correctionAdd("python2", "Python&nbsp;2");
-            correctionAdd("Python2", "Python&nbsp;2");
-            correctionAdd("py 2", "Python&nbsp;2");
-            correctionAdd("py2", "Python&nbsp;2");
-            correctionAdd("Py2", "Python&nbsp;2");
+            correctionAdd("Python 2.x", "Python 2"); // Adaption to Stack Overflow tags
+            correctionAdd("python-2.x", "Python 2"); // Adaption to Stack Overflow tags
+            correctionAdd("python v2", "Python 2");
+            correctionAdd("python 2", "Python 2");
+            correctionAdd("python-2", "Python 2");
+            correctionAdd("Python-2", "Python 2");
+            correctionAdd("python2", "Python 2");
+            correctionAdd("Python2", "Python 2");
+            correctionAdd("py 2", "Python 2");
+            correctionAdd("py2", "Python 2");
+            correctionAdd("Py2", "Python 2");
 
-            correctionAdd("python-2.7", "Python&nbsp;2.7");
-            correctionAdd("Python 2.7", "Python&nbsp;2.7"); // Sort of identity mapping
-            correctionAdd("python 2.7", "Python&nbsp;2.7");
-            correctionAdd("python 27", "Python&nbsp;2.7");
-            correctionAdd("py27", "Python&nbsp;2.7");
+            correctionAdd("python-2.7", "Python 2.7");
+            correctionAdd("python 2.7", "Python 2.7");
+            correctionAdd("python 27", "Python 2.7");
+            correctionAdd("py27", "Python 2.7");
 
-            correctionAdd("Python 3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
-            correctionAdd("python-3.x", "Python&nbsp;3"); // Adaption to Stack Overflow tags
-            correctionAdd("Phython 3", "Python&nbsp;3");
-            correctionAdd("python v3", "Python&nbsp;3");
-            correctionAdd("Python 3", "Python&nbsp;3");
-            correctionAdd("python 3", "Python&nbsp;3");
-            correctionAdd("python-3", "Python&nbsp;3");
-            correctionAdd("python3", "Python&nbsp;3");
-            correctionAdd("Python3", "Python&nbsp;3");
-            correctionAdd("Pyhton3", "Python&nbsp;3");
-            correctionAdd("Pyhon 3", "Python&nbsp;3");
-            correctionAdd("pythin3", "Python&nbsp;3");
-            correctionAdd("py 3", "Python&nbsp;3");
-            correctionAdd("Py 3", "Python&nbsp;3");
-            correctionAdd("py3", "Python&nbsp;3");
-            correctionAdd("3.x", "Python&nbsp;3");
+            correctionAdd("Python 3.x", "Python 3"); // Adaption to Stack Overflow tags
+            correctionAdd("python-3.x", "Python 3"); // Adaption to Stack Overflow tags
+            correctionAdd("Phython 3", "Python 3");
+            correctionAdd("python v3", "Python 3");
+            correctionAdd("python 3", "Python 3");
+            correctionAdd("python-3", "Python 3");
+            correctionAdd("python3", "Python 3");
+            correctionAdd("Python3", "Python 3");
+            correctionAdd("Pyhton3", "Python 3");
+            correctionAdd("Pyhon 3", "Python 3");
+            correctionAdd("pythin3", "Python 3");
+            correctionAdd("py 3", "Python 3");
+            correctionAdd("Py 3", "Python 3");
+            correctionAdd("py3", "Python 3");
+            correctionAdd("3.x", "Python 3");
 
-            correctionAdd("Python 3.5 (2015-09-13)", "Python&nbsp;3.5 (2015-09-13)"); // Sort of identity mapping
-            correctionAdd("Python&nbsp;3.5", "Python&nbsp;3.5 (2015-09-13)");
-            correctionAdd("python-3.5", "Python&nbsp;3.5 (2015-09-13)");
-            correctionAdd("Python 3.5", "Python&nbsp;3.5 (2015-09-13)"); // Sort of identity mapping
+            correctionAdd("Python 3.5", "Python 3.5 (2015-09-13)");
+            correctionAdd("python-3.5", "Python 3.5 (2015-09-13)");
 
-            correctionAdd("python-3.6", "Python&nbsp;3.6");
-            correctionAdd("Python 3.6", "Python&nbsp;3.6"); // Sort of identity mapping
+            correctionAdd("python-3.6", "Python 3.6");
 
-            correctionAdd("Python 3.8 (2019-10-14)", "Python&nbsp;3.8 (2019-10-14)"); // Sort of identity mapping
-            correctionAdd("Python 3.8", "Python&nbsp;3.8 (2019-10-14)");
+            correctionAdd("Python 3.8", "Python 3.8 (2019-10-14)");
 
-            correctionAdd("Python 3.12 (2023-10-02)", "Python&nbsp;3.12 (2023-10-02)"); // Sort of identity mapping
-            correctionAdd("python-3.12", "Python&nbsp;3.12 (2023-10-02)");
+            correctionAdd("python-3.12", "Python 3.12 (2023-10-02)");
 
             // Python
             correctionAdd("Guido Van Rossum", "Guido van Rossum");
@@ -48760,42 +48753,37 @@ namespace OverflowHelper.core
             //
             // Note: "PEP" is in an alternative word set
             //
-            correctionAdd("PEP 0008", "PEP&nbsp;8");
-            correctionAdd("PEP 08", "PEP&nbsp;8");
-            correctionAdd("PEP 8", "PEP&nbsp;8"); // Without non-breaking space
-            correctionAdd("PEP-8", "PEP&nbsp;8");
-            correctionAdd("pep 8", "PEP&nbsp;8");
-            correctionAdd("PEP08", "PEP&nbsp;8");
-            correctionAdd("pep08", "PEP&nbsp;8");
-            correctionAdd("PEP8", "PEP&nbsp;8");
-            correctionAdd("pep8", "PEP&nbsp;8");
+            correctionAdd("PEP 0008", "PEP 8");
+            correctionAdd("PEP 08", "PEP 8");
+            correctionAdd("PEP-8", "PEP 8");
+            correctionAdd("pep 8", "PEP 8");
+            correctionAdd("PEP08", "PEP 8");
+            correctionAdd("pep08", "PEP 8");
+            correctionAdd("PEP8", "PEP 8");
+            correctionAdd("pep8", "PEP 8");
 
-            correctionAdd("PEP 238", "PEP&nbsp;238");
+            correctionAdd("PEP238", "PEP 238");
 
             // Python. "Imports: Multi-line and absolute/relative"
-            correctionAdd("PEP 328", "PEP&nbsp;328");
+            correctionAdd("PEP328", "PEP 328");
 
             // Python. "Main module explicit relative imports"
-            correctionAdd("PEP 366", "PEP&nbsp;366");
-            correctionAdd("366", "PEP&nbsp;366");
+            correctionAdd("PEP366", "PEP 366");
+            correctionAdd("366", "PEP 366");
 
             // Python. "Implicit Namespace Packages"
-            correctionAdd("Implicit Namespace Packages", "implicit namespace packages (PEP&nbsp;420)");
-            correctionAdd("implicit namespace packages (PEP 420)", "implicit namespace packages (PEP&nbsp;420)"); // Sort of identity mapping
+            correctionAdd("Implicit Namespace Packages", "implicit namespace packages (PEP 420)");
 
             // Python. "Type hints"
-            correctionAdd("PEP-484", "PEP&nbsp;484");
-            correctionAdd("PEP 484", "PEP&nbsp;484"); // Sort of identity mapping
+            correctionAdd("PEP-484", "PEP 484");
 
             // Python. "Literal string interpolation"
-            correctionAdd("PEP 498", "PEP&nbsp;498"); // Sort of identity mapping
-            correctionAdd("pep498", "PEP&nbsp;498");
-            correctionAdd("PEP498", "PEP&nbsp;498");
+            correctionAdd("pep498", "PEP 498");
+            correctionAdd("PEP498", "PEP 498");
 
             // Python. "Marking Python base environments as “externally managed”"
-            correctionAdd("PEP 668", "PEP&nbsp;668"); // Sort of identity mapping
-            correctionAdd("PEP-668", "PEP&nbsp;668");
-            correctionAdd("PEP668", "PEP&nbsp;668");
+            correctionAdd("PEP-668", "PEP 668");
+            correctionAdd("PEP668", "PEP 668");
 
             correctionAdd("pythononic", "Pythonic");
             correctionAdd("pythonnic", "Pythonic");
@@ -49007,6 +48995,9 @@ namespace OverflowHelper.core
             // Python
             correctionAdd("idle", "IDLE");
             correctionAdd("Idle", "IDLE");
+
+            // Python
+            correctionAdd("IDLE3", "IDLE 3");
 
             // A Python library
             correctionAdd("numpy", "NumPy");
@@ -49441,9 +49432,8 @@ namespace OverflowHelper.core
 
             correctionAdd("pyside", "PySide");
 
-            correctionAdd("PySide 2", "PySide&nbsp;2");
-            correctionAdd("PySide2", "PySide&nbsp;2");
-            correctionAdd("pyside2", "PySide&nbsp;2");
+            correctionAdd("PySide2", "PySide 2");
+            correctionAdd("pyside2", "PySide 2");
 
             correctionAdd("pySerial", "PySerial");
             correctionAdd("Pyserial", "PySerial");
@@ -49600,10 +49590,6 @@ namespace OverflowHelper.core
             correctionAdd("scrapy", "Scrapy"); // A Python library for web scraping.
 
             // Python
-            correctionAdd("IDLE3", "IDLE&nbsp;3");
-            correctionAdd("IDLE 3", "IDLE&nbsp;3");
-
-            // Python
             // Alternative URL:
             //
             //   <https://docs.pydantic.dev/latest/>
@@ -49663,11 +49649,10 @@ namespace OverflowHelper.core
             correctionAdd("mark pilgrim", "Mark Pilgrim");
 
             // Python
-            correctionAdd("MetaTrader 5", "MetaTrader&nbsp;5"); // Sort of identity mapping
-            correctionAdd("Metatrader 5", "MetaTrader&nbsp;5");
-            correctionAdd("MetaTrader5", "MetaTrader&nbsp;5");
-            correctionAdd("metatrader5", "MetaTrader&nbsp;5");
-            correctionAdd("MT5", "MetaTrader&nbsp;5");
+            correctionAdd("Metatrader 5", "MetaTrader 5");
+            correctionAdd("MetaTrader5", "MetaTrader 5");
+            correctionAdd("metatrader5", "MetaTrader 5");
+            correctionAdd("MT5", "MetaTrader 5");
 
             // Python
             correctionAdd("pyright", "Pyright");
@@ -50703,8 +50688,7 @@ namespace OverflowHelper.core
             correctionAdd("Diods", "diodes");
 
             // Electronics
-            correctionAdd("p-n junction", "p-n&nbsp;junction");
-            correctionAdd("pn junction", "p-n&nbsp;junction");
+            correctionAdd("pn junction", "p-n junction");
 
             // Electronics
             correctionAdd("zener diode", "Zener diode");
@@ -54067,58 +54051,51 @@ namespace OverflowHelper.core
             correctionAdd("ganymede", "Eclipse v3.4 (Ganymede)");
             correctionAdd("Ganymede", "Eclipse v3.4 (Ganymede)");
 
-            correctionAdd("Eclipse v3.5 (Galileo)", "Eclipse&nbsp;v3.5 (Galileo)"); // Sort of identity mapping
-            correctionAdd("Eclipse Galileo", "Eclipse&nbsp;v3.5 (Galileo)");
-            correctionAdd("Galileo", "Eclipse&nbsp;v3.5 (Galileo)");
-            correctionAdd("galileo", "Eclipse&nbsp;v3.5 (Galileo)");
+            correctionAdd("Eclipse Galileo", "Eclipse v3.5 (Galileo)");
+            correctionAdd("Galileo", "Eclipse v3.5 (Galileo)");
+            correctionAdd("galileo", "Eclipse v3.5 (Galileo)");
 
-            correctionAdd("Eclipse v3.7 (Indigo)", "Eclipse&nbsp;v3.7 (Indigo)"); // Sort of identity mapping
-            correctionAdd("Eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
-            correctionAdd("eclipse indigo", "Eclipse&nbsp;v3.7 (Indigo)");
-            correctionAdd("Eclipse Indigo", "Eclipse&nbsp;v3.7 (Indigo)");
-            correctionAdd("Indigo", "Eclipse&nbsp;v3.7 (Indigo)");
-            correctionAdd("indigo", "Eclipse&nbsp;v3.7 (Indigo)");
+            correctionAdd("Eclipse indigo", "Eclipse v3.7 (Indigo)");
+            correctionAdd("eclipse indigo", "Eclipse v3.7 (Indigo)");
+            correctionAdd("Eclipse Indigo", "Eclipse v3.7 (Indigo)");
+            correctionAdd("Indigo", "Eclipse v3.7 (Indigo)");
+            correctionAdd("indigo", "Eclipse v3.7 (Indigo)");
 
-            correctionAdd("Eclipse v4.2 (Juno)", "Eclipse&nbsp;v4.2 (Juno)"); // Sort of identity mapping
-            correctionAdd("Juno", "Eclipse&nbsp;v4.2 (Juno)");
-            correctionAdd("Eclipse Juno", "Eclipse&nbsp;v4.2 (Juno)");
-            correctionAdd("eclipse Juno", "Eclipse&nbsp;v4.2 (Juno)");
-            correctionAdd("juno", "Eclipse&nbsp;v4.2 (Juno)");
+            correctionAdd("Eclipse Juno", "Eclipse v4.2 (Juno)");
+            correctionAdd("eclipse Juno", "Eclipse v4.2 (Juno)");
+            correctionAdd("Juno", "Eclipse v4.2 (Juno)");
+            correctionAdd("juno", "Eclipse v4.2 (Juno)");
 
-            correctionAdd("Eclipse v4.3 (Kepler)", "Eclipse&nbsp;v4.3 (Kepler)"); // Sort of identity mapping
-            correctionAdd("Kepler", "Eclipse&nbsp;v4.3 (Kepler)");
-            correctionAdd("Keplar", "Eclipse&nbsp;v4.3 (Kepler)");
-            correctionAdd("Eclipse Kepler", "Eclipse&nbsp;v4.3 (Kepler)");
-            correctionAdd("kepler", "Eclipse&nbsp;v4.3 (Kepler)");
+            correctionAdd("Eclipse Kepler", "Eclipse v4.3 (Kepler)");
+            correctionAdd("Kepler", "Eclipse v4.3 (Kepler)");
+            correctionAdd("Keplar", "Eclipse v4.3 (Kepler)");
+            correctionAdd("kepler", "Eclipse v4.3 (Kepler)");
 
-            correctionAdd("Eclipse Luna(4.4)", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Eclipse Luna (4.4)", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Eclipse v4.4 (Luna)", "Eclipse&nbsp;v4.4 (Luna)"); // Sort of identity mapping
-            correctionAdd("eclipse 4.4 Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Eclipse 4.4 Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Eclipse Luna 4.4", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("eclipse luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("eclipse Luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("eclipse 4.4", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("luna", "Eclipse&nbsp;v4.4 (Luna)");
-            correctionAdd("Luna", "Eclipse&nbsp;v4.4 (Luna)");
+            correctionAdd("Eclipse Luna (4.4)", "Eclipse v4.4 (Luna)");
+            correctionAdd("Eclipse Luna(4.4)", "Eclipse v4.4 (Luna)");
+            correctionAdd("eclipse 4.4 Luna", "Eclipse v4.4 (Luna)");
+            correctionAdd("Eclipse 4.4 Luna", "Eclipse v4.4 (Luna)");
+            correctionAdd("Eclipse Luna 4.4", "Eclipse v4.4 (Luna)");
+            correctionAdd("eclipse luna", "Eclipse v4.4 (Luna)");
+            correctionAdd("Eclipse Luna", "Eclipse v4.4 (Luna)");
+            correctionAdd("eclipse Luna", "Eclipse v4.4 (Luna)");
+            correctionAdd("eclipse 4.4", "Eclipse v4.4 (Luna)");
+            correctionAdd("luna", "Eclipse v4.4 (Luna)");
+            correctionAdd("Luna", "Eclipse v4.4 (Luna)");
 
             // Resolve the conclict with the planet Mars by adding
             // a qualifying "Eclipse" with order and capitalisation
             // variations (though it does require the user to
             // know this).
-            correctionAdd("Eclipse v4.5 (Mars)", "Eclipse&nbsp;v4.5 (Mars)"); // Sort of identity mapping
-            correctionAdd("Mars eclipse", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("Mars Eclipse", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("Eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("eclipse Mars", "Eclipse&nbsp;v4.5 (Mars)");
-            correctionAdd("Eclipse mars", "Eclipse&nbsp;v4.5 (Mars)");
+            correctionAdd("Mars eclipse", "Eclipse v4.5 (Mars)");
+            correctionAdd("Mars Eclipse", "Eclipse v4.5 (Mars)");
+            correctionAdd("Eclipse Mars", "Eclipse v4.5 (Mars)");
+            correctionAdd("eclipse Mars", "Eclipse v4.5 (Mars)");
+            correctionAdd("Eclipse mars", "Eclipse v4.5 (Mars)");
 
-            correctionAdd("Eclipse v4.7 (Oxygen)", "Eclipse&nbsp;v4.7 (Oxygen)"); // Sort of identity mapping
-            correctionAdd("Eclipse oxygen", "Eclipse&nbsp;v4.7 (Oxygen)");
-            correctionAdd("Eclipse Oxygen", "Eclipse&nbsp;v4.7 (Oxygen)");
-            correctionAdd("oxygen", "Eclipse&nbsp;v4.7 (Oxygen)");
+            correctionAdd("Eclipse oxygen", "Eclipse v4.7 (Oxygen)");
+            correctionAdd("Eclipse Oxygen", "Eclipse v4.7 (Oxygen)");
+            correctionAdd("oxygen", "Eclipse v4.7 (Oxygen)");
 
             correctionAdd("JDT", "Eclipse JDT");
 
@@ -54250,23 +54227,21 @@ namespace OverflowHelper.core
             // C++ Standard Library
             correctionAdd("std::function", "std::function()");
 
-            correctionAdd("null-terminated string", "C&nbsp;string");
-            correctionAdd("null-terminated", "C&nbsp;string");
-            correctionAdd("C - string", "C&nbsp;string");
-            correctionAdd("C-string", "C&nbsp;string");
-            correctionAdd("c-string", "C&nbsp;string");
-            correctionAdd("C-String", "C&nbsp;string");
-            correctionAdd("C string", "C&nbsp;string");
-            correctionAdd("c string", "C&nbsp;string");
+            correctionAdd("null-terminated string", "C string");
+            correctionAdd("null-terminated", "C string");
+            correctionAdd("C - string", "C string");
+            correctionAdd("C-string", "C string");
+            correctionAdd("c-string", "C string");
+            correctionAdd("C-String", "C string");
+            correctionAdd("c string", "C string");
 
-            correctionAdd("C Strings", "C&nbsp;strings");
-            correctionAdd("C strings", "C&nbsp;strings");
-            correctionAdd("C-strings", "C&nbsp;strings");
-            correctionAdd("c strings", "C&nbsp;strings");
-            correctionAdd("c-strings", "C&nbsp;strings");
-            correctionAdd("CStrings", "C&nbsp;strings");
-            correctionAdd("Cstrings", "C&nbsp;strings");
-            correctionAdd("cstrings", "C&nbsp;strings");
+            correctionAdd("C Strings", "C strings");
+            correctionAdd("C-strings", "C strings");
+            correctionAdd("c strings", "C strings");
+            correctionAdd("c-strings", "C strings");
+            correctionAdd("CStrings", "C strings");
+            correctionAdd("Cstrings", "C strings");
+            correctionAdd("cstrings", "C strings");
 
             // We need a better reference...
             correctionAdd("standard conform", "standard-conforming");
@@ -54702,11 +54677,10 @@ namespace OverflowHelper.core
             correctionAdd("VS", "Visual&nbsp;Studio");
 
             // Visual Studio
-            correctionAdd("solution expolorer", "Solution&nbsp;Explorer"); // Misspelling.
-            correctionAdd("Solution Explorer", "Solution&nbsp;Explorer"); // Sort of identity mapping
-            correctionAdd("solution explorer", "Solution&nbsp;Explorer");
-            correctionAdd("solution-explorer", "Solution&nbsp;Explorer");
-            correctionAdd("SolutionExplorer", "Solution&nbsp;Explorer");
+            correctionAdd("solution expolorer", "Solution Explorer"); // Misspelling.
+            correctionAdd("solution explorer", "Solution Explorer");
+            correctionAdd("solution-explorer", "Solution Explorer");
+            correctionAdd("SolutionExplorer", "Solution Explorer");
 
             // Text templates. Windows / Visual Studio.
             correctionAdd("t4", "T4");
@@ -54723,58 +54697,53 @@ namespace OverflowHelper.core
             correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
             correctionAdd("vb2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
 
-            correctionAdd("Visual Basic 2008 Express Edition", "Visual&nbsp;Basic&nbsp;2008 Express Edition"); // Sort of identity mapping
-            correctionAdd("Visual Basic Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
-            correctionAdd("VB.Net Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
-            correctionAdd("VB Express 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
-            correctionAdd("vb 2008", "Visual&nbsp;Basic&nbsp;2008 Express Edition");
+            correctionAdd("Visual Basic Express 2008", "Visual Basic 2008 Express Edition");
+            correctionAdd("VB.Net Express 2008", "Visual Basic 2008 Express Edition");
+            correctionAdd("VB Express 2008", "Visual Basic 2008 Express Edition");
+            correctionAdd("vb 2008", "Visual Basic 2008 Express Edition");
 
-            correctionAdd("Visual C# 2008 Express Edition", "Visual&nbsp;C#&nbsp;2008 Express Edition"); // Sort of identity mapping
-            correctionAdd("Visual C# 2008 Express", "Visual&nbsp;C#&nbsp;2008 Express Edition");
-            correctionAdd("visual studio express (2008", "Visual&nbsp;C#&nbsp;2008 Express Edition"); // C# for that particular instance. Note: no ending ")" because of our bug - thus a ")" will remain in the Markdown text in the browser (that must be manually removed...).
+            correctionAdd("Visual C# 2008 Express", "Visual C# 2008 Express Edition");
+            correctionAdd("visual studio express (2008", "Visual C# 2008 Express Edition"); // C# for that particular instance. Note: no ending ")" because of our bug - thus a ")" will remain in the Markdown text in the browser (that must be manually removed...).
 
             correctionAdd("VC6", "Visual C++ 6.0");
 
-            correctionAdd("Visual C++ 2010 Express", "Visual&nbsp;C++&nbsp;2010 Express"); // Sort of identity mapping
-            correctionAdd("visual c++ express 2010", "Visual&nbsp;C++&nbsp;2010 Express");
-            correctionAdd("VS C++ 2010 express", "Visual&nbsp;C++&nbsp;2010 Express");
-            correctionAdd("Visual C++ Express", "Visual&nbsp;C++&nbsp;2010 Express"); // Not exact...
-            correctionAdd("microsoft visual c++ 2010 express", "Visual&nbsp;C++&nbsp;2010 Express");
+            correctionAdd("visual c++ express 2010", "Visual C++ 2010 Express");
+            correctionAdd("VS C++ 2010 express", "Visual C++ 2010 Express");
+            correctionAdd("Visual C++ Express", "Visual C++ 2010 Express"); // Not exact...
+            correctionAdd("microsoft visual c++ 2010 express", "Visual C++ 2010 Express");
 
-            correctionAdd("visual studios 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("Visual Studios 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("visual studio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("Visual Studio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VIsual Studio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("Visual studio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VisualStudio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("visual sudio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("visual studio 10", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("Visual Studio 10", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VisualStudio2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("studio 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS.NET 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("Visual 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("Studio2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("MSVS2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS v2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS v010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("vs 2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS 2k10", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("vs2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("Vs2010", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS 10", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("VS10", "Visual&nbsp;Studio&nbsp;2010");
-            correctionAdd("2010", "Visual&nbsp;Studio&nbsp;2010");
+            correctionAdd("visual studios 2010", "Visual Studio 2010");
+            correctionAdd("Visual Studios 2010", "Visual Studio 2010");
+            correctionAdd("visual studio 2010", "Visual Studio 2010");
+            correctionAdd("VIsual Studio 2010", "Visual Studio 2010");
+            correctionAdd("Visual studio 2010", "Visual Studio 2010");
+            correctionAdd("VisualStudio 2010", "Visual Studio 2010");
+            correctionAdd("visual sudio 2010", "Visual Studio 2010");
+            correctionAdd("visual studio 10", "Visual Studio 2010");
+            correctionAdd("Visual Studio 10", "Visual Studio 2010");
+            correctionAdd("VisualStudio2010", "Visual Studio 2010");
+            correctionAdd("studio 2010", "Visual Studio 2010");
+            correctionAdd("VS.NET 2010", "Visual Studio 2010");
+            correctionAdd("Visual 2010", "Visual Studio 2010");
+            correctionAdd("Studio2010", "Visual Studio 2010");
+            correctionAdd("MSVS2010", "Visual Studio 2010");
+            correctionAdd("VS v2010", "Visual Studio 2010");
+            correctionAdd("VS v010", "Visual Studio 2010");
+            correctionAdd("VS 2010", "Visual Studio 2010");
+            correctionAdd("vs 2010", "Visual Studio 2010");
+            correctionAdd("VS 2k10", "Visual Studio 2010");
+            correctionAdd("VS2010", "Visual Studio 2010");
+            correctionAdd("vs2010", "Visual Studio 2010");
+            correctionAdd("Vs2010", "Visual Studio 2010");
+            correctionAdd("VS 10", "Visual Studio 2010");
+            correctionAdd("VS10", "Visual Studio 2010");
+            correctionAdd("2010", "Visual Studio 2010");
 
-            correctionAdd("Visual Studio 2010 Express Edition", "Visual&nbsp;Studio&nbsp;2010 Express");
-            correctionAdd("Visual Studio 2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express"); // Sort of identity mapping
-            correctionAdd("visual studio 2010 express", "Visual&nbsp;Studio&nbsp;2010 Express");
-            correctionAdd("VS-2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express");
-            correctionAdd("VS2010 Express", "Visual&nbsp;Studio&nbsp;2010 Express");
-            correctionAdd("VS2010 EXPRESS", "Visual&nbsp;Studio&nbsp;2010 Express");
+            correctionAdd("Visual Studio 2010 Express Edition", "Visual Studio 2010 Express");
+            correctionAdd("visual studio 2010 express", "Visual Studio 2010 Express");
+            correctionAdd("VS-2010 Express", "Visual Studio 2010 Express");
+            correctionAdd("VS2010 Express", "Visual Studio 2010 Express");
+            correctionAdd("VS2010 EXPRESS", "Visual Studio 2010 Express");
 
             correctionAdd("Visual Basic 2010 Express Edition", "Visual&nbsp;Basic&nbsp;2010 Express Edition"); // Sort of identity mapping
             correctionAdd("Visual Basic 2010 Express", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
@@ -54782,216 +54751,198 @@ namespace OverflowHelper.core
             correctionAdd("VB express2010", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
             correctionAdd("vb 2010", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
 
-            correctionAdd("Visual&nbsp;Studio Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("Visual Studio 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express"); // Sort of identity mapping
-            correctionAdd("Visual Studio Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("Visual Studio 2012 express", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("visual studio 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("Visual Studio express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("VS Express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("VS 2012 Express", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("VS-Express-2012", "Visual&nbsp;Studio&nbsp;2012 Express");
-            correctionAdd("VS express 2012", "Visual&nbsp;Studio&nbsp;2012 Express");
+            correctionAdd("Visual Studio Express 2012", "Visual Studio 2012 Express");
+            correctionAdd("Visual Studio 2012 express", "Visual Studio 2012 Express");
+            correctionAdd("visual studio 2012 Express", "Visual Studio 2012 Express");
+            correctionAdd("Visual Studio express 2012", "Visual Studio 2012 Express");
+            correctionAdd("VS Express 2012", "Visual Studio 2012 Express");
+            correctionAdd("VS 2012 Express", "Visual Studio 2012 Express");
+            correctionAdd("VS-Express-2012", "Visual Studio 2012 Express");
+            correctionAdd("VS express 2012", "Visual Studio 2012 Express");
 
             correctionAdd("Visual C# Express", "Visual&nbsp;C# Express"); // Sort of identity mapping
             correctionAdd("VS express C#", "Visual&nbsp;C# Express");
             correctionAdd("C# express", "Visual&nbsp;C# Express");
 
-            correctionAdd("Visual Studio 2003", "Visual&nbsp;Studio&nbsp;2003"); // Sort of identity mapping
-            correctionAdd("VS.NET C++ 2003", "Visual&nbsp;Studio&nbsp;2003");
-            correctionAdd("VS 2003", "Visual&nbsp;Studio&nbsp;2003");
-            correctionAdd("VS2003", "Visual&nbsp;Studio&nbsp;2003");
-            correctionAdd("vs2003", "Visual&nbsp;Studio&nbsp;2003");
+            correctionAdd("VS.NET C++ 2003", "Visual Studio 2003");
+            correctionAdd("VS 2003", "Visual Studio 2003");
+            correctionAdd("VS2003", "Visual Studio 2003");
+            correctionAdd("vs2003", "Visual Studio 2003");
 
-            correctionAdd("Visual Studio 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("visual studio 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("Visual studio 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("visualstudio 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("VisualStudio 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("visualstudio2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("vs.net 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("MSVS2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("VS 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("vs 2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("VS2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("vs2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("Vs2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("2005", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("VS 8", "Visual&nbsp;Studio&nbsp;2005");
-            correctionAdd("VS8", "Visual&nbsp;Studio&nbsp;2005");
+            correctionAdd("visual studio 2005", "Visual Studio 2005");
+            correctionAdd("Visual studio 2005", "Visual Studio 2005");
+            correctionAdd("visualstudio 2005", "Visual Studio 2005");
+            correctionAdd("VisualStudio 2005", "Visual Studio 2005");
+            correctionAdd("visualstudio2005", "Visual Studio 2005");
+            correctionAdd("vs.net 2005", "Visual Studio 2005");
+            correctionAdd("MSVS2005", "Visual Studio 2005");
+            correctionAdd("VS 2005", "Visual Studio 2005");
+            correctionAdd("vs 2005", "Visual Studio 2005");
+            correctionAdd("VS2005", "Visual Studio 2005");
+            correctionAdd("vs2005", "Visual Studio 2005");
+            correctionAdd("Vs2005", "Visual Studio 2005");
+            correctionAdd("2005", "Visual Studio 2005");
+            correctionAdd("VS 8", "Visual Studio 2005");
+            correctionAdd("VS8", "Visual Studio 2005");
 
             // The actual version number is 9, but some of the
             // names comes from shortening 2008 down to 8 (and
             // thus can create some ambiguity as version 8 is
             // Visual Studio 2005).
             //
-            correctionAdd("visual studio.net 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("visual studio 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual studio 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio 2K8", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("visualstudio 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio 9.0", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio 08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("visualstudio2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("visual studio 8", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual C++ 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual Studio 9", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS.Net 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS.NET 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("studio 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("vs.net 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Visual 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("MSVC 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Vs 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("vs 2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("vs2008", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS 9.0", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("vs 08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS'08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS2k8", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS 08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS2K8", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("vs08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("Vs08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS08", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS 9", "Visual&nbsp;Studio&nbsp;2008");
-            correctionAdd("VS9", "Visual&nbsp;Studio&nbsp;2008");
+            correctionAdd("visual studio.net 2008", "Visual Studio 2008");
+            correctionAdd("visual studio 2008", "Visual Studio 2008");
+            correctionAdd("Visual studio 2008", "Visual Studio 2008");
+            correctionAdd("Visual Studio2008", "Visual Studio 2008");
+            correctionAdd("Visual Studio 2K8", "Visual Studio 2008");
+            correctionAdd("visualstudio 2008", "Visual Studio 2008");
+            correctionAdd("Visual Studio 9.0", "Visual Studio 2008");
+            correctionAdd("Visual Studio 08", "Visual Studio 2008");
+            correctionAdd("visualstudio2008", "Visual Studio 2008");
+            correctionAdd("visual studio 8", "Visual Studio 2008");
+            correctionAdd("Visual C++ 2008", "Visual Studio 2008");
+            correctionAdd("Visual Studio 9", "Visual Studio 2008");
+            correctionAdd("VS.Net 2008", "Visual Studio 2008");
+            correctionAdd("VS.NET 2008", "Visual Studio 2008");
+            correctionAdd("studio 2008", "Visual Studio 2008");
+            correctionAdd("vs.net 2008", "Visual Studio 2008");
+            correctionAdd("Visual 2008", "Visual Studio 2008");
+            correctionAdd("MSVC 2008", "Visual Studio 2008");
+            correctionAdd("VS 2008", "Visual Studio 2008");
+            correctionAdd("Vs 2008", "Visual Studio 2008");
+            correctionAdd("vs 2008", "Visual Studio 2008");
+            correctionAdd("VS2008", "Visual Studio 2008");
+            correctionAdd("vs2008", "Visual Studio 2008");
+            correctionAdd("VS 9.0", "Visual Studio 2008");
+            correctionAdd("vs 08", "Visual Studio 2008");
+            correctionAdd("VS'08", "Visual Studio 2008");
+            correctionAdd("VS2k8", "Visual Studio 2008");
+            correctionAdd("VS 08", "Visual Studio 2008");
+            correctionAdd("VS2K8", "Visual Studio 2008");
+            correctionAdd("vs08", "Visual Studio 2008");
+            correctionAdd("Vs08", "Visual Studio 2008");
+            correctionAdd("VS08", "Visual Studio 2008");
+            correctionAdd("VS 9", "Visual Studio 2008");
+            correctionAdd("VS9", "Visual Studio 2008");
 
-            correctionAdd("visual studios 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("visual studio 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("Visual studio 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("Visual Studio 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("visual studio 2011", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("visual studio 11", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("Visual 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("MVS 2011", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS 11/12", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("vs 2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS.2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS-2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("vs2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS 12", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS11", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("VS12", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("vs12", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("2012", "Visual&nbsp;Studio&nbsp;2012");
-            correctionAdd("12", "Visual&nbsp;Studio&nbsp;2012");
+            correctionAdd("visual studios 2012", "Visual Studio 2012");
+            correctionAdd("visual studio 2012", "Visual Studio 2012");
+            correctionAdd("Visual studio 2012", "Visual Studio 2012");
+            correctionAdd("visual studio 2011", "Visual Studio 2012");
+            correctionAdd("visual studio 11", "Visual Studio 2012");
+            correctionAdd("Visual 2012", "Visual Studio 2012");
+            correctionAdd("MVS 2011", "Visual Studio 2012");
+            correctionAdd("VS 11/12", "Visual Studio 2012");
+            correctionAdd("VS 2012", "Visual Studio 2012");
+            correctionAdd("vs 2012", "Visual Studio 2012");
+            correctionAdd("VS.2012", "Visual Studio 2012");
+            correctionAdd("VS-2012", "Visual Studio 2012");
+            correctionAdd("VS2012", "Visual Studio 2012");
+            correctionAdd("vs2012", "Visual Studio 2012");
+            correctionAdd("VS 12", "Visual Studio 2012");
+            correctionAdd("VS11", "Visual Studio 2012");
+            correctionAdd("VS12", "Visual Studio 2012");
+            correctionAdd("vs12", "Visual Studio 2012");
+            correctionAdd("2012", "Visual Studio 2012");
+            correctionAdd("12", "Visual Studio 2012");
 
-            correctionAdd("Visual&nbsp;Studio 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("visual studio 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("Visual Studio 2013", "Visual&nbsp;Studio&nbsp;2013"); // Effectively self
-            correctionAdd("Visual studio 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("VISUAL STUDIO 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("visual studio 13", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("Visual Studio 12", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("visual 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("MSVS2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("VS 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("vs 2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("VS2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("vs2013", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("VS2103", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("VS13", "Visual&nbsp;Studio&nbsp;2013");
-            correctionAdd("2013", "Visual&nbsp;Studio&nbsp;2013");
+            correctionAdd("Visual&nbsp;Studio 2013", "Visual Studio 2013");
+            correctionAdd("visual studio 2013", "Visual Studio 2013");
+            correctionAdd("Visual studio 2013", "Visual Studio 2013");
+            correctionAdd("VISUAL STUDIO 2013", "Visual Studio 2013");
+            correctionAdd("visual studio 13", "Visual Studio 2013");
+            correctionAdd("Visual Studio 12", "Visual Studio 2013");
+            correctionAdd("visual 2013", "Visual Studio 2013");
+            correctionAdd("MSVS2013", "Visual Studio 2013");
+            correctionAdd("VS 2013", "Visual Studio 2013");
+            correctionAdd("vs 2013", "Visual Studio 2013");
+            correctionAdd("VS2013", "Visual Studio 2013");
+            correctionAdd("vs2013", "Visual Studio 2013");
+            correctionAdd("VS2103", "Visual Studio 2013");
+            correctionAdd("VS13", "Visual Studio 2013");
+            correctionAdd("2013", "Visual Studio 2013");
 
             correctionAdd("Visual Studio Express 2013", "Visual Studio 2013 Express");
             correctionAdd("VS2013 Express", "Visual Studio 2013 Express");
 
-            correctionAdd("Visual Studion 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("Visual Studio 2015", "Visual&nbsp;Studio&nbsp;2015"); // Effectively self
-            correctionAdd("Visual studio 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("visual studio 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("VisualStudio 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("visual studio 15", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("MSVS 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("MSVS2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("VS 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("vs 2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("VS2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("vs2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("2015", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("vs15", "Visual&nbsp;Studio&nbsp;2015");
-            correctionAdd("VS15", "Visual&nbsp;Studio&nbsp;2015");
+            correctionAdd("Visual Studion 2015", "Visual Studio 2015");
+            correctionAdd("Visual studio 2015", "Visual Studio 2015");
+            correctionAdd("visual studio 2015", "Visual Studio 2015");
+            correctionAdd("VisualStudio 2015", "Visual Studio 2015");
+            correctionAdd("visual studio 15", "Visual Studio 2015");
+            correctionAdd("MSVS 2015", "Visual Studio 2015");
+            correctionAdd("MSVS2015", "Visual Studio 2015");
+            correctionAdd("VS 2015", "Visual Studio 2015");
+            correctionAdd("vs 2015", "Visual Studio 2015");
+            correctionAdd("VS2015", "Visual Studio 2015");
+            correctionAdd("vs2015", "Visual Studio 2015");
+            correctionAdd("2015", "Visual Studio 2015");
+            correctionAdd("vs15", "Visual Studio 2015");
+            correctionAdd("VS15", "Visual Studio 2015");
 
-            correctionAdd("Visual Studio 2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express"); // Sort of identity mapping
-            correctionAdd("VS2015 Express", "Visual&nbsp;Studio&nbsp;2015 Express");
-            correctionAdd("VS2015Express", "Visual&nbsp;Studio&nbsp;2015 Express");
+            correctionAdd("VS2015 Express", "Visual Studio 2015 Express");
+            correctionAdd("VS2015Express", "Visual Studio 2015 Express");
 
-            correctionAdd("visual studio 2015 community edition", "Visual&nbsp;Studio&nbsp;2015 Community");
-            correctionAdd("Visual Studio 2015 community edition", "Visual&nbsp;Studio&nbsp;2015 Community");
-            correctionAdd("Visual Studio 2015 Community Edition", "Visual&nbsp;Studio&nbsp;2015 Community");
-            correctionAdd("Visual Studio 2015 Community", "Visual&nbsp;Studio&nbsp;2015 Community"); // Sort of identity mapping
-            correctionAdd("VS 2015 Community", "Visual&nbsp;Studio&nbsp;2015 Community");
+            correctionAdd("visual studio 2015 community edition", "Visual Studio 2015 Community");
+            correctionAdd("Visual Studio 2015 community edition", "Visual Studio 2015 Community");
+            correctionAdd("Visual Studio 2015 Community Edition", "Visual Studio 2015 Community");
+            correctionAdd("VS 2015 Community", "Visual Studio 2015 Community");
 
-            correctionAdd("Visual Studio 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("visual studio 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("VISUAL STUDIO 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("Visual studio 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("visual Studio 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("Visual Stido 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("Visual Studio 17", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("visual 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("MSVS 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("VS-2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("VS 2k17", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("vs 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("VS 2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("vs2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("VS2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("VS17", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("2017", "Visual&nbsp;Studio&nbsp;2017");
-            correctionAdd("17", "Visual&nbsp;Studio&nbsp;2017");
+            correctionAdd("visual studio 2017", "Visual Studio 2017");
+            correctionAdd("VISUAL STUDIO 2017", "Visual Studio 2017");
+            correctionAdd("Visual studio 2017", "Visual Studio 2017");
+            correctionAdd("visual Studio 2017", "Visual Studio 2017");
+            correctionAdd("Visual Stido 2017", "Visual Studio 2017");
+            correctionAdd("Visual Studio 17", "Visual Studio 2017");
+            correctionAdd("visual 2017", "Visual Studio 2017");
+            correctionAdd("MSVS 2017", "Visual Studio 2017");
+            correctionAdd("VS-2017", "Visual Studio 2017");
+            correctionAdd("VS 2k17", "Visual Studio 2017");
+            correctionAdd("vs 2017", "Visual Studio 2017");
+            correctionAdd("VS 2017", "Visual Studio 2017");
+            correctionAdd("vs2017", "Visual Studio 2017");
+            correctionAdd("VS2017", "Visual Studio 2017");
+            correctionAdd("VS17", "Visual Studio 2017");
+            correctionAdd("2017", "Visual Studio 2017");
+            correctionAdd("17", "Visual Studio 2017");
 
             // The "Community" for this last version of it.
-            correctionAdd("Visual&nbsp;Studio&nbsp;2017 Community Edition", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("visual studio 2017 community edition", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("Visual&nbsp;Studio&nbsp;2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("Visual Studio 2017 Community", "Visual&nbsp;Studio&nbsp;2017 Community"); // Sort of identity mapping
-            correctionAdd("Visual&nbsp;Studio Community", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("Visual Studio Community 2017", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("VS 2017 Community Edition", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("Visual Studio Community", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("Visual Studio 2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("VS 2017 Community", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("VS 2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
-            correctionAdd("VS-2017 CE", "Visual&nbsp;Studio&nbsp;2017 Community");
+            correctionAdd("Visual Studio 2017 Community Edition", "Visual Studio 2017 Community");
+            correctionAdd("visual studio 2017 community edition", "Visual Studio 2017 Community");
+            correctionAdd("Visual Studio Community 2017", "Visual Studio 2017 Community");
+            correctionAdd("VS 2017 Community Edition", "Visual Studio 2017 Community");
+            correctionAdd("Visual Studio Community", "Visual Studio 2017 Community");
+            correctionAdd("Visual Studio 2017 CE", "Visual Studio 2017 Community");
+            correctionAdd("VS 2017 Community", "Visual Studio 2017 Community");
+            correctionAdd("VS 2017 CE", "Visual Studio 2017 Community");
+            correctionAdd("VS-2017 CE", "Visual Studio 2017 Community");
 
-            correctionAdd("Visual studio 2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("Visual Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("visual studio 2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("visual Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("Visaul Studio 2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("VS 2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("VS2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("vs2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("2019", "Visual&nbsp;Studio&nbsp;2019");
-            correctionAdd("VS19", "Visual&nbsp;Studio&nbsp;2019");
+            correctionAdd("Visual studio 2019", "Visual Studio 2019");
+            correctionAdd("visual studio 2019", "Visual Studio 2019");
+            correctionAdd("visual Studio 2019", "Visual Studio 2019");
+            correctionAdd("Visaul Studio 2019", "Visual Studio 2019");
+            correctionAdd("VS 2019", "Visual Studio 2019");
+            correctionAdd("VS2019", "Visual Studio 2019");
+            correctionAdd("vs2019", "Visual Studio 2019");
+            correctionAdd("2019", "Visual Studio 2019");
+            correctionAdd("VS19", "Visual Studio 2019");
 
-            correctionAdd("Visual Studio Pro 2022", "Visual&nbsp;Studio&nbsp;2022");
-            correctionAdd("visual studio, 2022", "Visual&nbsp;Studio&nbsp;2022");
-            correctionAdd("Visual studio 2022", "Visual&nbsp;Studio&nbsp;2022");
-            correctionAdd("visual studio 2022", "Visual&nbsp;Studio&nbsp;2022");
-            correctionAdd("Visual Studio 2022", "Visual&nbsp;Studio&nbsp;2022"); // Sort of identity mapping
-            correctionAdd("Visual Studio 22", "Visual&nbsp;Studio&nbsp;2022");
-            correctionAdd("MSVS 2022", "Visual&nbsp;Studio&nbsp;2022");
-            correctionAdd("vs 2022", "Visual&nbsp;Studio&nbsp;2022");
-            correctionAdd("VS 2022", "Visual&nbsp;Studio&nbsp;2022");
-            correctionAdd("VS-2022", "Visual&nbsp;Studio&nbsp;2022");
-            correctionAdd("vs2022", "Visual&nbsp;Studio&nbsp;2022");
-            correctionAdd("VS2022", "Visual&nbsp;Studio&nbsp;2022");
-            correctionAdd("VS 22", "Visual&nbsp;Studio&nbsp;2022");
+            correctionAdd("Visual Studio Pro 2022", "Visual Studio 2022");
+            correctionAdd("visual studio, 2022", "Visual Studio 2022");
+            correctionAdd("Visual studio 2022", "Visual Studio 2022");
+            correctionAdd("visual studio 2022", "Visual Studio 2022");
+            correctionAdd("Visual Studio 22", "Visual Studio 2022");
+            correctionAdd("MSVS 2022", "Visual Studio 2022");
+            correctionAdd("vs 2022", "Visual Studio 2022");
+            correctionAdd("VS 2022", "Visual Studio 2022");
+            correctionAdd("VS-2022", "Visual Studio 2022");
+            correctionAdd("vs2022", "Visual Studio 2022");
+            correctionAdd("VS2022", "Visual Studio 2022");
+            correctionAdd("VS 22", "Visual Studio 2022");
 
-            correctionAdd("Visual Studio 2026", "Visual&nbsp;Studio&nbsp;2026"); // Sort of identity mapping
-            correctionAdd("VS2026", "Visual&nbsp;Studio&nbsp;2026");
+            correctionAdd("VS2026", "Visual Studio 2026");
 
-            correctionAdd("visual studio professional", "Visual&nbsp;Studio Professional");
-            correctionAdd("Visual Studio Professional", "Visual&nbsp;Studio Professional");
+            correctionAdd("visual studio professional", "Visual Studio Professional");
 
             correctionAdd("Visual Studio Team Services", "VSTS");
             correctionAdd("visual studio team services", "VSTS");
@@ -86273,7 +86224,8 @@ namespace OverflowHelper.core
             //
             //     Released on 2025-12-03.
             //
-            correctionAdd("Keychron K9 Max", "Keychron K9 Max (60%)"); // Sort of identity mapping
+            correctionAdd("Keychron K9 Max", "Keychron K9 Max (60%)");
+            correctionAdd("Keychron K9 MAX", "Keychron K9 Max (60%)");
             correctionAdd("k9 max", "Keychron K9 Max (60%)");
             correctionAdd("K9 Max", "Keychron K9 Max (60%)");
             correctionAdd("K9 MAX", "Keychron K9 Max (60%)");
@@ -100348,6 +100300,7 @@ namespace OverflowHelper.core
             correctionAdd("i'ts", "it’s"); // A true typo
             correctionAdd("it'a", "it’s");
             correctionAdd("it,s", "it’s");
+            correctionAdd("It,s", "it’s");
             correctionAdd("it's", "it’s"); // Mostly for compatibility with Quora
             correctionAdd("It's", "it’s");
             correctionAdd("it´s", "it’s");
@@ -109525,8 +109478,6 @@ namespace OverflowHelper.core
 
             URL_Add("Emacs", "https://en.wikipedia.org/wiki/Emacs");
 
-            URL_Add("Python", "https://en.wikipedia.org/wiki/Python_%28programming_language%29");
-
             URL_Add("Greasemonkey", "https://en.wikipedia.org/wiki/Greasemonkey");
 
             URL_Add("7-Zip", "https://en.wikipedia.org/wiki/7-Zip");
@@ -110566,8 +110517,6 @@ namespace OverflowHelper.core
             URL_Add("always", "https://en.wiktionary.org/wiki/always#Adverb"); // Old: https://en.wiktionary.org/wiki/allways
 
             URL_Add("DynamoDB", "https://en.wikipedia.org/wiki/Amazon_DynamoDB");
-
-            URL_Add("Pythonic", "https://en.wiktionary.org/wiki/Pythonic#Adjective");
 
             URL_Add("separation", "https://en.wiktionary.org/wiki/seperation#Noun"); // Old: https://en.wiktionary.org/wiki/seperation
 
@@ -114189,8 +114138,6 @@ namespace OverflowHelper.core
 
             URL_Add("OMG", "https://en.wiktionary.org/wiki/OMG#Interjection");
 
-            URL_Add("Pythonista", "https://en.wiktionary.org/wiki/Pythonista#Noun");
-
             URL_Add("SOCVR", "https://socvr.org/");
 
             URL_Add("Steam", "https://en.wikipedia.org/wiki/Steam_(service)");
@@ -114870,8 +114817,6 @@ namespace OverflowHelper.core
             URL_Add("metal", "https://en.wiktionary.org/wiki/metal#Noun");
 
             URL_Add("technology", "https://en.wiktionary.org/wiki/technology#Noun");
-
-            URL_Add("PEP&nbsp;8", "https://pep8.org/");
 
             URL_Add("convention", "https://en.wiktionary.org/wiki/convention#Noun");
 
@@ -115879,7 +115824,7 @@ namespace OverflowHelper.core
 
             URL_Add("giggling", "https://en.wiktionary.org/wiki/giggle#Verb");
 
-            URL_Add("p-n&nbsp;junction", "https://en.wikipedia.org/wiki/P%E2%80%93n_junction");
+            URL_Add("p-n junction", "https://en.wikipedia.org/wiki/P%E2%80%93n_junction");
 
             URL_Add("p–n diode", "https://en.wikipedia.org/wiki/P%E2%80%93n_diode");
 
@@ -116053,7 +115998,7 @@ namespace OverflowHelper.core
 
             URL_Add("Dirac delta function", "https://en.wikipedia.org/wiki/Dirac_delta_function");
 
-            URL_Add("IDLE&nbsp;3", "https://en.wikipedia.org/wiki/IDLE");
+            URL_Add("IDLE 3", "https://en.wikipedia.org/wiki/IDLE");
 
             URL_Add("blame", "https://en.wiktionary.org/wiki/blame#Verb");
 
@@ -118367,8 +118312,6 @@ namespace OverflowHelper.core
 
             URL_Add("upset the applecart", "https://en.wiktionary.org/wiki/upset_the_applecart#Verb");
 
-            URL_Add("PEP&nbsp;498", "https://peps.python.org/pep-0498/");
-
             URL_Add("ROT13", "https://en.wikipedia.org/wiki/ROT13");
 
             URL_Add("incentivise", "https://en.wiktionary.org/wiki/incentivise#Verb");
@@ -119477,10 +119420,6 @@ namespace OverflowHelper.core
 
             URL_Add("converted", "https://en.wiktionary.org/wiki/convert#Verb");
 
-            URL_Add("Python&nbsp;3.5 (2015-09-13)", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
-
-            URL_Add("Python&nbsp;3.6", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
-
             URL_Add("Folketingsvalget 2022", "https://da.wikipedia.org/wiki/Folketingsvalget_2022");
 
             URL_Add("Embedded FM", "https://embedded.fm/episodes");
@@ -119650,8 +119589,6 @@ namespace OverflowHelper.core
             URL_Add("prominent", "https://en.wiktionary.org/wiki/prominent#Adjective");
 
             URL_Add("needs", "https://en.wiktionary.org/wiki/need#Verb");
-
-            URL_Add("Python&nbsp;2.7", "https://en.wikipedia.org/wiki/History_of_Python#Version_2");
 
             URL_Add("dyno", "https://en.wikipedia.org/wiki/Heroku#Architecture");
 
@@ -120906,10 +120843,6 @@ namespace OverflowHelper.core
             URL_Add("increase", "https://en.wiktionary.org/wiki/increase#Verb");
 
             URL_Add("nifty", "https://en.wiktionary.org/wiki/nifty#Adjective");
-
-            URL_Add("PEP&nbsp;328", "https://peps.python.org/pep-0328/");
-
-            URL_Add("PEP&nbsp;366", "https://peps.python.org/pep-0366/");
 
             URL_Add("bean counter", "https://en.wiktionary.org/wiki/bean_counter#Noun");
 
@@ -122515,7 +122448,7 @@ namespace OverflowHelper.core
 
             URL_Add("helps", "https://en.wiktionary.org/wiki/help#Verb");
 
-            URL_Add("MetaTrader&nbsp;5", "https://en.wikipedia.org/wiki/MetaTrader_4#History");
+            URL_Add("MetaTrader 5", "https://en.wikipedia.org/wiki/MetaTrader_4#History");
 
             URL_Add("turned", "https://en.wiktionary.org/wiki/turn#Verb");
 
@@ -122772,10 +122705,6 @@ namespace OverflowHelper.core
             URL_Add("keys", "https://en.wiktionary.org/wiki/key#Noun");
 
             URL_Add("Latinised", "https://en.wiktionary.org/wiki/Latinise#Verb");
-
-            URL_Add("Python&nbsp;3.8 (2019-10-14)", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
-
-            URL_Add("Python&nbsp;3.12 (2023-10-02)", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
 
             URL_Add("BunnyCDN", "https://en.wikipedia.org/wiki/JSDelivr#Operation");
 
@@ -124949,8 +124878,6 @@ namespace OverflowHelper.core
 
             URL_Add("shipped", "https://en.wiktionary.org/wiki/ship#Verb");
 
-            URL_Add("PEP&nbsp;668", "https://peps.python.org/pep-0668/");
-
             URL_Add("fun fact", "https://en.wiktionary.org/wiki/fun_fact#Noun");
 
             URL_Add("satisfiability", "https://en.wiktionary.org/wiki/satisfiability#Noun");
@@ -125556,8 +125483,6 @@ namespace OverflowHelper.core
             URL_Add("abundantly", "https://en.wiktionary.org/wiki/abundantly#Adverb");
 
             URL_Add("iTunes Connect", "https://en.wikipedia.org/wiki/ITunes_Connect");
-
-            URL_Add("Pythonistas", "https://en.wiktionary.org/wiki/Pythonista#Noun");
 
             URL_Add("toolbelt", "https://en.wiktionary.org/wiki/toolbelt#Noun");
 
@@ -126569,7 +126494,7 @@ namespace OverflowHelper.core
 
             URL_Add("Git (version control)", "https://en.wikipedia.org/wiki/Git"); // Old: https://en.wikipedia.org/wiki/Git_%28software%29
 
-            URL_Add("Git&nbsp;2.0", "https://en.wikipedia.org/w/index.php?title=Git&oldid=1188773830#Releases"); // Old: <https://en.wikipedia.org/wiki/Git#Releases[27][28]>
+            URL_Add("Git 2.0", "https://en.wikipedia.org/w/index.php?title=Git&oldid=1188773830#Releases"); // Old: <https://en.wikipedia.org/wiki/Git#Releases[27][28]>
 
             URL_Add("Git History", "https://github.com/pomber/git-history");
 
@@ -126616,8 +126541,6 @@ namespace OverflowHelper.core
             URL_Add("nutshell", "https://en.wiktionary.org/wiki/nutshell#Noun");
 
             URL_Add("in a nutshell", "https://en.wiktionary.org/wiki/in_a_nutshell#Adverb");
-
-            URL_Add("Python in a Nutshell", "https://www.oreilly.com/library/view/python-in-a/9781098113544/");
 
             URL_Add("Oh My Posh", "https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal");
 
@@ -127143,8 +127066,6 @@ namespace OverflowHelper.core
 
             URL_Add("SvelteKit", "https://svelte.dev/docs/kit/introduction");
 
-            URL_Add("PEP&nbsp;484", "https://peps.python.org/pep-0484/");
-
             URL_Add("Mongrel", "https://en.wikipedia.org/wiki/Mongrel_(web_server)");
 
             URL_Add("Typst", "https://typst.app/docs/");
@@ -127540,8 +127461,6 @@ namespace OverflowHelper.core
             URL_Add("Karma", "https://www.npmjs.com/package/karma");
 
             URL_Add("RSelenium", "https://www.rdocumentation.org/packages/RSelenium/versions/1.7.9");
-
-            URL_Add("implicit namespace packages (PEP&nbsp;420)", "https://peps.python.org/pep-0420/#rationale");
 
             URL_Add("dimmest", "https://en.wiktionary.org/wiki/dimmest#Adjective");
 
@@ -128565,8 +128484,6 @@ namespace OverflowHelper.core
 
             URL_Add("VSTO", "https://en.wikipedia.org/wiki/Visual_Studio_Tools_for_Office");
 
-            URL_Add("Solution&nbsp;Explorer", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Other_tools");
-
             URL_Add("MsgBox", "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/139z2azd(v=vs.90)"); // Old: http://msdn.microsoft.com/en-us/library/139z2azd%28v=vs.90%29.aspx
 
             URL_Add("devenv", "https://learn.microsoft.com/en-us/visualstudio/ide/reference/devenv-command-line-switches");
@@ -129092,8 +129009,6 @@ namespace OverflowHelper.core
             URL_Add("tutoring", "https://en.wiktionary.org/wiki/tutoring#Noun");
 
             URL_Add("tutorials", "https://en.wiktionary.org/wiki/tutorial#Noun");
-
-            URL_Add("Python Tutor", "https://www.blog.pythonlibrary.org/2018/10/22/pydev-of-the-week-philip-guo/");
 
             URL_Add("Tutorials Point", "https://www.tutorialspoint.com/about/about_team.htm");
 
@@ -132431,6 +132346,8 @@ namespace OverflowHelper.core
 
             URL_Add("Visual&nbsp;Studio", "https://en.wikipedia.org/wiki/Visual_Studio"); // Old: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio
 
+            URL_Add("Solution Explorer", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Other_tools");
+
             URL_Add("Visual Studio Online", "https://en.wikipedia.org/wiki/Azure_DevOps_Server#On-premises_vs._online");
 
             URL_Add("VSTS", "https://visualstudio.microsoft.com/team-services/");
@@ -132451,51 +132368,51 @@ namespace OverflowHelper.core
 
             URL_Add("Visual&nbsp;Basic&nbsp;2005 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
 
-            URL_Add("Visual&nbsp;Basic&nbsp;2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
+            URL_Add("Visual Basic 2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
 
             URL_Add("Visual&nbsp;Basic&nbsp;2010 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
 
-            URL_Add("Visual&nbsp;C#&nbsp;2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
+            URL_Add("Visual C# 2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
 
             URL_Add("Visual&nbsp;C# Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
 
-            URL_Add("Visual&nbsp;C++&nbsp;2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.2B.2B_Express");
+            URL_Add("Visual C++ 2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.2B.2B_Express");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2005%E2%80%932010:_Language-centric_editions"); // Old: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express
+            URL_Add("Visual Studio 2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2005%E2%80%932010:_Language-centric_editions"); // Old: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2012 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2012%E2%80%932017:_Ecosystem-centric"); // Old: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express
+            URL_Add("Visual Studio 2012 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2012%E2%80%932017:_Ecosystem-centric"); // Old: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express
 
             URL_Add("Visual Studio 2013 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2012%E2%80%932017:_Ecosystem-centric"); // Old: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2012%E2%80%932013_products
 
-            URL_Add("Visual&nbsp;Studio Professional", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Professional");
+            URL_Add("Visual Studio Professional", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Professional");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2003", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#.NET_2003");
+            URL_Add("Visual Studio 2003", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#.NET_2003");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2005", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2005");
+            URL_Add("Visual Studio 2005", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2005");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2008", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2008");
+            URL_Add("Visual Studio 2008", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2008");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2010", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2010");
+            URL_Add("Visual Studio 2010", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2010");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2012", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2012");
+            URL_Add("Visual Studio 2012", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2012");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2013", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2013");
+            URL_Add("Visual Studio 2013", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2013");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2015 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2012%E2%80%932017:_Ecosystem-centric"); // Old: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2015%E2%80%932017_products
+            URL_Add("Visual Studio 2015 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2012%E2%80%932017:_Ecosystem-centric"); // Old: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#2015%E2%80%932017_products
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2015 Community", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2015");
+            URL_Add("Visual Studio 2015 Community", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2015");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2015", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2015");
+            URL_Add("Visual Studio 2015", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2015");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2017", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2017");
+            URL_Add("Visual Studio 2017", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2017");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2017 Community", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2017");
+            URL_Add("Visual Studio 2017 Community", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2017");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2019", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2019");
+            URL_Add("Visual Studio 2019", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2019");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2022", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2022");
+            URL_Add("Visual Studio 2022", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2022");
 
-            URL_Add("Visual&nbsp;Studio&nbsp;2026", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2026");
+            URL_Add("Visual Studio 2026", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#2026");
 
             URL_Add("IIS", "https://en.wikipedia.org/wiki/Internet_Information_Services");
 
@@ -132581,19 +132498,19 @@ namespace OverflowHelper.core
 
             URL_Add("Eclipse v3.4 (Ganymede)", "https://en.wikipedia.org/wiki/Eclipse_(software)#Releases");
 
-            URL_Add("Eclipse&nbsp;v3.5 (Galileo)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
+            URL_Add("Eclipse v3.5 (Galileo)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
 
-            URL_Add("Eclipse&nbsp;v3.7 (Indigo)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
+            URL_Add("Eclipse v3.7 (Indigo)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
 
-            URL_Add("Eclipse&nbsp;v4.2 (Juno)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
+            URL_Add("Eclipse v4.2 (Juno)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
 
-            URL_Add("Eclipse&nbsp;v4.3 (Kepler)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
+            URL_Add("Eclipse v4.3 (Kepler)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
 
-            URL_Add("Eclipse&nbsp;v4.4 (Luna)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
+            URL_Add("Eclipse v4.4 (Luna)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
 
-            URL_Add("Eclipse&nbsp;v4.5 (Mars)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
+            URL_Add("Eclipse v4.5 (Mars)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
 
-            URL_Add("Eclipse&nbsp;v4.7 (Oxygen)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
+            URL_Add("Eclipse v4.7 (Oxygen)", "https://en.wikipedia.org/wiki/Eclipse_%28software%29#Releases");
 
             URL_Add("OpenCode", "https://en.wikipedia.org/wiki/OpenCode");
 
@@ -132690,8 +132607,6 @@ namespace OverflowHelper.core
             URL_Add("The Street View House Numbers dataset", "https://huggingface.co/datasets/randall-lab/svhn");
 
             URL_Add("array slice", "https://en.wikipedia.org/wiki/Array_slicing#1991:_Python");
-
-            URL_Add("PEP&nbsp;238", "https://peps.python.org/pep-0238/");
 
             URL_Add("section", "https://en.wiktionary.org/wiki/section#Noun");
 
@@ -135530,9 +135445,9 @@ namespace OverflowHelper.core
 
             URL_Add("LP64", "https://en.wikipedia.org/wiki/64-bit_computing#64-bit_data_models");
 
-            URL_Add("C&nbsp;string", "https://en.wikipedia.org/wiki/C_string"); // Old: https://en.wikipedia.org/wiki/C_string_handling#Overview_of_functions
+            URL_Add("C string", "https://en.wikipedia.org/wiki/C_string"); // Old: https://en.wikipedia.org/wiki/C_string_handling#Overview_of_functions
 
-            URL_Add("C&nbsp;strings", "https://en.wikipedia.org/wiki/C_string"); // Old: https://en.wikipedia.org/wiki/C_string_handling#Overview_of_functions
+            URL_Add("C strings", "https://en.wikipedia.org/wiki/C_string"); // Old: https://en.wikipedia.org/wiki/C_string_handling#Overview_of_functions
 
             URL_Add("P99", "https://github.com/jweyrich/p99/blob/master/index-forward.html#L21");
 
@@ -138631,10 +138546,6 @@ namespace OverflowHelper.core
 
             URL_Add("CorFlags", "https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-2.0/ms164699(v=vs.80)"); // Old: <http://msdn.microsoft.com/en-us/library/ms164699%28v=vs.80%29.aspx>
 
-            URL_Add("Python&nbsp;2", "https://en.wikipedia.org/wiki/History_of_Python#Version_2");
-
-            URL_Add("Python&nbsp;3", "https://en.wikipedia.org/wiki/History_of_Python#Version_3");
-
             URL_Add("Q1 version 2 special edition (SE)", "https://www.keychron.com/products/keychron-q1");
 
             URL_Add("CentOS", "https://en.wikipedia.org/wiki/CentOS");
@@ -140059,7 +139970,7 @@ namespace OverflowHelper.core
 
             URL_Add("PySide", "https://en.wikipedia.org/wiki/PySide");
 
-            URL_Add("PySide&nbsp;2", "https://en.wikipedia.org/wiki/PySide");
+            URL_Add("PySide 2", "https://en.wikipedia.org/wiki/PySide");
 
             URL_Add("plot", "https://en.wiktionary.org/wiki/plot#Noun");
 
@@ -141670,8 +141581,6 @@ namespace OverflowHelper.core
             URL_Add("wherein", "https://en.wiktionary.org/wiki/wherein#Conjunction");
 
             URL_Add("whereby", "https://en.wiktionary.org/wiki/whereby#Adverb");
-
-            URL_Add("PythonAnywhere", "https://en.wikipedia.org/wiki/PythonAnywhere");
 
             URL_Add("JAMS Scheduler", "https://en.everybodywiki.com/JAMS_Scheduler");
 
@@ -151718,6 +151627,50 @@ namespace OverflowHelper.core
             URL_Add("type safety", "https://en.wiktionary.org/wiki/type_safety#Noun");
 
             URL_Add("Safeway", "https://en.wikipedia.org/wiki/Safeway_Inc.");
+
+            URL_Add("Python", "https://en.wikipedia.org/wiki/Python_%28programming_language%29");
+
+            URL_Add("Pythonic", "https://en.wiktionary.org/wiki/Pythonic#Adjective");
+
+            URL_Add("Pythonista", "https://en.wiktionary.org/wiki/Pythonista#Noun");
+
+            URL_Add("Pythonistas", "https://en.wiktionary.org/wiki/Pythonista#Noun");
+
+            URL_Add("Python 2", "https://en.wikipedia.org/wiki/History_of_Python#Version_2");
+
+            URL_Add("Python 2.7", "https://en.wikipedia.org/wiki/History_of_Python#Version_2");
+
+            URL_Add("Python 3", "https://en.wikipedia.org/wiki/History_of_Python#Version_3");
+
+            URL_Add("Python 3.5 (2015-09-13)", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
+
+            URL_Add("Python 3.6", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
+
+            URL_Add("Python 3.8 (2019-10-14)", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
+
+            URL_Add("Python 3.12 (2023-10-02)", "https://en.wikipedia.org/wiki/History_of_Python#Table_of_versions");
+
+            URL_Add("Python in a Nutshell", "https://www.oreilly.com/library/view/python-in-a/9781098113544/");
+
+            URL_Add("Python Tutor", "https://www.blog.pythonlibrary.org/2018/10/22/pydev-of-the-week-philip-guo/");
+
+            URL_Add("PythonAnywhere", "https://en.wikipedia.org/wiki/PythonAnywhere");
+
+            URL_Add("PEP 8", "https://pep8.org/");
+
+            URL_Add("PEP 238", "https://peps.python.org/pep-0238/");
+
+            URL_Add("PEP 328", "https://peps.python.org/pep-0328/");
+
+            URL_Add("PEP 366", "https://peps.python.org/pep-0366/");
+
+            URL_Add("implicit namespace packages (PEP 420)", "https://peps.python.org/pep-0420/#rationale");
+
+            URL_Add("PEP 484", "https://peps.python.org/pep-0484/");
+
+            URL_Add("PEP 498", "https://peps.python.org/pep-0498/");
+
+            URL_Add("PEP 668", "https://peps.python.org/pep-0668/");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -171335,59 +171288,9 @@ namespace OverflowHelper.core
 
             URL_Add("minify_", "https://en.wikipedia.org/wiki/Minification_(programming)");
 
-            URL_Add("Python Software Foundation_", "https://en.wikipedia.org/wiki/Python_Software_Foundation");
-
-            URL_Add("PEP_", "https://en.wikipedia.org/wiki/Python_(programming_language)#Development"); // Old: https://en.wikipedia.org/wiki/Python_Enhancement_Proposal#Development
-
-            URL_Add("Jupyter Notebook_", "https://en.wikipedia.org/wiki/IPython#Project_Jupyter");
-
             URL_Add("Safety_", "https://pypi.org/project/safety/");
 
             URL_Add("loc_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html");
-
-            URL_Add("pandas.DataFrame.merge()_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html");
-
-            URL_Add("Python standard library_", "https://docs.python.org/3/library/index.html");
-
-            URL_Add("os_", "https://docs.python.org/3/library/os.html");
-
-            URL_Add("list comprehension_", "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions");
-
-            URL_Add("ast_", "https://docs.python.org/3/library/ast.html");
-
-            URL_Add("curses module_", "https://docs.python.org/3/library/curses.html");
-
-            URL_Add("datetime_", "https://docs.python.org/3/library/datetime.html");
-
-            URL_Add("unittest_", "https://docs.python.org/3.8/library/unittest.html");
-
-            URL_Add("map()_", "https://docs.python.org/3.8/library/functions.html#map");
-
-            URL_Add("csv (the (literal) name of a Python module)_", "https://docs.python.org/3.8/library/csv.html");
-
-            URL_Add("format()_", "https://docs.python.org/3.8/library/functions.html#format");
-
-            URL_Add("open()_", "https://docs.python.org/3/library/functions.html#open");
-
-            URL_Add("repr()_", "https://docs.python.org/3/library/functions.html#repr");
-
-            URL_Add("subprocess module_", "https://docs.python.org/3/library/subprocess.html");
-
-            URL_Add("python-docx_", "https://pypi.org/project/python-docx/");
-
-            URL_Add("lambda_", "https://docs.python.org/3/reference/expressions.html#lambda");
-
-            URL_Add("literal_eval()_", "https://docs.python.org/3/library/ast.html#ast.literal_eval");
-
-            URL_Add("all()_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.all.html");
-
-            URL_Add("virtual Python environment_", "https://www.w3schools.com/python/python_virtualenv.asp");
-
-            URL_Add("Graphene-Python_", "https://graphene-python.org/"); // From chemical element 6
-
-            URL_Add("Strawberry GraphQL_", "https://pypi.org/project/strawberry-graphql/");
-
-            URL_Add("numpy.array()_", "https://numpy.org/doc/stable/reference/generated/numpy.array.html");
 
             URL_Add("OOP_", "https://en.wikipedia.org/wiki/Object-oriented_programming");
 
@@ -172960,6 +172863,56 @@ namespace OverflowHelper.core
             URL_Add("different from_", "https://dictionary.cambridge.org/dictionary/english/different-from");
 
             URL_Add("inquiring minds want to know_", "https://dictionary.cambridge.org/dictionary/english/inquiring-minds-want-to-know");
+
+            URL_Add("Python Software Foundation_", "https://en.wikipedia.org/wiki/Python_Software_Foundation");
+
+            URL_Add("PEP_", "https://en.wikipedia.org/wiki/Python_(programming_language)#Development"); // Old: https://en.wikipedia.org/wiki/Python_Enhancement_Proposal#Development
+
+            URL_Add("Python standard library_", "https://docs.python.org/3/library/index.html");
+
+            URL_Add("Jupyter Notebook_", "https://en.wikipedia.org/wiki/IPython#Project_Jupyter");
+
+            URL_Add("list comprehension_", "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions");
+
+            URL_Add("pandas.DataFrame.merge()_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html");
+
+            URL_Add("os_", "https://docs.python.org/3/library/os.html");
+
+            URL_Add("ast_", "https://docs.python.org/3/library/ast.html");
+
+            URL_Add("curses module_", "https://docs.python.org/3/library/curses.html");
+
+            URL_Add("datetime_", "https://docs.python.org/3/library/datetime.html");
+
+            URL_Add("unittest_", "https://docs.python.org/3.8/library/unittest.html");
+
+            URL_Add("map()_", "https://docs.python.org/3.8/library/functions.html#map");
+
+            URL_Add("csv (the (literal) name of a Python module)_", "https://docs.python.org/3.8/library/csv.html");
+
+            URL_Add("format()_", "https://docs.python.org/3.8/library/functions.html#format");
+
+            URL_Add("open()_", "https://docs.python.org/3/library/functions.html#open");
+
+            URL_Add("repr()_", "https://docs.python.org/3/library/functions.html#repr");
+
+            URL_Add("subprocess module_", "https://docs.python.org/3/library/subprocess.html");
+
+            URL_Add("python-docx_", "https://pypi.org/project/python-docx/");
+
+            URL_Add("lambda_", "https://docs.python.org/3/reference/expressions.html#lambda");
+
+            URL_Add("literal_eval()_", "https://docs.python.org/3/library/ast.html#ast.literal_eval");
+
+            URL_Add("all()_", "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.all.html");
+
+            URL_Add("virtual Python environment_", "https://www.w3schools.com/python/python_virtualenv.asp");
+
+            URL_Add("Graphene-Python_", "https://graphene-python.org/"); // From chemical element 6
+
+            URL_Add("Strawberry GraphQL_", "https://pypi.org/project/strawberry-graphql/");
+
+            URL_Add("numpy.array()_", "https://numpy.org/doc/stable/reference/generated/numpy.array.html");
 
         } //addLookupData_alternativeWordSet()
 
@@ -179056,18 +179009,6 @@ namespace OverflowHelper.core
 
             URL_Add("Kansas, United States__", "https://en.wikipedia.org/wiki/Kansas");
 
-            URL_Add("Python reference__", "https://docs.python.org/3/reference/index.html");
-
-            URL_Add("re__", "https://docs.python.org/3/library/re.html");
-
-            URL_Add("pdb__", "https://docs.python.org/3/library/pdb.html");
-
-            URL_Add("join()__", "https://docs.python.org/3/library/stdtypes.html#str.join");
-
-            URL_Add("eval()__", "https://docs.python.org/3.8/library/functions.html#eval");
-
-            URL_Add("read()__", "https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects");
-
             URL_Add("export__", "https://linux.die.net/man/1/export");
 
             URL_Add("new__", "https://en.wiktionary.org/wiki/new#Adjective");
@@ -179697,6 +179638,18 @@ namespace OverflowHelper.core
             URL_Add("our good friends the engines__", "https://en.wikipedia.org/wiki/Chess_engine");
 
             URL_Add("along the same lines__", "https://dictionary.cambridge.org/dictionary/english/along-the-same-lines");
+
+            URL_Add("Python reference__", "https://docs.python.org/3/reference/index.html");
+
+            URL_Add("re__", "https://docs.python.org/3/library/re.html");
+
+            URL_Add("pdb__", "https://docs.python.org/3/library/pdb.html");
+
+            URL_Add("join()__", "https://docs.python.org/3/library/stdtypes.html#str.join");
+
+            URL_Add("eval()__", "https://docs.python.org/3.8/library/functions.html#eval");
+
+            URL_Add("read()__", "https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects");
 
         } //addLookupData_alternativeWordSet2()
 
