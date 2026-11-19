@@ -32180,10 +32180,9 @@ namespace OverflowHelper.core
 
             correctionAdd("subneting", "subnetting");
 
-            correctionAdd("Internet Protocol camera", "IP&nbsp;camera");
-            correctionAdd("IP camera", "IP&nbsp;camera"); // Sort of identity mapping"
-            correctionAdd("ip camera", "IP&nbsp;camera");
-            correctionAdd("ipcamera", "IP&nbsp;camera");
+            correctionAdd("Internet Protocol camera", "IP camera");
+            correctionAdd("ip camera", "IP camera");
+            correctionAdd("ipcamera", "IP camera");
 
             correctionAdd("ipsect", "IPsec");
             correctionAdd("ipsec", "IPsec");
@@ -36527,10 +36526,9 @@ namespace OverflowHelper.core
             correctionAdd("iis", "IIS");
             correctionAdd("II", "IIS");
 
-            correctionAdd("IIS Express", "IIS&nbsp;Express"); // Sort of identity mapping
-            correctionAdd("IIS express", "IIS&nbsp;Express");
-            correctionAdd("iisexpress", "IIS&nbsp;Express");
-            correctionAdd("IISExpress", "IIS&nbsp;Express");
+            correctionAdd("IIS express", "IIS Express");
+            correctionAdd("iisexpress", "IIS Express");
+            correctionAdd("IISExpress", "IIS Express");
 
             correctionAdd("Devexpress", "DevExpress");
             correctionAdd("devexpress", "DevExpress");
@@ -36722,9 +36720,8 @@ namespace OverflowHelper.core
             correctionAdd("Apace", "Apache HTTP Server");
             correctionAdd("Apche", "Apache HTTP Server");
 
-            correctionAdd("Apache 2", "Apache&nbsp;2");
-            correctionAdd("apache2", "Apache&nbsp;2");
-            correctionAdd("Apache2", "Apache&nbsp;2");
+            correctionAdd("apache2", "Apache 2");
+            correctionAdd("Apache2", "Apache 2");
 
             correctionAdd("mod security", "ModSecurity");
 
@@ -37305,9 +37302,8 @@ namespace OverflowHelper.core
             correctionAdd("angular cli", "Angular CLI");
 
             //Duplicate of the "Angular" entry?
-            correctionAdd("Angular 2", "Angular&nbsp;2"); // Sort of identity mapping
-            correctionAdd("Angular2", "Angular&nbsp;2");
-            correctionAdd("angular2", "Angular&nbsp;2");
+            correctionAdd("Angular2", "Angular 2");
+            correctionAdd("angular2", "Angular 2");
 
             // Alternative URLs:
             //
@@ -37347,98 +37343,83 @@ namespace OverflowHelper.core
             correctionAdd("JavascriptMVC", "JavaScriptMVC");
 
             // The reference is now half-broken... (page anchor)
-            correctionAdd("ECMAScript 3", "ECMAScript&nbsp;3");
-            correctionAdd("ES3", "ECMAScript&nbsp;3");
+            correctionAdd("ES3", "ECMAScript 3");
 
             // The reference is now half-broken... (page anchor)
-            correctionAdd("ECMAScript 4", "ECMAScript&nbsp;4");
-            correctionAdd("ES4", "ECMAScript&nbsp;4");
+            correctionAdd("ES4", "ECMAScript 4");
 
             // The reference is now half-broken... (page anchor)
-            correctionAdd("ECMA-Script 5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMA script 5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMAScript 5", "ECMAScript&nbsp;5"); // Sort of identity mapping
-            correctionAdd("Ecmascript 5", "ECMAScript&nbsp;5");
-            correctionAdd("ecmascript 5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMAScript5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMA 5", "ECMAScript&nbsp;5");
-            correctionAdd("Ecma 5", "ECMAScript&nbsp;5");
-            correctionAdd("ECMA5", "ECMAScript&nbsp;5");
-            correctionAdd("ES 5", "ECMAScript&nbsp;5");
-            correctionAdd("ES5", "ECMAScript&nbsp;5");
-            correctionAdd("es5", "ECMAScript&nbsp;5");
+            correctionAdd("ECMA-Script 5", "ECMAScript 5");
+            correctionAdd("ECMA script 5", "ECMAScript 5");
+            correctionAdd("Ecmascript 5", "ECMAScript 5");
+            correctionAdd("ecmascript 5", "ECMAScript 5");
+            correctionAdd("ECMAScript5", "ECMAScript 5");
+            correctionAdd("ECMA 5", "ECMAScript 5");
+            correctionAdd("Ecma 5", "ECMAScript 5");
+            correctionAdd("ECMA5", "ECMAScript 5");
+            correctionAdd("ES 5", "ECMAScript 5");
+            correctionAdd("ES5", "ECMAScript 5");
+            correctionAdd("es5", "ECMAScript 5");
 
             // The reference is now half-broken... (page anchor)
-            correctionAdd("ECMAScript&nbsp;6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAScript 2015", "ECMAScript&nbsp;2015"); // Sort of identity mapping
-            correctionAdd("EcmaScript 2015", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMA Script 6", "ECMAScript&nbsp;2015");
-            correctionAdd("Ecma-Script-6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAscript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAScript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("Ecmascript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("EcmaScript-6", "ECMAScript&nbsp;2015");
-            correctionAdd("EcmaScript 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMAScript6", "ECMAScript&nbsp;2015");
-            correctionAdd("EcmaScript6", "ECMAScript&nbsp;2015");
-            correctionAdd("ecmaScript6", "ECMAScript&nbsp;2015");
-            correctionAdd("es2015", "ECMAScript&nbsp;2015");
-            correctionAdd("ES2015", "ECMAScript&nbsp;2015");
-            correctionAdd("ecma 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMA 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ES20xx", "ECMAScript&nbsp;2015");
-            correctionAdd("ecma6", "ECMAScript&nbsp;2015");
-            correctionAdd("ECMA6", "ECMAScript&nbsp;2015");
-            correctionAdd("es 6", "ECMAScript&nbsp;2015");
-            correctionAdd("Es 6", "ECMAScript&nbsp;2015");
-            correctionAdd("ES 6", "ECMAScript&nbsp;2015");
-            correctionAdd("es6", "ECMAScript&nbsp;2015");
-            correctionAdd("Es6", "ECMAScript&nbsp;2015");
-            correctionAdd("ES6", "ECMAScript&nbsp;2015");
-            correctionAdd("e6", "ECMAScript&nbsp;2015");
+            correctionAdd("EcmaScript 2015", "ECMAScript 2015");
+            correctionAdd("ECMA Script 6", "ECMAScript 2015");
+            correctionAdd("Ecma-Script-6", "ECMAScript 2015");
+            correctionAdd("ECMAscript 6", "ECMAScript 2015");
+            correctionAdd("ECMAScript 6", "ECMAScript 2015");
+            correctionAdd("Ecmascript 6", "ECMAScript 2015");
+            correctionAdd("EcmaScript-6", "ECMAScript 2015");
+            correctionAdd("EcmaScript 6", "ECMAScript 2015");
+            correctionAdd("ECMAScript6", "ECMAScript 2015");
+            correctionAdd("EcmaScript6", "ECMAScript 2015");
+            correctionAdd("ecmaScript6", "ECMAScript 2015");
+            correctionAdd("es2015", "ECMAScript 2015");
+            correctionAdd("ES2015", "ECMAScript 2015");
+            correctionAdd("ecma 6", "ECMAScript 2015");
+            correctionAdd("ECMA 6", "ECMAScript 2015");
+            correctionAdd("ES20xx", "ECMAScript 2015");
+            correctionAdd("ecma6", "ECMAScript 2015");
+            correctionAdd("ECMA6", "ECMAScript 2015");
+            correctionAdd("es 6", "ECMAScript 2015");
+            correctionAdd("Es 6", "ECMAScript 2015");
+            correctionAdd("ES 6", "ECMAScript 2015");
+            correctionAdd("es6", "ECMAScript 2015");
+            correctionAdd("Es6", "ECMAScript 2015");
+            correctionAdd("ES6", "ECMAScript 2015");
+            correctionAdd("e6", "ECMAScript 2015");
 
             // The reference is now half-broken... (page anchor)
-            correctionAdd("ECMAScript&nbsp;7", "ECMAScript&nbsp;2016");
-            correctionAdd("ECMAScript 2016", "ECMAScript&nbsp;2016"); // Sort of identity mapping
-            correctionAdd("EcmaScript 7", "ECMAScript&nbsp;2016");
-            correctionAdd("ECMAScript 7", "ECMAScript&nbsp;2016");
-            correctionAdd("ES 2016", "ECMAScript&nbsp;2016");
-            correctionAdd("ES2016", "ECMAScript&nbsp;2016");
-            correctionAdd("ES 7", "ECMAScript&nbsp;2016");
-            correctionAdd("es7", "ECMAScript&nbsp;2016");
-            correctionAdd("ES7", "ECMAScript&nbsp;2016");
+            correctionAdd("EcmaScript 7", "ECMAScript 2016");
+            correctionAdd("ECMAScript 7", "ECMAScript 2016");
+            correctionAdd("ES 2016", "ECMAScript 2016");
+            correctionAdd("ES2016", "ECMAScript 2016");
+            correctionAdd("ES 7", "ECMAScript 2016");
+            correctionAdd("es7", "ECMAScript 2016");
+            correctionAdd("ES7", "ECMAScript 2016");
 
             // The reference is now half-broken... (page anchor)
-            correctionAdd("ECMAScript&nbsp;8", "ECMAScript&nbsp;2017");
-            correctionAdd("ECMAScript 2017", "ECMAScript&nbsp;2017"); // Sort of identity mapping
-            correctionAdd("ECMAScript-2017", "ECMAScript&nbsp;2017");
-            correctionAdd("EcmaScript 2017", "ECMAScript&nbsp;2017");
-            correctionAdd("ECMAScript 8", "ECMAScript&nbsp;2017");
-            correctionAdd("ES-2017", "ECMAScript&nbsp;2017");
-            correctionAdd("ES 8", "ECMAScript&nbsp;2017");
-            correctionAdd("ES8", "ECMAScript&nbsp;2017");
+            correctionAdd("ECMAScript-2017", "ECMAScript 2017");
+            correctionAdd("EcmaScript 2017", "ECMAScript 2017");
+            correctionAdd("ECMAScript 8", "ECMAScript 2017");
+            correctionAdd("ES-2017", "ECMAScript 2017");
+            correctionAdd("ES 8", "ECMAScript 2017");
+            correctionAdd("ES8", "ECMAScript 2017");
 
             // The reference is now half-broken... (page anchor)
-            correctionAdd("ECMAScript&nbsp;9", "ECMAScript&nbsp;2018");
-            correctionAdd("ECMAScript 2018", "ECMAScript&nbsp;2018"); // Sort of identity mapping
-            correctionAdd("ECMAScript 9", "ECMAScript&nbsp;2018");
-            correctionAdd("ES9", "ECMAScript&nbsp;2018");
+            correctionAdd("ECMAScript 9", "ECMAScript 2018");
+            correctionAdd("ES9", "ECMAScript 2018");
 
             // The reference is now half-broken... (page anchor)
-            correctionAdd("ECMAScript&nbsp;10", "ECMAScript&nbsp;2019");
-            correctionAdd("ECMAScript 2019", "ECMAScript&nbsp;2019"); // Sort of identity mapping
-            correctionAdd("ECMAScript 10", "ECMAScript&nbsp;2019");
-            correctionAdd("ES2019", "ECMAScript&nbsp;2019");
-            correctionAdd("ES10", "ECMAScript&nbsp;2019");
+            correctionAdd("ECMAScript 10", "ECMAScript 2019");
+            correctionAdd("ES2019", "ECMAScript 2019");
+            correctionAdd("ES10", "ECMAScript 2019");
 
             // The reference is now half-broken... (page anchor)
-            correctionAdd("ECMAScript&nbsp;11", "ECMAScript&nbsp;2020");
-            correctionAdd("ECMAScript 2020", "ECMAScript&nbsp;2020"); // Sort of identity mapping
-            correctionAdd("ES2020", "ECMAScript&nbsp;2020");
-            correctionAdd("es11", "ECMAScript&nbsp;2020");
-            correctionAdd("ES11", "ECMAScript&nbsp;2020");
+            correctionAdd("ECMAScript 11", "ECMAScript 2020");
+            correctionAdd("ES2020", "ECMAScript 2020");
+            correctionAdd("es11", "ECMAScript 2020");
+            correctionAdd("ES11", "ECMAScript 2020");
 
-            correctionAdd("ECMAScript&nbsp;2021", "ES.Next");
             correctionAdd("ECMAScript 2021", "ES.Next");
             correctionAdd("ECMA2021", "ES.Next");
             correctionAdd("es-next", "ES.Next");
@@ -37446,8 +37427,8 @@ namespace OverflowHelper.core
             correctionAdd("es12", "ES.Next");
             correctionAdd("ES12", "ES.Next");
 
-            correctionAdd("TC39", "Ecma International Technical Committee 39");
             correctionAdd("Ecma TC39", "Ecma International Technical Committee 39");
+            correctionAdd("TC39", "Ecma International Technical Committee 39");
 
             // JavaScript
             correctionAdd("underscore.js", "Underscore.js");
@@ -38644,6 +38625,7 @@ namespace OverflowHelper.core
             correctionAdd("Obama", "Barack Obama");
             correctionAdd("obama", "Barack Obama");
 
+            correctionAdd("the convicted felon", "Trump");
             correctionAdd("orange predecessor", "Trump");
             correctionAdd("the orange creep", "Trump");
             correctionAdd("the orange agent", "Trump");
@@ -39644,12 +39626,11 @@ namespace OverflowHelper.core
             // MSI (Microsoft installer)
             correctionAdd("cab", "CAB");
 
-            correctionAdd("Windows CE", "Windows&nbsp;CE"); // Sort of identity mapping
-            correctionAdd("Win CE", "Windows&nbsp;CE");
-            correctionAdd("WinCE", "Windows&nbsp;CE");
-            correctionAdd("wince", "Windows&nbsp;CE");
-            correctionAdd("CE", "Windows&nbsp;CE");
-            correctionAdd("ce", "Windows&nbsp;CE");
+            correctionAdd("Win CE", "Windows CE");
+            correctionAdd("WinCE", "Windows CE");
+            correctionAdd("wince", "Windows CE");
+            correctionAdd("CE", "Windows CE");
+            correctionAdd("ce", "Windows CE");
 
             correctionAdd("windows live", "Windows Live");
 
@@ -40496,18 +40477,17 @@ namespace OverflowHelper.core
             correctionAdd("taskmgr", "Task Manager");
 
             // Windows. Sysinternals.
-            correctionAdd("Processor explorer", "Process&nbsp;Explorer");
-            correctionAdd("Processor Explorer", "Process&nbsp;Explorer"); // Effectively self.
-            correctionAdd("process explorer", "Process&nbsp;Explorer");
-            correctionAdd("Process Explorer", "Process&nbsp;Explorer");
-            correctionAdd("process Explorer", "Process&nbsp;Explorer");
-            correctionAdd("Process explorer", "Process&nbsp;Explorer");
-            correctionAdd("ProcessExplorer", "Process&nbsp;Explorer");
-            correctionAdd("processexplorer", "Process&nbsp;Explorer");
-            correctionAdd("procexp", "Process&nbsp;Explorer");
-            correctionAdd("Procexp", "Process&nbsp;Explorer");
-            correctionAdd("ProcExp", "Process&nbsp;Explorer");
-            correctionAdd("PE", "Process&nbsp;Explorer");
+            correctionAdd("Processor explorer", "Process Explorer");
+            correctionAdd("Processor Explorer", "Process Explorer"); // Effectively self.
+            correctionAdd("process explorer", "Process Explorer");
+            correctionAdd("process Explorer", "Process Explorer");
+            correctionAdd("Process explorer", "Process Explorer");
+            correctionAdd("ProcessExplorer", "Process Explorer");
+            correctionAdd("processexplorer", "Process Explorer");
+            correctionAdd("procexp", "Process Explorer");
+            correctionAdd("Procexp", "Process Explorer");
+            correctionAdd("ProcExp", "Process Explorer");
+            correctionAdd("PE", "Process Explorer");
 
             // Windows. Sysinternals.
             correctionAdd("Process monitor", "Process Monitor");
@@ -40648,8 +40628,7 @@ namespace OverflowHelper.core
             // Windows
             correctionAdd("services.msc", "Services.msc");
 
-            correctionAdd("Windows RT", "Windows&nbsp;RT");
-            correctionAdd("WindowsRT", "Windows&nbsp;RT");
+            correctionAdd("WindowsRT", "Windows RT");
 
             // Windows
             correctionAdd("system32", "System32");
@@ -40724,9 +40703,8 @@ namespace OverflowHelper.core
             correctionAdd("Sticky", "Sticky Keys");
 
             // Windows
-            correctionAdd("DLL Hell", "DLL&nbsp;Hell"); // Sort of identity mapping
-            correctionAdd("dll hell", "DLL&nbsp;Hell");
-            correctionAdd("DLL hell", "DLL&nbsp;Hell");
+            correctionAdd("dll hell", "DLL Hell");
+            correctionAdd("DLL hell", "DLL Hell");
 
             // Windows
             correctionAdd("windbg", "WinDbg");
@@ -53054,6 +53032,7 @@ namespace OverflowHelper.core
             // But the link is now broken...
             correctionAdd("AVR STUDIO", "AVR Studio");
             correctionAdd("avr studio", "AVR Studio");
+            correctionAdd("AVR studio", "AVR Studio");
             correctionAdd("avrstudio", "AVR Studio");
             correctionAdd("AVRstudio", "AVR Studio");
 
@@ -96758,9 +96737,8 @@ namespace OverflowHelper.core
             // BBC Micro
             correctionAdd("BBC Basic", "BBC BASIC");
 
-            correctionAdd("RISC OS", "RISC&nbsp;OS");
-            correctionAdd("risc os", "RISC&nbsp;OS");
-            correctionAdd("riscos", "RISC&nbsp;OS");
+            correctionAdd("risc os", "RISC OS");
+            correctionAdd("riscos", "RISC OS");
 
             correctionAdd("Commodore", "Commodore PET");
 
@@ -100691,15 +100669,14 @@ namespace OverflowHelper.core
             correctionAdd("CR.SE", "Code&nbsp;Review (Stack Exchange site)");
             correctionAdd("CRSE", "Code&nbsp;Review (Stack Exchange site)");
 
-            correctionAdd("Ask Different (Stack Exchange site)", "Ask&nbsp;Different (Stack Exchange site)");
-            correctionAdd("apple.stackexchange.com", "Ask&nbsp;Different (Stack Exchange site)");
-            correctionAdd("Ask&nbsp;Different", "Ask&nbsp;Different (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Ask Different", "Ask&nbsp;Different (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("ASk Different", "Ask&nbsp;Different (Stack Exchange site)");
-            correctionAdd("ask different", "Ask&nbsp;Different (Stack Exchange site)");
-            correctionAdd("AskDifferent", "Ask&nbsp;Different (Stack Exchange site)");
-            correctionAdd("askdifferent", "Ask&nbsp;Different (Stack Exchange site)");
-            correctionAdd("Apple SE", "Ask&nbsp;Different (Stack Exchange site)");
+            correctionAdd("apple.stackexchange.com", "Ask Different (Stack Exchange site)");
+            correctionAdd("Ask&nbsp;Different", "Ask Different (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Ask Different", "Ask Different (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("ASk Different", "Ask Different (Stack Exchange site)");
+            correctionAdd("ask different", "Ask Different (Stack Exchange site)");
+            correctionAdd("AskDifferent", "Ask Different (Stack Exchange site)");
+            correctionAdd("askdifferent", "Ask Different (Stack Exchange site)");
+            correctionAdd("Apple SE", "Ask Different (Stack Exchange site)");
 
             correctionAdd("retro computing", "Retrocomputing (Stack Exchange site)");
             correctionAdd("Retro computing", "Retrocomputing (Stack Exchange site)");
@@ -100892,9 +100869,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Robotics", "Robotics (Stack Exchange site)");
 
-            correctionAdd("Craft CMS (Stack Exchange site)", "Craft&nbsp;CMS (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Craft&nbsp;CMS", "Craft&nbsp;CMS (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Craft CMS", "Craft&nbsp;CMS (Stack Exchange site)");
+            correctionAdd("Craft CMS", "Craft CMS (Stack Exchange site)");
 
             correctionAdd("Open Data (Stack Exchange site)", "Open&nbsp;Data (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Open&nbsp;Data", "Open&nbsp;Data (Stack Exchange site)"); // Sort of identity mapping
@@ -108574,7 +108549,7 @@ namespace OverflowHelper.core
             correctionAdd("suxx", "sucks");
             correctionAdd("sux", "sucks");
 
-            // Note: "fuck" is in an another alternative word set
+            // Note: "fuck" is in an alternative word set
             correctionAdd("f*cked", "fucked");
             correctionAdd("F*CKED", "fucked");
             correctionAdd("f**ked", "fucked");
@@ -112150,7 +112125,7 @@ namespace OverflowHelper.core
 
             URL_Add("often", "https://en.wiktionary.org/wiki/often#Adverb");
 
-            URL_Add("Angular&nbsp;2", "https://en.wikipedia.org/wiki/Angular_(web_framework)#Version_2");
+            URL_Add("Angular 2", "https://en.wikipedia.org/wiki/Angular_(web_framework)#Version_2");
 
             URL_Add("big data", "https://en.wikipedia.org/wiki/Big_data");
 
@@ -121758,7 +121733,7 @@ namespace OverflowHelper.core
 
             URL_Add("arguments", "https://en.wiktionary.org/wiki/argument#Noun");
 
-            URL_Add("IP&nbsp;camera", "https://en.wikipedia.org/wiki/IP_camera");
+            URL_Add("IP camera", "https://en.wikipedia.org/wiki/IP_camera");
 
             URL_Add("nonconsistent", "https://en.wiktionary.org/wiki/nonconsistent#Adjective");
 
@@ -126866,7 +126841,7 @@ namespace OverflowHelper.core
 
             URL_Add("promotion", "https://en.wiktionary.org/wiki/promotion#Noun");
 
-            URL_Add("RISC&nbsp;OS", "https://en.wikipedia.org/wiki/RISC_OS");
+            URL_Add("RISC OS", "https://en.wikipedia.org/wiki/RISC_OS");
 
             URL_Add("drawback", "https://en.wiktionary.org/wiki/drawback#Noun");
 
@@ -132530,7 +132505,7 @@ namespace OverflowHelper.core
 
             URL_Add("IIS", "https://en.wikipedia.org/wiki/Internet_Information_Services");
 
-            URL_Add("IIS&nbsp;Express", "https://en.wikipedia.org/wiki/Internet_Information_Services#IIS_Express");
+            URL_Add("IIS Express", "https://en.wikipedia.org/wiki/Internet_Information_Services#IIS_Express");
 
             URL_Add("Visual Studio Code", "https://en.wikipedia.org/wiki/Visual_Studio_Code");
 
@@ -132546,7 +132521,7 @@ namespace OverflowHelper.core
 
             URL_Add("Apache HTTP Server", "https://en.wikipedia.org/wiki/Apache_HTTP_Server");
 
-            URL_Add("Apache&nbsp;2", "https://en.wikipedia.org/wiki/Apache_HTTP_Server#Versions");
+            URL_Add("Apache 2", "https://en.wikipedia.org/wiki/Apache_HTTP_Server#Versions");
 
             URL_Add("Apache Directory Studio", "https://en.wikipedia.org/wiki/Apache_Directory");
 
@@ -138754,11 +138729,11 @@ namespace OverflowHelper.core
 
             URL_Add("Windows Server 2016", "https://en.wikipedia.org/wiki/Windows_Server_2016");
 
-            URL_Add("Windows&nbsp;CE", "https://en.wikipedia.org/wiki/Windows_CE");
+            URL_Add("Windows CE", "https://en.wikipedia.org/wiki/Windows_CE");
 
             URL_Add("Windows IoT", "https://en.wikipedia.org/wiki/Windows_IoT");
 
-            URL_Add("Windows&nbsp;RT", "https://en.wikipedia.org/wiki/Windows_RT");
+            URL_Add("Windows RT", "https://en.wikipedia.org/wiki/Windows_RT");
 
             URL_Add("Windows Mobile", "https://en.wikipedia.org/wiki/Windows_Mobile");
 
@@ -141272,7 +141247,7 @@ namespace OverflowHelper.core
 
             URL_Add("loose coupling", "https://en.wikipedia.org/wiki/Loose_coupling");
 
-            URL_Add("DLL&nbsp;Hell", "https://en.wikipedia.org/wiki/DLL_Hell");
+            URL_Add("DLL Hell", "https://en.wikipedia.org/wiki/DLL_Hell");
 
             URL_Add("cohesion", "https://en.wikipedia.org/wiki/Cohesion_(computer_science)");
 
@@ -141886,7 +141861,7 @@ namespace OverflowHelper.core
 
             URL_Add("Rational Unified Process", "https://en.wikipedia.org/wiki/Rational_Unified_Process");
 
-            URL_Add("Process&nbsp;Explorer", "https://en.wikipedia.org/wiki/Process_Explorer");
+            URL_Add("Process Explorer", "https://en.wikipedia.org/wiki/Process_Explorer");
 
             URL_Add("Process Hacker", "https://processhacker.sourceforge.io/");
 
@@ -143860,23 +143835,23 @@ namespace OverflowHelper.core
 
             URL_Add("ECMAScript module", "https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/");
 
-            URL_Add("ECMAScript&nbsp;3", "https://en.wikipedia.org/wiki/ECMAScript#Versions");
+            URL_Add("ECMAScript 3", "https://en.wikipedia.org/wiki/ECMAScript#Versions");
 
-            URL_Add("ECMAScript&nbsp;4", "https://en.wikipedia.org/wiki/ECMAScript#Versions");
+            URL_Add("ECMAScript 4", "https://en.wikipedia.org/wiki/ECMAScript#Versions");
 
-            URL_Add("ECMAScript&nbsp;5", "https://en.wikipedia.org/wiki/ECMAScript#5th_Edition_%E2%80%93_ECMAScript_2009"); // Old: https://en.wikipedia.org/wiki/ECMAScript#5th_Edition_%E2%80%93_ECMAScript_2009https://en.wikipedia.org/wiki/ECMAScript#5th_Edition
+            URL_Add("ECMAScript 5", "https://en.wikipedia.org/wiki/ECMAScript#5th_Edition_%E2%80%93_ECMAScript_2009"); // Old: https://en.wikipedia.org/wiki/ECMAScript#5th_Edition_%E2%80%93_ECMAScript_2009https://en.wikipedia.org/wiki/ECMAScript#5th_Edition
 
-            URL_Add("ECMAScript&nbsp;2015", "https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_%E2%80%93_ECMAScript_2015"); // Old: https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015
+            URL_Add("ECMAScript 2015", "https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_%E2%80%93_ECMAScript_2015"); // Old: https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015
 
-            URL_Add("ECMAScript&nbsp;2016", "https://en.wikipedia.org/wiki/ECMAScript#7th_Edition_%E2%80%93_ECMAScript_2016"); // Old: https://en.wikipedia.org/wiki/ECMAScript#10th_Edition_%E2%80%93_ECMAScript_2019. Even older: https://en.wikipedia.org/wiki/ECMAScript#7th_Edition_-_ECMAScript_2016
+            URL_Add("ECMAScript 2016", "https://en.wikipedia.org/wiki/ECMAScript#7th_Edition_%E2%80%93_ECMAScript_2016"); // Old: https://en.wikipedia.org/wiki/ECMAScript#10th_Edition_%E2%80%93_ECMAScript_2019. Even older: https://en.wikipedia.org/wiki/ECMAScript#7th_Edition_-_ECMAScript_2016
 
-            URL_Add("ECMAScript&nbsp;2017", "https://en.wikipedia.org/wiki/ECMAScript#8th_Edition_%E2%80%93_ECMAScript_2017"); // Old: https://en.wikipedia.org/wiki/ECMAScript#8th_Edition_-_ECMAScript_2017
+            URL_Add("ECMAScript 2017", "https://en.wikipedia.org/wiki/ECMAScript#8th_Edition_%E2%80%93_ECMAScript_2017"); // Old: https://en.wikipedia.org/wiki/ECMAScript#8th_Edition_-_ECMAScript_2017
 
-            URL_Add("ECMAScript&nbsp;2018", "https://en.wikipedia.org/wiki/ECMAScript#9th_Edition_%E2%80%93_ECMAScript_2018");
+            URL_Add("ECMAScript 2018", "https://en.wikipedia.org/wiki/ECMAScript#9th_Edition_%E2%80%93_ECMAScript_2018");
 
-            URL_Add("ECMAScript&nbsp;2019", "https://en.wikipedia.org/wiki/ECMAScript#10th_Edition_%E2%80%93_ECMAScript_2019");
+            URL_Add("ECMAScript 2019", "https://en.wikipedia.org/wiki/ECMAScript#10th_Edition_%E2%80%93_ECMAScript_2019");
 
-            URL_Add("ECMAScript&nbsp;2020", "https://en.wikipedia.org/wiki/ECMAScript#11th_Edition_%E2%80%93_ECMAScript_2020");
+            URL_Add("ECMAScript 2020", "https://en.wikipedia.org/wiki/ECMAScript#11th_Edition_%E2%80%93_ECMAScript_2020");
 
             URL_Add("interface", "https://en.wiktionary.org/wiki/interface#Verb");
 
@@ -144344,7 +144319,7 @@ namespace OverflowHelper.core
 
             URL_Add("Language&nbsp;Learning (Stack Exchange site)", "https://languagelearning.stackexchange.com/tour");
 
-            URL_Add("Craft&nbsp;CMS (Stack Exchange site)", "https://craftcms.stackexchange.com/tour");
+            URL_Add("Craft CMS (Stack Exchange site)", "https://craftcms.stackexchange.com/tour");
 
             URL_Add("Open&nbsp;Data (Stack Exchange site)", "https://opendata.stackexchange.com/tour");
 
@@ -144394,7 +144369,7 @@ namespace OverflowHelper.core
 
             URL_Add("Area 51 (Stack Exchange site)", "https://area51.stackexchange.com/faq"); // Old: https://en.wikipedia.org/wiki/Stack_Exchange#History. Even older URL: https://en.wikipedia.org/wiki/Stack_Exchange_Network#area51
 
-            URL_Add("Ask&nbsp;Different (Stack Exchange site)", "https://apple.stackexchange.com/tour");
+            URL_Add("Ask Different (Stack Exchange site)", "https://apple.stackexchange.com/tour");
 
             URL_Add("Robotics (Stack Exchange site)", "https://robotics.stackexchange.com/tour");
 
@@ -163498,52 +163473,46 @@ namespace OverflowHelper.core
             correctionAdd("Bioinformatics_", "Bioinformatics (Stack Exchange site)_"); // Sort of identity mapping"
             correctionAdd("bioinformatics_", "Bioinformatics (Stack Exchange site)_");
 
-            correctionAdd("Software Recommendations (Stack Exchange site)_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("Software&nbsp;Recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Software Recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
-            correctionAdd("software recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("Software Recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("Sofware Recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("Software Recommendation_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("recommendations_", "Software&nbsp;Recommendations (Stack Exchange site)_"); // For the cross-reference
-            correctionAdd("Software Recs_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("software recs_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("softwarerecs_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("soft recs_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("soft reqs_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("soft rec_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("softrecs_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("softreqs_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("sof rec_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("softrec_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("SW recs_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("sw recs_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("swrecs_", "Software&nbsp;Recommendations (Stack Exchange site)_");
-            correctionAdd("SR_", "Software&nbsp;Recommendations (Stack Exchange site)_");
+            correctionAdd("Software Recommendations_", "Software Recommendations (Stack Exchange site)_"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
+            correctionAdd("software recommendations_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("Software Recommendations_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("Sofware Recommendations_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("Software Recommendation_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("recommendations_", "Software Recommendations (Stack Exchange site)_"); // For the cross-reference
+            correctionAdd("Software Recs_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("software recs_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("softwarerecs_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("soft recs_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("soft reqs_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("soft rec_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("softrecs_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("softreqs_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("sof rec_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("softrec_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("SW recs_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("sw recs_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("swrecs_", "Software Recommendations (Stack Exchange site)_");
+            correctionAdd("SR_", "Software Recommendations (Stack Exchange site)_");
 
-            correctionAdd("Cross Validated (Stack Exchange site)_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("stats.stackexchange.com_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("Stats Stack Exchange_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("Cross&nbsp;Validated_", "Cross&nbsp;Validated (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("Stats stackexchange_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("CrossValidated.SE_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("cross-validated_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("Cross validated_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("Cross Validated_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("cross validated_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("CrossValidated_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("stats.SE_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("Stats.SE_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("stats_", "Cross&nbsp;Validated (Stack Exchange site)_");
-            correctionAdd("Stats_", "Cross&nbsp;Validated (Stack Exchange site)_");
+            correctionAdd("stats.stackexchange.com_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("Stats Stack Exchange_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("Stats stackexchange_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("CrossValidated.SE_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("cross-validated_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("Cross validated_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("Cross Validated_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("cross validated_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("CrossValidated_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("stats.SE_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("Stats.SE_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("stats_", "Cross Validated (Stack Exchange site)_");
+            correctionAdd("Stats_", "Cross Validated (Stack Exchange site)_");
 
-            correctionAdd("Music: Practice & Theory (Stack Exchange site)_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
-            correctionAdd("Music:&nbsp;Practice&nbsp;&&nbsp;Theory_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("music Stack Exchange site_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
-            correctionAdd("Music: Practice & Theory_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_"); // Sort of identity mapping
-            correctionAdd("music Stack Exchange_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
-            correctionAdd("Music.SE_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
-            correctionAdd("Music_", "Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_");
+            correctionAdd("music Stack Exchange site_", "Music: Practice & Theory (Stack Exchange site)_");
+            correctionAdd("Music: Practice & Theory_", "Music: Practice & Theory (Stack Exchange site)_"); // Sort of identity mapping
+            correctionAdd("music Stack Exchange_", "Music: Practice & Theory (Stack Exchange site)_");
+            correctionAdd("Music.SE_", "Music: Practice & Theory (Stack Exchange site)_");
+            correctionAdd("Music_", "Music: Practice & Theory (Stack Exchange site)_");
 
             correctionAdd("aviation Stack Exchange site_", "Aviation (Stack Exchange site)_");
             correctionAdd("Aviation_", "Aviation (Stack Exchange site)_");
@@ -163828,10 +163797,9 @@ namespace OverflowHelper.core
             //   <https://craftquest.io/>
             //     Video tutorials and courses
             //
-            correctionAdd("Craft CMS_", "Craft&nbsp;CMS_"); // Sort of identity mapping
-            correctionAdd("CraftCMS_", "Craft&nbsp;CMS_");
-            correctionAdd("craftcms_", "Craft&nbsp;CMS_");
-            correctionAdd("Craft_", "Craft&nbsp;CMS_");
+            correctionAdd("CraftCMS_", "Craft CMS_");
+            correctionAdd("craftcms_", "Craft CMS_");
+            correctionAdd("Craft_", "Craft CMS_");
 
             // Start of PHP function section
             //
@@ -165117,33 +165085,30 @@ namespace OverflowHelper.core
             correctionAdd("Capacitor_", "Ionic Capacitor_");
 
             // 2012 vintage
-            correctionAdd("Android&nbsp;4.1 (Jelly Bean)_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("Android 4.1 (Jelly Bean)_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Sort of identity mapping
-            correctionAdd("Jellybean 4.2_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Android 4.2.1_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("API Level 17_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("Android 4.2_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Android 4.1_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("Jelly Bean_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Jelly bean_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("JellyBean_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("Jellybean_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("API 16_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("API 17_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("API 18_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_");
-            correctionAdd("4.2.1_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("4.2_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
-            correctionAdd("JB_", "Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Android 4.1 (Jelly Bean)_", "Android 4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("Jellybean 4.2_", "Android 4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Android 4.2.1_", "Android 4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("API Level 17_", "Android 4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("Android 4.2_", "Android 4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Android 4.1_", "Android 4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("Jelly Bean_", "Android 4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Jelly bean_", "Android 4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("JellyBean_", "Android 4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Jellybean_", "Android 4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("API 16_", "Android 4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("API 17_", "Android 4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("API 18_", "Android 4.1 (Jelly Bean) (2012 vintage)_");
+            correctionAdd("4.2.1_", "Android 4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("4.2_", "Android 4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
+            correctionAdd("JB_", "Android 4.1 (Jelly Bean) (2012 vintage)_"); // Actually 4.1 - 4.3.1.
 
             // 2022 vintage
-            correctionAdd("Android 12 (2022 vintage)_", "Android&nbsp;12 (2022 vintage)_"); // Sort of identity mapping
-            correctionAdd("Android&nbsp;12_", "Android&nbsp;12 (2022 vintage)_");
-            correctionAdd("android 12_", "Android&nbsp;12 (2022 vintage)_");
-            correctionAdd("Android 12_", "Android&nbsp;12 (2022 vintage)_");
-            correctionAdd("Android S_", "Android&nbsp;12 (2022 vintage)_");
-            correctionAdd("Snow Cone_", "Android&nbsp;12 (2022 vintage)_");
-            correctionAdd("SDK 31_", "Android&nbsp;12 (2022 vintage)_");
-            correctionAdd("12_", "Android&nbsp;12 (2022 vintage)_");
+            correctionAdd("android 12_", "Android 12 (2022 vintage)_");
+            correctionAdd("Android 12_", "Android 12 (2022 vintage)_");
+            correctionAdd("Android S_", "Android 12 (2022 vintage)_");
+            correctionAdd("Snow Cone_", "Android 12 (2022 vintage)_");
+            correctionAdd("SDK 31_", "Android 12 (2022 vintage)_");
+            correctionAdd("12_", "Android 12 (2022 vintage)_");
 
             // It is a type of Android Studio (preview
             // release), ***not*** a version of it...
@@ -165175,21 +165140,20 @@ namespace OverflowHelper.core
             correctionAdd("HD2_", "HTC HD2_");
 
             // An Android smartphone
-            correctionAdd("Samsung Galaxy S III_", "Samsung Galaxy&nbsp;S&nbsp;III_"); // Sort of identity mapping
-            correctionAdd("samsung galaxy s III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Samsung Galaxy III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Samsung Galaxy S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Samsung GalaxyIII_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Samsung Galaxy 3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Galaxy S III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Samsung S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Galaxy III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Galaxy S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("Galaxy s3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("galaxy S_", "Samsung Galaxy&nbsp;S&nbsp;III_"); // Really S3?
-            correctionAdd("galaxyS_", "Samsung Galaxy&nbsp;S&nbsp;III_"); // Really S3?
-            correctionAdd("S III_", "Samsung Galaxy&nbsp;S&nbsp;III_");
-            correctionAdd("S3_", "Samsung Galaxy&nbsp;S&nbsp;III_");
+            correctionAdd("samsung galaxy s III_", "Samsung Galaxy S III_");
+            correctionAdd("Samsung Galaxy III_", "Samsung Galaxy S III_");
+            correctionAdd("Samsung Galaxy S3_", "Samsung Galaxy S III_");
+            correctionAdd("Samsung GalaxyIII_", "Samsung Galaxy S III_");
+            correctionAdd("Samsung Galaxy 3_", "Samsung Galaxy S III_");
+            correctionAdd("Galaxy S III_", "Samsung Galaxy S III_");
+            correctionAdd("Samsung S3_", "Samsung Galaxy S III_");
+            correctionAdd("Galaxy III_", "Samsung Galaxy S III_");
+            correctionAdd("Galaxy S3_", "Samsung Galaxy S III_");
+            correctionAdd("Galaxy s3_", "Samsung Galaxy S III_");
+            correctionAdd("galaxy S_", "Samsung Galaxy S III_"); // Really S3?
+            correctionAdd("galaxyS_", "Samsung Galaxy S III_"); // Really S3?
+            correctionAdd("S III_", "Samsung Galaxy S III_");
+            correctionAdd("S3_", "Samsung Galaxy S III_");
 
             correctionAdd("cse_", "CSE_");
 
@@ -165643,13 +165607,6 @@ namespace OverflowHelper.core
             correctionAdd("mysql_", "MySQL (tag wiki)_");
             correctionAdd("MySQL_", "MySQL (tag wiki)_");
 
-            correctionAdd("SQL Server (tag wiki)_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("[tag:sql-server]_", "SQL&nbsp;Server (tag wiki)_");
-            correctionAdd("SQL&nbsp;Server_", "SQL&nbsp;Server (tag wiki)_");
-            correctionAdd("tag:sql-server_", "SQL&nbsp;Server (tag wiki)_");
-            correctionAdd("sql-server_", "SQL&nbsp;Server (tag wiki)_");
-            correctionAdd("SQL Server_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
-
             correctionAdd("[tag:sql]_", "SQL (tag wiki)_");
             correctionAdd("[tag:SQL]_", "SQL (tag wiki)_");
             correctionAdd("tag:sql_", "SQL (tag wiki)_");
@@ -165662,17 +165619,6 @@ namespace OverflowHelper.core
             correctionAdd("[tag:zephyr]_", "Zephyr (tag wiki)_");
             correctionAdd("zephyr_", "Zephyr (tag wiki)_");
             correctionAdd("Zephyr_", "Zephyr (tag wiki)_");
-
-            correctionAdd("[tag:css]_", "CSS (tag wiki)_");
-            correctionAdd("[tag:CSS]_", "CSS (tag wiki)_");
-            correctionAdd("tag:css_", "CSS (tag wiki)_");
-            correctionAdd("css_", "CSS (tag wiki)_");
-            correctionAdd("CSS_", "CSS (tag wiki)_");
-
-            correctionAdd("[tag:css-3]_", "CSS&nbsp;3 (tag wiki)_");
-            correctionAdd("CSS 3 (tag wiki)_", "CSS&nbsp;3 (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("css-3_", "CSS&nbsp;3 (tag wiki)_");
-            correctionAdd("CSS&nbsp;3_", "CSS&nbsp;3 (tag wiki)_");
 
             correctionAdd("[tag:linux]_", "Linux (tag wiki)_");
             correctionAdd("tag:linux_", "Linux (tag wiki)_");
@@ -165792,6 +165738,37 @@ namespace OverflowHelper.core
             correctionAdd("jython_", "Jython (tag wiki)_");
             correctionAdd("Jython_", "Jython (tag wiki)_");
 
+            // Alternative URLs:
+            //
+            //   <https://sopython.com/canon/>
+            //
+            correctionAdd("[tag:python]_", "Python (tag wiki)_");
+            correctionAdd("[tag:Python]_", "Python (tag wiki)_");
+            correctionAdd("tag:Python_", "Python (tag wiki)_");
+            correctionAdd("tag:python_", "Python (tag wiki)_");
+            correctionAdd("python_", "Python (tag wiki)_");
+            correctionAdd("Python_", "Python (tag wiki)_");
+
+            correctionAdd("[tag:xregexp]_", "XRegExp (tag wiki)_");
+            correctionAdd("tag:xregexp_", "XRegExp (tag wiki)_");
+            correctionAdd("xregexp_", "XRegExp (tag wiki)_");
+            correctionAdd("XRegExp_", "XRegExp (tag wiki)_");
+
+            correctionAdd("[tag:regex]_", "regular expression (tag wiki)_");
+            correctionAdd("regular expression_", "regular expression (tag wiki)_");
+            correctionAdd("regex_", "regular expression (tag wiki)_");
+
+            correctionAdd("[tag:css]_", "CSS (tag wiki)_");
+            correctionAdd("[tag:CSS]_", "CSS (tag wiki)_");
+            correctionAdd("tag:css_", "CSS (tag wiki)_");
+            correctionAdd("css_", "CSS (tag wiki)_");
+            correctionAdd("CSS_", "CSS (tag wiki)_");
+
+            correctionAdd("[tag:css-3]_", "CSS&nbsp;3 (tag wiki)_");
+            correctionAdd("CSS 3 (tag wiki)_", "CSS&nbsp;3 (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("css-3_", "CSS&nbsp;3 (tag wiki)_");
+            correctionAdd("CSS&nbsp;3_", "CSS&nbsp;3 (tag wiki)_");
+
             correctionAdd("[tag:python-2.x]_", "Python&nbsp;2.x (tag wiki)_");
             correctionAdd("Python&nbsp;2.x_", "Python&nbsp;2.x (tag wiki)_");
             correctionAdd("Python 2.x (tag wiki)_", "Python&nbsp;2.x (tag wiki)_"); // Sort of identity mapping
@@ -165825,25 +165802,12 @@ namespace OverflowHelper.core
             correctionAdd("python-3.6_", "Python&nbsp;3.6 (tag wiki)_");
             correctionAdd("Python 3.6_", "Python&nbsp;3.6 (tag wiki)_");
 
-            // Alternative URLs:
-            //
-            //   <https://sopython.com/canon/>
-            //
-            correctionAdd("[tag:python]_", "Python (tag wiki)_");
-            correctionAdd("[tag:Python]_", "Python (tag wiki)_");
-            correctionAdd("tag:Python_", "Python (tag wiki)_");
-            correctionAdd("tag:python_", "Python (tag wiki)_");
-            correctionAdd("python_", "Python (tag wiki)_");
-            correctionAdd("Python_", "Python (tag wiki)_");
-
-            correctionAdd("[tag:xregexp]_", "XRegExp (tag wiki)_");
-            correctionAdd("tag:xregexp_", "XRegExp (tag wiki)_");
-            correctionAdd("xregexp_", "XRegExp (tag wiki)_");
-            correctionAdd("XRegExp_", "XRegExp (tag wiki)_");
-
-            correctionAdd("[tag:regex]_", "regular expression (tag wiki)_");
-            correctionAdd("regular expression_", "regular expression (tag wiki)_");
-            correctionAdd("regex_", "regular expression (tag wiki)_");
+            correctionAdd("SQL Server (tag wiki)_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("[tag:sql-server]_", "SQL&nbsp;Server (tag wiki)_");
+            correctionAdd("SQL&nbsp;Server_", "SQL&nbsp;Server (tag wiki)_");
+            correctionAdd("tag:sql-server_", "SQL&nbsp;Server (tag wiki)_");
+            correctionAdd("sql-server_", "SQL&nbsp;Server (tag wiki)_");
+            correctionAdd("SQL Server_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
 
             //// Wrong URL... It should be:
             //
@@ -167513,14 +167477,13 @@ namespace OverflowHelper.core
             correctionAdd("urlencoding_", "URL encoding_");
 
             // Virtualisation
-            correctionAdd("Windows Virtual PC_", "Virtual&nbsp;PC_");
-            correctionAdd("virtual PC_", "Virtual&nbsp;PC_");
-            correctionAdd("Virtual PC_", "Virtual&nbsp;PC_");
-            correctionAdd("virtual pc_", "Virtual&nbsp;PC_");
-            correctionAdd("virtualPC_", "Virtual&nbsp;PC_");
-            correctionAdd("Virual PC_", "Virtual&nbsp;PC_");
-            correctionAdd("VirualPC_", "Virtual&nbsp;PC_");
-            correctionAdd("VPC_", "Virtual&nbsp;PC_");
+            correctionAdd("Windows Virtual PC_", "Virtual PC_");
+            correctionAdd("virtual PC_", "Virtual PC_");
+            correctionAdd("virtual pc_", "Virtual PC_");
+            correctionAdd("virtualPC_", "Virtual PC_");
+            correctionAdd("Virual PC_", "Virtual PC_");
+            correctionAdd("VirualPC_", "Virtual PC_");
+            correctionAdd("VPC_", "Virtual PC_");
 
             correctionAdd("idele_", "idle_");
             correctionAdd("ideal_", "idle_"); // An autocorrect "masterpiece"?
@@ -168639,8 +168602,6 @@ namespace OverflowHelper.core
 
             URL_Add("SQL (tag wiki)_", "https://stackoverflow.com/questions/tagged/sql");
 
-            URL_Add("SQL&nbsp;Server (tag wiki)_", "https://stackoverflow.com/questions/tagged/sql-server");
-
             URL_Add("MySQL (tag wiki)_", "https://stackoverflow.com/questions/tagged/mysql");
 
             URL_Add("json-api (tag wiki)_", "https://stackoverflow.com/questions/tagged/json-api");
@@ -168652,10 +168613,6 @@ namespace OverflowHelper.core
             URL_Add("VB.NET (tag wiki)_", "https://stackoverflow.com/questions/tagged/vb.net");
 
             URL_Add("VBA (tag wiki)_", "https://stackoverflow.com/questions/tagged/vba");
-
-            URL_Add("CSS (tag wiki)_", "https://stackoverflow.com/questions/tagged/css");
-
-            URL_Add("CSS&nbsp;3 (tag wiki)_", "https://stackoverflow.com/questions/tagged/css-3");
 
             URL_Add("PCRE (tag wiki)_", "https://stackoverflow.com/questions/tagged/pcre");
 
@@ -168674,20 +168631,6 @@ namespace OverflowHelper.core
             URL_Add("Zephyr (tag wiki)_", "https://stackoverflow.com/questions/tagged/zephyr");
 
             URL_Add("Django (tag wiki)_", "https://stackoverflow.com/questions/tagged/django");
-
-            URL_Add("Python (tag wiki)_", "https://stackoverflow.com/questions/tagged/python");
-
-            URL_Add("Python&nbsp;2.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.x");
-
-            URL_Add("Python&nbsp;3.5 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.5");
-
-            URL_Add("Python&nbsp;3.6 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.6");
-
-            URL_Add("Python&nbsp;3.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.x");
-
-            URL_Add("Python&nbsp;2.7 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.7");
-
-            URL_Add("CPython (tag wiki)_", "https://stackoverflow.com/questions/tagged/cpython");
 
             URL_Add("Matplotlib (tag wiki)_", "https://stackoverflow.com/questions/tagged/matplotlib");
 
@@ -168720,6 +168663,26 @@ namespace OverflowHelper.core
             URL_Add("React (tag wiki)_", "https://stackoverflow.com/questions/tagged/react");
 
             URL_Add("React Native (tag wiki)_", "https://stackoverflow.com/questions/tagged/react-native");
+
+            URL_Add("CPython (tag wiki)_", "https://stackoverflow.com/questions/tagged/cpython");
+
+            URL_Add("CSS (tag wiki)_", "https://stackoverflow.com/questions/tagged/css");
+
+            URL_Add("CSS&nbsp;3 (tag wiki)_", "https://stackoverflow.com/questions/tagged/css-3");
+
+            URL_Add("Python (tag wiki)_", "https://stackoverflow.com/questions/tagged/python");
+
+            URL_Add("Python&nbsp;2.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.x");
+
+            URL_Add("Python&nbsp;2.7 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.7");
+
+            URL_Add("Python&nbsp;3.5 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.5");
+
+            URL_Add("Python&nbsp;3.6 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.6");
+
+            URL_Add("Python&nbsp;3.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.x");
+
+            URL_Add("SQL&nbsp;Server (tag wiki)_", "https://stackoverflow.com/questions/tagged/sql-server");
 
             //URL_Add("Zephyr RTOS (tag wiki)_", "https://stackoverflow.com/questions/tagged/zephyr-rtos");
             //
@@ -168965,7 +168928,7 @@ namespace OverflowHelper.core
 
             URL_Add("brief_", "https://en.wiktionary.org/wiki/brief#Adjective");
 
-            URL_Add("Samsung Galaxy&nbsp;S&nbsp;III_", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_III");
+            URL_Add("Samsung Galaxy S III_", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_III");
 
             URL_Add("afford_", "https://en.wiktionary.org/wiki/afford#Verb");
 
@@ -170957,7 +170920,7 @@ namespace OverflowHelper.core
 
             URL_Add("Windows Explorer_", "https://en.wikipedia.org/wiki/File_Explorer"); // Old: https://en.wikipedia.org/wiki/Windows_Explorer
 
-            URL_Add("Virtual&nbsp;PC_", "https://en.wikipedia.org/wiki/Windows_Virtual_PC");
+            URL_Add("Virtual PC_", "https://en.wikipedia.org/wiki/Windows_Virtual_PC");
 
             URL_Add("trim()_", "https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#trim--");
 
@@ -171197,9 +171160,9 @@ namespace OverflowHelper.core
 
             URL_Add("ASP Classic_", "https://en.wikipedia.org/wiki/Active_Server_Pages");
 
-            URL_Add("Android&nbsp;4.1 (Jelly Bean) (2012 vintage)_", "https://en.wikipedia.org/wiki/Android_version_history#Android_4.1_Jelly_Bean"); // Old: https://en.wikipedia.org/wiki/Android_version_history#Android_4.1_Jelly_Bean_.28API_level_16.29
+            URL_Add("Android 4.1 (Jelly Bean) (2012 vintage)_", "https://en.wikipedia.org/wiki/Android_version_history#Android_4.1_Jelly_Bean"); // Old: https://en.wikipedia.org/wiki/Android_version_history#Android_4.1_Jelly_Bean_.28API_level_16.29
 
-            URL_Add("Android&nbsp;12 (2022 vintage)_", "https://en.wikipedia.org/wiki/Android_12");
+            URL_Add("Android 12 (2022 vintage)_", "https://en.wikipedia.org/wiki/Android_12");
 
             URL_Add("Android Studio 15 (Dolphin)_", "https://en.wikipedia.org/wiki/Android_Studio#Version_history");
 
@@ -171743,7 +171706,7 @@ namespace OverflowHelper.core
 
             URL_Add("Act_", "https://github.com/nektos/act");
 
-            URL_Add("Craft&nbsp;CMS_", "https://github.com/craftcms/cms");
+            URL_Add("Craft CMS_", "https://github.com/craftcms/cms");
 
             URL_Add("Jai_", "https://github.com/Ivo-Balbaert/The_Way_to_Jai");
 
@@ -172109,7 +172072,7 @@ namespace OverflowHelper.core
 
             URL_Add("Academia (Stack Exchange site)_", "https://academia.stackexchange.com/tour");
 
-            URL_Add("Music:&nbsp;Practice&nbsp;&&nbsp;Theory (Stack Exchange site)_", "https://music.stackexchange.com/tour");
+            URL_Add("Music: Practice & Theory (Stack Exchange site)_", "https://music.stackexchange.com/tour");
 
             URL_Add("Psychology & Neuroscience (Stack Exchange site)_", "https://psychology.stackexchange.com/tour");
 
@@ -172169,13 +172132,13 @@ namespace OverflowHelper.core
 
             URL_Add("Bitcoin (Stack Exchange site)_", "https://bitcoin.stackexchange.com/tour");
 
-            URL_Add("Software&nbsp;Recommendations (Stack Exchange site)_", "https://softwarerecs.stackexchange.com/tour");
+            URL_Add("Software Recommendations (Stack Exchange site)_", "https://softwarerecs.stackexchange.com/tour");
 
             URL_Add("Linguistics (Stack Exchange site)_", "https://linguistics.stackexchange.com/tour");
 
             URL_Add("WordPress Development (Stack Exchange site)_", "https://wordpress.stackexchange.com/tour");
 
-            URL_Add("Cross&nbsp;Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
+            URL_Add("Cross Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
 
             URL_Add("Artificial Intelligence (Stack Exchange site)_", "https://ai.stackexchange.com/tour");
 
@@ -182093,6 +182056,8 @@ namespace OverflowHelper.core
             correctionAdd("isopropylalkohol___", "isopropyl alcohol___");
             correctionAdd("rubbing alcohol___", "isopropyl alcohol___");
             correctionAdd("iso-prop alc___", "isopropyl alcohol___");
+            correctionAdd("Iso Alcohol___", "isopropyl alcohol___");
+            correctionAdd("iso alcohol___", "isopropyl alcohol___");
             correctionAdd("isoprop___", "isopropyl alcohol___");
             correctionAdd("ISO___", "isopropyl alcohol___");
             correctionAdd("IPA___", "isopropyl alcohol___");
