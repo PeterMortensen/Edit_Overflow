@@ -11328,6 +11328,7 @@ namespace OverflowHelper.core
             correctionAdd("dodn't", "didn’t"); // A true typo
             correctionAdd("dudnt", "didn’t"); // Misspelling and partly a true typo
             correctionAdd("didnt", "didn’t");
+            correctionAdd("DIDNT", "didn’t");
             correctionAdd("din't", "didn’t");
             correctionAdd("din`t", "didn’t");
             correctionAdd("did't", "didn’t");
@@ -11467,8 +11468,6 @@ namespace OverflowHelper.core
             correctionAdd("moneis", "monies"); // A true typo
 
             correctionAdd("money maker", "moneymaker");
-
-            correctionAdd("fu money", "FU money");
 
             correctionAdd("Economics", "economics");
             correctionAdd("econ", "economics");
@@ -23058,6 +23057,9 @@ namespace OverflowHelper.core
             correctionAdd("Pilipinas", "the Philippines"); // Multiple typos and multiple misspellings
             correctionAdd("Pilipines", "the Philippines");
             correctionAdd("PH", "the Philippines");
+
+            correctionAdd("philippine", "Philippine");
+            correctionAdd("PHILIPPINE", "Philippine");
 
             correctionAdd("indonesia", "Indonesia");
             correctionAdd("indunesia", "Indonesia");
@@ -35811,10 +35813,10 @@ namespace OverflowHelper.core
             correctionAdd("finction", "function");
             correctionAdd("functonn", "function");
             correctionAdd("funktion", "function");
-            correctionAdd("fucktion", "function");
             correctionAdd("Function", "function");
             correctionAdd("Funktion", "function");
             correctionAdd("Funciton", "function");
+            correctionAdd("fucktion", "function");
             correctionAdd("funtion", "function");
             correctionAdd("fuction", "function"); // 2017-11-16: 2921 results
             correctionAdd("functon", "function");
@@ -42128,8 +42130,7 @@ namespace OverflowHelper.core
             correctionAdd("babylon", "Babylon.js");
 
             // A science fiction TV series
-            correctionAdd("Babylon 5", "Babylon&nbsp;5"); // Sort of identity mapping
-            correctionAdd("B5", "Babylon&nbsp;5");
+            correctionAdd("B5", "Babylon 5");
 
             // A comedy show
             correctionAdd("big bang theory", "The Big Bang Theory");
@@ -46076,8 +46077,7 @@ namespace OverflowHelper.core
 
             correctionAdd("SQLR", "SQL/R");
 
-            correctionAdd("SQL Search", "SQL&nbsp;Search");
-            correctionAdd("SQLSearch", "SQL&nbsp;Search");
+            correctionAdd("SQLSearch", "SQL Search");
 
             correctionAdd("data description language", "DDL");
             correctionAdd("data definition language", "DDL");
@@ -46198,80 +46198,76 @@ namespace OverflowHelper.core
 
             correctionAdd("pymysql", "PyMySQL");
 
-            correctionAdd("LINQ (to sql)", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq to SQL", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("linq to sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq-to-SQL", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("linq-to-sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq to sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("LINQ-to-SQL", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq to Sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("LINQ to sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq-To-SQL", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq-To-Sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq-to-sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq To SQL", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq To Sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("LINQ to SQL", "LINQ&nbsp;to&nbsp;SQL"); // Effectively self (line-breaks)
-            correctionAdd("linq to Sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq 2 Sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq 2 SQL", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("LINQ 2 SQL", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("LinqToSql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("LinqToSQL", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("linq2sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq2Sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq Sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq2sql", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("Linq2SQL", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("LINQ2SQL", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("sql2linq", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("LinqSQL", "LINQ&nbsp;to&nbsp;SQL");
-            correctionAdd("LINQ2QL", "LINQ&nbsp;to&nbsp;SQL"); // Misspelling.
-            correctionAdd("L2S", "LINQ&nbsp;to&nbsp;SQL");
+            correctionAdd("LINQ (to sql)", "LINQ to SQL");
+            correctionAdd("Linq to SQL", "LINQ to SQL");
+            correctionAdd("linq to sql", "LINQ to SQL");
+            correctionAdd("Linq-to-SQL", "LINQ to SQL");
+            correctionAdd("linq-to-sql", "LINQ to SQL");
+            correctionAdd("Linq to sql", "LINQ to SQL");
+            correctionAdd("LINQ-to-SQL", "LINQ to SQL");
+            correctionAdd("Linq to Sql", "LINQ to SQL");
+            correctionAdd("LINQ to sql", "LINQ to SQL");
+            correctionAdd("Linq-To-SQL", "LINQ to SQL");
+            correctionAdd("Linq-To-Sql", "LINQ to SQL");
+            correctionAdd("Linq-to-sql", "LINQ to SQL");
+            correctionAdd("Linq To SQL", "LINQ to SQL");
+            correctionAdd("Linq To Sql", "LINQ to SQL");
+            correctionAdd("linq to Sql", "LINQ to SQL");
+            correctionAdd("Linq 2 Sql", "LINQ to SQL");
+            correctionAdd("Linq 2 SQL", "LINQ to SQL");
+            correctionAdd("LINQ 2 SQL", "LINQ to SQL");
+            correctionAdd("LinqToSql", "LINQ to SQL");
+            correctionAdd("LinqToSQL", "LINQ to SQL");
+            correctionAdd("linq2sql", "LINQ to SQL");
+            correctionAdd("Linq2Sql", "LINQ to SQL");
+            correctionAdd("Linq Sql", "LINQ to SQL");
+            correctionAdd("Linq2sql", "LINQ to SQL");
+            correctionAdd("Linq2SQL", "LINQ to SQL");
+            correctionAdd("LINQ2SQL", "LINQ to SQL");
+            correctionAdd("sql2linq", "LINQ to SQL");
+            correctionAdd("LinqSQL", "LINQ to SQL");
+            correctionAdd("LINQ2QL", "LINQ to SQL"); // Misspelling.
+            correctionAdd("L2S", "LINQ to SQL");
 
-            correctionAdd("LINQ for XML", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("linq to xml", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("LINQ-to-XML", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("Linq to XML", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("linq-to-xml", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("Linq-to-xml", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("LINQ to XML", "LINQ&nbsp;to&nbsp;XML"); // Effectively self (line-breaks)
-            correctionAdd("Linq to Xml", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("Linq to xml", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("XML to LiNQ", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("Linq 2 XML", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("linqtoxml", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("linq2xml", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("linq-xml", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("Linq-XML", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("Xml Linq", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("XML Linq", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("XML LINQ", "LINQ&nbsp;to&nbsp;XML");
-            correctionAdd("XLinq", "LINQ&nbsp;to&nbsp;XML"); // Synonym
+            correctionAdd("LINQ for XML", "LINQ to XML");
+            correctionAdd("linq to xml", "LINQ to XML");
+            correctionAdd("LINQ-to-XML", "LINQ to XML");
+            correctionAdd("Linq to XML", "LINQ to XML");
+            correctionAdd("linq-to-xml", "LINQ to XML");
+            correctionAdd("Linq-to-xml", "LINQ to XML");
+            correctionAdd("Linq to Xml", "LINQ to XML");
+            correctionAdd("Linq to xml", "LINQ to XML");
+            correctionAdd("XML to LiNQ", "LINQ to XML");
+            correctionAdd("Linq 2 XML", "LINQ to XML");
+            correctionAdd("linqtoxml", "LINQ to XML");
+            correctionAdd("linq2xml", "LINQ to XML");
+            correctionAdd("linq-xml", "LINQ to XML");
+            correctionAdd("Linq-XML", "LINQ to XML");
+            correctionAdd("Xml Linq", "LINQ to XML");
+            correctionAdd("XML Linq", "LINQ to XML");
+            correctionAdd("XML LINQ", "LINQ to XML");
+            correctionAdd("XLinq", "LINQ to XML"); // Synonym
 
-            correctionAdd("LINQ to objects", "LINQ&nbsp;to&nbsp;Objects");
-            correctionAdd("Linq-to-Objects", "LINQ&nbsp;to&nbsp;Objects");
-            correctionAdd("Linq to Objects", "LINQ&nbsp;to&nbsp;Objects");
-            correctionAdd("LINQ to Objects", "LINQ&nbsp;to&nbsp;Objects"); // Effectively self (line-breaks)
-            correctionAdd("LINQ-to-Objects", "LINQ&nbsp;to&nbsp;Objects");
-            correctionAdd("linq to objects", "LINQ&nbsp;to&nbsp;Objects");
-            correctionAdd("Linq to objects", "LINQ&nbsp;to&nbsp;Objects");
-            correctionAdd("LINQ to Object", "LINQ&nbsp;to&nbsp;Objects");
-            correctionAdd("Linq-to-object", "LINQ&nbsp;to&nbsp;Objects");
+            correctionAdd("LINQ to objects", "LINQ to Objects");
+            correctionAdd("Linq-to-Objects", "LINQ to Objects");
+            correctionAdd("Linq to Objects", "LINQ to Objects");
+            correctionAdd("LINQ-to-Objects", "LINQ to Objects");
+            correctionAdd("linq to objects", "LINQ to Objects");
+            correctionAdd("Linq to objects", "LINQ to Objects");
+            correctionAdd("LINQ to Object", "LINQ to Objects");
+            correctionAdd("Linq-to-object", "LINQ to Objects");
 
-            correctionAdd("LINQ (to entities)", "LINQ&nbsp;to&nbsp;Entities");
-            correctionAdd("Linq-to-Entities", "LINQ&nbsp;to&nbsp;Entities");
-            correctionAdd("Linq to Entities", "LINQ&nbsp;to&nbsp;Entities");
-            correctionAdd("LINQ to Entities", "LINQ&nbsp;to&nbsp;Entities"); // Effectively self (line-breaks)
-            correctionAdd("linq to entities", "LINQ&nbsp;to&nbsp;Entities");
-            correctionAdd("LINQ to entities", "LINQ&nbsp;to&nbsp;Entities");
-            correctionAdd("linq-to-entities", "LINQ&nbsp;to&nbsp;Entities");
-            correctionAdd("Linq to entities", "LINQ&nbsp;to&nbsp;Entities");
-            correctionAdd("Linq-to-entities", "LINQ&nbsp;to&nbsp;Entities");
-            correctionAdd("LinqToEntities", "LINQ&nbsp;to&nbsp;Entities");
-            correctionAdd("linq-to-entity", "LINQ&nbsp;to&nbsp;Entities");
-            correctionAdd("Linq to EF", "LINQ&nbsp;to&nbsp;Entities");
+            correctionAdd("LINQ (to entities)", "LINQ to Entities");
+            correctionAdd("Linq-to-Entities", "LINQ to Entities");
+            correctionAdd("Linq to Entities", "LINQ to Entities");
+            correctionAdd("linq to entities", "LINQ to Entities");
+            correctionAdd("LINQ to entities", "LINQ to Entities");
+            correctionAdd("linq-to-entities", "LINQ to Entities");
+            correctionAdd("Linq to entities", "LINQ to Entities");
+            correctionAdd("Linq-to-entities", "LINQ to Entities");
+            correctionAdd("LinqToEntities", "LINQ to Entities");
+            correctionAdd("linq-to-entity", "LINQ to Entities");
+            correctionAdd("Linq to EF", "LINQ to Entities");
 
             correctionAdd("Linq", "LINQ");
             correctionAdd("linq", "LINQ");
@@ -46300,11 +46296,10 @@ namespace OverflowHelper.core
             correctionAdd("sqilte", "SQLite");
             correctionAdd("sqite", "SQLite");
 
-            correctionAdd("SQLite 3", "SQLite&nbsp;3");
-            correctionAdd("sqlite 3", "SQLite&nbsp;3");
-            correctionAdd("sqllite3", "SQLite&nbsp;3");
-            correctionAdd("SQLite3", "SQLite&nbsp;3");
-            correctionAdd("sqlite3", "SQLite&nbsp;3");
+            correctionAdd("sqlite 3", "SQLite 3");
+            correctionAdd("sqllite3", "SQLite 3");
+            correctionAdd("SQLite3", "SQLite 3");
+            correctionAdd("sqlite3", "SQLite 3");
 
             // A Firefox add-on for SQLite
             //
@@ -46562,58 +46557,57 @@ namespace OverflowHelper.core
             correctionAdd("TSQl", "T-SQL");
             correctionAdd("tsql", "T-SQL");
 
-            correctionAdd("Microsoft SQL Server", "SQL&nbsp;Server");
-            correctionAdd("Microsoft SQL", "SQL&nbsp;Server");
-            correctionAdd("MS-SQL-SERVER", "SQL&nbsp;Server");
-            correctionAdd("Ms SQl server", "SQL&nbsp;Server");
-            correctionAdd("MS SQL SERVER", "SQL&nbsp;Server");
-            correctionAdd("MS Sql server", "SQL&nbsp;Server");
-            correctionAdd("MS SQL Server", "SQL&nbsp;Server");
-            correctionAdd("Ms Sql server", "SQL&nbsp;Server");
-            correctionAdd("MS SQL server", "SQL&nbsp;Server");
-            correctionAdd("MS Sql Server", "SQL&nbsp;Server");
-            correctionAdd("MS-SQL Server", "SQL&nbsp;Server");
-            correctionAdd("MS SQLserver", "SQL&nbsp;Server");
-            correctionAdd("MSSQL Server", "SQL&nbsp;Server");
-            correctionAdd("MSSQLSERVER", "SQL&nbsp;Server");
-            correctionAdd("MSSQLserver", "SQL&nbsp;Server");
-            correctionAdd("TSQL Server", "SQL&nbsp;Server");
-            correctionAdd("sql-server", "SQL&nbsp;Server");
-            correctionAdd("SQL-Server", "SQL&nbsp;Server");
-            correctionAdd("sql srever", "SQL&nbsp;Server");
-            correctionAdd("SQL Srever", "SQL&nbsp;Server");
-            correctionAdd("SQl Server", "SQL&nbsp;Server");
-            correctionAdd("SQL Server", "SQL&nbsp;Server"); // Effectively self
-            correctionAdd("Sql Server", "SQL&nbsp;Server");
-            correctionAdd("SQL server", "SQL&nbsp;Server");
-            correctionAdd("sql server", "SQL&nbsp;Server");
-            correctionAdd("sql Server", "SQL&nbsp;Server");
-            correctionAdd("Sql server", "SQL&nbsp;Server");
-            correctionAdd("SQL SERVER", "SQL&nbsp;Server");
-            correctionAdd("SQl server", "SQL&nbsp;Server");
-            correctionAdd("sqlserver", "SQL&nbsp;Server");
-            correctionAdd("SqlServer", "SQL&nbsp;Server");
-            correctionAdd("SQLServer", "SQL&nbsp;Server");
-            correctionAdd("Sql Sever", "SQL&nbsp;Server");
-            correctionAdd("MS Server", "SQL&nbsp;Server");
-            correctionAdd("SQLSERVER", "SQL&nbsp;Server");
-            correctionAdd("slqserver", "SQL&nbsp;Server");
-            correctionAdd("SQLserver", "SQL&nbsp;Server");
-            correctionAdd("sql sever", "SQL&nbsp;Server");
-            correctionAdd("SQL SEVER", "SQL&nbsp;Server");
-            correctionAdd("SQL Sever", "SQL&nbsp;Server");
-            correctionAdd("the SQL", "SQL&nbsp;Server");
-            correctionAdd("the sql", "SQL&nbsp;Server");
-            correctionAdd("SQLSRV", "SQL&nbsp;Server");
-            correctionAdd("MS-SQL", "SQL&nbsp;Server");
-            correctionAdd("MS sql", "SQL&nbsp;Server");
-            correctionAdd("ms sql", "SQL&nbsp;Server");
-            correctionAdd("M$ sql", "SQL&nbsp;Server");
-            correctionAdd("MS SQL", "SQL&nbsp;Server");
-            correctionAdd("mssql", "SQL&nbsp;Server");
-            correctionAdd("MsSql", "SQL&nbsp;Server");
-            correctionAdd("MsSQL", "SQL&nbsp;Server");
-            correctionAdd("MSSQL", "SQL&nbsp;Server");
+            correctionAdd("Microsoft SQL Server", "SQL Server");
+            correctionAdd("Microsoft SQL", "SQL Server");
+            correctionAdd("MS-SQL-SERVER", "SQL Server");
+            correctionAdd("Ms SQl server", "SQL Server");
+            correctionAdd("MS SQL SERVER", "SQL Server");
+            correctionAdd("MS Sql server", "SQL Server");
+            correctionAdd("MS SQL Server", "SQL Server");
+            correctionAdd("Ms Sql server", "SQL Server");
+            correctionAdd("MS SQL server", "SQL Server");
+            correctionAdd("MS Sql Server", "SQL Server");
+            correctionAdd("MS-SQL Server", "SQL Server");
+            correctionAdd("MS SQLserver", "SQL Server");
+            correctionAdd("MSSQL Server", "SQL Server");
+            correctionAdd("MSSQLSERVER", "SQL Server");
+            correctionAdd("MSSQLserver", "SQL Server");
+            correctionAdd("TSQL Server", "SQL Server");
+            correctionAdd("sql-server", "SQL Server");
+            correctionAdd("SQL-Server", "SQL Server");
+            correctionAdd("sql srever", "SQL Server");
+            correctionAdd("SQL Srever", "SQL Server");
+            correctionAdd("SQl Server", "SQL Server");
+            correctionAdd("Sql Server", "SQL Server");
+            correctionAdd("SQL server", "SQL Server");
+            correctionAdd("sql server", "SQL Server");
+            correctionAdd("sql Server", "SQL Server");
+            correctionAdd("Sql server", "SQL Server");
+            correctionAdd("SQL SERVER", "SQL Server");
+            correctionAdd("SQl server", "SQL Server");
+            correctionAdd("sqlserver", "SQL Server");
+            correctionAdd("SqlServer", "SQL Server");
+            correctionAdd("SQLServer", "SQL Server");
+            correctionAdd("Sql Sever", "SQL Server");
+            correctionAdd("MS Server", "SQL Server");
+            correctionAdd("SQLSERVER", "SQL Server");
+            correctionAdd("slqserver", "SQL Server");
+            correctionAdd("SQLserver", "SQL Server");
+            correctionAdd("sql sever", "SQL Server");
+            correctionAdd("SQL SEVER", "SQL Server");
+            correctionAdd("SQL Sever", "SQL Server");
+            correctionAdd("the SQL", "SQL Server");
+            correctionAdd("the sql", "SQL Server");
+            correctionAdd("SQLSRV", "SQL Server");
+            correctionAdd("MS-SQL", "SQL Server");
+            correctionAdd("MS sql", "SQL Server");
+            correctionAdd("ms sql", "SQL Server");
+            correctionAdd("M$ sql", "SQL Server");
+            correctionAdd("MS SQL", "SQL Server");
+            correctionAdd("mssql", "SQL Server");
+            correctionAdd("MsSql", "SQL Server");
+            correctionAdd("MsSQL", "SQL Server");
+            correctionAdd("MSSQL", "SQL Server");
 
             correctionAdd("sql server 2000", "SQL Server 2000");
             correctionAdd("SQL SERVER 2000", "SQL Server 2000");
@@ -46623,7 +46617,6 @@ namespace OverflowHelper.core
             correctionAdd("SQL 2000", "SQL Server 2000");
             correctionAdd("SQL2000", "SQL Server 2000");
 
-            correctionAdd("SQL&nbsp;Server 2005", "SQL Server 2005");
             correctionAdd("SQL version 2005", "SQL Server 2005");
             correctionAdd("sql version 2005", "SQL Server 2005");
             correctionAdd("sql server 2005", "SQL Server 2005");
@@ -46644,7 +46637,6 @@ namespace OverflowHelper.core
             correctionAdd("sql2005", "SQL Server 2005");
             correctionAdd("SQL2005", "SQL Server 2005");
 
-            correctionAdd("SQL&nbsp;Server 2008", "SQL Server 2008"); // Sort of self
             correctionAdd("MS-SQLServer 2008", "SQL Server 2008");
             correctionAdd("sql server 2008", "SQL Server 2008");
             correctionAdd("Sql Server 2008", "SQL Server 2008");
@@ -46667,7 +46659,6 @@ namespace OverflowHelper.core
             correctionAdd("Sql 2008", "SQL Server 2008");
             correctionAdd("sql 2008", "SQL Server 2008");
 
-            correctionAdd("SQL&nbsp;Server 2012", "SQL Server 2012");
             correctionAdd("SQL SERVER 2012", "SQL Server 2012");
             correctionAdd("Sql Server 2012", "SQL Server 2012");
             correctionAdd("sqlserver 2012", "SQL Server 2012");
@@ -46739,7 +46730,6 @@ namespace OverflowHelper.core
             correctionAdd("MSSQL 2017", "SQL Server 2017");
             correctionAdd("SQL 2017", "SQL Server 2017");
 
-            correctionAdd("SQL&nbsp;Server 2019 Server", "SQL Server 2019");
             correctionAdd("SQL Server 2019 Server", "SQL Server 2019");
             correctionAdd("MSSQL 2019 Server", "SQL Server 2019");
             correctionAdd("sql server 2019", "SQL Server 2019");
@@ -46747,7 +46737,6 @@ namespace OverflowHelper.core
             correctionAdd("Server 2019", "SQL Server 2019");
             correctionAdd("SQL 2019", "SQL Server 2019");
 
-            correctionAdd("SQL&nbsp;Server Management Studio", "SQL Server Management Studio");
             correctionAdd("MS SQL Server Management Studio", "SQL Server Management Studio");
             correctionAdd("SQLServer Management and Studio", "SQL Server Management Studio");
             correctionAdd("sql server management studios", "SQL Server Management Studio");
@@ -46963,9 +46952,8 @@ namespace OverflowHelper.core
             correctionAdd("RavenDb", "RavenDB");
             correctionAdd("ravendb", "RavenDB");
 
-            correctionAdd("Berekeley DB", "Berkeley&nbsp;DB");
-            correctionAdd("Berkeley DB", "Berkeley&nbsp;DB"); // Self (effectively)
-            correctionAdd("BerekelyDB", "Berkeley&nbsp;DB");
+            correctionAdd("Berekeley DB", "Berkeley DB");
+            correctionAdd("BerekelyDB", "Berkeley DB");
 
             correctionAdd("fox pro", "FoxPro");
             correctionAdd("Foxpro", "FoxPro");
@@ -71056,6 +71044,8 @@ namespace OverflowHelper.core
             correctionAdd("cherry mx switches", "Cherry MX switches");
             correctionAdd("cherry mx switch", "Cherry MX switches");
             correctionAdd("Cherry MX switch", "Cherry MX switches");
+            correctionAdd("Cherry switches", "Cherry MX switches");
+            correctionAdd("Cherry switch", "Cherry MX switches");
             correctionAdd("MX switches", "Cherry MX switches");
             correctionAdd("Chrerry MX", "Cherry MX switches");
             correctionAdd("Cherry mx", "Cherry MX switches");
@@ -86283,10 +86273,10 @@ namespace OverflowHelper.core
             //
             //     Released on 2025-12-03.
             //
-            correctionAdd("Keychron K9 Max", "Keychron&nbsp;K9&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("K9&nbsp;Max", "Keychron&nbsp;K9&nbsp;Max");
-            correctionAdd("k9 max", "Keychron&nbsp;K9&nbsp;Max");
-            correctionAdd("K9 Max", "Keychron&nbsp;K9&nbsp;Max");
+            correctionAdd("Keychron K9 Max", "Keychron K9 Max (60%)"); // Sort of identity mapping
+            correctionAdd("k9 max", "Keychron K9 Max (60%)");
+            correctionAdd("K9 Max", "Keychron K9 Max (60%)");
+            correctionAdd("K9 MAX", "Keychron K9 Max (60%)");
 
             // A 62-key (60%. Not true TKL) severely crippled
             // wired and wireless (only Bluetooth) mechanical
@@ -95697,20 +95687,21 @@ namespace OverflowHelper.core
             //     Bluetooth: 10 ms
             //     '2.4 GHz':  4 ms
             //
-            correctionAdd("KeyChron K5 Max", "Keychron K5 Max");
-            correctionAdd("KeyChron K5 max", "Keychron K5 Max");
-            correctionAdd("Keychain K5 Max", "Keychron K5 Max");
-            correctionAdd("Keychrom K5 max", "Keychron K5 Max");
-            correctionAdd("keychrom K5 max", "Keychron K5 Max");
-            correctionAdd("keychron K5 max", "Keychron K5 Max");
-            correctionAdd("Keychron K5 max", "Keychron K5 Max");
-            correctionAdd("K5 Max", "Keychron K5 Max");
-            correctionAdd("K5 MAX", "Keychron K5 Max");
-            correctionAdd("k5 max", "Keychron K5 Max");
-            correctionAdd("K5 max", "Keychron K5 Max");
-            correctionAdd("k5 Max", "Keychron K5 Max");
-            correctionAdd("K5-Max", "Keychron K5 Max");
-            correctionAdd("K5 Mas", "Keychron K5 Max");
+            correctionAdd("Keychron K5 Max", "Keychron K5 Max (105%)");
+            correctionAdd("KeyChron K5 Max", "Keychron K5 Max (105%)");
+            correctionAdd("KeyChron K5 max", "Keychron K5 Max (105%)");
+            correctionAdd("Keychain K5 Max", "Keychron K5 Max (105%)");
+            correctionAdd("Keychrom K5 max", "Keychron K5 Max (105%)");
+            correctionAdd("keychrom K5 max", "Keychron K5 Max (105%)");
+            correctionAdd("keychron K5 max", "Keychron K5 Max (105%)");
+            correctionAdd("Keychron K5 max", "Keychron K5 Max (105%)");
+            correctionAdd("K5 Max", "Keychron K5 Max (105%)");
+            correctionAdd("K5 MAX", "Keychron K5 Max (105%)");
+            correctionAdd("k5 max", "Keychron K5 Max (105%)");
+            correctionAdd("K5 max", "Keychron K5 Max (105%)");
+            correctionAdd("k5 Max", "Keychron K5 Max (105%)");
+            correctionAdd("K5-Max", "Keychron K5 Max (105%)");
+            correctionAdd("K5 Mas", "Keychron K5 Max (105%)");
 
             // A 109-key (105%. Not true TKL) full-size low-profile
             // wired-only ZMK/Via-capable mechanical keyboard
@@ -108508,6 +108499,23 @@ namespace OverflowHelper.core
             correctionAdd("poket", "pocket");
             correctionAdd("Poket", "pocket");
 
+            correctionAdd("Hard Skill", "hard skill");
+
+            correctionAdd("Hardtail", "hardtail");
+
+            correctionAdd("Skill", "skill");
+
+            correctionAdd("siklls", "skills");
+
+            correctionAdd("skillissue", "skill issue");
+
+            correctionAdd("skillset", "skill set");
+
+            correctionAdd("skill full", "skilful");
+            correctionAdd("skillful", "skilful");
+
+            correctionAdd("skilfully", "skillfully");
+
             correctionAdd("pervs", "perverts");
 
             correctionAdd("pervy", "perverted");
@@ -108579,16 +108587,21 @@ namespace OverflowHelper.core
 
             correctionAdd("f*ckers", "fuckers");
 
-            correctionAdd("F this", "fuck this");
+            correctionAdd("motherf***er", "motherfucker");
+            correctionAdd("MOTHERFUCKER", "motherfucker");
+            correctionAdd("mother fkr", "motherfucker");
+            correctionAdd("mother_fkr", "motherfucker");
+            correctionAdd("motherfkr", "motherfucker");
+            correctionAdd("mofo", "motherfucker");
+            correctionAdd("mfer", "motherfucker");
 
-            correctionAdd("f off", "fuck off");
-            correctionAdd("f-off", "fuck off");
+            correctionAdd("cluster-fuck", "cluster fuck");
+            correctionAdd("clusterfuck", "cluster fuck");
+            correctionAdd("cluster fux", "cluster fuck");
+            correctionAdd("cluster", "cluster fuck");
 
-            correctionAdd("Fuck My Life", "fuck my life");
-            correctionAdd("#FML", "fuck my life");
-            correctionAdd("Fml", "fuck my life");
-            correctionAdd("FML", "fuck my life");
-            correctionAdd("fml", "fuck my life");
+            correctionAdd("fu money", "fuck you money");
+            correctionAdd("FU money", "fuck you money");
 
             correctionAdd("f boy", "fuck boy");
 
@@ -108599,20 +108612,15 @@ namespace OverflowHelper.core
             correctionAdd("Fucking New Guy", "fucking new guy");
             correctionAdd("FNG", "fucking new guy");
 
+            correctionAdd("F this", "fuck this");
+
+            correctionAdd("f off", "fuck off");
+            correctionAdd("f-off", "fuck off");
+
+            // Note: "fucking" is in an alternative word set
+            //
             correctionAdd("no freaking idea", "no fucking idea");
             correctionAdd("NFI", "no fucking idea");
-
-            correctionAdd("jfc", "Jesus fucking Christ");
-            correctionAdd("JFC", "Jesus fucking Christ");
-
-            correctionAdd("Mission. Fucking. Accomplished", "AI responses");
-            correctionAdd("mission fucking accomplished", "AI responses");
-            correctionAdd("mission accomplished", "AI responses");
-
-            correctionAdd("cluster-fuck", "cluster fuck");
-            correctionAdd("clusterfuck", "cluster fuck");
-            correctionAdd("cluster fux", "cluster fuck");
-            correctionAdd("cluster", "cluster fuck");
 
             // As "care at all"
             correctionAdd("GAF", "give a fuck");
@@ -108629,6 +108637,30 @@ namespace OverflowHelper.core
 
             correctionAdd("IDGAF", "I don't give a fuck");
 
+            correctionAdd("STFU", "shut the fuck up");
+            correctionAdd("stfu", "shut the fuck up");
+
+            correctionAdd("FFS", "for fuck's sake");
+            correctionAdd("Ffs", "for fuck's sake");
+            correctionAdd("ffs", "for fuck's sake");
+
+            correctionAdd("get the f*** out", "get the fuck out");
+            correctionAdd("gtfo", "get the fuck out");
+            correctionAdd("GTFO", "get the fuck out");
+
+            correctionAdd("Fuck My Life", "fuck my life");
+            correctionAdd("#FML", "fuck my life");
+            correctionAdd("Fml", "fuck my life");
+            correctionAdd("FML", "fuck my life");
+            correctionAdd("fml", "fuck my life");
+
+            correctionAdd("jfc", "Jesus fucking Christ");
+            correctionAdd("JFC", "Jesus fucking Christ");
+
+            correctionAdd("Mission. Fucking. Accomplished", "AI responses");
+            correctionAdd("mission fucking accomplished", "AI responses");
+            correctionAdd("mission accomplished", "AI responses");
+
             // Internet slang, etc.
             correctionAdd("Victor Tango Foxtrot", "WTF");
             correctionAdd("victor tango foxtrot", "WTF");
@@ -108641,32 +108673,6 @@ namespace OverflowHelper.core
             correctionAdd("wtf", "WTF");
             correctionAdd("Wtf", "WTF");
 
-            correctionAdd("STFU", "shut the fuck up");
-            correctionAdd("stfu", "shut the fuck up");
-
-            correctionAdd("FFS", "for fuck's sake");
-            correctionAdd("Ffs", "for fuck's sake");
-            correctionAdd("ffs", "for fuck's sake");
-
-            correctionAdd("get the f*** out", "get the fuck out");
-            correctionAdd("gtfo", "get the fuck out");
-            correctionAdd("GTFO", "get the fuck out");
-
-            correctionAdd("motherf***er", "motherfucker");
-            correctionAdd("MOTHERFUCKER", "motherfucker");
-            correctionAdd("mother fkr", "motherfucker");
-            correctionAdd("mother_fkr", "motherfucker");
-            correctionAdd("motherfkr", "motherfucker");
-            correctionAdd("mofo", "motherfucker");
-            correctionAdd("mfer", "motherfucker");
-
-            correctionAdd("laufing", "laughing");
-
-            correctionAdd("laughbale", "laughable");
-            correctionAdd("laugable", "laughable");
-
-            correctionAdd("lauther", "laughter");
-
             correctionAdd("LMFAO", "laughing my fucking ass off"); // The official abbr.
             correctionAdd("lmfao", "laughing my fucking ass off");
 
@@ -108677,6 +108683,13 @@ namespace OverflowHelper.core
             correctionAdd("Imao", "laughing my ass off");
             correctionAdd("Lmao", "laughing my ass off");
             correctionAdd("imao", "laughing my ass off");
+
+            correctionAdd("laufing", "laughing");
+
+            correctionAdd("laughbale", "laughable");
+            correctionAdd("laugable", "laughable");
+
+            correctionAdd("lauther", "laughter");
 
             correctionAdd("slauther", "slaughter");
 
@@ -108737,15 +108750,6 @@ namespace OverflowHelper.core
             correctionAdd("SH!TPOSTING", "shitposting");
             correctionAdd("sh!tposting", "shitposting");
 
-            correctionAdd("shit-post", "shitpost");
-
-            // The verb
-            correctionAdd("necro posting", "necroposting");
-            correctionAdd("thread dig", "necroposting");
-            correctionAdd("Necroing", "necroposting");
-            correctionAdd("necroing", "necroposting");
-            correctionAdd("necro", "necroposting");
-
             correctionAdd("SOL", "shit out of luck");
             correctionAdd("SoL", "shit out of luck");
 
@@ -108759,6 +108763,15 @@ namespace OverflowHelper.core
             // Note: "shit" is in an alternative word set
             correctionAdd("p.o.s", "piece of shit");
             correctionAdd("POS", "piece of shit");
+
+            correctionAdd("shit-post", "shitpost");
+
+            // The verb
+            correctionAdd("necro posting", "necroposting");
+            correctionAdd("thread dig", "necroposting");
+            correctionAdd("Necroing", "necroposting");
+            correctionAdd("necroing", "necroposting");
+            correctionAdd("necro", "necroposting");
 
             // Note: "pieces_" is in an alternative word set
             correctionAdd("peice", "piece");
@@ -108785,23 +108798,6 @@ namespace OverflowHelper.core
             correctionAdd("paedo", "pedophile");
             correctionAdd("Pedo", "pedophile");
             correctionAdd("pedo", "pedophile");
-
-            correctionAdd("Hard Skill", "hard skill");
-
-            correctionAdd("Hardtail", "hardtail");
-
-            correctionAdd("Skill", "skill");
-
-            correctionAdd("siklls", "skills");
-
-            correctionAdd("skillissue", "skill issue");
-
-            correctionAdd("skillset", "skill set");
-
-            correctionAdd("skill full", "skilful");
-            correctionAdd("skillful", "skilful");
-
-            correctionAdd("skilfully", "skillfully");
 
             correctionAdd("sleeping forever", "dead");
             correctionAdd("ded", "dead");
@@ -110471,7 +110467,7 @@ namespace OverflowHelper.core
 
             URL_Add("Get-ADGroupMember", "https://technet.microsoft.com/en-us/library/ee617193.aspx");
 
-            URL_Add("Berkeley&nbsp;DB", "https://en.wikipedia.org/wiki/Berkeley_DB");
+            URL_Add("Berkeley DB", "https://en.wikipedia.org/wiki/Berkeley_DB");
 
             URL_Add("Verilog", "https://en.wikipedia.org/wiki/Verilog");
 
@@ -129753,8 +129749,6 @@ namespace OverflowHelper.core
 
             URL_Add("ADO.NET Entity Framework", "https://en.wikipedia.org/wiki/Entity_Framework"); // Old: https://en.wikipedia.org/wiki/ADO.NET_Entity_Framework
 
-            URL_Add("LINQ&nbsp;to&nbsp;Entities", "https://en.wikipedia.org/wiki/ADO.NET_Entity_Framework#LINQ_to_Entities");
-
             URL_Add("Laplacian", "https://en.wiktionary.org/wiki/Laplacian#Adjective");
 
             URL_Add("elitist", "https://en.wiktionary.org/wiki/elitist#Adjective");
@@ -130899,7 +130893,7 @@ namespace OverflowHelper.core
 
             URL_Add("Code Runner", "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner");
 
-            URL_Add("FU money", "https://lifehacker.com/how-much-is-enough-a-formula-for-fu-money-5925077");
+            URL_Add("fuck you money", "https://lifehacker.com/how-much-is-enough-a-formula-for-fu-money-5925077");
 
             URL_Add("GAC", "https://en.wikipedia.org/wiki/Global_Assembly_Cache");
 
@@ -131457,7 +131451,7 @@ namespace OverflowHelper.core
 
             URL_Add("SQLite", "https://en.wikipedia.org/wiki/SQLite");
 
-            URL_Add("SQLite&nbsp;3", "https://en.wikipedia.org/wiki/SQLite#History");
+            URL_Add("SQLite 3", "https://en.wikipedia.org/wiki/SQLite#History");
 
             URL_Add("SQLite ORM", "https://github.com/fnc12/sqlite_orm");
 
@@ -131797,13 +131791,13 @@ namespace OverflowHelper.core
 
             URL_Add("LINQ", "https://en.wikipedia.org/wiki/Language_Integrated_Query");
 
-            //Changed at Wikipedia
-            //URL_Add("LINQ&nbsp;to&nbsp;SQL", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_SQL");
-            URL_Add("LINQ&nbsp;to&nbsp;SQL", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_SQL_.28formerly_called_DLINQ.29");
+            URL_Add("LINQ to SQL", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_SQL_.28formerly_called_DLINQ.29"); // Old: <https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_SQL>
 
-            //Changed at Wikipedia
-            //URL_Add("LINQ&nbsp;to&nbsp;XML", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_XML");
-            URL_Add("LINQ&nbsp;to&nbsp;XML", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_XML_.28formerly_called_XLINQ.29");
+            URL_Add("LINQ to XML", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_XML_.28formerly_called_XLINQ.29"); // Old: <https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_XML>
+
+            URL_Add("LINQ to Entities", "https://en.wikipedia.org/wiki/ADO.NET_Entity_Framework#LINQ_to_Entities");
+
+            URL_Add("LINQ to Objects", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_Objects");
 
             URL_Add("BigQuery", "https://en.wikipedia.org/wiki/BigQuery");
 
@@ -134749,8 +134743,6 @@ namespace OverflowHelper.core
 
             URL_Add("TechNet", "https://en.wikipedia.org/wiki/Microsoft_TechNet");
 
-            URL_Add("LINQ&nbsp;to&nbsp;Objects", "https://en.wikipedia.org/wiki/Language_Integrated_Query#LINQ_to_Objects");
-
             URL_Add("Get-Date", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Get-Date"); // Old URL: http://technet.microsoft.com/en-us/library/hh849887.aspx
 
             URL_Add("Get-ItemProperty", "https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.management/Get-ItemProperty"); // Old URL: <http://technet.microsoft.com/en-us/library/hh849851.aspx>
@@ -135016,7 +135008,7 @@ namespace OverflowHelper.core
 
             URL_Add("SnowSQL", "https://docs.snowflake.com/en/user-guide/snowsql");
 
-            URL_Add("SQL&nbsp;Search", "https://en.wikipedia.org/wiki/Redgate#History");
+            URL_Add("SQL Search", "https://en.wikipedia.org/wiki/Redgate#History");
 
             URL_Add("SQL Fiddle", "https://sqlfiddle.com/");
 
@@ -135036,7 +135028,7 @@ namespace OverflowHelper.core
 
             URL_Add("BCP", "https://en.wikipedia.org/wiki/SQL_Server_Integration_Services#Other_included_tools");
 
-            URL_Add("SQL&nbsp;Server", "https://en.wikipedia.org/wiki/Microsoft_SQL_Server");
+            URL_Add("SQL Server", "https://en.wikipedia.org/wiki/Microsoft_SQL_Server");
 
             URL_Add("SQL Server Express Edition", "https://en.wikipedia.org/wiki/SQL_Server_Express");
 
@@ -136765,7 +136757,7 @@ namespace OverflowHelper.core
 
             URL_Add("Babylon.js", "https://en.wikipedia.org/wiki/Babylon.js");
 
-            URL_Add("Babylon&nbsp;5", "https://en.wikipedia.org/wiki/Babylon_5");
+            URL_Add("Babylon 5", "https://en.wikipedia.org/wiki/Babylon_5");
 
             URL_Add("Smashing Magazine", "https://en.wikipedia.org/wiki/Smashing_Magazine");
 
@@ -142607,13 +142599,13 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K4&nbsp;Max", "https://www.keychron.com/products/keychron-k4-max-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron K5 Max", "https://www.keychron.com/products/keychron-k5-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K5 Max (105%)", "https://www.keychron.com/products/keychron-k5-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron&nbsp;K7&nbsp;Max", "https://www.keychron.com/products/keychron-k7-max-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;K8&nbsp;Max", "https://keychron.ca/products/keychron-k8-max-qmk-wireless-mechanical-keyboard-us-ansi-layout");
 
-            URL_Add("Keychron&nbsp;K9&nbsp;Max", "https://www.keychron.com/products/keychron-k9-max-qmk-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron K9 Max (60%)", "https://www.keychron.com/products/keychron-k9-max-qmk-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron K10 Max", "https://www.keychron.com/products/keychron-k10-max-qmk-wireless-mechanical-keyboard-iso-layout-collection");
 
@@ -146956,6 +146948,8 @@ namespace OverflowHelper.core
             URL_Add("Hong Kong", "https://en.wikipedia.org/wiki/Hong_Kong");
 
             URL_Add("the Philippines", "https://en.wikipedia.org/wiki/Philippines");
+
+            URL_Add("Philippine", "https://en.wiktionary.org/wiki/Philippine#Adjective");
 
             URL_Add("Mexico", "https://en.wikipedia.org/wiki/Mexico");
 
@@ -163111,6 +163105,7 @@ namespace OverflowHelper.core
             correctionAdd("fork u_", "fuck you_");
             correctionAdd("F you_", "fuck you_");
             correctionAdd("F-You_", "fuck you_");
+            correctionAdd("F.U_", "fuck you_");
             correctionAdd("FU_", "fuck you_");
 
             correctionAdd("fw_", "fuck with_");
@@ -173381,6 +173376,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Make__", "make__");
 
+            correctionAdd("goth__", "got__"); // A true typo
             correctionAdd("vot__", "got__");
             correctionAdd("gor__", "got__");
             correctionAdd("gat__", "got__");
@@ -177640,6 +177636,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
+            correctionAdd("Keychron K5 Max (105%)__", "Keychron K5 Max source code__");
             correctionAdd("Keychron K5 Max__", "Keychron K5 Max source code__");
 
             // For the cross-reference to the source code
@@ -181159,6 +181156,7 @@ namespace OverflowHelper.core
             correctionAdd("debounce method___", "QMK debounce methods/algorithms___");
             correctionAdd("debounce algo___", "QMK debounce methods/algorithms___");
             correctionAdd("debounce/algo___", "QMK debounce methods/algorithms___");
+            correctionAdd("debounce type___", "QMK debounce methods/algorithms___");
             correctionAdd("sym_eager_pk___", "QMK debounce methods/algorithms___"); // For the cross-reference
             correctionAdd("key debounce___", "QMK debounce methods/algorithms___"); // For the cross-reference
             correctionAdd("Jack Ganssle___", "QMK debounce methods/algorithms___"); // For the cross-reference
@@ -183906,6 +183904,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
             //
+            correctionAdd("Keychron K5 Max (105%)____", "Keychron K5 Max default keymap (ISO RGB)____");
             correctionAdd("K5 Max default keymap____", "Keychron K5 Max default keymap (ISO RGB)____");
             correctionAdd("Keychron K5 Max____", "Keychron K5 Max default keymap (ISO RGB)____");
             correctionAdd("K5 Max keymap____", "Keychron K5 Max default keymap (ISO RGB)____");
