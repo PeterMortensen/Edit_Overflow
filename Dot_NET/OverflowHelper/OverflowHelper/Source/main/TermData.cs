@@ -34349,16 +34349,24 @@ namespace OverflowHelper.core
             correctionAdd("AC Shadows", "Assassin's Creed Shadows");
 
             // A computer game
+            correctionAdd("G.T.A", "Grand Theft Auto");
             correctionAdd("GTA", "Grand Theft Auto");
             correctionAdd("gta", "Grand Theft Auto");
 
             // A computer game
             correctionAdd("GTA V", "Grand Theft Auto V");
             correctionAdd("GTAV", "Grand Theft Auto V");
+            correctionAdd("GT 5", "Grand Theft Auto V");
 
             // A computer game (2025).
+            correctionAdd("Grand Theft Auto 6", "Grand Theft Auto VI");
+            correctionAdd("GTA VI", "Grand Theft Auto VI");
             correctionAdd("gta 6", "Grand Theft Auto VI");
             correctionAdd("GTA 6", "Grand Theft Auto VI");
+            correctionAdd("Gta 6", "Grand Theft Auto VI");
+            correctionAdd("GTA6", "Grand Theft Auto VI");
+            correctionAdd("Gta6", "Grand Theft Auto VI");
+            correctionAdd("gta6", "Grand Theft Auto VI");
 
             // A computer game
             correctionAdd("San Andreas", "Grand Theft Auto: San Andreas");
@@ -54621,60 +54629,59 @@ namespace OverflowHelper.core
 
             correctionAdd("VC++2010", "Visual C++ 2010");
 
-            correctionAdd("Visual Stuidio", "Visual&nbsp;Studio");
-            correctionAdd("Visiual studio", "Visual&nbsp;Studio");
-            correctionAdd("MSVisualStudio", "Visual&nbsp;Studio");
-            correctionAdd("visual studios", "Visual&nbsp;Studio");
-            correctionAdd("Visual Studios", "Visual&nbsp;Studio");
-            correctionAdd("Visual Studio", "Visual&nbsp;Studio"); // Sort of identity mapping
-            correctionAdd("VISUAL STUDIO", "Visual&nbsp;Studio");
-            correctionAdd("visual studio", "Visual&nbsp;Studio");
-            correctionAdd("Visual studio", "Visual&nbsp;Studio");
-            correctionAdd("visual Studio", "Visual&nbsp;Studio");
-            correctionAdd("visual stduio", "Visual&nbsp;Studio");
-            correctionAdd("visual sutdio", "Visual&nbsp;Studio"); // Misspelling.
-            correctionAdd("Visual-Studio", "Visual&nbsp;Studio");
-            correctionAdd("vusual studio", "Visual&nbsp;Studio"); // A true typo!
-            correctionAdd("viusal studio", "Visual&nbsp;Studio");
-            correctionAdd("Visual Vtudio", "Visual&nbsp;Studio");
-            correctionAdd("visual-studio", "Visual&nbsp;Studio");
-            correctionAdd("Visual Stuido", "Visual&nbsp;Studio");
-            correctionAdd("Visaul Studio", "Visual&nbsp;Studio");
-            correctionAdd("V*sual Studio", "Visual&nbsp;Studio");
-            correctionAdd("visual sutido", "Visual&nbsp;Studio");
-            correctionAdd("Visual StudiI", "Visual&nbsp;Studio");
-            correctionAdd("Visual Studii", "Visual&nbsp;Studio");
-            correctionAdd("VisualStudio", "Visual&nbsp;Studio");
-            correctionAdd("viual studio", "Visual&nbsp;Studio"); // Misspelling.
-            correctionAdd("visulastudio", "Visual&nbsp;Studio");
-            correctionAdd("visal studio", "Visual&nbsp;Studio");
-            correctionAdd("Visualstudio", "Visual&nbsp;Studio");
-            correctionAdd("visualstudio", "Visual&nbsp;Studio");
-            correctionAdd("visual study", "Visual&nbsp;Studio");
-            correctionAdd("Visual Studi", "Visual&nbsp;Studio");
-            correctionAdd("visual sudio", "Visual&nbsp;Studio");
-            correctionAdd("visual stdio", "Visual&nbsp;Studio");
-            correctionAdd("visualStudio", "Visual&nbsp;Studio");
-            correctionAdd("Visual Stdio", "Visual&nbsp;Studio");
-            correctionAdd("Visual Stido", "Visual&nbsp;Studio");
-            correctionAdd("Visual Studo", "Visual&nbsp;Studio");
-            correctionAdd("vis studio", "Visual&nbsp;Studio");
-            correctionAdd("vs studio", "Visual&nbsp;Studio");
-            correctionAdd("VS studio", "Visual&nbsp;Studio");
-            correctionAdd("V.Studio", "Visual&nbsp;Studio");
-            correctionAdd("VStudio", "Visual&nbsp;Studio");
-            correctionAdd("Vstudio", "Visual&nbsp;Studio");
-            correctionAdd("Studio", "Visual&nbsp;Studio");
-            correctionAdd("Visual", "Visual&nbsp;Studio");
-            correctionAdd("studio", "Visual&nbsp;Studio");
-            correctionAdd("vs.net", "Visual&nbsp;Studio");
-            correctionAdd("VS.Net", "Visual&nbsp;Studio");
-            correctionAdd("VS.NET", "Visual&nbsp;Studio"); // There is no special version of Visual Studio for .NET.
-            correctionAdd("sudio", "Visual&nbsp;Studio");
-            correctionAdd("MSVS", "Visual&nbsp;Studio");
-            correctionAdd("vs", "Visual&nbsp;Studio");
-            correctionAdd("Vs", "Visual&nbsp;Studio");
-            correctionAdd("VS", "Visual&nbsp;Studio");
+            correctionAdd("Visual Stuidio", "Visual Studio");
+            correctionAdd("Visiual studio", "Visual Studio");
+            correctionAdd("MSVisualStudio", "Visual Studio");
+            correctionAdd("visual studios", "Visual Studio");
+            correctionAdd("Visual Studios", "Visual Studio");
+            correctionAdd("VISUAL STUDIO", "Visual Studio");
+            correctionAdd("visual studio", "Visual Studio");
+            correctionAdd("Visual studio", "Visual Studio");
+            correctionAdd("visual Studio", "Visual Studio");
+            correctionAdd("visual stduio", "Visual Studio");
+            correctionAdd("visual sutdio", "Visual Studio"); // Misspelling.
+            correctionAdd("Visual-Studio", "Visual Studio");
+            correctionAdd("vusual studio", "Visual Studio"); // A true typo!
+            correctionAdd("viusal studio", "Visual Studio");
+            correctionAdd("Visual Vtudio", "Visual Studio");
+            correctionAdd("visual-studio", "Visual Studio");
+            correctionAdd("Visual Stuido", "Visual Studio");
+            correctionAdd("Visaul Studio", "Visual Studio");
+            correctionAdd("V*sual Studio", "Visual Studio");
+            correctionAdd("visual sutido", "Visual Studio");
+            correctionAdd("Visual StudiI", "Visual Studio");
+            correctionAdd("Visual Studii", "Visual Studio");
+            correctionAdd("VisualStudio", "Visual Studio");
+            correctionAdd("viual studio", "Visual Studio"); // Misspelling.
+            correctionAdd("visulastudio", "Visual Studio");
+            correctionAdd("visal studio", "Visual Studio");
+            correctionAdd("Visualstudio", "Visual Studio");
+            correctionAdd("visualstudio", "Visual Studio");
+            correctionAdd("visual study", "Visual Studio");
+            correctionAdd("Visual Studi", "Visual Studio");
+            correctionAdd("visual sudio", "Visual Studio");
+            correctionAdd("visual stdio", "Visual Studio");
+            correctionAdd("visualStudio", "Visual Studio");
+            correctionAdd("Visual Stdio", "Visual Studio");
+            correctionAdd("Visual Stido", "Visual Studio");
+            correctionAdd("Visual Studo", "Visual Studio");
+            correctionAdd("vis studio", "Visual Studio");
+            correctionAdd("vs studio", "Visual Studio");
+            correctionAdd("VS studio", "Visual Studio");
+            correctionAdd("V.Studio", "Visual Studio");
+            correctionAdd("VStudio", "Visual Studio");
+            correctionAdd("Vstudio", "Visual Studio");
+            correctionAdd("Studio", "Visual Studio");
+            correctionAdd("Visual", "Visual Studio");
+            correctionAdd("studio", "Visual Studio");
+            correctionAdd("vs.net", "Visual Studio");
+            correctionAdd("VS.Net", "Visual Studio");
+            correctionAdd("VS.NET", "Visual Studio"); // There is no special version of Visual Studio for .NET.
+            correctionAdd("sudio", "Visual Studio");
+            correctionAdd("MSVS", "Visual Studio");
+            correctionAdd("vs", "Visual Studio");
+            correctionAdd("Vs", "Visual Studio");
+            correctionAdd("VS", "Visual Studio");
 
             // Visual Studio
             correctionAdd("solution expolorer", "Solution Explorer"); // Misspelling.
@@ -54685,17 +54692,15 @@ namespace OverflowHelper.core
             // Text templates. Windows / Visual Studio.
             correctionAdd("t4", "T4");
 
-            correctionAdd("Visual Studio Express", "Visual&nbsp;Studio Express"); // Sort of identity mapping
-            correctionAdd("visual studio express", "Visual&nbsp;Studio Express");
-            correctionAdd("VS express", "Visual&nbsp;Studio Express");
-            correctionAdd("vs express", "Visual&nbsp;Studio Express");
-            correctionAdd("VS Express", "Visual&nbsp;Studio Express");
-            correctionAdd("VS-Express", "Visual&nbsp;Studio Express");
-            correctionAdd("VSExpress", "Visual&nbsp;Studio Express");
+            correctionAdd("visual studio express", "Visual Studio Express");
+            correctionAdd("VS express", "Visual Studio Express");
+            correctionAdd("vs express", "Visual Studio Express");
+            correctionAdd("VS Express", "Visual Studio Express");
+            correctionAdd("VS-Express", "Visual Studio Express");
+            correctionAdd("VSExpress", "Visual Studio Express");
 
-            correctionAdd("Visual Basic 2005 Express Edition", "Visual&nbsp;Basic&nbsp;2005 Express Edition"); // Sort of identity mapping
-            correctionAdd("vb 2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
-            correctionAdd("vb2005", "Visual&nbsp;Basic&nbsp;2005 Express Edition");
+            correctionAdd("vb 2005", "Visual Basic 2005 Express Edition");
+            correctionAdd("vb2005", "Visual Basic 2005 Express Edition");
 
             correctionAdd("Visual Basic Express 2008", "Visual Basic 2008 Express Edition");
             correctionAdd("VB.Net Express 2008", "Visual Basic 2008 Express Edition");
@@ -54707,10 +54712,10 @@ namespace OverflowHelper.core
 
             correctionAdd("VC6", "Visual C++ 6.0");
 
+            correctionAdd("microsoft visual c++ 2010 express", "Visual C++ 2010 Express");
             correctionAdd("visual c++ express 2010", "Visual C++ 2010 Express");
             correctionAdd("VS C++ 2010 express", "Visual C++ 2010 Express");
             correctionAdd("Visual C++ Express", "Visual C++ 2010 Express"); // Not exact...
-            correctionAdd("microsoft visual c++ 2010 express", "Visual C++ 2010 Express");
 
             correctionAdd("visual studios 2010", "Visual Studio 2010");
             correctionAdd("Visual Studios 2010", "Visual Studio 2010");
@@ -54745,11 +54750,10 @@ namespace OverflowHelper.core
             correctionAdd("VS2010 Express", "Visual Studio 2010 Express");
             correctionAdd("VS2010 EXPRESS", "Visual Studio 2010 Express");
 
-            correctionAdd("Visual Basic 2010 Express Edition", "Visual&nbsp;Basic&nbsp;2010 Express Edition"); // Sort of identity mapping
-            correctionAdd("Visual Basic 2010 Express", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
-            correctionAdd("VB 2010 Express", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
-            correctionAdd("VB express2010", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
-            correctionAdd("vb 2010", "Visual&nbsp;Basic&nbsp;2010 Express Edition");
+            correctionAdd("Visual Basic 2010 Express", "Visual Basic 2010 Express Edition");
+            correctionAdd("VB 2010 Express", "Visual Basic 2010 Express Edition");
+            correctionAdd("VB express2010", "Visual Basic 2010 Express Edition");
+            correctionAdd("vb 2010", "Visual Basic 2010 Express Edition");
 
             correctionAdd("Visual Studio Express 2012", "Visual Studio 2012 Express");
             correctionAdd("Visual Studio 2012 express", "Visual Studio 2012 Express");
@@ -54760,9 +54764,8 @@ namespace OverflowHelper.core
             correctionAdd("VS-Express-2012", "Visual Studio 2012 Express");
             correctionAdd("VS express 2012", "Visual Studio 2012 Express");
 
-            correctionAdd("Visual C# Express", "Visual&nbsp;C# Express"); // Sort of identity mapping
-            correctionAdd("VS express C#", "Visual&nbsp;C# Express");
-            correctionAdd("C# express", "Visual&nbsp;C# Express");
+            correctionAdd("VS express C#", "Visual C# Express");
+            correctionAdd("C# express", "Visual C# Express");
 
             correctionAdd("VS.NET C++ 2003", "Visual Studio 2003");
             correctionAdd("VS 2003", "Visual Studio 2003");
@@ -54846,7 +54849,6 @@ namespace OverflowHelper.core
             correctionAdd("2012", "Visual Studio 2012");
             correctionAdd("12", "Visual Studio 2012");
 
-            correctionAdd("Visual&nbsp;Studio 2013", "Visual Studio 2013");
             correctionAdd("visual studio 2013", "Visual Studio 2013");
             correctionAdd("Visual studio 2013", "Visual Studio 2013");
             correctionAdd("VISUAL STUDIO 2013", "Visual Studio 2013");
@@ -57067,10 +57069,9 @@ namespace OverflowHelper.core
             // Character set used for simplified Chinese characters. GBK
             //
             // Shorthand(?): "GB"
-            correctionAdd("Simplified Chinese", "GB&nbsp;2312");
-            correctionAdd("GB encoding", "GB&nbsp;2312");
-            correctionAdd("GB 2312", "GB&nbsp;2312");
-            correctionAdd("GB2312", "GB&nbsp;2312");
+            correctionAdd("Simplified Chinese", "GB 2312");
+            correctionAdd("GB encoding", "GB 2312");
+            correctionAdd("GB2312", "GB 2312");
 
             // An extension of GB 2312 (simplified Chinese characters)
             correctionAdd("gbk", "GBK");
@@ -57686,10 +57687,9 @@ namespace OverflowHelper.core
 
             // A Python library
             // Note: "OpenCV" is in an alternative word set
-            correctionAdd("OpenCV 2", "OpenCV&nbsp;2"); // Sort of identity mapping
-            correctionAdd("OpenCV2", "OpenCV&nbsp;2");
-            correctionAdd("CV2", "OpenCV&nbsp;2");
-            correctionAdd("cv2", "OpenCV&nbsp;2");
+            correctionAdd("OpenCV2", "OpenCV 2");
+            correctionAdd("CV2", "OpenCV 2");
+            correctionAdd("cv2", "OpenCV 2");
 
             // A Python library
             correctionAdd("colorsys", "Colorsys");
@@ -57786,26 +57786,21 @@ namespace OverflowHelper.core
             //
             correctionAdd("php2shell", "PHP2Shell");
 
-            correctionAdd("PHP 4", "PHP&nbsp;4");
-            correctionAdd("php 4", "PHP&nbsp;4");
-            correctionAdd("php4", "PHP&nbsp;4");
-            correctionAdd("PHP4", "PHP&nbsp;4");
+            correctionAdd("php 4", "PHP 4");
+            correctionAdd("php4", "PHP 4");
+            correctionAdd("PHP4", "PHP 4");
 
-            correctionAdd("php 5", "PHP&nbsp;5");
-            correctionAdd("PHP 5", "PHP&nbsp;5");
-            correctionAdd("PHP5", "PHP&nbsp;5");
-            correctionAdd("php5", "PHP&nbsp;5");
+            correctionAdd("php 5", "PHP 5");
+            correctionAdd("PHP5", "PHP 5");
+            correctionAdd("php5", "PHP 5");
 
-            correctionAdd("PHP 6", "PHP&nbsp;6"); // Sort of identity mapping
-            correctionAdd("PHP6", "PHP&nbsp;6");
+            correctionAdd("PHP6", "PHP 6");
 
-            correctionAdd("PHP 7", "PHP&nbsp;7"); // Sort of identity mapping
-            correctionAdd("php 7", "PHP&nbsp;7");
-            correctionAdd("php7", "PHP&nbsp;7");
-            correctionAdd("PHP7", "PHP&nbsp;7");
+            correctionAdd("php 7", "PHP 7");
+            correctionAdd("php7", "PHP 7");
+            correctionAdd("PHP7", "PHP 7");
 
-            correctionAdd("PHP 8", "PHP&nbsp;8"); // Sort of identity mapping
-            correctionAdd("PHP8", "PHP&nbsp;8");
+            correctionAdd("PHP8", "PHP 8");
 
             // PHP
             correctionAdd("php.ini", "php.ini file");
@@ -58025,23 +58020,20 @@ namespace OverflowHelper.core
             correctionAdd("PHPSH", "phpsh");
 
             // PHP
-            correctionAdd("Symfony 2", "Symfony&nbsp;2");
-            correctionAdd("Symfony2", "Symfony&nbsp;2");
-            correctionAdd("symfony2", "Symfony&nbsp;2");
+            correctionAdd("Symfony2", "Symfony 2");
+            correctionAdd("symfony2", "Symfony 2");
 
-            correctionAdd("Symfony 4", "Symfony&nbsp;4");
-            correctionAdd("Symfony4", "Symfony&nbsp;4");
-            correctionAdd("SF 4", "Symfony&nbsp;4");
-            correctionAdd("sf 4", "Symfony&nbsp;4");
-            correctionAdd("SF4", "Symfony&nbsp;4");
-            correctionAdd("sf4", "Symfony&nbsp;4");
+            correctionAdd("Symfony4", "Symfony 4");
+            correctionAdd("SF 4", "Symfony 4");
+            correctionAdd("sf 4", "Symfony 4");
+            correctionAdd("SF4", "Symfony 4");
+            correctionAdd("sf4", "Symfony 4");
 
-            correctionAdd("Symfony 5", "Symfony&nbsp;5");
-            correctionAdd("Symfony5", "Symfony&nbsp;5");
-            correctionAdd("SF 5", "Symfony&nbsp;5");
-            correctionAdd("sf 5", "Symfony&nbsp;5");
-            correctionAdd("SF5", "Symfony&nbsp;5");
-            correctionAdd("sf5", "Symfony&nbsp;5");
+            correctionAdd("Symfony5", "Symfony 5");
+            correctionAdd("SF 5", "Symfony 5");
+            correctionAdd("sf 5", "Symfony 5");
+            correctionAdd("SF5", "Symfony 5");
+            correctionAdd("sf5", "Symfony 5");
 
             correctionAdd("Pear", "PEAR"); // Not actually observed.
             correctionAdd("pear", "PEAR"); // Not actually observed.
@@ -59365,15 +59357,12 @@ namespace OverflowHelper.core
             correctionAdd("htm", "HTML");
             correctionAdd("HTM", "HTML");
 
-            correctionAdd("HTML&nbsp;3", "HTML&nbsp;3.2");
-            correctionAdd("HTML 3.2", "HTML&nbsp;3.2"); // Sort of identity mapping
-            correctionAdd("HTML 3", "HTML&nbsp;3.2");
+            correctionAdd("HTML 3", "HTML 3.2");
 
-            correctionAdd("HTML 4.0", "HTML&nbsp;4"); // Sort of identity mapping
-            correctionAdd("HTML 4", "HTML&nbsp;4");
-            correctionAdd("html 4", "HTML&nbsp;4");
-            correctionAdd("HTML4", "HTML&nbsp;4");
-            correctionAdd("html4", "HTML&nbsp;4");
+            correctionAdd("HTML 4.0", "HTML 4"); // Sort of identity mapping
+            correctionAdd("html 4", "HTML 4");
+            correctionAdd("HTML4", "HTML 4");
+            correctionAdd("html4", "HTML 4");
 
             correctionAdd("HTML 5", "HTML5");
             correctionAdd("Html 5", "HTML5");
@@ -62021,8 +62010,7 @@ namespace OverflowHelper.core
             correctionAdd("S1AP", "S1 Application Protocol");
 
             // A frequency band (e.g., used by Wi-Fi)
-            correctionAdd("5 GHz", "5&nbsp;GHz"); // Sort of identity mapping
-            correctionAdd("5GHz", "5&nbsp;GHz");
+            correctionAdd("5GHz", "5 GHz");
 
             correctionAdd("field bus", "fieldbus");
 
@@ -63968,9 +63956,8 @@ namespace OverflowHelper.core
 
             correctionAdd("boto", "Boto");
 
-            correctionAdd("Boto 3", "Boto&nbsp;3");
-            correctionAdd("boto 3", "Boto&nbsp;3");
-            correctionAdd("boto3", "Boto&nbsp;3");
+            correctionAdd("boto 3", "Boto 3");
+            correctionAdd("boto3", "Boto 3");
 
             correctionAdd("Vsto", "VSTO");
 
@@ -73318,10 +73305,9 @@ namespace OverflowHelper.core
             correctionAdd("eMACs", "Emacs");
             correctionAdd("Emac", "Emacs");
 
-            correctionAdd("Emacs Lisp", "Emacs&nbsp;Lisp");
-            correctionAdd("emacs lisp", "Emacs&nbsp;Lisp");
-            correctionAdd("elisp", "Emacs&nbsp;Lisp");
-            correctionAdd("Elisp", "Emacs&nbsp;Lisp"); // The official shorthand
+            correctionAdd("emacs lisp", "Emacs Lisp");
+            correctionAdd("elisp", "Emacs Lisp");
+            correctionAdd("Elisp", "Emacs Lisp"); // The official shorthand
 
             correctionAdd("MICROEMACS", "MicroEMACS");
             correctionAdd("microemacs", "MicroEMACS");
@@ -75216,9 +75202,8 @@ namespace OverflowHelper.core
             correctionAdd("google pay", "Google Pay");
             correctionAdd("GooglePay", "Google Pay");
 
-            correctionAdd("Apple Pay", "Apple&nbsp;Pay");
-            correctionAdd("Apple-Pay", "Apple&nbsp;Pay");
-            correctionAdd("ApplePay", "Apple&nbsp;Pay");
+            correctionAdd("Apple-Pay", "Apple Pay");
+            correctionAdd("ApplePay", "Apple Pay");
 
             correctionAdd("brushup", "brush-up");
 
@@ -76740,68 +76725,56 @@ namespace OverflowHelper.core
             correctionAdd("magisk", "Magisk");
 
             // 2010 vintage
-            correctionAdd("Android 2.2 (Froyo) (2010 vintage)", "Android&nbsp;2.2 (Froyo) (2010 vintage)"); // Sort of identity mapping
-            correctionAdd("Android&nbsp;2.2 (Froyo)", "Android&nbsp;2.2 (Froyo) (2010 vintage)");
-            correctionAdd("Android 2.2 (Froyo)", "Android&nbsp;2.2 (Froyo) (2010 vintage)"); // Sort of identity mapping
-            correctionAdd("Android 2.2 Froyo", "Android&nbsp;2.2 (Froyo) (2010 vintage)");
-            correctionAdd("android froyo", "Android&nbsp;2.2 (Froyo) (2010 vintage)");
-            correctionAdd("Android Froyo", "Android&nbsp;2.2 (Froyo) (2010 vintage)");
-            correctionAdd("Android 2.2", "Android&nbsp;2.2 (Froyo) (2010 vintage)");
-            correctionAdd("android 2.2", "Android&nbsp;2.2 (Froyo) (2010 vintage)");
-            correctionAdd("Froyo", "Android&nbsp;2.2 (Froyo) (2010 vintage)");
-            correctionAdd("FROYO", "Android&nbsp;2.2 (Froyo) (2010 vintage)");
-            correctionAdd("froyo", "Android&nbsp;2.2 (Froyo) (2010 vintage)");
-            correctionAdd("2.2", "Android&nbsp;2.2 (Froyo) (2010 vintage)");
+            correctionAdd("Android 2.2 (Froyo)", "Android 2.2 (Froyo) (2010 vintage)");
+            correctionAdd("Android 2.2 Froyo", "Android 2.2 (Froyo) (2010 vintage)");
+            correctionAdd("android froyo", "Android 2.2 (Froyo) (2010 vintage)");
+            correctionAdd("Android Froyo", "Android 2.2 (Froyo) (2010 vintage)");
+            correctionAdd("Android 2.2", "Android 2.2 (Froyo) (2010 vintage)");
+            correctionAdd("android 2.2", "Android 2.2 (Froyo) (2010 vintage)");
+            correctionAdd("Froyo", "Android 2.2 (Froyo) (2010 vintage)");
+            correctionAdd("FROYO", "Android 2.2 (Froyo) (2010 vintage)");
+            correctionAdd("froyo", "Android 2.2 (Froyo) (2010 vintage)");
+            correctionAdd("2.2", "Android 2.2 (Froyo) (2010 vintage)");
 
             // 2010 vintage
-            correctionAdd("Android 2.3 (Gingerbread) (2010 vintage)", "Android&nbsp;2.3 (Gingerbread) (2010 vintage)"); // Sort of identity mapping
-            correctionAdd("Android&nbsp;2.3 (Gingerbread)", "Android&nbsp;2.3 (Gingerbread) (2010 vintage)");
-            correctionAdd("Android 2.3 (Gingerbread)", "Android&nbsp;2.3 (Gingerbread) (2010 vintage)"); // Sort of identity mapping
-            correctionAdd("Android version 2.3", "Android&nbsp;2.3 (Gingerbread) (2010 vintage)");
-            correctionAdd("gingerbread", "Android&nbsp;2.3 (Gingerbread) (2010 vintage)");
-            correctionAdd("Android 2.3", "Android&nbsp;2.3 (Gingerbread) (2010 vintage)");
-            correctionAdd("Gingerbread", "Android&nbsp;2.3 (Gingerbread) (2010 vintage)");
-            correctionAdd("android 2.3", "Android&nbsp;2.3 (Gingerbread) (2010 vintage)");
-            correctionAdd("2.3", "Android&nbsp;2.3 (Gingerbread) (2010 vintage)");
+            correctionAdd("Android 2.3 (Gingerbread)", "Android 2.3 (Gingerbread) (2010 vintage)");
+            correctionAdd("Android version 2.3", "Android 2.3 (Gingerbread) (2010 vintage)");
+            correctionAdd("gingerbread", "Android 2.3 (Gingerbread) (2010 vintage)");
+            correctionAdd("Android 2.3", "Android 2.3 (Gingerbread) (2010 vintage)");
+            correctionAdd("Gingerbread", "Android 2.3 (Gingerbread) (2010 vintage)");
+            correctionAdd("android 2.3", "Android 2.3 (Gingerbread) (2010 vintage)");
+            correctionAdd("2.3", "Android 2.3 (Gingerbread) (2010 vintage)");
 
             // 2011 vintage
-            correctionAdd("Android 3 (Honeycomb) (2011 vintage)", "Android&nbsp;3 (Honeycomb) (2011 vintage)"); // Sort of identity mapping
-            correctionAdd("Android&nbsp;3 (Honeycomb)", "Android&nbsp;3 (Honeycomb) (2011 vintage)");
-            correctionAdd("Android 3 (Honeycomb)", "Android&nbsp;3 (Honeycomb) (2011 vintage)"); // Sort of identity mapping
-            correctionAdd("Android&nbsp;3", "Android&nbsp;3 (Honeycomb) (2011 vintage)");
-            correctionAdd("Honeycomb", "Android&nbsp;3 (Honeycomb) (2011 vintage)");
-            correctionAdd("HoneyComb", "Android&nbsp;3 (Honeycomb) (2011 vintage)");
-            correctionAdd("android-3", "Android&nbsp;3 (Honeycomb) (2011 vintage)");
-            correctionAdd("android 3", "Android&nbsp;3 (Honeycomb) (2011 vintage)");
-            correctionAdd("Android 3", "Android&nbsp;3 (Honeycomb) (2011 vintage)");
-            correctionAdd("honeycomb", "Android&nbsp;3 (Honeycomb) (2011 vintage)");
-            correctionAdd("Android3", "Android&nbsp;3 (Honeycomb) (2011 vintage)");
+            correctionAdd("Android 3 (Honeycomb)", "Android 3 (Honeycomb) (2011 vintage)");
+            correctionAdd("Honeycomb", "Android 3 (Honeycomb) (2011 vintage)");
+            correctionAdd("HoneyComb", "Android 3 (Honeycomb) (2011 vintage)");
+            correctionAdd("android-3", "Android 3 (Honeycomb) (2011 vintage)");
+            correctionAdd("android 3", "Android 3 (Honeycomb) (2011 vintage)");
+            correctionAdd("Android 3", "Android 3 (Honeycomb) (2011 vintage)");
+            correctionAdd("honeycomb", "Android 3 (Honeycomb) (2011 vintage)");
+            correctionAdd("Android3", "Android 3 (Honeycomb) (2011 vintage)");
 
             // 2011 vintage
-            correctionAdd("Android 4.0 (Ice Cream Sandwich) (2011 vintage)", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)"); // Sort of identity mapping
-            correctionAdd("Android&nbsp;4.0 (Ice Cream Sandwich)", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("Android version 4.0", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("Ice Cream Sandwich", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("ice cream sandwich", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("Android&nbsp;4.0", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("Android 4.0 (Ice Cream Sandwich)", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)"); // Sort of identity mapping
-            correctionAdd("Android 4.0", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("Android 4", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("android-4", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("android 4", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("ice cream", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("icecream", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("Android4", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("API 14", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("API 15", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
-            correctionAdd("ICS", "Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("Android 4.0 (Ice Cream Sandwich)", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("Android version 4.0", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("Ice Cream Sandwich", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("ice cream sandwich", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("Android 4.0", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("Android 4", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("android-4", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("android 4", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("ice cream", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("icecream", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("Android4", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("API 14", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("API 15", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
+            correctionAdd("ICS", "Android 4.0 (Ice Cream Sandwich) (2011 vintage)");
 
             // 2013 vintage
-            correctionAdd("Android 4.3 (Jelly Bean) (2013 vintage)", "Android&nbsp;4.3 (Jelly Bean) (2013 vintage)"); // Sort of identity mapping
-            correctionAdd("Android&nbsp;4.3 (Jelly Bean)", "Android&nbsp;4.3 (Jelly Bean) (2013 vintage)");
-            correctionAdd("Android 4.3 (Jelly Bean)", "Android&nbsp;4.3 (Jelly Bean) (2013 vintage)"); // Sort of identity mapping
-            correctionAdd("Android 4.3", "Android&nbsp;4.3 (Jelly Bean) (2013 vintage)"); // Actually 4.1 - 4.3.1.
-            correctionAdd("4.3", "Android&nbsp;4.3 (Jelly Bean) (2013 vintage)"); // Actually 4.1 - 4.3.1.
+            correctionAdd("Android 4.3 (Jelly Bean)", "Android 4.3 (Jelly Bean) (2013 vintage)");
+            correctionAdd("Android 4.3", "Android 4.3 (Jelly Bean) (2013 vintage)"); // Actually 4.1 - 4.3.1.
+            correctionAdd("4.3", "Android 4.3 (Jelly Bean) (2013 vintage)"); // Actually 4.1 - 4.3.1.
 
             // 2013 vintage
             correctionAdd("Android 4.4.x (KitKat)", "Android 4.4.x (KitKat) (2013 vintage)");
@@ -76887,31 +76860,27 @@ namespace OverflowHelper.core
             correctionAdd("pie", "Android 9.0 (Pie) (2018 vintage)");
             correctionAdd("Pie", "Android 9.0 (Pie) (2018 vintage)");
 
-            //Duplicate of "Android&nbsp;10"?
+            //Duplicate of "Android 10"?
             correctionAdd("android 10", "Android X");
             correctionAdd("android x", "Android X");
             correctionAdd("X Android", "Android X");
             correctionAdd("androidx", "Android X");
 
             // 2019 vintage
-            correctionAdd("Android 10 (2019 vintage)", "Android&nbsp;10 (2019 vintage)"); // Sort of identity mapping
-            correctionAdd("Android version 10", "Android&nbsp;10 (2019 vintage)");
-            correctionAdd("Android&nbsp;10", "Android&nbsp;10 (2019 vintage)");
-            correctionAdd("Android 10", "Android&nbsp;10 (2019 vintage)");
-            correctionAdd("Android Q", "Android&nbsp;10 (2019 vintage)");
-            correctionAdd("Android q", "Android&nbsp;10 (2019 vintage)");
-            correctionAdd("android q", "Android&nbsp;10 (2019 vintage)");
-            correctionAdd("AndroidX", "Android&nbsp;10 (2019 vintage)");
-            correctionAdd("androidX", "Android&nbsp;10 (2019 vintage)");
+            correctionAdd("Android version 10", "Android 10 (2019 vintage)");
+            correctionAdd("Android 10", "Android 10 (2019 vintage)");
+            correctionAdd("Android Q", "Android 10 (2019 vintage)");
+            correctionAdd("Android q", "Android 10 (2019 vintage)");
+            correctionAdd("android q", "Android 10 (2019 vintage)");
+            correctionAdd("AndroidX", "Android 10 (2019 vintage)");
+            correctionAdd("androidX", "Android 10 (2019 vintage)");
 
             // 2020 vintage
-            correctionAdd("Android 11 (2020 vintage)", "Android&nbsp;11 (2020 vintage)"); // Sort of identity mapping
-            correctionAdd("android version 11", "Android&nbsp;11 (2020 vintage)");
-            correctionAdd("Android&nbsp;11", "Android&nbsp;11 (2020 vintage)");
-            correctionAdd("Android OS 11", "Android&nbsp;11 (2020 vintage)");
-            correctionAdd("android 11", "Android&nbsp;11 (2020 vintage)");
-            correctionAdd("Android 11", "Android&nbsp;11 (2020 vintage)");
-            correctionAdd("OS 11", "Android&nbsp;11 (2020 vintage)");
+            correctionAdd("android version 11", "Android 11 (2020 vintage)");
+            correctionAdd("Android OS 11", "Android 11 (2020 vintage)");
+            correctionAdd("android 11", "Android 11 (2020 vintage)");
+            correctionAdd("Android 11", "Android 11 (2020 vintage)");
+            correctionAdd("OS 11", "Android 11 (2020 vintage)");
 
             // 2023 vintage
             //
@@ -76919,22 +76888,18 @@ namespace OverflowHelper.core
             //
             //   <https://en.wikipedia.org/wiki/Android_version_history#Overview>
             //
-            correctionAdd("Android 13 (2022 vintage)", "Android&nbsp;13 (2022 vintage)"); // Sort of identity mapping
-            correctionAdd("Android&nbsp;13", "Android&nbsp;13 (2022 vintage)");
-            correctionAdd("android version 13", "Android&nbsp;13 (2022 vintage)");
-            correctionAdd("android 13", "Android&nbsp;13 (2022 vintage)");
-            correctionAdd("Android 13", "Android&nbsp;13 (2022 vintage)");
-            correctionAdd("API 33", "Android&nbsp;13 (2022 vintage)");
-            correctionAdd("13", "Android&nbsp;13 (2022 vintage)");
+            correctionAdd("android version 13", "Android 13 (2022 vintage)");
+            correctionAdd("android 13", "Android 13 (2022 vintage)");
+            correctionAdd("Android 13", "Android 13 (2022 vintage)");
+            correctionAdd("API 33", "Android 13 (2022 vintage)");
+            correctionAdd("13", "Android 13 (2022 vintage)");
 
             // Alternative URLs:
             //
             //   <https://en.wikipedia.org/wiki/Android_14>
             //
-            correctionAdd("Android&nbsp;14", "Android&nbsp;14 (2023 vintage)");
-            correctionAdd("Android 14 (2023 vintage)", "Android&nbsp;14 (2023 vintage)"); // Sort of identity mapping
-            correctionAdd("android 14", "Android&nbsp;14 (2023 vintage)");
-            correctionAdd("Android 14", "Android&nbsp;14 (2023 vintage)");
+            correctionAdd("Android 14", "Android 14 (2023 vintage)");
+            correctionAdd("android 14", "Android 14 (2023 vintage)");
 
             // Starting 2020.3 with release in July 2021
             //
@@ -76969,7 +76934,7 @@ namespace OverflowHelper.core
             correctionAdd("ndk", "NDK");
             correctionAdd("NdK", "NDK");
 
-            //Duplicate of "Android&nbsp;10"?
+            //Duplicate of "Android 10"?
             correctionAdd("jetpack", "Android Jetpack");
             correctionAdd("Jetpack", "Android Jetpack");
 
@@ -77067,25 +77032,21 @@ namespace OverflowHelper.core
             correctionAdd("nexus one", "Nexus One");
             correctionAdd("Nexus one", "Nexus One");
 
-            correctionAdd("nexus 4", "Nexus&nbsp;4");
-            correctionAdd("Nexus 4", "Nexus&nbsp;4");
+            correctionAdd("nexus 4", "Nexus 4");
 
             // An Android smartphone
-            correctionAdd("Nexus 5", "Nexus&nbsp;5");
-            correctionAdd("nexus 5", "Nexus&nbsp;5");
+            correctionAdd("nexus 5", "Nexus 5");
 
             // An Android smartphone
-            correctionAdd("Nexus 5X", "Nexus&nbsp;5X");
-            correctionAdd("nexus 5x", "Nexus&nbsp;5X");
+            correctionAdd("nexus 5x", "Nexus 5X");
 
             // An Android mini tablet
-            correctionAdd("Nexus Seven", "Nexus&nbsp;7");
-            correctionAdd("nexus 7", "Nexus&nbsp;7");
-            correctionAdd("Nexus 7", "Nexus&nbsp;7");
-            correctionAdd("Nexus7", "Nexus&nbsp;7");
+            correctionAdd("Nexus Seven", "Nexus 7");
+            correctionAdd("nexus 7", "Nexus 7");
+            correctionAdd("Nexus7", "Nexus 7");
 
             // An Android tablet
-            correctionAdd("Nexus 9", "Nexus&nbsp;9");
+            correctionAdd("Nexus9", "Nexus 9");
 
             // An Android smartphone
             correctionAdd("google pixel", "Google Pixel");
@@ -77100,8 +77061,7 @@ namespace OverflowHelper.core
             correctionAdd("Redmi Note", "Redmi Note 9 Pro");
 
             // An Android smartphone
-            correctionAdd("Moto G", "Moto&nbsp;G");
-            correctionAdd("MOTO G", "Moto&nbsp;G");
+            correctionAdd("MOTO G", "Moto G");
 
             // An Android smartphone brand
             correctionAdd("xperia", "Xperia");
@@ -77392,13 +77352,6 @@ namespace OverflowHelper.core
             correctionAdd("Gfortran", "GFortran");
 
             // A programming language
-            correctionAdd("Algol 60", "ALGOL&nbsp;60");
-            correctionAdd("Algol-60", "ALGOL&nbsp;60");
-            correctionAdd("ALGOL 60", "ALGOL&nbsp;60");
-            correctionAdd("ALGOL60", "ALGOL&nbsp;60");
-            correctionAdd("Algol60", "ALGOL&nbsp;60");
-
-            // A programming language
             correctionAdd("cobol", "COBOL");
             correctionAdd("Cobol", "COBOL");
             correctionAdd("cobal", "COBOL");
@@ -77409,6 +77362,12 @@ namespace OverflowHelper.core
             // A programming language
             correctionAdd("algol", "ALGOL");
             correctionAdd("Algol", "ALGOL");
+
+            // A programming language
+            correctionAdd("Algol 60", "ALGOL 60");
+            correctionAdd("Algol-60", "ALGOL 60");
+            correctionAdd("ALGOL60", "ALGOL 60");
+            correctionAdd("Algol60", "ALGOL 60");
 
             // A programming language
             correctionAdd("rust", "Rust");
@@ -77499,8 +77458,7 @@ namespace OverflowHelper.core
             correctionAdd("taskbar", "Taskbar");
 
             // Note: "Qt" is in an alternative word set
-            correctionAdd("Qt 5", "Qt&nbsp;5");
-            correctionAdd("Qt5", "Qt&nbsp;5");
+            correctionAdd("Qt5", "Qt 5");
 
             correctionAdd("Qt Createor", "Qt Creator");
             correctionAdd("Qt designer", "Qt Creator");
@@ -77582,12 +77540,11 @@ namespace OverflowHelper.core
 
             correctionAdd("Commons Lang", "Apache Commons Lang");
 
-            correctionAdd("Apache Commons IO", "Commons&nbsp;IO");
-            correctionAdd("Commons-IO", "Commons&nbsp;IO");
-            correctionAdd("commons-io", "Commons&nbsp;IO");
-            correctionAdd("Commons IO", "Commons&nbsp;IO");
-            correctionAdd("commons", "Commons&nbsp;IO");
-            correctionAdd("Commons", "Commons&nbsp;IO");
+            correctionAdd("Apache Commons IO", "Commons IO");
+            correctionAdd("Commons-IO", "Commons IO");
+            correctionAdd("commons-io", "Commons IO");
+            correctionAdd("commons", "Commons IO");
+            correctionAdd("Commons", "Commons IO");
 
             // In Apache Commons
             correctionAdd("StringEscapeUtils.unescapeHtml3", "StringEscapeUtils.unescapeHtml3()");
@@ -78650,70 +78607,54 @@ namespace OverflowHelper.core
             correctionAdd("rfc", "RFC");
             correctionAdd("RfC", "RFC");
 
-            correctionAdd("RFC 822", "RFC&nbsp;822"); // Sort of identity mapping
-            correctionAdd("RFC822", "RFC&nbsp;822");
-            correctionAdd("822", "RFC&nbsp;822");
+            correctionAdd("RFC822", "RFC 822");
+            correctionAdd("822", "RFC 822");
 
             // For encoding in URLs, etc.
-            correctionAdd("RFC 1738", "RFC&nbsp;1738"); // Sort of identity mapping
-            correctionAdd("rfc1738", "RFC&nbsp;1738");
+            correctionAdd("rfc1738", "RFC 1738");
 
-            correctionAdd("RFC 1867", "RFC&nbsp;1867"); // Sort of identity mapping
-            correctionAdd("rfc1867", "RFC&nbsp;1867");
+            correctionAdd("rfc1867", "RFC 1867");
 
-            correctionAdd("RFC 1918", "RFC&nbsp;1918"); // Sort of identity mapping
-            correctionAdd("RFC1918", "RFC&nbsp;1918");
+            correctionAdd("RFC1918", "RFC 1918");
 
             // Virtual COM port of TCP/IP
-            correctionAdd("RFC 2217", "RFC&nbsp;2217");
-            correctionAdd("RFC2217", "RFC&nbsp;2217");
+            correctionAdd("RFC2217", "RFC 2217");
 
-            correctionAdd("RFC 2606", "RFC&nbsp;2606");
-            correctionAdd("rfc2606", "RFC&nbsp;2606");
+            correctionAdd("rfc2606", "RFC 2606");
 
-            correctionAdd("RFC 2616", "RFC&nbsp;2616"); // Sort of identity mapping
-            correctionAdd("RFC2616", "RFC&nbsp;2616");
+            correctionAdd("RFC2616", "RFC 2616");
 
-            correctionAdd("RFC 2822", "RFC&nbsp;2822");
+            correctionAdd("RFC2822", "RFC 2822");
 
-            correctionAdd("RFC 2854", "RFC&nbsp;2854"); // Sort of identity mapping
-            correctionAdd("rfc2854", "RFC&nbsp;2854");
+            correctionAdd("rfc2854", "RFC 2854");
 
-            correctionAdd("RFC 3339", "RFC&nbsp;3339"); // Sort of identity mapping
-            correctionAdd("RFC3339", "RFC&nbsp;3339");
+            correctionAdd("RFC3339", "RFC 3339");
 
             // Alternative URLs:
             //
             //   <https://www.rfc-editor.org/rfc/rfc3549>
             //
-            correctionAdd("RFC 3549", "RFC&nbsp;3549");
-            correctionAdd("rfc3549", "RFC&nbsp;3549");
-            correctionAdd("RFC3549", "RFC&nbsp;3549");
+            correctionAdd("rfc3549", "RFC 3549");
+            correctionAdd("RFC3549", "RFC 3549");
 
-            correctionAdd("RFC 3696", "RFC&nbsp;3696");
+            correctionAdd("RFC3696", "RFC 3696");
 
-            correctionAdd("RFC 4122", "RFC&nbsp;4122");
-            correctionAdd("RFC4122", "RFC&nbsp;4122");
-            correctionAdd("rfc4122", "RFC&nbsp;4122");
+            correctionAdd("RFC4122", "RFC 4122");
+            correctionAdd("rfc4122", "RFC 4122");
 
-            correctionAdd("RFC 5322", "RFC&nbsp;5322");
-            correctionAdd("RFC5322", "RFC&nbsp;5322");
-            correctionAdd("rfc5322", "RFC&nbsp;5322");
+            correctionAdd("RFC5322", "RFC 5322");
+            correctionAdd("rfc5322", "RFC 5322");
 
-            correctionAdd("RFC 5987", "RFC&nbsp;5987"); // Sort of identity mapping
-            correctionAdd("rfc5987", "RFC&nbsp;5987");
-            correctionAdd("RFC5987", "RFC&nbsp;5987");
-            correctionAdd("Rfc5987", "RFC&nbsp;5987");
+            correctionAdd("rfc5987", "RFC 5987");
+            correctionAdd("RFC5987", "RFC 5987");
+            correctionAdd("Rfc5987", "RFC 5987");
 
             // Content-Disposition header field in HTTP
-            correctionAdd("RFC 6266", "RFC&nbsp;6266"); // Sort of identity mapping
-            correctionAdd("RFC6266", "RFC&nbsp;6266");
+            correctionAdd("RFC6266", "RFC 6266");
 
-            correctionAdd("RFC 7578", "RFC&nbsp;7578"); // Sort of identity mapping
-            correctionAdd("RFC7578", "RFC&nbsp;7578");
+            correctionAdd("RFC7578", "RFC 7578");
 
-            correctionAdd("RFC 8187", "RFC&nbsp;8187"); // Sort of identity mapping
-            correctionAdd("8187", "RFC&nbsp;8187");
+            correctionAdd("8187", "RFC 8187");
 
             correctionAdd("commeting", "commenting");
             correctionAdd("comenting", "commenting");
@@ -78762,17 +78703,15 @@ namespace OverflowHelper.core
             correctionAdd("css", "CSS");
             correctionAdd("Css", "CSS");
 
-            correctionAdd("CSS 2", "CSS&nbsp;2");
-            correctionAdd("css2", "CSS&nbsp;2");
-            correctionAdd("CSS2", "CSS&nbsp;2");
+            correctionAdd("css2", "CSS 2");
+            correctionAdd("CSS2", "CSS 2");
 
-            correctionAdd("CSS 3", "CSS&nbsp;3"); // Sort of self.
-            correctionAdd("CSS-3", "CSS&nbsp;3");
-            correctionAdd("Css 3", "CSS&nbsp;3");
-            correctionAdd("css-3", "CSS&nbsp;3");
-            correctionAdd("CSS3", "CSS&nbsp;3");
-            correctionAdd("css3", "CSS&nbsp;3");
-            correctionAdd("Css3", "CSS&nbsp;3");
+            correctionAdd("CSS-3", "CSS 3");
+            correctionAdd("Css 3", "CSS 3");
+            correctionAdd("css-3", "CSS 3");
+            correctionAdd("CSS3", "CSS 3");
+            correctionAdd("css3", "CSS 3");
+            correctionAdd("Css3", "CSS 3");
 
             correctionAdd("CSS flexbox", "Flexbox");
             correctionAdd("flex-box", "Flexbox");
@@ -79356,24 +79295,14 @@ namespace OverflowHelper.core
             //
             //   <https://en.wikipedia.org/wiki/.NET#History>
             //
-            correctionAdd(".NET 5.0", ".NET&nbsp;5");
-            correctionAdd("NET 5.0", ".NET&nbsp;5");
-            correctionAdd(".NET 5", ".NET&nbsp;5");
-            correctionAdd(".Net 5", ".NET&nbsp;5");
+            correctionAdd(".NET 5.0", ".NET 5");
+            correctionAdd("NET 5.0", ".NET 5");
+            correctionAdd(".Net 5", ".NET 5");
 
-            correctionAdd(".NET 6", ".NET&nbsp;6");
-            correctionAdd(".Net 6", ".NET&nbsp;6");
+            correctionAdd(".Net 6", ".NET 6");
 
-            // Note: ".NET Core" is in an alternative word set
-            correctionAdd("net core 3.0", ".NET Core 3.0");
-            correctionAdd("Core 3.0", ".NET Core 3.0");
-
-            correctionAdd("core-clr", "CoreCLR");
-            correctionAdd("coreclr", "CoreCLR");
-
-            correctionAdd(".net 7.0", ".NET&nbsp;7");
-            correctionAdd(".NET 7", ".NET&nbsp;7"); // Sort of identity mapping
-            correctionAdd(".net7", ".NET&nbsp;7");
+            correctionAdd(".net 7.0", ".NET 7");
+            correctionAdd(".net7", ".NET 7");
 
             correctionAdd(".NET 8.0", ".NET 8");
             correctionAdd(".net 8.0", ".NET 8");
@@ -79386,6 +79315,13 @@ namespace OverflowHelper.core
             correctionAdd("NET 8", ".NET 8");
             correctionAdd("NET8", ".NET 8");
             correctionAdd("net8", ".NET 8");
+
+            // Note: ".NET Core" is in an alternative word set
+            correctionAdd("net core 3.0", ".NET Core 3.0");
+            correctionAdd("Core 3.0", ".NET Core 3.0");
+
+            correctionAdd("core-clr", "CoreCLR");
+            correctionAdd("coreclr", "CoreCLR");
 
             // .NET
             correctionAdd("BCL", "Base Class Library");
@@ -80190,10 +80126,9 @@ namespace OverflowHelper.core
             correctionAdd("structure map", "StructureMap");
             correctionAdd("structuremap", "StructureMap");
 
-            correctionAdd("open mpi", "Open&nbsp;MPI");
-            correctionAdd("Open MPI", "Open&nbsp;MPI");
-            correctionAdd("openmpi", "Open&nbsp;MPI");
-            correctionAdd("OpenMPI", "Open&nbsp;MPI");
+            correctionAdd("open mpi", "Open MPI");
+            correctionAdd("openmpi", "Open MPI");
+            correctionAdd("OpenMPI", "Open MPI");
 
             correctionAdd("Open Gl", "OpenGL");
             correctionAdd("open gl", "OpenGL");
@@ -83332,14 +83267,12 @@ namespace OverflowHelper.core
             correctionAdd("tls", "TLS");
 
             // An Internet protocol
-            correctionAdd("TLS 1.0", "TLS&nbsp;1.0");
-            correctionAdd("TLS1.0", "TLS&nbsp;1.0");
-            correctionAdd("TLS 10", "TLS&nbsp;1.0");
-            correctionAdd("TLSv1", "TLS&nbsp;1.0");
-            correctionAdd("TLS10", "TLS&nbsp;1.0");
+            correctionAdd("TLS1.0", "TLS 1.0");
+            correctionAdd("TLS 10", "TLS 1.0");
+            correctionAdd("TLSv1", "TLS 1.0");
+            correctionAdd("TLS10", "TLS 1.0");
 
-            correctionAdd("TLS 1.1", "TLS&nbsp;1.1");
-            correctionAdd("TLSv1.1", "TLS&nbsp;1.1");
+            correctionAdd("TLSv1.1", "TLS 1.1");
 
             // A TLS protocol extension
             correctionAdd("ech", "Encrypted Client Hello");
@@ -83378,9 +83311,8 @@ namespace OverflowHelper.core
             correctionAdd("L4J", "Log4j");
 
             // A computer software vulnerability
-            correctionAdd("Log4j 2", "Log4j&nbsp;2");
-            correctionAdd("log4j2", "Log4j&nbsp;2");
-            correctionAdd("Log4J2", "Log4j&nbsp;2");
+            correctionAdd("log4j2", "Log4j 2");
+            correctionAdd("Log4J2", "Log4j 2");
 
             correctionAdd("log4j Security Vulnerabilities", "Log4Shell vulnerability");
             correctionAdd("log4j security vulnerabilities", "Log4Shell vulnerability");
@@ -83501,9 +83433,8 @@ namespace OverflowHelper.core
             correctionAdd("xCode", "Xcode");
             correctionAdd("XCODE", "Xcode");
 
-            correctionAdd("Xcode Cloud", "Xcode&nbsp;Cloud");
-            correctionAdd("Xcode cloud", "Xcode&nbsp;Cloud");
-            correctionAdd("xcode cloud", "Xcode&nbsp;Cloud");
+            correctionAdd("Xcode cloud", "Xcode Cloud");
+            correctionAdd("xcode cloud", "Xcode Cloud");
 
             // Xcode
             correctionAdd("tuist", "Tuist");
@@ -91297,11 +91228,13 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-k8-ultra-8k-user-manual>
             //
-            correctionAdd("Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)");
-            correctionAdd("Keychron K8 Ultra 8K (85%)", "Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)"); // Sort of identity mapping
-            correctionAdd("K8&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)");
-            correctionAdd("Keychron K8 Ultra 8K", "Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)");
-            correctionAdd("K8 Ultra 8K", "Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)");
+            // K8 Ultra 8K source code:
+            //
+            //   <https://github.com/Keychron/zmk/tree/rtl8762g/app/boards/shields/keychron_k8_ultra_iso>
+            //
+            correctionAdd("Keychron K8 Ultra 8K", "Keychron K8 Ultra 8K (85%)");
+            correctionAdd("K8 Ultra 8K", "Keychron K8 Ultra 8K (85%)");
+            correctionAdd("K8 Ultra", "Keychron K8 Ultra 8K (85%)");
 
             // A 88-key (85%. True TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
@@ -109452,8 +109385,6 @@ namespace OverflowHelper.core
 
             URL_Add("CouchDB", "https://en.wikipedia.org/wiki/Apache_CouchDB"); // Old: <https://en.wikipedia.org/wiki/CouchDB>
 
-            URL_Add(".NET Reflector", "https://en.wikipedia.org/wiki/.NET_Reflector");
-
             URL_Add("Struts", "https://en.wikipedia.org/wiki/Apache_Struts_2"); // Old: https://en.wikipedia.org/wiki/Apache_Struts
 
             URL_Add("WiX", "https://en.wikipedia.org/wiki/WiX");
@@ -109544,15 +109475,15 @@ namespace OverflowHelper.core
 
             URL_Add("PHP2Shell", "https://en.wikipedia.org/wiki/PHP2Shell");
 
-            URL_Add("PHP&nbsp;4", "https://en.wikipedia.org/wiki/PHP#Release_history");
+            URL_Add("PHP 4", "https://en.wikipedia.org/wiki/PHP#Release_history");
 
-            URL_Add("PHP&nbsp;5", "https://en.wikipedia.org/wiki/PHP#Release_history");
+            URL_Add("PHP 5", "https://en.wikipedia.org/wiki/PHP#Release_history");
 
-            URL_Add("PHP&nbsp;6", "https://en.wikipedia.org/wiki/PHP#Release_history");
+            URL_Add("PHP 6", "https://en.wikipedia.org/wiki/PHP#Release_history");
 
-            URL_Add("PHP&nbsp;7", "https://en.wikipedia.org/wiki/PHP#PHP_7");
+            URL_Add("PHP 7", "https://en.wikipedia.org/wiki/PHP#PHP_7");
 
-            URL_Add("PHP&nbsp;8", "https://en.wikipedia.org/wiki/PHP#Release_history");
+            URL_Add("PHP 8", "https://en.wikipedia.org/wiki/PHP#Release_history");
 
             URL_Add("PHP Collective", "https://meta.stackoverflow.com/questions/425531/new-collective-php-scope-community-and-questions");
 
@@ -110497,10 +110428,6 @@ namespace OverflowHelper.core
             URL_Add("disappear", "https://en.wiktionary.org/wiki/disappear#Verb");
 
             URL_Add("hierarchy", "https://en.wiktionary.org/wiki/hierarchy#Noun");
-
-            URL_Add("Netduino", "https://en.wikipedia.org/wiki/Netduino");
-
-            URL_Add(".NET Compact Framework", "https://en.wikipedia.org/wiki/.NET_Compact_Framework");
 
             URL_Add("Xamarin", "https://en.wikipedia.org/wiki/Xamarin");
 
@@ -112181,10 +112108,6 @@ namespace OverflowHelper.core
             URL_Add("e-book", "https://en.wikipedia.org/wiki/E-book");
 
             URL_Add("enthusiastic", "https://en.wiktionary.org/wiki/enthusiastic#Adjective");
-
-            URL_Add(".NET Standard", "https://docs.microsoft.com/en-us/dotnet/standard/net-standard");
-
-            URL_Add(".NET CLI", "https://en.wikipedia.org/wiki/Common_Language_Infrastructure");
 
             URL_Add("NestJS", "https://nestjs.com/");
 
@@ -115526,7 +115449,7 @@ namespace OverflowHelper.core
 
             URL_Add("flame war", "https://en.wiktionary.org/wiki/flame_war#Noun");
 
-            URL_Add("ALGOL&nbsp;60", "https://en.wikipedia.org/wiki/ALGOL_60");
+            URL_Add("ALGOL 60", "https://en.wikipedia.org/wiki/ALGOL_60");
 
             URL_Add("ice cube", "https://en.wiktionary.org/wiki/ice_cube#Noun");
 
@@ -115884,8 +115807,6 @@ namespace OverflowHelper.core
 
             URL_Add("PBUH", "https://en.wiktionary.org/wiki/PBUH#Interjection");
 
-            URL_Add("Qt&nbsp;5", "https://en.wikipedia.org/wiki/Qt_version_history#Qt_5");
-
             URL_Add("StackBlitz", "https://stackblitz.com/");
 
             URL_Add("WebdriverIO", "https://webdriver.io/docs/gettingstarted/");
@@ -116078,7 +115999,7 @@ namespace OverflowHelper.core
 
             URL_Add("LIGO", "https://en.wikipedia.org/wiki/LIGO");
 
-            URL_Add("Moto&nbsp;G", "https://en.wikipedia.org/wiki/Motorola_Moto#Moto_G");
+            URL_Add("Moto G", "https://en.wikipedia.org/wiki/Motorola_Moto#Moto_G");
 
             URL_Add("UPX", "https://en.wikipedia.org/wiki/UPX");
 
@@ -117474,8 +117395,6 @@ namespace OverflowHelper.core
 
             URL_Add("Cunningham's Law", "https://en.wikipedia.org/wiki/Ward_Cunningham#%22Cunningham's_Law%22");
 
-            URL_Add("Qtile", "https://en.wikipedia.org/wiki/Tiling_window_manager#List_of_tiling_window_managers_for_X");
-
             URL_Add("Rhythmbox", "https://en.wikipedia.org/wiki/Rhythmbox");
 
             URL_Add("Tagalog", "https://en.wikipedia.org/wiki/Tagalog_language");
@@ -118026,9 +117945,9 @@ namespace OverflowHelper.core
 
             URL_Add("John Resig", "https://en.wikipedia.org/wiki/John_Resig");
 
-            URL_Add("Symfony&nbsp;4", "https://en.wikipedia.org/wiki/Symfony#Releases");
+            URL_Add("Symfony 4", "https://en.wikipedia.org/wiki/Symfony#Releases");
 
-            URL_Add("Symfony&nbsp;5", "https://en.wikipedia.org/wiki/Symfony#Releases");
+            URL_Add("Symfony 5", "https://en.wikipedia.org/wiki/Symfony#Releases");
 
             URL_Add("apologies", "https://en.wiktionary.org/wiki/apology#Noun");
 
@@ -118915,10 +118834,6 @@ namespace OverflowHelper.core
             URL_Add("slow", "https://en.wiktionary.org/wiki/slow#Adjective");
 
             URL_Add("ever-changing", "https://en.wiktionary.org/wiki/ever-changing#Adjective");
-
-            URL_Add(".NET Rocks", "https://www.dotnetrocks.com/");
-
-            URL_Add("ASRock", "https://en.wikipedia.org/wiki/ASRock#History");
 
             URL_Add("Ace Combat", "https://en.wikipedia.org/wiki/Ace_Combat");
 
@@ -119818,8 +119733,6 @@ namespace OverflowHelper.core
 
             URL_Add("Vought V-173 'Flying Pancake'", "https://en.wikipedia.org/wiki/Vought_V-173");
 
-            URL_Add(".NET Remoting", "https://en.wikipedia.org/wiki/.NET_Remoting");
-
             URL_Add("nonending", "https://en.wiktionary.org/wiki/nonending#Adjective");
 
             URL_Add("premade", "https://en.wiktionary.org/wiki/premade#Adjective");
@@ -120152,7 +120065,7 @@ namespace OverflowHelper.core
 
             URL_Add("LiveJournal", "https://en.wikipedia.org/wiki/LiveJournal");
 
-            URL_Add("Symfony&nbsp;2", "https://en.wikipedia.org/wiki/Symfony#Releases");
+            URL_Add("Symfony 2", "https://en.wikipedia.org/wiki/Symfony#Releases");
 
             URL_Add("VKontakte", "https://en.wikipedia.org/wiki/VK_(service)");
 
@@ -120227,12 +120140,6 @@ namespace OverflowHelper.core
             URL_Add("Material Icons", "https://fonts.google.com/icons?icon.set=Material+Icons");
 
             URL_Add("nonsignificant", "https://en.wiktionary.org/wiki/nonsignificant#Adjective");
-
-            URL_Add("HTML&nbsp;4", "https://en.wikipedia.org/wiki/HTML#HTML_4");
-
-            URL_Add("HTML Tidy", "https://en.wikipedia.org/w/index.php?title=HTML_Tidy&oldid=1355551104");
-
-            URL_Add("HTML Purifier", "https://htmlpurifier.org/");
 
             URL_Add("Jaxen", "https://github.com/jaxen-xpath/jaxen");
 
@@ -121010,7 +120917,7 @@ namespace OverflowHelper.core
 
             URL_Add("edge computing", "https://en.wikipedia.org/wiki/Edge_computing");
 
-            URL_Add("GB&nbsp;2312", "https://en.wikipedia.org/wiki/GB_2312");
+            URL_Add("GB 2312", "https://en.wikipedia.org/wiki/GB_2312");
 
             URL_Add("let-down", "https://en.wiktionary.org/wiki/let-down#Noun");
 
@@ -121035,8 +120942,6 @@ namespace OverflowHelper.core
             URL_Add("Business Catalyst", "https://en.wikipedia.org/wiki/Business_Catalyst");
 
             URL_Add("generalized Pareto distribution", "https://en.wikipedia.org/wiki/Generalized_Pareto_distribution");
-
-            URL_Add("HTML&nbsp;3.2", "https://en.wikipedia.org/wiki/HTML#HTML_3");
 
             URL_Add("Java Management Extensions", "https://en.wikipedia.org/wiki/Java_Management_Extensions");
 
@@ -121360,8 +121265,6 @@ namespace OverflowHelper.core
 
             URL_Add("iterate", "https://en.wiktionary.org/wiki/iterate#Verb");
 
-            URL_Add("Qt OPC UA", "https://doc.qt.io/qt-6/qtopcua-overview.html");
-
             URL_Add("collateral", "https://en.wiktionary.org/wiki/collateral#Adjective");
 
             URL_Add("retrieved", "https://en.wiktionary.org/wiki/retrieve#Verb");
@@ -121680,7 +121583,7 @@ namespace OverflowHelper.core
 
             URL_Add("car industry", "https://en.wikipedia.org/wiki/Automotive_industry");
 
-            URL_Add("Apple&nbsp;Pay", "https://en.wikipedia.org/wiki/Apple_Pay");
+            URL_Add("Apple Pay", "https://en.wikipedia.org/wiki/Apple_Pay");
 
             URL_Add("Google Wallet", "https://en.wikipedia.org/wiki/Google_Wallet");
 
@@ -121696,7 +121599,7 @@ namespace OverflowHelper.core
 
             URL_Add("Snake", "https://en.wikipedia.org/wiki/Snake_(video_game_genre)");
 
-            URL_Add("Xcode&nbsp;Cloud", "https://en.wikipedia.org/wiki/Xcode#13.x_series");
+            URL_Add("Xcode Cloud", "https://en.wikipedia.org/wiki/Xcode#13.x_series");
 
             URL_Add("accepts", "https://en.wiktionary.org/wiki/accept#Verb");
 
@@ -123372,8 +123275,6 @@ namespace OverflowHelper.core
 
             URL_Add("cunt", "https://en.wiktionary.org/wiki/cunt#Noun");
 
-            URL_Add(".NET 8", "https://en.wikipedia.org/wiki/.NET#History");
-
             URL_Add("trial balloon", "https://en.wikipedia.org/wiki/Trial_balloon");
 
             URL_Add("under-represented", "https://en.wiktionary.org/wiki/under-represented#Adjective");
@@ -123856,8 +123757,6 @@ namespace OverflowHelper.core
 
             URL_Add("Kakoune", "https://en.wikipedia.org/wiki/Kakoune");
 
-            URL_Add(".NET", "https://en.wikipedia.org/wiki/.NET_Framework");
-
             URL_Add("one-step", "https://www.merriam-webster.com/dictionary/one-step");
 
             URL_Add("Major League Gaming", "https://en.wikipedia.org/wiki/Major_League_Gaming");
@@ -124292,8 +124191,6 @@ namespace OverflowHelper.core
 
             URL_Add("DHL", "https://en.wikipedia.org/wiki/DHL");
 
-            URL_Add(".NET&nbsp;7", "https://en.wikipedia.org/wiki/.NET#History");
-
             URL_Add("rose", "https://en.wiktionary.org/wiki/rise#Verb");
 
             URL_Add("faulty", "https://en.wiktionary.org/wiki/faulty#Adjective");
@@ -124396,7 +124293,7 @@ namespace OverflowHelper.core
 
             URL_Add("Boto", "https://stackoverflow.com/tags/boto3/info");
 
-            URL_Add("Boto&nbsp;3", "https://stackoverflow.com/tags/boto3/info");
+            URL_Add("Boto 3", "https://stackoverflow.com/tags/boto3/info");
 
             URL_Add("Genymotion", "https://stackoverflow.com/tags/genymotion/info");
 
@@ -125726,14 +125623,6 @@ namespace OverflowHelper.core
 
             URL_Add("XSL", "https://en.wikipedia.org/wiki/XSL");
 
-            URL_Add("HTML", "https://en.wikipedia.org/wiki/HTML");
-
-            URL_Add("HTML5", "https://en.wikipedia.org/wiki/HTML5");
-
-            URL_Add("XHTML", "https://en.wikipedia.org/wiki/XHTML");
-
-            URL_Add("HTML character entity reference", "https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML");
-
             URL_Add("Tendermint", "https://docs.tendermint.com/v0.34/introduction/what-is-tendermint.html");
 
             URL_Add("DS18B20", "https://www.edn.com/ds18b20/");
@@ -125817,16 +125706,6 @@ namespace OverflowHelper.core
             URL_Add("Colaboratory", "https://en.wikipedia.org/wiki/Project_Jupyter#History"); // Old: <https://en.wikipedia.org/wiki/Project_Jupyter#Google_Colaboratory>. Even older: https://en.wikipedia.org/wiki/Project_Jupyter#Colaboratory // Old: https://en.wikipedia.org/wiki/Project_Jupyter#Industry_adoption
 
             URL_Add("Sicilian Defence, Scheveningen Variation", "https://en.wikipedia.org/wiki/Sicilian_Defence,_Scheveningen_Variation");
-
-            URL_Add(".NET&nbsp;5", "https://en.wikipedia.org/wiki/.NET#History"); // Old: <https://en.wikipedia.org/wiki/.NET_Core>
-
-            URL_Add(".NET&nbsp;6", "https://en.wikipedia.org/wiki/.NET#History"); // Old: <https://en.wikipedia.org/wiki/.NET_Core>
-
-            URL_Add(".NET Core 3.0", "https://en.wikipedia.org/wiki/.NET#History");
-
-            URL_Add("ASP.NET Core", "https://en.wikipedia.org/wiki/ASP.NET_Core");
-
-            URL_Add("ASP.NET Core 3.0", "https://en.wikipedia.org/wiki/ASP.NET_Core#Release_history");
 
             URL_Add("Levenshtein distance", "https://en.wikipedia.org/wiki/Levenshtein_distance");
 
@@ -126523,8 +126402,6 @@ namespace OverflowHelper.core
             URL_Add("Nushell", "https://www.nushell.sh/book/");
 
             URL_Add("Quickshell", "https://quickshell.org/about/");
-
-            URL_Add("Qt Quick", "https://en.wikipedia.org/wiki/Qt_Quick");
 
             URL_Add("$HOME/.bashrc file", "https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Legacy-compatible_Bash_startup_example"); // Old: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#Aliases_and_functions
 
@@ -127989,8 +127866,6 @@ namespace OverflowHelper.core
             URL_Add("LF", "https://en.wikipedia.org/wiki/Newline#Representation");
 
             URL_Add("back-EMF", "https://en.wikipedia.org/wiki/Counter-electromotive_force");
-
-            URL_Add(".NET Micro Framework", "https://en.wikipedia.org/wiki/.NET_Micro_Framework");
 
             URL_Add("TIFF", "https://en.wikipedia.org/wiki/Tagged_Image_File_Format");
 
@@ -130186,15 +130061,15 @@ namespace OverflowHelper.core
 
             URL_Add("Nexus S", "https://en.wikipedia.org/wiki/Nexus_S");
 
-            URL_Add("Nexus&nbsp;4", "https://en.wikipedia.org/wiki/Nexus_4");
+            URL_Add("Nexus 4", "https://en.wikipedia.org/wiki/Nexus_4");
 
-            URL_Add("Nexus&nbsp;5", "https://en.wikipedia.org/wiki/Nexus_5");
+            URL_Add("Nexus 5", "https://en.wikipedia.org/wiki/Nexus_5");
 
-            URL_Add("Nexus&nbsp;5X", "https://en.wikipedia.org/wiki/Nexus_5X");
+            URL_Add("Nexus 5X", "https://en.wikipedia.org/wiki/Nexus_5X");
 
-            URL_Add("Nexus&nbsp;7", "https://en.wikipedia.org/wiki/Nexus_7_%282012_version%29");
+            URL_Add("Nexus 7", "https://en.wikipedia.org/wiki/Nexus_7_%282012_version%29");
 
-            URL_Add("Nexus&nbsp;9", "https://en.wikipedia.org/wiki/Nexus_9");
+            URL_Add("Nexus 9", "https://en.wikipedia.org/wiki/Nexus_9");
 
             URL_Add("Gamers Nexus", "https://youtube.fandom.com/wiki/Gamers_Nexus");
 
@@ -130545,8 +130420,6 @@ namespace OverflowHelper.core
             URL_Add("PhpFiddle", "https://en.wikipedia.org/wiki/Comparison_of_online_source_code_playgrounds#Online_web_client-side_source_code_playgrounds");
 
             URL_Add("CodePad", "https://en.wikipedia.org/wiki/Comparison_of_online_source_code_playgrounds#Online_compiled_source_code_playgrounds");
-
-            URL_Add(".NET Fiddle", "https://en.wikipedia.org/wiki/Comparison_of_online_source_code_playgrounds#Online_compiled_source_code_playgrounds");
 
             URL_Add("advertisement", "https://en.wikipedia.org/wiki/Advertisements");
 
@@ -131196,9 +131069,9 @@ namespace OverflowHelper.core
 
             URL_Add("TLS", "https://en.wikipedia.org/wiki/Transport_Layer_Security");
 
-            URL_Add("TLS&nbsp;1.0", "https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.0");
+            URL_Add("TLS 1.0", "https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.0");
 
-            URL_Add("TLS&nbsp;1.1", "https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.1");
+            URL_Add("TLS 1.1", "https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.1");
 
             URL_Add("SSL", "https://en.wikipedia.org/wiki/Transport_Layer_Security");
 
@@ -131494,9 +131367,25 @@ namespace OverflowHelper.core
 
             URL_Add("copy elision", "https://en.wikipedia.org/wiki/Copy_elision");
 
+            URL_Add("HTML", "https://en.wikipedia.org/wiki/HTML");
+
+            URL_Add("HTML 3.2", "https://en.wikipedia.org/wiki/HTML#HTML_3");
+
+            URL_Add("HTML 4", "https://en.wikipedia.org/wiki/HTML#HTML_4");
+
+            URL_Add("HTML5", "https://en.wikipedia.org/wiki/HTML5");
+
+            URL_Add("HTML character entity reference", "https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML");
+
+            URL_Add("HTML Tidy", "https://en.wikipedia.org/w/index.php?title=HTML_Tidy&oldid=1355551104");
+
+            URL_Add("HTML Purifier", "https://htmlpurifier.org/");
+
             URL_Add("HTML element", "https://en.wikipedia.org/wiki/HTML_element");
 
             URL_Add("HTML comment", "https://en.wikipedia.org/wiki/HTML_element#Comments");
+
+            URL_Add("XHTML", "https://en.wikipedia.org/wiki/XHTML");
 
             URL_Add("page anchor", "https://en.wikipedia.org/wiki/HTML_element#Anchor");
 
@@ -132344,7 +132233,7 @@ namespace OverflowHelper.core
 
             URL_Add("Visual Basic 6.0", "https://en.wikipedia.org/wiki/Visual_Basic#Timeline");
 
-            URL_Add("Visual&nbsp;Studio", "https://en.wikipedia.org/wiki/Visual_Studio"); // Old: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio
+            URL_Add("Visual Studio", "https://en.wikipedia.org/wiki/Visual_Studio"); // Old: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio
 
             URL_Add("Solution Explorer", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Other_tools");
 
@@ -132360,21 +132249,21 @@ namespace OverflowHelper.core
 
             URL_Add("Visual C++ 2010", "https://en.wikipedia.org/wiki/Visual_C%2B%2B#32-bit_and_64-bit_versions");
 
-            URL_Add("Visual&nbsp;Studio Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
+            URL_Add("Visual Studio Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express");
 
             URL_Add("DevExpress", "https://www.devexpress.com/aboutus/"); // Old: http://www.devexpress.com/Home/Mission.xml
 
             URL_Add("Cassini web server", "https://www.developer.com/net/deciding-on-a-microsoft-web-server-cassini-iis-and-iis-express.html");
 
-            URL_Add("Visual&nbsp;Basic&nbsp;2005 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
+            URL_Add("Visual Basic 2005 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
 
             URL_Add("Visual Basic 2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
 
-            URL_Add("Visual&nbsp;Basic&nbsp;2010 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
+            URL_Add("Visual Basic 2010 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_Basic_Express");
 
             URL_Add("Visual C# 2008 Express Edition", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
 
-            URL_Add("Visual&nbsp;C# Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
+            URL_Add("Visual C# Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.23_Express");
 
             URL_Add("Visual C++ 2010 Express", "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio_Express#Visual_C.2B.2B_Express");
 
@@ -132898,9 +132787,9 @@ namespace OverflowHelper.core
 
             URL_Add("W3C CSS validator", "https://jigsaw.w3.org/css-validator/");
 
-            URL_Add("CSS&nbsp;2", "https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_2");
+            URL_Add("CSS 2", "https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_2");
 
-            URL_Add("CSS&nbsp;3", "https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3");
+            URL_Add("CSS 3", "https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3");
 
             URL_Add("CSS grid", "https://en.wikipedia.org/wiki/CSS_grid_layout");
 
@@ -132932,39 +132821,41 @@ namespace OverflowHelper.core
 
             URL_Add("RFC", "https://en.wikipedia.org/wiki/Request_for_Comments");
 
-            URL_Add("RFC&nbsp;822", "https://en.wikipedia.org/wiki/Email");
+            URL_Add("RFC 822", "https://en.wikipedia.org/wiki/Email");
 
-            URL_Add("RFC&nbsp;1738", "https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Refinement");
+            URL_Add("RFC 1738", "https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Refinement");
 
-            URL_Add("RFC&nbsp;1867", "https://datatracker.ietf.org/doc/rfc1867/history/");
+            URL_Add("RFC 1867", "https://datatracker.ietf.org/doc/rfc1867/history/");
 
-            URL_Add("RFC&nbsp;1918", "https://en.wikipedia.org/wiki/Private_network#RFC_documents");
+            URL_Add("RFC 1918", "https://en.wikipedia.org/wiki/Private_network#RFC_documents");
 
-            URL_Add("RFC&nbsp;2217", "https://www.rfc-editor.org/rfc/rfc2217");
+            URL_Add("RFC 2217", "https://www.rfc-editor.org/rfc/rfc2217");
 
-            URL_Add("RFC&nbsp;2606", "https://en.wikipedia.org/wiki/.example#Reserved_DNS_names");
+            URL_Add("RFC 2606", "https://en.wikipedia.org/wiki/.example#Reserved_DNS_names");
 
-            URL_Add("RFC&nbsp;2616", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol");
+            URL_Add("RFC 2616", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol");
 
-            URL_Add("RFC&nbsp;2822", "https://en.wikipedia.org/wiki/Email#Message_format");
+            URL_Add("RFC 2822", "https://en.wikipedia.org/wiki/Email#Message_format");
 
-            URL_Add("RFC&nbsp;2854", "https://datatracker.ietf.org/doc/rfc2854/history/");
+            URL_Add("RFC 2854", "https://datatracker.ietf.org/doc/rfc2854/history/");
 
-            URL_Add("RFC&nbsp;3549", "https://en.wikipedia.org/wiki/Netlink");
+            URL_Add("RFC 3549", "https://en.wikipedia.org/wiki/Netlink");
 
-            URL_Add("RFC&nbsp;3696", "https://en.wikipedia.org/wiki/Email_address#Syntax");
+            URL_Add("RFC 3696", "https://en.wikipedia.org/wiki/Email_address#Syntax");
 
-            URL_Add("RFC&nbsp;4122", "https://en.wikipedia.org/wiki/Universally_unique_identifier#History");
+            URL_Add("RFC 3339", "https://www.rfc-editor.org/rfc/rfc3339");
 
-            URL_Add("RFC&nbsp;5322", "https://en.wikipedia.org/wiki/Email#Message_format");
+            URL_Add("RFC 4122", "https://en.wikipedia.org/wiki/Universally_unique_identifier#History");
 
-            URL_Add("RFC&nbsp;5987", "https://datatracker.ietf.org/doc/rfc5987/history/");
+            URL_Add("RFC 5322", "https://en.wikipedia.org/wiki/Email#Message_format");
 
-            URL_Add("RFC&nbsp;6266", "https://datatracker.ietf.org/doc/rfc6266/history/");
+            URL_Add("RFC 5987", "https://datatracker.ietf.org/doc/rfc5987/history/");
 
-            URL_Add("RFC&nbsp;7578", "https://datatracker.ietf.org/doc/rfc7578/history/");
+            URL_Add("RFC 6266", "https://datatracker.ietf.org/doc/rfc6266/history/");
 
-            URL_Add("RFC&nbsp;8187", "https://datatracker.ietf.org/doc/8187/history/");
+            URL_Add("RFC 7578", "https://datatracker.ietf.org/doc/rfc7578/history/");
+
+            URL_Add("RFC 8187", "https://datatracker.ietf.org/doc/8187/history/");
 
             URL_Add("reification", "https://stackoverflow.com/questions/31876372/what-is-reification/31876747#31876747");
 
@@ -133720,7 +133611,7 @@ namespace OverflowHelper.core
 
             URL_Add("&nbsp;THz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
 
-            URL_Add("5&nbsp;GHz", "https://en.wikipedia.org/wiki/Wi-Fi#Waveband");
+            URL_Add("5 GHz", "https://en.wikipedia.org/wiki/Wi-Fi#Waveband");
 
             URL_Add("&nbsp;MHz", "https://en.wikipedia.org/wiki/Hertz#SI_multiples");
 
@@ -135107,8 +134998,6 @@ namespace OverflowHelper.core
 
             URL_Add("kludgy", "https://en.wiktionary.org/wiki/kludgy#Adjective");
 
-            URL_Add("RFC&nbsp;3339", "https://www.rfc-editor.org/rfc/rfc3339");
-
             URL_Add("Maple", "https://en.wikipedia.org/wiki/Maple_(software)");
 
             URL_Add("OSMnx", "https://wiki.openstreetmap.org/wiki/OSMnx");
@@ -135537,15 +135426,15 @@ namespace OverflowHelper.core
 
             URL_Add("Android Jetpack", "https://developer.android.com/jetpack/");
 
-            URL_Add("Android&nbsp;2.2 (Froyo) (2010 vintage)", "https://en.wikipedia.org/wiki/Android_Froyo");
+            URL_Add("Android 2.2 (Froyo) (2010 vintage)", "https://en.wikipedia.org/wiki/Android_Froyo");
 
-            URL_Add("Android&nbsp;2.3 (Gingerbread) (2010 vintage)", "https://en.wikipedia.org/wiki/Android_Gingerbread");
+            URL_Add("Android 2.3 (Gingerbread) (2010 vintage)", "https://en.wikipedia.org/wiki/Android_Gingerbread");
 
-            URL_Add("Android&nbsp;3 (Honeycomb) (2011 vintage)", "https://en.wikipedia.org/wiki/Android_version_history#Android_3.0_Honeycomb"); // https://en.wikipedia.org/wiki/Android_version_history#Android_3.0_Honeycomb_.28API_level_11.29
+            URL_Add("Android 3 (Honeycomb) (2011 vintage)", "https://en.wikipedia.org/wiki/Android_version_history#Android_3.0_Honeycomb"); // https://en.wikipedia.org/wiki/Android_version_history#Android_3.0_Honeycomb_.28API_level_11.29
 
-            URL_Add("Android&nbsp;4.0 (Ice Cream Sandwich) (2011 vintage)", "https://en.wikipedia.org/wiki/Android_Ice_Cream_Sandwich");
+            URL_Add("Android 4.0 (Ice Cream Sandwich) (2011 vintage)", "https://en.wikipedia.org/wiki/Android_Ice_Cream_Sandwich");
 
-            URL_Add("Android&nbsp;4.3 (Jelly Bean) (2013 vintage)", "https://en.wikipedia.org/wiki/Android_Jelly_Bean");
+            URL_Add("Android 4.3 (Jelly Bean) (2013 vintage)", "https://en.wikipedia.org/wiki/Android_Jelly_Bean");
 
             URL_Add("Android 4.4.x (KitKat) (2013 vintage)", "https://en.wikipedia.org/wiki/Android_version_history#Android_4.4_KitKat"); // Old: https://en.wikipedia.org/wiki/Android_version_history#Android_4.4_KitKat_.28API_level_19.29
 
@@ -135563,13 +135452,13 @@ namespace OverflowHelper.core
 
             URL_Add("Android X", "https://developer.android.com/jetpack/androidx");
 
-            URL_Add("Android&nbsp;10 (2019 vintage)", "https://en.wikipedia.org/wiki/Android_10");
+            URL_Add("Android 10 (2019 vintage)", "https://en.wikipedia.org/wiki/Android_10");
 
-            URL_Add("Android&nbsp;11 (2020 vintage)", "https://en.wikipedia.org/wiki/Android_11");
+            URL_Add("Android 11 (2020 vintage)", "https://en.wikipedia.org/wiki/Android_11");
 
-            URL_Add("Android&nbsp;13 (2022 vintage)", "https://en.wikipedia.org/wiki/Android_13");
+            URL_Add("Android 13 (2022 vintage)", "https://en.wikipedia.org/wiki/Android_13");
 
-            URL_Add("Android&nbsp;14 (2023 vintage)", "https://en.wikipedia.org/wiki/Android_version_history#Android_14");
+            URL_Add("Android 14 (2023 vintage)", "https://en.wikipedia.org/wiki/Android_version_history#Android_14");
 
             URL_Add("Android Studio Bumblebee (2021.1.1)", "https://en.wikipedia.org/wiki/Android_Studio#Version_history");
 
@@ -138317,8 +138206,6 @@ namespace OverflowHelper.core
             URL_Add("X570", "https://en.wikipedia.org/wiki/List_of_AMD_chipsets#AM4_chipsets");
 
             URL_Add("BPF Compiler Collection", "https://github.com/iovisor/bcc"); // Old: https://linux.die.net/man/1/bcc
-
-            URL_Add(".NET 3.5", "https://en.wikipedia.org/wiki/.NET_Framework_version_history#.NET_Framework_3.5");
 
             URL_Add("Doxygen", "https://en.wikipedia.org/wiki/Doxygen");
 
@@ -141320,7 +141207,7 @@ namespace OverflowHelper.core
 
             URL_Add("OpenCL", "https://en.wikipedia.org/wiki/OpenCL");
 
-            URL_Add("OpenCV&nbsp;2", "https://en.wikipedia.org/wiki/OpenCV#History");
+            URL_Add("OpenCV 2", "https://en.wikipedia.org/wiki/OpenCV#History");
 
             URL_Add("openSUSE", "https://en.wikipedia.org/wiki/OpenSUSE");
 
@@ -141354,7 +141241,7 @@ namespace OverflowHelper.core
 
             URL_Add("OpenSocial", "https://en.wikipedia.org/wiki/OpenSocial");
 
-            URL_Add("Open&nbsp;MPI", "https://en.wikipedia.org/wiki/Open_MPI");
+            URL_Add("Open MPI", "https://en.wikipedia.org/wiki/Open_MPI");
 
             URL_Add("OpenELEC", "https://en.wikipedia.org/wiki/OpenELEC");
 
@@ -142540,7 +142427,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)", "https://www.keychron.com/products/keychron-k5-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K8&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-k8-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron K8 Ultra 8K (85%)", "https://www.keychron.com/products/keychron-k8-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron K10 Ultra 8K (105%)", "https://www.keychron.com/products/keychron-k10-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -143330,7 +143217,7 @@ namespace OverflowHelper.core
 
             URL_Add("common table expression", "https://en.wikipedia.org/wiki/Hierarchical_and_recursive_queries_in_SQL#Common_table_expression");
 
-            URL_Add("Commons&nbsp;IO", "https://commons.apache.org/proper/commons-io/");
+            URL_Add("Commons IO", "https://commons.apache.org/proper/commons-io/");
 
             URL_Add("Common Lisp", "https://en.wikipedia.org/wiki/Common_Lisp");
 
@@ -143766,7 +143653,7 @@ namespace OverflowHelper.core
 
             URL_Add("GUI", "https://en.wikipedia.org/wiki/Graphical_user_interface");
 
-            URL_Add("Emacs&nbsp;Lisp", "https://en.wikipedia.org/wiki/Emacs_Lisp");
+            URL_Add("Emacs Lisp", "https://en.wikipedia.org/wiki/Emacs_Lisp");
 
             URL_Add("Emacs Lisp Package Archive", "https://en.wikipedia.org/wiki/GNU_Emacs#Release_history");
 
@@ -145616,8 +145503,6 @@ namespace OverflowHelper.core
 
             URL_Add("stylesheet export file", "https://www.saxonica.com/documentation10/#!using-xsl/compiling");
 
-            URL_Add(".NET native exports", "https://github.com/AaronRobinsonMSFT/DNNE");
-
             URL_Add("Performance Monitor", "https://en.wikipedia.org/wiki/Performance_Monitor");
 
             URL_Add("Network Monitor", "https://en.wikipedia.org/wiki/Microsoft_Network_Monitor");
@@ -147203,8 +147088,6 @@ namespace OverflowHelper.core
             URL_Add("Creative Commons BY-SA", "https://en.wikipedia.org/wiki/Creative_Commons_license#Four_rights"); // Old: https://en.wikipedia.org/wiki/Creative_Commons_license#Seven_regularly_used_licenses. Even older: https://en.wikipedia.org/wiki/Creative_Commons_license#Seven_regularly_used_licenses
 
             URL_Add("CC0", "https://en.wikipedia.org/wiki/Creative_Commons_license#Seven_regularly_used_licenses");
-
-            URL_Add("Qt Creator", "https://en.wikipedia.org/wiki/Qt_Creator");
 
             URL_Add("JCreator Lite Edition (LE)", "https://en.wikipedia.org/wiki/JCreator");
 
@@ -149508,7 +149391,7 @@ namespace OverflowHelper.core
 
             URL_Add("Log4net", "https://logging.apache.org/log4net/");
 
-            URL_Add("Log4j&nbsp;2", "https://en.wikipedia.org/wiki/Log4j");
+            URL_Add("Log4j 2", "https://en.wikipedia.org/wiki/Log4j");
 
             URL_Add("Log4Shell vulnerability", "https://en.wikipedia.org/wiki/Log4Shell");
 
@@ -151671,6 +151554,56 @@ namespace OverflowHelper.core
             URL_Add("PEP 498", "https://peps.python.org/pep-0498/");
 
             URL_Add("PEP 668", "https://peps.python.org/pep-0668/");
+
+            URL_Add("Qt 5", "https://en.wikipedia.org/wiki/Qt_version_history#Qt_5");
+
+            URL_Add("Qt Creator", "https://en.wikipedia.org/wiki/Qt_Creator");
+
+            URL_Add("Qt Quick", "https://en.wikipedia.org/wiki/Qt_Quick");
+
+            URL_Add("Qt OPC UA", "https://doc.qt.io/qt-6/qtopcua-overview.html");
+
+            URL_Add("Qtile", "https://en.wikipedia.org/wiki/Tiling_window_manager#List_of_tiling_window_managers_for_X");
+
+            URL_Add(".NET", "https://en.wikipedia.org/wiki/.NET_Framework");
+
+            URL_Add(".NET 3.5", "https://en.wikipedia.org/wiki/.NET_Framework_version_history#.NET_Framework_3.5");
+
+            URL_Add(".NET 5", "https://en.wikipedia.org/wiki/.NET#History"); // Old: <https://en.wikipedia.org/wiki/.NET_Core>
+
+            URL_Add(".NET 6", "https://en.wikipedia.org/wiki/.NET#History"); // Old: <https://en.wikipedia.org/wiki/.NET_Core>
+
+            URL_Add(".NET 7", "https://en.wikipedia.org/wiki/.NET#History");
+
+            URL_Add(".NET 8", "https://en.wikipedia.org/wiki/.NET#History");
+
+            URL_Add(".NET Standard", "https://docs.microsoft.com/en-us/dotnet/standard/net-standard");
+
+            URL_Add(".NET Core 3.0", "https://en.wikipedia.org/wiki/.NET#History");
+
+            URL_Add(".NET Micro Framework", "https://en.wikipedia.org/wiki/.NET_Micro_Framework");
+
+            URL_Add(".NET Fiddle", "https://en.wikipedia.org/wiki/Comparison_of_online_source_code_playgrounds#Online_compiled_source_code_playgrounds");
+
+            URL_Add(".NET Remoting", "https://en.wikipedia.org/wiki/.NET_Remoting");
+
+            URL_Add(".NET native exports", "https://github.com/AaronRobinsonMSFT/DNNE");
+
+            URL_Add(".NET Reflector", "https://en.wikipedia.org/wiki/.NET_Reflector");
+
+            URL_Add(".NET Compact Framework", "https://en.wikipedia.org/wiki/.NET_Compact_Framework");
+
+            URL_Add(".NET CLI", "https://en.wikipedia.org/wiki/Common_Language_Infrastructure");
+
+            URL_Add(".NET Rocks", "https://www.dotnetrocks.com/");
+
+            URL_Add("ASP.NET Core", "https://en.wikipedia.org/wiki/ASP.NET_Core");
+
+            URL_Add("ASP.NET Core 3.0", "https://en.wikipedia.org/wiki/ASP.NET_Core#Release_history");
+
+            URL_Add("Netduino", "https://en.wikipedia.org/wiki/Netduino");
+
+            URL_Add("ASRock", "https://en.wikipedia.org/wiki/ASRock#History");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -165706,17 +165639,6 @@ namespace OverflowHelper.core
             correctionAdd("regular expression_", "regular expression (tag wiki)_");
             correctionAdd("regex_", "regular expression (tag wiki)_");
 
-            correctionAdd("[tag:css]_", "CSS (tag wiki)_");
-            correctionAdd("[tag:CSS]_", "CSS (tag wiki)_");
-            correctionAdd("tag:css_", "CSS (tag wiki)_");
-            correctionAdd("css_", "CSS (tag wiki)_");
-            correctionAdd("CSS_", "CSS (tag wiki)_");
-
-            correctionAdd("[tag:css-3]_", "CSS&nbsp;3 (tag wiki)_");
-            correctionAdd("CSS 3 (tag wiki)_", "CSS&nbsp;3 (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("css-3_", "CSS&nbsp;3 (tag wiki)_");
-            correctionAdd("CSS&nbsp;3_", "CSS&nbsp;3 (tag wiki)_");
-
             correctionAdd("[tag:python-2.x]_", "Python&nbsp;2.x (tag wiki)_");
             correctionAdd("Python&nbsp;2.x_", "Python&nbsp;2.x (tag wiki)_");
             correctionAdd("Python 2.x (tag wiki)_", "Python&nbsp;2.x (tag wiki)_"); // Sort of identity mapping
@@ -165756,6 +165678,17 @@ namespace OverflowHelper.core
             correctionAdd("tag:sql-server_", "SQL&nbsp;Server (tag wiki)_");
             correctionAdd("sql-server_", "SQL&nbsp;Server (tag wiki)_");
             correctionAdd("SQL Server_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
+
+            correctionAdd("[tag:css]_", "CSS (tag wiki)_");
+            correctionAdd("[tag:CSS]_", "CSS (tag wiki)_");
+            correctionAdd("tag:css_", "CSS (tag wiki)_");
+            correctionAdd("css_", "CSS (tag wiki)_");
+            correctionAdd("CSS_", "CSS (tag wiki)_");
+
+            correctionAdd("[tag:css-3]_", "CSS&nbsp;3 (tag wiki)_");
+            correctionAdd("CSS 3 (tag wiki)_", "CSS&nbsp;3 (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("css-3_", "CSS&nbsp;3 (tag wiki)_");
+            correctionAdd("CSS&nbsp;3_", "CSS&nbsp;3 (tag wiki)_");
 
             //// Wrong URL... It should be:
             //
@@ -168482,8 +168415,6 @@ namespace OverflowHelper.core
 
             URL_Add("C++20 (tag wiki)_", "https://stackoverflow.com/questions/tagged/c++20");
 
-            URL_Add("HTML5 (tag wiki)_", "https://stackoverflow.com/questions/tagged/html5");
-
             URL_Add("SymPy (tag wiki)_", "https://stackoverflow.com/questions/tagged/sympy");
 
             URL_Add("DOM (tag wiki)_", "https://stackoverflow.com/questions/tagged/dom");
@@ -168503,16 +168434,6 @@ namespace OverflowHelper.core
             URL_Add("HTTP (tag wiki)_", "https://stackoverflow.com/questions/tagged/http");
 
             URL_Add("JSON (tag wiki)_", "https://stackoverflow.com/questions/tagged/json");
-
-            URL_Add("HTML (tag wiki)_", "https://stackoverflow.com/questions/tagged/html");
-
-            URL_Add("XHTML (tag wiki)_", "https://stackoverflow.com/questions/tagged/xhtml");
-
-            URL_Add("XML (tag wiki)_", "https://stackoverflow.com/questions/tagged/xml");
-
-            URL_Add("XSLT (tag wiki)_", "https://stackoverflow.com/questions/tagged/xslt");
-
-            URL_Add("XHR (tag wiki)_", "https://stackoverflow.com/questions/tagged/xhr");
 
             URL_Add("Java (tag wiki)_", "https://stackoverflow.com/questions/tagged/java");
 
@@ -168553,8 +168474,6 @@ namespace OverflowHelper.core
             URL_Add("MySQL (tag wiki)_", "https://stackoverflow.com/questions/tagged/mysql");
 
             URL_Add("json-api (tag wiki)_", "https://stackoverflow.com/questions/tagged/json-api");
-
-            URL_Add(".NET (tag wiki)_", "https://stackoverflow.com/questions/tagged/.net");
 
             URL_Add("C# (tag wiki)_", "https://stackoverflow.com/questions/tagged/c%23");
 
@@ -168631,6 +168550,20 @@ namespace OverflowHelper.core
             URL_Add("Python&nbsp;3.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.x");
 
             URL_Add("SQL&nbsp;Server (tag wiki)_", "https://stackoverflow.com/questions/tagged/sql-server");
+
+            URL_Add("HTML (tag wiki)_", "https://stackoverflow.com/questions/tagged/html");
+
+            URL_Add("HTML5 (tag wiki)_", "https://stackoverflow.com/questions/tagged/html5");
+
+            URL_Add("XHTML (tag wiki)_", "https://stackoverflow.com/questions/tagged/xhtml");
+
+            URL_Add("XML (tag wiki)_", "https://stackoverflow.com/questions/tagged/xml");
+
+            URL_Add("XSLT (tag wiki)_", "https://stackoverflow.com/questions/tagged/xslt");
+
+            URL_Add("XHR (tag wiki)_", "https://stackoverflow.com/questions/tagged/xhr");
+
+            URL_Add(".NET (tag wiki)_", "https://stackoverflow.com/questions/tagged/.net");
 
             //URL_Add("Zephyr RTOS (tag wiki)_", "https://stackoverflow.com/questions/tagged/zephyr-rtos");
             //
@@ -168829,8 +168762,6 @@ namespace OverflowHelper.core
             URL_Add("photon_", "https://en.wikipedia.org/wiki/Photon");
 
             URL_Add("identical_", "https://en.wiktionary.org/wiki/identical#Adjective");
-
-            URL_Add(".NET MAUI_", "https://en.wikipedia.org/wiki/Xamarin#.NET_MAUI");
 
             URL_Add("went_", "https://en.wiktionary.org/wiki/went#Verb");
 
@@ -170334,8 +170265,6 @@ namespace OverflowHelper.core
 
             URL_Add("account_", "https://en.wiktionary.org/wiki/account#Noun");
 
-            URL_Add("Qt_", "https://en.wikipedia.org/wiki/Qt_%28software%29"); // The URL changed. Old: <https://en.wikipedia.org/wiki/Qt_%28toolkit%29>.
-
             URL_Add("Discovery Kit_", "https://www.st.com/en/evaluation-tools/stm32-discovery-kits.html");
 
             URL_Add("Pipedream_", "https://en.wikipedia.org/wiki/Pipedream_(toolkit)");
@@ -170585,8 +170514,6 @@ namespace OverflowHelper.core
             URL_Add("Cloudflare_", "https://en.wikipedia.org/wiki/Cloudflare");
 
             URL_Add("preparation_", "https://en.wiktionary.org/wiki/preparation#Noun");
-
-            URL_Add(".NET assembly_", "https://en.wikipedia.org/wiki/Assembly_(CLI)");
 
             URL_Add("Linus Tech Tips_", "https://www.youtube.com/c/LinusTechTips/videos");
 
@@ -172913,6 +172840,12 @@ namespace OverflowHelper.core
             URL_Add("Strawberry GraphQL_", "https://pypi.org/project/strawberry-graphql/");
 
             URL_Add("numpy.array()_", "https://numpy.org/doc/stable/reference/generated/numpy.array.html");
+
+            URL_Add("Qt_", "https://en.wikipedia.org/wiki/Qt_%28software%29"); // The URL changed. Old: <https://en.wikipedia.org/wiki/Qt_%28toolkit%29>.
+
+            URL_Add(".NET assembly_", "https://en.wikipedia.org/wiki/Assembly_(CLI)");
+
+            URL_Add(".NET MAUI_", "https://en.wikipedia.org/wiki/Xamarin#.NET_MAUI");
 
         } //addLookupData_alternativeWordSet()
 
@@ -182734,8 +182667,6 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron keyboards' two-hour deep sleep___", "https://github.com/Keychron/qmk_firmware/issues/380#issuecomment-4886867229");
 
-            URL_Add(".NET Core___", "https://en.wikipedia.org/wiki/.NET#History"); // Even older: https://en.wikipedia.org/wiki/.NET_Framework#.NET_Core. Old: <https://en.wikipedia.org/wiki/.NET_Core>
-
             URL_Add("Fortnite___", "https://en.wikipedia.org/wiki/Fortnite");
 
             URL_Add("Dead Space___", "https://en.wikipedia.org/wiki/Dead_Space#Main_series");
@@ -182903,6 +182834,8 @@ namespace OverflowHelper.core
             URL_Add("disgusting engine move___", "https://en.wikipedia.org/wiki/Chess_engine");
 
             URL_Add("vitamin K2___", "https://en.wikipedia.org/wiki/Vitamin_K2");
+
+            URL_Add(".NET Core___", "https://en.wikipedia.org/wiki/.NET#History"); // Even older: https://en.wikipedia.org/wiki/.NET_Framework#.NET_Core. Old: <https://en.wikipedia.org/wiki/.NET_Core>
 
         } //addLookupData_alternativeWordSet3()
 
@@ -187899,6 +187832,8 @@ namespace OverflowHelper.core
             correctionAdd("WB32_______", "flashing Keychron K QMK keyboards_______");
             correctionAdd("wb32_______", "flashing Keychron K QMK keyboards_______");
 
+            correctionAdd("SF_______", "semifinal_______");
+
             // Start of word mappings autogenerated
             // by script 'Edit_Overflow_number_table_generator.pl'
             //
@@ -188312,6 +188247,8 @@ namespace OverflowHelper.core
             URL_Add("key binding_______", "https://en.wiktionary.org/wiki/key_binding#Noun");
 
             URL_Add("QMK install blues on later versions of Debian, LMDE, and Ubuntu_______", "https://www.reddit.com/r/Keychron/comments/1cxnqtu/comment/m80aes2/");
+
+            URL_Add("semifinal_______", "https://en.wiktionary.org/wiki/semifinal#Noun");
 
             URL_Add("Alfa_______", "https://en.wikipedia.org/wiki/NATO_phonetic_alphabet");
 
