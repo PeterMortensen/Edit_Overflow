@@ -34360,16 +34360,6 @@ namespace OverflowHelper.core
             correctionAdd("GTAV", "Grand Theft Auto V");
             correctionAdd("GT 5", "Grand Theft Auto V");
 
-            // A computer game (2025).
-            correctionAdd("Grand Theft Auto 6", "Grand Theft Auto VI");
-            correctionAdd("GTA VI", "Grand Theft Auto VI");
-            correctionAdd("gta 6", "Grand Theft Auto VI");
-            correctionAdd("GTA 6", "Grand Theft Auto VI");
-            correctionAdd("Gta 6", "Grand Theft Auto VI");
-            correctionAdd("GTA6", "Grand Theft Auto VI");
-            correctionAdd("Gta6", "Grand Theft Auto VI");
-            correctionAdd("gta6", "Grand Theft Auto VI");
-
             // A computer game
             correctionAdd("San Andreas", "Grand Theft Auto: San Andreas");
 
@@ -63237,6 +63227,8 @@ namespace OverflowHelper.core
 
             correctionAdd("journo", "journalist");
 
+            correctionAdd("journos", "journalists");
+
             // Alternative URLs:
             //
             //   <https://en.wiktionary.org/wiki/presser#Noun_2>
@@ -88568,7 +88560,6 @@ namespace OverflowHelper.core
             correctionAdd("Keychron V1 max", "Keychron V1 Max (80%)");
             correctionAdd("Keychron V1 MAX", "Keychron V1 Max (80%)");
             correctionAdd("keychron v1 max", "Keychron V1 Max (80%)");
-            correctionAdd("V1&nbsp;Max", "Keychron V1 Max (80%)");
             correctionAdd("max v1", "Keychron V1 Max (80%)");
             correctionAdd("v1 max", "Keychron V1 Max (80%)");
             correctionAdd("V1 max", "Keychron V1 Max (80%)");
@@ -88964,16 +88955,17 @@ namespace OverflowHelper.core
             //     Thomas is confused if Lemokey is Keychron
             //     or not (it is).
             //
-            correctionAdd("Keychron Lemokey L5 HE 8K", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
-            correctionAdd("Keychron Lemokey L5 HE", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
-            correctionAdd("Lemokey L5 HE", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
-            correctionAdd("Lemokey 8K HE", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
-            correctionAdd("Lemokey HE 8K", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
-            correctionAdd("lemokey l5 he", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
-            correctionAdd("Lemokey L5", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
-            correctionAdd("L5 HE", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
-            correctionAdd("L5HE", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
-            correctionAdd("L5", "Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)", "Keychron Lemokey L5 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Lemokey L5 HE 8K", "Keychron Lemokey L5 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Lemokey L5 HE", "Keychron Lemokey L5 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Lemokey L5 HE", "Keychron Lemokey L5 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Lemokey 8K HE", "Keychron Lemokey L5 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Lemokey HE 8K", "Keychron Lemokey L5 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("lemokey l5 he", "Keychron Lemokey L5 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Lemokey L5", "Keychron Lemokey L5 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("L5 HE", "Keychron Lemokey L5 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("L5HE", "Keychron Lemokey L5 HE 8K (80%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("L5", "Keychron Lemokey L5 HE 8K (80%) (proprietary keyboard firmware, not open source)");
 
             // A 82-key (80%. Not true TKL) crippled wired-only
             // QMK/Via-capable mechanical keyboard with a knob
@@ -88984,9 +88976,10 @@ namespace OverflowHelper.core
             // RGB (per-key) north-facing (***no***
             // unwanted light bleed) lighting.
             //
-            correctionAdd("Lemokey X4", "Keychron Lemokey X4");
-            correctionAdd("LK X4", "Keychron Lemokey X4");
-            correctionAdd("X4", "Keychron Lemokey X4");
+            correctionAdd("Keychron Lemokey X4", "Keychron Lemokey X4 (80%)");
+            correctionAdd("Lemokey X4", "Keychron Lemokey X4 (80%)");
+            correctionAdd("LK X4", "Keychron Lemokey X4 (80%)");
+            correctionAdd("X4", "Keychron Lemokey X4 (80%)");
 
             // A 82-key (80%. Not true TKL) crippled wired and wireless
             // (only Bluetooth) QMK/Via-capable mechanical keyboard
@@ -89002,13 +88995,11 @@ namespace OverflowHelper.core
             //
             //   <https://the-gadgeteer.com/2023/07/26/oneplus-keyboard-81-pro-mechanical-keyboard-review-a-collaboration-with-keychron-so-you-know-its-going-to-be-great/>
             //
-            correctionAdd("Keychron Keyboard 81 Pro (80%)", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)"); // Sort of identity mapping
-            correctionAdd("Keyboard&nbsp;81&nbsp;Pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
-            correctionAdd("Keychron Keyboard 81 Pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
-            correctionAdd("Keychron Q81 Pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
-            correctionAdd("Keyboard 81 Pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
-            correctionAdd("81 Pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
-            correctionAdd("81 pro", "Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)");
+            correctionAdd("Keychron Keyboard 81 Pro", "Keychron Keyboard 81 Pro (80%)");
+            correctionAdd("Keychron Q81 Pro", "Keychron Keyboard 81 Pro (80%)");
+            correctionAdd("Keyboard 81 Pro", "Keychron Keyboard 81 Pro (80%)");
+            correctionAdd("81 Pro", "Keychron Keyboard 81 Pro (80%)");
+            correctionAdd("81 pro", "Keychron Keyboard 81 Pro (80%)");
 
             // A 82-key (80%. Not true TKL) crippled wired-only
             // closed source (but with Via support)
@@ -89061,8 +89052,9 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/james-donkey/qmk_firmware/tree/wireless_playground/keyboards/jamesdonkey/j1>
             //
-            correctionAdd("Keychrone J1", "Keychron J1");
-            correctionAdd("J1", "Keychron J1");
+            correctionAdd("Keychrone J1", "Keychron J1 (80%)");
+            correctionAdd("Keychron J1", "Keychron J1 (80%)");
+            correctionAdd("J1", "Keychron J1 (80%)");
 
             // A 83-key (80%. Not true TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
@@ -89083,10 +89075,11 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/james-donkey/qmk_firmware/tree/wireless_playground/keyboards/jamesdonkey/j2>
             //
-            correctionAdd("Jamesdonkey J2", "Keychron J2");
-            correctionAdd("JamesDonkey J2", "Keychron J2"); // JamesDonkey is the correct spelling
-            correctionAdd("j2", "Keychron J2");
-            correctionAdd("J2", "Keychron J2");
+            correctionAdd("Jamesdonkey J2", "Keychron J2 (80%)");
+            correctionAdd("JamesDonkey J2", "Keychron J2 (80%)"); // JamesDonkey is the correct spelling
+            correctionAdd("Keychron J2", "Keychron J2 (80%)");
+            correctionAdd("j2", "Keychron J2 (80%)");
+            correctionAdd("J2", "Keychron J2 (80%)");
 
             // A 83-key (80%. Not true TKL) crippled wired-only
             // closed source (but with Via support)
@@ -89132,13 +89125,14 @@ namespace OverflowHelper.core
             //
             //   <https://sharktastica.co.uk/wiki/model-m-ssk>
             //
-            correctionAdd("Space-Saving Keyboard", "IBM Model M Mini Space Saving Keyboard");
-            correctionAdd("space-saving keyboard", "IBM Model M Mini Space Saving Keyboard");
-            correctionAdd("Space Saving Keyboard", "IBM Model M Mini Space Saving Keyboard");
-            correctionAdd("fssk", "IBM Model M Mini Space Saving Keyboard");
-            correctionAdd("FSSK", "IBM Model M Mini Space Saving Keyboard");
-            correctionAdd("ssk", "IBM Model M Mini Space Saving Keyboard");
-            correctionAdd("SSK", "IBM Model M Mini Space Saving Keyboard");
+            correctionAdd("IBM Model M Mini Space Saving Keyboard", "IBM Model M Mini Space Saving Keyboard (80%)");
+            correctionAdd("Space-Saving Keyboard", "IBM Model M Mini Space Saving Keyboard (80%)");
+            correctionAdd("space-saving keyboard", "IBM Model M Mini Space Saving Keyboard (80%)");
+            correctionAdd("Space Saving Keyboard", "IBM Model M Mini Space Saving Keyboard (80%)");
+            correctionAdd("fssk", "IBM Model M Mini Space Saving Keyboard (80%)");
+            correctionAdd("FSSK", "IBM Model M Mini Space Saving Keyboard (80%)");
+            correctionAdd("ssk", "IBM Model M Mini Space Saving Keyboard (80%)");
+            correctionAdd("SSK", "IBM Model M Mini Space Saving Keyboard (80%)");
 
             // A 85-key (80%. Not true TKL) crippled low-profile
             // wired and wireless (only Bluetooth) QMK/Via-capable
@@ -89424,18 +89418,19 @@ namespace OverflowHelper.core
             //
             //       256 KB flash / 64 KB RAM
             //
-            correctionAdd("Keychron K3 max", "Keychron K3 Max");
-            correctionAdd("Keycron K3 Max", "Keychron K3 Max");
-            correctionAdd("K3 Max", "Keychron K3 Max");
-            correctionAdd("k3 max", "Keychron K3 Max");
-            correctionAdd("K3 MAX", "Keychron K3 Max");
-            correctionAdd("K3 max", "Keychron K3 Max");
-            correctionAdd("M3 Max", "Keychron K3 Max"); // A true typo
-            correctionAdd("k3max", "Keychron K3 Max");
-            correctionAdd("K3max", "Keychron K3 Max");
-            correctionAdd("K3Max", "Keychron K3 Max");
-            correctionAdd("K3 Mx", "Keychron K3 Max");
-            correctionAdd("K3M", "Keychron K3 Max");
+            correctionAdd("Keychron K3 Max", "Keychron K3 Max (80%)");
+            correctionAdd("Keychron K3 max", "Keychron K3 Max (80%)");
+            correctionAdd("Keycron K3 Max", "Keychron K3 Max (80%)");
+            correctionAdd("K3 Max", "Keychron K3 Max (80%)");
+            correctionAdd("k3 max", "Keychron K3 Max (80%)");
+            correctionAdd("K3 MAX", "Keychron K3 Max (80%)");
+            correctionAdd("K3 max", "Keychron K3 Max (80%)");
+            correctionAdd("M3 Max", "Keychron K3 Max (80%)"); // A true typo
+            correctionAdd("k3max", "Keychron K3 Max (80%)");
+            correctionAdd("K3max", "Keychron K3 Max (80%)");
+            correctionAdd("K3Max", "Keychron K3 Max (80%)");
+            correctionAdd("K3 Mx", "Keychron K3 Max (80%)");
+            correctionAdd("K3M", "Keychron K3 Max (80%)");
 
             // A 85-key (80%. Not true TKL) crippled low-profile
             // wired and wireless (only Bluetooth) QMK/Via-capable
@@ -89452,7 +89447,8 @@ namespace OverflowHelper.core
             //
             //     What about the P HE series???
             //
-            correctionAdd("K3 HE", "Keychron K3 HE");
+            correctionAdd("Keychron K3 HE", "Keychron K3 HE (80%)");
+            correctionAdd("K3 HE", "Keychron K3 HE (80%)");
 
             // A 85-key (80%. Not true TKL) crippled low-profile
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -89485,13 +89481,14 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-k3-ultra-8k-user-manual>
             //
-            correctionAdd("K3 Ultra (8K)", "Keychron K3 Ultra 8K");
-            correctionAdd("K3 Ultra 8K", "Keychron K3 Ultra 8K");
-            correctionAdd("K3 ultra 8k", "Keychron K3 Ultra 8K");
-            correctionAdd("K3 Ultra 8k", "Keychron K3 Ultra 8K");
-            correctionAdd("K3 Ultra", "Keychron K3 Ultra 8K");
-            correctionAdd("k3 ultra", "Keychron K3 Ultra 8K");
-            correctionAdd("K3 8K", "Keychron K3 Ultra 8K");
+            correctionAdd("Keychron K3 Ultra 8K", "Keychron K3 Ultra 8K (80%)");
+            correctionAdd("K3 Ultra (8K)", "Keychron K3 Ultra 8K (80%)");
+            correctionAdd("K3 Ultra 8K", "Keychron K3 Ultra 8K (80%)");
+            correctionAdd("K3 ultra 8k", "Keychron K3 Ultra 8K (80%)");
+            correctionAdd("K3 Ultra 8k", "Keychron K3 Ultra 8K (80%)");
+            correctionAdd("K3 Ultra", "Keychron K3 Ultra 8K (80%)");
+            correctionAdd("k3 ultra", "Keychron K3 Ultra 8K (80%)");
+            correctionAdd("K3 8K", "Keychron K3 Ultra 8K (80%)");
 
             // A 85-key (80%. Not true TKL) crippled
             // wired and wireless (only Bluetooth)
@@ -89582,11 +89579,12 @@ namespace OverflowHelper.core
             //
             //     Now removed...
             //
-            correctionAdd("K2 Pro", "Keychron K2 Pro");
-            correctionAdd("k2 pro", "Keychron K2 Pro");
-            correctionAdd("K2 PRO", "Keychron K2 Pro");
-            correctionAdd("k2", "Keychron K2 Pro"); // Though there is a distict K2, different from K2 Pro
-            correctionAdd("K2", "Keychron K2 Pro");
+            correctionAdd("Keychron K2 Pro", "Keychron K2 Pro (80%)");
+            correctionAdd("K2 Pro", "Keychron K2 Pro (80%)");
+            correctionAdd("k2 pro", "Keychron K2 Pro (80%)");
+            correctionAdd("K2 PRO", "Keychron K2 Pro (80%)");
+            correctionAdd("k2", "Keychron K2 Pro (80%)"); // Though there is a distict K2, different from K2 Pro
+            correctionAdd("K2", "Keychron K2 Pro (80%)");
 
             // A 85-key (80%. Not true TKL) crippled wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -89616,13 +89614,12 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k2_max>
             //
-            correctionAdd("Keychron K2 max", "Keychron&nbsp;K2&nbsp;Max");
-            correctionAdd("Keychron K2 Max", "Keychron&nbsp;K2&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("K2&nbsp;Max", "Keychron&nbsp;K2&nbsp;Max");
-            correctionAdd("K2 Max", "Keychron&nbsp;K2&nbsp;Max");
-            correctionAdd("k2 max", "Keychron&nbsp;K2&nbsp;Max");
-            correctionAdd("K2 MAX", "Keychron&nbsp;K2&nbsp;Max");
-            correctionAdd("K2 max", "Keychron&nbsp;K2&nbsp;Max");
+            correctionAdd("Keychron K2 max", "Keychron K2 Max (80%)");
+            correctionAdd("Keychron K2 Max", "Keychron K2 Max (80%)"); // Sort of identity mapping
+            correctionAdd("K2 Max", "Keychron K2 Max (80%)");
+            correctionAdd("k2 max", "Keychron K2 Max (80%)");
+            correctionAdd("K2 MAX", "Keychron K2 Max (80%)");
+            correctionAdd("K2 max", "Keychron K2 Max (80%)");
 
             // A 85-key (80%. Not true TKL) crippled wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -89670,29 +89667,55 @@ namespace OverflowHelper.core
             //
             //       <https://github.com/Keychron/qmk_firmware/tree/playground/keyboards/keychron/s1>
             //
-            correctionAdd("keychron S1", "Keychron S1");
-            correctionAdd("S1", "Keychron S1");
+            correctionAdd("Keychron S1", "Keychron S1 (80%)");
+            correctionAdd("keychron S1", "Keychron S1 (80%)");
+            correctionAdd("S1", "Keychron S1 (80%)");
 
             // A 85-key (80%) commercial mechanical keyboard with
             // Hall sensor (analogue) switches.
+            //
+            // Notes:
+            //
+            //  * Not real TKL:
+            //
+            //      * Crippled navigation cluster, weirdly
+            //        with "Ins", but missing Home and End.
+            //
+            //      * Missing Scroll Lock key
+            //
+            //      * An extra "Mode" key
+            //
+            //      * Missing right Windows key
             //
             // Alternative URLs:
             //
             //   <https://www.youtube.com/watch?v=f8AZflcxF1g&t=3m20s>
             //     Close-up of keys on the upper right
             //
-            correctionAdd("the wooting HE", "Wooting 80HE");
-            correctionAdd("Wooting 80he", "Wooting 80HE");
-            correctionAdd("wooting 80HE", "Wooting 80HE");
-            correctionAdd("wooting 80he", "Wooting 80HE");
-            correctionAdd("wooting 80", "Wooting 80HE");
-            correctionAdd("wooting HE", "Wooting 80HE");
-            correctionAdd("80 HE", "Wooting 80HE");
-            correctionAdd("80 he", "Wooting 80HE");
-            correctionAdd("80HE", "Wooting 80HE");
-            correctionAdd("80he", "Wooting 80HE");
+            correctionAdd("the wooting HE", "Wooting 80HE (80%)");
+            correctionAdd("Wooting 80HE", "Wooting 80HE (80%)");
+            correctionAdd("Wooting 80he", "Wooting 80HE (80%)");
+            correctionAdd("wooting 80HE", "Wooting 80HE (80%)");
+            correctionAdd("wooting 80he", "Wooting 80HE (80%)");
+            correctionAdd("wooting 80", "Wooting 80HE (80%)");
+            correctionAdd("wooting HE", "Wooting 80HE (80%)");
+            correctionAdd("80 HE", "Wooting 80HE (80%)");
+            correctionAdd("80 he", "Wooting 80HE (80%)");
+            correctionAdd("80HE", "Wooting 80HE (80%)");
+            correctionAdd("80he", "Wooting 80HE (80%)");
 
-            // A 86-key (80%. True TKL) crippled mechanical keyboard.
+            // A 85-key (80%. True TKL) crippled mechanical keyboard.
+            //
+            // Notes:
+            //
+            //  * Not real TKL (three missing keys):
+            //
+            //    * Only two keys to the left of the space bar
+            //      (***one missing***: Windows key)
+            //
+            //    * Only two keys to the right of the space bar
+            //      (***two missing***: Windows key and
+            //      context menu key/Fn key)
             //
             // Very expensive, USD 800 - USD 1200.
             // Limited edition (2024-03) and raffle sale
@@ -89723,14 +89746,111 @@ namespace OverflowHelper.core
             //     Includes unboxing.
             //   <https://www.youtube.com/watch?v=J8s8vkZZV-4>
             //     Summary of keyboard specifications at 01 min 04 secs
+            //     True TKL at 01 min 13 secs
             //
             //   <https://www.notion.so/qwertykeys/Vento-80-76704b5e8c504924b64aa3442e249bf1?pvs=4>
             //     Does not seem accessible. Because the raffle sale ended?
             //
-            correctionAdd("VENTO 80", "Vento 80");
-            correctionAdd("Vento80", "Vento 80");
+            correctionAdd("Vento 80", "Vento 80 (80%)");
+            correctionAdd("VENTO 80", "Vento 80 (80%)");
+            correctionAdd("Vento80", "Vento 80 (80%)");
 
-            // A 87-key (85%. True TKL) crippled wired-only
+            // A 87-key (85%. Not true TKL) crippled wired and wireless
+            // (both Bluetooth and '2.4 GHz') QMK/Via-capable mechanical
+            // keyboard with a knob from Keychron.
+            //
+            // RGB (per-key) north-facing (***no*** unwanted light
+            // bleed) lighting (by virtue of being low-profile).
+            //
+            // Notes:
+            //
+            //   * Volume roller to the left
+            //
+            //   * Approximately the same number of keys as
+            //     (true) TKL, but it is crippled:
+            //
+            //       * Missing right Windows key/context menu key
+            //
+            //       * No PrtScr cluster
+            //
+            //       * Non-standard navigation cluster, weirdly
+            //         with "Ins" instead of "End" (is mapped
+            //         to 'Fn' + 'Home')
+            //
+            //       * Four macro keys to the left
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the L HE series???
+            //
+            //   * Is QMK-based
+            //
+            // L1 HE user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-q1-pro-user-manual>
+            //
+            // L1 HE keymap (ANSI):
+            //
+            //   <https://github.com/Keychron/qmk_firmware/blob/hall_effect_playground/keyboards/lemokey/l1_he/ansi/keymaps/via/keymap.c#L27>
+            //
+            // Source code (only released 2025-10-13):
+            //
+            //   <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/lemokey/l1_he>
+            //
+            correctionAdd("Keychron Lemokey L1 HE", "Keychron Lemokey L1 HE (85%)");
+            correctionAdd("Lemokey L1 HE", "Keychron Lemokey L1 HE (85%)");
+            correctionAdd("lemokey l1 he", "Keychron Lemokey L1 HE (85%)");
+            correctionAdd("L1 HE", "Keychron Lemokey L1 HE (85%)");
+            correctionAdd("l1 he", "Keychron Lemokey L1 HE (85%)");
+
+            // A 88-key (85%. True TKL) crippled wired-only
+            // mechanical keyboard from Keychron.
+            // Gateron G Pro switches.
+            //
+            //   Notes:
+            //
+            //    * In the 'C' series. Thus it is ***not*** QMK/Via-capable.
+            //
+            //    * Not to be confused with the C1 Pro
+            //
+            //    * It ***does*** have a physical "Win"/"Mac"
+            //      switch, unlike the C3 Pro.
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.rtings.com/keyboard/reviews/keychron/c1>
+            //      C1 RTINGS.com Keychron C1 keyboard review
+            //
+            //      Latency: 8.4 ms
+            //
+            // List of C1 user guides:
+            //
+            //    <https://www.keychron.com/pages/c1-user-manual>
+            //
+            // C1 user manual:
+            //
+            //    <https://www.keychron.com/pages/c1-keyboard-user-manual>
+            //
+            //      PDF: <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/c1_user_manual_english_version.pdf?v=1610442172>
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.rtings.com/keyboard/reviews/keychron/c1>
+            //     C1 RTINGS.com review
+            //
+            //   <https://www.pcmag.com/reviews/keychron-c1>
+            //
+            //   <https://www.keychron.com/pages/how-to-disassemble-c1>
+            //     How to disassemble the C1
+            //
+            correctionAdd("Keychron C1", "Keychron C1 (85%)");
+            correctionAdd("keychron c1", "Keychron C1 (85%)");
+            correctionAdd("C1", "Keychron C1 (85%)");
+            correctionAdd("c1", "Keychron C1 (85%)");
+
+            // A 88-key (85%. True TKL) crippled wired-only
             // mechanical keyboard from Keychron without a knob.
             //
             // Or is it 88 keys? What is the difference between
@@ -89827,13 +89947,12 @@ namespace OverflowHelper.core
             //     The later RGB and white red-only RGB.
             //     Only added 2025-03-02.
             //
-            correctionAdd("Keychron C1 Pro", "Keychron&nbsp;C1&nbsp;Pro"); // Sort of identity mapping
-            correctionAdd("C1&nbsp;Pro", "Keychron&nbsp;C1&nbsp;Pro");
-            correctionAdd("C1 Pro", "Keychron&nbsp;C1&nbsp;Pro");
-            correctionAdd("c1 pro", "Keychron&nbsp;C1&nbsp;Pro");
-            correctionAdd("C1 pro", "Keychron&nbsp;C1&nbsp;Pro");
+            correctionAdd("Keychron C1 Pro", "Keychron C1 Pro (85%)"); // Sort of identity mapping
+            correctionAdd("C1 Pro", "Keychron C1 Pro (85%)");
+            correctionAdd("c1 pro", "Keychron C1 Pro (85%)");
+            correctionAdd("C1 pro", "Keychron C1 Pro (85%)");
 
-            // A 87-key (85%. True TKL) crippled wired-only
+            // A 88-key (85%. True TKL) crippled wired-only
             // mechanical keyboard from Keychron without a knob.
             //
             // Or is it 88 keys? What is the difference between
@@ -89857,12 +89976,12 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/c1_pro_8k>
             //
-            correctionAdd("Keychron C1 Pro 8K", "Keychron&nbsp;C1&nbsp;Pro&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("C1 Pro 8K", "Keychron&nbsp;C1&nbsp;Pro&nbsp;8K");
-            correctionAdd("c1 pro 8k", "Keychron&nbsp;C1&nbsp;Pro&nbsp;8K");
-            correctionAdd("C1 pro 8k", "Keychron&nbsp;C1&nbsp;Pro&nbsp;8K");
+            correctionAdd("Keychron C1 Pro 8K", "Keychron C1 Pro 8K (85%)"); // Sort of identity mapping
+            correctionAdd("C1 Pro 8K", "Keychron C1 Pro 8K (85%)");
+            correctionAdd("c1 pro 8k", "Keychron C1 Pro 8K (85%)");
+            correctionAdd("C1 pro 8k", "Keychron C1 Pro 8K (85%)");
 
-            // A 87-key (85%. True TKL) crippled wired-only
+            // A 88-key (85%. True TKL) crippled wired-only
             // QMK/Via-capable mechanical keyboard
             // from Keychron without a knob.
             //
@@ -90115,21 +90234,22 @@ namespace OverflowHelper.core
             //       Though one should be very sceptical
             //       of reviews these days.
             //
-            correctionAdd("the original red LED one", "Keychron C3 Pro");
-            correctionAdd("keychron c3 pro", "Keychron C3 Pro");
-            correctionAdd("Keychron c3 Pro", "Keychron C3 Pro");
-            correctionAdd("C3 Pro 1K RGB", "Keychron C3 Pro");
-            correctionAdd("C3 Pro 1K", "Keychron C3 Pro");
-            correctionAdd("C3 Pro", "Keychron C3 Pro");
-            correctionAdd("c3 pro", "Keychron C3 Pro");
-            correctionAdd("C3 pro", "Keychron C3 Pro");
-            correctionAdd("C3 PRO", "Keychron C3 Pro");
-            correctionAdd("c3 Pro", "Keychron C3 Pro");
-            correctionAdd("C3Pro", "Keychron C3 Pro");
-            correctionAdd("C3PRO", "Keychron C3 Pro");
-            correctionAdd("C3", "Keychron C3 Pro");
+            correctionAdd("the original red LED one", "Keychron C3 Pro (85%)");
+            correctionAdd("Keychron C3 Pro", "Keychron C3 Pro (85%)");
+            correctionAdd("keychron c3 pro", "Keychron C3 Pro (85%)");
+            correctionAdd("Keychron c3 Pro", "Keychron C3 Pro (85%)");
+            correctionAdd("C3 Pro 1K RGB", "Keychron C3 Pro (85%)");
+            correctionAdd("C3 Pro 1K", "Keychron C3 Pro (85%)");
+            correctionAdd("C3 Pro", "Keychron C3 Pro (85%)");
+            correctionAdd("c3 pro", "Keychron C3 Pro (85%)");
+            correctionAdd("C3 pro", "Keychron C3 Pro (85%)");
+            correctionAdd("C3 PRO", "Keychron C3 Pro (85%)");
+            correctionAdd("c3 Pro", "Keychron C3 Pro (85%)");
+            correctionAdd("C3Pro", "Keychron C3 Pro (85%)");
+            correctionAdd("C3PRO", "Keychron C3 Pro (85%)");
+            correctionAdd("C3", "Keychron C3 Pro (85%)");
 
-            // A 87-key (85%. True TKL) crippled wired-only
+            // A 88-key (85%. True TKL) crippled wired-only
             // QMK/Via-capable mechanical keyboard
             // from Keychron.
             //
@@ -90176,75 +90296,14 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/c3_pro_8k>
             //
-            correctionAdd("Keychron C3 Pro 8K (85%)", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)"); // Sort of identity mapping
-            correctionAdd("Keychron C3 Pro 8K", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
-            correctionAdd("C3 Pro (8K)", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
-            correctionAdd("C3 Pro (8k)", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
-            correctionAdd("C3 Pro 8K", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
-            correctionAdd("c3 pro 8k", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
-            correctionAdd("C3 Pro 8k", "Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)");
+            correctionAdd("Keychron C3 Pro 8K", "Keychron C3 Pro 8K (85%)");
+            correctionAdd("C3 Pro (8K)", "Keychron C3 Pro 8K (85%)");
+            correctionAdd("C3 Pro (8k)", "Keychron C3 Pro 8K (85%)");
+            correctionAdd("C3 Pro 8K", "Keychron C3 Pro 8K (85%)");
+            correctionAdd("c3 pro 8k", "Keychron C3 Pro 8K (85%)");
+            correctionAdd("C3 Pro 8k", "Keychron C3 Pro 8K (85%)");
 
-            // A 87-key (85%. True TKL) crippled wired and wireless
-            // (both Bluetooth and '2.4 GHz') mechanical keyboard
-            // from Qwertykey AKA Evoworks AKA OwLab.
-            //
-            // Qwertykey is in the hall of shame:
-            //
-            //   <https://github.com/qmk/qmk_firmware/issues/24085>
-            //
-            // Notes:
-            //
-            //   * Via compatible, so they are probably
-            //     ***violating*** the open source license.
-            //
-            //   * The reference contains a lot of
-            //     (specific) disclaimers!
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.youtube.com/watch?v=6YbS-GL5490>
-            //     Includes disassembly to show the internals, starting
-            //     from 02 min 44 secs.
-            //   <https://monacokeys.de/collections/keyboards/products/evo80-80-tkl-custom-mechanical-keyboard>
-            //   <https://www.mechmods.co.uk/products/pre-order-evoworks-evo80-keyboard>
-            //
-            correctionAdd("Qwertykey EVO 80", "Qwertykey Evo80");
-            correctionAdd("EVO 80", "Qwertykey Evo80");
-            correctionAdd("Evo80", "Qwertykey Evo80");
-
-            // A 87-key (85%. Not true TKL) crippled wired and wireless
-            // (both Bluetooth and '2.4 GHz') QMK/Via-capable mechanical
-            // keyboard with a knob from Keychron.
-            //
-            // RGB (per-key) north-facing (***no*** unwanted light
-            // bleed) lighting (by virtue of being low-profile).
-            //
-            // Notes:
-            //
-            //   * K HE and Q HE series:
-            //
-            //     South pole facing downward (uncommon)
-            //
-            //     What about the L HE series???
-            //
-            // L1 HE user manual:
-            //
-            //   <https://www.keychron.com/pages/keychron-q1-pro-user-manual>
-            //
-            // L1 HE keymap (ANSI):
-            //
-            //   <https://github.com/Keychron/qmk_firmware/blob/hall_effect_playground/keyboards/lemokey/l1_he/ansi/keymaps/via/keymap.c#L27>
-            //
-            // Source code (only released 2025-10-13):
-            //
-            //   <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/lemokey/l1_he>
-            //
-            correctionAdd("Lemokey L1 HE", "Keychron Lemokey L1 HE");
-            correctionAdd("lemokey l1 he", "Keychron Lemokey L1 HE");
-            correctionAdd("L1 HE", "Keychron Lemokey L1 HE");
-            correctionAdd("l1 he", "Keychron Lemokey L1 HE");
-
-            // A 87-key (85%. True TKL) crippled wired-only
+            // A 88-key (85%. True TKL) crippled wired-only
             // QMK/Via-capable mechanical keyboard
             // from Keychron without a knob.
             //
@@ -90265,463 +90324,11 @@ namespace OverflowHelper.core
             //           fork, in Git branch "playground"
             //           (not the default branch).
             //
-            correctionAdd("Keychron Lemokey X1", "Keychron&nbsp;Lemokey&nbsp;X1");
-            correctionAdd("Keychron X1", "Keychron&nbsp;Lemokey&nbsp;X1");
-            correctionAdd("Lemokey X1", "Keychron&nbsp;Lemokey&nbsp;X1");
-            correctionAdd("X1", "Keychron&nbsp;Lemokey&nbsp;X1");
-            correctionAdd("x1", "Keychron&nbsp;Lemokey&nbsp;X1");
-
-            // A 88-key (85%. True TKL) crippled wired-only
-            // mechanical keyboard from Keychron.
-            // Gateron G Pro switches.
-            //
-            //   Notes:
-            //
-            //    * In the 'C' series. Thus it is ***not*** QMK/Via-capable.
-            //
-            //    * Not to be confused with the C1 Pro
-            //
-            //    * It ***does*** have a physical "Win"/"Mac"
-            //      switch, unlike the C3 Pro.
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.rtings.com/keyboard/reviews/keychron/c1>
-            //      C1 RTINGS.com Keychron C1 keyboard review
-            //
-            //      Latency: 8.4 ms
-            //
-            // List of C1 user guides:
-            //
-            //    <https://www.keychron.com/pages/c1-user-manual>
-            //
-            // C1 user manual:
-            //
-            //    <https://www.keychron.com/pages/c1-keyboard-user-manual>
-            //
-            //      PDF: <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/c1_user_manual_english_version.pdf?v=1610442172>
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.rtings.com/keyboard/reviews/keychron/c1>
-            //     C1 RTINGS.com review
-            //
-            //   <https://www.pcmag.com/reviews/keychron-c1>
-            //
-            //   <https://www.keychron.com/pages/how-to-disassemble-c1>
-            //     How to disassemble the C1
-            //
-            correctionAdd("keychron c1", "Keychron C1");
-            correctionAdd("C1", "Keychron C1");
-            correctionAdd("c1", "Keychron C1");
-
-            // A 88-key (85%. Not true TKL) crippled low-profile
-            // wired and wireless (only '2.4 GHz') Alice layout
-            // (a la Microsoft Natural Keyboard) rubber dome
-            // keyboard from Microsoft without a knob.
-            //
-            correctionAdd("Microsoft Sculpt keyboard", "Microsoft Sculpt Ergonomic");
-            correctionAdd("microsoft sculpt", "Microsoft Sculpt Ergonomic");
-            correctionAdd("Microsoft Sculpt", "Microsoft Sculpt Ergonomic");
-            correctionAdd("Microsoft sculpt", "Microsoft Sculpt Ergonomic");
-            correctionAdd("MS Sculpt", "Microsoft Sculpt Ergonomic");
-            correctionAdd("sculpt", "Microsoft Sculpt Ergonomic");
-            correctionAdd("Sculpt", "Microsoft Sculpt Ergonomic");
-
-            // A 88-key (85%. True TKL) crippled wired-only QMK/Via-capable
-            // mechanical keyboard with a knob from Keychron.
-            //
-            // RGB (per-key) south-facing (unwanted
-            // ***light bleed***) lighting. Is not in text, but
-            // in an image: <https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-9f41949e--Q2icon.jpg>
-            // It seems to be true. See e.g.:
-            //   <https://www.proshop.dk/Images/915x900/3049539_456d848325bb.jpg>
-            // That is for a Q1, but all keyboards in the Q series
-            // is expected to be the same in this respect.
-            //
-            // 2021 vintage (though there is now a V2)
-            //
-            // Not to be confused with:
-            //
-            //   * The newer Q3 Max (2024)
-            //   * Q3 Pro...
-            //
-            // ANSI product page:
-            //
-            //   <https://www.keychron.com/products/keychron-q3-qmk-custom-mechanical-keyboard>
-            //
-            // Notes:
-            //
-            //   * Some variants have a knob and some don't
-            //
-            // Real product page:
-            //
-            //   <https://www.keychron.com/products/keychron-q3-qmk-custom-mechanical-keyboard>
-            //
-            // A list of Q3 user guides
-            //
-            //   <https://www.keychron.com/pages/keychron-q3-user-guide>
-            //
-            // Q3 Pro user manual:
-            //
-            //   <https://www.keychron.com/pages/keychron-q3-knob-version-user-manual>
-            //
-            // Flashing and resetting to factory defaults of the Q3:
-            //
-            //   <https://www.keychron.com/pages/how-to-factory-reset-or-use-the-launcher-web-app-to-flash-firmware-for-your-keyboard>
-            //     The generic page as of 2024-05...
-            //
-            //     Instead:
-            //
-            //       <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
-            //         Near "Q3 knob version ISO firmware".
-            //
-            //         Parent: <https://www.keychron.com/pages/firmware>
-            //           The ***second section***, near
-            //           "Download firmware and JSON files".
-            //
-            //   <https://www.keychron.com/pages/how-to-flash-q3-with-entire-chip-erase-by-using-stm32programmer>
-            //     Hard flashing (using STM32CubeProgrammer).
-            //
-            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
-            //
-            //         It demonstrates the space bar method, with
-            //         the reset button.
-            //         Note: On the 'keychronsupport.zendesk.com' domain
-            //
-            // Q3 firmware:
-            //
-            //   For example, from:
-            //
-            //     <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
-            //     Near "Q3 knob version ISO firmware"
-            //
-            //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/q3_iso_knob_v1.4.bin>
-            //     Version 1.4
-            //
-            //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/q3_iso_knob_v1.5.bin>
-            //     Variant: Q3 ISO knob. 1.5 (2023-02-09)
-            //
-            // Q3 default keymap:
-            //
-            //   <https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/q3/iso_encoder/keymaps/default/keymap.c#L43>
-            //     Note: In QMK, the knob(s) is counted in the keymap,
-            //           but not in the key numbering scheme (at least
-            //           not when it comes to the RGB light...)
-            //
-            // Q3 source code (in the main QMK repository):
-            //
-            //   <https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron/q3>
-            //
-            correctionAdd("keychron Q3", "Keychron Q3");
-            correctionAdd("KeyChron Q3", "Keychron Q3");
-            correctionAdd("Keychron q3", "Keychron Q3");
-            correctionAdd("q3", "Keychron Q3");
-            correctionAdd("Q3", "Keychron Q3");
-
-            // A 88-key (85%. True TKL) crippled wired and wireless
-            // (only Bluetooth) QMK/Via-capable mechanical keyboard
-            // with a knob and four dedicated physical macro keys
-            // (only some variants) from Keychron.
-            //
-            // RGB (per-key) south-facing (unwanted
-            // ***light bleed***) lighting.
-            //
-            // Notes:
-            //
-            //   * The four dedicated macro keys are the
-            //     "special edition" (SE) variants. Thus
-            //     93-key keyboards...
-            //
-            //   * The location of the "BT" / "Cable" switch
-            //     may or may not be dependent on the variant.
-            //
-            // A list of Q3 Pro user guides
-            //
-            //   <https://www.keychron.com/pages/keychron-q3-pro-user-guide>
-            //
-            // Q3 Pro user manual:
-            //
-            //   <https://www.keychron.com/pages/keychron-q1-pro-user-manual>
-            //
-            // Flashing and resetting to factory defaults of the Q3 Pro:
-            //
-            //   <https://www.keychron.com/blogs/archived/how-to-factory-reset-or-flash-your-qmk-via-enabled-keychron-q3-pro-keyboard>
-            //     Now broken...
-            //
-            // Q3 Pro JSON files for Via:
-            //
-            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
-            //      Near "Q3 Pro knob version ISO"
-            //
-            // Q3 Pro firmware:
-            //
-            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
-            //     Near "Q3 Pro knob ISO"
-            //
-            // Q3 Pro default keymap:
-            //
-            //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/q3_pro/iso_encoder/keymaps/via/keymap.c#L44>
-            //     Note: In QMK, the knob(s) is counted in the keymap,
-            //           but not in the key numbering scheme (at least
-            //           not when it comes to the RGB light...)
-            //
-            //     Keymap for the macro key variants ("special edition" (SE)):
-            //
-            //       <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/q3_pro/iso_encoder_se/keymaps/via/keymap.c>
-            //
-            // Q3 Pro source code:
-            //
-            //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q3_pro>
-            //
-            // Note: The number of keys 87 (85%) is currently
-            //       missing from the product page.
-            //
-            // Alternative URLs:
-            //
-            //   <https://i.imgur.com/1D5EZGc.jpeg>
-            //     Q3 Pro PCB. Incl. the Bluetooth module.
-            //
-            //     Note: Requires JavaScript to be allowed from
-            //           'cloudfront.net' to not be surrounded
-            //           by Imgur goo.
-            //
-            //   <https://i.imgur.com/iIYYqNN.jpeg>
-            //     PCB. Zoomed in.
-            //
-            //     Bluetooth module. Keychron. Antenna cable. CKBT51.
-            //
-            //     Note: Requires JavaScript to be allowed from
-            //           'cloudfront.net' to not be surrounded
-            //           by Imgur goo.
-            //
-            correctionAdd("Keychron Q3 Pro", "Keychron&nbsp;Q3&nbsp;Pro"); // Sort of identity mapping
-            correctionAdd("Q3 Pro", "Keychron&nbsp;Q3&nbsp;Pro");
-            correctionAdd("q3 pro", "Keychron&nbsp;Q3&nbsp;Pro");
-            correctionAdd("Q3 pro", "Keychron&nbsp;Q3&nbsp;Pro");
-            correctionAdd("Pro Q3", "Keychron&nbsp;Q3&nbsp;Pro");
-
-            // A 88-key (85%. True TKL) crippled wired and wireless
-            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
-            // mechanical keyboard with a knob from Keychron.
-            // Gateron switches.
-            //
-            // RGB (per-key) south-facing (unwanted
-            // ***light bleed***) lighting.
-            //
-            // ANSI product page (the two product pages
-            // are ***completely*** separated (no link
-            // between them)):
-            //
-            //   <https://www.keychron.com/products/keychron-q3-max-qmk-via-wireless-custom-mechanical-keyboard>
-            //
-            // Notes:
-            //
-            //  * It is very different from the Q3 Pro (which has five
-            //    macro keys and a knob on the left)! Or is it due to
-            //    the Special Edition of the Q3 Pro?
-            //
-            // Q3 Max user manual:
-            //
-            //   <https://www.keychron.com/pages/keychron-q3-max-user-manual>
-            //
-            //     PDF: <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Keychron_Q3_Max_User_Manual.pdf?v=1703214981>
-            //
-            // A list of Q3 Max manuals, etc.:
-            //
-            //   <https://www.keychron.com/pages/keychron-q3-max-user-guide>
-            //
-            // Other:
-            //
-            //   <https://www.keychron.com/blogs/archived/how-to-factory-reset-or-flash-your-qmk-via-enabled-keychron-q3-max-keyboard>
-            //     How to factory reset or flash firmware for
-            //     your Keychron V2 keyboard? [sic]
-            //
-            //     Incl. official firmware from Keychron.
-            //
-            //     Now broken (404). Instead:
-            //
-            //       <https://www.keychron.uk/pages/how-to-factory-reset-or-flash-firmware-for-your-keychron-q3-max-keyboard>
-            //         It demonstrates the space bar method, with
-            //         the reset button.
-            //         Note: On the 'keychron.uk' domain
-            //
-            // Q3 Max JSON files for Via:
-            //
-            //   From <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
-            //     Near "Q3 Max version", section "JSON files"
-            //
-            //     Parent: <https://www.keychron.com/pages/firmware>
-            //       ***Second*** section, near "firmware and JSON files".
-            //
-            //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/q3_max_iso_encoder_v1.0.0_2402011632.json.zip>
-            //     q3_max_iso_encoder_v1.0.0_2402011632.json.zip
-            //     q3_max_iso_encoder_v1.0.0_2402011632.json
-            //
-            //     ISO knob
-            //
-            //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/q3_max_ansi_encoder_v1.0.json_1c934e29-6148-4bd9-8964-7cbdf2d01c4a.zip>
-            //     q3_max_ansi_encoder_v1.0.json_1c934e29-6148-4bd9-8964-7cbdf2d01c4a.zip
-            //     q3_max_ansi_encoder_v1.0.json
-            //
-            //     ANSI knob
-            //
-            // Q3 Max firmware:
-            //
-            //   'q3_max_iso_encoder_v1.0.0_2402271558.bin': <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/q3_max_iso_encoder_v1.0.0_2402271558.bin>
-            //   'q3_max_ansi_encoder_v1.0.0.bin'          : <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/q3_max_ansi_encoder_v1.0.0.bin>
-            //
-            //     Now only on the Wayback Machine:
-            //
-            //       <https://web.archive.org/web/20250223052939/https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
-            //
-            //    And now on:
-            //
-            //      <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
-            //
-            //        Near "Q3 Max ISO"
-            //
-            // Q3 Max default keymap:
-            //
-            //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/q3_max/iso_encoder/keymaps/via/keymap.c#L45>
-            //     Note: In QMK, the knob(s) is counted in the keymap,
-            //           but not in the key numbering scheme (at least
-            //           not when it comes to the RGB light...)
-            //     Note: It uses "LAYOUT_iso_88", but there are 89 keys
-            //           in the keymap? Is it an inconsistency in QMK
-            //           itself? Or a Keychron-only (C) macro?
-            //
-            // Q3 Max source code (only released 2024-01-30
-            //   (one day before Q5 Max, Q6 Max, Q8 Max,
-            //   K5 Max, K7 Max, and V5 Max)):
-            //
-            //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q3_max>
-            //
-            //     Note: In Keychron's QMK fork, and in that fork,
-            //           in Git branch "wireless_playground"
-            //           (not the default branch).
-            //
-            correctionAdd("Keychton Q3 Max", "Keychron&nbsp;Q3&nbsp;Max");
-            correctionAdd("keychton q3 max", "Keychron&nbsp;Q3&nbsp;Max");
-            correctionAdd("Keychron Q3 Max", "Keychron&nbsp;Q3&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("Keychron Q3 max", "Keychron&nbsp;Q3&nbsp;Max");
-            correctionAdd("Q3&nbsp;Max", "Keychron&nbsp;Q3&nbsp;Max");
-            correctionAdd("q3 max", "Keychron&nbsp;Q3&nbsp;Max");
-            correctionAdd("Q3 Max", "Keychron&nbsp;Q3&nbsp;Max");
-            correctionAdd("Q3 max", "Keychron&nbsp;Q3&nbsp;Max");
-            correctionAdd("Q3 MAX", "Keychron&nbsp;Q3&nbsp;Max");
-            correctionAdd("Q3max", "Keychron&nbsp;Q3&nbsp;Max");
-
-            // A 88-key (85%. True TKL) crippled wired-only QMK/Via-capable
-            // mechanical keyboard with a knob from Keychron.
-            //
-            // Like Q3 Max, but with Hall sensor (HE) switches.
-            //
-            // Notes:
-            //
-            //  * A Q3 HE 8K was announced in November 2025:
-            //
-            //     <https://www.keychron.com/products/keychron-q3-he-8k-magnetic-switch-keyboard>
-            //
-            //   * K HE and Q HE series:
-            //
-            //     South pole facing downward (uncommon)
-            //
-            // Q3 HE JSON files for Via:
-            //
-            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-he-series-keyboards>
-            //     Near "Q3 HE knob ISO keymap"
-            //
-            // Q3 HE default keymap (ANSI knob variant):
-            //
-            // Q3 HE firmware:
-            //
-            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-he-series-keyboards>
-            //     Near "Q3 HE knob ANSI firmware"
-            //
-            //   <https://github.com/Keychron/qmk_firmware/blob/hall_effect_playground/keyboards/keychron/q3_he/ansi_encoder/keymaps/default/keymap.c#L45>
-            //
-            // Q3 HE source code (only released 2024-11-07, many months
-            //                    after the first users got the keyboard):
-            //
-            //   <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/q3_he>
-            //     Note: In a new Git branch, "hall_effect_playground"
-            //
-            //     The ISO source code wasn't released until 2025-07-22
-            //     (but when was the keyboard variant introduced?).
-            //
-            correctionAdd("Keychron Q3 HE", "Keychron Q3 HE (85%)");
-            correctionAdd("Q3 HE", "Keychron Q3 HE (85%)");
-            correctionAdd("q3 he", "Keychron Q3 HE (85%)");
-            correctionAdd("q3 HE", "Keychron Q3 HE (85%)");
-            correctionAdd("Q3He", "Keychron Q3 HE (85%)");
-            correctionAdd("q3HE", "Keychron Q3 HE (85%)");
-
-            // A 88-key (85%. True TKL) crippled wired and wireless
-            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
-            // mechanical keyboard with a knob from Keychron.
-            // Gateron switches.
-            //
-            // RGB (per-key) south-facing (unwanted
-            // ***light bleed***) lighting.
-            //
-            // Notes:
-            //
-            //   * Based on ZMK, not QMK
-            //
-            //     Not open source! Proprietary keyboard firmware.
-            //     Though it does say "ZMK programmability".
-            //     Perhaps it will appear here:
-            //
-            //       <https://github.com/Keychron/zmk/tree/keychron_bpro/app/boards/shields/keychron>
-            //
-            //       Or probably in a new branch:
-            //
-            //         <https://github.com/Keychron/zmk/branches/all>
-            //
-            //   * With a 8 kHz USB polling rate
-            //
-            correctionAdd("Keychron Q3 Ultras 8k", "Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q3&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Keychron Q3 Ultra 8K", "Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("Q3 Ultras 8k", "Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q3 Ultra 8K", "Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q3 Ultra 8k", "Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("q3 ultra 8k", "Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("q3.ultra 8k", "Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q3 ultra", "Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q3 Ultra", "Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K");
-
-            // A 88-key (85%. True TKL) crippled wired-only
-            // closed source (but with Via support)
-            // mechanical keyboard with a knob from Keychron.
-            //
-            // Like Q3 Max, but with Hall sensor (HE) switches.
-            //
-            // Note: Closed source (neither QMK nor ZMK)
-            //
-            // Notes:
-            //
-            //   * Proprietary keyboard firmware, not open source
-            //
-            //   * Like the J HE 8K series, the Q HE 8K series
-            //     is wired-only (note that '2.4 GHz' for the
-            //     comparison with the Q HE and Q Max series
-            //     causes confusion...)
-            //
-            //   * K HE and Q HE series:
-            //
-            //     South pole facing downward (uncommon)
-            //
-            //     What about the Q HE 8K series???
-            //
-            correctionAdd("Keychron Q3 HE 8K", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8 Khz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8 kHz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8Khz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8kHz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8K", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
-            correctionAdd("Q3 HE 8k", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Keychron Lemokey X1", "Keychron Lemokey X1 (85%)");
+            correctionAdd("Keychron X1", "Keychron Lemokey X1 (85%)");
+            correctionAdd("Lemokey X1", "Keychron Lemokey X1 (85%)");
+            correctionAdd("X1", "Keychron Lemokey X1 (85%)");
+            correctionAdd("x1", "Keychron Lemokey X1 (85%)");
 
             // A 88-key (85%. True TKL) crippled low-profile wired and
             // wireless (only Bluetooth) QMK/Via-capable
@@ -90789,13 +90396,14 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k1_pro>
             //
-            correctionAdd("Keychron K1", "Keychron K1 Pro");
-            correctionAdd("keychron K1", "Keychron K1 Pro");
-            correctionAdd("K1 Pro", "Keychron K1 Pro");
-            correctionAdd("K1 pro", "Keychron K1 Pro");
-            correctionAdd("k1 pro", "Keychron K1 Pro");
-            correctionAdd("K1 PRo", "Keychron K1 Pro");
-            correctionAdd("K1 PRO", "Keychron K1 Pro");
+            correctionAdd("Keychron K1 Pro", "Keychron K1 Pro (85%)");
+            correctionAdd("Keychron K1", "Keychron K1 Pro (85%)");
+            correctionAdd("keychron K1", "Keychron K1 Pro (85%)");
+            correctionAdd("K1 Pro", "Keychron K1 Pro (85%)");
+            correctionAdd("K1 pro", "Keychron K1 Pro (85%)");
+            correctionAdd("k1 pro", "Keychron K1 Pro (85%)");
+            correctionAdd("K1 PRo", "Keychron K1 Pro (85%)");
+            correctionAdd("K1 PRO", "Keychron K1 Pro (85%)");
 
             // A 88-key (85%. True TKL) crippled low-profile
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -90863,11 +90471,12 @@ namespace OverflowHelper.core
             //
             //     See also notes near "Keychron K10 Pro"
             //
-            correctionAdd("keychron k1 max", "Keychron K1 Max");
-            correctionAdd("K1 Max", "Keychron K1 Max");
-            correctionAdd("k1 max", "Keychron K1 Max");
-            correctionAdd("K1 max", "Keychron K1 Max");
-            correctionAdd("K1 MAX", "Keychron K1 Max");
+            correctionAdd("Keychron K1 Max", "Keychron K1 Max (85%)");
+            correctionAdd("keychron k1 max", "Keychron K1 Max (85%)");
+            correctionAdd("K1 Max", "Keychron K1 Max (85%)");
+            correctionAdd("k1 max", "Keychron K1 Max (85%)");
+            correctionAdd("K1 max", "Keychron K1 Max (85%)");
+            correctionAdd("K1 MAX", "Keychron K1 Max (85%)");
 
             // A 88-key (85%. True TKL) crippled low-profile wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -90893,154 +90502,9 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-q1-max-user-manual>
             //
-            correctionAdd("Keychron K1 Ultra 8K (85%)", "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)"); // Sort of identity mapping
-            correctionAdd("Keychron K1 Ultra 8K", "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)");
-            correctionAdd("K1 Ultra 8K", "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)");
-            correctionAdd("K1 Ultra", "Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)");
-
-            // A 88-key (85%. True TKL) crippled
-            // wired-only QMK/Via-capable mechanical keyboard
-            // from Keychron with a knob.
-            //
-            // RGB (per-key) south-facing (unwanted
-            // ***light bleed***) lighting.
-            //
-            // V3 user manual:
-            //
-            //   <https://www.keychron.com/pages/keychron-v3-user-manual>
-            //
-            // V3 default keymap:
-            //
-            //   <https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/v3/iso_encoder/keymaps/default/keymap.c#L48>
-            //     Note: In QMK, the knob(s) is counted in the keymap,
-            //           but not in the key numbering scheme (at least
-            //           not when it comes to the RGB light...)
-            //
-            // V3 source code:
-            //
-            //   <https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron/v3>
-            //
-            // V3 disassembly instructions (not specific for V3):
-            //
-            //   <https://www.keychron.com/blogs/archived/how-to-disassemble-the-keychron-v-series-keyboard>
-            //     How to disassemble a Keychron V series keyboard
-            //
-            correctionAdd("Keychron V3", "Keychron V3 ISO");
-            correctionAdd("V3 ISO", "Keychron V3 ISO");
-            correctionAdd("v3qmk", "Keychron V3 ISO");
-            correctionAdd("v3", "Keychron V3 ISO");
-            correctionAdd("V3", "Keychron V3 ISO");
-
-            // A 88-key (85%. True TKL) crippled wired and wireless
-            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
-            // mechanical keyboard from Keychron with a knob.
-            //
-            // ANSI product page
-            //
-            //   <https://www.keychron.com/products/keychron-v3-max-qmk-via-wireless-custom-mechanical-keyboard>
-            //
-            // List of V3 Max manuals, etc.:
-            //
-            //   <https://www.keychron.com/pages/keychron-v3-max-user-guide>
-            //
-            // V3 Max user manual:
-            //
-            //   <https://www.keychron.com/pages/keychron-v3-max-user-manual>
-            //
-            // V3 Max JSON file:
-            //
-            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-v-and-v-max-series-keyboards>
-            //     Firmware and JSON Files of the Keychron
-            //     QMK V and V series keyboards
-            //
-            //     [sic]: It should probably be "V Max and V series keyboards"
-            //
-            //     Near "V3 Max knob version ISO keymap"
-            //
-            //     Note: Despite the misleading title (the URL is OK),
-            //           it actually has V Max firmware, including
-            //           V3 Max:
-            //
-            //             V1, V2, V3, V4, V5, V6, V7, V8, V10, V1 Max, V2 Max, V3 Max, V4 Max, V5 Max, V6 Max, and V10 Max
-            //
-            //     Parent page:
-            //
-            //       <https://www.keychron.com/pages/firmware>
-            //
-            //       Note: In section "Download Firmware and JSON Files",
-            //             not the first section
-            //
-            // V3 Max firmware:
-            //
-            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-v-and-v-max-series-keyboards>
-            //     Firmware and JSON Files of the Keychron QMK
-            //     V and V series keyboards
-            //
-            //     Near "V3 Max knob version ISO firmware"
-            //
-            //     [sic]: It should probably be "V Max and V series keyboards"
-            //
-            //     Note: Despite the misleading title (the URL is OK),
-            //           it actually has V Max firmware, including
-            //           V6 Max:
-            //
-            //             V1, V2, V3, V4, V5, V6, V7, V8, V10, V1 Max, V2 Max, V3 Max, V4 Max, V5 Max, V6 Max, and V10 Max
-            //
-            //     Also at GitHub (2024-11-04 as of 2025-06-14):
-            //
-            //       <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v3_max/firmware>
-            //
-            // V3 Max default keymap:
-            //
-            //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/v3_max/iso_encoder/keymaps/via/keymap.c#L44>
-            //     Note: In QMK, the knob(s) is counted in the keymap,
-            //           but not in the key numbering scheme (at least
-            //           not when it comes to the RGB light...)
-            //
-            // V3 Max source code:
-            //
-            //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v3_max>
-            //
-            correctionAdd("KEYCHRON V3 Max", "Keychron&nbsp;V3&nbsp;Max");
-            correctionAdd("keychron v3 max", "Keychron&nbsp;V3&nbsp;Max");
-            correctionAdd("Keychron v3 Max", "Keychron&nbsp;V3&nbsp;Max");
-            correctionAdd("Keychron V3 Max", "Keychron&nbsp;V3&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("keychron V3 Max", "Keychron&nbsp;V3&nbsp;Max");
-            correctionAdd("V3&nbsp;Max", "Keychron&nbsp;V3&nbsp;Max");
-            correctionAdd("v3 max", "Keychron&nbsp;V3&nbsp;Max");
-            correctionAdd("V3 max", "Keychron&nbsp;V3&nbsp;Max");
-            correctionAdd("V3 Max", "Keychron&nbsp;V3&nbsp;Max");
-            correctionAdd("V3 MAX", "Keychron&nbsp;V3&nbsp;Max");
-            correctionAdd("v3 Max", "Keychron&nbsp;V3&nbsp;Max");
-            correctionAdd("v3m", "Keychron&nbsp;V3&nbsp;Max");
-
-            // A 88-key (85%. True TKL) crippled wired and wireless
-            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
-            // mechanical keyboard from Keychron with a knob.
-            //
-            // Notes:
-            //
-            //    * Presumably based on ZMK, but the source
-            //      code has not been released yet.
-            //
-            //    * With a 8 kHz USB polling rate
-            //
-            //    * The microcontroller is ***not***
-            //      revealed on the product page
-            //
-            //    * A 'V3 8K'
-            //
-            //      <https://www.keychron.com/products/keychron-v3-8k-qmk-wired-custom-mechanical-keyboard>
-            //
-            // V3 Ultra 8K user manual:
-            //
-            //   <https://www.keychron.com/pages/keychron-v3-ultra-8k-user-manual>
-            //
-            correctionAdd("V3&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;V3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Keychron V3 Ultra 8K", "Keychron&nbsp;V3&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("V3 Ultra 8K", "Keychron&nbsp;V3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V3 Ultra 8k", "Keychron&nbsp;V3&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V3 Ultra", "Keychron&nbsp;V3&nbsp;Ultra&nbsp;8K");
+            correctionAdd("Keychron K1 Ultra 8K", "Keychron K1 Ultra 8K (85%)");
+            correctionAdd("K1 Ultra 8K", "Keychron K1 Ultra 8K (85%)");
+            correctionAdd("K1 Ultra", "Keychron K1 Ultra 8K (85%)");
 
             // A 88-key (85%. True TKL) crippled wired and wireless
             // (only Bluetooth) QMK/Via-capable mechanical keyboard
@@ -91152,19 +90616,20 @@ namespace OverflowHelper.core
             //   PCB: We don't have picture, but see the one for
             //        near "K3 Pro PCB"
             //
-            correctionAdd("Keychron K8 Pro", "Keychron K8 Pro ISO");
-            correctionAdd("keychron k8 pro", "Keychron K8 Pro ISO");
-            correctionAdd("keychron K8 Pro", "Keychron K8 Pro ISO");
-            correctionAdd("keychron K8 pro", "Keychron K8 Pro ISO");
-            correctionAdd("Keychron K8", "Keychron K8 Pro ISO");
-            correctionAdd("K8 Pro ISO", "Keychron K8 Pro ISO");
-            correctionAdd("K8 Pro", "Keychron K8 Pro ISO");
-            correctionAdd("K8 pro", "Keychron K8 Pro ISO");
-            correctionAdd("k8 pro", "Keychron K8 Pro ISO");
-            correctionAdd("K8 PRO", "Keychron K8 Pro ISO");
-            correctionAdd("K8-Pro", "Keychron K8 Pro ISO");
-            correctionAdd("k8pro", "Keychron K8 Pro ISO");
-            correctionAdd("K8pro", "Keychron K8 Pro ISO");
+            correctionAdd("Keychron K8 Pro ISO", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("Keychron K8 Pro", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("keychron k8 pro", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("keychron K8 Pro", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("keychron K8 pro", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("Keychron K8", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("K8 Pro ISO", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("K8 Pro", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("K8 pro", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("k8 pro", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("K8 PRO", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("K8-Pro", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("k8pro", "Keychron K8 Pro ISO (85%)");
+            correctionAdd("K8pro", "Keychron K8 Pro ISO (85%)");
 
             // A 88-key (85%. True TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
@@ -91194,13 +90659,12 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k8_max>
             //
-            correctionAdd("Keychron K8 Max", "Keychron&nbsp;K8&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("K8&nbsp;Max", "Keychron&nbsp;K8&nbsp;Max");
-            correctionAdd("K8 max", "Keychron&nbsp;K8&nbsp;Max");
-            correctionAdd("K8 Max", "Keychron&nbsp;K8&nbsp;Max");
-            correctionAdd("k8 max", "Keychron&nbsp;K8&nbsp;Max");
-            correctionAdd("k8 Max", "Keychron&nbsp;K8&nbsp;Max");
-            correctionAdd("K8max", "Keychron&nbsp;K8&nbsp;Max");
+            correctionAdd("Keychron K8 Max", "Keychron K8 Max (85%)"); // Sort of identity mapping
+            correctionAdd("K8 max", "Keychron K8 Max (85%)");
+            correctionAdd("K8 Max", "Keychron K8 Max (85%)");
+            correctionAdd("k8 max", "Keychron K8 Max (85%)");
+            correctionAdd("k8 Max", "Keychron K8 Max (85%)");
+            correctionAdd("K8max", "Keychron K8 Max (85%)");
 
             // A 88-key (85%. True TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
@@ -91247,10 +90711,11 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/k8_he>
             //     Note: In a new Git branch, "hall_effect_playground"
             //
-            correctionAdd("K8 HE", "Keychron K8 HE");
-            correctionAdd("k8 HE", "Keychron K8 HE");
-            correctionAdd("k8 he", "Keychron K8 HE");
-            correctionAdd("k8he", "Keychron K8 HE");
+            correctionAdd("Keychron K8 HE", "Keychron K8 HE (85%)");
+            correctionAdd("K8 HE", "Keychron K8 HE (85%)");
+            correctionAdd("k8 HE", "Keychron K8 HE (85%)");
+            correctionAdd("k8 he", "Keychron K8 HE (85%)");
+            correctionAdd("k8he", "Keychron K8 HE (85%)");
 
             // A 88-key (85%. True TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') ZMK/Via-capable
@@ -91281,6 +90746,563 @@ namespace OverflowHelper.core
             correctionAdd("K8 Ultra 8K", "Keychron K8 Ultra 8K (85%)");
             correctionAdd("K8 Ultra", "Keychron K8 Ultra 8K (85%)");
 
+            // A 88-key (85%. True TKL) crippled
+            // wired-only QMK/Via-capable mechanical keyboard
+            // from Keychron with a knob.
+            //
+            // RGB (per-key) south-facing (unwanted
+            // ***light bleed***) lighting.
+            //
+            // V3 user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-v3-user-manual>
+            //
+            // V3 default keymap:
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/v3/iso_encoder/keymaps/default/keymap.c#L48>
+            //     Note: In QMK, the knob(s) is counted in the keymap,
+            //           but not in the key numbering scheme (at least
+            //           not when it comes to the RGB light...)
+            //
+            // V3 source code:
+            //
+            //   <https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron/v3>
+            //
+            // V3 disassembly instructions (not specific for V3):
+            //
+            //   <https://www.keychron.com/blogs/archived/how-to-disassemble-the-keychron-v-series-keyboard>
+            //     How to disassemble a Keychron V series keyboard
+            //
+            correctionAdd("Keychron V3 ISO", "Keychron V3 ISO (85%)");
+            correctionAdd("Keychron V3", "Keychron V3 ISO (85%)");
+            correctionAdd("V3 ISO", "Keychron V3 ISO (85%)");
+            correctionAdd("v3qmk", "Keychron V3 ISO (85%)");
+            correctionAdd("v3", "Keychron V3 ISO (85%)");
+            correctionAdd("V3", "Keychron V3 ISO (85%)");
+
+            // A 88-key (85%. True TKL) crippled wired and wireless
+            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
+            // mechanical keyboard from Keychron with a knob.
+            //
+            // ANSI product page
+            //
+            //   <https://www.keychron.com/products/keychron-v3-max-qmk-via-wireless-custom-mechanical-keyboard>
+            //
+            // List of V3 Max manuals, etc.:
+            //
+            //   <https://www.keychron.com/pages/keychron-v3-max-user-guide>
+            //
+            // V3 Max user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-v3-max-user-manual>
+            //
+            // V3 Max JSON file:
+            //
+            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-v-and-v-max-series-keyboards>
+            //     Firmware and JSON Files of the Keychron
+            //     QMK V and V series keyboards
+            //
+            //     [sic]: It should probably be "V Max and V series keyboards"
+            //
+            //     Near "V3 Max knob version ISO keymap"
+            //
+            //     Note: Despite the misleading title (the URL is OK),
+            //           it actually has V Max firmware, including
+            //           V3 Max:
+            //
+            //             V1, V2, V3, V4, V5, V6, V7, V8, V10, V1 Max, V2 Max, V3 Max, V4 Max, V5 Max, V6 Max, and V10 Max
+            //
+            //     Parent page:
+            //
+            //       <https://www.keychron.com/pages/firmware>
+            //
+            //       Note: In section "Download Firmware and JSON Files",
+            //             not the first section
+            //
+            // V3 Max firmware:
+            //
+            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-v-and-v-max-series-keyboards>
+            //     Firmware and JSON Files of the Keychron QMK
+            //     V and V series keyboards
+            //
+            //     Near "V3 Max knob version ISO firmware"
+            //
+            //     [sic]: It should probably be "V Max and V series keyboards"
+            //
+            //     Note: Despite the misleading title (the URL is OK),
+            //           it actually has V Max firmware, including
+            //           V6 Max:
+            //
+            //             V1, V2, V3, V4, V5, V6, V7, V8, V10, V1 Max, V2 Max, V3 Max, V4 Max, V5 Max, V6 Max, and V10 Max
+            //
+            //     Also at GitHub (2024-11-04 as of 2025-06-14):
+            //
+            //       <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v3_max/firmware>
+            //
+            // V3 Max default keymap:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/v3_max/iso_encoder/keymaps/via/keymap.c#L44>
+            //     Note: In QMK, the knob(s) is counted in the keymap,
+            //           but not in the key numbering scheme (at least
+            //           not when it comes to the RGB light...)
+            //
+            // V3 Max source code:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/v3_max>
+            //
+            correctionAdd("Keychron V3 Max", "Keychron V3 Max (85%)");
+            correctionAdd("KEYCHRON V3 Max", "Keychron V3 Max (85%)");
+            correctionAdd("keychron v3 max", "Keychron V3 Max (85%)");
+            correctionAdd("Keychron v3 Max", "Keychron V3 Max (85%)");
+            correctionAdd("keychron V3 Max", "Keychron V3 Max (85%)");
+            correctionAdd("v3 max", "Keychron V3 Max (85%)");
+            correctionAdd("V3 max", "Keychron V3 Max (85%)");
+            correctionAdd("V3 Max", "Keychron V3 Max (85%)");
+            correctionAdd("V3 MAX", "Keychron V3 Max (85%)");
+            correctionAdd("v3 Max", "Keychron V3 Max (85%)");
+            correctionAdd("v3m", "Keychron V3 Max (85%)");
+
+            // A 88-key (85%. True TKL) crippled wired and wireless
+            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
+            // mechanical keyboard from Keychron with a knob.
+            //
+            // Notes:
+            //
+            //    * Crammed F1-F12 due to the knob
+            //
+            //    * Presumably based on ZMK, but the source
+            //      code has not been released yet.
+            //
+            //    * With a 8 kHz USB polling rate
+            //
+            //    * The microcontroller is ***not***
+            //      revealed on the product page
+            //
+            //    * A 'V3 8K'
+            //
+            //      <https://www.keychron.com/products/keychron-v3-8k-qmk-wired-custom-mechanical-keyboard>
+            //
+            // V3 Ultra 8K user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-v3-ultra-8k-user-manual>
+            //
+            correctionAdd("Keychron V3 Ultra 8K", "Keychron V3 Ultra 8K (85%)");
+            correctionAdd("V3 Ultra 8K", "Keychron V3 Ultra 8K (85%)");
+            correctionAdd("V3 Ultra 8k", "Keychron V3 Ultra 8K (85%)");
+            correctionAdd("V3 Ultra", "Keychron V3 Ultra 8K (85%)");
+
+            // A 88-key (85%. True TKL) crippled wired-only QMK/Via-capable
+            // mechanical keyboard with a knob from Keychron.
+            //
+            // RGB (per-key) south-facing (unwanted
+            // ***light bleed***) lighting. Is not in text, but
+            // in an image: <https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-9f41949e--Q2icon.jpg>
+            // It seems to be true. See e.g.:
+            //   <https://www.proshop.dk/Images/915x900/3049539_456d848325bb.jpg>
+            // That is for a Q1, but all keyboards in the Q series
+            // is expected to be the same in this respect.
+            //
+            // 2021 vintage (though there is now a V2)
+            //
+            // Not to be confused with:
+            //
+            //   * The newer Q3 Max (2024)
+            //   * Q3 Pro...
+            //
+            // ANSI product page:
+            //
+            //   <https://www.keychron.com/products/keychron-q3-qmk-custom-mechanical-keyboard>
+            //
+            // Notes:
+            //
+            //   * Some variants have a knob and some don't
+            //
+            // Real product page:
+            //
+            //   <https://www.keychron.com/products/keychron-q3-qmk-custom-mechanical-keyboard>
+            //
+            // A list of Q3 user guides
+            //
+            //   <https://www.keychron.com/pages/keychron-q3-user-guide>
+            //
+            // Q3 Pro user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-q3-knob-version-user-manual>
+            //
+            // Flashing and resetting to factory defaults of the Q3:
+            //
+            //   <https://www.keychron.com/pages/how-to-factory-reset-or-use-the-launcher-web-app-to-flash-firmware-for-your-keyboard>
+            //     The generic page as of 2024-05...
+            //
+            //     Instead:
+            //
+            //       <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
+            //         Near "Q3 knob version ISO firmware".
+            //
+            //         Parent: <https://www.keychron.com/pages/firmware>
+            //           The ***second section***, near
+            //           "Download firmware and JSON files".
+            //
+            //   <https://www.keychron.com/pages/how-to-flash-q3-with-entire-chip-erase-by-using-stm32programmer>
+            //     Hard flashing (using STM32CubeProgrammer).
+            //
+            //   <https://keychronsupport.zendesk.com/hc/en-us/articles/8914576001943-How-to-Factory-Reset-or-Flash-Firmware-for-Your-Keychron-Q3-keyboard>
+            //
+            //         It demonstrates the space bar method, with
+            //         the reset button.
+            //         Note: On the 'keychronsupport.zendesk.com' domain
+            //
+            // Q3 firmware:
+            //
+            //   For example, from:
+            //
+            //     <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
+            //     Near "Q3 knob version ISO firmware"
+            //
+            //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/q3_iso_knob_v1.4.bin>
+            //     Version 1.4
+            //
+            //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/q3_iso_knob_v1.5.bin>
+            //     Variant: Q3 ISO knob. 1.5 (2023-02-09)
+            //
+            // Q3 default keymap:
+            //
+            //   <https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/q3/iso_encoder/keymaps/default/keymap.c#L43>
+            //     Note: In QMK, the knob(s) is counted in the keymap,
+            //           but not in the key numbering scheme (at least
+            //           not when it comes to the RGB light...)
+            //
+            // Q3 source code (in the main QMK repository):
+            //
+            //   <https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron/q3>
+            //
+            correctionAdd("Keychron Q3", "Keychron Q3 (85%)");
+            correctionAdd("keychron Q3", "Keychron Q3 (85%)");
+            correctionAdd("KeyChron Q3", "Keychron Q3 (85%)");
+            correctionAdd("Keychron q3", "Keychron Q3 (85%)");
+            correctionAdd("q3", "Keychron Q3 (85%)");
+            correctionAdd("Q3", "Keychron Q3 (85%)");
+
+            // A 88-key (85%. True TKL) crippled wired and wireless
+            // (only Bluetooth) QMK/Via-capable mechanical keyboard
+            // with a knob and four dedicated physical macro keys
+            // (only some variants) from Keychron.
+            //
+            // RGB (per-key) south-facing (unwanted
+            // ***light bleed***) lighting.
+            //
+            // Notes:
+            //
+            //   * The four dedicated macro keys are the
+            //     "special edition" (SE) variants. Thus
+            //     93-key keyboards...
+            //
+            //   * The location of the "BT" / "Cable" switch
+            //     may or may not be dependent on the variant.
+            //
+            // A list of Q3 Pro user guides
+            //
+            //   <https://www.keychron.com/pages/keychron-q3-pro-user-guide>
+            //
+            // Q3 Pro user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-q1-pro-user-manual>
+            //
+            // Flashing and resetting to factory defaults of the Q3 Pro:
+            //
+            //   <https://www.keychron.com/blogs/archived/how-to-factory-reset-or-flash-your-qmk-via-enabled-keychron-q3-pro-keyboard>
+            //     Now broken...
+            //
+            // Q3 Pro JSON files for Via:
+            //
+            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
+            //      Near "Q3 Pro knob version ISO"
+            //
+            // Q3 Pro firmware:
+            //
+            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
+            //     Near "Q3 Pro knob ISO"
+            //
+            // Q3 Pro default keymap:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/q3_pro/iso_encoder/keymaps/via/keymap.c#L44>
+            //     Note: In QMK, the knob(s) is counted in the keymap,
+            //           but not in the key numbering scheme (at least
+            //           not when it comes to the RGB light...)
+            //
+            //     Keymap for the macro key variants ("special edition" (SE)):
+            //
+            //       <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/q3_pro/iso_encoder_se/keymaps/via/keymap.c>
+            //
+            // Q3 Pro source code:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q3_pro>
+            //
+            // Note: The number of keys 87 (85%) is currently
+            //       missing from the product page.
+            //
+            // Alternative URLs:
+            //
+            //   <https://i.imgur.com/1D5EZGc.jpeg>
+            //     Q3 Pro PCB. Incl. the Bluetooth module.
+            //
+            //     Note: Requires JavaScript to be allowed from
+            //           'cloudfront.net' to not be surrounded
+            //           by Imgur goo.
+            //
+            //   <https://i.imgur.com/iIYYqNN.jpeg>
+            //     PCB. Zoomed in.
+            //
+            //     Bluetooth module. Keychron. Antenna cable. CKBT51.
+            //
+            //     Note: Requires JavaScript to be allowed from
+            //           'cloudfront.net' to not be surrounded
+            //           by Imgur goo.
+            //
+            correctionAdd("Keychron Q3 Pro", "Keychron Q3 Pro (85%)");
+            correctionAdd("Q3 Pro", "Keychron Q3 Pro (85%)");
+            correctionAdd("q3 pro", "Keychron Q3 Pro (85%)");
+            correctionAdd("Q3 pro", "Keychron Q3 Pro (85%)");
+            correctionAdd("Pro Q3", "Keychron Q3 Pro (85%)");
+
+            // A 88-key (85%. True TKL) crippled wired and wireless
+            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
+            // mechanical keyboard with a knob from Keychron.
+            // Gateron switches.
+            //
+            // RGB (per-key) south-facing (unwanted
+            // ***light bleed***) lighting.
+            //
+            // ANSI product page (the two product pages
+            // are ***completely*** separated (no link
+            // between them)):
+            //
+            //   <https://www.keychron.com/products/keychron-q3-max-qmk-via-wireless-custom-mechanical-keyboard>
+            //
+            // Notes:
+            //
+            //  * It is very different from the Q3 Pro (which has five
+            //    macro keys and a knob on the left)! Or is it due to
+            //    the Special Edition of the Q3 Pro?
+            //
+            // Q3 Max user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-q3-max-user-manual>
+            //
+            //     PDF: <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Keychron_Q3_Max_User_Manual.pdf?v=1703214981>
+            //
+            // A list of Q3 Max manuals, etc.:
+            //
+            //   <https://www.keychron.com/pages/keychron-q3-max-user-guide>
+            //
+            // Other:
+            //
+            //   <https://www.keychron.com/blogs/archived/how-to-factory-reset-or-flash-your-qmk-via-enabled-keychron-q3-max-keyboard>
+            //     How to factory reset or flash firmware for
+            //     your Keychron V2 keyboard? [sic]
+            //
+            //     Incl. official firmware from Keychron.
+            //
+            //     Now broken (404). Instead:
+            //
+            //       <https://www.keychron.uk/pages/how-to-factory-reset-or-flash-firmware-for-your-keychron-q3-max-keyboard>
+            //         It demonstrates the space bar method, with
+            //         the reset button.
+            //         Note: On the 'keychron.uk' domain
+            //
+            // Q3 Max JSON files for Via:
+            //
+            //   From <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
+            //     Near "Q3 Max version", section "JSON files"
+            //
+            //     Parent: <https://www.keychron.com/pages/firmware>
+            //       ***Second*** section, near "firmware and JSON files".
+            //
+            //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/q3_max_iso_encoder_v1.0.0_2402011632.json.zip>
+            //     q3_max_iso_encoder_v1.0.0_2402011632.json.zip
+            //     q3_max_iso_encoder_v1.0.0_2402011632.json
+            //
+            //     ISO knob
+            //
+            //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/q3_max_ansi_encoder_v1.0.json_1c934e29-6148-4bd9-8964-7cbdf2d01c4a.zip>
+            //     q3_max_ansi_encoder_v1.0.json_1c934e29-6148-4bd9-8964-7cbdf2d01c4a.zip
+            //     q3_max_ansi_encoder_v1.0.json
+            //
+            //     ANSI knob
+            //
+            // Q3 Max firmware:
+            //
+            //   'q3_max_iso_encoder_v1.0.0_2402271558.bin': <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/q3_max_iso_encoder_v1.0.0_2402271558.bin>
+            //   'q3_max_ansi_encoder_v1.0.0.bin'          : <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/q3_max_ansi_encoder_v1.0.0.bin>
+            //
+            //     Now only on the Wayback Machine:
+            //
+            //       <https://web.archive.org/web/20250223052939/https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
+            //
+            //    And now on:
+            //
+            //      <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-keyboards>
+            //
+            //        Near "Q3 Max ISO"
+            //
+            // Q3 Max default keymap:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/q3_max/iso_encoder/keymaps/via/keymap.c#L45>
+            //     Note: In QMK, the knob(s) is counted in the keymap,
+            //           but not in the key numbering scheme (at least
+            //           not when it comes to the RGB light...)
+            //     Note: It uses "LAYOUT_iso_88", but there are 89 keys
+            //           in the keymap? Is it an inconsistency in QMK
+            //           itself? Or a Keychron-only (C) macro?
+            //
+            // Q3 Max source code (only released 2024-01-30
+            //   (one day before Q5 Max, Q6 Max, Q8 Max,
+            //   K5 Max, K7 Max, and V5 Max)):
+            //
+            //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q3_max>
+            //
+            //     Note: In Keychron's QMK fork, and in that fork,
+            //           in Git branch "wireless_playground"
+            //           (not the default branch).
+            //
+            correctionAdd("Keychron Q3 Max", "Keychron Q3 Max (85%)");
+            correctionAdd("Keychton Q3 Max", "Keychron Q3 Max (85%)");
+            correctionAdd("keychton q3 max", "Keychron Q3 Max (85%)");
+            correctionAdd("Keychron Q3 max", "Keychron Q3 Max (85%)");
+            correctionAdd("q3 max", "Keychron Q3 Max (85%)");
+            correctionAdd("Q3 Max", "Keychron Q3 Max (85%)");
+            correctionAdd("Q3 max", "Keychron Q3 Max (85%)");
+            correctionAdd("Q3 MAX", "Keychron Q3 Max (85%)");
+            correctionAdd("Q3max", "Keychron Q3 Max (85%)");
+
+            // A 88-key (85%. True TKL) crippled wired-only QMK/Via-capable
+            // mechanical keyboard with a knob from Keychron.
+            //
+            // Like Q3 Max, but with Hall sensor (HE) switches.
+            //
+            // Notes:
+            //
+            //  * A Q3 HE 8K was announced in November 2025:
+            //
+            //     <https://www.keychron.com/products/keychron-q3-he-8k-magnetic-switch-keyboard>
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            // Q3 HE JSON files for Via:
+            //
+            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-he-series-keyboards>
+            //     Near "Q3 HE knob ISO keymap"
+            //
+            // Q3 HE default keymap (ANSI knob variant):
+            //
+            // Q3 HE firmware:
+            //
+            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-he-series-keyboards>
+            //     Near "Q3 HE knob ANSI firmware"
+            //
+            //   <https://github.com/Keychron/qmk_firmware/blob/hall_effect_playground/keyboards/keychron/q3_he/ansi_encoder/keymaps/default/keymap.c#L45>
+            //
+            // Q3 HE source code (only released 2024-11-07, many months
+            //                    after the first users got the keyboard):
+            //
+            //   <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/q3_he>
+            //     Note: In a new Git branch, "hall_effect_playground"
+            //
+            //     The ISO source code wasn't released until 2025-07-22
+            //     (but when was the keyboard variant introduced?).
+            //
+            correctionAdd("Keychron Q3 HE", "Keychron Q3 HE (85%)");
+            correctionAdd("Q3 HE", "Keychron Q3 HE (85%)");
+            correctionAdd("q3 he", "Keychron Q3 HE (85%)");
+            correctionAdd("q3 HE", "Keychron Q3 HE (85%)");
+            correctionAdd("Q3He", "Keychron Q3 HE (85%)");
+            correctionAdd("q3HE", "Keychron Q3 HE (85%)");
+
+            // A 88-key (85%. True TKL) crippled wired and wireless
+            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
+            // mechanical keyboard with a knob from Keychron.
+            // Gateron switches.
+            //
+            // RGB (per-key) south-facing (unwanted
+            // ***light bleed***) lighting.
+            //
+            // Notes:
+            //
+            //   * Based on ZMK, not QMK
+            //
+            //     Not open source! Proprietary keyboard firmware.
+            //     Though it does say "ZMK programmability".
+            //     Perhaps it will appear here:
+            //
+            //       <https://github.com/Keychron/zmk/tree/keychron_bpro/app/boards/shields/keychron>
+            //
+            //       Or probably in a new branch:
+            //
+            //         <https://github.com/Keychron/zmk/branches/all>
+            //
+            //   * With a 8 kHz USB polling rate
+            //
+            correctionAdd("Keychron Q3 Ultras 8k", "Keychron Q3 Ultra 8K (85%)");
+            correctionAdd("Keychron Q3 Ultra 8K", "Keychron Q3 Ultra 8K (85%)");
+            correctionAdd("Q3 Ultras 8k", "Keychron Q3 Ultra 8K (85%)");
+            correctionAdd("Q3 Ultra 8K", "Keychron Q3 Ultra 8K (85%)");
+            correctionAdd("Q3 Ultra 8k", "Keychron Q3 Ultra 8K (85%)");
+            correctionAdd("q3 ultra 8k", "Keychron Q3 Ultra 8K (85%)");
+            correctionAdd("q3.ultra 8k", "Keychron Q3 Ultra 8K (85%)");
+            correctionAdd("Q3 ultra", "Keychron Q3 Ultra 8K (85%)");
+            correctionAdd("Q3 Ultra", "Keychron Q3 Ultra 8K (85%)");
+
+            // A 88-key (85%. True TKL) crippled wired-only
+            // closed source (but with Via support)
+            // mechanical keyboard with a knob from Keychron.
+            //
+            // Like Q3 Max, but with Hall sensor (HE) switches.
+            //
+            // Note: Closed source (neither QMK nor ZMK)
+            //
+            // Notes:
+            //
+            //   * Proprietary keyboard firmware, not open source
+            //
+            //   * Like the J HE 8K series, the Q HE 8K series
+            //     is wired-only (note that '2.4 GHz' for the
+            //     comparison with the Q HE and Q Max series
+            //     causes confusion...)
+            //
+            //   * K HE and Q HE series:
+            //
+            //     South pole facing downward (uncommon)
+            //
+            //     What about the Q HE 8K series???
+            //
+            correctionAdd("Keychron Q3 HE 8K", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8 Khz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8 kHz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8Khz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8kHz", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8K", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+            correctionAdd("Q3 HE 8k", "Keychron Q3 HE 8K (85%) (proprietary keyboard firmware, not open source)");
+
+            // A 88-key (85%. True TKL) crippled wired and wireless
+            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
+            // mechanical keyboard with a knob from Keychron.
+            //
+            // Notes:
+            //
+            //   1. Hall sensor (HE) "switches"
+            //
+            //   2. K HE and Q HE series:
+            //
+            //      South pole facing downward (uncommon)
+            //
+            //      What about the P HE series???
+            //
+            correctionAdd("Keychron Lemokey P3 HE", "Keychron Lemokey P3 HE (85%)");
+            correctionAdd("Lemokey P3 HE", "Keychron Lemokey P3 HE (85%)");
+            correctionAdd("P3 HE", "Keychron Lemokey P3 HE (85%)");
+
             // A 88-key (85%. True TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
             // mechanical keyboard with a knob from Keychron.
@@ -91306,27 +91328,12 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/james-donkey/qmk_firmware/tree/wireless_playground/keyboards/jamesdonkey/j4>
             //
-            correctionAdd("James donkey j4", "Keychron J4");
-            correctionAdd("JamesDonkey J4", "Keychron J4");
-            correctionAdd("KeyChron J4", "Keychron J4");
-            correctionAdd("j4", "Keychron J4");
-            correctionAdd("J4", "Keychron J4");
-
-            // A 88-key (85%. True TKL) crippled wired and wireless
-            // (both Bluetooth and '2.4 GHz') QMK/Via-capable
-            // mechanical keyboard with a knob from Keychron.
-            //
-            // Notes:
-            //
-            //   1. Hall sensor (HE) "switches"
-            //
-            //   2. K HE and Q HE series:
-            //
-            //      South pole facing downward (uncommon)
-            //
-            //      What about the P HE series???
-            //
-            correctionAdd("P3 HE", "Keychron Lemokey P3 HE");
+            correctionAdd("James donkey j4", "Keychron J4 (85%)");
+            correctionAdd("JamesDonkey J4", "Keychron J4 (85%)");
+            correctionAdd("Keychron J4", "Keychron J4 (85%)");
+            correctionAdd("KeyChron J4", "Keychron J4 (85%)");
+            correctionAdd("j4", "Keychron J4 (85%)");
+            correctionAdd("J4", "Keychron J4 (85%)");
 
             // A 88-key (85%. True TKL) crippled wired-only
             // mechanical keyboard from Cooler Master.
@@ -91361,13 +91368,14 @@ namespace OverflowHelper.core
             //   <https://www.dropbox.com/s/7j9n81cyx1da2ln/CK530V2_FW_0437_0491_4.00_202110061642.exe%284%29.zip?dl=0>
             //     MD5 hash value as of 2023-11-15:  76D31DFA8ED24491D81B99B46A15C634
             //
-            correctionAdd("CK 530 v2", "CK530 V2");
-            correctionAdd("ck530 v2", "CK530 V2");
-            correctionAdd("CK530 v2", "CK530 V2");
-            correctionAdd("Ck530 v2", "CK530 V2");
-            correctionAdd("CK530v2", "CK530 V2");
-            correctionAdd("ck 530", "CK530 V2");
-            correctionAdd("CK530", "CK530 V2");
+            correctionAdd("CK 530 v2", "CK530 V2 (85%)");
+            correctionAdd("CK530 V2", "CK530 V2 (85%)");
+            correctionAdd("ck530 v2", "CK530 V2 (85%)");
+            correctionAdd("CK530 v2", "CK530 V2 (85%)");
+            correctionAdd("Ck530 v2", "CK530 V2 (85%)");
+            correctionAdd("CK530v2", "CK530 V2 (85%)");
+            correctionAdd("ck 530", "CK530 V2 (85%)");
+            correctionAdd("CK530", "CK530 V2 (85%)");
 
             // A 88-key (85%. True TKL) crippled low-profile
             // wired-only mechanical keyboard from Cooler Master
@@ -91383,8 +91391,9 @@ namespace OverflowHelper.core
             //
             //   Cooler Master Portal
             //
-            correctionAdd("SK-630", "SK630");
-            correctionAdd("sk630", "SK630");
+            correctionAdd("SK-630", "SK630 (85%)");
+            correctionAdd("SK630", "SK630 (85%)");
+            correctionAdd("sk630", "SK630 (85%)");
 
             // A 88-key (85%. True TKL) crippled
             // mechanical keyboard (Cherry MX)
@@ -91496,13 +91505,6 @@ namespace OverflowHelper.core
             correctionAdd("QFR", "Cooler Master Quick Fire Rapid");
             correctionAdd("qfr", "Cooler Master Quick Fire Rapid");
 
-            // A 88-key (85%. Not true TKL) crippled split ergonomic
-            // mechanical keyboard.
-            //
-            // The split is quite asymmetric.
-            //
-            correctionAdd("Matias Ergo", "Matias Ergo Pro");
-
             // A 88-key (85%. True TKL) crippled mechanical
             // keyboard from Razer.
             //
@@ -91511,6 +91513,35 @@ namespace OverflowHelper.core
             correctionAdd("razer Huntsman", "Razer Huntsman");
             correctionAdd("Huntsman Razer", "Razer Huntsman");
             correctionAdd("huntsman razer", "Razer Huntsman");
+
+            // A 88-key (85%. True TKL) crippled wired and wireless
+            // (both Bluetooth and '2.4 GHz') mechanical keyboard
+            // from Qwertykey AKA Evoworks AKA OwLab.
+            //
+            // Qwertykey is in the hall of shame:
+            //
+            //   <https://github.com/qmk/qmk_firmware/issues/24085>
+            //
+            // Notes:
+            //
+            //   * Via compatible, so they are probably
+            //     ***violating*** the open source license.
+            //
+            //   * The reference contains a lot of
+            //     (specific) disclaimers!
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=6YbS-GL5490>
+            //     Includes disassembly to show the internals, starting
+            //     from 02 min 44 secs.
+            //   <https://monacokeys.de/collections/keyboards/products/evo80-80-tkl-custom-mechanical-keyboard>
+            //   <https://www.mechmods.co.uk/products/pre-order-evoworks-evo80-keyboard>
+            //
+            correctionAdd("Qwertykey EVO 80", "Qwertykey Evo80 (85%)");
+            correctionAdd("Qwertykey Evo80", "Qwertykey Evo80 (85%)");
+            correctionAdd("EVO 80", "Qwertykey Evo80 (85%)");
+            correctionAdd("Evo80", "Qwertykey Evo80 (85%)");
 
             // A 88-key (85%. True TKL) crippled wired-only
             // mechanical keyboard from Norbauer without a knob.
@@ -91528,6 +91559,27 @@ namespace OverflowHelper.core
             //   <https://www.norbauer.co/pages/the-seneca>
             //
             correctionAdd("seneca", "Norbauer Seneca");
+
+            // A 88-key (85%. Not true TKL) crippled low-profile
+            // wired and wireless (only '2.4 GHz') Alice layout
+            // (a la Microsoft Natural Keyboard) rubber dome
+            // keyboard from Microsoft without a knob.
+            //
+            correctionAdd("Microsoft Sculpt Ergonomic", "Microsoft Sculpt Ergonomic (85%)");
+            correctionAdd("Microsoft Sculpt keyboard", "Microsoft Sculpt Ergonomic (85%)");
+            correctionAdd("microsoft sculpt", "Microsoft Sculpt Ergonomic (85%)");
+            correctionAdd("Microsoft Sculpt", "Microsoft Sculpt Ergonomic (85%)");
+            correctionAdd("Microsoft sculpt", "Microsoft Sculpt Ergonomic (85%)");
+            correctionAdd("MS Sculpt", "Microsoft Sculpt Ergonomic (85%)");
+            correctionAdd("sculpt", "Microsoft Sculpt Ergonomic (85%)");
+            correctionAdd("Sculpt", "Microsoft Sculpt Ergonomic (85%)");
+
+            // A 88-key (85%. Not true TKL) crippled split ergonomic
+            // mechanical keyboard.
+            //
+            // The split is quite asymmetric.
+            //
+            correctionAdd("Matias Ergo", "Matias Ergo Pro");
 
             // A 89-key (85%. Not true TKL) crippled wired-only
             // Alice layout (a la Microsoft Natural Keyboard)
@@ -92095,9 +92147,10 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q3_pro>
             //
-            correctionAdd("Keychron Q3 Pro SE", "Keychron Q3 Pro SE (special edition)");
-            correctionAdd("q3 pro se", "Keychron Q3 Pro SE (special edition)");
-            correctionAdd("Q3 Pro SE", "Keychron Q3 Pro SE (special edition)");
+            correctionAdd("Keychron Q3 Pro SE (special edition)", "Keychron Q3 Pro SE (special edition) (90%)");
+            correctionAdd("Keychron Q3 Pro SE", "Keychron Q3 Pro SE (special edition) (90%)");
+            correctionAdd("q3 pro se", "Keychron Q3 Pro SE (special edition) (90%)");
+            correctionAdd("Q3 Pro SE", "Keychron Q3 Pro SE (special edition) (90%)");
 
             // A 92-key (90%. Not true TKL) crippled wired-only mechanical
             // keyboard (Cherry MX) from Cooler Master without a knob.
@@ -121558,8 +121611,6 @@ namespace OverflowHelper.core
 
             URL_Add("irradicate", "https://en.wiktionary.org/wiki/irradicate#Verb");
 
-            URL_Add("journaling", "https://en.wiktionary.org/wiki/journaling#Noun");
-
             URL_Add("glad", "https://en.wiktionary.org/wiki/glad#Adjective");
 
             URL_Add("iOS 7", "https://en.wikipedia.org/wiki/IOS_7");
@@ -122059,8 +122110,6 @@ namespace OverflowHelper.core
             URL_Add("x264", "https://en.wikipedia.org/wiki/X264");
 
             URL_Add("sunflower", "https://en.wiktionary.org/wiki/sunflower#Noun");
-
-            URL_Add("journalist", "https://en.wiktionary.org/wiki/journalist#Noun");
 
             URL_Add("laborious", "https://en.wiktionary.org/wiki/laborious#Adjective");
 
@@ -123962,7 +124011,7 @@ namespace OverflowHelper.core
 
             URL_Add("navigate", "https://en.wiktionary.org/wiki/navigate#Verb");
 
-            URL_Add("Wooting 80HE", "https://www.youtube.com/watch?v=f8AZflcxF1g");
+            URL_Add("Wooting 80HE (80%)", "https://www.youtube.com/watch?v=f8AZflcxF1g");
 
             URL_Add("small", "https://en.wiktionary.org/wiki/small#Adjective");
 
@@ -124393,8 +124442,6 @@ namespace OverflowHelper.core
             URL_Add("crossed", "https://en.wiktionary.org/wiki/cross#Verb");
 
             URL_Add("fingers crossed", "https://en.wiktionary.org/wiki/fingers_crossed#Adverb");
-
-            URL_Add("Grand Theft Auto VI", "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI");
 
             URL_Add("criticised", "https://en.wiktionary.org/wiki/criticise#Verb");
 
@@ -125812,7 +125859,7 @@ namespace OverflowHelper.core
 
             URL_Add("VMware ESXi", "https://en.wikipedia.org/wiki/VMware_ESXi");
 
-            URL_Add("vi", "https://en.wikipedia.org/wiki/Vi");
+            URL_Add("vi", "https://en.wikipedia.org/wiki/Vi_(text_editor)");
 
             URL_Add("newish", "https://en.wiktionary.org/wiki/newish#Adjective");
 
@@ -129565,8 +129612,6 @@ namespace OverflowHelper.core
             URL_Add("Atwood's Law", "https://en.wiktionary.org/wiki/Atwood%27s_Law#Proper_noun");
 
             URL_Add("Joel Spolsky", "https://en.wikipedia.org/wiki/Joel_Spolsky");
-
-            URL_Add("journal club", "https://en.wikipedia.org/wiki/Journal_club");
 
             URL_Add("C: disk", "https://en.wikipedia.org/wiki/Drive_letter_assignment#Common_assignments");
 
@@ -139342,18 +139387,6 @@ namespace OverflowHelper.core
 
             URL_Add("Theano", "https://en.wikipedia.org/wiki/Theano_(software)");
 
-            URL_Add("file system", "https://en.wikipedia.org/wiki/File_system");
-
-            URL_Add("file systems", "https://en.wiktionary.org/wiki/file_system#Noun");
-
-            URL_Add("superblock", "https://en.wikipedia.org/wiki/Superblock_(file_system)");
-
-            URL_Add("journaling file system", "https://en.wikipedia.org/wiki/Journaling_file_system");
-
-            URL_Add("Andrew File System", "https://en.wikipedia.org/wiki/Andrew_File_System");
-
-            URL_Add("Encrypting File System", "https://en.wikipedia.org/wiki/Encrypting_File_System");
-
             URL_Add("quarter", "https://en.wiktionary.org/wiki/quarter#Noun");
 
             URL_Add("quarters", "https://en.wiktionary.org/wiki/quarter#Noun");
@@ -142324,9 +142357,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Lemokey G2", "https://www.lemokey.com/products/lemokey-g2-wireless-mouse");
 
-            URL_Add("Keychron Lemokey L1 HE", "https://www.lemokey.com/products/lemokey-l1-he-wireless-magnetic-switch-custom-gaming-keyboard");
+            URL_Add("Keychron Lemokey L1 HE (85%)", "https://www.lemokey.com/products/lemokey-l1-he-wireless-magnetic-switch-custom-gaming-keyboard");
 
-            URL_Add("Keychron Lemokey L5 HE 8K (proprietary keyboard firmware, not open source)", "https://www.lemokey.com/pages/lemokey-l5-he-landing-page");
+            URL_Add("Keychron Lemokey L5 HE 8K (80%) (proprietary keyboard firmware, not open source)", "https://www.lemokey.com/pages/lemokey-l5-he-landing-page");
 
             URL_Add("Keychron Lemokey P1 (80%)", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
 
@@ -142336,29 +142369,29 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Lemokey P2 HE (65%)", "https://www.keychron.com/products/lemokey-p2-he-wireless-magnetic-switch-custom-gaming-keyboard");
 
-            URL_Add("Keychron Lemokey P3 HE", "https://www.keychron.com/products/lemokey-p3-he-wireless-magnetic-switch-custom-gaming-keyboard");
+            URL_Add("Keychron Lemokey P3 HE (85%)", "https://www.keychron.com/products/lemokey-p3-he-wireless-magnetic-switch-custom-gaming-keyboard");
 
             URL_Add("Lemokey L0 HE", "https://www.lemokey.com/products/lemokey-l0-he-one-handed-magnetic-switch-gaming-keyboard");
 
             URL_Add("Keychron Lemokey X0", "https://www.lemokey.com/products/lemokey-x0-qmk-wired-mechanical-gaming-keypad");
 
-            URL_Add("Keychron&nbsp;Lemokey&nbsp;X1", "https://www.keychron.com/products/lemokey-x1-qmk-via-wired-mechanical-keyboard");
+            URL_Add("Keychron Lemokey X1 (85%)", "https://www.keychron.com/products/lemokey-x1-qmk-via-wired-mechanical-keyboard");
 
             URL_Add("Keychron Lemokey X2", "https://www.lemokey.com/products/lemokey-x2-qmk-wired-mechanical-keyboard");
 
             URL_Add("Keychron Lemokey X3", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
 
-            URL_Add("Keychron Lemokey X4", "https://www.lemokey.com/products/lemokey-x4-qmk-wired-mechanical-keyboard");
+            URL_Add("Keychron Lemokey X4 (80%)", "https://www.lemokey.com/products/lemokey-x4-qmk-wired-mechanical-keyboard");
 
             URL_Add("Keychron Lemokey X5", "https://www.keychron.com/products/lemokey-x5-qmk-via-wired-mechanical-keyboard");
 
             URL_Add("Keychron Lemokey X6 (65%)", "https://www.lemokey.com/products/lemokey-x6-qmk-wired-mechanical-keyboard");
 
-            URL_Add("Keychron J1", "https://www.keychron.com/products/keychron-j1-qmk-wireless-mechanical-keyboard");
+            URL_Add("Keychron J1 (80%)", "https://www.keychron.com/products/keychron-j1-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron J2", "https://www.keychron.com/products/keychron-j2-qmk-wireless-mechanical-keyboard");
+            URL_Add("Keychron J2 (80%)", "https://www.keychron.com/products/keychron-j2-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron J4", "https://www.keychron.com/products/keychron-j4-qmk-wireless-mechanical-keyboard");
+            URL_Add("Keychron J4 (85%)", "https://www.keychron.com/products/keychron-j4-qmk-wireless-mechanical-keyboard");
 
             URL_Add("Keychron J5 (105%)", "https://www.keychron.com/products/keychron-j5-qmk-wireless-mechanical-keyboard");
 
@@ -142368,21 +142401,21 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron J8 HE 8K (80%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-j8-he-8k-magnetic-switch-keyboard");
 
-            URL_Add("Keychron S1", "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard");
+            URL_Add("Keychron S1 (80%)", "https://www.keychron.com/products/keychron-s1-qmk-custom-mechanical-keyboard");
 
-            URL_Add("Keychron C1", "https://www.keychron.com/products/keychron-c1-wired-mechanical-keyboard");
+            URL_Add("Keychron C1 (85%)", "https://www.keychron.com/products/keychron-c1-wired-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;C1&nbsp;Pro", "https://www.keychron.com/products/keychron-c1-pro-qmk-via-wired-mechanical-keyboard");
+            URL_Add("Keychron C1 Pro (85%)", "https://www.keychron.com/products/keychron-c1-pro-qmk-via-wired-mechanical-keyboard");
 
             URL_Add("Keychron C2 Pro (100%)", "https://www.keychron.com/products/keychron-c2-pro-qmk-via-wired-mechanical-keyboard");
 
-            URL_Add("Keychron C3 Pro", "https://www.keychron.uk/products/keychron-c3-pro-qmk-via-wired-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron C3 Pro (85%)", "https://www.keychron.uk/products/keychron-c3-pro-qmk-via-wired-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;C1&nbsp;Pro&nbsp;8K", "https://keychron.ca/products/keychron-c1-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout");
+            URL_Add("Keychron C1 Pro 8K (85%)", "https://keychron.ca/products/keychron-c1-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout");
 
             URL_Add("Keychron C0 HE 8K (30%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-c0-he-one-handed-magnetic-switch-gaming-keyboard");
 
-            URL_Add("Keychron&nbsp;C3&nbsp;Pro&nbsp;8K (85%)", "https://keychron.ca/products/keychron-c3-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout");
+            URL_Add("Keychron C3 Pro 8K (85%)", "https://keychron.ca/products/keychron-c3-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout");
 
             URL_Add("Keychron&nbsp;C100&nbsp;8K (95%)", "https://www.keychron.com/products/keychron-c100-8k-giant-custom-macro-pad");
 
@@ -142390,7 +142423,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron C4 HE 8K (100%) (proprietary keyboard firmware, not open source)", "https://www.keychron.com/products/keychron-c4-he-magnetic-switch-keyboard");
 
-            URL_Add("Keychron&nbsp;Keyboard&nbsp;81&nbsp;Pro (80%)", "https://www.keychron.com/products/keyboard-81-pro-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Keyboard 81 Pro (80%)", "https://www.keychron.com/products/keyboard-81-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron K4", "https://www.keychron.com/products/keychron-k4-wireless-mechanical-keyboard-nordic-iso-layout-version-2");
 
@@ -142402,9 +142435,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K14 (70%)", "https://www.keychron.com/products/keychron-k14-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron K1 Pro", "https://www.keychron.com/collections/all-keyboards/products/keychron-k1-pro-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron K1 Pro (85%)", "https://www.keychron.com/collections/all-keyboards/products/keychron-k1-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron K2 Pro", "https://www.keychron.com/products/keychron-k2-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K2 Pro (80%)", "https://www.keychron.com/products/keychron-k2-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron K3 Pro ISO (80%)", "https://www.keychron.com/products/keychron-k3-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
 
@@ -142414,7 +142447,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K6 Pro (65%)", "https://www.keychron.com/products/keychron-k6-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron K8 Pro ISO", "https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K8 Pro ISO (85%)", "https://www.keychron.com/products/keychron-k8-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron K9 Pro (60%)", "https://www.keychron.uk/products/keychron-k9-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -142432,11 +142465,11 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron&nbsp;K17&nbsp;Pro", "https://www.keychron.com/products/keychron-k17-pro-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron K1 Max", "https://www.keychron.com/products/keychron-k1-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K1 Max (85%)", "https://www.keychron.com/products/keychron-k1-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;K2&nbsp;Max", "https://www.keychron.com/products/keychron-k2-max-qmk-wireless-mechanical-keyboard");
+            URL_Add("Keychron K2 Max (80%)", "https://www.keychron.com/products/keychron-k2-max-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron K3 Max", "https://www.keychron.com/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron K3 Max (80%)", "https://www.keychron.com/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron&nbsp;K4&nbsp;Max", "https://www.keychron.com/products/keychron-k4-max-qmk-wireless-mechanical-keyboard");
 
@@ -142444,7 +142477,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K7 Max (65%)", "https://www.keychron.com/products/keychron-k7-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K8&nbsp;Max", "https://keychron.ca/products/keychron-k8-max-qmk-wireless-mechanical-keyboard-us-ansi-layout");
+            URL_Add("Keychron K8 Max (85%)", "https://keychron.ca/products/keychron-k8-max-qmk-wireless-mechanical-keyboard-us-ansi-layout");
 
             URL_Add("Keychron K9 Max (60%)", "https://www.keychron.com/products/keychron-k9-max-qmk-wireless-custom-mechanical-keyboard");
 
@@ -142454,21 +142487,21 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K15 Max", "https://www.keychron.com/products/keychron-k15-max-alice-layout-qmk-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron K3 HE", "https://www.keychron.com/products/keychron-k3-he-wireless-magnetic-switch-custom-keyboard");
+            URL_Add("Keychron K3 HE (80%)", "https://www.keychron.com/products/keychron-k3-he-wireless-magnetic-switch-custom-keyboard");
 
             URL_Add("Keychron K4 HE", "https://www.keychron.com/products/keychron-k4-he-wireless-magnetic-switch-custom-keyboard");
 
             URL_Add("Keychron K6 HE (65%)", "https://www.keychron.com/products/keychron-k6-he-wireless-magnetic-switch-keyboard");
 
-            URL_Add("Keychron K8 HE", "https://www.keychron.com/products/keychron-k8-he-wireless-magnetic-switch-custom-keyboard");
+            URL_Add("Keychron K8 HE (85%)", "https://www.keychron.com/products/keychron-k8-he-wireless-magnetic-switch-custom-keyboard");
 
             URL_Add("Keychron K10 HE", "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;K1&nbsp;Ultra&nbsp;8K (85%)", "https://www.keychron.com/products/keychron-k1-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron K1 Ultra 8K (85%)", "https://www.keychron.com/products/keychron-k1-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron K2 Ultra 8K (80%)", "https://www.keychron.com/products/keychron-k2-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron K3 Ultra 8K", "https://www.keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard"); // Old: <https://www.keychron.com/pages/k3he-k3-ultra-prelaunch-organic>
+            URL_Add("Keychron K3 Ultra 8K (80%)", "https://www.keychron.com/products/keychron-k3-ultra-8k-wireless-custom-mechanical-keyboard"); // Old: <https://www.keychron.com/pages/k3he-k3-ultra-prelaunch-organic>
 
             URL_Add("Keychron&nbsp;K5&nbsp;Ultra&nbsp;8K (105%)", "https://www.keychron.com/products/keychron-k5-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -142482,7 +142515,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q1 (80%)", "https://www.keychron.com/products/keychron-q1-qmk-custom-mechanical-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/products/keychron-q1>
 
-            URL_Add("Keychron Q3", "https://www.keychron.com/products/keychron-q3-qmk-custom-mechanical-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/pages/keychron-q3-customizable-mechanical-keyboard>
+            URL_Add("Keychron Q3 (85%)", "https://www.keychron.com/products/keychron-q3-qmk-custom-mechanical-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/pages/keychron-q3-customizable-mechanical-keyboard>
 
             URL_Add("Keychron Q2 (65%)", "https://www.keychron.com/products/keychron-q2-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -142506,9 +142539,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q2 Pro (65%)", "https://www.keychron.com/products/keychron-q2-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q3&nbsp;Pro", "https://www.keychron.com/products/keychron-q3-pro-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q3 Pro (85%)", "https://www.keychron.com/products/keychron-q3-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron Q3 Pro SE (special edition)", "https://www.keychron.com/products/keychron-q3-pro-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q3 Pro SE (special edition) (90%)", "https://www.keychron.com/products/keychron-q3-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron Q4 Pro (60%)", "https://www.keychron.com/products/keychron-q4-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -142530,7 +142563,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q2 Max (65%)", "https://www.keychron.com/products/keychron-q2-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q3&nbsp;Max", "https://www.keychron.at/products/keychron-q3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron Q3 Max (85%)", "https://www.keychron.at/products/keychron-q3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron&nbsp;Q5&nbsp;Max", "https://www.keychron.com/products/keychron-q5-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -142574,7 +142607,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q1 Ultra 8K (80%)", "https://www.keychron.com/products/keychron-q1-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q3&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-q3-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q3 Ultra 8K (85%)", "https://www.keychron.com/products/keychron-q3-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-q5-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -142588,7 +142621,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V2 ISO (65%)", "https://www.keychron.com/products/keychron-v2-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron V3 ISO", "https://www.keychron.com/products/keychron-v3-qmk-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron V3 ISO (85%)", "https://www.keychron.com/products/keychron-v3-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron V4 ISO (60%)", "https://www.keychron.com/products/keychron-v4-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -142602,7 +142635,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V2 Max (65%)", "https://www.keychron.com/products/keychron-v2-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;V3&nbsp;Max", "https://www.keychron.mx/products/keychron-v3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron V3 Max (85%)", "https://www.keychron.mx/products/keychron-v3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron V4 Max (60%)", "https://www.keychron.com/products/keychron-v4-max-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -142618,7 +142651,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V1 Ultra 8K (80%)", "https://www.keychron.com/products/keychron-v1-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;V3&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-v3-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron V3 Ultra 8K (85%)", "https://www.keychron.com/products/keychron-v3-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-v5-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -142688,7 +142721,7 @@ namespace OverflowHelper.core
 
             URL_Add("SK622 (60%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk622-silver/");
 
-            URL_Add("SK630", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk630/");
+            URL_Add("SK630 (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk630/");
 
             URL_Add("SK650", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk650/");
 
@@ -142700,7 +142733,7 @@ namespace OverflowHelper.core
 
             URL_Add("CK352", "https://www.coolermaster.com/en-sg/products/ck352/"); // Old: https://www.coolermaster.com/de-de/products/ck352/. Even older: https://www.coolermaster.com/catalog/peripheral/keyboards/ck352/
 
-            URL_Add("CK530 V2", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck530-v2/");
+            URL_Add("CK530 V2 (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck530-v2/");
 
             URL_Add("CK351", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck351/");
 
@@ -142740,7 +142773,7 @@ namespace OverflowHelper.core
 
             URL_Add("Microsoft Natural Keyboard", "https://en.wikipedia.org/wiki/Microsoft_Natural_keyboard#Natural_Keyboard");
 
-            URL_Add("Microsoft Sculpt Ergonomic", "https://en.wikipedia.org/wiki/Microsoft_ergonomic_keyboards#Sculpt_ergonomic_keyboard");
+            URL_Add("Microsoft Sculpt Ergonomic (85%)", "https://en.wikipedia.org/wiki/Microsoft_ergonomic_keyboards#Sculpt_ergonomic_keyboard");
 
             URL_Add("construct", "https://en.wiktionary.org/wiki/construct#Verb");
 
@@ -146046,7 +146079,7 @@ namespace OverflowHelper.core
 
             URL_Add("Dactyl ManuForm", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform");
 
-            URL_Add("Qwertykey Evo80", "https://www.qwertykeys.com/products/evo80");
+            URL_Add("Qwertykey Evo80 (85%)", "https://www.qwertykeys.com/products/evo80");
 
             URL_Add("ErgoDash (65%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/omkbd/ergodash");
 
@@ -146060,7 +146093,7 @@ namespace OverflowHelper.core
 
             URL_Add("Model M", "https://en.wikipedia.org/wiki/Model_M_keyboard");
 
-            URL_Add("IBM Model M Mini Space Saving Keyboard", "https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/IBM_Space_Saving_Keyboard.html");
+            URL_Add("IBM Model M Mini Space Saving Keyboard (80%)", "https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/IBM_Space_Saving_Keyboard.html");
 
             URL_Add("Corsair K95 RGB", "https://www.corsair.com/us/en/p/keyboards/ch-9000220-na/corsair-gaming-k95-rgb-mechanical-gaming-keyboard-cherry-mx-red-ch-9000220-na");
 
@@ -146104,7 +146137,7 @@ namespace OverflowHelper.core
 
             URL_Add("OwLab", "https://www.reddit.com/r/mechmarket/comments/1bqp38h/store_vento_80_from_owlab/");
 
-            URL_Add("Vento 80", "https://www.reddit.com/r/mechmarket/comments/1bqp38h/store_vento_80_from_owlab/");
+            URL_Add("Vento 80 (80%)", "https://www.reddit.com/r/mechmarket/comments/1bqp38h/store_vento_80_from_owlab/");
 
             URL_Add("Typeractive.xyz", "https://typeractive.xyz/policies/terms-of-service");
 
@@ -151649,6 +151682,26 @@ namespace OverflowHelper.core
             URL_Add("Netduino", "https://en.wikipedia.org/wiki/Netduino");
 
             URL_Add("ASRock", "https://en.wikipedia.org/wiki/ASRock#History");
+
+            URL_Add("journalist", "https://en.wiktionary.org/wiki/journalist#Noun");
+
+            URL_Add("journalists", "https://en.wiktionary.org/wiki/journalist#Noun");
+
+            URL_Add("journal club", "https://en.wikipedia.org/wiki/Journal_club");
+
+            URL_Add("journaling", "https://en.wiktionary.org/wiki/journaling#Noun");
+
+            URL_Add("journaling file system", "https://en.wikipedia.org/wiki/Journaling_file_system");
+
+            URL_Add("file system", "https://en.wikipedia.org/wiki/File_system");
+
+            URL_Add("file systems", "https://en.wiktionary.org/wiki/file_system#Noun");
+
+            URL_Add("superblock", "https://en.wikipedia.org/wiki/Superblock_(file_system)");
+
+            URL_Add("Andrew File System", "https://en.wikipedia.org/wiki/Andrew_File_System");
+
+            URL_Add("Encrypting File System", "https://en.wikipedia.org/wiki/Encrypting_File_System");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -157921,6 +157974,18 @@ namespace OverflowHelper.core
 
             // A blood test value
             correctionAdd("INR_", "international normalized ratio_");
+
+            // A computer game (2025).
+            correctionAdd("Grand Theft Auto 6_", "Grand Theft Auto VI_");
+            correctionAdd("GTA VI_", "Grand Theft Auto VI_");
+            correctionAdd("gta 6_", "Grand Theft Auto VI_");
+            correctionAdd("GTA 6_", "Grand Theft Auto VI_");
+            correctionAdd("Gta 6_", "Grand Theft Auto VI_");
+            correctionAdd("GTAVI_", "Grand Theft Auto VI_");
+            correctionAdd("GTA6_", "Grand Theft Auto VI_");
+            correctionAdd("Gta6_", "Grand Theft Auto VI_");
+            correctionAdd("gta6_", "Grand Theft Auto VI_");
+            correctionAdd("VI_", "Grand Theft Auto VI_");
 
             // A computer game
             correctionAdd("blood_", "Blood_");
@@ -166633,6 +166698,11 @@ namespace OverflowHelper.core
             // The common noun
             correctionAdd("Chip_", "chip_");
 
+            // The common noun
+            correctionAdd("Chips_", "chips_");
+            correctionAdd("Cips_", "chips_");
+            correctionAdd("cips_", "chips_");
+
             // For the opposite direction, to the abbr.
             correctionAdd("system on a chip_", "SoC_");
             correctionAdd("SoCs_", "SoC_"); // For the cross-reference
@@ -169081,6 +169151,8 @@ namespace OverflowHelper.core
             URL_Add("Adobe Firefly_", "https://en.wikipedia.org/wiki/Adobe_Firefly");
 
             URL_Add("chip_", "https://en.wiktionary.org/wiki/chip#Noun");
+
+            URL_Add("chips_", "https://en.wiktionary.org/wiki/chip#Noun");
 
             URL_Add("sense_", "https://en.wiktionary.org/wiki/sense#Noun");
 
@@ -172897,6 +172969,8 @@ namespace OverflowHelper.core
             URL_Add(".NET assembly_", "https://en.wikipedia.org/wiki/Assembly_(CLI)");
 
             URL_Add(".NET MAUI_", "https://en.wikipedia.org/wiki/Xamarin#.NET_MAUI");
+
+            URL_Add("Grand Theft Auto VI_", "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI");
 
         } //addLookupData_alternativeWordSet()
 
@@ -177542,11 +177616,13 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
+            correctionAdd("Keychron K1 Max (85%)__", "Keychron K1 Max source code__");
             correctionAdd("Keychron K1 Max__", "Keychron K1 Max source code__");
 
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
+            correctionAdd("Keychron K2 Pro (80%)__", "Keychron K2 Pro source code__");
             correctionAdd("Keychron K2 Pro__", "Keychron K2 Pro source code__");
 
             // For the cross-reference to the source code
@@ -177558,6 +177634,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
+            correctionAdd("Keychron K3 Max (80%)__", "Keychron K3 Max source code__");
             correctionAdd("Keychron K3 Max__", "Keychron K3 Max source code__");
 
             // For the cross-reference to the source code
@@ -181348,6 +181425,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron C2 Pro 8K___", "Keychron C Pro 8K series___");
             correctionAdd("C Pro 8K series___", "Keychron C Pro 8K series___");
 
+            correctionAdd("Keychron S1 (80%)___", "Keychron S series___"); // For the cross-reference
             correctionAdd("Keychron S1___", "Keychron S series___"); // For the cross-reference
             correctionAdd("S series___", "Keychron S series___"); // Sort of identity mapping
             correctionAdd("S1___", "Keychron S series___"); // For the cross-reference
@@ -181377,6 +181455,7 @@ namespace OverflowHelper.core
             correctionAdd("V Ultra 8K___", "Keychron V Ultra 8K series___");
             correctionAdd("V Ultra___", "Keychron V Ultra 8K series___");
 
+            correctionAdd("Keychron K3 Ultra 8K (80%)___", "Keychron K Ultra 8K series___");
             correctionAdd("Keychron K3 Ultra 8K___", "Keychron K Ultra 8K series___");
             correctionAdd("K Ultra 8K series___", "Keychron K Ultra 8K series___"); // For a direct text, "K Ultra 8K series"
             correctionAdd("K Ultra 8 series___", "Keychron K Ultra 8K series___");
@@ -181452,6 +181531,7 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k1_max/iso/rgb/info.json#L3>
             //
+            correctionAdd("Keychron K1 Max (85%)___", "Keychron K1 Max, ISO RGB variant (USB 0x3434/0x0A11)___");
             correctionAdd("Keychron K1 Max___", "Keychron K1 Max, ISO RGB variant (USB 0x3434/0x0A11)___");
             correctionAdd("0x0A11___", "Keychron K1 Max, ISO RGB variant (USB 0x3434/0x0A11)___");
             correctionAdd("0A11___", "Keychron K1 Max, ISO RGB variant (USB 0x3434/0x0A11)___");
@@ -183817,6 +183897,7 @@ namespace OverflowHelper.core
             // Note: In Git branch "wireless_playground"
             //
             correctionAdd("K1 Max default keymap____", "Keychron K1 Max default keymap (ISO RGB)____");
+            correctionAdd("Keychron K1 Max (85%)____", "Keychron K1 Max default keymap (ISO RGB)____");
             correctionAdd("Keychron K1 Max____", "Keychron K1 Max default keymap (ISO RGB)____");
             correctionAdd("K1 Max keymap____", "Keychron K1 Max default keymap (ISO RGB)____");
 
@@ -183824,6 +183905,7 @@ namespace OverflowHelper.core
             // Note: In Git branch "wireless_playground"
             //
             correctionAdd("K2 Pro default keymap____", "Keychron K2 Pro default keymap (ISO RGB)____");
+            correctionAdd("Keychron K2 Pro (80%)____", "Keychron K2 Pro default keymap (ISO RGB)____");
             correctionAdd("Keychron K2 Pro____", "Keychron K2 Pro default keymap (ISO RGB)____");
             correctionAdd("K2 Pro keymap____", "Keychron K2 Pro default keymap (ISO RGB)____");
 
@@ -183831,6 +183913,7 @@ namespace OverflowHelper.core
             // Note: In Git branch "wireless_playground"
             //
             correctionAdd("K3 Max default keymap____", "Keychron K3 Max default keymap (ISO RGB)____");
+            correctionAdd("Keychron K3 Max (80%)____", "Keychron K3 Max default keymap (ISO RGB)____");
             correctionAdd("Keychron K3 Max____", "Keychron K3 Max default keymap (ISO RGB)____");
             correctionAdd("K3 Max keymap____", "Keychron K3 Max default keymap (ISO RGB)____");
 
