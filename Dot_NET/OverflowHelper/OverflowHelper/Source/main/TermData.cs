@@ -31642,6 +31642,9 @@ namespace OverflowHelper.core
             correctionAdd("cardiopulmonary resuscitation", "CPR");
             correctionAdd("cpr", "CPR");
 
+            correctionAdd("circurdian", "circadian");
+            correctionAdd("Circurdian", "circadian");
+
             correctionAdd("imposter", "impostor");
 
             correctionAdd("imposter syndrome", "impostor syndrome");
@@ -69875,25 +69878,26 @@ namespace OverflowHelper.core
             //
             //   <https://getreuer.info/posts/keyboards/alt-layouts/index.html#which-alt-keyboard-layout-should-i-learn>
             //
-            correctionAdd("Colemake DH", "Colemak-DH keyboard layout");
             correctionAdd("Colemake-DH", "Colemak-DH keyboard layout");
             correctionAdd("colemake-dh", "Colemak-DH keyboard layout");
             correctionAdd("Colemake-dh", "Colemak-DH keyboard layout");
-            correctionAdd("colemak-DH", "Colemak-DH keyboard layout");
-            correctionAdd("Colemak-Dh", "Colemak-DH keyboard layout");
+            correctionAdd("Colemake DH", "Colemak-DH keyboard layout");
             correctionAdd("Colemak-DH", "Colemak-DH keyboard layout");
-            correctionAdd("colemak-dh", "Colemak-DH keyboard layout");
+            correctionAdd("Colemak-Dh", "Colemak-DH keyboard layout");
             correctionAdd("Colemak-dh", "Colemak-DH keyboard layout");
+            correctionAdd("Colemak-dH", "Colemak-DH keyboard layout");
+            correctionAdd("colemak-DH", "Colemak-DH keyboard layout");
+            correctionAdd("colemak-dh", "Colemak-DH keyboard layout");
             correctionAdd("COLEMAK-dh", "Colemak-DH keyboard layout");
             correctionAdd("Colemak DH", "Colemak-DH keyboard layout");
             correctionAdd("colemak DH", "Colemak-DH keyboard layout");
             correctionAdd("Colemak Dh", "Colemak-DH keyboard layout");
             correctionAdd("colemak dh", "Colemak-DH keyboard layout");
-            correctionAdd("colemak dj", "Colemak-DH keyboard layout");
             correctionAdd("Colemak dh", "Colemak-DH keyboard layout");
-            correctionAdd("coleman-dh", "Colemak-DH keyboard layout");
-            correctionAdd("Coleman DH", "Colemak-DH keyboard layout");
+            correctionAdd("colemak dj", "Colemak-DH keyboard layout");
             correctionAdd("Colemak DL", "Colemak-DH keyboard layout");
+            correctionAdd("Coleman DH", "Colemak-DH keyboard layout");
+            correctionAdd("coleman-dh", "Colemak-DH keyboard layout");
             correctionAdd("ColemakDH", "Colemak-DH keyboard layout");
             correctionAdd("Colmak DH", "Colemak-DH keyboard layout");
             correctionAdd("Colmak Dh", "Colemak-DH keyboard layout");
@@ -87409,6 +87413,7 @@ namespace OverflowHelper.core
             //       Hold Fn1 + J + Z down for three seconds to reset the keyboard.
             //
             correctionAdd("Keychron K7", "Keychron K7 (65%)");
+            correctionAdd("keychron k7", "Keychron K7 (65%)");
             correctionAdd("K7", "Keychron K7 (65%)");
             correctionAdd("k7", "Keychron K7 (65%)");
 
@@ -92368,20 +92373,20 @@ namespace OverflowHelper.core
             //
             //     Tag: Loose. USB. Keychron. Connector.
             //
-            correctionAdd("keychain v5 max", "Keychron V5 Max");
-            correctionAdd("Keychron v5 max", "Keychron V5 Max");
-            correctionAdd("V5&nbsp;Max", "Keychron V5 Max");
-            correctionAdd("v5 max", "Keychron V5 Max");
-            correctionAdd("V5 Max", "Keychron V5 Max");
-            correctionAdd("V5 MAX", "Keychron V5 Max");
-            correctionAdd("V5 max", "Keychron V5 Max");
-            correctionAdd("v5 Max", "Keychron V5 Max");
-            correctionAdd("VMAX 5", "Keychron V5 Max");
-            correctionAdd("V5max", "Keychron V5 Max");
-            correctionAdd("v5max", "Keychron V5 Max");
-            correctionAdd("v5maz", "Keychron V5 Max");
-            correctionAdd("V5Max", "Keychron V5 Max");
-            correctionAdd("V5M", "Keychron V5 Max");
+            correctionAdd("Keychron V5 Max", "Keychron V5 Max (95%)");
+            correctionAdd("keychain v5 max", "Keychron V5 Max (95%)");
+            correctionAdd("Keychron v5 max", "Keychron V5 Max (95%)");
+            correctionAdd("v5 max", "Keychron V5 Max (95%)");
+            correctionAdd("V5 Max", "Keychron V5 Max (95%)");
+            correctionAdd("V5 MAX", "Keychron V5 Max (95%)");
+            correctionAdd("V5 max", "Keychron V5 Max (95%)");
+            correctionAdd("v5 Max", "Keychron V5 Max (95%)");
+            correctionAdd("VMAX 5", "Keychron V5 Max (95%)");
+            correctionAdd("V5max", "Keychron V5 Max (95%)");
+            correctionAdd("v5max", "Keychron V5 Max (95%)");
+            correctionAdd("v5maz", "Keychron V5 Max (95%)");
+            correctionAdd("V5Max", "Keychron V5 Max (95%)");
+            correctionAdd("V5M", "Keychron V5 Max (95%)");
 
             // A 98-key (95%. Not true TKL) crippled (wrt. missing
             // PgUp and PgDn, etc.) wired and wireless (both
@@ -92397,9 +92402,9 @@ namespace OverflowHelper.core
             //
             //   * 8 kHz USB polling rate
             //
-            correctionAdd("Keychron V5 Ultra 8K", "Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("V5 Ultra 8K", "Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K");
-            correctionAdd("V5 Ultra", "Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K");
+            correctionAdd("Keychron V5 Ultra 8K", "Keychron V5 Ultra 8K (95%)");
+            correctionAdd("V5 Ultra 8K", "Keychron V5 Ultra 8K (95%)");
+            correctionAdd("V5 Ultra", "Keychron V5 Ultra 8K (95%)");
 
             // A 98-key (95%. Not true TKL) crippled (wrt. missing
             // PgUp and PgDn, etc.) wired-only QMK/Via-capable
@@ -92407,10 +92412,8 @@ namespace OverflowHelper.core
             //
             // Not to be confused with V5 Ultra 8K...
             //
-            correctionAdd("Keychron&nbsp;V5&nbsp;8K", "Keychron&nbsp;V5&nbsp;8K (95%)");
-            correctionAdd("Keychron V5 8K (95%)", "Keychron&nbsp;V5&nbsp;8K (95%)"); // Sort of identity mapping
-            correctionAdd("Keychron V5 8K", "Keychron&nbsp;V5&nbsp;8K (95%)");
-            correctionAdd("V5 8K", "Keychron&nbsp;V5&nbsp;8K (95%)");
+            correctionAdd("Keychron V5 8K", "Keychron V5 8K (95%)");
+            correctionAdd("V5 8K", "Keychron V5 8K (95%)");
 
             // A 99-key (95%. Not true TKL) crippled wired-only
             // QMK/Via-capable mechanical keyboard from Keychron
@@ -92427,8 +92430,9 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/qmk_firmware/issues/388>
             //     Wrong source code for X5 #388
             //
-            correctionAdd("x5", "Keychron Lemokey X5");
-            correctionAdd("X5", "Keychron Lemokey X5");
+            correctionAdd("Keychron Lemokey X5", "Keychron Lemokey X5 (95%)");
+            correctionAdd("x5", "Keychron Lemokey X5 (95%)");
+            correctionAdd("X5", "Keychron Lemokey X5 (95%)");
 
             // A 99-key (95%. Not true TKL) crippled hot-swappable
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -92453,8 +92457,9 @@ namespace OverflowHelper.core
             //
             // (The Fn key is the one with the Cooler Master logo, two keys to the right of the space bar.)
             //
-            correctionAdd("mk770", "MK770");
-            correctionAdd("Mk770", "MK770");
+            correctionAdd("MK770", "MK770 (95%)");
+            correctionAdd("mk770", "MK770 (95%)");
+            correctionAdd("Mk770", "MK770 (95%)");
 
             // A 99-key (95%. Not true TKL) low-profile wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -92523,8 +92528,9 @@ namespace OverflowHelper.core
             //   <https://device.report/m/cbc722dfd3b721844a0f962e7d5e06e14208ef9211b3d93301351dfe6f1a4ae8>
             //     Has photographs of the internals
             //
-            correctionAdd("B2 Pro", "Keychron B2 Pro");
-            correctionAdd("b2 pro", "Keychron B2 Pro");
+            correctionAdd("Keychron B2 Pro", "Keychron B2 Pro (95%)");
+            correctionAdd("B2 Pro", "Keychron B2 Pro (95%)");
+            correctionAdd("b2 pro", "Keychron B2 Pro (95%)");
 
             // A 100-key (95%. Not true TKL) crippled wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -92549,9 +92555,9 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/r5>
             //
-            correctionAdd("Keychron Retro R5", "Keychron&nbsp;R5");
-            correctionAdd("Keychron R5", "Keychron&nbsp;R5"); // Sort of identity mapping
-            correctionAdd("R5", "Keychron&nbsp;R5");
+            correctionAdd("Keychron Retro R5", "Keychron R5 (95%)");
+            correctionAdd("Keychron R5", "Keychron R5 (95%)");
+            correctionAdd("R5", "Keychron R5 (95%)");
 
             // A 100-key (95%. Not true TKL) wired and wireless
             // (both Bluetooth and '2.4 GHz')
@@ -92583,19 +92589,20 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/MechanicalKeyboards/comments/1hcn7bb/nuphy_air96_battery_exploded_security_cam_footage/>
             //     Exploding battery. In a mechanical keyboard! Swollen battery.
             //
-            correctionAdd("nuphy air96v2", "NuPhy Air96 V2");
-            correctionAdd("nuphy air 96", "NuPhy Air96 V2");
-            correctionAdd("Nuphy Air96", "NuPhy Air96 V2");
-            correctionAdd("NuPhy Air96", "NuPhy Air96 V2");
-            correctionAdd("air 96 V2", "NuPhy Air96 V2");
-            correctionAdd("air96 v2", "NuPhy Air96 V2");
-            correctionAdd("Air96 V2", "NuPhy Air96 V2");
-            correctionAdd("Air96 v2", "NuPhy Air96 V2");
-            correctionAdd("Air 96v2", "NuPhy Air96 V2");
-            correctionAdd("air96v2", "NuPhy Air96 V2");
-            correctionAdd("Air96v2", "NuPhy Air96 V2");
-            correctionAdd("Air96", "NuPhy Air96 V2");
-            correctionAdd("air96", "NuPhy Air96 V2");
+            correctionAdd("NuPhy Air96 V2", "NuPhy Air96 V2 (95%)");
+            correctionAdd("nuphy air96v2", "NuPhy Air96 V2 (95%)");
+            correctionAdd("nuphy air 96", "NuPhy Air96 V2 (95%)");
+            correctionAdd("Nuphy Air96", "NuPhy Air96 V2 (95%)");
+            correctionAdd("NuPhy Air96", "NuPhy Air96 V2 (95%)");
+            correctionAdd("air 96 V2", "NuPhy Air96 V2 (95%)");
+            correctionAdd("air96 v2", "NuPhy Air96 V2 (95%)");
+            correctionAdd("Air96 V2", "NuPhy Air96 V2 (95%)");
+            correctionAdd("Air96 v2", "NuPhy Air96 V2 (95%)");
+            correctionAdd("Air 96v2", "NuPhy Air96 V2 (95%)");
+            correctionAdd("air96v2", "NuPhy Air96 V2 (95%)");
+            correctionAdd("Air96v2", "NuPhy Air96 V2 (95%)");
+            correctionAdd("Air96", "NuPhy Air96 V2 (95%)");
+            correctionAdd("air96", "NuPhy Air96 V2 (95%)");
 
             // A 100-key (95%. Not true TKL) wired and wireless
             // (both Bluetooth and '2.4 GHz') mechanical
@@ -92615,11 +92622,12 @@ namespace OverflowHelper.core
             //     "This is one of those PRs that has enough wrong with it"
             //     See the rest of the quote in entry "NuPhy Air75 V2"
             //
-            correctionAdd("NUPHY HALO96", "NuPhy Halo96");
-            correctionAdd("Nuphy Halo96", "NuPhy Halo96");
-            correctionAdd("the halo", "NuPhy Halo96");
-            correctionAdd("Halo 96", "NuPhy Halo96");
-            correctionAdd("halo 96", "NuPhy Halo96");
+            correctionAdd("NuPhy Halo96", "NuPhy Halo96 (95%)");
+            correctionAdd("NUPHY HALO96", "NuPhy Halo96 (95%)");
+            correctionAdd("Nuphy Halo96", "NuPhy Halo96 (95%)");
+            correctionAdd("the halo", "NuPhy Halo96 (95%)");
+            correctionAdd("Halo 96", "NuPhy Halo96 (95%)");
+            correctionAdd("halo 96", "NuPhy Halo96 (95%)");
 
             // A 100-key (95%) wired-only QMK/Via-capable
             // macro pad without a knob.
@@ -92638,13 +92646,11 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=Ol_WPviUldE>
             //     Thomas' unboxing
             //
-            correctionAdd("Keychron C100 8K (95%)", "Keychron&nbsp;C100&nbsp;8K (95%)"); // Sort of identity mapping
-            correctionAdd("Keychron&nbsp;C100", "Keychron&nbsp;C100&nbsp;8K (95%)");
-            correctionAdd("Keychron C100 8K", "Keychron&nbsp;C100&nbsp;8K (95%)");
-            correctionAdd("Keychron C100", "Keychron&nbsp;C100&nbsp;8K (95%)");
-            correctionAdd("C100 8K", "Keychron&nbsp;C100&nbsp;8K (95%)");
-            correctionAdd("C100", "Keychron&nbsp;C100&nbsp;8K (95%)");
-            correctionAdd("c100", "Keychron&nbsp;C100&nbsp;8K (95%)");
+            correctionAdd("Keychron C100 8K", "Keychron C100 8K (95%)");
+            correctionAdd("Keychron C100", "Keychron C100 8K (95%)");
+            correctionAdd("C100 8K", "Keychron C100 8K (95%)");
+            correctionAdd("C100", "Keychron C100 8K (95%)");
+            correctionAdd("c100", "Keychron C100 8K (95%)");
 
             // A 101-key (95%. Not true TKL) crippled (wrt. missing
             // clusters, e.g., PrtSc) wired and wireless (only
@@ -92760,15 +92766,171 @@ namespace OverflowHelper.core
             //
             //       <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k4_version_3>
             //
-            correctionAdd("K4 Non-Pro", "Keychron K4");
-            correctionAdd("K4 non-Pro", "Keychron K4");
-            correctionAdd("K4 non-pro", "Keychron K4");
-            correctionAdd("K4 QMK", "Keychron K4"); // The new QMK-based version
-            correctionAdd("K4 V2", "Keychron K4");
-            correctionAdd("K4 V3", "Keychron K4"); // The new QMK-based version
-            correctionAdd("K4v3", "Keychron K4"); // The new QMK-based version
-            correctionAdd("K4", "Keychron K4");
-            correctionAdd("k4", "Keychron K4");
+            correctionAdd("Keychron K4", "Keychron K4 (95%)");
+            correctionAdd("K4 Non-Pro", "Keychron K4 (95%)");
+            correctionAdd("K4 non-Pro", "Keychron K4 (95%)");
+            correctionAdd("K4 non-pro", "Keychron K4 (95%)");
+            correctionAdd("K4 QMK", "Keychron K4 (95%)"); // The new QMK-based version
+            correctionAdd("K4 V2", "Keychron K4 (95%)");
+            correctionAdd("K4 V3", "Keychron K4 (95%)"); // The new QMK-based version
+            correctionAdd("K4v3", "Keychron K4 (95%)"); // The new QMK-based version
+            correctionAdd("K4", "Keychron K4 (95%)");
+            correctionAdd("k4", "Keychron K4 (95%)");
+
+            // A 101-key (95%. Not true TKL) crippled (wrt. missing
+            // PgUp and PgDn, etc.) wired and wireless (only
+            // Bluetooth) QMK/Via-capable mechanical keyboard
+            // from Keychron without a knob.
+            //
+            // RGB (per-key) south-facing (unwanted
+            // ***light bleed***) lighting.
+            //
+            // K4 Pro user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-k4-pro-user-manual>
+            //
+            // A list of K4 Pro user guides:
+            //
+            //   <https://www.keychron.com/pages/keychron-k4-pro-user-guide>
+            //
+            // K4 Pro JSON file for Via:
+            //
+            //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/k5_pro_iso_rgb.json.zip>
+            //
+            //   E.g., from this common page:
+            //
+            //     <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-k-pro-and-k-max-series-keyboards>
+            //       Firmware and JSON Files of the Keychron
+            //       QMK K Pro and K Max series keyboards
+            //
+            //       Near "K4 Pro ISO RGB keymap".
+            //
+            //       Parent page:
+            //
+            //         <https://www.keychron.com/pages/firmware>
+            //
+            // K4 Pro default keymap:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k4_pro/iso/rgb/keymaps/via/keymap.c#L42>
+            //     Note: In QMK, the knob(s) is counted in the keymap,
+            //           but not in the key numbering scheme (at least
+            //           not when it comes to the RGB light...)
+            //
+            // K4 Pro source code:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k4_pro>
+            //
+            correctionAdd("Keychron K4 Pro", "Keychron K4 Pro (95%)");
+            correctionAdd("K4 Pro", "Keychron K4 Pro (95%)");
+            correctionAdd("K4 pro", "Keychron K4 Pro (95%)");
+            correctionAdd("k4 pro", "Keychron K4 Pro (95%)");
+            correctionAdd("K4pro", "Keychron K4 Pro (95%)");
+
+            // A 101-key (95%. Not true TKL) crippled (wrt.
+            // missing PgUp and PgDn, etc.) wired and
+            // wireless (both Bluetooth and '2.4 GHz')
+            // QMK/Via-capable mechanical keyboard
+            // from Keychron without a knob.
+            //
+            // RGB (per-key) south-facing (unwanted
+            // ***light bleed***) lighting.
+            //
+            // K4 Pro user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-k4-max-user-manual>
+            //
+            // K4 Max source code (had not been released yet as of 2025-04-29.
+            //                     The Keychron keyboard has been available at
+            //                     the very least since 2025-03-20.
+            //                     Finally released on 2026-04-08, due to
+            //                     CDD five days earlier.
+            //
+            //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/k4_max>
+            //     Note: Only in "2025q3"
+            //
+            //     See also:
+            //
+            //       <https://github.com/Keychron/qmk_firmware/issues/379>
+            //         [Feature Request] K4 Max source code missing #379
+            //
+            //         2025-04-28.
+            //
+            //       <https://github.com/Keychron/qmk_firmware/issues/446>
+            //         K4 Max JIS keyboard target not found in
+            //         public qmk_firmware branches #446
+            //
+            //         2026-04-03.
+            //
+            correctionAdd("Keychron K4 Max", "Keychron K4 Max (95%)"); // Sort of identity mapping
+            correctionAdd("K4 Max", "Keychron K4 Max (95%)");
+
+            // A 101-key (95%. Not true TKL) crippled (wrt.
+            // missing clusters, e.g., PrtSc) wired and
+            // wireless (both Bluetooth and '2.4 GHz')
+            // QMK/Via-capable mechanical keyboard
+            // from Keychron without a knob.
+            //
+            // Crammed key layout
+            //
+            // RGB (per-key) north-facing (no unwanted light bleed) lighting.
+            //
+            // K4 HE user manual:
+            //
+            //   <https://www.keychron.com/pages/keychron-k4-he-user-manual>
+            //
+            // Notes:
+            //
+            //   1. In contrast to the original K4, it has
+            //      both Bluetooth and '2.4 GHz'.
+            //
+            //   2. Hall sensor (HE) switches.
+            //
+            //   3. K HE and Q HE series:
+            //
+            //      South pole facing downward (uncommon)
+            //
+            // K4 HE firmware:
+            //
+            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-he-series-keyboards>
+            //     Near "K4 HE ISO RGB version"
+            //
+            // K4 HE default keymap:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/blob/hall_effect_playground/keyboards/keychron/k4_he/iso/keymaps/via/keymap.c#L49>
+            //
+            // K4 HE source code (not released as of 2025-03-26,
+            //                    2025-04-16, or 2025-05-27.
+            //                    It was finally released on 2025-06-07.)
+            //
+            //     <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/k4_he>
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1jk1ks9/need_some_help_please/>
+            //
+            //   <https://i.imgur.com/FHpU7Lv.png>
+            //     Custom keyboard mappings, including of F13 to F24,
+            //
+            //     Probably K4 HE
+            //
+            //     Related (using F17, F18, F19, or F20 lead
+            //              to "Device change detected"):
+            //
+            //       <https://www.reddit.com/r/Keychron/comments/1mr6x2p/comment/n8zzfzy/>
+            //
+            correctionAdd("Keychron K4 HE", "Keychron K4 HE (95%)");
+            correctionAdd("KEYCHRON K4 HE", "Keychron K4 HE (95%)");
+            correctionAdd("K4HE V1", "Keychron K4 HE (95%)");
+            correctionAdd("K4 HE", "Keychron K4 HE (95%)");
+            correctionAdd("k4 he", "Keychron K4 HE (95%)");
+            correctionAdd("HE K4", "Keychron K4 HE (95%)");
+            correctionAdd("K4 he", "Keychron K4 HE (95%)");
+            correctionAdd("K4 He", "Keychron K4 HE (95%)");
+            correctionAdd("K4-HE", "Keychron K4 HE (95%)");
+            correctionAdd("k4 HE", "Keychron K4 HE (95%)");
+            correctionAdd("k4he", "Keychron K4 HE (95%)");
+            correctionAdd("k4HE", "Keychron K4 HE (95%)");
+            correctionAdd("K4HE", "Keychron K4 HE (95%)");
 
             // A 101-key (95%. Not true TKL) crippled (wrt. missing
             // PgUp and PgDn, etc.) wired-only mechanical keyboard
@@ -92831,192 +92993,9 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron/q5>
             //
-            correctionAdd("q5", "Keychron Q5");
-            correctionAdd("Q5", "Keychron Q5");
-
-            // A 101-key (95%. Not true TKL) crippled (wrt. missing
-            // PgUp and PgDn, etc.) wired and wireless (only
-            // Bluetooth) QMK/Via-capable mechanical keyboard
-            // from Keychron without a knob.
-            //
-            // RGB (per-key) south-facing (unwanted
-            // ***light bleed***) lighting.
-            //
-            // K4 Pro user manual:
-            //
-            //   <https://www.keychron.com/pages/keychron-k4-pro-user-manual>
-            //
-            // A list of K4 Pro user guides:
-            //
-            //   <https://www.keychron.com/pages/keychron-k4-pro-user-guide>
-            //
-            // K4 Pro JSON file for Via:
-            //
-            //   <https://cdn.shopify.com/s/files/1/0059/0630/1017/files/k5_pro_iso_rgb.json.zip>
-            //
-            //   E.g., from this common page:
-            //
-            //     <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-qmk-k-pro-and-k-max-series-keyboards>
-            //       Firmware and JSON Files of the Keychron
-            //       QMK K Pro and K Max series keyboards
-            //
-            //       Near "K4 Pro ISO RGB keymap".
-            //
-            //       Parent page:
-            //
-            //         <https://www.keychron.com/pages/firmware>
-            //
-            // K4 Pro default keymap:
-            //
-            //   <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k4_pro/iso/rgb/keymaps/via/keymap.c#L42>
-            //     Note: In QMK, the knob(s) is counted in the keymap,
-            //           but not in the key numbering scheme (at least
-            //           not when it comes to the RGB light...)
-            //
-            // K4 Pro source code:
-            //
-            //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k4_pro>
-            //
-            correctionAdd("Keychron K4 Pro", "Keychron&nbsp;K4&nbsp;Pro"); // Sort of identity mapping
-            correctionAdd("K4&nbsp;Pro", "Keychron&nbsp;K4&nbsp;Pro");
-            correctionAdd("K4 Pro", "Keychron&nbsp;K4&nbsp;Pro");
-            correctionAdd("K4 pro", "Keychron&nbsp;K4&nbsp;Pro");
-            correctionAdd("k4 pro", "Keychron&nbsp;K4&nbsp;Pro");
-            correctionAdd("K4pro", "Keychron&nbsp;K4&nbsp;Pro");
-
-            // A 101-key (95%. Not true TKL) crippled (wrt.
-            // missing PgUp and PgDn, etc.) wired and
-            // wireless (both Bluetooth and '2.4 GHz')
-            // QMK/Via-capable mechanical keyboard
-            // from Keychron without a knob.
-            //
-            // RGB (per-key) south-facing (unwanted
-            // ***light bleed***) lighting.
-            //
-            // K4 Pro user manual:
-            //
-            //   <https://www.keychron.com/pages/keychron-k4-max-user-manual>
-            //
-            // K4 Max source code (had not been released yet as of 2025-04-29.
-            //                     The Keychron keyboard has been available at
-            //                     the very least since 2025-03-20.
-            //                     Finally released on 2026-04-08, due to
-            //                     CDD five days earlier.
-            //
-            //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/k4_max>
-            //     Note: Only in "2025q3"
-            //
-            //     See also:
-            //
-            //       <https://github.com/Keychron/qmk_firmware/issues/379>
-            //         [Feature Request] K4 Max source code missing #379
-            //
-            //         2025-04-28.
-            //
-            //       <https://github.com/Keychron/qmk_firmware/issues/446>
-            //         K4 Max JIS keyboard target not found in
-            //         public qmk_firmware branches #446
-            //
-            //         2026-04-03.
-            //
-            correctionAdd("Keychron K4 Max", "Keychron&nbsp;K4&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("K4&nbsp;Max", "Keychron&nbsp;K4&nbsp;Max");
-            correctionAdd("K4 Max", "Keychron&nbsp;K4&nbsp;Max");
-
-            // A 101-key (95%. Not true TKL) crippled (wrt.
-            // missing clusters, e.g., PrtSc) wired and
-            // wireless (both Bluetooth and '2.4 GHz')
-            // QMK/Via-capable mechanical keyboard
-            // from Keychron without a knob.
-            //
-            // Crammed key layout
-            //
-            // RGB (per-key) north-facing (no unwanted light bleed) lighting.
-            //
-            // K4 HE user manual:
-            //
-            //   <https://www.keychron.com/pages/keychron-k4-he-user-manual>
-            //
-            // Notes:
-            //
-            //   1. In contrast to the original K4, it has
-            //      both Bluetooth and '2.4 GHz'.
-            //
-            //   2. Hall sensor (HE) switches.
-            //
-            //   3. K HE and Q HE series:
-            //
-            //      South pole facing downward (uncommon)
-            //
-            // K4 HE firmware:
-            //
-            //   <https://www.keychron.com/pages/firmware-and-json-files-of-the-keychron-he-series-keyboards>
-            //     Near "K4 HE ISO RGB version"
-            //
-            // K4 HE default keymap:
-            //
-            //   <https://github.com/Keychron/qmk_firmware/blob/hall_effect_playground/keyboards/keychron/k4_he/iso/keymaps/via/keymap.c#L49>
-            //
-            // K4 HE source code (not released as of 2025-03-26,
-            //                    2025-04-16, or 2025-05-27.
-            //                    It was finally released on 2025-06-07.)
-            //
-            //     <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/k4_he>
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1jk1ks9/need_some_help_please/>
-            //
-            //   <https://i.imgur.com/FHpU7Lv.png>
-            //     Custom keyboard mappings, including of F13 to F24,
-            //
-            //     Probably K4 HE
-            //
-            //     Related (using F17, F18, F19, or F20 lead
-            //              to "Device change detected"):
-            //
-            //       <https://www.reddit.com/r/Keychron/comments/1mr6x2p/comment/n8zzfzy/>
-            //
-            correctionAdd("KEYCHRON K4 HE", "Keychron K4 HE");
-            correctionAdd("K4HE V1", "Keychron K4 HE");
-            correctionAdd("K4 HE", "Keychron K4 HE");
-            correctionAdd("k4 he", "Keychron K4 HE");
-            correctionAdd("HE K4", "Keychron K4 HE");
-            correctionAdd("K4 he", "Keychron K4 HE");
-            correctionAdd("K4 He", "Keychron K4 HE");
-            correctionAdd("K4-HE", "Keychron K4 HE");
-            correctionAdd("k4 HE", "Keychron K4 HE");
-            correctionAdd("k4he", "Keychron K4 HE");
-            correctionAdd("k4HE", "Keychron K4 HE");
-            correctionAdd("K4HE", "Keychron K4 HE");
-
-            // A 102-key (95%. Not true TKL) full-size keyboard.
-            //
-            // 1980s. DIN5 connector. ANSI: 101 keys.
-            // It is a full-size standard, but it doesn't
-            // have the newer two Windows keys and
-            // context menu key.
-            //
-            // Alternative URLs (not the exact same, but it has
-            // the same type of switches)
-            //
-            //  <https://www.youtube.com/watch?v=bMQgMr1zgRc>
-            //  <https://www.youtube.com/watch?v=iN5jYK3bZUI>
-            //
-            correctionAdd("BTC5349", "BTC 5349");
-
-            // A 102-key (95%) full-size mechanical keyboard from IBM.
-            // Buckling-spring key design.
-            correctionAdd("IBM Model M", "Model M");
-            correctionAdd("IBM-Model M", "Model M");
-            correctionAdd("IBM Type M", "Model M");
-            correctionAdd("model M", "Model M");
-            correctionAdd("Model-M", "Model M");
-            correctionAdd("model m", "Model M");
-
-            // A 102-key (95%) full-size mechanical keyboard from IBM.
-            // Buckling-spring key design.
-            correctionAdd("IBM Model F", "Model F");
+            correctionAdd("Keychron Q5", "Keychron Q5 (95%)");
+            correctionAdd("q5", "Keychron Q5 (95%)");
+            correctionAdd("Q5", "Keychron Q5 (95%)");
 
             // A 102-key (95%. Not true TKL) crippled (wrt. missing
             // PgUp and PgDn, etc.) wired and wireless (only
@@ -93163,15 +93142,15 @@ namespace OverflowHelper.core
             //
             //       3.3 V. Supply voltage. Programming header.
             //
-            correctionAdd("Keychron Q5 Max", "Keychron&nbsp;Q5&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("keychron q5 max", "Keychron&nbsp;Q5&nbsp;Max");
-            correctionAdd("five max", "Keychron&nbsp;Q5&nbsp;Max");
-            correctionAdd("Q5 Max", "Keychron&nbsp;Q5&nbsp;Max");
-            correctionAdd("Q5 MAX", "Keychron&nbsp;Q5&nbsp;Max");
-            correctionAdd("Q5 max", "Keychron&nbsp;Q5&nbsp;Max");
-            correctionAdd("Q5 Mac", "Keychron&nbsp;Q5&nbsp;Max");
-            correctionAdd("q5 max", "Keychron&nbsp;Q5&nbsp;Max");
-            correctionAdd("Q5max", "Keychron&nbsp;Q5&nbsp;Max");
+            correctionAdd("Keychron Q5 Max", "Keychron Q5 Max (95%)");
+            correctionAdd("keychron q5 max", "Keychron Q5 Max (95%)");
+            correctionAdd("five max", "Keychron Q5 Max (95%)");
+            correctionAdd("Q5 Max", "Keychron Q5 Max (95%)");
+            correctionAdd("Q5 MAX", "Keychron Q5 Max (95%)");
+            correctionAdd("Q5 max", "Keychron Q5 Max (95%)");
+            correctionAdd("Q5 Mac", "Keychron Q5 Max (95%)");
+            correctionAdd("q5 max", "Keychron Q5 Max (95%)");
+            correctionAdd("Q5max", "Keychron Q5 Max (95%)");
 
             // A 102-key (95%. Not true TKL) crippled wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -93254,11 +93233,42 @@ namespace OverflowHelper.core
             //
             //   * With a 8 kHz USB polling rate
             //
-            correctionAdd("Keychron Q5 Ultra 8K", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K"); // Sort of identity mapping
-            correctionAdd("Q5 Ultra 8K", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K");
-            correctionAdd("q5 ultra 8k", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K");
-            correctionAdd("Q5 Ultra", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K");
-            correctionAdd("q5 ultra", "Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K");
+            correctionAdd("Keychron Q5 Ultra 8K", "Keychron Q5 Ultra 8K (95%)");
+            correctionAdd("Q5 Ultra 8K", "Keychron Q5 Ultra 8K (95%)");
+            correctionAdd("q5 ultra 8k", "Keychron Q5 Ultra 8K (95%)");
+            correctionAdd("Q5 Ultra", "Keychron Q5 Ultra 8K (95%)");
+            correctionAdd("q5 ultra", "Keychron Q5 Ultra 8K (95%)");
+
+            // A 102-key (95%. Not true TKL) full-size keyboard.
+            //
+            // 1980s. DIN5 connector. ANSI: 101 keys.
+            // It is a full-size standard, but it doesn't
+            // have the newer two Windows keys and
+            // context menu key.
+            //
+            // Alternative URLs (not the exact same, but it has
+            // the same type of switches)
+            //
+            //  <https://www.youtube.com/watch?v=bMQgMr1zgRc>
+            //  <https://www.youtube.com/watch?v=iN5jYK3bZUI>
+            //
+            correctionAdd("BTC 5349", "BTC 5349 (95%)");
+            correctionAdd("BTC5349", "BTC 5349 (95%)");
+
+            // A 102-key (95%) full-size mechanical keyboard from IBM.
+            // Buckling-spring key design.
+            correctionAdd("IBM Model M", "Model M (95%)");
+            correctionAdd("IBM-Model M", "Model M (95%)");
+            correctionAdd("IBM Type M", "Model M (95%)");
+            correctionAdd("Model M", "Model M (95%)");
+            correctionAdd("model M", "Model M (95%)");
+            correctionAdd("Model-M", "Model M (95%)");
+            correctionAdd("model m", "Model M (95%)");
+
+            // A 102-key (95%) full-size mechanical keyboard from IBM.
+            // Buckling-spring key design.
+            correctionAdd("IBM Model F", "Model F (95%)");
+            correctionAdd("Model F", "Model F (95%)");
 
             // A 103-key (100%. Not true TKL) crippled wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -94325,6 +94335,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Microsoft ergonomic keyboard", "Microsoft Natural Keyboard");
             correctionAdd("Microsoft Natural keyboard", "Microsoft Natural Keyboard");
+            correctionAdd("Microsoft natural keyboard", "Microsoft Natural Keyboard");
             correctionAdd("ms natural keyboard", "Microsoft Natural Keyboard");
             correctionAdd("M$ Natural keyboard", "Microsoft Natural Keyboard");
             correctionAdd("Microsoft Natural", "Microsoft Natural Keyboard");
@@ -125373,7 +125384,7 @@ namespace OverflowHelper.core
 
             URL_Add("UTM", "https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system");
 
-            URL_Add("NuPhy Halo96", "https://nuphy.com/products/halo96");
+            URL_Add("NuPhy Halo96 (95%)", "https://nuphy.com/products/halo96");
 
             URL_Add("Kool-Aid", "https://en.wiktionary.org/wiki/Kool-Aid#Noun");
 
@@ -126416,6 +126427,8 @@ namespace OverflowHelper.core
             URL_Add("health care worker", "https://en.wikipedia.org/wiki/Health_professional");
 
             URL_Add("CPR", "https://en.wikipedia.org/wiki/Cardiopulmonary_resuscitation");
+
+            URL_Add("circadian", "https://en.wiktionary.org/wiki/circadian#Adjective");
 
             URL_Add("mental health", "https://en.wikipedia.org/wiki/Mental_health");
 
@@ -142087,8 +142100,6 @@ namespace OverflowHelper.core
 
             URL_Add("modelled", "https://en.wiktionary.org/wiki/modelled#Verb");
 
-            URL_Add("Model F", "https://en.wikipedia.org/wiki/Model_F_keyboard");
-
             URL_Add("ModelSim", "https://en.wikipedia.org/wiki/ModelSim");
 
             URL_Add("Model Context Protocol", "https://en.wikipedia.org/wiki/Model_Context_Protocol");
@@ -142369,7 +142380,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q0 Plus", "https://www.keychron.com/products/keychron-q0-plus-qmk-custom-number-pad");
 
-            URL_Add("Keychron B2 Pro", "https://device.report/manual/13839696");
+            URL_Add("Keychron B2 Pro (95%)", "https://device.report/manual/13839696");
 
             URL_Add("Keychron B6 Pro", "https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/products/keychron-b6-pro-ultra-slim-wireless-keyboard>
 
@@ -142407,7 +142418,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Lemokey X4 (80%)", "https://www.lemokey.com/products/lemokey-x4-qmk-wired-mechanical-keyboard");
 
-            URL_Add("Keychron Lemokey X5", "https://www.keychron.com/products/lemokey-x5-qmk-via-wired-mechanical-keyboard");
+            URL_Add("Keychron Lemokey X5 (95%)", "https://www.keychron.com/products/lemokey-x5-qmk-via-wired-mechanical-keyboard");
 
             URL_Add("Keychron Lemokey X6 (65%)", "https://www.lemokey.com/products/lemokey-x6-qmk-wired-mechanical-keyboard");
 
@@ -142441,7 +142452,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron C3 Pro 8K (85%)", "https://keychron.ca/products/keychron-c3-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout");
 
-            URL_Add("Keychron&nbsp;C100&nbsp;8K (95%)", "https://www.keychron.com/products/keychron-c100-8k-giant-custom-macro-pad");
+            URL_Add("Keychron C100 8K (95%)", "https://www.keychron.com/products/keychron-c100-8k-giant-custom-macro-pad");
 
             URL_Add("Keychron C2 Pro 8K (100%)", "https://www.keychron.uk/collections/keychron-c-pro-series-keyboards/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-iso-layout-collection"); // Old: <https://keychron.ca/products/keychron-c2-pro-8k-qmk-wired-custom-mechanical-keyboard-us-ansi-layout>
 
@@ -142449,7 +142460,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Keyboard 81 Pro (80%)", "https://www.keychron.com/products/keyboard-81-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron K4", "https://www.keychron.com/products/keychron-k4-wireless-mechanical-keyboard-nordic-iso-layout-version-2");
+            URL_Add("Keychron K4 (95%)", "https://www.keychron.com/products/keychron-k4-wireless-mechanical-keyboard-nordic-iso-layout-version-2");
 
             URL_Add("Keychron K6 (65%)", "https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard-nordic-iso-layout");
 
@@ -142465,7 +142476,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K3 Pro ISO (80%)", "https://www.keychron.com/products/keychron-k3-pro-qmk-via-wireless-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;K4&nbsp;Pro", "https://www.keychron.com/products/keychron-k4-pro-qmk-via-wireless-mechanical-keyboard");
+            URL_Add("Keychron K4 Pro (95%)", "https://www.keychron.com/products/keychron-k4-pro-qmk-via-wireless-mechanical-keyboard");
 
             URL_Add("Keychron K5 Pro ISO (105%)", "https://www.keychron.com/products/keychron-k5-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -142495,7 +142506,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K3 Max (80%)", "https://www.keychron.com/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;K4&nbsp;Max", "https://www.keychron.com/products/keychron-k4-max-qmk-wireless-mechanical-keyboard");
+            URL_Add("Keychron K4 Max (95%)", "https://www.keychron.com/products/keychron-k4-max-qmk-wireless-mechanical-keyboard");
 
             URL_Add("Keychron K5 Max (105%)", "https://www.keychron.com/products/keychron-k5-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -142513,7 +142524,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K3 HE (80%)", "https://www.keychron.com/products/keychron-k3-he-wireless-magnetic-switch-custom-keyboard");
 
-            URL_Add("Keychron K4 HE", "https://www.keychron.com/products/keychron-k4-he-wireless-magnetic-switch-custom-keyboard");
+            URL_Add("Keychron K4 HE (95%)", "https://www.keychron.com/products/keychron-k4-he-wireless-magnetic-switch-custom-keyboard");
 
             URL_Add("Keychron K6 HE (65%)", "https://www.keychron.com/products/keychron-k6-he-wireless-magnetic-switch-keyboard");
 
@@ -142545,7 +142556,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q4 (60%)", "https://www.keychron.com/pages/keychron-q4-customizable-mechanical-keyboard");
 
-            URL_Add("Keychron Q5", "https://www.keychron.com/pages/keychron-q5-customizable-mechanical-keyboard");
+            URL_Add("Keychron Q5 (95%)", "https://www.keychron.com/pages/keychron-q5-customizable-mechanical-keyboard");
 
             URL_Add("Keychron Q6", "https://www.keychron.com/products/keychron-q6-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -142589,7 +142600,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q3 Max (85%)", "https://www.keychron.at/products/keychron-q3-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron&nbsp;Q5&nbsp;Max", "https://www.keychron.com/products/keychron-q5-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron Q5 Max (95%)", "https://www.keychron.com/products/keychron-q5-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron Q6 Max", "https://www.keychron.com/products/keychron-q6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -142633,7 +142644,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q3 Ultra 8K (85%)", "https://www.keychron.com/products/keychron-q3-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q5&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-q5-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q5 Ultra 8K (95%)", "https://www.keychron.com/products/keychron-q5-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron Q6 Ultra 8K", "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -142663,7 +142674,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V4 Max (60%)", "https://www.keychron.com/products/keychron-v4-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron V5 Max", "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron V5 Max (95%)", "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron V6 Max", "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -142677,7 +142688,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V3 Ultra 8K (85%)", "https://www.keychron.com/products/keychron-v3-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;V5&nbsp;Ultra&nbsp;8K", "https://www.keychron.com/products/keychron-v5-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron V5 Ultra 8K (95%)", "https://www.keychron.com/products/keychron-v5-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron V6 Ultra 8K", "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -142685,11 +142696,11 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V1 8K (80%)", "https://www.keychron.com/products/keychron-v1-8k-qmk-wired-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;V5&nbsp;8K (95%)", "https://www.keychron.com/products/keychron-v5-8k-qmk-wired-custom-mechanical-keyboard");
+            URL_Add("Keychron V5 8K (95%)", "https://www.keychron.com/products/keychron-v5-8k-qmk-wired-custom-mechanical-keyboard");
 
             URL_Add("Keychron V6 8K (105%)", "https://www.keychron.com/products/keychron-v6-8k-qmk-wired-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;R5", "https://www.keychron.com/pages/keychron-r5-user-manual");
+            URL_Add("Keychron R5 (95%)", "https://www.keychron.com/pages/keychron-r5-user-manual");
 
             URL_Add("Cooler Master support", "https://www.reddit.com/r/coolermaster/comments/132twvn/warranty_check/");
 
@@ -142737,7 +142748,7 @@ namespace OverflowHelper.core
 
             URL_Add("MK730 (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/mk730/");
 
-            URL_Add("MK770", "https://www.coolermaster.com/en-global/products/mk770/");
+            URL_Add("MK770 (95%)", "https://www.coolermaster.com/en-global/products/mk770/");
 
             URL_Add("SK620 (60%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk620");
 
@@ -142771,7 +142782,7 @@ namespace OverflowHelper.core
 
             URL_Add("CK721 (65%)", "https://www.pcworld.com/article/2019261/cooler-master-ck721-wireless-keyboard-review.html"); // Old: <https://www.coolermaster.com/catalog/peripheral/keyboards/ck721/>
 
-            URL_Add("BTC 5349", "https://www.reddit.com/r/keyboards/comments/ohpmow/btc_5349_restored_by_me/");
+            URL_Add("BTC 5349 (95%)", "https://www.reddit.com/r/keyboards/comments/ohpmow/btc_5349_restored_by_me/");
 
             URL_Add("Rapoo V700RGB", "https://www.rapoo.com/product/207"); // Old: <http://www.rapoo.com/product/207>
 
@@ -146051,7 +146062,7 @@ namespace OverflowHelper.core
 
             URL_Add("NuPhy Air60 V2 (60%)", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air60_v2/ansi");
 
-            URL_Add("NuPhy Air96 V2", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air96_v2/ansi");
+            URL_Add("NuPhy Air96 V2 (95%)", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air96_v2/ansi");
 
             URL_Add("Cheapino", "https://github.com/tompi/cheapino/tree/master");
 
@@ -146117,7 +146128,9 @@ namespace OverflowHelper.core
 
             URL_Add("JJ50", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/kprepublic/jj50");
 
-            URL_Add("Model M", "https://en.wikipedia.org/wiki/Model_M_keyboard");
+            URL_Add("Model M (95%)", "https://en.wikipedia.org/wiki/Model_M_keyboard");
+
+            URL_Add("Model F (95%)", "https://en.wikipedia.org/wiki/Model_F_keyboard");
 
             URL_Add("IBM Model M Mini Space Saving Keyboard (80%)", "https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/IBM_Space_Saving_Keyboard.html");
 
@@ -173685,6 +173698,7 @@ namespace OverflowHelper.core
             correctionAdd("tht__", "that__");
             correctionAdd("hat__", "that__");
             correctionAdd("tha__", "that__");
+            correctionAdd("bat__", "that__"); // Multiple typos
 
             correctionAdd("csend__", "send__");
             correctionAdd("sand__", "send__");
@@ -178352,6 +178366,7 @@ namespace OverflowHelper.core
             correctionAdd("Measure__", "measure__");
 
             correctionAdd("steel__", "steep__"); // A true typo
+            correctionAdd("step__", "steep__");
 
             // E.g., in a film
             correctionAdd("staring__", "starring__");
@@ -181299,16 +181314,17 @@ namespace OverflowHelper.core
             //
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1xs0coj/comment/19se9tar4bup0/?context=3>
             //
-            correctionAdd("Keycron Orca___", "Keychron Orca Echo___");
-            correctionAdd("Orcha Echo___", "Keychron Orca Echo___");
-            correctionAdd("Orca Echo___", "Keychron Orca Echo___");
-            correctionAdd("Orca echo___", "Keychron Orca Echo___");
-            correctionAdd("ORCA echo___", "Keychron Orca Echo___");
-            correctionAdd("Orcha___", "Keychron Orca Echo___");
-            correctionAdd("Echo___", "Keychron Orca Echo___");
-            correctionAdd("Orca___", "Keychron Orca Echo___");
-            correctionAdd("echo___", "Keychron Orca Echo___");
-            correctionAdd("ORCA___", "Keychron Orca Echo___");
+            correctionAdd("Keychron Orca Echo___", "Keychron Orca Echo (50%)___");
+            correctionAdd("Keycron Orca___", "Keychron Orca Echo (50%)___");
+            correctionAdd("Orcha Echo___", "Keychron Orca Echo (50%)___");
+            correctionAdd("Orca Echo___", "Keychron Orca Echo (50%)___");
+            correctionAdd("Orca echo___", "Keychron Orca Echo (50%)___");
+            correctionAdd("ORCA echo___", "Keychron Orca Echo (50%)___");
+            correctionAdd("Orcha___", "Keychron Orca Echo (50%)___");
+            correctionAdd("Echo___", "Keychron Orca Echo (50%)___");
+            correctionAdd("Orca___", "Keychron Orca Echo (50%)___");
+            correctionAdd("echo___", "Keychron Orca Echo (50%)___");
+            correctionAdd("ORCA___", "Keychron Orca Echo (50%)___");
 
             // For a direct text, "K series"
             correctionAdd("Keychron K10 (100%) (proprietary keyboard firmware, not open source)___", "Keychron K series___");
@@ -182991,7 +183007,7 @@ namespace OverflowHelper.core
 
             URL_Add("Sonix___", "https://www.sonix.com.tw/article-en-915-10794");
 
-            URL_Add("Keychron Orca Echo___", "https://www.reddit.com/r/Keychron/comments/1xockmz/comment/19s711kvnr0qs/");
+            URL_Add("Keychron Orca Echo (50%)___", "https://www.reddit.com/r/Keychron/comments/1xockmz/comment/19s711kvnr0qs/");
 
             URL_Add("disgusting engine move___", "https://en.wikipedia.org/wiki/Chess_engine");
 
@@ -187277,6 +187293,7 @@ namespace OverflowHelper.core
             correctionAdd("severe roll over problems______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("severe NKRO problems______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("Keychron B1 Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
+            correctionAdd("Keychron B2 Pro (95%)______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("Keychron B2 Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("Keychron B6 Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("NKRO______", "severe NKRO problems for the Keychron B Pro series______");
