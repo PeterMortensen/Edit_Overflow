@@ -11963,6 +11963,7 @@ namespace OverflowHelper.core
 
             correctionAdd("geives", "gives");
             correctionAdd("givers", "gives");
+            correctionAdd("give's", "gives");
 
             correctionAdd("givmme", "give me");
 
@@ -12991,7 +12992,7 @@ namespace OverflowHelper.core
             correctionAdd("Running", "running");
             correctionAdd("runnign", "running");
             correctionAdd("runnnig", "running");
-            correctionAdd("ruining", "running"); // Likely an autocorrect "masterpiece", caused by a typo, "i" after "u"
+            correctionAdd("ruining", "running"); // Likely an autocorrect "masterpiece". Caused by a typo, "i" after "u"
             correctionAdd("runnig", "running");
             correctionAdd("Runnin", "running");
             correctionAdd("runing", "running");
@@ -27116,6 +27117,7 @@ namespace OverflowHelper.core
             correctionAdd("correspnding", "corresponding");
             correctionAdd("corresponing", "corresponding");
             correctionAdd("correspoing", "corresponding");
+            correctionAdd("corresp", "corresponding");
 
             correctionAdd("correspondance", "correspondence");
 
@@ -38107,6 +38109,11 @@ namespace OverflowHelper.core
             correctionAdd("yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
             correctionAdd("Yahoo", "Yahoo Search"); // Really "Yahoo!", but we don't like special characters in names.
 
+            // It was closed down in 2021, including
+            // "How Is Babby Formed?"
+            //
+            // The address was <https://answers.yahoo.com/>.
+            //
             correctionAdd("Yahoo! Answers", "Yahoo Answers");
             correctionAdd("yahoo! Answers", "Yahoo Answers");
             correctionAdd("yahoo answers", "Yahoo Answers");
@@ -43913,6 +43920,7 @@ namespace OverflowHelper.core
 
             correctionAdd("diffferently", "differently");
             correctionAdd("differenly", "differently");
+            correctionAdd("diferently", "differently");
 
             correctionAdd("differencies", "differences");
             correctionAdd("differances", "differences");
@@ -44691,6 +44699,10 @@ namespace OverflowHelper.core
             correctionAdd("PCA", "principal component analysis");
             correctionAdd("pca", "principal component analysis");
 
+            correctionAdd("Principal Components", "principal components");
+            correctionAdd("princ. comps", "principal components");
+            correctionAdd("PCs", "principal components");
+
             // A matrix thing
             correctionAdd("Principal minor", "principal minor");
             correctionAdd("Principal Minor", "principal minor");
@@ -45170,6 +45182,9 @@ namespace OverflowHelper.core
             correctionAdd("Non-clustered", "nonclustered");
 
             // Machine learning?
+            //
+            // Note: "k" should be formatted in italics
+            //
             correctionAdd("`k-means` clustering", "k-means clustering");
             correctionAdd("k means clustering", "k-means clustering");
             correctionAdd("Kmeans clustering", "k-means clustering");
@@ -45181,6 +45196,11 @@ namespace OverflowHelper.core
             correctionAdd("kmeans", "k-means clustering");
 
             // Machine learning
+            //
+            // Note: "k" should be formatted in italics
+            //
+            correctionAdd("K-nearest neighbors", "k-nearest neighbors algorithm");
+            correctionAdd("k-nearest neighbors", "k-nearest neighbors algorithm");
             correctionAdd("k-NN", "k-nearest neighbors algorithm");
             correctionAdd("KNN", "k-nearest neighbors algorithm");
 
@@ -57713,6 +57733,8 @@ namespace OverflowHelper.core
 
             correctionAdd("imageJ", "ImageJ");
 
+            correctionAdd("picasa", "Picasa");
+
             correctionAdd("Image Processing", "image processing");
             correctionAdd("image-processing", "image processing");
 
@@ -66526,7 +66548,7 @@ namespace OverflowHelper.core
             correctionAdd("Qmk", "QMK");
             correctionAdd("QML", "QMK");
             correctionAdd("QWK", "QMK");
-            correctionAdd("GMK", "QMK"); // It is common, including for QMK Toolbox. Is it a transcription error, an autocorrect "masterpiece", or something else?
+            correctionAdd("GMK", "QMK"); // It is common, including for QMK Toolbox. Is it a transcription error, an autocorrect "masterpiece". Or something else?
 
             // QMK
             correctionAdd("the official instructions", "the official instructions to install QMK");
@@ -69424,6 +69446,7 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/ranelpadon/ngram-type#about>
             //
+            correctionAdd("n-grams", "n-gram"); // Not 100% correct - plural.
             correctionAdd("N-gram", "n-gram");
             correctionAdd("NGRAM", "n-gram");
             correctionAdd("nGRAM", "n-gram");
@@ -94125,7 +94148,8 @@ namespace OverflowHelper.core
             //
             //   MasterPlus+ (1.9.5 as of 2024-04-10). Only runs on Windows.
             //
-            correctionAdd("sk653", "SK653");
+            correctionAdd("SK653", "SK653 (100%)");
+            correctionAdd("sk653", "SK653 (100%)");
 
             // A 105-key (100%. True full-size) full-size wired
             // mechanical keyboard (Cherry MX) from Cooler Master.
@@ -94148,8 +94172,9 @@ namespace OverflowHelper.core
             //
             // (It has a real Fn key, not with the Cooler Master logo)
             //
-            correctionAdd("MK750", "MasterKeys MK750");
-            correctionAdd("mk750", "MasterKeys MK750");
+            correctionAdd("MasterKeys MK750", "MasterKeys MK750 (100%)");
+            correctionAdd("MK750", "MasterKeys MK750 (100%)");
+            correctionAdd("mk750", "MasterKeys MK750 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size wired
             // memchanical keyboard from Cooler Master.
@@ -94169,7 +94194,8 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=tED0VipCPSw>
             //     A repair video. 2021-01-21.
             //
-            correctionAdd("Storm Devastator II", "Devastator II");
+            correctionAdd("Storm Devastator II", "Devastator II (100%)");
+            correctionAdd("Devastator II", "Devastator II (100%)");
 
             // A 105-key (100%. Not true TKL) full-size wired
             // memchanical (membrane) keyboard from Cooler Master.
@@ -94184,7 +94210,8 @@ namespace OverflowHelper.core
             //
             //   <https://coolermaster.egnyte.com/dd/0k7n92BSg5>
             //
-            correctionAdd("DEVASTATOR 3", "Devastator 3");
+            correctionAdd("Devastator 3", "Devastator 3 (100%)");
+            correctionAdd("DEVASTATOR 3", "Devastator 3 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size wired
             // keyboard (linear membrane-chanical) and
@@ -94201,7 +94228,8 @@ namespace OverflowHelper.core
             //
             // MasterSet MS110 configuration software: None
             //
-            correctionAdd("MS110", "MasterSet MS110");
+            correctionAdd("MasterSet MS110", "MasterSet MS110 (100%)");
+            correctionAdd("MS110", "MasterSet MS110 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size wired
             // keyboard (clicky membrane-chanical) and a
@@ -94227,13 +94255,14 @@ namespace OverflowHelper.core
             //
             // MasterSet MS121 configuration software: None
             //
-            correctionAdd("ms121", "MasterSet MS121");
-            correctionAdd("Ms121", "MasterSet MS121");
+            correctionAdd("MasterSet MS121", "MasterSet MS121 (100%)");
+            correctionAdd("ms121", "MasterSet MS121 (100%)");
+            correctionAdd("Ms121", "MasterSet MS121 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size mechanical
             // keyboard (1980s vintage).
             //
-            // The is an extra key on the numeric keypad, but
+            // There is an extra key on the numeric keypad, but
             // only seven keys on the space row (no Fn or
             // context menu key).
             //
@@ -94283,25 +94312,22 @@ namespace OverflowHelper.core
             //   <https://developer.apple.com/library/archive/documentation/mac/pdf/MacintoshToolboxEssentials.pdf>
             //     At page 2-43.
             //
-            correctionAdd("apple extended keyboard II", "Apple Extended Keyboard II");
-            correctionAdd("APPLE EXTENDED KEYBOARD II", "Apple Extended Keyboard II");
-            correctionAdd("apple extended keyboard", "Apple Extended Keyboard II");
-            correctionAdd("Apple Extended Keyboard", "Apple Extended Keyboard II");
-            correctionAdd("an old Apple keyboard", "Apple Extended Keyboard II");
-            correctionAdd("old Apple keyboard", "Apple Extended Keyboard II");
-            correctionAdd("Apple Extended II", "Apple Extended Keyboard II");
-            correctionAdd("Nimitz", "Apple Extended Keyboard II"); // Allegedly, the code name for it
-            correctionAdd("AEK II", "Apple Extended Keyboard II");
-            correctionAdd("M3501", "Apple Extended Keyboard II");
-            correctionAdd("AEKII", "Apple Extended Keyboard II"); // The official shorthand
-            correctionAdd("AEK11", "Apple Extended Keyboard II");
-            correctionAdd("aek11", "Apple Extended Keyboard II");
-            correctionAdd("aekii", "Apple Extended Keyboard II");
-            correctionAdd("AEII", "Apple Extended Keyboard II");
-
-            // A Mac mouse (or rather a series of mice)
-            correctionAdd("magic mouse", "Magic Mouse");
-            correctionAdd("MagicMouse", "Magic Mouse");
+            correctionAdd("Apple Extended Keyboard II", "Apple Extended Keyboard II (100%)");
+            correctionAdd("apple extended keyboard II", "Apple Extended Keyboard II (100%)");
+            correctionAdd("APPLE EXTENDED KEYBOARD II", "Apple Extended Keyboard II (100%)");
+            correctionAdd("apple extended keyboard", "Apple Extended Keyboard II (100%)");
+            correctionAdd("Apple Extended Keyboard", "Apple Extended Keyboard II (100%)");
+            correctionAdd("an old Apple keyboard", "Apple Extended Keyboard II (100%)");
+            correctionAdd("old Apple keyboard", "Apple Extended Keyboard II (100%)");
+            correctionAdd("Apple Extended II", "Apple Extended Keyboard II (100%)");
+            correctionAdd("Nimitz", "Apple Extended Keyboard II (100%)"); // Allegedly, the code name for it
+            correctionAdd("AEK II", "Apple Extended Keyboard II (100%)");
+            correctionAdd("M3501", "Apple Extended Keyboard II (100%)");
+            correctionAdd("AEKII", "Apple Extended Keyboard II (100%)"); // The official shorthand
+            correctionAdd("AEK11", "Apple Extended Keyboard II (100%)");
+            correctionAdd("aek11", "Apple Extended Keyboard II (100%)");
+            correctionAdd("aekii", "Apple Extended Keyboard II (100%)");
+            correctionAdd("AEII", "Apple Extended Keyboard II (100%)");
 
             // A 105-key (100%. Not true TKL) full-size
             // mechanical keyboard from SteelSeries.
@@ -94312,15 +94338,16 @@ namespace OverflowHelper.core
             //
             //   <https://www.trustedreviews.com/reviews/steelseries-apex-pro-gaming-keyboard>
             //
-            correctionAdd("steelseries apex pro", "SteelSeries Apex Pro");
-            correctionAdd("steel series", "SteelSeries Apex Pro");
-            correctionAdd("Steel series", "SteelSeries Apex Pro");
-            correctionAdd("SteelSeries", "SteelSeries Apex Pro"); // Not 100% correct, but a representative of the vendor
-            correctionAdd("Steelseries", "SteelSeries Apex Pro"); // Not 100% correct
-            correctionAdd("SteelSeires", "SteelSeries Apex Pro"); // A true typo
-            correctionAdd("steelseries", "SteelSeries Apex Pro");
-            correctionAdd("apex pro", "SteelSeries Apex Pro");
-            correctionAdd("apex7", "SteelSeries Apex Pro"); // Not 100% correct, but a representative of the SteelSeries keyboard series. Is "SteelSeries Apex 7". <https://www.tomshardware.com/reviews/steelseries-apex_7-keyboard,6291.html>
+            correctionAdd("SteelSeries Apex Pro", "SteelSeries Apex Pro (100%)");
+            correctionAdd("steelseries apex pro", "SteelSeries Apex Pro (100%)");
+            correctionAdd("steel series", "SteelSeries Apex Pro (100%)");
+            correctionAdd("Steel series", "SteelSeries Apex Pro (100%)");
+            correctionAdd("SteelSeries", "SteelSeries Apex Pro (100%)"); // Not 100% correct, but a representative of the vendor
+            correctionAdd("Steelseries", "SteelSeries Apex Pro (100%)"); // Not 100% correct
+            correctionAdd("SteelSeires", "SteelSeries Apex Pro (100%)"); // A true typo
+            correctionAdd("steelseries", "SteelSeries Apex Pro (100%)");
+            correctionAdd("apex pro", "SteelSeries Apex Pro (100%)");
+            correctionAdd("apex7", "SteelSeries Apex Pro (100%)"); // Not 100% correct, but a representative of the SteelSeries keyboard series. Is "SteelSeries Apex 7". <https://www.tomshardware.com/reviews/steelseries-apex_7-keyboard,6291.html>
 
             // A 105-key (100%. Not true TKL) full-size
             // mechanical keyboard from Rapoo.
@@ -94333,10 +94360,11 @@ namespace OverflowHelper.core
             //   <https://pmortensen.eu/world2/2021/12/24/rapoo-mechanical-keyboards-gotchas-and-setup/>
             //     Rapoo mechanical keyboards gotchas and setup
             //
-            correctionAdd("Rapoo V700", "Rapoo V700RGB");
-            correctionAdd("V700 RGB", "Rapoo V700RGB");
-            correctionAdd("V700RGB", "Rapoo V700RGB");
-            correctionAdd("V700", "Rapoo V700RGB");
+            correctionAdd("Rapoo V700RGB", "Rapoo V700RGB (100%)");
+            correctionAdd("Rapoo V700", "Rapoo V700RGB (100%)");
+            correctionAdd("V700 RGB", "Rapoo V700RGB (100%)");
+            correctionAdd("V700RGB", "Rapoo V700RGB (100%)");
+            correctionAdd("V700", "Rapoo V700RGB (100%)");
 
             // A 105-key (100%. Not true TKL) full-size mechanical
             // keyboard from Corsair.
@@ -94348,13 +94376,14 @@ namespace OverflowHelper.core
             //
             //   <https://www.corsair.com/us/en/p/keyboards/ch-9109410-na/k70-rgb-pro-mechanical-gaming-keyboard-with-pbt-double-shot-pro-keycaps-cherry-mx-red-ch-9109410-na>
             //
-            correctionAdd("Corsair K70 RGB", "Corsair K70 RGB PRO");
-            correctionAdd("corsair K70 pro", "Corsair K70 RGB PRO");
-            correctionAdd("Corsair K70", "Corsair K70 RGB PRO");
-            correctionAdd("K70 RGB PRO", "Corsair K70 RGB PRO");
-            correctionAdd("K70 RGB", "Corsair K70 RGB PRO");
-            correctionAdd("K70", "Corsair K70 RGB PRO");
-            correctionAdd("k70", "Corsair K70 RGB PRO");
+            correctionAdd("Corsair K70 RGB PRO", "Corsair K70 RGB PRO (100%)");
+            correctionAdd("Corsair K70 RGB", "Corsair K70 RGB PRO (100%)");
+            correctionAdd("corsair K70 pro", "Corsair K70 RGB PRO (100%)");
+            correctionAdd("Corsair K70", "Corsair K70 RGB PRO (100%)");
+            correctionAdd("K70 RGB PRO", "Corsair K70 RGB PRO (100%)");
+            correctionAdd("K70 RGB", "Corsair K70 RGB PRO (100%)");
+            correctionAdd("K70", "Corsair K70 RGB PRO (100%)");
+            correctionAdd("k70", "Corsair K70 RGB PRO (100%)");
 
             // A 105-key (100%. Not true TKL) full-size mechanical
             // keyboard from Corsair.
@@ -96322,11 +96351,12 @@ namespace OverflowHelper.core
             // It has four media buttons.
             // It has a volume roller (not a knob).
             //
-            correctionAdd("Corsair 95 RGB", "Corsair K95 RGB");
-            correctionAdd("Corsair K95", "Corsair K95 RGB");
-            correctionAdd("Corsair k95", "Corsair K95 RGB");
-            correctionAdd("corsair k95", "Corsair K95 RGB");
-            correctionAdd("K95", "Corsair K95 RGB");
+            correctionAdd("Corsair K95 RGB", "Corsair K95 RGB (115%)");
+            correctionAdd("Corsair 95 RGB", "Corsair K95 RGB (115%)");
+            correctionAdd("Corsair K95", "Corsair K95 RGB (115%)");
+            correctionAdd("Corsair k95", "Corsair K95 RGB (115%)");
+            correctionAdd("corsair k95", "Corsair K95 RGB (115%)");
+            correctionAdd("K95", "Corsair K95 RGB (115%)");
 
             correctionAdd("thats's", "that’s");
             correctionAdd("Thant's", "that’s");
@@ -97138,6 +97168,7 @@ namespace OverflowHelper.core
             correctionAdd("3-dimensional", "three-dimensional");
             correctionAdd("3 dimension", "three-dimensional");
             correctionAdd("3-d", "three-dimensional");
+            correctionAdd("3-D", "three-dimensional");
             correctionAdd("3V", "three-dimensional"); // A true typo
             correctionAdd("3v", "three-dimensional"); // A true typo
             correctionAdd("3d", "three-dimensional");
@@ -97748,6 +97779,12 @@ namespace OverflowHelper.core
             correctionAdd("playstore", "Google Play");
 
             correctionAdd("Google reader", "Google Reader");
+
+            // A news aggregator
+            correctionAdd("google news", "Google News");
+
+            // A news aggregator
+            correctionAdd("techmeme", "Techmeme");
 
             correctionAdd("google storage", "Google Storage");
             correctionAdd("Google storage", "Google Storage");
@@ -98485,6 +98522,10 @@ namespace OverflowHelper.core
 
             correctionAdd("paterns", "patterns");
             correctionAdd("Paterns", "patterns");
+
+            // A Mac mouse (or rather a series of mice)
+            correctionAdd("magic mouse", "Magic Mouse");
+            correctionAdd("MagicMouse", "Magic Mouse");
 
             // A wired and wireless (both Bluetooth
             // and '2.4 GHz') mouse from Keychron.
@@ -105000,8 +105041,6 @@ namespace OverflowHelper.core
 
             correctionAdd("xfig", "Xfig");
 
-            correctionAdd("pitoresque", "picturesque");
-
             correctionAdd("cics", "CICS");
 
             correctionAdd("coq", "Coq");
@@ -106659,8 +106698,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Brocolli", "broccoli");
 
-            correctionAdd("PICOCOM", "picocom");
-
             // A speech recognition system
             correctionAdd("cmu sphinx", "CMU Sphinx");
             correctionAdd("cmusphinx", "CMU Sphinx");
@@ -107233,6 +107270,7 @@ namespace OverflowHelper.core
             correctionAdd("sanatizing", "sanitizing");
 
             correctionAdd("Obligatory", "obligatory");
+            correctionAdd("oblictory", "obligatory");
 
             correctionAdd("Ether", "ETH");
 
@@ -108152,6 +108190,10 @@ namespace OverflowHelper.core
             correctionAdd("voice mail", "voicemail");
             correctionAdd("Voicemail", "voicemail");
 
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Dot_product>
+            //
             correctionAdd("dotproduct", "dot product");
 
             correctionAdd("jabaco", "Jabaco");
@@ -108249,11 +108291,6 @@ namespace OverflowHelper.core
 
             correctionAdd("bulk-modulus", "bulk modulus");
 
-            correctionAdd("picom", "Picom");
-
-            correctionAdd("piechart", "pie chart");
-            correctionAdd("Pie Chart", "pie chart");
-
             correctionAdd("Silhouette Score", "silhouette value");
             correctionAdd("Silhouette score", "silhouette value");
             correctionAdd("silhouette score", "silhouette value");
@@ -108261,12 +108298,6 @@ namespace OverflowHelper.core
             correctionAdd("currated", "curated");
 
             correctionAdd("fouling", "fooling");
-
-            // Alternative URL: <https://picocli.info/>
-            //
-            correctionAdd("PicoCLI", "Picocli");
-            correctionAdd("PicoCli", "Picocli");
-            correctionAdd("picocli", "Picocli");
 
             // A fable
             correctionAdd("the scorpion and the frog", "The Scorpion and the Frog");
@@ -108439,8 +108470,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Paddings", "paddings");
 
-            correctionAdd("picoctf", "picoCTF");
-
             correctionAdd("decoder", "binary decoder");
 
             correctionAdd("impetous", "impetuous");
@@ -108575,15 +108604,104 @@ namespace OverflowHelper.core
 
             correctionAdd("hushmic", "HushMic");
 
-            correctionAdd("pervs", "perverts");
+            // Note: "picture" is in an alternative word set
+            correctionAdd("pitoresque", "picturesque");
 
-            correctionAdd("pervy", "perverted");
+            correctionAdd("PICOCOM", "picocom");
 
-            correctionAdd("masocist", "masochist");
+            correctionAdd("picom", "Picom");
 
-            correctionAdd("masocistic", "masochistic");
+            correctionAdd("piechart", "pie chart");
+            correctionAdd("Pie Chart", "pie chart");
 
-            correctionAdd("Sour Grapes", "sour grapes");
+            // Alternative URL: <https://picocli.info/>
+            //
+            correctionAdd("PicoCLI", "Picocli");
+            correctionAdd("PicoCli", "Picocli");
+            correctionAdd("picocli", "Picocli");
+
+            correctionAdd("picoctf", "picoCTF");
+
+            // Note: "pieces_" is in an alternative word set
+            correctionAdd("peice", "piece");
+            correctionAdd("peace", "piece");
+            correctionAdd("pice", "piece");
+            correctionAdd("pc", "piece");
+
+            correctionAdd("master piece", "masterpiece");
+            correctionAdd("masteripiece", "masterpiece");
+
+            correctionAdd("piece-meal", "piecemeal");
+
+            correctionAdd("Rest in pieces", "rest in peace"); // !!!!!
+            correctionAdd("rest in pieces", "rest in peace"); // !!!!!
+            correctionAdd("Rest-In-Peace", "rest in peace");
+            correctionAdd("rest-in-peace", "rest in peace");
+            correctionAdd("Rest In Peace", "rest in peace");
+            correctionAdd("RIP", "rest in peace");
+
+            correctionAdd("Enshittification", "enshittification");
+            correctionAdd("ens#!ttification", "enshittification");
+            correctionAdd("enSH*Ttification", "enshittification");
+            correctionAdd("enSH*ttification", "enshittification");
+            correctionAdd("ensh*ttification", "enshittification");
+            correctionAdd("enshitification", "enshittification");
+            correctionAdd("Enshitification", "enshittification");
+            correctionAdd("ensittification", "enshittification");
+            correctionAdd("enSH*Tification", "enshittification");
+            correctionAdd("ensh*tification", "enshittification");
+
+            // Note: "shit" is in an alternative word set
+            correctionAdd("p.o.s", "piece of shit");
+            correctionAdd("POS", "piece of shit");
+
+            correctionAdd("shit-post", "shitpost");
+
+            // Note: "shit" is in an alternative word set
+            correctionAdd("shaatty", "shitty");
+            correctionAdd("shit*y", "shitty");
+            correctionAdd("$itty", "shitty");
+
+            correctionAdd("shitiest", "shittiest");
+
+            // Note: "shit" is in an alternative word set
+            correctionAdd("shite show", "shit show");
+            correctionAdd("Sh*t show", "shit show");
+            correctionAdd("Shit show", "shit show");
+            correctionAdd("sh*t show", "shit show");
+            correctionAdd("sht show", "shit show");
+            correctionAdd("Sh*tshow", "shit show");
+            correctionAdd("Shitshow", "shit show");
+            correctionAdd("sh*tshow", "shit show");
+            correctionAdd("shitshow", "shit show");
+
+            correctionAdd("bullsh*tting", "bullshitting");
+
+            correctionAdd("SH!TLESS", "shitless");
+            correctionAdd("sh!tless", "shitless");
+
+            correctionAdd("sXXtstorm", "shitstorm");
+
+            correctionAdd("shitppsting", "shitposting");
+            correctionAdd("SH!TPOSTING", "shitposting");
+            correctionAdd("sh!tposting", "shitposting");
+
+            correctionAdd("SOL", "shit out of luck");
+            correctionAdd("SoL", "shit out of luck");
+
+            correctionAdd("shit hit the fan", "the shit hit the fan");
+            correctionAdd("SHTF", "the shit hit the fan");
+            correctionAdd("fan", "the shit hit the fan"); // For the cross-reference
+
+            // Idiomatic
+            correctionAdd("holy sh*t", "holy shit");
+
+            // The verb
+            correctionAdd("necro posting", "necroposting");
+            correctionAdd("thread dig", "necroposting");
+            correctionAdd("Necroing", "necroposting");
+            correctionAdd("necroing", "necroposting");
+            correctionAdd("necro", "necroposting");
 
             correctionAdd("pissig", "pissing");
 
@@ -108769,87 +108887,6 @@ namespace OverflowHelper.core
 
             correctionAdd("D*ldos", "dildos");
 
-            correctionAdd("Enshittification", "enshittification");
-            correctionAdd("ens#!ttification", "enshittification");
-            correctionAdd("enSH*Ttification", "enshittification");
-            correctionAdd("enSH*ttification", "enshittification");
-            correctionAdd("ensh*ttification", "enshittification");
-            correctionAdd("enshitification", "enshittification");
-            correctionAdd("Enshitification", "enshittification");
-            correctionAdd("ensittification", "enshittification");
-            correctionAdd("enSH*Tification", "enshittification");
-            correctionAdd("ensh*tification", "enshittification");
-
-            // Note: "shit" is in an alternative word set
-            correctionAdd("shaatty", "shitty");
-            correctionAdd("shit*y", "shitty");
-            correctionAdd("$itty", "shitty");
-
-            correctionAdd("shitiest", "shittiest");
-
-            // Note: "shit" is in an alternative word set
-            correctionAdd("shite show", "shit show");
-            correctionAdd("Sh*t show", "shit show");
-            correctionAdd("Shit show", "shit show");
-            correctionAdd("sh*t show", "shit show");
-            correctionAdd("sht show", "shit show");
-            correctionAdd("Sh*tshow", "shit show");
-            correctionAdd("Shitshow", "shit show");
-            correctionAdd("sh*tshow", "shit show");
-            correctionAdd("shitshow", "shit show");
-
-            correctionAdd("bullsh*tting", "bullshitting");
-
-            correctionAdd("SH!TLESS", "shitless");
-            correctionAdd("sh!tless", "shitless");
-
-            correctionAdd("sXXtstorm", "shitstorm");
-
-            correctionAdd("shitppsting", "shitposting");
-            correctionAdd("SH!TPOSTING", "shitposting");
-            correctionAdd("sh!tposting", "shitposting");
-
-            correctionAdd("SOL", "shit out of luck");
-            correctionAdd("SoL", "shit out of luck");
-
-            correctionAdd("shit hit the fan", "the shit hit the fan");
-            correctionAdd("SHTF", "the shit hit the fan");
-            correctionAdd("fan", "the shit hit the fan"); // For the cross-reference
-
-            // Idiomatic
-            correctionAdd("holy sh*t", "holy shit");
-
-            // Note: "shit" is in an alternative word set
-            correctionAdd("p.o.s", "piece of shit");
-            correctionAdd("POS", "piece of shit");
-
-            correctionAdd("shit-post", "shitpost");
-
-            // The verb
-            correctionAdd("necro posting", "necroposting");
-            correctionAdd("thread dig", "necroposting");
-            correctionAdd("Necroing", "necroposting");
-            correctionAdd("necroing", "necroposting");
-            correctionAdd("necro", "necroposting");
-
-            // Note: "pieces_" is in an alternative word set
-            correctionAdd("peice", "piece");
-            correctionAdd("peace", "piece");
-            correctionAdd("pice", "piece");
-            correctionAdd("pc", "piece");
-
-            correctionAdd("master piece", "masterpiece");
-            correctionAdd("masteripiece", "masterpiece");
-
-            correctionAdd("piece-meal", "piecemeal");
-
-            correctionAdd("Rest in pieces", "rest in peace"); // !!!!!
-            correctionAdd("rest in pieces", "rest in peace"); // !!!!!
-            correctionAdd("Rest-In-Peace", "rest in peace");
-            correctionAdd("rest-in-peace", "rest in peace");
-            correctionAdd("Rest In Peace", "rest in peace");
-            correctionAdd("RIP", "rest in peace");
-
             correctionAdd("P3DOPHILE", "pedophile");
             correctionAdd("p3dophile", "pedophile");
             correctionAdd("Ped*phile", "pedophile");
@@ -108900,6 +108937,16 @@ namespace OverflowHelper.core
             correctionAdd("k*llers", "killers");
 
             correctionAdd("over kill", "overkill");
+
+            correctionAdd("pervs", "perverts");
+
+            correctionAdd("pervy", "perverted");
+
+            correctionAdd("masocist", "masochist");
+
+            correctionAdd("masocistic", "masochistic");
+
+            correctionAdd("Sour Grapes", "sour grapes");
 
             // Start of the coronavirus part...
             correctionAdd("immune compromised", "immunocompromised");
@@ -110924,7 +110971,7 @@ namespace OverflowHelper.core
 
             URL_Add("DuckDuckGo", "https://en.wikipedia.org/wiki/DuckDuckGo");
 
-            URL_Add("Yahoo Answers", "https://en.wikipedia.org/wiki/Yahoo!_Answers");
+            URL_Add("Yahoo Answers", "https://en.wikipedia.org/wiki/Yahoo_Answers");
 
             URL_Add("democratically", "https://en.wiktionary.org/wiki/democratically#Adverb");
 
@@ -113523,8 +113570,6 @@ namespace OverflowHelper.core
             URL_Add("philosophy", "https://en.wiktionary.org/wiki/philosophy#Noun");
 
             URL_Add("Cheerio", "https://cheerio.js.org/");
-
-            URL_Add("Corsair", "https://en.wikipedia.org/wiki/Corsair_Components#Products");
 
             URL_Add("JSTL", "https://en.wikipedia.org/wiki/Jakarta_Standard_Tag_Library");
 
@@ -117387,8 +117432,6 @@ namespace OverflowHelper.core
             URL_Add("wireless distribution system", "https://en.wikipedia.org/wiki/Wireless_distribution_system");
 
             URL_Add("Google Lens", "https://en.wikipedia.org/wiki/Google_Lens");
-
-            URL_Add("image", "https://en.wiktionary.org/wiki/image#Noun");
 
             URL_Add("EAR", "https://en.wikipedia.org/wiki/EAR_(file_format)");
 
@@ -121276,8 +121319,6 @@ namespace OverflowHelper.core
 
             URL_Add("B-1 visa", "https://en.wikipedia.org/wiki/B_visa#Acceptable_uses_of_a_B-1_visa");
 
-            URL_Add("ImageNet", "https://en.wikipedia.org/wiki/ImageNet");
-
             URL_Add("inferencing", "https://en.wiktionary.org/wiki/inferencing#Noun");
 
             URL_Add("lowercased", "https://en.wiktionary.org/wiki/lowercase#Verb");
@@ -121487,8 +121528,6 @@ namespace OverflowHelper.core
             URL_Add("Acer", "https://en.wikipedia.org/wiki/Acer_Inc.");
 
             URL_Add("adversarially", "https://en.wiktionary.org/wiki/adversarially#Adverb");
-
-            URL_Add("ImageJ", "https://en.wikipedia.org/wiki/ImageJ");
 
             URL_Add("PearPC", "https://en.wikipedia.org/wiki/PearPC");
 
@@ -122810,8 +122849,6 @@ namespace OverflowHelper.core
 
             URL_Add("datasheets", "https://en.wiktionary.org/wiki/datasheet#Noun");
 
-            URL_Add("images", "https://en.wiktionary.org/wiki/image#Noun");
-
             URL_Add("double-shot", "https://en.wiktionary.org/wiki/double-shot#Adjective");
 
             URL_Add("ArUco", "https://sourceforge.net/projects/aruco/files/");
@@ -123593,8 +123630,6 @@ namespace OverflowHelper.core
             URL_Add("latency", "https://en.wiktionary.org/wiki/latency#Noun");
 
             URL_Add("prepared", "https://en.wiktionary.org/wiki/prepare#Verb");
-
-            URL_Add("masterpiece", "https://en.wiktionary.org/wiki/masterpiece#Noun");
 
             URL_Add("angle bracket", "https://en.wiktionary.org/wiki/angle_bracket#Noun");
 
@@ -130658,8 +130693,6 @@ namespace OverflowHelper.core
 
             URL_Add("PFX", "https://en.wikipedia.org/wiki/X.509#Certificate_filename_extensions");
 
-            URL_Add("Corsair CX450", "https://www.corsair.com/us/en/p/psu/cp-9020120-na/cx-series-cx450-450-watt-80-plus-bronze-certified-atx-psus-cp-9020120-na");
-
             URL_Add("DigiCert", "https://en.wikipedia.org/wiki/DigiCert");
 
             URL_Add("Zscaler", "https://en.wikipedia.org/wiki/Zscaler");
@@ -134190,8 +134223,6 @@ namespace OverflowHelper.core
 
             URL_Add("9-patch file", "https://developer.android.com/studio/write/draw9patch");
 
-            URL_Add("Image Asset Studio", "https://developer.android.com/studio/write/image-asset-studio");
-
             URL_Add("QuillBot", "https://www.globenewswire.com/news-release/2020/04/22/2020049/0/en/QuillBot-Applies-AI-to-Help-Millions-Worldwide-Write-Proficiently-in-English.html");
 
             URL_Add("DOCUMENT_ROOT", "https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html#rewritecond");
@@ -134551,8 +134582,6 @@ namespace OverflowHelper.core
             URL_Add("air molecule", "https://en.wikipedia.org/wiki/Ionized-air_glow#Processes");
 
             URL_Add("Atmel SAM", "https://en.wikipedia.org/wiki/Atmel_ARM-based_processors#Microcontrollers");
-
-            URL_Add("taskset", "https://en.wikipedia.org/wiki/Processor_affinity#Specific_operating_systems");
 
             URL_Add("JSR", "https://en.wikipedia.org/wiki/Java_Community_Process#List_of_JSRs");
 
@@ -139024,42 +139053,6 @@ namespace OverflowHelper.core
 
             URL_Add("DE-9", "https://en.wikipedia.org/wiki/D-subminiature#Communications_ports");
 
-            URL_Add("process", "https://en.wiktionary.org/wiki/process#Noun");
-
-            URL_Add("processes", "https://en.wiktionary.org/wiki/process#Noun");
-
-            URL_Add("processed", "https://en.wiktionary.org/wiki/process#Verb");
-
-            URL_Add("in-process", "https://en.wiktionary.org/wiki/in-process#Adjective");
-
-            URL_Add("subprocess", "https://en.wiktionary.org/wiki/subprocess#Noun");
-
-            URL_Add("process substitution", "https://en.wikipedia.org/wiki/Process_substitution");
-
-            URL_Add("thought process", "https://en.wiktionary.org/wiki/thought_process#Noun");
-
-            URL_Add("text processing", "https://en.wikipedia.org/wiki/Text_processing");
-
-            URL_Add("natural language processing", "https://en.wikipedia.org/wiki/Natural_language_processing");
-
-            URL_Add("image processing", "https://en.wikipedia.org/wiki/Image_processing");
-
-            URL_Add("digital signal processing", "https://en.wikipedia.org/wiki/Digital_signal_processing");
-
-            URL_Add("processor", "https://en.wiktionary.org/wiki/processor#Noun");
-
-            URL_Add("payment processor", "https://en.wikipedia.org/wiki/Payment_processor");
-
-            URL_Add("processor affinity", "https://en.wikipedia.org/wiki/Processor_affinity#Specific_operating_systems");
-
-            URL_Add("uniprocessor system", "https://en.wikipedia.org/wiki/Uniprocessor_system");
-
-            URL_Add("inter-processor interrupt", "https://en.wikipedia.org/wiki/Inter-processor_interrupt");
-
-            URL_Add("manycore processor", "https://en.wikipedia.org/wiki/Manycore_processor");
-
-            URL_Add("inter-process communication", "https://en.wikipedia.org/wiki/Inter-process_communication");
-
             URL_Add("collapsar", "https://en.wikipedia.org/wiki/Collapsar");
 
             URL_Add("Sagittarius A*", "https://en.wikipedia.org/wiki/Sagittarius_A*");
@@ -139103,16 +139096,6 @@ namespace OverflowHelper.core
             URL_Add("8-core", "https://en.wikipedia.org/wiki/Multi-core_processor#Commercial");
 
             URL_Add("IGPU", "https://en.wikipedia.org/wiki/Graphics_processing_unit#Integrated_graphics_processing_unit");
-
-            URL_Add("operating system", "https://en.wikipedia.org/wiki/Operating_system");
-
-            URL_Add("operating systems", "https://en.wikipedia.org/wiki/Operating_system");
-
-            URL_Add("general-purpose operating system", "https://csrc.nist.gov/glossary/term/General_purpose_operating_system");
-
-            URL_Add("Operating Systems: Three Easy Pieces", "https://github.com/gedeonych/csc/blob/master/coursepages/ostep/README.md");
-
-            URL_Add("Operating System Command", "https://en.wikipedia.org/wiki/ANSI_escape_code#Operating_System_Command_sequences"); // Old: <https://en.wikipedia.org/wiki/ANSI_escape_code#OSC_(Operating_System_Command)_sequences>
 
             URL_Add("jewellery", "https://en.wiktionary.org/wiki/jewellery#Noun");
 
@@ -139227,8 +139210,6 @@ namespace OverflowHelper.core
             URL_Add("automagically", "https://en.wiktionary.org/wiki/automagically#Adverb");
 
             URL_Add("boot magic", "https://docs.qmk.fm/features/bootmagic");
-
-            URL_Add("ImageMagick", "https://en.wikipedia.org/wiki/ImageMagick");
 
             URL_Add("Magic Mouse", "https://en.wikipedia.org/wiki/Magic_Mouse");
 
@@ -141824,10 +141805,6 @@ namespace OverflowHelper.core
 
             URL_Add("CPU", "https://en.wikipedia.org/wiki/Central_processing_unit");
 
-            URL_Add("thread affinity", "https://learn.microsoft.com/en-us/windows/win32/procthread/multiple-processors");
-
-            URL_Add("hyper-threading", "https://en.wikipedia.org/wiki/Hyper-threading");
-
             URL_Add("quiet", "https://en.wiktionary.org/wiki/quiet#Adjective");
 
             URL_Add("quieter", "https://en.wiktionary.org/wiki/quiet#Adjective");
@@ -142774,17 +142751,17 @@ namespace OverflowHelper.core
 
             URL_Add("Xornet II", "https://www.coolermaster.com/catalog/legacy-products/peripheral/xornet-ii/");
 
-            URL_Add("MasterSet MS110", "https://www.coolermaster.com/catalog/peripheral/keyboards/ms110/");
+            URL_Add("MasterSet MS110 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ms110/");
 
-            URL_Add("MasterSet MS121", "https://www.coolermaster.com/catalog/peripheral/keyboards/masterset-ms121/");
+            URL_Add("MasterSet MS121 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/masterset-ms121/");
 
             URL_Add("MasterCTRL", "https://www.coolermaster.com/en-global/masterctrl/");
 
-            URL_Add("Devastator 3", "https://www.coolermaster.com/en-global/products/devastator3/");
+            URL_Add("Devastator 3 (100%)", "https://www.coolermaster.com/en-global/products/devastator3/");
 
-            URL_Add("Devastator II", "https://www.coolermaster.com/catalog/peripheral/keyboards/devastator-ii/");
+            URL_Add("Devastator II (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/devastator-ii/");
 
-            URL_Add("MasterKeys MK750", "https://www.coolermaster.com/catalog/peripheral/keyboards/masterkeys-mk750/");
+            URL_Add("MasterKeys MK750 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/masterkeys-mk750/");
 
             URL_Add("Masterkeys Pro M RGB (90%)", "https://www.coolermaster.com/en-global/products/masterkeys-pro-m-rgb/");
 
@@ -142808,7 +142785,7 @@ namespace OverflowHelper.core
 
             URL_Add("SK652 (100%)", "https://www.coolermaster.com/en-global/products/sk652.html"); // Old: <https://www.coolermaster.com/catalog/peripheral/keyboards/sk652/>
 
-            URL_Add("SK653", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk653/");
+            URL_Add("SK653 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk653/");
 
             URL_Add("CK350 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck350/");
 
@@ -142830,7 +142807,7 @@ namespace OverflowHelper.core
 
             URL_Add("BTC 5349 (95%)", "https://www.reddit.com/r/keyboards/comments/ohpmow/btc_5349_restored_by_me/");
 
-            URL_Add("Rapoo V700RGB", "https://www.rapoo.com/product/207"); // Old: <http://www.rapoo.com/product/207>
+            URL_Add("Rapoo V700RGB (100%)", "https://www.rapoo.com/product/207"); // Old: <http://www.rapoo.com/product/207>
 
             URL_Add("Das Keyboard", "https://en.wikipedia.org/wiki/Das_Keyboard");
 
@@ -145048,10 +145025,6 @@ namespace OverflowHelper.core
 
             URL_Add("plug and play", "https://en.wiktionary.org/wiki/plug_and_play#Noun");
 
-            URL_Add("piece", "https://en.wiktionary.org/wiki/piece#Noun");
-
-            URL_Add("piecemeal", "https://en.wiktionary.org/wiki/piecemeal#Adjective");
-
             URL_Add("brain-dead", "https://en.wiktionary.org/wiki/brain-dead#Adjective");
 
             URL_Add("brain", "https://en.wiktionary.org/wiki/brain#Noun");
@@ -145902,6 +145875,8 @@ namespace OverflowHelper.core
 
             URL_Add("principal component analysis", "https://en.wikipedia.org/wiki/Principal_component_analysis");
 
+            URL_Add("principal components", "https://en.wikipedia.org/wiki/Principal_component_analysis");
+
             URL_Add("cryptanalysis", "https://en.wikipedia.org/wiki/Cryptanalysis");
 
             URL_Add("cost-benefit analysis", "https://en.wiktionary.org/wiki/cost-benefit_analysis#Noun");
@@ -146180,9 +146155,13 @@ namespace OverflowHelper.core
 
             URL_Add("IBM Model M Mini Space Saving Keyboard (80%)", "https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/IBM_Space_Saving_Keyboard.html");
 
-            URL_Add("Corsair K95 RGB", "https://www.corsair.com/us/en/p/keyboards/ch-9000220-na/corsair-gaming-k95-rgb-mechanical-gaming-keyboard-cherry-mx-red-ch-9000220-na");
+            URL_Add("Corsair", "https://en.wikipedia.org/wiki/Corsair_Components#Products");
 
-            URL_Add("Corsair K70 RGB PRO", "https://switchandclick.com/the-corsair-k70-how-to-guide/");
+            URL_Add("Corsair CX450", "https://www.corsair.com/us/en/p/psu/cp-9020120-na/cx-series-cx450-450-watt-80-plus-bronze-certified-atx-psus-cp-9020120-na");
+
+            URL_Add("Corsair K70 RGB PRO (100%)", "https://switchandclick.com/the-corsair-k70-how-to-guide/");
+
+            URL_Add("Corsair K95 RGB (115%)", "https://www.corsair.com/us/en/p/keyboards/ch-9000220-na/corsair-gaming-k95-rgb-mechanical-gaming-keyboard-cherry-mx-red-ch-9000220-na");
 
             URL_Add("CharaCorder X", "https://www.reddit.com/r/Keyboard/comments/15ow8de/characorder_x_experiences/");
 
@@ -146214,7 +146193,7 @@ namespace OverflowHelper.core
 
             URL_Add("Royal Kludge", "https://www.rtings.com/keyboard/reviews/royal-kludge/rk61");
 
-            URL_Add("SteelSeries Apex Pro", "https://www.mechanical-keyboard.org/steelseries-apex-pro/");
+            URL_Add("SteelSeries Apex Pro (100%)", "https://www.mechanical-keyboard.org/steelseries-apex-pro/");
 
             URL_Add("ZSA Moonlander Mark I (75%)", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards#Mechanical_keyboards");
 
@@ -146226,7 +146205,7 @@ namespace OverflowHelper.core
 
             URL_Add("Typeractive.xyz", "https://typeractive.xyz/policies/terms-of-service");
 
-            URL_Add("Apple Extended Keyboard II", "https://en.wikipedia.org/wiki/Apple_Extended_Keyboard");
+            URL_Add("Apple Extended Keyboard II (100%)", "https://en.wikipedia.org/wiki/Apple_Extended_Keyboard");
 
             URL_Add("Apple A1243 aluminium Keyboard", "https://en.wikipedia.org/wiki/Apple_keyboards#Apple_Keyboard_(109_and_78_keys)");
 
@@ -151576,88 +151555,6 @@ namespace OverflowHelper.core
 
             URL_Add("CRC-32", "https://en.wikipedia.org/wiki/Cyclic_redundancy_check#CRC-32_algorithm");
 
-            URL_Add("enshittification", "https://en.wiktionary.org/wiki/enshittification#Noun");
-
-            URL_Add("bullshitting", "https://en.wiktionary.org/wiki/bullshit#Verb");
-
-            URL_Add("shitty", "https://en.wiktionary.org/wiki/shitty#Adjective");
-
-            URL_Add("shittiest", "https://en.wiktionary.org/wiki/shitty#Adjective");
-
-            URL_Add("shitless", "https://en.wiktionary.org/wiki/shitless#Adjective");
-
-            URL_Add("shit show", "https://en.wiktionary.org/wiki/shit_show#Noun");
-
-            URL_Add("shitstorm", "https://en.wiktionary.org/wiki/shitstorm#Noun");
-
-            URL_Add("shitpost", "https://en.wiktionary.org/wiki/shitpost#Noun");
-
-            URL_Add("shitposting", "https://en.wikipedia.org/wiki/Shitposting");
-
-            URL_Add("holy shit", "https://en.wiktionary.org/wiki/holy_shit#Interjection");
-
-            URL_Add("piece of shit", "https://en.wiktionary.org/wiki/POS#Noun");
-
-            URL_Add("shit out of luck", "https://en.wiktionary.org/wiki/shit_out_of_luck#Adjective");
-
-            URL_Add("Landau and Lifshitz (text book)", "https://en.wikipedia.org/wiki/Course_of_Theoretical_Physics");
-
-            URL_Add("fucked", "https://en.wiktionary.org/wiki/fuck#Verb");
-
-            URL_Add("give a fuck", "https://en.wiktionary.org/wiki/give_a_fuck#Verb");
-
-            URL_Add("fuck off", "https://en.wiktionary.org/wiki/fuck_off#Verb");
-
-            URL_Add("fucks up", "https://en.wiktionary.org/wiki/fuck_up#Verb");
-
-            URL_Add("fucked up", "https://en.wiktionary.org/wiki/fuck_up#Verb");
-
-            URL_Add("fuckup", "https://en.wiktionary.org/wiki/fuckup#Noun");
-
-            URL_Add("fuckers", "https://en.wiktionary.org/wiki/fucker#Noun");
-
-            URL_Add("fuck boy", "https://en.wiktionary.org/wiki/fuck_boy#Noun");
-
-            URL_Add("fucking new guy", "https://en.wiktionary.org/wiki/FNG#Noun");
-
-            URL_Add("fuck my life", "https://en.wiktionary.org/wiki/FML#Interjection");
-
-            URL_Add("fuck this", "https://en.wiktionary.org/wiki/fuck_this#Interjection");
-
-            URL_Add("motherfucker", "https://en.wiktionary.org/wiki/motherfucker#Noun");
-
-            URL_Add("no fucking idea", "https://en.wiktionary.org/wiki/NFI#Phrase");
-
-            URL_Add("cluster fuck", "https://en.wiktionary.org/wiki/clusterfuck#Noun");
-
-            URL_Add("Jesus fucking Christ", "https://en.wiktionary.org/wiki/JFC#Interjection");
-
-            URL_Add("for fuck's sake", "https://en.wiktionary.org/wiki/ffs#Adverb");
-
-            URL_Add("get the fuck out", "https://en.wiktionary.org/wiki/GTFO#Verb");
-
-            URL_Add("shut the fuck up", "https://en.wiktionary.org/wiki/STFU#Phrase");
-
-            URL_Add("I don't give a fuck", "https://en.wiktionary.org/wiki/IDGAF#Phrase");
-
-            URL_Add("don't give a fuck", "https://en.wiktionary.org/wiki/DGAF#Phrase");
-
-            URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
-
-            URL_Add("laughing my ass off", "https://en.wiktionary.org/wiki/LMAO#Phrase");
-
-            URL_Add("laughing my fucking ass off", "https://en.wiktionary.org/wiki/LMFAO#Interjection");
-
-            URL_Add("laughing", "https://en.wiktionary.org/wiki/laugh#Verb");
-
-            URL_Add("laughable", "https://en.wiktionary.org/wiki/laughable#Adjective");
-
-            URL_Add("laughter", "https://en.wiktionary.org/wiki/laughter#Noun");
-
-            URL_Add("billion laughs attack", "https://en.wikipedia.org/wiki/Billion_laughs_attack");
-
-            URL_Add("slaughter", "https://en.wiktionary.org/wiki/slaughter#Verb");
-
             URL_Add("safer", "https://en.wiktionary.org/wiki/safer#Adjective");
 
             URL_Add("unsafe", "https://en.wiktionary.org/wiki/unsafe#Adjective");
@@ -151789,6 +151686,164 @@ namespace OverflowHelper.core
             URL_Add("Encrypting File System", "https://en.wikipedia.org/wiki/Encrypting_File_System");
 
             URL_Add("HushMic", "https://github.com/Fovty/HushMic");
+
+            URL_Add("operating system", "https://en.wikipedia.org/wiki/Operating_system");
+
+            URL_Add("operating systems", "https://en.wikipedia.org/wiki/Operating_system");
+
+            URL_Add("general-purpose operating system", "https://csrc.nist.gov/glossary/term/General_purpose_operating_system");
+
+            URL_Add("piece", "https://en.wiktionary.org/wiki/piece#Noun");
+
+            URL_Add("piecemeal", "https://en.wiktionary.org/wiki/piecemeal#Adjective");
+
+            URL_Add("masterpiece", "https://en.wiktionary.org/wiki/masterpiece#Noun");
+
+            URL_Add("Operating Systems: Three Easy Pieces", "https://github.com/gedeonych/csc/blob/master/coursepages/ostep/README.md");
+
+            URL_Add("Operating System Command", "https://en.wikipedia.org/wiki/ANSI_escape_code#Operating_System_Command_sequences"); // Old: <https://en.wikipedia.org/wiki/ANSI_escape_code#OSC_(Operating_System_Command)_sequences>
+
+            URL_Add("piece of shit", "https://en.wiktionary.org/wiki/POS#Noun");
+
+            URL_Add("enshittification", "https://en.wiktionary.org/wiki/enshittification#Noun");
+
+            URL_Add("bullshitting", "https://en.wiktionary.org/wiki/bullshit#Verb");
+
+            URL_Add("shitty", "https://en.wiktionary.org/wiki/shitty#Adjective");
+
+            URL_Add("shittiest", "https://en.wiktionary.org/wiki/shitty#Adjective");
+
+            URL_Add("shitless", "https://en.wiktionary.org/wiki/shitless#Adjective");
+
+            URL_Add("shit show", "https://en.wiktionary.org/wiki/shit_show#Noun");
+
+            URL_Add("shitstorm", "https://en.wiktionary.org/wiki/shitstorm#Noun");
+
+            URL_Add("shitpost", "https://en.wiktionary.org/wiki/shitpost#Noun");
+
+            URL_Add("shitposting", "https://en.wikipedia.org/wiki/Shitposting");
+
+            URL_Add("holy shit", "https://en.wiktionary.org/wiki/holy_shit#Interjection");
+
+            URL_Add("shit out of luck", "https://en.wiktionary.org/wiki/shit_out_of_luck#Adjective");
+
+            URL_Add("Landau and Lifshitz (text book)", "https://en.wikipedia.org/wiki/Course_of_Theoretical_Physics");
+
+            URL_Add("fucked", "https://en.wiktionary.org/wiki/fuck#Verb");
+
+            URL_Add("give a fuck", "https://en.wiktionary.org/wiki/give_a_fuck#Verb");
+
+            URL_Add("fuck off", "https://en.wiktionary.org/wiki/fuck_off#Verb");
+
+            URL_Add("fucks up", "https://en.wiktionary.org/wiki/fuck_up#Verb");
+
+            URL_Add("fucked up", "https://en.wiktionary.org/wiki/fuck_up#Verb");
+
+            URL_Add("fuckup", "https://en.wiktionary.org/wiki/fuckup#Noun");
+
+            URL_Add("fuckers", "https://en.wiktionary.org/wiki/fucker#Noun");
+
+            URL_Add("fuck boy", "https://en.wiktionary.org/wiki/fuck_boy#Noun");
+
+            URL_Add("fucking new guy", "https://en.wiktionary.org/wiki/FNG#Noun");
+
+            URL_Add("fuck my life", "https://en.wiktionary.org/wiki/FML#Interjection");
+
+            URL_Add("fuck this", "https://en.wiktionary.org/wiki/fuck_this#Interjection");
+
+            URL_Add("motherfucker", "https://en.wiktionary.org/wiki/motherfucker#Noun");
+
+            URL_Add("no fucking idea", "https://en.wiktionary.org/wiki/NFI#Phrase");
+
+            URL_Add("cluster fuck", "https://en.wiktionary.org/wiki/clusterfuck#Noun");
+
+            URL_Add("Jesus fucking Christ", "https://en.wiktionary.org/wiki/JFC#Interjection");
+
+            URL_Add("for fuck's sake", "https://en.wiktionary.org/wiki/ffs#Adverb");
+
+            URL_Add("get the fuck out", "https://en.wiktionary.org/wiki/GTFO#Verb");
+
+            URL_Add("shut the fuck up", "https://en.wiktionary.org/wiki/STFU#Phrase");
+
+            URL_Add("I don't give a fuck", "https://en.wiktionary.org/wiki/IDGAF#Phrase");
+
+            URL_Add("don't give a fuck", "https://en.wiktionary.org/wiki/DGAF#Phrase");
+
+            URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
+
+            URL_Add("laughing my ass off", "https://en.wiktionary.org/wiki/LMAO#Phrase");
+
+            URL_Add("laughing my fucking ass off", "https://en.wiktionary.org/wiki/LMFAO#Interjection");
+
+            URL_Add("laughing", "https://en.wiktionary.org/wiki/laugh#Verb");
+
+            URL_Add("laughable", "https://en.wiktionary.org/wiki/laughable#Adjective");
+
+            URL_Add("laughter", "https://en.wiktionary.org/wiki/laughter#Noun");
+
+            URL_Add("billion laughs attack", "https://en.wikipedia.org/wiki/Billion_laughs_attack");
+
+            URL_Add("slaughter", "https://en.wiktionary.org/wiki/slaughter#Verb");
+
+            URL_Add("Google News", "https://en.wikipedia.org/wiki/Google_News");
+
+            URL_Add("Techmeme", "https://en.wikipedia.org/wiki/Techmeme");
+
+            URL_Add("process", "https://en.wiktionary.org/wiki/process#Noun");
+
+            URL_Add("processes", "https://en.wiktionary.org/wiki/process#Noun");
+
+            URL_Add("processed", "https://en.wiktionary.org/wiki/process#Verb");
+
+            URL_Add("in-process", "https://en.wiktionary.org/wiki/in-process#Adjective");
+
+            URL_Add("subprocess", "https://en.wiktionary.org/wiki/subprocess#Noun");
+
+            URL_Add("process substitution", "https://en.wikipedia.org/wiki/Process_substitution");
+
+            URL_Add("thought process", "https://en.wiktionary.org/wiki/thought_process#Noun");
+
+            URL_Add("text processing", "https://en.wikipedia.org/wiki/Text_processing");
+
+            URL_Add("natural language processing", "https://en.wikipedia.org/wiki/Natural_language_processing");
+
+            URL_Add("image", "https://en.wiktionary.org/wiki/image#Noun");
+
+            URL_Add("images", "https://en.wiktionary.org/wiki/image#Noun");
+
+            URL_Add("image processing", "https://en.wikipedia.org/wiki/Image_processing");
+
+            URL_Add("ImageMagick", "https://en.wikipedia.org/wiki/ImageMagick");
+
+            URL_Add("ImageNet", "https://en.wikipedia.org/wiki/ImageNet");
+
+            URL_Add("ImageJ", "https://en.wikipedia.org/wiki/ImageJ");
+
+            URL_Add("Image Asset Studio", "https://developer.android.com/studio/write/image-asset-studio");
+
+            URL_Add("Picasa", "https://en.wikipedia.org/wiki/Picasa");
+
+            URL_Add("digital signal processing", "https://en.wikipedia.org/wiki/Digital_signal_processing");
+
+            URL_Add("processor", "https://en.wiktionary.org/wiki/processor#Noun");
+
+            URL_Add("payment processor", "https://en.wikipedia.org/wiki/Payment_processor");
+
+            URL_Add("processor affinity", "https://en.wikipedia.org/wiki/Processor_affinity#Specific_operating_systems");
+
+            URL_Add("thread affinity", "https://learn.microsoft.com/en-us/windows/win32/procthread/multiple-processors");
+
+            URL_Add("taskset", "https://en.wikipedia.org/wiki/Processor_affinity#Specific_operating_systems");
+
+            URL_Add("hyper-threading", "https://en.wikipedia.org/wiki/Hyper-threading");
+
+            URL_Add("uniprocessor system", "https://en.wikipedia.org/wiki/Uniprocessor_system");
+
+            URL_Add("inter-processor interrupt", "https://en.wikipedia.org/wiki/Inter-processor_interrupt");
+
+            URL_Add("manycore processor", "https://en.wikipedia.org/wiki/Manycore_processor");
+
+            URL_Add("inter-process communication", "https://en.wikipedia.org/wiki/Inter-process_communication");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -152606,6 +152661,8 @@ namespace OverflowHelper.core
             // A training data set for machine learning
             correctionAdd("`iris` data set_", "Iris data set_");
             correctionAdd("iris data set_", "Iris data set_");
+            correctionAdd("IRIS data set_", "Iris data set_");
+            correctionAdd("IRIS dataset_", "Iris data set_");
             correctionAdd("IRIS_", "Iris data set_");
             correctionAdd("iris_", "Iris data set_");
             correctionAdd("Iris_", "Iris data set_");
@@ -168965,8 +169022,6 @@ namespace OverflowHelper.core
 
             URL_Add("Nova_", "https://en.wikipedia.org/wiki/OpenStack#Compute_(Nova)");
 
-            URL_Add("affect_", "https://en.wiktionary.org/wiki/affect#Verb");
-
             URL_Add("Euclidean distance_", "https://en.wikipedia.org/wiki/Euclidean_distance#Generalizations");
 
             URL_Add("Metal_", "https://en.wikipedia.org/wiki/Metal_(API)");
@@ -169022,8 +169077,6 @@ namespace OverflowHelper.core
             URL_Add("brief_", "https://en.wiktionary.org/wiki/brief#Adjective");
 
             URL_Add("Samsung Galaxy S III_", "https://en.wikipedia.org/wiki/Samsung_Galaxy_S_III");
-
-            URL_Add("afford_", "https://en.wiktionary.org/wiki/afford#Verb");
 
             URL_Add("DOS_", "https://en.wikipedia.org/wiki/DOS");
 
@@ -169250,8 +169303,6 @@ namespace OverflowHelper.core
             URL_Add("sense_", "https://en.wiktionary.org/wiki/sense#Noun");
 
             URL_Add("Satisfactory_", "https://en.wikipedia.org/wiki/Satisfactory");
-
-            URL_Add("affecting_", "https://en.wiktionary.org/wiki/affect#Verb");
 
             URL_Add("on the way_", "https://en.wiktionary.org/wiki/on_the_way#Prepositional_phrase");
 
@@ -170381,8 +170432,6 @@ namespace OverflowHelper.core
 
             URL_Add("beaten_", "https://en.wiktionary.org/wiki/beat#Verb");
 
-            URL_Add("pieces_", "https://en.wiktionary.org/wiki/piece#Noun");
-
             URL_Add("StarCraft_", "https://en.wikipedia.org/wiki/StarCraft");
 
             URL_Add("activated_", "https://en.wiktionary.org/wiki/activate#Verb");
@@ -170508,10 +170557,6 @@ namespace OverflowHelper.core
             URL_Add("catching_", "https://en.wiktionary.org/wiki/catch#Verb");
 
             URL_Add("QA_", "https://en.wikipedia.org/wiki/Software_quality_assurance");
-
-            URL_Add("image quality_", "https://en.wikipedia.org/wiki/Image_quality");
-
-            URL_Add("affine transformation_", "https://en.wikipedia.org/wiki/Affine_transformation");
 
             URL_Add("accept_", "https://en.wiktionary.org/wiki/accept#Verb");
 
@@ -171124,8 +171169,6 @@ namespace OverflowHelper.core
             URL_Add("search engines_", "https://en.wiktionary.org/wiki/search_engine#Noun");
 
             URL_Add("ThinkPad X1_", "https://en.wikipedia.org/wiki/ThinkPad_X1_series");
-
-            URL_Add("in-ear monitors_", "https://en.wikipedia.org/wiki/In-ear_monitor");
 
             URL_Add("Karnaugh map_", "https://en.wikipedia.org/wiki/Karnaugh_map");
 
@@ -173066,6 +173109,20 @@ namespace OverflowHelper.core
             URL_Add("Grand Theft Auto VI_", "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI");
 
             URL_Add("decoupling_", "https://en.wiktionary.org/wiki/decoupling#Noun");
+
+            URL_Add("pieces_", "https://en.wiktionary.org/wiki/piece#Noun");
+
+            URL_Add("in-ear monitors_", "https://en.wikipedia.org/wiki/In-ear_monitor");
+
+            URL_Add("affect_", "https://en.wiktionary.org/wiki/affect#Verb");
+
+            URL_Add("afford_", "https://en.wiktionary.org/wiki/afford#Verb");
+
+            URL_Add("affecting_", "https://en.wiktionary.org/wiki/affect#Verb");
+
+            URL_Add("affine transformation_", "https://en.wikipedia.org/wiki/Affine_transformation");
+
+            URL_Add("image quality_", "https://en.wikipedia.org/wiki/Image_quality");
 
         } //addLookupData_alternativeWordSet()
 
@@ -182938,8 +182995,6 @@ namespace OverflowHelper.core
 
             URL_Add("where___", "https://www.wikihow.com/Use-Where,-Were-and-We're");
 
-            URL_Add("effect___", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
-
             URL_Add("their___", "https://www.wikihow.com/Use-There,-Their-and-They%27re");
 
             URL_Add("then___", "https://www.wikihow.com/Use-Than-and-Then");
@@ -183073,6 +183128,8 @@ namespace OverflowHelper.core
             URL_Add(".NET Core___", "https://en.wikipedia.org/wiki/.NET#History"); // Even older: https://en.wikipedia.org/wiki/.NET_Framework#.NET_Core. Old: <https://en.wikipedia.org/wiki/.NET_Core>
 
             URL_Add("&rarr;___", "https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#List_of_character_entity_references_in_HTML");
+
+            URL_Add("effect___", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -185540,8 +185597,6 @@ namespace OverflowHelper.core
 
             URL_Add("your____", "https://www.wikihow.com/Use-You%27re-and-Your");
 
-            URL_Add("affects____", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
-
             URL_Add("control panel____", "https://en.wikipedia.org/wiki/Control_panel_(software)");
 
             URL_Add("PC____", "https://en.wikipedia.org/wiki/Polycarbonate");
@@ -185649,6 +185704,8 @@ namespace OverflowHelper.core
             URL_Add("mode____", "https://en.wiktionary.org/wiki/mode#Noun");
 
             URL_Add("more than____", "https://dictionary.cambridge.org/dictionary/english/more-than");
+
+            URL_Add("affects____", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
 
         } //addLookupData_alternativeWordSet4()
 
@@ -188075,6 +188132,10 @@ namespace OverflowHelper.core
 
             correctionAdd("SF_______", "semifinal_______");
 
+            correctionAdd("principle component_______", "principal component_______");
+            correctionAdd("princ. comp_______", "principal component_______");
+            correctionAdd("PC_______", "principal component_______");
+
             // Start of word mappings autogenerated
             // by script 'Edit_Overflow_number_table_generator.pl'
             //
@@ -188490,6 +188551,8 @@ namespace OverflowHelper.core
             URL_Add("QMK install blues on later versions of Debian, LMDE, and Ubuntu_______", "https://www.reddit.com/r/Keychron/comments/1cxnqtu/comment/m80aes2/");
 
             URL_Add("semifinal_______", "https://en.wiktionary.org/wiki/semifinal#Noun");
+
+            URL_Add("principal component_______", "https://en.wikipedia.org/wiki/Principal_component_analysis");
 
             URL_Add("Alfa_______", "https://en.wikipedia.org/wiki/NATO_phonetic_alphabet");
 
