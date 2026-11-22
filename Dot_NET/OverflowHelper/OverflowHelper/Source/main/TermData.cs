@@ -1157,6 +1157,20 @@ namespace OverflowHelper.core
             correctionAdd("Windows Nano server", "Microsoft Nano Server");
             correctionAdd("Windows Nano", "Microsoft Nano Server");
 
+            correctionAdd("sysytem", "system");
+            correctionAdd("systenm", "system");
+            correctionAdd("Systhem", "system");
+            correctionAdd("systhem", "system");
+            correctionAdd("sistem", "system");
+            correctionAdd("systen", "system");
+            correctionAdd("System", "system");
+            correctionAdd("sytem", "system");
+            correctionAdd("sys", "system");
+
+            correctionAdd("subsystem", "sub-system");
+            correctionAdd("subsistem", "sub-system");
+            correctionAdd("sub system", "sub-system");
+
             correctionAdd("Bridge", "bridge");
             correctionAdd("Bridbe", "bridge");
             correctionAdd("bridbe", "bridge");
@@ -8384,6 +8398,9 @@ namespace OverflowHelper.core
             correctionAdd("noble", "Ubuntu 24.04 (Noble Numbat)");
 
             correctionAdd("Resolute Raccoon", "Ubuntu 26.04 (Resolute Raccoon)");
+            correctionAdd("Ubuntu 26.04 Lts", "Ubuntu 26.04 (Resolute Raccoon)");
+            correctionAdd("ubuntu 26.04 LTS", "Ubuntu 26.04 (Resolute Raccoon)");
+            correctionAdd("ubuntu 26.04 Lts", "Ubuntu 26.04 (Resolute Raccoon)");
             correctionAdd("Ubuntu 26.04", "Ubuntu 26.04 (Resolute Raccoon)");
             correctionAdd("ubuntu 26.04", "Ubuntu 26.04 (Resolute Raccoon)");
             correctionAdd("ubuntu 2604", "Ubuntu 26.04 (Resolute Raccoon)");
@@ -31642,6 +31659,11 @@ namespace OverflowHelper.core
             correctionAdd("cardiopulmonary resuscitation", "CPR");
             correctionAdd("cpr", "CPR");
 
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Circadian_rhythm>
+            //     Circadian rhythm
+            //
             correctionAdd("circurdian", "circadian");
             correctionAdd("Circurdian", "circadian");
 
@@ -44658,6 +44680,8 @@ namespace OverflowHelper.core
             correctionAdd("Peripheral Component Analysis", "principal component analysis");
             correctionAdd("peripheral component analysis", "principal component analysis");
             correctionAdd("Principal Component Analysis", "principal component analysis");
+            correctionAdd("Principle Component Analysis", "principal component analysis");
+            correctionAdd("principle component analysis", "principal component analysis");
             correctionAdd("PCA", "principal component analysis");
 
             // A matrix thing
@@ -63288,18 +63312,6 @@ namespace OverflowHelper.core
             correctionAdd("heffers", "heifers");
             correctionAdd("Heifers", "heifers");
 
-            correctionAdd("sysytem", "system");
-            correctionAdd("systenm", "system");
-            correctionAdd("sistem", "system");
-            correctionAdd("systen", "system");
-            correctionAdd("System", "system");
-            correctionAdd("sytem", "system");
-            correctionAdd("sys", "system");
-
-            correctionAdd("subsystem", "sub-system");
-            correctionAdd("subsistem", "sub-system");
-            correctionAdd("sub system", "sub-system");
-
             correctionAdd("compeled", "compelled");
 
             correctionAdd("hangman", "Hangman");
@@ -64816,6 +64828,7 @@ namespace OverflowHelper.core
             correctionAdd("inculded", "included");
             correctionAdd("includet", "included");
             correctionAdd("inclded", "included");
+            correctionAdd("inluded", "included");
 
             correctionAdd("inlusion", "inclusion");
 
@@ -73143,6 +73156,8 @@ namespace OverflowHelper.core
 
             correctionAdd("appling", "applying");
             correctionAdd("Appling", "applying");
+
+            correctionAdd("appliee", "applied"); // A true typo
 
             correctionAdd("re-apply", "reapply");
 
@@ -93295,12 +93310,11 @@ namespace OverflowHelper.core
             //           but not in the key numbering scheme (at least
             //           not when it comes to the RGB light...)
             //
-            correctionAdd("Keychron Q12 Max", "Keychron&nbsp;Q12&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("Q12&nbsp;Max", "Keychron&nbsp;Q12&nbsp;Max");
-            correctionAdd("Q12 max", "Keychron&nbsp;Q12&nbsp;Max");
-            correctionAdd("q12 max", "Keychron&nbsp;Q12&nbsp;Max");
-            correctionAdd("Q12 Max", "Keychron&nbsp;Q12&nbsp;Max");
-            correctionAdd("Q12 MAX", "Keychron&nbsp;Q12&nbsp;Max");
+            correctionAdd("Keychron Q12 Max", "Keychron Q12 Max (100%)");
+            correctionAdd("Q12 Max", "Keychron Q12 Max (100%)");
+            correctionAdd("Q12 max", "Keychron Q12 Max (100%)");
+            correctionAdd("q12 max", "Keychron Q12 Max (100%)");
+            correctionAdd("Q12 MAX", "Keychron Q12 Max (100%)");
 
             // A 103-key (100%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -93335,8 +93349,9 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/q12_he>
             //
-            correctionAdd("q12 he", "Keychron Q12 HE");
-            correctionAdd("Q12 HE", "Keychron Q12 HE");
+            correctionAdd("Keychron Q12 HE", "Keychron Q12 HE (100%)");
+            correctionAdd("q12 he", "Keychron Q12 HE (100%)");
+            correctionAdd("Q12 HE", "Keychron Q12 HE (100%)");
 
             // A 104-key (100%. Not true TKL) crippled (wrt.
             // missing PgUp and PgDn, etc.) low-profile
@@ -93392,12 +93407,11 @@ namespace OverflowHelper.core
             //           in Git branch "wireless_playground"
             //           (not the default branch).
             //
-            correctionAdd("Keychron K17 Pro", "Keychron&nbsp;K17&nbsp;Pro"); // Sort of identity mapping
-            correctionAdd("K17&nbsp;Pro", "Keychron&nbsp;K17&nbsp;Pro");
-            correctionAdd("k17 pro", "Keychron&nbsp;K17&nbsp;Pro");
-            correctionAdd("K17 Pro", "Keychron&nbsp;K17&nbsp;Pro");
-            correctionAdd("K17 pro", "Keychron&nbsp;K17&nbsp;Pro");
-            correctionAdd("k17 Pro", "Keychron&nbsp;K17&nbsp;Pro");
+            correctionAdd("Keychron K17 Pro", "Keychron K17 Pro (100%)"); // Sort of identity mapping
+            correctionAdd("k17 pro", "Keychron K17 Pro (100%)");
+            correctionAdd("K17 Pro", "Keychron K17 Pro (100%)");
+            correctionAdd("K17 pro", "Keychron K17 Pro (100%)");
+            correctionAdd("k17 Pro", "Keychron K17 Pro (100%)");
 
             // A 104-key (100%) crippled Alice layout (a la
             // Microsoft Natural Keyboard) wired and wireless
@@ -93431,11 +93445,10 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q14_pro>
             //
-            correctionAdd("Keychron Q14 Pro", "Keychron&nbsp;Q14&nbsp;Pro"); // Sort of identity mapping
-            correctionAdd("keychron q14 pro", "Keychron&nbsp;Q14&nbsp;Pro");
-            correctionAdd("Q14&nbsp;Pro", "Keychron&nbsp;Q14&nbsp;Pro");
-            correctionAdd("q14 pro", "Keychron&nbsp;Q14&nbsp;Pro");
-            correctionAdd("Q14 Pro", "Keychron&nbsp;Q14&nbsp;Pro");
+            correctionAdd("Keychron Q14 Pro", "Keychron Q14 Pro (100%)"); // Sort of identity mapping
+            correctionAdd("keychron q14 pro", "Keychron Q14 Pro (100%)");
+            correctionAdd("q14 pro", "Keychron Q14 Pro (100%)");
+            correctionAdd("Q14 Pro", "Keychron Q14 Pro (100%)");
 
             // A 105-key (100%. Not true TKL) crippled wired and
             // wireless (both Bluetooth and '2.4 GHz') Alice
@@ -93480,10 +93493,9 @@ namespace OverflowHelper.core
             //           in Git branch "wireless_playground"
             //           (not the default branch).
             //
-            correctionAdd("Keychron Q14 Max", "Keychron&nbsp;Q14&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("Q14&nbsp;Max", "Keychron&nbsp;Q14&nbsp;Max");
-            correctionAdd("Q14 Max", "Keychron&nbsp;Q14&nbsp;Max");
-            correctionAdd("Q14 MAX", "Keychron&nbsp;Q14&nbsp;Max");
+            correctionAdd("Keychron Q14 Max", "Keychron Q14 Max (100%)"); // Sort of identity mapping
+            correctionAdd("Q14 Max", "Keychron Q14 Max (100%)");
+            correctionAdd("Q14 MAX", "Keychron Q14 Max (100%)");
 
             // A 105-key (100%. Not true TKL) full-size wired-only
             // QMK/Via-capable mechanical keyboard from Keychron.
@@ -93582,7 +93594,6 @@ namespace OverflowHelper.core
             //     and RGB light vs. white light.
             //
             correctionAdd("Keychron C2 Pro", "Keychron C2 Pro (100%)");
-            correctionAdd("C2&nbsp;Pro", "Keychron C2 Pro (100%)");
             correctionAdd("c2 Pro rgb", "Keychron C2 Pro (100%)");
             correctionAdd("C2 Pro", "Keychron C2 Pro (100%)");
             correctionAdd("C2 pro", "Keychron C2 Pro (100%)");
@@ -93693,8 +93704,9 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/r6>
             //
-            correctionAdd("Keychron R6 Retro", "Keychron R6");
-            correctionAdd("R6", "Keychron R6");
+            correctionAdd("Keychron R6 Retro", "Keychron R6 (100%)");
+            correctionAdd("Keychron R6", "Keychron R6 (100%)");
+            correctionAdd("R6", "Keychron R6 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -93760,25 +93772,26 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/qmk_firmware/tree/hall_effect_playground/keyboards/keychron/k10_he>
             //     Note: In a new Git branch, "hall_effect_playground"
             //
-            correctionAdd("keychron k10 he", "Keychron K10 HE");
-            correctionAdd("Keychron K10 he", "Keychron K10 HE");
-            correctionAdd("Keychron k10 he", "Keychron K10 HE");
-            correctionAdd("Keychron K10HE", "Keychron K10 HE");
-            correctionAdd("keychron k10he", "Keychron K10 HE");
-            correctionAdd("K10 HE se", "Keychron K10 HE");
-            correctionAdd("K10 HE SE", "Keychron K10 HE");
-            correctionAdd("HE K10", "Keychron K10 HE");
-            correctionAdd("He K10", "Keychron K10 HE");
-            correctionAdd("K10-HE", "Keychron K10 HE");
-            correctionAdd("k10 he", "Keychron K10 HE");
-            correctionAdd("k10 HE", "Keychron K10 HE");
-            correctionAdd("K10 HE", "Keychron K10 HE");
-            correctionAdd("H10 HE", "Keychron K10 HE");
-            correctionAdd("k10he", "Keychron K10 HE");
-            correctionAdd("K10HE", "Keychron K10 HE");
-            correctionAdd("K10JE", "Keychron K10 HE");
-            correctionAdd("k10HE", "Keychron K10 HE");
-            correctionAdd("10E", "Keychron K10 HE");
+            correctionAdd("Keychron K10 HE", "Keychron K10 HE (100%)");
+            correctionAdd("keychron k10 he", "Keychron K10 HE (100%)");
+            correctionAdd("Keychron K10 he", "Keychron K10 HE (100%)");
+            correctionAdd("Keychron k10 he", "Keychron K10 HE (100%)");
+            correctionAdd("Keychron K10HE", "Keychron K10 HE (100%)");
+            correctionAdd("keychron k10he", "Keychron K10 HE (100%)");
+            correctionAdd("K10 HE se", "Keychron K10 HE (100%)");
+            correctionAdd("K10 HE SE", "Keychron K10 HE (100%)");
+            correctionAdd("HE K10", "Keychron K10 HE (100%)");
+            correctionAdd("He K10", "Keychron K10 HE (100%)");
+            correctionAdd("K10-HE", "Keychron K10 HE (100%)");
+            correctionAdd("k10 he", "Keychron K10 HE (100%)");
+            correctionAdd("k10 HE", "Keychron K10 HE (100%)");
+            correctionAdd("K10 HE", "Keychron K10 HE (100%)");
+            correctionAdd("H10 HE", "Keychron K10 HE (100%)");
+            correctionAdd("k10he", "Keychron K10 HE (100%)");
+            correctionAdd("K10HE", "Keychron K10 HE (100%)");
+            correctionAdd("K10JE", "Keychron K10 HE (100%)");
+            correctionAdd("k10HE", "Keychron K10 HE (100%)");
+            correctionAdd("10E", "Keychron K10 HE (100%)");
 
             // A 105-key (100%. Not true TKL) full-size
             // wired-only QMK/Via-capable mechanical
@@ -93789,9 +93802,10 @@ namespace OverflowHelper.core
             // RGB (per-key) north-facing (***no***
             // unwanted light bleed) lighting.
             //
-            correctionAdd("Lemonkey X2", "Keychron Lemokey X2");
-            correctionAdd("Lemokey X2", "Keychron Lemokey X2");
-            correctionAdd("X2", "Keychron Lemokey X2");
+            correctionAdd("Keychron Lemokey X2", "Keychron Lemokey X2 (100%)");
+            correctionAdd("Lemonkey X2", "Keychron Lemokey X2 (100%)");
+            correctionAdd("Lemokey X2", "Keychron Lemokey X2 (100%)");
+            correctionAdd("X2", "Keychron Lemokey X2 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size
             // wired-only QMK/Via-capable mechanical
@@ -93807,8 +93821,9 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/playground/keyboards/keychron/x3/iso/rgb>
             //
-            correctionAdd("Lemokey X3", "Keychron Lemokey X3");
-            correctionAdd("X3", "Keychron Lemokey X3");
+            correctionAdd("Keychron Lemokey X3", "Keychron Lemokey X3 (100%)");
+            correctionAdd("Lemokey X3", "Keychron Lemokey X3 (100%)");
+            correctionAdd("X3", "Keychron Lemokey X3 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size wired-only
             // mechanical keyboard from Cooler Master.
@@ -93837,9 +93852,10 @@ namespace OverflowHelper.core
             //   <https://coolermaster.com.cn/DriveDownload/>
             //     Fifth column (orange colour).
             //
-            correctionAdd("Cooler master ck350", "CK350");
-            correctionAdd("CK 350", "CK350");
-            correctionAdd("ck350", "CK350");
+            correctionAdd("Cooler master ck350", "CK350 (100%)");
+            correctionAdd("CK 350", "CK350 (100%)");
+            correctionAdd("CK350", "CK350 (100%)");
+            correctionAdd("ck350", "CK350 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size wired-only
             // mechanical keyboard from Cooler Master.
@@ -93865,9 +93881,10 @@ namespace OverflowHelper.core
             //
             // The Fn key has "Fn" printed on it (not the Cooler Master logo)...
             //
-            correctionAdd("CK 351", "CK351");
-            correctionAdd("CK-351", "CK351");
-            correctionAdd("ck351", "CK351");
+            correctionAdd("CK 351", "CK351 (100%)");
+            correctionAdd("CK-351", "CK351 (100%)");
+            correctionAdd("CK351", "CK351 (100%)");
+            correctionAdd("ck351", "CK351 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size wired-only
             // mechanical keyboard from Cooler Master.
@@ -93883,7 +93900,8 @@ namespace OverflowHelper.core
             //
             //   <https://coolermaster.egnyte.com/dd/uNtITBAiZl>
             //
-            correctionAdd("ck352", "CK352");
+            correctionAdd("CK352", "CK352 (100%)");
+            correctionAdd("ck352", "CK352 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size
             // mechanical keyboard from Cooler Master.
@@ -93915,7 +93933,8 @@ namespace OverflowHelper.core
             //
             // (The Fn key is the one with the Cooler Master logo, two keys (or three?) to the right of the space bar.)
             //
-            correctionAdd("ck550 (v1)", "CK550 V1");
+            correctionAdd("ck550 (v1)", "CK550 V1 (100%)");
+            correctionAdd("CK550 V1", "CK550 V1 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size wired-only
             // mechanical keyboard from Cooler Master.
@@ -93984,20 +94003,21 @@ namespace OverflowHelper.core
             //    * Reset all four profiles to factory defaults by holding down ***Fn*** + ***E*** for ***5 seconds***. Note: This will ***wipe out*** all custom settings (macros, keymappings, and RGB light) for all profiles. And global settings (settings not dependent on a particular profile) as well, like keyboard lock modes, etc.
             //    * Let the configuration software update the keyboard firmware and itself to the latest version (if not already). This may or may not ***wipe out*** all custom settings (macros, keymappings, and RGB light).
             //
-            correctionAdd("CK-550 V2", "CK550 V2");
-            correctionAdd("CK 550 V2", "CK550 V2");
-            correctionAdd("ck 550 v2", "CK550 V2");
-            correctionAdd("CK 550 v2", "CK550 V2");
-            correctionAdd("ck550 v2", "CK550 V2");
-            correctionAdd("CK550 v2", "CK550 V2");
-            correctionAdd("Ck550 v2", "CK550 V2");
-            correctionAdd("Ck550 V2", "CK550 V2");
-            correctionAdd("CK550V2", "CK550 V2");
-            correctionAdd("CK-550", "CK550 V2");
-            correctionAdd("ck-550", "CK550 V2");
-            correctionAdd("CK550", "CK550 V2");
-            correctionAdd("ck550", "CK550 V2");
-            correctionAdd("550", "CK550 V2");
+            correctionAdd("CK-550 V2", "CK550 V2 (100%)");
+            correctionAdd("CK 550 V2", "CK550 V2 (100%)");
+            correctionAdd("ck 550 v2", "CK550 V2 (100%)");
+            correctionAdd("CK 550 v2", "CK550 V2 (100%)");
+            correctionAdd("CK550 V2", "CK550 V2 (100%)");
+            correctionAdd("ck550 v2", "CK550 V2 (100%)");
+            correctionAdd("CK550 v2", "CK550 V2 (100%)");
+            correctionAdd("Ck550 v2", "CK550 V2 (100%)");
+            correctionAdd("Ck550 V2", "CK550 V2 (100%)");
+            correctionAdd("CK550V2", "CK550 V2 (100%)");
+            correctionAdd("CK-550", "CK550 V2 (100%)");
+            correctionAdd("ck-550", "CK550 V2 (100%)");
+            correctionAdd("CK550", "CK550 V2 (100%)");
+            correctionAdd("ck550", "CK550 V2 (100%)");
+            correctionAdd("550", "CK550 V2 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size
             // mechanical keyboard from Cooler Master.
@@ -94014,8 +94034,9 @@ namespace OverflowHelper.core
             //
             // (The Fn key is the one with the Cooler Master logo, two keys (or three?) to the right of the space bar.)
             //
-            correctionAdd("CK 552", "CK552");
-            correctionAdd("Ck552", "CK552");
+            correctionAdd("CK 552", "CK552 (100%)");
+            correctionAdd("CK552", "CK552 (100%)");
+            correctionAdd("Ck552", "CK552 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size low-profile
             // wired-only mechanical keyboard (Cherry MX).
@@ -94038,8 +94059,9 @@ namespace OverflowHelper.core
             //
             //   Cooler Master Portal
             //
-            correctionAdd("sk650", "SK650");
-            correctionAdd("Sk650", "SK650");
+            correctionAdd("SK650", "SK650 (100%)");
+            correctionAdd("sk650", "SK650 (100%)");
+            correctionAdd("Sk650", "SK650 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size low-profile
             // wired-only mechanical keyboard from Cooler Master.
@@ -94071,7 +94093,8 @@ namespace OverflowHelper.core
             //
             // (The Fn key is the one with the Cooler Master logo, two keys (or three?) to the right of the space bar.)
             //
-            correctionAdd("sk652", "SK652");
+            correctionAdd("SK652", "SK652 (100%)");
+            correctionAdd("sk652", "SK652 (100%)");
 
             // A 105-key (100%. Not true TKL) full-size low-profile
             // wired and wireless (Bluetooth only) mechanical
@@ -94385,15 +94408,14 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q13_pro>
             //
-            correctionAdd("Keychron Q13 Pro (100%)", "Keychron&nbsp;Q13&nbsp;Pro (100%)"); // Sort of identity mapping
-            correctionAdd("Keychron Q13 Pro", "Keychron&nbsp;Q13&nbsp;Pro (100%)");
-            correctionAdd("q13pro alice", "Keychron&nbsp;Q13&nbsp;Pro (100%)");
-            correctionAdd("Q13 Pro", "Keychron&nbsp;Q13&nbsp;Pro (100%)");
-            correctionAdd("q13 pro", "Keychron&nbsp;Q13&nbsp;Pro (100%)");
-            correctionAdd("q13pro", "Keychron&nbsp;Q13&nbsp;Pro (100%)");
-            correctionAdd("Q13Pro", "Keychron&nbsp;Q13&nbsp;Pro (100%)");
-            correctionAdd("Q13", "Keychron&nbsp;Q13&nbsp;Pro (100%)"); // Not 100% correct (though a Q13 doesn't exist. The other possible is Q13 Max)
-            correctionAdd("q13", "Keychron&nbsp;Q13&nbsp;Pro (100%)"); // Not 100% correct (though a Q13 doesn't exist. The other possible is Q13 Max)
+            correctionAdd("Keychron Q13 Pro", "Keychron Q13 Pro (100%)");
+            correctionAdd("q13pro alice", "Keychron Q13 Pro (100%)");
+            correctionAdd("Q13 Pro", "Keychron Q13 Pro (100%)");
+            correctionAdd("q13 pro", "Keychron Q13 Pro (100%)");
+            correctionAdd("q13pro", "Keychron Q13 Pro (100%)");
+            correctionAdd("Q13Pro", "Keychron Q13 Pro (100%)");
+            correctionAdd("Q13", "Keychron Q13 Pro (100%)"); // Not 100% correct (though a Q13 doesn't exist. The other possible is Q13 Max)
+            correctionAdd("q13", "Keychron Q13 Pro (100%)"); // Not 100% correct (though a Q13 doesn't exist. The other possible is Q13 Max)
 
             // A 107-key (100%. True full-size) crippled Alice layout
             // (a la Microsoft Natural Keyboard) wired and wireless
@@ -98942,8 +98964,9 @@ namespace OverflowHelper.core
             correctionAdd("Occasional", "occasional");
             correctionAdd("ocasional", "occasional");
 
-            correctionAdd("occassionally", "occasionally");
             correctionAdd("occasionnally", "occasionally");
+            correctionAdd("occassionally", "occasionally");
+            correctionAdd("Occassionally", "occasionally");
             correctionAdd("occationally", "occasionally");
             correctionAdd("ocassionally", "occasionally");
             correctionAdd("occisionally", "occasionally");
@@ -108534,6 +108557,8 @@ namespace OverflowHelper.core
             correctionAdd("skillful", "skilful");
 
             correctionAdd("skilfully", "skillfully");
+
+            correctionAdd("hushmic", "HushMic");
 
             correctionAdd("pervs", "perverts");
 
@@ -126706,9 +126731,11 @@ namespace OverflowHelper.core
 
             URL_Add("greedy algorithm for Egyptian fractions", "https://en.wikipedia.org/wiki/Greedy_algorithm_for_Egyptian_fractions");
 
+            URL_Add("apply", "https://en.wiktionary.org/wiki/apply#Verb");
+
             URL_Add("applying", "https://en.wiktionary.org/wiki/apply#Verb");
 
-            URL_Add("apply", "https://en.wiktionary.org/wiki/apply#Verb");
+            URL_Add("applied", "https://en.wiktionary.org/wiki/apply#Verb");
 
             URL_Add("Chevrolet Blazer", "https://en.wikipedia.org/wiki/Chevrolet_Blazer");
 
@@ -142412,9 +142439,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Lemokey X1 (85%)", "https://www.keychron.com/products/lemokey-x1-qmk-via-wired-mechanical-keyboard");
 
-            URL_Add("Keychron Lemokey X2", "https://www.lemokey.com/products/lemokey-x2-qmk-wired-mechanical-keyboard");
+            URL_Add("Keychron Lemokey X2 (100%)", "https://www.lemokey.com/products/lemokey-x2-qmk-wired-mechanical-keyboard");
 
-            URL_Add("Keychron Lemokey X3", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
+            URL_Add("Keychron Lemokey X3 (100%)", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
 
             URL_Add("Keychron Lemokey X4 (80%)", "https://www.lemokey.com/products/lemokey-x4-qmk-wired-mechanical-keyboard");
 
@@ -142498,7 +142525,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K15 Pro (85%)", "https://www.keychron.com/products/keychron-k15-pro-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;K17&nbsp;Pro", "https://www.keychron.com/products/keychron-k17-pro-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron K17 Pro (100%)", "https://www.keychron.com/products/keychron-k17-pro-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron K1 Max (85%)", "https://www.keychron.com/products/keychron-k1-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -142530,7 +142557,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K8 HE (85%)", "https://www.keychron.com/products/keychron-k8-he-wireless-magnetic-switch-custom-keyboard");
 
-            URL_Add("Keychron K10 HE", "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection");
+            URL_Add("Keychron K10 HE (100%)", "https://keychron.ca/products/keychron-k10-he-wireless-magnetic-switch-custom-keyboard-iso-layout-collection");
 
             URL_Add("Keychron K1 Ultra 8K (85%)", "https://www.keychron.com/products/keychron-k1-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -142544,9 +142571,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron K10 Ultra 8K (105%)", "https://www.keychron.com/products/keychron-k10-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron R6", "https://www.keychron.com/collections/vintage-keyboards/products/keychron-r6-qmk-wireless-mechanical-keyboard");
+            URL_Add("Keychron R6 (100%)", "https://www.keychron.com/collections/vintage-keyboards/products/keychron-r6-qmk-wireless-mechanical-keyboard");
 
-            URL_Add("Keychron Q12 HE", "https://www.keychron.com/products/keychron-q12-he-qmk-wireless-custom-keyboard");
+            URL_Add("Keychron Q12 HE (100%)", "https://www.keychron.com/products/keychron-q12-he-qmk-wireless-custom-keyboard");
 
             URL_Add("Keychron Q1 (80%)", "https://www.keychron.com/products/keychron-q1-qmk-custom-mechanical-keyboard-iso-layout-collection"); // Old: <https://www.keychron.com/products/keychron-q1>
 
@@ -142588,9 +142615,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q10 Pro (85%)", "https://www.keychron.com/products/keychron-q10-pro-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q13&nbsp;Pro (100%)", "https://www.keychron.com/products/keychron-q13-pro-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q13 Pro (100%)", "https://www.keychron.com/products/keychron-q13-pro-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q14&nbsp;Pro", "https://www.keychron.com/products/keychron-q14-pro-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q14 Pro (100%)", "https://www.keychron.com/products/keychron-q14-pro-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron Q0 Max", "https://www.keychron.com/products/keychron-q0-max-qmk-custom-number-pad");
 
@@ -142608,11 +142635,11 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q10 Max (85%)", "https://www.keychron.com/products/keychron-q10-max-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q12&nbsp;Max", "https://www.keychron.com/products/keychron-q12-max-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q12 Max (100%)", "https://www.keychron.com/products/keychron-q12-max-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron&nbsp;Q13&nbsp;Max (100%)", "https://www.keychron.com/products/keychron-q13-max-alice-layout-qmk-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q14&nbsp;Max", "https://www.keychron.com/products/keychron-q14-max-qmk-via-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q14 Max (100%)", "https://www.keychron.com/products/keychron-q14-max-qmk-via-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron Q15 Max (60%)", "https://www.keychron.com/products/keychron-q15-max-qmk-wireless-custom-mechanical-keyboard");
 
@@ -142758,25 +142785,25 @@ namespace OverflowHelper.core
 
             URL_Add("SK630 (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk630/");
 
-            URL_Add("SK650", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk650/");
+            URL_Add("SK650 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk650/");
 
-            URL_Add("SK652", "https://www.coolermaster.com/en-global/products/sk652.html"); // Old: <https://www.coolermaster.com/catalog/peripheral/keyboards/sk652/>
+            URL_Add("SK652 (100%)", "https://www.coolermaster.com/en-global/products/sk652.html"); // Old: <https://www.coolermaster.com/catalog/peripheral/keyboards/sk652/>
 
             URL_Add("SK653", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk653/");
 
-            URL_Add("CK350", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck350/");
+            URL_Add("CK350 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck350/");
 
-            URL_Add("CK352", "https://www.coolermaster.com/en-sg/products/ck352/"); // Old: https://www.coolermaster.com/de-de/products/ck352/. Even older: https://www.coolermaster.com/catalog/peripheral/keyboards/ck352/
+            URL_Add("CK352 (100%)", "https://www.coolermaster.com/en-sg/products/ck352/"); // Old: https://www.coolermaster.com/de-de/products/ck352/. Even older: https://www.coolermaster.com/catalog/peripheral/keyboards/ck352/
 
             URL_Add("CK530 V2 (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck530-v2/");
 
-            URL_Add("CK351", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck351/");
+            URL_Add("CK351 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck351/");
 
-            URL_Add("CK550 V1", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck550/");
+            URL_Add("CK550 V1 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck550/");
 
-            URL_Add("CK550 V2", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck550-v2/");
+            URL_Add("CK550 V2 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck550-v2/");
 
-            URL_Add("CK552", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck552/");
+            URL_Add("CK552 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck552/");
 
             URL_Add("CK720 (65%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck720/");
 
@@ -151741,6 +151768,8 @@ namespace OverflowHelper.core
             URL_Add("Andrew File System", "https://en.wikipedia.org/wiki/Andrew_File_System");
 
             URL_Add("Encrypting File System", "https://en.wikipedia.org/wiki/Encrypting_File_System");
+
+            URL_Add("HushMic", "https://github.com/Fovty/HushMic");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -160946,6 +160975,7 @@ namespace OverflowHelper.core
             //
             // The URL is to a blog post.
             //
+            correctionAdd("CK550 V2 (100%)_", "CK550 V2_");
             correctionAdd("the CK550 V2_", "CK550 V2_");
             correctionAdd("CK550_", "CK550 V2_");
             correctionAdd("ck550_", "CK550 V2_");
@@ -168247,6 +168277,9 @@ namespace OverflowHelper.core
 
             correctionAdd("reusme_", "resume_");
 
+            // The common noun (not specifically the electronics concept)
+            correctionAdd("decoupeling_", "decoupling_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -173012,6 +173045,8 @@ namespace OverflowHelper.core
 
             URL_Add("Grand Theft Auto VI_", "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI");
 
+            URL_Add("decoupling_", "https://en.wiktionary.org/wiki/decoupling#Noun");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -177715,6 +177750,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "hall_effect_playground"
             //
+            correctionAdd("Keychron K10 HE (100%)__", "Keychron K10 HE source code__");
             correctionAdd("Keychron K10 HE__", "Keychron K10 HE source code__");
 
             // For the cross-reference to the source code
@@ -181480,6 +181516,7 @@ namespace OverflowHelper.core
             correctionAdd("B Pro___", "Keychron B Pro series___");
             correctionAdd("b pro___", "Keychron B Pro series___");
 
+            correctionAdd("Keychron Lemokey X3 (100%)___", "Lemokey X series___"); // For the cross-reference
             correctionAdd("Keychron Lemokey X3___", "Lemokey X series___"); // For the cross-reference
             correctionAdd("X series___", "Lemokey X series___");
 
