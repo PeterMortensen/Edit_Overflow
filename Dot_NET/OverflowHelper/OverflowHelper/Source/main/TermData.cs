@@ -9282,6 +9282,8 @@ namespace OverflowHelper.core
             // A true typo
             correctionAdd("agrue", "argue");
 
+            correctionAdd("Arguably", "arguably");
+
             // Alternative URL:
             //
             //   <https://en.wiktionary.org/wiki/argument#Noun> (8.)
@@ -29091,6 +29093,7 @@ namespace OverflowHelper.core
             correctionAdd("Post mortem", "post mortem");
 
             correctionAdd("post-hoc", "post hoc");
+            correctionAdd("Post Hoc", "post hoc");
             correctionAdd("posthoc", "post hoc");
 
             correctionAdd("Ad Hoc", "ad hoc");
@@ -44682,7 +44685,11 @@ namespace OverflowHelper.core
             correctionAdd("Principal Component Analysis", "principal component analysis");
             correctionAdd("Principle Component Analysis", "principal component analysis");
             correctionAdd("principle component analysis", "principal component analysis");
+            correctionAdd("Principal component analysis", "principal component analysis");
+            correctionAdd("Principle component Analysis", "principal component analysis");
+            correctionAdd("Principle component analysis", "principal component analysis");
             correctionAdd("PCA", "principal component analysis");
+            correctionAdd("pca", "principal component analysis");
 
             // A matrix thing
             correctionAdd("Principal minor", "principal minor");
@@ -44697,6 +44704,10 @@ namespace OverflowHelper.core
             correctionAdd("eigen decomposition", "eigenvalue decomposition");
             correctionAdd("eigendecomposition", "eigenvalue decomposition");
 
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors>
+            //
             correctionAdd("Eigenvalues", "eigenvalues");
 
             correctionAdd("eigen vectors", "eigenvectors");
@@ -51297,6 +51308,14 @@ namespace OverflowHelper.core
             correctionAdd("peak to peak", "peak-to-peak");
             correctionAdd("pk-pk", "peak-to-peak");
             correctionAdd("p-p", "peak-to-peak");
+
+            correctionAdd("variasion", "variation");
+            correctionAdd("variaton", "variation");
+            correctionAdd("varition", "variation");
+
+            correctionAdd("veriations", "variations");
+
+            correctionAdd("variabiilty", "variability");
 
             correctionAdd("Variance", "variance");
 
@@ -73401,12 +73420,6 @@ namespace OverflowHelper.core
             correctionAdd("lvm", "logical volume management");
 
             correctionAdd("Snaplogic", "SnapLogic");
-
-            correctionAdd("variasion", "variation");
-            correctionAdd("variaton", "variation");
-            correctionAdd("varition", "variation");
-
-            correctionAdd("veriations", "variations");
 
             // A programming language
             correctionAdd("objective - c", "Objective-C");
@@ -97111,6 +97124,7 @@ namespace OverflowHelper.core
             correctionAdd("bidimentional", "two-dimensional");
             correctionAdd("2 dimension", "two-dimensional");
             correctionAdd("2 dim", "two-dimensional");
+            correctionAdd("2 DIM", "two-dimensional");
             correctionAdd("2dim", "two-dimensional");
             correctionAdd("2-d", "two-dimensional");
             correctionAdd("2-D", "two-dimensional");
@@ -97150,6 +97164,7 @@ namespace OverflowHelper.core
             correctionAdd("multidimensoinal", "multidimensional");
             correctionAdd("multidemensional", "multidimensional");
             correctionAdd("multidiminsional", "multidimensional");
+            correctionAdd("multidimentional", "multidimensional");
             correctionAdd("mutidimensoinal", "multidimensional");
             correctionAdd("multi-dimm", "multidimensional");
 
@@ -113485,8 +113500,6 @@ namespace OverflowHelper.core
 
             URL_Add("squirrel", "https://en.wikipedia.org/wiki/Red_squirrel");
 
-            URL_Add("variation", "https://en.wiktionary.org/wiki/variation#Noun");
-
             URL_Add("DDR4 SDRAM", "https://en.wikipedia.org/wiki/DDR4_SDRAM");
 
             URL_Add("Facebook Messenger", "https://en.wikipedia.org/wiki/Facebook_Messenger");
@@ -114798,8 +114811,6 @@ namespace OverflowHelper.core
             URL_Add("suicide", "https://en.wiktionary.org/wiki/suicide#Noun");
 
             URL_Add("undesirable", "https://en.wiktionary.org/wiki/undesirable#Adjective");
-
-            URL_Add("variant", "https://en.wiktionary.org/wiki/variant#Noun");
 
             URL_Add("branch prediction", "https://en.wikipedia.org/wiki/Branch_predictor");
 
@@ -117104,8 +117115,6 @@ namespace OverflowHelper.core
             URL_Add("gamma distribution", "https://en.wikipedia.org/wiki/Gamma_distribution");
 
             URL_Add("probability distribution function", "https://en.wikipedia.org/wiki/Probability_distribution_function");
-
-            URL_Add("variational Bayes", "https://en.wikipedia.org/wiki/Variational_Bayesian_methods");
 
             URL_Add("EViews", "https://en.wikipedia.org/wiki/EViews");
 
@@ -121455,8 +121464,6 @@ namespace OverflowHelper.core
 
             URL_Add("semiformal", "https://en.wiktionary.org/wiki/semiformal#Adjective");
 
-            URL_Add("variational autoencoder", "https://en.wikipedia.org/wiki/Variational_autoencoder");
-
             URL_Add("Auto-GPT", "https://en.wikipedia.org/wiki/Auto-GPT");
 
             URL_Add("consist", "https://en.wiktionary.org/wiki/consist#Verb");
@@ -121717,10 +121724,6 @@ namespace OverflowHelper.core
 
             URL_Add("Hostinger", "https://en.wikipedia.org/wiki/Hostinger");
 
-            URL_Add("argument", "https://en.wikipedia.org/wiki/Parameter_%28computer_programming%29");
-
-            URL_Add("arguments", "https://en.wiktionary.org/wiki/argument#Noun");
-
             URL_Add("IP camera", "https://en.wikipedia.org/wiki/IP_camera");
 
             URL_Add("nonconsistent", "https://en.wiktionary.org/wiki/nonconsistent#Adjective");
@@ -121896,10 +121899,6 @@ namespace OverflowHelper.core
             URL_Add("premarriage", "https://en.wiktionary.org/wiki/premarriage#Adjective");
 
             URL_Add("thank you very much", "https://en.wiktionary.org/wiki/thank_you_so_much#Interjection");
-
-            URL_Add("variable", "https://en.wikipedia.org/wiki/Variable_%28computer_science%29");
-
-            URL_Add("variables", "https://en.wikipedia.org/wiki/Variable_%28computer_science%29");
 
             URL_Add("CodeXL", "https://en.wikipedia.org/wiki/CodeXL");
 
@@ -123279,8 +123278,6 @@ namespace OverflowHelper.core
 
             URL_Add("radical", "https://en.wiktionary.org/wiki/rad#Adjective");
 
-            URL_Add("variable refresh rate", "https://en.wikipedia.org/wiki/Variable_refresh_rate");
-
             URL_Add("appalled", "https://en.wiktionary.org/wiki/appalled#Adjective");
 
             URL_Add("legacy", "https://en.wiktionary.org/wiki/legacy#Adjective");
@@ -123590,8 +123587,6 @@ namespace OverflowHelper.core
             URL_Add("lakhs", "https://en.wiktionary.org/wiki/lakh#Numeral");
 
             URL_Add("misspecified", "https://en.wiktionary.org/wiki/misspecify#Verb");
-
-            URL_Add("variance", "https://en.wikipedia.org/wiki/Variance");
 
             URL_Add("attention-grabbing", "https://en.wiktionary.org/wiki/attention-grabbing#Adjective");
 
@@ -124824,8 +124819,6 @@ namespace OverflowHelper.core
             URL_Add("inferring", "https://en.wiktionary.org/wiki/infer#Verb");
 
             URL_Add("everlasting", "https://en.wiktionary.org/wiki/everlasting#Adjective");
-
-            URL_Add("argue", "https://en.wiktionary.org/wiki/argue#Verb");
 
             URL_Add("talking points", "https://en.wiktionary.org/wiki/talking_point#Noun");
 
@@ -126907,8 +126900,6 @@ namespace OverflowHelper.core
 
             URL_Add("Karachi", "https://en.wikipedia.org/wiki/Karachi");
 
-            URL_Add("variations", "https://en.wiktionary.org/wiki/variation#Noun");
-
             URL_Add("pairing up", "https://en.wiktionary.org/wiki/pair_up#Verb");
 
             URL_Add("top of the line", "https://en.wiktionary.org/wiki/top_of_the_line#Adjective");
@@ -127540,8 +127531,6 @@ namespace OverflowHelper.core
             URL_Add("done", "https://en.wiktionary.org/wiki/do#Verb");
 
             URL_Add("undid", "https://en.wiktionary.org/wiki/undo#Verb");
-
-            URL_Add("variadic function", "https://en.wikipedia.org/wiki/Variadic_function");
 
             URL_Add("colour", "https://en.wiktionary.org/wiki/colour#Noun");
 
@@ -129651,9 +129640,31 @@ namespace OverflowHelper.core
 
             URL_Add("run-length encoding", "https://en.wikipedia.org/wiki/Run-length_encoding");
 
+            URL_Add("variable", "https://en.wikipedia.org/wiki/Variable_%28computer_science%29");
+
+            URL_Add("variables", "https://en.wikipedia.org/wiki/Variable_%28computer_science%29");
+
+            URL_Add("variable refresh rate", "https://en.wikipedia.org/wiki/Variable_refresh_rate");
+
             URL_Add("variable-length encoding", "https://en.wikipedia.org/wiki/Power_ISA");
 
             URL_Add("variable-length array", "https://en.wikipedia.org/wiki/Variable-length_array");
+
+            URL_Add("variant", "https://en.wiktionary.org/wiki/variant#Noun");
+
+            URL_Add("variance", "https://en.wikipedia.org/wiki/Variance");
+
+            URL_Add("variability", "https://en.wiktionary.org/wiki/variability#Noun");
+
+            URL_Add("variation", "https://en.wiktionary.org/wiki/variation#Noun");
+
+            URL_Add("variations", "https://en.wiktionary.org/wiki/variation#Noun");
+
+            URL_Add("variational Bayes", "https://en.wikipedia.org/wiki/Variational_Bayesian_methods");
+
+            URL_Add("variational autoencoder", "https://en.wikipedia.org/wiki/Variational_autoencoder");
+
+            URL_Add("variadic function", "https://en.wikipedia.org/wiki/Variadic_function");
 
             URL_Add("focal length", "https://en.wiktionary.org/wiki/focal_length#Noun");
 
@@ -138870,6 +138881,14 @@ namespace OverflowHelper.core
             URL_Add("position-independent executable", "https://en.wikipedia.org/wiki/Position-independent_code");
 
             URL_Add("argument-dependent lookup", "https://en.cppreference.com/w/cpp/language/adl");
+
+            URL_Add("argue", "https://en.wiktionary.org/wiki/argue#Verb");
+
+            URL_Add("arguably", "https://en.wiktionary.org/wiki/arguably#Adverb");
+
+            URL_Add("argument", "https://en.wikipedia.org/wiki/Parameter_%28computer_programming%29");
+
+            URL_Add("arguments", "https://en.wiktionary.org/wiki/argument#Noun");
 
             URL_Add("light-dependent resistor", "https://en.wikipedia.org/wiki/Photoresistor");
 
@@ -165003,6 +165022,7 @@ namespace OverflowHelper.core
             correctionAdd("scrren_", "screen_");
             correctionAdd("sreen_", "screen_");
             correctionAdd("scree_", "screen_");
+            correctionAdd("Scree_", "screen_");
 
             // The noun
             correctionAdd("Brute Force_", "brute force_");
