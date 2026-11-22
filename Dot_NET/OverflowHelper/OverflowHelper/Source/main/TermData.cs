@@ -10595,6 +10595,8 @@ namespace OverflowHelper.core
             correctionAdd("enourmous", "enormous");
             correctionAdd("enornous", "enormous");
 
+            correctionAdd("gynormous", "ginormous");
+
             correctionAdd("Data", "data");
             correctionAdd("date", "data");
             correctionAdd("deta", "data");
@@ -11876,6 +11878,9 @@ namespace OverflowHelper.core
             // A Mac spreadsheet program
             correctionAdd("numbers", "Numbers");
 
+            correctionAdd("Evantually", "eventually");
+            correctionAdd("Eventually", "eventually");
+            correctionAdd("evantually", "eventually");
             correctionAdd("eventully", "eventually");
             correctionAdd("Eentually", "eventually");
             correctionAdd("eentually", "eventually");
@@ -33532,6 +33537,8 @@ namespace OverflowHelper.core
             correctionAdd("summoning", "summary");
             correctionAdd("sumorey", "summary");
 
+            correctionAdd("In summary", "in summary");
+
             correctionAdd("summarize", "summarise");
             correctionAdd("summerise", "summarise");
             correctionAdd("summerize", "summarise");
@@ -39466,9 +39473,12 @@ namespace OverflowHelper.core
             correctionAdd("Wasserstein-Distance", "Wasserstein metric");
 
             correctionAdd("Levenshtein_distancy", "Levenshtein distance");
+            correctionAdd("Levenstein distance", "Levenshtein distance");
+            correctionAdd("levenstein distance", "Levenshtein distance");
             correctionAdd("Levenshtein", "Levenshtein distance");
             correctionAdd("LEvenshtein", "Levenshtein distance");
             correctionAdd("Leveshtein", "Levenshtein distance");
+            correctionAdd("Levenstein", "Levenshtein distance");
 
             correctionAdd("FLRW", "Friedmann–Lemaître–Robertson–Walker metric");
 
@@ -39477,6 +39487,13 @@ namespace OverflowHelper.core
             correctionAdd("wrapp", "wrap");
             correctionAdd("Wrapp", "wrap");
             correctionAdd("warp", "wrap");
+
+            correctionAdd("wraping", "wrapping");
+            correctionAdd("warping", "wrapping");
+
+            correctionAdd("wraped", "wrapped");
+
+            correctionAdd("Wrapper", "wrapper");
 
             correctionAdd("re-wrap", "rewrap");
 
@@ -42027,6 +42044,8 @@ namespace OverflowHelper.core
 
             correctionAdd("co-authoring", "coauthoring");
 
+            correctionAdd("co-authored", "coauthored");
+
             correctionAdd("co-authorship", "coauthorship");
 
             correctionAdd("re-wording", "rewording");
@@ -44121,11 +44140,6 @@ namespace OverflowHelper.core
             correctionAdd("un-optimal", "nonoptimal");
             correctionAdd("unoptimal", "nonoptimal");
 
-            correctionAdd("wraped", "wrapped");
-
-            correctionAdd("wraping", "wrapping");
-            correctionAdd("warping", "wrapping");
-
             correctionAdd("necessaries", "necessary");
             correctionAdd("necesessary", "necessary");
             correctionAdd("necessesary", "necessary");
@@ -44798,6 +44812,7 @@ namespace OverflowHelper.core
             correctionAdd("pca", "principal component analysis");
 
             correctionAdd("Principal Components", "principal components");
+            correctionAdd("principle components", "principal components");
             correctionAdd("princ. comps", "principal components");
             correctionAdd("PC's", "principal components");
             correctionAdd("PCs", "principal components");
@@ -44820,17 +44835,25 @@ namespace OverflowHelper.core
             // A matrix thing
             correctionAdd("eigen value", "eigenvalue");
             correctionAdd("Eigen value", "eigenvalue");
-
-            // A matrix thing
-            correctionAdd("Eigen decomposition", "eigenvalue decomposition");
-            correctionAdd("eigen decomposition", "eigenvalue decomposition");
-            correctionAdd("eigendecomposition", "eigenvalue decomposition");
+            correctionAdd("EIG", "eigenvalue");
+            correctionAdd("eig", "eigenvalue");
 
             // Alternative URLs:
             //
             //   <https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors>
             //
             correctionAdd("Eigenvalues", "eigenvalues");
+            correctionAdd("EIGs", "eigenvalues");
+            correctionAdd("eigs", "eigenvalues");
+
+            // A matrix thing
+            correctionAdd("Eigen decomposition", "eigenvalue decomposition");
+            correctionAdd("eigen decomposition", "eigenvalue decomposition");
+            correctionAdd("eigendecomposition", "eigenvalue decomposition");
+            correctionAdd("eig decomposition", "eigenvalue decomposition");
+
+            correctionAdd("Cuppen's divide-and-conquer algorithm", "divide-and-conquer eigenvalue algorithm");
+            correctionAdd("Cuppen's divide and conquer algorithm", "divide-and-conquer eigenvalue algorithm");
 
             correctionAdd("eigen vectors", "eigenvectors");
 
@@ -80374,7 +80397,10 @@ namespace OverflowHelper.core
 
             correctionAdd("MCMC", "Markov chain Monte Carlo");
 
-            correctionAdd("Hidden Markov Model", "Hidden Markov model");
+            correctionAdd("Hidden Markov Model", "hidden Markov model");
+            correctionAdd("Hidden Markov model", "hidden Markov model");
+            correctionAdd("hidden markov model", "hidden Markov model");
+            correctionAdd("HMM", "hidden Markov model");
 
             // COM (Microsoft's Component Object Model)
             correctionAdd("dcom", "DCOM");
@@ -94588,9 +94614,10 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/qmk/qmk_firmware/tree/master/keyboards/monsgeek/m5>
             //
-            correctionAdd("monsgeek m5", "MonsGeek M5");
-            correctionAdd("Monsgeek M5", "MonsGeek M5");
-            correctionAdd("MONSGEEK M5", "MonsGeek M5");
+            correctionAdd("MonsGeek M5", "MonsGeek M5 (105%)");
+            correctionAdd("monsgeek m5", "MonsGeek M5 (105%)");
+            correctionAdd("Monsgeek M5", "MonsGeek M5 (105%)");
+            correctionAdd("MONSGEEK M5", "MonsGeek M5 (105%)");
 
             // A 109-key (105%. Not true TKL) full-size high-end
             // mechanical keyboard from Ducky.
@@ -94628,13 +94655,14 @@ namespace OverflowHelper.core
             //   <https://www.rtings.com/keyboard/reviews/ducky/shine-7>
             //     Ducky Shine 7 RTINGS.com review
             //
-            correctionAdd("Ducky Shine", "Ducky Shine 7");
-            correctionAdd("Ducky 7", "Ducky Shine 7");
-            correctionAdd("ducky 7", "Ducky Shine 7");
-            correctionAdd("Shine 7", "Ducky Shine 7");
-            correctionAdd("shine 7", "Ducky Shine 7");
-            correctionAdd("Shine", "Ducky Shine 7");
-            correctionAdd("shine", "Ducky Shine 7");
+            correctionAdd("Ducky Shine 7", "Ducky Shine 7 (105%)");
+            correctionAdd("Ducky Shine", "Ducky Shine 7 (105%)");
+            correctionAdd("Ducky 7", "Ducky Shine 7 (105%)");
+            correctionAdd("ducky 7", "Ducky Shine 7 (105%)");
+            correctionAdd("Shine 7", "Ducky Shine 7 (105%)");
+            correctionAdd("shine 7", "Ducky Shine 7 (105%)");
+            correctionAdd("Shine", "Ducky Shine 7 (105%)");
+            correctionAdd("shine", "Ducky Shine 7 (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired-only
             // QMK/Via-capable mechanical keyboard from Keychron.
@@ -94689,10 +94717,11 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=5F3ZmU-5ZXA&t=2m35s>
             //     A sound test (by Thomas Ran)
             //
-            correctionAdd("keychron Q6", "Keychron Q6");
-            correctionAdd("Q series", "Keychron Q6"); // For the cross-reference
-            correctionAdd("q6", "Keychron Q6");
-            correctionAdd("Q6", "Keychron Q6");
+            correctionAdd("Keychron Q6", "Keychron Q6 (105%)");
+            correctionAdd("keychron Q6", "Keychron Q6 (105%)");
+            correctionAdd("Q series", "Keychron Q6 (105%)"); // For the cross-reference
+            correctionAdd("q6", "Keychron Q6 (105%)");
+            correctionAdd("Q6", "Keychron Q6 (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (only Bluetooth) QMK/Via-capable
@@ -94750,14 +94779,14 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-q-pro-series-bluetooth-firmware>
             //
-            correctionAdd("Q Pro series", "Keychron Q6 Pro"); // For the cross-reference
-            correctionAdd("Q6&nbsp;Pro", "Keychron Q6 Pro");
-            correctionAdd("six pro", "Keychron Q6 Pro");
-            correctionAdd("six Pro", "Keychron Q6 Pro");
-            correctionAdd("q6 pro", "Keychron Q6 Pro");
-            correctionAdd("Q6 Pro", "Keychron Q6 Pro");
-            correctionAdd("Q6 pro", "Keychron Q6 Pro");
-            correctionAdd("Q6pro", "Keychron Q6 Pro");
+            correctionAdd("Keychron Q6 Pro", "Keychron Q6 Pro (105%)"); // For the cross-reference
+            correctionAdd("Q Pro series", "Keychron Q6 Pro (105%)"); // For the cross-reference
+            correctionAdd("six pro", "Keychron Q6 Pro (105%)");
+            correctionAdd("six Pro", "Keychron Q6 Pro (105%)");
+            correctionAdd("q6 pro", "Keychron Q6 Pro (105%)");
+            correctionAdd("Q6 Pro", "Keychron Q6 Pro (105%)");
+            correctionAdd("Q6 pro", "Keychron Q6 Pro (105%)");
+            correctionAdd("Q6pro", "Keychron Q6 Pro (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -94906,22 +94935,22 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=fZCRySY2ZRI&t=12m44s>
             //     Via clone demo
             //
-            correctionAdd("keychron q6 max", "Keychron Q6 Max");
-            correctionAdd("Q Max series", "Keychron Q6 Max"); // For the cross-reference
-            correctionAdd("Q6&nbsp;Max", "Keychron Q6 Max");
-            correctionAdd("Q6 Max Pro", "Keychron Q6 Max");
-            correctionAdd("q6 max pro", "Keychron Q6 Max");
-            correctionAdd("q6 max", "Keychron Q6 Max");
-            correctionAdd("Q6 Max", "Keychron Q6 Max");
-            correctionAdd("Q6 MAX", "Keychron Q6 Max");
-            correctionAdd("Q6 max", "Keychron Q6 Max");
-            correctionAdd("Q6-MAX", "Keychron Q6 Max");
-            correctionAdd("Q6 MAx", "Keychron Q6 Max");
-            correctionAdd("Q6MAX", "Keychron Q6 Max");
-            correctionAdd("q6max", "Keychron Q6 Max");
-            correctionAdd("QMAX6", "Keychron Q6 Max");
-            correctionAdd("Q6max", "Keychron Q6 Max");
-            correctionAdd("q6ax", "Keychron Q6 Max");
+            correctionAdd("Keychron Q6 Max", "Keychron Q6 Max (105%)");
+            correctionAdd("keychron q6 max", "Keychron Q6 Max (105%)");
+            correctionAdd("Q Max series", "Keychron Q6 Max (105%)"); // For the cross-reference
+            correctionAdd("Q6 Max Pro", "Keychron Q6 Max (105%)");
+            correctionAdd("q6 max pro", "Keychron Q6 Max (105%)");
+            correctionAdd("q6 max", "Keychron Q6 Max (105%)");
+            correctionAdd("Q6 Max", "Keychron Q6 Max (105%)");
+            correctionAdd("Q6 MAX", "Keychron Q6 Max (105%)");
+            correctionAdd("Q6 max", "Keychron Q6 Max (105%)");
+            correctionAdd("Q6-MAX", "Keychron Q6 Max (105%)");
+            correctionAdd("Q6 MAx", "Keychron Q6 Max (105%)");
+            correctionAdd("Q6MAX", "Keychron Q6 Max (105%)");
+            correctionAdd("q6max", "Keychron Q6 Max (105%)");
+            correctionAdd("QMAX6", "Keychron Q6 Max (105%)");
+            correctionAdd("Q6max", "Keychron Q6 Max (105%)");
+            correctionAdd("q6ax", "Keychron Q6 Max (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
@@ -95025,16 +95054,17 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron_q6_ultra_ansi/keychron_q6_ultra_ansi.keymap#L238>
             //     Note: In a new Git branch, "rtl8762g"
             //
-            correctionAdd("Keychron Q6 ULTRA", "Keychron Q6 Ultra 8K");
-            correctionAdd("KEYCRON Q6 ULTRA", "Keychron Q6 Ultra 8K");
-            correctionAdd("Q6 Max Ultra", "Keychron Q6 Ultra 8K");
-            correctionAdd("Q6 Ultra 8K", "Keychron Q6 Ultra 8K");
-            correctionAdd("Q6 Ultra 8k", "Keychron Q6 Ultra 8K");
-            correctionAdd("Q6 Ultra AK", "Keychron Q6 Ultra 8K"); // Simulated intelligence transcription error (YouTube)
-            correctionAdd("Q6 ultra 8k", "Keychron Q6 Ultra 8K");
-            correctionAdd("Q6 Ultra", "Keychron Q6 Ultra 8K");
-            correctionAdd("Q6 ultra", "Keychron Q6 Ultra 8K");
-            correctionAdd("Q6 ULTRA", "Keychron Q6 Ultra 8K");
+            correctionAdd("Keychron Q6 Ultra 8K", "Keychron Q6 Ultra 8K (105%)");
+            correctionAdd("Keychron Q6 ULTRA", "Keychron Q6 Ultra 8K (105%)");
+            correctionAdd("KEYCRON Q6 ULTRA", "Keychron Q6 Ultra 8K (105%)");
+            correctionAdd("Q6 Max Ultra", "Keychron Q6 Ultra 8K (105%)");
+            correctionAdd("Q6 Ultra 8K", "Keychron Q6 Ultra 8K (105%)");
+            correctionAdd("Q6 Ultra 8k", "Keychron Q6 Ultra 8K (105%)");
+            correctionAdd("Q6 Ultra AK", "Keychron Q6 Ultra 8K (105%)"); // Simulated intelligence transcription error (YouTube)
+            correctionAdd("Q6 ultra 8k", "Keychron Q6 Ultra 8K (105%)");
+            correctionAdd("Q6 Ultra", "Keychron Q6 Ultra 8K (105%)");
+            correctionAdd("Q6 ultra", "Keychron Q6 Ultra 8K (105%)");
+            correctionAdd("Q6 ULTRA", "Keychron Q6 Ultra 8K (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired-only
             // closed source (but with Via support) mechanical
@@ -95461,7 +95491,6 @@ namespace OverflowHelper.core
             correctionAdd("keychron V6 Max", "Keychron V6 Max");
             correctionAdd("KEYCHRON V6 MAX", "Keychron V6 Max");
             correctionAdd("V Max series", "Keychron V6 Max"); // For the cross-reference
-            correctionAdd("V6&nbsp;Max", "Keychron V6 Max");
             correctionAdd("V 6 max", "Keychron V6 Max");
             correctionAdd("V6 Max", "Keychron V6 Max");
             correctionAdd("v6 max", "Keychron V6 Max");
@@ -103556,6 +103585,10 @@ namespace OverflowHelper.core
 
             correctionAdd("lxc", "LXC");
 
+            correctionAdd("Optical Character Recognition", "OCR");
+            correctionAdd("optical character recognition", "OCR");
+            correctionAdd("Optimal Character Recognition", "OCR"); // !!!!!
+            correctionAdd("optimal character recognition", "OCR"); // !!!!!
             correctionAdd("ocr", "OCR");
 
             correctionAdd("odbc", "ODBC");
@@ -103563,8 +103596,8 @@ namespace OverflowHelper.core
             correctionAdd("konqueror", "Konqueror");
 
             correctionAdd("constitude", "constitute");
-            correctionAdd("constitue", "constitute");
             correctionAdd("comstitute", "constitute");
+            correctionAdd("constitue", "constitute");
 
             correctionAdd("constiutional", "constitutional");
 
@@ -114121,6 +114154,8 @@ namespace OverflowHelper.core
 
             URL_Add("enormous", "https://en.wiktionary.org/wiki/enormous#Adjective");
 
+            URL_Add("ginormous", "https://en.wiktionary.org/wiki/ginormous#Adjective");
+
             URL_Add("outweigh", "https://en.wiktionary.org/wiki/outweigh#Verb");
 
             URL_Add("stories", "https://en.wiktionary.org/wiki/story#Noun"); // Old: https://en.wiktionary.org/wiki/story
@@ -114642,8 +114677,6 @@ namespace OverflowHelper.core
             URL_Add("parboiled", "https://en.wiktionary.org/wiki/parboil#Verb");
 
             URL_Add("screencast", "https://en.wiktionary.org/wiki/screencast#Noun");
-
-            URL_Add("shrinkwrap", "https://en.wiktionary.org/wiki/shrinkwrap#Verb");
 
             URL_Add("swag", "https://en.wiktionary.org/wiki/swag#Noun_3");
 
@@ -115741,8 +115774,6 @@ namespace OverflowHelper.core
 
             URL_Add("vegetarian", "https://en.wiktionary.org/wiki/vegetarian#Adjective");
 
-            URL_Add("wrapped", "https://en.wiktionary.org/wiki/wrap#Verb");
-
             URL_Add("hospitalised", "https://en.wiktionary.org/wiki/hospitalise#Verb");
 
             URL_Add("global variables", "https://en.wikipedia.org/wiki/Global_variable");
@@ -115805,9 +115836,53 @@ namespace OverflowHelper.core
 
             URL_Add("whiny", "https://en.wiktionary.org/wiki/whiny#Adjective");
 
+            URL_Add("shrinkwrap", "https://en.wiktionary.org/wiki/shrinkwrap#Verb");
+
             URL_Add("wrap", "https://en.wiktionary.org/wiki/wrap#Verb");
 
             URL_Add("wrapping", "https://en.wiktionary.org/wiki/wrap#Verb");
+
+            URL_Add("wrapped", "https://en.wiktionary.org/wiki/wrap#Verb");
+
+            URL_Add("wrapper", "https://en.wiktionary.org/wiki/wrapper#Noun");
+
+            URL_Add("word wrap", "https://en.wiktionary.org/wiki/word_wrap#Verb");
+
+            URL_Add("writing on the wall", "https://en.wiktionary.org/wiki/writing_on_the_wall#Noun");
+
+            URL_Add("write", "https://en.wiktionary.org/wiki/write#Verb");
+
+            URL_Add("writing", "https://en.wiktionary.org/wiki/writing#Verb");
+
+            URL_Add("wrote", "https://en.wiktionary.org/wiki/write#Verb");
+
+            URL_Add("writers", "https://en.wiktionary.org/wiki/writer#Noun");
+
+            URL_Add("miswriting", "https://en.wiktionary.org/wiki/miswrite#Verb");
+
+            URL_Add("self-written", "https://en.wikipedia.org/wiki/Autobiography");
+
+            URL_Add("write off", "https://en.wiktionary.org/wiki/write_off#Verb");
+
+            URL_Add("write-up", "https://en.wiktionary.org/wiki/write-up#Noun");
+
+            URL_Add("write-ups", "https://en.wiktionary.org/wiki/write-up#Noun");
+
+            URL_Add("handwrite", "https://en.wiktionary.org/wiki/handwrite#Verb");
+
+            URL_Add("typewriter", "https://en.wikipedia.org/wiki/Typewriter");
+
+            URL_Add("handwriting", "https://en.wiktionary.org/wiki/handwriting#Noun");
+
+            URL_Add("technical writing", "https://en.wikipedia.org/wiki/Technical_writing");
+
+            URL_Add("LibreOffice Writer", "https://en.wikipedia.org/wiki/LibreOffice_Writer");
+
+            URL_Add("KWrite", "https://en.wikipedia.org/wiki/KWrite");
+
+            URL_Add("COW", "https://en.wikipedia.org/wiki/Copy-on-write");
+
+            URL_Add("left-to-right", "https://en.wikipedia.org/wiki/Writing_system#Directionality_and_orientation"); // Old: <https://en.wikipedia.org/wiki/Writing_system#Directionality>
 
             URL_Add("Basilisk", "https://en.wikipedia.org/wiki/Pale_Moon#UXP_(Basilisk)"); // Old: https://en.wikipedia.org/wiki/Basilisk_(web_browser)
 
@@ -116740,8 +116815,6 @@ namespace OverflowHelper.core
             URL_Add("accommodation", "https://en.wiktionary.org/wiki/accommodation#Noun");
 
             URL_Add("case-sensitivity", "https://en.wiktionary.org/wiki/case-sensitivity#Noun");
-
-            URL_Add("word wrap", "https://en.wiktionary.org/wiki/word_wrap#Verb");
 
             URL_Add("new graduate", "https://en.wiktionary.org/wiki/fresher#Noun");
 
@@ -118079,6 +118152,18 @@ namespace OverflowHelper.core
 
             URL_Add("eigenstate", "https://en.wikipedia.org/wiki/Quantum_state#Pure_states");
 
+            URL_Add("eigenvalue", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
+
+            URL_Add("eigenvalues", "https://en.wiktionary.org/wiki/eigenvalue#Noun");
+
+            URL_Add("eigenvalue decomposition", "https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix");
+
+            URL_Add("divide-and-conquer eigenvalue algorithm", "https://en.wikipedia.org/wiki/Divide-and-conquer_eigenvalue_algorithm");
+
+            URL_Add("eigenvectors", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
+
+            URL_Add("eigenfunction", "https://en.wikipedia.org/wiki/Eigenfunction");
+
             URL_Add("entanglement", "https://en.wikipedia.org/wiki/Quantum_entanglement");
 
             URL_Add("teleportation", "https://en.wikipedia.org/wiki/Teleportation");
@@ -118090,14 +118175,6 @@ namespace OverflowHelper.core
             URL_Add("Stim", "https://github.com/quantumlib/stim");
 
             URL_Add("power-factor correction", "https://en.wikipedia.org/wiki/Power_factor");
-
-            URL_Add("eigenvalue", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
-
-            URL_Add("eigenvalues", "https://en.wiktionary.org/wiki/eigenvalue#Noun");
-
-            URL_Add("eigenvectors", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
-
-            URL_Add("eigenfunction", "https://en.wikipedia.org/wiki/Eigenfunction");
 
             URL_Add("Firefox", "https://en.wikipedia.org/wiki/Firefox"); // Old: <https://en.wikipedia.org/wiki/Mozilla_Firefox>
 
@@ -125537,7 +125614,7 @@ namespace OverflowHelper.core
 
             URL_Add("Markov chain Monte Carlo", "https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo");
 
-            URL_Add("Hidden Markov model", "https://en.wikipedia.org/wiki/Hidden_Markov_model");
+            URL_Add("hidden Markov model", "https://en.wikipedia.org/wiki/Hidden_Markov_model");
 
             URL_Add("TG", "https://docs.keeb.io/via#layersfn");
 
@@ -126300,8 +126377,6 @@ namespace OverflowHelper.core
             URL_Add("querying", "https://en.wiktionary.org/wiki/query#Verb");
 
             URL_Add("requerying", "https://en.wiktionary.org/wiki/requery#Verb");
-
-            URL_Add("all animals are equal, but some animals are more equal than others", "https://en.wikipedia.org/wiki/Animal_Farm#Plot_summary");
 
             URL_Add("Cufflinks", "https://plotly.com/python/cufflinks/");
 
@@ -127304,6 +127379,24 @@ namespace OverflowHelper.core
             URL_Add("salary", "https://en.wiktionary.org/wiki/salary#Noun");
 
             URL_Add("summary", "https://en.wiktionary.org/wiki/summary#Noun");
+
+            URL_Add("in summary", "https://en.wiktionary.org/wiki/in_summary#Prepositional_phrase");
+
+            URL_Add("all animals are equal, but some animals are more equal than others", "https://en.wikipedia.org/wiki/Animal_Farm#Plot_summary");
+
+            URL_Add("Freelancer.com", "https://en.wikipedia.org/wiki/Freelancer.com");
+
+            URL_Add("FreeMat", "https://en.wikipedia.org/wiki/FreeMat");
+
+            URL_Add("FreeBSD", "https://en.wikipedia.org/wiki/FreeBSD");
+
+            URL_Add("FreeRTOS", "https://en.wikipedia.org/wiki/FreeRTOS");
+
+            URL_Add("Freenode", "https://en.wikipedia.org/wiki/Freenode");
+
+            URL_Add("FreeCommander", "https://freecommander.com/en/summary/");
+
+            URL_Add("GNU FreeFont", "https://en.wikipedia.org/wiki/GNU_FreeFont");
 
             URL_Add("extraordinary", "https://en.wiktionary.org/wiki/extraordinary#Adjective");
 
@@ -130481,7 +130574,7 @@ namespace OverflowHelper.core
 
             URL_Add("ETL", "https://en.wikipedia.org/wiki/Extract,_transform,_load");
 
-            URL_Add("Ducky Shine 7", "https://www.duckychannel.com.tw/upload/2019_06_052/201906051349143vzt77cMb1.pdf");
+            URL_Add("Ducky Shine 7 (105%)", "https://www.duckychannel.com.tw/upload/2019_06_052/201906051349143vzt77cMb1.pdf");
 
             URL_Add("SlikSVN", "https://sliksvn.com/download/");
 
@@ -130813,9 +130906,11 @@ namespace OverflowHelper.core
 
             URL_Add("coauthor", "https://en.wiktionary.org/wiki/coauthor#Noun");
 
-            URL_Add("coauthorship", "https://en.wiktionary.org/wiki/coauthorship#Noun");
-
             URL_Add("coauthoring", "https://en.wiktionary.org/wiki/coauthor#Verb");
+
+            URL_Add("coauthored", "https://en.wiktionary.org/wiki/coauthor#Verb");
+
+            URL_Add("coauthorship", "https://en.wiktionary.org/wiki/coauthorship#Noun");
 
             URL_Add("authorise", "https://en.wiktionary.org/wiki/authorise#Verb");
 
@@ -133339,7 +133434,7 @@ namespace OverflowHelper.core
 
             URL_Add("Shure SM7B", "https://en.wikipedia.org/wiki/Shure_SM7");
 
-            URL_Add("MonsGeek M5", "https://www.monsgeek.com/product/m5/");
+            URL_Add("MonsGeek M5 (105%)", "https://www.monsgeek.com/product/m5/");
 
             URL_Add("build system", "https://en.wikipedia.org/wiki/Build_automation");
 
@@ -136468,8 +136563,6 @@ namespace OverflowHelper.core
             URL_Add("Windows Package Manager", "https://learn.microsoft.com/en-us/windows/package-manager/winget/");
 
             URL_Add("doesn’t make any", "https://ell.stackexchange.com/questions/19056");
-
-            URL_Add("eigenvalue decomposition", "https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix");
 
             URL_Add("Gråsten", "https://www.dmi.dk/lokation/show/DK/2621258/Gr%C3%A5sten");
 
@@ -141017,20 +141110,6 @@ namespace OverflowHelper.core
 
             URL_Add("DuckDB", "https://en.wikipedia.org/wiki/List_of_column-oriented_DBMSes#Free_and_open-source_software_(FOSS)");
 
-            URL_Add("Freelancer.com", "https://en.wikipedia.org/wiki/Freelancer.com");
-
-            URL_Add("FreeMat", "https://en.wikipedia.org/wiki/FreeMat");
-
-            URL_Add("FreeBSD", "https://en.wikipedia.org/wiki/FreeBSD");
-
-            URL_Add("FreeRTOS", "https://en.wikipedia.org/wiki/FreeRTOS");
-
-            URL_Add("Freenode", "https://en.wikipedia.org/wiki/Freenode");
-
-            URL_Add("FreeCommander", "https://freecommander.com/en/summary/");
-
-            URL_Add("GNU FreeFont", "https://en.wikipedia.org/wiki/GNU_FreeFont");
-
             URL_Add("blatant plagiarism on Quora", "https://www.quora.com/What-is-the-best-free-comment-plugin-for-WordPress/answer/Keshav-Infotech-2");
 
             URL_Add("bug", "https://en.wiktionary.org/wiki/bug#Noun");
@@ -142585,7 +142664,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q5 (95%)", "https://www.keychron.com/pages/keychron-q5-customizable-mechanical-keyboard");
 
-            URL_Add("Keychron Q6", "https://www.keychron.com/products/keychron-q6-qmk-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron Q6 (105%)", "https://www.keychron.com/products/keychron-q6-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron Q7 (70%)", "https://www.keychron.com/products/keychron-q7-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -142609,7 +142688,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q5 Pro (95%)", "https://www.keychron.com/products/keychron-q5-pro-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron Q6 Pro", "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron Q6 Pro (105%)", "https://www.keychron.com/products/keychron-q6-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron Q8 Pro (65%)", "https://www.keychron.com/products/keychron-q8-pro-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -142629,7 +142708,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q5 Max (95%)", "https://www.keychron.com/products/keychron-q5-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron Q6 Max", "https://www.keychron.com/products/keychron-q6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron Q6 Max (105%)", "https://www.keychron.com/products/keychron-q6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron Q8 Max (65%)", "https://www.keychron.com/products/keychron-q8-max-alice-layout-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -142673,7 +142752,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q5 Ultra 8K (95%)", "https://www.keychron.com/products/keychron-q5-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron Q6 Ultra 8K", "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q6 Ultra 8K (105%)", "https://www.keychron.com/products/keychron-q6-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron Q11 Ultra 8K (85%)", "https://www.keychron.com/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -147182,42 +147261,6 @@ namespace OverflowHelper.core
             URL_Add("OrientDB Studio", "https://orientdb.com/docs/last/studio/#introduction-to-orientdb-studio");
 
             URL_Add("PyOrient", "https://orientdb.com/docs/latest/pyorient/PyOrient.html");
-
-            URL_Add("write", "https://en.wiktionary.org/wiki/write#Verb");
-
-            URL_Add("writing", "https://en.wiktionary.org/wiki/writing#Verb");
-
-            URL_Add("wrote", "https://en.wiktionary.org/wiki/write#Verb");
-
-            URL_Add("writers", "https://en.wiktionary.org/wiki/writer#Noun");
-
-            URL_Add("miswriting", "https://en.wiktionary.org/wiki/miswrite#Verb");
-
-            URL_Add("self-written", "https://en.wikipedia.org/wiki/Autobiography");
-
-            URL_Add("write off", "https://en.wiktionary.org/wiki/write_off#Verb");
-
-            URL_Add("write-up", "https://en.wiktionary.org/wiki/write-up#Noun");
-
-            URL_Add("write-ups", "https://en.wiktionary.org/wiki/write-up#Noun");
-
-            URL_Add("writing on the wall", "https://en.wiktionary.org/wiki/writing_on_the_wall#Noun");
-
-            URL_Add("handwrite", "https://en.wiktionary.org/wiki/handwrite#Verb");
-
-            URL_Add("typewriter", "https://en.wikipedia.org/wiki/Typewriter");
-
-            URL_Add("handwriting", "https://en.wiktionary.org/wiki/handwriting#Noun");
-
-            URL_Add("technical writing", "https://en.wikipedia.org/wiki/Technical_writing");
-
-            URL_Add("LibreOffice Writer", "https://en.wikipedia.org/wiki/LibreOffice_Writer");
-
-            URL_Add("KWrite", "https://en.wikipedia.org/wiki/KWrite");
-
-            URL_Add("COW", "https://en.wikipedia.org/wiki/Copy-on-write");
-
-            URL_Add("left-to-right", "https://en.wikipedia.org/wiki/Writing_system#Directionality_and_orientation"); // Old: <https://en.wikipedia.org/wiki/Writing_system#Directionality>
 
             URL_Add("create", "https://en.wiktionary.org/wiki/create#Verb");
 
@@ -156081,6 +156124,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("Bluetooth firmware version 1.32.2 for Keychron K Pro and Q Pro series keyboards_", "download URL for Bluetooth firmware version 1.32_");
             correctionAdd("Keychron K10 Pro_", "download URL for Bluetooth firmware version 1.32_");
+            correctionAdd("Keychron Q6 Pro (105%)_", "download URL for Bluetooth firmware version 1.32_");
             correctionAdd("Keychron Q6 Pro_", "download URL for Bluetooth firmware version 1.32_");
 
             // For the cross-reference
@@ -156107,6 +156151,7 @@ namespace OverflowHelper.core
             // 2024-11-19. 92444 bytes. MD5 55E3EE7BBDDAF72AB370ACECDF5EC9E.
             correctionAdd("Bluetooth firmware version 0.2.1 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.2.1_");
             correctionAdd("Keychron K10 Max_", "download URL for Bluetooth firmware version 0.2.1_");
+            correctionAdd("Keychron Q6 Max (105%)_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
             correctionAdd("Keychron Q6 Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
             correctionAdd("Keychron V6 Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
 
@@ -157792,8 +157837,6 @@ namespace OverflowHelper.core
             correctionAdd("Optimizing For Pearls, Not Sand_", "Optimizing for pearls, not sand_");
             correctionAdd("pearls_", "Optimizing for pearls, not sand_");
             correctionAdd("sand_", "Optimizing for pearls, not sand_");
-
-            correctionAdd("Matrix_", "The Matrix_");
 
             // Stack Overflow
             //
@@ -159793,6 +159836,11 @@ namespace OverflowHelper.core
 
             // E.g., image processing
             correctionAdd("affinity_", "affine transformation_");
+
+            // Matrix. Matrices.
+            correctionAdd("QR_", "QR decomposition_");
+
+            correctionAdd("Matrix_", "The Matrix_");
 
             // System updates as one single image instead
             // of updating individual files
@@ -166633,6 +166681,7 @@ namespace OverflowHelper.core
             correctionAdd("exoectation_", "expectation_");
             correctionAdd("Expectaion_", "expectation_");
             correctionAdd("expectaion_", "expectation_");
+            correctionAdd("expetation_", "expectation_");
             correctionAdd("expection_", "expectation_");
 
             correctionAdd("MS Teams_", "Microsoft Teams_");
@@ -172111,26 +172160,6 @@ namespace OverflowHelper.core
 
             URL_Add("crate_", "https://doc.rust-lang.org/book/ch01-03-hello-cargo.html");
 
-            URL_Add("bear_", "https://en.wiktionary.org/wiki/bear#Noun");
-
-            URL_Add("ballpark_", "https://en.wiktionary.org/wiki/ballpark#Noun");
-
-            URL_Add("ball bearing_", "https://en.wikipedia.org/wiki/Ball_bearing");
-
-            URL_Add("panda bear_", "https://en.wikipedia.org/wiki/Giant_panda");
-
-            URL_Add("lightning_", "https://en.wiktionary.org/wiki/lightning#Noun");
-
-            URL_Add("liquid crystal_", "https://en.wikipedia.org/wiki/Liquid_crystal");
-
-            URL_Add("LED indicators_", "https://docs.qmk.fm/features/led_indicators#led-indicators");
-
-            URL_Add("LED matrix_", "https://docs.qmk.fm/features/led_matrix");
-
-            URL_Add("RGB matrix_", "https://docs.qmk.fm/features/rgb_matrix");
-
-            URL_Add("The Matrix_", "https://en.wikipedia.org/wiki/The_Matrix");
-
             URL_Add("current_", "https://en.wikipedia.org/wiki/Electric_current");
 
             URL_Add("constant current source_", "https://en.wikipedia.org/wiki/Current_source#LED_current_source");
@@ -173167,21 +173196,43 @@ namespace OverflowHelper.core
 
             URL_Add("in-ear monitors_", "https://en.wikipedia.org/wiki/In-ear_monitor");
 
+            URL_Add("trade off_", "https://en.wiktionary.org/wiki/trade_off#Verb");
+
+            URL_Add("Group Policy_", "https://en.wikipedia.org/wiki/Group_Policy");
+
+            URL_Add("group buys_", "https://en.wikipedia.org/wiki/Group_buying#Business_model");
+
+            URL_Add("bear_", "https://en.wiktionary.org/wiki/bear#Noun");
+
+            URL_Add("ballpark_", "https://en.wiktionary.org/wiki/ballpark#Noun");
+
+            URL_Add("ball bearing_", "https://en.wikipedia.org/wiki/Ball_bearing");
+
+            URL_Add("panda bear_", "https://en.wikipedia.org/wiki/Giant_panda");
+
+            URL_Add("lightning_", "https://en.wiktionary.org/wiki/lightning#Noun");
+
+            URL_Add("liquid crystal_", "https://en.wikipedia.org/wiki/Liquid_crystal");
+
+            URL_Add("LED indicators_", "https://docs.qmk.fm/features/led_indicators#led-indicators");
+
+            URL_Add("LED matrix_", "https://docs.qmk.fm/features/led_matrix");
+
+            URL_Add("RGB matrix_", "https://docs.qmk.fm/features/rgb_matrix");
+
+            URL_Add("The Matrix_", "https://en.wikipedia.org/wiki/The_Matrix");
+
+            URL_Add("QR decomposition_", "https://en.wikipedia.org/wiki/QR_decomposition");
+
+            URL_Add("affine transformation_", "https://en.wikipedia.org/wiki/Affine_transformation");
+
             URL_Add("affect_", "https://en.wiktionary.org/wiki/affect#Verb");
 
             URL_Add("afford_", "https://en.wiktionary.org/wiki/afford#Verb");
 
             URL_Add("affecting_", "https://en.wiktionary.org/wiki/affect#Verb");
 
-            URL_Add("affine transformation_", "https://en.wikipedia.org/wiki/Affine_transformation");
-
             URL_Add("image quality_", "https://en.wikipedia.org/wiki/Image_quality");
-
-            URL_Add("trade off_", "https://en.wiktionary.org/wiki/trade_off#Verb");
-
-            URL_Add("Group Policy_", "https://en.wikipedia.org/wiki/Group_Policy");
-
-            URL_Add("group buys_", "https://en.wikipedia.org/wiki/Group_buying#Business_model");
 
         } //addLookupData_alternativeWordSet()
 
@@ -177879,6 +177930,7 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
+            correctionAdd("Keychron Q6 Max (105%)__", "Keychron Q6 Max source code__");
             correctionAdd("Keychron Q6 Max__", "Keychron Q6 Max source code__");
 
             // For the cross-reference to the source code
@@ -181514,6 +181566,7 @@ namespace OverflowHelper.core
             correctionAdd("k series___", "Keychron K series___");
 
             // For a direct text, "Q series"
+            correctionAdd("Keychron Q6 (105%)___", "Keychron Q series___");
             correctionAdd("Keychron Q6___", "Keychron Q series___"); // For the cross-reference
             correctionAdd("Q-series___", "Keychron Q series___");
             correctionAdd("Q series___", "Keychron Q series___"); // Sort of identity mapping
@@ -181550,6 +181603,7 @@ namespace OverflowHelper.core
             correctionAdd("Pro___", "Keychron K Pro series___");
 
             // For a direct text, "Q Pro series"
+            correctionAdd("Keychron Q6 Pro (105%)___", "Keychron Q Pro series___"); // For the cross-reference
             correctionAdd("Keychron Q6 Pro___", "Keychron Q Pro series___"); // For the cross-reference
             correctionAdd("Q Pro series___", "Keychron Q Pro series___"); // Sort of identity mapping
             correctionAdd("q pro series___", "Keychron Q Pro series___");
@@ -181567,6 +181621,7 @@ namespace OverflowHelper.core
             correctionAdd("v max___", "Keychron V Max series___");
 
             // For a direct text, "Q Max series"
+            correctionAdd("Keychron Q6 Max (105%)___", "Keychron Q Max series___"); // For the cross-reference
             correctionAdd("Keychron Q6 Max___", "Keychron Q Max series___"); // For the cross-reference
             correctionAdd("Q max seriesc___", "Keychron Q Max series___");
             correctionAdd("q max series___", "Keychron Q Max series___");
@@ -181660,6 +181715,7 @@ namespace OverflowHelper.core
             correctionAdd("Keychron Lemokey X3___", "Lemokey X series___"); // For the cross-reference
             correctionAdd("X series___", "Lemokey X series___");
 
+            correctionAdd("Keychron Q6 Ultra 8K (105%)___", "Keychron Q Ultra 8K series___");
             correctionAdd("Keychron Q6 Ultra 8K___", "Keychron Q Ultra 8K series___");
             correctionAdd("Q6 Ultra 8K___", "Keychron Q Ultra 8K series___");
             correctionAdd("Q Ultra 8K series___", "Keychron Q Ultra 8K series___");
@@ -184174,6 +184230,7 @@ namespace OverflowHelper.core
             // Note: In Git branch "wireless_playground"
             //
             correctionAdd("Q6 Max default keymap____", "Keychron Q6 Max default keymap (ISO RGB)____");
+            correctionAdd("Keychron Q6 Max (105%)____", "Keychron Q6 Max default keymap (ISO RGB)____"); // For the cross-reference
             correctionAdd("Keychron Q6 Max____", "Keychron Q6 Max default keymap (ISO RGB)____"); // For the cross-reference
             correctionAdd("Q6 Max keymap____", "Keychron Q6 Max default keymap (ISO RGB)____");
 
