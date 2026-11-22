@@ -1944,6 +1944,73 @@ namespace OverflowHelper.core
             correctionAdd("tidle", "tilde");
             correctionAdd("Tilde", "tilde");
 
+            correctionAdd("beet", "beat");
+
+            correctionAdd("unbeatible", "unbeatable");
+
+            correctionAdd("beat-'em-up", "beat 'em up");
+            correctionAdd("Beat 'em Up", "beat 'em up");
+            correctionAdd("beat'em up", "beat 'em up");
+            correctionAdd("beat-em-up", "beat 'em up");
+
+            correctionAdd("filebeat", "Filebeat");
+
+            correctionAdd("beaty", "beauty");
+            correctionAdd("beaut", "beauty");
+
+            correctionAdd("beautifull", "beautiful");
+            correctionAdd("beautuful", "beautiful");
+            correctionAdd("beutifull", "beautiful");
+            correctionAdd("beatiful", "beautiful");
+            correctionAdd("beutiful", "beautiful");
+
+            correctionAdd("beat the whole purpose", "defeat the purpose");
+
+            correctionAdd("defat", "defeat");
+            correctionAdd("defet", "defeat");
+
+            correctionAdd("feet", "feat");
+
+            // The noun
+            correctionAdd("feauture", "feature");
+            correctionAdd("feayure", "feature");
+            correctionAdd("featute", "feature");
+            correctionAdd("featuer", "feature");
+            correctionAdd("feture", "feature");
+            correctionAdd("feaure", "feature");
+
+            // The noun
+            correctionAdd("feaatures", "features");
+            correctionAdd("Features", "features");
+            correctionAdd("featuers", "features");
+            correctionAdd("featurs", "features");
+
+            correctionAdd("featureset", "feature set");
+
+            correctionAdd("features wise", "featurewise");
+            correctionAdd("Features wise", "featurewise");
+
+            correctionAdd("featurefull", "featureful");
+
+            correctionAdd("feature flag", "feature toggle");
+
+            correctionAdd("Feature Extraction", "feature extraction");
+
+            correctionAdd("feature flags", "feature toggles");
+
+            // The verb
+            correctionAdd("toogle", "toggle");
+            correctionAdd("togle", "toggle");
+            correctionAdd("Togle", "toggle");
+
+            // The verb
+            correctionAdd("toogles", "toggles");
+
+            correctionAdd("togling", "toggling");
+            correctionAdd("togging", "toggling");
+
+            correctionAdd("toggleable", "togglable");
+
             correctionAdd("reliefed", "relieved");
             correctionAdd("releaved", "relieved");
 
@@ -11046,7 +11113,29 @@ namespace OverflowHelper.core
             // Note: "million" is in an alternative word set
             correctionAdd("milions", "millions");
 
+            correctionAdd("escallate", "escalate");
+
+            correctionAdd("ecilation", "escalation");
+
+            correctionAdd("Privilege Escalation", "privilege escalation");
+
+            correctionAdd("sclalar", "scalar");
+            correctionAdd("scaler", "scalar");
+
+            correctionAdd("scale-able", "scalable");
+            correctionAdd("scallable", "scalable");
+            correctionAdd("scaleable", "scalable");
+
+            correctionAdd("re-scale", "rescale");
+
+            correctionAdd("xscale", "XScale");
+
+            // Note: "short scale" is in an alternative word set
+            correctionAdd("Long Scale", "long scale");
+
             // Note: "million" is in an alternative word set
+            //
+            // Note: "short scale" is in an alternative word set
             //
             correctionAdd("bilions", "billions");
 
@@ -18316,6 +18405,11 @@ namespace OverflowHelper.core
             correctionAdd("Sythetic Aperture Radar", "synthetic-aperture radar");
             correctionAdd("SAR", "synthetic-aperture radar");
 
+            correctionAdd("gruop", "group");
+            correctionAdd("groep", "group");
+
+            correctionAdd("sub-group", "subgroup");
+
             correctionAdd("glade", "glad");
 
             correctionAdd("glandly", "gladly");
@@ -19090,10 +19184,6 @@ namespace OverflowHelper.core
             correctionAdd("Qt", "question");
             correctionAdd("Q", "question");
 
-            correctionAdd("sub-question", "subquestion");
-
-            correctionAdd("sub-questions", "subquestions");
-
             // The verb
             correctionAdd("questionning", "questioning");
 
@@ -19108,8 +19198,13 @@ namespace OverflowHelper.core
             correctionAdd("qt's", "questions");
             correctionAdd("Qts", "questions");
             correctionAdd("qts", "questions");
+            correctionAdd("qns", "questions");
 
             correctionAdd("questioneers", "questioners");
+
+            correctionAdd("sub-question", "subquestion");
+
+            correctionAdd("sub-questions", "subquestions");
 
             correctionAdd("Question mark", "question mark");
             correctionAdd("Question Mark", "question mark");
@@ -26682,6 +26777,9 @@ namespace OverflowHelper.core
 
             correctionAdd("o(n)", "O(n)");
 
+            correctionAdd("o(n^2)", "O(n^2)");
+            correctionAdd("O(n2)", "O(n^2)");
+
             // Algorithms
             correctionAdd("big theta", "Big Theta");
 
@@ -30592,13 +30690,13 @@ namespace OverflowHelper.core
             correctionAdd("b4", "before");
             correctionAdd("B4", "before");
 
-            correctionAdd("affter", "after");
             correctionAdd("aftaer", "after");
             correctionAdd("Aftrer", "after");
             correctionAdd("aftrer", "after");
             correctionAdd("afther", "after");
             correctionAdd("Aftern", "after");
             correctionAdd("aftern", "after"); // A true typo (involving the space bar - for the next word)
+            correctionAdd("affter", "after");
             correctionAdd("After", "after");
             correctionAdd("atfer", "after"); // A true typo
             correctionAdd("afeer", "after"); // Probably a true typo (multiple)
@@ -44701,7 +44799,19 @@ namespace OverflowHelper.core
 
             correctionAdd("Principal Components", "principal components");
             correctionAdd("princ. comps", "principal components");
+            correctionAdd("PC's", "principal components");
             correctionAdd("PCs", "principal components");
+
+            // A dimensionality reduction technique, like
+            // principal component analysis (PCA)
+            correctionAdd("t-distributed Stochastic Neighbor Embeddings", "t-distributed stochastic neighbor embedding");
+            correctionAdd("t-SNE", "t-distributed stochastic neighbor embedding");
+
+            // Similar to principal component analysis (PCA)
+            correctionAdd("Information gain", "information gain");
+
+            // A sample data set for principal component analysis, etc.
+            correctionAdd("word2vec", "Word2Vec");
 
             // A matrix thing
             correctionAdd("Principal minor", "principal minor");
@@ -45189,6 +45299,7 @@ namespace OverflowHelper.core
             correctionAdd("k means clustering", "k-means clustering");
             correctionAdd("Kmeans clustering", "k-means clustering");
             correctionAdd("kmeans clustering", "k-means clustering");
+            correctionAdd("k-means algorithm", "k-means clustering");
             correctionAdd("K-Means", "k-means clustering");
             correctionAdd("k Means", "k-means clustering");
             correctionAdd("k-means", "k-means clustering");
@@ -47187,9 +47298,6 @@ namespace OverflowHelper.core
 
             // United States
             correctionAdd("NWS", "National Weather Service");
-
-            // Of course, this service is also shut down...
-            correctionAdd("Google news cards", "Google News & Weather");
 
             correctionAdd("precip", "precipitation");
 
@@ -49769,9 +49877,11 @@ namespace OverflowHelper.core
             // Python. Machine learning library
             correctionAdd("Scikit-learn", "scikit-learn");
             correctionAdd("Scikit-Learn", "scikit-learn");
+            correctionAdd("scikit learn", "scikit-learn");
             correctionAdd("scikitlearn", "scikit-learn");
             correctionAdd("Sklearn", "scikit-learn");
             correctionAdd("sklearn", "scikit-learn");
+            correctionAdd("scikit", "scikit-learn");
 
             correctionAdd("Scikit-image", "scikit-image");
             correctionAdd("skimage", "scikit-image");
@@ -51324,6 +51434,10 @@ namespace OverflowHelper.core
             correctionAdd("RMS", "root mean square");
 
             correctionAdd("MAE", "mean absolute error");
+
+            correctionAdd("root mean square deviation", "root mean square error");
+            correctionAdd("RMSD", "root mean square error");
+            correctionAdd("RMSE", "root mean square error");
 
             correctionAdd("peak to peak", "peak-to-peak");
             correctionAdd("pk-pk", "peak-to-peak");
@@ -62901,6 +63015,7 @@ namespace OverflowHelper.core
             correctionAdd("hyphothesis", "hypothesis");
             correctionAdd("hyptothesis", "hypothesis");
             correctionAdd("hyptothese", "hypothesis");
+            correctionAdd("Hypothesis", "hypothesis");
             correctionAdd("hypotesis", "hypothesis");
 
             correctionAdd("Hypothesis Test", "hypothesis test");
@@ -63466,6 +63581,7 @@ namespace OverflowHelper.core
             correctionAdd("certanly", "certainly");
 
             correctionAdd("certanin", "certain");
+            correctionAdd("certrain", "certain");
             correctionAdd("certian", "certain");
             correctionAdd("cwrtain", "certain");
             correctionAdd("certien", "certain");
@@ -74388,71 +74504,6 @@ namespace OverflowHelper.core
             correctionAdd("like the plaque", "avoid like the plague");
             correctionAdd("like the plague", "avoid like the plague");
 
-            correctionAdd("beet", "beat");
-
-            correctionAdd("unbeatible", "unbeatable");
-
-            correctionAdd("beat-'em-up", "beat 'em up");
-            correctionAdd("Beat 'em Up", "beat 'em up");
-            correctionAdd("beat'em up", "beat 'em up");
-            correctionAdd("beat-em-up", "beat 'em up");
-
-            correctionAdd("filebeat", "Filebeat");
-
-            correctionAdd("beaty", "beauty");
-            correctionAdd("beaut", "beauty");
-
-            correctionAdd("beautifull", "beautiful");
-            correctionAdd("beautuful", "beautiful");
-            correctionAdd("beutifull", "beautiful");
-            correctionAdd("beatiful", "beautiful");
-            correctionAdd("beutiful", "beautiful");
-
-            correctionAdd("beat the whole purpose", "defeat the purpose");
-
-            correctionAdd("defat", "defeat");
-            correctionAdd("defet", "defeat");
-
-            correctionAdd("feet", "feat");
-
-            // The noun
-            correctionAdd("feauture", "feature");
-            correctionAdd("feayure", "feature");
-            correctionAdd("featute", "feature");
-            correctionAdd("featuer", "feature");
-            correctionAdd("feture", "feature");
-            correctionAdd("feaure", "feature");
-
-            // The noun
-            correctionAdd("feaatures", "features");
-            correctionAdd("Features", "features");
-            correctionAdd("featuers", "features");
-            correctionAdd("featurs", "features");
-
-            correctionAdd("featureset", "feature set");
-
-            correctionAdd("features wise", "featurewise");
-            correctionAdd("Features wise", "featurewise");
-
-            correctionAdd("featurefull", "featureful");
-
-            correctionAdd("feature flag", "feature toggle");
-
-            correctionAdd("feature flags", "feature toggles");
-
-            // The verb
-            correctionAdd("toogle", "toggle");
-            correctionAdd("togle", "toggle");
-            correctionAdd("Togle", "toggle");
-
-            // The verb
-            correctionAdd("toogles", "toggles");
-
-            correctionAdd("togling", "toggling");
-            correctionAdd("togging", "toggling");
-
-            correctionAdd("toggleable", "togglable");
-
             correctionAdd("appologize", "apologise");
             correctionAdd("apologize", "apologise");
             correctionAdd("apoligise", "apologise");
@@ -76102,25 +76153,6 @@ namespace OverflowHelper.core
             correctionAdd("suposedly", "supposedly");
 
             correctionAdd("Opposition", "opposition");
-
-            correctionAdd("escallate", "escalate");
-
-            correctionAdd("ecilation", "escalation");
-
-            correctionAdd("Privilege Escalation", "privilege escalation");
-
-            correctionAdd("sclalar", "scalar");
-            correctionAdd("scaler", "scalar");
-
-            correctionAdd("scale-able", "scalable");
-            correctionAdd("scallable", "scalable");
-            correctionAdd("scaleable", "scalable");
-
-            correctionAdd("re-scale", "rescale");
-
-            correctionAdd("Long Scale", "long scale");
-
-            correctionAdd("xscale", "XScale");
 
             correctionAdd("pupulate", "populate");
             correctionAdd("poplute", "populate");
@@ -80496,9 +80528,6 @@ namespace OverflowHelper.core
 
             correctionAdd("deffective", "defective");
             correctionAdd("defected", "defective");
-
-            correctionAdd("gruop", "group");
-            correctionAdd("groep", "group");
 
             correctionAdd("markes", "markers");
 
@@ -94391,22 +94420,24 @@ namespace OverflowHelper.core
             // The numeric keypad can removed and also
             // moved on the left side (southpaw).
             //
-            correctionAdd("ROG Claymore I", "Asus ROG Claymore I");
-            correctionAdd("asus claymore", "Asus ROG Claymore I");
-            correctionAdd("claymore", "Asus ROG Claymore I");
+            correctionAdd("Asus ROG Claymore I", "Asus ROG Claymore I (100%)");
+            correctionAdd("ROG Claymore I", "Asus ROG Claymore I (100%)");
+            correctionAdd("asus claymore", "Asus ROG Claymore I (100%)");
+            correctionAdd("claymore", "Asus ROG Claymore I (100%)");
 
             // A 105-key (100%. Not true TKL) full-size Alice layout
             // (ergonomic) rubber dome keyboard.
             //
-            correctionAdd("Microsoft ergonomic keyboard", "Microsoft Natural Keyboard");
-            correctionAdd("Microsoft Natural keyboard", "Microsoft Natural Keyboard");
-            correctionAdd("Microsoft natural keyboard", "Microsoft Natural Keyboard");
-            correctionAdd("ms natural keyboard", "Microsoft Natural Keyboard");
-            correctionAdd("M$ Natural keyboard", "Microsoft Natural Keyboard");
-            correctionAdd("Microsoft Natural", "Microsoft Natural Keyboard");
-            correctionAdd("Natural Keyboard", "Microsoft Natural Keyboard");
-            correctionAdd("natural keyboard", "Microsoft Natural Keyboard");
-            correctionAdd("MS Natural", "Microsoft Natural Keyboard");
+            correctionAdd("Microsoft ergonomic keyboard", "Microsoft Natural Keyboard (100%)");
+            correctionAdd("Microsoft Natural Keyboard", "Microsoft Natural Keyboard (100%)");
+            correctionAdd("Microsoft Natural keyboard", "Microsoft Natural Keyboard (100%)");
+            correctionAdd("Microsoft natural keyboard", "Microsoft Natural Keyboard (100%)");
+            correctionAdd("ms natural keyboard", "Microsoft Natural Keyboard (100%)");
+            correctionAdd("M$ Natural keyboard", "Microsoft Natural Keyboard (100%)");
+            correctionAdd("Microsoft Natural", "Microsoft Natural Keyboard (100%)");
+            correctionAdd("Natural Keyboard", "Microsoft Natural Keyboard (100%)");
+            correctionAdd("natural keyboard", "Microsoft Natural Keyboard (100%)");
+            correctionAdd("MS Natural", "Microsoft Natural Keyboard (100%)");
 
             // A 107-key (100%. True full-size) crippled Alice layout
             // (a la Microsoft Natural Keyboard) wired and wireless
@@ -94508,10 +94539,9 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/q13_max>
             //
-            correctionAdd("Keychron Q13 Max (100%)", "Keychron&nbsp;Q13&nbsp;Max (100%)"); // Sort of identity mapping
-            correctionAdd("Keychron Q13 Max", "Keychron&nbsp;Q13&nbsp;Max (100%)");
-            correctionAdd("Q13 max", "Keychron&nbsp;Q13&nbsp;Max (100%)");
-            correctionAdd("Q13 Max", "Keychron&nbsp;Q13&nbsp;Max (100%)");
+            correctionAdd("Keychron Q13 Max", "Keychron Q13 Max (100%)");
+            correctionAdd("Q13 max", "Keychron Q13 Max (100%)");
+            correctionAdd("Q13 Max", "Keychron Q13 Max (100%)");
 
             // A 107-key (100%. True full-size) crippled Alice layout
             // (a la Microsoft Natural Keyboard) wired and wireless
@@ -94536,13 +94566,10 @@ namespace OverflowHelper.core
             //
             //    * With a 8 kHz USB polling rate
             //
-            correctionAdd("Keychron Q13 Ultra 8K (100%)", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)"); // Sort of identity mapping
-            correctionAdd("Q13&nbsp;Ultra&nbsp;8K", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
-            correctionAdd("Keychron Q13 Ultra 8K", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
-            correctionAdd("Q13&nbsp;Ultra", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
-            correctionAdd("Q13 Ultra 8K", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
-            correctionAdd("Q13 Ultra", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
-            correctionAdd("Q13 ultra", "Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)");
+            correctionAdd("Keychron Q13 Ultra 8K", "Keychron Q13 Ultra 8K (100%)");
+            correctionAdd("Q13 Ultra 8K", "Keychron Q13 Ultra 8K (100%)");
+            correctionAdd("Q13 Ultra", "Keychron Q13 Ultra 8K (100%)");
+            correctionAdd("Q13 ultra", "Keychron Q13 Ultra 8K (100%)");
 
             // A 108-key (105%. Not true TKL) full-size wired-only
             // QMK/Via-capable mechanical keyboard without a knob.
@@ -96948,8 +96975,8 @@ namespace OverflowHelper.core
             correctionAdd("PFPs", "profile pictures");
 
             correctionAdd("oftenly", "often");
-            correctionAdd("offten", "often");
             correctionAdd("oftern", "often");
+            correctionAdd("offten", "often");
             correctionAdd("oftem", "often");
 
             correctionAdd("all to offer", "all too often"); // An autocorrect "masterpiece"?
@@ -97780,7 +97807,12 @@ namespace OverflowHelper.core
 
             correctionAdd("Google reader", "Google Reader");
 
+            // Of course, this service is also shut down...
+            correctionAdd("Google news cards", "Google News & Weather");
+
             // A news aggregator
+            correctionAdd("Google's news", "Google News");
+            correctionAdd("google's news", "Google News");
             correctionAdd("google news", "Google News");
 
             // A news aggregator
@@ -99154,6 +99186,8 @@ namespace OverflowHelper.core
             correctionAdd("Divergent Series", "divergent series");
 
             correctionAdd("Z-Transform", "Z-transform");
+
+            correctionAdd("haar wavelet", "Haar wavelet");
 
             correctionAdd("entiere", "entire");
             correctionAdd("entier", "entire");
@@ -113459,8 +113493,6 @@ namespace OverflowHelper.core
 
             URL_Add("scenarios", "https://en.wiktionary.org/wiki/scenario#Noun");
 
-            URL_Add("trade-off", "https://en.wiktionary.org/wiki/trade-off#Noun");
-
             URL_Add("watch", "https://en.wiktionary.org/wiki/watch#Noun");
 
             URL_Add("confinement", "https://en.wiktionary.org/wiki/confinement#Noun");
@@ -118603,8 +118635,6 @@ namespace OverflowHelper.core
 
             URL_Add("density", "https://en.wiktionary.org/wiki/density#Noun");
 
-            URL_Add("group", "https://en.wiktionary.org/wiki/group#Noun");
-
             URL_Add("ray tracing", "https://en.wiktionary.org/wiki/ray_tracing#Noun");
 
             URL_Add("FFP2 mask", "https://en.wikipedia.org/wiki/FFP_standards#FFP2_mask");
@@ -121287,6 +121317,8 @@ namespace OverflowHelper.core
 
             URL_Add("Z-transform", "https://en.wikipedia.org/wiki/Z-transform");
 
+            URL_Add("Haar wavelet", "https://en.wikipedia.org/wiki/Haar_wavelet");
+
             URL_Add("clearly", "https://en.wiktionary.org/wiki/clearly#Adverb");
 
             URL_Add("gemeinnützige GmbH", "https://en.wikipedia.org/wiki/Gesellschaft_mit_beschr%C3%A4nkter_Haftung");
@@ -123161,8 +123193,6 @@ namespace OverflowHelper.core
 
             URL_Add("Dance Dance Authentication", "https://www.youtube.com/watch?v=VgC4b9K-gYU");
 
-            URL_Add("mean absolute error", "https://en.wikipedia.org/wiki/Mean_absolute_error");
-
             URL_Add("keylogging", "https://en.wikipedia.org/wiki/Keystroke_logging");
 
             URL_Add("conventions", "https://en.wiktionary.org/wiki/convention#Noun");
@@ -124162,8 +124192,6 @@ namespace OverflowHelper.core
             URL_Add("mission", "https://en.wiktionary.org/wiki/mission#Noun");
 
             URL_Add("air traffic control", "https://en.wikipedia.org/wiki/Air_traffic_control");
-
-            URL_Add("Trade Agreements Act of 1979", "https://en.wikipedia.org/wiki/Trade_Agreements_Act_of_1979");
 
             URL_Add("E Ink", "https://en.wikipedia.org/wiki/E_Ink");
 
@@ -127241,8 +127269,6 @@ namespace OverflowHelper.core
 
             URL_Add("single-use", "https://en.wiktionary.org/wiki/single-use#Adjective");
 
-            URL_Add("Group Policy Editor", "https://en.wikipedia.org/wiki/Group_Policy");
-
             URL_Add("AMX Mod", "https://en.wikipedia.org/wiki/AMX#Other_uses");
 
             URL_Add("headstrong", "https://en.wiktionary.org/wiki/headstrong#Adjective");
@@ -127408,8 +127434,6 @@ namespace OverflowHelper.core
             URL_Add("OR-Tools", "https://en.wikipedia.org/wiki/OR-Tools");
 
             URL_Add("orderable", "https://en.wiktionary.org/wiki/orderable#Adjective");
-
-            URL_Add("trade-offs", "https://en.wiktionary.org/wiki/trade-off#Noun");
 
             URL_Add("vibecode", "https://en.wiktionary.org/wiki/vibecode#Verb");
 
@@ -128296,8 +128320,6 @@ namespace OverflowHelper.core
             URL_Add("Inspiron 620s", "https://en.wikipedia.org/wiki/Dell_Inspiron_desktop_computers#Inspiron_620_and_Inspiron_620s");
 
             URL_Add("NaI(Tl)", "https://en.wikipedia.org/wiki/Gamma_spectroscopy#Scintillation_detectors"); // Contains chemical element 81, chemical element 11, and chemical element 53
-
-            URL_Add("trademark", "https://en.wikipedia.org/wiki/Trademark_symbol");
 
             URL_Add("marketplace", "https://en.wiktionary.org/wiki/marketplace#Noun");
 
@@ -129489,9 +129511,11 @@ namespace OverflowHelper.core
 
             URL_Add("abovementioned", "https://en.wiktionary.org/wiki/abovementioned#Adjective");
 
-            URL_Add("O(1)", "https://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions");
+            URL_Add("O(1)", "https://en.wikipedia.org/wiki/Big_O_notation#Common_big-O_orders_of_functions");
 
-            URL_Add("O(n)", "https://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions");
+            URL_Add("O(n)", "https://en.wikipedia.org/wiki/Big_O_notation#Common_big-O_orders_of_functions");
+
+            URL_Add("O(n^2)", "https://en.wikipedia.org/wiki/Big_O_notation#Common_big-O_orders_of_functions");
 
             URL_Add("StringEscapeUtils.unescapeHtml3()", "https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/StringEscapeUtils.html#unescapeHtml3-java.lang.String-");
 
@@ -134939,6 +134963,8 @@ namespace OverflowHelper.core
 
             URL_Add("Group Policy Object", "https://en.wikipedia.org/wiki/Group_Policy#Operation"); // Alternative URL: http://searchwindowsserver.techtarget.com/definition/Group-Policy-Object (end of comment)
 
+            URL_Add("Group Policy Editor", "https://en.wikipedia.org/wiki/Group_Policy");
+
             URL_Add("Measure-Command", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Utility/Measure-Command");
 
             URL_Add("Format-List", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/format-list"); // Old: <http://technet.microsoft.com/en-us/library/hh849957.aspx>
@@ -136390,28 +136416,6 @@ namespace OverflowHelper.core
             URL_Add("Seattle", "https://en.wikipedia.org/wiki/Seattle");
 
             URL_Add("fearful", "https://en.wiktionary.org/wiki/fearful#Adjective");
-
-            URL_Add("feature", "https://en.wiktionary.org/wiki/feature#Noun");
-
-            URL_Add("features", "https://en.wiktionary.org/wiki/feature#Noun");
-
-            URL_Add("featuring", "https://en.wiktionary.org/wiki/feature#Verb");
-
-            URL_Add("featureful", "https://en.wiktionary.org/wiki/featureful#Adjective");
-
-            URL_Add("featurewise", "https://en.wiktionary.org/wiki/featurewise#Adverb");
-
-            URL_Add("feature set", "https://www.pcmag.com/encyclopedia/term/feature-set");
-
-            URL_Add("feature phone", "https://en.wikipedia.org/wiki/Feature_phone");
-
-            URL_Add("feature toggle", "https://en.wikipedia.org/wiki/Feature_toggle");
-
-            URL_Add("feature toggles", "https://en.wikipedia.org/wiki/Feature_toggle");
-
-            URL_Add("Programs and Features", "https://superuser.com/questions/889118");
-
-            URL_Add("FBML", "https://en.wikipedia.org/wiki/Facebook_features#FBML");
 
             URL_Add("Castle Windsor", "https://en.wikipedia.org/wiki/Castle_Project#Features"); // Alternative URL: <http://www.castleproject.org/container/index.html>
 
@@ -142633,7 +142637,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q12 Max (100%)", "https://www.keychron.com/products/keychron-q12-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q13&nbsp;Max (100%)", "https://www.keychron.com/products/keychron-q13-max-alice-layout-qmk-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q13 Max (100%)", "https://www.keychron.com/products/keychron-q13-max-alice-layout-qmk-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron Q14 Max (100%)", "https://www.keychron.com/products/keychron-q14-max-qmk-via-wireless-custom-mechanical-keyboard");
 
@@ -142673,7 +142677,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Q11 Ultra 8K (85%)", "https://www.keychron.com/products/keychron-q11-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron&nbsp;Q13&nbsp;Ultra&nbsp;8K (100%)", "https://www.keychron.com/products/keychron-q13-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron Q13 Ultra 8K (100%)", "https://www.keychron.com/products/keychron-q13-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron V1 ISO (80%)", "https://www.keychron.com/products/keychron-v1-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
@@ -142829,7 +142833,7 @@ namespace OverflowHelper.core
 
             URL_Add("Razer Huntsman (85%)", "https://www.razer.com/pc/gaming-keyboards/huntsman-line");
 
-            URL_Add("Microsoft Natural Keyboard", "https://en.wikipedia.org/wiki/Microsoft_Natural_keyboard#Natural_Keyboard");
+            URL_Add("Microsoft Natural Keyboard (100%)", "https://en.wikipedia.org/wiki/Microsoft_Natural_keyboard#Natural_Keyboard");
 
             URL_Add("Microsoft Sculpt Ergonomic (85%)", "https://en.wikipedia.org/wiki/Microsoft_ergonomic_keyboards#Sculpt_ergonomic_keyboard");
 
@@ -145877,6 +145881,12 @@ namespace OverflowHelper.core
 
             URL_Add("principal components", "https://en.wikipedia.org/wiki/Principal_component_analysis");
 
+            URL_Add("Word2Vec", "https://en.wikipedia.org/wiki/Word2Vec");
+
+            URL_Add("t-distributed stochastic neighbor embedding", "https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding");
+
+            URL_Add("information gain", "https://en.wikipedia.org/wiki/Information_gain_(decision_tree)");
+
             URL_Add("cryptanalysis", "https://en.wikipedia.org/wiki/Cryptanalysis");
 
             URL_Add("cost-benefit analysis", "https://en.wiktionary.org/wiki/cost-benefit_analysis#Noun");
@@ -146177,7 +146187,7 @@ namespace OverflowHelper.core
 
             URL_Add("Anne Pro 2", "https://switchandclick.com/anne-pro-ii-review/");
 
-            URL_Add("Asus ROG Claymore I", "https://www.trustedreviews.com/reviews/asus-rog-claymore");
+            URL_Add("Asus ROG Claymore I (100%)", "https://www.trustedreviews.com/reviews/asus-rog-claymore");
 
             URL_Add("Asus TUF Gaming F15", "https://www.asus.com/us/Laptops/For-Gaming/TUF-Gaming/2021-ASUS-TUF-Gaming-F15/");
 
@@ -151359,36 +151369,6 @@ namespace OverflowHelper.core
 
             URL_Add("brightest of all time", "https://en.wikipedia.org/wiki/GRB_221009A");
 
-            URL_Add("electronegative", "https://en.wiktionary.org/wiki/electronegative#Adjective");
-
-            URL_Add("electron degeneracy pressure", "https://en.wikipedia.org/wiki/Electron_degeneracy_pressure");
-
-            URL_Add("electron-donating group", "https://en.wikipedia.org/wiki/Polar_effect");
-
-            URL_Add("electron-withdrawing group", "https://en.wikipedia.org/wiki/Polar_effect");
-
-            URL_Add("Thomson scattering", "https://en.wikipedia.org/wiki/Thomson_scattering");
-
-            URL_Add("Rayleigh scattering", "https://en.wikipedia.org/wiki/Rayleigh_scattering#From_molecules");
-
-            URL_Add("equation", "https://en.wiktionary.org/wiki/equation#Noun");
-
-            URL_Add("equations", "https://en.wiktionary.org/wiki/equation#Noun");
-
-            URL_Add("nucleosynthesis", "https://en.wikipedia.org/wiki/Nucleosynthesis");
-
-            URL_Add("Hubble tension", "https://en.wikipedia.org/wiki/Hubble%27s_law#Hubble_tension");
-
-            URL_Add("heat death of the universe", "https://en.wikipedia.org/wiki/Heat_death_of_the_universe");
-
-            URL_Add("azimuth", "https://en.wiktionary.org/wiki/azimuth#Noun");
-
-            URL_Add("right ascension", "https://en.wikipedia.org/wiki/Right_ascension");
-
-            URL_Add("main sequence", "https://en.wikipedia.org/wiki/Main_sequence");
-
-            URL_Add("Hayashi track", "https://en.wikipedia.org/wiki/Hayashi_track");
-
             URL_Add("needed", "https://en.wiktionary.org/wiki/needed#Adjective");
 
             URL_Add("unneeded", "https://en.wiktionary.org/wiki/unneeded#Adjective");
@@ -151844,6 +151824,76 @@ namespace OverflowHelper.core
             URL_Add("manycore processor", "https://en.wikipedia.org/wiki/Manycore_processor");
 
             URL_Add("inter-process communication", "https://en.wikipedia.org/wiki/Inter-process_communication");
+
+            URL_Add("trade-off", "https://en.wiktionary.org/wiki/trade-off#Noun");
+
+            URL_Add("trade-offs", "https://en.wiktionary.org/wiki/trade-off#Noun");
+
+            URL_Add("trademark", "https://en.wikipedia.org/wiki/Trademark_symbol");
+
+            URL_Add("Trade Agreements Act of 1979", "https://en.wikipedia.org/wiki/Trade_Agreements_Act_of_1979");
+
+            URL_Add("feature", "https://en.wiktionary.org/wiki/feature#Noun");
+
+            URL_Add("features", "https://en.wiktionary.org/wiki/feature#Noun");
+
+            URL_Add("featuring", "https://en.wiktionary.org/wiki/feature#Verb");
+
+            URL_Add("featureful", "https://en.wiktionary.org/wiki/featureful#Adjective");
+
+            URL_Add("featurewise", "https://en.wiktionary.org/wiki/featurewise#Adverb");
+
+            URL_Add("feature set", "https://www.pcmag.com/encyclopedia/term/feature-set");
+
+            URL_Add("feature phone", "https://en.wikipedia.org/wiki/Feature_phone");
+
+            URL_Add("feature toggle", "https://en.wikipedia.org/wiki/Feature_toggle");
+
+            URL_Add("feature toggles", "https://en.wikipedia.org/wiki/Feature_toggle");
+
+            URL_Add("feature extraction", "https://en.wikipedia.org/wiki/Feature_engineering#Open-source_implementations");
+
+            URL_Add("Programs and Features", "https://superuser.com/questions/889118");
+
+            URL_Add("FBML", "https://en.wikipedia.org/wiki/Facebook_features#FBML");
+
+            URL_Add("group", "https://en.wiktionary.org/wiki/group#Noun");
+
+            URL_Add("subgroup", "https://en.wiktionary.org/wiki/subgroup#Noun");
+
+            URL_Add("electron-donating group", "https://en.wikipedia.org/wiki/Polar_effect");
+
+            URL_Add("electron-withdrawing group", "https://en.wikipedia.org/wiki/Polar_effect");
+
+            URL_Add("electronegative", "https://en.wiktionary.org/wiki/electronegative#Adjective");
+
+            URL_Add("electron degeneracy pressure", "https://en.wikipedia.org/wiki/Electron_degeneracy_pressure");
+
+            URL_Add("Thomson scattering", "https://en.wikipedia.org/wiki/Thomson_scattering");
+
+            URL_Add("Rayleigh scattering", "https://en.wikipedia.org/wiki/Rayleigh_scattering#From_molecules");
+
+            URL_Add("equation", "https://en.wiktionary.org/wiki/equation#Noun");
+
+            URL_Add("equations", "https://en.wiktionary.org/wiki/equation#Noun");
+
+            URL_Add("nucleosynthesis", "https://en.wikipedia.org/wiki/Nucleosynthesis");
+
+            URL_Add("Hubble tension", "https://en.wikipedia.org/wiki/Hubble%27s_law#Hubble_tension");
+
+            URL_Add("heat death of the universe", "https://en.wikipedia.org/wiki/Heat_death_of_the_universe");
+
+            URL_Add("azimuth", "https://en.wiktionary.org/wiki/azimuth#Noun");
+
+            URL_Add("right ascension", "https://en.wikipedia.org/wiki/Right_ascension");
+
+            URL_Add("main sequence", "https://en.wikipedia.org/wiki/Main_sequence");
+
+            URL_Add("Hayashi track", "https://en.wikipedia.org/wiki/Hayashi_track");
+
+            URL_Add("mean absolute error", "https://en.wikipedia.org/wiki/Mean_absolute_error");
+
+            URL_Add("root mean square error", "https://en.wikipedia.org/wiki/Root_mean_square_deviation");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -165337,30 +165387,6 @@ namespace OverflowHelper.core
             correctionAdd("dom_", "DOM (tag wiki)_");
             correctionAdd("DOM_", "DOM (tag wiki)_");
 
-            correctionAdd("[tag:xhr]_", "XHR (tag wiki)_");
-            correctionAdd("[tag:XHR]_", "XHR (tag wiki)_");
-            correctionAdd("tag:xhr_", "XHR (tag wiki)_");
-            correctionAdd("xhr_", "XHR (tag wiki)_");
-            correctionAdd("XHR_", "XHR (tag wiki)_");
-
-            correctionAdd("[tag:xhtml]_", "XHTML (tag wiki)_");
-            correctionAdd("[tag:XHTML]_", "XHTML (tag wiki)_");
-            correctionAdd("tag:xhtml_", "XHTML (tag wiki)_");
-            correctionAdd("xhtml_", "XHTML (tag wiki)_");
-            correctionAdd("XHTML_", "XHTML (tag wiki)_");
-
-            correctionAdd("[tag:xml]_", "XML (tag wiki)_");
-            correctionAdd("[tag:XML]_", "XML (tag wiki)_");
-            correctionAdd("tag:xml_", "XML (tag wiki)_");
-            correctionAdd("xml_", "XML (tag wiki)_");
-            correctionAdd("XML_", "XML (tag wiki)_");
-
-            correctionAdd("[tag:xslt]_", "XSLT (tag wiki)_");
-            correctionAdd("[tag:XSLT]_", "XSLT (tag wiki)_");
-            correctionAdd("tag:xslt_", "XSLT (tag wiki)_");
-            correctionAdd("xslt_", "XSLT (tag wiki)_");
-            correctionAdd("XSLT_", "XSLT (tag wiki)_");
-
             correctionAdd("[tag:php]_", "PHP (tag wiki)_");
             correctionAdd("tag:php_", "PHP (tag wiki)_");
             correctionAdd("php_", "PHP (tag wiki)_");
@@ -165460,11 +165486,6 @@ namespace OverflowHelper.core
             correctionAdd("[tag:chrono]_", "chrono (tag wiki)_");
             correctionAdd("tag:chrono_", "chrono (tag wiki)_");
             correctionAdd("chrono_", "chrono (tag wiki)_");
-
-            correctionAdd("[tag:tkinter]_", "Tkinter (tag wiki)_");
-            correctionAdd("tag:tkinter_", "Tkinter (tag wiki)_");
-            correctionAdd("tkinter_", "Tkinter (tag wiki)_");
-            correctionAdd("Tkinter_", "Tkinter (tag wiki)_");
 
             // Note: It for ICU as in this alternative word set
             //       (International Components for Unicode),
@@ -165597,29 +165618,14 @@ namespace OverflowHelper.core
             correctionAdd("mlflow_", "MLflow (tag wiki)_");
             correctionAdd("MLflow_", "MLflow (tag wiki)_");
 
-            correctionAdd("[tag:elixir]_", "Elixir (tag wiki)_");
-            correctionAdd("tag:elixir_", "Elixir (tag wiki)_");
-            correctionAdd("elixir_", "Elixir (tag wiki)_");
-            correctionAdd("Elixir_", "Elixir (tag wiki)_");
-
             correctionAdd("[tag:clojure]_", "Clojure (tag wiki)_");
             correctionAdd("clojure_", "Clojure (tag wiki)_");
             correctionAdd("Clojure_", "Clojure (tag wiki)_");
-
-            correctionAdd("[tag:dagger]_", "Dagger (tag wiki)_");
-            correctionAdd("tag:dagger_", "Dagger (tag wiki)_");
-            correctionAdd("dagger_", "Dagger (tag wiki)_");
-            correctionAdd("Dagger_", "Dagger (tag wiki)_");
 
             correctionAdd("[tag:axios]_", "Axios (tag wiki)_");
             correctionAdd("tag:axios_", "Axios (tag wiki)_");
             correctionAdd("axios_", "Axios (tag wiki)_");
             correctionAdd("Axios_", "Axios (tag wiki)_");
-
-            correctionAdd("[tag:docker]_", "Docker (tag wiki)_");
-            correctionAdd("tag:docker_", "Docker (tag wiki)_");
-            correctionAdd("docker_", "Docker (tag wiki)_");
-            correctionAdd("Docker_", "Docker (tag wiki)_");
 
             correctionAdd("[tag:ffmpeg]_", "FFmpeg (tag wiki)_");
             correctionAdd("tag:ffmpeg_", "FFmpeg (tag wiki)_");
@@ -165759,10 +165765,6 @@ namespace OverflowHelper.core
 
             correctionAdd("[tag:plsql]_", "PL/SQL (tag wiki)_");
             correctionAdd("tag:plsql_", "PL/SQL (tag wiki)_");
-
-            correctionAdd("[tag:zephyr]_", "Zephyr (tag wiki)_");
-            correctionAdd("zephyr_", "Zephyr (tag wiki)_");
-            correctionAdd("Zephyr_", "Zephyr (tag wiki)_");
 
             correctionAdd("[tag:linux]_", "Linux (tag wiki)_");
             correctionAdd("tag:linux_", "Linux (tag wiki)_");
@@ -165935,13 +165937,6 @@ namespace OverflowHelper.core
             correctionAdd("python-3.6_", "Python&nbsp;3.6 (tag wiki)_");
             correctionAdd("Python 3.6_", "Python&nbsp;3.6 (tag wiki)_");
 
-            correctionAdd("SQL Server (tag wiki)_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("[tag:sql-server]_", "SQL&nbsp;Server (tag wiki)_");
-            correctionAdd("SQL&nbsp;Server_", "SQL&nbsp;Server (tag wiki)_");
-            correctionAdd("tag:sql-server_", "SQL&nbsp;Server (tag wiki)_");
-            correctionAdd("sql-server_", "SQL&nbsp;Server (tag wiki)_");
-            correctionAdd("SQL Server_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
-
             correctionAdd("[tag:css]_", "CSS (tag wiki)_");
             correctionAdd("[tag:CSS]_", "CSS (tag wiki)_");
             correctionAdd("tag:css_", "CSS (tag wiki)_");
@@ -165952,6 +165947,64 @@ namespace OverflowHelper.core
             correctionAdd("CSS 3 (tag wiki)_", "CSS&nbsp;3 (tag wiki)_"); // Sort of identity mapping
             correctionAdd("css-3_", "CSS&nbsp;3 (tag wiki)_");
             correctionAdd("CSS&nbsp;3_", "CSS&nbsp;3 (tag wiki)_");
+
+            correctionAdd("[tag:xhr]_", "XHR (tag wiki)_");
+            correctionAdd("[tag:XHR]_", "XHR (tag wiki)_");
+            correctionAdd("tag:xhr_", "XHR (tag wiki)_");
+            correctionAdd("xhr_", "XHR (tag wiki)_");
+            correctionAdd("XHR_", "XHR (tag wiki)_");
+
+            correctionAdd("[tag:xhtml]_", "XHTML (tag wiki)_");
+            correctionAdd("[tag:XHTML]_", "XHTML (tag wiki)_");
+            correctionAdd("tag:xhtml_", "XHTML (tag wiki)_");
+            correctionAdd("xhtml_", "XHTML (tag wiki)_");
+            correctionAdd("XHTML_", "XHTML (tag wiki)_");
+
+            correctionAdd("[tag:xml]_", "XML (tag wiki)_");
+            correctionAdd("[tag:XML]_", "XML (tag wiki)_");
+            correctionAdd("tag:xml_", "XML (tag wiki)_");
+            correctionAdd("xml_", "XML (tag wiki)_");
+            correctionAdd("XML_", "XML (tag wiki)_");
+
+            correctionAdd("[tag:xslt]_", "XSLT (tag wiki)_");
+            correctionAdd("[tag:XSLT]_", "XSLT (tag wiki)_");
+            correctionAdd("tag:xslt_", "XSLT (tag wiki)_");
+            correctionAdd("xslt_", "XSLT (tag wiki)_");
+            correctionAdd("XSLT_", "XSLT (tag wiki)_");
+
+            correctionAdd("[tag:tkinter]_", "Tkinter (tag wiki)_");
+            correctionAdd("tag:tkinter_", "Tkinter (tag wiki)_");
+            correctionAdd("tkinter_", "Tkinter (tag wiki)_");
+            correctionAdd("Tkinter_", "Tkinter (tag wiki)_");
+
+            correctionAdd("[tag:elixir]_", "Elixir (tag wiki)_");
+            correctionAdd("tag:elixir_", "Elixir (tag wiki)_");
+            correctionAdd("elixir_", "Elixir (tag wiki)_");
+            correctionAdd("Elixir_", "Elixir (tag wiki)_");
+
+            correctionAdd("[tag:dagger]_", "Dagger (tag wiki)_");
+            correctionAdd("tag:dagger_", "Dagger (tag wiki)_");
+            correctionAdd("dagger_", "Dagger (tag wiki)_");
+            correctionAdd("Dagger_", "Dagger (tag wiki)_");
+
+            correctionAdd("[tag:docker]_", "Docker (tag wiki)_");
+            correctionAdd("tag:docker_", "Docker (tag wiki)_");
+            correctionAdd("docker_", "Docker (tag wiki)_");
+            correctionAdd("Docker_", "Docker (tag wiki)_");
+
+            correctionAdd("[tag:zephyr]_", "Zephyr (tag wiki)_");
+            correctionAdd("zephyr_", "Zephyr (tag wiki)_");
+            correctionAdd("Zephyr_", "Zephyr (tag wiki)_");
+
+            correctionAdd("SQL Server (tag wiki)_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("[tag:sql-server]_", "SQL&nbsp;Server (tag wiki)_");
+            correctionAdd("SQL&nbsp;Server_", "SQL&nbsp;Server (tag wiki)_");
+            correctionAdd("tag:sql-server_", "SQL&nbsp;Server (tag wiki)_");
+            correctionAdd("sql-server_", "SQL&nbsp;Server (tag wiki)_");
+            correctionAdd("SQL Server_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
+
+            correctionAdd("[tag:r]_", "R (tag wiki)_");
+            correctionAdd("tag:r_", "R (tag wiki)_");
 
             //// Wrong URL... It should be:
             //
@@ -168357,6 +168410,8 @@ namespace OverflowHelper.core
             // The common noun (not specifically the electronics concept)
             correctionAdd("decoupeling_", "decoupling_");
 
+            correctionAdd("trade-off_", "trade off_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -168835,6 +168890,8 @@ namespace OverflowHelper.core
             URL_Add("XHR (tag wiki)_", "https://stackoverflow.com/questions/tagged/xhr");
 
             URL_Add(".NET (tag wiki)_", "https://stackoverflow.com/questions/tagged/.net");
+
+            URL_Add("R (tag wiki)_", "https://stackoverflow.com/questions/tagged/r");
 
             //URL_Add("Zephyr RTOS (tag wiki)_", "https://stackoverflow.com/questions/tagged/zephyr-rtos");
             //
@@ -169355,10 +169412,6 @@ namespace OverflowHelper.core
             URL_Add("mucking about_", "https://en.wiktionary.org/wiki/muck_about#Verb");
 
             URL_Add("project management_", "https://en.wikipedia.org/wiki/Project_management");
-
-            URL_Add("Group Policy_", "https://en.wikipedia.org/wiki/Group_Policy");
-
-            URL_Add("group buys_", "https://en.wikipedia.org/wiki/Group_buying#Business_model");
 
             URL_Add("pictures_", "https://en.wiktionary.org/wiki/picture#Noun");
 
@@ -173124,6 +173177,12 @@ namespace OverflowHelper.core
 
             URL_Add("image quality_", "https://en.wikipedia.org/wiki/Image_quality");
 
+            URL_Add("trade off_", "https://en.wiktionary.org/wiki/trade_off#Verb");
+
+            URL_Add("Group Policy_", "https://en.wikipedia.org/wiki/Group_Policy");
+
+            URL_Add("group buys_", "https://en.wikipedia.org/wiki/Group_buying#Business_model");
+
         } //addLookupData_alternativeWordSet()
 
 
@@ -173302,6 +173361,10 @@ namespace OverflowHelper.core
             //
             //      <https://forum.codeproject.com>
             //
+            //      And now: "codeproject.com is parked free,
+            //                courtesy of GoDaddy.com."
+            //
+            correctionAdd("www.codeproject.com__", "The Code Project__");
             correctionAdd("the coding project__", "The Code Project__");
             correctionAdd("the code project__", "The Code Project__");
             correctionAdd("coding project__", "The Code Project__");
@@ -178960,7 +179023,7 @@ namespace OverflowHelper.core
 
             URL_Add("info page__", "https://en.wikipedia.org/wiki/Info_(Unix)");
 
-            URL_Add("The Code Project__", "https://en.wikipedia.org/wiki/Code_Project"); // Was https://en.wikipedia.org/wiki/The_Code_Project
+            URL_Add("The Code Project__", "https://en.wikipedia.org/wiki/CodeProject"); // Old: <https://en.wikipedia.org/wiki/Code_Project>. Even older: https://en.wikipedia.org/wiki/The_Code_Project
 
             URL_Add("notes__", "https://en.wikipedia.org/wiki/Musical_note");
 
@@ -179273,8 +179336,6 @@ namespace OverflowHelper.core
             URL_Add("bit__", "https://en.wiktionary.org/wiki/bite#Verb");
 
             URL_Add("programmer__", "https://en.wikipedia.org/wiki/Programmer_(hardware)");
-
-            URL_Add("feature request__", "https://blog.trello.com/3-ways-to-manage-feature-requests");
 
             URL_Add("Kali Linux__", "https://en.wikipedia.org/wiki/Kali_Linux");
 
@@ -179861,6 +179922,8 @@ namespace OverflowHelper.core
             URL_Add("eval()__", "https://docs.python.org/3.8/library/functions.html#eval");
 
             URL_Add("read()__", "https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects");
+
+            URL_Add("feature request__", "https://blog.trello.com/3-ways-to-manage-feature-requests");
 
         } //addLookupData_alternativeWordSet2()
 
