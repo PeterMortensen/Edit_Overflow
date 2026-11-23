@@ -8021,6 +8021,7 @@ namespace OverflowHelper.core
             correctionAdd("Run Dialog", "Run dialog");
             correctionAdd("run dialog", "Run dialog");
             correctionAdd("Run window", "Run dialog");
+            correctionAdd("Run As", "Run dialog");
 
             // Ubuntu / Linux
             //
@@ -57387,6 +57388,8 @@ namespace OverflowHelper.core
             correctionAdd("modificated", "modified");
             correctionAdd("modififeid", "modified");
             correctionAdd("modifired", "modified");
+            correctionAdd("Moddified", "modified");
+            correctionAdd("moddified", "modified");
             correctionAdd("modifeid", "modified");
             correctionAdd("modifed", "modified");
             correctionAdd("Modded", "modified");
@@ -74831,6 +74834,7 @@ namespace OverflowHelper.core
             correctionAdd("inmdediatly", "immediately");
             correctionAdd("immeditalty", "immediately");
             correctionAdd("immeaditely", "immediately");
+            correctionAdd("immidiately", "immediately");
             correctionAdd("immediatly", "immediately");
             correctionAdd("inmediatly", "immediately");
             correctionAdd("immedately", "immediately");
@@ -74844,6 +74848,7 @@ namespace OverflowHelper.core
             correctionAdd("imediately", "immediately");
             correctionAdd("imediatlly", "immediately");
             correctionAdd("immeditely", "immediately");
+            correctionAdd("immidiatly", "immediately");
             correctionAdd("immedetly", "immediately");
             correctionAdd("imidiatly", "immediately");
             correctionAdd("immedialy", "immediately");
@@ -99624,72 +99629,57 @@ namespace OverflowHelper.core
             correctionAdd("OpenJdk", "OpenJDK");
             correctionAdd("openJdk", "OpenJDK");
 
-            correctionAdd("Java SE 5", "Java&nbsp;SE&nbsp;5"); // Sort of identity mapping
-            correctionAdd("JDK5", "Java&nbsp;SE&nbsp;5");
+            correctionAdd("JDK5", "Java SE 5");
 
-            correctionAdd("java 6", "Java&nbsp;6");
-            correctionAdd("Java 6", "Java&nbsp;6"); // Sort of self
-            correctionAdd("Java6", "Java&nbsp;6");
+            correctionAdd("java 6", "Java 6");
+            correctionAdd("Java6", "Java 6");
 
-            correctionAdd("Java SE 6", "Java&nbsp;SE&nbsp;6");
-            correctionAdd("JDK 6", "Java&nbsp;SE&nbsp;6");
-            correctionAdd("JDK6", "Java&nbsp;SE&nbsp;6");
+            correctionAdd("JDK 6", "Java SE 6");
+            correctionAdd("JDK6", "Java SE 6");
 
-            correctionAdd("java 7", "Java&nbsp;7");
-            correctionAdd("Java 7", "Java&nbsp;7"); // Sort of self
-            correctionAdd("Java7", "Java&nbsp;7");
-            correctionAdd("java7", "Java&nbsp;7");
+            correctionAdd("java 7", "Java 7");
+            correctionAdd("Java7", "Java 7");
+            correctionAdd("java7", "Java 7");
 
-            correctionAdd("Java SE 7", "Java&nbsp;SE&nbsp;7");
-            correctionAdd("JDK 7", "Java&nbsp;SE&nbsp;7");
-            correctionAdd("jdk7", "Java&nbsp;SE&nbsp;7");
+            correctionAdd("JDK 7", "Java SE 7");
+            correctionAdd("jdk7", "Java SE 7");
 
-            correctionAdd("Java SE 8", "Java&nbsp;SE&nbsp;8");
-            correctionAdd("jdk8", "Java&nbsp;SE&nbsp;8");
-            correctionAdd("JDK8", "Java&nbsp;SE&nbsp;8");
+            correctionAdd("jdk8", "Java SE 8");
+            correctionAdd("JDK8", "Java SE 8");
 
-            correctionAdd("java 8", "Java&nbsp;8");
-            correctionAdd("Java 8", "Java&nbsp;8"); // Sort of self
-            correctionAdd("java-8", "Java&nbsp;8");
-            correctionAdd("JAVA 8", "Java&nbsp;8");
-            correctionAdd("Java-8", "Java&nbsp;8");
-            correctionAdd("Java8", "Java&nbsp;8");
+            correctionAdd("java 8", "Java 8");
+            correctionAdd("java-8", "Java 8");
+            correctionAdd("JAVA 8", "Java 8");
+            correctionAdd("Java-8", "Java 8");
+            correctionAdd("Java8", "Java 8");
 
-            correctionAdd("Java 9", "Java&nbsp;9"); // Sort of self
-            correctionAdd("java-9", "Java&nbsp;9");
-            correctionAdd("java9", "Java&nbsp;9");
-            correctionAdd("Java9", "Java&nbsp;9");
+            correctionAdd("java-9", "Java 9");
+            correctionAdd("java9", "Java 9");
+            correctionAdd("Java9", "Java 9");
 
-            correctionAdd("Java 10", "Java&nbsp;10"); // Sort of identity mapping
-            correctionAdd("Java10", "Java&nbsp;10");
+            correctionAdd("Java10", "Java 10");
 
-            correctionAdd("Java 11", "Java&nbsp;11");
-            correctionAdd("java 11", "Java&nbsp;11");
-            correctionAdd("JAVA 11", "Java&nbsp;11");
-            correctionAdd("java-11", "Java&nbsp;11");
-            correctionAdd("java11", "Java&nbsp;11");
+            correctionAdd("java 11", "Java 11");
+            correctionAdd("JAVA 11", "Java 11");
+            correctionAdd("java-11", "Java 11");
+            correctionAdd("java11", "Java 11");
 
-            correctionAdd("Java 15", "Java&nbsp;15"); // Sort of identity mapping
-            correctionAdd("jdk-15", "Java&nbsp;15");
-            correctionAdd("JDK 15", "Java&nbsp;15");
+            correctionAdd("jdk-15", "Java 15");
+            correctionAdd("JDK 15", "Java 15");
 
-            correctionAdd("Java 17", "Java&nbsp;17"); // Sort of identity mapping
-            correctionAdd("java 17", "Java&nbsp;17");
-            correctionAdd("java17", "Java&nbsp;17");
+            correctionAdd("java 17", "Java 17");
+            correctionAdd("java17", "Java 17");
 
-            correctionAdd("java-19", "Java&nbsp;19");
-            correctionAdd("Java 19", "Java&nbsp;19"); // Sort of identity mapping
-            correctionAdd("java 19", "Java&nbsp;19");
+            correctionAdd("java-19", "Java 19");
+            correctionAdd("java 19", "Java 19");
 
-            correctionAdd("java 20", "Java&nbsp;20");
-            correctionAdd("Java 20", "Java&nbsp;20"); // Sort of identity mapping
+            correctionAdd("java 20", "Java 20");
 
             correctionAdd("Java Runtime Environment", "JRE");
             correctionAdd("Jre", "JRE");
             correctionAdd("jre", "JRE");
 
-            correctionAdd("jre-8", "JRE&nbsp;8");
-            correctionAdd("JRE 8", "JRE&nbsp;8"); // Sort of identity mapping
+            correctionAdd("jre-8", "JRE 8");
 
             correctionAdd("Java Native Access", "JNA");
             correctionAdd("jna", "JNA");
@@ -100884,34 +100874,29 @@ namespace OverflowHelper.core
             correctionAdd("Expatriates", "Expatriates (Stack Exchange site)");
             correctionAdd("expatriates", "Expatriates (Stack Exchange site)");
 
-            correctionAdd("English Language & Usage (Stack Exchange site)", "English&nbsp;Language & Usage (Stack Exchange site)");
-            correctionAdd("English&nbsp;Language & Usage", "English&nbsp;Language & Usage (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("English language and usage", "English&nbsp;Language & Usage (Stack Exchange site)");
-            correctionAdd("English Language and Usage", "English&nbsp;Language & Usage (Stack Exchange site)");
-            correctionAdd("english.stackexchange.com", "English&nbsp;Language & Usage (Stack Exchange site)");
-            correctionAdd("English Language & Usage", "English&nbsp;Language & Usage (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("English usage", "English&nbsp;Language & Usage (Stack Exchange site)");
-            correctionAdd("english.se", "English&nbsp;Language & Usage (Stack Exchange site)");
-            correctionAdd("English.SE", "English&nbsp;Language & Usage (Stack Exchange site)");
-            correctionAdd("EL & U", "English&nbsp;Language & Usage (Stack Exchange site)");
-            correctionAdd("EL&U", "English&nbsp;Language & Usage (Stack Exchange site)");
-            correctionAdd("ELU", "English&nbsp;Language & Usage (Stack Exchange site)");
+            correctionAdd("English language and usage", "English Language & Usage (Stack Exchange site)");
+            correctionAdd("English Language and Usage", "English Language & Usage (Stack Exchange site)");
+            correctionAdd("english.stackexchange.com", "English Language & Usage (Stack Exchange site)");
+            correctionAdd("English Language & Usage", "English Language & Usage (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("English usage", "English Language & Usage (Stack Exchange site)");
+            correctionAdd("english.se", "English Language & Usage (Stack Exchange site)");
+            correctionAdd("English.SE", "English Language & Usage (Stack Exchange site)");
+            correctionAdd("EL & U", "English Language & Usage (Stack Exchange site)");
+            correctionAdd("EL&U", "English Language & Usage (Stack Exchange site)");
+            correctionAdd("ELU", "English Language & Usage (Stack Exchange site)");
 
-            correctionAdd("Code Review (Stack Exchange site)", "Code&nbsp;Review (Stack Exchange site)");
-            correctionAdd("Code&nbsp;Review", "Code&nbsp;Review (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("code review", "Code&nbsp;Review (Stack Exchange site)");
-            correctionAdd("Code Review", "Code&nbsp;Review (Stack Exchange site)");
-            correctionAdd("Code R3view", "Code&nbsp;Review (Stack Exchange site)");
-            correctionAdd("Code review", "Code&nbsp;Review (Stack Exchange site)");
-            correctionAdd("CodeReview", "Code&nbsp;Review (Stack Exchange site)");
-            correctionAdd("codereview", "Code&nbsp;Review (Stack Exchange site)");
-            correctionAdd("cr.SE", "Code&nbsp;Review (Stack Exchange site)");
-            correctionAdd("CR.SE", "Code&nbsp;Review (Stack Exchange site)");
-            correctionAdd("CRSE", "Code&nbsp;Review (Stack Exchange site)");
+            correctionAdd("code review", "Code Review (Stack Exchange site)");
+            correctionAdd("Code Review", "Code Review (Stack Exchange site)");
+            correctionAdd("Code R3view", "Code Review (Stack Exchange site)");
+            correctionAdd("Code review", "Code Review (Stack Exchange site)");
+            correctionAdd("CodeReview", "Code Review (Stack Exchange site)");
+            correctionAdd("codereview", "Code Review (Stack Exchange site)");
+            correctionAdd("cr.SE", "Code Review (Stack Exchange site)");
+            correctionAdd("CR.SE", "Code Review (Stack Exchange site)");
+            correctionAdd("CRSE", "Code Review (Stack Exchange site)");
 
             correctionAdd("apple.stackexchange.com", "Ask Different (Stack Exchange site)");
-            correctionAdd("Ask&nbsp;Different", "Ask Different (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Ask Different", "Ask Different (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("Ask Different", "Ask Different (Stack Exchange site)");
             correctionAdd("ASk Different", "Ask Different (Stack Exchange site)");
             correctionAdd("ask different", "Ask Different (Stack Exchange site)");
             correctionAdd("AskDifferent", "Ask Different (Stack Exchange site)");
@@ -100925,14 +100910,12 @@ namespace OverflowHelper.core
             correctionAdd("retrocomputing", "Retrocomputing (Stack Exchange site)");
             correctionAdd("Retrocomputing", "Retrocomputing (Stack Exchange site)");
 
-            correctionAdd("Game Development (Stack Exchange site)", "Game&nbsp;Development (Stack Exchange site)");
-            correctionAdd("gamedev.stackexchange.com", "Game&nbsp;Development (Stack Exchange site)");
-            correctionAdd("Game&nbsp;Development", "Game&nbsp;Development (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Game development", "Game&nbsp;Development (Stack Exchange site)");
-            correctionAdd("Game Development", "Game&nbsp;Development (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("game dev", "Game&nbsp;Development (Stack Exchange site)");
-            correctionAdd("Game Dev", "Game&nbsp;Development (Stack Exchange site)");
-            correctionAdd("GameDev", "Game&nbsp;Development (Stack Exchange site)");
+            correctionAdd("gamedev.stackexchange.com", "Game Development (Stack Exchange site)");
+            correctionAdd("Game development", "Game Development (Stack Exchange site)");
+            correctionAdd("Game Development", "Game Development (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("game dev", "Game Development (Stack Exchange site)");
+            correctionAdd("Game Dev", "Game Development (Stack Exchange site)");
+            correctionAdd("GameDev", "Game Development (Stack Exchange site)");
 
             correctionAdd("skeptics.stackexhange", "Skeptics (Stack Exchange site)");
             correctionAdd("Skeptics.SE", "Skeptics (Stack Exchange site)");
@@ -100953,14 +100936,12 @@ namespace OverflowHelper.core
             correctionAdd("Wordbuilding", "Worldbuilding (Stack Exchange site)");
             correctionAdd("WB.SE", "Worldbuilding (Stack Exchange site)");
 
-            correctionAdd("Sound Design (Stack Exchange site)", "Sound&nbsp;Design (Stack Exchange site)");
-            correctionAdd("audio.stackexchange.com", "Sound&nbsp;Design (Stack Exchange site)");
-            correctionAdd("Sound&nbsp;Design", "Sound&nbsp;Design (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Sound Design", "Sound&nbsp;Design (Stack Exchange site)");
-            correctionAdd("sound design", "Sound&nbsp;Design (Stack Exchange site)");
-            correctionAdd("Audio.SE", "Sound&nbsp;Design (Stack Exchange site)");
-            correctionAdd("audio.SE", "Sound&nbsp;Design (Stack Exchange site)");
-            correctionAdd("Audio", "Sound&nbsp;Design (Stack Exchange site)"); // See also (e.g. merge and split history for the original audio.stackexchange.com site): <https://meta.stackexchange.com/questions/76322/audio-se-is-ailing>, <https://meta.stackexchange.com/questions/87052/where-can-i-ask-questions-about-headphone-repair#comment1277408_87052>, and <https://video.meta.stackexchange.com/questions/357/moving-avp-to-video-se-next-steps>.
+            correctionAdd("audio.stackexchange.com", "Sound Design (Stack Exchange site)");
+            correctionAdd("Sound Design", "Sound Design (Stack Exchange site)");
+            correctionAdd("sound design", "Sound Design (Stack Exchange site)");
+            correctionAdd("Audio.SE", "Sound Design (Stack Exchange site)");
+            correctionAdd("audio.SE", "Sound Design (Stack Exchange site)");
+            correctionAdd("Audio", "Sound Design (Stack Exchange site)"); // See also (e.g. merge and split history for the original audio.stackexchange.com site): <https://meta.stackexchange.com/questions/76322/audio-se-is-ailing>, <https://meta.stackexchange.com/questions/87052/where-can-i-ask-questions-about-headphone-repair#comment1277408_87052>, and <https://video.meta.stackexchange.com/questions/357/moving-avp-to-video-se-next-steps>.
 
             correctionAdd("Travel stackexchange", "Travel (Stack Exchange site)");
             correctionAdd("Travel.SE", "Travel (Stack Exchange site)");
@@ -100968,20 +100949,16 @@ namespace OverflowHelper.core
             correctionAdd("Travel", "Travel (Stack Exchange site)");
             correctionAdd("TSE", "Travel (Stack Exchange site)");
 
-            correctionAdd("Video Production (Stack Exchange site)", "Video&nbsp;Production (Stack Exchange site)");
-            correctionAdd("Video&nbsp;Production", "Video&nbsp;Production (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("video production", "Video&nbsp;Production (Stack Exchange site)");
-            correctionAdd("Video Production", "Video&nbsp;Production (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("video production", "Video Production (Stack Exchange site)");
+            correctionAdd("Video Production", "Video Production (Stack Exchange site)");
 
             correctionAdd("History", "History (Stack Exchange site)");
 
-            correctionAdd("English Language Learners (Stack Exchange site)", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
-            correctionAdd("English&nbsp;Language&nbsp;Learners", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("English Language Learners", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("English Learners Language", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
-            correctionAdd("English Learners", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
-            correctionAdd("ELL.SE", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
-            correctionAdd("ELL", "English&nbsp;Language&nbsp;Learners (Stack Exchange site)");
+            correctionAdd("English Language Learners", "English Language Learners (Stack Exchange site)");
+            correctionAdd("English Learners Language", "English Language Learners (Stack Exchange site)");
+            correctionAdd("English Learners", "English Language Learners (Stack Exchange site)");
+            correctionAdd("ELL.SE", "English Language Learners (Stack Exchange site)");
+            correctionAdd("ELL", "English Language Learners (Stack Exchange site)");
 
             correctionAdd("Puzzling.SE", "Puzzling (Stack Exchange site)");
             correctionAdd("puzzling.se", "Puzzling (Stack Exchange site)");
@@ -101001,16 +100978,12 @@ namespace OverflowHelper.core
             correctionAdd("Parenting.SE", "Parenting (Stack Exchange site)");
             correctionAdd("Parenting", "Parenting (Stack Exchange site)");
 
-            correctionAdd("Movies & TV", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Movies & TV (Stack Exchange site)", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)");
-            correctionAdd("Movies&nbsp;&&nbsp;TV", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Movies", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)");
-            correctionAdd("M&TV", "Movies&nbsp;&&nbsp;TV (Stack Exchange site)");
+            correctionAdd("Movies & TV", "Movies & TV (Stack Exchange site)");
+            correctionAdd("Movies", "Movies & TV (Stack Exchange site)");
+            correctionAdd("M&TV", "Movies & TV (Stack Exchange site)");
 
-            correctionAdd("Matter Modeling (Stack Exchange site)", "Matter&nbsp;Modeling (Stack Exchange site)");
-            correctionAdd("Matter&nbsp;Modeling", "Matter&nbsp;Modeling (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("matter modeling", "Matter&nbsp;Modeling (Stack Exchange site)");
-            correctionAdd("Matter Modeling", "Matter&nbsp;Modeling (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("matter modeling", "Matter Modeling (Stack Exchange site)");
+            correctionAdd("Matter Modeling", "Matter Modeling (Stack Exchange site)");
 
             correctionAdd("arcade.stackexchange.com", "Arqade (Stack Exchange site)");
             correctionAdd("arqade.stackexchange.com", "Arqade (Stack Exchange site)");
@@ -101019,32 +100992,26 @@ namespace OverflowHelper.core
             correctionAdd("Arqade", "Arqade (Stack Exchange site)"); // Sort of identity mapping
             correctionAdd("Gaming", "Arqade (Stack Exchange site)");
 
-            correctionAdd("Role-playing Games (Stack Exchange site)", "Role-playing&nbsp;Games (Stack Exchange site)");
-            correctionAdd("Role-playing&nbsp;Games", "Role-playing&nbsp;Games (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Role-playing Games", "Role-playing&nbsp;Games (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("RPG stackexchange", "Role-playing&nbsp;Games (Stack Exchange site)");
-            correctionAdd("RPG.SE", "Role-playing&nbsp;Games (Stack Exchange site)");
-            correctionAdd("RPGSE", "Role-playing&nbsp;Games (Stack Exchange site)");
-            correctionAdd("RPG", "Role-playing&nbsp;Games (Stack Exchange site)");
-            correctionAdd("rpg", "Role-playing&nbsp;Games (Stack Exchange site)");
+            correctionAdd("Role-playing Games", "Role-playing Games (Stack Exchange site)");
+            correctionAdd("RPG stackexchange", "Role-playing Games (Stack Exchange site)");
+            correctionAdd("RPG.SE", "Role-playing Games (Stack Exchange site)");
+            correctionAdd("RPGSE", "Role-playing Games (Stack Exchange site)");
+            correctionAdd("RPG", "Role-playing Games (Stack Exchange site)");
+            correctionAdd("rpg", "Role-playing Games (Stack Exchange site)");
 
             correctionAdd("AstronomySE", "Astronomy (Stack Exchange site)");
             correctionAdd("Astronomy", "Astronomy (Stack Exchange site)");
             correctionAdd("ASE", "Astronomy (Stack Exchange site)");
 
-            correctionAdd("Drupal Answers (Stack Exchange site)", "Drupal&nbsp;Answers (Stack Exchange site)");
-            correctionAdd("Drupal&nbsp;Answers", "Drupal&nbsp;Answers (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("drupal answers", "Drupal&nbsp;Answers (Stack Exchange site)");
-            correctionAdd("Drupal Answers", "Drupal&nbsp;Answers (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("drupal answers", "Drupal Answers (Stack Exchange site)");
+            correctionAdd("Drupal Answers", "Drupal Answers (Stack Exchange site)");
 
-            correctionAdd("Hardware Recommendations (Stack Exchange site)", "Hardware&nbsp;Recommendations (Stack Exchange site)");
-            correctionAdd("Hardware&nbsp;Recommendations", "Hardware&nbsp;Recommendations (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("hardware recommendations", "Hardware&nbsp;Recommendations (Stack Exchange site)");
-            correctionAdd("Hardware Recommendations", "Hardware&nbsp;Recommendations (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("hardware recs", "Hardware&nbsp;Recommendations (Stack Exchange site)");
-            correctionAdd("hardwarerecs", "Hardware&nbsp;Recommendations (Stack Exchange site)");
-            correctionAdd("HW recs", "Hardware&nbsp;Recommendations (Stack Exchange site)");
-            correctionAdd("hw recs", "Hardware&nbsp;Recommendations (Stack Exchange site)");
+            correctionAdd("hardware recommendations", "Hardware Recommendations (Stack Exchange site)");
+            correctionAdd("Hardware Recommendations", "Hardware Recommendations (Stack Exchange site)");
+            correctionAdd("hardware recs", "Hardware Recommendations (Stack Exchange site)");
+            correctionAdd("hardwarerecs", "Hardware Recommendations (Stack Exchange site)");
+            correctionAdd("HW recs", "Hardware Recommendations (Stack Exchange site)");
+            correctionAdd("hw recs", "Hardware Recommendations (Stack Exchange site)");
 
             correctionAdd("Network Engineering (Stack Exchange site)", "Network&nbsp;Engineering (Stack Exchange site)");
             correctionAdd("Network&nbsp;Engineering", "Network&nbsp;Engineering (Stack Exchange site)"); // Sort of identity mapping
@@ -102579,10 +102546,9 @@ namespace OverflowHelper.core
             correctionAdd("xsd", "XSD");
             correctionAdd("Xsd", "XSD");
 
-            correctionAdd("Glide API", "Glide&nbsp;API"); // Sort of identity mapping
-            correctionAdd("Glide", "Glide&nbsp;API");
-            correctionAdd("glide", "Glide&nbsp;API");
-            correctionAdd("GLide", "Glide&nbsp;API");
+            correctionAdd("Glide", "Glide API");
+            correctionAdd("glide", "Glide API");
+            correctionAdd("GLide", "Glide API");
 
             correctionAdd("xna", "XNA");
 
@@ -102611,10 +102577,9 @@ namespace OverflowHelper.core
             correctionAdd("blendermarket", "Blender Market");
 
             // But the link is (effectively) broken
-            correctionAdd("jQuery Isotope", "jQuery&nbsp;Isotope"); // Sort of identity mapping
-            correctionAdd("JQuery Isotope", "jQuery&nbsp;Isotope");
-            correctionAdd("isotope", "jQuery&nbsp;Isotope");
-            correctionAdd("Isotope", "jQuery&nbsp;Isotope");
+            correctionAdd("JQuery Isotope", "jQuery Isotope");
+            correctionAdd("isotope", "jQuery Isotope");
+            correctionAdd("Isotope", "jQuery Isotope");
 
             correctionAdd("antlers", "ANTLR");
             correctionAdd("Antler", "ANTLR");
@@ -102846,13 +102811,12 @@ namespace OverflowHelper.core
 
             correctionAdd("kinect", "Kinect");
 
-            correctionAdd("3ds Max", "3ds&nbsp;Max"); // Sort of identity mapping
-            correctionAdd("3ds max", "3ds&nbsp;Max");
-            correctionAdd("3DS Max", "3ds&nbsp;Max");
-            correctionAdd("3Dsmax", "3ds&nbsp;Max");
-            correctionAdd("3dsmax", "3ds&nbsp;Max");
-            correctionAdd("3DsMax", "3ds&nbsp;Max");
-            correctionAdd("3ds", "3ds&nbsp;Max");
+            correctionAdd("3ds max", "3ds Max");
+            correctionAdd("3DS Max", "3ds Max");
+            correctionAdd("3Dsmax", "3ds Max");
+            correctionAdd("3dsmax", "3ds Max");
+            correctionAdd("3DsMax", "3ds Max");
+            correctionAdd("3ds", "3ds Max");
 
             correctionAdd("Exc e llen t", "excellent");
             correctionAdd("exc e llen t", "excellent");
@@ -105660,13 +105624,11 @@ namespace OverflowHelper.core
             correctionAdd("GPDR", "GDPR");
             correctionAdd("gpdr", "GDPR");
 
-            correctionAdd("ISO 2", "ISO&nbsp;2");
-            correctionAdd("iso2", "ISO&nbsp;2");
-            correctionAdd("ISO2", "ISO&nbsp;2");
+            correctionAdd("iso2", "ISO 2");
+            correctionAdd("ISO2", "ISO 2");
 
-            correctionAdd("ISO 3", "ISO&nbsp;3");
-            correctionAdd("iso3", "ISO&nbsp;3");
-            correctionAdd("ISO3", "ISO&nbsp;3");
+            correctionAdd("iso3", "ISO 3");
+            correctionAdd("ISO3", "ISO 3");
 
             correctionAdd("meritocrasi", "meritocracy");
 
@@ -106944,8 +106906,7 @@ namespace OverflowHelper.core
 
             correctionAdd("jinja", "Jinja");
 
-            correctionAdd("Jinja 2", "Jinja&nbsp;2");
-            correctionAdd("jinja2", "Jinja&nbsp;2");
+            correctionAdd("jinja2", "Jinja 2");
 
             correctionAdd("xtensa", "Xtensa");
 
@@ -107819,8 +107780,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Flix Bus", "FlixBus");
 
-            correctionAdd("ISO 9660", "ISO&nbsp;9660");
-            correctionAdd("iso9660", "ISO&nbsp;9660");
+            correctionAdd("iso9660", "ISO 9660");
 
             correctionAdd("R2dbc", "R2DBC");
             correctionAdd("r2dbc", "R2DBC");
@@ -109826,8 +109786,6 @@ namespace OverflowHelper.core
 
             URL_Add("MooTools", "https://en.wikipedia.org/wiki/MooTools");
 
-            URL_Add("JavaFX", "https://en.wikipedia.org/wiki/JavaFX");
-
             URL_Add("WebKit", "https://en.wikipedia.org/wiki/WebKit");
 
             URL_Add("MongoDB", "https://en.wikipedia.org/wiki/MongoDB");
@@ -109847,8 +109805,6 @@ namespace OverflowHelper.core
             URL_Add("cURL", "https://en.wikipedia.org/wiki/CURL");
 
             URL_Add("PIL", "https://en.wikipedia.org/wiki/Python_Imaging_Library");
-
-            URL_Add("Java ME", "https://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition");
 
             URL_Add("Xbox", "https://en.wikipedia.org/wiki/Xbox");
 
@@ -109917,12 +109873,6 @@ namespace OverflowHelper.core
             URL_Add("iTunes", "https://en.wikipedia.org/wiki/ITunes");
 
             URL_Add("Unicode", "https://en.wikipedia.org/wiki/Unicode");
-
-            URL_Add("Java", "https://en.wikipedia.org/wiki/Java_%28programming_language%29");
-
-            URL_Add("JBoss", "https://en.wikipedia.org/wiki/JBoss");
-
-            URL_Add("JSP", "https://en.wikipedia.org/wiki/Jakarta_Server_Pages"); // Old: https://en.wikipedia.org/wiki/JavaServer_Pages
 
             URL_Add("Paint.NET", "https://en.wikipedia.org/wiki/Paint.NET");
 
@@ -110483,8 +110433,6 @@ namespace OverflowHelper.core
             URL_Add("Omaha", "https://omaha.googlecode.com/svn/wiki/OmahaOverview.html"); // Old: <http://omaha.googlecode.com/svn/wiki/OmahaOverview.html>
 
             URL_Add("Digg", "https://en.wikipedia.org/wiki/Digg");
-
-            URL_Add("immediately", "https://en.wiktionary.org/wiki/immediately#Adverb"); // Old: https://en.wiktionary.org/wiki/immediately
 
             URL_Add("NSIS", "https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System");
 
@@ -111924,11 +111872,49 @@ namespace OverflowHelper.core
 
             URL_Add("Google Guava", "https://en.wikipedia.org/wiki/Google_Guava");
 
-            URL_Add("Java&nbsp;6", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_6");
+            URL_Add("Java", "https://en.wikipedia.org/wiki/Java_%28programming_language%29");
 
-            URL_Add("Java&nbsp;7", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_7");
+            URL_Add("JVM", "https://en.wikipedia.org/wiki/Java_virtual_machine");
 
-            URL_Add("Java&nbsp;8", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_8");
+            URL_Add("JRE", "https://en.wikipedia.org/wiki/Java_virtual_machine#Java_Runtime_Environment"); // Old: https://en.wikipedia.org/wiki/Java_virtual_machine Even older: https://en.wikipedia.org/wiki/Java_%28software_platform%29#Platform.
+
+            URL_Add("JRE 8", "https://en.wikipedia.org/wiki/Java_(software_platform)#Java_Runtime_Environment");
+
+            URL_Add("Java SE 5", "https://en.wikipedia.org/wiki/Java_version_history#Java_5");
+
+            URL_Add("Java SE 6", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_6");
+
+            URL_Add("Java SE 7", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_7");
+
+            URL_Add("Java SE 8", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_8");
+
+            URL_Add("Java 6", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_6");
+
+            URL_Add("Java 7", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_7");
+
+            URL_Add("Java 8", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_8");
+
+            URL_Add("Java 9", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_9");
+
+            URL_Add("Java 10", "https://en.wikipedia.org/wiki/Java_version_history#Java_11");
+
+            URL_Add("Java 11", "https://en.wikipedia.org/wiki/Java_version_history#Java_11");
+
+            URL_Add("Java 15", "https://en.wikipedia.org/wiki/Java_version_history#Java_15");
+
+            URL_Add("Java 17", "https://en.wikipedia.org/wiki/Java_version_history#Java_17");
+
+            URL_Add("Java 19", "https://en.wikipedia.org/wiki/Java_version_history#Java_19");
+
+            URL_Add("Java 20", "https://en.wikipedia.org/wiki/Java_version_history#Java_20");
+
+            URL_Add("JavaFX", "https://en.wikipedia.org/wiki/JavaFX");
+
+            URL_Add("Java ME", "https://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition");
+
+            URL_Add("JBoss", "https://en.wikipedia.org/wiki/JBoss");
+
+            URL_Add("JSP", "https://en.wikipedia.org/wiki/Jakarta_Server_Pages"); // Old: https://en.wikipedia.org/wiki/JavaServer_Pages
 
             URL_Add("Mutt", "https://en.wikipedia.org/wiki/Mutt_(email_client)");
 
@@ -112792,8 +112778,6 @@ namespace OverflowHelper.core
 
             URL_Add("picturesque", "https://en.wiktionary.org/wiki/picturesque#Adjective");
 
-            URL_Add("Java&nbsp;9", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_9");
-
             URL_Add("Uncle Bob", "https://en.wikipedia.org/wiki/Robert_C._Martin");
 
             URL_Add("criticising", "https://en.wiktionary.org/wiki/criticise#Verb"); // Old: https://en.wiktionary.org/wiki/criticise
@@ -113233,8 +113217,6 @@ namespace OverflowHelper.core
             URL_Add("Nemo", "https://en.wikipedia.org/wiki/Nemo_%28file_manager%29");
 
             URL_Add("cut-out", "https://en.wiktionary.org/wiki/cut-out#Noun");
-
-            URL_Add("immediate", "https://en.wiktionary.org/wiki/immediate#Adjective");
 
             URL_Add("welfare", "https://en.wiktionary.org/wiki/welfare#Noun");
 
@@ -114388,8 +114370,6 @@ namespace OverflowHelper.core
 
             URL_Add("erroneous", "https://en.wiktionary.org/wiki/erroneous#Adjective");
 
-            URL_Add("immeasurable", "https://en.wiktionary.org/wiki/immeasurable#Adjective");
-
             URL_Add("sacrifice", "https://en.wiktionary.org/wiki/sacrifice#Noun");
 
             URL_Add("testimonial", "https://en.wiktionary.org/wiki/testimonial#Noun");
@@ -114697,12 +114677,6 @@ namespace OverflowHelper.core
             URL_Add("F-22 Raptor", "https://en.wikipedia.org/wiki/F-22_Raptor");
 
             URL_Add("Guacamole", "https://guacamole.apache.org/");
-
-            URL_Add("Java&nbsp;SE&nbsp;6", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_6");
-
-            URL_Add("Java&nbsp;SE&nbsp;7", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_7");
-
-            URL_Add("Java&nbsp;SE&nbsp;8", "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_8");
 
             URL_Add("insulin", "https://en.wikipedia.org/wiki/Insulin");
 
@@ -116916,8 +116890,6 @@ namespace OverflowHelper.core
 
             URL_Add("evidently", "https://en.wiktionary.org/wiki/evidently#Adverb");
 
-            URL_Add("immense", "https://en.wiktionary.org/wiki/immense#Adjective");
-
             URL_Add("interchangeable", "https://en.wiktionary.org/wiki/interchangeable#Adjective");
 
             URL_Add("syntactical", "https://en.wiktionary.org/wiki/syntactical#Adjective");
@@ -119100,7 +119072,7 @@ namespace OverflowHelper.core
 
             URL_Add("treadmill", "https://en.wiktionary.org/wiki/treadmill#Noun");
 
-            URL_Add("3ds&nbsp;Max", "https://en.wikipedia.org/wiki/Autodesk_3ds_Max");
+            URL_Add("3ds Max", "https://en.wikipedia.org/wiki/Autodesk_3ds_Max");
 
             URL_Add("AutoCAD", "https://en.wikipedia.org/wiki/AutoCAD");
 
@@ -119226,7 +119198,7 @@ namespace OverflowHelper.core
 
             URL_Add("Grignard reaction", "https://en.wikipedia.org/wiki/Grignard_reaction");
 
-            URL_Add("ISO&nbsp;9660", "https://en.wikipedia.org/wiki/ISO_9660");
+            URL_Add("ISO 9660", "https://en.wikipedia.org/wiki/ISO_9660");
 
             URL_Add("R2DBC", "https://r2dbc.io/");
 
@@ -119365,8 +119337,6 @@ namespace OverflowHelper.core
             URL_Add("legal", "https://en.wiktionary.org/wiki/legal#Adjective");
 
             URL_Add("system on a chip", "https://en.wikipedia.org/wiki/System_on_a_chip");
-
-            URL_Add("Java&nbsp;11", "https://en.wikipedia.org/wiki/Java_version_history#Java_11");
 
             URL_Add("bounding", "https://en.wiktionary.org/wiki/bounding#Noun");
 
@@ -120309,8 +120279,6 @@ namespace OverflowHelper.core
             URL_Add("Nihal Sarin", "https://en.wikipedia.org/wiki/Nihal_Sarin");
 
             URL_Add("ecology", "https://en.wikipedia.org/wiki/Ecology");
-
-            URL_Add("Java&nbsp;15", "https://en.wikipedia.org/wiki/Java_version_history#Java_15");
 
             URL_Add("Wolff algorithm", "https://en.wikipedia.org/wiki/Wolff_algorithm");
 
@@ -121954,8 +121922,6 @@ namespace OverflowHelper.core
 
             URL_Add("high fives", "https://en.wiktionary.org/wiki/high_five#Noun");
 
-            URL_Add("Java&nbsp;19", "https://en.wikipedia.org/wiki/Java_version_history#Java_19");
-
             URL_Add("m-ary tree", "https://en.wikipedia.org/wiki/M-ary_tree");
 
             URL_Add("outer loop", "https://en.wikipedia.org/wiki/Outer_loop");
@@ -122165,8 +122131,6 @@ namespace OverflowHelper.core
             URL_Add("fabs", "https://en.cppreference.com/w/cpp/numeric/math/fabs");
 
             URL_Add("gaplessly", "https://en.wiktionary.org/wiki/gaplessly#Adverb");
-
-            URL_Add("Java&nbsp;17", "https://en.wikipedia.org/wiki/Java_version_history#Java_17");
 
             URL_Add("varying", "https://en.wiktionary.org/wiki/vary#Verb");
 
@@ -123440,8 +123404,6 @@ namespace OverflowHelper.core
 
             URL_Add("synchronised", "https://en.wiktionary.org/wiki/synchronise#Verb");
 
-            URL_Add("Java&nbsp;SE&nbsp;5", "https://en.wikipedia.org/wiki/Java_version_history#Java_5");
-
             URL_Add("w3m", "https://en.wikipedia.org/wiki/W3m");
 
             URL_Add("GNOME Web", "https://en.wikipedia.org/wiki/GNOME_Web");
@@ -123537,8 +123499,6 @@ namespace OverflowHelper.core
             URL_Add("kick-ass", "https://en.wiktionary.org/wiki/kick-ass#Adjective");
 
             URL_Add("proof reader", "https://en.wiktionary.org/wiki/proof_reader#Noun");
-
-            URL_Add("Java&nbsp;10", "https://en.wikipedia.org/wiki/Java_version_history#Java_11");
 
             URL_Add("Counter-Strike 2", "https://en.wikipedia.org/wiki/Counter-Strike_2");
 
@@ -124992,8 +124952,6 @@ namespace OverflowHelper.core
 
             URL_Add("consolidate", "https://en.wiktionary.org/wiki/consolidate#Verb");
 
-            URL_Add("immensely", "https://en.wiktionary.org/wiki/immensely#Adverb");
-
             URL_Add("seminal", "https://en.wiktionary.org/wiki/seminal#Adjective");
 
             URL_Add("inferring", "https://en.wiktionary.org/wiki/infer#Verb");
@@ -126016,7 +125974,7 @@ namespace OverflowHelper.core
 
             URL_Add("Patch Tuesday", "https://en.wikipedia.org/wiki/Patch_Tuesday");
 
-            URL_Add("Glide&nbsp;API", "https://en.wikipedia.org/wiki/Glide_API");
+            URL_Add("Glide API", "https://en.wikipedia.org/wiki/Glide_API");
 
             URL_Add("ASCII", "https://en.wikipedia.org/wiki/ASCII#Printable_character_table"); // Old: <https://en.wikipedia.org/wiki/ASCII#Printable_characters>. Even older: <https://en.wikipedia.org/wiki/ASCII>
 
@@ -126594,8 +126552,6 @@ namespace OverflowHelper.core
 
             URL_Add("demonstrations", "https://en.wiktionary.org/wiki/demonstration#Noun");
 
-            URL_Add("Java&nbsp;20", "https://en.wikipedia.org/wiki/Java_version_history#Java_20");
-
             URL_Add("OpenOpt", "https://openopt.org/OOFramework");
 
             URL_Add("healing", "https://en.wiktionary.org/wiki/healing#Noun");
@@ -127170,9 +127126,9 @@ namespace OverflowHelper.core
 
             URL_Add("which", "https://en.wikipedia.org/wiki/Which_(command)");
 
-            URL_Add("ISO&nbsp;2", "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements");
+            URL_Add("ISO 2", "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements");
 
-            URL_Add("ISO&nbsp;3", "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3#Officially_assigned_code_elements");
+            URL_Add("ISO 3", "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3#Officially_assigned_code_elements");
 
             URL_Add("grunt work", "https://en.wiktionary.org/wiki/grunt_work#Noun");
 
@@ -130726,7 +130682,7 @@ namespace OverflowHelper.core
 
             URL_Add("Jinja", "https://en.wikipedia.org/wiki/Jinja_(template_engine)");
 
-            URL_Add("Jinja&nbsp;2", "https://en.wikipedia.org/wiki/Jinja_(template_engine)");
+            URL_Add("Jinja 2", "https://en.wikipedia.org/wiki/Jinja_(template_engine)");
 
             URL_Add("Nashorn", "https://en.wikipedia.org/wiki/Nashorn_(JavaScript_engine)");
 
@@ -131069,8 +131025,6 @@ namespace OverflowHelper.core
             URL_Add("dispositioned", "https://en.wiktionary.org/wiki/disposition#Verb");
 
             URL_Add("StumbleUpon", "https://en.wikipedia.org/wiki/StumbleUpon");
-
-            URL_Add("immersion", "https://en.wiktionary.org/wiki/immersion#Noun");
 
             URL_Add("nosedive", "https://en.wiktionary.org/wiki/nosedive#Verb");
 
@@ -131974,7 +131928,7 @@ namespace OverflowHelper.core
 
             URL_Add("jQuery Mobile", "https://en.wikipedia.org/wiki/JQuery_Mobile");
 
-            URL_Add("jQuery&nbsp;Isotope", "https://isotope.metafizzy.co/docs/introduction.html");
+            URL_Add("jQuery Isotope", "https://isotope.metafizzy.co/docs/introduction.html");
 
             URL_Add("Half-Life", "https://en.wikipedia.org/wiki/Half-Life_(video_game)");
 
@@ -135266,12 +135220,6 @@ namespace OverflowHelper.core
             URL_Add("iBook", "https://en.wikipedia.org/wiki/IBook");
 
             URL_Add("floating inputs", "https://www.mouser.com/blog/dont-leave-your-pins-floating");
-
-            URL_Add("JVM", "https://en.wikipedia.org/wiki/Java_virtual_machine");
-
-            URL_Add("JRE", "https://en.wikipedia.org/wiki/Java_virtual_machine#Java_Runtime_Environment"); // Old: https://en.wikipedia.org/wiki/Java_virtual_machine Even older: https://en.wikipedia.org/wiki/Java_%28software_platform%29#Platform.
-
-            URL_Add("JRE&nbsp;8", "https://en.wikipedia.org/wiki/Java_(software_platform)#Java_Runtime_Environment");
 
             URL_Add("TeaVM", "https://en.wikipedia.org/wiki/Java_virtual_machine#Compilation_to_JavaScript");
 
@@ -144240,7 +144188,7 @@ namespace OverflowHelper.core
 
             URL_Add("documentation dump on Stack Overflow", "https://stackoverflow.com/questions/34319000/what-constitutes-a-valid-c-identifier/34319264#34319264");
 
-            URL_Add("Drupal&nbsp;Answers (Stack Exchange site)", "https://drupal.stackexchange.com/tour");
+            URL_Add("Drupal Answers (Stack Exchange site)", "https://drupal.stackexchange.com/tour");
 
             URL_Add("Web Applications (Stack Exchange site)", "https://webapps.stackexchange.com/tour");
 
@@ -144266,7 +144214,7 @@ namespace OverflowHelper.core
 
             URL_Add("Skeptics (Stack Exchange site)", "https://skeptics.stackexchange.com/tour");
 
-            URL_Add("Sound&nbsp;Design (Stack Exchange site)", "https://sound.stackexchange.com/tour");
+            URL_Add("Sound Design (Stack Exchange site)", "https://sound.stackexchange.com/tour");
 
             URL_Add("Travel (Stack Exchange site)", "https://travel.stackexchange.com/tour");
 
@@ -144276,7 +144224,7 @@ namespace OverflowHelper.core
 
             URL_Add("Code&nbsp;Golf (Stack Exchange site)", "https://codegolf.stackexchange.com/tour");
 
-            URL_Add("English&nbsp;Language&nbsp;Learners (Stack Exchange site)", "https://ell.stackexchange.com/tour");
+            URL_Add("English Language Learners (Stack Exchange site)", "https://ell.stackexchange.com/tour");
 
             URL_Add("Webmasters (Stack Exchange site)", "https://webmasters.stackexchange.com/tour");
 
@@ -144288,17 +144236,17 @@ namespace OverflowHelper.core
 
             URL_Add("Parenting (Stack Exchange site)", "https://parenting.stackexchange.com/tour");
 
-            URL_Add("Movies&nbsp;&&nbsp;TV (Stack Exchange site)", "https://movies.stackexchange.com/tour");
+            URL_Add("Movies & TV (Stack Exchange site)", "https://movies.stackexchange.com/tour");
 
-            URL_Add("Matter&nbsp;Modeling (Stack Exchange site)", "https://mattermodeling.stackexchange.com/tour");
+            URL_Add("Matter Modeling (Stack Exchange site)", "https://mattermodeling.stackexchange.com/tour");
 
             URL_Add("Arqade (Stack Exchange site)", "https://gaming.stackexchange.com/tour");
 
-            URL_Add("Role-playing&nbsp;Games (Stack Exchange site)", "https://rpg.stackexchange.com/tour");
+            URL_Add("Role-playing Games (Stack Exchange site)", "https://rpg.stackexchange.com/tour");
 
             URL_Add("Astronomy (Stack Exchange site)", "https://astronomy.stackexchange.com/tour");
 
-            URL_Add("Hardware&nbsp;Recommendations (Stack Exchange site)", "https://hardwarerecs.stackexchange.com/tour");
+            URL_Add("Hardware Recommendations (Stack Exchange site)", "https://hardwarerecs.stackexchange.com/tour");
 
             URL_Add("Monero (Stack Exchange site)", "https://monero.stackexchange.com/tour");
 
@@ -144320,7 +144268,7 @@ namespace OverflowHelper.core
 
             URL_Add("Unix & Linux (Stack Exchange site)", "https://unix.stackexchange.com/tour");
 
-            URL_Add("English&nbsp;Language & Usage (Stack Exchange site)", "https://english.stackexchange.com/tour");
+            URL_Add("English Language & Usage (Stack Exchange site)", "https://english.stackexchange.com/tour");
 
             URL_Add("Stack Overflow на русском (Stack Exchange site)", "https://ru.stackoverflow.com/tour");
 
@@ -144330,7 +144278,7 @@ namespace OverflowHelper.core
 
             URL_Add("Stack Overflow em Português (Stack Exchange site)", "https://pt.stackoverflow.com/tour");
 
-            URL_Add("Game&nbsp;Development (Stack Exchange site)", "https://gamedev.stackexchange.com/tour");
+            URL_Add("Game Development (Stack Exchange site)", "https://gamedev.stackexchange.com/tour");
 
             URL_Add("Network&nbsp;Engineering (Stack Exchange site)", "https://networkengineering.stackexchange.com/tour");
 
@@ -144348,7 +144296,7 @@ namespace OverflowHelper.core
 
             URL_Add("Interpersonal&nbsp;Skills (Stack Exchange site)", "https://interpersonal.stackexchange.com/tour");
 
-            URL_Add("Code&nbsp;Review (Stack Exchange site)", "https://codereview.stackexchange.com/tour");
+            URL_Add("Code Review (Stack Exchange site)", "https://codereview.stackexchange.com/tour");
 
             URL_Add("3D&nbsp;Printing (Stack Exchange site)", "https://3dprinting.stackexchange.com/tour");
 
@@ -144376,7 +144324,7 @@ namespace OverflowHelper.core
 
             URL_Add("Theoretical Computer Science (Stack Exchange site)", "https://cstheory.stackexchange.com/tour");
 
-            URL_Add("Video&nbsp;Production (Stack Exchange site)", "https://video.stackexchange.com/tour");
+            URL_Add("Video Production (Stack Exchange site)", "https://video.stackexchange.com/tour");
 
             URL_Add("MBR", "https://en.wikipedia.org/wiki/Master_boot_record");
 
@@ -148938,10 +148886,6 @@ namespace OverflowHelper.core
 
             URL_Add("worked", "https://en.wiktionary.org/wiki/work#Verb");
 
-            URL_Add("immediate mode", "https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics)#Immediate_mode_GUI");
-
-            URL_Add("immediate mode GUI", "https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics)#Immediate_mode_GUI");
-
             URL_Add("overengineering", "https://en.wiktionary.org/wiki/overengineer#Verb");
 
             URL_Add("grey", "https://en.wiktionary.org/wiki/grey#Adjective");
@@ -152067,6 +152011,22 @@ namespace OverflowHelper.core
             URL_Add("business as usual", "https://en.wiktionary.org/wiki/business_as_usual#Noun");
 
             URL_Add("USSD", "https://en.wikipedia.org/wiki/Unstructured_Supplementary_Service_Data");
+
+            URL_Add("immediate", "https://en.wiktionary.org/wiki/immediate#Adjective");
+
+            URL_Add("immediately", "https://en.wiktionary.org/wiki/immediately#Adverb"); // Old: https://en.wiktionary.org/wiki/immediately
+
+            URL_Add("immediate mode", "https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics)#Immediate_mode_GUI");
+
+            URL_Add("immediate mode GUI", "https://en.wikipedia.org/wiki/Immediate_mode_(computer_graphics)#Immediate_mode_GUI");
+
+            URL_Add("immeasurable", "https://en.wiktionary.org/wiki/immeasurable#Adjective");
+
+            URL_Add("immense", "https://en.wiktionary.org/wiki/immense#Adjective");
+
+            URL_Add("immensely", "https://en.wiktionary.org/wiki/immensely#Adverb");
+
+            URL_Add("immersion", "https://en.wiktionary.org/wiki/immersion#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -178803,6 +178763,8 @@ namespace OverflowHelper.core
             // A detector in the Large Hadron Collider (LHC) at CERN
             correctionAdd("atlas__", "ATLAS__");
 
+            correctionAdd("glits__", "glitch__");
+
             // A book. For the reverse
             //
             // We need a better reference...
@@ -180131,6 +180093,8 @@ namespace OverflowHelper.core
             URL_Add("feature request__", "https://blog.trello.com/3-ways-to-manage-feature-requests");
 
             URL_Add("video game__", "https://en.wikipedia.org/wiki/Video_game");
+
+            URL_Add("glitch__", "https://en.wiktionary.org/wiki/glitch#Noun");
 
         } //addLookupData_alternativeWordSet2()
 
