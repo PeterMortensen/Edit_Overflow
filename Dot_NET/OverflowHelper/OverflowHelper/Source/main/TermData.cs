@@ -783,6 +783,7 @@ namespace OverflowHelper.core
             correctionAdd("manifacturer", "manufacturer");
             correctionAdd("manufactorer", "manufacturer");
             correctionAdd("Manufacturer", "manufacturer");
+            correctionAdd("manufacturet", "manufacturer"); // A true typo
             correctionAdd("manufactuer", "manufacturer");
             correctionAdd("manufacture", "manufacturer");
             correctionAdd("manu", "manufacturer");
@@ -17991,6 +17992,7 @@ namespace OverflowHelper.core
             correctionAdd("30 F", "-1.1 °C");
             correctionAdd("30 f", "-1.1 °C");
             correctionAdd("-1 C", "-1.1 °C");
+            correctionAdd("30", "-1.1 °C");
 
             correctionAdd("32 °F", "0.0 °C");
             correctionAdd("32 F", "0.0 °C");
@@ -18010,6 +18012,13 @@ namespace OverflowHelper.core
             correctionAdd("60 F", "15.6 °C");
             correctionAdd("60 f", "15.6 °C");
             correctionAdd("16 C", "15.6 °C");
+
+            correctionAdd("68 °F", "20.0 °C");
+            correctionAdd("20 C", "20.0 °C");
+            correctionAdd("68 F", "20.0 °C");
+            correctionAdd("68 f", "20.0 °C");
+            correctionAdd("20C", "20.0 °C");
+            correctionAdd("68F", "20.0 °C");
 
             correctionAdd("70 °F", "21.1 °C");
             correctionAdd("70 F", "21.1 °C");
@@ -18824,6 +18833,7 @@ namespace OverflowHelper.core
             correctionAdd("suspiple", "susceptible");
             correctionAdd("susciple", "susceptible");
 
+            correctionAdd("suspiciuous", "suspicious");
             correctionAdd("suspecious", "suspicious");
             correctionAdd("suspicoius", "suspicious");
             correctionAdd("suspicous", "suspicious");
@@ -22590,6 +22600,7 @@ namespace OverflowHelper.core
             correctionAdd("RuzZia", "Russia");
             correctionAdd("ruzZia", "Russia");
             correctionAdd("ruZZia", "Russia");
+            correctionAdd("RF", "Russia"); // For "Russian Federation"
 
             correctionAdd("russian", "Russian");
             correctionAdd("Ruzzian", "Russian");
@@ -26542,6 +26553,9 @@ namespace OverflowHelper.core
             //             Chemical element 101: Mendelevium (half-life 80 minutes)
             //             Chemical element 102: Nobelium    (half-life 58 minutes)
             //             Chemical element 103: Lawrencium  (half-life 40 minutes)
+            //
+            // Note: "RF" (radio/electronics) is in an alternative word set
+            //
             correctionAdd("Rutherfordium", "rutherfordium");
             correctionAdd("Rf", "rutherfordium");
 
@@ -48508,6 +48522,7 @@ namespace OverflowHelper.core
             correctionAdd("vendour", "vendor");
             correctionAdd("vender", "vendor");
             correctionAdd("Vendor", "vendor");
+            correctionAdd("vendot", "vendor"); // A true typo
 
             correctionAdd("venders", "vendors");
 
@@ -52255,6 +52270,7 @@ namespace OverflowHelper.core
             correctionAdd("Voltage", "voltage");
             correctionAdd("coltage", "voltage");
             correctionAdd("voltaje", "voltage");
+            correctionAdd("votlage", "voltage");
             correctionAdd("voltag", "voltage");
             correctionAdd("voltge", "voltage");
             correctionAdd("U", "voltage");
@@ -52938,8 +52954,6 @@ namespace OverflowHelper.core
             correctionAdd("buzzer", "piezo");
             correctionAdd("peizo", "piezo"); // A true typo
             correctionAdd("pizo", "piezo");
-
-            correctionAdd("rf", "RF"); // Electronics. Radio
 
             correctionAdd("frequency modulation", "FM");
             correctionAdd("fm", "FM");
@@ -77815,6 +77829,7 @@ namespace OverflowHelper.core
             correctionAdd("pagging", "paging");
 
             correctionAdd("sub-page", "subpage");
+            correctionAdd("sub page", "subpage");
 
             correctionAdd("multi-page", "multipage");
 
@@ -96424,7 +96439,6 @@ namespace OverflowHelper.core
             correctionAdd("Keychron b6 pro", "Keychron B6 Pro (105%)");
             correctionAdd("B Pro series", "Keychron B6 Pro (105%)"); // Not 100% correct, but a representative of that Keychron keyboard series
             correctionAdd("keychron B6", "Keychron B6 Pro (105%)");
-            correctionAdd("B6&nbsp;Pro", "Keychron B6 Pro (105%)");
             correctionAdd("B6 Pro ISO", "Keychron B6 Pro (105%)");
             correctionAdd("B6 Pro", "Keychron B6 Pro (105%)");
             correctionAdd("b6 pro", "Keychron B6 Pro (105%)");
@@ -96443,21 +96457,23 @@ namespace OverflowHelper.core
             //
             // Despite the high key count, it only has print screen
             // from the original PrtSc cluster, and some keys don't
-            // really count (many are internal to the keyboard).
+            // really count (many are internal to the keyboard):
             //
             //  * Three buttons to select the
             //    active Bluetooth channel).
+            //
             //  * Two space bars next to each other
             //
             // Alternative URLs:
             //
             //   <https://www.logitech.com/en-us/products/keyboards/k860-split-ergonomic.920-009166.html>
             //
-            correctionAdd("k860", "Logitech Ergo K860");
-            correctionAdd("K860", "Logitech Ergo K860");
+            correctionAdd("Logitech Ergo K860", "Logitech Ergo K860 (105%)");
+            correctionAdd("k860", "Logitech Ergo K860 (105%)");
+            correctionAdd("K860", "Logitech Ergo K860 (105%)");
 
-            // A 116-key (110%. Not true TKL) full-size ergonomic
-            // mechanical keyboard from Keyboardio.
+            // A 116-key (110%. Not true TKL) full-size split
+            // ergonomic mechanical keyboard from Keyboardio.
             //
             // Or rather a series of them.
             // 2 x (34 + 8) + 32 = 116
@@ -96466,7 +96482,8 @@ namespace OverflowHelper.core
             //
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1bxaicc/comment/kybmxwo/>
             //
-            correctionAdd("maltron", "Maltron");
+            correctionAdd("Maltron", "Maltron (110%)");
+            correctionAdd("maltron", "Maltron (110%)");
 
             // A 123-key (115%. Not true TKL) full-size mechanical
             // keyboard (including 18 dedicated physical macro
@@ -97816,9 +97833,8 @@ namespace OverflowHelper.core
 
             correctionAdd("Google Meet", "Google Hangouts Meet");
 
-            correctionAdd("Google Web Toolkit", "Google&nbsp;Web&nbsp;Toolkit"); // Sort of identity mapping
-            correctionAdd("gwt", "Google&nbsp;Web&nbsp;Toolkit"); // Expansion. Add new field with abbreviation?. In case it would be GWT.
-            correctionAdd("GWT", "Google&nbsp;Web&nbsp;Toolkit");
+            correctionAdd("gwt", "Google Web Toolkit"); // Expansion. Add new field with abbreviation?. In case it would be GWT.
+            correctionAdd("GWT", "Google Web Toolkit");
 
             correctionAdd("google translator toolkit", "Google Translator Toolkit");
 
@@ -97943,17 +97959,15 @@ namespace OverflowHelper.core
             correctionAdd("Guava", "Google Guava");
             correctionAdd("GUAVA", "Google Guava");
 
-            correctionAdd("Google Data Studio", "Google&nbsp;Data&nbsp;Studio"); // Sort of identity mapping
-            correctionAdd("Google Data studio", "Google&nbsp;Data&nbsp;Studio");
-            correctionAdd("Google data studio", "Google&nbsp;Data&nbsp;Studio");
-            correctionAdd("Data&nbsp;Studio", "Google&nbsp;Data&nbsp;Studio");
-            correctionAdd("Looker Studio", "Google&nbsp;Data&nbsp;Studio");
-            correctionAdd("Data Studio", "Google&nbsp;Data&nbsp;Studio");
-            correctionAdd("data studio", "Google&nbsp;Data&nbsp;Studio");
-            correctionAdd("DataStudio", "Google&nbsp;Data&nbsp;Studio");
-            correctionAdd("Datastudio", "Google&nbsp;Data&nbsp;Studio");
-            correctionAdd("looker", "Google&nbsp;Data&nbsp;Studio");
-            correctionAdd("GDS", "Google&nbsp;Data&nbsp;Studio");
+            correctionAdd("Google Data studio", "Google Data Studio");
+            correctionAdd("Google data studio", "Google Data Studio");
+            correctionAdd("Looker Studio", "Google Data Studio");
+            correctionAdd("Data Studio", "Google Data Studio");
+            correctionAdd("data studio", "Google Data Studio");
+            correctionAdd("DataStudio", "Google Data Studio");
+            correctionAdd("Datastudio", "Google Data Studio");
+            correctionAdd("looker", "Google Data Studio");
+            correctionAdd("GDS", "Google Data Studio");
 
             correctionAdd("google hangouts", "Google Hangouts");
             correctionAdd("Hangouts", "Google Hangouts");
@@ -98356,6 +98370,8 @@ namespace OverflowHelper.core
             correctionAdd("un-accept", "unaccept");
 
             correctionAdd("inacceptable", "unacceptable");
+
+            correctionAdd("non-acceptable", "nonacceptable");
 
             correctionAdd("AUP", "acceptable use policy");
 
@@ -98771,9 +98787,8 @@ namespace OverflowHelper.core
             // A wired and wireless (both Bluetooth
             // and '2.4 GHz') mouse from Keychron.
             //
-            correctionAdd("Keychron BM25", "Keychron&nbsp;BM25");
-            correctionAdd("BM25", "Keychron&nbsp;BM25");
-            correctionAdd("bm25", "Keychron&nbsp;BM25");
+            correctionAdd("BM25", "Keychron BM25");
+            correctionAdd("bm25", "Keychron BM25");
 
             // A trackball from Keychron
             //
@@ -111743,10 +111758,6 @@ namespace OverflowHelper.core
 
             URL_Add("prime minister", "https://en.wiktionary.org/wiki/prime_minister#Noun");
 
-            URL_Add("queen", "https://en.wiktionary.org/wiki/queen#Noun");
-
-            URL_Add("royal", "https://en.wiktionary.org/wiki/royal#Adjective");
-
             URL_Add("Bower", "https://bower.io/");
 
             URL_Add("Keil", "https://en.wikipedia.org/wiki/Keil_(company)");
@@ -111975,8 +111986,6 @@ namespace OverflowHelper.core
 
             URL_Add("absorb", "https://en.wiktionary.org/wiki/absorb#Verb");
 
-            URL_Add("acceptable", "https://en.wiktionary.org/wiki/acceptable#Adjective");
-
             URL_Add("announcement", "https://en.wiktionary.org/wiki/announcement#Noun");
 
             URL_Add("change", "https://en.wiktionary.org/wiki/change#Verb");
@@ -112109,7 +112118,7 @@ namespace OverflowHelper.core
 
             URL_Add("Cartesian", "https://en.wiktionary.org/wiki/Cartesian#Adjective");
 
-            URL_Add("Google&nbsp;Data&nbsp;Studio", "https://datastudio.google.com/overview"); // Old: https://datastudio.google.com/navigation/reporting
+            URL_Add("Google Data Studio", "https://datastudio.google.com/overview"); // Old: https://datastudio.google.com/navigation/reporting
 
             URL_Add("mosquito", "https://en.wiktionary.org/wiki/mosquito#Noun");
 
@@ -112898,8 +112907,6 @@ namespace OverflowHelper.core
             URL_Add("no go", "https://en.wiktionary.org/wiki/no_go#Noun");
 
             URL_Add("Y combinator", "https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator");
-
-            URL_Add("accepted", "https://en.wiktionary.org/wiki/accept#Verb");
 
             URL_Add("decide", "https://en.wiktionary.org/wiki/decide#Verb");
 
@@ -115683,8 +115690,6 @@ namespace OverflowHelper.core
 
             URL_Add("thought experiment", "https://en.wiktionary.org/wiki/thought_experiment#Noun");
 
-            URL_Add("unacceptable", "https://en.wiktionary.org/wiki/unacceptable#Adjective");
-
             URL_Add("alien", "https://en.wiktionary.org/wiki/alien#Noun");
 
             URL_Add("aliens", "https://en.wiktionary.org/wiki/alien#Noun");
@@ -115888,8 +115893,6 @@ namespace OverflowHelper.core
             URL_Add("gate array", "https://en.wikipedia.org/wiki/Gate_array");
 
             URL_Add("practitioners", "https://en.wiktionary.org/wiki/practitioner#Noun");
-
-            URL_Add("queenside", "https://en.wiktionary.org/wiki/queenside#Noun");
 
             URL_Add("suggested", "https://en.wiktionary.org/wiki/suggest#Verb");
 
@@ -117717,8 +117720,6 @@ namespace OverflowHelper.core
 
             URL_Add("cutthroat", "https://en.wiktionary.org/wiki/cutthroat#Adjective");
 
-            URL_Add("unaccept", "https://en.wiktionary.org/wiki/unaccept#Verb");
-
             URL_Add("PrimeFaces", "https://en.wikipedia.org/wiki/PrimeFaces");
 
             URL_Add("anycasted", "https://en.wikipedia.org/wiki/Anycast");
@@ -118835,8 +118836,6 @@ namespace OverflowHelper.core
 
             URL_Add("Egyptian", "https://en.wiktionary.org/wiki/Egyptian#Adjective");
 
-            URL_Add("acceptance", "https://en.wiktionary.org/wiki/acceptance#Noun");
-
             URL_Add("bentsh", "https://en.wiktionary.org/wiki/bentsh#Verb");
 
             URL_Add("mesh", "https://en.wiktionary.org/wiki/mesh#Noun");
@@ -119235,8 +119234,6 @@ namespace OverflowHelper.core
 
             URL_Add("X-02 Wyvern", "https://en.wikipedia.org/wiki/Wyvern#As_a_logo_or_mascot");
 
-            URL_Add("accepting", "https://en.wiktionary.org/wiki/accept#Verb");
-
             URL_Add("agewise", "https://en.wiktionary.org/wiki/agewise#Adverb");
 
             URL_Add("by-product", "https://en.wiktionary.org/wiki/by-product#Noun");
@@ -119426,8 +119423,6 @@ namespace OverflowHelper.core
             URL_Add("IPKVM", "https://en.wikipedia.org/wiki/KVM_switch#KVM_over_IP_(IPKVM)");
 
             URL_Add("unavailable", "https://en.wiktionary.org/wiki/unavailable#Adjective");
-
-            URL_Add("B-2 visa", "https://en.wikipedia.org/wiki/B_visa#Acceptable_uses_of_a_B-2_visa");
 
             URL_Add("BSD-licensed", "https://en.wikipedia.org/wiki/BSD_licenses");
 
@@ -120607,8 +120602,6 @@ namespace OverflowHelper.core
 
             URL_Add("Tunisian", "https://en.wiktionary.org/wiki/Tunisian#Noun");
 
-            URL_Add("welfare queen", "https://en.wiktionary.org/wiki/welfare_queen#Noun");
-
             URL_Add("Christian Chronicle", "https://en.wikipedia.org/wiki/The_Christian_Chronicle");
 
             URL_Add("Christianity Today", "https://en.wikipedia.org/wiki/Christianity_Today");
@@ -121493,8 +121486,6 @@ namespace OverflowHelper.core
 
             URL_Add("attempts", "https://en.wiktionary.org/wiki/attempt#Verb");
 
-            URL_Add("B-1 visa", "https://en.wikipedia.org/wiki/B_visa#Acceptable_uses_of_a_B-1_visa");
-
             URL_Add("inferencing", "https://en.wiktionary.org/wiki/inferencing#Noun");
 
             URL_Add("lowercased", "https://en.wiktionary.org/wiki/lowercase#Verb");
@@ -121972,8 +121963,6 @@ namespace OverflowHelper.core
             URL_Add("Snake", "https://en.wikipedia.org/wiki/Snake_(video_game_genre)");
 
             URL_Add("Xcode Cloud", "https://en.wikipedia.org/wiki/Xcode#13.x_series");
-
-            URL_Add("accepts", "https://en.wiktionary.org/wiki/accept#Verb");
 
             URL_Add("bypass", "https://en.wiktionary.org/wiki/bypass#Verb");
 
@@ -123003,8 +122992,6 @@ namespace OverflowHelper.core
 
             URL_Add("more comfortable", "https://en.wiktionary.org/wiki/comfortable#Adjective");
 
-            URL_Add("acceptable use policy", "https://en.wikipedia.org/wiki/Acceptable_use_policy");
-
             URL_Add("nosy", "https://en.wiktionary.org/wiki/nosy#Adjective");
 
             URL_Add("tweets", "https://en.wiktionary.org/wiki/tweet#Noun");
@@ -123436,8 +123423,6 @@ namespace OverflowHelper.core
             URL_Add("prime time", "https://en.wiktionary.org/wiki/prime_time#Noun");
 
             URL_Add("graphical", "https://en.wiktionary.org/wiki/graphical#Adjective");
-
-            URL_Add("Maltron", "https://en.wikipedia.org/wiki/Maltron#Models");
 
             URL_Add("VAT", "https://en.wikipedia.org/wiki/Value-added_tax");
 
@@ -124003,8 +123988,6 @@ namespace OverflowHelper.core
 
             URL_Add("nonexplicit", "https://en.wiktionary.org/wiki/nonexplicit#Adjective");
 
-            URL_Add("Aula F75 (75%)", "https://www.youtube.com/watch?v=zpS9e5FGjPE");
-
             URL_Add("garbled", "https://en.wiktionary.org/wiki/garble#Verb");
 
             URL_Add("Call of Duty: Warzone", "https://en.wikipedia.org/wiki/Call_of_Duty:_Warzone");
@@ -124268,8 +124251,6 @@ namespace OverflowHelper.core
             URL_Add("gaffer tape", "https://en.wikipedia.org/wiki/Gaffer_tape");
 
             URL_Add("navigate", "https://en.wiktionary.org/wiki/navigate#Verb");
-
-            URL_Add("Wooting 80HE (80%)", "https://www.youtube.com/watch?v=f8AZflcxF1g");
 
             URL_Add("small", "https://en.wiktionary.org/wiki/small#Adjective");
 
@@ -125594,8 +125575,6 @@ namespace OverflowHelper.core
             URL_Add("inferred", "https://en.wiktionary.org/wiki/infer#Verb");
 
             URL_Add("UTM", "https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system");
-
-            URL_Add("NuPhy Halo96 (95%)", "https://nuphy.com/products/halo96");
 
             URL_Add("Kool-Aid", "https://en.wiktionary.org/wiki/Kool-Aid#Noun");
 
@@ -130487,7 +130466,7 @@ namespace OverflowHelper.core
 
             URL_Add("toolkit", "https://en.wiktionary.org/wiki/toolkit#Noun");
 
-            URL_Add("Google&nbsp;Web&nbsp;Toolkit", "https://en.wikipedia.org/wiki/Google_Web_Toolkit");
+            URL_Add("Google Web Toolkit", "https://en.wikipedia.org/wiki/Google_Web_Toolkit");
 
             URL_Add("OpenGL Utility Toolkit", "https://en.wikipedia.org/wiki/OpenGL_Utility_Toolkit");
 
@@ -130630,8 +130609,6 @@ namespace OverflowHelper.core
             URL_Add("Tower", "https://downloads.zdnet.com/product/2229-75330136/");
 
             URL_Add("ETL", "https://en.wikipedia.org/wiki/Extract,_transform,_load");
-
-            URL_Add("Ducky Shine 7 (105%)", "https://www.duckychannel.com.tw/upload/2019_06_052/201906051349143vzt77cMb1.pdf");
 
             URL_Add("SlikSVN", "https://sliksvn.com/download/");
 
@@ -133489,8 +133466,6 @@ namespace OverflowHelper.core
 
             URL_Add("Shure SM7B", "https://en.wikipedia.org/wiki/Shure_SM7");
 
-            URL_Add("MonsGeek M5 (105%)", "https://www.monsgeek.com/product/m5/");
-
             URL_Add("build system", "https://en.wikipedia.org/wiki/Build_automation");
 
             URL_Add("nightly builds", "https://en.wikipedia.org/wiki/Daily_build");
@@ -135916,40 +135891,6 @@ namespace OverflowHelper.core
 
             URL_Add("preview", "https://en.wiktionary.org/wiki/preview#Noun");
 
-            URL_Add("questioners", "https://en.wiktionary.org/wiki/questioner#Noun");
-
-            URL_Add("questionable", "https://en.wiktionary.org/wiki/questionable#Adjective");
-
-            URL_Add("questions", "https://en.wiktionary.org/wiki/question#Noun");
-
-            URL_Add("question", "https://en.wiktionary.org/wiki/question#Noun");
-
-            URL_Add("subquestion", "https://en.wiktionary.org/wiki/subquestion#Noun");
-
-            URL_Add("subquestions", "https://en.wiktionary.org/wiki/subquestion#Noun");
-
-            URL_Add("questioning", "https://en.wiktionary.org/wiki/question#Verb");
-
-            URL_Add("questioner", "https://en.wiktionary.org/wiki/questioner#Noun");
-
-            URL_Add("question ban", "https://meta.stackoverflow.com/questions/255583/what-can-i-do-when-getting-we-are-no-longer-accepting-questions-answers-from-th");
-
-            URL_Add("question-banned", "https://meta.stackoverflow.com/questions/255583/what-can-i-do-when-getting-we-are-no-longer-accepting-questions-answers-from-th");
-
-            URL_Add("CRUD", "https://en.wikipedia.org/wiki/Create,_read,_update_and_delete");
-
-            URL_Add("review queues", "https://stackoverflow.com/review");
-
-            URL_Add("see deleted questions", "https://meta.stackexchange.com/users/deleted-questions/current");
-
-            URL_Add("the boat programming question", "https://web.archive.org/web/20100426125115/http://www.mattmcdole.com/boat/");
-
-            URL_Add("hard-deleted boat programming question", "https://meta.stackoverflow.com/questions/408947/who-can-see-deleted-articles#comment852926_408947");
-
-            URL_Add("questions and answers", "https://en.wikipedia.org/wiki/Q%26A_software");
-
-            URL_Add("see deleted answers", "https://meta.stackexchange.com/users/deleted-answers/current");
-
             URL_Add("technical debt", "https://en.wikipedia.org/wiki/Technical_debt"); // Old (probably in error): https://en.wikipedia.org/wiki/Waterfall_model
 
             URL_Add("Tokyo Cabinet", "https://fallabs.com/tokyocabinet/");
@@ -138003,60 +137944,6 @@ namespace OverflowHelper.core
 
             URL_Add("NetWare", "https://en.wikipedia.org/wiki/NetWare");
 
-            URL_Add("Via usability bug", "https://www.reddit.com/r/Keychron/comments/1aqws5e/comment/kqpwlz4/");
-
-            URL_Add("The Zuck's password", "https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords#Top_100");
-
-            URL_Add("used to", "https://en.wiktionary.org/wiki/used_to#Usage_notes");
-
-            URL_Add("user-defined", "https://en.wiktionary.org/wiki/user-defined_function#Noun"); // Old: https://en.wiktionary.org/wiki/user-defined_function
-
-            URL_Add("user-defined function", "https://en.wikipedia.org/wiki/User-defined_function#Databases");
-
-            URL_Add("username", "https://en.wiktionary.org/wiki/username#Noun");
-
-            URL_Add("usernames", "https://en.wiktionary.org/wiki/username#Noun");
-
-            URL_Add("userbase", "https://en.wiktionary.org/wiki/userbase#Noun");
-
-            URL_Add("user-generated", "https://en.wikipedia.org/wiki/User-generated_content");
-
-            URL_Add("user-generated content", "https://en.wikipedia.org/wiki/User-generated_content");
-
-            URL_Add("user story", "https://en.wikipedia.org/wiki/User_story");
-
-            URL_Add("use case", "https://en.wikipedia.org/wiki/Use_case");
-
-            URL_Add("use cases", "https://en.wikipedia.org/wiki/Use_case");
-
-            URL_Add("use case diagram", "https://en.wikipedia.org/wiki/Use_case_diagram");
-
-            URL_Add("user-friendly", "https://en.wiktionary.org/wiki/user-friendly#Adjective");
-
-            URL_Add("user experience design", "https://en.wikipedia.org/wiki/User_experience_design");
-
-            URL_Add("user guide", "https://en.wiktionary.org/wiki/user_guide#Noun");
-
-            URL_Add("user acceptance testing", "https://en.wikipedia.org/wiki/Acceptance_testing#User_acceptance_testing");
-
-            URL_Add("user agent", "https://en.wikipedia.org/wiki/User_agent#Use_in_HTTP");
-
-            URL_Add("userscript", "https://en.wikipedia.org/wiki/Userscript");
-
-            URL_Add("Usenet", "https://en.wikipedia.org/wiki/Usenet");
-
-            URL_Add("User Account Control", "https://en.wikipedia.org/wiki/User_Account_Control");
-
-            URL_Add("UserVoice", "https://en.wikipedia.org/wiki/UserVoice#History");
-
-            URL_Add("usually", "https://en.wiktionary.org/wiki/usually#Adverb");
-
-            URL_Add("unusual", "https://en.wiktionary.org/wiki/unusual#Adjective");
-
-            URL_Add("business as usual", "https://en.wiktionary.org/wiki/business_as_usual#Noun");
-
-            URL_Add("USSD", "https://en.wikipedia.org/wiki/Unstructured_Supplementary_Service_Data");
-
             URL_Add("ends", "https://en.wiktionary.org/wiki/end#Noun");
 
             URL_Add("end up", "https://en.wiktionary.org/wiki/end_up#Verb");
@@ -138807,8 +138694,6 @@ namespace OverflowHelper.core
 
             URL_Add("CorFlags", "https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-2.0/ms164699(v=vs.80)"); // Old: <http://msdn.microsoft.com/en-us/library/ms164699%28v=vs.80%29.aspx>
 
-            URL_Add("Q1 version 2 special edition (SE) (80%)", "https://www.keychron.com/products/keychron-q1");
-
             URL_Add("CentOS", "https://en.wikipedia.org/wiki/CentOS");
 
             URL_Add("CentOS version 7", "https://en.wikipedia.org/wiki/CentOS#CentOS_version_7");
@@ -139302,6 +139187,8 @@ namespace OverflowHelper.core
             URL_Add("15.6 °C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
             URL_Add("21.1 °C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
+
+            URL_Add("20.0 °C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
             URL_Add("26.7 °C", "https://en.wikipedia.org/wiki/Temperature_conversion#Conversion_table_between_the_different_temperature_units");
 
@@ -141971,8 +141858,6 @@ namespace OverflowHelper.core
 
             URL_Add("quietly", "https://en.wiktionary.org/wiki/quietly#Adverb");
 
-            URL_Add("Matias Mini Quiet Pro (75%)", "https://matias.ca/miniquietpro/pc/");
-
             URL_Add("to be quite honest", "https://en.wiktionary.org/wiki/tbqh#Phrase");
 
             URL_Add("QuiteRSS", "https://en.wikipedia.org/wiki/QuiteRSS");
@@ -142535,6 +142420,22 @@ namespace OverflowHelper.core
 
             URL_Add("mount", "https://en.wikipedia.org/wiki/Mount_(Unix)");
 
+            URL_Add("Aula F75 (75%)", "https://www.youtube.com/watch?v=zpS9e5FGjPE");
+
+            URL_Add("Matias Mini Quiet Pro (75%)", "https://matias.ca/miniquietpro/pc/");
+
+            URL_Add("Wooting 80HE (80%)", "https://www.youtube.com/watch?v=f8AZflcxF1g");
+
+            URL_Add("NuPhy Halo96 (95%)", "https://nuphy.com/products/halo96");
+
+            URL_Add("Ducky Shine 7 (105%)", "https://www.duckychannel.com.tw/upload/2019_06_052/201906051349143vzt77cMb1.pdf");
+
+            URL_Add("MonsGeek M5 (105%)", "https://www.monsgeek.com/product/m5/");
+
+            URL_Add("Maltron (110%)", "https://en.wikipedia.org/wiki/Maltron#Models");
+
+            URL_Add("Q1 version 2 special edition (SE) (80%)", "https://www.keychron.com/products/keychron-q1");
+
             URL_Add("Keychron poor product design", "https://www.reddit.com/r/Keychron/comments/1gk35qy/comment/lvi59ob/");
 
             URL_Add("Keychron Assist", "https://www.keychron.com/blogs/news/how-to-download-and-install-keychron-assist");
@@ -142553,7 +142454,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron M7", "https://www.keychron.com/products/keychron-m7-wireless-mouse");
 
-            URL_Add("Keychron&nbsp;BM25", "https://www.keychron.com/products/keychron-bm25-wireless-mouse");
+            URL_Add("Keychron BM25", "https://www.keychron.com/products/keychron-bm25-wireless-mouse");
 
             URL_Add("Keychron Nape Pro", "https://www.keychron.com/products/keychron-nape-pro-wireless-trackball-mouse");
 
@@ -144141,24 +144042,6 @@ namespace OverflowHelper.core
 
             URL_Add("pardon my French", "https://en.wiktionary.org/wiki/pardon_my_French#Verb");
 
-            URL_Add("Evans Gambit", "https://en.wikipedia.org/wiki/Evans_Gambit");
-
-            URL_Add("Evans Gambit Declined", "https://en.wikipedia.org/wiki/Evans_Gambit#Declining_the_gambit");
-
-            URL_Add("Queen's Gambit", "https://en.wikipedia.org/wiki/Queen%27s_Gambit");
-
-            URL_Add("Queen's Gambit Accepted", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted");
-
-            URL_Add("Queen's Gambit Declined", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined");
-
-            URL_Add("Queen's Gambit Declined, Ragozin Defence", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined#Ragozin_Variation:_4.Nf3_Bb4");
-
-            URL_Add("Queen's Gambit Declined, Cambridge Springs Defense", "https://en.wikipedia.org/wiki/Cambridge_Springs_Defense");
-
-            URL_Add("King's Gambit", "https://en.wikipedia.org/wiki/King's_Gambit");
-
-            URL_Add("King's Gambit, McDonnell Gambit", "https://en.wikipedia.org/wiki/King%27s_Gambit,_McDonnell_Gambit");
-
             URL_Add("Antonio Radić", "https://en.wikipedia.org/w/index.php?title=Antonio_Radi%C4%87&oldid=978538274"); // Old: https://en.wikipedia.org/wiki/Antonio_Radi%C4%87
 
             URL_Add("Four Knights Game", "https://en.wikipedia.org/wiki/Four_Knights_Game");
@@ -144197,11 +144080,37 @@ namespace OverflowHelper.core
 
             URL_Add("Torre Attack", "https://en.wikipedia.org/wiki/Torre_Attack");
 
-            URL_Add("Queen's Indian Defense", "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense");
-
             URL_Add("King's Indian Defence", "https://en.wikipedia.org/wiki/King's_Indian_Defence");
 
             URL_Add("Nimzo-Indian Defence", "https://en.wikipedia.org/wiki/Nimzo-Indian_Defence");
+
+            URL_Add("Evans Gambit", "https://en.wikipedia.org/wiki/Evans_Gambit");
+
+            URL_Add("Evans Gambit Declined", "https://en.wikipedia.org/wiki/Evans_Gambit#Declining_the_gambit");
+
+            URL_Add("King's Gambit", "https://en.wikipedia.org/wiki/King's_Gambit");
+
+            URL_Add("King's Gambit, McDonnell Gambit", "https://en.wikipedia.org/wiki/King%27s_Gambit,_McDonnell_Gambit");
+
+            URL_Add("Queen's Indian Defense", "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense");
+
+            URL_Add("Queen's Gambit", "https://en.wikipedia.org/wiki/Queen%27s_Gambit");
+
+            URL_Add("Queen's Gambit Declined, Ragozin Defence", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined#Ragozin_Variation:_4.Nf3_Bb4");
+
+            URL_Add("Queen's Gambit Declined, Cambridge Springs Defense", "https://en.wikipedia.org/wiki/Cambridge_Springs_Defense");
+
+            URL_Add("Queen's Gambit Declined", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined");
+
+            URL_Add("Queen's Gambit Accepted", "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted");
+
+            URL_Add("queen", "https://en.wiktionary.org/wiki/queen#Noun");
+
+            URL_Add("queenside", "https://en.wiktionary.org/wiki/queenside#Noun");
+
+            URL_Add("royal", "https://en.wiktionary.org/wiki/royal#Adjective");
+
+            URL_Add("welfare queen", "https://en.wiktionary.org/wiki/welfare_queen#Noun");
 
             URL_Add("GPX", "https://en.wikipedia.org/wiki/GPS_Exchange_Format");
 
@@ -149637,7 +149546,7 @@ namespace OverflowHelper.core
 
             URL_Add("Logitech MX518", "https://en.wikipedia.org/wiki/List_of_Logitech_products#Gaming_mice");
 
-            URL_Add("Logitech Ergo K860", "https://www.pcmag.com/reviews/logitech-ergo-k860");
+            URL_Add("Logitech Ergo K860 (105%)", "https://www.pcmag.com/reviews/logitech-ergo-k860");
 
             URL_Add("Cantor Remix", "https://github.com/nilokr/cantor-remix");
 
@@ -151335,8 +151244,6 @@ namespace OverflowHelper.core
 
             URL_Add("extreme ultraviolet radiation", "https://en.wikipedia.org/wiki/Extreme_ultraviolet");
 
-            URL_Add("RF", "https://en.wikipedia.org/wiki/Radio_frequency");
-
             URL_Add("ham radio", "https://en.wikipedia.org/wiki/Amateur_radio");
 
             URL_Add("FT8", "https://en.wikipedia.org/wiki/WSJT_(amateur_radio_software)#FT8");
@@ -152050,6 +151957,116 @@ namespace OverflowHelper.core
             URL_Add("video conference", "https://en.wiktionary.org/wiki/video_conference#Noun");
 
             URL_Add("press conference", "https://en.wikipedia.org/wiki/Press_conference");
+
+            URL_Add("accepts", "https://en.wiktionary.org/wiki/accept#Verb");
+
+            URL_Add("accepted", "https://en.wiktionary.org/wiki/accept#Verb");
+
+            URL_Add("unaccept", "https://en.wiktionary.org/wiki/unaccept#Verb");
+
+            URL_Add("acceptance", "https://en.wiktionary.org/wiki/acceptance#Noun");
+
+            URL_Add("accepting", "https://en.wiktionary.org/wiki/accept#Verb");
+
+            URL_Add("acceptable", "https://en.wiktionary.org/wiki/acceptable#Adjective");
+
+            URL_Add("unacceptable", "https://en.wiktionary.org/wiki/unacceptable#Adjective");
+
+            URL_Add("nonacceptable", "https://en.wiktionary.org/wiki/nonacceptable#Adjective");
+
+            URL_Add("acceptable use policy", "https://en.wikipedia.org/wiki/Acceptable_use_policy");
+
+            URL_Add("user acceptance testing", "https://en.wikipedia.org/wiki/Acceptance_testing#User_acceptance_testing");
+
+            URL_Add("B-1 visa", "https://en.wikipedia.org/wiki/B_visa#Acceptable_uses_of_a_B-1_visa");
+
+            URL_Add("B-2 visa", "https://en.wikipedia.org/wiki/B_visa#Acceptable_uses_of_a_B-2_visa");
+
+            URL_Add("question ban", "https://meta.stackoverflow.com/questions/255583/what-can-i-do-when-getting-we-are-no-longer-accepting-questions-answers-from-th");
+
+            URL_Add("questioners", "https://en.wiktionary.org/wiki/questioner#Noun");
+
+            URL_Add("questionable", "https://en.wiktionary.org/wiki/questionable#Adjective");
+
+            URL_Add("questions", "https://en.wiktionary.org/wiki/question#Noun");
+
+            URL_Add("question", "https://en.wiktionary.org/wiki/question#Noun");
+
+            URL_Add("subquestion", "https://en.wiktionary.org/wiki/subquestion#Noun");
+
+            URL_Add("subquestions", "https://en.wiktionary.org/wiki/subquestion#Noun");
+
+            URL_Add("questioning", "https://en.wiktionary.org/wiki/question#Verb");
+
+            URL_Add("questioner", "https://en.wiktionary.org/wiki/questioner#Noun");
+
+            URL_Add("question-banned", "https://meta.stackoverflow.com/questions/255583/what-can-i-do-when-getting-we-are-no-longer-accepting-questions-answers-from-th");
+
+            URL_Add("CRUD", "https://en.wikipedia.org/wiki/Create,_read,_update_and_delete");
+
+            URL_Add("review queues", "https://stackoverflow.com/review");
+
+            URL_Add("see deleted questions", "https://meta.stackexchange.com/users/deleted-questions/current");
+
+            URL_Add("the boat programming question", "https://web.archive.org/web/20100426125115/http://www.mattmcdole.com/boat/");
+
+            URL_Add("hard-deleted boat programming question", "https://meta.stackoverflow.com/questions/408947/who-can-see-deleted-articles#comment852926_408947");
+
+            URL_Add("questions and answers", "https://en.wikipedia.org/wiki/Q%26A_software");
+
+            URL_Add("see deleted answers", "https://meta.stackexchange.com/users/deleted-answers/current");
+
+            URL_Add("Via usability bug", "https://www.reddit.com/r/Keychron/comments/1aqws5e/comment/kqpwlz4/");
+
+            URL_Add("The Zuck's password", "https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords#Top_100");
+
+            URL_Add("used to", "https://en.wiktionary.org/wiki/used_to#Usage_notes");
+
+            URL_Add("user-defined", "https://en.wiktionary.org/wiki/user-defined_function#Noun"); // Old: https://en.wiktionary.org/wiki/user-defined_function
+
+            URL_Add("user-defined function", "https://en.wikipedia.org/wiki/User-defined_function#Databases");
+
+            URL_Add("username", "https://en.wiktionary.org/wiki/username#Noun");
+
+            URL_Add("usernames", "https://en.wiktionary.org/wiki/username#Noun");
+
+            URL_Add("userbase", "https://en.wiktionary.org/wiki/userbase#Noun");
+
+            URL_Add("user-generated", "https://en.wikipedia.org/wiki/User-generated_content");
+
+            URL_Add("user-generated content", "https://en.wikipedia.org/wiki/User-generated_content");
+
+            URL_Add("user story", "https://en.wikipedia.org/wiki/User_story");
+
+            URL_Add("use case", "https://en.wikipedia.org/wiki/Use_case");
+
+            URL_Add("use cases", "https://en.wikipedia.org/wiki/Use_case");
+
+            URL_Add("use case diagram", "https://en.wikipedia.org/wiki/Use_case_diagram");
+
+            URL_Add("user-friendly", "https://en.wiktionary.org/wiki/user-friendly#Adjective");
+
+            URL_Add("user experience design", "https://en.wikipedia.org/wiki/User_experience_design");
+
+            URL_Add("user guide", "https://en.wiktionary.org/wiki/user_guide#Noun");
+
+            URL_Add("user agent", "https://en.wikipedia.org/wiki/User_agent#Use_in_HTTP");
+
+            URL_Add("userscript", "https://en.wikipedia.org/wiki/Userscript");
+
+            URL_Add("Usenet", "https://en.wikipedia.org/wiki/Usenet");
+
+            URL_Add("User Account Control", "https://en.wikipedia.org/wiki/User_Account_Control");
+
+            URL_Add("UserVoice", "https://en.wikipedia.org/wiki/UserVoice#History");
+
+            URL_Add("usually", "https://en.wiktionary.org/wiki/usually#Adverb");
+
+            URL_Add("unusual", "https://en.wiktionary.org/wiki/unusual#Adjective");
+
+            URL_Add("business as usual", "https://en.wiktionary.org/wiki/business_as_usual#Noun");
+
+            URL_Add("USSD", "https://en.wikipedia.org/wiki/Unstructured_Supplementary_Service_Data");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -152815,6 +152832,9 @@ namespace OverflowHelper.core
             correctionAdd("MASTER_", "master_");
             correctionAdd("MATER_", "master_");
             correctionAdd("mater_", "master_");
+
+            // Electronics. Radio (frequencies).
+            correctionAdd("rf_", "RF_");
 
             // Simulated intelligence. A company
             correctionAdd("anthropic_", "Anthropic_");
@@ -172212,8 +172232,6 @@ namespace OverflowHelper.core
 
             URL_Add("TAC_", "https://en.wikipedia.org/wiki/Type_Allocation_Code");
 
-            URL_Add("RFC_", "https://en.wikipedia.org/wiki/Remote_Function_Call");
-
             URL_Add("a lot_", "https://www.wikihow.com/Tell-the-Difference-Between-Alot,-Allot-and-A-Lot");
 
             URL_Add("fellow_", "https://en.wiktionary.org/wiki/fellow#Noun");
@@ -173361,6 +173379,10 @@ namespace OverflowHelper.core
             URL_Add("bottom_", "https://en.wiktionary.org/wiki/bottom#Noun");
 
             URL_Add("'like button'_", "https://en.wikipedia.org/wiki/Like_button");
+
+            URL_Add("RFC_", "https://en.wikipedia.org/wiki/Remote_Function_Call");
+
+            URL_Add("RF_", "https://en.wikipedia.org/wiki/Radio_frequency");
 
         } //addLookupData_alternativeWordSet()
 
@@ -183904,6 +183926,7 @@ namespace OverflowHelper.core
             correctionAdd("0.0 °C____", "32 °F____");
             correctionAdd("0.0 C____", "32 °F____");
             correctionAdd("0 C____", "32 °F____");
+            correctionAdd("0C____", "32 °F____");
             correctionAdd("0____", "32 °F____");
 
             // Note:
@@ -183916,6 +183939,8 @@ namespace OverflowHelper.core
 
             correctionAdd("15.6 °C____", "60 °F____");
             correctionAdd("16____", "60 °F____"); // Nearest whole Celcius value
+
+            correctionAdd("20.0 °C____", "68 °F____");
 
             correctionAdd("21.1 °C____", "70 °F____");
             correctionAdd("21____", "70 °F____"); // Nearest whole Celcius value
@@ -185730,6 +185755,8 @@ namespace OverflowHelper.core
             URL_Add("50 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
             URL_Add("60 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+
+            URL_Add("68 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
             URL_Add("70 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
