@@ -1239,6 +1239,8 @@ namespace OverflowHelper.core
 
             correctionAdd("masive", "massive");
 
+            correctionAdd("OCW", "OpenCourseWare");
+
             correctionAdd("MOOC", "massive open online course");
 
             correctionAdd("coursera", "Coursera"); // A MOOC provider
@@ -24872,6 +24874,8 @@ namespace OverflowHelper.core
             correctionAdd("G-M counter", "Geiger counter");
             correctionAdd("GM counter", "Geiger counter");
 
+            correctionAdd("blure", "blur");
+
             correctionAdd("blurried", "blurred");
             correctionAdd("blured", "blurred");
 
@@ -33538,6 +33542,8 @@ namespace OverflowHelper.core
             correctionAdd("sumorey", "summary");
 
             correctionAdd("In summary", "in summary");
+            correctionAdd("In sum", "in summary");
+            correctionAdd("in sum", "in summary");
 
             correctionAdd("summarize", "summarise");
             correctionAdd("summerise", "summarise");
@@ -35622,6 +35628,7 @@ namespace OverflowHelper.core
             correctionAdd("stderr", "standard error");
             correctionAdd("STDERR", "standard error");
 
+            correctionAdd("std deviation", "standard deviation");
             correctionAdd("standard dev", "standard deviation");
             correctionAdd("std. dev", "standard deviation");
             correctionAdd("std dev", "standard deviation");
@@ -39326,6 +39333,7 @@ namespace OverflowHelper.core
             correctionAdd("inpersonation", "impersonation");
             correctionAdd("imporsonation", "impersonation");
 
+            correctionAdd("orthagonal", "orthogonal");
             correctionAdd("othogonal", "orthogonal");
 
             correctionAdd("indentitation", "indentation");
@@ -41405,6 +41413,7 @@ namespace OverflowHelper.core
             correctionAdd("rice's theorem", "Rice's theorem");
 
             correctionAdd("Bayes–Price theorem", "Bayes' theorem");
+            correctionAdd("Bayes' Theorem", "Bayes' theorem");
             correctionAdd("bayes theorem", "Bayes' theorem");
             correctionAdd("Bayes' rule", "Bayes' theorem");
             correctionAdd("Bayes' law", "Bayes' theorem");
@@ -41498,6 +41507,9 @@ namespace OverflowHelper.core
             correctionAdd("Normal Distribution", "normal distribution");
 
             correctionAdd("Poisson Distribution", "Poisson distribution");
+            correctionAdd("poisson distribution", "Poisson distribution");
+            correctionAdd("Poisson", "Poisson distribution");
+            correctionAdd("poisson", "Poisson distribution");
 
             correctionAdd("student's t-distribution", "Student's t-distribution");
             correctionAdd("Student's T", "Student's t-distribution");
@@ -42038,13 +42050,14 @@ namespace OverflowHelper.core
             correctionAdd("euthor", "author");
             correctionAdd("autho", "author");
 
-            correctionAdd("co-author", "coauthor");
-            correctionAdd("Co-author", "coauthor");
-            correctionAdd("Coauthor", "coauthor");
-
             correctionAdd("co-authoring", "coauthoring");
 
             correctionAdd("co-authored", "coauthored");
+
+            // The noun
+            correctionAdd("co-author", "coauthor");
+            correctionAdd("Co-author", "coauthor");
+            correctionAdd("Coauthor", "coauthor");
 
             correctionAdd("co-authorship", "coauthorship");
 
@@ -44799,9 +44812,50 @@ namespace OverflowHelper.core
             correctionAdd("svd", "singular value decomposition");
             correctionAdd("SVD", "singular value decomposition");
 
+            // A matrix thing
+            correctionAdd("Eigen decomposition", "eigenvalue decomposition");
+            correctionAdd("eigen decomposition", "eigenvalue decomposition");
+            correctionAdd("eigendecomposition", "eigenvalue decomposition");
+            correctionAdd("eig decomposition", "eigenvalue decomposition");
+
+            correctionAdd("Cuppen's divide-and-conquer algorithm", "divide-and-conquer eigenvalue algorithm");
+            correctionAdd("Cuppen's divide and conquer algorithm", "divide-and-conquer eigenvalue algorithm");
+
+            correctionAdd("jacobian", "Jacobian");
+
+            correctionAdd("hamiltonian", "Hamiltonian");
+
+            // A matrix thing
+            correctionAdd("hermitian", "Hermitian");
+
+            correctionAdd("Jacobian Matrix", "Jacobian matrix");
+            correctionAdd("jacobian Matrix", "Jacobian matrix");
+            correctionAdd("jacobian matrix", "Jacobian matrix");
+            correctionAdd("the Jacobian", "Jacobian matrix");
+            correctionAdd("the jacobian", "Jacobian matrix");
+
+            correctionAdd("Hessian", "Hessian matrix");
+
+            correctionAdd("Householder Matrix", "Householder matrix");
+
+            correctionAdd("Eisenhower Matrix", "Eisenhower matrix");
+            correctionAdd("Eisenhower-Matrix", "Eisenhower matrix");
+
+            // A matrix thing
+            correctionAdd("ilu", "incomplete LU factorization");
+            correctionAdd("ILU", "incomplete LU factorization");
+
             // A matrix / statistics thing
+            correctionAdd("Peripheral Components Analysis", "principal component analysis");
+            correctionAdd("peripheral components analysis", "principal component analysis");
             correctionAdd("Peripheral Component Analysis", "principal component analysis");
             correctionAdd("peripheral component analysis", "principal component analysis");
+            correctionAdd("Principal Components Analysis", "principal component analysis");
+            correctionAdd("Principal components analysis", "principal component analysis");
+            correctionAdd("Principle Components Analysis", "principal component analysis");
+            correctionAdd("Principle components Analysis", "principal component analysis");
+            correctionAdd("Principle components analysis", "principal component analysis");
+            correctionAdd("principle components analysis", "principal component analysis");
             correctionAdd("Principal Component Analysis", "principal component analysis");
             correctionAdd("Principle Component Analysis", "principal component analysis");
             correctionAdd("principle component analysis", "principal component analysis");
@@ -44842,47 +44896,20 @@ namespace OverflowHelper.core
             //
             //   <https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors>
             //
+            correctionAdd("Eigen values", "eigenvalues");
+            correctionAdd("eigen values", "eigenvalues");
             correctionAdd("Eigenvalues", "eigenvalues");
             correctionAdd("EIGs", "eigenvalues");
             correctionAdd("eigs", "eigenvalues");
 
-            // A matrix thing
-            correctionAdd("Eigen decomposition", "eigenvalue decomposition");
-            correctionAdd("eigen decomposition", "eigenvalue decomposition");
-            correctionAdd("eigendecomposition", "eigenvalue decomposition");
-            correctionAdd("eig decomposition", "eigenvalue decomposition");
-
-            correctionAdd("Cuppen's divide-and-conquer algorithm", "divide-and-conquer eigenvalue algorithm");
-            correctionAdd("Cuppen's divide and conquer algorithm", "divide-and-conquer eigenvalue algorithm");
-
             correctionAdd("eigen vectors", "eigenvectors");
+            correctionAdd("Eigen vectors", "eigenvectors");
 
             // A matrix thing
             correctionAdd("eigen state", "eigenstate");
 
             // A matrix thing
             correctionAdd("eigen function", "eigenfunction");
-
-            // A matrix thing
-            correctionAdd("ilu", "incomplete LU factorization");
-            correctionAdd("ILU", "incomplete LU factorization");
-
-            correctionAdd("jacobian", "Jacobian");
-
-            correctionAdd("Jacobian Matrix", "Jacobian matrix");
-            correctionAdd("jacobian Matrix", "Jacobian matrix");
-            correctionAdd("jacobian matrix", "Jacobian matrix");
-            correctionAdd("the Jacobian", "Jacobian matrix");
-            correctionAdd("the jacobian", "Jacobian matrix");
-
-            correctionAdd("Hessian", "Hessian matrix");
-
-            correctionAdd("Householder Matrix", "Householder matrix");
-
-            correctionAdd("Eisenhower Matrix", "Eisenhower matrix");
-            correctionAdd("Eisenhower-Matrix", "Eisenhower matrix");
-
-            correctionAdd("hamiltonian", "Hamiltonian");
 
             // Note: "linear" is in an alternative word set
             correctionAdd("linarity", "linearity");
@@ -45144,6 +45171,8 @@ namespace OverflowHelper.core
             // Simulated intelligence
             correctionAdd("MCP", "Model Context Protocol");
 
+            correctionAdd("Fuzzy Logic", "fuzzy logic");
+
             // Related to simulated intelligence (so-called AI)
             correctionAdd("Artificial Neural Networks", "artificial neural network"); // Not 100% correct - plural.
             correctionAdd("artificial neural networks", "artificial neural network"); // Not 100% correct - plural.
@@ -45320,6 +45349,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("`k-means` clustering", "k-means clustering");
             correctionAdd("k means clustering", "k-means clustering");
+            correctionAdd("K-Means clustering", "k-means clustering");
             correctionAdd("Kmeans clustering", "k-means clustering");
             correctionAdd("kmeans clustering", "k-means clustering");
             correctionAdd("k-means algorithm", "k-means clustering");
@@ -45335,8 +45365,10 @@ namespace OverflowHelper.core
             //
             correctionAdd("K-nearest neighbors", "k-nearest neighbors algorithm");
             correctionAdd("k-nearest neighbors", "k-nearest neighbors algorithm");
+            correctionAdd("k nearest neighbors", "k-nearest neighbors algorithm");
             correctionAdd("k-NN", "k-nearest neighbors algorithm");
             correctionAdd("KNN", "k-nearest neighbors algorithm");
+            correctionAdd("knn", "k-nearest neighbors algorithm");
 
             // Machine learning / generative simulated intelligence
             correctionAdd("GAN", "generative adversarial network");
@@ -52376,6 +52408,8 @@ namespace OverflowHelper.core
             correctionAdd("non frequently", "infrequently");
             correctionAdd("nonfrequently", "infrequently");
 
+            correctionAdd("Shannon's information theory", "information theory");
+
             // Alternative URLs:
             //
             //   <https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem>
@@ -57912,6 +57946,12 @@ namespace OverflowHelper.core
             correctionAdd("Yolo", "YOLO");
 
             correctionAdd("yolov4", "YOLO 4");
+
+            // Computer vision / image processing
+            correctionAdd("SURF", "speeded up robust features");
+
+            // Computer vision / image processing
+            correctionAdd("SIFT", "scale-invariant feature transform");
 
             correctionAdd("imagion", "imagine");
             correctionAdd("Emargin", "imagine");
@@ -75218,6 +75258,8 @@ namespace OverflowHelper.core
             correctionAdd("data-point", "data point");
             correctionAdd("datapoint", "data point");
 
+            correctionAdd("datapoints", "data points");
+
             correctionAdd("bulletpoint", "bullet point");
 
             correctionAdd("midlet", "MIDlet");
@@ -81232,6 +81274,7 @@ namespace OverflowHelper.core
             correctionAdd("reprodusible", "reproducible");
             correctionAdd("reproducable", "reproducible");
             correctionAdd("reproduable", "reproducible");
+            correctionAdd("reproducble", "reproducible");
             correctionAdd("reprocable", "reproducible");
 
             correctionAdd("reproducebly", "reproducibly");
@@ -95276,15 +95319,16 @@ namespace OverflowHelper.core
             //
             //       <https://github.com/SRGBmods/QMK-Binaries/blob/main/QMK%2BDefault-Firmware/0.27.13/K-N/keychron_v6_iso_encoder_default.bin>
             //
-            correctionAdd("Keychron v6", "Keychron V6 ISO");
-            correctionAdd("Keychron V6", "Keychron V6 ISO");
-            correctionAdd("keychron v6", "Keychron V6 ISO");
-            correctionAdd("Keytron V6", "Keychron V6 ISO");
-            correctionAdd("keytron v6", "Keychron V6 ISO");
-            correctionAdd("V series", "Keychron V6 ISO"); // Not 100% correct, but a representative of that Keychron keyboard series
-            correctionAdd("V6 ISO", "Keychron V6 ISO");
-            correctionAdd("v6", "Keychron V6 ISO");
-            correctionAdd("V6", "Keychron V6 ISO");
+            correctionAdd("Keychron V6 ISO", "Keychron V6 ISO (105%)");
+            correctionAdd("Keychron v6", "Keychron V6 ISO (105%)");
+            correctionAdd("Keychron V6", "Keychron V6 ISO (105%)");
+            correctionAdd("keychron v6", "Keychron V6 ISO (105%)");
+            correctionAdd("Keytron V6", "Keychron V6 ISO (105%)");
+            correctionAdd("keytron v6", "Keychron V6 ISO (105%)");
+            correctionAdd("V series", "Keychron V6 ISO (105%)"); // Not 100% correct, but a representative of that Keychron keyboard series
+            correctionAdd("V6 ISO", "Keychron V6 ISO (105%)");
+            correctionAdd("v6", "Keychron V6 ISO (105%)");
+            correctionAdd("V6", "Keychron V6 ISO (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -95485,25 +95529,26 @@ namespace OverflowHelper.core
             //     older versios. And some custom firmware:
             //       "Disable light when Num Lock or Caps Lock is activated"
             //
-            correctionAdd("Keychron V6 MAX", "Keychron V6 Max");
-            correctionAdd("Keychain V6 Max", "Keychron V6 Max");
-            correctionAdd("keychron v6 max", "Keychron V6 Max");
-            correctionAdd("keychron V6 Max", "Keychron V6 Max");
-            correctionAdd("KEYCHRON V6 MAX", "Keychron V6 Max");
-            correctionAdd("V Max series", "Keychron V6 Max"); // For the cross-reference
-            correctionAdd("V 6 max", "Keychron V6 Max");
-            correctionAdd("V6 Max", "Keychron V6 Max");
-            correctionAdd("v6 max", "Keychron V6 Max");
-            correctionAdd("V6 max", "Keychron V6 Max");
-            correctionAdd("V6 MAX", "Keychron V6 Max");
-            correctionAdd("v6 Max", "Keychron V6 Max");
-            correctionAdd("v6_max", "Keychron V6 Max");
-            correctionAdd("V6MAX", "Keychron V6 Max");
-            correctionAdd("v6max", "Keychron V6 Max");
-            correctionAdd("V6max", "Keychron V6 Max");
-            correctionAdd("V6Max", "Keychron V6 Max");
-            correctionAdd("V6M", "Keychron V6 Max");
-            correctionAdd("v6m", "Keychron V6 Max");
+            correctionAdd("Keychron V6 Max", "Keychron V6 Max (105%)");
+            correctionAdd("Keychron V6 MAX", "Keychron V6 Max (105%)");
+            correctionAdd("Keychain V6 Max", "Keychron V6 Max (105%)");
+            correctionAdd("keychron v6 max", "Keychron V6 Max (105%)");
+            correctionAdd("keychron V6 Max", "Keychron V6 Max (105%)");
+            correctionAdd("KEYCHRON V6 MAX", "Keychron V6 Max (105%)");
+            correctionAdd("V Max series", "Keychron V6 Max (105%)"); // For the cross-reference
+            correctionAdd("V 6 max", "Keychron V6 Max (105%)");
+            correctionAdd("V6 Max", "Keychron V6 Max (105%)");
+            correctionAdd("v6 max", "Keychron V6 Max (105%)");
+            correctionAdd("V6 max", "Keychron V6 Max (105%)");
+            correctionAdd("V6 MAX", "Keychron V6 Max (105%)");
+            correctionAdd("v6 Max", "Keychron V6 Max (105%)");
+            correctionAdd("v6_max", "Keychron V6 Max (105%)");
+            correctionAdd("V6MAX", "Keychron V6 Max (105%)");
+            correctionAdd("v6max", "Keychron V6 Max (105%)");
+            correctionAdd("V6max", "Keychron V6 Max (105%)");
+            correctionAdd("V6Max", "Keychron V6 Max (105%)");
+            correctionAdd("V6M", "Keychron V6 Max (105%)");
+            correctionAdd("v6m", "Keychron V6 Max (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -95609,27 +95654,27 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron/keychron_v6_ultra_ansi.conf>
             //     keychron_v6_ultra_ansi.conf
             //
-            correctionAdd("Keychron V6 Ultra", "Keychron V6 Ultra 8K");
-            correctionAdd("V6 Ultra 8K", "Keychron V6 Ultra 8K");
-            correctionAdd("V6 Ultra 8k", "Keychron V6 Ultra 8K");
-            correctionAdd("V6 8K Ultra", "Keychron V6 Ultra 8K"); // Not valid
-            correctionAdd("V6_Ultra_8K", "Keychron V6 Ultra 8K");
-            correctionAdd("v6 ultra 8k", "Keychron V6 Ultra 8K");
-            correctionAdd("v6_ultra_8k", "Keychron V6 Ultra 8K");
-            correctionAdd("V6 ultra 8k", "Keychron V6 Ultra 8K");
-            correctionAdd("v6_ultra", "Keychron V6 Ultra 8K");
-            correctionAdd("V6 Ultra", "Keychron V6 Ultra 8K");
-            correctionAdd("V6 ultra", "Keychron V6 Ultra 8K");
-            correctionAdd("v6 ultra", "Keychron V6 Ultra 8K");
-            correctionAdd("Ultras", "Keychron V6 Ultra 8K");
-            correctionAdd("Ultra", "Keychron V6 Ultra 8K");
-            correctionAdd("ultra", "Keychron V6 Ultra 8K");
+            correctionAdd("Keychron V6 Ultra 8K", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("Keychron V6 Ultra", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("V6 Ultra 8K", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("V6 Ultra 8k", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("V6 8K Ultra", "Keychron V6 Ultra 8K (105%)"); // Not valid
+            correctionAdd("V6_Ultra_8K", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("v6 ultra 8k", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("v6_ultra_8k", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("V6 ultra 8k", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("v6_ultra", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("V6 Ultra", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("V6 ultra", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("v6 ultra", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("Ultras", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("Ultra", "Keychron V6 Ultra 8K (105%)");
+            correctionAdd("ultra", "Keychron V6 Ultra 8K (105%)");
 
             // A 109-key (105%. Not true TKL) full-size wired-only
             // QMK/Via-capable mechanical keyboard from Keychron
             // with a knob.
             //
-            correctionAdd("Keychron&nbsp;V6&nbsp;8K", "Keychron V6 8K (105%)");
             correctionAdd("Keychron V6 8K", "Keychron V6 8K (105%)");
             correctionAdd("V6 8K", "Keychron V6 8K (105%)");
 
@@ -96051,6 +96096,8 @@ namespace OverflowHelper.core
             correctionAdd("keychron K10 pro", "Keychron K10 Pro");
             correctionAdd("Keychron 10 PRO", "Keychron K10 Pro");
             correctionAdd("Keychron 10 Pro", "Keychron K10 Pro");
+            correctionAdd("Keychron Pro 10", "Keychron K10 Pro");
+            correctionAdd("keychron pro 10", "Keychron K10 Pro");
             correctionAdd("Keychain K10", "Keychron K10 Pro");
             correctionAdd("K10&nbsp;Pro", "Keychron K10 Pro");
             correctionAdd("K Pro series", "Keychron K10 Pro"); // For the cross-reference
@@ -103714,6 +103761,7 @@ namespace OverflowHelper.core
             correctionAdd("kaggle", "Kaggle");
 
             correctionAdd("premiss", "premise");
+            correctionAdd("premis", "premise");
 
             correctionAdd("toybox", "Toybox");
 
@@ -111550,6 +111598,8 @@ namespace OverflowHelper.core
 
             URL_Add("data point", "https://en.wiktionary.org/wiki/data_point#Noun");
 
+            URL_Add("data points", "https://en.wiktionary.org/wiki/data_point#Noun");
+
             URL_Add("eloquently", "https://en.wiktionary.org/wiki/eloquently#Adverb");
 
             URL_Add("getting", "https://en.wiktionary.org/wiki/get#Verb");
@@ -114748,6 +114798,8 @@ namespace OverflowHelper.core
 
             URL_Add("watchOS", "https://en.wikipedia.org/wiki/WatchOS");
 
+            URL_Add("information theory", "https://en.wikipedia.org/wiki/Information_theory#Historical_background");
+
             URL_Add("Nyquist frequency", "https://en.wikipedia.org/wiki/Nyquist_frequency");
 
             URL_Add("high-pass filter", "https://en.wikipedia.org/wiki/High-pass_filter");
@@ -116305,8 +116357,6 @@ namespace OverflowHelper.core
             URL_Add("Volley", "https://developer.android.com/training/volley/");
 
             URL_Add("currency", "https://en.wiktionary.org/wiki/currency#Noun");
-
-            URL_Add("matrices", "https://en.wiktionary.org/wiki/matrices#Noun");
 
             URL_Add("one-off", "https://en.wiktionary.org/wiki/one-off#Adjective");
 
@@ -118149,20 +118199,6 @@ namespace OverflowHelper.core
             URL_Add("quantum computer", "https://en.wikipedia.org/wiki/Quantum_computing");
 
             URL_Add("quantum error correcting code", "https://en.wikipedia.org/wiki/Quantum_error_correction");
-
-            URL_Add("eigenstate", "https://en.wikipedia.org/wiki/Quantum_state#Pure_states");
-
-            URL_Add("eigenvalue", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
-
-            URL_Add("eigenvalues", "https://en.wiktionary.org/wiki/eigenvalue#Noun");
-
-            URL_Add("eigenvalue decomposition", "https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix");
-
-            URL_Add("divide-and-conquer eigenvalue algorithm", "https://en.wikipedia.org/wiki/Divide-and-conquer_eigenvalue_algorithm");
-
-            URL_Add("eigenvectors", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
-
-            URL_Add("eigenfunction", "https://en.wikipedia.org/wiki/Eigenfunction");
 
             URL_Add("entanglement", "https://en.wikipedia.org/wiki/Quantum_entanglement");
 
@@ -121814,8 +121850,6 @@ namespace OverflowHelper.core
 
             URL_Add("kerning", "https://en.wiktionary.org/wiki/kerning#Noun");
 
-            URL_Add("massive", "https://en.wiktionary.org/wiki/massive#Adjective");
-
             URL_Add("typography", "https://en.wiktionary.org/wiki/typography#Noun");
 
             URL_Add("chunk", "https://en.wiktionary.org/wiki/chunk#Noun");
@@ -123692,6 +123726,8 @@ namespace OverflowHelper.core
 
             URL_Add("mitigation", "https://en.wiktionary.org/wiki/mitigation#Noun");
 
+            URL_Add("blur", "https://en.wiktionary.org/wiki/blur#Noun");
+
             URL_Add("blurred", "https://en.wiktionary.org/wiki/blurred#Adjective");
 
             URL_Add("Spiceworks", "https://en.wikipedia.org/wiki/Spiceworks");
@@ -125250,8 +125286,6 @@ namespace OverflowHelper.core
 
             URL_Add("in any way, shape, or form", "https://en.wiktionary.org/wiki/in_any_way,_shape,_or_form#Prepositional_phrase");
 
-            URL_Add("singular value decomposition", "https://en.wikipedia.org/wiki/Singular_value_decomposition");
-
             URL_Add("besides", "https://en.wiktionary.org/wiki/besides#Preposition");
 
             URL_Add("in advance", "https://en.wiktionary.org/wiki/in_advance#Prepositional_phrase");
@@ -125313,10 +125347,6 @@ namespace OverflowHelper.core
             URL_Add("from time to time", "https://en.wiktionary.org/wiki/from_time_to_time#Prepositional_phrase");
 
             URL_Add("on demand", "https://en.wiktionary.org/wiki/on_demand#Prepositional_phrase");
-
-            URL_Add("LU decomposition", "https://en.wikipedia.org/wiki/LU_decomposition");
-
-            URL_Add("Cholesky decomposition", "https://en.wikipedia.org/wiki/Cholesky_decomposition");
 
             URL_Add("off the top of my head", "https://en.wiktionary.org/wiki/off_the_top_of_one%27s_head#Prepositional_phrase");
 
@@ -126970,7 +127000,27 @@ namespace OverflowHelper.core
 
             URL_Add("network effect", "https://en.wikipedia.org/wiki/Network_effect");
 
+            URL_Add("fuzzy logic", "https://en.wikipedia.org/wiki/Fuzzy_logic");
+
             URL_Add("artificial neural network", "https://en.wikipedia.org/wiki/Artificial_neural_network");
+
+            URL_Add("Fast Artificial Neural Network", "https://en.wikipedia.org/wiki/Fast_Artificial_Neural_Network");
+
+            URL_Add("graph neural network", "https://en.wikipedia.org/wiki/Graph_neural_network");
+
+            URL_Add("deep neural network", "https://en.wikipedia.org/wiki/Deep_learning#Deep_neural_networks");
+
+            URL_Add("time delay neural network", "https://en.wikipedia.org/wiki/Time_delay_neural_network");
+
+            URL_Add("recurrent neural network", "https://en.wikipedia.org/wiki/Recurrent_neural_network");
+
+            URL_Add("residual neural network", "https://en.wikipedia.org/wiki/Residual_neural_network");
+
+            URL_Add("convolutional neural network", "https://en.wikipedia.org/wiki/Convolutional_neural_network");
+
+            URL_Add("convoluted", "https://en.wiktionary.org/wiki/convoluted#Adjective");
+
+            URL_Add("convolutional", "https://en.wiktionary.org/wiki/convolutional#Adjective");
 
             URL_Add("Tor", "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29");
 
@@ -130904,11 +130954,11 @@ namespace OverflowHelper.core
 
             URL_Add("author", "https://en.wiktionary.org/wiki/author#Noun");
 
-            URL_Add("coauthor", "https://en.wiktionary.org/wiki/coauthor#Noun");
-
             URL_Add("coauthoring", "https://en.wiktionary.org/wiki/coauthor#Verb");
 
             URL_Add("coauthored", "https://en.wiktionary.org/wiki/coauthor#Verb");
+
+            URL_Add("coauthor", "https://en.wiktionary.org/wiki/coauthor#Noun");
 
             URL_Add("coauthorship", "https://en.wiktionary.org/wiki/coauthorship#Noun");
 
@@ -131142,7 +131192,15 @@ namespace OverflowHelper.core
 
             URL_Add("due course", "https://en.wiktionary.org/wiki/due_course#Noun");
 
+            URL_Add("massive", "https://en.wiktionary.org/wiki/massive#Adjective");
+
+            URL_Add("OpenCourseWare", "https://en.wikipedia.org/wiki/OpenCourseWare");
+
             URL_Add("massive open online course", "https://en.wikipedia.org/wiki/Massive_open_online_course");
+
+            URL_Add("massively multiplayer online game", "https://en.wikipedia.org/wiki/Massively_multiplayer_online_game");
+
+            URL_Add("massively multiplayer online role-playing game", "https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game");
 
             URL_Add("Coursera", "https://en.wikipedia.org/wiki/Coursera");
 
@@ -136008,6 +136066,10 @@ namespace OverflowHelper.core
 
             URL_Add("YOLO 4", "https://en.wikipedia.org/wiki/Object_detection#Methods");
 
+            URL_Add("speeded up robust features", "https://en.wikipedia.org/wiki/Speeded_up_robust_features");
+
+            URL_Add("scale-invariant feature transform", "https://en.wikipedia.org/wiki/Scale-invariant_feature_transform");
+
             URL_Add("BRICS", "https://en.wikipedia.org/wiki/BRICS");
 
             URL_Add("mRNA", "https://en.wikipedia.org/wiki/Messenger_RNA");
@@ -137682,6 +137744,48 @@ namespace OverflowHelper.core
 
             URL_Add("matrix", "https://en.wiktionary.org/wiki/matrix#Noun");
 
+            URL_Add("matrices", "https://en.wiktionary.org/wiki/matrices#Noun");
+
+            URL_Add("LU decomposition", "https://en.wikipedia.org/wiki/LU_decomposition");
+
+            URL_Add("Cholesky decomposition", "https://en.wikipedia.org/wiki/Cholesky_decomposition");
+
+            URL_Add("Hermitian", "https://en.wiktionary.org/wiki/Hermitian#Adjective");
+
+            URL_Add("Jacobian", "https://en.wiktionary.org/wiki/Jacobian#Adjective");
+
+            URL_Add("Jacobian matrix", "https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant");
+
+            URL_Add("singular value decomposition", "https://en.wikipedia.org/wiki/Singular_value_decomposition");
+
+            URL_Add("principal component analysis", "https://en.wikipedia.org/wiki/Principal_component_analysis");
+
+            URL_Add("principal components", "https://en.wikipedia.org/wiki/Principal_component_analysis");
+
+            URL_Add("t-distributed stochastic neighbor embedding", "https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding");
+
+            URL_Add("information gain", "https://en.wikipedia.org/wiki/Information_gain_(decision_tree)");
+
+            URL_Add("Word2Vec", "https://en.wikipedia.org/wiki/Word2Vec");
+
+            URL_Add("principal minor", "https://mathematica.stackexchange.com/questions/154018/principal-submatrix-and-principal-minor-of-a-matrix");
+
+            URL_Add("eigenstate", "https://en.wikipedia.org/wiki/Quantum_state#Pure_states");
+
+            URL_Add("eigenvalue", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
+
+            URL_Add("eigenvalues", "https://en.wiktionary.org/wiki/eigenvalue#Noun");
+
+            URL_Add("eigenvalue decomposition", "https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix");
+
+            URL_Add("divide-and-conquer eigenvalue algorithm", "https://en.wikipedia.org/wiki/Divide-and-conquer_eigenvalue_algorithm");
+
+            URL_Add("eigenvectors", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
+
+            URL_Add("eigenfunction", "https://en.wikipedia.org/wiki/Eigenfunction");
+
+            URL_Add("incomplete LU factorization", "https://en.wikipedia.org/wiki/Incomplete_LU_factorization");
+
             URL_Add("Eisenhower matrix", "https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method");
 
             URL_Add("confusion matrix", "https://en.wikipedia.org/wiki/Confusion_matrix");
@@ -137690,13 +137794,7 @@ namespace OverflowHelper.core
 
             URL_Add("uMatrix", "https://addons.mozilla.org/en-US/firefox/addon/umatrix/");
 
-            URL_Add("Jacobian", "https://en.wiktionary.org/wiki/Jacobian#Adjective");
-
-            URL_Add("Jacobian matrix", "https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant");
-
             URL_Add("Google PhotoScan", "https://en.wikipedia.org/wiki/Google_Photos#History");
-
-            URL_Add("principal minor", "https://mathematica.stackexchange.com/questions/154018/principal-submatrix-and-principal-minor-of-a-matrix");
 
             URL_Add("message", "https://en.wiktionary.org/wiki/message#Noun");
 
@@ -139353,10 +139451,6 @@ namespace OverflowHelper.core
             URL_Add("multiplayer online battle arena", "https://en.wikipedia.org/wiki/Multiplayer_online_battle_arena#Artificial_Intelligence_in_MOBAs");
 
             URL_Add("actions per minute", "https://en.wikipedia.org/wiki/Actions_per_minute");
-
-            URL_Add("massively multiplayer online game", "https://en.wikipedia.org/wiki/Massively_multiplayer_online_game");
-
-            URL_Add("massively multiplayer online role-playing game", "https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game");
 
             URL_Add("Rockstar Games", "https://en.wikipedia.org/wiki/Rockstar_Games");
 
@@ -142766,7 +142860,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V4 ISO (60%)", "https://www.keychron.com/products/keychron-v4-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
-            URL_Add("Keychron V6 ISO", "https://www.keychron.com/products/keychron-v6-qmk-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron V6 ISO (105%)", "https://www.keychron.com/products/keychron-v6-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron V7 (70%)", "https://www.keychron.com/products/keychron-v7-qmk-custom-mechanical-keyboard");
 
@@ -142782,7 +142876,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V5 Max (95%)", "https://www.keychron.com/products/keychron-v5-max-qmk-via-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron V6 Max", "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+            URL_Add("Keychron V6 Max (105%)", "https://www.keychron.com/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron V8 Max (65%)", "https://www.keychron.com/products/keychron-v8-max-alice-layout-qmk-custom-mechanical-keyboard");
 
@@ -142796,7 +142890,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V5 Ultra 8K (95%)", "https://www.keychron.com/products/keychron-v5-ultra-8k-wireless-custom-mechanical-keyboard");
 
-            URL_Add("Keychron V6 Ultra 8K", "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard");
+            URL_Add("Keychron V6 Ultra 8K (105%)", "https://www.keychron.com/products/keychron-v6-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("Keychron V10 Ultra 8K (85%)", "https://www.keychron.com/products/keychron-v10-ultra-8k-wireless-custom-mechanical-keyboard");
 
@@ -145760,23 +145854,9 @@ namespace OverflowHelper.core
 
             URL_Add("Cold War", "https://en.wikipedia.org/wiki/Cold_War");
 
-            URL_Add("convoluted", "https://en.wiktionary.org/wiki/convoluted#Adjective");
-
-            URL_Add("convolutional", "https://en.wiktionary.org/wiki/convolutional#Adjective");
-
-            URL_Add("convolutional neural network", "https://en.wikipedia.org/wiki/Convolutional_neural_network");
-
             URL_Add("padding", "https://en.wikipedia.org/wiki/Convolutional_neural_network#Padding");
 
             URL_Add("stride", "https://en.wikipedia.org/wiki/Convolutional_neural_network#Stride");
-
-            URL_Add("deep neural network", "https://en.wikipedia.org/wiki/Deep_learning#Deep_neural_networks");
-
-            URL_Add("time delay neural network", "https://en.wikipedia.org/wiki/Time_delay_neural_network");
-
-            URL_Add("Fast Artificial Neural Network", "https://en.wikipedia.org/wiki/Fast_Artificial_Neural_Network");
-
-            URL_Add("graph neural network", "https://en.wikipedia.org/wiki/Graph_neural_network");
 
             URL_Add("Rectified Linear Unit", "https://en.wikipedia.org/wiki/Rectifier_(neural_networks)");
 
@@ -145955,16 +146035,6 @@ namespace OverflowHelper.core
             URL_Add("spectrum analyser", "https://en.wikipedia.org/wiki/Spectrum_analyzer");
 
             URL_Add("Saleae logic analyzer", "https://www.sigrok.org/wiki/Saleae_Logic");
-
-            URL_Add("principal component analysis", "https://en.wikipedia.org/wiki/Principal_component_analysis");
-
-            URL_Add("principal components", "https://en.wikipedia.org/wiki/Principal_component_analysis");
-
-            URL_Add("Word2Vec", "https://en.wikipedia.org/wiki/Word2Vec");
-
-            URL_Add("t-distributed stochastic neighbor embedding", "https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding");
-
-            URL_Add("information gain", "https://en.wikipedia.org/wiki/Information_gain_(decision_tree)");
 
             URL_Add("cryptanalysis", "https://en.wikipedia.org/wiki/Cryptanalysis");
 
@@ -148226,8 +148296,6 @@ namespace OverflowHelper.core
 
             URL_Add("recurring", "https://en.wiktionary.org/wiki/recur#Verb");
 
-            URL_Add("recurrent neural network", "https://en.wikipedia.org/wiki/Recurrent_neural_network");
-
             URL_Add("re-attach", "https://en.wiktionary.org/wiki/re-attach#Verb");
 
             URL_Add("regenerate", "https://en.wiktionary.org/wiki/regenerate#Verb");
@@ -148625,8 +148693,6 @@ namespace OverflowHelper.core
             URL_Add("resignation", "https://en.wiktionary.org/wiki/resignation#Noun");
 
             URL_Add("residual-current device", "https://en.wikipedia.org/wiki/Residual-current_device");
-
-            URL_Add("residual neural network", "https://en.wikipedia.org/wiki/Residual_neural_network");
 
             URL_Add("resilience", "https://en.wiktionary.org/wiki/resilience#Noun");
 
@@ -151471,8 +151537,6 @@ namespace OverflowHelper.core
             URL_Add("completionist", "https://en.wiktionary.org/wiki/completionist#Noun");
 
             URL_Add("incomplete", "https://en.wiktionary.org/wiki/incomplete#Adjective");
-
-            URL_Add("incomplete LU factorization", "https://en.wikipedia.org/wiki/Incomplete_LU_factorization");
 
             URL_Add("complete binary tree", "https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees");
 
@@ -156123,8 +156187,8 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/Keychron/comments/1as61bs/comment/kqvmae2/>
             //
             correctionAdd("Bluetooth firmware version 1.32.2 for Keychron K Pro and Q Pro series keyboards_", "download URL for Bluetooth firmware version 1.32_");
-            correctionAdd("Keychron K10 Pro_", "download URL for Bluetooth firmware version 1.32_");
             correctionAdd("Keychron Q6 Pro (105%)_", "download URL for Bluetooth firmware version 1.32_");
+            correctionAdd("Keychron K10 Pro_", "download URL for Bluetooth firmware version 1.32_");
             correctionAdd("Keychron Q6 Pro_", "download URL for Bluetooth firmware version 1.32_");
 
             // For the cross-reference
@@ -156150,9 +156214,10 @@ namespace OverflowHelper.core
             // For the cross-reference
             // 2024-11-19. 92444 bytes. MD5 55E3EE7BBDDAF72AB370ACECDF5EC9E.
             correctionAdd("Bluetooth firmware version 0.2.1 for Keychron Q Max, K Max, and V Max series keyboards_", "download URL for Bluetooth firmware version 0.2.1_");
-            correctionAdd("Keychron K10 Max_", "download URL for Bluetooth firmware version 0.2.1_");
             correctionAdd("Keychron Q6 Max (105%)_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
+            correctionAdd("Keychron K10 Max_", "download URL for Bluetooth firmware version 0.2.1_");
             correctionAdd("Keychron Q6 Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
+            correctionAdd("Keychron V6 Max (105%)_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
             correctionAdd("Keychron V6 Max_", "download URL for Bluetooth firmware version 0.2.1_"); // For the cross-reference
 
             correctionAdd("the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_", "a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_"); // For the cross-reference
@@ -163604,6 +163669,7 @@ namespace OverflowHelper.core
             correctionAdd("engineering_", "Engineering (Stack Exchange site)_");
             correctionAdd("Engineering_", "Engineering (Stack Exchange site)_"); // Sort of identity mapping
 
+            correctionAdd("datascience.stackexchange.com_", "Data Science (Stack Exchange site)_");
             correctionAdd("Data Science SE_", "Data Science (Stack Exchange site)_");
             correctionAdd("datascience.SE_", "Data Science (Stack Exchange site)_");
             correctionAdd("Data Science_", "Data Science (Stack Exchange site)_"); // Sort of identity mapping
@@ -163772,6 +163838,7 @@ namespace OverflowHelper.core
             //
             // See e.g. <https://en.wikipedia.org/wiki/Imputation_(statistics)>.
             //
+            correctionAdd("Impute_", "impute_");
             correctionAdd("input_", "impute_");
             correctionAdd("imput_", "impute_");
 
@@ -163784,6 +163851,13 @@ namespace OverflowHelper.core
             // See e.g. <https://en.wikipedia.org/wiki/Imputation_(statistics)>.
             //
             correctionAdd("inputted_", "imputed_");
+
+            correctionAdd("discriminant function analysis_", "linear discriminant analysis_");
+            correctionAdd("normal discriminant analysis_", "linear discriminant analysis_");
+            correctionAdd("canonical variates analysis_", "linear discriminant analysis_");
+            correctionAdd("CVA_", "linear discriminant analysis_");
+            correctionAdd("LDA_", "linear discriminant analysis_");
+            correctionAdd("NDA_", "linear discriminant analysis_");
 
             correctionAdd("un do_", "undo_");
 
@@ -168676,8 +168750,6 @@ namespace OverflowHelper.core
 
             URL_Add("density-functional theory_", "https://en.wikipedia.org/wiki/Density_functional_theory");
 
-            URL_Add("PlayStation 2_", "https://en.wikipedia.org/wiki/PlayStation_2");
-
             URL_Add("STMicroelectronics_", "https://en.wikipedia.org/wiki/STMicroelectronics");
 
             URL_Add("San Francisco_", "https://en.wikipedia.org/wiki/San_Francisco");
@@ -169250,8 +169322,6 @@ namespace OverflowHelper.core
 
             URL_Add("Splint_", "https://splint.org/"); // Old: <http://splint.org/>
 
-            URL_Add("ActiveState_", "https://en.wikipedia.org/wiki/ActiveState");
-
             URL_Add("something_", "https://en.wiktionary.org/wiki/something#Pronoun"); // Old: https://en.wiktionary.org/wiki/something
 
             URL_Add("Kivy_", "https://en.wikipedia.org/wiki/Kivy_(framework)");
@@ -169377,8 +169447,6 @@ namespace OverflowHelper.core
             URL_Add("analyse_", "https://en.wiktionary.org/wiki/analyse#Verb");
 
             URL_Add("Deutsche Bahn_", "https://en.wikipedia.org/wiki/Deutsche_Bahn");
-
-            URL_Add("static electricity_", "https://en.wikipedia.org/wiki/Static_electricity#Electronic_components");
 
             URL_Add("series_", "https://en.wiktionary.org/wiki/series#Noun");
 
@@ -170504,8 +170572,6 @@ namespace OverflowHelper.core
 
             URL_Add("XOR gate_", "https://en.wikipedia.org/wiki/XOR_gate");
 
-            URL_Add("stating_", "https://en.wiktionary.org/wiki/state#Verb");
-
             URL_Add("#include_", "https://en.wikipedia.org/wiki/Include_directive#C/C++");
 
             URL_Add("safe_", "https://en.wiktionary.org/wiki/safe#Adjective");
@@ -171128,8 +171194,6 @@ namespace OverflowHelper.core
 
             URL_Add("user manual_", "https://en.wikipedia.org/wiki/User_guide");
 
-            URL_Add("USA_", "https://en.wikipedia.org/wiki/United_States");
-
             URL_Add("```lang-bash_", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
 
             URL_Add("```lang-ini_", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
@@ -171311,6 +171375,8 @@ namespace OverflowHelper.core
             URL_Add("Moscow time zone_", "https://en.wikipedia.org/wiki/Moscow_Time");
 
             URL_Add("English_", "https://en.wiktionary.org/wiki/English#Proper_noun");
+
+            URL_Add("USA_", "https://en.wikipedia.org/wiki/United_States");
 
             URL_Add("Delaware, United States_", "https://en.wikipedia.org/wiki/Delaware");
 
@@ -172304,8 +172370,6 @@ namespace OverflowHelper.core
 
             URL_Add("WordPress Development (Stack Exchange site)_", "https://wordpress.stackexchange.com/tour");
 
-            URL_Add("Cross Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
-
             URL_Add("Artificial Intelligence (Stack Exchange site)_", "https://ai.stackexchange.com/tour");
 
             URL_Add("Chess (Stack Exchange site)_", "https://chess.stackexchange.com/tour");
@@ -172313,6 +172377,8 @@ namespace OverflowHelper.core
             URL_Add("Blender (Stack Exchange site)_", "https://blender.stackexchange.com/tour");
 
             URL_Add("Computer Science (Stack Exchange site)_", "https://cs.stackexchange.com/tour");
+
+            URL_Add("Cross Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
 
             URL_Add("operating_", "https://en.wiktionary.org/wiki/operate#Verb");
 
@@ -173233,6 +173299,16 @@ namespace OverflowHelper.core
             URL_Add("affecting_", "https://en.wiktionary.org/wiki/affect#Verb");
 
             URL_Add("image quality_", "https://en.wikipedia.org/wiki/Image_quality");
+
+            URL_Add("stating_", "https://en.wiktionary.org/wiki/state#Verb");
+
+            URL_Add("static electricity_", "https://en.wikipedia.org/wiki/Static_electricity#Electronic_components");
+
+            URL_Add("ActiveState_", "https://en.wikipedia.org/wiki/ActiveState");
+
+            URL_Add("PlayStation 2_", "https://en.wikipedia.org/wiki/PlayStation_2");
+
+            URL_Add("linear discriminant analysis_", "https://en.wikipedia.org/wiki/Linear_discriminant_analysis");
 
         } //addLookupData_alternativeWordSet()
 
@@ -177948,12 +178024,14 @@ namespace OverflowHelper.core
             // For the cross-reference to the source code
             // Note: In the main QMK repository
             //
+            correctionAdd("Keychron V6 ISO (105%)__", "Keychron V6 source code__");
             correctionAdd("Keychron V6 ISO__", "Keychron V6 source code__");
             correctionAdd("V6__", "Keychron V6 source code__");
 
             // For the cross-reference to the source code
             // Note: In Git branch "wireless_playground"
             //
+            correctionAdd("Keychron V6 Max (105%)__", "Keychron V6 Max source code__");
             correctionAdd("Keychron V6 Max__", "Keychron V6 Max source code__");
 
             correctionAdd("Keychron Lemokey P1 Pro (80%)__", "Keychron Lemokey P1 Pro source code__");
@@ -177990,6 +178068,7 @@ namespace OverflowHelper.core
             //     #   <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron_v6_ultra_ansi/keychron_v6_ultra_ansi.conf#L6>
             //
             correctionAdd("Keychron V Ultra 8K series__", "Keychron V6 Ultra 8K source code__");
+            correctionAdd("Keychron V6 Ultra 8K (105%)__", "Keychron V6 Ultra 8K source code__");
             correctionAdd("Keychron V6 Ultra 8K__", "Keychron V6 Ultra 8K source code__");
 
             // A wired and wireless (both Bluetooth and '2.4 GHz')
@@ -181577,6 +181656,7 @@ namespace OverflowHelper.core
             correctionAdd("q___", "Keychron Q series___");
 
             // For a direct text, "V series"
+            correctionAdd("Keychron V6 ISO (105%)___", "Keychron V series___"); // For the cross-reference
             correctionAdd("Keychron V6 ISO___", "Keychron V series___"); // For the cross-reference
             correctionAdd("V series___", "Keychron V series___"); // Has a strange space... Unicode code point U+00A0, "NO-BREAK SPACE". UTF-8 sequence 0xC2 0xA0. <https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=0x>. Search for it by the regular expression "\x{00A0}" ("\u00A0" in Visual Studio Code and some others).
             correctionAdd("V series___", "Keychron V series___"); // Sort of identity mapping
@@ -181612,6 +181692,7 @@ namespace OverflowHelper.core
             correctionAdd("q pro___", "Keychron Q Pro series___");
 
             // For a direct text, "V Max series"
+            correctionAdd("Keychron V6 Max (105%)___", "Keychron V Max series___"); // For the cross-reference
             correctionAdd("Keychron V6 Max___", "Keychron V Max series___"); // For the cross-reference
             correctionAdd("V Max series___", "Keychron V Max series___"); // Sort of identity mapping
             correctionAdd("v max series___", "Keychron V Max series___");
@@ -181725,6 +181806,7 @@ namespace OverflowHelper.core
             correctionAdd("Q Ultra 8k___", "Keychron Q Ultra 8K series___");
             correctionAdd("Q Ultra___", "Keychron Q Ultra 8K series___");
 
+            correctionAdd("Keychron V6 Ultra 8K (105%)___", "Keychron V Ultra 8K series___");
             correctionAdd("Keychron V6 Ultra 8K___", "Keychron V Ultra 8K series___");
             correctionAdd("V Ultra 8K series___", "Keychron V Ultra 8K series___");
             correctionAdd("V ultra series___", "Keychron V Ultra 8K series___");
@@ -184229,8 +184311,8 @@ namespace OverflowHelper.core
             // For the cross-reference to the default keymap
             // Note: In Git branch "wireless_playground"
             //
-            correctionAdd("Q6 Max default keymap____", "Keychron Q6 Max default keymap (ISO RGB)____");
             correctionAdd("Keychron Q6 Max (105%)____", "Keychron Q6 Max default keymap (ISO RGB)____"); // For the cross-reference
+            correctionAdd("Q6 Max default keymap____", "Keychron Q6 Max default keymap (ISO RGB)____");
             correctionAdd("Keychron Q6 Max____", "Keychron Q6 Max default keymap (ISO RGB)____"); // For the cross-reference
             correctionAdd("Q6 Max keymap____", "Keychron Q6 Max default keymap (ISO RGB)____");
 
@@ -184238,9 +184320,11 @@ namespace OverflowHelper.core
             // Note: In the main QMK repository
             //
             correctionAdd("V6 default keymap____", "Keychron V6 default keymap (ISO RGB)____");
+            correctionAdd("Keychron V6 ISO (105%)____", "Keychron V6 default keymap (ISO RGB)____");
             correctionAdd("Keychron V6 ISO____", "Keychron V6 default keymap (ISO RGB)____");
             correctionAdd("V6 keymap____", "Keychron V6 default keymap (ISO RGB)____");
 
+            correctionAdd("Keychron V6 Max (105%)____", "Keychron V6 Max default keymap (ISO RGB)____"); // For the cross-reference
             correctionAdd("V6 Max default keymap____", "Keychron V6 Max default keymap (ISO RGB)____");
             correctionAdd("Keychron V6 Max____", "Keychron V6 Max default keymap (ISO RGB)____"); // For the cross-reference
             correctionAdd("V6 Max keymap____", "Keychron V6 Max default keymap (ISO RGB)____");
@@ -186030,6 +186114,7 @@ namespace OverflowHelper.core
             correctionAdd("early 2025 firmware updates_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____");
             correctionAdd("newer Keychron firmware_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____");
             correctionAdd("Keychron 2025 firmware_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____");
+            correctionAdd("Keychron V6 Max (105%)_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____"); // For the cross-reference
             correctionAdd("debounce deflection_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____");
             correctionAdd("the debounce update_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____");
             correctionAdd("some newer firmware_____", "the early 2025 Keychron keyboard main firmware updates with source code release unacceptably delayed_____");
@@ -188153,6 +188238,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Git branch \"wls_2025q1\" in Keychron's fork_______", "Git branch \"2025q3\" in Keychron's fork_______"); // For the cross-reference
             correctionAdd("Keychron's main fork of QMK_______", "Git branch \"2025q3\" in Keychron's fork_______"); // For the cross-reference
+            correctionAdd("Keychron V6 Max (105%)_______", "Git branch \"2025q3\" in Keychron's fork_______"); // For the cross-reference
             correctionAdd("Keychron V6 Max_______", "Git branch \"2025q3\" in Keychron's fork_______"); // For the cross-reference
             correctionAdd("wls_2025q1_______", "Git branch \"2025q3\" in Keychron's fork_______"); // For the cross-reference
             correctionAdd("2025q3_______", "Git branch \"2025q3\" in Keychron's fork_______");
