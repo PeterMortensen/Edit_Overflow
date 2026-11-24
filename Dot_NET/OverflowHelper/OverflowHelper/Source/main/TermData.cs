@@ -2214,6 +2214,8 @@ namespace OverflowHelper.core
             correctionAdd("correlaton", "correlation");
             correctionAdd("corrlation", "correlation");
 
+            correctionAdd("decorrilation", "decorrelation");
+
             correctionAdd("time correlated", "time-correlated");
 
             correctionAdd("Autocorrelation", "autocorrelation");
@@ -101013,24 +101015,18 @@ namespace OverflowHelper.core
             correctionAdd("HW recs", "Hardware Recommendations (Stack Exchange site)");
             correctionAdd("hw recs", "Hardware Recommendations (Stack Exchange site)");
 
-            correctionAdd("Network Engineering (Stack Exchange site)", "Network&nbsp;Engineering (Stack Exchange site)");
-            correctionAdd("Network&nbsp;Engineering", "Network&nbsp;Engineering (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("network engineering", "Network&nbsp;Engineering (Stack Exchange site)");
-            correctionAdd("Network Engineering", "Network&nbsp;Engineering (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("network engineering", "Network Engineering (Stack Exchange site)");
+            correctionAdd("Network Engineering", "Network Engineering (Stack Exchange site)");
 
             correctionAdd("Monero", "Monero (Stack Exchange site)");
 
-            correctionAdd("Graphic Design (Stack Exchange site)", "Graphic&nbsp;Design (Stack Exchange site)");
-            correctionAdd("Graphic&nbsp;Design", "Graphic&nbsp;Design (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("GraphicDesign.SE", "Graphic&nbsp;Design (Stack Exchange site)");
-            correctionAdd("Graphics Design", "Graphic&nbsp;Design (Stack Exchange site)");
-            correctionAdd("Graphic Design", "Graphic&nbsp;Design (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("graphic design", "Graphic&nbsp;Design (Stack Exchange site)");
+            correctionAdd("GraphicDesign.SE", "Graphic Design (Stack Exchange site)");
+            correctionAdd("Graphics Design", "Graphic Design (Stack Exchange site)");
+            correctionAdd("Graphic Design", "Graphic Design (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("graphic design", "Graphic Design (Stack Exchange site)");
 
-            correctionAdd("Mi&nbsp;Yodeya", "Mi&nbsp;Yodeya (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Mi Yodeya (Stack Exchange site)", "Mi&nbsp;Yodeya (Stack Exchange site)");
-            correctionAdd("Mi Yodeya", "Mi&nbsp;Yodeya (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Miyodeya", "Mi&nbsp;Yodeya (Stack Exchange site)");
+            correctionAdd("Mi Yodeya", "Mi Yodeya (Stack Exchange site)");
+            correctionAdd("Miyodeya", "Mi Yodeya (Stack Exchange site)");
 
             correctionAdd("bicycles.se", "Bicycles (Stack Exchange site)");
             correctionAdd("Bicycles", "Bicycles (Stack Exchange site)"); // Sort of identity mapping
@@ -101047,59 +101043,43 @@ namespace OverflowHelper.core
             correctionAdd("pets", "Pets (Stack Exchange site)");
             correctionAdd("Pets", "Pets (Stack Exchange site)");
 
-            correctionAdd("Board & Card Games (Stack Exchange site)", "Board&nbsp;&&nbsp;Card&nbsp;Games (Stack Exchange site)");
-            correctionAdd("Board&nbsp;&&nbsp;Card&nbsp;Games", "Board&nbsp;&&nbsp;Card&nbsp;Games (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Board & Card Games", "Board&nbsp;&&nbsp;Card&nbsp;Games (Stack Exchange site)");
+            correctionAdd("Board & Card Games", "Board & Card Games (Stack Exchange site)");
 
-            correctionAdd("Ask&nbsp;Patents", "Ask&nbsp;Patents (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Ask Patents", "Ask&nbsp;Patents (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Ask Patents (Stack Exchange site)", "Ask&nbsp;Patents (Stack Exchange site)");
-            correctionAdd("Patents", "Ask&nbsp;Patents (Stack Exchange site)");
+            correctionAdd("Ask Patents", "Ask Patents (Stack Exchange site)");
+            correctionAdd("Patents", "Ask Patents (Stack Exchange site)");
 
-            correctionAdd("Arts & Crafts (Stack Exchange site)", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Arts&nbsp;&&nbsp;Crafts", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Arts & Crafts", "Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)");
+            correctionAdd("Arts & Crafts", "Arts & Crafts (Stack Exchange site)"); // Sort of identity mapping
 
-            correctionAdd("Constructed Languages (Stack Exchange site)", "Constructed&nbsp;Languages (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Constructed&nbsp;Languages", "Constructed&nbsp;Languages (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Constructed Languages", "Constructed&nbsp;Languages (Stack Exchange site)");
-            correctionAdd("Conlang.SE", "Constructed&nbsp;Languages (Stack Exchange site)");
+            correctionAdd("Constructed Languages", "Constructed Languages (Stack Exchange site)");
+            correctionAdd("Conlang.SE", "Constructed Languages (Stack Exchange site)");
 
-            correctionAdd("Amateur&nbsp;Radio", "Amateur&nbsp;Radio (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Amateur Radio (Stack Exchange site)", "Amateur&nbsp;Radio (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Amateur Radio", "Amateur&nbsp;Radio (Stack Exchange site)");
+            correctionAdd("Amateur Radio", "Amateur Radio (Stack Exchange site)"); // Sort of identity mapping
 
-            correctionAdd("Language Learning (Stack Exchange site)", "Language&nbsp;Learning (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Language&nbsp;Learning", "Language&nbsp;Learning (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Language Learning", "Language&nbsp;Learning (Stack Exchange site)");
-            correctionAdd("language learning", "Language&nbsp;Learning (Stack Exchange site)");
+            correctionAdd("Language Learning", "Language Learning (Stack Exchange site)");
+            correctionAdd("language learning", "Language Learning (Stack Exchange site)");
 
             correctionAdd("Robotics", "Robotics (Stack Exchange site)");
 
             correctionAdd("Craft CMS", "Craft CMS (Stack Exchange site)");
 
-            correctionAdd("Open Data (Stack Exchange site)", "Open&nbsp;Data (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Open&nbsp;Data", "Open&nbsp;Data (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Open Data", "Open&nbsp;Data (Stack Exchange site)");
+            correctionAdd("Open Data", "Open Data (Stack Exchange site)");
 
             correctionAdd("Tridion", "Tridion (Stack Exchange site)");
 
-            correctionAdd("Code Golf (Stack Exchange site)", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("Programming Puzzles & Code Golf", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("code golf and code challenges", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("Code Golf & coding challenges", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("code golf & code challenges", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("Code&nbsp;Golf", "Code&nbsp;Golf (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("codegolf.SE", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("codegolf.se", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("code golf", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("Code Golf", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("code-golf", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("CodeGolf", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("CG.SE", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("CGSE", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("CGCC", "Code&nbsp;Golf (Stack Exchange site)");
-            correctionAdd("PPCG", "Code&nbsp;Golf (Stack Exchange site)"); // For the old name, 'Programming Puzzles & Code Golf'
+            correctionAdd("Programming Puzzles & Code Golf", "Code Golf (Stack Exchange site)");
+            correctionAdd("code golf and code challenges", "Code Golf (Stack Exchange site)");
+            correctionAdd("Code Golf & coding challenges", "Code Golf (Stack Exchange site)");
+            correctionAdd("code golf & code challenges", "Code Golf (Stack Exchange site)");
+            correctionAdd("codegolf.SE", "Code Golf (Stack Exchange site)");
+            correctionAdd("codegolf.se", "Code Golf (Stack Exchange site)");
+            correctionAdd("code golf", "Code Golf (Stack Exchange site)");
+            correctionAdd("Code Golf", "Code Golf (Stack Exchange site)");
+            correctionAdd("code-golf", "Code Golf (Stack Exchange site)");
+            correctionAdd("CodeGolf", "Code Golf (Stack Exchange site)");
+            correctionAdd("CG.SE", "Code Golf (Stack Exchange site)");
+            correctionAdd("CGSE", "Code Golf (Stack Exchange site)");
+            correctionAdd("CGCC", "Code Golf (Stack Exchange site)");
+            correctionAdd("PPCG", "Code Golf (Stack Exchange site)"); // For the old name, 'Programming Puzzles & Code Golf'
 
             correctionAdd("Pro Webmasters", "Webmasters (Stack Exchange site)");
             correctionAdd("Webmasters", "Webmasters (Stack Exchange site)");
@@ -101116,32 +101096,24 @@ namespace OverflowHelper.core
             correctionAdd("webapps.se", "Web Applications (Stack Exchange site)");
             correctionAdd("Web SE", "Web Applications (Stack Exchange site)");
 
-            correctionAdd("Signal&nbsp;Processing", "Signal&nbsp;Processing (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("signal processing", "Signal&nbsp;Processing (Stack Exchange site)");
-            correctionAdd("Signal Processing", "Signal&nbsp;Processing (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Signal Processing (Stack Exchange site)", "Signal&nbsp;Processing (Stack Exchange site)");
-            correctionAdd("DSP.SE", "Signal&nbsp;Processing (Stack Exchange site)");
+            correctionAdd("signal processing", "Signal Processing (Stack Exchange site)");
+            correctionAdd("Signal Processing", "Signal Processing (Stack Exchange site)"); // Sort of identity mapping
+            correctionAdd("DSP.SE", "Signal Processing (Stack Exchange site)");
 
-            correctionAdd("Android Enthusiasts (Stack Exchange site)", "Android&nbsp;Enthusiasts (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Android&nbsp;Enthusiasts", "Android&nbsp;Enthusiasts (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Android Enthusiasts", "Android&nbsp;Enthusiasts (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("Android Enthusiast", "Android&nbsp;Enthusiasts (Stack Exchange site)");
-            correctionAdd("Android enthusiasts", "Android&nbsp;Enthusiasts (Stack Exchange site)");
-            correctionAdd("android enthu", "Android&nbsp;Enthusiasts (Stack Exchange site)");
+            correctionAdd("Android Enthusiasts", "Android Enthusiasts (Stack Exchange site)");
+            correctionAdd("Android enthusiasts", "Android Enthusiasts (Stack Exchange site)");
+            correctionAdd("Android Enthusiast", "Android Enthusiasts (Stack Exchange site)");
+            correctionAdd("android enthu", "Android Enthusiasts (Stack Exchange site)");
 
-            correctionAdd("3D Printing (Stack Exchange site)", "3D&nbsp;Printing (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("3D&nbsp;Printing", "3D&nbsp;Printing (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("3dprinting.SE", "3D&nbsp;Printing (Stack Exchange site)");
-            correctionAdd("3D Printing", "3D&nbsp;Printing (Stack Exchange site)");
+            correctionAdd("3dprinting.SE", "3D Printing (Stack Exchange site)");
+            correctionAdd("3D Printing", "3D Printing (Stack Exchange site)");
 
             correctionAdd("Lifehacks", "Lifehacks (Stack Exchange site)");
             correctionAdd("lifehacks", "Lifehacks (Stack Exchange site)");
 
-            correctionAdd("Interpersonal&nbsp;Skills", "Interpersonal&nbsp;Skills (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("interpersonal skills", "Interpersonal&nbsp;Skills (Stack Exchange site)");
-            correctionAdd("Interpersonal Skills", "Interpersonal&nbsp;Skills (Stack Exchange site)");
-            correctionAdd("Interpersonal Skills (Stack Exchange site)", "Interpersonal&nbsp;Skills (Stack Exchange site)"); // Sort of identity mapping
-            correctionAdd("IPS", "Interpersonal&nbsp;Skills (Stack Exchange site)");
+            correctionAdd("interpersonal skills", "Interpersonal Skills (Stack Exchange site)");
+            correctionAdd("Interpersonal Skills", "Interpersonal Skills (Stack Exchange site)");
+            correctionAdd("IPS", "Interpersonal Skills (Stack Exchange site)");
 
             correctionAdd("Computer Science Educators", "Computer Science Educators (Stack Exchange site)");
 
@@ -102982,30 +102954,25 @@ namespace OverflowHelper.core
             correctionAdd("guaranteaing", "guaranteeing");
             correctionAdd("Guaranteeing", "guaranteeing");
 
-            correctionAdd("Cat 3", "Cat&nbsp;3");
-            correctionAdd("cat 3", "Cat&nbsp;3");
-            correctionAdd("cat3", "Cat&nbsp;3");
+            correctionAdd("cat 3", "Cat 3");
+            correctionAdd("cat3", "Cat 3");
 
-            correctionAdd("Cat 5", "Cat&nbsp;5"); // Sort of identity mapping
-            correctionAdd("cat 5", "Cat&nbsp;5");
-            correctionAdd("CAT 5", "Cat&nbsp;5");
-            correctionAdd("Cat5", "Cat&nbsp;5");
-            correctionAdd("cat5", "Cat&nbsp;5");
-            correctionAdd("CAT5", "Cat&nbsp;5");
+            correctionAdd("cat 5", "Cat 5");
+            correctionAdd("CAT 5", "Cat 5");
+            correctionAdd("Cat5", "Cat 5");
+            correctionAdd("cat5", "Cat 5");
+            correctionAdd("CAT5", "Cat 5");
 
-            correctionAdd("Cat 5e", "Cat&nbsp;5e"); // Sort of identity mapping
-            correctionAdd("Cat5e", "Cat&nbsp;5e");
-            correctionAdd("CAT5e", "Cat&nbsp;5e");
+            correctionAdd("Cat5e", "Cat 5e");
+            correctionAdd("CAT5e", "Cat 5e");
 
-            correctionAdd("Cat 6", "Cat&nbsp;6"); // Sort of identity mapping
-            correctionAdd("cat 6", "Cat&nbsp;6");
-            correctionAdd("CAT 6", "Cat&nbsp;6");
-            correctionAdd("Cat6", "Cat&nbsp;6");
-            correctionAdd("cat6", "Cat&nbsp;6");
-            correctionAdd("CAT6", "Cat&nbsp;6");
+            correctionAdd("cat 6", "Cat 6");
+            correctionAdd("CAT 6", "Cat 6");
+            correctionAdd("Cat6", "Cat 6");
+            correctionAdd("cat6", "Cat 6");
+            correctionAdd("CAT6", "Cat 6");
 
-            correctionAdd("Cat 7", "Cat&nbsp;7"); // Sort of identity mapping
-            correctionAdd("CAT7", "Cat&nbsp;7");
+            correctionAdd("CAT7", "Cat 7");
 
             correctionAdd("sockets.io", "Socket.IO");
             correctionAdd("Sockets.io", "Socket.IO");
@@ -116930,8 +116897,6 @@ namespace OverflowHelper.core
 
             URL_Add("Winsock", "https://en.wikipedia.org/wiki/Winsock");
 
-            URL_Add("correlation", "https://en.wiktionary.org/wiki/correlation#Noun");
-
             URL_Add("domain name", "https://en.wikipedia.org/wiki/Domain_name");
 
             URL_Add("high-performance computing", "https://en.wikipedia.org/wiki/Supercomputer#High-performance_computing_clouds");
@@ -121080,8 +121045,6 @@ namespace OverflowHelper.core
 
             URL_Add("landscape", "https://en.wiktionary.org/wiki/landscape#Noun");
 
-            URL_Add("autocorrelation", "https://en.wikipedia.org/wiki/Autocorrelation");
-
             URL_Add("Barnes & Noble", "https://en.wikipedia.org/wiki/Barnes_%26_Noble");
 
             URL_Add("considered", "https://en.wiktionary.org/wiki/consider#Verb");
@@ -121667,8 +121630,6 @@ namespace OverflowHelper.core
             URL_Add("PearPC", "https://en.wikipedia.org/wiki/PearPC");
 
             URL_Add("Google Mock", "https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#C++");
-
-            URL_Add("Pearson correlation coefficient", "https://en.wikipedia.org/wiki/Pearson_correlation_coefficient");
 
             URL_Add("system under test", "https://en.wikipedia.org/wiki/System_under_test");
 
@@ -122765,8 +122726,6 @@ namespace OverflowHelper.core
             URL_Add("shuffling", "https://en.wiktionary.org/wiki/shuffle#Verb");
 
             URL_Add("alternatives", "https://en.wiktionary.org/wiki/alternative#Noun");
-
-            URL_Add("correlated", "https://en.wiktionary.org/wiki/correlated#Adjective");
 
             URL_Add("I guess", "https://en.wiktionary.org/wiki/IG#Phrase");
 
@@ -126280,8 +126239,6 @@ namespace OverflowHelper.core
 
             URL_Add("BBC BASIC", "https://en.wikipedia.org/wiki/BBC_BASIC");
 
-            URL_Add("Cat&nbsp;7", "https://en.wikipedia.org/wiki/ISO/IEC_11801#Category_7");
-
             URL_Add("A4", "https://en.wikipedia.org/wiki/ISO_216#Dimensions_of_A,_B_and_C_series");
 
             URL_Add("A5", "https://en.wikipedia.org/wiki/ISO_216#Dimensions_of_A,_B_and_C_series");
@@ -127742,7 +127699,17 @@ namespace OverflowHelper.core
 
             URL_Add("Ansible playbook", "https://en.wikipedia.org/wiki/Ansible_(software)#Playbooks");
 
+            URL_Add("correlation", "https://en.wiktionary.org/wiki/correlation#Noun");
+
+            URL_Add("correlated", "https://en.wiktionary.org/wiki/correlated#Adjective");
+
+            URL_Add("decorrelation", "https://en.wiktionary.org/wiki/decorrelation#Noun");
+
+            URL_Add("autocorrelation", "https://en.wikipedia.org/wiki/Autocorrelation");
+
             URL_Add("time-correlated", "https://en.wikipedia.org/wiki/Ultrafast_laser_spectroscopy#Ultrafast_transient_absorption");
+
+            URL_Add("Pearson correlation coefficient", "https://en.wikipedia.org/wiki/Pearson_correlation_coefficient");
 
             URL_Add("Zwicky Transient Facility", "https://en.wikipedia.org/wiki/Zwicky_Transient_Facility");
 
@@ -144192,9 +144159,9 @@ namespace OverflowHelper.core
 
             URL_Add("Web Applications (Stack Exchange site)", "https://webapps.stackexchange.com/tour");
 
-            URL_Add("Arts&nbsp;&&nbsp;Crafts (Stack Exchange site)", "https://crafts.stackexchange.com/tour");
+            URL_Add("Arts & Crafts (Stack Exchange site)", "https://crafts.stackexchange.com/tour");
 
-            URL_Add("Ask&nbsp;Patents (Stack Exchange site)", "https://patents.stackexchange.com/tour");
+            URL_Add("Ask Patents (Stack Exchange site)", "https://patents.stackexchange.com/tour");
 
             URL_Add("Anime & Manga (Stack Exchange site)", "https://anime.stackexchange.com/tour");
 
@@ -144222,7 +144189,7 @@ namespace OverflowHelper.core
 
             URL_Add("MathOverflow (Stack Exchange site)", "https://mathoverflow.net/tour");
 
-            URL_Add("Code&nbsp;Golf (Stack Exchange site)", "https://codegolf.stackexchange.com/tour");
+            URL_Add("Code Golf (Stack Exchange site)", "https://codegolf.stackexchange.com/tour");
 
             URL_Add("English Language Learners (Stack Exchange site)", "https://ell.stackexchange.com/tour");
 
@@ -144250,17 +144217,17 @@ namespace OverflowHelper.core
 
             URL_Add("Monero (Stack Exchange site)", "https://monero.stackexchange.com/tour");
 
-            URL_Add("Graphic&nbsp;Design (Stack Exchange site)", "https://graphicdesign.stackexchange.com/tour");
+            URL_Add("Graphic Design (Stack Exchange site)", "https://graphicdesign.stackexchange.com/tour");
 
-            URL_Add("Mi&nbsp;Yodeya (Stack Exchange site)", "https://judaism.stackexchange.com/tour");
+            URL_Add("Mi Yodeya (Stack Exchange site)", "https://judaism.stackexchange.com/tour");
 
             URL_Add("Chinese Language (Stack Exchange site)", "https://chinese.stackexchange.com/tour");
 
-            URL_Add("Language&nbsp;Learning (Stack Exchange site)", "https://languagelearning.stackexchange.com/tour");
+            URL_Add("Language Learning (Stack Exchange site)", "https://languagelearning.stackexchange.com/tour");
 
             URL_Add("Craft CMS (Stack Exchange site)", "https://craftcms.stackexchange.com/tour");
 
-            URL_Add("Open&nbsp;Data (Stack Exchange site)", "https://opendata.stackexchange.com/tour");
+            URL_Add("Open Data (Stack Exchange site)", "https://opendata.stackexchange.com/tour");
 
             URL_Add("Tridion (Stack Exchange site)", "https://tridion.stackexchange.com/tour");
 
@@ -144280,25 +144247,25 @@ namespace OverflowHelper.core
 
             URL_Add("Game Development (Stack Exchange site)", "https://gamedev.stackexchange.com/tour");
 
-            URL_Add("Network&nbsp;Engineering (Stack Exchange site)", "https://networkengineering.stackexchange.com/tour");
+            URL_Add("Network Engineering (Stack Exchange site)", "https://networkengineering.stackexchange.com/tour");
 
-            URL_Add("Android&nbsp;Enthusiasts (Stack Exchange site)", "https://android.stackexchange.com/tour");
+            URL_Add("Android Enthusiasts (Stack Exchange site)", "https://android.stackexchange.com/tour");
 
-            URL_Add("Constructed&nbsp;Languages (Stack Exchange site)", "https://conlang.stackexchange.com/tour");
+            URL_Add("Constructed Languages (Stack Exchange site)", "https://conlang.stackexchange.com/tour");
 
             URL_Add("The Workplace (Stack Exchange site)", "https://workplace.stackexchange.com/tour");
 
             URL_Add("Lifehacks (Stack Exchange site)", "https://lifehacks.stackexchange.com/tour");
 
-            URL_Add("Amateur&nbsp;Radio (Stack Exchange site)", "https://ham.stackexchange.com/tour");
+            URL_Add("Amateur Radio (Stack Exchange site)", "https://ham.stackexchange.com/tour");
 
-            URL_Add("Signal&nbsp;Processing (Stack Exchange site)", "https://dsp.stackexchange.com/tour");
+            URL_Add("Signal Processing (Stack Exchange site)", "https://dsp.stackexchange.com/tour");
 
-            URL_Add("Interpersonal&nbsp;Skills (Stack Exchange site)", "https://interpersonal.stackexchange.com/tour");
+            URL_Add("Interpersonal Skills (Stack Exchange site)", "https://interpersonal.stackexchange.com/tour");
 
             URL_Add("Code Review (Stack Exchange site)", "https://codereview.stackexchange.com/tour");
 
-            URL_Add("3D&nbsp;Printing (Stack Exchange site)", "https://3dprinting.stackexchange.com/tour");
+            URL_Add("3D Printing (Stack Exchange site)", "https://3dprinting.stackexchange.com/tour");
 
             URL_Add("Super User (Stack Exchange site)", "https://superuser.com/tour"); // Old: https://en.wikipedia.org/wiki/Stack_Overflow#Super_User
 
@@ -144310,7 +144277,7 @@ namespace OverflowHelper.core
 
             URL_Add("Robotics (Stack Exchange site)", "https://robotics.stackexchange.com/tour");
 
-            URL_Add("Board&nbsp;&&nbsp;Card&nbsp;Games (Stack Exchange site)", "https://boardgames.stackexchange.com/tour");
+            URL_Add("Board & Card Games (Stack Exchange site)", "https://boardgames.stackexchange.com/tour");
 
             URL_Add("Community Building (Stack Exchange site)", "https://communitybuilding.stackexchange.com/tour");
 
@@ -144670,13 +144637,15 @@ namespace OverflowHelper.core
 
             URL_Add("XLR", "https://en.wikipedia.org/wiki/Phone_connector_(audio)");
 
-            URL_Add("Cat&nbsp;5", "https://en.wikipedia.org/wiki/Category_5_cable");
+            URL_Add("Cat 3", "https://en.wikipedia.org/wiki/Category_3_cable");
 
-            URL_Add("Cat&nbsp;6", "https://en.wikipedia.org/wiki/Category_6_cable");
+            URL_Add("Cat 5e", "https://en.wikipedia.org/wiki/Category_5_cable");
 
-            URL_Add("Cat&nbsp;3", "https://en.wikipedia.org/wiki/Category_3_cable");
+            URL_Add("Cat 5", "https://en.wikipedia.org/wiki/Category_5_cable");
 
-            URL_Add("Cat&nbsp;5e", "https://en.wikipedia.org/wiki/Category_5_cable");
+            URL_Add("Cat 6", "https://en.wikipedia.org/wiki/Category_6_cable");
+
+            URL_Add("Cat 7", "https://en.wikipedia.org/wiki/ISO/IEC_11801#Category_7");
 
             URL_Add("Micro-USB", "https://en.wikipedia.org/wiki/USB_hardware#Micro_connectors");
 
@@ -166054,42 +166023,34 @@ namespace OverflowHelper.core
             correctionAdd("xregexp_", "XRegExp (tag wiki)_");
             correctionAdd("XRegExp_", "XRegExp (tag wiki)_");
 
-            correctionAdd("[tag:regex]_", "regular expression (tag wiki)_");
             correctionAdd("regular expression_", "regular expression (tag wiki)_");
+            correctionAdd("[tag:regex]_", "regular expression (tag wiki)_");
             correctionAdd("regex_", "regular expression (tag wiki)_");
 
-            correctionAdd("[tag:python-2.x]_", "Python&nbsp;2.x (tag wiki)_");
-            correctionAdd("Python&nbsp;2.x_", "Python&nbsp;2.x (tag wiki)_");
-            correctionAdd("Python 2.x (tag wiki)_", "Python&nbsp;2.x (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("python-2.x_", "Python&nbsp;2.x (tag wiki)_");
-            correctionAdd("Python 2.x_", "Python&nbsp;2.x (tag wiki)_");
+            correctionAdd("[tag:python-2.x]_", "Python 2.x (tag wiki)_");
+            correctionAdd("tag:python-2.x_", "Python 2.x (tag wiki)_");
+            correctionAdd("Python 2.x_", "Python 2.x (tag wiki)_");
+            correctionAdd("python-2.x_", "Python 2.x (tag wiki)_");
 
-            correctionAdd("[tag:python-2.7]_", "Python&nbsp;2.7 (tag wiki)_");
-            correctionAdd("Python&nbsp;2.7_", "Python&nbsp;2.7 (tag wiki)_");
-            correctionAdd("tag:python-2.7_", "Python&nbsp;2.7 (tag wiki)_");
-            correctionAdd("python-2.7_", "Python&nbsp;2.7 (tag wiki)_");
-            correctionAdd("Python 2.7 (tag wiki)_", "Python&nbsp;2.7 (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("Python 2.7_", "Python&nbsp;2.7 (tag wiki)_");
+            correctionAdd("[tag:python-2.7]_", "Python 2.7 (tag wiki)_");
+            correctionAdd("tag:python-2.7_", "Python 2.7 (tag wiki)_");
+            correctionAdd("python-2.7_", "Python 2.7 (tag wiki)_");
+            correctionAdd("Python 2.7_", "Python 2.7 (tag wiki)_");
 
-            correctionAdd("[tag:python-3.x]_", "Python&nbsp;3.x (tag wiki)_");
-            correctionAdd("Python&nbsp;3.x_", "Python&nbsp;3.x (tag wiki)_");
-            correctionAdd("Python 3.x (tag wiki)_", "Python&nbsp;3.x (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("python-3.x_", "Python&nbsp;3.x (tag wiki)_");
-            correctionAdd("Python 3.x_", "Python&nbsp;3.x (tag wiki)_");
+            correctionAdd("[tag:python-3.x]_", "Python 3.x (tag wiki)_");
+            correctionAdd("tag:python-3.x_", "Python 3.x (tag wiki)_");
+            correctionAdd("python-3.x_", "Python 3.x (tag wiki)_");
+            correctionAdd("Python 3.x_", "Python 3.x (tag wiki)_");
 
-            correctionAdd("[tag:python-3.5]_", "Python&nbsp;3.5 (tag wiki)_");
-            correctionAdd("Python&nbsp;3.5_", "Python&nbsp;3.5 (tag wiki)_");
-            correctionAdd("tag:python-3.5_", "Python&nbsp;3.5 (tag wiki)_");
-            correctionAdd("python-3.5_", "Python&nbsp;3.5 (tag wiki)_");
-            correctionAdd("Python 3.5 (tag wiki)_", "Python&nbsp;3.5 (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("Python 3.5_", "Python&nbsp;3.5 (tag wiki)_");
+            correctionAdd("[tag:python-3.5]_", "Python 3.5 (tag wiki)_");
+            correctionAdd("tag:python-3.5_", "Python 3.5 (tag wiki)_");
+            correctionAdd("python-3.5_", "Python 3.5 (tag wiki)_");
+            correctionAdd("Python 3.5_", "Python 3.5 (tag wiki)_");
 
-            correctionAdd("Python 3.6 (tag wiki)_", "Python&nbsp;3.6 (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("Python&nbsp;3.6_", "Python&nbsp;3.6 (tag wiki)_");
-            correctionAdd("[tag:python-3.6]_", "Python&nbsp;3.6 (tag wiki)_");
-            correctionAdd("tag:python-3.6_", "Python&nbsp;3.6 (tag wiki)_");
-            correctionAdd("python-3.6_", "Python&nbsp;3.6 (tag wiki)_");
-            correctionAdd("Python 3.6_", "Python&nbsp;3.6 (tag wiki)_");
+            correctionAdd("[tag:python-3.6]_", "Python 3.6 (tag wiki)_");
+            correctionAdd("tag:python-3.6_", "Python 3.6 (tag wiki)_");
+            correctionAdd("python-3.6_", "Python 3.6 (tag wiki)_");
+            correctionAdd("Python 3.6_", "Python 3.6 (tag wiki)_");
 
             correctionAdd("[tag:css]_", "CSS (tag wiki)_");
             correctionAdd("[tag:CSS]_", "CSS (tag wiki)_");
@@ -166097,10 +166058,9 @@ namespace OverflowHelper.core
             correctionAdd("css_", "CSS (tag wiki)_");
             correctionAdd("CSS_", "CSS (tag wiki)_");
 
-            correctionAdd("[tag:css-3]_", "CSS&nbsp;3 (tag wiki)_");
-            correctionAdd("CSS 3 (tag wiki)_", "CSS&nbsp;3 (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("css-3_", "CSS&nbsp;3 (tag wiki)_");
-            correctionAdd("CSS&nbsp;3_", "CSS&nbsp;3 (tag wiki)_");
+            correctionAdd("[tag:css-3]_", "CSS 3 (tag wiki)_");
+            correctionAdd("css-3_", "CSS 3 (tag wiki)_");
+            correctionAdd("CSS 3_", "CSS 3 (tag wiki)_");
 
             correctionAdd("[tag:xhr]_", "XHR (tag wiki)_");
             correctionAdd("[tag:XHR]_", "XHR (tag wiki)_");
@@ -166150,12 +166110,10 @@ namespace OverflowHelper.core
             correctionAdd("zephyr_", "Zephyr (tag wiki)_");
             correctionAdd("Zephyr_", "Zephyr (tag wiki)_");
 
-            correctionAdd("SQL Server (tag wiki)_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
-            correctionAdd("[tag:sql-server]_", "SQL&nbsp;Server (tag wiki)_");
-            correctionAdd("SQL&nbsp;Server_", "SQL&nbsp;Server (tag wiki)_");
-            correctionAdd("tag:sql-server_", "SQL&nbsp;Server (tag wiki)_");
-            correctionAdd("sql-server_", "SQL&nbsp;Server (tag wiki)_");
-            correctionAdd("SQL Server_", "SQL&nbsp;Server (tag wiki)_"); // Sort of identity mapping
+            correctionAdd("[tag:sql-server]_", "SQL Server (tag wiki)_");
+            correctionAdd("tag:sql-server_", "SQL Server (tag wiki)_");
+            correctionAdd("sql-server_", "SQL Server (tag wiki)_");
+            correctionAdd("SQL Server_", "SQL Server (tag wiki)_"); // Sort of identity mapping
 
             correctionAdd("[tag:r]_", "R (tag wiki)_");
             correctionAdd("tag:r_", "R (tag wiki)_");
@@ -169014,21 +168972,21 @@ namespace OverflowHelper.core
 
             URL_Add("CSS (tag wiki)_", "https://stackoverflow.com/questions/tagged/css");
 
-            URL_Add("CSS&nbsp;3 (tag wiki)_", "https://stackoverflow.com/questions/tagged/css-3");
+            URL_Add("CSS 3 (tag wiki)_", "https://stackoverflow.com/questions/tagged/css-3");
 
             URL_Add("Python (tag wiki)_", "https://stackoverflow.com/questions/tagged/python");
 
-            URL_Add("Python&nbsp;2.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.x");
+            URL_Add("Python 2.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.x");
 
-            URL_Add("Python&nbsp;2.7 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.7");
+            URL_Add("Python 2.7 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-2.7");
 
-            URL_Add("Python&nbsp;3.5 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.5");
+            URL_Add("Python 3.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.x");
 
-            URL_Add("Python&nbsp;3.6 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.6");
+            URL_Add("Python 3.5 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.5");
 
-            URL_Add("Python&nbsp;3.x (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.x");
+            URL_Add("Python 3.6 (tag wiki)_", "https://stackoverflow.com/questions/tagged/python-3.6");
 
-            URL_Add("SQL&nbsp;Server (tag wiki)_", "https://stackoverflow.com/questions/tagged/sql-server");
+            URL_Add("SQL Server (tag wiki)_", "https://stackoverflow.com/questions/tagged/sql-server");
 
             URL_Add("HTML (tag wiki)_", "https://stackoverflow.com/questions/tagged/html");
 
