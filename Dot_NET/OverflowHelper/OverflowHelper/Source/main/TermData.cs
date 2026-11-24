@@ -12322,6 +12322,11 @@ namespace OverflowHelper.core
             correctionAdd("disproportiate", "disproportionate");
             correctionAdd("dispropertiate", "disproportionate");
 
+            correctionAdd("repurcussion", "repercussion");
+            correctionAdd("repercution", "repercussion");
+
+            correctionAdd("repurcussions", "repercussions");
+
             correctionAdd("purposone", "purpose");
             correctionAdd("porpouse", "purpose");
             correctionAdd("pourpose", "purpose");
@@ -12336,6 +12341,8 @@ namespace OverflowHelper.core
             correctionAdd("purposfully", "purposefully");
 
             correctionAdd("re-purpose", "repurpose");
+
+            correctionAdd("re-purposing", "repurposing");
 
             correctionAdd("Multi purpose", "multi-purpose");
             correctionAdd("multi purpose", "multi-purpose");
@@ -18360,7 +18367,7 @@ namespace OverflowHelper.core
             correctionAdd("indicatator", "indicator");
             correctionAdd("indicater", "indicator");
 
-            correctionAdd("indicatiors", "indicators");
+            correctionAdd("indicatiors", "indicators"); // A true typo
 
             correctionAdd("counter indication", "contraindication");
             correctionAdd("Counter indication", "contraindication");
@@ -24918,6 +24925,8 @@ namespace OverflowHelper.core
 
             correctionAdd("gaussian", "Gaussian");
 
+            correctionAdd("non-gaussian", "non-Gaussian");
+
             correctionAdd("gaussian blur", "Gaussian blur");
 
             correctionAdd("Gaussian Mixture Model", "Gaussian mixture model");
@@ -26846,6 +26855,8 @@ namespace OverflowHelper.core
             correctionAdd("Axion", "axion");
 
             correctionAdd("axises", "axes");
+
+            correctionAdd("3-axis", "triaxial");
 
             correctionAdd("`x` axis", "x-axis");
             correctionAdd("x axis", "x-axis");
@@ -31171,10 +31182,10 @@ namespace OverflowHelper.core
             correctionAdd("heir", "their");
             correctionAdd("tier", "their");
 
-            // A homonym/homophone (of "their"). See also entry "their___".
+            // A homonym/homophone (of "their"). See also entry "their_____".
             correctionAdd("on there own", "on their own");
 
-            // A homonym/homophone (of "their"). See also entry "their___".
+            // A homonym/homophone (of "their"). See also entry "their_____".
             correctionAdd("worth there salt", "worth their salt");
 
             correctionAdd("worthwile", "worthwhile");
@@ -39386,6 +39397,20 @@ namespace OverflowHelper.core
             correctionAdd("orthagonal", "orthogonal");
             correctionAdd("othogonal", "orthogonal");
 
+            correctionAdd("ressource", "resource");
+            correctionAdd("Ressource", "resource");
+            correctionAdd("resourse", "resource");
+            correctionAdd("recource", "resource");
+            correctionAdd("Resource", "resource");
+            correctionAdd("recourse", "resource");
+            correctionAdd("resurce", "resource");
+            correctionAdd("resurse", "resource");
+            correctionAdd("resouce", "resource");
+
+            correctionAdd("ressources", "resources");
+
+            correctionAdd("resoureful", "resourceful");
+
             correctionAdd("indentitation", "indentation");
             correctionAdd("indendation", "indentation");
             correctionAdd("Indentation", "indentation");
@@ -40821,8 +40846,8 @@ namespace OverflowHelper.core
 
             // Windows. NTFS.
             correctionAdd("resource fork on Windows", "alternate data stream");
-            correctionAdd("Alternate Data Stream", "alternate data stream");
             correctionAdd("Alternate Data Streams", "alternate data stream");
+            correctionAdd("Alternate Data Stream", "alternate data stream");
             correctionAdd("ADS", "alternate data stream");
 
             correctionAdd("Windows Store", "Microsoft Store");
@@ -41106,18 +41131,6 @@ namespace OverflowHelper.core
             correctionAdd("cz", "because");
             correctionAdd("Bc", "because");
             correctionAdd("bc", "because"); // Does it conflict?
-
-            correctionAdd("ressource", "resource");
-            correctionAdd("Ressource", "resource");
-            correctionAdd("resourse", "resource");
-            correctionAdd("recource", "resource");
-            correctionAdd("Resource", "resource");
-            correctionAdd("recourse", "resource");
-            correctionAdd("resurce", "resource");
-            correctionAdd("resurse", "resource");
-            correctionAdd("resouce", "resource");
-
-            correctionAdd("ressources", "resources");
 
             correctionAdd("Clause", "clause");
 
@@ -41462,6 +41475,8 @@ namespace OverflowHelper.core
 
             correctionAdd("rice's theorem", "Rice's theorem");
 
+            correctionAdd("Eckart-Young theorem", "Eckart–Young–Mirsky theorem");
+
             correctionAdd("Bayes–Price theorem", "Bayes' theorem");
             correctionAdd("Bayes' Theorem", "Bayes' theorem");
             correctionAdd("bayes theorem", "Bayes' theorem");
@@ -41498,11 +41513,12 @@ namespace OverflowHelper.core
 
             correctionAdd("Ehrenfest Theorem", "Ehrenfest theorem");
 
-            correctionAdd("Master theorem", "master theorem");
-
             correctionAdd("Lusin", "Lusin's theorem");
 
             correctionAdd("bloch's theorem", "Bloch's theorem");
+
+            // Computer science. Analysis of algorithms
+            correctionAdd("Master theorem", "master theorem");
 
             correctionAdd("Kronig-Penney Model", "Kronig–Penney model");
             correctionAdd("Kronig-Penney model", "Kronig–Penney model");
@@ -45385,6 +45401,13 @@ namespace OverflowHelper.core
             // Machine learning. A hyperparameter
             correctionAdd("Padding", "padding");
 
+            // Machine learning
+            //
+            // Does ***not*** relate to the Linux kernel...
+            //
+            correctionAdd("RBF kernel", "radial basis function kernel");
+            correctionAdd("RBF", "radial basis function kernel");
+
             correctionAdd("clusturing", "clustering");
 
             correctionAdd("non-clustered", "nonclustered");
@@ -45429,6 +45452,7 @@ namespace OverflowHelper.core
             //   <https://en.wiktionary.org/wiki/overfit#Verb>
             //
             correctionAdd("over-fitting", "overfitting");
+            correctionAdd("over fitting", "overfitting");
             correctionAdd("Overfitting", "overfitting");
 
             correctionAdd("over-fitted", "overfitted");
@@ -49989,6 +50013,7 @@ namespace OverflowHelper.core
             correctionAdd("Sklearn", "scikit-learn");
             correctionAdd("sklearn", "scikit-learn");
             correctionAdd("scikit", "scikit-learn");
+            correctionAdd("Scikit", "scikit-learn");
 
             correctionAdd("Scikit-image", "scikit-image");
             correctionAdd("skimage", "scikit-image");
@@ -50567,7 +50592,7 @@ namespace OverflowHelper.core
             // A programming language
             correctionAdd("Matalab", "MATLAB"); // Misspelling.
             correctionAdd("matalab", "MATLAB");
-            correctionAdd("Mathlab", "MATLAB");
+            correctionAdd("Mathlab", "MATLAB"); // There is a 'MATHLAB' from the 1960s, but it is probably not what is meant
             correctionAdd("matlab", "MATLAB");
             correctionAdd("Matlab", "MATLAB");
             correctionAdd("MatLab", "MATLAB");
@@ -57962,6 +57987,7 @@ namespace OverflowHelper.core
 
             correctionAdd("Image Processing", "image processing");
             correctionAdd("image-processing", "image processing");
+            correctionAdd("Image processing", "image processing");
 
             // Related to image processing
             //
@@ -58005,6 +58031,13 @@ namespace OverflowHelper.core
             correctionAdd("SURF", "speeded up robust features");
 
             // Computer vision / image processing
+            correctionAdd("Scale Invariant Feature Transforms", "scale-invariant feature transform");
+            correctionAdd("Scale-Invariant Feature Transforms", "scale-invariant feature transform");
+            correctionAdd("scale invariant feature transforms", "scale-invariant feature transform");
+            correctionAdd("scale-invariant feature transforms", "scale-invariant feature transform");
+            correctionAdd("Scale Invariant Feature Transform", "scale-invariant feature transform");
+            correctionAdd("Scale-Invariant Feature Transform", "scale-invariant feature transform");
+            correctionAdd("scale invariant feature transform", "scale-invariant feature transform");
             correctionAdd("SIFT", "scale-invariant feature transform");
 
             correctionAdd("imagion", "imagine");
@@ -60150,9 +60183,6 @@ namespace OverflowHelper.core
             correctionAdd("Shog", "Shog9");
 
             // Stack Overflow
-            correctionAdd("entirely copied", "When should answers consisting entirely of cited, copied content be flagged?");
-
-            // Stack Overflow
             correctionAdd("SE Discord server", "Stack Overflow Discord server");
             correctionAdd("SE Discord", "Stack Overflow Discord server");
 
@@ -60219,8 +60249,8 @@ namespace OverflowHelper.core
             correctionAdd("rep. points", "reputation points");
             correctionAdd("repu points", "reputation points");
             correctionAdd("reputation", "reputation points");
-            correctionAdd("repuration", "reputation points");
             correctionAdd("Reputation", "reputation points");
+            correctionAdd("repuration", "reputation points");
             correctionAdd("rep point", "reputation points");
             correctionAdd("reputaion", "reputation points");
             correctionAdd("reputtion", "reputation points");
@@ -75635,11 +75665,6 @@ namespace OverflowHelper.core
 
             correctionAdd("esdiscuss", "ES Discuss"); // JavaScript
 
-            correctionAdd("repurcussion", "repercussion");
-            correctionAdd("repercution", "repercussion");
-
-            correctionAdd("repurcussions", "repercussions");
-
             correctionAdd("off the cuff", "off-the-cuff");
             correctionAdd("Off the cuff", "off-the-cuff");
 
@@ -76149,6 +76174,7 @@ namespace OverflowHelper.core
             correctionAdd("Comma Operator", "comma operator");
 
             correctionAdd("least absolute shrinkage and selection operator", "lasso");
+            correctionAdd("L1 regularization", "lasso");
             correctionAdd("LASSO", "lasso");
             correctionAdd("Lasso", "lasso");
 
@@ -76216,6 +76242,8 @@ namespace OverflowHelper.core
 
             correctionAdd("statuon", "station");
             correctionAdd("Statuon", "station");
+
+            correctionAdd("stationnary", "stationary");
 
             correctionAdd("trialing", "trialling");
 
@@ -114823,10 +114851,6 @@ namespace OverflowHelper.core
 
             URL_Add("watchOS", "https://en.wikipedia.org/wiki/WatchOS");
 
-            URL_Add("information theory", "https://en.wikipedia.org/wiki/Information_theory#Historical_background");
-
-            URL_Add("Nyquist frequency", "https://en.wikipedia.org/wiki/Nyquist_frequency");
-
             URL_Add("high-pass filter", "https://en.wikipedia.org/wiki/High-pass_filter");
 
             URL_Add("Daniil Dubov", "https://en.wikipedia.org/wiki/Daniil_Dubov");
@@ -115194,10 +115218,6 @@ namespace OverflowHelper.core
             URL_Add("Chi-squared test", "https://en.wikipedia.org/wiki/Chi-squared_test");
 
             URL_Add("autosuggest", "https://en.wiktionary.org/wiki/autosuggest#Verb");
-
-            URL_Add("central limit theorem", "https://en.wikipedia.org/wiki/Central_limit_theorem");
-
-            URL_Add("standard deviation", "https://en.wikipedia.org/wiki/Standard_deviation");
 
             URL_Add("bareword", "https://en.wiktionary.org/wiki/bareword#Noun");
 
@@ -115798,6 +115818,8 @@ namespace OverflowHelper.core
             URL_Add("g-force", "https://en.wikipedia.org/wiki/G-force");
 
             URL_Add("station", "https://en.wiktionary.org/wiki/station#Noun");
+
+            URL_Add("stationary", "https://en.wiktionary.org/wiki/stationary#Adjective");
 
             URL_Add("flame war", "https://en.wiktionary.org/wiki/flame_war#Noun");
 
@@ -117001,8 +117023,6 @@ namespace OverflowHelper.core
 
             URL_Add("Protestant", "https://en.wiktionary.org/wiki/Protestant#Adjective");
 
-            URL_Add("Thévenin's theorem", "https://en.wikipedia.org/wiki/Th%C3%A9venin%27s_theorem");
-
             URL_Add("inconvenience", "https://en.wiktionary.org/wiki/inconvenience#Noun");
 
             URL_Add("Alcubierre drive", "https://en.wikipedia.org/wiki/Alcubierre_drive");
@@ -117153,8 +117173,6 @@ namespace OverflowHelper.core
 
             URL_Add("foreign", "https://en.wiktionary.org/wiki/foreign#Adjective");
 
-            URL_Add("Noether's theorem", "https://en.wikipedia.org/wiki/Noether's_theorem");
-
             URL_Add("autism spectrum disorder", "https://en.wikipedia.org/wiki/Autism");
 
             URL_Add("saving", "https://en.wiktionary.org/wiki/save#Verb");
@@ -117293,8 +117311,6 @@ namespace OverflowHelper.core
 
             URL_Add("self-discipline", "https://en.wiktionary.org/wiki/self-discipline#Noun");
 
-            URL_Add("Bayes' theorem", "https://en.wikipedia.org/wiki/Bayes'_theorem");
-
             URL_Add("Chromebook", "https://en.wikipedia.org/wiki/Chromebook");
 
             URL_Add("Citrix", "https://en.wikipedia.org/wiki/Citrix_Systems#Products");
@@ -117349,8 +117365,6 @@ namespace OverflowHelper.core
 
             URL_Add("Google Apps Script", "https://en.wikipedia.org/wiki/Google_Apps_Script");
 
-            URL_Add("Poynting's theorem", "https://en.wikipedia.org/wiki/Poynting's_theorem");
-
             URL_Add("SystemC", "https://en.wikipedia.org/wiki/SystemC");
 
             URL_Add("Virtual Studio Technology", "https://en.wikipedia.org/wiki/Virtual_Studio_Technology");
@@ -117358,8 +117372,6 @@ namespace OverflowHelper.core
             URL_Add("conservative", "https://en.wiktionary.org/wiki/conservative#Adjective");
 
             URL_Add("outputs", "https://en.wiktionary.org/wiki/output#Verb");
-
-            URL_Add("Barban–Davenport–Halberstam theorem", "https://en.wikipedia.org/wiki/Barban%E2%80%93Davenport%E2%80%93Halberstam_theorem");
 
             URL_Add("Dexie.js", "https://dexie.org/");
 
@@ -118219,8 +118231,6 @@ namespace OverflowHelper.core
 
             URL_Add("teleportation", "https://en.wikipedia.org/wiki/Teleportation");
 
-            URL_Add("Bell test", "https://en.wikipedia.org/wiki/Bell_test");
-
             URL_Add("Quantum ESPRESSO", "https://en.wikipedia.org/wiki/Quantum_ESPRESSO");
 
             URL_Add("Stim", "https://github.com/quantumlib/stim");
@@ -118342,8 +118352,6 @@ namespace OverflowHelper.core
             URL_Add("neopronoun", "https://en.wiktionary.org/wiki/neopronoun#Noun");
 
             URL_Add("Bob Pease", "https://en.wikipedia.org/wiki/Bob_Pease");
-
-            URL_Add("Ehrenfest theorem", "https://en.wikipedia.org/wiki/Ehrenfest_theorem");
 
             URL_Add("Laradock", "https://laradock.io/");
 
@@ -118510,8 +118518,6 @@ namespace OverflowHelper.core
             URL_Add("innumerous", "https://en.wiktionary.org/wiki/innumerous#Adjective");
 
             URL_Add("smarter", "https://en.wiktionary.org/wiki/smarter#Adjective");
-
-            URL_Add("Lusin's theorem", "https://en.wikipedia.org/wiki/Lusin%27s_theorem");
 
             URL_Add("anti-Semitism", "https://en.wiktionary.org/wiki/anti-Semitism#Noun");
 
@@ -118902,8 +118908,6 @@ namespace OverflowHelper.core
             URL_Add("schizophrenic", "https://en.wiktionary.org/wiki/schizophrenic#Adjective");
 
             URL_Add("It Just Works", "https://docs.microsoft.com/en-us/cpp/dotnet/calling-native-functions-from-managed-code");
-
-            URL_Add("Pythagorean theorem", "https://en.wikipedia.org/wiki/Pythagorean_theorem");
 
             URL_Add("corrupted", "https://en.wiktionary.org/wiki/corrupted#Adjective");
 
@@ -122697,8 +122701,6 @@ namespace OverflowHelper.core
 
             URL_Add("outperform", "https://en.wiktionary.org/wiki/outperform#Verb");
 
-            URL_Add("Rice's theorem", "https://en.wikipedia.org/wiki/Rice%27s_theorem");
-
             URL_Add("well versed", "https://en.wiktionary.org/wiki/well_versed#Adjective");
 
             URL_Add("coil", "https://en.wiktionary.org/wiki/coil#Noun");
@@ -122864,8 +122866,6 @@ namespace OverflowHelper.core
             URL_Add("tendency", "https://en.wiktionary.org/wiki/tendency#Noun");
 
             URL_Add("initiated", "https://en.wiktionary.org/wiki/initiate#Verb");
-
-            URL_Add("Bloch's theorem", "https://en.wikipedia.org/wiki/Bloch%27s_theorem");
 
             URL_Add("moment of inertia", "https://en.wiktionary.org/wiki/moment_of_inertia#Noun");
 
@@ -128463,8 +128463,6 @@ namespace OverflowHelper.core
 
             URL_Add("key opinion leaders", "https://en.wikipedia.org/wiki/Opinion_leadership#External_links");
 
-            URL_Add("Radon–Nikodym theorem", "https://en.wikipedia.org/wiki/Radon%E2%80%93Nikodym_theorem");
-
             URL_Add("Selenium", "https://en.wikipedia.org/wiki/Selenium_%28software%29");
 
             URL_Add("Selenium WebDriver", "https://en.wikipedia.org/wiki/Selenium_(software)#Selenium_WebDriver");
@@ -133643,8 +133641,6 @@ namespace OverflowHelper.core
 
             URL_Add("Facebook-Stack Overflow partnership", "https://meta.stackexchange.com/questions/121547/is-it-time-to-re-evaluate-the-facebook-stack-overflow-partnership");
 
-            URL_Add("When should answers consisting entirely of cited, copied content be flagged?", "https://meta.stackoverflow.com/questions/404102");
-
             URL_Add("Why is \"Can someone help me?\" not an actual question?", "https://meta.stackoverflow.com/questions/284236/why-is-can-someone-help-me-not-an-actual-question");
 
             URL_Add("opinion-based", "https://meta.stackexchange.com/questions/184154");
@@ -134624,26 +134620,6 @@ namespace OverflowHelper.core
             URL_Add("walrus operator", "https://en.wikipedia.org/wiki/Python_(programming_language)#Expressions");
 
             URL_Add("f-string", "https://en.wikipedia.org/wiki/Python_(programming_language)#Expressions");
-
-            URL_Add("noisy", "https://en.wiktionary.org/wiki/noisy#Adjective");
-
-            URL_Add("noisier", "https://en.wiktionary.org/wiki/noisy#Adjective");
-
-            URL_Add("noisiest", "https://en.wiktionary.org/wiki/noisiest#Adjective");
-
-            URL_Add("Johnson–Nyquist noise", "https://en.wikipedia.org/wiki/Johnson%E2%80%93Nyquist_noise");
-
-            URL_Add("Perlin noise", "https://en.wikipedia.org/wiki/Perlin_noise");
-
-            URL_Add("Gaussian noise", "https://en.wikipedia.org/wiki/Gaussian_noise");
-
-            URL_Add("Gauss's law", "https://en.wikipedia.org/wiki/Gauss's_law");
-
-            URL_Add("Gaussian mixture model", "https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model");
-
-            URL_Add("Gaussian", "https://en.wiktionary.org/wiki/Gaussian#Adjective");
-
-            URL_Add("Gaussian blur", "https://en.wikipedia.org/wiki/Gaussian_blur");
 
             URL_Add("intersecting", "https://en.wiktionary.org/wiki/intersect#Verb");
 
@@ -135697,8 +135673,6 @@ namespace OverflowHelper.core
             URL_Add("cross-compiled", "https://en.wikipedia.org/wiki/Cross_compiler#Use");
 
             URL_Add("I am not a lawyer", "https://en.wiktionary.org/wiki/IANAL#Phrase");
-
-            URL_Add("master theorem", "https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms)");
 
             URL_Add("ANOVA", "https://en.wikipedia.org/wiki/Analysis_of_variance");
 
@@ -139090,10 +139064,6 @@ namespace OverflowHelper.core
             URL_Add("Sagittarius A*", "https://en.wikipedia.org/wiki/Sagittarius_A*");
 
             URL_Add("Rohde & Schwarz", "https://en.wikipedia.org/wiki/Rohde_%26_Schwarz");
-
-            URL_Add("Cauchy–Schwarz inequality", "https://en.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality");
-
-            URL_Add("Bell (CHSH) inequality", "https://en.wikipedia.org/wiki/CHSH_inequality");
 
             URL_Add("wheel", "https://en.wikipedia.org/wiki/Wheel_(disambiguation)#Science_and_technology");
 
@@ -144411,8 +144381,6 @@ namespace OverflowHelper.core
 
             URL_Add("microkernel", "https://en.wikipedia.org/wiki/Microkernel");
 
-            URL_Add("kernel size", "https://en.wikipedia.org/wiki/Convolutional_neural_network#Kernel_size");
-
             URL_Add("kernel extension", "https://en.wikipedia.org/wiki/Loadable_kernel_module");
 
             URL_Add("CUDA kernels", "https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#kernels");
@@ -145714,12 +145682,6 @@ namespace OverflowHelper.core
             URL_Add("cold gas thruster", "https://en.wikipedia.org/wiki/Cold_gas_thruster");
 
             URL_Add("Cold War", "https://en.wikipedia.org/wiki/Cold_War");
-
-            URL_Add("padding", "https://en.wikipedia.org/wiki/Convolutional_neural_network#Padding");
-
-            URL_Add("stride", "https://en.wikipedia.org/wiki/Convolutional_neural_network#Stride");
-
-            URL_Add("Rectified Linear Unit", "https://en.wikipedia.org/wiki/Rectifier_(neural_networks)");
 
             URL_Add("inner", "https://en.wiktionary.org/wiki/inner#Adjective");
 
@@ -148119,6 +148081,8 @@ namespace OverflowHelper.core
 
             URL_Add("resources", "https://en.wiktionary.org/wiki/resource#Noun");
 
+            URL_Add("resourceful", "https://en.wiktionary.org/wiki/resourceful#Adjective");
+
             URL_Add("Resource Monitor", "https://en.wikipedia.org/wiki/Resource_Monitor");
 
             URL_Add("recursion", "https://en.wiktionary.org/wiki/recursion#Noun");
@@ -148434,6 +148398,8 @@ namespace OverflowHelper.core
             URL_Add("receding", "https://en.wiktionary.org/wiki/recede#Verb");
 
             URL_Add("repurpose", "https://en.wiktionary.org/wiki/repurpose#Verb");
+
+            URL_Add("repurposing", "https://en.wiktionary.org/wiki/repurpose#Verb");
 
             URL_Add("repush", "https://en.wiktionary.org/wiki/repush#Verb");
 
@@ -149869,8 +149835,6 @@ namespace OverflowHelper.core
 
             URL_Add("supermassive black hole", "https://en.wikipedia.org/wiki/Supermassive_black_hole");
 
-            URL_Add("area theorem", "https://en.wikipedia.org/wiki/Black_hole_thermodynamics#The_second_law_2");
-
             URL_Add("YAPF", "https://github.com/google/yapf");
 
             URL_Add("business intelligence", "https://en.wikipedia.org/wiki/Business_intelligence");
@@ -151185,9 +151149,9 @@ namespace OverflowHelper.core
 
             URL_Add("drag parachute", "https://en.wiktionary.org/wiki/drag_parachute#Noun");
 
-            URL_Add("Poincaré recurrence theorem", "https://en.wikipedia.org/wiki/Poincar%C3%A9_recurrence_theorem");
-
             URL_Add("axes", "https://en.wiktionary.org/wiki/axis#Noun");
+
+            URL_Add("triaxial", "https://en.wiktionary.org/wiki/triaxial#Adjective");
 
             URL_Add("x-axis", "https://en.wiktionary.org/wiki/x-axis#Noun");
 
@@ -152051,6 +152015,82 @@ namespace OverflowHelper.core
 
             URL_Add("immersion", "https://en.wiktionary.org/wiki/immersion#Noun");
 
+            URL_Add("radial basis function kernel", "https://en.wikipedia.org/wiki/Radial_basis_function_kernel");
+
+            URL_Add("kernel size", "https://en.wikipedia.org/wiki/Convolutional_neural_network#Kernel_size");
+
+            URL_Add("padding", "https://en.wikipedia.org/wiki/Convolutional_neural_network#Padding");
+
+            URL_Add("stride", "https://en.wikipedia.org/wiki/Convolutional_neural_network#Stride");
+
+            URL_Add("Rectified Linear Unit", "https://en.wikipedia.org/wiki/Rectifier_(neural_networks)");
+
+            URL_Add("noisy", "https://en.wiktionary.org/wiki/noisy#Adjective");
+
+            URL_Add("noisier", "https://en.wiktionary.org/wiki/noisy#Adjective");
+
+            URL_Add("noisiest", "https://en.wiktionary.org/wiki/noisiest#Adjective");
+
+            URL_Add("Johnson–Nyquist noise", "https://en.wikipedia.org/wiki/Johnson%E2%80%93Nyquist_noise");
+
+            URL_Add("Perlin noise", "https://en.wikipedia.org/wiki/Perlin_noise");
+
+            URL_Add("Gaussian noise", "https://en.wikipedia.org/wiki/Gaussian_noise");
+
+            URL_Add("Gaussian mixture model", "https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model");
+
+            URL_Add("Gaussian", "https://en.wiktionary.org/wiki/Gaussian#Adjective");
+
+            URL_Add("non-Gaussian", "https://en.wiktionary.org/wiki/non-Gaussian#Adjective");
+
+            URL_Add("Gaussian blur", "https://en.wikipedia.org/wiki/Gaussian_blur");
+
+            URL_Add("standard deviation", "https://en.wikipedia.org/wiki/Standard_deviation");
+
+            URL_Add("Gauss's law", "https://en.wikipedia.org/wiki/Gauss's_law");
+
+            URL_Add("area theorem", "https://en.wikipedia.org/wiki/Black_hole_thermodynamics#The_second_law_2");
+
+            URL_Add("central limit theorem", "https://en.wikipedia.org/wiki/Central_limit_theorem");
+
+            URL_Add("Barban–Davenport–Halberstam theorem", "https://en.wikipedia.org/wiki/Barban%E2%80%93Davenport%E2%80%93Halberstam_theorem");
+
+            URL_Add("Bayes' theorem", "https://en.wikipedia.org/wiki/Bayes'_theorem");
+
+            URL_Add("Bell test", "https://en.wikipedia.org/wiki/Bell_test");
+
+            URL_Add("Bell (CHSH) inequality", "https://en.wikipedia.org/wiki/CHSH_inequality");
+
+            URL_Add("Bloch's theorem", "https://en.wikipedia.org/wiki/Bloch%27s_theorem");
+
+            URL_Add("Cauchy–Schwarz inequality", "https://en.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality");
+
+            URL_Add("Eckart–Young–Mirsky theorem", "https://en.wikipedia.org/wiki/Low-rank_approximation#Proof_of_Eckart%E2%80%93Young%E2%80%93Mirsky_theorem_(for_Frobenius_norm)");
+
+            URL_Add("Ehrenfest theorem", "https://en.wikipedia.org/wiki/Ehrenfest_theorem");
+
+            URL_Add("Lusin's theorem", "https://en.wikipedia.org/wiki/Lusin%27s_theorem");
+
+            URL_Add("Noether's theorem", "https://en.wikipedia.org/wiki/Noether's_theorem");
+
+            URL_Add("information theory", "https://en.wikipedia.org/wiki/Information_theory#Historical_background");
+
+            URL_Add("Nyquist frequency", "https://en.wikipedia.org/wiki/Nyquist_frequency");
+
+            URL_Add("Poincaré recurrence theorem", "https://en.wikipedia.org/wiki/Poincar%C3%A9_recurrence_theorem");
+
+            URL_Add("Poynting's theorem", "https://en.wikipedia.org/wiki/Poynting's_theorem");
+
+            URL_Add("Pythagorean theorem", "https://en.wikipedia.org/wiki/Pythagorean_theorem");
+
+            URL_Add("Radon–Nikodym theorem", "https://en.wikipedia.org/wiki/Radon%E2%80%93Nikodym_theorem");
+
+            URL_Add("Rice's theorem", "https://en.wikipedia.org/wiki/Rice%27s_theorem");
+
+            URL_Add("Thévenin's theorem", "https://en.wikipedia.org/wiki/Th%C3%A9venin%27s_theorem");
+
+            URL_Add("master theorem", "https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms)");
+
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
             //
@@ -152881,6 +152921,13 @@ namespace OverflowHelper.core
             correctionAdd("vect_", "vector_");
 
             // Machine learning
+            //
+            // A kernel machine
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Kernel_method>
+            //
             correctionAdd("SVM_", "support vector machine_");
 
             // Machine learning
@@ -156730,6 +156777,7 @@ namespace OverflowHelper.core
             correctionAdd("lbs_", "libraries_");
 
             correctionAdd("libsvm_", "LIBSVM_");
+            correctionAdd("LibSVM_", "LIBSVM_");
 
             // The adjective
             correctionAdd("compile time_", "compile-time_");
@@ -180981,11 +181029,6 @@ namespace OverflowHelper.core
             correctionAdd("Than___", "then___"); // Not strictly necessary (as there is the cross-reference), but it is for a direct lookup.
 
             // Mostly for the alternative URL
-            // (homonyms: 'there', 'their', and 'they're')
-            correctionAdd("they're___", "their___");
-            correctionAdd("they’re___", "their___");
-
-            // Mostly for the alternative URL
             // (homonyms: 'where', 'were', and 'we're')
             correctionAdd("we’re___", "where___");
             correctionAdd("we're___", "where___");
@@ -182763,6 +182806,18 @@ namespace OverflowHelper.core
             correctionAdd("K2___", "vitamin K2___");
             correctionAdd("k2___", "vitamin K2___");
 
+            // Machine learning
+            //
+            // Does ***not*** relate to the Linux kernel...
+            //
+            correctionAdd("kernel___", "kernel method___");
+
+            // Machine learning
+            //
+            // Does ***not*** relate to the Linux kernel...
+            //
+            correctionAdd("kernels___", "kernel methods___");
+
             // Of the "B" programming language (also by Dennis Ritchie)
             //
             // Alternative URLs:
@@ -183255,8 +183310,6 @@ namespace OverflowHelper.core
 
             URL_Add("where___", "https://www.wikihow.com/Use-Where,-Were-and-We're");
 
-            URL_Add("their___", "https://www.wikihow.com/Use-There,-Their-and-They%27re");
-
             URL_Add("then___", "https://www.wikihow.com/Use-Than-and-Then");
 
             URL_Add("I___", "https://en.wikipedia.org/wiki/Capitalization#Pronouns");
@@ -183388,6 +183441,10 @@ namespace OverflowHelper.core
             URL_Add(".NET Core___", "https://en.wikipedia.org/wiki/.NET#History"); // Even older: https://en.wikipedia.org/wiki/.NET_Framework#.NET_Core. Old: <https://en.wikipedia.org/wiki/.NET_Core>
 
             URL_Add("effect___", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
+
+            URL_Add("kernel method___", "https://en.wikipedia.org/wiki/Kernel_method");
+
+            URL_Add("kernel methods___", "https://en.wikipedia.org/wiki/Kernel_method");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -184128,6 +184185,11 @@ namespace OverflowHelper.core
             correctionAdd("=>____", "&rarr;____");
             correctionAdd("->____", "&rarr;____");
             correctionAdd(">____", "&rarr;____");
+
+            // Stack Overflow
+            correctionAdd("entirely copied____", "When should answers consisting entirely of cited, copied content be flagged?____");
+            correctionAdd("link-only____", "When should answers consisting entirely of cited, copied content be flagged?____");
+            correctionAdd("link____", "When should answers consisting entirely of cited, copied content be flagged?____");
 
             // The food thing... (not keyboard macros...)
             correctionAdd("macronutrients____", "macronutrient____");
@@ -185979,6 +186041,8 @@ namespace OverflowHelper.core
 
             URL_Add("&rarr;____", "https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#List_of_character_entity_references_in_HTML");
 
+            URL_Add("When should answers consisting entirely of cited, copied content be flagged?____", "https://meta.stackoverflow.com/questions/404102");
+
         } //addLookupData_alternativeWordSet4()
 
 
@@ -186492,6 +186556,12 @@ namespace OverflowHelper.core
             correctionAdd("us_____", "is_____"); // A true typo
             correctionAdd("if_____", "is_____"); // Probably a true typo (though it is not an adjacent key)
             correctionAdd("=_____", "is_____");
+
+            // Mostly for the alternative URL
+            // (homonyms: 'there', 'their', and 'they're')
+            correctionAdd("they're_____", "their_____");
+            correctionAdd("they’re_____", "their_____");
+            correctionAdd("there_____", "their_____");
 
             // Start of word mappings autogenerated by
             // script 'Edit_Overflow_number_table_generator.pl'
@@ -187333,6 +187403,8 @@ namespace OverflowHelper.core
             URL_Add("high-speed mode_____", "https://en.wikipedia.org/wiki/I2C#Design");
 
             URL_Add("White_____", "https://en.wikipedia.org/wiki/White_and_Black_in_chess");
+
+            URL_Add("their_____", "https://www.wikihow.com/Use-There,-Their-and-They%27re");
 
             URL_Add("&nbsp;K_____", "https://en.wikipedia.org/wiki/Kelvin");
 
