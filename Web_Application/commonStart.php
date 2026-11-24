@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.52a368 2026-11-24T153752Z+0";
+        return "Edit Overflow v. 1.1.52a370 2026-11-24T230219Z+0";
     }
 
 
@@ -525,7 +525,35 @@
     } #the_formValue()
 
 
-    #Why is it here when similar functions are in Text.php?
+    # The primary function is converting space to
+    # non-breaking space, e.g., in the output
+    # for links.
+    #
+    # But it also:
+    #
+    #   1. Strips trailing space (e.g.,
+    #      in the raw lookup result)
+    #
+    #   2. Remove trailing underscore(s), if any.
+    #      For example, from an Edit Overflow
+    #      lookup result in an alternative
+    #      word set
+    #
+    function transformFor_non_breakingSpace($aText)
+    {
+        $replacer = new StringReplacerWithRegex($aText);
+
+        $replacer->transform(' *$', ''      );
+        $replacer->transform('_*$', ''      );
+        $replacer->transform(' ',   '&nbsp;');
+
+        $someText = $replacer->currentString();
+
+        return $someText;
+    } #transformFor_non_breakingSpace()
+
+
+    #Why is it here when similar functions are in file 'Text.php'?
     #Probably because it uses StringReplacerWithRegex
     #(which is in a *separate* file).
     #
@@ -538,11 +566,12 @@
         $replacer->transform('(\d+)\s+min\s+', '$1:');
         $replacer->transform('(\d+)\s+h\s+',   '$1:');
 
-        # Don't transform URLs if there just a single link in
-        # Markdown format (e.g., used in LBRY/Odysee comments).
+        # Don't transform URLs if there is just a ***single***
+        # link in inline Markdown format (e.g., used in
+        # LBRY/Odysee comments).
         #
-        # Note that this check is global (for all the text),
-        # not on a line-for-line basis.
+        # Note that this check is global (for all
+        # the text), not on a line-for-line basis.
         #
         if (! $replacer->match("\[[^\]]+\]\([^)]+\)"))
         {
@@ -575,7 +604,9 @@
             $replacer->transform(' DOT js',   '.js'); # E.g. Node.js
             $replacer->transform(' DOT \_',   '._'); # Full stop near the end of a line
 
-            # Revert for numbers, e.g. 3.141
+            # Revert for numbers, e.g. 3.141. Note: We only need
+            # to match the first digit after "."
+            #
             $replacer->transform('(\d) DOT (\d)', '$1.$2');
 
             # Revert for file extensions. Note: Potentially false positives
@@ -610,8 +641,8 @@
         # that it affects LBRY invites (perhaps we
         # should add an exception?).
         #
-        # Future: Perhaps don't replace if there is a space before "@"
-        #         or at the beginning of a line.
+        # Future: Perhaps don't replace if there is a space
+        #         before "@" or at the beginning of a line.
         #
         $replacer->transform('\@', ' AT ');
 
@@ -637,7 +668,7 @@
         # Note: Must be double quotes for \r and \n
         #
         # For it to work in LBRY comments, a space followed by a
-        # non-breakspace (" &nbsp;") would be need instead.
+        # non-breakspace (" &nbsp;") would be needed instead.
         # However, this is incompatible with YouTube comments...
         #
         $replacer->transform("\r\n\r\n", "\r\n \r\n"); # Note that is doesn't work
@@ -646,13 +677,13 @@
         # Adjust indent for non-timestamp lines (due
         # to non-proportional fonts).
         #
-        # We wait till ***last*** because the input may
+        # We wait till ***last***, because the input may
         # already have timestamps in the final format
         # (so this should come after the timestamp
         # conversion).
         #
-        # It is also a good idea to have any TABs
-        # converted first.
+        # It is also a good idea to have
+        # any TABs converted first.
         #
         if ($replacer->match("\d+:\d+\s"))
 
@@ -668,12 +699,11 @@
             #$replacer->transform("\r\n{4,4}", "\r\n");
             #$replacer->transform("\r\n    ", "\r\n");
 
-
             # Remove three spaces from non-timestamp lines. It
             # is to adjust for the total effect of:
             #
-            #   1) adjust for the reduction in space of the
-            #      timestamp encoding (e.g. from
+            #   1) adjust for the reduction in space of
+            #      the timestamp encoding (e.g., from
             #      "04 min 17 secs" to "04:17")
             #
             #   2) Much smaller size of spaces compared
@@ -774,7 +804,7 @@
     function WikiMedia_Link_External($aURL, $aCorrectTerm)
     {
         # This is really straightforward. Or at least it seems so.
-        # However, are there any special cases, e.g. encoding
+        # However, are there any special cases, e.g., encoding
         # for some special characters?
         #
         $linkStr = "[$aURL $aCorrectTerm]";

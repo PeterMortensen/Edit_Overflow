@@ -2144,6 +2144,36 @@ namespace OverflowHelper.core
 
             correctionAdd("toggleable", "togglable");
 
+            correctionAdd("informatipon", "information"); // Misspelling.
+            correctionAdd("infrormation", "information");
+            correctionAdd("informations", "information");
+            correctionAdd("inormations", "information");
+            correctionAdd("inforamtion", "information"); // Misspelling.
+            correctionAdd("Information", "information");
+            correctionAdd("impormation", "information");
+            correctionAdd("infromation", "information");
+            correctionAdd("imformation", "information");
+            correctionAdd("infomation", "information"); // Misspelling.
+            correctionAdd("informaton", "information");
+            correctionAdd("informtion", "information");
+            correctionAdd("infos", "information");
+            correctionAdd("infor", "information");
+            correctionAdd("info", "information");
+            correctionAdd("Info", "information");
+            correctionAdd("INFO", "information");
+
+            correctionAdd("informted", "informed");
+
+            correctionAdd("uniformed", "uninformed");
+
+            correctionAdd("ill informed", "ill-informed");
+            correctionAdd("illinformed", "ill-informed");
+
+            correctionAdd("miss-information", "misinformation");
+
+            correctionAdd("disinfo", "disinformation");
+            correctionAdd("Disinfo", "disinformation");
+
             correctionAdd("reliefed", "relieved");
             correctionAdd("releaved", "relieved");
 
@@ -27264,6 +27294,7 @@ namespace OverflowHelper.core
             correctionAdd("correcponding", "corresponding");
             correctionAdd("Correcponding", "corresponding");
             correctionAdd("coressponding", "corresponding");
+            correctionAdd("corrosponding", "corresponding");
             correctionAdd("coresponding", "corresponding");
             correctionAdd("correspnding", "corresponding");
             correctionAdd("corresponing", "corresponding");
@@ -41185,35 +41216,6 @@ namespace OverflowHelper.core
 
             correctionAdd("Epilogue", "epilogue");
 
-            correctionAdd("informatipon", "information"); // Misspelling.
-            correctionAdd("infrormation", "information");
-            correctionAdd("informations", "information");
-            correctionAdd("inormations", "information");
-            correctionAdd("inforamtion", "information"); // Misspelling.
-            correctionAdd("Information", "information");
-            correctionAdd("impormation", "information");
-            correctionAdd("infromation", "information");
-            correctionAdd("imformation", "information");
-            correctionAdd("infomation", "information"); // Misspelling.
-            correctionAdd("informaton", "information");
-            correctionAdd("informtion", "information");
-            correctionAdd("infos", "information");
-            correctionAdd("info", "information");
-            correctionAdd("Info", "information");
-            correctionAdd("INFO", "information");
-
-            correctionAdd("informted", "informed");
-
-            correctionAdd("uniformed", "uninformed");
-
-            correctionAdd("ill informed", "ill-informed");
-            correctionAdd("illinformed", "ill-informed");
-
-            correctionAdd("miss-information", "misinformation");
-
-            correctionAdd("disinfo", "disinformation");
-            correctionAdd("Disinfo", "disinformation");
-
             correctionAdd("specializing", "specialising");
             correctionAdd("specilizing", "specialising");
 
@@ -44862,18 +44864,24 @@ namespace OverflowHelper.core
             correctionAdd("matrixes", "matrices");
             correctionAdd("Matrices", "matrices");
 
+            correctionAdd("descomposition", "decomposition");
+
             // A matrix thing
+            correctionAdd("Lu descomposition", "LU decomposition");
             correctionAdd("Lu decomposition", "LU decomposition");
 
             // A matrix thing
+            correctionAdd("Cholesky descomposition", "Cholesky decomposition");
             correctionAdd("Cholesky factorization", "Cholesky decomposition");
 
             // A matrix thing
+            correctionAdd("singular value descomposition", "singular value decomposition");
             correctionAdd("Singular Value Decomposition", "singular value decomposition");
             correctionAdd("svd", "singular value decomposition");
             correctionAdd("SVD", "singular value decomposition");
 
             // A matrix thing
+            correctionAdd("eigenvalue descomposition", "eigenvalue decomposition");
             correctionAdd("Eigen decomposition", "eigenvalue decomposition");
             correctionAdd("eigen decomposition", "eigenvalue decomposition");
             correctionAdd("eigendecomposition", "eigenvalue decomposition");
@@ -44888,6 +44896,12 @@ namespace OverflowHelper.core
 
             // A matrix thing
             correctionAdd("hermitian", "Hermitian");
+
+            correctionAdd("variance-covariance matrix", "covariance matrix");
+            correctionAdd("variance–covariance matrix", "covariance matrix");
+            correctionAdd("auto-covariance matrix", "covariance matrix");
+            correctionAdd("dispersion matrix", "covariance matrix");
+            correctionAdd("variance matrix", "covariance matrix");
 
             correctionAdd("Jacobian Matrix", "Jacobian matrix");
             correctionAdd("jacobian Matrix", "Jacobian matrix");
@@ -48646,6 +48660,15 @@ namespace OverflowHelper.core
 
             correctionAdd("Illiteracy", "illiteracy");
             correctionAdd("iliteracy", "illiteracy");
+
+            // Alternative URLs:
+            //
+            //   <https://www.youtube.com/watch?v=xxMsgVgeu_M>
+            //     "Literacy levels in the United States ... literacy
+            //      problems ... 52% of Americans falls ***below***
+            //      level 3." (partly paraphrased)
+            //
+            correctionAdd("functionally illiterate", "functional illiteracy"); // Not incorrect, but for a single entry
 
             // Alternative URLs:
             //
@@ -97352,6 +97375,7 @@ namespace OverflowHelper.core
             correctionAdd("dimensinal", "dimensional");
 
             correctionAdd("dimentionality", "dimensionality");
+            correctionAdd("dimensinality", "dimensionality");
 
             correctionAdd("0D", "zero-dimensional");
 
@@ -135790,6 +135814,8 @@ namespace OverflowHelper.core
 
             URL_Add("illiteracy", "https://en.wiktionary.org/wiki/illiteracy#Noun");
 
+            URL_Add("functional illiteracy", "https://en.wikipedia.org/wiki/Functional_illiteracy");
+
             URL_Add("object literal", "https://en.wikipedia.org/wiki/Literal_(computer_programming)#Literals_of_objects");
 
             URL_Add("template literal", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals");
@@ -137621,11 +137647,15 @@ namespace OverflowHelper.core
 
             URL_Add("matrices", "https://en.wiktionary.org/wiki/matrices#Noun");
 
+            URL_Add("decomposition", "https://en.wiktionary.org/wiki/decomposition#Noun");
+
             URL_Add("LU decomposition", "https://en.wikipedia.org/wiki/LU_decomposition");
 
             URL_Add("Cholesky decomposition", "https://en.wikipedia.org/wiki/Cholesky_decomposition");
 
             URL_Add("Hermitian", "https://en.wiktionary.org/wiki/Hermitian#Adjective");
+
+            URL_Add("covariance matrix", "https://en.wikipedia.org/wiki/Covariance_matrix");
 
             URL_Add("Jacobian", "https://en.wiktionary.org/wiki/Jacobian#Adjective");
 
@@ -160006,6 +160036,7 @@ namespace OverflowHelper.core
             correctionAdd("affinity_", "affine transformation_");
 
             // Matrix. Matrices.
+            correctionAdd("QR descomposition_", "QR decomposition_");
             correctionAdd("QR_", "QR decomposition_");
 
             correctionAdd("Matrix_", "The Matrix_");

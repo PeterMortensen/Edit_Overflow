@@ -57,7 +57,7 @@
                     }
                     else
                     {
-                        # Treat non-breaking space (HTML/Markdown 
+                        # Treat non-breaking space (HTML/Markdown
                         # encoded) as normal space
                         $effectiveLookupTerm = preg_replace('/&nbsp;/', ' ',
                                                             $aLookupTerm);
@@ -684,45 +684,21 @@
                                                                       #      for the first item (and
                                                                       #      thus an empty entry when
                                                                       #)     decoding it).
+                $non_breakingSpaceInLinkText = 1; # Stub
+                if ($non_breakingSpaceInLinkText)
+                {
+                    $correctTermOutput_links =
+                        transformFor_non_breakingSpace($correctTerm);
+                }
+                else
+                {
+                    $correctTermOutput_links = $correctTerm;
+                }
 
-                $correctTermOutput = $correctTerm;
+                $linkInlineMarkdown = "[$correctTermOutput_links]($URL)";
 
-                #$correctTermOutput = substr_replace($correctTerm, ' ', '&nbsp;');
-                #$correctTermOutput = preg_replace($correctTerm, '&nbsp;', 0);
-
-                # Strip trailing space
-                $correctTermOutput = preg_replace('/ *$/', '',
-                                                  $correctTermOutput);
-
-                # Remove the trailing underscore(s), if any. That
-                # is, don't include the trailing underscore in
-                # the link texts, etc.
-                #
-                $correctTermOutput = preg_replace('/_*$/', '',
-                                                  $correctTermOutput);
-
-                # Non-breaking space in HTML format (it
-                # happens to work in all the output
-                # formats we currently use)
-                $correctTermOutput = preg_replace('/ /', '&nbsp;',
-                                                  $correctTermOutput);
-
-                # Or maybe using str_replace()?:
-                #
-                #    $encodedContent = str_replace('"', '%22', $aRawContent);
-
-
-                #$correctTermOutput = "XYZ"; # $$$
-
-
-                # To make reverting a one-line change
-                # $correctTermOutput = $correctTerm;
-
-
-                $linkInlineMarkdown = "[$correctTermOutput]($URL)";
-
-                # We preformat it in the most commonly used form in YouTube
-                # comments:
+                # We preformat it in the most commonly used 
+                # form in YouTube comments:
                 #
                 #     1. Styled as ***bold*** (by using "*").
                 #
@@ -758,7 +734,7 @@
                 #      It ought to be resolved, so we don't have
                 #      this redundancy
                 #
-                #$link_HTML = get_HTMLlink($correctTermOutput,
+                #$link_HTML = get_HTMLlink($correctTermOutput_links,
                 #                          $URL,
                 #                          "");
                 #
@@ -767,7 +743,7 @@
                 #
                 $link_HTML =
                   "<a href=\"" . $URL . "\"" .
-                  ">" . $correctTermOutput . "</a>";
+                  ">" . $correctTermOutput_links . "</a>";
 
                 # Link, in MediaWiki format, internal (e.g., for Wikipedia)
                 #
@@ -777,22 +753,22 @@
                 #
                 $link_WikiMedia =
                     "''" .
-                    WikiMedia_Link($URL, $correctTermOutput) .
+                    WikiMedia_Link($URL, $correctTermOutput_links) .
                     "''"
                     ;
 
                 $link_WikiMedia_External =
                     "''" .
-                    WikiMedia_Link_External($URL, $correctTermOutput) .
+                    WikiMedia_Link_External($URL, $correctTermOutput_links) .
                     "''"
                     ;
 
                 # $correctionComment_Quora =
-                #   "It is \"" . $correctTermOutput . "\" (not \"" .
+                #   "It is \"" . $correctTermOutput_links . "\" (not \"" .
                 #   $lookUpTerm . "\"). See e.g.: " . $URL .
                 #   ". You can edit your question/comment/answer/post.";
                 $correctionComment_Markdown =
-                  "It is *\"[" . $correctTermOutput . "](" . $URL .
+                  "It is *\"[" . $correctTermOutput_links . "](" . $URL .
                   ")\"* in this context " .
                   "(not *\"" . $lookUpTerm . "\"*). " .
                   "You can edit (change) your question/comment/answer/post";
@@ -908,9 +884,9 @@
             # If the correct term can not be looked up, we substitute
             # with the incorrect term. One reason for this is the use
             # of automatic tools, like a macro keyboard, that blindly
-            # applies a lookup. In this way the term in the original
-            # place, e.g. an edit window will not be blanked out,
-            # but effectively left as it was.
+            # applies a lookup. In this way, the term in the original
+            # place, e.g., an edit window will not be blanked out,
+            # but effectively be left as it was.
             #
             #What about empty input??
             if ($correctTerm)
@@ -1197,8 +1173,9 @@
                             # Indicate if an incorrect or correct word was
                             # looked up. The rtrim is for identical words
                             # from different word sets to test equal.
-                            if (rtrim($lookUpTerm, "_") ===
-                                rtrim($effectiveTerm, "_"))
+                            if (rtrim($lookUpTerm,    "_") ===
+                                rtrim($effectiveTerm, "_")
+                                )
                             {
                                 echo " (the same)";
                             }
@@ -1225,6 +1202,22 @@
                     id="CorrectedTerm"
                     class="XYZ10"
                     <?php
+                        $non_breakingSpaceInMainLookup = 0; # Stub
+                        if ($non_breakingSpaceInMainLookup)
+                        {
+                            $termForOutput =
+                                transformFor_non_breakingSpace($effectiveTerm);
+                        }
+                        else
+                        {
+                            $termForOutput = $effectiveTerm;
+                        }
+
+                        ## Stub
+                        #$termForOutput =
+                        #    transformFor_non_breakingSpace($effectiveTerm);
+                        #$termForOutput = "ABC_YYY";    
+
                         # The extra trailing space in the output is for
                         # presuming the lookup term contains a trailing
                         # space.
@@ -1234,7 +1227,7 @@
                         # version of Edit Overflow) - where we preserve
                         # any leading and trailing white space.
                         #
-                        the_formValue($effectiveTerm . " ");
+                        the_formValue($termForOutput . " ");
                     ?>
                     style="width:170px;"
                     accesskey="C"
