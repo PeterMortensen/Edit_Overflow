@@ -1158,6 +1158,136 @@ namespace OverflowHelper.core
             correctionAdd("Windows Nano server", "Microsoft Nano Server");
             correctionAdd("Windows Nano", "Microsoft Nano Server");
 
+            // The verb
+            correctionAdd("utilisation", "use"); // Misplaced formality. The verbose version of "use".
+            correctionAdd("utilization", "use"); // Misplaced formality. The verbose version of "use".
+            correctionAdd("utilise", "use"); // Misplaced formality. The verbose version of "use".
+            correctionAdd("utilize", "use"); // Misplaced formality. The verbose version of "use".
+            correctionAdd("usage", "use"); // The verbose version of "use". See, e.g., Hacker Public Radio (HPR) podcast episode 4601
+            correctionAdd("usue", "use");
+            correctionAdd("usur", "use");
+            correctionAdd("juse", "use");
+            correctionAdd("user", "use");
+            correctionAdd("Unse", "use");
+            correctionAdd("unse", "use");
+            correctionAdd("Use", "use");
+            correctionAdd("USe", "use");
+            correctionAdd("usd", "use");
+            correctionAdd("ise", "use");
+            correctionAdd("ues", "use");
+            correctionAdd("usr", "use");
+            correctionAdd("usa", "use");
+            correctionAdd("usc", "use");
+            correctionAdd("us", "use");
+            correctionAdd("Us", "use");
+
+            // The verb
+            //
+            // Note: "used" is in an alternative word set
+            correctionAdd("utilises", "uses");
+            correctionAdd("utilizes", "uses");
+            correctionAdd("useses", "uses");
+
+            correctionAdd("utilising", "using"); // Misplaced formality. The verbose version of "using".
+            correctionAdd("utilizing", "using"); // Misplaced formality. The verbose version of "using".
+            correctionAdd("useing", "using");
+            correctionAdd("ussing", "using");
+            correctionAdd("unsing", "using");
+            correctionAdd("usigin", "using");
+            correctionAdd("usning", "using");
+            correctionAdd("uising", "using");
+            correctionAdd("usiong", "using");
+            correctionAdd("usuing", "using");
+            correctionAdd("usigng", "using");
+            correctionAdd("jusing", "using");
+            correctionAdd("uisng", "using");
+            correctionAdd("ising", "using");
+            correctionAdd("suign", "using");
+            correctionAdd("Using", "using");
+            correctionAdd("Usink", "using");
+            correctionAdd("usink", "using");
+            correctionAdd("usind", "using");
+            correctionAdd("Usign", "using");
+            correctionAdd("usign", "using");
+            correctionAdd("usong", "using"); // A true typo
+            correctionAdd("usung", "using"); // A true typo
+            correctionAdd("usin", "using"); // A true typo
+            correctionAdd("uing", "using");
+            correctionAdd("usig", "using");
+            correctionAdd("sing", "using");
+            correctionAdd("usi", "using");
+
+            correctionAdd("used with", "used to");
+            correctionAdd("use to", "used to");
+
+            correctionAdd("get use to", "get used to");
+
+            correctionAdd("git gud", "get good");
+            correctionAdd("get gud", "get good");
+
+            correctionAdd("usasable", "usable");
+            correctionAdd("usesable", "usable");
+            correctionAdd("usuable", "usable");
+            correctionAdd("useable", "usable");
+            correctionAdd("useble", "usable");
+
+            correctionAdd("singleuse", "single-use");
+
+            correctionAdd("easy to use", "easy-to-use");
+
+            correctionAdd("reusage", "reuse");
+            correctionAdd("re-use", "reuse");
+
+            correctionAdd("re-using", "reusing");
+
+            // The verb
+            correctionAdd("re-uses", "reuses");
+
+            correctionAdd("re-used", "reused");
+
+            correctionAdd("reuseable", "reusable");
+            correctionAdd("re-usable", "reusable");
+            correctionAdd("re usable", "reusable");
+            correctionAdd("reusabe", "reusable");
+
+            correctionAdd("mis-use", "misuse");
+
+            correctionAdd("mis-used", "misused");
+
+            correctionAdd("over use", "overuse");
+            correctionAdd("over-use", "overuse");
+
+            correctionAdd("over used", "overused");
+
+            correctionAdd("often used", "oft-used");
+            correctionAdd("oft used", "oft-used");
+            correctionAdd("oftused", "oft-used");
+
+            correctionAdd("non-usage", "nonusage");
+
+            correctionAdd("unuseable", "unusable");
+            correctionAdd("unusuable", "unusable");
+            correctionAdd("unsable", "unusable");
+
+            correctionAdd("unsablely", "unusably");
+
+            correctionAdd("UNUSED", "unused");
+
+            correctionAdd("use full", "useful");
+            correctionAdd("use-full", "useful");
+            correctionAdd("userfull", "useful");
+            correctionAdd("usefull", "useful");
+            correctionAdd("usefsul", "useful");
+            correctionAdd("use for", "useful");
+            correctionAdd("usefule", "useful");
+            correctionAdd("usedful", "useful");
+            correctionAdd("Usefu", "useful");
+            correctionAdd("usefu", "useful");
+
+            correctionAdd("usefullness", "usefulness");
+
+            correctionAdd("non-useful", "nonuseful");
+
             correctionAdd("sysytem", "system");
             correctionAdd("systenm", "system");
             correctionAdd("Systhem", "system");
@@ -3737,6 +3867,11 @@ namespace OverflowHelper.core
             // A dog breed
             correctionAdd("Dalmatiner", "Dalmatian");
             correctionAdd("dalmatiner", "Dalmatian");
+
+            // A dog breed
+            correctionAdd("labrador", "Labrador Retriever");
+            correctionAdd("Labrador", "Labrador Retriever");
+            correctionAdd("lab", "Labrador Retriever");
 
             correctionAdd("dog pile", "dogpile");
 
@@ -9671,128 +9806,6 @@ namespace OverflowHelper.core
 
             correctionAdd("dev null", "/dev/null");
 
-            // The verb
-            correctionAdd("utilisation", "use"); // Misplaced formality. The verbose version of "use".
-            correctionAdd("utilization", "use"); // Misplaced formality. The verbose version of "use".
-            correctionAdd("utilise", "use"); // Misplaced formality. The verbose version of "use".
-            correctionAdd("utilize", "use"); // Misplaced formality. The verbose version of "use".
-            correctionAdd("usage", "use"); // The verbose version of "use". See, e.g., Hacker Public Radio (HPR) podcast episode 4601
-            correctionAdd("usue", "use");
-            correctionAdd("usur", "use");
-            correctionAdd("juse", "use");
-            correctionAdd("user", "use");
-            correctionAdd("Use", "use");
-            correctionAdd("USe", "use");
-            correctionAdd("usd", "use");
-            correctionAdd("ise", "use");
-            correctionAdd("ues", "use");
-            correctionAdd("usr", "use");
-            correctionAdd("usa", "use");
-            correctionAdd("usc", "use");
-            correctionAdd("us", "use");
-            correctionAdd("Us", "use");
-
-            // The verb
-            //
-            // Note: "used" is in an alternative word set
-            correctionAdd("utilises", "uses");
-            correctionAdd("utilizes", "uses");
-            correctionAdd("useses", "uses");
-
-            correctionAdd("utilising", "using"); // Misplaced formality. The verbose version of "using".
-            correctionAdd("utilizing", "using"); // Misplaced formality. The verbose version of "using".
-            correctionAdd("useing", "using");
-            correctionAdd("ussing", "using");
-            correctionAdd("unsing", "using");
-            correctionAdd("usigin", "using");
-            correctionAdd("usning", "using");
-            correctionAdd("uising", "using");
-            correctionAdd("usiong", "using");
-            correctionAdd("usuing", "using");
-            correctionAdd("usigng", "using");
-            correctionAdd("jusing", "using");
-            correctionAdd("uisng", "using");
-            correctionAdd("ising", "using");
-            correctionAdd("suign", "using");
-            correctionAdd("Using", "using");
-            correctionAdd("Usink", "using");
-            correctionAdd("usink", "using");
-            correctionAdd("usind", "using");
-            correctionAdd("Usign", "using");
-            correctionAdd("usign", "using");
-            correctionAdd("usong", "using"); // A true typo
-            correctionAdd("usung", "using"); // A true typo
-            correctionAdd("usin", "using"); // A true typo
-            correctionAdd("uing", "using");
-            correctionAdd("usig", "using");
-            correctionAdd("sing", "using");
-            correctionAdd("usi", "using");
-
-            correctionAdd("use to", "used to");
-
-            correctionAdd("usasable", "usable");
-            correctionAdd("usesable", "usable");
-            correctionAdd("usuable", "usable");
-            correctionAdd("useable", "usable");
-            correctionAdd("useble", "usable");
-
-            correctionAdd("singleuse", "single-use");
-
-            correctionAdd("easy to use", "easy-to-use");
-
-            correctionAdd("reusage", "reuse");
-            correctionAdd("re-use", "reuse");
-
-            correctionAdd("re-using", "reusing");
-
-            // The verb
-            correctionAdd("re-uses", "reuses");
-
-            correctionAdd("re-used", "reused");
-
-            correctionAdd("reuseable", "reusable");
-            correctionAdd("re-usable", "reusable");
-            correctionAdd("re usable", "reusable");
-            correctionAdd("reusabe", "reusable");
-
-            correctionAdd("mis-use", "misuse");
-
-            correctionAdd("mis-used", "misused");
-
-            correctionAdd("over use", "overuse");
-            correctionAdd("over-use", "overuse");
-
-            correctionAdd("over used", "overused");
-
-            correctionAdd("often used", "oft-used");
-            correctionAdd("oft used", "oft-used");
-            correctionAdd("oftused", "oft-used");
-
-            correctionAdd("non-usage", "nonusage");
-
-            correctionAdd("unuseable", "unusable");
-            correctionAdd("unusuable", "unusable");
-            correctionAdd("unsable", "unusable");
-
-            correctionAdd("unsablely", "unusably");
-
-            correctionAdd("UNUSED", "unused");
-
-            correctionAdd("use full", "useful");
-            correctionAdd("use-full", "useful");
-            correctionAdd("userfull", "useful");
-            correctionAdd("usefull", "useful");
-            correctionAdd("usefsul", "useful");
-            correctionAdd("use for", "useful");
-            correctionAdd("usefule", "useful");
-            correctionAdd("usedful", "useful");
-            correctionAdd("Usefu", "useful");
-            correctionAdd("usefu", "useful");
-
-            correctionAdd("usefullness", "usefulness");
-
-            correctionAdd("non-useful", "nonuseful");
-
             // Note: "identity" is in an alternative word set
             //
             correctionAdd("idendityies", "identities");
@@ -13983,6 +13996,7 @@ namespace OverflowHelper.core
             correctionAdd("Golden Gate", "macOS v27 (Golden Gate) (2026 vintage)");
             correctionAdd("golden gate", "macOS v27 (Golden Gate) (2026 vintage)");
             correctionAdd("macOS 27", "macOS v27 (Golden Gate) (2026 vintage)");
+            correctionAdd("MacOS 27", "macOS v27 (Golden Gate) (2026 vintage)");
 
             // Mac OS X
             correctionAdd("darwin", "Darwin");
@@ -18345,6 +18359,8 @@ namespace OverflowHelper.core
 
             correctionAdd("indicatator", "indicator");
             correctionAdd("indicater", "indicator");
+
+            correctionAdd("indicatiors", "indicators");
 
             correctionAdd("counter indication", "contraindication");
             correctionAdd("Counter indication", "contraindication");
@@ -29034,6 +29050,15 @@ namespace OverflowHelper.core
             correctionAdd("compton", "Compton");
 
             // Linux, GUI. A display manager.
+            //
+            // Alternative URLs:
+            //
+            //   <https://discourse.ubuntu.com/t/current-status-of-lightdm/29048>
+            //
+            //     Developed by Canonical. Default display manager
+            //     in Ubuntu from 11.10 (Oneiric Ocelot) to
+            //     17.04 (Zesty Zapus).
+            //
             correctionAdd("lightdm", "LightDM");
             correctionAdd("Lightdm", "LightDM");
 
@@ -30873,6 +30898,7 @@ namespace OverflowHelper.core
             correctionAdd("sofware", "software");
             correctionAdd("softwar", "software");
             correctionAdd("softwre", "software");
+            correctionAdd("sotware", "software");
             correctionAdd("softs", "software");
             correctionAdd("soft", "software");
             correctionAdd("S/w", "software");
@@ -37379,6 +37405,7 @@ namespace OverflowHelper.core
             correctionAdd("Json", "JSON");
             correctionAdd("JSon", "JSON");
             correctionAdd("json", "JSON");
+            correctionAdd("jSON", "JSON");
 
             correctionAdd("JSON-P", "JSONP");
             correctionAdd("json-P", "JSONP");
@@ -38799,6 +38826,7 @@ namespace OverflowHelper.core
             correctionAdd("Obama", "Barack Obama");
             correctionAdd("obama", "Barack Obama");
 
+            correctionAdd("orangish weird looking guy", "Trump");
             correctionAdd("the convicted felon", "Trump");
             correctionAdd("orange predecessor", "Trump");
             correctionAdd("the orange creep", "Trump");
@@ -43663,11 +43691,6 @@ namespace OverflowHelper.core
             correctionAdd("LAF", "look and feel");
             correctionAdd("L&F", "look and feel");
 
-            correctionAdd("git gud", "get good");
-            correctionAdd("get gud", "get good");
-
-            correctionAdd("get use to", "get used to");
-
             correctionAdd("sttring", "string");
             correctionAdd("String", "string");
             correctionAdd("Srting", "string");
@@ -44859,6 +44882,8 @@ namespace OverflowHelper.core
             correctionAdd("Hessian", "Hessian matrix");
 
             correctionAdd("Householder Matrix", "Householder matrix");
+
+            correctionAdd("hilbert matrix", "Hilbert matrix");
 
             correctionAdd("Eisenhower Matrix", "Eisenhower matrix");
             correctionAdd("Eisenhower-Matrix", "Eisenhower matrix");
@@ -50542,6 +50567,7 @@ namespace OverflowHelper.core
             // A programming language
             correctionAdd("Matalab", "MATLAB"); // Misspelling.
             correctionAdd("matalab", "MATLAB");
+            correctionAdd("Mathlab", "MATLAB");
             correctionAdd("matlab", "MATLAB");
             correctionAdd("Matlab", "MATLAB");
             correctionAdd("MatLab", "MATLAB");
@@ -65493,6 +65519,11 @@ namespace OverflowHelper.core
             // It *may* handle '2.4 GHz' as well (is not
             // known at this point in time).
             //
+            // Alternative URLs:
+            //
+            // <https://github.com/Keychron/qmk_firmware/issues/540>
+            //   Bug: lkbt51_read() exchanges 68 bytes into 64-byte buffers #540
+            //
             correctionAdd("lkbt51", "LKBT51");
             correctionAdd("LK51", "LKBT51");
             correctionAdd("LBK", "LKBT51");
@@ -65873,9 +65904,12 @@ namespace OverflowHelper.core
             correctionAdd("Logitech mx keys", "Logitech MX Keys");
             correctionAdd("logitech mx keys", "Logitech MX Keys");
             correctionAdd("Logi MX Keys", "Logitech MX Keys");
+            correctionAdd("MX Keys Mini", "Logitech MX Keys"); // Not 100% correct
             correctionAdd("Mx keys", "Logitech MX Keys");
             correctionAdd("Mx Keys", "Logitech MX Keys");
             correctionAdd("mx keys", "Logitech MX Keys");
+            correctionAdd("MX Keys", "Logitech MX Keys");
+            correctionAdd("MX keys", "Logitech MX Keys");
 
             correctionAdd("mx mini", "Logitech MX Keys Mini");
 
@@ -67277,6 +67311,11 @@ namespace OverflowHelper.core
             //
             //     "If the layer is active then its key
             //      definitions will be considered."
+            //
+            //   <https://github.com/Keychron/qmk_firmware/issues/521#issuecomment-6124340264>
+            //     Example of number of layers defined outside
+            //
+            //       '"layer_count": 6'
             //
             correctionAdd("layers in QMK", "QMK layers");
             correctionAdd("Layers", "QMK layers");
@@ -87563,7 +87602,11 @@ namespace OverflowHelper.core
             //
             // Gateron switches.
             //
-            // Has ***both*** hot-swappable and soldered-in variants.
+            // Notes:
+            //
+            //   * Has ***both*** hot-swappable and soldered-in variants.
+            //
+            //   * Has variants with optical "switches"
             //
             // ANSI product page:
             //
@@ -94463,6 +94506,7 @@ namespace OverflowHelper.core
             correctionAdd("an old Apple keyboard", "Apple Extended Keyboard II (100%)");
             correctionAdd("old Apple keyboard", "Apple Extended Keyboard II (100%)");
             correctionAdd("Apple Extended II", "Apple Extended Keyboard II (100%)");
+            correctionAdd("Extended II", "Apple Extended Keyboard II (100%)");
             correctionAdd("Nimitz", "Apple Extended Keyboard II (100%)"); // Allegedly, the code name for it
             correctionAdd("AEK II", "Apple Extended Keyboard II (100%)");
             correctionAdd("M3501", "Apple Extended Keyboard II (100%)");
@@ -97100,6 +97144,8 @@ namespace OverflowHelper.core
             correctionAdd("oftern", "often");
             correctionAdd("offten", "often");
             correctionAdd("oftem", "often");
+
+            correctionAdd("ofter", "more often");
 
             correctionAdd("all to offer", "all too often"); // An autocorrect "masterpiece"?
 
@@ -112325,6 +112371,10 @@ namespace OverflowHelper.core
 
             URL_Add("often", "https://en.wiktionary.org/wiki/often#Adverb");
 
+            URL_Add("all too often", "https://www.merriam-webster.com/dictionary/all%20too%20often");
+
+            URL_Add("more often", "https://en.wiktionary.org/wiki/ofter#Adverb");
+
             URL_Add("Angular 2", "https://en.wikipedia.org/wiki/Angular_(web_framework)#Version_2");
 
             URL_Add("big data", "https://en.wikipedia.org/wiki/Big_data");
@@ -115487,8 +115537,6 @@ namespace OverflowHelper.core
 
             URL_Add("viewport", "https://en.wiktionary.org/wiki/viewport#Noun");
 
-            URL_Add("indices", "https://en.wiktionary.org/wiki/indices#Noun");
-
             URL_Add("influenza", "https://en.wikipedia.org/wiki/Influenza");
 
             URL_Add("scenario", "https://en.wiktionary.org/wiki/scenario#Noun");
@@ -117628,8 +117676,6 @@ namespace OverflowHelper.core
             URL_Add("ecstasy", "https://en.wiktionary.org/wiki/ecstasy#Noun");
 
             URL_Add("qrsh", "https://manpages.org/qrsh");
-
-            URL_Add("indicated", "https://en.wiktionary.org/wiki/indicate#Verb");
 
             URL_Add("suit", "https://en.wiktionary.org/wiki/suit#Verb");
 
@@ -121283,8 +121329,6 @@ namespace OverflowHelper.core
 
             URL_Add("freshman", "https://en.wikipedia.org/wiki/Freshman");
 
-            URL_Add("indicates", "https://en.wiktionary.org/wiki/indicate#Verb");
-
             URL_Add("nonusage", "https://en.wiktionary.org/wiki/nonusage#Noun");
 
             URL_Add("office work", "https://en.wiktionary.org/wiki/office_work#Noun");
@@ -123002,8 +123046,6 @@ namespace OverflowHelper.core
             URL_Add("laziness", "https://en.wiktionary.org/wiki/laziness#Noun");
 
             URL_Add("puzzles", "https://en.wiktionary.org/wiki/puzzle#Noun");
-
-            URL_Add("indicate", "https://en.wiktionary.org/wiki/indicate#Verb");
 
             URL_Add("tape", "https://en.wiktionary.org/wiki/tape#Noun");
 
@@ -125002,8 +125044,6 @@ namespace OverflowHelper.core
             URL_Add("organisational", "https://en.wiktionary.org/wiki/organisational#Adjective");
 
             URL_Add("so-so", "https://en.wiktionary.org/wiki/so-so#Adverb");
-
-            URL_Add("indicator", "https://en.wiktionary.org/wiki/indicator#Noun");
 
             URL_Add("time lock", "https://en.wiktionary.org/wiki/time_lock#Noun");
 
@@ -135886,8 +135926,6 @@ namespace OverflowHelper.core
 
             URL_Add("air conditioner", "https://en.wiktionary.org/wiki/air_conditioner#Noun");
 
-            URL_Add("all too often", "https://www.merriam-webster.com/dictionary/all%20too%20often");
-
             URL_Add("correspondence", "https://en.wiktionary.org/wiki/correspondence#Noun");
 
             URL_Add("Samsung", "https://en.wikipedia.org/wiki/Samsung");
@@ -136261,6 +136299,20 @@ namespace OverflowHelper.core
 
             URL_Add("Phillips", "https://en.wikipedia.org/wiki/List_of_screw_drives#Phillips_II");
 
+            URL_Add("indicate", "https://en.wiktionary.org/wiki/indicate#Verb");
+
+            URL_Add("indicates", "https://en.wiktionary.org/wiki/indicate#Verb");
+
+            URL_Add("indicated", "https://en.wiktionary.org/wiki/indicate#Verb");
+
+            URL_Add("indicator", "https://en.wiktionary.org/wiki/indicator#Noun");
+
+            URL_Add("indicators", "https://en.wiktionary.org/wiki/indicator#Noun");
+
+            URL_Add("indicated airspeed", "https://en.wikipedia.org/wiki/Indicated_airspeed");
+
+            URL_Add("indices", "https://en.wiktionary.org/wiki/indices#Noun");
+
             URL_Add("jackscrew", "https://en.wiktionary.org/wiki/jackscrew#Noun");
 
             URL_Add("helicopters", "https://en.wiktionary.org/wiki/helo#Noun");
@@ -136348,8 +136400,6 @@ namespace OverflowHelper.core
             URL_Add("Jet A", "https://en.wikipedia.org/wiki/Jet_fuel#Jet_A/A-1");
 
             URL_Add("airfield", "https://en.wiktionary.org/wiki/airfield#Noun");
-
-            URL_Add("indicated airspeed", "https://en.wikipedia.org/wiki/Indicated_airspeed");
 
             URL_Add("true airspeed", "https://en.wikipedia.org/wiki/True_airspeed");
 
@@ -137493,8 +137543,6 @@ namespace OverflowHelper.core
 
             URL_Add("POCO", "https://en.wikipedia.org/wiki/Plain_old_CLR_object"); // Old: https://en.wikipedia.org/wiki/Plain_Old_CLR_Object
 
-            URL_Add("Householder matrix", "https://en.wikipedia.org/wiki/Householder_transformation#Householder_matrix");
-
             URL_Add("Reynolds number", "https://en.wikipedia.org/wiki/Reynolds_number");
 
             URL_Add("System32", "https://en.wikipedia.org/wiki/Special_folder#List_of_special_folders");
@@ -137609,6 +137657,16 @@ namespace OverflowHelper.core
 
             URL_Add("Jacobian matrix", "https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant");
 
+            URL_Add("Hilbert matrix", "https://en.wikipedia.org/wiki/Hilbert_matrix");
+
+            URL_Add("Hessian matrix", "https://en.wikipedia.org/wiki/Hessian_matrix");
+
+            URL_Add("Householder matrix", "https://en.wikipedia.org/wiki/Householder_transformation#Householder_matrix");
+
+            URL_Add("Eisenhower matrix", "https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method");
+
+            URL_Add("confusion matrix", "https://en.wikipedia.org/wiki/Confusion_matrix");
+
             URL_Add("singular value decomposition", "https://en.wikipedia.org/wiki/Singular_value_decomposition");
 
             URL_Add("principal component analysis", "https://en.wikipedia.org/wiki/Principal_component_analysis");
@@ -137638,12 +137696,6 @@ namespace OverflowHelper.core
             URL_Add("eigenfunction", "https://en.wikipedia.org/wiki/Eigenfunction");
 
             URL_Add("incomplete LU factorization", "https://en.wikipedia.org/wiki/Incomplete_LU_factorization");
-
-            URL_Add("Eisenhower matrix", "https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method");
-
-            URL_Add("confusion matrix", "https://en.wikipedia.org/wiki/Confusion_matrix");
-
-            URL_Add("Hessian matrix", "https://en.wikipedia.org/wiki/Hessian_matrix");
 
             URL_Add("uMatrix", "https://addons.mozilla.org/en-US/firefox/addon/umatrix/");
 
@@ -141454,6 +141506,8 @@ namespace OverflowHelper.core
             URL_Add("Bulldog", "https://en.wikipedia.org/wiki/Bulldog");
 
             URL_Add("Dalmatian", "https://en.wikipedia.org/wiki/Dalmatian_dog");
+
+            URL_Add("Labrador Retriever", "https://en.wikipedia.org/wiki/Labrador_Retriever");
 
             URL_Add("dogpile", "https://en.wiktionary.org/wiki/dogpile#Verb");
 
@@ -174855,6 +174909,14 @@ namespace OverflowHelper.core
             correctionAdd("QMK CLI__", "QMK command line__");
 
             // QMK
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/issues/521#issuecomment-6124340264>
+            //     Example of number of layers defined outside
+            //
+            //       '"layer_count": 6'
+            //
             correctionAdd("layers__", "increase the number of layers in QMK to more than the default__");
 
             // QMK. Layers
@@ -181826,8 +181888,11 @@ namespace OverflowHelper.core
             //
             correctionAdd("Keychron J HE 8K series___", "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___"); // Sort of identity mapping
             correctionAdd("J HE 8K series___", "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("J-HE keyboards___", "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___");
             correctionAdd("J HE series___", "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___"); // Note: There isn't J HE series, only a J HE 8K series
+            correctionAdd("J-HE boards___", "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___");
             correctionAdd("J HE 8K___", "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___");
+            correctionAdd("J-HE___", "Keychron J HE 8K series (proprietary keyboard firmware, not open source)___");
 
             // For missed pressed or double presses on a mechanical keyboard,
             // it is a fallacy to first change a switch and conclude it was
