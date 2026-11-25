@@ -285,6 +285,19 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
         self._core_setFieldAndSubmit("LookUpTerm", aLookUpTerm)
 
 
+    # Helper function for testing. Related to use of _lookUp()
+    #
+    # Parameter:
+    #
+    #   anExpectedWord: The result of the main word lookup.
+    #                   Note that an (expected) trailing
+    #                   space is common
+    #
+    def _checkMainLookup(self, anExpectedWord, anExplanation):
+
+        self._core_checkFieldValue("CorrectedTerm", anExpectedWord, anExplanation)
+
+
     # Helper function for testing. Mostly for _lookUp()
     #
     def _checkEditSummary(self, anExpectedEditSummary, anExplanation):
@@ -297,8 +310,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # Parameter:
     #
     #   anExpectedLink: That is, encoded as the link in inline
-    #                   Markdown format, with both a link text
-    #                   and a URL
+    #                   Markdown format ("[<text>](<link>)"),
+    #                   with both a link text and a URL
     #
     def _checkInlineMarkdownLink(self, anExpectedLink, anExplanation):
 
@@ -310,7 +323,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     # Parameter:
     #
     #   anExpectedLink: That is, encoded as text that encodes
-    #                   the link as not directly a link (but
+    #                   the link as not directly a link (and
     #                   ***without*** the link text)
     #
     def _checkYouTubeCompatibleLink(self, anExpectedLink, anExplanation):
@@ -332,6 +345,10 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
 
     # Helper function for testing. Mostly for _lookUp()
     #
+    #   anExpectedLink: That is, encoded as an internal MediaWiki link,
+    #                   used on Wikipedia ("[[<text>|<link>]]"), with
+    #                   both link text and URL
+    #
     def _checkInternalMediaWikiLink(self, anExpectedLink, anExplanation):
 
         self._core_checkFieldValue("URL6", anExpectedLink, anExplanation)
@@ -341,9 +358,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #
     # Parameter:
     #
-    #   anExpectedLink: That is, encoded as an external MediaWiki
-    #                   link (used on Wikipedia), with a bare URL,
-    #                   with both link text and URL
+    #   anExpectedLink: That is, encoded as an external MediaWiki link,
+    #                   used on Wikipedia ("[<text> <link>]"), with a
+    #                   bare URL, with both link text and URL
     #
     def _checkExternalMediaWikiLink(self, anExpectedLink, anExplanation):
 
@@ -356,8 +373,9 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
     #
     #   anExpectedCommentMarkdown:
     #
-    #     That is, encoded as a comment in Markdown, with
-    #     a bare URL, with both link text and URL
+    #     That is, encoded as an (extended) comment in
+    #     Markdown format, with a bare URL, with both
+    #     link text and URL
     #
     def _checkCorrectionCommentLink(self, anExpectedLink, anExplanation):
 
@@ -1170,10 +1188,15 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          altURLprefix + "pass+by+reference_",
                          wordList_URLprefix + "pass_by_reference")
 
-        # Check more fields
+        # Check more fields (note: For now, only for this
+        #                          single test lookup)
         #
         #Meta: What about using double quotes vs. single quotes?
         #
+        self._checkMainLookup(
+            'pass by reference ', # Note: Trailing space
+            'main lookup result')
+
         self._checkInlineMarkdownLink(
             '[pass&nbsp;by&nbsp;reference](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference)',
             'Inline Markdown link')
@@ -1256,8 +1279,8 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          "", "",  # No cross references
                          wordList_URLprefix + "Windows_Server_2008")
 
-        if True: # Test filtering of non-breaking space (HTML /
-                 # Markdown encoded) in the input:
+        if True: # Test filtering of non-breaking space (encoded
+                 # as HTML / Markdown) in the input:
                  #
                  # ***Leading*** non-breaking space should be left
                  # alone, for the convention in the word set
@@ -1277,7 +1300,7 @@ class TestMainEditOverflowLookupWeb(unittest.TestCase):
                          wordList_URLprefix + "&nbsp;pF")
 
         if True: # Test filtering of non-breaking
-                 # space (Unicode) in the input
+                 # space (encoded as Unicode) in the input
                  #
                  # This tests particular expected content of the
                  # word list

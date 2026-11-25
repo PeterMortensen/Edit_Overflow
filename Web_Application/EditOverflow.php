@@ -684,8 +684,8 @@
                                                                       #      for the first item (and
                                                                       #      thus an empty entry when
                                                                       #)     decoding it).
-                $non_breakingSpaceInLinkText = 1; # Stub. Default: 1
-                if ($non_breakingSpaceInLinkText)
+                $non_breakingSpace_LinkText = 1; # Stub. Default: 1
+                if ($non_breakingSpace_LinkText)
                 {
                     $correctTermOutput_links =
                         transformFor_non_breakingSpace($correctTerm);
@@ -697,7 +697,7 @@
 
                 $linkInlineMarkdown = "[$correctTermOutput_links]($URL)";
 
-                # We preformat it in the most commonly used 
+                # We preformat it in the most commonly used
                 # form in YouTube comments:
                 #
                 #     1. Styled as ***bold*** (by using "*").
@@ -1202,8 +1202,8 @@
                     id="CorrectedTerm"
                     class="XYZ10"
                     <?php
-                        $non_breakingSpaceInMainLookup = 0; # Stub. Default: 0
-                        if ($non_breakingSpaceInMainLookup)
+                        $non_breakingSpace_MainLookup = 0; # Stub. Default: 0
+                        if ($non_breakingSpace_MainLookup)
                         {
                             $termForOutput =
                                 transformFor_non_breakingSpace($effectiveTerm);
@@ -1216,7 +1216,7 @@
                         ## Stub
                         #$termForOutput =
                         #    transformFor_non_breakingSpace($effectiveTerm);
-                        #$termForOutput = "ABC_YYY";    
+                        #$termForOutput = "ABC_YYY";
 
                         # The extra trailing space in the output is for
                         # presuming the lookup term contains a trailing
