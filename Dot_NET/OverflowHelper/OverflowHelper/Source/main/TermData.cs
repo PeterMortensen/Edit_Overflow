@@ -9211,6 +9211,27 @@ namespace OverflowHelper.core
 
             correctionAdd("ajustments", "adjustments");
 
+            correctionAdd("quantitaty", "quantity");
+            correctionAdd("quntity", "quantity");
+            correctionAdd("quantiy", "quantity");
+
+            correctionAdd("quantites", "quantities");
+            correctionAdd("qties", "quantities");
+            correctionAdd("qty's", "quantities");
+
+            correctionAdd("quantifibly", "quantifiably");
+
+            correctionAdd("quantitier", "quantifier");
+
+            correctionAdd("quantifers", "quantifiers");
+
+            correctionAdd("cuantitative", "quantitative");
+            correctionAdd("quantative", "quantitative");
+
+            correctionAdd("qtile", "Qtile");
+
+            correctionAdd("QtOpcUa", "Qt OPC UA");
+
             correctionAdd("thresh-hold", "threshold");
             correctionAdd("threeshold", "threshold");
             correctionAdd("threshhold", "threshold");
@@ -25138,26 +25159,6 @@ namespace OverflowHelper.core
             // Superconductors. Crystal.
             correctionAdd("Charge density wave", "charge density wave");
             correctionAdd("CDW", "charge density wave");
-
-            correctionAdd("quantitaty", "quantity");
-            correctionAdd("quntity", "quantity");
-
-            correctionAdd("quantites", "quantities");
-            correctionAdd("qties", "quantities");
-            correctionAdd("qty's", "quantities");
-
-            correctionAdd("quantifibly", "quantifiably");
-
-            correctionAdd("quantitier", "quantifier");
-
-            correctionAdd("quantifers", "quantifiers");
-
-            correctionAdd("cuantitative", "quantitative");
-            correctionAdd("quantative", "quantitative");
-
-            correctionAdd("qtile", "Qtile");
-
-            correctionAdd("QtOpcUa", "Qt OPC UA");
 
             correctionAdd("quatumn", "quantum");
             correctionAdd("quantic", "quantum");
@@ -43093,11 +43094,6 @@ namespace OverflowHelper.core
             // A reengineering tool (for software)
             correctionAdd("ghidra", "Ghidra");
 
-            // A reverse engineering tool for software on the assembly level
-            correctionAdd("radare", "Radare2");
-            correctionAdd("Radare", "Radare2");
-            correctionAdd("r2", "Radare2");
-
             correctionAdd("NRE", "non-recurring engineering");
 
             correctionAdd("Mechanical engineering", "mechanical engineering");
@@ -51239,6 +51235,7 @@ namespace OverflowHelper.core
             correctionAdd("shottky", "Schottky");
             correctionAdd("Schosky", "Schottky");
             correctionAdd("Schotky", "Schottky");
+            correctionAdd("schotky", "Schottky");
             correctionAdd("shotky", "Schottky");
 
             correctionAdd("Shockley formula", "Shockley diode equation");
@@ -68737,6 +68734,24 @@ namespace OverflowHelper.core
             correctionAdd("Gasket mount", "gasket mount");
             correctionAdd("gasket", "gasket mount");
 
+            // Mechanical keyboards, keycap profile, row number designation
+            correctionAdd("r0", "R0");
+
+            // Mechanical keyboards, keycap profile, row number designation
+            correctionAdd("r1", "R1");
+
+            // Mechanical keyboards, keycap profile, row number designation
+            correctionAdd("r2", "R2");
+
+            // Mechanical keyboards, keycap profile, row number designation
+            correctionAdd("r3", "R3");
+
+            // Mechanical keyboards, keycap profile, row number designation
+            correctionAdd("r4", "R4");
+
+            // Mechanical keyboards, keycap profile, row number designation
+            correctionAdd("r5", "R5");
+
             // Mechanical keyboards
             //
             // Alternative URLs:
@@ -68748,6 +68763,8 @@ namespace OverflowHelper.core
             //
             //       Contact surfaces:
             //
+            //         <https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=44s>
+            //
             //         Spherical:   MDA
             //
             //         Cylindrical: Cherry, OEM, MT3
@@ -68756,9 +68773,16 @@ namespace OverflowHelper.core
             //
             //         Convex:      ?
             //
-            //       Row shapes
-            //           (at 02 min 19 secs in Dygma's fundamentals video,
-            //            <https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=2m19s>):
+            //       Row shapes:
+            //
+            //         (at 02 min 19 secs in Dygma's fundamentals video,
+            //         <https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=2m19s>)
+            //
+            //         R0/R1 - R5 is defined in:
+            //
+            //           <https://monacokeys.de/en/blogs/guides/keycap-profiles>
+            //
+            //             Includes Cherry, OEM, SA, MDA, KAT, DSA, XDA, PBS, and PFF.
             //
             //         Sculpted: Cherry, OEM, DSS
             //
@@ -68858,6 +68882,10 @@ namespace OverflowHelper.core
             //            similar in height and sculpt to OEM (shorter
             //            than SA and MT3 and taller than MDA and Cherry).
             //            ... a bit higher pitched than KAT (~1.65 mm)"
+            //
+            //     Annotated quote with context links:
+            //
+            //       <https://www.reddit.com/r/Keychron/comments/1y51j4n/comment/19t62m2bwc3c1/>
             //
             //   <https://en.akkogear.com/faq/akko-keycaps-profile-comparison/>
             //   <https://www.keychron.com/pages/osa-profile-keycaps-file>
@@ -92819,33 +92847,6 @@ namespace OverflowHelper.core
             correctionAdd("B2 Pro", "Keychron B2 Pro (95%)");
             correctionAdd("b2 pro", "Keychron B2 Pro (95%)");
 
-            // A 100-key (95%. Not true TKL) crippled wired
-            // and wireless (both Bluetooth and '2.4 GHz')
-            // QMK/Via-capable mechanical keyboard
-            // from Keychron without a knob.
-            //
-            // Notes:
-            //
-            //   * Proprietary firmware (not QMK)
-            //
-            //   * Missing PrtScr cluster. Only four keys in the
-            //     navigation cluster, in a non-standard position
-            //     and arrangement
-            //
-            //   * The "0" key on the numeric keypad has a nonstandard size
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.amazon.com/Keychron-Mechanical-Swappable-Bluetooth-Compatible/dp/B0G492TB2J>
-            //
-            // R5 source code, released on 2026-08-07:
-            //
-            //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/r5>
-            //
-            correctionAdd("Keychron Retro R5", "Keychron R5 (95%)");
-            correctionAdd("Keychron R5", "Keychron R5 (95%)");
-            correctionAdd("R5", "Keychron R5 (95%)");
-
             // A 100-key (95%. Not true TKL) wired and wireless
             // (both Bluetooth and '2.4 GHz')
             // mechanical keyboard from NuPhy.
@@ -94548,6 +94549,12 @@ namespace OverflowHelper.core
             //
             //   <https://developer.apple.com/library/archive/documentation/mac/pdf/MacintoshToolboxEssentials.pdf>
             //     At page 2-43.
+            //
+            //   <https://deskthority.net/viewtopic.php?t=23378>
+            //     Mostly about key cap profiles. Compared to
+            //     AEK (original), AT101 Bigfoot,
+            //
+            //     Does ***not*** include OSA.
             //
             correctionAdd("Apple Extended Keyboard II", "Apple Extended Keyboard II (100%)");
             correctionAdd("apple extended keyboard II", "Apple Extended Keyboard II (100%)");
@@ -122143,8 +122150,6 @@ namespace OverflowHelper.core
 
             URL_Add("maglev", "https://en.wikipedia.org/wiki/Maglev");
 
-            URL_Add("Radare2", "https://en.wikipedia.org/wiki/Radare2");
-
             URL_Add("The Martian", "https://en.wikipedia.org/wiki/The_Martian_(film)");
 
             URL_Add("thermoelectric", "https://en.wiktionary.org/wiki/thermoelectric#Adjective");
@@ -123002,8 +123007,6 @@ namespace OverflowHelper.core
             URL_Add("anticipation", "https://en.wiktionary.org/wiki/anticipation#Noun");
 
             URL_Add("datasheets", "https://en.wiktionary.org/wiki/datasheet#Noun");
-
-            URL_Add("double-shot", "https://en.wiktionary.org/wiki/double-shot#Adjective");
 
             URL_Add("ArUco", "https://sourceforge.net/projects/aruco/files/");
 
@@ -136889,6 +136892,122 @@ namespace OverflowHelper.core
 
             URL_Add("RMI", "https://en.wikipedia.org/wiki/Java_remote_method_invocation");
 
+            URL_Add("check", "https://en.wiktionary.org/wiki/check#Verb");
+
+            URL_Add("checks", "https://en.wiktionary.org/wiki/check#Verb");
+
+            URL_Add("checked", "https://en.wiktionary.org/wiki/check#Verb");
+
+            URL_Add("recheck", "https://en.wiktionary.org/wiki/recheck#Verb");
+
+            URL_Add("rechecking", "https://en.wiktionary.org/wiki/recheck#Verb");
+
+            URL_Add("rechecked", "https://en.wiktionary.org/wiki/recheck#Verb");
+
+            URL_Add("checker", "https://en.wiktionary.org/wiki/checker#Noun");
+
+            URL_Add("checklist", "https://en.wiktionary.org/wiki/checklist#Noun");
+
+            URL_Add("checklists", "https://en.wiktionary.org/wiki/checklist#Noun");
+
+            URL_Add("self-check", "https://en.wiktionary.org/wiki/self-exam#Noun");
+
+            URL_Add("checkpoint", "https://en.wiktionary.org/wiki/checkpoint#Noun");
+
+            URL_Add("checkmate", "https://en.wiktionary.org/wiki/checkmate#Noun");
+
+            URL_Add("checkmating", "https://en.wiktionary.org/wiki/checkmate#Verb");
+
+            URL_Add("checkbox", "https://en.wiktionary.org/wiki/checkbox#Noun");
+
+            URL_Add("checkboxes", "https://en.wiktionary.org/wiki/checkbox#Noun");
+
+            URL_Add("checksumming", "https://en.wiktionary.org/wiki/checksum#Verb");
+
+            URL_Add("checksum", "https://en.wiktionary.org/wiki/checksum#Noun");
+
+            URL_Add("check mark", "https://en.wiktionary.org/wiki/check_mark#Noun");
+
+            URL_Add("checks and balances", "https://en.wiktionary.org/wiki/checks_and_balances#Noun");
+
+            URL_Add("check in", "https://en.wiktionary.org/wiki/check_in#Verb");
+
+            URL_Add("check up", "https://en.wiktionary.org/wiki/check_up#Verb");
+
+            URL_Add("check out", "https://en.wiktionary.org/wiki/check_out#Verb");
+
+            URL_Add("spell-checking", "https://en.wiktionary.org/wiki/spell-check#Verb");
+
+            URL_Add("triple check", "https://en.wiktionary.org/wiki/triple_check#Verb");
+
+            URL_Add("triple checked", "https://en.wiktionary.org/wiki/triple_check#Verb");
+
+            URL_Add("type-check", "https://en.wiktionary.org/wiki/type-check#Verb");
+
+            URL_Add("type-checks", "https://en.wiktionary.org/wiki/type-check#Verb");
+
+            URL_Add("uncheck", "https://en.wiktionary.org/wiki/uncheck#Verb");
+
+            URL_Add("unchecking", "https://en.wiktionary.org/wiki/uncheck#Verb");
+
+            URL_Add("unchecked", "https://en.wiktionary.org/wiki/uncheck#Verb");
+
+            URL_Add("health check", "https://dictionary.cambridge.org/dictionary/english/health-check");
+
+            URL_Add("countercheck", "https://en.wiktionary.org/wiki/countercheck#Verb");
+
+            URL_Add("counterchecked", "https://en.wiktionary.org/wiki/countercheck#Verb");
+
+            URL_Add("cross-checked", "https://en.wiktionary.org/wiki/cross-check#Verb");
+
+            URL_Add("cross-check", "https://en.wiktionary.org/wiki/cross-check#Verb"); // Old: https://en.wiktionary.org/wiki/cross-check
+
+            URL_Add("cross checked", "https://en.wiktionary.org/wiki/cross_check#Verb");
+
+            URL_Add("double check", "https://en.wiktionary.org/wiki/double_check#Verb"); // Old: https://en.wiktionary.org/wiki/double_check
+
+            URL_Add("double checking", "https://en.wiktionary.org/wiki/double_check#Verb");
+
+            URL_Add("double checked", "https://en.wiktionary.org/wiki/double_check#Verb");
+
+            URL_Add("fact-check", "https://en.wiktionary.org/wiki/fact_check#Verb");
+
+            URL_Add("fact checked", "https://en.wiktionary.org/wiki/fact_check#Verb");
+
+            URL_Add("fact checking", "https://en.wiktionary.org/wiki/fact_check#Verb");
+
+            URL_Add("checkride", "https://en.wikipedia.org/wiki/FAA_Practical_Test");
+
+            URL_Add("spot check", "https://en.wiktionary.org/wiki/spot_check#Noun");
+
+            URL_Add("paycheck", "https://en.wiktionary.org/wiki/paycheck#Noun");
+
+            URL_Add("held in check", "https://en.wiktionary.org/wiki/in_check#Usage_notes");
+
+            URL_Add("typechecking", "https://en.wiktionary.org/wiki/typechecking#Noun");
+
+            URL_Add("typechecker", "https://en.wiktionary.org/wiki/typechecker#Noun");
+
+            URL_Add("spellcheck", "https://en.wiktionary.org/wiki/spellcheck#Noun"); // Old: https://en.wiktionary.org/wiki/spellcheck#English
+
+            URL_Add("spell checker", "https://en.wiktionary.org/wiki/spell_checker#Noun");
+
+            URL_Add("web browser spell checking", "https://en.wikipedia.org/wiki/Wikipedia:Typo_Team#Browser_spell_checking");
+
+            URL_Add("Memcheck", "https://en.wikipedia.org/wiki/Valgrind#Memcheck");
+
+            URL_Add("Rust borrow checker", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Memory_safety");
+
+            URL_Add("ShellCheck", "https://www.shellcheck.net/");
+
+            URL_Add("Cppcheck", "https://en.wikipedia.org/wiki/Cppcheck");
+
+            URL_Add("Checkstyle", "https://en.wikipedia.org/wiki/Checkstyle");
+
+            URL_Add("System File Checker", "https://en.wikipedia.org/wiki/System_File_Checker");
+
+            URL_Add("npm-check-updates", "https://github.com/raineorshine/npm-check-updates");
+
             URL_Add("-c", "https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html#index-c");
 
             URL_Add("-combine", "https://gcc.gnu.org/onlinedocs/gcc-4.5.4/gcc/Overall-Options.html#index-combine-82");
@@ -137255,11 +137374,11 @@ namespace OverflowHelper.core
 
             URL_Add("-ffreestanding", "https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html#index-ffreestanding-1");
 
-            URL_Add("-fdelete-null-pointer-checks", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-fdelete-null-pointer-checks");
-
             URL_Add("-Wincompatible-pointer-types", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types");
 
             URL_Add("-Wunknown-pragmas", "https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas");
+
+            URL_Add("-fdelete-null-pointer-checks", "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-fdelete-null-pointer-checks");
 
             URL_Add("collect2: error: ld returned 1 exit status", "https://stackoverflow.com/questions/16437383/linker-error-gcc");
 
@@ -142751,8 +142870,6 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V6 8K (105%)", "https://www.keychron.com/products/keychron-v6-8k-qmk-wired-custom-mechanical-keyboard");
 
-            URL_Add("Keychron R5 (95%)", "https://www.keychron.com/pages/keychron-r5-user-manual");
-
             URL_Add("Cooler Master support", "https://www.reddit.com/r/coolermaster/comments/132twvn/warranty_check/");
 
             URL_Add("Cooler Master Portal", "https://coolermaster.egnyte.com/dl/ppOBxZwWQF");
@@ -145103,8 +145220,6 @@ namespace OverflowHelper.core
 
             URL_Add("Altera Quartus II", "https://en.wikipedia.org/wiki/Intel_Quartus_Prime");
 
-            URL_Add("self-check", "https://en.wiktionary.org/wiki/self-exam#Noun");
-
             URL_Add("CacheFly", "https://en.wikipedia.org/wiki/CacheFly");
 
             URL_Add("KCacheGrind", "https://en.wikipedia.org/wiki/Valgrind#Other_tools");
@@ -146265,8 +146380,6 @@ namespace OverflowHelper.core
 
             URL_Add("setting up the default RGB lighting configuration in QMK", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard#default_RGB_lighting");
 
-            URL_Add("gasket mount", "https://switchandclick.com/guide-to-mechanical-keyboard-cases/");
-
             URL_Add("KVM switch", "https://en.wikipedia.org/wiki/KVM_switch");
 
             URL_Add("DIP switch", "https://en.wikipedia.org/wiki/DIP_switch");
@@ -146380,6 +146493,52 @@ namespace OverflowHelper.core
             URL_Add("shine-through keycaps", "https://switchandclick.com/ultimate-guide-to-picking-a-keycap-set-for-your-mechanical-keyboard/");
 
             URL_Add("Tai-Hao PBT shine-through keycaps", "https://www.reddit.com/r/Keychron/comments/1mzl9r2/comment/nakbotf/");
+
+            URL_Add("scissor-switch", "https://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch");
+
+            URL_Add("double-shot", "https://en.wiktionary.org/wiki/double-shot#Adjective");
+
+            URL_Add("gasket mount", "https://switchandclick.com/guide-to-mechanical-keyboard-cases/");
+
+            URL_Add("R0", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
+
+            URL_Add("R1", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
+
+            URL_Add("R2", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
+
+            URL_Add("R3", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
+
+            URL_Add("R4", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
+
+            URL_Add("R5", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
+
+            URL_Add("DSA keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
+
+            URL_Add("KAM keycap profile", "https://www.daskeyboard.com/blog/types-of-keycap-profiles/");
+
+            URL_Add("APCS", "https://stackoverflow.com/questions/10494848/arm-whats-the-difference-between-apcs-and-aapcs-abi");
+
+            URL_Add("KAT (Keyreative all touch) keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/#KAT_Profile");
+
+            URL_Add("MBK keycap profile", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=3m13s");
+
+            URL_Add("MDA keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
+
+            URL_Add("MOA keycap profile", "https://epomaker.com/blogs/guides/how-to-choose-the-right-keycap-profile");
+
+            URL_Add("MT3 keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
+
+            URL_Add("OEM keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
+
+            URL_Add("OSA keycap profile", "https://www.reddit.com/r/MechanicalKeyboards/comments/dq1wp7/review_osaprofile/"); // Old: <https://keycapshq.com/best-osa-profile-keycaps/#1_What_is_OSA_Keycap_Profile>
+
+            URL_Add("XDA keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
+
+            URL_Add("XVX keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
+
+            URL_Add("Keychron LSA keycap profile", "https://keeb-finder.com/blogs/low-profile-keycaps");
+
+            URL_Add("PBS keycap profile", "https://matt3o.com/pbs-the-penguin-slides-fast-on-his-belly/");
 
             URL_Add("keyboards", "https://en.wiktionary.org/wiki/keyboard#Noun");
 
@@ -148681,42 +148840,6 @@ namespace OverflowHelper.core
 
             URL_Add("breaking", "https://en.wiktionary.org/wiki/break#Verb");
 
-            URL_Add("check", "https://en.wiktionary.org/wiki/check#Verb");
-
-            URL_Add("checks", "https://en.wiktionary.org/wiki/check#Verb");
-
-            URL_Add("checked", "https://en.wiktionary.org/wiki/check#Verb");
-
-            URL_Add("checker", "https://en.wiktionary.org/wiki/checker#Noun");
-
-            URL_Add("checklist", "https://en.wiktionary.org/wiki/checklist#Noun");
-
-            URL_Add("checklists", "https://en.wiktionary.org/wiki/checklist#Noun");
-
-            URL_Add("checkpoint", "https://en.wiktionary.org/wiki/checkpoint#Noun");
-
-            URL_Add("checkmate", "https://en.wiktionary.org/wiki/checkmate#Noun");
-
-            URL_Add("checkmating", "https://en.wiktionary.org/wiki/checkmate#Verb");
-
-            URL_Add("checkbox", "https://en.wiktionary.org/wiki/checkbox#Noun");
-
-            URL_Add("checkboxes", "https://en.wiktionary.org/wiki/checkbox#Noun");
-
-            URL_Add("checksumming", "https://en.wiktionary.org/wiki/checksum#Verb");
-
-            URL_Add("checksum", "https://en.wiktionary.org/wiki/checksum#Noun");
-
-            URL_Add("check mark", "https://en.wiktionary.org/wiki/check_mark#Noun");
-
-            URL_Add("checks and balances", "https://en.wiktionary.org/wiki/checks_and_balances#Noun");
-
-            URL_Add("check in", "https://en.wiktionary.org/wiki/check_in#Verb");
-
-            URL_Add("check up", "https://en.wiktionary.org/wiki/check_up#Verb");
-
-            URL_Add("check out", "https://en.wiktionary.org/wiki/check_out#Verb");
-
             URL_Add("cherry-pick", "https://en.wiktionary.org/wiki/cherry-pick#Verb");
 
             URL_Add("cherry-picked", "https://en.wiktionary.org/wiki/cherry-pick#Verb");
@@ -148797,12 +148920,6 @@ namespace OverflowHelper.core
 
             URL_Add("reasked", "https://en.wiktionary.org/wiki/reask#Verb");
 
-            URL_Add("recheck", "https://en.wiktionary.org/wiki/recheck#Verb");
-
-            URL_Add("rechecking", "https://en.wiktionary.org/wiki/recheck#Verb");
-
-            URL_Add("rechecked", "https://en.wiktionary.org/wiki/recheck#Verb");
-
             URL_Add("relink", "https://en.wiktionary.org/wiki/relink#Verb");
 
             URL_Add("repacking", "https://en.wiktionary.org/wiki/repack#Verb");
@@ -148845,8 +148962,6 @@ namespace OverflowHelper.core
 
             URL_Add("speaking", "https://en.wiktionary.org/wiki/speak#Verb");
 
-            URL_Add("spell-checking", "https://en.wiktionary.org/wiki/spell-check#Verb");
-
             URL_Add("sticks", "https://en.wiktionary.org/wiki/stick#Verb_2");
 
             URL_Add("sticking", "https://en.wiktionary.org/wiki/stick#Verb_2");
@@ -148865,31 +148980,17 @@ namespace OverflowHelper.core
 
             URL_Add("thocking", "https://en.wiktionary.org/wiki/thock#Verb");
 
-            URL_Add("triple check", "https://en.wiktionary.org/wiki/triple_check#Verb");
-
-            URL_Add("triple checked", "https://en.wiktionary.org/wiki/triple_check#Verb");
-
             URL_Add("triple-click", "https://en.wiktionary.org/wiki/triple-click#Verb");
 
             URL_Add("triple-clicking", "https://en.wiktionary.org/wiki/triple-click#Verb");
 
             URL_Add("trucking", "https://en.wiktionary.org/wiki/truck#Verb");
 
-            URL_Add("type-check", "https://en.wiktionary.org/wiki/type-check#Verb");
-
-            URL_Add("type-checks", "https://en.wiktionary.org/wiki/type-check#Verb");
-
             URL_Add("tweak", "https://en.wiktionary.org/wiki/tweak#Verb");
 
             URL_Add("tweaking", "https://en.wiktionary.org/wiki/tweak#Verb");
 
             URL_Add("tweaked", "https://en.wiktionary.org/wiki/tweak#Verb");
-
-            URL_Add("uncheck", "https://en.wiktionary.org/wiki/uncheck#Verb");
-
-            URL_Add("unchecking", "https://en.wiktionary.org/wiki/uncheck#Verb");
-
-            URL_Add("unchecked", "https://en.wiktionary.org/wiki/uncheck#Verb");
 
             URL_Add("unhook", "https://en.wiktionary.org/wiki/unhook#Verb");
 
@@ -149522,36 +149623,6 @@ namespace OverflowHelper.core
             URL_Add("fingerboard", "https://en.wikipedia.org/wiki/Fingerboard");
 
             URL_Add("Topre", "https://www.youtube.com/watch?v=sAo_URRIAiA&t=6m13s");
-
-            URL_Add("scissor-switch", "https://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch");
-
-            URL_Add("DSA keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
-
-            URL_Add("KAM keycap profile", "https://www.daskeyboard.com/blog/types-of-keycap-profiles/");
-
-            URL_Add("APCS", "https://stackoverflow.com/questions/10494848/arm-whats-the-difference-between-apcs-and-aapcs-abi");
-
-            URL_Add("KAT (Keyreative all touch) keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/#KAT_Profile");
-
-            URL_Add("MBK keycap profile", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=3m13s");
-
-            URL_Add("MDA keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
-
-            URL_Add("MOA keycap profile", "https://epomaker.com/blogs/guides/how-to-choose-the-right-keycap-profile");
-
-            URL_Add("MT3 keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
-
-            URL_Add("OEM keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
-
-            URL_Add("OSA keycap profile", "https://www.reddit.com/r/MechanicalKeyboards/comments/dq1wp7/review_osaprofile/"); // Old: <https://keycapshq.com/best-osa-profile-keycaps/#1_What_is_OSA_Keycap_Profile>
-
-            URL_Add("XDA keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
-
-            URL_Add("XVX keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
-
-            URL_Add("Keychron LSA keycap profile", "https://keeb-finder.com/blogs/low-profile-keycaps");
-
-            URL_Add("PBS keycap profile", "https://matt3o.com/pbs-the-penguin-slides-fast-on-his-belly/");
 
             URL_Add("Microsoft Keyboard Layout Creator", "https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#Microsoft_Windows");
 
@@ -150583,8 +150654,6 @@ namespace OverflowHelper.core
 
             URL_Add("worthy cause", "https://dictionary.cambridge.org/example/english/worthy-cause");
 
-            URL_Add("health check", "https://dictionary.cambridge.org/dictionary/english/health-check");
-
             URL_Add("worst of all", "https://dictionary.cambridge.org/dictionary/english/worst-of-all");
 
             URL_Add("atomic level", "https://dictionary.cambridge.org/example/english/atomic-level");
@@ -151415,63 +151484,9 @@ namespace OverflowHelper.core
 
             URL_Add("takes the biscuit", "https://en.wiktionary.org/wiki/take_the_biscuit#Verb");
 
-            URL_Add("countercheck", "https://en.wiktionary.org/wiki/countercheck#Verb");
-
-            URL_Add("counterchecked", "https://en.wiktionary.org/wiki/countercheck#Verb");
-
-            URL_Add("cross-checked", "https://en.wiktionary.org/wiki/cross-check#Verb");
-
-            URL_Add("cross-check", "https://en.wiktionary.org/wiki/cross-check#Verb"); // Old: https://en.wiktionary.org/wiki/cross-check
-
-            URL_Add("cross checked", "https://en.wiktionary.org/wiki/cross_check#Verb");
-
-            URL_Add("double check", "https://en.wiktionary.org/wiki/double_check#Verb"); // Old: https://en.wiktionary.org/wiki/double_check
-
-            URL_Add("double checking", "https://en.wiktionary.org/wiki/double_check#Verb");
-
-            URL_Add("double checked", "https://en.wiktionary.org/wiki/double_check#Verb");
-
             URL_Add("double-click", "https://en.wiktionary.org/wiki/double-click#Verb");
 
             URL_Add("double-clicking", "https://en.wiktionary.org/wiki/double-click#Verb");
-
-            URL_Add("fact-check", "https://en.wiktionary.org/wiki/fact_check#Verb");
-
-            URL_Add("fact checked", "https://en.wiktionary.org/wiki/fact_check#Verb");
-
-            URL_Add("fact checking", "https://en.wiktionary.org/wiki/fact_check#Verb");
-
-            URL_Add("checkride", "https://en.wikipedia.org/wiki/FAA_Practical_Test");
-
-            URL_Add("spot check", "https://en.wiktionary.org/wiki/spot_check#Noun");
-
-            URL_Add("paycheck", "https://en.wiktionary.org/wiki/paycheck#Noun");
-
-            URL_Add("held in check", "https://en.wiktionary.org/wiki/in_check#Usage_notes");
-
-            URL_Add("typechecking", "https://en.wiktionary.org/wiki/typechecking#Noun");
-
-            URL_Add("typechecker", "https://en.wiktionary.org/wiki/typechecker#Noun");
-
-            URL_Add("spellcheck", "https://en.wiktionary.org/wiki/spellcheck#Noun"); // Old: https://en.wiktionary.org/wiki/spellcheck#English
-
-            URL_Add("spell checker", "https://en.wiktionary.org/wiki/spell_checker#Noun");
-
-            URL_Add("web browser spell checking", "https://en.wikipedia.org/wiki/Wikipedia:Typo_Team#Browser_spell_checking");
-
-            URL_Add("Memcheck", "https://en.wikipedia.org/wiki/Valgrind#Memcheck");
-
-            URL_Add("Rust borrow checker", "https://en.wikipedia.org/wiki/Rust_(programming_language)#Memory_safety");
-
-            URL_Add("ShellCheck", "https://www.shellcheck.net/");
-
-            URL_Add("Cppcheck", "https://en.wikipedia.org/wiki/Cppcheck");
-
-            URL_Add("Checkstyle", "https://en.wikipedia.org/wiki/Checkstyle");
-
-            URL_Add("System File Checker", "https://en.wikipedia.org/wiki/System_File_Checker");
-
-            URL_Add("npm-check-updates", "https://github.com/raineorshine/npm-check-updates");
 
             URL_Add("CRC", "https://en.wikipedia.org/wiki/Cyclic_redundancy_check");
 
@@ -153844,6 +153859,20 @@ namespace OverflowHelper.core
             // The HTML attribute
             correctionAdd("CLASS_", "class_");
 
+            correctionAdd("Checks_", "checks_");
+
+            correctionAdd("checkin_", "checking_");
+
+            correctionAdd("check in_", "check-in_");
+
+            // The noun
+            correctionAdd("fact-check_", "fact check_");
+
+            correctionAdd("legit check_", "legitimacy check_");
+            correctionAdd("lc_", "legitimacy check_");
+
+            correctionAdd("cross-check_", "crosscheck_");
+
             correctionAdd("mechanicical_", "mechanical_");
             correctionAdd("machanical_", "mechanical_");
             correctionAdd("mechnical_", "mechanical_");
@@ -156006,6 +156035,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("sculpting_", "sculpted, a kind of row shape for a keycap profile_");
             correctionAdd("sculpted_", "sculpted, a kind of row shape for a keycap profile_");
+            correctionAdd("sculpt_", "sculpted, a kind of row shape for a keycap profile_");
 
             // The verb, but it was intended to be the adjective
             //
@@ -161212,6 +161242,33 @@ namespace OverflowHelper.core
             correctionAdd("v5_", "Keychron V5 ISO_");
             correctionAdd("V5_", "Keychron V5 ISO_");
 
+            // A 100-key (95%. Not true TKL) crippled wired
+            // and wireless (both Bluetooth and '2.4 GHz')
+            // QMK/Via-capable mechanical keyboard
+            // from Keychron without a knob.
+            //
+            // Notes:
+            //
+            //   * Proprietary firmware (not QMK)
+            //
+            //   * Missing PrtScr cluster. Only four keys in the
+            //     navigation cluster, in a non-standard position
+            //     and arrangement
+            //
+            //   * The "0" key on the numeric keypad has a nonstandard size
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.amazon.com/Keychron-Mechanical-Swappable-Bluetooth-Compatible/dp/B0G492TB2J>
+            //
+            // R5 source code, released on 2026-08-07:
+            //
+            //   <https://github.com/Keychron/qmk_firmware/tree/2025q3/keyboards/keychron/r5>
+            //
+            correctionAdd("Keychron Retro R5_", "Keychron R5 (95%)_");
+            correctionAdd("Keychron R5_", "Keychron R5 (95%)_");
+            correctionAdd("R5_", "Keychron R5 (95%)_");
+
             // A 101-key (95%. Not true TKL) crippled low-profile wired
             // and wireless (both Bluetooth and '2.4 GHz')
             // rubberdome keyboard from Keychron.
@@ -162255,18 +162312,6 @@ namespace OverflowHelper.core
             correctionAdd("hided_", "hid_");
 
             correctionAdd("hiden_", "hidden_");
-
-            correctionAdd("Checks_", "checks_");
-
-            correctionAdd("checkin_", "checking_");
-
-            // The noun
-            correctionAdd("fact-check_", "fact check_");
-
-            correctionAdd("legit check_", "legitimacy check_");
-            correctionAdd("lc_", "legitimacy check_");
-
-            correctionAdd("cross-check_", "crosscheck_");
 
             correctionAdd("sub-modules_", "submodules_");
 
@@ -168658,6 +168703,11 @@ namespace OverflowHelper.core
 
             correctionAdd("trade-off_", "trade off_");
 
+            // A reverse engineering tool for software on the assembly level
+            correctionAdd("radare_", "Radare2_");
+            correctionAdd("Radare_", "Radare2_");
+            correctionAdd("r2_", "Radare2_");
+
             // C. A book
             //
             // Authors: Brian Kernighan and Dennis Ritchie
@@ -171699,12 +171749,6 @@ namespace OverflowHelper.core
 
             URL_Add("nano_", "https://en.wikipedia.org/wiki/GNU_nano");
 
-            URL_Add("legitimacy check_", "https://en.wiktionary.org/wiki/LC#Noun");
-
-            URL_Add("crosscheck_", "https://en.wiktionary.org/wiki/crosscheck#Noun");
-
-            URL_Add("fact check_", "https://en.wiktionary.org/wiki/fact_check#Noun");
-
             URL_Add("senior_", "https://en.wiktionary.org/wiki/senior#Adjective");
 
             URL_Add("entity component system_", "https://en.wikipedia.org/wiki/Entity_component_system");
@@ -173155,8 +173199,6 @@ namespace OverflowHelper.core
 
             URL_Add("atomic Linux system_", "https://www.reddit.com/r/linux_gaming/comments/1cb91pd/comment/l0wvioh/");
 
-            URL_Add("a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/ln9sqs1/");
-
             URL_Add("depends_", "https://en.wiktionary.org/wiki/depend#Verb");
 
             URL_Add("package_", "https://en.wiktionary.org/wiki/package#Noun");
@@ -173190,6 +173232,8 @@ namespace OverflowHelper.core
             URL_Add("Keychron B1 Pro_", "https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard");
 
             URL_Add("Keychron B4 Pro_", "https://www.keychron.com/products/keychron-b4-pro-ultra-slim-wireless-keyboard");
+
+            URL_Add("Keychron R5 (95%)_", "https://www.keychron.com/pages/keychron-r5-user-manual");
 
             URL_Add("slightly reduced selection of keycaps_", "https://switchandclick.com/mechanical-keyboard-switch-guide/");
 
@@ -173296,10 +173340,6 @@ namespace OverflowHelper.core
             URL_Add("ought_", "https://en.wiktionary.org/wiki/ought#Verb_2");
 
             URL_Add("resume_", "https://en.wiktionary.org/wiki/resume#Noun");
-
-            URL_Add("checks_", "https://en.wiktionary.org/wiki/check#Noun");
-
-            URL_Add("checking_", "https://en.wiktionary.org/wiki/check#Verb");
 
             URL_Add("difference_", "https://en.wiktionary.org/wiki/difference#Noun");
 
@@ -173434,6 +173474,22 @@ namespace OverflowHelper.core
             URL_Add("RFC_", "https://en.wikipedia.org/wiki/Remote_Function_Call");
 
             URL_Add("RF_", "https://en.wikipedia.org/wiki/Radio_frequency");
+
+            URL_Add("checks_", "https://en.wiktionary.org/wiki/check#Noun");
+
+            URL_Add("checking_", "https://en.wiktionary.org/wiki/check#Verb");
+
+            URL_Add("check-in_", "https://en.wiktionary.org/wiki/check-in#Noun");
+
+            URL_Add("crosscheck_", "https://en.wiktionary.org/wiki/crosscheck#Noun");
+
+            URL_Add("fact check_", "https://en.wiktionary.org/wiki/fact_check#Noun");
+
+            URL_Add("legitimacy check_", "https://en.wiktionary.org/wiki/LC#Noun");
+
+            URL_Add("a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/ln9sqs1/");
+
+            URL_Add("Radare2_", "https://en.wikipedia.org/wiki/Radare2");
 
         } //addLookupData_alternativeWordSet()
 
@@ -183221,8 +183277,6 @@ namespace OverflowHelper.core
 
             URL_Add("logarithm___", "https://en.wiktionary.org/wiki/logarithm#Noun");
 
-            URL_Add("interest check___", "https://dotesports.com/general/news/what-is-a-mechanical-keyboard-group-buy-group-buys-explained");
-
             URL_Add("p___", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p");
 
             URL_Add("hr___", "https://en.wikipedia.org/wiki/HTML_element#Other_block_elements");
@@ -183449,8 +183503,6 @@ namespace OverflowHelper.core
 
             URL_Add("modes are evil___", "https://en.wikipedia.org/wiki/Mode_(user_interface)#Mode_errors");
 
-            URL_Add("number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/n52qr9o/");
-
             URL_Add("Via blues___", "https://www.reddit.com/r/Keychron/comments/1g76o1e/comment/lsp51pj/");
 
             URL_Add("hard flashing___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lby5g3e/");
@@ -183476,6 +183528,10 @@ namespace OverflowHelper.core
             URL_Add("kernel method___", "https://en.wikipedia.org/wiki/Kernel_method");
 
             URL_Add("kernel methods___", "https://en.wikipedia.org/wiki/Kernel_method");
+
+            URL_Add("interest check___", "https://dotesports.com/general/news/what-is-a-mechanical-keyboard-group-buy-group-buys-explained");
+
+            URL_Add("number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/n52qr9o/");
 
         } //addLookupData_alternativeWordSet3()
 

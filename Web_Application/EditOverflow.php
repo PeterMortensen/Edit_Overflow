@@ -684,7 +684,7 @@
                                                                       #      for the first item (and
                                                                       #      thus an empty entry when
                                                                       #)     decoding it).
-                $non_breakingSpaceInLinkText = 1; # Stub
+                $non_breakingSpaceInLinkText = 1; # Stub. Default: 1
                 if ($non_breakingSpaceInLinkText)
                 {
                     $correctTermOutput_links =
@@ -1202,7 +1202,7 @@
                     id="CorrectedTerm"
                     class="XYZ10"
                     <?php
-                        $non_breakingSpaceInMainLookup = 0; # Stub
+                        $non_breakingSpaceInMainLookup = 0; # Stub. Default: 0
                         if ($non_breakingSpaceInMainLookup)
                         {
                             $termForOutput =
