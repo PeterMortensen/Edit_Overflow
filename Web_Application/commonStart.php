@@ -69,7 +69,7 @@
     #
     function get_EditOverflowID()
     {
-        return "Edit Overflow v. 1.1.52a373 2026-11-25T151726Z+0";
+        return "Edit Overflow v. 1.1.52a374 2026-11-25T182330Z+0";
     }
 
 
@@ -242,10 +242,18 @@
             $supportOnlyPOST = $_POST[$aKey];
         }
 
+        # Static: One or the other
         #$toReturn = $supportOnlyPOST;
         $toReturn = $supportGETandPOST;
 
         #Do any check for undefined, etc.???
+        
+        
+        #Test!!!!!
+        if ($toReturn === '')
+        {
+            $toReturn = null;
+        }
 
         return $toReturn;
     } #get_postParameter()
@@ -253,6 +261,8 @@
 
     # Helper function to support switching between form-based
     # lookup (server) and client-side lookup (JavaScript).
+    #
+    # This function just tests if it is enabled or not.
     #
     function useJavaScriptLookup()
     {

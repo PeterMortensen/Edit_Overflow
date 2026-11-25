@@ -684,7 +684,9 @@
                                                                       #      for the first item (and
                                                                       #      thus an empty entry when
                                                                       #)     decoding it).
-                $non_breakingSpace_LinkText = 1; # Stub. Default: 1
+                #$non_breakingSpace_LinkText = 1; # Stub. Default: 1
+                $non_breakingSpace_LinkText =
+                    get_postParameter('nonBreakingSpaceInLinkText') ?? '1';
                 if ($non_breakingSpace_LinkText)
                 {
                     $correctTermOutput_links =
@@ -1202,7 +1204,10 @@
                     id="CorrectedTerm"
                     class="XYZ10"
                     <?php
-                        $non_breakingSpace_MainLookup = 0; # Stub. Default: 0
+                        #$non_breakingSpace_MainLookup = 0; # Stub. Default: 0
+                        $non_breakingSpace_MainLookup =
+                            get_postParameter('nonBreakingSpaceInMainLookup') ?? '0';
+
                         if ($non_breakingSpace_MainLookup)
                         {
                             $termForOutput =

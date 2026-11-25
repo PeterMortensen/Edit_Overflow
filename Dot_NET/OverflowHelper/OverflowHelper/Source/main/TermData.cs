@@ -57469,6 +57469,7 @@ namespace OverflowHelper.core
             correctionAdd("modded", "modified");
 
             correctionAdd("modyfying", "modifying");
+            correctionAdd("Modifying", "modifying");
             correctionAdd("modifing", "modifying");
             correctionAdd("modding", "modifying");
             correctionAdd("Modding", "modifying");
@@ -59010,6 +59011,7 @@ namespace OverflowHelper.core
             correctionAdd("utopical", "utopic");
 
             correctionAdd("evaulate", "evaluate");
+            correctionAdd("evaliate", "evaluate"); // A true typo
             correctionAdd("evalute", "evaluate");
 
             correctionAdd("evaluatable", "evaluable");
@@ -78564,6 +78566,7 @@ namespace OverflowHelper.core
             correctionAdd("distiguich", "distinguish");
             correctionAdd("distiguish", "distinguish");
             correctionAdd("distinguis", "distinguish");
+            correctionAdd("distingish", "distinguish");
 
             correctionAdd("distiguishing", "distinguishing");
 
