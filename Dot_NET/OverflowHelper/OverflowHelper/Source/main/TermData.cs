@@ -44972,6 +44972,7 @@ namespace OverflowHelper.core
             correctionAdd("Principle component analysis", "principal component analysis");
             correctionAdd("PCA", "principal component analysis");
             correctionAdd("pca", "principal component analysis");
+            correctionAdd("PCS", "principal component analysis"); // A true typo
 
             correctionAdd("Principal Components", "principal components");
             correctionAdd("principle components", "principal components");
@@ -56688,6 +56689,8 @@ namespace OverflowHelper.core
             correctionAdd("excerting", "exerting");
 
             correctionAdd("exerts", "experts");
+
+            correctionAdd("expertize", "expertise");
 
             correctionAdd("non-experts", "nonexperts");
             correctionAdd("non experts", "nonexperts");
@@ -85510,14 +85513,15 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/MechanicalKeyboards/comments/kylg5r/tactile_heaven_wireless_reviung41_build/>
             //   <https://config.qmk.fm/#/reviung41/LAYOUT_reviung41>
             //
-            correctionAdd("reviung 41", "Reviung 41");
-            correctionAdd("reviung41", "Reviung 41");
-            correctionAdd("REVIUNG41", "Reviung 41");
-            correctionAdd("Reviung41", "Reviung 41");
-            correctionAdd("Raveniung", "Reviung 41");
-            correctionAdd("raveniung", "Reviung 41");
-            correctionAdd("reviung", "Reviung 41");
-            correctionAdd("Reviung", "Reviung 41");
+            correctionAdd("Reviung 41", "Reviung 41 (40%)");
+            correctionAdd("reviung 41", "Reviung 41 (40%)");
+            correctionAdd("reviung41", "Reviung 41 (40%)");
+            correctionAdd("REVIUNG41", "Reviung 41 (40%)");
+            correctionAdd("Reviung41", "Reviung 41 (40%)");
+            correctionAdd("Raveniung", "Reviung 41 (40%)");
+            correctionAdd("raveniung", "Reviung 41 (40%)");
+            correctionAdd("reviung", "Reviung 41 (40%)");
+            correctionAdd("Reviung", "Reviung 41 (40%)");
 
             // A 42-key (40%) crippled split mechanical keyboard.
             // DYI / open hardware. 2 x 21 = 42 keys.
@@ -85535,29 +85539,30 @@ namespace OverflowHelper.core
             //   <https://github.com/vial-kb/vial-qmk/tree/vial/keyboards/crkbd>
             //     Source code. In the Vial official repository
             //
-            correctionAdd("corne keyboard", "Corne keyboard");
-            correctionAdd("korne keyboard", "Corne keyboard");
-            correctionAdd("Corne Keyboard", "Corne keyboard");
-            correctionAdd("korn keyboard", "Corne keyboard");
-            correctionAdd("the Corne", "Corne keyboard");
-            correctionAdd("the corne", "Corne keyboard");
-            correctionAdd("the corn", "Corne keyboard");
-            correctionAdd("corneish", "Corne keyboard");
-            correctionAdd("foostan", "Corne keyboard"); // The GitHub user name
-            correctionAdd("foosten", "Corne keyboard"); // A gross misspelling of the GitHub user name - <https://www.reddit.com/r/ErgoMechKeyboards/comments/1qk20oh/comment/o13rwa6/>
-            correctionAdd("courne", "Corne keyboard");
-            correctionAdd("Cornes", "Corne keyboard");
-            correctionAdd("corner", "Corne keyboard");
-            correctionAdd("Crkbd", "Corne keyboard");
-            correctionAdd("Corne", "Corne keyboard");
-            correctionAdd("corne", "Corne keyboard");
-            correctionAdd("crkbd", "Corne keyboard");
-            correctionAdd("CRKBD", "Corne keyboard");
-            correctionAdd("korne", "Corne keyboard");
-            correctionAdd("crone", "Corne keyboard");
-            correctionAdd("CORNE", "Corne keyboard");
-            correctionAdd("corn", "Corne keyboard");
-            correctionAdd("korn", "Corne keyboard");
+            correctionAdd("Corne keyboard", "Corne keyboard (40%)");
+            correctionAdd("corne keyboard", "Corne keyboard (40%)");
+            correctionAdd("korne keyboard", "Corne keyboard (40%)");
+            correctionAdd("Corne Keyboard", "Corne keyboard (40%)");
+            correctionAdd("korn keyboard", "Corne keyboard (40%)");
+            correctionAdd("the Corne", "Corne keyboard (40%)");
+            correctionAdd("the corne", "Corne keyboard (40%)");
+            correctionAdd("the corn", "Corne keyboard (40%)");
+            correctionAdd("corneish", "Corne keyboard (40%)");
+            correctionAdd("foostan", "Corne keyboard (40%)"); // The GitHub user name
+            correctionAdd("foosten", "Corne keyboard (40%)"); // A gross misspelling of the GitHub user name - <https://www.reddit.com/r/ErgoMechKeyboards/comments/1qk20oh/comment/o13rwa6/>
+            correctionAdd("courne", "Corne keyboard (40%)");
+            correctionAdd("Cornes", "Corne keyboard (40%)");
+            correctionAdd("corner", "Corne keyboard (40%)");
+            correctionAdd("Crkbd", "Corne keyboard (40%)");
+            correctionAdd("Corne", "Corne keyboard (40%)");
+            correctionAdd("corne", "Corne keyboard (40%)");
+            correctionAdd("crkbd", "Corne keyboard (40%)");
+            correctionAdd("CRKBD", "Corne keyboard (40%)");
+            correctionAdd("korne", "Corne keyboard (40%)");
+            correctionAdd("crone", "Corne keyboard (40%)");
+            correctionAdd("CORNE", "Corne keyboard (40%)");
+            correctionAdd("corn", "Corne keyboard (40%)");
+            correctionAdd("korn", "Corne keyboard (40%)");
 
             // A 42-key (40%) crippled split mechanical
             // keyboard (diode-less).
@@ -85572,7 +85577,8 @@ namespace OverflowHelper.core
             //   <https://github.com/qmk/qmk_firmware/tree/master/keyboards/beekeeb/piantor>
             //     Source code
             //
-            correctionAdd("piantor", "Piantor");
+            correctionAdd("Piantor", "Piantor (40%)");
+            correctionAdd("piantor", "Piantor (40%)");
 
             // A 42-key (40%) crippled split ergonomic mechanical keyboard.
             // 2 x 21 = 42 keys.
@@ -85588,7 +85594,8 @@ namespace OverflowHelper.core
             //             'cloudfront.net' to not be surrounded
             //             by Imgur goo.
             //
-            correctionAdd("cantor", "Cantor");
+            correctionAdd("Cantor", "Cantor (40%)");
+            correctionAdd("cantor", "Cantor (40%)");
 
             // A 42-key (40%) crippled open source split ergonomic
             // mechanical keyboard. 2 x 21 = 42 keys.
@@ -85601,9 +85608,10 @@ namespace OverflowHelper.core
             //   <https://kbd.news/Kaly42-2063.html>
             //   <https://kbd.news/issue/128/>
             //
-            correctionAdd("kaly42", "Kaly42");
-            correctionAdd("kaly", "Kaly42");
-            correctionAdd("Kaly", "Kaly42");
+            correctionAdd("Kaly42", "Kaly42 (40%)");
+            correctionAdd("kaly42", "Kaly42 (40%)");
+            correctionAdd("kaly", "Kaly42 (40%)");
+            correctionAdd("Kaly", "Kaly42 (40%)");
 
             // A 42-key (40%) crippled split ergonomic mechanical keyboard.
             // 2 x 21 = 42 keys.
@@ -85633,10 +85641,11 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/15pm511/low_profile_wireless_klor_polydactyl_with_metal/>
             //     Incl. printing keycaps at JLCPCB.
             //
-            correctionAdd("polydactyk", "KLOR");
-            correctionAdd("polydactyl", "KLOR");
-            correctionAdd("Klor", "KLOR");
-            correctionAdd("klor", "KLOR");
+            correctionAdd("polydactyk", "KLOR (40%)");
+            correctionAdd("polydactyl", "KLOR (40%)");
+            correctionAdd("KLOR", "KLOR (40%)");
+            correctionAdd("Klor", "KLOR (40%)");
+            correctionAdd("klor", "KLOR (40%)");
 
             // A 42-key (40%) crippled open source split ergonomic
             // mechanical keyboard.
@@ -85649,7 +85658,8 @@ namespace OverflowHelper.core
             //   <https://buttondown.com/kbdnews/archive/issue-180-keyboard-builders-digest/>
             //     2024-11-27
             //
-            correctionAdd("lintilla", "Lintilla");
+            correctionAdd("Lintilla", "Lintilla (40%)");
+            correctionAdd("lintilla", "Lintilla (40%)");
 
             // A 44-key (40%) crippled open source low-profile
             // split ergonomic mechanical keyboard. 2 x 22 = 44 keys.
@@ -85658,7 +85668,8 @@ namespace OverflowHelper.core
             //
             // Not to be confused with 'btrfld' (butterfold)
             //
-            correctionAdd("butterfly", "btrfly");
+            correctionAdd("butterfly", "btrfly (40%)");
+            correctionAdd("btrfly", "btrfly (40%)");
 
             // A 46-key (45%) crippled open source low-profile foldable
             // split ergonomic mechanical keyboard. 2 x 23 = 46 keys.
@@ -85675,8 +85686,9 @@ namespace OverflowHelper.core
             //
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1fqzxv7/btrfld_v3_now_ultra_low_profile_still_a_foldable/>
             //
-            correctionAdd("butter-fold", "btrfld");
-            correctionAdd("butterfold", "btrfld");
+            correctionAdd("butter-fold", "btrfld (45%)");
+            correctionAdd("butterfold", "btrfld (45%)");
+            correctionAdd("btrfld", "btrfld (45%)");
 
             // A 47-key (45%) crippled QMK-based mechanical keyboard
             // 4 x 12 - 1 (2u space bar) = 47.
@@ -85693,19 +85705,20 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/qmk/qmk_firmware/tree/master/keyboards/planck>
             //
-            correctionAdd("zsa planck", "ZSA Planck EZ");
-            correctionAdd("EZ Planck", "ZSA Planck EZ");
-            correctionAdd("planck ez", "ZSA Planck EZ");
-            correctionAdd("Planck EZ", "ZSA Planck EZ");
-            correctionAdd("planck-ez", "ZSA Planck EZ");
-            correctionAdd("plank ez", "ZSA Planck EZ");
-            correctionAdd("plank-ez", "ZSA Planck EZ");
-            correctionAdd("Planck", "ZSA Planck EZ");
-            correctionAdd("planck", "ZSA Planck EZ");
-            correctionAdd("plank", "ZSA Planck EZ");
-            correctionAdd("Plank", "ZSA Planck EZ");
-            correctionAdd("Planc", "ZSA Planck EZ");
-            correctionAdd("planc", "ZSA Planck EZ");
+            correctionAdd("ZSA Planck EZ", "ZSA Planck EZ (45%)");
+            correctionAdd("zsa planck", "ZSA Planck EZ (45%)");
+            correctionAdd("EZ Planck", "ZSA Planck EZ (45%)");
+            correctionAdd("planck ez", "ZSA Planck EZ (45%)");
+            correctionAdd("Planck EZ", "ZSA Planck EZ (45%)");
+            correctionAdd("planck-ez", "ZSA Planck EZ (45%)");
+            correctionAdd("plank ez", "ZSA Planck EZ (45%)");
+            correctionAdd("plank-ez", "ZSA Planck EZ (45%)");
+            correctionAdd("Planck", "ZSA Planck EZ (45%)");
+            correctionAdd("planck", "ZSA Planck EZ (45%)");
+            correctionAdd("plank", "ZSA Planck EZ (45%)");
+            correctionAdd("Plank", "ZSA Planck EZ (45%)");
+            correctionAdd("Planc", "ZSA Planck EZ (45%)");
+            correctionAdd("planc", "ZSA Planck EZ (45%)");
 
             // A 47-key (45%) crippled commercial keyboard.
             //
@@ -85720,11 +85733,12 @@ namespace OverflowHelper.core
             //     irritating background music.
             //   <https://www.reddit.com/r/olkb/comments/1cqp7nx/i_pimped_up_my_inland_mk47/>
             //
-            correctionAdd("Inland Mk-47", "Inland MK-47");
-            correctionAdd("MK-47", "Inland MK-47");
-            correctionAdd("MK 47", "Inland MK-47");
-            correctionAdd("Mk-47", "Inland MK-47");
-            correctionAdd("MK47", "Inland MK-47");
+            correctionAdd("Inland MK-47", "Inland MK-47 (45%)");
+            correctionAdd("Inland Mk-47", "Inland MK-47 (45%)");
+            correctionAdd("MK-47", "Inland MK-47 (45%)");
+            correctionAdd("MK 47", "Inland MK-47 (45%)");
+            correctionAdd("Mk-47", "Inland MK-47 (45%)");
+            correctionAdd("MK47", "Inland MK-47 (45%)");
 
             // A 48-key (45%) crippled split mechanical keyboard
             // with a knob.
@@ -85755,7 +85769,8 @@ namespace OverflowHelper.core
             //   <https://github.com/hitsmaxft/zmk-keyboard-cornix>
             //     A ZMK implementation (instead of RMK)
             //
-            correctionAdd("cornix", "Cornix");
+            correctionAdd("Cornix", "Cornix (45%)");
+            correctionAdd("cornix", "Cornix (45%)");
 
             // A 50-key (50%) crippled ortholinear mechanical keyboard.
             //
@@ -130109,6 +130124,8 @@ namespace OverflowHelper.core
 
             URL_Add("experts", "https://en.wiktionary.org/wiki/expert#Noun");
 
+            URL_Add("expertise", "https://en.wiktionary.org/wiki/expertise#Noun");
+
             URL_Add("expert on", "https://www.britannica.com/dictionary/eb/qa/expert-in-and-expert-on");
 
             URL_Add("experimenting", "https://en.wiktionary.org/wiki/experiment#Verb");
@@ -138601,7 +138618,7 @@ namespace OverflowHelper.core
 
             URL_Add("Colemak Club", "https://github.com/gnusenpai/colemakclub");
 
-            URL_Add("Cantor", "https://github.com/diepala/cantor");
+            URL_Add("Cantor (40%)", "https://github.com/diepala/cantor");
 
             URL_Add("JavaScripture", "https://github.com/nkronlage/JavaScripture");
 
@@ -142977,7 +142994,7 @@ namespace OverflowHelper.core
 
             URL_Add("Happy Hacking Keyboard (55%)", "https://en.wikipedia.org/wiki/Happy_Hacking_Keyboard");
 
-            URL_Add("Inland MK-47", "https://www.microcenter.com/product/661264/inland-47-keys-hot-swappable-rgb-wired-mechanical-keyboard");
+            URL_Add("Inland MK-47 (45%)", "https://www.microcenter.com/product/661264/inland-47-keys-hot-swappable-rgb-wired-mechanical-keyboard");
 
             URL_Add("Keyboardio", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards#Mechanical_keyboards");
 
@@ -146219,7 +146236,7 @@ namespace OverflowHelper.core
 
             URL_Add("Dactyl (65%)", "https://github.com/adereth/dactyl-keyboard/blob/master/README.md/");
 
-            URL_Add("Piantor", "https://shop.beekeeb.com/product/pre-soldered-piantor-split-keyboard/");
+            URL_Add("Piantor (40%)", "https://shop.beekeeb.com/product/pre-soldered-piantor-split-keyboard/");
 
             URL_Add("Sofle Keyboard (55%)", "https://josefadamcik.github.io/SofleKeyboard/");
 
@@ -146233,7 +146250,7 @@ namespace OverflowHelper.core
 
             URL_Add("Charybdis", "https://github.com/Bastardkb/Charybdis/tree/main");
 
-            URL_Add("Lintilla", "https://github.com/ctranstrum/lintilla");
+            URL_Add("Lintilla (40%)", "https://github.com/ctranstrum/lintilla");
 
             URL_Add("Allium58 (55%)", "https://github.com/beekeeb/allium58");
 
@@ -146257,11 +146274,11 @@ namespace OverflowHelper.core
 
             URL_Add("TOTEM", "https://github.com/GEIGEIGEIST/TOTEM");
 
-            URL_Add("KLOR", "https://github.com/GEIGEIGEIST/KLOR");
+            URL_Add("KLOR (40%)", "https://github.com/GEIGEIGEIST/KLOR");
 
             URL_Add("Hummingbird", "https://github.com/PJE66/hummingbird");
 
-            URL_Add("Kaly42", "https://github.com/Dwctor/Kaly");
+            URL_Add("Kaly42 (40%)", "https://github.com/Dwctor/Kaly");
 
             URL_Add("Deej", "https://github.com/omriharel/deej");
 
@@ -146271,7 +146288,7 @@ namespace OverflowHelper.core
 
             URL_Add("Ferris", "https://github.com/pierrechevalier83/ferris");
 
-            URL_Add("Reviung 41", "https://github.com/gtips/reviung");
+            URL_Add("Reviung 41 (40%)", "https://github.com/gtips/reviung");
 
             URL_Add("Reviung 34", "https://github.com/gtips/reviung/tree/master/reviung34");
 
@@ -146339,7 +146356,7 @@ namespace OverflowHelper.core
 
             URL_Add("ZSA Moonlander Mark I (75%)", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards#Mechanical_keyboards");
 
-            URL_Add("ZSA Planck EZ", "https://odysee.com/@DistroTube:2/the-planck-ez-keyboard.-47-keys-are-all:9");
+            URL_Add("ZSA Planck EZ (45%)", "https://odysee.com/@DistroTube:2/the-planck-ez-keyboard.-47-keys-are-all:9");
 
             URL_Add("OwLab", "https://www.reddit.com/r/mechmarket/comments/1bqp38h/store_vento_80_from_owlab/");
 
@@ -146353,7 +146370,7 @@ namespace OverflowHelper.core
 
             URL_Add("Chocofi", "https://kriscables.com/product/chocofi-split-keyboard-kit/");
 
-            URL_Add("Corne keyboard", "https://github.com/foostan/crkbd");
+            URL_Add("Corne keyboard (40%)", "https://github.com/foostan/crkbd");
 
             URL_Add("Cornifi", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/cornifi/readme.md#L5");
 
@@ -146361,7 +146378,7 @@ namespace OverflowHelper.core
 
             URL_Add("MoErgo Go60 (55%)", "https://www.youtube.com/watch?v=Ap8JD-ELR38");
 
-            URL_Add("Cornix", "https://kbd.news/Cornix-review-2715.html");
+            URL_Add("Cornix (45%)", "https://kbd.news/Cornix-review-2715.html");
 
             URL_Add("DOIO KB16", "https://wiki.keebmonkey.com/en/guides/kb16update");
 
@@ -151783,9 +151800,9 @@ namespace OverflowHelper.core
 
             URL_Add("Btrfs", "https://en.wikipedia.org/wiki/Btrfs");
 
-            URL_Add("btrfld", "https://github.com/SolidHal/btrfld");
+            URL_Add("btrfld (45%)", "https://github.com/SolidHal/btrfld");
 
-            URL_Add("btrfly", "https://github.com/SolidHal/btrfly-keyboard");
+            URL_Add("btrfly (40%)", "https://github.com/SolidHal/btrfly-keyboard");
 
             URL_Add("Butterworth filter", "https://en.wikipedia.org/wiki/Butterworth_filter");
 
@@ -154931,7 +154948,11 @@ namespace OverflowHelper.core
             correctionAdd("key overloading_", "tap dance_");
             correctionAdd("tap dances_", "tap dance_");
             correctionAdd("Tap Dance_", "tap dance_");
+            correctionAdd("Tab Dance_", "tap dance_");
+            correctionAdd("tab dance_", "tap dance_");
             correctionAdd("tapdance_", "tap dance_");
+            correctionAdd("TabDance_", "tap dance_");
+            correctionAdd("tabdance_", "tap dance_");
             correctionAdd("TD_", "tap dance_");
 
             // A QMK feature
@@ -175142,6 +175163,8 @@ namespace OverflowHelper.core
             correctionAdd("Hands On__", "Hands Down keyboard layout__"); // Not 100% correct
             correctionAdd("HD__", "Hands Down keyboard layout__");
 
+            correctionAdd("selenium__", "Selenium keyboard layout__");
+
             // Mostly for the alternative link.
             // Mechanical keyboards
             correctionAdd("Block off the blinding light__", "The mitigation__");
@@ -180101,6 +180124,8 @@ namespace OverflowHelper.core
             URL_Add("alternative keyboard layouts__", "https://getreuer.info/posts/keyboards/alt-layouts/index.html");
 
             URL_Add("Hands Down keyboard layout__", "https://sites.google.com/alanreiser.com/handsdown");
+
+            URL_Add("Selenium keyboard layout__", "https://github.com/OneDeadKey/selenium/tree/main");
 
             URL_Add("got__", "https://en.wiktionary.org/wiki/get#Verb");
 
