@@ -45693,6 +45693,12 @@ namespace OverflowHelper.core
             //
             correctionAdd("vibe code", "vibecode");
 
+            // Simulated intelligence
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Vibe_coding>
+            //
             correctionAdd("vibe coded", "vibecoded");
 
             // Simulated intelligence
@@ -69204,6 +69210,8 @@ namespace OverflowHelper.core
             //
             // Alternative URLs:
             //
+            //   <https://deskthority.net/wiki/Topre_switch>
+            //
             //   <https://www.youtube.com/watch?v=RxhncLdke4U&t=8m>
             //
             //   <http://xahlee.info/kbd/keyboards_with_topre_switch.html>
@@ -71343,6 +71351,16 @@ namespace OverflowHelper.core
             // Alternative URLs:
             //
             //   <https://switchandclick.com/cherry-mx-guide/>
+            //
+            //   <https://deskthority.net/wiki/Keycap_mount#Cherry_MX_mount>
+            //     Cherry MX mount
+            //
+            //     "A keycap mount is the interface
+            //      between a keycap and a switch."
+            //
+            //     "A cross-shaped stem on the switch's slider into
+            //      a cross-shaped hole within a cylindrical stem
+            //      in the bottom of the keycap."
             //
             //   <https://www.mechanicalkeyboards.com/switches/index.php?brand=Cherry>
             //
@@ -75430,6 +75448,8 @@ namespace OverflowHelper.core
 
             correctionAdd("naviagate", "navigate");
             correctionAdd("naviguate", "navigate");
+            correctionAdd("Navigaion", "navigate");
+            correctionAdd("navigaion", "navigate");
             correctionAdd("nvaigate", "navigate");
             correctionAdd("nagivate", "navigate");
             correctionAdd("naviagte", "navigate"); // A true typo
@@ -92617,6 +92637,7 @@ namespace OverflowHelper.core
             //   <https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard>
             //     ANSI variant
             //
+            correctionAdd("Keychron V5 ISO (95%)", "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard");
             correctionAdd("Keychron V5 ISO", "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard");
             correctionAdd("Keychron V5", "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard");
             correctionAdd("v5", "Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard");
@@ -154197,6 +154218,10 @@ namespace OverflowHelper.core
             //
             //     But closed source code.
             //
+            //     And in October 2026:
+            //
+            //       Hardware version 2 of K HE and Q HE series
+            //
             //   A reference:
             //
             //    <https://www.reddit.com/r/Keychron/comments/1syixet/comment/ojurnl4/>
@@ -160099,28 +160124,30 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/16d93jm/why_zsas_keyboards_are_not_wireless/>
             //     'Why are ZSA's keyboards not wireless?'
             //
-            correctionAdd("zsa voyager_", "ZSA Voyager_");
-            correctionAdd("ZSA voyager_", "ZSA Voyager_");
-            correctionAdd("Zsa Voyager_", "ZSA Voyager_");
-            correctionAdd("The voyager_", "ZSA Voyager_");
-            correctionAdd("the voyager_", "ZSA Voyager_");
-            correctionAdd("zsa Voyager_", "ZSA Voyager_");
-            correctionAdd("zas voyager_", "ZSA Voyager_");
-            correctionAdd("zra voyager_", "ZSA Voyager_");
-            correctionAdd("ZRA Voyager_", "ZSA Voyager_");
-            correctionAdd("Voyager_", "ZSA Voyager_");
-            correctionAdd("voyager_", "ZSA Voyager_");
-            correctionAdd("Vogayer_", "ZSA Voyager_");
-            correctionAdd("Voyage_", "ZSA Voyager_");
-            correctionAdd("V'GER_", "ZSA Voyager_");
-            correctionAdd("v'ger_", "ZSA Voyager_");
+            correctionAdd("ZSA Voyager_", "ZSA Voyager (50%)_");
+            correctionAdd("zsa voyager_", "ZSA Voyager (50%)_");
+            correctionAdd("ZSA voyager_", "ZSA Voyager (50%)_");
+            correctionAdd("Zsa Voyager_", "ZSA Voyager (50%)_");
+            correctionAdd("The voyager_", "ZSA Voyager (50%)_");
+            correctionAdd("the voyager_", "ZSA Voyager (50%)_");
+            correctionAdd("zsa Voyager_", "ZSA Voyager (50%)_");
+            correctionAdd("zas voyager_", "ZSA Voyager (50%)_");
+            correctionAdd("zra voyager_", "ZSA Voyager (50%)_");
+            correctionAdd("ZRA Voyager_", "ZSA Voyager (50%)_");
+            correctionAdd("Voyager_", "ZSA Voyager (50%)_");
+            correctionAdd("voyager_", "ZSA Voyager (50%)_");
+            correctionAdd("Vogayer_", "ZSA Voyager (50%)_");
+            correctionAdd("Voyage_", "ZSA Voyager (50%)_");
+            correctionAdd("V'GER_", "ZSA Voyager (50%)_");
+            correctionAdd("v'ger_", "ZSA Voyager (50%)_");
 
             // A 64-key (60%. Not true TKL) crippled
             // split mechanical keyboard.
             //
             // 2 x 32 = 64 keys
             //
-            correctionAdd("helix_", "Helix_");
+            correctionAdd("Helix_", "Helix (60%)_");
+            correctionAdd("helix_", "Helix (60%)_");
 
             // A 65-key (60%. Not true TKL) crippled split ergonomic
             // mechanical keyboard from Dygma Lab.
@@ -160131,17 +160158,18 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=UaDMoJdMUFk>
             //     Thomas' review
             //
-            correctionAdd("Dygma Raise 2_", "Dygma Raise_"); // Not 100% correct
-            correctionAdd("dygma raise_", "Dygma Raise_");
-            correctionAdd("Dygma raise_", "Dygma Raise_");
-            correctionAdd("Raise 2_", "Dygma Raise_"); // Not 100% correct
-            correctionAdd("raise 2_", "Dygma Raise_"); // Not 100% correct
-            correctionAdd("Raise1_", "Dygma Raise_");
-            correctionAdd("raise1_", "Dygma Raise_");
-            correctionAdd("raise2_", "Dygma Raise_"); // Not 100% correct
-            correctionAdd("raise_", "Dygma Raise_");
-            correctionAdd("RAISE_", "Dygma Raise_");
-            correctionAdd("Raise_", "Dygma Raise_");
+            correctionAdd("Dygma Raise 2_", "Dygma Raise (60%)_"); // Not 100% correct
+            correctionAdd("Dygma Raise_", "Dygma Raise (60%)_");
+            correctionAdd("dygma raise_", "Dygma Raise (60%)_");
+            correctionAdd("Dygma raise_", "Dygma Raise (60%)_");
+            correctionAdd("Raise 2_", "Dygma Raise (60%)_"); // Not 100% correct
+            correctionAdd("raise 2_", "Dygma Raise (60%)_"); // Not 100% correct
+            correctionAdd("Raise1_", "Dygma Raise (60%)_");
+            correctionAdd("raise1_", "Dygma Raise (60%)_");
+            correctionAdd("raise2_", "Dygma Raise (60%)_"); // Not 100% correct
+            correctionAdd("raise_", "Dygma Raise (60%)_");
+            correctionAdd("RAISE_", "Dygma Raise (60%)_");
+            correctionAdd("Raise_", "Dygma Raise (60%)_");
 
             // A 68-key (65%. Not true TKL) severely crippled
             // low-profile Alice layout (a la Microsoft Natural
@@ -160194,11 +160222,12 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/qmk_firmware/tree/bluetooth_playground/keyboards/keychron/k10_pro>
             //     Source code. Note: In a fork and in branch "bluetooth_playground"
             //
-            correctionAdd("K11 Max_", "Keychron K11 Max_");
-            correctionAdd("K11 MAX_", "Keychron K11 Max_");
-            correctionAdd("k11 max_", "Keychron K11 Max_");
-            correctionAdd("K11 max_", "Keychron K11 Max_");
-            correctionAdd("K11_", "Keychron K11 Max_");
+            correctionAdd("Keychron K11 Max_", "Keychron K11 Max (65%)_");
+            correctionAdd("K11 Max_", "Keychron K11 Max (65%)_");
+            correctionAdd("K11 MAX_", "Keychron K11 Max (65%)_");
+            correctionAdd("k11 max_", "Keychron K11 Max (65%)_");
+            correctionAdd("K11 max_", "Keychron K11 Max (65%)_");
+            correctionAdd("K11_", "Keychron K11 Max (65%)_");
 
             // A 69-key (65%. Not true TKL) severely crippled wired-only
             // Alice layout (a la Microsoft Natural Keyboard)
@@ -160233,8 +160262,9 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/qmk/qmk_firmware/tree/master/keyboards/keychron/q8>
             //
-            correctionAdd("Q8_", "Keychron Q8_");
-            correctionAdd("q8_", "Keychron Q8_");
+            correctionAdd("Keychron Q8_", "Keychron Q8 (65%)_");
+            correctionAdd("Q8_", "Keychron Q8 (65%)_");
+            correctionAdd("q8_", "Keychron Q8 (65%)_");
 
             // A 70-key (65%. Not true TKL) severely crippled low-profile
             // wired and wireless (only Bluetooth) QMK/Via-capable
@@ -160271,10 +160301,11 @@ namespace OverflowHelper.core
             //     Note: In Keychron's fork and, in that fork, in
             //           branch "wireless_playground"
             //
-            correctionAdd("K 7 Pro_", "Keychron K7 Pro_");
-            correctionAdd("K7-Pro_", "Keychron K7 Pro_");
-            correctionAdd("K7 Pro_", "Keychron K7 Pro_");
-            correctionAdd("k7 pro_", "Keychron K7 Pro_");
+            correctionAdd("Keychron K7 Pro_", "Keychron K7 Pro (65%)_");
+            correctionAdd("K 7 Pro_", "Keychron K7 Pro (65%)_");
+            correctionAdd("K7-Pro_", "Keychron K7 Pro (65%)_");
+            correctionAdd("K7 Pro_", "Keychron K7 Pro (65%)_");
+            correctionAdd("k7 pro_", "Keychron K7 Pro (65%)_");
 
             // A 70-key (65%. Not true TKL) crippled split ergonomic
             // mechanical keyboard from Dygma.
@@ -160285,17 +160316,18 @@ namespace OverflowHelper.core
             //
             //   <https://dygma.com/pages/defy>
             //
-            correctionAdd("Digma Defy_", "Dygma Defy_");
-            correctionAdd("digma defy_", "Dygma Defy_");
-            correctionAdd("Dygma defy_", "Dygma Defy_");
-            correctionAdd("Digma defy_", "Dygma Defy_");
-            correctionAdd("Degma Defy_", "Dygma Defy_");
-            correctionAdd("Dyma Defy_", "Dygma Defy_");
-            correctionAdd("dyma defy_", "Dygma Defy_");
-            correctionAdd("defy_", "Dygma Defy_");
-            correctionAdd("Dyfy_", "Dygma Defy_");
-            correctionAdd("Defy_", "Dygma Defy_");
-            correctionAdd("Def_", "Dygma Defy_");
+            correctionAdd("Dygma Defy_", "Dygma Defy (65%)_");
+            correctionAdd("Digma Defy_", "Dygma Defy (65%)_");
+            correctionAdd("digma defy_", "Dygma Defy (65%)_");
+            correctionAdd("Dygma defy_", "Dygma Defy (65%)_");
+            correctionAdd("Digma defy_", "Dygma Defy (65%)_");
+            correctionAdd("Degma Defy_", "Dygma Defy (65%)_");
+            correctionAdd("Dyma Defy_", "Dygma Defy (65%)_");
+            correctionAdd("dyma defy_", "Dygma Defy (65%)_");
+            correctionAdd("defy_", "Dygma Defy (65%)_");
+            correctionAdd("Dyfy_", "Dygma Defy (65%)_");
+            correctionAdd("Defy_", "Dygma Defy (65%)_");
+            correctionAdd("Def_", "Dygma Defy (65%)_");
 
             // A 76-key (70%. Not true TKL) crippled split ergonomic
             // mechanical keyboard.
@@ -160313,21 +160345,22 @@ namespace OverflowHelper.core
             //
             // Vendor: ZSA
             //
-            correctionAdd("ZSA Erogodox-EZ_", "ErgoDox EZ_"); // Several typos
-            correctionAdd("Erogodox-EZ_", "ErgoDox EZ_"); // Several typos
-            correctionAdd("Erogodox EZ_", "ErgoDox EZ_"); // Several typos
-            correctionAdd("ergodox ez_", "ErgoDox EZ_");
-            correctionAdd("Ergodox EZ_", "ErgoDox EZ_");
-            correctionAdd("ergodox-ez_", "ErgoDox EZ_");
-            correctionAdd("ErgodoxEZ_", "ErgoDox EZ_");
-            correctionAdd("Ergo Dox_", "ErgoDox EZ_");
-            correctionAdd("Erogodox_", "ErgoDox EZ_"); // Several typos
-            correctionAdd("ErgoDox_", "ErgoDox EZ_");
-            correctionAdd("Ergodox_", "ErgoDox EZ_");
-            correctionAdd("ergodox_", "ErgoDox EZ_");
-            correctionAdd("the Dox_", "ErgoDox EZ_");
-            correctionAdd("ergoDox_", "ErgoDox EZ_");
-            correctionAdd("Dox_", "ErgoDox EZ_");
+            correctionAdd("ZSA Erogodox-EZ_", "ErgoDox EZ (70%)_"); // Several typos
+            correctionAdd("Erogodox-EZ_", "ErgoDox EZ (70%)_"); // Several typos
+            correctionAdd("Erogodox EZ_", "ErgoDox EZ (70%)_"); // Several typos
+            correctionAdd("ErgoDox EZ_", "ErgoDox EZ (70%)_"); // Several typos
+            correctionAdd("ergodox ez_", "ErgoDox EZ (70%)_");
+            correctionAdd("Ergodox EZ_", "ErgoDox EZ (70%)_");
+            correctionAdd("ergodox-ez_", "ErgoDox EZ (70%)_");
+            correctionAdd("ErgodoxEZ_", "ErgoDox EZ (70%)_");
+            correctionAdd("Ergo Dox_", "ErgoDox EZ (70%)_");
+            correctionAdd("Erogodox_", "ErgoDox EZ (70%)_"); // Several typos
+            correctionAdd("ErgoDox_", "ErgoDox EZ (70%)_");
+            correctionAdd("Ergodox_", "ErgoDox EZ (70%)_");
+            correctionAdd("ergodox_", "ErgoDox EZ (70%)_");
+            correctionAdd("the Dox_", "ErgoDox EZ (70%)_");
+            correctionAdd("ergoDox_", "ErgoDox EZ (70%)_");
+            correctionAdd("Dox_", "ErgoDox EZ (70%)_");
 
             // A 76-key (70%. Not true TKL) severely crippled
             // wired-only QMK/Via-capable mechanical keyboard
@@ -160370,8 +160403,9 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/qmk/qmk_firmware/blob/master/keyboards/keychron/q65>
             //
-            correctionAdd("Q65_", "Keychron Q65_");
-            correctionAdd("q65_", "Keychron Q65_");
+            correctionAdd("Keychron Q65_", "Keychron Q65 (70%)_");
+            correctionAdd("Q65_", "Keychron Q65 (70%)_");
+            correctionAdd("q65_", "Keychron Q65 (70%)_");
 
             // A 77-key (75%. Not true TKL) crippled low-profile
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -160441,18 +160475,19 @@ namespace OverflowHelper.core
             //     Reverse engineered keyboard matrix for hardware
             //     version 2 (source code unavailable)
             //
-            correctionAdd("keychorn b1 pro_", "Keychron B1 Pro_");
-            correctionAdd("keychron b1 pro_", "Keychron B1 Pro_");
-            correctionAdd("Keychron b1 pro_", "Keychron B1 Pro_");
-            correctionAdd("Keychron B1_", "Keychron B1 Pro_");
-            correctionAdd("Keychron b1_", "Keychron B1 Pro_");
-            correctionAdd("B1 Pro_", "Keychron B1 Pro_");
-            correctionAdd("b1 pro_", "Keychron B1 Pro_");
-            correctionAdd("B1 pro_", "Keychron B1 Pro_");
-            correctionAdd("B1 PRO_", "Keychron B1 Pro_");
-            correctionAdd("B1Pro_", "Keychron B1 Pro_");
-            correctionAdd("B1pro_", "Keychron B1 Pro_");
-            correctionAdd("B1_", "Keychron B1 Pro_");
+            correctionAdd("Keychron B1 Pro_", "Keychron B1 Pro (75%)_");
+            correctionAdd("keychorn b1 pro_", "Keychron B1 Pro (75%)_");
+            correctionAdd("keychron b1 pro_", "Keychron B1 Pro (75%)_");
+            correctionAdd("Keychron b1 pro_", "Keychron B1 Pro (75%)_");
+            correctionAdd("Keychron B1_", "Keychron B1 Pro (75%)_");
+            correctionAdd("Keychron b1_", "Keychron B1 Pro (75%)_");
+            correctionAdd("B1 Pro_", "Keychron B1 Pro (75%)_");
+            correctionAdd("b1 pro_", "Keychron B1 Pro (75%)_");
+            correctionAdd("B1 pro_", "Keychron B1 Pro (75%)_");
+            correctionAdd("B1 PRO_", "Keychron B1 Pro (75%)_");
+            correctionAdd("B1Pro_", "Keychron B1 Pro (75%)_");
+            correctionAdd("B1pro_", "Keychron B1 Pro (75%)_");
+            correctionAdd("B1_", "Keychron B1 Pro (75%)_");
 
             // A 80-key (75%. Not true TKL) crippled
             // wired-only mechanical keyboard.
@@ -160486,9 +160521,10 @@ namespace OverflowHelper.core
             //   <https://www.manualslib.com/products/Monsgeek-M1-V5-Via-Iso-14287006.html>
             //     MonsGeek M1 V5 VIA ISO manuals
             //
-            correctionAdd("monsgeek m1_", "MonsGeek M1_");
-            correctionAdd("Monsgeek M1_", "MonsGeek M1_");
-            correctionAdd("M1_", "MonsGeek M1_");
+            correctionAdd("MonsGeek M1_", "MonsGeek M1 (75%)_");
+            correctionAdd("monsgeek m1_", "MonsGeek M1 (75%)_");
+            correctionAdd("Monsgeek M1_", "MonsGeek M1 (75%)_");
+            correctionAdd("M1_", "MonsGeek M1 (75%)_");
 
             // A 82-key (80%. Not true TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
@@ -160574,30 +160610,31 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/Keychron/comments/1dj1180/comment/l9fe5w7/>
             //     "It should be released in this year" (2024)
             //
-            correctionAdd("Keychron q1 HE_", "Keychron Q1 HE_");
-            correctionAdd("keychron q1 HE_", "Keychron Q1 HE_");
-            correctionAdd("Keychron Q1 he_", "Keychron Q1 HE_");
-            correctionAdd("keychron q1 he_", "Keychron Q1 HE_");
-            correctionAdd("KEYCHRON Q1 HE_", "Keychron Q1 HE_");
-            correctionAdd("Q1 HE_", "Keychron Q1 HE_");
-            correctionAdd("Q1 He_", "Keychron Q1 HE_");
-            correctionAdd("q1 he_", "Keychron Q1 HE_");
-            correctionAdd("q1 He_", "Keychron Q1 HE_");
-            correctionAdd("HE Q1_", "Keychron Q1 HE_");
-            correctionAdd("q1 HE_", "Keychron Q1 HE_");
-            correctionAdd("Q1 he_", "Keychron Q1 HE_");
-            correctionAdd("Q1HE_", "Keychron Q1 HE_");
-            correctionAdd("HEQ1_", "Keychron Q1 HE_");
-            correctionAdd("q1he_", "Keychron Q1 HE_");
-            correctionAdd("Q1he_", "Keychron Q1 HE_");
+            correctionAdd("Keychron Q1 HE_", "Keychron Q1 HE (80%)_");
+            correctionAdd("Keychron q1 HE_", "Keychron Q1 HE (80%)_");
+            correctionAdd("keychron q1 HE_", "Keychron Q1 HE (80%)_");
+            correctionAdd("Keychron Q1 he_", "Keychron Q1 HE (80%)_");
+            correctionAdd("keychron q1 he_", "Keychron Q1 HE (80%)_");
+            correctionAdd("KEYCHRON Q1 HE_", "Keychron Q1 HE (80%)_");
+            correctionAdd("Q1 HE_", "Keychron Q1 HE (80%)_");
+            correctionAdd("Q1 He_", "Keychron Q1 HE (80%)_");
+            correctionAdd("q1 he_", "Keychron Q1 HE (80%)_");
+            correctionAdd("q1 He_", "Keychron Q1 HE (80%)_");
+            correctionAdd("HE Q1_", "Keychron Q1 HE (80%)_");
+            correctionAdd("q1 HE_", "Keychron Q1 HE (80%)_");
+            correctionAdd("Q1 he_", "Keychron Q1 HE (80%)_");
+            correctionAdd("Q1HE_", "Keychron Q1 HE (80%)_");
+            correctionAdd("HEQ1_", "Keychron Q1 HE (80%)_");
+            correctionAdd("q1he_", "Keychron Q1 HE (80%)_");
+            correctionAdd("Q1he_", "Keychron Q1 HE (80%)_");
 
             // A 85-key (80%. Not true TKL) crippled wired and
             // wireless (only Bluetooth) QMK/Via-capable
             // mechanical keyboard from Keychron
             // without a knob.
             //
-            // Unlike the original K2 and K2 V2, this 2025 keyboard,
-            // has QMK support
+            // Unlike the original K2 and K2 V2, this
+            // 2025 keyboard has QMK support.
             //
             // K2 V3 user manual:
             //
@@ -160924,17 +160961,18 @@ namespace OverflowHelper.core
             //
             //     Tags: IR. Optical switches. Keychron. Broken.
             //
-            correctionAdd("Keychron K3 V2_", "Keychron K3_");
-            correctionAdd("keychron K3_", "Keychron K3_");
-            correctionAdd("K3 V2_", "Keychron K3_");
-            correctionAdd("K3 v2_", "Keychron K3_");
-            correctionAdd("k3 v2_", "Keychron K3_");
-            correctionAdd("K3 V3_", "Keychron K3_");
-            correctionAdd("k3 v3_", "Keychron K3_");
-            correctionAdd("k3v2_", "Keychron K3_");
-            correctionAdd("K3v2_", "Keychron K3_");
-            correctionAdd("k3_", "Keychron K3_");
-            correctionAdd("K3_", "Keychron K3_");
+            correctionAdd("Keychron K3 V2_", "Keychron K3 (80%)_");
+            correctionAdd("Keychron K3_", "Keychron K3 (80%)_");
+            correctionAdd("keychron K3_", "Keychron K3 (80%)_");
+            correctionAdd("K3 V2_", "Keychron K3 (80%)_");
+            correctionAdd("K3 v2_", "Keychron K3 (80%)_");
+            correctionAdd("k3 v2_", "Keychron K3 (80%)_");
+            correctionAdd("K3 V3_", "Keychron K3 (80%)_");
+            correctionAdd("k3 v3_", "Keychron K3 (80%)_");
+            correctionAdd("k3v2_", "Keychron K3 (80%)_");
+            correctionAdd("K3v2_", "Keychron K3 (80%)_");
+            correctionAdd("k3_", "Keychron K3 (80%)_");
+            correctionAdd("K3_", "Keychron K3 (80%)_");
 
             // A 85-key (80%. Not true TKL) crippled wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -160961,10 +160999,11 @@ namespace OverflowHelper.core
             //     "they make their high-end keycaps
             //      out of a thick ABS instead"
             //
-            correctionAdd("GMMK87_", "GMK87_");
-            correctionAdd("gmk87_", "GMK87_");
-            correctionAdd("GMM_", "GMK87_");
-            correctionAdd("GMK_", "GMK87_");
+            correctionAdd("GMMK87_", "GMK87 (80%)_");
+            correctionAdd("GMK87_", "GMK87 (80%)_");
+            correctionAdd("gmk87_", "GMK87 (80%)_");
+            correctionAdd("GMM_", "GMK87 (80%)_");
+            correctionAdd("GMK_", "GMK87 (80%)_");
 
             // A 86-key (80%. Not true TKL) ergonomic mechanical keyboard.
             //
@@ -160974,33 +161013,34 @@ namespace OverflowHelper.core
             //
             // Actually different 'Kinesis Advantage' models...
             //
-            correctionAdd("Kinesis advantage 360_", "Kinesis Advantage 2_");
-            correctionAdd("kinesis advantage 360_", "Kinesis Advantage 2_");
-            correctionAdd("kinesis advantage 369_", "Kinesis Advantage 2_"); // "9" is a typo of "0"
-            correctionAdd("kinesis advantage 2_", "Kinesis Advantage 2_");
-            correctionAdd("Kinesis Advantege 2_", "Kinesis Advantage 2_");
-            correctionAdd("Kinesis Advantage2_", "Kinesis Advantage 2_");
-            correctionAdd("Kinesis Advantage_", "Kinesis Advantage 2_");
-            correctionAdd("kinesis advantage_", "Kinesis Advantage 2_");
-            correctionAdd("the Advantage_", "Kinesis Advantage 2_");
-            correctionAdd("the advantage_", "Kinesis Advantage 2_");
-            correctionAdd("Advantage 360_", "Kinesis Advantage 2_");
-            correctionAdd("Advantage360_", "Kinesis Advantage 2_");
-            correctionAdd("advantage360_", "Kinesis Advantage 2_");
-            correctionAdd("Kinesis Pro_", "Kinesis Advantage 2_"); // It may not be the same keyboard...
-            correctionAdd("Advantage2_", "Kinesis Advantage 2_");
-            correctionAdd("Advantage_", "Kinesis Advantage 2_");
-            correctionAdd("advantage_", "Kinesis Advantage 2_");
-            correctionAdd("Kinesis_", "Kinesis Advantage 2_");
-            correctionAdd("kinesis_", "Kinesis Advantage 2_");
-            correctionAdd("Kineses_", "Kinesis Advantage 2_"); // Misspelling
-            correctionAdd("kineses_", "Kinesis Advantage 2_"); // Misspelling
-            correctionAdd("Kenesis_", "Kinesis Advantage 2_");
-            correctionAdd("KA360_", "Kinesis Advantage 2_");
-            correctionAdd("adv2_", "Kinesis Advantage 2_");
-            correctionAdd("Adv2_", "Kinesis Advantage 2_");
-            correctionAdd("KA2_", "Kinesis Advantage 2_");
-            correctionAdd("KA_", "Kinesis Advantage 2_");
+            correctionAdd("Kinesis advantage 360_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("kinesis advantage 360_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("kinesis advantage 369_", "Kinesis Advantage 2 (80%)_"); // "9" is a typo of "0"
+            correctionAdd("Kinesis Advantage 2_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("kinesis advantage 2_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("Kinesis Advantege 2_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("Kinesis Advantage2_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("Kinesis Advantage_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("kinesis advantage_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("the Advantage_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("the advantage_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("Advantage 360_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("Advantage360_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("advantage360_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("Kinesis Pro_", "Kinesis Advantage 2 (80%)_"); // It may not be the same keyboard...
+            correctionAdd("Advantage2_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("Advantage_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("advantage_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("Kinesis_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("kinesis_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("Kineses_", "Kinesis Advantage 2 (80%)_"); // Misspelling
+            correctionAdd("kineses_", "Kinesis Advantage 2 (80%)_"); // Misspelling
+            correctionAdd("Kenesis_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("KA360_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("adv2_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("Adv2_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("KA2_", "Kinesis Advantage 2 (80%)_");
+            correctionAdd("KA_", "Kinesis Advantage 2 (80%)_");
 
             // A 87-key (85%. Not true TKL) crippled wired and
             // wireless (both Bluetooth and '2.4 GHz')
@@ -161052,9 +161092,10 @@ namespace OverflowHelper.core
             //
             //     Note: In 'keyboards/lemokey', not 'keyboards/keychron'
             //
-            correctionAdd("Lemonkey L1_", "Keychron Lemokey L1_");
-            correctionAdd("Lemokey L1_", "Keychron Lemokey L1_");
-            correctionAdd("L1_", "Keychron Lemokey L1_");
+            correctionAdd("Keychron Lemokey L1_", "Keychron Lemokey L1 (85%)_");
+            correctionAdd("Lemonkey L1_", "Keychron Lemokey L1 (85%)_");
+            correctionAdd("Lemokey L1_", "Keychron Lemokey L1 (85%)_");
+            correctionAdd("L1_", "Keychron Lemokey L1 (85%)_");
 
             // A 88-key (85%. True TKL) crippled low-profile wired
             // and wireless (only Bluetooth) mechanical
@@ -161146,18 +161187,19 @@ namespace OverflowHelper.core
             //
             //       <https://github.com/Keychron/qmk_firmware/blob/wireless_playground/keyboards/keychron/k1_version_6>
             //
-            correctionAdd("K1 version 6_", "Keychron K1_"); // QMK-based
-            correctionAdd("K1 QMK v6_", "Keychron K1_");
-            correctionAdd("K1 QMK V6_", "Keychron K1_");
-            correctionAdd("K-1 SE_", "Keychron K1_");
-            correctionAdd("K1 SE_", "Keychron K1_");
-            correctionAdd("K1 V6_", "Keychron K1_"); // QMK-based
-            correctionAdd("K1 v6_", "Keychron K1_");
-            correctionAdd("K1SE_", "Keychron K1_"); // SE for "special edition"
-            correctionAdd("k1se_", "Keychron K1_");
-            correctionAdd("K-1_", "Keychron K1_");
-            correctionAdd("K1_", "Keychron K1_");
-            correctionAdd("k1_", "Keychron K1_");
+            correctionAdd("K1 version 6_", "Keychron K1 (85%)_"); // QMK-based
+            correctionAdd("Keychron K1_", "Keychron K1 (85%)_"); // QMK-based
+            correctionAdd("K1 QMK v6_", "Keychron K1 (85%)_");
+            correctionAdd("K1 QMK V6_", "Keychron K1 (85%)_");
+            correctionAdd("K-1 SE_", "Keychron K1 (85%)_");
+            correctionAdd("K1 SE_", "Keychron K1 (85%)_");
+            correctionAdd("K1 V6_", "Keychron K1 (85%)_"); // QMK-based
+            correctionAdd("K1 v6_", "Keychron K1 (85%)_");
+            correctionAdd("K1SE_", "Keychron K1 (85%)_"); // SE for "special edition"
+            correctionAdd("k1se_", "Keychron K1 (85%)_");
+            correctionAdd("K-1_", "Keychron K1 (85%)_");
+            correctionAdd("K1_", "Keychron K1 (85%)_");
+            correctionAdd("k1_", "Keychron K1 (85%)_");
 
             // A 92-key (90%. True TKL) crippled wired and wireless
             // (both Bluetooth and '2.4 GHz') QMK/Via-capable
@@ -161218,32 +161260,34 @@ namespace OverflowHelper.core
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/lemokey/l3>
             //     Note: In 'keyboards/lemokey', not 'keyboards/keychron'
             //
-            correctionAdd("Lemonkey L3_", "Keychron Lemokey L3_");
-            correctionAdd("Lemokey L3_", "Keychron Lemokey L3_");
-            correctionAdd("lemokey L3_", "Keychron Lemokey L3_");
-            correctionAdd("Lemokey l3_", "Keychron Lemokey L3_");
-            correctionAdd("lemokey l3_", "Keychron Lemokey L3_");
-            correctionAdd("L3_", "Keychron Lemokey L3_");
+            correctionAdd("Keychron Lemokey L3_", "Keychron Lemokey L3 (90%)_");
+            correctionAdd("Lemonkey L3_", "Keychron Lemokey L3 (90%)_");
+            correctionAdd("Lemokey L3_", "Keychron Lemokey L3 (90%)_");
+            correctionAdd("lemokey L3_", "Keychron Lemokey L3 (90%)_");
+            correctionAdd("Lemokey l3_", "Keychron Lemokey L3 (90%)_");
+            correctionAdd("lemokey l3_", "Keychron Lemokey L3 (90%)_");
+            correctionAdd("L3_", "Keychron Lemokey L3 (90%)_");
 
             // A 98-key (95%. Not true TKL) crippled (wrt. missing
             // PgUp and PgDn, etc.) wired-only QMK/Via-capable
             // mechanical keyboard from Keychron with a knob.
             //
             // For the product page URL.
-            correctionAdd("Keychron V5_", "Keychron V5 ISO_");
-            correctionAdd("keychron v5_", "Keychron V5 ISO_");
-            correctionAdd("Keychron v5_", "Keychron V5 ISO_");
-            correctionAdd("Keythron V5_", "Keychron V5 ISO_");
-            correctionAdd("Keythron v5_", "Keychron V5 ISO_");
-            correctionAdd("keychron/v5_", "Keychron V5 ISO_");
-            correctionAdd("keytron v5_", "Keychron V5 ISO_");
-            correctionAdd("Keytron V5_", "Keychron V5 ISO_");
-            correctionAdd("keytron V5_", "Keychron V5 ISO_");
-            correctionAdd("Keytron v5_", "Keychron V5 ISO_");
-            correctionAdd("Keytron 5_", "Keychron V5 ISO_");
-            correctionAdd("V5 ISO_", "Keychron V5 ISO_");
-            correctionAdd("v5_", "Keychron V5 ISO_");
-            correctionAdd("V5_", "Keychron V5 ISO_");
+            correctionAdd("Keychron V5 ISO_", "Keychron V5 ISO (95%)_");
+            correctionAdd("Keychron V5_", "Keychron V5 ISO (95%)_");
+            correctionAdd("keychron v5_", "Keychron V5 ISO (95%)_");
+            correctionAdd("Keychron v5_", "Keychron V5 ISO (95%)_");
+            correctionAdd("Keythron V5_", "Keychron V5 ISO (95%)_");
+            correctionAdd("Keythron v5_", "Keychron V5 ISO (95%)_");
+            correctionAdd("keychron/v5_", "Keychron V5 ISO (95%)_");
+            correctionAdd("keytron v5_", "Keychron V5 ISO (95%)_");
+            correctionAdd("Keytron V5_", "Keychron V5 ISO (95%)_");
+            correctionAdd("keytron V5_", "Keychron V5 ISO (95%)_");
+            correctionAdd("Keytron v5_", "Keychron V5 ISO (95%)_");
+            correctionAdd("Keytron 5_", "Keychron V5 ISO (95%)_");
+            correctionAdd("V5 ISO_", "Keychron V5 ISO (95%)_");
+            correctionAdd("v5_", "Keychron V5 ISO (95%)_");
+            correctionAdd("V5_", "Keychron V5 ISO (95%)_");
 
             // A 100-key (95%. Not true TKL) crippled wired
             // and wireless (both Bluetooth and '2.4 GHz')
@@ -161292,9 +161336,10 @@ namespace OverflowHelper.core
             //
             // Microcontroller: TLSR8258
             //
-            correctionAdd("b4 pro_", "Keychron B4 Pro_");
-            correctionAdd("B4 Pro_", "Keychron B4 Pro_");
-            correctionAdd("b4_", "Keychron B4 Pro_");
+            correctionAdd("Keychron B4 Pro_", "Keychron B4 Pro (95%)_");
+            correctionAdd("b4 pro_", "Keychron B4 Pro (95%)_");
+            correctionAdd("B4 Pro_", "Keychron B4 Pro (95%)_");
+            correctionAdd("b4_", "Keychron B4 Pro (95%)_");
 
             // A 103-key (100%. Not true TKL) crippled wired-only
             // mechanical keyboard from Keychron with a knob.
@@ -161326,7 +161371,8 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/keychron-q12-user-guide>
             //
-            correctionAdd("Q12_", "Keychron Q12_");
+            correctionAdd("Keychron Q12_", "Keychron Q12 (100%)_");
+            correctionAdd("Q12_", "Keychron Q12 (100%)_");
 
             // A 104-key (100%. Not true TKL) crippled low-profile
             // wired and wireless (both Bluetooth and '2.4 GHz')
@@ -161395,23 +161441,24 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k17_max>
             //
-            correctionAdd("Keychron K17 max_", "Keychron K17 Max_");
-            correctionAdd("K17 Max_", "Keychron K17 Max_");
-            correctionAdd("k17 max_", "Keychron K17 Max_");
-            correctionAdd("K17 max_", "Keychron K17 Max_");
-            correctionAdd("K17Max_", "Keychron K17 Max_");
-            correctionAdd("k17max_", "Keychron K17 Max_");
-            correctionAdd("K17M_", "Keychron K17 Max_");
+            correctionAdd("Keychron K17 Max_", "Keychron K17 Max (100%)_");
+            correctionAdd("Keychron K17 max_", "Keychron K17 Max (100%)_");
+            correctionAdd("K17 Max_", "Keychron K17 Max (100%)_");
+            correctionAdd("k17 max_", "Keychron K17 Max (100%)_");
+            correctionAdd("K17 max_", "Keychron K17 Max (100%)_");
+            correctionAdd("K17Max_", "Keychron K17 Max (100%)_");
+            correctionAdd("k17max_", "Keychron K17 Max (100%)_");
+            correctionAdd("K17M_", "Keychron K17 Max (100%)_");
 
             // A 105-key (100%. Not true TKL) full-size
             // mechanical keyboard from Cooler Master.
             //
             // The URL is to a blog post.
             //
-            correctionAdd("CK550 V2 (100%)_", "CK550 V2_");
-            correctionAdd("the CK550 V2_", "CK550 V2_");
-            correctionAdd("CK550_", "CK550 V2_");
-            correctionAdd("ck550_", "CK550 V2_");
+            correctionAdd("the CK550 V2_", "CK550 V2 (100%)_");
+            correctionAdd("CK550 V2_", "CK550 V2 (100%)_");
+            correctionAdd("CK550_", "CK550 V2 (100%)_");
+            correctionAdd("ck550_", "CK550 V2 (100%)_");
 
             // A 105-key (100%. Not true TKL) full-size wired-only
             // mechanical keyboard from Keychron.
@@ -161434,9 +161481,10 @@ namespace OverflowHelper.core
             //
             //   <https://www.keychron.com/pages/firmware-for-keychron-c2>
             //
-            correctionAdd("C2_", "Keychron C2_");
-            correctionAdd("c2_", "Keychron C2_");
-            correctionAdd("Ç2_", "Keychron C2_");
+            correctionAdd("Keychron C2_", "Keychron C2 (100%)_");
+            correctionAdd("C2_", "Keychron C2 (100%)_");
+            correctionAdd("c2_", "Keychron C2 (100%)_");
+            correctionAdd("Ç2_", "Keychron C2 (100%)_");
 
             // A 105-key (100%. Not true TKL) full-size non-crippled
             // low-profile wired and wireless (only Bluetooth)
@@ -161747,11 +161795,12 @@ namespace OverflowHelper.core
             //     Likely location: <https://github.com/Keychron/zmk/blob/rtl8762g/app/boards/shields/keychron>
             //     Likely branch: "rtl8762g" in Keychron's fork of ZMK.
             //
-            correctionAdd("Keychron P6 Ultra_", "Keychron P6 Ultra 8K_");
-            correctionAdd("P6 Ultra 8K_", "Keychron P6 Ultra 8K_");
-            correctionAdd("P6 Ultra_", "Keychron P6 Ultra 8K_");
-            correctionAdd("P6 ultra_", "Keychron P6 Ultra 8K_");
-            correctionAdd("P6_", "Keychron P6 Ultra 8K_");
+            correctionAdd("Keychron P6 Ultra 8K_", "Keychron P6 Ultra 8K (105%)_");
+            correctionAdd("Keychron P6 Ultra_", "Keychron P6 Ultra 8K (105%)_");
+            correctionAdd("P6 Ultra 8K_", "Keychron P6 Ultra 8K (105%)_");
+            correctionAdd("P6 Ultra_", "Keychron P6 Ultra 8K (105%)_");
+            correctionAdd("P6 ultra_", "Keychron P6 Ultra 8K (105%)_");
+            correctionAdd("P6_", "Keychron P6 Ultra 8K (105%)_");
 
             // A 109-key (105%. Not true TKL) full-size mechanical
             // keyboard from Razer. It has five macro keys on
@@ -161767,22 +161816,23 @@ namespace OverflowHelper.core
             //     The 'deskthority.net' reference is now broken (blank page).
             //     Candidate site for the wiki: <https://wiki.themk.org>
             //
-            correctionAdd("razer black widow_", "Razer BlackWidow_");
-            correctionAdd("Razer Black Widow_", "Razer BlackWidow_");
-            correctionAdd("Razer Black widow_", "Razer BlackWidow_");
-            correctionAdd("Razer Blackwidow_", "Razer BlackWidow_");
-            correctionAdd("razer blackwidow_", "Razer BlackWidow_");
-            correctionAdd("Razer blackwidow_", "Razer BlackWidow_");
-            correctionAdd("RAZER Blackwidow_", "Razer BlackWidow_");
-            correctionAdd("Razor Blackwidow_", "Razer BlackWidow_");
-            correctionAdd("razer widowmaker_", "Razer BlackWidow_");
-            correctionAdd("Black Widow_", "Razer BlackWidow_");
-            correctionAdd("black widow_", "Razer BlackWidow_");
-            correctionAdd("Blackwidow_", "Razer BlackWidow_");
-            correctionAdd("blackwidow_", "Razer BlackWidow_");
-            correctionAdd("BlackWidow_", "Razer BlackWidow_");
-            correctionAdd("Razor_", "Razer BlackWidow_");
-            correctionAdd("Razer_", "Razer BlackWidow_");
+            correctionAdd("razer black widow_", "Razer BlackWidow (105%)_");
+            correctionAdd("Razer Black Widow_", "Razer BlackWidow (105%)_");
+            correctionAdd("Razer Black widow_", "Razer BlackWidow (105%)_");
+            correctionAdd("Razer BlackWidow_", "Razer BlackWidow (105%)_");
+            correctionAdd("Razer Blackwidow_", "Razer BlackWidow (105%)_");
+            correctionAdd("razer blackwidow_", "Razer BlackWidow (105%)_");
+            correctionAdd("Razer blackwidow_", "Razer BlackWidow (105%)_");
+            correctionAdd("RAZER Blackwidow_", "Razer BlackWidow (105%)_");
+            correctionAdd("Razor Blackwidow_", "Razer BlackWidow (105%)_");
+            correctionAdd("razer widowmaker_", "Razer BlackWidow (105%)_");
+            correctionAdd("Black Widow_", "Razer BlackWidow (105%)_");
+            correctionAdd("black widow_", "Razer BlackWidow (105%)_");
+            correctionAdd("Blackwidow_", "Razer BlackWidow (105%)_");
+            correctionAdd("blackwidow_", "Razer BlackWidow (105%)_");
+            correctionAdd("BlackWidow_", "Razer BlackWidow (105%)_");
+            correctionAdd("Razor_", "Razer BlackWidow (105%)_");
+            correctionAdd("Razer_", "Razer BlackWidow (105%)_");
 
             correctionAdd("saught_", "sought_");
             correctionAdd("seeked_", "sought_");
@@ -169752,8 +169802,6 @@ namespace OverflowHelper.core
 
             URL_Add("Godbolt_", "https://github.com/mattgodbolt/compiler-explorer");
 
-            URL_Add("ErgoDox EZ_", "https://ergodox-ez.com/");
-
             URL_Add("no key action keycode (KC_NO. QMK. 0 (decimal). 00 (hexadecimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
 
             URL_Add("inherit key keycode (KC_TRANSPARENT. QMK. 1 (decimal). 01 (hexadecimal))_", "https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md");
@@ -170265,8 +170313,6 @@ namespace OverflowHelper.core
             URL_Add("intent_", "https://en.wiktionary.org/wiki/intent#Noun");
 
             URL_Add("road_", "https://en.wiktionary.org/wiki/road#Noun");
-
-            URL_Add("MonsGeek M1_", "https://monsgeek.eu/products/monsgeek-m1-qmk-diy-kit");
 
             URL_Add("JST connector_", "https://en.wikipedia.org/wiki/JST_connector");
 
@@ -171485,8 +171531,6 @@ namespace OverflowHelper.core
             URL_Add("Keyboard Setup Assistant_", "https://support.apple.com/en-euro/guide/mac-help/-mchlp2886/mac");
 
             URL_Add("watch_", "https://en.wikipedia.org/wiki/Watch_(command)");
-
-            URL_Add("Dygma Defy_", "https://www.youtube.com/watch?v=fVpinjluogQ");
 
             URL_Add("culprit_", "https://en.wiktionary.org/wiki/culprit#Noun");
 
@@ -172926,8 +172970,6 @@ namespace OverflowHelper.core
 
             URL_Add("what the fuck_", "https://en.wiktionary.org/wiki/what_the_fuck#Phrase");
 
-            URL_Add("Helix_", "https://github.com/MakotoKurauchi/helix");
-
             URL_Add("helicopter_", "https://en.wiktionary.org/wiki/helo#Noun");
 
             URL_Add("mechanical_", "https://en.wiktionary.org/wiki/mechanical#Adjective");
@@ -173052,28 +173094,6 @@ namespace OverflowHelper.core
 
             URL_Add("Black Friday_", "https://en.wikipedia.org/wiki/Black_Friday_(shopping)");
 
-            URL_Add("Razer BlackWidow_", "https://web.archive.org/web/20230509163448/https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards"); // Old: <https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards>. Even older: <https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow>
-
-            URL_Add("Cherry MX Red switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Brown switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Blue switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Speed Silver switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Hall effect_", "https://en.wikipedia.org/wiki/Hall_effect");
-
-            URL_Add("Dawn Keychron x Gateron double-rail magnetic switches_", "https://www.keychron.com/products/gateron-double-rail-magnetic-switch?variant=40784600662105");
-
-            URL_Add("Nebula Keychron x Gateron double-rail magnetic switches_", "https://www.keychron.com/products/gateron-double-rail-magnetic-switch?variant=40784600694873");
-
-            URL_Add("Aurora Keychron x Gateron double-rail magnetic switches_", "https://www.keychron.com/products/gateron-double-rail-magnetic-switch?variant=40784600727641");
-
-            URL_Add("Amazon Redshift_", "https://en.wikipedia.org/wiki/Amazon_Redshift");
-
-            URL_Add("RGB_TURQUOISE (0x476E6A)_", "https://github.com/qmk/qmk_firmware/blob/master/quantum/color.h#L44");
-
             URL_Add("Bluetooth_", "https://en.wikipedia.org/wiki/Bluetooth2");
 
             URL_Add("The Bluetooth version in the Keychron K Pro series keyboards is 2.0/2.1, not 5.1 as claimed_", "https://github.com/Keychron/qmk_firmware/issues/338#issuecomment-2564070299");
@@ -173174,8 +173194,6 @@ namespace OverflowHelper.core
 
             URL_Add("Cooler Master exited the mechanical keyboards and mice business_", "https://www.reddit.com/r/coolermaster/comments/1c87jl5/coolermaster_is_dropping_the_ball_on_the_mm712_pro/");
 
-            URL_Add("GMK87_", "https://www.reddit.com/r/BudgetKeebs/comments/1aguhfh/gmk87_after_3_weeks_my_experience/");
-
             URL_Add("space bar method to enter bootloader mode on QMK keyboards_", "https://www.reddit.com/r/Keychron/comments/194x73s/comment/khs7y49/");
 
             URL_Add("south-facing blinding light_", "https://www.reddit.com/r/MechanicalKeyboards/comments/ysn0nh/fix_blinding_light_from_southfacing_leds/");
@@ -173189,12 +173207,6 @@ namespace OverflowHelper.core
             URL_Add("full NKRO busts the Keychron keyboards in wireless mode_", "https://www.reddit.com/r/Keychron/comments/198jmqn/comment/l0vwnbr/");
 
             URL_Add("the gasket problem_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/mqitys7/");
-
-            URL_Add("MasterPlus+_", "https://www.reddit.com/r/coolermaster/comments/193b652/coolermaster_masterplus_v194_released_december_27/");
-
-            URL_Add("MasterPlus+ 1.9.5_", "https://www.reddit.com/r/coolermaster/comments/1c4bhvz/coolermaster_masterplus_v195_released_april_10/");
-
-            URL_Add("CK550 V2_", "https://pmortensen.eu/world2/2023/02/13/low-cost-fully-macro-capable-mechanical-keyboard-cooler-master-ck-550/");
 
             URL_Add("agent skill_", "https://www.reddit.com/r/qmk/comments/1v09ul7/comment/oz2ib4v/");
 
@@ -173223,58 +173235,6 @@ namespace OverflowHelper.core
             URL_Add("Mamba_", "https://anaconda.org/channels/conda-forge/packages/mamba/overview");
 
             URL_Add("DIP_", "https://en.wikipedia.org/wiki/Dual_in-line_package");
-
-            URL_Add("ZSA Voyager_", "https://www.youtube.com/watch?v=VYQ0gyhjRXc");
-
-            URL_Add("Dygma Raise_", "https://dygma.com/products/dygma-raise");
-
-            URL_Add("Kinesis Advantage 2_", "https://en.wikipedia.org/wiki/Kinesis_(keyboard)#Advantage_360");
-
-            URL_Add("Keychron Launcher_", "https://www.launcher.keychron.com/#/keymap");
-
-            URL_Add("Keychron B1 Pro_", "https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard");
-
-            URL_Add("Keychron B4 Pro_", "https://www.keychron.com/products/keychron-b4-pro-ultra-slim-wireless-keyboard");
-
-            URL_Add("Keychron R5 (95%)_", "https://www.keychron.com/pages/keychron-r5-user-manual");
-
-            URL_Add("slightly reduced selection of keycaps_", "https://switchandclick.com/mechanical-keyboard-switch-guide/");
-
-            URL_Add("Keychron C2_", "https://www.keychron.com/products/keychron-c2-wired-mechanical-keyboard");
-
-            URL_Add("Keychron K1_", "https://www.keychron.com/products/keychron-k1-wireless-mechanical-keyboard");
-
-            URL_Add("Keychron K2 V3 (80%)_", "https://www.keychron.com/products/keychron-k2-qmk-wireless-mechanical-keyboard-version-3");
-
-            URL_Add("Keychron K3_", "https://www.keychron.com/collections/k3-iso-keyboards/products/keychron-k3-ultra-slim-wireless-mechanical-keyboard-nordic-iso-layout-version-2");
-
-            URL_Add("Keychron K5 (100%) (proprietary keyboard firmware, not open source)_", "https://www.keychron.com/products/keychron-k5-ultra-slim-wireless-mechanical-keyboard");
-
-            URL_Add("Keychron K10 V2 (100%)_", "https://www.keychron.se/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
-
-            URL_Add("Keychron K7 Pro_", "https://www.keychron.com/products/keychron-k7-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron K11 Max_", "https://www.keychron.com/products/keychron-k11-max-qmk-via-wireless-custom-mechanical-keyboard");
-
-            URL_Add("Keychron K17 Max_", "https://www.keychron.com/products/keychron-k17-max-qmk-via-wireless-custom-mechanical-keyboard");
-
-            URL_Add("Keychron K2 HE (80%)_", "https://www.keychron.com/products/keychron-k2-he-wireless-magnetic-switch-keyboard"); // Old: <https://www.keychron.com/pages/keychron-k2-he-landing-page>
-
-            URL_Add("Keychron Q8_", "https://www.keychron.com/products/keychron-q8-alice-layout-qmk-custom-mechanical-keyboard");
-
-            URL_Add("Keychron Q12_", "https://www.keychron.com/products/keychron-q12-qmk-custom-mechanical-keyboard");
-
-            URL_Add("Keychron Q65_", "https://www.keychron.com/products/keychron-q65-qmk-custom-mechanical-keyboard");
-
-            URL_Add("Keychron Q1 HE_", "https://www.keychron.com/products/keychron-q1-he-qmk-wireless-custom-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron Lemokey L1_", "https://www.keychron.com/products/lemokey-l1-qmk-via-wireless-custom-gaming-keyboard");
-
-            URL_Add("Keychron Lemokey L3_", "https://www.keychron.com/products/lemokey-l3-qmk-via-wireless-custom-mechanical-keyboard");
-
-            URL_Add("Keychron V5 ISO_", "https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard-iso-layout-collection");
-
-            URL_Add("Keychron P6 Ultra 8K_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
 
             URL_Add("instant messaging_", "https://en.wikipedia.org/wiki/Instant_messaging");
 
@@ -173493,6 +173453,96 @@ namespace OverflowHelper.core
             URL_Add("a checklist for Keychron mechanical keyboards with keychattering and missed keystrokes_", "https://www.reddit.com/r/Keychron/comments/1fh6h26/comment/ln9sqs1/");
 
             URL_Add("Radare2_", "https://en.wikipedia.org/wiki/Radare2");
+
+            URL_Add("slightly reduced selection of keycaps_", "https://switchandclick.com/mechanical-keyboard-switch-guide/");
+
+            URL_Add("Keychron Launcher_", "https://www.launcher.keychron.com/#/keymap");
+
+            URL_Add("MasterPlus+_", "https://www.reddit.com/r/coolermaster/comments/193b652/coolermaster_masterplus_v194_released_december_27/");
+
+            URL_Add("MasterPlus+ 1.9.5_", "https://www.reddit.com/r/coolermaster/comments/1c4bhvz/coolermaster_masterplus_v195_released_april_10/");
+
+            URL_Add("Cherry MX Red switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Brown switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Blue switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Speed Silver switches_", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Hall effect_", "https://en.wikipedia.org/wiki/Hall_effect");
+
+            URL_Add("Dawn Keychron x Gateron double-rail magnetic switches_", "https://www.keychron.com/products/gateron-double-rail-magnetic-switch?variant=40784600662105");
+
+            URL_Add("Nebula Keychron x Gateron double-rail magnetic switches_", "https://www.keychron.com/products/gateron-double-rail-magnetic-switch?variant=40784600694873");
+
+            URL_Add("Aurora Keychron x Gateron double-rail magnetic switches_", "https://www.keychron.com/products/gateron-double-rail-magnetic-switch?variant=40784600727641");
+
+            URL_Add("Amazon Redshift_", "https://en.wikipedia.org/wiki/Amazon_Redshift");
+
+            URL_Add("RGB_TURQUOISE (0x476E6A)_", "https://github.com/qmk/qmk_firmware/blob/master/quantum/color.h#L44");
+
+            URL_Add("ZSA Voyager (50%)_", "https://www.youtube.com/watch?v=VYQ0gyhjRXc");
+
+            URL_Add("Helix (60%)_", "https://github.com/MakotoKurauchi/helix");
+
+            URL_Add("Dygma Raise (60%)_", "https://dygma.com/products/dygma-raise");
+
+            URL_Add("Dygma Defy (65%)_", "https://www.youtube.com/watch?v=fVpinjluogQ");
+
+            URL_Add("ErgoDox EZ (70%)_", "https://ergodox-ez.com/");
+
+            URL_Add("MonsGeek M1 (75%)_", "https://monsgeek.eu/products/monsgeek-m1-qmk-diy-kit");
+
+            URL_Add("GMK87 (80%)_", "https://www.reddit.com/r/BudgetKeebs/comments/1aguhfh/gmk87_after_3_weeks_my_experience/");
+
+            URL_Add("Kinesis Advantage 2 (80%)_", "https://en.wikipedia.org/wiki/Kinesis_(keyboard)#Advantage_360");
+
+            URL_Add("CK550 V2 (100%)_", "https://pmortensen.eu/world2/2023/02/13/low-cost-fully-macro-capable-mechanical-keyboard-cooler-master-ck-550/");
+
+            URL_Add("Razer BlackWidow (105%)_", "https://web.archive.org/web/20230509163448/https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards"); // Old: <https://en.wikipedia.org/wiki/List_of_Razer_products#Keyboards>. Even older: <https://www.razer.com/gaming-keyboards-keypads/razer-blackwidow>
+
+            URL_Add("Keychron B1 Pro (75%)_", "https://www.keychron.com/products/keychron-b1-pro-ultra-slim-wireless-keyboard");
+
+            URL_Add("Keychron B4 Pro (95%)_", "https://www.keychron.com/products/keychron-b4-pro-ultra-slim-wireless-keyboard");
+
+            URL_Add("Keychron R5 (95%)_", "https://www.keychron.com/pages/keychron-r5-user-manual");
+
+            URL_Add("Keychron C2 (100%)_", "https://www.keychron.com/products/keychron-c2-wired-mechanical-keyboard");
+
+            URL_Add("Keychron K1 (85%)_", "https://www.keychron.com/products/keychron-k1-wireless-mechanical-keyboard");
+
+            URL_Add("Keychron K2 V3 (80%)_", "https://www.keychron.com/products/keychron-k2-qmk-wireless-mechanical-keyboard-version-3");
+
+            URL_Add("Keychron K3 (80%)_", "https://www.keychron.com/collections/k3-iso-keyboards/products/keychron-k3-ultra-slim-wireless-mechanical-keyboard-nordic-iso-layout-version-2");
+
+            URL_Add("Keychron K5 (100%) (proprietary keyboard firmware, not open source)_", "https://www.keychron.com/products/keychron-k5-ultra-slim-wireless-mechanical-keyboard");
+
+            URL_Add("Keychron K10 V2 (100%)_", "https://www.keychron.se/products/keychron-k10-qmk-wireless-mechanical-keyboard-iso-layout-version-2"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
+
+            URL_Add("Keychron K7 Pro (65%)_", "https://www.keychron.com/products/keychron-k7-pro-qmk-via-wireless-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron K11 Max (65%)_", "https://www.keychron.com/products/keychron-k11-max-qmk-via-wireless-custom-mechanical-keyboard");
+
+            URL_Add("Keychron K17 Max (100%)_", "https://www.keychron.com/products/keychron-k17-max-qmk-via-wireless-custom-mechanical-keyboard");
+
+            URL_Add("Keychron K2 HE (80%)_", "https://www.keychron.com/products/keychron-k2-he-wireless-magnetic-switch-keyboard"); // Old: <https://www.keychron.com/pages/keychron-k2-he-landing-page>
+
+            URL_Add("Keychron Q8 (65%)_", "https://www.keychron.com/products/keychron-q8-alice-layout-qmk-custom-mechanical-keyboard");
+
+            URL_Add("Keychron Q12 (100%)_", "https://www.keychron.com/products/keychron-q12-qmk-custom-mechanical-keyboard");
+
+            URL_Add("Keychron Q65 (70%)_", "https://www.keychron.com/products/keychron-q65-qmk-custom-mechanical-keyboard");
+
+            URL_Add("Keychron Q1 HE (80%)_", "https://www.keychron.com/products/keychron-q1-he-qmk-wireless-custom-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron Lemokey L1 (85%)_", "https://www.keychron.com/products/lemokey-l1-qmk-via-wireless-custom-gaming-keyboard");
+
+            URL_Add("Keychron Lemokey L3 (90%)_", "https://www.keychron.com/products/lemokey-l3-qmk-via-wireless-custom-mechanical-keyboard");
+
+            URL_Add("Keychron V5 ISO (95%)_", "https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard-iso-layout-collection");
+
+            URL_Add("Keychron P6 Ultra 8K (105%)_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
 
         } //addLookupData_alternativeWordSet()
 
@@ -175284,8 +175334,9 @@ namespace OverflowHelper.core
             //
             //     South pole facing downward (uncommon)
             //
-            correctionAdd("HE Q1__", "Keychron Q1 HE__");
-            correctionAdd("Q1 HE__", "Keychron Q1 HE__");
+            correctionAdd("Keychron Q1 HE__", "Keychron Q1 HE (80%)__");
+            correctionAdd("HE Q1__", "Keychron Q1 HE (80%)__");
+            correctionAdd("Q1 HE__", "Keychron Q1 HE (80%)__");
 
             // For the Reddit comment reference
             correctionAdd("Keychron's Via clone__", "Keychron Launcher__");
@@ -177790,33 +177841,34 @@ namespace OverflowHelper.core
             //   <https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air75_v2/ansi>
             //     In a fork of QMK
             //
-            correctionAdd("Nuphy Air 75 v2__", "NuPhy Air75 V2__");
-            correctionAdd("Nuphy air 75 v2__", "NuPhy Air75 V2__");
-            correctionAdd("nuphy air75 v2__", "NuPhy Air75 V2__");
-            correctionAdd("Nuphy Air75 v2__", "NuPhy Air75 V2__");
-            correctionAdd("Nuphy Air75 V2__", "NuPhy Air75 V2__");
-            correctionAdd("Nuphy air 75v2__", "NuPhy Air75 V2__");
-            correctionAdd("Nuphy Air75V2__", "NuPhy Air75 V2__");
-            correctionAdd("Nuphy Air v2__", "NuPhy Air75 V2__");
-            correctionAdd("NuPhy Air V2__", "NuPhy Air75 V2__");
-            correctionAdd("Nuphy Air 75__", "NuPhy Air75 V2__");
-            correctionAdd("NuPhy Air 75__", "NuPhy Air75 V2__");
-            correctionAdd("Nuphy Air75__", "NuPhy Air75 V2__");
-            correctionAdd("NuPhy Air75__", "NuPhy Air75 V2__");
-            correctionAdd("Nuphy Air__", "NuPhy Air75 V2__");
-            correctionAdd("Nuphy air__", "NuPhy Air75 V2__");
-            correctionAdd("Air75 v2__", "NuPhy Air75 V2__");
-            correctionAdd("air75v2__", "NuPhy Air75 V2__");
-            correctionAdd("v2 airs__", "NuPhy Air75 V2__");
-            correctionAdd("Air 75__", "NuPhy Air75 V2__");
-            correctionAdd("numpy__", "NuPhy Air75 V2__");
-            correctionAdd("Air75__", "NuPhy Air75 V2__");
-            correctionAdd("air75__", "NuPhy Air75 V2__");
-            correctionAdd("NuPhy__", "NuPhy Air75 V2__"); // Not 100% correct, but a representative of the NuPhy keyboard series and of the NuPhy company
-            correctionAdd("Nuphy__", "NuPhy Air75 V2__"); // Not 100% correct, but a representative of the NuPhy keyboard series and of the NuPhy company
-            correctionAdd("nuphy__", "NuPhy Air75 V2__"); // Not 100% correct, but a representative of the NuPhy keyboard series and of the NuPhy company
-            correctionAdd("NUPHY__", "NuPhy Air75 V2__"); // Not 100% correct, but a representative of the NuPhy keyboard series and of the NuPhy company
-            correctionAdd("NuPhy series__", "NuPhy Air75 V2__"); // Not 100% correct, but a representative of the NuPhy keyboard series and of the NuPhy company
+            correctionAdd("Nuphy Air 75 v2__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Nuphy air 75 v2__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("NuPhy Air75 V2__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("nuphy air75 v2__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Nuphy Air75 v2__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Nuphy Air75 V2__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Nuphy air 75v2__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Nuphy Air75V2__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Nuphy Air v2__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("NuPhy Air V2__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Nuphy Air 75__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("NuPhy Air 75__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Nuphy Air75__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("NuPhy Air75__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Nuphy Air__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Nuphy air__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Air75 v2__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("air75v2__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("v2 airs__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Air 75__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("numpy__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("Air75__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("air75__", "NuPhy Air75 V2 (80%)__");
+            correctionAdd("NuPhy__", "NuPhy Air75 V2 (80%)__"); // Not 100% correct, but a representative of the NuPhy keyboard series and of the NuPhy company
+            correctionAdd("Nuphy__", "NuPhy Air75 V2 (80%)__"); // Not 100% correct, but a representative of the NuPhy keyboard series and of the NuPhy company
+            correctionAdd("nuphy__", "NuPhy Air75 V2 (80%)__"); // Not 100% correct, but a representative of the NuPhy keyboard series and of the NuPhy company
+            correctionAdd("NUPHY__", "NuPhy Air75 V2 (80%)__"); // Not 100% correct, but a representative of the NuPhy keyboard series and of the NuPhy company
+            correctionAdd("NuPhy series__", "NuPhy Air75 V2 (80%)__"); // Not 100% correct, but a representative of the NuPhy keyboard series and of the NuPhy company
 
             // A 85-key (80%. Not true TKL) crippled wired and
             // wireless (only Bluetooth) mechanical keyboard
@@ -178065,10 +178117,11 @@ namespace OverflowHelper.core
             //     Using bodge wires for replacing RGB LEDs using
             //     replacements with a different pinout.
             //
-            correctionAdd("keychron k8__", "Keychron K8__");
-            correctionAdd("K8v2__", "Keychron K8__"); // Though it is the K8 with QMK support (could be considered to be another keyboard)
-            correctionAdd("K8__", "Keychron K8__");
-            correctionAdd("k8__", "Keychron K8__");
+            correctionAdd("Keychron K8__", "Keychron K8 (85%)__");
+            correctionAdd("keychron k8__", "Keychron K8 (85%)__");
+            correctionAdd("K8v2__", "Keychron K8 (85%)__"); // Though it is the K8 with QMK support (could be considered to be another keyboard)
+            correctionAdd("K8__", "Keychron K8 (85%)__");
+            correctionAdd("k8__", "Keychron K8 (85%)__");
 
             // A 105-key (100%. Not true TKL) full-size non-crippled
             // wired and wireless (only Bluetooth) mechanical
@@ -180004,9 +180057,15 @@ namespace OverflowHelper.core
 
             URL_Add("even-numbered Keychron 'K' keyboards are normal profile__", "https://www.youtube.com/watch?v=5oy9WgwUDTw&t=1m26s");
 
-            URL_Add("Keychron Q1 HE__", "https://www.kickstarter.com/projects/keytron/keychron-q1-he-qmk-wireless-custom-magnetic-switch-keyboard");
+            URL_Add("NuPhy Air75 V2 (80%)__", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air75_v2/ansi");
 
-            URL_Add("NuPhy Air75 V2__", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air75_v2/ansi");
+            URL_Add("Keychron Q1 HE (80%)__", "https://www.kickstarter.com/projects/keytron/keychron-q1-he-qmk-wireless-custom-magnetic-switch-keyboard");
+
+            URL_Add("Keychron K2 (80%) (proprietary keyboard firmware, not open source)__", "https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard-uk-iso-layout");
+
+            URL_Add("Keychron K8 (85%)__", "https://www.keychron.uk/products/keychron-k8-wireless-mechanical-keyboard-uk-iso-layout");
+
+            URL_Add("Keychron K10 (100%) (proprietary keyboard firmware, not open source)__", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
 
             URL_Add("Keychron K1 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k1_max");
 
@@ -180019,12 +180078,6 @@ namespace OverflowHelper.core
             URL_Add("Keychron K5 Pro source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k5_pro");
 
             URL_Add("Keychron K5 Max source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k5_max");
-
-            URL_Add("Keychron K2 (80%) (proprietary keyboard firmware, not open source)__", "https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard-uk-iso-layout");
-
-            URL_Add("Keychron K8__", "https://www.keychron.uk/products/keychron-k8-wireless-mechanical-keyboard-uk-iso-layout");
-
-            URL_Add("Keychron K10 (100%) (proprietary keyboard firmware, not open source)__", "https://www.keychron.at/collections/keychron-uk-iso-keyboards/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout"); // Old: <https://www.keychron.uk/products/keychron-k10-wireless-mechanical-keyboard-uk-iso-layout>
 
             URL_Add("Keychron K10 Pro source code__", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k10_pro");
 
@@ -183452,7 +183505,39 @@ namespace OverflowHelper.core
 
             URL_Add("multiples___", "https://en.wiktionary.org/wiki/multiple#Noun");
 
+            URL_Add("modes are evil___", "https://en.wikipedia.org/wiki/Mode_(user_interface)#Mode_errors");
+
+            URL_Add("Via blues___", "https://www.reddit.com/r/Keychron/comments/1g76o1e/comment/lsp51pj/");
+
+            URL_Add("hard flashing___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lby5g3e/");
+
+            URL_Add("Git branch \"wls_2025q1\" in Keychron's fork___", "https://github.com/Keychron/qmk_firmware/tree/wls_2025q1/keyboards/keychron/k10_version_2");
+
+            URL_Add("SRGBmods (Vial)___", "https://github.com/SRGBmods/QMK-Binaries/tree/main/QMK%2BVIA%2BVial-Firmware/10_12_25");
+
+            URL_Add("&nbsp;mo___", "https://en.wikipedia.org/wiki/Month");
+
+            URL_Add("Sonix___", "https://www.sonix.com.tw/article-en-915-10794");
+
+            URL_Add("disgusting engine move___", "https://en.wikipedia.org/wiki/Chess_engine");
+
+            URL_Add("vitamin K2___", "https://en.wikipedia.org/wiki/Vitamin_K2");
+
+            URL_Add(".NET Core___", "https://en.wikipedia.org/wiki/.NET#History"); // Even older: https://en.wikipedia.org/wiki/.NET_Framework#.NET_Core. Old: <https://en.wikipedia.org/wiki/.NET_Core>
+
+            URL_Add("effect___", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
+
+            URL_Add("kernel method___", "https://en.wikipedia.org/wiki/Kernel_method");
+
+            URL_Add("kernel methods___", "https://en.wikipedia.org/wiki/Kernel_method");
+
+            URL_Add("interest check___", "https://dotesports.com/general/news/what-is-a-mechanical-keyboard-group-buy-group-buys-explained");
+
+            URL_Add("number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/n52qr9o/");
+
             URL_Add("Hall effect switches___", "https://www.tomshardware.com/news/how-hall-effect-switches-work,33105.html");
+
+            URL_Add("Keychron Orca Echo (50%)___", "https://www.reddit.com/r/Keychron/comments/1xockmz/comment/19s711kvnr0qs/");
 
             URL_Add("Keychron K1 Max, ISO RGB variant (USB 0x3434/0x0A11)___", "https://www.keychron.com/products/keychron-k1-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection?variant=41595269939289");
 
@@ -183503,38 +183588,6 @@ namespace OverflowHelper.core
             URL_Add("Lemokey P Pro series___", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
 
             URL_Add("Lemokey X series___", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
-
-            URL_Add("modes are evil___", "https://en.wikipedia.org/wiki/Mode_(user_interface)#Mode_errors");
-
-            URL_Add("Via blues___", "https://www.reddit.com/r/Keychron/comments/1g76o1e/comment/lsp51pj/");
-
-            URL_Add("hard flashing___", "https://www.reddit.com/r/Keychron/comments/1dwocvh/comment/lby5g3e/");
-
-            URL_Add("Git branch \"wls_2025q1\" in Keychron's fork___", "https://github.com/Keychron/qmk_firmware/tree/wls_2025q1/keyboards/keychron/k10_version_2");
-
-            URL_Add("SRGBmods (Vial)___", "https://github.com/SRGBmods/QMK-Binaries/tree/main/QMK%2BVIA%2BVial-Firmware/10_12_25");
-
-            URL_Add("&nbsp;mo___", "https://en.wikipedia.org/wiki/Month");
-
-            URL_Add("Sonix___", "https://www.sonix.com.tw/article-en-915-10794");
-
-            URL_Add("Keychron Orca Echo (50%)___", "https://www.reddit.com/r/Keychron/comments/1xockmz/comment/19s711kvnr0qs/");
-
-            URL_Add("disgusting engine move___", "https://en.wikipedia.org/wiki/Chess_engine");
-
-            URL_Add("vitamin K2___", "https://en.wikipedia.org/wiki/Vitamin_K2");
-
-            URL_Add(".NET Core___", "https://en.wikipedia.org/wiki/.NET#History"); // Even older: https://en.wikipedia.org/wiki/.NET_Framework#.NET_Core. Old: <https://en.wikipedia.org/wiki/.NET_Core>
-
-            URL_Add("effect___", "https://www.wikihow.com/Use-Affect-and-Effect-Properly");
-
-            URL_Add("kernel method___", "https://en.wikipedia.org/wiki/Kernel_method");
-
-            URL_Add("kernel methods___", "https://en.wikipedia.org/wiki/Kernel_method");
-
-            URL_Add("interest check___", "https://dotesports.com/general/news/what-is-a-mechanical-keyboard-group-buy-group-buys-explained");
-
-            URL_Add("number 9 on the checklist (mechanically unaligned switch plates, etc.) was acknowledged by Keychron as a failure mode___", "https://www.reddit.com/r/Keychron/comments/1ip03k0/comment/n52qr9o/");
 
         } //addLookupData_alternativeWordSet3()
 
@@ -187843,6 +187896,7 @@ namespace OverflowHelper.core
             correctionAdd("severe roll over problems______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("Keychron B6 Pro (105%)______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("Keychron B2 Pro (95%)______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
+            correctionAdd("Keychron B1 Pro (75%)______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("severe NKRO problems______", "severe NKRO problems for the Keychron B Pro series______");
             correctionAdd("Keychron B1 Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
             correctionAdd("Keychron B2 Pro______", "severe NKRO problems for the Keychron B Pro series______"); // For the cross-reference
