@@ -9435,11 +9435,14 @@ namespace OverflowHelper.core
 
             correctionAdd("extra-tropical", "extratropical");
 
+            // The verb
             correctionAdd("extarct", "extract");
             correctionAdd("extraxt", "extract");
             correctionAdd("extrct", "extract");
             correctionAdd("extrat", "extract");
             correctionAdd("extrac", "extract");
+
+            correctionAdd("extractiong", "extracting"); // A true typo
 
             correctionAdd("extrated", "extracted");
 
@@ -85760,8 +85763,9 @@ namespace OverflowHelper.core
             //
             //   <https://kprepublic.com/collections/jj50-50>
             //
-            correctionAdd("JJ50 v2", "JJ50");
-            correctionAdd("jj50", "JJ50");
+            correctionAdd("JJ50 v2", "JJ50 (50%)");
+            correctionAdd("JJ50", "JJ50 (50%)");
+            correctionAdd("jj50", "JJ50 (50%)");
 
             // A 50-key (50%) crippled split ergonomic mechanical keyboard.
             // 2 x 25 = 50 keys.
@@ -85784,7 +85788,8 @@ namespace OverflowHelper.core
             //     Avoids using home row keyboard modifier keys: inspired
             //     by Callum-style home row keyboard modifier keys):
             //
-            correctionAdd("kyria", "Kyria");
+            correctionAdd("Kyria", "Kyria (50%)");
+            correctionAdd("kyria", "Kyria (50%)");
 
             // A 53-key (50%. Not true TKL) severely crippled
             // wired-only QMK/Via-capable mechanical keyboard
@@ -85825,12 +85830,13 @@ namespace OverflowHelper.core
             //   <https://kbd.news/Silakka54-2468.html>
             //   <https://squalius-cephalus.github.io/silakka54/>
             //
-            correctionAdd("Silaakka54", "Silakka54");
-            correctionAdd("silakka54", "Silakka54");
-            correctionAdd("silaaka54", "Silakka54");
-            correctionAdd("silakk54", "Silakka54");
-            correctionAdd("silakka", "Silakka54");
-            correctionAdd("Silakka", "Silakka54");
+            correctionAdd("Silaakka54", "Silakka54 (50%)");
+            correctionAdd("Silakka54", "Silakka54 (50%)");
+            correctionAdd("silakka54", "Silakka54 (50%)");
+            correctionAdd("silaaka54", "Silakka54 (50%)");
+            correctionAdd("silakk54", "Silakka54 (50%)");
+            correctionAdd("silakka", "Silakka54 (50%)");
+            correctionAdd("Silakka", "Silakka54 (50%)");
 
             // A 56-key (55%. Not true TKL) crippled split ergonomic
             // mechanical keyboard.
@@ -85847,11 +85853,12 @@ namespace OverflowHelper.core
             //   <https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard>
             //   <https://mechboards.co.uk/collections/kits/products/iris-kit>
             //
-            correctionAdd("Keebio Iris", "Iris");
-            correctionAdd("Iris Rev 8", "Iris");
-            correctionAdd("iris v2", "Iris");
-            correctionAdd("iris", "Iris");
-            correctionAdd("IRIS", "Iris");
+            correctionAdd("Keebio Iris", "Iris (55%)");
+            correctionAdd("Iris Rev 8", "Iris (55%)");
+            correctionAdd("iris v2", "Iris (55%)");
+            correctionAdd("Iris", "Iris (55%)");
+            correctionAdd("iris", "Iris (55%)");
+            correctionAdd("IRIS", "Iris (55%)");
 
             // A 56-key (55%) crippled open source
             // ergonomic mechanical keyboard.
@@ -85864,7 +85871,8 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/triliu/JESK56>
             //
-            correctionAdd("jesk56", "JESK56");
+            correctionAdd("JESK56", "JESK56 (55%)");
+            correctionAdd("jesk56", "JESK56 (55%)");
 
             // A 56-key (55%) crippled split mechanical keyboard.
             //
@@ -85911,18 +85919,19 @@ namespace OverflowHelper.core
             //
             //     Build: qmk compile -kb sofle -km via -e CONVERT_TO=promicro_rp2040
             //
-            correctionAdd("Sofle keyboard", "Sofle Keyboard");
-            correctionAdd("SofleKeyboard", "Sofle Keyboard");
-            correctionAdd("Sofle v2", "Sofle Keyboard");
-            correctionAdd("sofle v2", "Sofle Keyboard");
-            correctionAdd("souffle", "Sofle Keyboard"); // An autocorrect "masterpiece"?
-            correctionAdd("Sofles", "Sofle Keyboard");
-            correctionAdd("sofle", "Sofle Keyboard");
-            correctionAdd("Sofle", "Sofle Keyboard");
-            correctionAdd("SOFLE", "Sofle Keyboard");
-            correctionAdd("Solfe", "Sofle Keyboard");
-            correctionAdd("solfe", "Sofle Keyboard");
-            correctionAdd("Sofl", "Sofle Keyboard");
+            correctionAdd("Sofle Keyboard", "Sofle Keyboard (55%)");
+            correctionAdd("Sofle keyboard", "Sofle Keyboard (55%)");
+            correctionAdd("SofleKeyboard", "Sofle Keyboard (55%)");
+            correctionAdd("Sofle v2", "Sofle Keyboard (55%)");
+            correctionAdd("sofle v2", "Sofle Keyboard (55%)");
+            correctionAdd("souffle", "Sofle Keyboard (55%)"); // An autocorrect "masterpiece"?
+            correctionAdd("Sofles", "Sofle Keyboard (55%)");
+            correctionAdd("sofle", "Sofle Keyboard (55%)");
+            correctionAdd("Sofle", "Sofle Keyboard (55%)");
+            correctionAdd("SOFLE", "Sofle Keyboard (55%)");
+            correctionAdd("Solfe", "Sofle Keyboard (55%)");
+            correctionAdd("solfe", "Sofle Keyboard (55%)");
+            correctionAdd("Sofl", "Sofle Keyboard (55%)");
 
             // A 58-key (55%) crippled split mechanical keyboard.
             //
@@ -85938,18 +85947,19 @@ namespace OverflowHelper.core
             //   <https://github.com/qmk/qmk_firmware/tree/master/keyboards/lily58>
             //   <https://github.com/qmk/qmk_firmware/tree/master/keyboards/lily58/keymaps/lily58l>
             //
-            correctionAdd("lily 58", "Lily58");
-            correctionAdd("Lily 58", "Lily58");
-            correctionAdd("lilly58", "Lily58");
-            correctionAdd("Lilly58", "Lily58");
-            correctionAdd("Lili 58", "Lily58");
-            correctionAdd("lili 58", "Lily58");
-            correctionAdd("lily58", "Lily58");
-            correctionAdd("LIly58", "Lily58");
-            correctionAdd("Lili58", "Lily58");
-            correctionAdd("lili58", "Lily58");
-            correctionAdd("Lilly", "Lily58");
-            correctionAdd("Lily", "Lily58");
+            correctionAdd("lily 58", "Lily58 (55%)");
+            correctionAdd("Lily 58", "Lily58 (55%)");
+            correctionAdd("lilly58", "Lily58 (55%)");
+            correctionAdd("Lilly58", "Lily58 (55%)");
+            correctionAdd("Lili 58", "Lily58 (55%)");
+            correctionAdd("lili 58", "Lily58 (55%)");
+            correctionAdd("Lily58", "Lily58 (55%)");
+            correctionAdd("lily58", "Lily58 (55%)");
+            correctionAdd("LIly58", "Lily58 (55%)");
+            correctionAdd("Lili58", "Lily58 (55%)");
+            correctionAdd("lili58", "Lily58 (55%)");
+            correctionAdd("Lilly", "Lily58 (55%)");
+            correctionAdd("Lily", "Lily58 (55%)");
 
             // A 58-key (55%) crippled open source low-profile
             // split ergonomic mechanical keyboard.
@@ -85961,7 +85971,8 @@ namespace OverflowHelper.core
             //   <https://github.com/Bastardkb/Scylla>
             //   <https://bastardkb.com/dactyls/>
             //
-            correctionAdd("scylla", "Scylla");
+            correctionAdd("Scylla", "Scylla (55%)");
+            correctionAdd("scylla", "Scylla (55%)");
 
             // A 58-key (55%) crippled open source low-profile
             // split ergonomic mechanical keyboard.
@@ -85977,8 +85988,9 @@ namespace OverflowHelper.core
             //   <https://github.com/TweetyDaBird/Lotus-58-Classic>
             //   <https://github-wiki-see.page/m/hiemanshu/Lotus58/wiki/Build-Guide>
             //
-            correctionAdd("Lotus 58", "Lotus58");
-            correctionAdd("Lotus", "Lotus58");
+            correctionAdd("Lotus 58", "Lotus58 (55%)");
+            correctionAdd("Lotus58", "Lotus58 (55%)");
+            correctionAdd("Lotus", "Lotus58 (55%)");
 
             // A 58-key (55%) crippled open source split ergonomic
             // mechanical keyboard.
@@ -85998,7 +86010,8 @@ namespace OverflowHelper.core
             //     Requires JavaScript from beekeeb.com
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1dg8cwv/my_58key_layout_for_lily58_or_allium58/>
             //
-            correctionAdd("allium58", "Allium58");
+            correctionAdd("Allium58", "Allium58 (55%)");
+            correctionAdd("allium58", "Allium58 (55%)");
 
             // A 60-key (55%) crippled mechanical keyboard.
             //
@@ -86016,16 +86029,17 @@ namespace OverflowHelper.core
             //     <http://xahlee.info/kbd/ilayout/happy_hacking_lite2_keyboard_us_layout.svg>
             //       The key layout
             //
-            correctionAdd("happy hacking keyboard", "Happy Hacking Keyboard");
-            correctionAdd("happy hacker keyboard", "Happy Hacking Keyboard");
-            correctionAdd("happy hacking", "Happy Hacking Keyboard");
-            correctionAdd("Happy hacking", "Happy Hacking Keyboard");
-            correctionAdd("Happy Hacking", "Happy Hacking Keyboard");
-            correctionAdd("HHKB", "Happy Hacking Keyboard"); // The official abbr.
-            correctionAdd("hhkb", "Happy Hacking Keyboard");
-            correctionAdd("Hhkb", "Happy Hacking Keyboard");
-            correctionAdd("HHK", "Happy Hacking Keyboard");
-            correctionAdd("hhk", "Happy Hacking Keyboard");
+            correctionAdd("Happy Hacking Keyboard", "Happy Hacking Keyboard (55%)");
+            correctionAdd("happy hacking keyboard", "Happy Hacking Keyboard (55%)");
+            correctionAdd("happy hacker keyboard", "Happy Hacking Keyboard (55%)");
+            correctionAdd("happy hacking", "Happy Hacking Keyboard (55%)");
+            correctionAdd("Happy hacking", "Happy Hacking Keyboard (55%)");
+            correctionAdd("Happy Hacking", "Happy Hacking Keyboard (55%)");
+            correctionAdd("HHKB", "Happy Hacking Keyboard (55%)"); // The official abbr.
+            correctionAdd("hhkb", "Happy Hacking Keyboard (55%)");
+            correctionAdd("Hhkb", "Happy Hacking Keyboard (55%)");
+            correctionAdd("HHK", "Happy Hacking Keyboard (55%)");
+            correctionAdd("hhk", "Happy Hacking Keyboard (55%)");
 
             // A 60-key (55%) crippled open source mechanical keyboard.
             //
@@ -86038,8 +86052,9 @@ namespace OverflowHelper.core
             //   <https://switchandclick.com/best-ortholinear-keyboards/>
             //   <https://drop.com/buy/preonic-mechanical-keyboard#overview>
             //
-            correctionAdd("preonic", "Preonic");
-            correctionAdd("Prionic", "Preonic");
+            correctionAdd("Preonic", "Preonic (55%)");
+            correctionAdd("preonic", "Preonic (55%)");
+            correctionAdd("Prionic", "Preonic (55%)");
 
             // A 60-key (55%) crippled split ergonomic
             // mechanical keyboard. 2 x 30 = 60 keys.
@@ -86048,9 +86063,10 @@ namespace OverflowHelper.core
             //
             // A fork of kinT (<https://github.com/kinx-project/kint>)
             //
-            correctionAdd("KintT", "KinT Blackpill");
-            correctionAdd("KINT", "KinT Blackpill");
-            correctionAdd("kint", "KinT Blackpill");
+            correctionAdd("KinT Blackpill", "KinT Blackpill (55%)");
+            correctionAdd("KintT", "KinT Blackpill (55%)");
+            correctionAdd("KINT", "KinT Blackpill (55%)");
+            correctionAdd("kint", "KinT Blackpill (55%)");
 
             // A 60-key (55%) crippled split mechanical keyboard.
             // DYI / open hardware.
@@ -86121,17 +86137,18 @@ namespace OverflowHelper.core
             //   <https://www.etsy.com/market/dactyl_manuform>
             //     German distributor
             //
-            correctionAdd("Dactyl Manuform", "Dactyl ManuForm");
-            correctionAdd("Dactyl-ManuForm", "Dactyl ManuForm");
-            correctionAdd("dactyl manuform", "Dactyl ManuForm");
-            correctionAdd("daktyl manuform", "Dactyl ManuForm");
-            correctionAdd("Dactyl manuform", "Dactyl ManuForm");
-            correctionAdd("Dactyl-Manuform", "Dactyl ManuForm");
-            correctionAdd("Dactyl Manoform", "Dactyl ManuForm");
-            correctionAdd("Dactyl manoform", "Dactyl ManuForm");
-            correctionAdd("Dacty Manuform", "Dactyl ManuForm");
-            correctionAdd("ManuForm", "Dactyl ManuForm");
-            correctionAdd("manuform", "Dactyl ManuForm");
+            correctionAdd("Dactyl ManuForm", "Dactyl ManuForm (55%)");
+            correctionAdd("Dactyl Manuform", "Dactyl ManuForm (55%)");
+            correctionAdd("Dactyl-ManuForm", "Dactyl ManuForm (55%)");
+            correctionAdd("dactyl manuform", "Dactyl ManuForm (55%)");
+            correctionAdd("daktyl manuform", "Dactyl ManuForm (55%)");
+            correctionAdd("Dactyl manuform", "Dactyl ManuForm (55%)");
+            correctionAdd("Dactyl-Manuform", "Dactyl ManuForm (55%)");
+            correctionAdd("Dactyl Manoform", "Dactyl ManuForm (55%)");
+            correctionAdd("Dactyl manoform", "Dactyl ManuForm (55%)");
+            correctionAdd("Dacty Manuform", "Dactyl ManuForm (55%)");
+            correctionAdd("ManuForm", "Dactyl ManuForm (55%)");
+            correctionAdd("manuform", "Dactyl ManuForm (55%)");
 
             // A 60-key (55%) crippled open source split ergonomic
             // mechanical keyboard from OSHWLab (Open Source Hardware Lab).
@@ -86146,9 +86163,10 @@ namespace OverflowHelper.core
             //   <https://github.com/ergohaven/vial-qmk/tree/vial/keyboards/ergohaven/k03>
             //     A fork of Vial.
             //
-            correctionAdd("K03 v1", "K:03 v1");
-            correctionAdd("k03v1", "K:03 v1");
-            correctionAdd("K03v1", "K:03 v1");
+            correctionAdd("K:03 v1", "K:03 v1 (55%)");
+            correctionAdd("K03 v1", "K:03 v1 (55%)");
+            correctionAdd("k03v1", "K:03 v1 (55%)");
+            correctionAdd("K03v1", "K:03 v1 (55%)");
 
             // A 60-key (55%) crippled open source split ergonomic
             // mechanical keyboard.
@@ -86162,7 +86180,8 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/MechanicalKeyboards/comments/17zkryj/high_plains_drifter/>
             //   <https://www.reddit.com/r/olkb/comments/1i8xbpg/introducing_hpd_v2_a_modular_curved_mechanical/>
             //
-            correctionAdd("HPD", "High Plains Drifter");
+            correctionAdd("High Plains Drifter", "High Plains Drifter (55%)");
+            correctionAdd("HPD", "High Plains Drifter (55%)");
 
             // A 60-key (55%) crippled split mechanical keyboard.
             // DYI / open hardware. 2 x 30 = 60 keys.
@@ -86181,22 +86200,24 @@ namespace OverflowHelper.core
             //   <https://www.youtube.com/watch?v=RApoSEEeUL4>
             //   <https://www.youtube.com/watch?v=mYT5AyVAzE8>
             //
-            correctionAdd("Moergo go60", "MoErgo Go60");
-            correctionAdd("Glo60", "MoErgo Go60"); // A true typo
-            correctionAdd("Go60", "MoErgo Go60");
-            correctionAdd("go60", "MoErgo Go60");
+            correctionAdd("MoErgo Go60", "MoErgo Go60 (55%)");
+            correctionAdd("Moergo go60", "MoErgo Go60 (55%)");
+            correctionAdd("Glo60", "MoErgo Go60 (55%)"); // A true typo
+            correctionAdd("Go60", "MoErgo Go60 (55%)");
+            correctionAdd("go60", "MoErgo Go60 (55%)");
 
             // A 61-key (60%) severely crippled mechanical keyboard.
             //
             // Who is the vendor?
             //
-            correctionAdd("Anne Pro II", "Anne Pro 2");
-            correctionAdd("anne pro 2", "Anne Pro 2");
-            correctionAdd("ANNE PRO 2", "Anne Pro 2");
-            correctionAdd("AnnePro2", "Anne Pro 2");
-            correctionAdd("AnnPro 2", "Anne Pro 2");
-            correctionAdd("Anne pro", "Anne Pro 2");
-            correctionAdd("AP2", "Anne Pro 2");
+            correctionAdd("Anne Pro II", "Anne Pro 2 (60%)");
+            correctionAdd("Anne Pro 2", "Anne Pro 2 (60%)");
+            correctionAdd("anne pro 2", "Anne Pro 2 (60%)");
+            correctionAdd("ANNE PRO 2", "Anne Pro 2 (60%)");
+            correctionAdd("AnnePro2", "Anne Pro 2 (60%)");
+            correctionAdd("AnnPro 2", "Anne Pro 2 (60%)");
+            correctionAdd("Anne pro", "Anne Pro 2 (60%)");
+            correctionAdd("AP2", "Anne Pro 2 (60%)");
 
             // A 61-key (60%) commercial mechanical keyboard
             // with Hall sensor (analogue) switches.
@@ -86210,15 +86231,16 @@ namespace OverflowHelper.core
             //
             // There is also Wooting 80H (or is it Wooting 80HE?)
             //
-            correctionAdd("wooting 60 he", "Wooting 60HE");
-            correctionAdd("wooting 60HE", "Wooting 60HE");
-            correctionAdd("the wooting", "Wooting 60HE");
-            correctionAdd("wooting 60", "Wooting 60HE");
-            correctionAdd("wooting", "Wooting 60HE"); // Not 100% correct, but a representative of the Wooting keyboard series
-            correctionAdd("Wooting", "Wooting 60HE"); // Not 100% correct, but a representative of the Wooting keyboard series
-            correctionAdd("Wu-Tin", "Wooting 60HE"); // Not 100% correct, but a representative of the Wooting keyboard series
-            correctionAdd("60HE", "Wooting 60HE");
-            correctionAdd("60he", "Wooting 60HE");
+            correctionAdd("wooting 60 he", "Wooting 60HE (60%)");
+            correctionAdd("Wooting 60HE", "Wooting 60HE (60%)");
+            correctionAdd("wooting 60HE", "Wooting 60HE (60%)");
+            correctionAdd("the wooting", "Wooting 60HE (60%)");
+            correctionAdd("wooting 60", "Wooting 60HE (60%)");
+            correctionAdd("wooting", "Wooting 60HE (60%)"); // Not 100% correct, but a representative of the Wooting keyboard series
+            correctionAdd("Wooting", "Wooting 60HE (60%)"); // Not 100% correct, but a representative of the Wooting keyboard series
+            correctionAdd("Wu-Tin", "Wooting 60HE (60%)"); // Not 100% correct, but a representative of the Wooting keyboard series
+            correctionAdd("60HE", "Wooting 60HE (60%)");
+            correctionAdd("60he", "Wooting 60HE (60%)");
 
             // A 61-key (60%. Not true TKL) severely crippled wired-only
             // mechanical keyboard from Keychron without a knob.
@@ -86307,7 +86329,8 @@ namespace OverflowHelper.core
             //
             //   <https://yal-tools.github.io/ergo-keyboards/img/Elora.webp>
             //
-            correctionAdd("elora", "Elora");
+            correctionAdd("Elora", "Elora (60%)");
+            correctionAdd("elora", "Elora (60%)");
 
             // A 62-key (60%) crippled open source
             // mechanical keyboard. 4x4 + 2 x 3 x 6 + 11 = 62 keys.
@@ -86315,7 +86338,8 @@ namespace OverflowHelper.core
             //
             // Note: ***Not*** a split mechanical keyboard
             //
-            correctionAdd("augio", "Augio");
+            correctionAdd("Augio", "Augio (60%)");
+            correctionAdd("augio", "Augio (60%)");
 
             // A 62-key (60%. Not true TKL) severely crippled
             // wired-only QMK/Via-capable mechanical keyboard
@@ -104588,6 +104612,9 @@ namespace OverflowHelper.core
             correctionAdd("world championship 2023", "World Chess Championship 2023"); // Chess
             correctionAdd("world championship 2022", "World Chess Championship 2023"); // Chess
 
+            correctionAdd("FIDE World Championship 2026", "World Chess Championship 2026");
+            correctionAdd("world championship 2026", "World Chess Championship 2026");
+
             // Chess. A chess engine
             correctionAdd("Alpha Zero", "AlphaZero");
             correctionAdd("Alpha zero", "AlphaZero");
@@ -117156,6 +117183,12 @@ namespace OverflowHelper.core
 
             URL_Add("extract", "https://en.wiktionary.org/wiki/extract#Verb");
 
+            URL_Add("extracting", "https://en.wiktionary.org/wiki/extract#Verb");
+
+            URL_Add("extracted", "https://en.wiktionary.org/wiki/extract#Verb");
+
+            URL_Add("extraction", "https://en.wiktionary.org/wiki/extraction#Noun");
+
             URL_Add("one-hot", "https://en.wikipedia.org/wiki/One-hot");
 
             URL_Add("deployed", "https://en.wiktionary.org/wiki/deploy#Verb");
@@ -117483,8 +117516,6 @@ namespace OverflowHelper.core
             URL_Add("as far as I understand", "https://en.wiktionary.org/wiki/AFAIU#Phrase");
 
             URL_Add("calling", "https://en.wiktionary.org/wiki/call#Verb");
-
-            URL_Add("extraction", "https://en.wiktionary.org/wiki/extraction#Noun");
 
             URL_Add("monster", "https://en.wiktionary.org/wiki/monster#Noun");
 
@@ -122466,8 +122497,6 @@ namespace OverflowHelper.core
 
             URL_Add("glitchy", "https://en.wiktionary.org/wiki/glitchy#Adjective");
 
-            URL_Add("extracted", "https://en.wiktionary.org/wiki/extract#Verb");
-
             URL_Add("placement", "https://en.wiktionary.org/wiki/placement#Noun");
 
             URL_Add("Surface Pro", "https://en.wikipedia.org/wiki/Surface_Pro");
@@ -123520,7 +123549,7 @@ namespace OverflowHelper.core
 
             URL_Add("Tornado Jockey", "https://en.wikipedia.org/wiki/List_of_WildTangent_games#From_AWS");
 
-            URL_Add("Elora", "https://splitkb.com/products/elora");
+            URL_Add("Elora (60%)", "https://splitkb.com/products/elora");
 
             URL_Add("psychiatric", "https://en.wiktionary.org/wiki/psychiatric#Adjective");
 
@@ -123570,7 +123599,7 @@ namespace OverflowHelper.core
 
             URL_Add("float", "https://en.wiktionary.org/wiki/float#Noun");
 
-            URL_Add("Wooting 60HE", "https://www.youtube.com/watch?v=glQNEbh79xg");
+            URL_Add("Wooting 60HE (60%)", "https://www.youtube.com/watch?v=glQNEbh79xg");
 
             URL_Add("predesignated", "https://en.wiktionary.org/wiki/predesignate#Verb");
 
@@ -126606,7 +126635,7 @@ namespace OverflowHelper.core
 
             URL_Add("BoringSSL", "https://en.wikipedia.org/wiki/OpenSSL#BoringSSL");
 
-            URL_Add("K:03 v1", "https://www.reddit.com/r/olkb/comments/1f75l5r/k03_v1_goes_full_opensource/");
+            URL_Add("K:03 v1 (55%)", "https://www.reddit.com/r/olkb/comments/1f75l5r/k03_v1_goes_full_opensource/");
 
             URL_Add("AMD Adrenalin", "https://en.wikipedia.org/wiki/AMD_Software#OpenGL");
 
@@ -136796,7 +136825,7 @@ namespace OverflowHelper.core
 
             URL_Add("Forth Inc.", "https://www.forth.com/");
 
-            URL_Add("Augio", "https://github.com/danforthewin/Augio");
+            URL_Add("Augio (60%)", "https://github.com/danforthewin/Augio");
 
             URL_Add("fifth", "https://en.wiktionary.org/wiki/fifth#Adjective");
 
@@ -142946,7 +142975,7 @@ namespace OverflowHelper.core
 
             URL_Add("Ducky One", "https://www.duckychannel.com.tw/en/Keyboards/One-Series");
 
-            URL_Add("Happy Hacking Keyboard", "https://en.wikipedia.org/wiki/Happy_Hacking_Keyboard");
+            URL_Add("Happy Hacking Keyboard (55%)", "https://en.wikipedia.org/wiki/Happy_Hacking_Keyboard");
 
             URL_Add("Inland MK-47", "https://www.microcenter.com/product/661264/inland-47-keys-hot-swappable-rgb-wired-mechanical-keyboard");
 
@@ -144009,6 +144038,8 @@ namespace OverflowHelper.core
             URL_Add("World Chess Championship 2021", "https://en.wikipedia.org/wiki/World_Chess_Championship_2021#Schedule_and_results"); // Old: https://en.wikipedia.org/wiki/World_Chess_Championship_2021
 
             URL_Add("World Chess Championship 2023", "https://en.wikipedia.org/wiki/World_Chess_Championship_2023");
+
+            URL_Add("World Chess Championship 2026", "https://en.wikipedia.org/wiki/World_Chess_Championship_2026");
 
             URL_Add("World 8-Bowser's Castle", "https://www.mariowiki.com/World_8-Bowser's_Castle_(Super_Mario_Bros._3)");
 
@@ -146184,13 +146215,13 @@ namespace OverflowHelper.core
 
             URL_Add("SiCK-68 (65%)", "https://www.thingiverse.com/thing:3478494");
 
-            URL_Add("Lily58", "https://github.com/kata0510/Lily58");
+            URL_Add("Lily58 (55%)", "https://github.com/kata0510/Lily58");
 
             URL_Add("Dactyl (65%)", "https://github.com/adereth/dactyl-keyboard/blob/master/README.md/");
 
             URL_Add("Piantor", "https://shop.beekeeb.com/product/pre-soldered-piantor-split-keyboard/");
 
-            URL_Add("Sofle Keyboard", "https://josefadamcik.github.io/SofleKeyboard/");
+            URL_Add("Sofle Keyboard (55%)", "https://josefadamcik.github.io/SofleKeyboard/");
 
             URL_Add("NuPhy Air60 V2 (60%)", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air60_v2/ansi");
 
@@ -146204,19 +146235,19 @@ namespace OverflowHelper.core
 
             URL_Add("Lintilla", "https://github.com/ctranstrum/lintilla");
 
-            URL_Add("Allium58", "https://github.com/beekeeb/allium58");
+            URL_Add("Allium58 (55%)", "https://github.com/beekeeb/allium58");
 
-            URL_Add("Lotus58", "https://github.com/impoze/Lotus58");
+            URL_Add("Lotus58 (55%)", "https://github.com/impoze/Lotus58");
 
             URL_Add("Swoop", "https://github.com/jimmerricks/swoop");
 
-            URL_Add("High Plains Drifter", "https://github.com/ergohaven/hpd");
+            URL_Add("High Plains Drifter (55%)", "https://github.com/ergohaven/hpd");
 
-            URL_Add("Silakka54", "https://github.com/Squalius-cephalus/silakka54");
+            URL_Add("Silakka54 (50%)", "https://github.com/Squalius-cephalus/silakka54");
 
-            URL_Add("Scylla", "https://github.com/Bastardkb/Scylla");
+            URL_Add("Scylla (55%)", "https://github.com/Bastardkb/Scylla");
 
-            URL_Add("JESK56", "https://kbd.news/JESK56-2322.html");
+            URL_Add("JESK56 (55%)", "https://kbd.news/JESK56-2322.html");
 
             URL_Add("Dygma Sonsei (55%)", "https://dygma.com/pages/sonsei");
 
@@ -146246,19 +146277,19 @@ namespace OverflowHelper.core
 
             URL_Add("Tractyl ManuForm (60%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/tractyl_manuform");
 
-            URL_Add("Dactyl ManuForm", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform");
+            URL_Add("Dactyl ManuForm (55%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform");
 
             URL_Add("Qwertykey Evo80 (85%)", "https://www.qwertykeys.com/products/evo80");
 
             URL_Add("ErgoDash (65%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/omkbd/ergodash");
 
-            URL_Add("Kyria", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/splitkb/kyria");
+            URL_Add("Kyria (50%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/splitkb/kyria");
 
-            URL_Add("Iris", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keebio/iris");
+            URL_Add("Iris (55%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keebio/iris");
 
-            URL_Add("Preonic", "https://github.com/qmk/qmk_firmware/blob/master/keyboards/preonic/readme.md");
+            URL_Add("Preonic (55%)", "https://github.com/qmk/qmk_firmware/blob/master/keyboards/preonic/readme.md");
 
-            URL_Add("JJ50", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/kprepublic/jj50");
+            URL_Add("JJ50 (50%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/kprepublic/jj50");
 
             URL_Add("Model M (95%)", "https://en.wikipedia.org/wiki/Model_M_keyboard");
 
@@ -146286,7 +146317,7 @@ namespace OverflowHelper.core
 
             URL_Add("DMQ SPIN", "https://www.reddit.com/r/MechanicalKeyboards/comments/i9g49w/dmq_spin_macropad_build/");
 
-            URL_Add("Anne Pro 2", "https://switchandclick.com/anne-pro-ii-review/");
+            URL_Add("Anne Pro 2 (60%)", "https://switchandclick.com/anne-pro-ii-review/");
 
             URL_Add("Asus ROG Claymore I (100%)", "https://www.trustedreviews.com/reviews/asus-rog-claymore");
 
@@ -146328,7 +146359,7 @@ namespace OverflowHelper.core
 
             URL_Add("Fifi", "https://github.com/raychengy/fifi_split_keeb");
 
-            URL_Add("MoErgo Go60", "https://www.youtube.com/watch?v=Ap8JD-ELR38");
+            URL_Add("MoErgo Go60 (55%)", "https://www.youtube.com/watch?v=Ap8JD-ELR38");
 
             URL_Add("Cornix", "https://kbd.news/Cornix-review-2715.html");
 
@@ -146570,7 +146601,7 @@ namespace OverflowHelper.core
 
             URL_Add("hand-wiring", "https://docs.qmk.fm/hand_wire");
 
-            URL_Add("KinT Blackpill", "https://github.com/dcpedit/kint");
+            URL_Add("KinT Blackpill (55%)", "https://github.com/dcpedit/kint");
 
             URL_Add("modifying", "https://en.wiktionary.org/wiki/modify#Verb");
 
@@ -152798,6 +152829,8 @@ namespace OverflowHelper.core
             // The noun
             correctionAdd("set up_", "setup_"); // Not incorrect as a verb
             correctionAdd("set-up_", "setup_");
+            correctionAdd("Set up_", "setup_");
+            correctionAdd("Setup_", "setup_");
             correctionAdd("seup_", "setup_");
 
             correctionAdd("test set_", "test data set_");
