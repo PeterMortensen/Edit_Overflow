@@ -32100,6 +32100,9 @@ namespace OverflowHelper.core
             correctionAdd("decease", "disease");
             correctionAdd("dicease", "disease");
             correctionAdd("decese", "disease");
+            correctionAdd("disese", "disease");
+
+            correctionAdd("diseses", "diseases");
 
             correctionAdd("Alzheimer's Disease", "Alzheimer's disease");
             correctionAdd("oldtimers' disease", "Alzheimer's disease");
@@ -45283,6 +45286,7 @@ namespace OverflowHelper.core
             correctionAdd("Artificial neural network", "artificial neural network");
             correctionAdd("Artificial Neural Network", "artificial neural network");
             correctionAdd("Neural networks", "artificial neural network");
+            correctionAdd("neural networks", "artificial neural network");
             correctionAdd("Neural Network", "artificial neural network");
             correctionAdd("neural network", "artificial neural network");
             correctionAdd("Neural network", "artificial neural network");
@@ -78307,6 +78311,7 @@ namespace OverflowHelper.core
             correctionAdd("uningenious", "disingenuous");
             correctionAdd("uningenuous", "disingenuous");
             correctionAdd("disengenous", "disingenuous");
+            correctionAdd("Disenginous", "disingenuous");
 
             correctionAdd("profylactic", "prophylactic");
 
@@ -100514,6 +100519,7 @@ namespace OverflowHelper.core
             correctionAdd("regrettablely", "regrettably");
             correctionAdd("Regrettablely", "regrettably");
             correctionAdd("Regrettably", "regrettably");
+            correctionAdd("regretabbly", "regrettably");
 
             correctionAdd("undampened", "undamped");
 
@@ -112769,6 +112775,8 @@ namespace OverflowHelper.core
             URL_Add("neighbouring", "https://en.wiktionary.org/wiki/neighbouring#Adjective");
 
             URL_Add("disease", "https://en.wiktionary.org/wiki/disease#Noun");
+
+            URL_Add("diseases", "https://en.wiktionary.org/wiki/disease#Noun");
 
             URL_Add("rhinovirus", "https://en.wikipedia.org/wiki/Rhinovirus");
 
@@ -154105,189 +154113,6 @@ namespace OverflowHelper.core
             correctionAdd("enc_", "rotary knob_"); // A variant should be "enc.", but we can't currently represent that
             correctionAdd("nob_", "rotary knob_");
 
-            correctionAdd("ckicky_", "clicky_");
-
-            // A type of switch for mechanical keyboards
-            //
-            // Tactile and clicky.
-            //
-            correctionAdd("Cherry MX Blue switch_", "Cherry MX Blue switches_");
-            correctionAdd("Cherry MX blues_", "Cherry MX Blue switches_");
-            correctionAdd("cherry MX blues_", "Cherry MX Blue switches_");
-            correctionAdd("Cherry MX blue_", "Cherry MX Blue switches_");
-            correctionAdd("cherry mx blue_", "Cherry MX Blue switches_");
-            correctionAdd("Cherry MX Blue_", "Cherry MX Blue switches_");
-            correctionAdd("Cherry Blue_", "Cherry MX Blue switches_");
-            correctionAdd("MX Blues_", "Cherry MX Blue switches_");
-            correctionAdd("MX Blue_", "Cherry MX Blue switches_");
-            correctionAdd("MX blue_", "Cherry MX Blue switches_");
-            correctionAdd("Mx blue_", "Cherry MX Blue switches_");
-            correctionAdd("mx blue_", "Cherry MX Blue switches_");
-            correctionAdd("blue_", "Cherry MX Blue switches_");
-
-            // A type of switch for mechanical keyboards
-            //
-            // Tactile, but not clicky. 45 g / 55 g. 2.0 mm actuation (standard)
-            //
-            // Alternative URLs
-            //
-            //   <https://www.cherrymx.de/_Resources/Persistent/9/3/e/d/93edbcdda68adb82c5ebe0fb662430d093f01a80/Data_sheet_MX2A_Brown.pdf>
-            //   <https://www.cherrymx.de/en/cherry-mx/mx-original/mx-brown.html#techSpecs>
-            //
-            correctionAdd("Cherry MX Brown switch_", "Cherry MX Brown switches_");
-            correctionAdd("cherry max brown_", "Cherry MX Brown switches_");
-            correctionAdd("Cherry MX browns_", "Cherry MX Brown switches_");
-            correctionAdd("cherry Mx browns_", "Cherry MX Brown switches_");
-            correctionAdd("cherry Mx brown_", "Cherry MX Brown switches_");
-            correctionAdd("cherry mx brown_", "Cherry MX Brown switches_");
-            correctionAdd("Cherry MX Brown_", "Cherry MX Brown switches_");
-            correctionAdd("brown stwitchs_", "Cherry MX Brown switches_");
-            correctionAdd("Cherry MX Sand_", "Cherry MX Brown switches_");
-            correctionAdd("Cherry MX Shit_", "Cherry MX Brown switches_");
-            correctionAdd("cherry browns_", "Cherry MX Brown switches_");
-            correctionAdd("Cherry Brown_", "Cherry MX Brown switches_");
-            correctionAdd("Cherry brown_", "Cherry MX Brown switches_");
-            correctionAdd("cherry brown_", "Cherry MX Brown switches_");
-            correctionAdd("MX Brown_", "Cherry MX Brown switches_");
-            correctionAdd("mx brown_", "Cherry MX Brown switches_");
-            correctionAdd("Mx Brown_", "Cherry MX Brown switches_");
-            correctionAdd("MX brown_", "Cherry MX Brown switches_");
-            correctionAdd("browns_", "Cherry MX Brown switches_");
-            correctionAdd("brown_", "Cherry MX Brown switches_");
-            correctionAdd("brows_", "Cherry MX Brown switches_");
-
-            // A type of switch for mechanical keyboards
-            //
-            // Linear
-            correctionAdd("Cherry MX Red switch_", "Cherry MX Red switches_");
-            correctionAdd("Cherry MX Red's_", "Cherry MX Red switches_");
-            correctionAdd("cherry mx red's_", "Cherry MX Red switches_");
-            correctionAdd("Chrerry MX Red_", "Cherry MX Red switches_");
-            correctionAdd("Cherry MX re d_", "Cherry MX Red switches_");
-            correctionAdd("Cherry MX Reds_", "Cherry MX Red switches_");
-            correctionAdd("cherry mx reds_", "Cherry MX Red switches_");
-            correctionAdd("cherry mx red_", "Cherry MX Red switches_");
-            correctionAdd("CHERRY MX RED_", "Cherry MX Red switches_");
-            correctionAdd("CHERRY MX Red_", "Cherry MX Red switches_");
-            correctionAdd("Cherry MX Red_", "Cherry MX Red switches_");
-            correctionAdd("Cherry Red_", "Cherry MX Red switches_");
-            correctionAdd("MX red_", "Cherry MX Red switches_");
-            correctionAdd("MX Red_", "Cherry MX Red switches_");
-            correctionAdd("mx red_", "Cherry MX Red switches_");
-            correctionAdd("Mx Red_", "Cherry MX Red switches_");
-            correctionAdd("red_", "Cherry MX Red switches_");
-
-            // A type of switch for mechanical keyboards
-            //
-            // Linear. 45 g. 1.2 mm actuation (short).
-            //
-            correctionAdd("Cherry MX Speed Silver switch_", "Cherry MX Speed Silver switches_");
-            correctionAdd("Cherry MX SPEED Silver_", "Cherry MX Speed Silver switches_");
-            correctionAdd("Cherry MX Speed silver_", "Cherry MX Speed Silver switches_");
-            correctionAdd("CHERRY MX Speed Silver_", "Cherry MX Speed Silver switches_");
-            correctionAdd("Cherry MX Speed Silver_", "Cherry MX Speed Silver switches_");
-            correctionAdd("Cherry MX Silver_", "Cherry MX Speed Silver switches_");
-            correctionAdd("MX SPEED Silver_", "Cherry MX Speed Silver switches_");
-            correctionAdd("MX Speed Silver_", "Cherry MX Speed Silver switches_");
-            correctionAdd("speed-silvers_", "Cherry MX Speed Silver switches_");
-            correctionAdd("Cherry Silver_", "Cherry MX Speed Silver switches_");
-            correctionAdd("speed silvers_", "Cherry MX Speed Silver switches_");
-            correctionAdd("Speed Silver_", "Cherry MX Speed Silver switches_");
-            correctionAdd("speed silver_", "Cherry MX Speed Silver switches_");
-            correctionAdd("speed-silver_", "Cherry MX Speed Silver switches_");
-            correctionAdd("silver_", "Cherry MX Speed Silver switches_");
-            correctionAdd("Silver_", "Cherry MX Speed Silver switches_");
-
-            // To both have an alternative word (as it may be used
-            // in an abbr., like "HE") and an alternative URL.
-            //
-            // Notes:
-            //
-            //   * Keychron K HE and Q HE series:
-            //
-            //       South pole facing downward (uncommon)
-            //
-            correctionAdd("Hall sensor_", "Hall effect_");
-            correctionAdd("Hall-effect_", "Hall effect_");
-
-            // A type of switch for mechanical keyboards
-            //
-            // Note: Hall effect switches with south-pole magnets
-            //       facing downward (uncommon)
-            //
-            // 30 g linear. Yellow.
-            // Keychron SKU number: G208
-            correctionAdd("Dawn_", "Dawn Keychron x Gateron double-rail magnetic switches_");
-            correctionAdd("dawn_", "Dawn Keychron x Gateron double-rail magnetic switches_");
-
-            // A type of switch for mechanical keyboards
-            //
-            // Note: Hall effect switches with south-pole magnets
-            //       facing downward (uncommon)
-            //
-            // 40 g linear. Violet (or magenta?).
-            // Keychron SKU number: G209
-            correctionAdd("Nebula_", "Nebula Keychron x Gateron double-rail magnetic switches_");
-            correctionAdd("nebula_", "Nebula Keychron x Gateron double-rail magnetic switches_");
-
-            // A type of switch for mechanical keyboards
-            //
-            // Note: Hall effect switches with south-pole magnets
-            //       facing downward (uncommon)
-            //
-            // 50 g linear. Green (or light green / spring green.
-            // Keychron SKU number: G210
-            correctionAdd("Aurora_", "Aurora Keychron x Gateron double-rail magnetic switches_");
-            correctionAdd("aurora_", "Aurora Keychron x Gateron double-rail magnetic switches_");
-
-            // Related to mechanical keyboards with Hall effect
-            // switches, e.g., from Keychron.
-            //
-            // Is DKS a SIA?
-            correctionAdd("Dynamic Keystroke_", "dynamic keystroke_");
-            correctionAdd("DKS_", "dynamic keystroke_");
-
-            // "magnetic switches operate based on magnet polarity
-            //   and PCB design, meaning not all keyboards will
-            //   support them."
-            //
-            // Keychron changed orientation:
-            //
-            //   * K HE series and Q HE series:   south pole (down)
-            //
-            //     Though a hardware version 2
-            //     from 2026 uses north pole (down)...:
-            //
-            //       <https://www.reddit.com/r/Keychron/comments/1xu1tnk/comment/19sipynq9xe78/>
-            //
-            //   * Q HE 8K series (wired only):   north pole (down).
-            //
-            //     But closed source code.
-            //
-            //     And in October 2026:
-            //
-            //       Hardware version 2 of K HE and Q HE series
-            //
-            //   A reference:
-            //
-            //    <https://www.reddit.com/r/Keychron/comments/1syixet/comment/ojurnl4/>
-            //
-            // Note: Not to be confused with Gateron 'North Pole'
-            //       regular ***mechanical*** switches
-            //
-            // Alternative URLs:
-            //
-            //   <https://www.reddit.com/r/Keychron/comments/1qpeo77/comment/o29bicr/>
-            //
-            correctionAdd("Hall effect switches with N-pole magnets facing downward_", "Hall effect switches with north-pole magnets facing downward_");
-            correctionAdd("south pole-down_", "Hall effect switches with north-pole magnets facing downward_");
-            correctionAdd("south-pole-down_", "Hall effect switches with north-pole magnets facing downward_");
-            correctionAdd("North Switch_", "Hall effect switches with north-pole magnets facing downward_");
-            correctionAdd("north switch_", "Hall effect switches with north-pole magnets facing downward_");
-            correctionAdd("north pole_", "Hall effect switches with north-pole magnets facing downward_");
-            correctionAdd("south pole_", "Hall effect switches with north-pole magnets facing downward_"); // For the cross-reference
-            correctionAdd("N_", "Hall effect switches with north-pole magnets facing downward_");
-
             // Mechanical keyboards
             //
             // <https://deskthority.net> ("desk authority")
@@ -155549,60 +155374,6 @@ namespace OverflowHelper.core
             correctionAdd("taping_", "tapping_");
             correctionAdd("Taping_", "tapping_");
 
-            // Mechanical keyboards
-            //
-            // The 'deskthority.net' reference is now broken (blank page).
-            // Candidate site for the wiki: <https://wiki.themk.org>
-            //
-            //    <https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/Chatter.html>
-            //
-            // Alternative URLs:
-            //
-            //   <https://digiva.net/fix-key-chattering/>
-            //     But it wanted an enourmous amount of domains
-            //     to download JavaScript code from.
-            //     Has it been generated by ChatGPT? Is
-            //     it malicious?
-            //
-            //     Note: <https://digiva.net> now results in
-            //           "Potential Security Risk Ahead"
-            //           Due to "SSL_ERROR_BAD_CERT_DOMAIN"
-            //
-            //   <https://digiva.net/common-problems-of-mechanical-keyboards/>
-            //     Common problems of mechanical keyboards [Ultimate Guide]
-            //
-            //     Comprehensive! Though not for this problem.
-            //
-            //     But it wanted an enourmous amount of domains
-            //     to download JavaScript code from.
-            //     Has it been generated by ChatGPT? Is
-            //     it malicious?
-            //
-            //     Note: <https://digiva.net> now results in
-            //           "Potential Security Risk Ahead"
-            //           Due to "SSL_ERROR_BAD_CERT_DOMAIN"
-            //
-            //   <https://helveticaforever.com/enhance-scratchy-switches/>
-            //     How to enhance scratchy switches
-            //
-            //   <https://forgeary.com/key-chatter/>
-            //
-            //   <https://www.mechkeybs.com/learn/tutorials/fix-key-chatter-repeating-keys/>
-            //
-            correctionAdd("stuck key syndrome_", "key chatter_");
-            correctionAdd("Double keystrokes_", "key chatter_");
-            correctionAdd("double keystrokes_", "key chatter_");
-            correctionAdd("double clicking_", "key chatter_"); // Is sometimes used when double keystrokes (as output from the keyboard) is meant
-            correctionAdd("double-clicking_", "key chatter_"); // Is sometimes used when double keystrokes (as output from the keyboard) is meant
-            correctionAdd("key chattering_", "key chatter_"); // Not 100% correct
-            correctionAdd("Keychattering_", "key chatter_"); // Not 100% correct
-            correctionAdd("keychattering_", "key chatter_"); // Not 100% correct
-            correctionAdd("key bounce_", "key chatter_");
-            correctionAdd("keychatter_", "key chatter_");
-            correctionAdd("Ghosting_", "key chatter_");
-            correctionAdd("ghosting_", "key chatter_");
-            correctionAdd("chatter_", "key chatter_");
-
             // Some new feature for mechanical keyboards with
             // analogue (Hall sensor) switches. Or is it for
             // all switches?? E.g., for Razer and Wooting 60HE.
@@ -156262,6 +156033,11 @@ namespace OverflowHelper.core
             correctionAdd("mechanicals_", "mechanical switches_");
             correctionAdd("mechs_", "mechanical switches_");
 
+            // In switches for mechanical keyboards
+            correctionAdd("spring_", "springs_");
+
+            correctionAdd("ckicky_", "clicky_");
+
             correctionAdd("lube_", "lubricate_");
             correctionAdd("lub_", "lubricate_");
 
@@ -156289,6 +156065,241 @@ namespace OverflowHelper.core
             //
             // E.g., mechanical keyboards
             correctionAdd("Reseating_", "reseating_");
+
+            // Mechanical keyboards
+            //
+            // The 'deskthority.net' reference is now broken (blank page).
+            // Candidate site for the wiki: <https://wiki.themk.org>
+            //
+            //    <https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/Chatter.html>
+            //
+            // Alternative URLs:
+            //
+            //   <https://digiva.net/fix-key-chattering/>
+            //     But it wanted an enourmous amount of domains
+            //     to download JavaScript code from.
+            //     Has it been generated by ChatGPT? Is
+            //     it malicious?
+            //
+            //     Note: <https://digiva.net> now results in
+            //           "Potential Security Risk Ahead"
+            //           Due to "SSL_ERROR_BAD_CERT_DOMAIN"
+            //
+            //   <https://digiva.net/common-problems-of-mechanical-keyboards/>
+            //     Common problems of mechanical keyboards [Ultimate Guide]
+            //
+            //     Comprehensive! Though not for this problem.
+            //
+            //     But it wanted an enourmous amount of domains
+            //     to download JavaScript code from.
+            //     Has it been generated by ChatGPT? Is
+            //     it malicious?
+            //
+            //     Note: <https://digiva.net> now results in
+            //           "Potential Security Risk Ahead"
+            //           Due to "SSL_ERROR_BAD_CERT_DOMAIN"
+            //
+            //   <https://helveticaforever.com/enhance-scratchy-switches/>
+            //     How to enhance scratchy switches
+            //
+            //   <https://forgeary.com/key-chatter/>
+            //
+            //   <https://www.mechkeybs.com/learn/tutorials/fix-key-chatter-repeating-keys/>
+            //
+            correctionAdd("stuck key syndrome_", "key chatter_");
+            correctionAdd("Double keystrokes_", "key chatter_");
+            correctionAdd("double keystrokes_", "key chatter_");
+            correctionAdd("double clicking_", "key chatter_"); // Is sometimes used when double keystrokes (as output from the keyboard) is meant
+            correctionAdd("double-clicking_", "key chatter_"); // Is sometimes used when double keystrokes (as output from the keyboard) is meant
+            correctionAdd("key chattering_", "key chatter_"); // Not 100% correct
+            correctionAdd("Keychattering_", "key chatter_"); // Not 100% correct
+            correctionAdd("keychattering_", "key chatter_"); // Not 100% correct
+            correctionAdd("key bounce_", "key chatter_");
+            correctionAdd("keychatter_", "key chatter_");
+            correctionAdd("Ghosting_", "key chatter_");
+            correctionAdd("ghosting_", "key chatter_");
+            correctionAdd("chatter_", "key chatter_");
+
+            // A type of switch for mechanical keyboards
+            //
+            // Tactile and clicky.
+            //
+            correctionAdd("Cherry MX Blue switch_", "Cherry MX Blue switches_");
+            correctionAdd("Cherry MX blues_", "Cherry MX Blue switches_");
+            correctionAdd("cherry MX blues_", "Cherry MX Blue switches_");
+            correctionAdd("Cherry MX blue_", "Cherry MX Blue switches_");
+            correctionAdd("cherry mx blue_", "Cherry MX Blue switches_");
+            correctionAdd("Cherry MX Blue_", "Cherry MX Blue switches_");
+            correctionAdd("Cherry Blue_", "Cherry MX Blue switches_");
+            correctionAdd("MX Blues_", "Cherry MX Blue switches_");
+            correctionAdd("MX Blue_", "Cherry MX Blue switches_");
+            correctionAdd("MX blue_", "Cherry MX Blue switches_");
+            correctionAdd("Mx blue_", "Cherry MX Blue switches_");
+            correctionAdd("mx blue_", "Cherry MX Blue switches_");
+            correctionAdd("blue_", "Cherry MX Blue switches_");
+
+            // A type of switch for mechanical keyboards
+            //
+            // Tactile, but not clicky. 45 g / 55 g. 2.0 mm actuation (standard)
+            //
+            // Alternative URLs
+            //
+            //   <https://www.cherrymx.de/_Resources/Persistent/9/3/e/d/93edbcdda68adb82c5ebe0fb662430d093f01a80/Data_sheet_MX2A_Brown.pdf>
+            //   <https://www.cherrymx.de/en/cherry-mx/mx-original/mx-brown.html#techSpecs>
+            //
+            correctionAdd("Cherry MX Brown switch_", "Cherry MX Brown switches_");
+            correctionAdd("cherry max brown_", "Cherry MX Brown switches_");
+            correctionAdd("Cherry MX browns_", "Cherry MX Brown switches_");
+            correctionAdd("cherry Mx browns_", "Cherry MX Brown switches_");
+            correctionAdd("cherry Mx brown_", "Cherry MX Brown switches_");
+            correctionAdd("cherry mx brown_", "Cherry MX Brown switches_");
+            correctionAdd("Cherry MX Brown_", "Cherry MX Brown switches_");
+            correctionAdd("brown stwitchs_", "Cherry MX Brown switches_");
+            correctionAdd("Cherry MX Sand_", "Cherry MX Brown switches_");
+            correctionAdd("Cherry MX Shit_", "Cherry MX Brown switches_");
+            correctionAdd("cherry browns_", "Cherry MX Brown switches_");
+            correctionAdd("Cherry Brown_", "Cherry MX Brown switches_");
+            correctionAdd("Cherry brown_", "Cherry MX Brown switches_");
+            correctionAdd("cherry brown_", "Cherry MX Brown switches_");
+            correctionAdd("MX Brown_", "Cherry MX Brown switches_");
+            correctionAdd("mx brown_", "Cherry MX Brown switches_");
+            correctionAdd("Mx Brown_", "Cherry MX Brown switches_");
+            correctionAdd("MX brown_", "Cherry MX Brown switches_");
+            correctionAdd("browns_", "Cherry MX Brown switches_");
+            correctionAdd("brown_", "Cherry MX Brown switches_");
+            correctionAdd("brows_", "Cherry MX Brown switches_");
+
+            // A type of switch for mechanical keyboards
+            //
+            // Linear
+            correctionAdd("Cherry MX Red switch_", "Cherry MX Red switches_");
+            correctionAdd("Cherry MX Red's_", "Cherry MX Red switches_");
+            correctionAdd("cherry mx red's_", "Cherry MX Red switches_");
+            correctionAdd("Chrerry MX Red_", "Cherry MX Red switches_");
+            correctionAdd("Cherry MX re d_", "Cherry MX Red switches_");
+            correctionAdd("Cherry MX Reds_", "Cherry MX Red switches_");
+            correctionAdd("cherry mx reds_", "Cherry MX Red switches_");
+            correctionAdd("cherry mx red_", "Cherry MX Red switches_");
+            correctionAdd("CHERRY MX RED_", "Cherry MX Red switches_");
+            correctionAdd("CHERRY MX Red_", "Cherry MX Red switches_");
+            correctionAdd("Cherry MX Red_", "Cherry MX Red switches_");
+            correctionAdd("Cherry Red_", "Cherry MX Red switches_");
+            correctionAdd("MX red_", "Cherry MX Red switches_");
+            correctionAdd("MX Red_", "Cherry MX Red switches_");
+            correctionAdd("mx red_", "Cherry MX Red switches_");
+            correctionAdd("Mx Red_", "Cherry MX Red switches_");
+            correctionAdd("red_", "Cherry MX Red switches_");
+
+            // A type of switch for mechanical keyboards
+            //
+            // Linear. 45 g. 1.2 mm actuation (short).
+            //
+            correctionAdd("Cherry MX Speed Silver switch_", "Cherry MX Speed Silver switches_");
+            correctionAdd("Cherry MX SPEED Silver_", "Cherry MX Speed Silver switches_");
+            correctionAdd("Cherry MX Speed silver_", "Cherry MX Speed Silver switches_");
+            correctionAdd("CHERRY MX Speed Silver_", "Cherry MX Speed Silver switches_");
+            correctionAdd("Cherry MX Speed Silver_", "Cherry MX Speed Silver switches_");
+            correctionAdd("Cherry MX Silver_", "Cherry MX Speed Silver switches_");
+            correctionAdd("MX SPEED Silver_", "Cherry MX Speed Silver switches_");
+            correctionAdd("MX Speed Silver_", "Cherry MX Speed Silver switches_");
+            correctionAdd("speed-silvers_", "Cherry MX Speed Silver switches_");
+            correctionAdd("Cherry Silver_", "Cherry MX Speed Silver switches_");
+            correctionAdd("speed silvers_", "Cherry MX Speed Silver switches_");
+            correctionAdd("Speed Silver_", "Cherry MX Speed Silver switches_");
+            correctionAdd("speed silver_", "Cherry MX Speed Silver switches_");
+            correctionAdd("speed-silver_", "Cherry MX Speed Silver switches_");
+            correctionAdd("silver_", "Cherry MX Speed Silver switches_");
+            correctionAdd("Silver_", "Cherry MX Speed Silver switches_");
+
+            // To both have an alternative word (as it may be used
+            // in an abbr., like "HE") and an alternative URL.
+            //
+            // Notes:
+            //
+            //   * Keychron K HE and Q HE series:
+            //
+            //       South pole facing downward (uncommon)
+            //
+            correctionAdd("Hall sensor_", "Hall effect_");
+            correctionAdd("Hall-effect_", "Hall effect_");
+
+            // A type of switch for mechanical keyboards
+            //
+            // Note: Hall effect switches with south-pole magnets
+            //       facing downward (uncommon)
+            //
+            // 30 g linear. Yellow.
+            // Keychron SKU number: G208
+            correctionAdd("Dawn_", "Dawn Keychron x Gateron double-rail magnetic switches_");
+            correctionAdd("dawn_", "Dawn Keychron x Gateron double-rail magnetic switches_");
+
+            // A type of switch for mechanical keyboards
+            //
+            // Note: Hall effect switches with south-pole magnets
+            //       facing downward (uncommon)
+            //
+            // 40 g linear. Violet (or magenta?).
+            // Keychron SKU number: G209
+            correctionAdd("Nebula_", "Nebula Keychron x Gateron double-rail magnetic switches_");
+            correctionAdd("nebula_", "Nebula Keychron x Gateron double-rail magnetic switches_");
+
+            // A type of switch for mechanical keyboards
+            //
+            // Note: Hall effect switches with south-pole magnets
+            //       facing downward (uncommon)
+            //
+            // 50 g linear. Green (or light green / spring green.
+            // Keychron SKU number: G210
+            correctionAdd("Aurora_", "Aurora Keychron x Gateron double-rail magnetic switches_");
+            correctionAdd("aurora_", "Aurora Keychron x Gateron double-rail magnetic switches_");
+
+            // Related to mechanical keyboards with Hall effect
+            // switches, e.g., from Keychron.
+            //
+            // Is DKS a SIA?
+            correctionAdd("Dynamic Keystroke_", "dynamic keystroke_");
+            correctionAdd("DKS_", "dynamic keystroke_");
+
+            // "magnetic switches operate based on magnet polarity
+            //   and PCB design, meaning not all keyboards will
+            //   support them."
+            //
+            // Keychron changed orientation:
+            //
+            //   * K HE series and Q HE series:   south pole (down)
+            //
+            //     Though a hardware version 2
+            //     from 2026 uses north pole (down)...:
+            //
+            //       <https://www.reddit.com/r/Keychron/comments/1xu1tnk/comment/19sipynq9xe78/>
+            //
+            //   * Q HE 8K series (wired only):   north pole (down).
+            //
+            //     But closed source code.
+            //
+            //     And in October 2026:
+            //
+            //       Hardware version 2 of K HE and Q HE series
+            //
+            //   A reference:
+            //
+            //    <https://www.reddit.com/r/Keychron/comments/1syixet/comment/ojurnl4/>
+            //
+            // Note: Not to be confused with Gateron 'North Pole'
+            //       regular ***mechanical*** switches
+            //
+            // Alternative URLs:
+            //
+            //   <https://www.reddit.com/r/Keychron/comments/1qpeo77/comment/o29bicr/>
+            //
+            correctionAdd("Hall effect switches with N-pole magnets facing downward_", "Hall effect switches with north-pole magnets facing downward_");
+            correctionAdd("south pole-down_", "Hall effect switches with north-pole magnets facing downward_");
+            correctionAdd("south-pole-down_", "Hall effect switches with north-pole magnets facing downward_");
+            correctionAdd("North Switch_", "Hall effect switches with north-pole magnets facing downward_");
+            correctionAdd("north switch_", "Hall effect switches with north-pole magnets facing downward_");
+            correctionAdd("north pole_", "Hall effect switches with north-pole magnets facing downward_");
+            correctionAdd("south pole_", "Hall effect switches with north-pole magnets facing downward_"); // For the cross-reference
+            correctionAdd("N_", "Hall effect switches with north-pole magnets facing downward_");
 
             correctionAdd("ergonomical_", "ergonomic_");
             correctionAdd("Erogonomic_", "ergonomic_");
@@ -156770,6 +156781,7 @@ namespace OverflowHelper.core
             correctionAdd("Cmd_", "Apple key AKA Command key_"); // The official short name
             correctionAdd("⌘_", "Apple key AKA Command key_");
 
+            // The optical (physical) medium
             correctionAdd("cd_", "CD_");
 
             correctionAdd("continiuous_", "continuous_");
@@ -172844,8 +172856,6 @@ namespace OverflowHelper.core
 
             URL_Add("splay_", "https://kinesis-ergo.com/split-keyboards/");
 
-            URL_Add("clicky_", "https://en.wiktionary.org/wiki/clicky#Adjective");
-
             URL_Add("micro switch_", "https://en.wikipedia.org/wiki/Miniature_snap-action_switch");
 
             URL_Add("DIP switches_", "https://en.wiktionary.org/wiki/DIP_switch#Noun");
@@ -172855,6 +172865,10 @@ namespace OverflowHelper.core
             URL_Add("mechanical switch_", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact");
 
             URL_Add("mechanical switches_", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact");
+
+            URL_Add("clicky_", "https://en.wiktionary.org/wiki/clicky#Adjective");
+
+            URL_Add("springs_", "https://deskthority.net/wiki/Spring");
 
             URL_Add("rotary knob_", "https://keyboardsexpert.com/rotary-encoder-knobs-guide/");
 
@@ -183013,6 +183027,10 @@ namespace OverflowHelper.core
             //
             correctionAdd("kernels___", "kernel methods___");
 
+            correctionAdd("Crohn’s disease___", "Crohn's disease___");
+            correctionAdd("Crohn’s___", "Crohn's disease___");
+            correctionAdd("CD___", "Crohn's disease___");
+
             // Of the "B" programming language (also by Dennis Ritchie)
             //
             // Alternative URLs:
@@ -183640,6 +183658,8 @@ namespace OverflowHelper.core
             URL_Add("Lemokey X series___", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
 
             URL_Add("multiples___", "https://en.wiktionary.org/wiki/multiple#Noun");
+
+            URL_Add("Crohn's disease___", "https://en.wikipedia.org/wiki/Crohn's_disease");
 
         } //addLookupData_alternativeWordSet3()
 
