@@ -9232,6 +9232,45 @@ namespace OverflowHelper.core
 
             correctionAdd("QtOpcUa", "Qt OPC UA");
 
+            correctionAdd("possition", "position");
+            correctionAdd("posistion", "position");
+            correctionAdd("poisiton", "position");
+            correctionAdd("posotion", "position"); // A true typo
+            correctionAdd("postion", "position");
+            correctionAdd("poition", "position");
+            correctionAdd("positon", "position");
+            correctionAdd("pos", "position");
+
+            correctionAdd("positionning", "positioning");
+
+            correctionAdd("positionined", "positioned");
+            correctionAdd("positionied", "positioned");
+            correctionAdd("Positioned", "positioned");
+
+            correctionAdd("positionnal", "positional");
+
+            correctionAdd("positionaly", "positionally");
+
+            correctionAdd("re-position", "reposition");
+
+            correctionAdd("mid position", "midposition");
+
+            correctionAdd("multi position", "multiposition");
+            correctionAdd("multi-position", "multiposition");
+
+            correctionAdd("dis-positioned", "dispositioned");
+
+            correctionAdd("proprosition", "proposition");
+            correctionAdd("Proposition", "proposition");
+            correctionAdd("proposion", "proposition");
+
+            correctionAdd("proposions", "propositions");
+
+            correctionAdd("compostion", "composition");
+            correctionAdd("Compositon", "composition");
+            correctionAdd("Compostion", "composition");
+            correctionAdd("compositon", "composition");
+
             correctionAdd("thresh-hold", "threshold");
             correctionAdd("threeshold", "threshold");
             correctionAdd("threshhold", "threshold");
@@ -10587,43 +10626,6 @@ namespace OverflowHelper.core
             correctionAdd("neg", "negative");
 
             correctionAdd("double-negative", "double negative");
-
-            correctionAdd("possition", "position");
-            correctionAdd("posistion", "position");
-            correctionAdd("poisiton", "position");
-            correctionAdd("posotion", "position"); // A true typo
-            correctionAdd("postion", "position");
-            correctionAdd("poition", "position");
-            correctionAdd("positon", "position");
-            correctionAdd("pos", "position");
-
-            correctionAdd("positionning", "positioning");
-
-            correctionAdd("positionined", "positioned");
-            correctionAdd("positionied", "positioned");
-            correctionAdd("Positioned", "positioned");
-
-            correctionAdd("positionnal", "positional");
-
-            correctionAdd("re-position", "reposition");
-
-            correctionAdd("mid position", "midposition");
-
-            correctionAdd("multi position", "multiposition");
-            correctionAdd("multi-position", "multiposition");
-
-            correctionAdd("dis-positioned", "dispositioned");
-
-            correctionAdd("proprosition", "proposition");
-            correctionAdd("Proposition", "proposition");
-            correctionAdd("proposion", "proposition");
-
-            correctionAdd("proposions", "propositions");
-
-            correctionAdd("compostion", "composition");
-            correctionAdd("Compositon", "composition");
-            correctionAdd("Compostion", "composition");
-            correctionAdd("compositon", "composition");
 
             correctionAdd("lessor", "lesser");
 
@@ -16731,6 +16733,7 @@ namespace OverflowHelper.core
             correctionAdd("ASTs", "AST"); // Not 100% correct (plural)
             correctionAdd("ast", "AST");
 
+            correctionAdd("decision trees", "decision tree");
             correctionAdd("Decision Tree", "decision tree");
 
             correctionAdd("B tree", "B-tree");
@@ -24711,6 +24714,9 @@ namespace OverflowHelper.core
             correctionAdd("magentig", "magnetic"); // Probably both a typo and a misspelling
             correctionAdd("mag", "magnetic");
 
+            correctionAdd("magnetic ly", "magnetically");
+            correctionAdd("magneticly", "magnetically");
+
             correctionAdd("non-magnetic", "nonmagnetic");
 
             correctionAdd("Magnetic field", "magnetic field");
@@ -24980,6 +24986,8 @@ namespace OverflowHelper.core
 
             correctionAdd("gaussian blur", "Gaussian blur");
 
+            correctionAdd("Gaussian Mixture Models", "Gaussian mixture model");
+            correctionAdd("gaussian mixture models", "Gaussian mixture model");
             correctionAdd("Gaussian Mixture Model", "Gaussian mixture model");
 
             correctionAdd("gaussian noise", "Gaussian noise");
@@ -25434,6 +25442,7 @@ namespace OverflowHelper.core
             correctionAdd("seqare", "square");
 
             correctionAdd("Least Squares", "least squares");
+            correctionAdd("least-squares", "least squares");
 
             correctionAdd("OLS", "ordinary least squares");
 
@@ -31616,6 +31625,7 @@ namespace OverflowHelper.core
             correctionAdd("beign", "being");
             correctionAdd("beein", "being");
             correctionAdd("begin", "being"); // An autocorrect "masterpiece"?
+            correctionAdd("veing", "being"); // A true typo
             correctionAdd("bean", "being");
             correctionAdd("bein", "being");
 
@@ -39443,6 +39453,20 @@ namespace OverflowHelper.core
 
             correctionAdd("resoureful", "resourceful");
 
+            correctionAdd("idempontence", "idempotence");
+
+            correctionAdd("idempontent", "idempotent");
+            correctionAdd("Idempontent", "idempotent");
+
+            correctionAdd("potentional", "potential");
+            correctionAdd("potentioal", "potential");
+            correctionAdd("potentail", "potential"); // A true typo
+
+            correctionAdd("potentionally", "potentially");
+            correctionAdd("potentionaly", "potentially");
+            correctionAdd("potentically", "potentially");
+            correctionAdd("potentialy", "potentially");
+
             correctionAdd("indentitation", "indentation");
             correctionAdd("indendation", "indentation");
             correctionAdd("Indentation", "indentation");
@@ -43326,11 +43350,13 @@ namespace OverflowHelper.core
 
             correctionAdd("North pole", "north pole");
             correctionAdd("north-pole", "north pole");
+            correctionAdd("North-pole", "north pole");
             correctionAdd("N-pole", "north pole");
 
             correctionAdd("South pole", "south pole");
             correctionAdd("south-pole", "south pole");
             correctionAdd("South Pole", "south pole");
+            correctionAdd("South-pole", "south pole");
             correctionAdd("S-pole", "south pole");
 
             correctionAdd("arctic", "Arctic");
@@ -44860,6 +44886,9 @@ namespace OverflowHelper.core
             correctionAdd("matrixes", "matrices");
             correctionAdd("Matrices", "matrices");
 
+            // A matrix thing
+            correctionAdd("Determinant", "determinant");
+
             correctionAdd("descomposition", "decomposition");
 
             // A matrix thing
@@ -45260,6 +45289,8 @@ namespace OverflowHelper.core
             correctionAdd("neural-network", "artificial neural network");
             correctionAdd("neyral network", "artificial neural network");
             correctionAdd("Neural Networks", "artificial neural network"); // Not 100% correct - plural.
+            correctionAdd("Neural Nets", "artificial neural network");
+            correctionAdd("neural nets", "artificial neural network");
             correctionAdd("Network", "artificial neural network");
             correctionAdd("ANN", "artificial neural network"); // Expansion
             correctionAdd("NNs", "artificial neural network");
@@ -45440,6 +45471,14 @@ namespace OverflowHelper.core
             correctionAdd("k-means", "k-means clustering");
             correctionAdd("Kmeans", "k-means clustering");
             correctionAdd("kmeans", "k-means clustering");
+
+            // Machine learning?
+            //
+            // Note: "F" should be formatted in italics
+            //
+            correctionAdd("F-Test", "F-test");
+
+            correctionAdd("RANSAC", "random sample consensus");
 
             // Machine learning
             //
@@ -59047,6 +59086,7 @@ namespace OverflowHelper.core
 
             correctionAdd("vaild", "valid"); // A true typo
             correctionAdd("vaiid", "valid");
+            correctionAdd("valod", "valid"); // A true typo
 
             correctionAdd("validade", "validate");
 
@@ -63743,10 +63783,11 @@ namespace OverflowHelper.core
             correctionAdd("reandomly", "randomly");
             correctionAdd("randonly", "randomly");
 
-            correctionAdd("Random Forests", "random decision forest");
-            correctionAdd("random forests", "random decision forest");
-            correctionAdd("random forest", "random decision forest");
-            correctionAdd("Random Forest", "random decision forest");
+            correctionAdd("random decision forest", "random decision forests");
+            correctionAdd("Random Forests", "random decision forests");
+            correctionAdd("random forests", "random decision forests");
+            correctionAdd("random forest", "random decision forests");
+            correctionAdd("Random Forest", "random decision forests");
 
             correctionAdd("randomstringutils", "RandomStringUtils");
 
@@ -75448,14 +75489,14 @@ namespace OverflowHelper.core
 
             correctionAdd("naviagate", "navigate");
             correctionAdd("naviguate", "navigate");
-            correctionAdd("Navigaion", "navigate");
-            correctionAdd("navigaion", "navigate");
             correctionAdd("nvaigate", "navigate");
             correctionAdd("nagivate", "navigate");
             correctionAdd("naviagte", "navigate"); // A true typo
 
             correctionAdd("nagivation", "navigation");
             correctionAdd("nuvigation", "navigation");
+            correctionAdd("Navigaion", "navigation");
+            correctionAdd("navigaion", "navigation");
             correctionAdd("nav", "navigation");
             correctionAdd("Nav", "navigation");
 
@@ -80624,6 +80665,8 @@ namespace OverflowHelper.core
 
             correctionAdd("MCMC", "Markov chain Monte Carlo");
 
+            correctionAdd("Hidden Markov Models", "hidden Markov model");
+            correctionAdd("hidden markov models", "hidden Markov model");
             correctionAdd("Hidden Markov Model", "hidden Markov model");
             correctionAdd("Hidden Markov model", "hidden Markov model");
             correctionAdd("hidden markov model", "hidden Markov model");
@@ -95847,7 +95890,9 @@ namespace OverflowHelper.core
             // with a knob.
             //
             correctionAdd("Keychron V6 8K", "Keychron V6 8K (105%)");
+            correctionAdd("keychain v6 8k", "Keychron V6 8K (105%)");
             correctionAdd("V6 8K", "Keychron V6 8K (105%)");
+            correctionAdd("v6 8k", "Keychron V6 8K (105%)");
 
             // A 109-key (105%. Not true TKL) full-size low-profile
             // wired and wireless (only Bluetooth) QMK/Via-capable
@@ -97476,6 +97521,8 @@ namespace OverflowHelper.core
             correctionAdd("multidimentional", "multidimensional");
             correctionAdd("mutidimensoinal", "multidimensional");
             correctionAdd("multi-dimm", "multidimensional");
+
+            correctionAdd("higher dimensional", "higher-dimensional");
 
             correctionAdd("OneUI", "One UI");
 
@@ -101769,19 +101816,6 @@ namespace OverflowHelper.core
             correctionAdd("mimetype", "MIME type");
 
             correctionAdd("re-type", "retype");
-
-            correctionAdd("idempontence", "idempotence");
-
-            correctionAdd("idempontent", "idempotent");
-            correctionAdd("Idempontent", "idempotent");
-
-            correctionAdd("potentioal", "potential");
-            correctionAdd("potentional", "potential");
-
-            correctionAdd("potentionally", "potentially");
-            correctionAdd("potentionaly", "potentially");
-            correctionAdd("potentically", "potentially");
-            correctionAdd("potentialy", "potentially");
 
             correctionAdd("denstiy", "density");
 
@@ -111162,8 +111196,6 @@ namespace OverflowHelper.core
 
             URL_Add("general-purpose timers", "https://embeddedinventor.com/embedded-timers-their-types-and-applications/");
 
-            URL_Add("MultiWii", "https://hackaday.com/2015/04/19/multicopters-and-their-multiwii-beginnings/");
-
             URL_Add("afraid", "https://en.wiktionary.org/wiki/afraid#Adjective");
 
             URL_Add("briefly", "https://en.wiktionary.org/wiki/briefly#Adverb");
@@ -118630,7 +118662,7 @@ namespace OverflowHelper.core
 
             URL_Add("identifies", "https://en.wiktionary.org/wiki/identify#Verb");
 
-            URL_Add("random decision forest", "https://en.wikipedia.org/wiki/Random_forest");
+            URL_Add("random decision forests", "https://en.wikipedia.org/wiki/Random_forest");
 
             URL_Add("tetragonal", "https://en.wiktionary.org/wiki/tetragonal#Adjective");
 
@@ -125138,26 +125170,6 @@ namespace OverflowHelper.core
 
             URL_Add("holiday", "https://en.wiktionary.org/wiki/holiday#Noun");
 
-            URL_Add("dimension", "https://en.wiktionary.org/wiki/dimension#Noun");
-
-            URL_Add("dimensions", "https://en.wiktionary.org/wiki/dimension#Noun");
-
-            URL_Add("dimensional", "https://en.wiktionary.org/wiki/dimensional#Adjective");
-
-            URL_Add("dimensionality", "https://en.wiktionary.org/wiki/dimensionality#Noun");
-
-            URL_Add("zero-dimensional", "https://en.wiktionary.org/wiki/zero-dimensional#Adjective");
-
-            URL_Add("one-dimensional", "https://en.wiktionary.org/wiki/one-dimensional#Adjective");
-
-            URL_Add("two-dimensional", "https://en.wiktionary.org/wiki/two-dimensional#Adjective");
-
-            URL_Add("three-dimensional", "https://en.wiktionary.org/wiki/three-dimensional#Adjective");
-
-            URL_Add("four-dimensional", "https://en.wiktionary.org/wiki/four-dimensional#Adjective");
-
-            URL_Add("n-dimensional", "https://en.wiktionary.org/wiki/n-dimensional#Adjective");
-
             URL_Add("semicolons", "https://en.wiktionary.org/wiki/semicolon#Noun");
 
             URL_Add("lackluster", "https://en.wiktionary.org/wiki/lackluster#Adjective");
@@ -125405,14 +125417,6 @@ namespace OverflowHelper.core
             URL_Add("on cue", "https://en.wiktionary.org/wiki/on_cue#Prepositional_phrase");
 
             URL_Add("right on cue", "https://en.wiktionary.org/wiki/on_cue#Prepositional_phrase");
-
-            URL_Add("position", "https://en.wiktionary.org/wiki/position#Noun");
-
-            URL_Add("positioning", "https://en.wiktionary.org/wiki/position#Verb");
-
-            URL_Add("positioned", "https://en.wiktionary.org/wiki/position#Verb");
-
-            URL_Add("positional", "https://en.wiktionary.org/wiki/positional#Adjective");
 
             URL_Add("once-in-a-lifetime", "https://en.wiktionary.org/wiki/once-in-a-lifetime#Adjective");
 
@@ -127887,8 +127891,6 @@ namespace OverflowHelper.core
             URL_Add("REPLACEMENT CHARACTER", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=65280");
 
             URL_Add("LATIN SMALL LETTER A WITH DIAERESIS", "https://www.utf8-chartable.de/unicode-utf8-table.pl?start=225&number=128");
-
-            URL_Add("six-dimensional", "https://en.wikipedia.org/wiki/Six-dimensional_space");
 
             URL_Add("worked like a charm", "https://en.wiktionary.org/wiki/work_like_a_charm#Prepositional_phrase");
 
@@ -133132,16 +133134,6 @@ namespace OverflowHelper.core
 
             URL_Add("bpftrace", "https://github.com/iovisor/bpftrace#tools");
 
-            URL_Add("choice", "https://en.wiktionary.org/wiki/choice#Noun");
-
-            URL_Add("choices", "https://en.wiktionary.org/wiki/choice#Noun");
-
-            URL_Add("mischoice", "https://en.wiktionary.org/wiki/mischoice#Noun");
-
-            URL_Add("multiple-choice", "https://en.wiktionary.org/wiki/multiple-choice#Adjective");
-
-            URL_Add("multiple-choice question", "https://en.wiktionary.org/wiki/multiple-choice_question#Noun");
-
             URL_Add("CSS", "https://en.wikipedia.org/wiki/CSS"); // Old: https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 
             URL_Add("W3C CSS validator", "https://jigsaw.w3.org/css-validator/");
@@ -137602,6 +137594,10 @@ namespace OverflowHelper.core
 
             URL_Add("k-means clustering", "https://en.wikipedia.org/wiki/K-means_clustering");
 
+            URL_Add("F-test", "https://en.wikipedia.org/wiki/F-test");
+
+            URL_Add("random sample consensus", "https://en.wikipedia.org/wiki/Random_sample_consensus");
+
             URL_Add("fix-up", "https://en.wiktionary.org/wiki/fix-up#Noun");
 
             URL_Add("supervisor", "https://en.wiktionary.org/wiki/supervisor#Noun");
@@ -137789,6 +137785,8 @@ namespace OverflowHelper.core
             URL_Add("matrix", "https://en.wiktionary.org/wiki/matrix#Noun");
 
             URL_Add("matrices", "https://en.wiktionary.org/wiki/matrices#Noun");
+
+            URL_Add("determinant", "https://en.wikipedia.org/wiki/Determinant");
 
             URL_Add("decomposition", "https://en.wiktionary.org/wiki/decomposition#Noun");
 
@@ -139086,8 +139084,6 @@ namespace OverflowHelper.core
 
             URL_Add("Antibody-dependent enhancement", "https://en.wikipedia.org/wiki/Antibody-dependent_enhancement#Coronavirus_vaccines");
 
-            URL_Add("position-independent executable", "https://en.wikipedia.org/wiki/Position-independent_code");
-
             URL_Add("argument-dependent lookup", "https://en.cppreference.com/w/cpp/language/adl");
 
             URL_Add("argue", "https://en.wiktionary.org/wiki/argue#Verb");
@@ -139427,10 +139423,6 @@ namespace OverflowHelper.core
             URL_Add("fighting game", "https://en.wikipedia.org/wiki/Fighting_game");
 
             URL_Add("fighting game community", "https://en.wikipedia.org/wiki/Fighting_game_community");
-
-            URL_Add("multiplayer", "https://en.wiktionary.org/wiki/multiplayer#Adjective");
-
-            URL_Add("multiplayer online battle arena", "https://en.wikipedia.org/wiki/Multiplayer_online_battle_arena#Artificial_Intelligence_in_MOBAs");
 
             URL_Add("actions per minute", "https://en.wikipedia.org/wiki/Actions_per_minute");
 
@@ -140520,10 +140512,6 @@ namespace OverflowHelper.core
 
             URL_Add("negotiated", "https://en.wiktionary.org/wiki/negotiate#Verb");
 
-            URL_Add("touched", "https://en.wiktionary.org/wiki/touch#Verb");
-
-            URL_Add("multi-touch", "https://en.wiktionary.org/wiki/multi-touch#Adjective");
-
             URL_Add("count", "https://en.wiktionary.org/wiki/count#Noun");
 
             URL_Add("uncountable", "https://en.wiktionary.org/wiki/uncountable#Adjective");
@@ -140933,42 +140921,6 @@ namespace OverflowHelper.core
             URL_Add("nonprintable", "https://en.wiktionary.org/wiki/nonprintable#Adjective");
 
             URL_Add("fingerprinting", "https://en.wiktionary.org/wiki/fingerprint#Verb");
-
-            URL_Add("purpose", "https://en.wiktionary.org/wiki/purpose#Noun"); // Old: https://en.wiktionary.org/wiki/purpose#English
-
-            URL_Add("purposed", "https://en.wiktionary.org/wiki/purposed#Adjective");
-
-            URL_Add("purposefully", "https://en.wiktionary.org/wiki/purposefully#Adverb");
-
-            URL_Add("multi-purpose", "https://en.wiktionary.org/wiki/multi-purpose#Adjective");
-
-            URL_Add("all-purpose", "https://en.wiktionary.org/wiki/all-purpose#Adjective");
-
-            URL_Add("on purpose", "https://en.wiktionary.org/wiki/on_purpose#Prepositional_phrase");
-
-            URL_Add("general-purpose", "https://en.wiktionary.org/wiki/general-purpose#Adjective");
-
-            URL_Add("purporting", "https://en.wiktionary.org/wiki/purport#Verb");
-
-            URL_Add("multiline", "https://en.wiktionary.org/wiki/multiline#Adjective");
-
-            URL_Add("multi-factor authentication", "https://en.wikipedia.org/wiki/Multi-factor_authentication");
-
-            URL_Add("multi-platform", "https://en.wiktionary.org/wiki/multi-platform#Adjective");
-
-            URL_Add("Multi-platform App UI", "https://en.wikipedia.org/wiki/Xamarin#.NET_MAUI");
-
-            URL_Add("multiuser", "https://en.wiktionary.org/wiki/multiuser#Adjective");
-
-            URL_Add("multilingual", "https://en.wiktionary.org/wiki/multilingual#Adjective");
-
-            URL_Add("multipart", "https://en.wiktionary.org/wiki/multipart#Adjective");
-
-            URL_Add("multitenant", "https://en.wiktionary.org/wiki/multitenant#Adjective");
-
-            URL_Add("multipage", "https://en.wiktionary.org/wiki/multipage#Adjective");
-
-            URL_Add("multilanguage", "https://en.wiktionary.org/wiki/multilanguage#Adjective");
 
             URL_Add("regard", "https://en.wiktionary.org/wiki/regard#Noun");
 
@@ -143099,6 +143051,8 @@ namespace OverflowHelper.core
             URL_Add("HPE 2930M", "https://buy.hpe.com/us/en/networking/switches/fixed-port-l3-managed-ethernet-switches/2930-switch-products/aruba-2930m-switch-series/aruba-2930m-48g-1-slot-switch/p/JL321A");
 
             URL_Add("magnetic", "https://en.wiktionary.org/wiki/magnetic#Adjective");
+
+            URL_Add("magnetically", "https://en.wiktionary.org/wiki/magnetically#Adverb");
 
             URL_Add("nonmagnetic", "https://en.wiktionary.org/wiki/nonmagnetic#Adjective");
 
@@ -146408,8 +146362,6 @@ namespace OverflowHelper.core
 
             URL_Add("DIP switch", "https://en.wikipedia.org/wiki/DIP_switch");
 
-            URL_Add("multilayer switch", "https://en.wikipedia.org/wiki/Multilayer_switch");
-
             URL_Add("miniature snap-action switch", "https://en.wikipedia.org/wiki/Miniature_snap-action_switch");
 
             URL_Add("low-profile mechanical switches", "https://switchandclick.com/low-profile-switches-explained/");
@@ -148920,8 +148872,6 @@ namespace OverflowHelper.core
 
             URL_Add("mocking", "https://en.wiktionary.org/wiki/mock#Verb");
 
-            URL_Add("multitasking", "https://en.wiktionary.org/wiki/multitask#Verb");
-
             URL_Add("overlook", "https://en.wiktionary.org/wiki/overlook#Verb");
 
             URL_Add("overlooking", "https://en.wiktionary.org/wiki/overlook#Verb");
@@ -150442,7 +150392,135 @@ namespace OverflowHelper.core
 
             URL_Add("backscatter", "https://en.wikipedia.org/wiki/Backscatter");
 
+            URL_Add("stencil", "https://en.wikipedia.org/wiki/Stencil_printing");
+
+            URL_Add("diamond problem", "https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem");
+
+            URL_Add("dimension", "https://en.wiktionary.org/wiki/dimension#Noun");
+
+            URL_Add("dimensions", "https://en.wiktionary.org/wiki/dimension#Noun");
+
+            URL_Add("dimensional", "https://en.wiktionary.org/wiki/dimensional#Adjective");
+
+            URL_Add("dimensionality", "https://en.wiktionary.org/wiki/dimensionality#Noun");
+
+            URL_Add("zero-dimensional", "https://en.wiktionary.org/wiki/zero-dimensional#Adjective");
+
+            URL_Add("one-dimensional", "https://en.wiktionary.org/wiki/one-dimensional#Adjective");
+
+            URL_Add("two-dimensional", "https://en.wiktionary.org/wiki/two-dimensional#Adjective");
+
+            URL_Add("three-dimensional", "https://en.wiktionary.org/wiki/three-dimensional#Adjective");
+
+            URL_Add("four-dimensional", "https://en.wiktionary.org/wiki/four-dimensional#Adjective");
+
+            URL_Add("six-dimensional", "https://en.wikipedia.org/wiki/Six-dimensional_space");
+
+            URL_Add("n-dimensional", "https://en.wiktionary.org/wiki/n-dimensional#Adjective");
+
+            URL_Add("higher-dimensional", "https://en.wikipedia.org/wiki/Higher-dimensional_algebra");
+
+            URL_Add("multidimensional", "https://en.wiktionary.org/wiki/multidimensional#Adjective");
+
+            URL_Add("multiple", "https://en.wiktionary.org/wiki/multiple#Adjective");
+
+            URL_Add("multiple inheritance", "https://en.wikipedia.org/wiki/Multiple_inheritance");
+
+            URL_Add("multiple-choice", "https://en.wiktionary.org/wiki/multiple-choice#Adjective");
+
+            URL_Add("multiple-choice question", "https://en.wiktionary.org/wiki/multiple-choice_question#Noun");
+
+            URL_Add("multiply", "https://en.wiktionary.org/wiki/multiply#Verb");
+
+            URL_Add("fused multiply–add", "https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation");
+
+            URL_Add("multiplication", "https://en.wiktionary.org/wiki/multiplication#Noun");
+
+            URL_Add("multiplications", "https://en.wiktionary.org/wiki/multiplication#Noun");
+
+            URL_Add("multiplicity", "https://en.wiktionary.org/wiki/multiplicity#Noun");
+
+            URL_Add("multiposition", "https://en.wiktionary.org/wiki/multiposition#Adjective");
+
+            URL_Add("multiplexer", "https://en.wikipedia.org/wiki/Multiplexer");
+
+            URL_Add("multiplexing", "https://en.wiktionary.org/wiki/multiplex#Verb");
+
+            URL_Add("demultiplexer", "https://en.wikipedia.org/wiki/Multiplexer#Digital_demultiplexers");
+
+            URL_Add("multiplexed", "https://en.wiktionary.org/wiki/multiplex#Verb");
+
+            URL_Add("multipart", "https://en.wiktionary.org/wiki/multipart#Adjective");
+
+            URL_Add("multipage", "https://en.wiktionary.org/wiki/multipage#Adjective");
+
             URL_Add("multiprogramming", "https://en.wikipedia.org/wiki/Computer_multitasking#Multiprogramming");
+
+            URL_Add("multiplayer", "https://en.wiktionary.org/wiki/multiplayer#Adjective");
+
+            URL_Add("multiplayer online battle arena", "https://en.wikipedia.org/wiki/Multiplayer_online_battle_arena#Artificial_Intelligence_in_MOBAs");
+
+            URL_Add("multiversion", "https://en.wiktionary.org/wiki/multiversion#Adjective");
+
+            URL_Add("multi-page application", "https://neoteric.eu/blog/single-page-application-vs-multiple-page-application/");
+
+            URL_Add("multiline", "https://en.wiktionary.org/wiki/multiline#Adjective");
+
+            URL_Add("multi-factor authentication", "https://en.wikipedia.org/wiki/Multi-factor_authentication");
+
+            URL_Add("multi-platform", "https://en.wiktionary.org/wiki/multi-platform#Adjective");
+
+            URL_Add("Multi-platform App UI", "https://en.wikipedia.org/wiki/Xamarin#.NET_MAUI");
+
+            URL_Add("multiuser", "https://en.wiktionary.org/wiki/multiuser#Adjective");
+
+            URL_Add("multilingual", "https://en.wiktionary.org/wiki/multilingual#Adjective");
+
+            URL_Add("multitenant", "https://en.wiktionary.org/wiki/multitenant#Adjective");
+
+            URL_Add("multilanguage", "https://en.wiktionary.org/wiki/multilanguage#Adjective");
+
+            URL_Add("multibyte", "https://en.wiktionary.org/wiki/multibyte#Adjective");
+
+            URL_Add("Multics", "https://en.wikipedia.org/wiki/Multics");
+
+            URL_Add("Multi-user MIMO", "https://en.wikipedia.org/wiki/Multi-user_MIMO");
+
+            URL_Add("multicore", "https://en.wiktionary.org/wiki/multicore#Adjective");
+
+            URL_Add("multiframe", "https://en.wiktionary.org/wiki/multiframe#Adjective");
+
+            URL_Add("multilevel", "https://en.wiktionary.org/wiki/multilevel#Adjective");
+
+            URL_Add("multi-level marketing", "https://en.wikipedia.org/wiki/Multi-level_marketing");
+
+            URL_Add("multilayer perceptron", "https://en.wikipedia.org/wiki/Multilayer_perceptron");
+
+            URL_Add("multi-touch", "https://en.wiktionary.org/wiki/multi-touch#Adjective");
+
+            URL_Add("multi-purpose", "https://en.wiktionary.org/wiki/multi-purpose#Adjective");
+
+            URL_Add("multitasking", "https://en.wiktionary.org/wiki/multitask#Verb");
+
+            URL_Add("multithread", "https://en.wiktionary.org/wiki/multithread#Adjective");
+
+            URL_Add("multithreaded", "https://en.wiktionary.org/wiki/multithreaded#Adjective");
+
+            URL_Add("multithreading", "https://en.wikipedia.org/wiki/Thread_(computing)#Single-threaded_vs_multithreaded_programs");
+
+            URL_Add("multilayer switch", "https://en.wikipedia.org/wiki/Multilayer_switch");
+
+            URL_Add("multi jet fusion", "https://robots.net/tech/what-is-multi-jet-fusion-3d-printing/");
+
+            URL_Add("MultiWii", "https://hackaday.com/2015/04/19/multicopters-and-their-multiwii-beginnings/");
+
+            URL_Add("choice", "https://en.wiktionary.org/wiki/choice#Noun");
+
+            URL_Add("choices", "https://en.wiktionary.org/wiki/choice#Noun");
+
+            URL_Add("mischoice", "https://en.wiktionary.org/wiki/mischoice#Noun");
+
+            URL_Add("Simplify3D", "https://www.simplify3d.com/");
 
             URL_Add("threads", "https://en.wiktionary.org/wiki/thread#Noun");
 
@@ -150451,12 +150529,6 @@ namespace OverflowHelper.core
             URL_Add("thread safety", "https://en.wikipedia.org/wiki/Thread_safety");
 
             URL_Add("singlethreaded", "https://en.wiktionary.org/wiki/multithreaded#Adjective");
-
-            URL_Add("multithread", "https://en.wiktionary.org/wiki/multithread#Adjective");
-
-            URL_Add("multithreaded", "https://en.wiktionary.org/wiki/multithreaded#Adjective");
-
-            URL_Add("multithreading", "https://en.wikipedia.org/wiki/Thread_(computing)#Single-threaded_vs_multithreaded_programs");
 
             URL_Add("thread pool", "https://en.wikipedia.org/wiki/Thread_pool");
 
@@ -150474,65 +150546,27 @@ namespace OverflowHelper.core
 
             URL_Add("fused filament fabrication", "https://en.wikipedia.org/wiki/Fused_filament_fabrication");
 
-            URL_Add("multi jet fusion", "https://robots.net/tech/what-is-multi-jet-fusion-3d-printing/");
-
             URL_Add("Thingiverse", "https://en.wikipedia.org/wiki/Thingiverse");
-
-            URL_Add("stencil", "https://en.wikipedia.org/wiki/Stencil_printing");
-
-            URL_Add("demultiplexer", "https://en.wikipedia.org/wiki/Multiplexer#Digital_demultiplexers");
-
-            URL_Add("multiplexer", "https://en.wikipedia.org/wiki/Multiplexer");
-
-            URL_Add("multiplexing", "https://en.wiktionary.org/wiki/multiplex#Verb");
-
-            URL_Add("multiplexed", "https://en.wiktionary.org/wiki/multiplex#Verb");
 
             URL_Add("MTLS", "https://handwiki.org/wiki/Multiplexed_Transport_Layer_Security");
 
-            URL_Add("multiple", "https://en.wiktionary.org/wiki/multiple#Adjective");
-
-            URL_Add("multiple inheritance", "https://en.wikipedia.org/wiki/Multiple_inheritance");
-
-            URL_Add("diamond problem", "https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem");
-
-            URL_Add("multiply", "https://en.wiktionary.org/wiki/multiply#Verb");
-
-            URL_Add("multiplication", "https://en.wiktionary.org/wiki/multiplication#Noun");
-
-            URL_Add("multiplications", "https://en.wiktionary.org/wiki/multiplication#Noun");
-
-            URL_Add("multiplicity", "https://en.wiktionary.org/wiki/multiplicity#Noun");
-
-            URL_Add("fused multiply–add", "https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation");
-
-            URL_Add("Simplify3D", "https://www.simplify3d.com/");
-
-            URL_Add("multidimensional", "https://en.wiktionary.org/wiki/multidimensional#Adjective");
-
-            URL_Add("multiposition", "https://en.wiktionary.org/wiki/multiposition#Adjective");
-
-            URL_Add("multiversion", "https://en.wiktionary.org/wiki/multiversion#Adjective");
-
-            URL_Add("multi-page application", "https://neoteric.eu/blog/single-page-application-vs-multiple-page-application/");
-
-            URL_Add("multibyte", "https://en.wiktionary.org/wiki/multibyte#Adjective");
-
             URL_Add("single-byte", "https://en.wikipedia.org/wiki/SBCS");
 
-            URL_Add("Multics", "https://en.wikipedia.org/wiki/Multics");
+            URL_Add("purpose", "https://en.wiktionary.org/wiki/purpose#Noun"); // Old: https://en.wiktionary.org/wiki/purpose#English
 
-            URL_Add("Multi-user MIMO", "https://en.wikipedia.org/wiki/Multi-user_MIMO");
+            URL_Add("purposed", "https://en.wiktionary.org/wiki/purposed#Adjective");
 
-            URL_Add("multicore", "https://en.wiktionary.org/wiki/multicore#Adjective");
+            URL_Add("purposefully", "https://en.wiktionary.org/wiki/purposefully#Adverb");
 
-            URL_Add("multiframe", "https://en.wiktionary.org/wiki/multiframe#Adjective");
+            URL_Add("touched", "https://en.wiktionary.org/wiki/touch#Verb");
 
-            URL_Add("multilevel", "https://en.wiktionary.org/wiki/multilevel#Adjective");
+            URL_Add("all-purpose", "https://en.wiktionary.org/wiki/all-purpose#Adjective");
 
-            URL_Add("multi-level marketing", "https://en.wikipedia.org/wiki/Multi-level_marketing");
+            URL_Add("on purpose", "https://en.wiktionary.org/wiki/on_purpose#Prepositional_phrase");
 
-            URL_Add("multilayer perceptron", "https://en.wikipedia.org/wiki/Multilayer_perceptron");
+            URL_Add("general-purpose", "https://en.wiktionary.org/wiki/general-purpose#Adjective");
+
+            URL_Add("purporting", "https://en.wiktionary.org/wiki/purport#Verb");
 
             URL_Add("SIMD", "https://en.wikipedia.org/wiki/Single_instruction,_multiple_data"); // Old: https://en.wikipedia.org/wiki/SIMD
 
@@ -152159,6 +152193,18 @@ namespace OverflowHelper.core
             URL_Add("Thévenin's theorem", "https://en.wikipedia.org/wiki/Th%C3%A9venin%27s_theorem");
 
             URL_Add("master theorem", "https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms)");
+
+            URL_Add("position", "https://en.wiktionary.org/wiki/position#Noun");
+
+            URL_Add("positioning", "https://en.wiktionary.org/wiki/position#Verb");
+
+            URL_Add("positioned", "https://en.wiktionary.org/wiki/position#Verb");
+
+            URL_Add("positional", "https://en.wiktionary.org/wiki/positional#Adjective");
+
+            URL_Add("positionally", "https://en.wiktionary.org/wiki/positionally#Adverb");
+
+            URL_Add("position-independent executable", "https://en.wikipedia.org/wiki/Position-independent_code");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -154207,14 +154253,14 @@ namespace OverflowHelper.core
             //
             // Keychron changed orientation:
             //
-            //   * K HE and Q HE series:        south pole (down)
+            //   * K HE series and Q HE series:   south pole (down)
             //
             //     Though a hardware version 2
             //     from 2026 uses north pole (down)...:
             //
             //       <https://www.reddit.com/r/Keychron/comments/1xu1tnk/comment/19sipynq9xe78/>
             //
-            //   * Q HE 8K series (wired only): north pole (down).
+            //   * Q HE 8K series (wired only):   north pole (down).
             //
             //     But closed source code.
             //
@@ -164086,6 +164132,7 @@ namespace OverflowHelper.core
 
             correctionAdd("discriminant function analysis_", "linear discriminant analysis_");
             correctionAdd("normal discriminant analysis_", "linear discriminant analysis_");
+            correctionAdd("Linear Discriminant Analysis_", "linear discriminant analysis_");
             correctionAdd("canonical variates analysis_", "linear discriminant analysis_");
             correctionAdd("CVA_", "linear discriminant analysis_");
             correctionAdd("LDA_", "linear discriminant analysis_");
@@ -167762,6 +167809,7 @@ namespace OverflowHelper.core
             correctionAdd("OG_", "Open Graph_");
 
             correctionAdd("silicon_", "silicone_");
+            correctionAdd("Silicone_", "silicone_");
 
             correctionAdd("software freedom conservancy_", "Software Freedom Conservancy_");
             correctionAdd("SFC_", "Software Freedom Conservancy_");
@@ -173242,27 +173290,7 @@ namespace OverflowHelper.core
 
             URL_Add("Delta Live Tables_", "https://learn.microsoft.com/en-us/azure/databricks/delta-live-tables/");
 
-            URL_Add("multi_", "https://en.wiktionary.org/wiki/multi-#Prefix");
-
-            URL_Add("multiple_", "https://en.wiktionary.org/wiki/multiple#Noun");
-
-            URL_Add("multimeter_", "https://en.wikipedia.org/wiki/Multimeter");
-
-            URL_Add("multiplex_", "https://en.wiktionary.org/wiki/multiplex#Verb");
-
-            URL_Add("multitasking_", "https://en.wiktionary.org/wiki/multitasking#Noun");
-
-            URL_Add("Multi-Threaded Apartment_", "https://en.wikipedia.org/wiki/Component_Object_Model#Threading");
-
-            URL_Add("Basic Multilingual Plane_", "https://en.wikipedia.org/wiki/Plane_(Unicode)");
-
             URL_Add("bootloader mode_", "https://en.wikipedia.org/wiki/Bootloader#Embedded_and_multi-stage_boot_loaders");
-
-            URL_Add("thread_", "https://en.wiktionary.org/wiki/thread#Noun");
-
-            URL_Add("multithreaded programs_", "https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)");
-
-            URL_Add("POSIX Threads_", "https://en.wikipedia.org/wiki/Pthreads");
 
             URL_Add("would_", "https://en.wiktionary.org/wiki/would#Verb"); // Old: https://en.wiktionary.org/wiki/would
 
@@ -173543,6 +173571,26 @@ namespace OverflowHelper.core
             URL_Add("Keychron V5 ISO (95%)_", "https://www.keychron.com/products/keychron-v5-qmk-custom-mechanical-keyboard-iso-layout-collection");
 
             URL_Add("Keychron P6 Ultra 8K (105%)_", "https://www.keychron.com/products/keychron-p6-ultra-8k-wireless-custom-mechanical-keyboard");
+
+            URL_Add("multi_", "https://en.wiktionary.org/wiki/multi-#Prefix");
+
+            URL_Add("multiple_", "https://en.wiktionary.org/wiki/multiple#Noun");
+
+            URL_Add("multiplex_", "https://en.wiktionary.org/wiki/multiplex#Verb");
+
+            URL_Add("multimeter_", "https://en.wikipedia.org/wiki/Multimeter");
+
+            URL_Add("multitasking_", "https://en.wiktionary.org/wiki/multitasking#Noun");
+
+            URL_Add("thread_", "https://en.wiktionary.org/wiki/thread#Noun");
+
+            URL_Add("multithreaded programs_", "https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)");
+
+            URL_Add("POSIX Threads_", "https://en.wikipedia.org/wiki/Pthreads");
+
+            URL_Add("Multi-Threaded Apartment_", "https://en.wikipedia.org/wiki/Component_Object_Model#Threading");
+
+            URL_Add("Basic Multilingual Plane_", "https://en.wikipedia.org/wiki/Plane_(Unicode)");
 
         } //addLookupData_alternativeWordSet()
 
@@ -175526,7 +175574,9 @@ namespace OverflowHelper.core
             correctionAdd("WiFi dongles__", "2.4 GHz__");
             correctionAdd("usb A dongle__", "2.4 GHz__");
             correctionAdd("radio dongle__", "2.4 GHz__");
+            correctionAdd("5 GHz dongle__", "2.4 GHz__");
             correctionAdd("WiFi dongle__", "2.4 GHz__");
+            correctionAdd("5GHz dongle__", "2.4 GHz__");
             correctionAdd("a receiver__", "2.4 GHz__");
             correctionAdd("2.4GHz RF__", "2.4 GHz__");
             correctionAdd("receiver__", "2.4 GHz__");
@@ -179497,12 +179547,6 @@ namespace OverflowHelper.core
 
             URL_Add("grade F__", "https://en.wikipedia.org/wiki/Academic_grading_in_the_United_States#Grades_A%E2%80%93F_in_the_United_States");
 
-            URL_Add("Multi-Adaptable User Interface__", "https://mauikit.org/");
-
-            URL_Add("multimedia__", "https://en.wikipedia.org/wiki/Multimedia");
-
-            URL_Add("multithread__", "https://en.wiktionary.org/wiki/multithread#Adjective");
-
             URL_Add("GPT__", "https://en.wikipedia.org/wiki/GUID_Partition_Table");
 
             URL_Add("<space> (ASCII. 32 (decimal). 20 (hexadecimal). 40 (octal))__", "https://en.wikipedia.org/wiki/ASCII#Printable_character_table");
@@ -179830,8 +179874,6 @@ namespace OverflowHelper.core
             URL_Add("long__", "https://en.wiktionary.org/wiki/long#Adjective");
 
             URL_Add("form factor__", "https://en.wiktionary.org/wiki/form_factor#Noun");
-
-            URL_Add("multiple__", "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input#multiple");
 
             URL_Add("html__", "https://en.wikipedia.org/wiki/HTML_element#Document_structure_elements");
 
@@ -180306,6 +180348,14 @@ namespace OverflowHelper.core
             URL_Add("video game__", "https://en.wikipedia.org/wiki/Video_game");
 
             URL_Add("glitch__", "https://en.wiktionary.org/wiki/glitch#Noun");
+
+            URL_Add("multiple__", "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input#multiple");
+
+            URL_Add("multimedia__", "https://en.wikipedia.org/wiki/Multimedia");
+
+            URL_Add("multithread__", "https://en.wiktionary.org/wiki/multithread#Adjective");
+
+            URL_Add("Multi-Adaptable User Interface__", "https://mauikit.org/");
 
         } //addLookupData_alternativeWordSet2()
 
@@ -181494,9 +181544,11 @@ namespace OverflowHelper.core
             correctionAdd("cryptography___", "Cryptography (Stack Exchange site)___");
             correctionAdd("crypto-SE___", "Cryptography (Stack Exchange site)___");
 
+            correctionAdd("Mathematics section of Stack Exchange___", "Mathematics (Stack Exchange site)___");
             correctionAdd("maths Stack Exchange site___", "Mathematics (Stack Exchange site)___");
             correctionAdd("math.stackexchange.com___", "Mathematics (Stack Exchange site)___");
             correctionAdd("Math Stack Exchange___", "Mathematics (Stack Exchange site)___");
+            correctionAdd("Mathematics section___", "Mathematics (Stack Exchange site)___");
             correctionAdd("math stackexchange___", "Mathematics (Stack Exchange site)___");
             correctionAdd("Math StackExchange___", "Mathematics (Stack Exchange site)___");
             correctionAdd("StackExhange.Math___", "Mathematics (Stack Exchange site)___");
@@ -183503,8 +183555,6 @@ namespace OverflowHelper.core
 
             URL_Add("stored procedures___", "https://en.wikipedia.org/wiki/Stored_procedure");
 
-            URL_Add("multiples___", "https://en.wiktionary.org/wiki/multiple#Noun");
-
             URL_Add("modes are evil___", "https://en.wikipedia.org/wiki/Mode_(user_interface)#Mode_errors");
 
             URL_Add("Via blues___", "https://www.reddit.com/r/Keychron/comments/1g76o1e/comment/lsp51pj/");
@@ -183588,6 +183638,8 @@ namespace OverflowHelper.core
             URL_Add("Lemokey P Pro series___", "https://www.keychron.com/products/lemokey-p1-qmk-via-custom-gaming-keyboard");
 
             URL_Add("Lemokey X series___", "https://www.keychron.com/products/lemokey-x3-qmk-via-wired-mechanical-keyboard");
+
+            URL_Add("multiples___", "https://en.wiktionary.org/wiki/multiple#Noun");
 
         } //addLookupData_alternativeWordSet3()
 
