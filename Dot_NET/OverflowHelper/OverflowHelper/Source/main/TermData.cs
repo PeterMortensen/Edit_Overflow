@@ -10751,6 +10751,8 @@ namespace OverflowHelper.core
             correctionAdd("endpoing", "endpoint"); // A true typo
             correctionAdd("enpoint", "endpoint");
 
+            correctionAdd("enpoints", "endpoints");
+
             // Note: "result" is in an alternative word set
             correctionAdd("resulats", "results");
             correctionAdd("resuts", "results");
@@ -21942,6 +21944,7 @@ namespace OverflowHelper.core
 
             correctionAdd("M-Pesa", "M-PESA");
             correctionAdd("mpesa", "M-PESA");
+            correctionAdd("MPesa", "M-PESA");
 
             correctionAdd("tanzania", "Tanzania");
 
@@ -33699,6 +33702,9 @@ namespace OverflowHelper.core
             correctionAdd("far as", "as far as");
 
             // Internet slang (for the abbr.)
+            correctionAdd("As far as I can tell", "as far as I can tell");
+            correctionAdd("As far as i can tell", "as far as I can tell");
+            correctionAdd("as far as i can tell", "as far as I can tell");
             correctionAdd("As far as i can see", "as far as I can tell");
             correctionAdd("as far as i can see", "as far as I can tell");
             correctionAdd("AFAICT", "as far as I can tell");
@@ -42979,6 +42985,9 @@ namespace OverflowHelper.core
 
             correctionAdd("call back", "callback");
             correctionAdd("CallBack", "callback");
+            correctionAdd("CallBAck", "callback");
+            correctionAdd("Callback", "callback");
+            correctionAdd("cllback", "callback");
 
             correctionAdd("call backs", "callbacks");
 
@@ -45573,7 +45582,7 @@ namespace OverflowHelper.core
 
             // An artificial intelligence system (AI)
             //
-            // It took off in December 2022
+            // It took off in December 2022.
             //
             // Alternative URLs:
             //
@@ -49059,6 +49068,7 @@ namespace OverflowHelper.core
 
             // An IDE for Python (online)
             correctionAdd("Python Anywhere", "PythonAnywhere");
+            correctionAdd("python anywhere", "PythonAnywhere");
             correctionAdd("pythonanywhere", "PythonAnywhere");
 
             // Python
@@ -54777,7 +54787,11 @@ namespace OverflowHelper.core
             // A C++ library
             correctionAdd("SFML", "Simple and Fast Multimedia Library");
 
-            // C++ library-related
+            // A C++ library, derived from Google
+            correctionAdd("abseil", "Abseil");
+            correctionAdd("aseil", "Abseil");
+
+            // Related to C++ libraries
             correctionAdd("ISO/IEC TR 19768, C++ Library Extensions", "C++ Technical Report 1 (TR1)");
             correctionAdd("C++ Technical Report 1", "C++ Technical Report 1 (TR1)");
             correctionAdd("TR1", "C++ Technical Report 1 (TR1)");
@@ -59191,6 +59205,9 @@ namespace OverflowHelper.core
             correctionAdd("seking", "seeking");
             correctionAdd("saking", "seeking");
 
+            correctionAdd("sakable", "seekable");
+            correctionAdd("sekable", "seekable");
+
             // Note: "sessions" is in an alternative word set
             correctionAdd("seesion", "session");
             correctionAdd("sesion", "session");
@@ -59632,8 +59649,10 @@ namespace OverflowHelper.core
             correctionAdd("Banner ad", "banner ad");
 
             correctionAdd("Mobile App Development", "mobile app development");
+            correctionAdd("Mobile app development", "mobile app development");
             correctionAdd("Mobile Development", "mobile app development");
             correctionAdd("Mobile development", "mobile app development");
+            correctionAdd("mobile development", "mobile app development");
             correctionAdd("mobile dev", "mobile app development");
             correctionAdd("mobiledev", "mobile app development");
             correctionAdd("mobildev", "mobile app development");
@@ -64253,8 +64272,14 @@ namespace OverflowHelper.core
 
             correctionAdd("calculting", "calculating");
 
+            correctionAdd("calculatd", "calculated");
             correctionAdd("Calculet", "calculated");
             correctionAdd("calculet", "calculated");
+
+            correctionAdd("pre-calculated", "precalculated");
+            correctionAdd("pre calculatd", "precalculated");
+
+            correctionAdd("pre-calculating", "precalculating");
 
             correctionAdd("calculations", "calculation");
             correctionAdd("caluclation", "calculation");
@@ -64267,10 +64292,6 @@ namespace OverflowHelper.core
             correctionAdd("recalculat", "recalculate");
             correctionAdd("re-calc", "recalculate");
             correctionAdd("recalc", "recalculate");
-
-            correctionAdd("pre-calculating", "precalculating");
-
-            correctionAdd("pre-calculated", "precalculated");
 
             // How credible is the source?
             correctionAdd("without a fuss", "without much fuss");
@@ -75850,6 +75871,7 @@ namespace OverflowHelper.core
 
             correctionAdd("death throws", "death throes");
 
+            // The verb
             correctionAdd("upgrage", "upgrade");
             correctionAdd("Upgrade", "upgrade");
             correctionAdd("upbrade", "upgrade"); // A true typo
@@ -75863,6 +75885,9 @@ namespace OverflowHelper.core
             correctionAdd("upgaded", "upgraded");
 
             correctionAdd("upgradeable", "upgradable");
+
+            // The noun
+            correctionAdd("upgradations", "upgrades");
 
             correctionAdd("upset the apple cart", "upset the applecart");
 
@@ -113424,8 +113449,6 @@ namespace OverflowHelper.core
 
             URL_Add("system", "https://en.wiktionary.org/wiki/system#Noun");
 
-            URL_Add("upgrade", "https://en.wiktionary.org/wiki/upgrade#Verb");
-
             URL_Add("biggest", "https://en.wiktionary.org/wiki/biggest#Adjective");
 
             URL_Add("popular", "https://en.wiktionary.org/wiki/popular#Adjective");
@@ -114565,8 +114588,6 @@ namespace OverflowHelper.core
             URL_Add("low-pass filter", "https://en.wikipedia.org/wiki/Low-pass_filter");
 
             URL_Add("null coalescing operator", "https://en.wikipedia.org/wiki/Null_coalescing_operator");
-
-            URL_Add("upgraded", "https://en.wiktionary.org/wiki/upgrade#Verb");
 
             URL_Add("van 't Hoff", "https://en.wikipedia.org/wiki/Van_%27t_Hoff_equation");
 
@@ -125458,8 +125479,6 @@ namespace OverflowHelper.core
 
             URL_Add("VT52", "https://en.wikipedia.org/wiki/VT52#VT52");
 
-            URL_Add("upgradable", "https://en.wiktionary.org/wiki/upgradable#Adjective");
-
             URL_Add("invest", "https://en.wiktionary.org/wiki/invest#Verb");
 
             URL_Add("Elementor", "https://en.wikipedia.org/wiki/Elementor");
@@ -127745,6 +127764,8 @@ namespace OverflowHelper.core
             URL_Add("Boost", "https://en.wikipedia.org/wiki/Boost_%28C%2B%2B_libraries%29");
 
             URL_Add("Simple and Fast Multimedia Library", "https://en.wikipedia.org/wiki/Simple_and_Fast_Multimedia_Library");
+
+            URL_Add("Abseil", "https://github.com/abseil/abseil-cpp");
 
             URL_Add("Steven Watanabe", "https://www.boost.org/doc/libs/1_72_0/doc/html/boost_random.html");
 
@@ -131071,8 +131092,6 @@ namespace OverflowHelper.core
             URL_Add("RP2040-Zero", "https://www.waveshare.com/wiki/RP2040-Zero");
 
             URL_Add("Code Runner", "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner");
-
-            URL_Add("fuck you money", "https://lifehacker.com/how-much-is-enough-a-formula-for-fu-money-5925077");
 
             URL_Add("GAC", "https://en.wikipedia.org/wiki/Global_Assembly_Cache");
 
@@ -138093,6 +138112,8 @@ namespace OverflowHelper.core
             URL_Add("end goal", "https://glosbe.com/en/en/end%20goal");
 
             URL_Add("endpoint", "https://en.wiktionary.org/wiki/endpoint#Noun");
+
+            URL_Add("endpoints", "https://en.wiktionary.org/wiki/endpoint#Noun");
 
             URL_Add("end result", "https://en.wiktionary.org/wiki/end_result#Noun");
 
@@ -149206,6 +149227,8 @@ namespace OverflowHelper.core
 
             URL_Add("seeking", "https://en.wiktionary.org/wiki/seek#Verb");
 
+            URL_Add("seekable", "https://en.wiktionary.org/wiki/seekable#Adjective");
+
             URL_Add("shrunk", "https://en.wiktionary.org/wiki/shrink#Verb");
 
             URL_Add("sidetrack", "https://en.wiktionary.org/wiki/sidetrack#Verb");
@@ -151876,102 +151899,6 @@ namespace OverflowHelper.core
 
             URL_Add("button", "https://en.wiktionary.org/wiki/button#Noun");
 
-            URL_Add("piece of shit", "https://en.wiktionary.org/wiki/POS#Noun");
-
-            URL_Add("enshittification", "https://en.wiktionary.org/wiki/enshittification#Noun");
-
-            URL_Add("bullshitting", "https://en.wiktionary.org/wiki/bullshit#Verb");
-
-            URL_Add("shitty", "https://en.wiktionary.org/wiki/shitty#Adjective");
-
-            URL_Add("shittiest", "https://en.wiktionary.org/wiki/shitty#Adjective");
-
-            URL_Add("shitless", "https://en.wiktionary.org/wiki/shitless#Adjective");
-
-            URL_Add("shit show", "https://en.wiktionary.org/wiki/shit_show#Noun");
-
-            URL_Add("shitstorm", "https://en.wiktionary.org/wiki/shitstorm#Noun");
-
-            URL_Add("shitpost", "https://en.wiktionary.org/wiki/shitpost#Noun");
-
-            URL_Add("shitposting", "https://en.wikipedia.org/wiki/Shitposting");
-
-            URL_Add("holy shit", "https://en.wiktionary.org/wiki/holy_shit#Interjection");
-
-            URL_Add("shit out of luck", "https://en.wiktionary.org/wiki/shit_out_of_luck#Adjective");
-
-            URL_Add("Landau and Lifshitz (text book)", "https://en.wikipedia.org/wiki/Course_of_Theoretical_Physics");
-
-            URL_Add("suck", "https://en.wiktionary.org/wiki/suck#Verb");
-
-            URL_Add("sucks", "https://en.wiktionary.org/wiki/suck#Verb");
-
-            URL_Add("asshole", "https://en.wiktionary.org/wiki/asshole#Noun");
-
-            URL_Add("ass", "https://en.wiktionary.org/wiki/ass#Noun_2");
-
-            URL_Add("butt", "https://en.wiktionary.org/wiki/butt#Noun");
-
-            URL_Add("butthurt", "https://en.wiktionary.org/wiki/butthurt#Adjective");
-
-            URL_Add("cunt", "https://en.wiktionary.org/wiki/cunt#Noun");
-
-            URL_Add("fucked", "https://en.wiktionary.org/wiki/fuck#Verb");
-
-            URL_Add("give a fuck", "https://en.wiktionary.org/wiki/give_a_fuck#Verb");
-
-            URL_Add("fuck off", "https://en.wiktionary.org/wiki/fuck_off#Verb");
-
-            URL_Add("fucks up", "https://en.wiktionary.org/wiki/fuck_up#Verb");
-
-            URL_Add("fucked up", "https://en.wiktionary.org/wiki/fuck_up#Verb");
-
-            URL_Add("fuckup", "https://en.wiktionary.org/wiki/fuckup#Noun");
-
-            URL_Add("fuckers", "https://en.wiktionary.org/wiki/fucker#Noun");
-
-            URL_Add("fuck boy", "https://en.wiktionary.org/wiki/fuck_boy#Noun");
-
-            URL_Add("fucking new guy", "https://en.wiktionary.org/wiki/FNG#Noun");
-
-            URL_Add("fuck my life", "https://en.wiktionary.org/wiki/FML#Interjection");
-
-            URL_Add("fuck this", "https://en.wiktionary.org/wiki/fuck_this#Interjection");
-
-            URL_Add("motherfucker", "https://en.wiktionary.org/wiki/motherfucker#Noun");
-
-            URL_Add("no fucking idea", "https://en.wiktionary.org/wiki/NFI#Phrase");
-
-            URL_Add("cluster fuck", "https://en.wiktionary.org/wiki/clusterfuck#Noun");
-
-            URL_Add("Jesus fucking Christ", "https://en.wiktionary.org/wiki/JFC#Interjection");
-
-            URL_Add("for fuck's sake", "https://en.wiktionary.org/wiki/ffs#Adverb");
-
-            URL_Add("get the fuck out", "https://en.wiktionary.org/wiki/GTFO#Verb");
-
-            URL_Add("shut the fuck up", "https://en.wiktionary.org/wiki/STFU#Phrase");
-
-            URL_Add("I don't give a fuck", "https://en.wiktionary.org/wiki/IDGAF#Phrase");
-
-            URL_Add("don't give a fuck", "https://en.wiktionary.org/wiki/DGAF#Phrase");
-
-            URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
-
-            URL_Add("laughing my ass off", "https://en.wiktionary.org/wiki/LMAO#Phrase");
-
-            URL_Add("laughing my fucking ass off", "https://en.wiktionary.org/wiki/LMFAO#Interjection");
-
-            URL_Add("laughing", "https://en.wiktionary.org/wiki/laugh#Verb");
-
-            URL_Add("laughable", "https://en.wiktionary.org/wiki/laughable#Adjective");
-
-            URL_Add("laughter", "https://en.wiktionary.org/wiki/laughter#Noun");
-
-            URL_Add("billion laughs attack", "https://en.wikipedia.org/wiki/Billion_laughs_attack");
-
-            URL_Add("slaughter", "https://en.wiktionary.org/wiki/slaughter#Verb");
-
             URL_Add("Google News", "https://en.wikipedia.org/wiki/Google_News");
 
             URL_Add("Techmeme", "https://en.wikipedia.org/wiki/Techmeme");
@@ -152261,6 +152188,112 @@ namespace OverflowHelper.core
             URL_Add("positionally", "https://en.wiktionary.org/wiki/positionally#Adverb");
 
             URL_Add("position-independent executable", "https://en.wikipedia.org/wiki/Position-independent_code");
+
+            URL_Add("piece of shit", "https://en.wiktionary.org/wiki/POS#Noun");
+
+            URL_Add("enshittification", "https://en.wiktionary.org/wiki/enshittification#Noun");
+
+            URL_Add("bullshitting", "https://en.wiktionary.org/wiki/bullshit#Verb");
+
+            URL_Add("shitty", "https://en.wiktionary.org/wiki/shitty#Adjective");
+
+            URL_Add("shittiest", "https://en.wiktionary.org/wiki/shitty#Adjective");
+
+            URL_Add("shitless", "https://en.wiktionary.org/wiki/shitless#Adjective");
+
+            URL_Add("shit show", "https://en.wiktionary.org/wiki/shit_show#Noun");
+
+            URL_Add("shitstorm", "https://en.wiktionary.org/wiki/shitstorm#Noun");
+
+            URL_Add("shitpost", "https://en.wiktionary.org/wiki/shitpost#Noun");
+
+            URL_Add("shitposting", "https://en.wikipedia.org/wiki/Shitposting");
+
+            URL_Add("holy shit", "https://en.wiktionary.org/wiki/holy_shit#Interjection");
+
+            URL_Add("shit out of luck", "https://en.wiktionary.org/wiki/shit_out_of_luck#Adjective");
+
+            URL_Add("Landau and Lifshitz (text book)", "https://en.wikipedia.org/wiki/Course_of_Theoretical_Physics");
+
+            URL_Add("suck", "https://en.wiktionary.org/wiki/suck#Verb");
+
+            URL_Add("sucks", "https://en.wiktionary.org/wiki/suck#Verb");
+
+            URL_Add("asshole", "https://en.wiktionary.org/wiki/asshole#Noun");
+
+            URL_Add("ass", "https://en.wiktionary.org/wiki/ass#Noun_2");
+
+            URL_Add("butt", "https://en.wiktionary.org/wiki/butt#Noun");
+
+            URL_Add("butthurt", "https://en.wiktionary.org/wiki/butthurt#Adjective");
+
+            URL_Add("cunt", "https://en.wiktionary.org/wiki/cunt#Noun");
+
+            URL_Add("fuck you money", "https://lifehacker.com/how-much-is-enough-a-formula-for-fu-money-5925077");
+
+            URL_Add("fucked", "https://en.wiktionary.org/wiki/fuck#Verb");
+
+            URL_Add("give a fuck", "https://en.wiktionary.org/wiki/give_a_fuck#Verb");
+
+            URL_Add("fuck off", "https://en.wiktionary.org/wiki/fuck_off#Verb");
+
+            URL_Add("fucks up", "https://en.wiktionary.org/wiki/fuck_up#Verb");
+
+            URL_Add("fucked up", "https://en.wiktionary.org/wiki/fuck_up#Verb");
+
+            URL_Add("fuckup", "https://en.wiktionary.org/wiki/fuckup#Noun");
+
+            URL_Add("fuckers", "https://en.wiktionary.org/wiki/fucker#Noun");
+
+            URL_Add("fuck boy", "https://en.wiktionary.org/wiki/fuck_boy#Noun");
+
+            URL_Add("fucking new guy", "https://en.wiktionary.org/wiki/FNG#Noun");
+
+            URL_Add("fuck my life", "https://en.wiktionary.org/wiki/FML#Interjection");
+
+            URL_Add("fuck this", "https://en.wiktionary.org/wiki/fuck_this#Interjection");
+
+            URL_Add("motherfucker", "https://en.wiktionary.org/wiki/motherfucker#Noun");
+
+            URL_Add("no fucking idea", "https://en.wiktionary.org/wiki/NFI#Phrase");
+
+            URL_Add("cluster fuck", "https://en.wiktionary.org/wiki/clusterfuck#Noun");
+
+            URL_Add("Jesus fucking Christ", "https://en.wiktionary.org/wiki/JFC#Interjection");
+
+            URL_Add("for fuck's sake", "https://en.wiktionary.org/wiki/ffs#Adverb");
+
+            URL_Add("get the fuck out", "https://en.wiktionary.org/wiki/GTFO#Verb");
+
+            URL_Add("shut the fuck up", "https://en.wiktionary.org/wiki/STFU#Phrase");
+
+            URL_Add("I don't give a fuck", "https://en.wiktionary.org/wiki/IDGAF#Phrase");
+
+            URL_Add("don't give a fuck", "https://en.wiktionary.org/wiki/DGAF#Phrase");
+
+            URL_Add("Brainfuck", "https://en.wikipedia.org/wiki/Brainfuck");
+
+            URL_Add("laughing my ass off", "https://en.wiktionary.org/wiki/LMAO#Phrase");
+
+            URL_Add("laughing my fucking ass off", "https://en.wiktionary.org/wiki/LMFAO#Interjection");
+
+            URL_Add("laughing", "https://en.wiktionary.org/wiki/laugh#Verb");
+
+            URL_Add("laughable", "https://en.wiktionary.org/wiki/laughable#Adjective");
+
+            URL_Add("laughter", "https://en.wiktionary.org/wiki/laughter#Noun");
+
+            URL_Add("billion laughs attack", "https://en.wikipedia.org/wiki/Billion_laughs_attack");
+
+            URL_Add("slaughter", "https://en.wiktionary.org/wiki/slaughter#Verb");
+
+            URL_Add("upgrade", "https://en.wiktionary.org/wiki/upgrade#Verb");
+
+            URL_Add("upgraded", "https://en.wiktionary.org/wiki/upgrade#Verb");
+
+            URL_Add("upgradable", "https://en.wiktionary.org/wiki/upgradable#Adjective");
+
+            URL_Add("upgrades", "https://en.wiktionary.org/wiki/upgrade#Noun");
 
             // ========================================================
             // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB   A marker...
@@ -162859,6 +162892,7 @@ namespace OverflowHelper.core
             correctionAdd("3-d_", "third_");
 
             // The verb
+            correctionAdd("swns_", "show_"); // Likely a true (gross) typo (multiple typos)
             correctionAdd("sow_", "show_");
             correctionAdd("Sow_", "show_");
             correctionAdd("how_", "show_");
@@ -165834,6 +165868,7 @@ namespace OverflowHelper.core
 
             correctionAdd("sas_", "SAS_");
 
+            // The noun
             correctionAdd("upgradation_", "upgrade_");
 
             correctionAdd("IP_", "intellectual property_");
@@ -169090,8 +169125,6 @@ namespace OverflowHelper.core
             URL_Add("Micro-Star International_", "https://en.wikipedia.org/wiki/Micro-Star_International");
 
             URL_Add("SAS_", "https://en.wikipedia.org/wiki/Serial_Attached_SCSI");
-
-            URL_Add("upgrade_", "https://en.wiktionary.org/wiki/upgrade#Noun");
 
             URL_Add("density-functional theory_", "https://en.wikipedia.org/wiki/Density_functional_theory");
 
@@ -172395,8 +172428,6 @@ namespace OverflowHelper.core
 
             URL_Add("nonintuitive_", "https://en.wiktionary.org/wiki/nonintuitive#Adjective");
 
-            URL_Add("Inertia.js_", "https://inertiajs.com/upgrade-guide");
-
             URL_Add("rheumatoid arthritis_", "https://en.wikipedia.org/wiki/Rheumatoid_arthritis");
 
             URL_Add("flies_", "https://en.wiktionary.org/wiki/fly#Verb");
@@ -173045,22 +173076,6 @@ namespace OverflowHelper.core
 
             URL_Add("fall back_", "https://en.wiktionary.org/wiki/fall_back#Verb");
 
-            URL_Add("shit_", "https://en.wiktionary.org/wiki/shit#Noun");
-
-            URL_Add("fucks_", "https://en.wiktionary.org/wiki/fuck#Verb");
-
-            URL_Add("the fuck_", "https://en.wiktionary.org/wiki/the_fuck#Phrase");
-
-            URL_Add("as fuck_", "https://en.wiktionary.org/wiki/asf#Phrase");
-
-            URL_Add("no fucking clue_", "https://faroutmagazine.co.uk/the-song-angel-olsen-didnt-expect-to-take-off-i-have-no-fucking-clue/");
-
-            URL_Add("fuck you_", "https://en.wiktionary.org/wiki/fuck_you#Phrase");
-
-            URL_Add("fuck with_", "https://en.wiktionary.org/wiki/fuck_with#Verb");
-
-            URL_Add("what the fuck_", "https://en.wiktionary.org/wiki/what_the_fuck#Phrase");
-
             URL_Add("helicopter_", "https://en.wiktionary.org/wiki/helo#Noun");
 
             URL_Add("mechanical_", "https://en.wiktionary.org/wiki/mechanical#Adjective");
@@ -173666,6 +173681,26 @@ namespace OverflowHelper.core
             URL_Add("usual_", "https://en.wiktionary.org/wiki/usual#Adjective");
 
             URL_Add("risen_", "https://en.wiktionary.org/wiki/rise#Verb");
+
+            URL_Add("shit_", "https://en.wiktionary.org/wiki/shit#Noun");
+
+            URL_Add("fucks_", "https://en.wiktionary.org/wiki/fuck#Verb");
+
+            URL_Add("the fuck_", "https://en.wiktionary.org/wiki/the_fuck#Phrase");
+
+            URL_Add("as fuck_", "https://en.wiktionary.org/wiki/asf#Phrase");
+
+            URL_Add("no fucking clue_", "https://faroutmagazine.co.uk/the-song-angel-olsen-didnt-expect-to-take-off-i-have-no-fucking-clue/");
+
+            URL_Add("fuck you_", "https://en.wiktionary.org/wiki/fuck_you#Phrase");
+
+            URL_Add("fuck with_", "https://en.wiktionary.org/wiki/fuck_with#Verb");
+
+            URL_Add("what the fuck_", "https://en.wiktionary.org/wiki/what_the_fuck#Phrase");
+
+            URL_Add("upgrade_", "https://en.wiktionary.org/wiki/upgrade#Noun");
+
+            URL_Add("Inertia.js_", "https://inertiajs.com/upgrade-guide");
 
         } //addLookupData_alternativeWordSet()
 
@@ -179924,8 +179959,6 @@ namespace OverflowHelper.core
 
             URL_Add("alpha__", "https://en.wiktionary.org/wiki/alpha#Adjective");
 
-            URL_Add("fucking__", "https://en.wiktionary.org/wiki/fucking#Adjective");
-
             URL_Add("SWD__", "https://en.wikipedia.org/wiki/JTAG#Similar_interface_standards");
 
             URL_Add("LMDE 6 (Faye)__", "https://blog.linuxmint.com/?p=4570");
@@ -180436,6 +180469,8 @@ namespace OverflowHelper.core
 
             URL_Add("Multi-Adaptable User Interface__", "https://mauikit.org/");
 
+            URL_Add("fucking__", "https://en.wiktionary.org/wiki/fucking#Adjective");
+
         } //addLookupData_alternativeWordSet2()
 
 
@@ -180857,6 +180892,7 @@ namespace OverflowHelper.core
             correctionAdd("ov___", "of___");
             correctionAdd("or___", "of___");
             correctionAdd("o___", "of___");
+            correctionAdd("f___", "of___");
 
             correctionAdd("hare___", "are___");
             correctionAdd("aree___", "are___");
@@ -181418,36 +181454,6 @@ namespace OverflowHelper.core
             correctionAdd("linh___", "link___");
             correctionAdd("li k___", "link___"); // A true typo (involving the space bar)
             correctionAdd("lin___", "link___");
-
-            correctionAdd("FUCK___", "fuck___");
-            correctionAdd("FORK___", "fuck___");
-            correctionAdd("fork___", "fuck___");
-            correctionAdd("F&%K___", "fuck___");
-            correctionAdd("f&%k___", "fuck___");
-            correctionAdd("f#ck___", "fuck___");
-            correctionAdd("f@!?___", "fuck___");
-            correctionAdd("f*ck___", "fuck___");
-            correctionAdd("F*ck___", "fuck___");
-            correctionAdd("f***___", "fuck___");
-            correctionAdd("F***___", "fuck___");
-            correctionAdd("F**K___", "fuck___");
-            correctionAdd("f**k___", "fuck___");
-            correctionAdd("F*CK___", "fuck___");
-            correctionAdd("****___", "fuck___");
-            correctionAdd("eff___", "fuck___");
-            correctionAdd("Fug___", "fuck___");
-            correctionAdd("fug___", "fuck___");
-            correctionAdd("fuq___", "fuck___");
-            correctionAdd("fux___", "fuck___");
-            correctionAdd("f@!___", "fuck___");
-            correctionAdd("fck___", "fuck___");
-            correctionAdd("F@K___", "fuck___");
-            correctionAdd("f@k___", "fuck___");
-            correctionAdd("Fk___", "fuck___");
-            correctionAdd("fk___", "fuck___");
-            correctionAdd("FK___", "fuck___");
-            correctionAdd("f___", "fuck___");
-            correctionAdd("F___", "fuck___");
 
             // Alternative URLs:
             //
@@ -183629,8 +183635,6 @@ namespace OverflowHelper.core
 
             URL_Add("stuck___", "https://en.wiktionary.org/wiki/stick#Verb_2");
 
-            URL_Add("fuck___", "https://en.wiktionary.org/wiki/fuck#Verb");
-
             URL_Add("Microsoft___", "https://en.wikipedia.org/wiki/Microsoft");
 
             URL_Add("RGB_RED (0xFF0000)___", "https://github.com/qmk/qmk_firmware/blob/master/quantum/color.h#L41");
@@ -184247,22 +184251,6 @@ namespace OverflowHelper.core
             correctionAdd("&nbsp;GW____", "121GW____"); // For the cross-reference
             correctionAdd("121gw____", "121GW____");
 
-            // A unit (of temperature)
-            //
-            // Alternative URLs:
-            //
-            //   <https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion>
-            //
-            //   <https://en.wiktionary.org/wiki/F#Proper_noun>
-            //
-            correctionAdd("&nbsp;Fahrenheit____", "&nbsp;°F____");
-            correctionAdd("fahrenheit____", "&nbsp;°F____");
-            correctionAdd("Farenheit____", "&nbsp;°F____");
-            correctionAdd("farenheit____", "&nbsp;°F____");
-            correctionAdd("°F____", "&nbsp;°F____"); // Sort of identity mapping
-            correctionAdd("F____", "&nbsp;°F____");
-            correctionAdd("Fahrenheit____", "&nbsp;°F____"); // The official expanded name
-
             correctionAdd("-28.9 °C____", "-20 °F____");
             correctionAdd("-29____", "-20 °F____"); // Nearest whole Celcius value
 
@@ -184505,6 +184493,36 @@ namespace OverflowHelper.core
             correctionAdd("entirely copied____", "When should answers consisting entirely of cited, copied content be flagged?____");
             correctionAdd("link-only____", "When should answers consisting entirely of cited, copied content be flagged?____");
             correctionAdd("link____", "When should answers consisting entirely of cited, copied content be flagged?____");
+
+            correctionAdd("FUCK____", "fuck____");
+            correctionAdd("FORK____", "fuck____");
+            correctionAdd("fork____", "fuck____");
+            correctionAdd("F&%K____", "fuck____");
+            correctionAdd("f&%k____", "fuck____");
+            correctionAdd("f#ck____", "fuck____");
+            correctionAdd("f@!?____", "fuck____");
+            correctionAdd("f*ck____", "fuck____");
+            correctionAdd("F*ck____", "fuck____");
+            correctionAdd("f***____", "fuck____");
+            correctionAdd("F***____", "fuck____");
+            correctionAdd("F**K____", "fuck____");
+            correctionAdd("f**k____", "fuck____");
+            correctionAdd("F*CK____", "fuck____");
+            correctionAdd("****____", "fuck____");
+            correctionAdd("eff____", "fuck____");
+            correctionAdd("Fug____", "fuck____");
+            correctionAdd("fug____", "fuck____");
+            correctionAdd("fuq____", "fuck____");
+            correctionAdd("fux____", "fuck____");
+            correctionAdd("f@!____", "fuck____");
+            correctionAdd("fck____", "fuck____");
+            correctionAdd("F@K____", "fuck____");
+            correctionAdd("f@k____", "fuck____");
+            correctionAdd("Fk____", "fuck____");
+            correctionAdd("fk____", "fuck____");
+            correctionAdd("FK____", "fuck____");
+            correctionAdd("f____", "fuck____");
+            correctionAdd("F____", "fuck____");
 
             // The food thing... (not keyboard macros...)
             correctionAdd("macronutrients____", "macronutrient____");
@@ -186100,8 +186118,6 @@ namespace OverflowHelper.core
 
             URL_Add("in____", "https://en.wiktionary.org/wiki/in#Preposition");
 
-            URL_Add("&nbsp;°F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
-
             URL_Add("-20 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
             URL_Add("-10 °F____", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
@@ -186357,6 +186373,8 @@ namespace OverflowHelper.core
             URL_Add("&rarr;____", "https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#List_of_character_entity_references_in_HTML");
 
             URL_Add("When should answers consisting entirely of cited, copied content be flagged?____", "https://meta.stackoverflow.com/questions/404102");
+
+            URL_Add("fuck____", "https://en.wiktionary.org/wiki/fuck#Verb");
 
         } //addLookupData_alternativeWordSet4()
 
@@ -188369,6 +188387,22 @@ namespace OverflowHelper.core
             correctionAdd("&gt;______", "greater than______");
             correctionAdd(">______", "greater than______");
 
+            // A unit (of temperature)
+            //
+            // Alternative URLs:
+            //
+            //   <https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion>
+            //
+            //   <https://en.wiktionary.org/wiki/F#Proper_noun>
+            //
+            correctionAdd("&nbsp;Fahrenheit______", "&nbsp;°F______");
+            correctionAdd("fahrenheit______", "&nbsp;°F______");
+            correctionAdd("Farenheit______", "&nbsp;°F______");
+            correctionAdd("farenheit______", "&nbsp;°F______");
+            correctionAdd("°F______", "&nbsp;°F______"); // Sort of identity mapping
+            correctionAdd("F______", "&nbsp;°F______");
+            correctionAdd("Fahrenheit______", "&nbsp;°F______"); // The official expanded name
+
             // URL mappings
             //
             URL_Add("at______", "https://en.wiktionary.org/wiki/at#Preposition");
@@ -188439,13 +188473,15 @@ namespace OverflowHelper.core
 
             URL_Add("south______", "https://en.wiktionary.org/wiki/south#Noun");
 
+            URL_Add("greater than______", "https://en.wikipedia.org/wiki/Greater-than_sign");
+
             URL_Add("&nbsp;w______", "https://en.wikipedia.org/wiki/Week");
 
             URL_Add("&nbsp;inch______", "https://en.wiktionary.org/wiki/inch#Noun");
 
-            URL_Add("40 °F______", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
+            URL_Add("&nbsp;°F______", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
-            URL_Add("greater than______", "https://en.wikipedia.org/wiki/Greater-than_sign");
+            URL_Add("40 °F______", "https://en.wikipedia.org/wiki/Fahrenheit#Definition_and_conversion");
 
         } //addLookupData_alternativeWordSet6()
 
