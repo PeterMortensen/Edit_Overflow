@@ -21940,7 +21940,8 @@ namespace OverflowHelper.core
             // A telecom company in Kenya
             correctionAdd("safaricom", "Safaricom");
 
-            correctionAdd("mpesa", "M-Pesa");
+            correctionAdd("M-Pesa", "M-PESA");
+            correctionAdd("mpesa", "M-PESA");
 
             correctionAdd("tanzania", "Tanzania");
 
@@ -30069,6 +30070,7 @@ namespace OverflowHelper.core
             correctionAdd("cowered", "coward");
 
             correctionAdd("covor", "cover");
+            correctionAdd("civer", "cover"); // A true typo
 
             correctionAdd("cove", "covered");
 
@@ -82317,6 +82319,7 @@ namespace OverflowHelper.core
 
             correctionAdd("KPROBES", "kprobes");
 
+            // The verb
             correctionAdd("rised", "rose");
 
             correctionAdd("Median", "median");
@@ -122749,7 +122752,7 @@ namespace OverflowHelper.core
 
             URL_Add("Jerry Fodor", "https://en.wikipedia.org/wiki/Jerry_Fodor");
 
-            URL_Add("M-Pesa", "https://en.wikipedia.org/wiki/M-Pesa");
+            URL_Add("M-PESA", "https://en.wikipedia.org/wiki/M-PESA"); // Old: <https://en.wikipedia.org/wiki/M-Pesa>
 
             URL_Add("Marvin Minsky", "https://en.wikipedia.org/wiki/Marvin_Minsky");
 
@@ -135466,8 +135469,6 @@ namespace OverflowHelper.core
 
             URL_Add("stat", "https://linux.die.net/man/1/stat");
 
-            URL_Add("useradd", "https://linux.die.net/man/8/useradd");
-
             URL_Add("groupadd", "https://linux.die.net/man/8/groupadd");
 
             URL_Add("uname", "https://linux.die.net/man/1/uname");
@@ -135517,6 +135518,8 @@ namespace OverflowHelper.core
             URL_Add("usleep", "https://linux.die.net/man/1/usleep");
 
             URL_Add("sort (Unix)", "https://en.wikipedia.org/wiki/Sort_(Unix)");
+
+            URL_Add("useradd", "https://linux.die.net/man/8/useradd");
 
             URL_Add("LSS", "https://en.wikipedia.org/wiki/CANopen#Predefined_Connection_Set[7]");
 
@@ -144531,13 +144534,101 @@ namespace OverflowHelper.core
 
             URL_Add("interfaces", "https://en.wikipedia.org/wiki/Interface_(computing)");
 
+            URL_Add("graphics interface", "https://en.wikipedia.org/wiki/Computer_graphics#1950s");
+
+            URL_Add("GUI", "https://en.wikipedia.org/wiki/Graphical_user_interface");
+
             URL_Add("user interface", "https://en.wikipedia.org/wiki/User_interface");
 
             URL_Add("user interfaces", "https://en.wiktionary.org/wiki/user_interface#Noun");
 
-            URL_Add("graphics interface", "https://en.wikipedia.org/wiki/Computer_graphics#1950s");
+            URL_Add("user acceptance testing", "https://en.wikipedia.org/wiki/Acceptance_testing#User_acceptance_testing");
 
-            URL_Add("GUI", "https://en.wikipedia.org/wiki/Graphical_user_interface");
+            URL_Add("user story", "https://en.wikipedia.org/wiki/User_story");
+
+            URL_Add("user experience design", "https://en.wikipedia.org/wiki/User_experience_design");
+
+            URL_Add("user guide", "https://en.wiktionary.org/wiki/user_guide#Noun");
+
+            URL_Add("user agent", "https://en.wikipedia.org/wiki/User_agent#Use_in_HTTP");
+
+            URL_Add("User Account Control", "https://en.wikipedia.org/wiki/User_Account_Control");
+
+            URL_Add("users", "https://en.wiktionary.org/wiki/user#Noun");
+
+            URL_Add("username", "https://en.wiktionary.org/wiki/username#Noun");
+
+            URL_Add("usernames", "https://en.wiktionary.org/wiki/username#Noun");
+
+            URL_Add("user-defined", "https://en.wiktionary.org/wiki/user-defined_function#Noun"); // Old: https://en.wiktionary.org/wiki/user-defined_function
+
+            URL_Add("user-defined function", "https://en.wikipedia.org/wiki/User-defined_function#Databases");
+
+            URL_Add("userbase", "https://en.wiktionary.org/wiki/userbase#Noun");
+
+            URL_Add("user-generated", "https://en.wikipedia.org/wiki/User-generated_content");
+
+            URL_Add("user-generated content", "https://en.wikipedia.org/wiki/User-generated_content");
+
+            URL_Add("user-friendly", "https://en.wiktionary.org/wiki/user-friendly#Adjective");
+
+            URL_Add("userscript", "https://en.wikipedia.org/wiki/Userscript");
+
+            URL_Add("UserVoice", "https://en.wikipedia.org/wiki/UserVoice#History");
+
+            URL_Add("use", "https://en.wiktionary.org/wiki/use#Verb");
+
+            URL_Add("uses", "https://en.wiktionary.org/wiki/use#Verb");
+
+            URL_Add("using", "https://en.wiktionary.org/wiki/use#Verb");
+
+            URL_Add("utilities", "https://en.wiktionary.org/wiki/utilities#Noun"); // Old: https://en.wiktionary.org/wiki/utilities#English
+
+            URL_Add("useful", "https://en.wiktionary.org/wiki/useful#Adjective"); // Old: https://en.wiktionary.org/wiki/usefull
+
+            URL_Add("usefulness", "https://en.wiktionary.org/wiki/usefulness#Noun");
+
+            URL_Add("nonuseful", "https://en.wiktionary.org/wiki/nonuseful#Adjective");
+
+            URL_Add("usable", "https://en.wiktionary.org/wiki/usable#Adjective");
+
+            URL_Add("usability", "https://en.wikipedia.org/wiki/Usability");
+
+            URL_Add("unusability", "https://en.wiktionary.org/wiki/unusability#Noun");
+
+            URL_Add("Usenet", "https://en.wikipedia.org/wiki/Usenet");
+
+            URL_Add("used to", "https://en.wiktionary.org/wiki/used_to#Usage_notes");
+
+            URL_Add("use case", "https://en.wikipedia.org/wiki/Use_case");
+
+            URL_Add("use cases", "https://en.wikipedia.org/wiki/Use_case");
+
+            URL_Add("use case diagram", "https://en.wikipedia.org/wiki/Use_case_diagram");
+
+            URL_Add("usually", "https://en.wiktionary.org/wiki/usually#Adverb");
+
+            URL_Add("unusual", "https://en.wiktionary.org/wiki/unusual#Adjective");
+
+            URL_Add("business as usual", "https://en.wiktionary.org/wiki/business_as_usual#Noun");
+
+            URL_Add("accepts", "https://en.wiktionary.org/wiki/accept#Verb");
+
+            URL_Add("accepted", "https://en.wiktionary.org/wiki/accept#Verb");
+
+            URL_Add("unaccept", "https://en.wiktionary.org/wiki/unaccept#Verb");
+
+            URL_Add("acceptance", "https://en.wiktionary.org/wiki/acceptance#Noun");
+
+            URL_Add("accepting", "https://en.wiktionary.org/wiki/accept#Verb");
+
+            URL_Add("acceptable", "https://en.wiktionary.org/wiki/acceptable#Adjective");
+
+            URL_Add("unacceptable", "https://en.wiktionary.org/wiki/unacceptable#Adjective");
+
+            URL_Add("nonacceptable", "https://en.wiktionary.org/wiki/nonacceptable#Adjective");
+
+            URL_Add("acceptable use policy", "https://en.wikipedia.org/wiki/Acceptable_use_policy");
 
             URL_Add("Emacs Lisp", "https://en.wikipedia.org/wiki/Emacs_Lisp");
 
@@ -146012,28 +146103,6 @@ namespace OverflowHelper.core
             URL_Add("style", "https://en.wiktionary.org/wiki/style#Noun");
 
             URL_Add("Polymer", "https://en.wikipedia.org/wiki/Polymer_(library)");
-
-            URL_Add("use", "https://en.wiktionary.org/wiki/use#Verb");
-
-            URL_Add("uses", "https://en.wiktionary.org/wiki/use#Verb");
-
-            URL_Add("users", "https://en.wiktionary.org/wiki/user#Noun");
-
-            URL_Add("using", "https://en.wiktionary.org/wiki/use#Verb");
-
-            URL_Add("utilities", "https://en.wiktionary.org/wiki/utilities#Noun"); // Old: https://en.wiktionary.org/wiki/utilities#English
-
-            URL_Add("useful", "https://en.wiktionary.org/wiki/useful#Adjective"); // Old: https://en.wiktionary.org/wiki/usefull
-
-            URL_Add("usefulness", "https://en.wiktionary.org/wiki/usefulness#Noun");
-
-            URL_Add("nonuseful", "https://en.wiktionary.org/wiki/nonuseful#Adjective");
-
-            URL_Add("usable", "https://en.wiktionary.org/wiki/usable#Adjective");
-
-            URL_Add("usability", "https://en.wikipedia.org/wiki/Usability");
-
-            URL_Add("unusability", "https://en.wiktionary.org/wiki/unusability#Noun");
 
             URL_Add("password reuse", "https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords#Top_100");
 
@@ -152045,26 +152114,6 @@ namespace OverflowHelper.core
 
             URL_Add("press conference", "https://en.wikipedia.org/wiki/Press_conference");
 
-            URL_Add("accepts", "https://en.wiktionary.org/wiki/accept#Verb");
-
-            URL_Add("accepted", "https://en.wiktionary.org/wiki/accept#Verb");
-
-            URL_Add("unaccept", "https://en.wiktionary.org/wiki/unaccept#Verb");
-
-            URL_Add("acceptance", "https://en.wiktionary.org/wiki/acceptance#Noun");
-
-            URL_Add("accepting", "https://en.wiktionary.org/wiki/accept#Verb");
-
-            URL_Add("acceptable", "https://en.wiktionary.org/wiki/acceptable#Adjective");
-
-            URL_Add("unacceptable", "https://en.wiktionary.org/wiki/unacceptable#Adjective");
-
-            URL_Add("nonacceptable", "https://en.wiktionary.org/wiki/nonacceptable#Adjective");
-
-            URL_Add("acceptable use policy", "https://en.wikipedia.org/wiki/Acceptable_use_policy");
-
-            URL_Add("user acceptance testing", "https://en.wikipedia.org/wiki/Acceptance_testing#User_acceptance_testing");
-
             URL_Add("B-1 visa", "https://en.wikipedia.org/wiki/B_visa#Acceptable_uses_of_a_B-1_visa");
 
             URL_Add("B-2 visa", "https://en.wikipedia.org/wiki/B_visa#Acceptable_uses_of_a_B-2_visa");
@@ -152106,52 +152155,6 @@ namespace OverflowHelper.core
             URL_Add("Via usability bug", "https://www.reddit.com/r/Keychron/comments/1aqws5e/comment/kqpwlz4/");
 
             URL_Add("The Zuck's password", "https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords#Top_100");
-
-            URL_Add("used to", "https://en.wiktionary.org/wiki/used_to#Usage_notes");
-
-            URL_Add("user-defined", "https://en.wiktionary.org/wiki/user-defined_function#Noun"); // Old: https://en.wiktionary.org/wiki/user-defined_function
-
-            URL_Add("user-defined function", "https://en.wikipedia.org/wiki/User-defined_function#Databases");
-
-            URL_Add("username", "https://en.wiktionary.org/wiki/username#Noun");
-
-            URL_Add("usernames", "https://en.wiktionary.org/wiki/username#Noun");
-
-            URL_Add("userbase", "https://en.wiktionary.org/wiki/userbase#Noun");
-
-            URL_Add("user-generated", "https://en.wikipedia.org/wiki/User-generated_content");
-
-            URL_Add("user-generated content", "https://en.wikipedia.org/wiki/User-generated_content");
-
-            URL_Add("user story", "https://en.wikipedia.org/wiki/User_story");
-
-            URL_Add("use case", "https://en.wikipedia.org/wiki/Use_case");
-
-            URL_Add("use cases", "https://en.wikipedia.org/wiki/Use_case");
-
-            URL_Add("use case diagram", "https://en.wikipedia.org/wiki/Use_case_diagram");
-
-            URL_Add("user-friendly", "https://en.wiktionary.org/wiki/user-friendly#Adjective");
-
-            URL_Add("user experience design", "https://en.wikipedia.org/wiki/User_experience_design");
-
-            URL_Add("user guide", "https://en.wiktionary.org/wiki/user_guide#Noun");
-
-            URL_Add("user agent", "https://en.wikipedia.org/wiki/User_agent#Use_in_HTTP");
-
-            URL_Add("userscript", "https://en.wikipedia.org/wiki/Userscript");
-
-            URL_Add("Usenet", "https://en.wikipedia.org/wiki/Usenet");
-
-            URL_Add("User Account Control", "https://en.wikipedia.org/wiki/User_Account_Control");
-
-            URL_Add("UserVoice", "https://en.wikipedia.org/wiki/UserVoice#History");
-
-            URL_Add("usually", "https://en.wiktionary.org/wiki/usually#Adverb");
-
-            URL_Add("unusual", "https://en.wiktionary.org/wiki/unusual#Adjective");
-
-            URL_Add("business as usual", "https://en.wiktionary.org/wiki/business_as_usual#Noun");
 
             URL_Add("USSD", "https://en.wikipedia.org/wiki/Unstructured_Supplementary_Service_Data");
 
@@ -153029,6 +153032,8 @@ namespace OverflowHelper.core
 
             // Electronics. Radio (frequencies).
             correctionAdd("rf_", "RF_");
+
+            correctionAdd("rised_", "risen_");
 
             // Simulated intelligence. A company
             correctionAdd("anthropic_", "Anthropic_");
@@ -158342,6 +158347,15 @@ namespace OverflowHelper.core
             correctionAdd("command-line interface_", "CLI_");
             correctionAdd("cli_", "CLI_"); // Not strictly necessary (as there is the cross-reference), but it is for a direct lookup.
 
+            correctionAdd("quide_", "guide_");
+            correctionAdd("guild_", "guide_");
+            correctionAdd("guied_", "guide_"); // A true typo
+            correctionAdd("guid_", "guide_");
+            correctionAdd("GUID_", "guide_");
+            correctionAdd("guie_", "guide_");
+
+            correctionAdd("guies_", "guides_");
+
             correctionAdd("user guide_", "user manual_");
             correctionAdd("usermanual_", "user manual_");
 
@@ -158360,6 +158374,62 @@ namespace OverflowHelper.core
             correctionAdd("accout_", "account_");
             correctionAdd("acct_", "account_");
             correctionAdd("acc_", "account_");
+
+            correctionAdd("Airbnb's JavaScript styling guide_", "Airbnb JavaScript style guide_");
+            correctionAdd("Airbnb JavaScript styling guide_", "Airbnb JavaScript style guide_");
+            correctionAdd("the airbnb style guide_", "Airbnb JavaScript style guide_");
+            correctionAdd("Airbnb code styling_", "Airbnb JavaScript style guide_");
+            correctionAdd("Airbnb style guide_", "Airbnb JavaScript style guide_");
+            correctionAdd("airbnb style guide_", "Airbnb JavaScript style guide_");
+            correctionAdd("Airbnb style_", "Airbnb JavaScript style guide_");
+            correctionAdd("Airbnb_", "Airbnb JavaScript style guide_"); // For the cross-reference
+
+            // Web. JavaScript
+            correctionAdd("Window_", "window_");
+
+            // Plain old data structure, JavaScript version.
+            correctionAdd("plain old JavaScript object_", "POJO_");
+
+            // A JavaScript library
+            correctionAdd("Stencil JS_", "Stencil_");
+            correctionAdd("stencil js_", "Stencil_");
+            correctionAdd("Stencil.js_", "Stencil_");
+            correctionAdd("Stenciljs_", "Stencil_");
+            correctionAdd("StencilJS_", "Stencil_");
+            correctionAdd("stencil_", "Stencil_");
+
+            // A CSS-in-JavaScript library
+            correctionAdd("emotion_", "Emotion_");
+
+            // A software framework for creating desktop applications.
+            //
+            // It is based on web technology: HTML5, CSS, and JavaScript
+            //
+            // Successor: Tauri
+            //
+            correctionAdd("a web browser in disguise_", "Electron_");
+            correctionAdd("web browser in disguise_", "Electron_");
+            correctionAdd("electron.js_", "Electron_");
+            correctionAdd("Electron.js_", "Electron_");
+            correctionAdd("Electron JS_", "Electron_");
+            correctionAdd("electron js_", "Electron_");
+            correctionAdd("in disguise_", "Electron_");
+            correctionAdd("electronjs_", "Electron_");
+            correctionAdd("ElectronJS_", "Electron_");
+            correctionAdd("Electronjs_", "Electron_");
+            correctionAdd("ElecronJS_", "Electron_");
+            correctionAdd("Elecctron_", "Electron_");
+            correctionAdd("electron_", "Electron_");
+            correctionAdd("electorn_", "Electron_");
+            correctionAdd("ELECTRON_", "Electron_");
+            correctionAdd("disguise_", "Electron_");
+            correctionAdd("Elecron_", "Electron_");
+
+            // A React (JavaScript) library
+            correctionAdd("reselect_", "Reselect_");
+
+            correctionAdd("Reactive Extensions_", "ReactiveX_");
+            correctionAdd("Rx_", "ReactiveX_");
 
             // The verbose version of "able". See, e.g.,
             // Hacker Public Radio (HPR) podcast episode 4601
@@ -159166,62 +159236,6 @@ namespace OverflowHelper.core
             correctionAdd("breakpoint_", "CSS breakpoint_");
 
             correctionAdd("MASK_", "mask_"); // CSS
-
-            // Web. JavaScript
-            correctionAdd("Window_", "window_");
-
-            // Plain old data structure, JavaScript version.
-            correctionAdd("plain old JavaScript object_", "POJO_");
-
-            correctionAdd("Airbnb's JavaScript styling guide_", "Airbnb JavaScript style guide_");
-            correctionAdd("Airbnb JavaScript styling guide_", "Airbnb JavaScript style guide_");
-            correctionAdd("the airbnb style guide_", "Airbnb JavaScript style guide_");
-            correctionAdd("Airbnb code styling_", "Airbnb JavaScript style guide_");
-            correctionAdd("Airbnb style guide_", "Airbnb JavaScript style guide_");
-            correctionAdd("airbnb style guide_", "Airbnb JavaScript style guide_");
-            correctionAdd("Airbnb style_", "Airbnb JavaScript style guide_");
-            correctionAdd("Airbnb_", "Airbnb JavaScript style guide_"); // For the cross-reference
-
-            // A JavaScript library
-            correctionAdd("Stencil JS_", "Stencil_");
-            correctionAdd("stencil js_", "Stencil_");
-            correctionAdd("Stencil.js_", "Stencil_");
-            correctionAdd("Stenciljs_", "Stencil_");
-            correctionAdd("StencilJS_", "Stencil_");
-            correctionAdd("stencil_", "Stencil_");
-
-            // A CSS-in-JavaScript library
-            correctionAdd("emotion_", "Emotion_");
-
-            // A software framework for creating desktop applications.
-            //
-            // It is based on web technology: HTML5, CSS, and JavaScript
-            //
-            // Successor: Tauri
-            //
-            correctionAdd("a web browser in disguise_", "Electron_");
-            correctionAdd("web browser in disguise_", "Electron_");
-            correctionAdd("electron.js_", "Electron_");
-            correctionAdd("Electron.js_", "Electron_");
-            correctionAdd("Electron JS_", "Electron_");
-            correctionAdd("electron js_", "Electron_");
-            correctionAdd("in disguise_", "Electron_");
-            correctionAdd("electronjs_", "Electron_");
-            correctionAdd("ElectronJS_", "Electron_");
-            correctionAdd("Electronjs_", "Electron_");
-            correctionAdd("ElecronJS_", "Electron_");
-            correctionAdd("Elecctron_", "Electron_");
-            correctionAdd("electron_", "Electron_");
-            correctionAdd("electorn_", "Electron_");
-            correctionAdd("ELECTRON_", "Electron_");
-            correctionAdd("disguise_", "Electron_");
-            correctionAdd("Elecron_", "Electron_");
-
-            // A React (JavaScript) library
-            correctionAdd("reselect_", "Reselect_");
-
-            correctionAdd("Reactive Extensions_", "ReactiveX_");
-            correctionAdd("Rx_", "ReactiveX_");
 
             correctionAdd("ccode_", "code_");
             correctionAdd("coce_", "code_");
@@ -166724,14 +166738,6 @@ namespace OverflowHelper.core
             correctionAdd("extant_", "extent_");
             correctionAdd("extend_", "extent_");
 
-            correctionAdd("quide_", "guide_");
-            correctionAdd("guild_", "guide_");
-            correctionAdd("guid_", "guide_");
-            correctionAdd("GUID_", "guide_");
-            correctionAdd("guie_", "guide_");
-
-            correctionAdd("guies_", "guides_");
-
             correctionAdd("monkey-patch_", "monkey patch_");
 
             correctionAdd("F5_", "Faugère F5 algorithm_");
@@ -169443,8 +169449,6 @@ namespace OverflowHelper.core
 
             URL_Add("horde_", "https://en.wiktionary.org/wiki/horde#Noun");
 
-            URL_Add("guide_", "https://en.wiktionary.org/wiki/guide#Noun");
-
             URL_Add("probability density function_", "https://en.wikipedia.org/wiki/Probability_density_function");
 
             URL_Add("monkey patch_", "https://en.wiktionary.org/wiki/monkey_patch#Verb");
@@ -170172,8 +170176,6 @@ namespace OverflowHelper.core
             URL_Add("shaking my head_", "https://en.wiktionary.org/wiki/SMH#Phrase");
 
             URL_Add("alert_", "https://en.wiktionary.org/wiki/alert#Noun");
-
-            URL_Add("guides_", "https://en.wiktionary.org/wiki/guide#Noun");
 
             URL_Add("POM_", "https://en.wikipedia.org/wiki/Apache_Maven#Project_Object_Model");
 
@@ -171497,26 +171499,6 @@ namespace OverflowHelper.core
 
             URL_Add("Cake_", "https://github.com/cake-build/cake");
 
-            URL_Add("uses_", "https://en.wiktionary.org/wiki/use#Noun");
-
-            URL_Add("used_", "https://en.wiktionary.org/wiki/use#Verb");
-
-            URL_Add("usage_", "https://en.wiktionary.org/wiki/usage#Noun");
-
-            URL_Add("usability testing_", "https://en.wikipedia.org/wiki/Usability_testing");
-
-            URL_Add("utility_", "https://en.wiktionary.org/wiki/utility#Noun");
-
-            URL_Add("utilise_", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
-
-            URL_Add("utilising_", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
-
-            URL_Add("usual_", "https://en.wiktionary.org/wiki/usual#Adjective");
-
-            URL_Add("user account_", "https://en.wikipedia.org/wiki/User_(computing)");
-
-            URL_Add("user manual_", "https://en.wikipedia.org/wiki/User_guide");
-
             URL_Add("```lang-bash_", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
 
             URL_Add("```lang-ini_", "https://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work/184109#184109");
@@ -172241,8 +172223,6 @@ namespace OverflowHelper.core
 
             URL_Add("Karabiner Elements_", "https://github.com/pqrs-org/Karabiner-Elements");
 
-            URL_Add("Airbnb JavaScript style guide_", "https://github.com/airbnb/javascript");
-
             URL_Add("jq_", "https://stedolan.github.io/jq/");
 
             URL_Add("Fluent NHibernate_", "https://github.com/FluentNHibernate/fluent-nhibernate/wiki/getting-started"); // XXX Old (completely broken): http://fluentnhibernate.org/
@@ -172659,8 +172639,6 @@ namespace OverflowHelper.core
 
             URL_Add("Mathematica (Stack Exchange site)_", "https://mathematica.stackexchange.com/tour");
 
-            URL_Add("User Experience (Stack Exchange site)_", "https://ux.stackexchange.com/tour");
-
             URL_Add("Writing (Stack Exchange site)_", "https://writing.stackexchange.com/tour");
 
             URL_Add("Geographic Information Systems (Stack Exchange site)_", "https://gis.stackexchange.com/tour");
@@ -172688,6 +172666,8 @@ namespace OverflowHelper.core
             URL_Add("Computer Science (Stack Exchange site)_", "https://cs.stackexchange.com/tour");
 
             URL_Add("Cross Validated (Stack Exchange site)_", "https://stats.stackexchange.com/tour");
+
+            URL_Add("User Experience (Stack Exchange site)_", "https://ux.stackexchange.com/tour");
 
             URL_Add("operating_", "https://en.wiktionary.org/wiki/operate#Verb");
 
@@ -173658,6 +173638,34 @@ namespace OverflowHelper.core
             URL_Add(".NET MAUI_", "https://en.wikipedia.org/wiki/Xamarin#.NET_MAUI");
 
             URL_Add(".NET assembly_", "https://en.wikipedia.org/wiki/Assembly_(CLI)");
+
+            URL_Add("guide_", "https://en.wiktionary.org/wiki/guide#Noun");
+
+            URL_Add("guides_", "https://en.wiktionary.org/wiki/guide#Noun");
+
+            URL_Add("Airbnb JavaScript style guide_", "https://github.com/airbnb/javascript");
+
+            URL_Add("user manual_", "https://en.wikipedia.org/wiki/User_guide");
+
+            URL_Add("user account_", "https://en.wikipedia.org/wiki/User_(computing)");
+
+            URL_Add("uses_", "https://en.wiktionary.org/wiki/use#Noun");
+
+            URL_Add("used_", "https://en.wiktionary.org/wiki/use#Verb");
+
+            URL_Add("usage_", "https://en.wiktionary.org/wiki/usage#Noun");
+
+            URL_Add("usability testing_", "https://en.wikipedia.org/wiki/Usability_testing");
+
+            URL_Add("utility_", "https://en.wiktionary.org/wiki/utility#Noun");
+
+            URL_Add("utilise_", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
+
+            URL_Add("utilising_", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
+
+            URL_Add("usual_", "https://en.wiktionary.org/wiki/usual#Adjective");
+
+            URL_Add("risen_", "https://en.wiktionary.org/wiki/rise#Verb");
 
         } //addLookupData_alternativeWordSet()
 
@@ -179864,20 +179872,6 @@ namespace OverflowHelper.core
 
             URL_Add("SubSonic__", "https://github.com/subsonic/SubSonic-3.0"); // Old: <https://en.wikipedia.org/wiki/Subsonic_%28software%29>
 
-            URL_Add("user__", "https://en.wiktionary.org/wiki/user#Noun");
-
-            URL_Add("uses__", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
-
-            URL_Add("using__", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
-
-            URL_Add("utilised__", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
-
-            URL_Add("usages__", "https://en.wiktionary.org/wiki/usage#Noun");
-
-            URL_Add("user experience__", "https://en.wikipedia.org/wiki/User_experience");
-
-            URL_Add("User Equipment__", "https://en.wikipedia.org/wiki/User_equipment");
-
             URL_Add("less__", "https://en.wiktionary.org/wiki/less#Adverb");
 
             URL_Add("Nordic Semiconductor__", "https://en.wikipedia.org/wiki/Nordic_Semiconductor");
@@ -180425,6 +180419,20 @@ namespace OverflowHelper.core
             URL_Add("multimedia__", "https://en.wikipedia.org/wiki/Multimedia");
 
             URL_Add("multithread__", "https://en.wiktionary.org/wiki/multithread#Adjective");
+
+            URL_Add("uses__", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
+
+            URL_Add("using__", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
+
+            URL_Add("utilised__", "https://en.wikipedia.org/wiki/User:Tony1/How_to_improve_your_writing#Misplaced_formality");
+
+            URL_Add("usages__", "https://en.wiktionary.org/wiki/usage#Noun");
+
+            URL_Add("user__", "https://en.wiktionary.org/wiki/user#Noun");
+
+            URL_Add("user experience__", "https://en.wikipedia.org/wiki/User_experience");
+
+            URL_Add("User Equipment__", "https://en.wikipedia.org/wiki/User_equipment");
 
             URL_Add("Multi-Adaptable User Interface__", "https://mauikit.org/");
 
