@@ -20395,6 +20395,8 @@ namespace OverflowHelper.core
 
             correctionAdd("distroy", "destroy");
 
+            correctionAdd("destroyes", "destroys");
+
             correctionAdd("destoyed", "destroyed");
 
             correctionAdd("destroyment", "destruction");
@@ -21544,6 +21546,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("holy moly", "holy moley");
             correctionAdd("Holy moly", "holy moley");
+            correctionAdd("Holy Moly", "holy moley");
 
             correctionAdd("on Earth", "on earth");
 
@@ -28003,6 +28006,7 @@ namespace OverflowHelper.core
             correctionAdd("environament", "environment");
             correctionAdd("einvironment", "environment");
             correctionAdd("envirounment", "environment");
+            correctionAdd("environmetal", "environment");
             correctionAdd("envrionment", "environment");
             correctionAdd("environmnet", "environment");
             correctionAdd("environemnt", "environment");
@@ -28090,6 +28094,7 @@ namespace OverflowHelper.core
             correctionAdd("envionmental variable", "environment variable");
             correctionAdd("environement variable", "environment variable");
             correctionAdd("envirounment variable", "environment variable");
+            correctionAdd("environmetal variable", "environment variable");
             correctionAdd("Environment Variable", "environment variable");
             correctionAdd("Environment variable", "environment variable");
             correctionAdd("Enviornment variable", "environment variable");
@@ -28122,6 +28127,7 @@ namespace OverflowHelper.core
             correctionAdd("envar", "environment variable");
 
             correctionAdd("environmental variables", "environment variables");
+            correctionAdd("environmetal variables", "environment variables");
             correctionAdd("Environment variables", "environment variables");
             correctionAdd("environment Variables", "environment variables");
             correctionAdd("enviroment variables", "environment variables");
@@ -45032,8 +45038,13 @@ namespace OverflowHelper.core
             correctionAdd("EIGs", "eigenvalues");
             correctionAdd("eigs", "eigenvalues");
 
+            correctionAdd("eigen vector", "eigenvector");
+
             correctionAdd("eigen vectors", "eigenvectors");
             correctionAdd("Eigen vectors", "eigenvectors");
+
+            // Used in the computer vision for human face recognition
+            correctionAdd("eigen faces", "eigenfaces");
 
             // A matrix thing
             correctionAdd("eigen state", "eigenstate");
@@ -54804,6 +54815,11 @@ namespace OverflowHelper.core
             correctionAdd("SFML", "Simple and Fast Multimedia Library");
 
             // A C++ library, derived from Google
+            //
+            // Alternative URLs:
+            //
+            //   <https://abseil.io>
+            //
             correctionAdd("abseil", "Abseil");
             correctionAdd("aseil", "Abseil");
 
@@ -78817,6 +78833,7 @@ namespace OverflowHelper.core
 
             correctionAdd("operational systems", "operating systems");
             correctionAdd("Operating Systems", "operating systems");
+            correctionAdd("Operating systems", "operating systems");
 
             correctionAdd("OS's", "OSes");
             correctionAdd("OSs", "OSes");
@@ -86260,6 +86277,7 @@ namespace OverflowHelper.core
             //
             correctionAdd("MoErgo Go60", "MoErgo Go60 (55%)");
             correctionAdd("Moergo go60", "MoErgo Go60 (55%)");
+            correctionAdd("moergo go60", "MoErgo Go60 (55%)");
             correctionAdd("Glo60", "MoErgo Go60 (55%)"); // A true typo
             correctionAdd("Go60", "MoErgo Go60 (55%)");
             correctionAdd("go60", "MoErgo Go60 (55%)");
@@ -97484,6 +97502,7 @@ namespace OverflowHelper.core
 
             correctionAdd("inspi", "inspiration"); // A shorthand
             correctionAdd("inspo", "inspiration"); // A true typo of a shorthand, making it even morte obscure...
+            correctionAdd("Inspo", "inspiration");
 
             correctionAdd("awe inspiring", "awe-inspiring");
 
@@ -136589,6 +136608,8 @@ namespace OverflowHelper.core
 
             URL_Add("destroy", "https://en.wiktionary.org/wiki/destroy#Verb");
 
+            URL_Add("destroys", "https://en.wiktionary.org/wiki/destroy#Verb");
+
             URL_Add("destroyed", "https://en.wiktionary.org/wiki/destroy#Verb");
 
             URL_Add("self-destruct", "https://en.wiktionary.org/wiki/self-destruct#Verb");
@@ -137897,7 +137918,11 @@ namespace OverflowHelper.core
 
             URL_Add("divide-and-conquer eigenvalue algorithm", "https://en.wikipedia.org/wiki/Divide-and-conquer_eigenvalue_algorithm");
 
+            URL_Add("eigenvector", "https://en.wiktionary.org/wiki/eigenvector#Noun");
+
             URL_Add("eigenvectors", "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors");
+
+            URL_Add("eigenfaces", "https://en.wikipedia.org/wiki/Eigenface");
 
             URL_Add("eigenfunction", "https://en.wikipedia.org/wiki/Eigenfunction");
 
