@@ -30323,6 +30323,8 @@ namespace OverflowHelper.core
 
             correctionAdd("decideds", "decides");
 
+            correctionAdd("decaiding", "deciding");
+
             correctionAdd("dissided", "decided");
             correctionAdd("desided", "decided");
             correctionAdd("dicided", "decided");
@@ -85090,7 +85092,8 @@ namespace OverflowHelper.core
             //   <https://github.com/doesntfazer/Goober>
             //     Goober
             //
-            correctionAdd("hummingbird", "Hummingbird");
+            correctionAdd("Hummingbird", "Hummingbird (30%)");
+            correctionAdd("hummingbird", "Hummingbird (30%)");
 
             // A 30-key (30%) crippled mechanical keyboard.
             //
@@ -85105,12 +85108,14 @@ namespace OverflowHelper.core
             //   <https://mechboards.co.uk/products/gherkin-kit>
             //   <https://github.com/bgkendall/qmk_firmware/tree/bgk-personal-extensions/keyboards/40percentclub/gherkin/keymaps/bgkendall>
             //
-            correctionAdd("Gherkin", "PB Gherkin");
-            correctionAdd("gherkin", "PB Gherkin");
+            correctionAdd("PB Gherkin", "PB Gherkin (30%)");
+            correctionAdd("Gherkin", "PB Gherkin (30%)");
+            correctionAdd("gherkin", "PB Gherkin (30%)");
 
             // A 34-key (30%) crippled open source split ergonomic
             // mechanical keyboard.
-            correctionAdd("ferris", "Ferris");
+            correctionAdd("Ferris", "Ferris (30%)");
+            correctionAdd("ferris", "Ferris (30%)");
 
             // A 34-key (30%) crippled open source split ergonomic
             // mechanical keyboard.
@@ -85133,13 +85138,14 @@ namespace OverflowHelper.core
             //   <https://github.com/qmk/qmk_firmware/blob/user-keymaps-still-present/keyboards/ferris/keymaps/default/readme.md>
             //     A usable default keymap for the Ferris keyboard
             //
-            correctionAdd("Ferris sweep", "Ferris Sweep");
-            correctionAdd("ferris sweep", "Ferris Sweep");
-            correctionAdd("Ferris/Sweep", "Ferris Sweep");
-            correctionAdd("feriss sweep", "Ferris Sweep");
-            correctionAdd("ferris-sweep", "Ferris Sweep");
-            correctionAdd("sweep", "Ferris Sweep");
-            correctionAdd("Sweep", "Ferris Sweep");
+            correctionAdd("Ferris Sweep", "Ferris Sweep (30%)");
+            correctionAdd("Ferris sweep", "Ferris Sweep (30%)");
+            correctionAdd("ferris sweep", "Ferris Sweep (30%)");
+            correctionAdd("Ferris/Sweep", "Ferris Sweep (30%)");
+            correctionAdd("feriss sweep", "Ferris Sweep (30%)");
+            correctionAdd("ferris-sweep", "Ferris Sweep (30%)");
+            correctionAdd("sweep", "Ferris Sweep (30%)");
+            correctionAdd("Sweep", "Ferris Sweep (30%)");
 
             // A 34-key (30%) crippled ergonomic mechanical keyboard.
             // 16 + 18 = 34 keys. Not split.
@@ -85152,8 +85158,9 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/lmxhqh/this_thing_is_a_blast_freshly_built_reviung34/>
             //   <https://www.boardsource.xyz/docs/build_guides-Rev34build_guide_>
             //
-            correctionAdd("REVIUNG34", "Reviung 34");
-            correctionAdd("Reviung34", "Reviung 34");
+            correctionAdd("Reviung 34", "Reviung 34 (30%)");
+            correctionAdd("REVIUNG34", "Reviung 34 (30%)");
+            correctionAdd("Reviung34", "Reviung 34 (30%)");
 
             // A 34-key (30%) crippled open source low-profile
             // split ergonomic mechanical keyboard.
@@ -85178,7 +85185,8 @@ namespace OverflowHelper.core
             //     But essentially zero context (e.g., no
             //     usable audio); zero explanation.
             //
-            correctionAdd("urchin", "Urchin");
+            correctionAdd("Urchin", "Urchin (30%)");
+            correctionAdd("urchin", "Urchin (30%)");
 
             // A 34-key (30%) crippled open source low-profile
             // split ergonomic mechanical keyboard with two knobs.
@@ -85190,8 +85198,9 @@ namespace OverflowHelper.core
             //   <https://kbd.news/Swoop-1200.html>
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1g7ir2q/miryuko_keymap_not_working_on_ferris_swoop/>
             //
-            correctionAdd("Ferris Swoop", "Swoop");
-            correctionAdd("swoop", "Swoop");
+            correctionAdd("Ferris Swoop", "Swoop (30%)");
+            correctionAdd("Swoop", "Swoop (30%)");
+            correctionAdd("swoop", "Swoop (30%)");
 
             // A 34-key (30%) crippled open source low-profile
             // split ergonomic mechanical keyboard.
@@ -85199,7 +85208,8 @@ namespace OverflowHelper.core
             // 2 x 17 = 34 keys. Derived from the
             // 'Sweep'/'Ferris Sweep' (like the Urchin).
             //
-            correctionAdd("k02", "K02");
+            correctionAdd("K02", "K02 (30%)");
+            correctionAdd("k02", "K02 (30%)");
 
             // A 34-key (30%) crippled open source low-profile
             // split ergonomic mechanical keyboard.
@@ -85217,7 +85227,8 @@ namespace OverflowHelper.core
             //
             // Where is the source code???
             //
-            correctionAdd("RAII-Wireless", "RAII Wireless");
+            correctionAdd("RAII Wireless", "RAII Wireless (30%)");
+            correctionAdd("RAII-Wireless", "RAII Wireless (30%)");
 
             // A 34-key (30%) wired-only QMK/Via-capable
             // macro pad/game pad without a knob.
@@ -85235,8 +85246,9 @@ namespace OverflowHelper.core
             //
             //   <https://github.com/qmk/qmk_firmware/pull/24994>
             //
-            correctionAdd("X0", "Keychron Lemokey X0");
-            correctionAdd("x0", "Keychron Lemokey X0");
+            correctionAdd("Keychron Lemokey X0", "Keychron Lemokey X0 (30%)");
+            correctionAdd("X0", "Keychron Lemokey X0 (30%)");
+            correctionAdd("x0", "Keychron Lemokey X0 (30%)");
 
             // A 34-key (30%) wired-only closed source (but with
             // Via support) macro pad/game pad without a knob.
@@ -85283,10 +85295,12 @@ namespace OverflowHelper.core
             //
             //     What about the L0 HE series??
             //
-            correctionAdd("L0 HE", "Lemokey L0 HE");
+            correctionAdd("Lemokey L0 HE", "Lemokey L0 HE (35%)");
+            correctionAdd("L0 HE", "Lemokey L0 HE (35%)");
 
             // A 36-key (35%) crippled split mechanical keyboard.
-            correctionAdd("3W6", "3w6");
+            correctionAdd("3w6", "3w6 (35%)");
+            correctionAdd("3W6", "3w6 (35%)");
 
             // A 36-key (35%) crippled diodeless split ergonomic
             // mechanical keyboard. 2 x 18 = 36 keys.
@@ -85299,8 +85313,9 @@ namespace OverflowHelper.core
             //   <https://github.com/GroooveBob/DASBOB-qmk/blob/main/rules.mk#L10>
             //     Mouse keys are disabled by default
             //
-            correctionAdd("dasbob", "DASBOB");
-            correctionAdd("DasBob", "DASBOB");
+            correctionAdd("DASBOB", "DASBOB (35%)");
+            correctionAdd("dasbob", "DASBOB (35%)");
+            correctionAdd("DasBob", "DASBOB (35%)");
 
             // A 36-key (35%) crippled open source split ergonomic
             // mechanical keyboard.
@@ -85317,12 +85332,14 @@ namespace OverflowHelper.core
             //
             //    <https://kbd.news/Cygnus-1.0-2307.html>
             //
-            correctionAdd("cygnus", "Cygnus");
+            correctionAdd("Cygnus", "Cygnus (35%)");
+            correctionAdd("cygnus", "Cygnus (35%)");
 
             // A 36-key (35%) crippled open source split ergonomic
             // mechanical keyboard.
             // 2 x 18 = 36 keys.
-            correctionAdd("skeletyl", "Skeletyl");
+            correctionAdd("Skeletyl", "Skeletyl (35%)");
+            correctionAdd("skeletyl", "Skeletyl (35%)");
 
             // A 36-key (35%) crippled open source split ergonomic
             // mechanical keyboard.
@@ -85348,10 +85365,11 @@ namespace OverflowHelper.core
             //
             //       <https://en.wikipedia.org/wiki/Charybdis_(crab)>
             //
-            correctionAdd("charybdis", "Charybdis");
-            correctionAdd("characdys", "Charybdis");
-            correctionAdd("Charibdis", "Charybdis");
-            correctionAdd("charydbys", "Charybdis");
+            correctionAdd("Charybdis", "Charybdis (35%)");
+            correctionAdd("charybdis", "Charybdis (35%)");
+            correctionAdd("characdys", "Charybdis (35%)");
+            correctionAdd("Charibdis", "Charybdis (35%)");
+            correctionAdd("charydbys", "Charybdis (35%)");
 
             // A 36-key (35%) crippled split mechanical keyboard.
             // 2 x 18 = 36 keys.
@@ -85383,9 +85401,10 @@ namespace OverflowHelper.core
             //     Troubleshooting
             //     <https://tompi.github.io/cheapino/doc/troubleshooting/routing.html>
             //
-            correctionAdd("Cheapodino", "Cheapino");
-            correctionAdd("cheapodino", "Cheapino");
-            correctionAdd("cheapino", "Cheapino");
+            correctionAdd("Cheapodino", "Cheapino (35%)");
+            correctionAdd("cheapodino", "Cheapino (35%)");
+            correctionAdd("Cheapino", "Cheapino (35%)");
+            correctionAdd("cheapino", "Cheapino (35%)");
 
             // A 36-key (35%) crippled split mechanical keyboard.
             //
@@ -85403,8 +85422,9 @@ namespace OverflowHelper.core
             //     Includes build line for RP2040:
             //       qmk compile -kb crkbd/rev1 -km vial -e CONVERT_TO=promicro_rp2040
             //
-            correctionAdd("chocofi", "Chocofi");
-            correctionAdd("Chockify", "Chocofi");
+            correctionAdd("Chockify", "Chocofi (35%)");
+            correctionAdd("Chocofi", "Chocofi (35%)");
+            correctionAdd("chocofi", "Chocofi (35%)");
 
             // A 36-key (35%) crippled open source low-profile
             // split ergonomic mechanical keyboard.
@@ -85419,8 +85439,9 @@ namespace OverflowHelper.core
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/17pramf/chocofi_temper/>
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/1byyiem/i_was_finally_able_to_finish_this_case_for_my/>
             //
-            correctionAdd("temper", "Chocofi Temper");
-            correctionAdd("Temper", "Chocofi Temper");
+            correctionAdd("Chocofi Temper", "Chocofi Temper (35%)");
+            correctionAdd("temper", "Chocofi Temper (35%)");
+            correctionAdd("Temper", "Chocofi Temper (35%)");
 
             // A 36-key (35%) crippled split ergonomic mechanical keyboard.
             // 2 x 18 = 36 keys.
@@ -85429,8 +85450,9 @@ namespace OverflowHelper.core
             //
             //   <https://www.reddit.com/r/ErgoMechKeyboards/comments/vt32yo/my_first_build_cantor_remix/>
             //
-            correctionAdd("Cantor-remix", "Cantor Remix");
-            correctionAdd("cantor remix", "Cantor Remix");
+            correctionAdd("Cantor Remix", "Cantor Remix (35%)");
+            correctionAdd("Cantor-remix", "Cantor Remix (35%)");
+            correctionAdd("cantor remix", "Cantor Remix (35%)");
 
             // A 36-key (35%) crippled split mechanical keyboard.
             //
@@ -85448,24 +85470,28 @@ namespace OverflowHelper.core
             //     It's the Swweeep. It's open source, it's wireless only, and
             //     it supports the Nice!View
             //
-            correctionAdd("swweeep", "Swweeep");
+            correctionAdd("Swweeep", "Swweeep (35%)");
+            correctionAdd("swweeep", "Swweeep (35%)");
 
             // A 36-key (35%) crippled split ergonomic mechanical keyboard
             // with two knobs and two trackballs.
             //
             // 2 x 18 = 36 keys.
             //
-            correctionAdd("ximi", "Ximi");
+            correctionAdd("Ximi", "Ximi (35%)");
+            correctionAdd("ximi", "Ximi (35%)");
 
             // A 36-key (35%) crippled split mechanical keyboard.
             // DYI / open hardware. 2 x 18 = 36 keys.
             //
-            correctionAdd("cornifi", "Cornifi");
+            correctionAdd("Cornifi", "Cornifi (35%)");
+            correctionAdd("cornifi", "Cornifi (35%)");
 
             // A 36-key (35%) crippled split mechanical keyboard.
             // DYI / open hardware. 2 x 18 = 36 keys.
             //
-            correctionAdd("fifi", "Fifi");
+            correctionAdd("Fifi", "Fifi (35%)");
+            correctionAdd("fifi", "Fifi (35%)");
 
             // A 38-key (35%) crippled open source low-profile split ergonomic
             // mechanical keyboard. 2 x 19 = 38 keys.
@@ -85498,8 +85524,9 @@ namespace OverflowHelper.core
             //
             //     Uses combos instead of two alpha layers.
             //
-            correctionAdd("totem", "TOTEM");
-            correctionAdd("Totem", "TOTEM");
+            correctionAdd("TOTEM", "TOTEM (35%)");
+            correctionAdd("totem", "TOTEM (35%)");
+            correctionAdd("Totem", "TOTEM (35%)");
 
             // A keyboard case, not a complete keyboard
             correctionAdd("Totem Redux", "TOTEM Redux");
@@ -107391,6 +107418,7 @@ namespace OverflowHelper.core
             correctionAdd("flame bait", "flamebait");
 
             correctionAdd("apro pos", "apropos");
+            correctionAdd("apropo", "apropos");
 
             correctionAdd("Sparc", "SPARC");
             correctionAdd("sparc", "SPARC");
@@ -113074,8 +113102,6 @@ namespace OverflowHelper.core
 
             URL_Add("Y combinator", "https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator");
 
-            URL_Add("decide", "https://en.wiktionary.org/wiki/decide#Verb");
-
             URL_Add("intentionally", "https://en.wiktionary.org/wiki/intentionally#Adverb");
 
             URL_Add("higher", "https://en.wiktionary.org/wiki/higher#Adverb");
@@ -114846,8 +114872,6 @@ namespace OverflowHelper.core
 
             URL_Add("Wax", "https://wiki.python.org/moin/Wax");
 
-            URL_Add("decided", "https://en.wiktionary.org/wiki/decide#Verb");
-
             URL_Add("facade pattern", "https://en.wikipedia.org/wiki/Facade_pattern");
 
             URL_Add("preferably", "https://en.wiktionary.org/wiki/preferably#Adverb");
@@ -115005,8 +115029,6 @@ namespace OverflowHelper.core
             URL_Add("prevail", "https://en.wiktionary.org/wiki/prevail#Verb");
 
             URL_Add("zealot", "https://en.wiktionary.org/wiki/zealot#Noun");
-
-            URL_Add("decibel", "https://en.wikipedia.org/wiki/Decibel");
 
             URL_Add("semantically", "https://en.wiktionary.org/wiki/semantically#Adverb");
 
@@ -121063,8 +121085,6 @@ namespace OverflowHelper.core
             URL_Add("proved", "https://en.wiktionary.org/wiki/prove#Verb");
 
             URL_Add("throat", "https://en.wiktionary.org/wiki/throat#Noun");
-
-            URL_Add("decides", "https://en.wiktionary.org/wiki/decide#Verb");
 
             URL_Add("Loki", "https://en.wikipedia.org/wiki/Elementary_OS#0.4_Loki");
 
@@ -129160,7 +129180,7 @@ namespace OverflowHelper.core
 
             URL_Add("Helix QAC", "https://en.wikipedia.org/wiki/Helix_QAC");
 
-            URL_Add("DASBOB", "https://github.com/GroooveBob/DASBOB");
+            URL_Add("DASBOB (35%)", "https://github.com/GroooveBob/DASBOB");
 
             URL_Add("RebelCMS", "https://github.com/RebelCMS/rebelcmsxu5");
 
@@ -129176,7 +129196,7 @@ namespace OverflowHelper.core
 
             URL_Add("Wine-GE", "https://github.com/GloriousEggroll/wine-ge-custom");
 
-            URL_Add("3w6", "https://github.com/weteor/3W6");
+            URL_Add("3w6 (35%)", "https://github.com/weteor/3W6");
 
             URL_Add("CSPICE", "https://github.com/GregoireHENRY/rust-spice");
 
@@ -129862,7 +129882,7 @@ namespace OverflowHelper.core
 
             URL_Add("Forefront TMG", "https://en.wikipedia.org/wiki/Microsoft_Forefront_Threat_Management_Gateway");
 
-            URL_Add("RAII Wireless", "https://github.com/unspecworks/raii-wireless");
+            URL_Add("RAII Wireless (30%)", "https://github.com/unspecworks/raii-wireless");
 
             URL_Add("Thumb-Key", "https://github.com/dessalines/thumb-key");
 
@@ -136284,14 +136304,6 @@ namespace OverflowHelper.core
 
             URL_Add("base 10", "https://en.wikipedia.org/wiki/Decimal#Other_bases");
 
-            URL_Add("decimally", "https://en.wiktionary.org/wiki/decimally#Adverb");
-
-            URL_Add("decimal point", "https://en.wiktionary.org/wiki/decimal_point#Noun");
-
-            URL_Add("Decimal.Round", "https://learn.microsoft.com/en-us/dotnet/api/system.decimal.round");
-
-            URL_Add("Math.Round", "https://learn.microsoft.com/en-us/dotnet/api/system.math.round");
-
             URL_Add("hexadecimal", "https://en.wikipedia.org/wiki/Hexadecimal");
 
             URL_Add("Octave", "https://en.wikipedia.org/wiki/GNU_Octave");
@@ -138604,7 +138616,7 @@ namespace OverflowHelper.core
 
             URL_Add("Kanata", "https://github.com/jtroo/kanata");
 
-            URL_Add("Chocofi Temper", "https://github.com/raeedcho/temper");
+            URL_Add("Chocofi Temper (35%)", "https://github.com/raeedcho/temper");
 
             URL_Add("Qwertykeys", "https://github.com/qmk/qmk_firmware/issues/24085");
 
@@ -140092,6 +140104,24 @@ namespace OverflowHelper.core
 
             URL_Add("jamming", "https://en.wiktionary.org/wiki/jamming#Noun");
 
+            URL_Add("decide", "https://en.wiktionary.org/wiki/decide#Verb");
+
+            URL_Add("decides", "https://en.wiktionary.org/wiki/decide#Verb");
+
+            URL_Add("deciding", "https://en.wiktionary.org/wiki/decide#Verb");
+
+            URL_Add("decided", "https://en.wiktionary.org/wiki/decide#Verb");
+
+            URL_Add("decibel", "https://en.wikipedia.org/wiki/Decibel");
+
+            URL_Add("decimally", "https://en.wiktionary.org/wiki/decimally#Adverb");
+
+            URL_Add("decimal point", "https://en.wiktionary.org/wiki/decimal_point#Noun");
+
+            URL_Add("Decimal.Round", "https://learn.microsoft.com/en-us/dotnet/api/system.decimal.round");
+
+            URL_Add("Math.Round", "https://learn.microsoft.com/en-us/dotnet/api/system.math.round");
+
             URL_Add("decision", "https://en.wiktionary.org/wiki/decision#Noun");
 
             URL_Add("decisions", "https://en.wiktionary.org/wiki/decision#Noun");
@@ -140103,6 +140133,12 @@ namespace OverflowHelper.core
             URL_Add("decision tree", "https://en.wikipedia.org/wiki/Decision_tree");
 
             URL_Add("Decision Model and Notation", "https://en.wikipedia.org/wiki/Decision_Model_and_Notation");
+
+            URL_Add("decisional Diffie–Hellman", "https://en.wikipedia.org/wiki/Decisional_Diffie%E2%80%93Hellman_assumption");
+
+            URL_Add("decipher", "https://en.wiktionary.org/wiki/decipher#Verb");
+
+            URL_Add("Diffie–Hellman key exchange", "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange");
 
             URL_Add("shtick", "https://en.wiktionary.org/wiki/shtick#Noun");
 
@@ -142246,7 +142282,7 @@ namespace OverflowHelper.core
 
             URL_Add("ELM327", "https://en.wikipedia.org/wiki/ELM327");
 
-            URL_Add("PB Gherkin", "https://blog.adafruit.com/2022/02/10/pb-gherkin-30-keyboard-with-kmk-circuitpython-kb2040/");
+            URL_Add("PB Gherkin (30%)", "https://blog.adafruit.com/2022/02/10/pb-gherkin-30-keyboard-with-kmk-circuitpython-kb2040/");
 
             URL_Add("Nice!Nano", "https://splitkb.com/products/nice-nano");
 
@@ -142516,7 +142552,7 @@ namespace OverflowHelper.core
 
             URL_Add("development board", "https://en.wikipedia.org/wiki/Microprocessor_development_board");
 
-            URL_Add("Ximi", "https://github.com/JeffDess/qmk-config/blob/main/keyboards/fingerpunch/ximi/v2/keymaps/jeffdess/readme.md");
+            URL_Add("Ximi (35%)", "https://github.com/JeffDess/qmk-config/blob/main/keyboards/fingerpunch/ximi/v2/keymaps/jeffdess/readme.md");
 
             URL_Add("amount", "https://en.wiktionary.org/wiki/amount#Noun");
 
@@ -142606,9 +142642,9 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron Lemokey P3 HE (85%)", "https://www.keychron.com/products/lemokey-p3-he-wireless-magnetic-switch-custom-gaming-keyboard");
 
-            URL_Add("Lemokey L0 HE", "https://www.lemokey.com/products/lemokey-l0-he-one-handed-magnetic-switch-gaming-keyboard");
+            URL_Add("Lemokey L0 HE (35%)", "https://www.lemokey.com/products/lemokey-l0-he-one-handed-magnetic-switch-gaming-keyboard");
 
-            URL_Add("Keychron Lemokey X0", "https://www.lemokey.com/products/lemokey-x0-qmk-wired-mechanical-gaming-keypad");
+            URL_Add("Keychron Lemokey X0 (30%)", "https://www.lemokey.com/products/lemokey-x0-qmk-wired-mechanical-gaming-keypad");
 
             URL_Add("Keychron Lemokey X1 (85%)", "https://www.keychron.com/products/lemokey-x1-qmk-via-wired-mechanical-keyboard");
 
@@ -144122,10 +144158,6 @@ namespace OverflowHelper.core
 
             URL_Add("Internetwork Packet Exchange", "https://en.wikipedia.org/wiki/Internetwork_Packet_Exchange");
 
-            URL_Add("decisional Diffie–Hellman", "https://en.wikipedia.org/wiki/Decisional_Diffie%E2%80%93Hellman_assumption");
-
-            URL_Add("Diffie–Hellman key exchange", "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange");
-
             URL_Add("Microsoft Exchange Server", "https://en.wikipedia.org/wiki/Microsoft_Exchange_Server");
 
             URL_Add("Exchange Server 2003", "https://en.wikipedia.org/wiki/History_of_Microsoft_Exchange_Server#Exchange_Server_2003"); // Old: https://en.wikipedia.org/wiki/Microsoft_Exchange_Server#Exchange_Server_2003
@@ -145470,8 +145502,6 @@ namespace OverflowHelper.core
 
             URL_Add("cipher", "https://en.wikipedia.org/wiki/Cipher");
 
-            URL_Add("decipher", "https://en.wiktionary.org/wiki/decipher#Verb");
-
             URL_Add("ciphertext", "https://en.wikipedia.org/wiki/Ciphertext");
 
             URL_Add("Vigenère cipher", "https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher");
@@ -146228,7 +146258,7 @@ namespace OverflowHelper.core
 
             URL_Add("Keyboard Layout Editor", "https://thekeeblog.com/creating-the-perfect-keyboard-layout-with-keyboard-layout-editor/");
 
-            URL_Add("Cygnus", "https://www.reddit.com/r/ErgoMechKeyboards/comments/1bsbdeq/comment/kxee7ho/"); // Old: <https://www.reddit.com/r/ErgoMechKeyboards/comments/1bsbdeq/cygnus_10_release_3x5_3x6_wireless_versions/>
+            URL_Add("Cygnus (35%)", "https://www.reddit.com/r/ErgoMechKeyboards/comments/1bsbdeq/comment/kxee7ho/"); // Old: <https://www.reddit.com/r/ErgoMechKeyboards/comments/1bsbdeq/cygnus_10_release_3x5_3x6_wireless_versions/>
 
             URL_Add("SiCK-68 (65%)", "https://www.thingiverse.com/thing:3478494");
 
@@ -146244,11 +146274,11 @@ namespace OverflowHelper.core
 
             URL_Add("NuPhy Air96 V2 (95%)", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air96_v2/ansi");
 
-            URL_Add("Cheapino", "https://github.com/tompi/cheapino/tree/master");
+            URL_Add("Cheapino (35%)", "https://github.com/tompi/cheapino/tree/master");
 
-            URL_Add("K02", "https://github.com/anothermimich/K02");
+            URL_Add("K02 (30%)", "https://github.com/anothermimich/K02");
 
-            URL_Add("Charybdis", "https://github.com/Bastardkb/Charybdis/tree/main");
+            URL_Add("Charybdis (35%)", "https://github.com/Bastardkb/Charybdis/tree/main");
 
             URL_Add("Lintilla (40%)", "https://github.com/ctranstrum/lintilla");
 
@@ -146256,7 +146286,7 @@ namespace OverflowHelper.core
 
             URL_Add("Lotus58 (55%)", "https://github.com/impoze/Lotus58");
 
-            URL_Add("Swoop", "https://github.com/jimmerricks/swoop");
+            URL_Add("Swoop (30%)", "https://github.com/jimmerricks/swoop");
 
             URL_Add("High Plains Drifter (55%)", "https://github.com/ergohaven/hpd");
 
@@ -146268,29 +146298,29 @@ namespace OverflowHelper.core
 
             URL_Add("Dygma Sonsei (55%)", "https://dygma.com/pages/sonsei");
 
-            URL_Add("Swweeep", "https://github.com/sadekbaroudi/sweep36#swweeep");
+            URL_Add("Swweeep (35%)", "https://github.com/sadekbaroudi/sweep36#swweeep");
 
-            URL_Add("Urchin", "https://github.com/duckyb/urchin");
+            URL_Add("Urchin (30%)", "https://github.com/duckyb/urchin");
 
-            URL_Add("TOTEM", "https://github.com/GEIGEIGEIST/TOTEM");
+            URL_Add("TOTEM (35%)", "https://github.com/GEIGEIGEIST/TOTEM");
 
             URL_Add("KLOR (40%)", "https://github.com/GEIGEIGEIST/KLOR");
 
-            URL_Add("Hummingbird", "https://github.com/PJE66/hummingbird");
+            URL_Add("Hummingbird (30%)", "https://github.com/PJE66/hummingbird");
 
             URL_Add("Kaly42 (40%)", "https://github.com/Dwctor/Kaly");
 
             URL_Add("Deej", "https://github.com/omriharel/deej");
 
-            URL_Add("Skeletyl", "https://github.com/Bastardkb/Skeletyl");
+            URL_Add("Skeletyl (35%)", "https://github.com/Bastardkb/Skeletyl");
 
-            URL_Add("Ferris Sweep", "https://github.com/davidphilipbarr/Sweep/tree/main/Sweep%20v2.2");
+            URL_Add("Ferris Sweep (30%)", "https://github.com/davidphilipbarr/Sweep/tree/main/Sweep%20v2.2");
 
-            URL_Add("Ferris", "https://github.com/pierrechevalier83/ferris");
+            URL_Add("Ferris (30%)", "https://github.com/pierrechevalier83/ferris");
 
             URL_Add("Reviung 41 (40%)", "https://github.com/gtips/reviung");
 
-            URL_Add("Reviung 34", "https://github.com/gtips/reviung/tree/master/reviung34");
+            URL_Add("Reviung 34 (30%)", "https://github.com/gtips/reviung/tree/master/reviung34");
 
             URL_Add("Tractyl ManuForm (60%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/tractyl_manuform");
 
@@ -146368,13 +146398,13 @@ namespace OverflowHelper.core
 
             URL_Add("Apple A1243 aluminium Keyboard", "https://en.wikipedia.org/wiki/Apple_keyboards#Apple_Keyboard_(109_and_78_keys)");
 
-            URL_Add("Chocofi", "https://kriscables.com/product/chocofi-split-keyboard-kit/");
+            URL_Add("Chocofi (35%)", "https://kriscables.com/product/chocofi-split-keyboard-kit/");
 
             URL_Add("Corne keyboard (40%)", "https://github.com/foostan/crkbd");
 
-            URL_Add("Cornifi", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/cornifi/readme.md#L5");
+            URL_Add("Cornifi (35%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/cornifi/readme.md#L5");
 
-            URL_Add("Fifi", "https://github.com/raychengy/fifi_split_keeb");
+            URL_Add("Fifi (35%)", "https://github.com/raychengy/fifi_split_keeb");
 
             URL_Add("MoErgo Go60 (55%)", "https://www.youtube.com/watch?v=Ap8JD-ELR38");
 
@@ -149642,7 +149672,7 @@ namespace OverflowHelper.core
 
             URL_Add("Logitech Ergo K860 (105%)", "https://www.pcmag.com/reviews/logitech-ergo-k860");
 
-            URL_Add("Cantor Remix", "https://github.com/nilokr/cantor-remix");
+            URL_Add("Cantor Remix (35%)", "https://github.com/nilokr/cantor-remix");
 
             URL_Add("FlickBoard", "https://github.com/nightkr/flickboard");
 
@@ -170884,10 +170914,6 @@ namespace OverflowHelper.core
 
             URL_Add("Moment.js_", "https://momentjs.com/");
 
-            URL_Add("octal_", "https://en.wiktionary.org/wiki/octal#Adjective");
-
-            URL_Add("decimal_", "https://en.wiktionary.org/wiki/decimal#Noun");
-
             URL_Add("lap_", "https://en.wiktionary.org/wiki/lap#Noun");
 
             URL_Add("Arduino_", "https://en.wikipedia.org/wiki/Arduino");
@@ -173098,36 +173124,6 @@ namespace OverflowHelper.core
 
             URL_Add("lean_", "https://en.wikipedia.org/wiki/Lean_thinking");
 
-            URL_Add("today I learned_", "https://en.wiktionary.org/wiki/TIL#Phrase");
-
-            URL_Add("decision tree learning_", "https://en.wikipedia.org/wiki/Decision_tree_learning");
-
-            URL_Add("supervised learning_", "https://en.wikipedia.org/wiki/Supervised_learning");
-
-            URL_Add("deep learning_", "https://en.wikipedia.org/wiki/Deep_learning");
-
-            URL_Add("artificial superintelligence_", "https://en.wikipedia.org/wiki/Superintelligence#Feasibility_of_artificial_superintelligence");
-
-            URL_Add("simulated intelligence watermarking_", "https://en.wikipedia.org/wiki/Text_watermarking#History");
-
-            URL_Add("large language model_", "https://en.wikipedia.org/wiki/Large_language_model");
-
-            URL_Add("large language models_", "https://en.wikipedia.org/wiki/Large_language_model");
-
-            URL_Add("GPT_", "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer");
-
-            URL_Add("Copilot (copyright laundering machine)_", "https://odysee.com/@TheLinuxExperiment:e/microsoft-isn't-the-enemy-of-linux-and:3");
-
-            URL_Add("Hugging Face_", "https://en.wikipedia.org/wiki/Hugging_Face");
-
-            URL_Add("Anthropic_", "https://en.wikipedia.org/wiki/Anthropic");
-
-            URL_Add("test data set_", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
-
-            URL_Add("Iris data set_", "https://en.wikipedia.org/wiki/Iris_flower_data_set");
-
-            URL_Add("computer vision_", "https://en.wikipedia.org/wiki/Computer_vision");
-
             URL_Add("PowerShell_", "https://en.wikipedia.org/wiki/PowerShell"); // Old: https://en.wikipedia.org/wiki/Windows_PowerShell
 
             URL_Add("Get-History_", "https://docs.microsoft.com/en-us/powershell/module/Microsoft.PowerShell.Core/Get-History");
@@ -173659,6 +173655,40 @@ namespace OverflowHelper.core
             URL_Add("Multi-Threaded Apartment_", "https://en.wikipedia.org/wiki/Component_Object_Model#Threading");
 
             URL_Add("Basic Multilingual Plane_", "https://en.wikipedia.org/wiki/Plane_(Unicode)");
+
+            URL_Add("octal_", "https://en.wiktionary.org/wiki/octal#Adjective");
+
+            URL_Add("decimal_", "https://en.wiktionary.org/wiki/decimal#Noun");
+
+            URL_Add("decision tree learning_", "https://en.wikipedia.org/wiki/Decision_tree_learning");
+
+            URL_Add("today I learned_", "https://en.wiktionary.org/wiki/TIL#Phrase");
+
+            URL_Add("supervised learning_", "https://en.wikipedia.org/wiki/Supervised_learning");
+
+            URL_Add("deep learning_", "https://en.wikipedia.org/wiki/Deep_learning");
+
+            URL_Add("artificial superintelligence_", "https://en.wikipedia.org/wiki/Superintelligence#Feasibility_of_artificial_superintelligence");
+
+            URL_Add("simulated intelligence watermarking_", "https://en.wikipedia.org/wiki/Text_watermarking#History");
+
+            URL_Add("large language model_", "https://en.wikipedia.org/wiki/Large_language_model");
+
+            URL_Add("large language models_", "https://en.wikipedia.org/wiki/Large_language_model");
+
+            URL_Add("GPT_", "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer");
+
+            URL_Add("Copilot (copyright laundering machine)_", "https://odysee.com/@TheLinuxExperiment:e/microsoft-isn't-the-enemy-of-linux-and:3");
+
+            URL_Add("Hugging Face_", "https://en.wikipedia.org/wiki/Hugging_Face");
+
+            URL_Add("Anthropic_", "https://en.wikipedia.org/wiki/Anthropic");
+
+            URL_Add("test data set_", "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets");
+
+            URL_Add("Iris data set_", "https://en.wikipedia.org/wiki/Iris_flower_data_set");
+
+            URL_Add("computer vision_", "https://en.wikipedia.org/wiki/Computer_vision");
 
         } //addLookupData_alternativeWordSet()
 
