@@ -4757,44 +4757,6 @@ namespace OverflowHelper.core
 
             // Note: "can" is in an alternative word set
             //
-            correctionAdd("can'not", "can’t");
-            correctionAdd("cann't", "can’t"); // A true typo!
-            correctionAdd("cann’t", "can’t");
-            correctionAdd("connot", "can’t");
-            correctionAdd("carn’t", "can’t");
-            correctionAdd("camn't", "can’t");
-            correctionAdd("can;'t", "can’t");
-            correctionAdd("cant't", "can’t");
-            correctionAdd("can'te", "can’t");
-            correctionAdd("can't", "can’t");
-            correctionAdd("Cant'", "can’t");
-            correctionAdd("cant'", "can’t");
-            correctionAdd("Carnt", "can’t");
-            correctionAdd("carnt", "can’t");
-            correctionAdd("can'T", "can’t");
-            correctionAdd("Can't", "can’t");
-            correctionAdd("cam’t", "can’t");
-            correctionAdd("can'i", "can’t");
-            correctionAdd("can'n", "can’t");
-            correctionAdd("can;t", "can’t");
-            correctionAdd("can¸t", "can’t");
-            correctionAdd("cannt", "can’t");
-            correctionAdd("cxant", "can’t");
-            correctionAdd("can t", "can’t");
-            correctionAdd("CAN'T", "can’t");
-            correctionAdd("can´t", "can’t");
-            correctionAdd("Can´t", "can’t");
-            correctionAdd("can`t", "can’t");
-            correctionAdd("Can`t", "can’t");
-            correctionAdd("cant", "can’t");
-            correctionAdd("cand", "can’t");
-            correctionAdd("Cant", "can’t");
-            correctionAdd("cAnt", "can’t");
-            correctionAdd("CANT", "can’t");
-            correctionAdd("cn't", "can’t");
-            correctionAdd("cnt", "can’t");
-            correctionAdd("ant", "can’t");
-
             correctionAdd("can not", "cannot");
             correctionAdd("cannoth", "cannot");
             correctionAdd("cannont", "cannot");
@@ -26879,6 +26841,10 @@ namespace OverflowHelper.core
 
             correctionAdd("<Algorithm>", "<algorithm>");
 
+            correctionAdd("Apache Ant", "Ant");
+            correctionAdd("ANT", "Ant");
+            correctionAdd("ant", "Ant");
+
             // An Apache project (not the web server)
             //
             // Alternative URLs:
@@ -31499,6 +31465,32 @@ namespace OverflowHelper.core
 
             correctionAdd("preventative", "preventive");
             correctionAdd("Preventive", "preventive");
+
+            // Note: "libraries" is in an alternative word set
+            correctionAdd("librairies", "library"); // Not 100% correct - plural
+            correctionAdd("linlibrary", "library");
+            correctionAdd("libraties", "library"); // Not 100% correct - plural
+            correctionAdd("librabry", "library");
+            correctionAdd("libraray", "library");
+            correctionAdd("librairy", "library");
+            correctionAdd("librarry", "library");
+            correctionAdd("librarie", "library"); // A true typo
+            correctionAdd("libaray", "library");
+            correctionAdd("Library", "library");
+            correctionAdd("librray", "library");
+            correctionAdd("libeary", "library"); // A true typo
+            correctionAdd("libary", "library");
+            correctionAdd("libray", "library");
+            correctionAdd("lib", "library");
+            correctionAdd("Lib", "library"); // Not 100% correct - casing.
+
+            correctionAdd("enterprise library", "Enterprise Library"); // Really "Microsoft Enterprise Library"
+
+            correctionAdd("ESB", "enterprise service bus");
+
+            correctionAdd("nservicebus", "NServiceBus");
+
+            correctionAdd("Unstructured Supplementary Service Data", "USSD");
 
             correctionAdd("tiring", "tiering");
 
@@ -65270,31 +65262,6 @@ namespace OverflowHelper.core
             correctionAdd("un-addressed", "unaddressed");
 
             correctionAdd("address-space", "address space");
-
-            // Note: "libraries" is in an alternative word set
-            correctionAdd("librairies", "library"); // Not 100% correct - plural
-            correctionAdd("linlibrary", "library");
-            correctionAdd("libraties", "library"); // Not 100% correct - plural
-            correctionAdd("librabry", "library");
-            correctionAdd("libraray", "library");
-            correctionAdd("librairy", "library");
-            correctionAdd("librarry", "library");
-            correctionAdd("libaray", "library");
-            correctionAdd("Library", "library");
-            correctionAdd("librray", "library");
-            correctionAdd("libeary", "library"); // A true typo
-            correctionAdd("libary", "library");
-            correctionAdd("libray", "library");
-            correctionAdd("lib", "library");
-            correctionAdd("Lib", "library"); // Not 100% correct - casing.
-
-            correctionAdd("enterprise library", "Enterprise Library"); // Really "Microsoft Enterprise Library"
-
-            correctionAdd("ESB", "enterprise service bus");
-
-            correctionAdd("nservicebus", "NServiceBus");
-
-            correctionAdd("Unstructured Supplementary Service Data", "USSD");
 
             correctionAdd("diagnostisc", "diagnostic");
 
@@ -110964,8 +110931,6 @@ namespace OverflowHelper.core
 
             URL_Add("hierarchy", "https://en.wiktionary.org/wiki/hierarchy#Noun");
 
-            URL_Add("Xamarin", "https://en.wikipedia.org/wiki/Xamarin");
-
             URL_Add("VxWorks", "https://en.wikipedia.org/wiki/VxWorks");
 
             URL_Add("moreover", "https://en.wiktionary.org/wiki/moreover#Adverb");
@@ -116956,8 +116921,6 @@ namespace OverflowHelper.core
 
             URL_Add("getent", "https://en.wikipedia.org/wiki/Getent");
 
-            URL_Add("can’t", "https://en.wiktionary.org/wiki/can%27t#Verb"); // Old: https://en.wiktionary.org/wiki/can%27t
-
             URL_Add("cannot", "https://en.wiktionary.org/wiki/cannot#Verb");
 
             URL_Add("Candle", "https://en.wikipedia.org/wiki/WiX#Tools"); // Old: https://en.wikipedia.org/wiki/WiX#Candle
@@ -121466,8 +121429,6 @@ namespace OverflowHelper.core
 
             URL_Add("poor", "https://en.wiktionary.org/wiki/poor#Adjective");
 
-            URL_Add("Xamarin Studio", "https://en.wikipedia.org/wiki/Xamarin#Xamarin_Studio");
-
             URL_Add("corner case", "https://en.wiktionary.org/wiki/corner_case#Noun");
 
             URL_Add("ProLiant", "https://en.wikipedia.org/wiki/ProLiant");
@@ -123584,8 +123545,6 @@ namespace OverflowHelper.core
 
             URL_Add("Tornado Jockey", "https://en.wikipedia.org/wiki/List_of_WildTangent_games#From_AWS");
 
-            URL_Add("Elora (60%)", "https://splitkb.com/products/elora");
-
             URL_Add("psychiatric", "https://en.wiktionary.org/wiki/psychiatric#Adjective");
 
             URL_Add("radical", "https://en.wiktionary.org/wiki/rad#Adjective");
@@ -123633,8 +123592,6 @@ namespace OverflowHelper.core
             URL_Add("self-regulating", "https://en.wiktionary.org/wiki/self-regulating#Adjective");
 
             URL_Add("float", "https://en.wiktionary.org/wiki/float#Noun");
-
-            URL_Add("Wooting 60HE (60%)", "https://www.youtube.com/watch?v=glQNEbh79xg");
 
             URL_Add("predesignated", "https://en.wiktionary.org/wiki/predesignate#Verb");
 
@@ -126670,8 +126627,6 @@ namespace OverflowHelper.core
 
             URL_Add("BoringSSL", "https://en.wikipedia.org/wiki/OpenSSL#BoringSSL");
 
-            URL_Add("K:03 v1 (55%)", "https://www.reddit.com/r/olkb/comments/1f75l5r/k03_v1_goes_full_opensource/");
-
             URL_Add("AMD Adrenalin", "https://en.wikipedia.org/wiki/AMD_Software#OpenGL");
 
             URL_Add("demonstrations", "https://en.wiktionary.org/wiki/demonstration#Noun");
@@ -129180,8 +129135,6 @@ namespace OverflowHelper.core
 
             URL_Add("Helix QAC", "https://en.wikipedia.org/wiki/Helix_QAC");
 
-            URL_Add("DASBOB (35%)", "https://github.com/GroooveBob/DASBOB");
-
             URL_Add("RebelCMS", "https://github.com/RebelCMS/rebelcmsxu5");
 
             URL_Add("EPKL", "https://github.com/DreymaR/BigBagKbdTrixPKL");
@@ -129195,8 +129148,6 @@ namespace OverflowHelper.core
             URL_Add("Heroic Games Launcher", "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher");
 
             URL_Add("Wine-GE", "https://github.com/GloriousEggroll/wine-ge-custom");
-
-            URL_Add("3w6 (35%)", "https://github.com/weteor/3W6");
 
             URL_Add("CSPICE", "https://github.com/GregoireHENRY/rust-spice");
 
@@ -129881,8 +129832,6 @@ namespace OverflowHelper.core
             URL_Add("OK", "https://en.wiktionary.org/wiki/OK#Etymology_1");
 
             URL_Add("Forefront TMG", "https://en.wikipedia.org/wiki/Microsoft_Forefront_Threat_Management_Gateway");
-
-            URL_Add("RAII Wireless (30%)", "https://github.com/unspecworks/raii-wireless");
 
             URL_Add("Thumb-Key", "https://github.com/dessalines/thumb-key");
 
@@ -132639,6 +132588,8 @@ namespace OverflowHelper.core
             URL_Add("geolocation", "https://en.wiktionary.org/wiki/geolocation#Noun");
 
             URL_Add("MFC", "https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library");
+
+            URL_Add("Ant", "https://en.wikipedia.org/wiki/Apache_Ant");
 
             URL_Add("APISIX", "https://en.wikipedia.org/wiki/List_of_Apache_Software_Foundation_projects#Active_projects");
 
@@ -136854,8 +136805,6 @@ namespace OverflowHelper.core
 
             URL_Add("Forth Inc.", "https://www.forth.com/");
 
-            URL_Add("Augio (60%)", "https://github.com/danforthewin/Augio");
-
             URL_Add("fifth", "https://en.wiktionary.org/wiki/fifth#Adjective");
 
             URL_Add("fifth normal form", "https://en.wikipedia.org/wiki/Fifth_normal_form");
@@ -138613,24 +138562,6 @@ namespace OverflowHelper.core
             URL_Add("incurring", "https://en.wiktionary.org/wiki/incur#Verb");
 
             URL_Add("qpdfview", "https://github.com/bendikro/qpdfview");
-
-            URL_Add("Kanata", "https://github.com/jtroo/kanata");
-
-            URL_Add("Chocofi Temper (35%)", "https://github.com/raeedcho/temper");
-
-            URL_Add("Qwertykeys", "https://github.com/qmk/qmk_firmware/issues/24085");
-
-            URL_Add("Ergogen", "https://github.com/ergogen/ergogen");
-
-            URL_Add("diodeless", "https://github.com/davidphilipbarr/Sweep/tree/main/Sweep%20v2.2");
-
-            URL_Add("column-staggered", "https://github.com/GEIGEIGEIST/KLOR");
-
-            URL_Add("Colemak Camp", "https://github.com/ColemakCamp/colemakcamp.github.io");
-
-            URL_Add("Colemak Club", "https://github.com/gnusenpai/colemakclub");
-
-            URL_Add("Cantor (40%)", "https://github.com/diepala/cantor");
 
             URL_Add("JavaScripture", "https://github.com/nkronlage/JavaScripture");
 
@@ -142282,8 +142213,6 @@ namespace OverflowHelper.core
 
             URL_Add("ELM327", "https://en.wikipedia.org/wiki/ELM327");
 
-            URL_Add("PB Gherkin (30%)", "https://blog.adafruit.com/2022/02/10/pb-gherkin-30-keyboard-with-kmk-circuitpython-kb2040/");
-
             URL_Add("Nice!Nano", "https://splitkb.com/products/nice-nano");
 
             URL_Add("Nice!View", "https://nicekeyboards.com/docs/nice-view/");
@@ -142552,8 +142481,6 @@ namespace OverflowHelper.core
 
             URL_Add("development board", "https://en.wikipedia.org/wiki/Microprocessor_development_board");
 
-            URL_Add("Ximi (35%)", "https://github.com/JeffDess/qmk-config/blob/main/keyboards/fingerpunch/ximi/v2/keymaps/jeffdess/readme.md");
-
             URL_Add("amount", "https://en.wiktionary.org/wiki/amount#Noun");
 
             URL_Add("paramount", "https://en.wiktionary.org/wiki/paramount#Adjective");
@@ -142574,21 +142501,737 @@ namespace OverflowHelper.core
 
             URL_Add("mount", "https://en.wikipedia.org/wiki/Mount_(Unix)");
 
+            URL_Add("Keychron's main fork of QMK", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k10_pro");
+
+            URL_Add("unify all branches in Keychron's fork", "https://github.com/Keychron/qmk_firmware/issues/217#issuecomment-3479051277");
+
+            URL_Add("the old QMK keycodes", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/docs/keycodes.md");
+
+            URL_Add("hand-wiring", "https://docs.qmk.fm/hand_wire");
+
+            URL_Add("FlickBoard", "https://github.com/nightkr/flickboard");
+
+            URL_Add("Kegboard", "https://github.com/Kegbot/kegboard");
+
+            URL_Add("Keyboard Inspector", "https://github.com/mat1jaczyyy/Keyboard-Inspector");
+
+            URL_Add("fingerboard", "https://en.wikipedia.org/wiki/Fingerboard");
+
+            URL_Add("Topre", "https://www.youtube.com/watch?v=sAo_URRIAiA&t=6m13s");
+
+            URL_Add("Microsoft Keyboard Layout Creator", "https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#Microsoft_Windows");
+
+            URL_Add("keyboard layout", "https://en.wiktionary.org/wiki/keyboard_layout#Noun");
+
+            URL_Add("minimal keyboard layout", "https://www.gadgetwisdom.com/2025/01/15/exploring-unique-keyboard-layouts-minila-hhkb-and-beyond/");
+
+            URL_Add("Alice keyboard layout", "https://deskthority.net/wiki/Alice_layout");
+
+            URL_Add("ISO keyboard layout", "https://en.wikipedia.org/wiki/Keyboard_layout#Physical_layouts");
+
+            URL_Add("JIS keyboard layout", "https://en.wikipedia.org/wiki/Keyboard_layout#Physical_layouts");
+
+            URL_Add("QWERTY keyboard layout", "https://en.wikipedia.org/wiki/QWERTY");
+
+            URL_Add("Danish keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Danish");
+
+            URL_Add("Italian keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Italian");
+
+            URL_Add("Turkish keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Turkish");
+
+            URL_Add("UK keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#United_Kingdom");
+
+            URL_Add("Nativo (Portuguese) keyboard layout", "https://pt.wikipedia.org/wiki/BR-Nativo");
+
+            URL_Add("EurKEY keyboard layout", "https://en.wikipedia.org/wiki/EurKEY");
+
+            URL_Add("United States keyboard layout", "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards");
+
+            URL_Add("US-International keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#US-International");
+
+            URL_Add("Spanish keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Spanish");
+
+            URL_Add("Spanish flu", "https://en.wikipedia.org/wiki/Spanish_flu");
+
+            URL_Add("Hands Down Gold keyboard layout", "https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.8i2msuo3butx");
+
+            URL_Add("Hands Down Neu keyboard layout", "https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.ze4kq734zl5w");
+
+            URL_Add("Keyboard Layout Language", "https://github.com/kiibohd/kll-spec");
+
+            URL_Add("T-34 keyboard layout", "https://www.jonashietala.se/blog/2021/06/03/the-t-34-keyboard-layout/");
+
+            URL_Add("BEAKL keyboard layout", "https://deskthority.net/wiki/BEAKL#BEAKL_15");
+
+            URL_Add("Asset keyboard layout", "https://millikeys.sourceforge.net/asset/");
+
+            URL_Add("Callum keyboard layout", "https://github.com/callum-oakley/qmk_firmware/tree/master/users/callum");
+
+            URL_Add("Canary keyboard layout", "https://github.com/Apsu/Canary");
+
+            URL_Add("Colemak-DH keyboard layout", "https://en.wikipedia.org/wiki/Colemak#Variants");
+
+            URL_Add("Colemak keyboard layout", "https://en.wikipedia.org/wiki/Colemak");
+
+            URL_Add("Colemak Mod-DH keyboard layout", "https://colemakmods.github.io/mod-dh/");
+
+            URL_Add("Tarmak keyboard layout", "https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/");
+
+            URL_Add("Anymak keyboard layout", "https://kbd.news/A-r-evolutionary-approach-to-improve-on-the-standard-keyboard-layout-2559.html");
+
+            URL_Add("Dvorak keyboard layout", "https://en.wikipedia.org/wiki/Dvorak_keyboard_layout");
+
+            URL_Add("BÉPO", "https://en.wikipedia.org/wiki/B%C3%89PO");
+
+            URL_Add("Minimak keyboard layout", "http://www.minimak.org/");
+
+            URL_Add("Engram keyboard layout", "https://sunaku.github.io/engram-keyboard-layout.html");
+
+            URL_Add("Graphite keyboard layout", "https://github.com/rdavison/graphite-layout");
+
+            URL_Add("Halmak keyboard layout", "https://github.com/kaievns/halmak");
+
+            URL_Add("Magic Sturdy keyboard layout", "https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md");
+
+            URL_Add("Middlemak keyboard layout", "https://www.reddit.com/r/Middlemak/wiki/index/");
+
+            URL_Add("Miryoku keyboard layout", "https://github.com/manna-harbour/miryoku#readme");
+
+            URL_Add("Neo 2 keyboard layout", "https://en.wikipedia.org/wiki/Neo_(keyboard_layout)#Neo_2");
+
+            URL_Add("Neo Bone keyboard layout", "https://www.neo-layout.org/Layouts/bone/");
+
+            URL_Add("Nerps keyboard layout", "https://www.reddit.com/r/KeyboardLayouts/comments/tpwyjc/sertain_nerts_nerps_low_redirect_low_sfb_low/");
+
+            URL_Add("Norman keyboard layout", "https://normanlayout.info/");
+
+            URL_Add("Notarise keyboard layout", "https://www.keyboard-design.com/letterlayout.html?layout=notarise.en.ansi");
+
+            URL_Add("Seniply keyboard layout", "https://stevep99.github.io/seniply/");
+
+            URL_Add("Sturdy keyboard layout", "https://oxey.dev/sturdy/index.html");
+
+            URL_Add("Workman keyboard layout", "https://en.wikipedia.org/wiki/Keyboard_layout#Workman");
+
+            URL_Add("Recurva keyboard layout", "https://github.com/GalileoBlues/Recurva");
+
+            URL_Add("Gallium keyboard layout", "https://www.keyboard-design.com/letterlayout.html?layout=gallium2.en.ansi"); // Associated with chemical element 31
+
+            URL_Add("CC2540", "https://www.ti.com/product/CC2540");
+
+            URL_Add("piconet", "https://en.wikipedia.org/wiki/Piconet");
+
+            URL_Add("scroll", "https://en.wiktionary.org/wiki/scroll#Verb");
+
+            URL_Add("scrollable", "https://en.wiktionary.org/wiki/scrollable#Adjective");
+
+            URL_Add("scrolling", "https://en.wiktionary.org/wiki/scroll#Verb");
+
+            URL_Add("scroll bar", "https://en.wiktionary.org/wiki/scroll_bar#Noun");
+
+            URL_Add("unscrollable", "https://en.wiktionary.org/wiki/unscrollable#Adjective");
+
+            URL_Add("infinite scroll", "https://en.wikipedia.org/wiki/Infinite_scrolling");
+
+            URL_Add("mouse scroll wheel", "https://en.wikipedia.org/wiki/Scroll_wheel");
+
+            URL_Add("mouse", "https://en.wiktionary.org/wiki/mouse#Noun");
+
+            URL_Add("mice", "https://en.wiktionary.org/wiki/mouse#Noun");
+
+            URL_Add("mouseclicks", "https://en.wiktionary.org/wiki/mouseclick#Noun");
+
+            URL_Add("cat-and-mouse", "https://en.wiktionary.org/wiki/cat-and-mouse#Adjective");
+
+            URL_Add("trackball", "https://en.wikipedia.org/wiki/Trackball");
+
+            URL_Add("Wacom Bamboo", "https://en.wikipedia.org/wiki/Wacom#Other_products");
+
+            URL_Add("Mousepad", "https://en.wikipedia.org/wiki/Xfce#Mousepad");
+
+            URL_Add("Kanata", "https://github.com/jtroo/kanata");
+
+            URL_Add("diodeless", "https://github.com/davidphilipbarr/Sweep/tree/main/Sweep%20v2.2");
+
+            URL_Add("column-staggered", "https://github.com/GEIGEIGEIST/KLOR");
+
+            URL_Add("Colemak Camp", "https://github.com/ColemakCamp/colemakcamp.github.io");
+
+            URL_Add("Colemak Club", "https://github.com/gnusenpai/colemakclub");
+
+            URL_Add("Ergogen", "https://github.com/ergogen/ergogen");
+
+            URL_Add("Qwertykeys", "https://github.com/qmk/qmk_firmware/issues/24085");
+
+            URL_Add("keycap legends", "https://www.reddit.com/r/MechanicalKeyboards/comments/g9z0t1/where_to_design_custom_keycap_legends/");
+
+            URL_Add("Dygma Lab", "https://www.theverge.com/22951481/dygma-raise-review-ergonomic-keyboard-review");
+
+            URL_Add("Bazecor", "https://www.reddit.com/r/DygmaLab/comments/15hzxj4/important_download_bazecor_132/");
+
+            URL_Add("Hasu controller", "https://deskthority.net/viewtopic.php?t=13976");
+
+            URL_Add("Lemokey", "https://www.tomshardware.com/reviews/lemokey-l3");
+
+            URL_Add("Keychron broke compilation for all K Pro and Q Pro series keyboards", "https://github.com/Keychron/qmk_firmware/issues/396#issuecomment-3102239204");
+
+            URL_Add("Svalboard", "https://www.reddit.com/r/ErgoMechKeyboards/comments/13kct7j/welcome_to_svalboard_a_production/");
+
+            URL_Add("Oblotzky Industries", "https://www.reddit.com/r/MechanicalKeyboards/comments/ftixhj/announcing_oblotzkyindustries_a_new_vendor_for/");
+
+            URL_Add("Caps2esc", "https://gitlab.com/interception/linux/plugins/caps2esc");
+
+            URL_Add("AutoKey", "https://en.wikipedia.org/wiki/AutoKey");
+
+            URL_Add("Keyboard Maestro", "https://en.wikipedia.org/wiki/Keyboard_Maestro");
+
+            URL_Add("Ukelele", "https://www.cnet.com/tech/computing/create-custom-keyboard-layouts-with-ukelele/");
+
+            URL_Add("Keyboard Layout Editor", "https://thekeeblog.com/creating-the-perfect-keyboard-layout-with-keyboard-layout-editor/");
+
+            URL_Add("Deej", "https://github.com/omriharel/deej");
+
+            URL_Add("Corsair", "https://en.wikipedia.org/wiki/Corsair_Components#Products");
+
+            URL_Add("Corsair CX450", "https://www.corsair.com/us/en/p/psu/cp-9020120-na/cx-series-cx450-450-watt-80-plus-bronze-certified-atx-psus-cp-9020120-na");
+
+            URL_Add("CharaCorder X", "https://www.reddit.com/r/Keyboard/comments/15ow8de/characorder_x_experiences/");
+
+            URL_Add("Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard/");
+
+            URL_Add("Pikatea Macropad GB5", "https://www.pikatea.com/products/pikatea-macropad-gb5");
+
+            URL_Add("The Key", "https://drop.com/buy/stack-overflow-the-key-v2-macropad");
+
+            URL_Add("duckyPad", "https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad/");
+
+            URL_Add("DMQ SPIN", "https://www.reddit.com/r/MechanicalKeyboards/comments/i9g49w/dmq_spin_macropad_build/");
+
+            URL_Add("Asus TUF Gaming F15", "https://www.asus.com/us/Laptops/For-Gaming/TUF-Gaming/2021-ASUS-TUF-Gaming-F15/");
+
+            URL_Add("Asus USB-BT500", "https://www.asus.com/us/networking-iot-servers/adapters/all-series/usb-bt500/");
+
+            URL_Add("Royal Kludge", "https://www.rtings.com/keyboard/reviews/royal-kludge/rk61");
+
+            URL_Add("Typeractive.xyz", "https://typeractive.xyz/policies/terms-of-service");
+
+            URL_Add("ControlPad", "https://www.coolermaster.com/catalog/peripheral/keyboards/controlpad/");
+
+            URL_Add("OmniPoint", "https://www.mechanical-keyboard.org/new-keyboards-and-omnipoint-switches-from-steelseries/");
+
+            URL_Add("Cosmos Keyboards", "https://github.com/rianadon/Cosmos-Keyboards");
+
+            URL_Add("velvet gloves", "https://www.youtube.com/watch?v=rjECbQ1r-k0&t=10m48s");
+
+            URL_Add("keyboard shortcut", "https://en.wiktionary.org/wiki/keyboard_shortcut#Noun"); // Old: https://en.wiktionary.org/wiki/keyboard_shortcut
+
+            URL_Add("Type Fu", "https://www.softpedia.com/reviews/mac/Type-Fu-Review-410186.shtml");
+
+            URL_Add("QuicKeys", "https://www.macworld.com/article/205119/quickeys4_review.html");
+
+            URL_Add("BetterTouchTool", "https://www.macworld.com/article/551700/mac-gems-bettertouchtool-review.html");
+
+            URL_Add("HID Macros", "https://www.hidmacros.eu/whatisit.php"); // Old: <http://www.hidmacros.eu/whatisit.php>
+
+            URL_Add("LuaMacros", "https://github.com/me2d13/luamacros");
+
+            URL_Add("X macro", "https://en.wikipedia.org/wiki/X_Macro");
+
+            URL_Add("Via limitations", "https://pmortensen.eu/world2/2024/02/26/a-hack-to-use-mouse-actions-in-via-macros#listOfViaDeficiencies_and_solutions");
+
+            URL_Add("QMK lighting modes", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard#LightingModes");
+
+            URL_Add("setting up the default RGB lighting configuration in QMK", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard#default_RGB_lighting");
+
+            URL_Add("KVM switch", "https://en.wikipedia.org/wiki/KVM_switch");
+
+            URL_Add("DIP switch", "https://en.wikipedia.org/wiki/DIP_switch");
+
+            URL_Add("miniature snap-action switch", "https://en.wikipedia.org/wiki/Miniature_snap-action_switch");
+
+            URL_Add("low-profile mechanical switches", "https://switchandclick.com/low-profile-switches-explained/");
+
+            URL_Add("ultra-low-profile mechanical switches", "https://github.com/pashutk/Cherry_MX_ULP");
+
+            URL_Add("linear switches", "https://switchandclick.com/linear-vs-tactile-vs-clicky-switches-a-helpful-guide-with-an-infographic/");
+
+            URL_Add("tactile switches", "https://switchandclick.com/top-5-best-tactile-switches-for-your-mechanical-keyboard/");
+
+            URL_Add("clicky switches", "https://switchandclick.com/best-clicky-switches-for-your-mechanical-keyboard/");
+
+            URL_Add("optical switches", "https://www.tomshardware.com/news/what-are-optical-keyboard-switches,32352.html");
+
+            URL_Add("Cherry MX switches", "https://en.wikipedia.org/wiki/Cherry_AG#Cherry_MX"); // Old: https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards. Even older: https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards
+
+            URL_Add("Cherry MX Silent Red switches", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Silent Black switches", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Clear switches", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX");
+
+            URL_Add("Cherry MX Tactile Grey switches", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Cherry MX Black switches", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
+
+            URL_Add("Gateron switches", "https://switchandclick.com/2020/07/09/gateron-switch-guide-budget-friendly-and-smooth/");
+
+            URL_Add("Gateron Pink switches", "https://dailyclack.com/products/gateron-pink");
+
+            URL_Add("Gateron Baby Kangaroo switches", "https://www.reddit.com/r/Keychron/comments/131jyf5/keychron_k_pro_brown_vs_banana_vs_gateron_baby/");
+
+            URL_Add("Gateron Blue Cap switches", "https://www.gateron.co/blogs/news/a-detailed-review-of-the-gateron-cap-blue-and-cap-brown-switches");
+
+            URL_Add("Gateron Brown Cap switches", "https://www.gateron.co/blogs/news/a-detailed-review-of-the-gateron-cap-blue-and-cap-brown-switches");
+
+            URL_Add("Gateron Brown switches", "https://dailyclack.com/products/gateron-switches");
+
+            URL_Add("Gateron G Pro Brown switches", "https://www.gateron.co/collections/g-pro-series/products/gateron-switch-set?variant=40017397448793");
+
+            URL_Add("Gateron G Pro switches", "https://hhkeyboard.us/blog/gateron-switches-guide");
+
+            URL_Add("Gateron Jupiter Banana switches", "https://milktooth.com/comparisons/jupiter-banana-vs-jupiter-red"); // Old (malicious?): <https://digiva.net/gateron-switch-guide/#Gateron_Jupiter_Switch>
+
+            URL_Add("Gateron Jupiter Brown switches", "https://milktooth.com/products/switches/jupiter-brown");
+
+            URL_Add("Gateron Jupiter Red switches", "https://milktooth.com/products/switches/jupiter-red");
+
+            URL_Add("Gateron Jupiter Yellow switches", "https://digiva.net/gateron-switch-guide/#Gateron_Switches_Main_Line-Up");
+
+            URL_Add("Gateron KS-3 Milky Pro Red switches", "https://www.gateron.co/products/gateron-ks-3-milky-pro-switch-set?variant=40124530131033");
+
+            URL_Add("Gateron low-profile key switches", "https://github.com/beekeeb/crkbd-glp");
+
+            URL_Add("Gateron Oil King switches", "https://digiva.net/gateron-switch-guide#Gateron_New_Switches");
+
+            URL_Add("Gateron Red switches", "https://en.wikipedia.org/wiki/List_of_keyboard_switches");
+
+            URL_Add("Gateron G Pro Yellow switches", "https://www.gateron.co/products/gateron-switch-set?variant=40017397514329");
+
+            URL_Add("Gateron Yellow switches", "https://en.wikipedia.org/wiki/List_of_keyboard_switches");
+
+            URL_Add("Glorious Gateron Green switches", "https://www.microcenter.com/product/649446/glorious-gateron-mechanical-keyboard-switches-green");
+
+            URL_Add("Gateron Milky Black switches", "https://digiva.net/gateron-switch-guide/#Gateron_Milky_Switches");
+
+            URL_Add("Gateron Ink Black V2 switches", "https://www.gateron.co/blogs/news/what-s-the-best-gateron-linear-switch-for-mechanical-keyboards");
+
+            URL_Add("Kailh switches", "https://en.wikipedia.org/wiki/List_of_keyboard_switches");
+
+            URL_Add("Kailh Chocolate switches", "https://www.youtube.com/watch?v=yARYeV8X7d8&t=2m45s");
+
+            URL_Add("Kailh BOX V2 Red switches", "https://www.kailh.net/products/kailh-box-v2-switch-set");
+
+            URL_Add("Kailh BOX Cream Pro switches", "https://www.youtube.com/watch?v=zq3q3Zn7A7o&t=1m23s");
+
+            URL_Add("Kailh Blue switches", "https://en.wikipedia.org/wiki/List_of_keyboard_switches");
+
+            URL_Add("Kailh BOX Jade switches", "https://switchandclick.com/best-clicky-switches-for-your-mechanical-keyboard/");
+
+            URL_Add("Kailh BOX White switches", "https://switchandclick.com/best-clicky-switches-for-your-mechanical-keyboard/");
+
+            URL_Add("Kailh BOX Silent Pink switches", "https://www.keychron.com/products/kailh-box-cream-pro-switch");
+
+            URL_Add("Kailh BOX Pink switches", "https://www.kailh.net/collections/box-switches/products/kailh-coco-pink-box-v2-switch-set");
+
+            URL_Add("Alps SKCM Black switches", "https://www.youtube.com/watch?v=jvDluHoe7ro&t=4m45s");
+
+            URL_Add("Alps SKCM Cream damped switches", "https://www.youtube.com/watch?v=huCdi0bljgk&t=5m7s");
+
+            URL_Add("TTC mechanical switches", "https://techbullish.com/ttc-switches/");
+
+            URL_Add("Gazzew Boba U4 switches", "https://www.youtube.com/watch?v=ce9LsfoJl34&t=14m33s");
+
+            URL_Add("96%", "https://switchandclick.com/keyboard-sizes/");
+
+            URL_Add("FRL", "https://www.mmorpg.com/hardware-reviews/epomaker-shadow-x-mechanical-keyboard-review-2000129112");
+
+            URL_Add("Windows key-less", "https://readcaffeine.com/what-is-a-wkl-keyboard/");
+
+            URL_Add("southpaw", "https://www.keychron.com/products/keychron-q12-max-qmk-via-wireless-custom-mechanical-keyboard");
+
+            URL_Add("shine-through keycaps", "https://switchandclick.com/ultimate-guide-to-picking-a-keycap-set-for-your-mechanical-keyboard/");
+
+            URL_Add("Tai-Hao PBT shine-through keycaps", "https://www.reddit.com/r/Keychron/comments/1mzl9r2/comment/nakbotf/");
+
+            URL_Add("scissor-switch", "https://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch");
+
+            URL_Add("double-shot", "https://en.wiktionary.org/wiki/double-shot#Adjective");
+
+            URL_Add("gasket mount", "https://switchandclick.com/guide-to-mechanical-keyboard-cases/");
+
+            URL_Add("R0", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
+
+            URL_Add("R1", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
+
+            URL_Add("R2", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
+
+            URL_Add("R3", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
+
+            URL_Add("R4", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
+
+            URL_Add("R5", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
+
+            URL_Add("DSA keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
+
+            URL_Add("KAM keycap profile", "https://www.daskeyboard.com/blog/types-of-keycap-profiles/");
+
+            URL_Add("APCS", "https://stackoverflow.com/questions/10494848/arm-whats-the-difference-between-apcs-and-aapcs-abi");
+
+            URL_Add("KAT (Keyreative all touch) keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/#KAT_Profile");
+
+            URL_Add("MBK keycap profile", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=3m13s");
+
+            URL_Add("MDA keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
+
+            URL_Add("MOA keycap profile", "https://epomaker.com/blogs/guides/how-to-choose-the-right-keycap-profile");
+
+            URL_Add("MT3 keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
+
+            URL_Add("OEM keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
+
+            URL_Add("OSA keycap profile", "https://www.reddit.com/r/MechanicalKeyboards/comments/dq1wp7/review_osaprofile/"); // Old: <https://keycapshq.com/best-osa-profile-keycaps/#1_What_is_OSA_Keycap_Profile>
+
+            URL_Add("XDA keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
+
+            URL_Add("XVX keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
+
+            URL_Add("Keychron LSA keycap profile", "https://keeb-finder.com/blogs/low-profile-keycaps");
+
+            URL_Add("PBS keycap profile", "https://matt3o.com/pbs-the-penguin-slides-fast-on-his-belly/");
+
+            URL_Add("keyboards", "https://en.wiktionary.org/wiki/keyboard#Noun");
+
+            URL_Add("mechanical keyboard", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact"); // Old: <https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboard>. Old: <https://en.wikipedia.org/wiki/Keyboard_technology#Discrete-switch_keyboard>
+
+            URL_Add("mechanical keyboards", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact"); // Old: <https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboard>
+
+            URL_Add("Frankenboard", "https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/Frankenboard.html");
+
+            URL_Add("daily driver", "https://en.wiktionary.org/wiki/daily_driver#Noun");
+
+            URL_Add("daily drivers", "https://en.wiktionary.org/wiki/daily_driver#Noun");
+
+            URL_Add("CherryPy", "https://en.wikipedia.org/wiki/CherryPy");
+
+            URL_Add("Japanese duplex matrix", "https://kbd.news/The-Japanese-duplex-matrix-1391.html");
+
+            URL_Add("keyboard matrix scan rate", "https://michael.stapelberg.ch/posts/2021-05-08-keyboard-input-latency-qmk-kinesis/");
+
+            URL_Add("Cooler Master support", "https://www.reddit.com/r/coolermaster/comments/132twvn/warranty_check/");
+
+            URL_Add("Cooler Master Portal", "https://coolermaster.egnyte.com/dl/ppOBxZwWQF");
+
+            URL_Add("MasterMouse", "https://www.coolermaster.com/catalog/legacy-products/peripheral/mastermouse-s/#!");
+
+            URL_Add("MM311", "https://www.coolermaster.com/en-global/products/mm311/");
+
+            URL_Add("MM520", "https://www.coolermaster.com/en-global/products/mastermouse-mm520/?tab=tech_spec");
+
+            URL_Add("MM710", "https://www.coolermaster.com/catalog/peripheral/mice/mm710/");
+
+            URL_Add("MM711", "https://www.coolermaster.com/catalog/peripheral/mice/mm711/");
+
+            URL_Add("MM711 LITE", "https://www.coolermaster.com/catalog/peripheral/mice/mm711-lite/");
+
+            URL_Add("MM712", "https://www.coolermaster.com/catalog/peripheral/mice/mm712/");
+
+            URL_Add("MM720", "https://www.coolermaster.com/catalog/peripheral/mice/mm720/");
+
+            URL_Add("MM730", "https://www.coolermaster.com/catalog/peripheral/mice/mm730/");
+
+            URL_Add("MM731", "https://www.coolermaster.com/catalog/peripheral/mice/mm731/");
+
+            URL_Add("Xornet II", "https://www.coolermaster.com/catalog/legacy-products/peripheral/xornet-ii/");
+
+            URL_Add("Das Keyboard", "https://en.wikipedia.org/wiki/Das_Keyboard");
+
+            URL_Add("Ducky", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards#Mechanical_keyboards"); // Old: https://en.wikipedia.org/wiki/List_of_mechanical_keyboards
+
+            URL_Add("Ducky One 2", "https://www.duckychannel.com.tw/en/Keyboards/One2-Series");
+
+            URL_Add("Ducky One", "https://www.duckychannel.com.tw/en/Keyboards/One-Series");
+
+            URL_Add("Keyboardio", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards#Mechanical_keyboards");
+
+            URL_Add("OwLab", "https://www.reddit.com/r/mechmarket/comments/1bqp38h/store_vento_80_from_owlab/");
+
+            URL_Add("Apple A1243 aluminium Keyboard", "https://en.wikipedia.org/wiki/Apple_keyboards#Apple_Keyboard_(109_and_78_keys)");
+
+            URL_Add("DOIO KB16", "https://wiki.keebmonkey.com/en/guides/kb16update");
+
+            URL_Add("MasterCTRL", "https://www.coolermaster.com/en-global/masterctrl/");
+
+            URL_Add("Logitech", "https://en.wikipedia.org/wiki/Logitech");
+
+            URL_Add("LogiLink", "https://www.youtube.com/watch?v=DXE5XohKHR0");
+
+            URL_Add("G HUB", "https://prosettings.net/blog/what-is-logitech-g-hub/");
+
+            URL_Add("Logitech Options", "https://techbullish.com/logitech-options-vs-g-hub/");
+
+            URL_Add("Logitech Options+", "https://en.wikipedia.org/wiki/List_of_Logitech_products#Software");
+
+            URL_Add("Logitech Flow", "https://www.logitech.com/en-us/software/features/flow.html");
+
+            URL_Add("Logitech MX Keys", "https://en.wikipedia.org/wiki/List_of_Logitech_products#Full-sized_keyboards_(office_keyboard)");
+
+            URL_Add("Logitech MX Keys Mini", "https://www.tomsguide.com/computing/peripherals/logitech-mx-keys-mini-review");
+
+            URL_Add("Logitech G900", "https://en.wikipedia.org/wiki/List_of_Logitech_products#Gaming_mice");
+
+            URL_Add("Logitech MX518", "https://en.wikipedia.org/wiki/List_of_Logitech_products#Gaming_mice");
+
+            URL_Add("tenkeyless (80%)", "https://en.wikipedia.org/wiki/Computer_keyboard#Types_and_standards");
+
+            URL_Add("PB Gherkin (30%)", "https://blog.adafruit.com/2022/02/10/pb-gherkin-30-keyboard-with-kmk-circuitpython-kb2040/");
+
+            URL_Add("RAII Wireless (30%)", "https://github.com/unspecworks/raii-wireless");
+
+            URL_Add("K02 (30%)", "https://github.com/anothermimich/K02");
+
+            URL_Add("Swoop (30%)", "https://github.com/jimmerricks/swoop");
+
+            URL_Add("Urchin (30%)", "https://github.com/duckyb/urchin");
+
+            URL_Add("Ferris (30%)", "https://github.com/pierrechevalier83/ferris");
+
+            URL_Add("Reviung 34 (30%)", "https://github.com/gtips/reviung/tree/master/reviung34");
+
+            URL_Add("Hummingbird (30%)", "https://github.com/PJE66/hummingbird");
+
+            URL_Add("Ferris Sweep (30%)", "https://github.com/davidphilipbarr/Sweep/tree/main/Sweep%20v2.2");
+
+            URL_Add("3w6 (35%)", "https://github.com/weteor/3W6");
+
+            URL_Add("Ximi (35%)", "https://github.com/JeffDess/qmk-config/blob/main/keyboards/fingerpunch/ximi/v2/keymaps/jeffdess/readme.md");
+
+            URL_Add("Fifi (35%)", "https://github.com/raychengy/fifi_split_keeb");
+
+            URL_Add("TOTEM (35%)", "https://github.com/GEIGEIGEIST/TOTEM");
+
+            URL_Add("DASBOB (35%)", "https://github.com/GroooveBob/DASBOB");
+
+            URL_Add("Cygnus (35%)", "https://www.reddit.com/r/ErgoMechKeyboards/comments/1bsbdeq/comment/kxee7ho/"); // Old: <https://www.reddit.com/r/ErgoMechKeyboards/comments/1bsbdeq/cygnus_10_release_3x5_3x6_wireless_versions/>
+
+            URL_Add("Swweeep (35%)", "https://github.com/sadekbaroudi/sweep36#swweeep");
+
+            URL_Add("Cornifi (35%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/cornifi/readme.md#L5");
+
+            URL_Add("Chocofi (35%)", "https://kriscables.com/product/chocofi-split-keyboard-kit/");
+
+            URL_Add("Cheapino (35%)", "https://github.com/tompi/cheapino/tree/master");
+
+            URL_Add("Skeletyl (35%)", "https://github.com/Bastardkb/Skeletyl");
+
+            URL_Add("Charybdis (35%)", "https://github.com/Bastardkb/Charybdis/tree/main");
+
+            URL_Add("Cantor Remix (35%)", "https://github.com/nilokr/cantor-remix");
+
+            URL_Add("Chocofi Temper (35%)", "https://github.com/raeedcho/temper");
+
+            URL_Add("KLOR (40%)", "https://github.com/GEIGEIGEIST/KLOR");
+
+            URL_Add("Cantor (40%)", "https://github.com/diepala/cantor");
+
+            URL_Add("btrfly (40%)", "https://github.com/SolidHal/btrfly-keyboard");
+
+            URL_Add("Kaly42 (40%)", "https://github.com/Dwctor/Kaly");
+
+            URL_Add("Piantor (40%)", "https://shop.beekeeb.com/product/pre-soldered-piantor-split-keyboard/");
+
+            URL_Add("Lintilla (40%)", "https://github.com/ctranstrum/lintilla");
+
+            URL_Add("Reviung 41 (40%)", "https://github.com/gtips/reviung");
+
+            URL_Add("Corne keyboard (40%)", "https://github.com/foostan/crkbd");
+
+            URL_Add("btrfld (45%)", "https://github.com/SolidHal/btrfld");
+
+            URL_Add("Cornix (45%)", "https://kbd.news/Cornix-review-2715.html");
+
+            URL_Add("Inland MK-47 (45%)", "https://www.microcenter.com/product/661264/inland-47-keys-hot-swappable-rgb-wired-mechanical-keyboard");
+
+            URL_Add("ZSA Planck EZ (45%)", "https://odysee.com/@DistroTube:2/the-planck-ez-keyboard.-47-keys-are-all:9");
+
+            URL_Add("JJ50 (50%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/kprepublic/jj50");
+
+            URL_Add("Kyria (50%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/splitkb/kyria");
+
+            URL_Add("Silakka54 (50%)", "https://github.com/Squalius-cephalus/silakka54");
+
+            URL_Add("Iris (55%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keebio/iris");
+
+            URL_Add("Lily58 (55%)", "https://github.com/kata0510/Lily58");
+
+            URL_Add("Scylla (55%)", "https://github.com/Bastardkb/Scylla");
+
+            URL_Add("JESK56 (55%)", "https://kbd.news/JESK56-2322.html");
+
+            URL_Add("K:03 v1 (55%)", "https://www.reddit.com/r/olkb/comments/1f75l5r/k03_v1_goes_full_opensource/");
+
+            URL_Add("Lotus58 (55%)", "https://github.com/impoze/Lotus58");
+
+            URL_Add("Preonic (55%)", "https://github.com/qmk/qmk_firmware/blob/master/keyboards/preonic/readme.md");
+
+            URL_Add("Allium58 (55%)", "https://github.com/beekeeb/allium58");
+
+            URL_Add("MoErgo Go60 (55%)", "https://www.youtube.com/watch?v=Ap8JD-ELR38");
+
+            URL_Add("Dygma Sonsei (55%)", "https://dygma.com/pages/sonsei");
+
+            URL_Add("KinT Blackpill (55%)", "https://github.com/dcpedit/kint");
+
+            URL_Add("Sofle Keyboard (55%)", "https://josefadamcik.github.io/SofleKeyboard/");
+
+            URL_Add("Dactyl ManuForm (55%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform");
+
+            URL_Add("High Plains Drifter (55%)", "https://github.com/ergohaven/hpd");
+
+            URL_Add("Happy Hacking Keyboard (55%)", "https://en.wikipedia.org/wiki/Happy_Hacking_Keyboard");
+
+            URL_Add("Augio (60%)", "https://github.com/danforthewin/Augio");
+
+            URL_Add("Elora (60%)", "https://splitkb.com/products/elora");
+
+            URL_Add("SK620 (60%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk620");
+
+            URL_Add("SK621 (60%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk621/");
+
+            URL_Add("SK622 (60%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk622-silver/");
+
+            URL_Add("Anne Pro 2 (60%)", "https://switchandclick.com/anne-pro-ii-review/");
+
+            URL_Add("Wooting 60HE (60%)", "https://www.youtube.com/watch?v=glQNEbh79xg");
+
+            URL_Add("NuPhy Air60 V2 (60%)", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air60_v2/ansi");
+
+            URL_Add("Tractyl ManuForm (60%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/tractyl_manuform");
+
+            URL_Add("Keyboardio The Model 100 (60%)", "https://shop.keyboard.io/products/model-100");
+
+            URL_Add("Ultimate Hacking Keyboard (60%)", "https://www.tomshardware.com/reviews/ultimate-hacking-keyboard");
+
+            URL_Add("Redox (65%)", "https://github.com/mattdibi/redox-keyboard");
+
+            URL_Add("CK720 (65%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck720/");
+
+            URL_Add("CK721 (65%)", "https://www.pcworld.com/article/2019261/cooler-master-ck721-wireless-keyboard-review.html"); // Old: <https://www.coolermaster.com/catalog/peripheral/keyboards/ck721/>
+
+            URL_Add("reJESK (65%)", "https://github.com/triliu/reJESK");
+
+            URL_Add("Dactyl (65%)", "https://github.com/adereth/dactyl-keyboard/blob/master/README.md/");
+
+            URL_Add("SiCK-68 (65%)", "https://www.thingiverse.com/thing:3478494");
+
+            URL_Add("ErgoDash (65%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/omkbd/ergodash");
+
+            URL_Add("Drop ALT (65%)", "https://www.rtings.com/keyboard/reviews/drop/alt");
+
+            URL_Add("OwLab Spring (65%)", "https://www.reddit.com/r/MechanicalKeyboards/comments/156jyqi/owlab_spring/");
+
+            URL_Add("MK721 30th Anniversary Edition (65%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/mk721-30th-anniversary-edition");
+
+            URL_Add("FoldKB (70%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keebio/foldkb");
+
+            URL_Add("Glove80 (75%)", "https://www.kickstarter.com/projects/moergo/glove80-the-incredibly-comfortable-ergonomic-keyboard");
+
             URL_Add("Aula F75 (75%)", "https://www.youtube.com/watch?v=zpS9e5FGjPE");
+
+            URL_Add("ZSA Moonlander Mark I (75%)", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards#Mechanical_keyboards");
 
             URL_Add("Matias Mini Quiet Pro (75%)", "https://matias.ca/miniquietpro/pc/");
 
+            URL_Add("GMMK Pro (80%)", "https://www.tomshardware.com/reviews/glorious-gmmk-pro-keyboard-barebones-kit");
+
+            URL_Add("Vento 80 (80%)", "https://www.reddit.com/r/mechmarket/comments/1bqp38h/store_vento_80_from_owlab/");
+
             URL_Add("Wooting 80HE (80%)", "https://www.youtube.com/watch?v=f8AZflcxF1g");
+
+            URL_Add("IBM Model M Mini Space Saving Keyboard (80%)", "https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/IBM_Space_Saving_Keyboard.html");
+
+            URL_Add("MK730 (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/mk730/");
+
+            URL_Add("SK630 (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk630/");
+
+            URL_Add("CK530 V2 (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck530-v2/");
+
+            URL_Add("Razer Huntsman (85%)", "https://www.razer.com/pc/gaming-keyboards/huntsman-line");
+
+            URL_Add("Qwertykey Evo80 (85%)", "https://www.qwertykeys.com/products/evo80");
+
+            URL_Add("Norbauer Seneca (85%)", "https://www.youtube.com/watch?v=N3FEv1qw4_w");
+
+            URL_Add("Matias Ergo Pro (85%)", "https://uk.pcmag.com/keyboards/127129/matias-ergo-pro-2020");
+
+            URL_Add("MasterKeys Pro S RGB (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/masterkeys-pro-s/");
+
+            URL_Add("Microsoft Sculpt Ergonomic (85%)", "https://en.wikipedia.org/wiki/Microsoft_ergonomic_keyboards#Sculpt_ergonomic_keyboard");
+
+            URL_Add("Cooler Master Quick Fire Rapid (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/quick-fire-rapid/");
+
+            URL_Add("Masterkeys Pro M RGB (90%)", "https://www.coolermaster.com/en-global/products/masterkeys-pro-m-rgb/");
+
+            URL_Add("MK770 (95%)", "https://www.coolermaster.com/en-global/products/mk770/");
+
+            URL_Add("Model M (95%)", "https://en.wikipedia.org/wiki/Model_M_keyboard");
+
+            URL_Add("Model F (95%)", "https://en.wikipedia.org/wiki/Model_F_keyboard");
+
+            URL_Add("BTC 5349 (95%)", "https://www.reddit.com/r/keyboards/comments/ohpmow/btc_5349_restored_by_me/");
 
             URL_Add("NuPhy Halo96 (95%)", "https://nuphy.com/products/halo96");
 
-            URL_Add("Ducky Shine 7 (105%)", "https://www.duckychannel.com.tw/upload/2019_06_052/201906051349143vzt77cMb1.pdf");
+            URL_Add("NuPhy Air96 V2 (95%)", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air96_v2/ansi");
+
+            URL_Add("SK650 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk650/");
+
+            URL_Add("SK652 (100%)", "https://www.coolermaster.com/en-global/products/sk652.html"); // Old: <https://www.coolermaster.com/catalog/peripheral/keyboards/sk652/>
+
+            URL_Add("SK653 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk653/");
+
+            URL_Add("CK350 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck350/");
+
+            URL_Add("CK352 (100%)", "https://www.coolermaster.com/en-sg/products/ck352/"); // Old: https://www.coolermaster.com/de-de/products/ck352/. Even older: https://www.coolermaster.com/catalog/peripheral/keyboards/ck352/
+
+            URL_Add("CK351 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck351/");
+
+            URL_Add("CK552 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck552/");
+
+            URL_Add("CK550 V1 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck550/");
+
+            URL_Add("CK550 V2 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck550-v2/");
+
+            URL_Add("Devastator 3 (100%)", "https://www.coolermaster.com/en-global/products/devastator3/");
+
+            URL_Add("Devastator II (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/devastator-ii/");
+
+            URL_Add("Rapoo V700RGB (100%)", "https://www.rapoo.com/product/207"); // Old: <http://www.rapoo.com/product/207>
+
+            URL_Add("MasterSet MS110 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ms110/");
+
+            URL_Add("MasterSet MS121 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/masterset-ms121/");
+
+            URL_Add("MasterKeys MK750 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/masterkeys-mk750/");
+
+            URL_Add("Corsair K70 RGB PRO (100%)", "https://switchandclick.com/the-corsair-k70-how-to-guide/");
+
+            URL_Add("Asus ROG Claymore I (100%)", "https://www.trustedreviews.com/reviews/asus-rog-claymore");
+
+            URL_Add("SteelSeries Apex Pro (100%)", "https://www.mechanical-keyboard.org/steelseries-apex-pro/");
+
+            URL_Add("Apple Extended Keyboard II (100%)", "https://en.wikipedia.org/wiki/Apple_Extended_Keyboard");
+
+            URL_Add("Microsoft Natural Keyboard (100%)", "https://en.wikipedia.org/wiki/Microsoft_Natural_keyboard#Natural_Keyboard");
 
             URL_Add("MonsGeek M5 (105%)", "https://www.monsgeek.com/product/m5/");
 
+            URL_Add("Ducky Shine 7 (105%)", "https://www.duckychannel.com.tw/upload/2019_06_052/201906051349143vzt77cMb1.pdf");
+
+            URL_Add("Logitech Ergo K860 (105%)", "https://www.pcmag.com/reviews/logitech-ergo-k860");
+
             URL_Add("Maltron (110%)", "https://en.wikipedia.org/wiki/Maltron#Models");
 
-            URL_Add("Q1 version 2 special edition (SE) (80%)", "https://www.keychron.com/products/keychron-q1");
+            URL_Add("Corsair K95 RGB (115%)", "https://www.corsair.com/us/en/p/keyboards/ch-9000220-na/corsair-gaming-k95-rgb-mechanical-gaming-keyboard-cherry-mx-red-ch-9000220-na");
 
             URL_Add("Keychron poor product design", "https://www.reddit.com/r/Keychron/comments/1gk35qy/comment/lvi59ob/");
 
@@ -142598,15 +143241,7 @@ namespace OverflowHelper.core
 
             URL_Add("JamesDonkey", "https://jamesdonkey.com/");
 
-            URL_Add("Keychron M3", "https://www.keychron.com/products/keychron-m3-wireless-mouse");
-
-            URL_Add("Keychron M4", "https://www.keychron.com/products/keychron-m4-wireless-mouse");
-
-            URL_Add("Keychron M5", "https://www.keychron.com/products/keychron-m5-wireless-ergonomic-mouse");
-
-            URL_Add("Keychron M6", "https://www.keychron.com/products/keychron-m6-wireless-mouse");
-
-            URL_Add("Keychron M7", "https://www.keychron.com/products/keychron-m7-wireless-mouse");
+            URL_Add("Q1 version 2 special edition (SE) (80%)", "https://www.keychron.com/products/keychron-q1");
 
             URL_Add("Keychron BM25", "https://www.keychron.com/products/keychron-bm25-wireless-mouse");
 
@@ -142936,113 +143571,15 @@ namespace OverflowHelper.core
 
             URL_Add("Keychron V6 8K (105%)", "https://www.keychron.com/products/keychron-v6-8k-qmk-wired-custom-mechanical-keyboard");
 
-            URL_Add("Cooler Master support", "https://www.reddit.com/r/coolermaster/comments/132twvn/warranty_check/");
+            URL_Add("Keychron M3", "https://www.keychron.com/products/keychron-m3-wireless-mouse");
 
-            URL_Add("Cooler Master Portal", "https://coolermaster.egnyte.com/dl/ppOBxZwWQF");
+            URL_Add("Keychron M4", "https://www.keychron.com/products/keychron-m4-wireless-mouse");
 
-            URL_Add("MasterMouse", "https://www.coolermaster.com/catalog/legacy-products/peripheral/mastermouse-s/#!");
+            URL_Add("Keychron M5", "https://www.keychron.com/products/keychron-m5-wireless-ergonomic-mouse");
 
-            URL_Add("MM311", "https://www.coolermaster.com/en-global/products/mm311/");
+            URL_Add("Keychron M6", "https://www.keychron.com/products/keychron-m6-wireless-mouse");
 
-            URL_Add("MM520", "https://www.coolermaster.com/en-global/products/mastermouse-mm520/?tab=tech_spec");
-
-            URL_Add("MM710", "https://www.coolermaster.com/catalog/peripheral/mice/mm710/");
-
-            URL_Add("MM711", "https://www.coolermaster.com/catalog/peripheral/mice/mm711/");
-
-            URL_Add("MM711 LITE", "https://www.coolermaster.com/catalog/peripheral/mice/mm711-lite/");
-
-            URL_Add("MM712", "https://www.coolermaster.com/catalog/peripheral/mice/mm712/");
-
-            URL_Add("MM720", "https://www.coolermaster.com/catalog/peripheral/mice/mm720/");
-
-            URL_Add("MM730", "https://www.coolermaster.com/catalog/peripheral/mice/mm730/");
-
-            URL_Add("MM731", "https://www.coolermaster.com/catalog/peripheral/mice/mm731/");
-
-            URL_Add("Xornet II", "https://www.coolermaster.com/catalog/legacy-products/peripheral/xornet-ii/");
-
-            URL_Add("MasterSet MS110 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ms110/");
-
-            URL_Add("MasterSet MS121 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/masterset-ms121/");
-
-            URL_Add("MasterCTRL", "https://www.coolermaster.com/en-global/masterctrl/");
-
-            URL_Add("Devastator 3 (100%)", "https://www.coolermaster.com/en-global/products/devastator3/");
-
-            URL_Add("Devastator II (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/devastator-ii/");
-
-            URL_Add("MasterKeys MK750 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/masterkeys-mk750/");
-
-            URL_Add("Masterkeys Pro M RGB (90%)", "https://www.coolermaster.com/en-global/products/masterkeys-pro-m-rgb/");
-
-            URL_Add("MasterKeys Pro S RGB (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/masterkeys-pro-s/");
-
-            URL_Add("MK721 30th Anniversary Edition (65%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/mk721-30th-anniversary-edition");
-
-            URL_Add("MK730 (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/mk730/");
-
-            URL_Add("MK770 (95%)", "https://www.coolermaster.com/en-global/products/mk770/");
-
-            URL_Add("SK620 (60%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk620");
-
-            URL_Add("SK621 (60%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk621/");
-
-            URL_Add("SK622 (60%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk622-silver/");
-
-            URL_Add("SK630 (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk630/");
-
-            URL_Add("SK650 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk650/");
-
-            URL_Add("SK652 (100%)", "https://www.coolermaster.com/en-global/products/sk652.html"); // Old: <https://www.coolermaster.com/catalog/peripheral/keyboards/sk652/>
-
-            URL_Add("SK653 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/sk653/");
-
-            URL_Add("CK350 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck350/");
-
-            URL_Add("CK352 (100%)", "https://www.coolermaster.com/en-sg/products/ck352/"); // Old: https://www.coolermaster.com/de-de/products/ck352/. Even older: https://www.coolermaster.com/catalog/peripheral/keyboards/ck352/
-
-            URL_Add("CK530 V2 (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck530-v2/");
-
-            URL_Add("CK351 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck351/");
-
-            URL_Add("CK550 V1 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck550/");
-
-            URL_Add("CK550 V2 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck550-v2/");
-
-            URL_Add("CK552 (100%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck552/");
-
-            URL_Add("CK720 (65%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/ck720/");
-
-            URL_Add("CK721 (65%)", "https://www.pcworld.com/article/2019261/cooler-master-ck721-wireless-keyboard-review.html"); // Old: <https://www.coolermaster.com/catalog/peripheral/keyboards/ck721/>
-
-            URL_Add("BTC 5349 (95%)", "https://www.reddit.com/r/keyboards/comments/ohpmow/btc_5349_restored_by_me/");
-
-            URL_Add("Rapoo V700RGB (100%)", "https://www.rapoo.com/product/207"); // Old: <http://www.rapoo.com/product/207>
-
-            URL_Add("Das Keyboard", "https://en.wikipedia.org/wiki/Das_Keyboard");
-
-            URL_Add("Ducky", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards#Mechanical_keyboards"); // Old: https://en.wikipedia.org/wiki/List_of_mechanical_keyboards
-
-            URL_Add("Ducky One 2", "https://www.duckychannel.com.tw/en/Keyboards/One2-Series");
-
-            URL_Add("Ducky One", "https://www.duckychannel.com.tw/en/Keyboards/One-Series");
-
-            URL_Add("Happy Hacking Keyboard (55%)", "https://en.wikipedia.org/wiki/Happy_Hacking_Keyboard");
-
-            URL_Add("Inland MK-47 (45%)", "https://www.microcenter.com/product/661264/inland-47-keys-hot-swappable-rgb-wired-mechanical-keyboard");
-
-            URL_Add("Keyboardio", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards#Mechanical_keyboards");
-
-            URL_Add("Keyboardio The Model 100 (60%)", "https://shop.keyboard.io/products/model-100");
-
-            URL_Add("Matias Ergo Pro (85%)", "https://uk.pcmag.com/keyboards/127129/matias-ergo-pro-2020");
-
-            URL_Add("Razer Huntsman (85%)", "https://www.razer.com/pc/gaming-keyboards/huntsman-line");
-
-            URL_Add("Microsoft Natural Keyboard (100%)", "https://en.wikipedia.org/wiki/Microsoft_Natural_keyboard#Natural_Keyboard");
-
-            URL_Add("Microsoft Sculpt Ergonomic (85%)", "https://en.wikipedia.org/wiki/Microsoft_ergonomic_keyboards#Sculpt_ergonomic_keyboard");
+            URL_Add("Keychron M7", "https://www.keychron.com/products/keychron-m7-wireless-mouse");
 
             URL_Add("construct", "https://en.wiktionary.org/wiki/construct#Verb");
 
@@ -146228,398 +146765,6 @@ namespace OverflowHelper.core
 
             URL_Add("BBS", "https://en.wikipedia.org/wiki/Bulletin_board_system");
 
-            URL_Add("keycap legends", "https://www.reddit.com/r/MechanicalKeyboards/comments/g9z0t1/where_to_design_custom_keycap_legends/");
-
-            URL_Add("Dygma Lab", "https://www.theverge.com/22951481/dygma-raise-review-ergonomic-keyboard-review");
-
-            URL_Add("Bazecor", "https://www.reddit.com/r/DygmaLab/comments/15hzxj4/important_download_bazecor_132/");
-
-            URL_Add("Hasu controller", "https://deskthority.net/viewtopic.php?t=13976");
-
-            URL_Add("OwLab Spring (65%)", "https://www.reddit.com/r/MechanicalKeyboards/comments/156jyqi/owlab_spring/");
-
-            URL_Add("Lemokey", "https://www.tomshardware.com/reviews/lemokey-l3");
-
-            URL_Add("Keychron broke compilation for all K Pro and Q Pro series keyboards", "https://github.com/Keychron/qmk_firmware/issues/396#issuecomment-3102239204");
-
-            URL_Add("Cooler Master Quick Fire Rapid (85%)", "https://www.coolermaster.com/catalog/peripheral/keyboards/quick-fire-rapid/");
-
-            URL_Add("Svalboard", "https://www.reddit.com/r/ErgoMechKeyboards/comments/13kct7j/welcome_to_svalboard_a_production/");
-
-            URL_Add("Oblotzky Industries", "https://www.reddit.com/r/MechanicalKeyboards/comments/ftixhj/announcing_oblotzkyindustries_a_new_vendor_for/");
-
-            URL_Add("Caps2esc", "https://gitlab.com/interception/linux/plugins/caps2esc");
-
-            URL_Add("AutoKey", "https://en.wikipedia.org/wiki/AutoKey");
-
-            URL_Add("Keyboard Maestro", "https://en.wikipedia.org/wiki/Keyboard_Maestro");
-
-            URL_Add("Ukelele", "https://www.cnet.com/tech/computing/create-custom-keyboard-layouts-with-ukelele/");
-
-            URL_Add("Keyboard Layout Editor", "https://thekeeblog.com/creating-the-perfect-keyboard-layout-with-keyboard-layout-editor/");
-
-            URL_Add("Cygnus (35%)", "https://www.reddit.com/r/ErgoMechKeyboards/comments/1bsbdeq/comment/kxee7ho/"); // Old: <https://www.reddit.com/r/ErgoMechKeyboards/comments/1bsbdeq/cygnus_10_release_3x5_3x6_wireless_versions/>
-
-            URL_Add("SiCK-68 (65%)", "https://www.thingiverse.com/thing:3478494");
-
-            URL_Add("Lily58 (55%)", "https://github.com/kata0510/Lily58");
-
-            URL_Add("Dactyl (65%)", "https://github.com/adereth/dactyl-keyboard/blob/master/README.md/");
-
-            URL_Add("Piantor (40%)", "https://shop.beekeeb.com/product/pre-soldered-piantor-split-keyboard/");
-
-            URL_Add("Sofle Keyboard (55%)", "https://josefadamcik.github.io/SofleKeyboard/");
-
-            URL_Add("NuPhy Air60 V2 (60%)", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air60_v2/ansi");
-
-            URL_Add("NuPhy Air96 V2 (95%)", "https://github.com/nuphy-src/qmk_firmware/tree/nuphy-keyboards/keyboards/nuphy/air96_v2/ansi");
-
-            URL_Add("Cheapino (35%)", "https://github.com/tompi/cheapino/tree/master");
-
-            URL_Add("K02 (30%)", "https://github.com/anothermimich/K02");
-
-            URL_Add("Charybdis (35%)", "https://github.com/Bastardkb/Charybdis/tree/main");
-
-            URL_Add("Lintilla (40%)", "https://github.com/ctranstrum/lintilla");
-
-            URL_Add("Allium58 (55%)", "https://github.com/beekeeb/allium58");
-
-            URL_Add("Lotus58 (55%)", "https://github.com/impoze/Lotus58");
-
-            URL_Add("Swoop (30%)", "https://github.com/jimmerricks/swoop");
-
-            URL_Add("High Plains Drifter (55%)", "https://github.com/ergohaven/hpd");
-
-            URL_Add("Silakka54 (50%)", "https://github.com/Squalius-cephalus/silakka54");
-
-            URL_Add("Scylla (55%)", "https://github.com/Bastardkb/Scylla");
-
-            URL_Add("JESK56 (55%)", "https://kbd.news/JESK56-2322.html");
-
-            URL_Add("Dygma Sonsei (55%)", "https://dygma.com/pages/sonsei");
-
-            URL_Add("Swweeep (35%)", "https://github.com/sadekbaroudi/sweep36#swweeep");
-
-            URL_Add("Urchin (30%)", "https://github.com/duckyb/urchin");
-
-            URL_Add("TOTEM (35%)", "https://github.com/GEIGEIGEIST/TOTEM");
-
-            URL_Add("KLOR (40%)", "https://github.com/GEIGEIGEIST/KLOR");
-
-            URL_Add("Hummingbird (30%)", "https://github.com/PJE66/hummingbird");
-
-            URL_Add("Kaly42 (40%)", "https://github.com/Dwctor/Kaly");
-
-            URL_Add("Deej", "https://github.com/omriharel/deej");
-
-            URL_Add("Skeletyl (35%)", "https://github.com/Bastardkb/Skeletyl");
-
-            URL_Add("Ferris Sweep (30%)", "https://github.com/davidphilipbarr/Sweep/tree/main/Sweep%20v2.2");
-
-            URL_Add("Ferris (30%)", "https://github.com/pierrechevalier83/ferris");
-
-            URL_Add("Reviung 41 (40%)", "https://github.com/gtips/reviung");
-
-            URL_Add("Reviung 34 (30%)", "https://github.com/gtips/reviung/tree/master/reviung34");
-
-            URL_Add("Tractyl ManuForm (60%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/tractyl_manuform");
-
-            URL_Add("Dactyl ManuForm (55%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform");
-
-            URL_Add("Qwertykey Evo80 (85%)", "https://www.qwertykeys.com/products/evo80");
-
-            URL_Add("ErgoDash (65%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/omkbd/ergodash");
-
-            URL_Add("Kyria (50%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/splitkb/kyria");
-
-            URL_Add("Iris (55%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keebio/iris");
-
-            URL_Add("Preonic (55%)", "https://github.com/qmk/qmk_firmware/blob/master/keyboards/preonic/readme.md");
-
-            URL_Add("JJ50 (50%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/kprepublic/jj50");
-
-            URL_Add("Model M (95%)", "https://en.wikipedia.org/wiki/Model_M_keyboard");
-
-            URL_Add("Model F (95%)", "https://en.wikipedia.org/wiki/Model_F_keyboard");
-
-            URL_Add("IBM Model M Mini Space Saving Keyboard (80%)", "https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/IBM_Space_Saving_Keyboard.html");
-
-            URL_Add("Corsair", "https://en.wikipedia.org/wiki/Corsair_Components#Products");
-
-            URL_Add("Corsair CX450", "https://www.corsair.com/us/en/p/psu/cp-9020120-na/cx-series-cx450-450-watt-80-plus-bronze-certified-atx-psus-cp-9020120-na");
-
-            URL_Add("Corsair K70 RGB PRO (100%)", "https://switchandclick.com/the-corsair-k70-how-to-guide/");
-
-            URL_Add("Corsair K95 RGB (115%)", "https://www.corsair.com/us/en/p/keyboards/ch-9000220-na/corsair-gaming-k95-rgb-mechanical-gaming-keyboard-cherry-mx-red-ch-9000220-na");
-
-            URL_Add("CharaCorder X", "https://www.reddit.com/r/Keyboard/comments/15ow8de/characorder_x_experiences/");
-
-            URL_Add("Keychron V5, a reasonably priced fully macro-capable QMK-based mechanical keyboard", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard/");
-
-            URL_Add("Pikatea Macropad GB5", "https://www.pikatea.com/products/pikatea-macropad-gb5");
-
-            URL_Add("The Key", "https://drop.com/buy/stack-overflow-the-key-v2-macropad");
-
-            URL_Add("duckyPad", "https://www.kickstarter.com/projects/dekunukem/duckypad-do-it-all-mechanical-macropad/");
-
-            URL_Add("DMQ SPIN", "https://www.reddit.com/r/MechanicalKeyboards/comments/i9g49w/dmq_spin_macropad_build/");
-
-            URL_Add("Anne Pro 2 (60%)", "https://switchandclick.com/anne-pro-ii-review/");
-
-            URL_Add("Asus ROG Claymore I (100%)", "https://www.trustedreviews.com/reviews/asus-rog-claymore");
-
-            URL_Add("Asus TUF Gaming F15", "https://www.asus.com/us/Laptops/For-Gaming/TUF-Gaming/2021-ASUS-TUF-Gaming-F15/");
-
-            URL_Add("Asus USB-BT500", "https://www.asus.com/us/networking-iot-servers/adapters/all-series/usb-bt500/");
-
-            URL_Add("Ultimate Hacking Keyboard (60%)", "https://www.tomshardware.com/reviews/ultimate-hacking-keyboard");
-
-            URL_Add("GMMK Pro (80%)", "https://www.tomshardware.com/reviews/glorious-gmmk-pro-keyboard-barebones-kit");
-
-            URL_Add("FoldKB (70%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/keebio/foldkb");
-
-            URL_Add("Norbauer Seneca (85%)", "https://www.youtube.com/watch?v=N3FEv1qw4_w");
-
-            URL_Add("Royal Kludge", "https://www.rtings.com/keyboard/reviews/royal-kludge/rk61");
-
-            URL_Add("SteelSeries Apex Pro (100%)", "https://www.mechanical-keyboard.org/steelseries-apex-pro/");
-
-            URL_Add("ZSA Moonlander Mark I (75%)", "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards#Mechanical_keyboards");
-
-            URL_Add("ZSA Planck EZ (45%)", "https://odysee.com/@DistroTube:2/the-planck-ez-keyboard.-47-keys-are-all:9");
-
-            URL_Add("OwLab", "https://www.reddit.com/r/mechmarket/comments/1bqp38h/store_vento_80_from_owlab/");
-
-            URL_Add("Vento 80 (80%)", "https://www.reddit.com/r/mechmarket/comments/1bqp38h/store_vento_80_from_owlab/");
-
-            URL_Add("Typeractive.xyz", "https://typeractive.xyz/policies/terms-of-service");
-
-            URL_Add("Apple Extended Keyboard II (100%)", "https://en.wikipedia.org/wiki/Apple_Extended_Keyboard");
-
-            URL_Add("Apple A1243 aluminium Keyboard", "https://en.wikipedia.org/wiki/Apple_keyboards#Apple_Keyboard_(109_and_78_keys)");
-
-            URL_Add("Chocofi (35%)", "https://kriscables.com/product/chocofi-split-keyboard-kit/");
-
-            URL_Add("Corne keyboard (40%)", "https://github.com/foostan/crkbd");
-
-            URL_Add("Cornifi (35%)", "https://github.com/qmk/qmk_firmware/tree/master/keyboards/cornifi/readme.md#L5");
-
-            URL_Add("Fifi (35%)", "https://github.com/raychengy/fifi_split_keeb");
-
-            URL_Add("MoErgo Go60 (55%)", "https://www.youtube.com/watch?v=Ap8JD-ELR38");
-
-            URL_Add("Cornix (45%)", "https://kbd.news/Cornix-review-2715.html");
-
-            URL_Add("DOIO KB16", "https://wiki.keebmonkey.com/en/guides/kb16update");
-
-            URL_Add("Glove80 (75%)", "https://www.kickstarter.com/projects/moergo/glove80-the-incredibly-comfortable-ergonomic-keyboard");
-
-            URL_Add("Drop ALT (65%)", "https://www.rtings.com/keyboard/reviews/drop/alt");
-
-            URL_Add("ControlPad", "https://www.coolermaster.com/catalog/peripheral/keyboards/controlpad/");
-
-            URL_Add("OmniPoint", "https://www.mechanical-keyboard.org/new-keyboards-and-omnipoint-switches-from-steelseries/");
-
-            URL_Add("Cosmos Keyboards", "https://github.com/rianadon/Cosmos-Keyboards");
-
-            URL_Add("velvet gloves", "https://www.youtube.com/watch?v=rjECbQ1r-k0&t=10m48s");
-
-            URL_Add("keyboard shortcut", "https://en.wiktionary.org/wiki/keyboard_shortcut#Noun"); // Old: https://en.wiktionary.org/wiki/keyboard_shortcut
-
-            URL_Add("Type Fu", "https://www.softpedia.com/reviews/mac/Type-Fu-Review-410186.shtml");
-
-            URL_Add("QuicKeys", "https://www.macworld.com/article/205119/quickeys4_review.html");
-
-            URL_Add("BetterTouchTool", "https://www.macworld.com/article/551700/mac-gems-bettertouchtool-review.html");
-
-            URL_Add("HID Macros", "https://www.hidmacros.eu/whatisit.php"); // Old: <http://www.hidmacros.eu/whatisit.php>
-
-            URL_Add("LuaMacros", "https://github.com/me2d13/luamacros");
-
-            URL_Add("X macro", "https://en.wikipedia.org/wiki/X_Macro");
-
-            URL_Add("Via limitations", "https://pmortensen.eu/world2/2024/02/26/a-hack-to-use-mouse-actions-in-via-macros#listOfViaDeficiencies_and_solutions");
-
-            URL_Add("QMK lighting modes", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard#LightingModes");
-
-            URL_Add("setting up the default RGB lighting configuration in QMK", "https://pmortensen.eu/world2/2023/06/19/keychron-v5-a-reasonably-priced-fully-macro-capable-qmk-based-mechanical-keyboard#default_RGB_lighting");
-
-            URL_Add("KVM switch", "https://en.wikipedia.org/wiki/KVM_switch");
-
-            URL_Add("DIP switch", "https://en.wikipedia.org/wiki/DIP_switch");
-
-            URL_Add("miniature snap-action switch", "https://en.wikipedia.org/wiki/Miniature_snap-action_switch");
-
-            URL_Add("low-profile mechanical switches", "https://switchandclick.com/low-profile-switches-explained/");
-
-            URL_Add("ultra-low-profile mechanical switches", "https://github.com/pashutk/Cherry_MX_ULP");
-
-            URL_Add("linear switches", "https://switchandclick.com/linear-vs-tactile-vs-clicky-switches-a-helpful-guide-with-an-infographic/");
-
-            URL_Add("tactile switches", "https://switchandclick.com/top-5-best-tactile-switches-for-your-mechanical-keyboard/");
-
-            URL_Add("clicky switches", "https://switchandclick.com/best-clicky-switches-for-your-mechanical-keyboard/");
-
-            URL_Add("optical switches", "https://www.tomshardware.com/news/what-are-optical-keyboard-switches,32352.html");
-
-            URL_Add("Cherry MX switches", "https://en.wikipedia.org/wiki/Cherry_AG#Cherry_MX"); // Old: https://en.wikipedia.org/wiki/Cherry_(company)#Cherry_MX_switches_in_consumer_keyboards. Even older: https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards
-
-            URL_Add("Cherry MX Silent Red switches", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Silent Black switches", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Clear switches", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX");
-
-            URL_Add("Cherry MX Tactile Grey switches", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Cherry MX Black switches", "https://en.wikipedia.org/wiki/Cherry_(keyboards)#Cherry_MX_switches_in_consumer_keyboards");
-
-            URL_Add("Gateron switches", "https://switchandclick.com/2020/07/09/gateron-switch-guide-budget-friendly-and-smooth/");
-
-            URL_Add("Gateron Pink switches", "https://dailyclack.com/products/gateron-pink");
-
-            URL_Add("Gateron Baby Kangaroo switches", "https://www.reddit.com/r/Keychron/comments/131jyf5/keychron_k_pro_brown_vs_banana_vs_gateron_baby/");
-
-            URL_Add("Gateron Blue Cap switches", "https://www.gateron.co/blogs/news/a-detailed-review-of-the-gateron-cap-blue-and-cap-brown-switches");
-
-            URL_Add("Gateron Brown Cap switches", "https://www.gateron.co/blogs/news/a-detailed-review-of-the-gateron-cap-blue-and-cap-brown-switches");
-
-            URL_Add("Gateron Brown switches", "https://dailyclack.com/products/gateron-switches");
-
-            URL_Add("Gateron G Pro Brown switches", "https://www.gateron.co/collections/g-pro-series/products/gateron-switch-set?variant=40017397448793");
-
-            URL_Add("Gateron G Pro switches", "https://hhkeyboard.us/blog/gateron-switches-guide");
-
-            URL_Add("Gateron Jupiter Banana switches", "https://milktooth.com/comparisons/jupiter-banana-vs-jupiter-red"); // Old (malicious?): <https://digiva.net/gateron-switch-guide/#Gateron_Jupiter_Switch>
-
-            URL_Add("Gateron Jupiter Brown switches", "https://milktooth.com/products/switches/jupiter-brown");
-
-            URL_Add("Gateron Jupiter Red switches", "https://milktooth.com/products/switches/jupiter-red");
-
-            URL_Add("Gateron Jupiter Yellow switches", "https://digiva.net/gateron-switch-guide/#Gateron_Switches_Main_Line-Up");
-
-            URL_Add("Gateron KS-3 Milky Pro Red switches", "https://www.gateron.co/products/gateron-ks-3-milky-pro-switch-set?variant=40124530131033");
-
-            URL_Add("Gateron low-profile key switches", "https://github.com/beekeeb/crkbd-glp");
-
-            URL_Add("Gateron Oil King switches", "https://digiva.net/gateron-switch-guide#Gateron_New_Switches");
-
-            URL_Add("Gateron Red switches", "https://en.wikipedia.org/wiki/List_of_keyboard_switches");
-
-            URL_Add("Gateron G Pro Yellow switches", "https://www.gateron.co/products/gateron-switch-set?variant=40017397514329");
-
-            URL_Add("Gateron Yellow switches", "https://en.wikipedia.org/wiki/List_of_keyboard_switches");
-
-            URL_Add("Glorious Gateron Green switches", "https://www.microcenter.com/product/649446/glorious-gateron-mechanical-keyboard-switches-green");
-
-            URL_Add("Gateron Milky Black switches", "https://digiva.net/gateron-switch-guide/#Gateron_Milky_Switches");
-
-            URL_Add("Gateron Ink Black V2 switches", "https://www.gateron.co/blogs/news/what-s-the-best-gateron-linear-switch-for-mechanical-keyboards");
-
-            URL_Add("Kailh switches", "https://en.wikipedia.org/wiki/List_of_keyboard_switches");
-
-            URL_Add("Kailh Chocolate switches", "https://www.youtube.com/watch?v=yARYeV8X7d8&t=2m45s");
-
-            URL_Add("Kailh BOX V2 Red switches", "https://www.kailh.net/products/kailh-box-v2-switch-set");
-
-            URL_Add("Kailh BOX Cream Pro switches", "https://www.youtube.com/watch?v=zq3q3Zn7A7o&t=1m23s");
-
-            URL_Add("Kailh Blue switches", "https://en.wikipedia.org/wiki/List_of_keyboard_switches");
-
-            URL_Add("Kailh BOX Jade switches", "https://switchandclick.com/best-clicky-switches-for-your-mechanical-keyboard/");
-
-            URL_Add("Kailh BOX White switches", "https://switchandclick.com/best-clicky-switches-for-your-mechanical-keyboard/");
-
-            URL_Add("Kailh BOX Silent Pink switches", "https://www.keychron.com/products/kailh-box-cream-pro-switch");
-
-            URL_Add("Kailh BOX Pink switches", "https://www.kailh.net/collections/box-switches/products/kailh-coco-pink-box-v2-switch-set");
-
-            URL_Add("Alps SKCM Black switches", "https://www.youtube.com/watch?v=jvDluHoe7ro&t=4m45s");
-
-            URL_Add("Alps SKCM Cream damped switches", "https://www.youtube.com/watch?v=huCdi0bljgk&t=5m7s");
-
-            URL_Add("TTC mechanical switches", "https://techbullish.com/ttc-switches/");
-
-            URL_Add("Gazzew Boba U4 switches", "https://www.youtube.com/watch?v=ce9LsfoJl34&t=14m33s");
-
-            URL_Add("tenkeyless (80%)", "https://en.wikipedia.org/wiki/Computer_keyboard#Types_and_standards");
-
-            URL_Add("96%", "https://switchandclick.com/keyboard-sizes/");
-
-            URL_Add("FRL", "https://www.mmorpg.com/hardware-reviews/epomaker-shadow-x-mechanical-keyboard-review-2000129112");
-
-            URL_Add("Windows key-less", "https://readcaffeine.com/what-is-a-wkl-keyboard/");
-
-            URL_Add("southpaw", "https://www.keychron.com/products/keychron-q12-max-qmk-via-wireless-custom-mechanical-keyboard");
-
-            URL_Add("shine-through keycaps", "https://switchandclick.com/ultimate-guide-to-picking-a-keycap-set-for-your-mechanical-keyboard/");
-
-            URL_Add("Tai-Hao PBT shine-through keycaps", "https://www.reddit.com/r/Keychron/comments/1mzl9r2/comment/nakbotf/");
-
-            URL_Add("scissor-switch", "https://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch");
-
-            URL_Add("double-shot", "https://en.wiktionary.org/wiki/double-shot#Adjective");
-
-            URL_Add("gasket mount", "https://switchandclick.com/guide-to-mechanical-keyboard-cases/");
-
-            URL_Add("R0", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
-
-            URL_Add("R1", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
-
-            URL_Add("R2", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
-
-            URL_Add("R3", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
-
-            URL_Add("R4", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
-
-            URL_Add("R5", "https://monacokeys.de/en/blogs/guides/keycap-profiles");
-
-            URL_Add("DSA keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
-
-            URL_Add("KAM keycap profile", "https://www.daskeyboard.com/blog/types-of-keycap-profiles/");
-
-            URL_Add("APCS", "https://stackoverflow.com/questions/10494848/arm-whats-the-difference-between-apcs-and-aapcs-abi");
-
-            URL_Add("KAT (Keyreative all touch) keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/#KAT_Profile");
-
-            URL_Add("MBK keycap profile", "https://www.youtube.com/watch?v=xLT2VcrQHrQ&t=3m13s");
-
-            URL_Add("MDA keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
-
-            URL_Add("MOA keycap profile", "https://epomaker.com/blogs/guides/how-to-choose-the-right-keycap-profile");
-
-            URL_Add("MT3 keycap profile", "https://thekeeblog.com/overview-of-different-keycap-profiles/");
-
-            URL_Add("OEM keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
-
-            URL_Add("OSA keycap profile", "https://www.reddit.com/r/MechanicalKeyboards/comments/dq1wp7/review_osaprofile/"); // Old: <https://keycapshq.com/best-osa-profile-keycaps/#1_What_is_OSA_Keycap_Profile>
-
-            URL_Add("XDA keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
-
-            URL_Add("XVX keycap profile", "https://switchandclick.com/sa-vs-dsa-vs-oem-vs-cherry-vs-xda-keycap-profiles/");
-
-            URL_Add("Keychron LSA keycap profile", "https://keeb-finder.com/blogs/low-profile-keycaps");
-
-            URL_Add("PBS keycap profile", "https://matt3o.com/pbs-the-penguin-slides-fast-on-his-belly/");
-
-            URL_Add("keyboards", "https://en.wiktionary.org/wiki/keyboard#Noun");
-
-            URL_Add("mechanical keyboard", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact"); // Old: <https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboard>. Old: <https://en.wikipedia.org/wiki/Keyboard_technology#Discrete-switch_keyboard>
-
-            URL_Add("mechanical keyboards", "https://en.wikipedia.org/wiki/Keyboard_technology#Metal_contact"); // Old: <https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboard>
-
-            URL_Add("Frankenboard", "https://deskauthority.saberkeebs.com/wiki.themk.org/index.php/Frankenboard.html");
-
-            URL_Add("daily driver", "https://en.wiktionary.org/wiki/daily_driver#Noun");
-
-            URL_Add("daily drivers", "https://en.wiktionary.org/wiki/daily_driver#Noun");
-
-            URL_Add("CherryPy", "https://en.wikipedia.org/wiki/CherryPy");
-
-            URL_Add("Japanese duplex matrix", "https://kbd.news/The-Japanese-duplex-matrix-1391.html");
-
-            URL_Add("keyboard matrix scan rate", "https://michael.stapelberg.ch/posts/2021-05-08-keyboard-input-latency-qmk-kinesis/");
-
             URL_Add("scan", "https://en.wiktionary.org/wiki/scan#Verb");
 
             URL_Add("scans", "https://en.wiktionary.org/wiki/scan#Verb");
@@ -146639,16 +146784,6 @@ namespace OverflowHelper.core
             URL_Add("keycodes", "https://en.wiktionary.org/wiki/keycode#Noun");
 
             URL_Add("VK_OEM_102", "https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes");
-
-            URL_Add("Keychron's main fork of QMK", "https://github.com/Keychron/qmk_firmware/tree/wireless_playground/keyboards/keychron/k10_pro");
-
-            URL_Add("unify all branches in Keychron's fork", "https://github.com/Keychron/qmk_firmware/issues/217#issuecomment-3479051277");
-
-            URL_Add("the old QMK keycodes", "https://github.com/Keychron/qmk_firmware/blob/wireless_playground/docs/keycodes.md");
-
-            URL_Add("hand-wiring", "https://docs.qmk.fm/hand_wire");
-
-            URL_Add("KinT Blackpill (55%)", "https://github.com/dcpedit/kint");
 
             URL_Add("modifying", "https://en.wiktionary.org/wiki/modify#Verb");
 
@@ -148830,8 +148965,6 @@ namespace OverflowHelper.core
 
             URL_Add("Remez function algorithm", "https://en.wikipedia.org/wiki/Remez_algorithm");
 
-            URL_Add("reJESK (65%)", "https://github.com/triliu/reJESK");
-
             URL_Add("Rexx", "https://en.wikipedia.org/wiki/Rexx");
 
             URL_Add("RealVNC", "https://www.realvnc.com/en/");
@@ -149207,8 +149340,6 @@ namespace OverflowHelper.core
             URL_Add("ReDoS", "https://en.wikipedia.org/wiki/ReDoS");
 
             URL_Add("ReDex", "https://fbredex.com/docs/installation");
-
-            URL_Add("Redox (65%)", "https://github.com/mattdibi/redox-keyboard");
 
             URL_Add("Redux", "https://en.wikipedia.org/wiki/Redux_(software)"); // Old: <https://en.wikipedia.org/wiki/Redux_(JavaScript_library)>
 
@@ -149649,170 +149780,6 @@ namespace OverflowHelper.core
             URL_Add("Logo", "https://en.wikipedia.org/wiki/Logo_%28programming_language%29");
 
             URL_Add("LogTrail", "https://github.com/sivasamyk/logtrail");
-
-            URL_Add("Logitech", "https://en.wikipedia.org/wiki/Logitech");
-
-            URL_Add("LogiLink", "https://www.youtube.com/watch?v=DXE5XohKHR0");
-
-            URL_Add("G HUB", "https://prosettings.net/blog/what-is-logitech-g-hub/");
-
-            URL_Add("Logitech Options", "https://techbullish.com/logitech-options-vs-g-hub/");
-
-            URL_Add("Logitech Options+", "https://en.wikipedia.org/wiki/List_of_Logitech_products#Software");
-
-            URL_Add("Logitech Flow", "https://www.logitech.com/en-us/software/features/flow.html");
-
-            URL_Add("Logitech MX Keys", "https://en.wikipedia.org/wiki/List_of_Logitech_products#Full-sized_keyboards_(office_keyboard)");
-
-            URL_Add("Logitech MX Keys Mini", "https://www.tomsguide.com/computing/peripherals/logitech-mx-keys-mini-review");
-
-            URL_Add("Logitech G900", "https://en.wikipedia.org/wiki/List_of_Logitech_products#Gaming_mice");
-
-            URL_Add("Logitech MX518", "https://en.wikipedia.org/wiki/List_of_Logitech_products#Gaming_mice");
-
-            URL_Add("Logitech Ergo K860 (105%)", "https://www.pcmag.com/reviews/logitech-ergo-k860");
-
-            URL_Add("Cantor Remix (35%)", "https://github.com/nilokr/cantor-remix");
-
-            URL_Add("FlickBoard", "https://github.com/nightkr/flickboard");
-
-            URL_Add("Kegboard", "https://github.com/Kegbot/kegboard");
-
-            URL_Add("Keyboard Inspector", "https://github.com/mat1jaczyyy/Keyboard-Inspector");
-
-            URL_Add("fingerboard", "https://en.wikipedia.org/wiki/Fingerboard");
-
-            URL_Add("Topre", "https://www.youtube.com/watch?v=sAo_URRIAiA&t=6m13s");
-
-            URL_Add("Microsoft Keyboard Layout Creator", "https://en.wikipedia.org/wiki/Dvorak_keyboard_layout#Microsoft_Windows");
-
-            URL_Add("keyboard layout", "https://en.wiktionary.org/wiki/keyboard_layout#Noun");
-
-            URL_Add("minimal keyboard layout", "https://www.gadgetwisdom.com/2025/01/15/exploring-unique-keyboard-layouts-minila-hhkb-and-beyond/");
-
-            URL_Add("Alice keyboard layout", "https://deskthority.net/wiki/Alice_layout");
-
-            URL_Add("ISO keyboard layout", "https://en.wikipedia.org/wiki/Keyboard_layout#Physical_layouts");
-
-            URL_Add("JIS keyboard layout", "https://en.wikipedia.org/wiki/Keyboard_layout#Physical_layouts");
-
-            URL_Add("QWERTY keyboard layout", "https://en.wikipedia.org/wiki/QWERTY");
-
-            URL_Add("Danish keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Danish");
-
-            URL_Add("Italian keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Italian");
-
-            URL_Add("Turkish keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Turkish");
-
-            URL_Add("UK keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#United_Kingdom");
-
-            URL_Add("Nativo (Portuguese) keyboard layout", "https://pt.wikipedia.org/wiki/BR-Nativo");
-
-            URL_Add("EurKEY keyboard layout", "https://en.wikipedia.org/wiki/EurKEY");
-
-            URL_Add("United States keyboard layout", "https://en.wikipedia.org/wiki/British_and_American_keyboards#Windows_keyboards");
-
-            URL_Add("US-International keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#US-International");
-
-            URL_Add("Spanish keyboard layout", "https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#Spanish");
-
-            URL_Add("Spanish flu", "https://en.wikipedia.org/wiki/Spanish_flu");
-
-            URL_Add("Hands Down Gold keyboard layout", "https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.8i2msuo3butx");
-
-            URL_Add("Hands Down Neu keyboard layout", "https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.ze4kq734zl5w");
-
-            URL_Add("Keyboard Layout Language", "https://github.com/kiibohd/kll-spec");
-
-            URL_Add("T-34 keyboard layout", "https://www.jonashietala.se/blog/2021/06/03/the-t-34-keyboard-layout/");
-
-            URL_Add("BEAKL keyboard layout", "https://deskthority.net/wiki/BEAKL#BEAKL_15");
-
-            URL_Add("Asset keyboard layout", "https://millikeys.sourceforge.net/asset/");
-
-            URL_Add("Callum keyboard layout", "https://github.com/callum-oakley/qmk_firmware/tree/master/users/callum");
-
-            URL_Add("Canary keyboard layout", "https://github.com/Apsu/Canary");
-
-            URL_Add("Colemak-DH keyboard layout", "https://en.wikipedia.org/wiki/Colemak#Variants");
-
-            URL_Add("Colemak keyboard layout", "https://en.wikipedia.org/wiki/Colemak");
-
-            URL_Add("Colemak Mod-DH keyboard layout", "https://colemakmods.github.io/mod-dh/");
-
-            URL_Add("Tarmak keyboard layout", "https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/");
-
-            URL_Add("Anymak keyboard layout", "https://kbd.news/A-r-evolutionary-approach-to-improve-on-the-standard-keyboard-layout-2559.html");
-
-            URL_Add("Dvorak keyboard layout", "https://en.wikipedia.org/wiki/Dvorak_keyboard_layout");
-
-            URL_Add("BÉPO", "https://en.wikipedia.org/wiki/B%C3%89PO");
-
-            URL_Add("Minimak keyboard layout", "http://www.minimak.org/");
-
-            URL_Add("Engram keyboard layout", "https://sunaku.github.io/engram-keyboard-layout.html");
-
-            URL_Add("Graphite keyboard layout", "https://github.com/rdavison/graphite-layout");
-
-            URL_Add("Halmak keyboard layout", "https://github.com/kaievns/halmak");
-
-            URL_Add("Magic Sturdy keyboard layout", "https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md");
-
-            URL_Add("Middlemak keyboard layout", "https://www.reddit.com/r/Middlemak/wiki/index/");
-
-            URL_Add("Miryoku keyboard layout", "https://github.com/manna-harbour/miryoku#readme");
-
-            URL_Add("Neo 2 keyboard layout", "https://en.wikipedia.org/wiki/Neo_(keyboard_layout)#Neo_2");
-
-            URL_Add("Neo Bone keyboard layout", "https://www.neo-layout.org/Layouts/bone/");
-
-            URL_Add("Nerps keyboard layout", "https://www.reddit.com/r/KeyboardLayouts/comments/tpwyjc/sertain_nerts_nerps_low_redirect_low_sfb_low/");
-
-            URL_Add("Norman keyboard layout", "https://normanlayout.info/");
-
-            URL_Add("Notarise keyboard layout", "https://www.keyboard-design.com/letterlayout.html?layout=notarise.en.ansi");
-
-            URL_Add("Seniply keyboard layout", "https://stevep99.github.io/seniply/");
-
-            URL_Add("Sturdy keyboard layout", "https://oxey.dev/sturdy/index.html");
-
-            URL_Add("Workman keyboard layout", "https://en.wikipedia.org/wiki/Keyboard_layout#Workman");
-
-            URL_Add("Recurva keyboard layout", "https://github.com/GalileoBlues/Recurva");
-
-            URL_Add("Gallium keyboard layout", "https://www.keyboard-design.com/letterlayout.html?layout=gallium2.en.ansi"); // Associated with chemical element 31
-
-            URL_Add("CC2540", "https://www.ti.com/product/CC2540");
-
-            URL_Add("piconet", "https://en.wikipedia.org/wiki/Piconet");
-
-            URL_Add("scroll", "https://en.wiktionary.org/wiki/scroll#Verb");
-
-            URL_Add("scrollable", "https://en.wiktionary.org/wiki/scrollable#Adjective");
-
-            URL_Add("scrolling", "https://en.wiktionary.org/wiki/scroll#Verb");
-
-            URL_Add("scroll bar", "https://en.wiktionary.org/wiki/scroll_bar#Noun");
-
-            URL_Add("unscrollable", "https://en.wiktionary.org/wiki/unscrollable#Adjective");
-
-            URL_Add("infinite scroll", "https://en.wikipedia.org/wiki/Infinite_scrolling");
-
-            URL_Add("mouse scroll wheel", "https://en.wikipedia.org/wiki/Scroll_wheel");
-
-            URL_Add("mouse", "https://en.wiktionary.org/wiki/mouse#Noun");
-
-            URL_Add("mice", "https://en.wiktionary.org/wiki/mouse#Noun");
-
-            URL_Add("mouseclicks", "https://en.wiktionary.org/wiki/mouseclick#Noun");
-
-            URL_Add("cat-and-mouse", "https://en.wiktionary.org/wiki/cat-and-mouse#Adjective");
-
-            URL_Add("trackball", "https://en.wikipedia.org/wiki/Trackball");
-
-            URL_Add("Wacom Bamboo", "https://en.wikipedia.org/wiki/Wacom#Other_products");
-
-            URL_Add("Mousepad", "https://en.wikipedia.org/wiki/Xfce#Mousepad");
 
             URL_Add("StepMania", "https://en.wikipedia.org/wiki/StepMania");
 
@@ -150555,6 +150522,10 @@ namespace OverflowHelper.core
             URL_Add("multi-factor authentication", "https://en.wikipedia.org/wiki/Multi-factor_authentication");
 
             URL_Add("multi-platform", "https://en.wiktionary.org/wiki/multi-platform#Adjective");
+
+            URL_Add("Xamarin", "https://en.wikipedia.org/wiki/Xamarin");
+
+            URL_Add("Xamarin Studio", "https://en.wikipedia.org/wiki/Xamarin#Xamarin_Studio");
 
             URL_Add("Multi-platform App UI", "https://en.wikipedia.org/wiki/Xamarin#.NET_MAUI");
 
@@ -151830,10 +151801,6 @@ namespace OverflowHelper.core
 
             URL_Add("Btrfs", "https://en.wikipedia.org/wiki/Btrfs");
 
-            URL_Add("btrfld (45%)", "https://github.com/SolidHal/btrfld");
-
-            URL_Add("btrfly (40%)", "https://github.com/SolidHal/btrfly-keyboard");
-
             URL_Add("Butterworth filter", "https://en.wikipedia.org/wiki/Butterworth_filter");
 
             URL_Add("butterfly effect", "https://en.wikipedia.org/wiki/Butterfly_effect");
@@ -152966,6 +152933,7 @@ namespace OverflowHelper.core
             correctionAdd("somethjng_", "something_");
             correctionAdd("somehting_", "something_");
             correctionAdd("somthings_", "something_");
+            correctionAdd("simething_", "something_"); // A true typo
             correctionAdd("somthing_", "something_");
             correctionAdd("somethng_", "something_");
             correctionAdd("somethig_", "something_");
@@ -166759,6 +166727,7 @@ namespace OverflowHelper.core
             correctionAdd("quide_", "guide_");
             correctionAdd("guild_", "guide_");
             correctionAdd("guid_", "guide_");
+            correctionAdd("GUID_", "guide_");
             correctionAdd("guie_", "guide_");
 
             correctionAdd("guies_", "guides_");
@@ -173454,10 +173423,6 @@ namespace OverflowHelper.core
 
             URL_Add("Qt_", "https://en.wikipedia.org/wiki/Qt_%28software%29"); // The URL changed. Old: <https://en.wikipedia.org/wiki/Qt_%28toolkit%29>.
 
-            URL_Add(".NET assembly_", "https://en.wikipedia.org/wiki/Assembly_(CLI)");
-
-            URL_Add(".NET MAUI_", "https://en.wikipedia.org/wiki/Xamarin#.NET_MAUI");
-
             URL_Add("Grand Theft Auto VI_", "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI");
 
             URL_Add("decoupling_", "https://en.wiktionary.org/wiki/decoupling#Noun");
@@ -173689,6 +173654,10 @@ namespace OverflowHelper.core
             URL_Add("Iris data set_", "https://en.wikipedia.org/wiki/Iris_flower_data_set");
 
             URL_Add("computer vision_", "https://en.wikipedia.org/wiki/Computer_vision");
+
+            URL_Add(".NET MAUI_", "https://en.wikipedia.org/wiki/Xamarin#.NET_MAUI");
+
+            URL_Add(".NET assembly_", "https://en.wikipedia.org/wiki/Assembly_(CLI)");
 
         } //addLookupData_alternativeWordSet()
 
@@ -182342,10 +182311,6 @@ namespace OverflowHelper.core
             correctionAdd("wordperfect___", "WordPerfect___");
             correctionAdd("WP___", "WordPerfect___");
 
-            correctionAdd("Apache Ant___", "Ant___");
-            correctionAdd("ANT___", "Ant___");
-            correctionAdd("ant___", "Ant___");
-
             // Mobile software development, based on JavaScript
             correctionAdd("Native Script___", "NativeScript___");
             correctionAdd("native script___", "NativeScript___");
@@ -183119,6 +183084,45 @@ namespace OverflowHelper.core
             correctionAdd("Crohn’s___", "Crohn's disease___");
             correctionAdd("CD___", "Crohn's disease___");
 
+            correctionAdd("can'not___", "can’t___");
+            correctionAdd("connot___", "can’t___");
+            correctionAdd("cann’t___", "can’t___");
+            correctionAdd("carn’t___", "can’t___");
+            correctionAdd("cann't___", "can’t___"); // A true typo!
+            correctionAdd("camn't___", "can’t___");
+            correctionAdd("can;'t___", "can’t___");
+            correctionAdd("cant't___", "can’t___");
+            correctionAdd("can'te___", "can’t___");
+            correctionAdd("Carnt___", "can’t___");
+            correctionAdd("carnt___", "can’t___");
+            correctionAdd("cannt___", "can’t___");
+            correctionAdd("cxant___", "can’t___");
+            correctionAdd("can t___", "can’t___");
+            correctionAdd("Cant'___", "can’t___");
+            correctionAdd("cant'___", "can’t___");
+            correctionAdd("can't___", "can’t___");
+            correctionAdd("cam’t___", "can’t___");
+            correctionAdd("can'T___", "can’t___");
+            correctionAdd("Can't___", "can’t___");
+            correctionAdd("can'i___", "can’t___");
+            correctionAdd("can'n___", "can’t___");
+            correctionAdd("CAN'T___", "can’t___");
+            correctionAdd("can´t___", "can’t___");
+            correctionAdd("Can´t___", "can’t___");
+            correctionAdd("can`t___", "can’t___");
+            correctionAdd("Can`t___", "can’t___");
+            correctionAdd("can;t___", "can’t___");
+            correctionAdd("can¸t___", "can’t___");
+            correctionAdd("con't___", "can’t___");
+            correctionAdd("cant___", "can’t___");
+            correctionAdd("cand___", "can’t___");
+            correctionAdd("Cant___", "can’t___");
+            correctionAdd("cAnt___", "can’t___");
+            correctionAdd("CANT___", "can’t___");
+            correctionAdd("cn't___", "can’t___");
+            correctionAdd("cnt___", "can’t___");
+            correctionAdd("ant___", "can’t___");
+
             // Of the "B" programming language (also by Dennis Ritchie)
             //
             // Alternative URLs:
@@ -183208,8 +183212,6 @@ namespace OverflowHelper.core
             URL_Add("stop-loss order___", "https://en.wikipedia.org/wiki/Order_(exchange)#Stop_orders");
 
             URL_Add("WordPerfect___", "https://en.wikipedia.org/wiki/WordPerfect");
-
-            URL_Add("Ant___", "https://en.wikipedia.org/wiki/Apache_Ant");
 
             URL_Add("crystal___", "https://en.wiktionary.org/wiki/crystal#Noun");
 
@@ -183748,6 +183750,8 @@ namespace OverflowHelper.core
             URL_Add("multiples___", "https://en.wiktionary.org/wiki/multiple#Noun");
 
             URL_Add("Crohn's disease___", "https://en.wikipedia.org/wiki/Crohn's_disease");
+
+            URL_Add("can’t___", "https://en.wiktionary.org/wiki/can%27t#Verb"); // Old: https://en.wiktionary.org/wiki/can%27t
 
         } //addLookupData_alternativeWordSet3()
 
