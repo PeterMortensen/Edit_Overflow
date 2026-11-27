@@ -8463,6 +8463,7 @@ namespace OverflowHelper.core
             correctionAdd("Eoan", "Ubuntu 19.10 (Eoan Ermine)");
 
             correctionAdd("ubuntu 20.4 focal fossa", "Ubuntu 20.04 (Focal Fossa)");
+            correctionAdd("Ubuntu Server 20.04", "Ubuntu 20.04 (Focal Fossa)");
             correctionAdd("Ubuntu Linux 20.04", "Ubuntu 20.04 (Focal Fossa)");
             correctionAdd("Ubuntu 20.04 LTS", "Ubuntu 20.04 (Focal Fossa)");
             correctionAdd("ubuntu 20.04 LTS", "Ubuntu 20.04 (Focal Fossa)");
@@ -13044,6 +13045,7 @@ namespace OverflowHelper.core
 
             correctionAdd("re-compiling", "recompiling");
             correctionAdd("recompiliing", "recompiling");
+            correctionAdd("recompining", "recompiling");
 
             correctionAdd("re-compiled", "recompiled");
 
@@ -30413,6 +30415,19 @@ namespace OverflowHelper.core
             correctionAdd("ProtoBuf", "Protocol Buffers");
             correctionAdd("protobuf", "Protocol Buffers");
 
+            // 'protoc' is the name of the executable for the
+            // compiler associated with Protocol Buffers
+            //
+            // Alternative URLs:
+            //
+            //   <https://github.com/protocolbuffers/protobuf#protobuf-compiler-installation>
+            //
+            //   <https://protobuf.dev/installation/>
+            //
+            correctionAdd("Protobuf Compiler", "Protocol Buffers Compiler");
+            correctionAdd("PROTOC", "Protocol Buffers Compiler");
+            correctionAdd("protoc", "Protocol Buffers Compiler");
+
             correctionAdd("Test Driven Development", "test-driven development");
             correctionAdd("Test-driven development", "test-driven development");
             correctionAdd("Test-Driven Development", "test-driven development");
@@ -34708,6 +34723,7 @@ namespace OverflowHelper.core
 
             // A computer game
             correctionAdd("Conan", "Conan Exiles");
+            correctionAdd("conan", "Conan Exiles");
 
             // A computer game
             correctionAdd("ace combat", "Ace Combat");
@@ -73598,8 +73614,10 @@ namespace OverflowHelper.core
             correctionAdd("applyh", "apply"); // A true typo
             correctionAdd("aply", "apply");
 
+            correctionAdd("apllying", "applying");
             correctionAdd("appling", "applying");
             correctionAdd("Appling", "applying");
+            correctionAdd("aplying", "applying");
 
             correctionAdd("appliee", "applied"); // A true typo
 
@@ -76969,6 +76987,7 @@ namespace OverflowHelper.core
             correctionAdd("proides", "provides");
 
             correctionAdd("provifing", "providing");
+            correctionAdd("proving", "providing");
 
             correctionAdd("provideded", "provided");
             correctionAdd("provived", "provided");
@@ -83517,6 +83536,8 @@ namespace OverflowHelper.core
 
             // Raspberry Pi
             // There isn't a model A...
+            correctionAdd("Raspberry Pi 4 Model B", "Raspberry Pi 4B");
+            correctionAdd("Raspberry Pi 4 model b", "Raspberry Pi 4B");
             correctionAdd("Raspberry Pi 4b", "Raspberry Pi 4B");
             correctionAdd("Raspberry Pi 4", "Raspberry Pi 4B");
             correctionAdd("raspberry pi4", "Raspberry Pi 4B");
@@ -106344,6 +106365,7 @@ namespace OverflowHelper.core
 
             correctionAdd("grpc", "gRPC");
             correctionAdd("gRpc", "gRPC");
+            correctionAdd("GRPC", "gRPC");
 
             correctionAdd("IMRECT", "imrect");
             correctionAdd("Imrect", "imrect");
@@ -124456,6 +124478,8 @@ namespace OverflowHelper.core
             URL_Add("protocols", "https://en.wiktionary.org/wiki/protocol#Noun");
 
             URL_Add("Protocol Buffers", "https://en.wikipedia.org/wiki/Protocol_Buffers");
+
+            URL_Add("Protocol Buffers Compiler", "https://en.wikipedia.org/wiki/Protocol_Buffers#Overview");
 
             URL_Add("Test Anything Protocol", "https://en.wikipedia.org/wiki/Test_Anything_Protocol");
 
@@ -157018,6 +157042,21 @@ namespace OverflowHelper.core
             // The adjective
             correctionAdd("compile time_", "compile-time_");
 
+            // A C++ package manager (but can also
+            // be used for other languages)
+            //
+            // Alternative URLs:
+            //
+            //   <https://conan.io/>
+            //
+            //   <https://docs.conan.io/en/latest/>
+            //
+            //   <https://stackoverflow.com/tags/conan/info>
+            //
+            //   <https://docs.conan.io/2/reference/commands/build.html>
+            //
+            correctionAdd("conan_", "Conan_");
+
             correctionAdd("TinyC Compiler_", "Tiny C Compiler_");
             correctionAdd("tiny c_", "Tiny C Compiler_");
             correctionAdd("TinyCC_", "Tiny C Compiler_");
@@ -171982,6 +172021,8 @@ namespace OverflowHelper.core
 
             URL_Add("template metaprogramming_", "https://en.wikipedia.org/wiki/Template_metaprogramming");
 
+            URL_Add("Conan_", "https://github.com/conan-io/conan");
+
             URL_Add("extreme programming_", "https://en.wikipedia.org/wiki/Extreme_programming");
 
             URL_Add("competitive programming_", "https://en.wikipedia.org/wiki/Competitive_programming");
@@ -181510,6 +181551,8 @@ namespace OverflowHelper.core
             correctionAdd("thise___", "this___");
             correctionAdd("these___", "this___");
             correctionAdd("thios___", "this___");
+            correctionAdd("Thies___", "this___");
+            correctionAdd("thies___", "this___");
             correctionAdd("htis___", "this___");
             correctionAdd("thsi___", "this___");
             correctionAdd("tjis___", "this___");
